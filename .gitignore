@@ -1,0 +1,23 @@
+# Dữ liệu nhạy cảm cá nhân – không đẩy lên remote
+signal-os-personal/Context/Personal/
+
+# Env files
+*.env
+.env.local
+.env.production
+
+# Obsidian workspace state (không cần sync)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OpenClaw logs tạm
+signal-os-agent/agents/openclaw/logs/
+
+# Node modules (nếu có script local)
+node_modules/

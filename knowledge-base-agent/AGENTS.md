@@ -29,6 +29,23 @@ knowledge-base-agent/ ├── AGENTS.md ← File này — rules cho tất cả
 
 ## PHÂN VAI RÕ RÀNG GIỮA AGENTS
 
+### OpenClaw
+- Chỉ làm ingest, compile, task, heartbeat, health check.
+- Không được review chất lượng bài viết.
+- Không được PROMOTE / REVISE / REJECT bất kỳ bài nào.
+
+### Hermes
+- Chỉ làm validation / review.
+- Chỉ đọc file trong `wiki/concepts/` có status `draft` hoặc `ready_review`.
+- Không đọc `raw/`.
+- Không làm ingest, compile, hay health check.
+
+### Julius
+- Julius là người duy nhất được:
+  - approve promote
+  - quyết định REVISE / REJECT
+  - xác nhận ingest của WebSearchAgent và IngestImageAgent nếu cần
+
 | Agent | Vai trò | KHÔNG được làm |
 |---|---|---|
 | **OpenClaw** | Ingest, compile, task, heartbeat, health check | Review chất lượng, PROMOTE / REVISE / REJECT |
@@ -71,7 +88,7 @@ knowledge-base-agent/ ├── AGENTS.md ← File này — rules cho tất cả
 
 ```
 #ai, #llm, #crypto, #web3, #business, #marketing, #content,
-#productivity, #health, #coding, #research, #finance, #mindset
+#productivity, #health, #coding, #research, #finance, #mindset, #keyboard, #website-hay
 ```
 
 ### Quy tắc dùng tags

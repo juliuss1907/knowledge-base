@@ -1,13 +1,6 @@
 # Index Update Log
-
----
-
-## Format mỗi lần ghi
-
-[YYYY-MM-DD HH:MM] | sources: X | concepts: X | questions: X | reviews: X
-
----
-
-## Log
-
-*(Agent ghi vào đây sau mỗi lần chạy)*
+[2026-04-20] Updated indexes.
+- sources: 0 files
+- concepts: 0 files
+- questions: 0 files
+- reviews: 0 files

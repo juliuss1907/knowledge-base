@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.sciencealert.com/how-long-poop-stays-in-your-body-may-impact-your-health-study-finds
 date_ingested: 2026-04-20
 tags: [#health, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-04-21
 ---
 # How Long Poop Stays in Your Body May Impact Your Health
 

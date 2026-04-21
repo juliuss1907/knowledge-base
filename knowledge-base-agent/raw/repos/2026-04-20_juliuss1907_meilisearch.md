@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/juliuss1907/meilisearch
 date_ingested: 2026-04-20
 tags: [#ai, #coding, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-04-21
 ---
 # Meilisearch — Lightning-fast Search Engine
 

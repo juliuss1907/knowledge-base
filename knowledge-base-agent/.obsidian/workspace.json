@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "2a2f673fbf382e02",
+    "type": "split",
+    "children": [
+      {
+        "id": "87f14d755ad38bba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5ebe0d78ce08932",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Chưa đặt tên.base",
+                "viewName": "Bảng"
+              },
+              "icon": "lucide-table",
+              "title": "Chưa đặt tên"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d8475deae15a85b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede117d326721b95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a938a7797b3c013",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Trình duyệt tệp"
+            }
+          },
+          {
+            "id": "d779dceba29369b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Tìm kiếm"
+            }
+          },
+          {
+            "id": "446cdc7e43e11aba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Đánh dấu"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a26fc12e277a223d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c614ab226d67953",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45958441ca8f5a75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Chưa đặt tên.base",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Liên kết đến của Chưa đặt tên"
+            }
+          },
+          {
+            "id": "2da7dca9cb5c03b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Chưa đặt tên.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liên kết đi ra từ Chưa đặt tên"
+            }
+          },
+          {
+            "id": "a13ced8d5356337f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Thẻ"
+            }
+          },
+          {
+            "id": "c760fbf6d2f18c65",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tất cả thuộc tính"
+            }
+          },
+          {
+            "id": "f291fa3cb39e2a44",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Chưa đặt tên.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Đề cương của Chưa đặt tên"
+            }
+          },
+          {
+            "id": "bf10ff88d346667d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "daily-notes:Mở ghi chú hôm nay": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false,
+      "bases:Tạo cơ sở mới": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "c5ebe0d78ce08932",
+  "lastOpenFiles": [
+    "Chưa đặt tên.base"
+  ]
+}

@@ -4,7 +4,8 @@ source_type: article
 source_url: https://layerzero.network/blog/kelpdao-incident-statement
 date_ingested: 2026-04-20
 tags: [#crypto, #web3, #security]
-status: unprocessed
+status: processed
+processed_date: 2026-04-21
 ---
 # KelpDAO Incident Statement | LayerZero
 

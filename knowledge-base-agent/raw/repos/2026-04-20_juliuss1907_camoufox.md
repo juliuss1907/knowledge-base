@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/juliuss1907/camoufox
 date_ingested: 2026-04-20
 tags: [#coding, #ai, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-04-21
 ---
 # Camoufox — Anti-detect Browser
 

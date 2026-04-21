@@ -11,13 +11,10 @@
             "id": "c5ebe0d78ce08932",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "Chưa đặt tên.base",
-                "viewName": "Bảng"
-              },
-              "icon": "lucide-table",
-              "title": "Chưa đặt tên"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
             }
           }
         ]
@@ -93,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chưa đặt tên.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của Chưa đặt tên"
+              "title": "Liên kết đến"
             }
           },
           {
@@ -112,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chưa đặt tên.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ Chưa đặt tên"
+              "title": "Liên kết đi ra"
             }
           },
           {
@@ -155,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chưa đặt tên.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của Chưa đặt tên"
+              "title": "Đề cương"
             }
           },
           {
@@ -179,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,11 +185,13 @@
       "templates:Chèn mẫu": false,
       "command-palette:Mở khay lệnh": false,
       "bases:Tạo cơ sở mới": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "c5ebe0d78ce08932",
   "lastOpenFiles": [
+    "brain_index.md",
     "Chưa đặt tên.base"
   ]
 }

@@ -510,6 +510,203 @@ provider: minimax
 base_url: https://api.minimax.io/anthropic
 api_key_env: MINIMAX_API_KEY
 ```
+#NewsDigestAgent
+
+## QUY TẮC NEWS DIGEST
+
+### Trigger
+Webhook từ GitHub Actions — KHÔNG phải cron nội bộ VPS
+
+| Webhook batch | Giờ VN | Chủ đề |
+|---|---|---|
+| `morning` | 06:30 | 🌅 Thế Giới & AI |
+| `crypto` | 08:30 | 💰 Crypto & Gọi Vốn |
+| `tech` | 12:30 | 💻 Công Nghệ, Startup & GitHub |
+| `f1` | 16:30 | 🏎️ Formula 1 |
+| `evening` | 20:30 | 🌙 Bài Hay Cuối Ngày |
+
+### Model
+- Primary: `minimax/minimax-2.7`
+- Fallback: KHÔNG có — nếu webhook lỗi, GitHub Actions sẽ retry
+
+### Nguyên tắc cứng
+- KHÔNG tự ingest vào `raw/` — chỉ đọc report URL rồi format và gửi Telegram
+- KHÔNG chờ Julius approve để gửi Telegram
+- Julius reply `lưu [số]` → mới ingest bài đó vào `raw/articles/`
+- Julius reply `lưu all` → ingest toàn bộ bài trong batch
+- Julius reply `skip` hoặc không reply trong 6h → bỏ qua
+
+### Khi nhận webhook
+
+Đọc nội dung Markdown từ `report_url` trong payload webhook, sau đó format và gửi Telegram theo template batch tương ứng.
+
+---
+
+## FORMAT TELEGRAM THEO TỪNG BATCH
+
+### 06:30 — 🌅 Morning Brief
+```
+🌅 MORNING BRIEF — {DD/MM/YYYY}
+
+🌍 THẾ GIỚI
+1. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+2. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+3. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+🤖 TRÍ TUỆ NHÂN TẠO
+4. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+5. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+6. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+---
+Reply "lưu [số]" để ingest vào vault
+Ví dụ: "lưu 1 4" hoặc "lưu all"
+```
+
+### 08:30 — 💰 Midday Crypto
+```
+💰 CRYPTO BRIEF — {DD/MM/YYYY}
+
+📡 TIN TỨC
+1. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+2. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+3. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+💵 GỌI VỐN & DEALS
+4. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+5. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+🎭 DRAMA (nếu có)
+6. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+---
+Reply "lưu [số]" để ingest vào vault
+```
+
+### 12:30 — 💻 Tech Brief
+```
+💻 TECH BRIEF — {DD/MM/YYYY}
+
+🚀 CÔNG NGHỆ & STARTUP
+1. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+2. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+3. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+⭐ GITHUB TRENDING HÔM NAY
+4. {owner/repo} — {mô tả ngắn}
+   ⭐{số star}  🔗 {url}
+
+5. {owner/repo} — {mô tả ngắn}
+   ⭐{số star}  🔗 {url}
+
+6. {owner/repo} — {mô tả ngắn}
+   ⭐{số star}  🔗 {url}
+
+---
+Reply "lưu [số]" để ingest vào vault
+```
+
+### 16:30 — 🏎️ F1 Brief
+```
+🏎️ F1 BRIEF — {DD/MM/YYYY}
+
+1. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+2. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+3. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+4. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+5. {tiêu đề} — {nguồn}
+   🔗 {url}
+
+---
+Reply "lưu [số]" để ingest vào vault
+```
+
+### 20:30 — 🌙 Evening Reads
+```
+🌙 EVENING READS — {DD/MM/YYYY}
+
+Bài hay để đọc tối nay:
+
+1. {tiêu đề} — {nguồn}  [{chủ đề: AI/Crypto/Tech/Lifestyle/Healing}]
+   {mô tả 1-2 câu tại sao bài này đáng đọc}
+   🔗 {url}
+
+2. {tiêu đề} — {nguồn}  [{chủ đề}]
+   {mô tả 1-2 câu}
+   🔗 {url}
+
+3. {tiêu đề} — {nguồn}  [{chủ đề}]
+   {mô tả 1-2 câu}
+   🔗 {url}
+
+[tối đa 7 bài]
+
+---
+Reply "lưu [số]" để ingest vào vault
+```
+
+---
+
+## XỬ LÝ KHI JULIUS REPLY "lưu"
+
+Trigger IngestAgent với các link được chọn. Frontmatter bắt buộc:
+
+```yaml
+---
+type: raw
+source_type: news_digest
+source_url: [URL bài được chọn]
+date_ingested: YYYY-MM-DD
+batch: morning | crypto | tech | f1 | evening
+tags: []
+status: unprocessed
+approved_by: julius
+---
+```
+
+Sau khi ingest xong → báo Julius:
+`✅ Đã lưu [N] bài vào raw/articles/, sẽ compile lúc 08:00 sáng mai.`
+
+---
+
+## XỬ LÝ KHI LỖI WEBHOOK
+
+Nếu không nhận được webhook đúng giờ:
+- Ghi log vào `agents/openclaw/memory/news-digest-errors.md`
+- Format: `{timestamp} — Batch {tên batch} — webhook không nhận được`
+- KHÔNG tự chạy search thay thế
 
 ---
 

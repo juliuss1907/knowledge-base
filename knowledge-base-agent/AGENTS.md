@@ -88,7 +88,7 @@ knowledge-base-agent/ ├── AGENTS.md ← File này — rules cho tất cả
 
 ```
 #ai, #llm, #crypto, #web3, #business, #marketing, #content,
-#productivity, #health, #coding, #research, #finance, #mindset, #keyboard, #website-hay
+#productivity, #health, #coding, #research, #finance, #mindset, #keyboard, #website-hay, #nature
 ```
 
 ### Quy tắc dùng tags

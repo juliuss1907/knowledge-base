@@ -3,7 +3,7 @@ type: raw
 source_type: article
 source_url: https://e360.yale.edu/digest/great-white-sharks-climate
 date_ingested: 2026-04-22
-tags: [#research, #health]
+tags: [#research, #nature]
 status: unprocessed
 ---
 # Cá mập trắng bị quá nóng khi đại dương ấm lên

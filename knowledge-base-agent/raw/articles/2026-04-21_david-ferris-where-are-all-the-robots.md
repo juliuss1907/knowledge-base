@@ -4,7 +4,8 @@ source_type: article
 source_url: https://david-ferris.medium.com/where-are-all-the-robots-5a08b7e1248a
 date_ingested: 2026-04-21
 tags: [#ai, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-04-22
 ---
 # Where Are All the Robots?
 

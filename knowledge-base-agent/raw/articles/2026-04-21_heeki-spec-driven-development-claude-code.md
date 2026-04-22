@@ -4,7 +4,8 @@ source_type: article
 source_url: https://heeki.medium.com/using-spec-driven-development-with-claude-code-4a1ebe5d9f29
 date_ingested: 2026-04-21
 tags: [#coding, #ai]
-status: unprocessed
+status: processed
+processed_date: 2026-04-22
 ---
 # Spec-Driven Development with Claude Code
 

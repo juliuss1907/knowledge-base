@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a26fc12e277a223d",
@@ -191,12 +192,14 @@
   },
   "active": "c5ebe0d78ce08932",
   "lastOpenFiles": [
+    "raw/articles/2026-04-20_trithucvn-may-say-toc.md",
+    "wiki/concepts/AI-Content-Business-Minecraft.md",
+    "wiki/concepts/openclaw-studio.md",
     "wiki/concepts/WSL9x.md",
     "wiki/concepts/Ocean-Warming-Marine-Predators.md",
     "wiki/concepts/Brand-Degradation-IP-Licensing.md",
     "wiki/concepts/MCP-Crypto-Trading.md",
     "wiki/concepts/GitHub-Actions-CICD.md",
-    "wiki/concepts/AI-Content-Business-Minecraft.md",
     "wiki/sources/src_wsl9x-linux-win9x.md",
     "wiki/sources/src_great-white-sharks-climate.md",
     "wiki/sources/src_brands-got-worse-purpose.md",
@@ -215,8 +218,6 @@
     "wiki/sources/src_spec-driven-development-github.md",
     "wiki/concepts/llm-flinch.md",
     "wiki/concepts/spec-driven-development.md",
-    "wiki/sources/src_even-uncensored-models-flinch.md",
-    "wiki/concepts/robotics-deployment-gap.md",
     "Chưa đặt tên.base"
   ]
 }

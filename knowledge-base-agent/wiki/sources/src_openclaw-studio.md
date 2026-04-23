@@ -1,12 +1,13 @@
 ---
-type: raw
+type: source
 source_type: repo
 source_url: https://github.com/juliuss1907/openclaw-studio
 date_ingested: 2026-04-20
+date_compiled: 2026-04-21
 tags: [#ai, #coding, #research]
-status: processed
-processed_date: 2026-04-21
+status: active
 ---
+
 # OpenClaw Studio — Web Dashboard for OpenClaw
 
 ## Tóm tắt
@@ -38,12 +39,6 @@ npm run dev
 | A | Local | Local (cùng máy) |
 | B | Cloud | Local (laptop) |
 | C | Cloud | Cloud |
-
-## Yêu cầu
-
-- Node.js 20.9+
-- OpenClaw Gateway URL + token
-- Tailscale (recommended cho remote)
 
 ## Kiến trúc
 

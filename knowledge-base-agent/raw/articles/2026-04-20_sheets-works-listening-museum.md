@@ -4,7 +4,8 @@ source_type: article
 source_url: https://sheets.works/data-viz/keyboard-sounds
 date_ingested: 2026-04-20
 tags: [#keyboard]
-status: unprocessed
+status: processed
+processed_date: 2026-04-21
 ---
 # The Listening Museum — Mechanical Keyboard Sound Map
 

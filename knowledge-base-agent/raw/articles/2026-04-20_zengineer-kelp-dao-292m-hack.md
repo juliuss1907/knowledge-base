@@ -4,7 +4,8 @@ source_type: article
 source_url: https://zengineer.blog/blog/research/kelp-dao-292m-vulnerability-flagged-12-days-before/
 date_ingested: 2026-04-20
 tags: [#crypto, #web3, #security]
-status: unprocessed
+status: processed
+processed_date: 2026-04-21
 ---
 # Kelp DAO's $292M Hack: What an AI Agent Caught 12 Days Early
 

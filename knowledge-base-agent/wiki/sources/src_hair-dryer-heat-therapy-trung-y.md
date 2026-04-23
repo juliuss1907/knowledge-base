@@ -1,17 +1,18 @@
 ---
-type: raw
+type: source
 source_type: article
 source_url: https://trithucvn2.net/suc-khoe/tac-dung-ky-dieu-trong-duong-sinh-va-tang-suc-mien-dich-cua-may-say-toc.html
 date_ingested: 2026-04-20
+date_compiled: 2026-04-21
 tags: [#health]
-status: processed
-processed_date: 2026-04-21
+status: active
 ---
-# Tác dụng kỳ diệu của máy sấy tóc trong dưỡng sinh và tăng sức miễn dịch
+
+# Máy Sấy Tóc — Nhiệt Trị Liệu Theo Trung Y
 
 ## Tóm tắt
 
-Chuyên gia Tôn Mậu Phong (Đài Loan) chia sẻ cách dùng máy sấy tóc để thực hiện nhiệt trị liệu theo Trung Y — làm ấm huyệt đạo thay vì tìm huyệt chính xác (vẫn có hiệu quả).
+Chuyên gia Tôn Mậu Phong (Đài Loan) chia sẻ cách dùng máy sấy tóc để thực hiện nhiệt trị liệu theo Trung Y — làm ấm huyệt đạo thay vì tìm huyệt chính xác.
 
 ## Nguyên tắc cơ bản
 
@@ -38,3 +39,7 @@ Chuyên gia Tôn Mậu Phong (Đài Loan) chia sẻ cách dùng máy sấy tóc 
 - **Cẩn thận bỏng** — nhiệt độ máy sấy tóc cao, để xa da nếu không chắc chắn
 - **Người đái tháo đường** — cảm giác không nhạy bén, dễ bị bỏng mà không biết
 - **Không dùng khi:** bệnh cấp tính, truyền nhiễm, sốt đột ngột
+
+## Source
+
+https://trithucvn2.net/suc-khoe/tac-dung-ky-dieu-trong-duong-sinh-va-tang-suc-mien-dich-cua-may-say-toc.html

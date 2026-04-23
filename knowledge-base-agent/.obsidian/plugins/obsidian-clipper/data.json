@@ -4,15 +4,15 @@
   "tags": "",
   "timestampFormat": "HH:mm",
   "dateFormat": "MM/DD/YY",
-  "dailyOpenOnWrite": true,
+  "dailyOpenOnWrite": false,
   "useDailyNote": true,
   "dailyPosition": "append",
   "useWeeklyNote": false,
   "weeklyPosition": "append",
   "weeklyOpenOnWrite": false,
-  "dailyEntryTemplateLocation": "raw/articles/2026-04-20_sheets-works-listening-museum.md",
+  "dailyEntryTemplateLocation": "",
   "weeklyEntryTemplateLocation": "",
-  "topicEntryTemplateLocation": "raw/articles/2026-04-20_trithucvn-may-say-toc.md",
+  "topicEntryTemplateLocation": "",
   "topicPosition": "append",
   "topicOpenOnWrite": false,
   "markdownSettings": {
@@ -24,7 +24,7 @@
     "h6": "######"
   },
   "advanced": true,
-  "advancedStorageFolder": "E:\\knowledge-base\\knowledge-base-agent\\raw\\articles",
+  "advancedStorageFolder": "/home/julius/knowledge-base/knowledge-base-agent/raw/articles",
   "captureComments": false,
   "experimentalCanvas": false,
   "experimentalBookmarkletComment": false

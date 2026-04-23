@@ -1,9 +1,6 @@
 [
-  "obsidian-git",
   "dataview",
-  "calendar",
-  "obsidian-icon-folder",
-  "obsidian-minimal-settings",
+  "obsidian-git",
   "obsidian-clipper",
   "templater-obsidian"
 ]

@@ -171,19 +171,9 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "ac1a984cc80b2e1d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -202,7 +192,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6b61486509463795",
+  "active": "8b6c703cca2d7146",
   "lastOpenFiles": [
     "raw/articles/2026-04-23_Pair Trades and Derivative Expressions for the Next Leg.md",
     "raw/articles/Unconfirmed 822726.crdownload",

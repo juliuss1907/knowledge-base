@@ -4,7 +4,8 @@ source_type: article
 source_url: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
 date_ingested: 2026-04-21
 tags: [#coding, #ai]
-status: unprocessed
+status: processed
+processed_date: 2026-04-22
 ---
 # Spec-Driven Development with AI: Get Started with a New Open Source Toolkit
 

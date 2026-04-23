@@ -4,7 +4,8 @@ source_type: article
 source_url: https://prismml.com/news/ternary-bonsai
 date_ingested: 2026-04-21
 tags: [#ai, #llm]
-status: unprocessed
+status: processed
+processed_date: 2026-04-22
 ---
 # Ternary Bonsai — 1.58-bit Language Models by PrismML
 

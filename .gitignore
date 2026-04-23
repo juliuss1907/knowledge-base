@@ -21,3 +21,7 @@ signal-os-agent/agents/openclaw/logs/
 
 # Node modules (nếu có script local)
 node_modules/
+
+# Obsidian workspace files (full path)
+knowledge-base-agent/.obsidian/workspace.json
+knowledge-base-agent/.obsidian/graph.json

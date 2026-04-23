@@ -11,10 +11,14 @@
             "id": "6b61486509463795",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Xem biểu đồ"
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-20_layerzero-kelpdao-incident-statement"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến"
+              "title": "Liên kết đến của 2026-04-20_layerzero-kelpdao-incident-statement"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra"
+              "title": "Liên kết đi ra từ 2026-04-20_layerzero-kelpdao-incident-statement"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương"
+              "title": "Đề cương của 2026-04-20_layerzero-kelpdao-incident-statement"
             }
           },
           {
@@ -200,6 +207,17 @@
   },
   "active": "6b61486509463795",
   "lastOpenFiles": [
+    "raw/articles/2026-04-20_david-coffee-mcp-vs-skills.md",
+    "raw/articles/2026-04-20_carcheck-top.md",
+    "raw/articles/2026-04-20_sheets-works-listening-museum.md",
+    "raw/articles/2026-04-20_zengineer-kelp-dao-292m-hack.md",
+    "raw/articles/2026-04-21_david-ferris-where-are-all-the-robots.md",
+    "raw/articles/2026-04-21_github-spec-driven-development-spec-kit.md",
+    "raw/articles/2026-04-21_heeki-spec-driven-development-claude-code.md",
+    "raw/articles/2026-04-21_Inference Is the New Oil — The Economics of AI.md",
+    "raw/articles/2026-04-21_morgin-ai-even-uncensored-models-cant-say-what-they-want.md",
+    "raw/articles/2026-04-21_prismml-ternary-bonsai.md",
+    "raw/articles/2026-04-21T16_16_02+07_00_Everyone can make $5,000_month in GTA. Here is how_.md",
     "wiki/concepts/mcp-vs-skills.md",
     "wiki/concepts/meilisearch.md",
     "wiki/concepts/Ocean-Warming-Marine-Predators.md",
@@ -215,18 +233,7 @@
     "wiki/sources/src_ternary-bonsai.md",
     "wiki/sources/src_spec-driven-development-github.md",
     "wiki/sources/src_spec-driven-development-claude-code.md",
-    "wiki/sources/src_minecraft-business-claude.md",
-    "wiki/sources/src_great-white-sharks-climate.md",
-    "wiki/sources/src_github-actions-cicd.md",
-    "wiki/sources/src_even-uncensored-models-flinch.md",
-    "wiki/sources/src_claude-crypto-mcp.md",
-    "wiki/sources/src_brands-got-worse-purpose.md",
-    "wiki/concepts/llm-flinch.md",
-    "wiki/concepts/MCP-Crypto-Trading.md",
-    "wiki/concepts/GitHub-Actions-CICD.md",
-    "2026-04-23.md",
     "Chưa đặt tên.canvas",
-    "raw/articles/2026-04-21_Inference Is the New Oil — The Economics of AI.md",
     "Untitled 1.canvas",
     "Chưa đặt tên 1.base"
   ]

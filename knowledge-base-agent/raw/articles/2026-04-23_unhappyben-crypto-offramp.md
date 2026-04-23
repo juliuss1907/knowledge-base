@@ -52,8 +52,3 @@ Privacy coins (Monero, Zcash) không giải quyết được vì vẫn phải KY
 
 > "Privacy is normal."
 
-## ⚠️ Context
-
-Viết bởi Ben Pasternak — founder Believe App, đang bị:
-- Điều tra về cáo buộc strangulation và assault (22/04/2026)
-- Class action lawsuit về rug pull meme coin (hàng trăm triệu USD thiệt hại)

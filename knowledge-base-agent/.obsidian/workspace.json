@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "2026-04-23"
             }
+          },
+          {
+            "id": "6b61486509463795",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "knowledge-base-agent/.obsidian/community-plugins.json",
+                "bFile": "knowledge-base-agent/.obsidian/community-plugins.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: community-plugins.json  (Working Tree)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-04-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 2026-04-23"
+              "title": "Liên kết đến"
             }
           },
           {
@@ -115,12 +129,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2026-04-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ 2026-04-23"
+              "title": "Liên kết đi ra"
             }
           },
           {
@@ -158,21 +171,40 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-04-23.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 2026-04-23"
+              "title": "Đề cương"
+            }
+          },
+          {
+            "id": "8b6c703cca2d7146",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "ac1a984cc80b2e1d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,13 +214,16 @@
       "daily-notes:Mở ghi chú hôm nay": false,
       "templates:Chèn mẫu": false,
       "command-palette:Mở khay lệnh": false,
-      "bases:Tạo cơ sở mới": false
+      "bases:Tạo cơ sở mới": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "b091be4fdcafef68",
+  "active": "ac1a984cc80b2e1d",
   "lastOpenFiles": [
-    "Chưa đặt tên.canvas",
+    "0xJeff.md",
     "2026-04-23.md",
+    "Chưa đặt tên.canvas",
     "raw/articles/2026-04-21_Inference Is the New Oil — The Economics of AI.md",
     "raw/articles/2026-04-21T16_16_02+07_00_Everyone can make $5,000_month in GTA. Here is how_.md",
     "conflict-files-obsidian-git.md",

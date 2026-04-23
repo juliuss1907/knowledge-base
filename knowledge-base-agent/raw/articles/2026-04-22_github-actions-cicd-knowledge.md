@@ -4,7 +4,8 @@ source_type: article
 source_url: local
 date_ingested: 2026-04-22
 tags: [#coding, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-04-23
 ---
 # Tổng hợp kiến thức: GitHub Actions & CI/CD
 

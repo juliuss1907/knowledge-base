@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose
 date_ingested: 2026-04-22
 tags: [#business, #marketing]
-status: unprocessed
+status: processed
+processed_date: 2026-04-23
 ---
 # Your Favorite Brands Got Worse On Purpose
 

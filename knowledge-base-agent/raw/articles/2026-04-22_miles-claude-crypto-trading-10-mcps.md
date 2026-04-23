@@ -4,7 +4,8 @@ source_type: article
 source_url: https://x.com/i/status/2046724128355627245
 date_ingested: 2026-04-22
 tags: [#crypto, #ai, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-04-23
 ---
 # How To Turn Claude Into A Crypto Trading Beast (10 MCPs)
 

@@ -4,7 +4,8 @@ source_type: article
 source_url: https://x.com/AnatoliKopadze/status/2046584180356546962
 date_ingested: 2026-04-22
 tags: [#business, #content, #ai]
-status: unprocessed
+status: processed
+processed_date: 2026-04-23
 ---
 # How to Turn Minecraft into a $3,500/Month Business with Claude
 

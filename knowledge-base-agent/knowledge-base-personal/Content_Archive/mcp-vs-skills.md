@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [#ai, #llm, #coding]
-status: published
+status: draft
 sources:
   - src_mcp-vs-skills
 date_created: 2026-04-21

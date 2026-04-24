@@ -1,6 +1,6 @@
 ---
 type: concept
-status: published
+status: draft
 tags: [#ai, #llm]
 updated: 2026-04-22
 ---

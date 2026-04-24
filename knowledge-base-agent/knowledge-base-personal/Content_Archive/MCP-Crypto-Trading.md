@@ -1,6 +1,6 @@
 ---
 type: concept
-status: published
+status: draft
 tags: [#crypto, #ai, #productivity]
 ---
 # Model Context Protocol (MCP) in Crypto Trading

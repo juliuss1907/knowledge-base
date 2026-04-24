@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [#health]
-status: published
+status: draft
 sources:
   - src_hair-dryer-heat-therapy-trung-y
 date_created: 2026-04-21

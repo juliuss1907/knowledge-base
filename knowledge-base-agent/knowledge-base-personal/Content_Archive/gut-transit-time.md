@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [#health, #research]
-status: published
+status: draft
 sources:
   - src_gut-transit-time-microbiome
 date_created: 2026-04-21

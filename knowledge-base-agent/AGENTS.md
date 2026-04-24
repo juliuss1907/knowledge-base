@@ -206,6 +206,36 @@ Quét toàn bộ `raw/` tìm file có `status: unprocessed` trong frontmatter.
 - Không xoá file raw/ gốc (giữ làm archive)
 - Tuân theo QUY TẮC QUẢN LÝ TAGS khi gắn tags cho concept mới
 
+### Output standards (bắt buộc theo Hermes review feedback)
+
+**1. Cấu trúc file concept — dùng header đúng:**
+
+| Header | Đúng | Sai |
+|---|---|---|
+| Mô tả | ✅ Dùng | ❌ "Tóm tắt" |
+| Liên quan | ✅ Bắt buộc có | ❌ Bỏ qua |
+| Nguồn tham khảo | ✅ Bắt buộc có | ❌ Bỏ qua |
+
+**2. Ngôn ngữ:**
+- Viết HOÀN TOÀN bằng tiếng Việt — không mixed languages (không trộn tiếng Anh trong concept tiếng Việt)
+
+**3. Tags:**
+- Chỉ dùng tags trong danh sách chuẩn — KHÔNG dùng tag không có trong danh sách (vd: #security)
+- Nếu cần tag mới → báo Julius theo format trong QUY TẮC QUẢN LÝ TAGS
+
+**4. Cross-references:**
+- Trong section `Liên quan` và `Nguồn tham khảo`, chỉ link tới concepts đã tồn tại
+- KHÔNG tự tạo link tới concept chưa được tạo (sẽ break wiki link integrity)
+
+**5. Độ sâu tối thiểu:**
+- Ít nhất 3 bullet points cho mỗi section chính
+- Không có concept "mỏng" (thin) như 1-2 bullets tổng cộng
+- Nếu source ngắn → note "Nội dung hạn chế, cần bổ sung thêm từ nguồn khác"
+
+**6. Case studies và ví dụ:**
+- Mỗi concept nên có ít nhất 1 ví dụ thực tế trích dẫn từ source
+- Risk analysis cho business/marketing concepts
+
 ### Model chỉ định
 
 ```yaml

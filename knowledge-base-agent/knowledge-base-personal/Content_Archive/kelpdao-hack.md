@@ -1,7 +1,7 @@
 ---
 type: concept
 tags: [#crypto, #web3, #security]
-status: published
+status: draft
 sources:
   - src_kelpdao-layerzero-incident
   - src_kelpdao-292m-hack-ai-flagged

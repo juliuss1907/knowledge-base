@@ -1,6 +1,6 @@
 ---
 type: concept
-status: published
+status: draft
 tags: [#business, #marketing]
 ---
 # Brand Degradation & IP Licensing Model

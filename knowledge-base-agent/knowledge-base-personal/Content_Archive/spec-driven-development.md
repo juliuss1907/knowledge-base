@@ -1,6 +1,6 @@
 ---
 type: concept
-status: published
+status: draft
 tags: [#coding, #ai]
 updated: 2026-04-22
 ---

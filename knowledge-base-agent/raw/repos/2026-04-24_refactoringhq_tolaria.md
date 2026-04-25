@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/refactoringhq/tolaria
 date_ingested: 2026-04-24
 tags: [#coding, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # Tolaria — macOS App Quản Lý Markdown Knowledge Base
 

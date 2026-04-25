@@ -4,7 +4,8 @@ source_type: article
 source_url: https://orchidfiles.com/stigma-is-a-tax-on-every-operational-decision/
 date_ingested: 2026-04-24
 tags: [#business, #mindset]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # Stigma is a Tax on Every Operational Decision
 

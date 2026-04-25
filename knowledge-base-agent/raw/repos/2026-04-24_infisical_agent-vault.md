@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/Infisical/agent-vault
 date_ingested: 2026-04-24
 tags: [#coding, #security]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # Infisical/agent-vault
 

@@ -4,7 +4,8 @@ source_type: article
 source_url: https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/
 date_ingested: 2026-04-23
 tags: [#ai, #content]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # Ars Technica's Newsroom AI Policy
 

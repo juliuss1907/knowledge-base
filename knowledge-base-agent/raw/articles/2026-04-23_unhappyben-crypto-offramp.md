@@ -4,7 +4,8 @@ source_type: article
 source_url: https://x.com/unhappyben/status/2046999944733626722
 date_ingested: 2026-04-23
 tags: [#crypto, #web3]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # How to Get Crypto to Fiat Without the Paper Trail
 

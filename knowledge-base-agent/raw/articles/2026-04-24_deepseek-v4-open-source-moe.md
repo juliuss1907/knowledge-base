@@ -4,7 +4,8 @@ source_type: article
 source_url: https://dev.to/owen_fox/deepseek-v4-released-open-source-16t-moe-1m-context-apache-20-and-its-already-on-the-api-14d6
 date_ingested: 2026-04-24
 tags: [#ai, #llm]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # DeepSeek V4 Released: Open-Source 1.6T MoE, 1M Context, Apache 2.0
 

@@ -4,7 +4,8 @@ source_type: article
 source_url: https://dev.to/owen_fox/gpt-55-released-first-fully-retrained-base-model-since-gpt-45-1m-context-530-pricing-4nj0
 date_ingested: 2026-04-24
 tags: [#ai, #llm]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # GPT-5.5 Released: First Fully Retrained Base Model Since GPT-4.5, 1M Context, $5/$30 Pricing
 

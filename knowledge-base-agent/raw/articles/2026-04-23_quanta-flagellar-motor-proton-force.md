@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.quantamagazine.org/what-physical-life-force-turns-biologys-wheels-20260420/
 date_ingested: 2026-04-23
 tags: [#research, #nature]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # Động Cơ Flagellar — "Lực Sống" Vật Lý Của Sinh Học
 

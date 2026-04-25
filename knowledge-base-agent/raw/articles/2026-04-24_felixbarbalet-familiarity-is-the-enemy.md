@@ -4,7 +4,8 @@ source_type: article
 source_url: https://felixbarbalet.com/familiarity-is-the-enemy/
 date_ingested: 2026-04-24
 tags: [#research, #business]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # Familiarity is the Enemy — Felix Barbalet
 

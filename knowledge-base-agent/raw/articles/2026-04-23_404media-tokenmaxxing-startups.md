@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.404media.co/startups-brag-they-spend-more-money-on-ai-than-human-employees/
 date_ingested: 2026-04-23
 tags: [#ai, #business]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # Startups Tự Hào Chi Tiền Cho AI Nhiều Hơn Tiền Lương Nhân Viên
 

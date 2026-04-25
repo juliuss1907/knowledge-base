@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.a16z.news/p/why-we-need-continual-learning
 date_ingested: 2026-04-23
 tags: [#ai, #llm]
-status: unprocessed
+status: processed
+processed_date: 2026-04-25
 ---
 # Tại Sao Chúng Ta Cần Continual Learning — a16z
 

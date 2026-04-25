@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8fe624c9fc694f85",
+        "id": "125f8f7d95111219",
         "type": "tabs",
         "children": [
           {
-            "id": "1e02e10ba17d4840",
+            "id": "6b61486509463795",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/2026-04-23_unhappyben-crypto-offramp.md",
+                "file": "wiki/concepts/MCP-Crypto-Trading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-23_unhappyben-crypto-offramp"
+              "title": "MCP-Crypto-Trading"
             }
           }
         ]
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 2026-04-20_layerzero-kelpdao-incident-statement"
+              "title": "Liên kết đến"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ 2026-04-20_layerzero-kelpdao-incident-statement"
+              "title": "Liên kết đi ra"
             }
           },
           {
@@ -156,13 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 2026-04-20_layerzero-kelpdao-incident-statement"
+              "title": "Đề cương"
             }
           },
           {
@@ -176,7 +173,7 @@
             }
           },
           {
-            "id": "ac1a984cc80b2e1d",
+            "id": "4a6f9c9bee5635ad",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -205,42 +202,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1e02e10ba17d4840",
+  "active": "6b61486509463795",
   "lastOpenFiles": [
-    "wiki/concepts/tolaria.md",
-    "wiki/sources/src_refactoringhq-tolaria.md",
-    "wiki/concepts/agent-vault.md",
-    "wiki/sources/src_infisical-agent-vault.md",
-    "wiki/sources/src_orchidfiles-stigma-tax-operational-decision.md",
-    "wiki/concepts/the-stigma-tax.md",
-    "wiki/concepts/venus-exploration.md",
-    "wiki/sources/src_mceglowski-why-not-venus.md",
-    "wiki/sources/src_gpt-55-released.md",
+    "wiki/indexes/sources_index.md",
     "wiki/concepts/gpt-55.md",
-    "wiki/sources/src_felixbarbalet-familiarity-is-the-enemy.md",
-    "wiki/concepts/the-familiarity-trap.md",
-    "wiki/concepts/deepseek-v4.md",
-    "wiki/sources/src_deepseek-v4-open-source-moe.md",
-    "wiki/concepts/crypto-private-offramp.md",
+    "agents/openclaw/IDENTITY.md",
+    "wiki/indexes/reviews_index.md",
+    "Business-Models.md",
+    "wiki/indexes/questions_index.md",
+    "wiki/indexes/concepts_index.md",
+    "wiki/concepts/llm-flinch.md",
+    "The Smart Ape 🔥 (@the_smart_ape).md",
     "wiki/sources/src_unhappyben-crypto-offramp.md",
-    "wiki/concepts/proton-motive-force.md",
+    "wiki/sources/src_refactoringhq-tolaria.md",
     "wiki/sources/src_quanta-flagellar-motor-proton-force.md",
+    "wiki/sources/src_orchidfiles-stigma-tax-operational-decision.md",
+    "wiki/sources/src_mceglowski-why-not-venus.md",
+    "wiki/sources/src_infisical-agent-vault.md",
+    "wiki/sources/src_gpt-55-released.md",
+    "wiki/sources/src_felixbarbalet-familiarity-is-the-enemy.md",
+    "wiki/sources/src_deepseek-v4-open-source-moe.md",
     "wiki/sources/src_arstechnica-newsroom-ai-policy.md",
-    "wiki/concepts/ai-editorial-policy.md",
-    "wiki/concepts/continual-learning.md",
     "wiki/sources/src_a16z-continual-learning.md",
     "wiki/sources/src_404media-tokenmaxxing-startups.md",
-    "wiki/concepts/tokenmaxxing.md",
-    "raw/articles/2026-04-24_mceglowski-why-not-venus.md",
-    "raw/articles/2026-04-24_orchidfiles-stigma-tax-operational-decision.md",
+    "wiki/reviews/2026-04-24_ternary-weight-llms-review.md",
+    "wiki/reviews/2026-04-24_spec-driven-development-review.md",
+    "wiki/reviews/2026-04-24_robotics-deployment-gap-review.md",
+    "wiki/reviews/2026-04-24_openclaw-studio-review.md",
+    "wiki/reviews/2026-04-24_meilisearch-review.md",
+    "memory",
     "knowledge-base-personal/Content_Archive",
     "knowledge-base-personal",
-    "memory",
-    "Untitled.canvas",
-    "Untitled.base",
-    "Untitled 1.canvas",
+    "raw/articles/Unconfirmed 822726.crdownload",
     "Chưa đặt tên.canvas",
-    "Chưa đặt tên.base",
+    "Untitled 1.canvas",
     "Chưa đặt tên 1.base"
   ]
 }

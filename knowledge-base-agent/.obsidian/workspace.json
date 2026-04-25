@@ -11,14 +11,10 @@
             "id": "6b61486509463795",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/agent-reach.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "agent-reach"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
             }
           }
         ]
@@ -202,8 +198,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4c2953d4605ee521",
+  "active": "6b61486509463795",
   "lastOpenFiles": [
+    "wiki/concepts/agent-reach.md",
+    "wiki/concepts/heat-therapy-trungy.md",
     "wiki/indexes/concepts_index.md",
     "wiki/concepts/continual-learning.md",
     "knowledge-base-personal/Content_Archive/kelpdao-hack.md",
@@ -228,8 +226,6 @@
     "wiki/sources/src_deepseek-v4-open-source-moe.md",
     "wiki/sources/src_arstechnica-newsroom-ai-policy.md",
     "wiki/sources/src_a16z-continual-learning.md",
-    "wiki/sources/src_404media-tokenmaxxing-startups.md",
-    "wiki/reviews/2026-04-24_ternary-weight-llms-review.md",
     "memory",
     "knowledge-base-personal/Content_Archive",
     "knowledge-base-personal",

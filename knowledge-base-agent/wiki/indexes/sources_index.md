@@ -1,32 +1,37 @@
 # Sources Index
 
-Updated: 2026-04-24
-
-## 2026-04-22
-- [[src_great-white-sharks-climate]]
-- [[src_wsl9x-linux-win9x]]
-- [[src_brands-got-worse-purpose]]
-- [[src_minecraft-business-claude]]
-- [[src_claude-crypto-mcp]]
-- [[src_github-actions-cicd]]
-
-## 2026-04-21
-- [[src_spec-driven-development-github]]
-- [[src_spec-driven-development-claude-code]]
-- [[src_even-uncensored-models-flinch]]
-- [[src_where-are-all-the-robots]]
-- [[src_ternary-bonsai]]
-
-## 2026-04-20
-- [[src_gut-transit-time-microbiome]]
-- [[src_kelpdao-layerzero-incident]]
-- [[src_carcheck-vn]]
-- [[src_mcp-vs-skills]]
-- [[src_hair-dryer-heat-therapy-trung-y]]
-- [[src_keyboard-sound-museum]]
-- [[src_camoufox]]
-- [[src_openclaw-studio]]
-- [[src_firecrawl]]
-- [[src_agent-reach]]
-- [[src_meilisearch]]
-- [[src_kelpdao-292m-hack-ai-flagged]]
+- [[wiki/sources/src_refactoringhq-tolaria.md]] | updated: 2026-04-24
+- [[wiki/sources/src_orchidfiles-stigma-tax-operational-decision.md]] | updated: 2026-04-24
+- [[wiki/sources/src_mceglowski-why-not-venus.md]] | updated: 2026-04-24
+- [[wiki/sources/src_infisical-agent-vault.md]] | updated: 2026-04-24
+- [[wiki/sources/src_gpt-55-released.md]] | updated: 2026-04-24
+- [[wiki/sources/src_felixbarbalet-familiarity-is-the-enemy.md]] | updated: 2026-04-24
+- [[wiki/sources/src_deepseek-v4-open-source-moe.md]] | updated: 2026-04-24
+- [[wiki/sources/src_unhappyben-crypto-offramp.md]] | updated: 2026-04-23
+- [[wiki/sources/src_quanta-flagellar-motor-proton-force.md]] | updated: 2026-04-23
+- [[wiki/sources/src_arstechnica-newsroom-ai-policy.md]] | updated: 2026-04-23
+- [[wiki/sources/src_a16z-continual-learning.md]] | updated: 2026-04-23
+- [[wiki/sources/src_404media-tokenmaxxing-startups.md]] | updated: 2026-04-23
+- [[wiki/sources/src_wsl9x-linux-win9x.md]] | updated: 2026-04-22
+- [[wiki/sources/src_minecraft-business-claude.md]] | updated: 2026-04-22
+- [[wiki/sources/src_great-white-sharks-climate.md]] | updated: 2026-04-22
+- [[wiki/sources/src_github-actions-cicd.md]] | updated: 2026-04-22
+- [[wiki/sources/src_claude-crypto-mcp.md]] | updated: 2026-04-22
+- [[wiki/sources/src_brands-got-worse-purpose.md]] | updated: 2026-04-22
+- [[wiki/sources/src_where-are-all-the-robots.md]] | updated: 2026-04-21
+- [[wiki/sources/src_ternary-bonsai.md]] | updated: 2026-04-21
+- [[wiki/sources/src_spec-driven-development-github.md]] | updated: 2026-04-21
+- [[wiki/sources/src_spec-driven-development-claude-code.md]] | updated: 2026-04-21
+- [[wiki/sources/src_even-uncensored-models-flinch.md]] | updated: 2026-04-21
+- [[wiki/sources/src_openclaw-studio.md]] | updated: 2026-04-20
+- [[wiki/sources/src_meilisearch.md]] | updated: 2026-04-20
+- [[wiki/sources/src_mcp-vs-skills.md]] | updated: 2026-04-20
+- [[wiki/sources/src_keyboard-sound-museum.md]] | updated: 2026-04-20
+- [[wiki/sources/src_kelpdao-layerzero-incident.md]] | updated: 2026-04-20
+- [[wiki/sources/src_kelpdao-292m-hack-ai-flagged.md]] | updated: 2026-04-20
+- [[wiki/sources/src_hair-dryer-heat-therapy-trung-y.md]] | updated: 2026-04-20
+- [[wiki/sources/src_gut-transit-time-microbiome.md]] | updated: 2026-04-20
+- [[wiki/sources/src_firecrawl.md]] | updated: 2026-04-20
+- [[wiki/sources/src_carcheck-vn.md]] | updated: 2026-04-20
+- [[wiki/sources/src_camoufox.md]] | updated: 2026-04-20
+- [[wiki/sources/src_agent-reach.md]] | updated: 2026-04-20

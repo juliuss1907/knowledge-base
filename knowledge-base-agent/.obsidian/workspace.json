@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "125f8f7d95111219",
+        "id": "8fe624c9fc694f85",
         "type": "tabs",
         "children": [
           {
-            "id": "6b61486509463795",
+            "id": "1e02e10ba17d4840",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Xem biểu đồ"
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/2026-04-23_unhappyben-crypto-offramp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-23_unhappyben-crypto-offramp"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến"
+              "title": "Liên kết đến của 2026-04-20_layerzero-kelpdao-incident-statement"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra"
+              "title": "Liên kết đi ra từ 2026-04-20_layerzero-kelpdao-incident-statement"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "raw/articles/2026-04-20_layerzero-kelpdao-incident-statement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương"
+              "title": "Đề cương của 2026-04-20_layerzero-kelpdao-incident-statement"
             }
           },
           {
@@ -169,7 +176,7 @@
             }
           },
           {
-            "id": "4a6f9c9bee5635ad",
+            "id": "ac1a984cc80b2e1d",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -198,40 +205,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6b61486509463795",
+  "active": "1e02e10ba17d4840",
   "lastOpenFiles": [
-    "knowledge-base-personal/Content_Archive/ternary-weight-llms.md",
-    "knowledge-base-personal/Content_Archive/Ocean-Warming-Marine-Predators.md",
-    "knowledge-base-personal/Content_Archive/spec-driven-development.md",
-    "knowledge-base-personal/Content_Archive/robotics-deployment-gap.md",
-    "knowledge-base-personal/Content_Archive/mcp-vs-skills.md",
-    "knowledge-base-personal/Content_Archive/llm-flinch.md",
-    "knowledge-base-personal/Content_Archive/MCP-Crypto-Trading.md",
-    "knowledge-base-personal/Content_Archive/kelpdao-hack.md",
-    "knowledge-base-personal/Content_Archive/heat-therapy-trungy.md",
-    "knowledge-base-personal/Content_Archive/gut-transit-time.md",
-    "knowledge-base-personal/Content_Archive/Brand-Degradation-IP-Licensing.md",
+    "raw/repos/2026-04-26_niri-wm_niri-v26.04.md",
+    "conflict-files-obsidian-git.md",
+    "raw/articles/2026-04-23_unhappyben-crypto-offramp.md",
+    "wiki/concepts/cross_chain_fragmentation.md",
+    "wiki/concepts/defi_lending_as_laundering.md",
+    "wiki/concepts/crypto_laundering_pipeline.md",
+    "wiki/sources/src_where_did_the_kelp_292m_go.md",
+    "wiki/concepts/subsidized_adoption_model.md",
+    "wiki/concepts/inference_economy.md",
+    "wiki/sources/src_inference_is_the_new_oil.md",
+    "wiki/concepts/subscription_business_models.md",
+    "wiki/concepts/ai_assisted_development.md",
+    "wiki/concepts/ugc_creator_economy.md",
+    "wiki/sources/src_everyone_can_make_5k_month_in_gta.md",
+    "wiki/concepts/global_carry_trade.md",
+    "wiki/concepts/capex_rotation.md",
+    "wiki/concepts/liquidity_regime.md",
+    "wiki/sources/src_pair_trades_and_derivative_expressions.md",
+    "update_indices.py",
+    "The Smart Ape 🔥 (@the_smart_ape).md",
+    "Business-Models.md",
+    "wiki/concepts/tolaria.md",
+    "wiki/sources/src_refactoringhq-tolaria.md",
+    "wiki/concepts/agent-vault.md",
+    "wiki/sources/src_infisical-agent-vault.md",
+    "wiki/sources/src_orchidfiles-stigma-tax-operational-decision.md",
+    "wiki/concepts/the-stigma-tax.md",
     "knowledge-base-personal/Content_Archive",
     "knowledge-base-personal",
-    "wiki/concepts/MCP-Crypto-Trading.md",
-    "wiki/reviews/2026-04-24_firecrawl-review.md",
-    "raw/articles/2026-04-20_zengineer-kelp-dao-292m-hack.md",
-    "wiki/concepts/agent-reach.md",
-    "wiki/concepts/heat-therapy-trungy.md",
-    "wiki/indexes/concepts_index.md",
-    "wiki/concepts/continual-learning.md",
-    "agents/openclaw/memory/index_update.md",
-    "wiki/indexes/sources_index.md",
-    "wiki/concepts/gpt-55.md",
-    "agents/openclaw/IDENTITY.md",
-    "wiki/indexes/reviews_index.md",
-    "Business-Models.md",
-    "wiki/indexes/questions_index.md",
-    "wiki/concepts/llm-flinch.md",
     "memory",
-    "raw/articles/Unconfirmed 822726.crdownload",
-    "Chưa đặt tên.canvas",
+    "Untitled.canvas",
+    "Untitled.base",
     "Untitled 1.canvas",
+    "Chưa đặt tên.canvas",
+    "Chưa đặt tên.base",
     "Chưa đặt tên 1.base"
   ]
 }

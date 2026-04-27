@@ -1,35 +1,37 @@
 # Concepts Index
 
-- [[wiki/concepts/AI-Content-Business-Minecraft.md]] | status: draft | tags: [#business, #ai, #content] | updated: 2026-04-23
-- [[wiki/concepts/Brand-Degradation-IP-Licensing.md]] | status: published | tags: [#business, #marketing] | updated: 2026-04-24
-- [[wiki/concepts/GitHub-Actions-CICD.md]] | status: draft | tags: [#coding, #productivity] | updated: 2026-04-23
-- [[wiki/concepts/MCP-Crypto-Trading.md]] | status: published | tags: [#crypto, #ai, #productivity] | updated: 2026-04-24
-- [[wiki/concepts/Ocean-Warming-Marine-Predators.md]] | status: published | tags: [#research, #nature] | updated: 2026-04-24
-- [[wiki/concepts/WSL9x.md]] | status: draft | tags: [#coding, #research] | updated: 2026-04-23
-- [[wiki/concepts/agent-reach.md]] | status: draft | tags: [#ai, #llm, #coding] | updated: 2026-04-21
-- [[wiki/concepts/agent-vault.md]] | status: draft | tags: [#coding, #security] | updated: 2026-04-25
-- [[wiki/concepts/ai-editorial-policy.md]] | status: draft | tags: [#ai, #content] | updated: 2026-04-25
-- [[wiki/concepts/camoufox.md]] | status: draft | tags: [#ai, #coding, #research] | updated: 2026-04-21
-- [[wiki/concepts/carcheck-vn.md]] | status: draft | tags: [#website-hay] | updated: 2026-04-21
-- [[wiki/concepts/continual-learning.md]] | status: draft | tags: [#ai, #llm] | updated: 2026-04-25
-- [[wiki/concepts/crypto-private-offramp.md]] | status: draft | tags: [#crypto, #web3] | updated: 2026-04-25
-- [[wiki/concepts/deepseek-v4.md]] | status: draft | tags: [#ai, #llm] | updated: 2026-04-25
-- [[wiki/concepts/firecrawl.md]] | status: draft | tags: [#ai, #coding, #web3] | updated: 2026-04-21
-- [[wiki/concepts/gpt-55.md]] | status: draft | tags: [#ai, #llm] | updated: 2026-04-25
-- [[wiki/concepts/gut-transit-time.md]] | status: published | tags: [#health, #research] | updated: 2026-04-24
-- [[wiki/concepts/heat-therapy-trungy.md]] | status: published | tags: [#health] | updated: 2026-04-24
-- [[wiki/concepts/kelpdao-hack.md]] | status: published | tags: [#crypto, #web3, #security] | updated: 2026-04-24
-- [[wiki/concepts/keyboard-sound-museum.md]] | status: draft | tags: [#keyboard] | updated: 2026-04-21
+- [[wiki/concepts/AI-Content-Business-Minecraft.md]] | status: draft | tags: [#business, #ai, #content] | updated: unknown
+- [[wiki/concepts/Brand-Degradation-IP-Licensing.md]] | status: published | tags: [#business, #marketing] | updated: unknown
+- [[wiki/concepts/GitHub-Actions-CICD.md]] | status: draft | tags: [#coding, #productivity] | updated: unknown
+- [[wiki/concepts/MCP-Crypto-Trading.md]] | status: published | tags: [#crypto, #ai, #productivity] | updated: unknown
+- [[wiki/concepts/Ocean-Warming-Marine-Predators.md]] | status: published | tags: [#research, #nature] | updated: unknown
+- [[wiki/concepts/WSL9x.md]] | status: draft | tags: [#coding, #research] | updated: unknown
+- [[wiki/concepts/agent-reach.md]] | status: draft | tags: [#ai, #llm, #coding] | updated: unknown
+- [[wiki/concepts/agent-vault.md]] | status: draft | tags: [#coding, #security] | updated: unknown
+- [[wiki/concepts/ai-editorial-policy.md]] | status: draft | tags: [#ai, #content] | updated: unknown
+- [[wiki/concepts/camoufox.md]] | status: draft | tags: [#ai, #coding, #research] | updated: unknown
+- [[wiki/concepts/carcheck-vn.md]] | status: draft | tags: [#website-hay] | updated: unknown
+- [[wiki/concepts/continual-learning.md]] | status: draft | tags: [#ai, #llm] | updated: unknown
+- [[wiki/concepts/crypto-private-offramp.md]] | status: draft | tags: [#crypto, #web3] | updated: unknown
+- [[wiki/concepts/deepseek-v4.md]] | status: draft | tags: [#ai, #llm] | updated: unknown
+- [[wiki/concepts/firecrawl.md]] | status: draft | tags: [#ai, #coding, #web3] | updated: unknown
+- [[wiki/concepts/gpt-55.md]] | status: draft | tags: [#ai, #llm] | updated: unknown
+- [[wiki/concepts/gut-transit-time.md]] | status: published | tags: [#health, #research] | updated: unknown
+- [[wiki/concepts/heat-therapy-trungy.md]] | status: published | tags: [#health] | updated: unknown
+- [[wiki/concepts/kelpdao-hack.md]] | status: published | tags: [#crypto, #web3, #security] | updated: unknown
+- [[wiki/concepts/keyboard-sound-museum.md]] | status: draft | tags: [#keyboard] | updated: unknown
 - [[wiki/concepts/llm-flinch.md]] | status: published | tags: [#ai, #llm, #research] | updated: 2026-04-22
-- [[wiki/concepts/mcp-vs-skills.md]] | status: published | tags: [#ai, #llm, #coding] | updated: 2026-04-24
-- [[wiki/concepts/meilisearch.md]] | status: draft | tags: [#ai, #coding, #research] | updated: 2026-04-21
-- [[wiki/concepts/openclaw-studio.md]] | status: draft | tags: [#ai, #coding] | updated: 2026-04-21
-- [[wiki/concepts/proton-motive-force.md]] | status: draft | tags: [#research, #nature] | updated: 2026-04-25
+- [[wiki/concepts/mcp-vs-skills.md]] | status: published | tags: [#ai, #llm, #coding] | updated: unknown
+- [[wiki/concepts/meilisearch.md]] | status: draft | tags: [#ai, #coding, #research] | updated: unknown
+- [[wiki/concepts/niri-wm.md]] | status: draft | tags: [#coding, #productivity] | updated: unknown
+- [[wiki/concepts/openclaw-studio.md]] | status: draft | tags: [#ai, #coding] | updated: unknown
+- [[wiki/concepts/proton-motive-force.md]] | status: draft | tags: [#research, #nature] | updated: unknown
 - [[wiki/concepts/robotics-deployment-gap.md]] | status: published | tags: [#ai, #research] | updated: 2026-04-22
 - [[wiki/concepts/spec-driven-development.md]] | status: published | tags: [#coding, #ai] | updated: 2026-04-22
 - [[wiki/concepts/ternary-weight-llms.md]] | status: published | tags: [#ai, #llm] | updated: 2026-04-22
-- [[wiki/concepts/the-familiarity-trap.md]] | status: draft | tags: [#research, #business] | updated: 2026-04-25
-- [[wiki/concepts/the-stigma-tax.md]] | status: draft | tags: [#business, #mindset] | updated: 2026-04-25
-- [[wiki/concepts/tokenmaxxing.md]] | status: draft | tags: [#ai, #business] | updated: 2026-04-25
-- [[wiki/concepts/tolaria.md]] | status: draft | tags: [#coding, #productivity] | updated: 2026-04-25
-- [[wiki/concepts/venus-exploration.md]] | status: draft | tags: [#research, #nature] | updated: 2026-04-25
+- [[wiki/concepts/the-familiarity-trap.md]] | status: draft | tags: [#research, #business] | updated: unknown
+- [[wiki/concepts/the-stigma-tax.md]] | status: draft | tags: [#business, #mindset] | updated: unknown
+- [[wiki/concepts/tokenmaxxing.md]] | status: draft | tags: [#ai, #business] | updated: unknown
+- [[wiki/concepts/tolaria.md]] | status: draft | tags: [#coding, #productivity] | updated: unknown
+- [[wiki/concepts/user-agent-cho-ai.md]] | status: draft | tags: [#ai, #research] | updated: unknown
+- [[wiki/concepts/venus-exploration.md]] | status: draft | tags: [#research, #nature] | updated: unknown

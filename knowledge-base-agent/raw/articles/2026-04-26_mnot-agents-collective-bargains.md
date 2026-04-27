@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.mnot.net/blog/2026/04/24/agents_as_collective_bargains
 date_ingested: 2026-04-26
 tags: [#research, #ai, #web3]
-status: unprocessed
+status: processed
+processed_date: 2026-04-27
 ---
 # What's Missing in the 'Agentic' Story
 ## Mark Nottingham

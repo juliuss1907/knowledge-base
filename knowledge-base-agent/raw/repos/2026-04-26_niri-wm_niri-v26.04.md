@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/niri-wm/niri/releases/tag/v26.04
 date_ingested: 2026-04-26
 tags: [#coding, #linux, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-04-27
 ---
 # Niri v26.04 — Wayland Compositor
 

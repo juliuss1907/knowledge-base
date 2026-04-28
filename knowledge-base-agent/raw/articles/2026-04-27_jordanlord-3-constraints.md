@@ -4,7 +4,8 @@ source_type: article
 source_url: https://jordanlord.co.uk/blog/3-constraints/
 date_ingested: 2026-04-27
 tags: [#business, #coding, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-04-28
 ---
 # 3 constraints before I build anything
 ## Jordan Lord

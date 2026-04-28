@@ -4,7 +4,8 @@ source_type: article
 source_url: https://arun.is/blog/cheap-cool/
 date_ingested: 2026-04-27
 tags: [#business, #productivity, #design]
-status: unprocessed
+status: processed
+processed_date: 2026-04-28
 ---
 # When the cheap one is the cool one
 ## Arun

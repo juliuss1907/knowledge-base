@@ -207,6 +207,8 @@
   },
   "active": "1e02e10ba17d4840",
   "lastOpenFiles": [
+    "wiki/indexes/questions_index.tmp",
+    "wiki/indexes/sources_index.tmp",
     "raw/articles/2026-04-28_chinar-multi-agent-dev-system.md",
     "raw/articles/2026-04-28_cookcoco-spinedigest.md",
     "raw/articles/2026-04-28_dynomight-quit-drinking.md",
@@ -233,7 +235,6 @@
     "wiki/sources/src_inference_is_the_new_oil.md",
     "wiki/concepts/subscription_business_models.md",
     "wiki/concepts/ai_assisted_development.md",
-    "wiki/concepts/ugc_creator_economy.md",
     "update_indices.py",
     "knowledge-base-personal/Content_Archive",
     "knowledge-base-personal",

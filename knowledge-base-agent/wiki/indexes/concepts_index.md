@@ -33,5 +33,6 @@
 - [[wiki/concepts/the-stigma-tax.md]] | status: draft | tags: [#business, #mindset] | updated: unknown
 - [[wiki/concepts/tokenmaxxing.md]] | status: draft | tags: [#ai, #business] | updated: unknown
 - [[wiki/concepts/tolaria.md]] | status: draft | tags: [#coding, #productivity] | updated: unknown
+- [[wiki/concepts/tu-duy-thiet-ke-dua-tren-rang-buoc.md]] | status: draft | tags: [#business, #productivity, #design] | updated: unknown
 - [[wiki/concepts/user-agent-cho-ai.md]] | status: draft | tags: [#ai, #research] | updated: unknown
 - [[wiki/concepts/venus-exploration.md]] | status: draft | tags: [#research, #nature] | updated: unknown

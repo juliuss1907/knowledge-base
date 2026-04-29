@@ -1,38 +1,38 @@
 # Concepts Index
 
-- [[wiki/concepts/AI-Content-Business-Minecraft.md]] | status: draft | tags: [#business, #ai, #content] | updated: unknown
-- [[wiki/concepts/Brand-Degradation-IP-Licensing.md]] | status: published | tags: [#business, #marketing] | updated: unknown
-- [[wiki/concepts/GitHub-Actions-CICD.md]] | status: draft | tags: [#coding, #productivity] | updated: unknown
-- [[wiki/concepts/MCP-Crypto-Trading.md]] | status: published | tags: [#crypto, #ai, #productivity] | updated: unknown
-- [[wiki/concepts/Ocean-Warming-Marine-Predators.md]] | status: published | tags: [#research, #nature] | updated: unknown
-- [[wiki/concepts/WSL9x.md]] | status: draft | tags: [#coding, #research] | updated: unknown
-- [[wiki/concepts/agent-reach.md]] | status: draft | tags: [#ai, #llm, #coding] | updated: unknown
-- [[wiki/concepts/agent-vault.md]] | status: draft | tags: [#coding, #security] | updated: unknown
-- [[wiki/concepts/ai-editorial-policy.md]] | status: draft | tags: [#ai, #content] | updated: unknown
-- [[wiki/concepts/camoufox.md]] | status: draft | tags: [#ai, #coding, #research] | updated: unknown
-- [[wiki/concepts/carcheck-vn.md]] | status: draft | tags: [#website-hay] | updated: unknown
-- [[wiki/concepts/continual-learning.md]] | status: draft | tags: [#ai, #llm] | updated: unknown
-- [[wiki/concepts/crypto-private-offramp.md]] | status: draft | tags: [#crypto, #web3] | updated: unknown
-- [[wiki/concepts/deepseek-v4.md]] | status: draft | tags: [#ai, #llm] | updated: unknown
-- [[wiki/concepts/firecrawl.md]] | status: draft | tags: [#ai, #coding, #web3] | updated: unknown
-- [[wiki/concepts/gpt-55.md]] | status: draft | tags: [#ai, #llm] | updated: unknown
-- [[wiki/concepts/gut-transit-time.md]] | status: published | tags: [#health, #research] | updated: unknown
-- [[wiki/concepts/heat-therapy-trungy.md]] | status: published | tags: [#health] | updated: unknown
-- [[wiki/concepts/kelpdao-hack.md]] | status: published | tags: [#crypto, #web3, #security] | updated: unknown
-- [[wiki/concepts/keyboard-sound-museum.md]] | status: draft | tags: [#keyboard] | updated: unknown
-- [[wiki/concepts/llm-flinch.md]] | status: published | tags: [#ai, #llm, #research] | updated: 2026-04-22
-- [[wiki/concepts/mcp-vs-skills.md]] | status: published | tags: [#ai, #llm, #coding] | updated: unknown
-- [[wiki/concepts/meilisearch.md]] | status: draft | tags: [#ai, #coding, #research] | updated: unknown
-- [[wiki/concepts/niri-wm.md]] | status: draft | tags: [#coding, #productivity] | updated: unknown
-- [[wiki/concepts/openclaw-studio.md]] | status: draft | tags: [#ai, #coding] | updated: unknown
-- [[wiki/concepts/proton-motive-force.md]] | status: draft | tags: [#research, #nature] | updated: unknown
-- [[wiki/concepts/robotics-deployment-gap.md]] | status: published | tags: [#ai, #research] | updated: 2026-04-22
-- [[wiki/concepts/spec-driven-development.md]] | status: published | tags: [#coding, #ai] | updated: 2026-04-22
-- [[wiki/concepts/ternary-weight-llms.md]] | status: published | tags: [#ai, #llm] | updated: 2026-04-22
-- [[wiki/concepts/the-familiarity-trap.md]] | status: draft | tags: [#research, #business] | updated: unknown
-- [[wiki/concepts/the-stigma-tax.md]] | status: draft | tags: [#business, #mindset] | updated: unknown
-- [[wiki/concepts/tokenmaxxing.md]] | status: draft | tags: [#ai, #business] | updated: unknown
-- [[wiki/concepts/tolaria.md]] | status: draft | tags: [#coding, #productivity] | updated: unknown
-- [[wiki/concepts/tu-duy-thiet-ke-dua-tren-rang-buoc.md]] | status: draft | tags: [#business, #productivity, #design] | updated: unknown
-- [[wiki/concepts/user-agent-cho-ai.md]] | status: draft | tags: [#ai, #research] | updated: unknown
-- [[wiki/concepts/venus-exploration.md]] | status: draft | tags: [#research, #nature] | updated: unknown
+- [agent-reach](agent-reach.md)
+- [agent-vault](agent-vault.md)
+- [AI-Content-Business-Minecraft](AI-Content-Business-Minecraft.md)
+- [ai-editorial-policy](ai-editorial-policy.md)
+- [Brand-Degradation-IP-Licensing](Brand-Degradation-IP-Licensing.md)
+- [camoufox](camoufox.md)
+- [carcheck-vn](carcheck-vn.md)
+- [continual-learning](continual-learning.md)
+- [crypto-private-offramp](crypto-private-offramp.md)
+- [deepseek-v4](deepseek-v4.md)
+- [firecrawl](firecrawl.md)
+- [GitHub-Actions-CICD](GitHub-Actions-CICD.md)
+- [gpt-55](gpt-55.md)
+- [gut-transit-time](gut-transit-time.md)
+- [heat-therapy-trungy](heat-therapy-trungy.md)
+- [kelpdao-hack](kelpdao-hack.md)
+- [keyboard-sound-museum](keyboard-sound-museum.md)
+- [llm-flinch](llm-flinch.md)
+- [MCP-Crypto-Trading](MCP-Crypto-Trading.md)
+- [mcp-vs-skills](mcp-vs-skills.md)
+- [meilisearch](meilisearch.md)
+- [niri-wm](niri-wm.md)
+- [Ocean-Warming-Marine-Predators](Ocean-Warming-Marine-Predators.md)
+- [openclaw-studio](openclaw-studio.md)
+- [proton-motive-force](proton-motive-force.md)
+- [robotics-deployment-gap](robotics-deployment-gap.md)
+- [spec-driven-development](spec-driven-development.md)
+- [ternary-weight-llms](ternary-weight-llms.md)
+- [the-familiarity-trap](the-familiarity-trap.md)
+- [the-stigma-tax](the-stigma-tax.md)
+- [tokenmaxxing](tokenmaxxing.md)
+- [tolaria](tolaria.md)
+- [tu-duy-thiet-ke-dua-tren-rang-buoc](tu-duy-thiet-ke-dua-tren-rang-buoc.md)
+- [user-agent-cho-ai](user-agent-cho-ai.md)
+- [venus-exploration](venus-exploration.md)
+- [WSL9x](WSL9x.md)

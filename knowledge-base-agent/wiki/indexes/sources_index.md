@@ -1,40 +1,41 @@
 # Sources Index
-- [[wiki/sources/src_3-constraints.md]] | updated: unknown
-- [[wiki/sources/src_404media-tokenmaxxing-startups.md]] | updated: unknown
-- [[wiki/sources/src_a16z-continual-learning.md]] | updated: unknown
-- [[wiki/sources/src_agent-reach.md]] | updated: unknown
-- [[wiki/sources/src_arstechnica-newsroom-ai-policy.md]] | updated: unknown
-- [[wiki/sources/src_brands-got-worse-purpose.md]] | updated: unknown
-- [[wiki/sources/src_camoufox.md]] | updated: unknown
-- [[wiki/sources/src_carcheck-vn.md]] | updated: unknown
-- [[wiki/sources/src_cheap-cool.md]] | updated: unknown
-- [[wiki/sources/src_claude-crypto-mcp.md]] | updated: unknown
-- [[wiki/sources/src_deepseek-v4-open-source-moe.md]] | updated: unknown
-- [[wiki/sources/src_even-uncensored-models-flinch.md]] | updated: unknown
-- [[wiki/sources/src_felixbarbalet-familiarity-is-the-enemy.md]] | updated: unknown
-- [[wiki/sources/src_firecrawl.md]] | updated: unknown
-- [[wiki/sources/src_github-actions-cicd.md]] | updated: unknown
-- [[wiki/sources/src_gpt-55-released.md]] | updated: unknown
-- [[wiki/sources/src_great-white-sharks-climate.md]] | updated: unknown
-- [[wiki/sources/src_gut-transit-time-microbiome.md]] | updated: unknown
-- [[wiki/sources/src_hair-dryer-heat-therapy-trung-y.md]] | updated: unknown
-- [[wiki/sources/src_infisical-agent-vault.md]] | updated: unknown
-- [[wiki/sources/src_kelpdao-292m-hack-ai-flagged.md]] | updated: unknown
-- [[wiki/sources/src_kelpdao-layerzero-incident.md]] | updated: unknown
-- [[wiki/sources/src_keyboard-sound-museum.md]] | updated: unknown
-- [[wiki/sources/src_mceglowski-why-not-venus.md]] | updated: unknown
-- [[wiki/sources/src_mcp-vs-skills.md]] | updated: unknown
-- [[wiki/sources/src_meilisearch.md]] | updated: unknown
-- [[wiki/sources/src_minecraft-business-claude.md]] | updated: unknown
-- [[wiki/sources/src_mnot-agents-collective-bargains.md]] | updated: unknown
-- [[wiki/sources/src_niri-wm_niri-v26.04.md]] | updated: unknown
-- [[wiki/sources/src_openclaw-studio.md]] | updated: unknown
-- [[wiki/sources/src_orchidfiles-stigma-tax-operational-decision.md]] | updated: unknown
-- [[wiki/sources/src_quanta-flagellar-motor-proton-force.md]] | updated: unknown
-- [[wiki/sources/src_refactoringhq-tolaria.md]] | updated: unknown
-- [[wiki/sources/src_spec-driven-development-claude-code.md]] | updated: unknown
-- [[wiki/sources/src_spec-driven-development-github.md]] | updated: unknown
-- [[wiki/sources/src_ternary-bonsai.md]] | updated: unknown
-- [[wiki/sources/src_unhappyben-crypto-offramp.md]] | updated: unknown
-- [[wiki/sources/src_where-are-all-the-robots.md]] | updated: unknown
-- [[wiki/sources/src_wsl9x-linux-win9x.md]] | updated: unknown
+
+- [src_3-constraints](src_3-constraints.md)
+- [src_404media-tokenmaxxing-startups](src_404media-tokenmaxxing-startups.md)
+- [src_a16z-continual-learning](src_a16z-continual-learning.md)
+- [src_agent-reach](src_agent-reach.md)
+- [src_arstechnica-newsroom-ai-policy](src_arstechnica-newsroom-ai-policy.md)
+- [src_brands-got-worse-purpose](src_brands-got-worse-purpose.md)
+- [src_camoufox](src_camoufox.md)
+- [src_carcheck-vn](src_carcheck-vn.md)
+- [src_cheap-cool](src_cheap-cool.md)
+- [src_claude-crypto-mcp](src_claude-crypto-mcp.md)
+- [src_deepseek-v4-open-source-moe](src_deepseek-v4-open-source-moe.md)
+- [src_even-uncensored-models-flinch](src_even-uncensored-models-flinch.md)
+- [src_felixbarbalet-familiarity-is-the-enemy](src_felixbarbalet-familiarity-is-the-enemy.md)
+- [src_firecrawl](src_firecrawl.md)
+- [src_github-actions-cicd](src_github-actions-cicd.md)
+- [src_gpt-55-released](src_gpt-55-released.md)
+- [src_great-white-sharks-climate](src_great-white-sharks-climate.md)
+- [src_gut-transit-time-microbiome](src_gut-transit-time-microbiome.md)
+- [src_hair-dryer-heat-therapy-trung-y](src_hair-dryer-heat-therapy-trung-y.md)
+- [src_infisical-agent-vault](src_infisical-agent-vault.md)
+- [src_kelpdao-292m-hack-ai-flagged](src_kelpdao-292m-hack-ai-flagged.md)
+- [src_kelpdao-layerzero-incident](src_kelpdao-layerzero-incident.md)
+- [src_keyboard-sound-museum](src_keyboard-sound-museum.md)
+- [src_mceglowski-why-not-venus](src_mceglowski-why-not-venus.md)
+- [src_mcp-vs-skills](src_mcp-vs-skills.md)
+- [src_meilisearch](src_meilisearch.md)
+- [src_minecraft-business-claude](src_minecraft-business-claude.md)
+- [src_mnot-agents-collective-bargains](src_mnot-agents-collective-bargains.md)
+- [src_niri-wm_niri-v26.04.md](src_niri-wm_niri-v26.04.md)
+- [src_openclaw-studio](src_openclaw-studio.md)
+- [src_orchidfiles-stigma-tax-operational-decision](src_orchidfiles-stigma-tax-operational-decision.md)
+- [src_quanta-flagellar-motor-proton-force](src_quanta-flagellar-motor-proton-force.md)
+- [src_refactoringhq-tolaria](src_refactoringhq-tolaria.md)
+- [src_spec-driven-development-claude-code](src_spec-driven-development-claude-code.md)
+- [src_spec-driven-development-github](src_spec-driven-development-github.md)
+- [src_ternary-bonsai](src_ternary-bonsai.md)
+- [src_unhappyben-crypto-offramp](src_unhappyben-crypto-offramp.md)
+- [src_where-are-all-the-robots](src_where-are-all-the-robots.md)
+- [src_wsl9x-linux-win9x](src_wsl9x-linux-win9x.md)

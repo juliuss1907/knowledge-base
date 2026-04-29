@@ -1,23 +1,24 @@
 # Reviews Index
 
-- [[wiki/reviews/2026-04-24_AI-Content-Business-Minecraft-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_Brand-Degradation-IP-Licensing-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_GitHub-Actions-CICD-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_MCP-Crypto-Trading-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_Ocean-Warming-Marine-Predators-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_WSL9x-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_agent-reach-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_camoufox-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_carcheck-vn-review.md]] | verdict: REJECT | updated: unknown
-- [[wiki/reviews/2026-04-24_firecrawl-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_gut-transit-time-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_heat-therapy-trungy-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_kelpdao-hack-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_keyboard-sound-museum-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_llm-flinch-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_mcp-vs-skills-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_meilisearch-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_openclaw-studio-review.md]] | verdict: REVISE | updated: unknown
-- [[wiki/reviews/2026-04-24_robotics-deployment-gap-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_spec-driven-development-review.md]] | verdict: PROMOTE | updated: unknown
-- [[wiki/reviews/2026-04-24_ternary-weight-llms-review.md]] | verdict: PROMOTE | updated: unknown
+- [2026-04-24_agent-reach-review](2026-04-24_agent-reach-review.md)
+- [2026-04-24_AI-Content-Business-Minecraft-review](2026-04-24_AI-Content-Business-Minecraft-review.md)
+- [2026-04-24_Brand-Degradation-IP-Licensing-review](2026-04-24_Brand-Degradation-IP-Licensing-review.md)
+- [2026-04-24_camoufox-review](2026-04-24_camoufox-review.md)
+- [2026-04-24_carcheck-vn-review](2026-04-24_carcheck-vn-review.md)
+- [2026-04-24_firecrawl-review](2026-04-24_firecrawl-review.md)
+- [2026-04-24_GitHub-Actions-CICD-review](2026-04-24_GitHub-Actions-CICD-review.md)
+- [2026-04-24_gut-transit-time-review](2026-04-24_gut-transit-time-review.md)
+- [2026-04-24_heat-therapy-trungy-review](2026-04-24_heat-therapy-trungy-review.md)
+- [2026-04-24_kelpdao-hack-review](2026-04-24_kelpdao-hack-review.md)
+- [2026-04-24_keyboard-sound-museum-review](2026-04-24_keyboard-sound-museum-review.md)
+- [2026-04-24_llm-flinch-review](2026-04-24_llm-flinch-review.md)
+- [2026-04-24_MCP-Crypto-Trading-review](2026-04-24_MCP-Crypto-Trading-review.md)
+- [2026-04-24_mcp-vs-skills-review](2026-04-24_mcp-vs-skills-review.md)
+- [2026-04-24_meilisearch-review](2026-04-24_meilisearch-review.md)
+- [2026-04-24_Ocean-Warming-Marine-Predators-review](2026-04-24_Ocean-Warming-Marine-Predators-review.md)
+- [2026-04-24_openclaw-studio-review](2026-04-24_openclaw-studio-review.md)
+- [2026-04-24_robotics-deployment-gap-review](2026-04-24_robotics-deployment-gap-review.md)
+- [2026-04-24_spec-driven-development-review](2026-04-24_spec-driven-development-review.md)
+- [2026-04-24_ternary-weight-llms-review](2026-04-24_ternary-weight-llms-review.md)
+- [2026-04-24_WSL9x-review](2026-04-24_WSL9x-review.md)
+- [_pending.md](_pending.md)

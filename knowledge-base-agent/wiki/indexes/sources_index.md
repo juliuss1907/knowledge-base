@@ -1,5 +1,4 @@
 # Sources Index
-
 - [src_3-constraints](src_3-constraints.md)
 - [src_404media-tokenmaxxing-startups](src_404media-tokenmaxxing-startups.md)
 - [src_a16z-continual-learning](src_a16z-continual-learning.md)
@@ -28,7 +27,7 @@
 - [src_meilisearch](src_meilisearch.md)
 - [src_minecraft-business-claude](src_minecraft-business-claude.md)
 - [src_mnot-agents-collective-bargains](src_mnot-agents-collective-bargains.md)
-- [src_niri-wm_niri-v26.04.md](src_niri-wm_niri-v26.04.md)
+- [src_niri-wm_niri-v26.04](src_niri-wm_niri-v26.04.md)
 - [src_openclaw-studio](src_openclaw-studio.md)
 - [src_orchidfiles-stigma-tax-operational-decision](src_orchidfiles-stigma-tax-operational-decision.md)
 - [src_quanta-flagellar-motor-proton-force](src_quanta-flagellar-motor-proton-force.md)

@@ -1,5 +1,4 @@
 # Reviews Index
-
 - [2026-04-24_agent-reach-review](2026-04-24_agent-reach-review.md)
 - [2026-04-24_AI-Content-Business-Minecraft-review](2026-04-24_AI-Content-Business-Minecraft-review.md)
 - [2026-04-24_Brand-Degradation-IP-Licensing-review](2026-04-24_Brand-Degradation-IP-Licensing-review.md)
@@ -21,4 +20,3 @@
 - [2026-04-24_spec-driven-development-review](2026-04-24_spec-driven-development-review.md)
 - [2026-04-24_ternary-weight-llms-review](2026-04-24_ternary-weight-llms-review.md)
 - [2026-04-24_WSL9x-review](2026-04-24_WSL9x-review.md)
-- [_pending.md](_pending.md)

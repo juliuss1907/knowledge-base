@@ -1,5 +1,4 @@
 # Concepts Index
-
 - [agent-reach](agent-reach.md)
 - [agent-vault](agent-vault.md)
 - [AI-Content-Business-Minecraft](AI-Content-Business-Minecraft.md)

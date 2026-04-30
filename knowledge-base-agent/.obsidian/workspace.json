@@ -207,6 +207,8 @@
   },
   "active": "1e02e10ba17d4840",
   "lastOpenFiles": [
+    "raw/articles/2026-04-30_github-claude-code-hermes-bug.md",
+    "raw/articles/2026-04-30_copyfail-linux-kernel-cve.md",
     "raw/articles/2026-04-30_wired-taylor-swift-deepfake.md",
     "raw/articles/2026-04-30_techcrunch-microsoft-copilot-20m.md",
     "raw/articles/2026-04-30_aljazeera-musk-vs-altman.md",
@@ -234,8 +236,6 @@
     "wiki/sources/src_niri-wm_niri-v26.04.md",
     "wiki/concepts/niri-wm.md",
     "wiki/sources/src_mnot-agents-collective-bargains.md",
-    "wiki/concepts/user-agent-cho-ai.md",
-    "raw/articles/2026-04-26_mnot-agents-collective-bargains.md",
     "update_indices.py",
     "knowledge-base-personal/Content_Archive",
     "knowledge-base-personal",

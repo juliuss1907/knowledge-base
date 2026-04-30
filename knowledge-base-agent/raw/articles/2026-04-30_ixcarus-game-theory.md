@@ -16,38 +16,36 @@ status: unprocessed
 
 ## Tóm tắt
 
-Bài viết giới thiệu game theory như framework để hiểu mọi tương tác trong cuộc sống — từ đàm phán lương đến relationships. Tác giả trình bày các khái niệm kinh điển qua ví dụ dễ hiểu.
+Bài viết dùng lý thuyết trò chơi để giải thích mọi tương tác trong đời sống — từ đàm phán lương đến quan hệ tình cảm.
 
 ---
 
 ## Các khái niệm chính
 
-### Prisoner's Dilemma
-Hai nghi phạm bị tách riêng. Cả hai đều có thể Im lặng hoặc Phản bội. Individual rational choice là phản bội, nhưng collective best outcome là trust. Đây là lý do cooperation khó — bạn không biết đối phương sẽ làm gì.
+### 1. Song đề tù nhân
+Hai nghi phạm bị tách ra riêng, mỗi người chọn im lặng hoặc tố cáo. Về lý, tố cáo là an toàn hơn — nhưng nếu cả hai đều im lặng thì kết quả tốt nhất cho cả hai. Thực tế, cả hai đều chọn tố cáo và cùng chịu 5 năm tù.
 
-### Nash Equilibrium
-Điểm mà không ai muốn thay đổi strategy dù có thể better cho cả hai. Ví dụ: hai người muốn chuyển đi nơi khác nhưng dream khác nhau, nên cả hai stay. Kết quả: cả hai đều stuck, bỏ lỡ cơ hội. Companies stuck in pricing wars, friends stuck ở shallow relationship level — đều là nash equilibrium.
+### 2. Điểm cân bằng Nash
+Là điểm mà không ai muốn thay đổi dù có thể cả hai đều tốt hơn. Ví dụ: hai người muốn chuyển đi nơi khác nhưng mỗi người theo một hướng khác, nên cả hai ở lại. Kết quả: cả hai đều không được như ý.
 
-### Ultimatum Game
-Một người đề nghị chia không công bằng. Accept thì được gì đó, reject thì không ai được gì. Con người thường reject vì pride/fairness dù "rational" là accept. Đây là lý do deals fall apart, relationships break down.
+### 3. Trò chơi đặt giá
+Một người đề nghị chia không công bằng. Nhận thì được gì đó, từ chối thì không ai được gì. Con người thường từ chối vì tự ái, dù nhận thì vẫn có lợi hơn.
 
-### Zero-sum vs Positive-sum
-- **Zero-sum:** Your gain = my loss (poker, 1 promotion)
-- **Positive-sum:** Cả hai đều win (trade, business partnerships)
+### 4. Trò chơi có tổng bằng không và có tổng dương
+- **Tổng bằng không:** Mình được bao nhiêu thì người khác mất bấy nhiêu — như chia một chiếc bánh
+- **Có tổng dương:** Cả hai đều có thêm được — như buôn bán, hợp tác làm ăn
 
-Sai lầm phổ biến là treat positive-sum như zero-sum — cạnh tranh thay vì collaborate.
+### 5. Trò chơi lặp lại
+Khác với chơi một lần (khuyến khích phản bội), chơi nhiều lần buộc người ta phải hợp tác vì danh tiếng ảnh hưởng đến cơ hội sau này.
 
-### Repeated Games
-Khác với one-shot games (incentive to defect), repeated games tạo incentive để cooperate vì reputation ảnh hưởng đến future opportunities. Tit for Tat strategy: cooperate first, rồi mirror đối phương.
+### 6. Trò chơi phối hợp
+Mọi người đều được lợi nếu cùng làm một việc — không quan trọng việc gì, chỉ cần cùng nhau. Bàn phím QWERTY là ví dụ: không tốt nhưng tất cả đều dùng nên ai cũng phải theo.
 
-### Coordination Games
-Mọi người đều benefit nếu coordinate cùng action — không quan trọng action nào. QWERTY keyboard là ví dụ: inefficient nhưng persist vì everyone is coordinated on it. Culture change khó vì coordination lock-in, không phải stupidity.
-
-### Signaling Games
-Làm điều gì đó costly chỉ để prove something. Prestigious degrees signal intelligence, luxury goods signal wealth, working 80 hours signals ambition. Vấn đề: once everyone signals, you have to signal just to keep up.
+### 7. Trò chơi gửi tín hiệu
+Làm điều tốn kém để chứng minh điều gì đó. Bằng đại học danh tiếng chứng minh "tôi thông minh", đồ hiệu chứng minh "tôi giàu".
 
 ---
 
 ## Quote
 
-> "Every social interaction becomes visible math. Every relationship becomes a strategic game with payoffs and equilibria."
+> "Mọi tương tác xã hội trở thành toán học nhìn thấy được. Mọi mối quan hệ trở thành trò chơi chiến lược với kết quả và điểm cân bằng."

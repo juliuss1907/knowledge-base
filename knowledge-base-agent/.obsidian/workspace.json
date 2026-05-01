@@ -208,6 +208,7 @@
   },
   "active": "1e02e10ba17d4840",
   "lastOpenFiles": [
+    "raw/articles/2026-05-01_x_gideon-ng-escape-ai-cost-war.md",
     "raw/articles/2026-05-01_techcrunch-openai-cyber-restricts-access.md",
     "questions_list.txt",
     "reviews_list.txt",
@@ -237,7 +238,6 @@
     "agents/openclaw/IDENTITY.md",
     "agents/openclaw/HEARTBEAT.md",
     "agents/Hermes/IDENTITY.md",
-    "SYSTEM_RULES.md",
     "wiki/indexes/questions_index.tmp",
     "wiki/indexes/sources_index.tmp",
     "update_indexes.py",

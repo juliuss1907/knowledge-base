@@ -207,6 +207,7 @@
   },
   "active": "1e02e10ba17d4840",
   "lastOpenFiles": [
+    "raw/articles/2026-05-01_sciencex-snowball-earth.md",
     "raw/articles/2026-05-01_dailymail-jpmorgan-sex-abuse-lawsuit.md",
     "wiki/concepts/Hạ tầng cho Computer-Use Agents (Infrastructure for Computer-Use Agents).md",
     "wiki/sources/src_wired-taylor-swift-deepfake.md",
@@ -232,7 +233,6 @@
     "wiki/concepts/Lỗi định tuyến tính phí trong Claude Code (Claude Code Billing Bug).md",
     "wiki/concepts/An ninh năng lượng và Kinh tế chính trị.md",
     "wiki/sources/src_foreignpolicy-iran-economic-impact.md",
-    "wiki/concepts/Bảo mật Kernel Linux.md",
     "wiki/indexes/questions_index.tmp",
     "wiki/indexes/sources_index.tmp",
     "update_indexes.py",

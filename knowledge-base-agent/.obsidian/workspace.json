@@ -208,6 +208,11 @@
   },
   "active": "1e02e10ba17d4840",
   "lastOpenFiles": [
+    "questions_list.txt",
+    "reviews_list.txt",
+    "sources_list.txt",
+    "concepts_list.txt",
+    "concepts_tmp.md",
     "knowledge-base-personal/Content_Archive/Ocean-Warming-Marine-Predators.md",
     "knowledge-base-personal/Content_Archive/MCP-Crypto-Trading.md",
     "knowledge-base-personal/Content_Archive/llm-flinch.md",
@@ -232,8 +237,6 @@
     "agents/openclaw/HEARTBEAT.md",
     "agents/Hermes/IDENTITY.md",
     "SYSTEM_RULES.md",
-    "raw/articles/2026-04-23_unhappyben-crypto-offramp.md",
-    "wiki/reviews/2026-05-01_venus-exploration-review.md",
     "wiki/indexes/questions_index.tmp",
     "wiki/indexes/sources_index.tmp",
     "update_indexes.py",
@@ -242,10 +245,7 @@
     "knowledge-base-personal",
     "memory",
     "Untitled.canvas",
-    "Untitled.base",
     "Untitled 1.canvas",
-    "Chưa đặt tên.canvas",
-    "Chưa đặt tên.base",
-    "Chưa đặt tên 1.base"
+    "Chưa đặt tên.canvas"
   ]
 }

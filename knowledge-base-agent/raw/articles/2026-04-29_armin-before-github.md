@@ -5,7 +5,8 @@ source_url: https://lucumr.pocoo.org/2026/4/28/before-github/
 date_ingested: 2026-04-29
 batch: morning
 tags: [#coding, #business]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # Before GitHub

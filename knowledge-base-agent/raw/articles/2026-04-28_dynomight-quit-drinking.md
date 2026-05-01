@@ -4,7 +4,8 @@ source_type: article
 source_url: https://dynomight.net/drinking/
 date_ingested: 2026-04-28
 tags: [#health, #mindset, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # I quit drinking for a year
 ## dynomight

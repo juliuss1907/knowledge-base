@@ -5,7 +5,8 @@ source_url: https://dev.to/cookcoco/i-built-an-open-source-tool-to-distill-books
 date_ingested: 2026-04-28
 batch: tech
 tags: [#ai, #coding, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # I built an open-source tool to distill books into knowledge graphs

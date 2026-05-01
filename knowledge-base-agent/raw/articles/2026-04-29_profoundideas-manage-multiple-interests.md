@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/profoundideas/p/this-is-how-you-can-properly-manage
 date_ingested: 2026-04-29
 tags: [#mindset, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # How to properly manage your multiple interests
 ## Profound Ideas

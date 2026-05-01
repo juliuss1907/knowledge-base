@@ -4,7 +4,8 @@ source_type: article
 source_url: https://rip.so/
 date_ingested: 2026-04-29
 tags: [#tech, #website-hay]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # ~ rip.so :: the digital graveyard ~
 

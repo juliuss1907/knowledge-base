@@ -5,7 +5,8 @@ source_url: https://foreignpolicy.com/2026/04/29/gopinath-foreign-policy-live-fp
 date_ingested: 2026-04-30
 tags: [#research]
 batch: morning
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # Tác động kinh tế toàn cầu từ xung đột Iran

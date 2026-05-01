@@ -5,7 +5,8 @@ source_url: https://www.aljazeera.com/economy/2026/4/29/musk-accuses-altman-of-b
 date_ingested: 2026-04-30
 tags: [#ai, #business]
 batch: morning
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # Musk cáo buộc Altman phản bội sứ mệnh phi lợi nhuận của OpenAI

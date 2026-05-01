@@ -4,7 +4,8 @@ source_type: article
 source_url: https://substack.com/inbox/post/193547751
 date_ingested: 2026-04-29
 tags: [#mindset, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # Romanticize your inner life (Fall in love with your mind again)
 ## The Thinking Arc

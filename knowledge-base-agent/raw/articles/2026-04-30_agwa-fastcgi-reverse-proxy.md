@@ -5,7 +5,8 @@ source_url: https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_r
 date_ingested: 2026-04-30
 tags: [#tech, #coding]
 batch: morning
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # FastCGI vẫn là giao thức tốt hơn cho Reverse Proxy sau 30 năm

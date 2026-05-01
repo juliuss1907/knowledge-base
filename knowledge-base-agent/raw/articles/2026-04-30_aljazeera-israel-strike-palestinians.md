@@ -5,7 +5,8 @@ source_url: https://www.aljazeera.com/video/newsfeed/2026/4/29/cctv-footage-show
 date_ingested: 2026-04-30
 tags: [#research]
 batch: morning
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # CCTV ghi lại khoảnh khắc Israel không kích người Palestine

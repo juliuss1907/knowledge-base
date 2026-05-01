@@ -5,7 +5,8 @@ source_url: https://www.wired.com/story/kathleen-fisher-jacques-carolan-aria-wir
 date_ingested: 2026-04-29
 batch: morning
 tags: [#research, #health]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # The UK's Answer to Darpa Wants to Rewire the Human Brain

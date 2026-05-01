@@ -5,7 +5,8 @@ source_url: https://copy.fail/
 date_ingested: 2026-04-30
 tags: [#tech, #underthehood]
 batch: morning
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # Lỗ hổng Kernel Linux CVE-2026-31431 chưa được vá

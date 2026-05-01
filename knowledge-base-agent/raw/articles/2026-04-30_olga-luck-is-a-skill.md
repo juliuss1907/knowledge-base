@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.youtube.com/watch?v=1IVONei5wz8
 date_ingested: 2026-04-30
 tags: [#mindset, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # May mắn là một kỹ năng — Dựa trên nghiên cứu của Richard Wiseman
 ## Olga Loiek

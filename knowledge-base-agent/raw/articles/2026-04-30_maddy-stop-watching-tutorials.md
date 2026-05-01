@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.youtube.com/watch?v=8o3tBmr3vNE
 date_ingested: 2026-04-30
 tags: [#coding, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # Stop Watching Tutorials. Do This Instead
 ## Maddy Zhang

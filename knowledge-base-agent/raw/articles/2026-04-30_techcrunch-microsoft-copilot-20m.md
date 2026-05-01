@@ -5,7 +5,8 @@ source_url: https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-pai
 date_ingested: 2026-04-30
 tags: [#ai, #business]
 batch: morning
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # Microsoft đạt mốc 20 triệu người dùng Copilot trả phí

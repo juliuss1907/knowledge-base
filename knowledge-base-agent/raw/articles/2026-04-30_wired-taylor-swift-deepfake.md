@@ -5,7 +5,8 @@ source_url: https://www.wired.co.uk/article/taylor-swift-trademark-image-deepfak
 date_ingested: 2026-04-30
 tags: [#ai, #research]
 batch: morning
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # Taylor Swift muốn đăng ký nhãn hiệu hình ảnh vì quảng cáo Deepfake trên TikTok

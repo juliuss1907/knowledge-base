@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/profoundideas/p/how-to-use-ai-to-learn-and-do-anything
 date_ingested: 2026-04-30
 tags: [#ai, #productivity, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # Cách dùng AI để học nhanh hơn 10 lần
 ## Craig Perry (Profound Ideas)

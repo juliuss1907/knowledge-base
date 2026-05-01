@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/ixcarus/p/game-theory-will-change-your-life
 date_ingested: 2026-04-30
 tags: [#research, #mindset]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # Game Theory Will Change Your Life
 ## ixcarus

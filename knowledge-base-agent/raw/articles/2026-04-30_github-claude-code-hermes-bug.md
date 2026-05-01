@@ -5,7 +5,8 @@ source_url: https://github.com/anthropics/claude-code/issues/53262
 date_ingested: 2026-04-30
 tags: [#ai, #coding]
 batch: morning
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 approved_by: julius
 ---
 # Lỗi HERMES.md trong Claude Code gây tính phí sai

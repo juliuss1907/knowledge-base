@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/trycua/cua
 date_ingested: 2026-04-29
 tags: [#ai, #coding]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # CUA — Computer-Use Agents Infrastructure
 ## trycua

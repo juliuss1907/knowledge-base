@@ -4,7 +4,8 @@ source_type: article
 source_url: https://openscreen.vercel.app/
 date_ingested: 2026-04-30
 tags: [#tech, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-05-01
 ---
 # Open Screen — Free Screen Recording Tool
 

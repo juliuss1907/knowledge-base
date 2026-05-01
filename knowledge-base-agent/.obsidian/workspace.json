@@ -11,14 +11,10 @@
             "id": "1e02e10ba17d4840",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/2026-04-23_unhappyben-crypto-offramp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-23_unhappyben-crypto-offramp"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c23a325a9dd42f2e",
@@ -207,6 +204,13 @@
   },
   "active": "1e02e10ba17d4840",
   "lastOpenFiles": [
+    "wiki/indexes/concepts_index.md",
+    "wiki/concepts/WSL9x.md",
+    "agents/openclaw/IDENTITY.md",
+    "agents/openclaw/HEARTBEAT.md",
+    "agents/Hermes/IDENTITY.md",
+    "SYSTEM_RULES.md",
+    "raw/articles/2026-04-23_unhappyben-crypto-offramp.md",
     "wiki/reviews/2026-05-01_venus-exploration-review.md",
     "wiki/reviews/2026-05-01_user-agent-cho-ai-review.md",
     "wiki/reviews/2026-05-01_tu-duy-thiet-ke-dua-tren-rang-buoc-review.md",
@@ -226,13 +230,6 @@
     "wiki/reviews/2026-05-01_continual-learning-review.md",
     "wiki/reviews/2026-05-01_carcheck-vn-review.md",
     "wiki/reviews/2026-05-01_camoufox-review.md",
-    "wiki/reviews/2026-05-01_ai-editorial-policy-review.md",
-    "wiki/reviews/2026-05-01_agent-vault-review.md",
-    "wiki/reviews/2026-05-01_agent-reach-review.md",
-    "wiki/reviews/2026-05-01_Xung đột Israel-Palestine-review.md",
-    "wiki/reviews/2026-05-01_Xe tự lái và An toàn cộng đồng (Self-Driving Cars & Public Safety)-review.md",
-    "wiki/reviews/2026-05-01_WSL9x-review.md",
-    "wiki/reviews/2026-05-01_Vượt qua Tutorial Hell (Escaping Tutorial Hell)-review.md",
     "wiki/indexes/questions_index.tmp",
     "wiki/indexes/sources_index.tmp",
     "update_indexes.py",

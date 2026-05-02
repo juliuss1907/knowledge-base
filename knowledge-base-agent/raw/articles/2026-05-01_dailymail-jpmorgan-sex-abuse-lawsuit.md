@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.dailymail.com/news/article-15776897/JPMorgan-executive-banker-sex-abuse-lawsuit-new-york.html
 date_ingested: 2026-05-01
 tags: [#business]
-status: unprocessed
+status: processed
+processed_date: 2026-05-02
 ---
 # JPMorgan bị kiện vì quấy rối và lạm dụng tình dục nhân viên
 ## Daily Mail

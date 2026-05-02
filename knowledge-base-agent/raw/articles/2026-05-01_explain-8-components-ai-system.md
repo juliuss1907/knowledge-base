@@ -4,7 +4,8 @@ source_type: article
 source_url: 
 date_ingested: 2026-05-01
 tags: [#ai, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-05-02
 ---
 
 # Giải thích chi tiết hệ thống 8 thành phần di động trong AI

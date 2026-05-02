@@ -4,7 +4,8 @@ source_type: article
 source_url: https://x.com/i/status/2048745108582105155
 date_ingested: 2026-05-01
 tags: [#ai, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-05-02
 ---
 
 # Thoát khỏi "cuộc chiến chi phí AI" — Cách duy nhất để không bị rate limit dìm chết

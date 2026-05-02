@@ -4,7 +4,8 @@ source_type: article
 source_url: https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/
 date_ingested: 2026-05-01
 tags: [#ai, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-02
 ---
 
 # After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too

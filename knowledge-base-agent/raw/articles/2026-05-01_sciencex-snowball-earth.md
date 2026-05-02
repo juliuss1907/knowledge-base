@@ -4,7 +4,8 @@ source_type: article
 source_url: https://sciencex.com/news/2026-04-snowball-earth-stranger-climate.html
 date_ingested: 2026-05-01
 tags: [#research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-02
 ---
 # Snowball Earth có thể ẩn giấu một chu kỳ khí hậu lạ hơn ai tưởng
 ## Science X

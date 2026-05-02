@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.coindesk.com/business/2026/05/01/tether-posts-usd1-04-billion-q1-profit-reaches-usd8-23-billion-reserve-buffer
 date_ingested: 2026-05-02
 tags: [#crypto, #finance]
-status: unprocessed
+status: processed
+processed_date: 2026-05-02
 ---
 
 # Tether lãi $1.04 tỷ Q1/2026, dự trữ đạt kỷ lục $8.23 tỷ

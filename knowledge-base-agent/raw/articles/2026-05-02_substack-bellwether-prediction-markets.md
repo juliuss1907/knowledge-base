@@ -4,7 +4,8 @@ source_type: article
 source_url: https://freesystems.substack.com/p/bellwether-building-trust-in-prediction
 date_ingested: 2026-05-02
 tags: [#crypto, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-02
 ---
 
 # Bellwether — Xây dựng niềm tin vào giá prediction market

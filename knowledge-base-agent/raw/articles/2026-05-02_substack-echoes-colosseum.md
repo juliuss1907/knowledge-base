@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/pmamtraveller/p/echoes-of-the-colosseum
 date_ingested: 2026-05-02
 tags: [#research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-02
 ---
 
 # Tiếng vọng từ Đấu trường La Mã — Sự thật đen tối đằng sau trò giải trí

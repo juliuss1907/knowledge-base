@@ -208,6 +208,7 @@
   },
   "active": "1e02e10ba17d4840",
   "lastOpenFiles": [
+    "raw/articles/2026-05-02_coindesk-tether-q1-2026-profit.md",
     "raw/articles/2026-05-01_explain-8-components-ai-system.md",
     "raw/articles/2026-05-01_x_gideon-ng-escape-ai-cost-war.md",
     "raw/articles/2026-05-01_techcrunch-openai-cyber-restricts-access.md",
@@ -237,7 +238,6 @@
     "wiki/concepts/Vượt qua Tutorial Hell (Escaping Tutorial Hell).md",
     "wiki/concepts/WSL9x.md",
     "agents/openclaw/IDENTITY.md",
-    "agents/openclaw/HEARTBEAT.md",
     "wiki/indexes/questions_index.tmp",
     "wiki/indexes/sources_index.tmp",
     "update_indexes.py",

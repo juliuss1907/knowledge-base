@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-03T02:20:13.430Z",
+  "entries": {
+    "memory:memory/2026-04-24.md:1:38": {
+      "key": "memory:memory/2026-04-24.md:1:38",
+      "path": "memory/2026-04-24.md",
+      "startLine": 1,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "# Memory — 2026-04-24 ## Phiên làm việc sáng 24/04 ### Compile Daily (08:03) - Run thành công sau khi retry - Model: `gemma-4-26b-a4b-it` (rate limit fallback) - Duration: ~62 giây ### Horizon Morning Brief - Chạy thành công sau nhiều lần retry (GitHub Actions của repo Horizon có vấn đề deploy) - Nội dung có mục ransomware \"crypto\" — là **cryptography** (mật mã), không phải cryptocurrency. Đúng vị trí trong mục QUÂN SỰ & QUỐC PHÒNG. ### Repo summarized: Infisical/agent-vault - URL: https://github.com/Infisical/agent-vault - Là HTTP credential proxy cho AI agents - MIT license - Brokered access pattern — credentials không bao giờ reveal cho agent - Ports: 14321 (API), 14322 (TLS proxy) -",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4501344472169876,
+      "maxScore": 0.4501344472169876,
+      "firstRecalledAt": "2026-05-03T02:20:13.430Z",
+      "lastRecalledAt": "2026-05-03T02:20:13.430Z",
+      "queryHashes": [
+        "d3f37f112f1e"
+      ],
+      "recallDays": [
+        "2026-05-03"
+      ],
+      "conceptTags": [
+        "24/04",
+        "gemma-4-26b-a4b-it",
+        "infisical/agent-vault",
+        "github.com/infisical/agent-vault",
+        "phiên",
+        "làm",
+        "việc",
+        "sáng"
+      ]
+    }
+  }
+}

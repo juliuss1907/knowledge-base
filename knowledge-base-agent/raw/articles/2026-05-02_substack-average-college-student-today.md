@@ -4,7 +4,8 @@ source_type: article
 source_url: https://hilariusbookbinder.substack.com/p/the-average-college-student-today
 date_ingested: 2026-05-02
 tags: [#research, #mindset]
-status: unprocessed
+status: processed
+processed_date: 2026-05-03
 ---
 
 # Sinh viên đại học trung bình ngày nay — Khi nền giáo dục gặp khủng hoảng

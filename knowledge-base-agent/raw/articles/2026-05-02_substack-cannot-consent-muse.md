@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/pmamtraveller/p/you-cannot-consent-to-being-someones
 date_ingested: 2026-05-02
 tags: [#research, #mindset]
-status: unprocessed
+status: processed
+processed_date: 2026-05-03
 ---
 
 # Bạn không thể đồng ý trở thành nàng thơ của ai đó — Bài học từ Dante và Beatrice

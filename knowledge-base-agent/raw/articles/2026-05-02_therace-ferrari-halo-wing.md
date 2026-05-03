@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.the-race.com/formula-1/ferrari-halo-wing-miami-gp-f1-legal-2027-ban/
 date_ingested: 2026-05-02
 tags: [#nature]
-status: unprocessed
+status: processed
+processed_date: 2026-05-03
 ---
 
 # Tại sao "cánh gió halo" của Ferrari hợp lệ ở Miami GP nhưng sẽ bị cấm từ 2027

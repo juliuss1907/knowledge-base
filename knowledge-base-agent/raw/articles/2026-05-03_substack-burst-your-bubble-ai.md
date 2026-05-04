@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/davidwsilva/p/im-sorry-to-burst-your-bubble-you
 date_ingested: 2026-05-03
 tags: [#ai, #mindset]
-status: unprocessed
+status: processed
+processed_date: 2026-05-04
 ---
 
 # I'm Sorry to Burst Your Bubble: You Are Being Fooled About AI

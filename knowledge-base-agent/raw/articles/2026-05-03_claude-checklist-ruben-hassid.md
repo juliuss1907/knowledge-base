@@ -4,7 +4,8 @@ source_type: article
 source_url: https://how-to-ai.guide
 date_ingested: 2026-05-03
 tags: [#ai, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-05-04
 ---
 
 # Claude Checklist — Ruben Hassid

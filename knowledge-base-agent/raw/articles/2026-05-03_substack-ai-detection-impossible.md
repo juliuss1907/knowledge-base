@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/davidwsilva/p/ai-learned-to-write-like-you-detection
 date_ingested: 2026-05-03
 tags: [#ai, #research]
-status: unprocessed
+status: processed
+processed_date: 2026-05-04
 ---
 
 # AI Đã Học Viết Như Bạn. Phát Hiện Về Mặt Toán Học Là Bất Khả Thi

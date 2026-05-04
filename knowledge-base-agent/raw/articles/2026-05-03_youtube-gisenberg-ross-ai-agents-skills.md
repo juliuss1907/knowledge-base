@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.youtube.com/watch?v=S_oN3vlzpMw
 date_ingested: 2026-05-03
 tags: [#ai, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-05-04
 ---
 
 # Tối ưu hóa AI Agents — Greg Isenberg x Ross Mike

@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.youtube.com/watch?v=wA4yXPOEOsQ
 date_ingested: 2026-05-03
 tags: [#business, #mindset]
-status: unprocessed
+status: processed
+processed_date: 2026-05-04
 ---
 
 # Cách Thực Sự Kiếm Tiền Trực Tuyến Năm 2026 — Dan Martell

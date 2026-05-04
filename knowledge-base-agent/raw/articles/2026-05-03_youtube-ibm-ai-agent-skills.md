@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.youtube.com/watch?v=Lg-meK5IU8Q
 date_ingested: 2026-05-03
 tags: [#ai]
-status: unprocessed
+status: processed
+processed_date: 2026-05-04
 ---
 
 # Kỹ năng của Đại lý AI (AI Agent Skills) — IBM Technology

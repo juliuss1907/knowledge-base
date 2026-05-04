@@ -4,7 +4,8 @@ source_type: article
 source_url: https://www.youtube.com/watch?v=???
 date_ingested: 2026-05-03
 tags: [#ai]
-status: unprocessed
+status: processed
+processed_date: 2026-05-04
 ---
 
 # Skills vs Agents — Tư duy mới trong phát triển AI

@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/aattaran/deepclaude
 date_ingested: 2026-05-04
 tags: [#ai, #coding]
-status: unprocessed
+status: processed
+processed_date: 2026-05-05
 ---
 
 # deepclaude — Use Claude Code with DeepSeek V4 Pro

@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/raydalio/p/the-concept-and-mechanics-of-an-all
 date_ingested: 2026-05-04
 tags: [#finance, #investment]
-status: unprocessed
+status: processed
+processed_date: 2026-05-05
 ---
 
 # The Concept and Mechanics of an All Weather Portfolio — Ray Dalio

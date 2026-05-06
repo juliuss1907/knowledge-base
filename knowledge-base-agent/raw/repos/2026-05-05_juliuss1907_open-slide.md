@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/juliuss1907/open-slide
 date_ingested: 2026-05-05
 tags: [#ai, #coding]
-status: unprocessed
+status: processed
+processed_date: 2026-05-06
 ---
 
 # Open Slide — A Slide Framework Built for Agents

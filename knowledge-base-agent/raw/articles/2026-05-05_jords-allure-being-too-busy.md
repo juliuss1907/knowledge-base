@@ -4,7 +4,8 @@ source_type: article
 source_url: https://jords.life/p/the-allure-of-being-too-busy
 date_ingested: 2026-05-05
 tags: [#mindset, #productivity]
-status: unprocessed
+status: processed
+processed_date: 2026-05-06
 ---
 
 # The Allure of Being Too Busy — Jords

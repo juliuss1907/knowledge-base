@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/CJackHwang/ds2api
 date_ingested: 2026-05-05
 tags: [#coding, #ai]
-status: unprocessed
+status: processed
+processed_date: 2026-05-06
 ---
 
 # DS2API — DeepSeek-Compatible Middleware Interface

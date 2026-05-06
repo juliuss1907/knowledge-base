@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/thewilltobanter/p/the-problem-with-gen-z-in-the-workplace
 date_ingested: 2026-05-05
 tags: [#mindset, #business]
-status: unprocessed
+status: processed
+processed_date: 2026-05-06
 ---
 
 # The Problem with Gen-Z in the Workplace — The Will to Banter

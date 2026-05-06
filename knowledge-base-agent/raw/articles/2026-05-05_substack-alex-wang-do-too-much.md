@@ -4,7 +4,8 @@ source_type: article
 source_url: https://substack.com/home/post/p-149929791
 date_ingested: 2026-05-05
 tags: [#business, #mindset]
-status: unprocessed
+status: processed
+processed_date: 2026-05-06
 ---
 
 # DO TOO MUCH — Alexandr Wang (Scale AI)

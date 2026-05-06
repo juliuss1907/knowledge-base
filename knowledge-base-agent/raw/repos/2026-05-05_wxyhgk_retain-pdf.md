@@ -4,7 +4,8 @@ source_type: repo
 source_url: https://github.com/wxyhgk/retain-pdf
 date_ingested: 2026-05-05
 tags: [#coding, #ai]
-status: unprocessed
+status: processed
+processed_date: 2026-05-06
 ---
 
 # RetainPDF — PDF 保留排版翻译工具

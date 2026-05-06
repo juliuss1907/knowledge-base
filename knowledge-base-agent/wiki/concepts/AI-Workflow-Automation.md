@@ -5,8 +5,14 @@ tags: [#ai, #productivity]
 ---
 # Tự động hóa Workflow AI (AI Workflow Automation)
 
-## Mô tả
-Việc chuyển đổi các tác vụ lặp lặp lại thành các quy trình vận hành tiêu chuẩn (SOPs) dưới dạng các file Skill (.md), cho phép bất kỳ mô hình ngôn ngữ lớn (LLM) nào cũng có thể thực thi và tạo ra kết quả đồng nhất.
+## Nội dung chính
+- **SOP hóa tác vụ**: Chuyển đổi các tác vụ lặp lặp lại thành các file Skill (.md), cho phép LLM thực thi đồng nhất.
+- **Mô hình Librarian (Librarian Model)**: Một workflow AI nâng cao thay thế việc "hỏi-đáp-quên" bằng quy trình: 
+    `Dữ liệu thô (raw/)` $\rightarrow$ `AI compile (wiki/)` $\rightarrow$ `Truy vấn dựa trên tri thức tích lũy`. 
+    Điều này biến AI thành một thủ thư quản lý bộ não thứ hai thay vì một máy trả lời đơn thuần.
+- **Vòng lặp Memory (Memory Loop)**: Quy trình tối ưu hóa tri thức:
+    `Daily cron jobs` $\rightarrow$ `Hindsight (Thu thập insight)` $\rightarrow$ `Synthesis (Tổng hợp pattern)`.
+    Cho phép AI không chỉ lưu trữ mà còn tự rút ra kết luận từ dữ liệu theo thời gian.
 
 ## Liên quan
 - Thiết kế hệ thống AI cá nhân

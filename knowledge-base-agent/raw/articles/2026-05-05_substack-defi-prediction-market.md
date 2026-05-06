@@ -4,7 +4,8 @@ source_type: article
 source_url: https://open.substack.com/pub/defi0xjeff/p/the-start-of-defi-on-prediction-market
 date_ingested: 2026-05-05
 tags: [#crypto, #finance]
-status: unprocessed
+status: processed
+processed_date: 2026-05-06
 ---
 
 # The Start of DeFi on Prediction Market — DeFi 0xJeff

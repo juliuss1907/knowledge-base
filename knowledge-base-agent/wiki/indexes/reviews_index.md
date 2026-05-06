@@ -70,3 +70,4 @@
 - [[reviews/2026-05-01_WSL9x-review.md]]
 - [[reviews/2026-05-01_Xe tự lái và An toàn cộng đồng (Self-Driving Cars & Public Safety)-review.md]]
 - [[reviews/2026-05-01_Xung đột Israel-Palestine-review.md]]
+- [[reviews/_pending.md]]

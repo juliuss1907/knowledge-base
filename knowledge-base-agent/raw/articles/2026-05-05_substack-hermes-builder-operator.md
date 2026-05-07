@@ -5,7 +5,7 @@ source_url: https://open.substack.com/pub/defi0xjeff/p/1-month-with-hermes-ive-b
 date_ingested: 2026-05-05
 tags: [#ai, #productivity]
 status: processed
-processed_date: 2026-05-06
+processed_date: 2026-05-07
 ---
 
 # 1 Month with Hermes — I've Been Using Hermes Wrong All Along — DeFi 0xJeff

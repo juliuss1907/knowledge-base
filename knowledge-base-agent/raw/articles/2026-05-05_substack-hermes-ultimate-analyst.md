@@ -5,7 +5,7 @@ source_url: https://open.substack.com/pub/defi0xjeff/p/hermes-as-the-ultimate-an
 date_ingested: 2026-05-05
 tags: [#ai, #finance]
 status: processed
-processed_date: 2026-05-06
+processed_date: 2026-05-07
 ---
 
 # Hermes as the Ultimate Analyst — DeFi 0xJeff

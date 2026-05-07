@@ -5,7 +5,7 @@ source_url: https://jords.life/p/the-allure-of-being-too-busy
 date_ingested: 2026-05-05
 tags: [#mindset, #productivity]
 status: processed
-processed_date: 2026-05-06
+processed_date: 2026-05-07
 ---
 
 # Quote: "All of humanity's problems stem from man's inability to sit quietly in a room alone"

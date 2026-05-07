@@ -5,7 +5,7 @@ source_url: https://stitch.withgoogle.com/docs/design-md/overview
 date_ingested: 2026-05-05
 tags: [#coding, #ai]
 status: processed
-processed_date: 2026-05-06
+processed_date: 2026-05-07
 note: Documentation about DESIGN.md from Google Stitch - requires JavaScript to view full content
 ---
 

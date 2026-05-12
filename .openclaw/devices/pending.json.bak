@@ -1,0 +1,26 @@
+{
+  "80f97fcc-ca4d-4632-99d5-e4c6c3ff39ae": {
+    "requestId": "80f97fcc-ca4d-4632-99d5-e4c6c3ff39ae",
+    "deviceId": "25fb03d647b41d746b4ea7d310e4801feb65862d531415610f34f30c763b70b0",
+    "publicKey": "f4L2ZWGUAt0ZmC6IMM7x45ycu5YkmJ5QzJQlMF2iY50",
+    "displayName": "Telegram Native Approvals (default)",
+    "platform": "linux",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.approvals",
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.pairing",
+      "operator.talk.secrets"
+    ],
+    "silent": false,
+    "isRepair": true,
+    "ts": 1776674695917
+  }
+}

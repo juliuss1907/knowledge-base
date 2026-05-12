@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "lastGood": {
+    "minimax": "minimax:global",
+    "google": "google:default",
+    "opencode-go": "opencode-go:default"
+  },
+  "usageStats": {
+    "minimax:global": {
+      "errorCount": 0,
+      "lastUsed": 1778551053871
+    },
+    "google:default": {
+      "errorCount": 0,
+      "lastUsed": 1778551144069,
+      "lastFailureAt": 1777773774572
+    },
+    "opencode-go:default": {
+      "errorCount": 0,
+      "lastUsed": 1778554758938
+    }
+  }
+}

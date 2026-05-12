@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "9e327388-56ed-4972-991b-62089a6020aa",
+      "name": "Compile Daily",
+      "enabled": true,
+      "createdAtMs": 1776675030504,
+      "updatedAtMs": 1776819761803,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run Compile Agent: scan raw/ for unprocessed files and compile to wiki/",
+        "model": "google/gemma-4-31b-it"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776906000000,
+        "lastRunAtMs": 1776819600009,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 161794,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "76cc86e3-5c15-41d7-b82c-bfdef051b783",
+      "name": "Index Update",
+      "enabled": true,
+      "createdAtMs": 1776675202032,
+      "updatedAtMs": 1776787782061,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run Index Agent: update all wiki/ index files",
+        "model": "google/gemma-4-31b-it"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776866400000,
+        "lastRunAtMs": 1776780000017,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 112607,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 2,
+        "lastError": "LLM error: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Function calling is not enabled for models/gemma-3-27b-it\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}",
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "22cfcce5-3f46-4239-992a-2d52d9aca277",
+      "name": "Git Auto-commit",
+      "enabled": true,
+      "createdAtMs": 1776675237213,
+      "updatedAtMs": 1776787780854,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run git add, commit with today's date, and push all changes to origin main",
+        "model": "google/gemma-4-31b-it",
+        "toolsAllow": [
+          "exec"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776870000000,
+        "lastRunAtMs": 1776783600013,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 21473,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "00bcf5c4-0a7c-4276-b568-0bcd6fd82b31",
+      "name": "Weekly Health Check",
+      "enabled": true,
+      "createdAtMs": 1776675604920,
+      "updatedAtMs": 1776675604920,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * 5",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run Health Check Agent: check raw/ backlog and wiki/concepts/ link integrity, write report to agents/openclaw/memory/health-check.md"
+      },
+      "state": {
+        "nextRunAtMs": 1777024800000
+      }
+    }
+  ]
+}

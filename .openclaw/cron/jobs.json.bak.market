@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "9e327388-56ed-4972-991b-62089a6020aa",
+      "name": "Compile Daily",
+      "enabled": true,
+      "createdAtMs": 1776675030504,
+      "updatedAtMs": 1776819761803,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run Compile Agent: scan raw/ for unprocessed files and compile to wiki/",
+        "model": "google/gemma-4-31b-it"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776906000000,
+        "lastRunAtMs": 1776819600009,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 161794,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "76cc86e3-5c15-41d7-b82c-bfdef051b783",
+      "name": "Index Update",
+      "enabled": true,
+      "createdAtMs": 1776675202032,
+      "updatedAtMs": 1776787782061,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run Index Agent: update all wiki/ index files",
+        "model": "google/gemma-4-31b-it"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776866400000,
+        "lastRunAtMs": 1776780000017,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 112607,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 2,
+        "lastError": "LLM error: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Function calling is not enabled for models/gemma-3-27b-it\",\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}",
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "22cfcce5-3f46-4239-992a-2d52d9aca277",
+      "name": "Git Auto-commit",
+      "enabled": true,
+      "createdAtMs": 1776675237213,
+      "updatedAtMs": 1776787780854,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run git add, commit with today's date, and push all changes to origin main",
+        "model": "google/gemma-4-31b-it",
+        "toolsAllow": [
+          "exec"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776870000000,
+        "lastRunAtMs": 1776783600013,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 21473,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
+      }
+    },
+    {
+      "id": "00bcf5c4-0a7c-4276-b568-0bcd6fd82b31",
+      "name": "Weekly Health Check",
+      "enabled": true,
+      "createdAtMs": 1776675604920,
+      "updatedAtMs": 1776675604920,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * 5",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run Health Check Agent: check raw/ backlog and wiki/concepts/ link integrity, write report to agents/openclaw/memory/health-check.md"
+      },
+      "state": {
+        "nextRunAtMs": 1777024800000
+      }
+    },
+    {
+      "id": "a1b2c3d4-1111-4000-a000-000000000001",
+      "name": "Horizon Morning Brief",
+      "enabled": true,
+      "createdAtMs": 1776900000000,
+      "updatedAtMs": 1776900000000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "50 6 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run News Digest Agent for batch: morning\n\n1. Determine today's date in YYYY-MM-DD format.\n2. Use web fetch to retrieve the Markdown file from: https://juliuss1907.github.io/Horizon/horizon-{today}-morning-vi.md\n   - If the Vietnamese version returns 404, try: https://juliuss1907.github.io/Horizon/horizon-{today}-morning-en.md\n   - If both return 404, report: '❌ Horizon morning report not available yet. GitHub Actions may still be running.'\n3. If the fetch succeeds, format the content as follows:\n   - Start with: 🌅 MORNING BRIEF — Thế Giới & AI\n   - Add: 📅 {today's date}\n   - Add a separator line: ──────────────────────────────\n   - Include the full fetched Markdown content (clean up excessive blank lines)\n   - End with separator and: Reply \"lưu [số]\" để ingest | \"lưu all\" | \"skip\"\n4. Send the formatted message as your response.",
+        "model": "minimax/MiniMax-M2.7"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776901800000
+      }
+    },
+    {
+      "id": "a1b2c3d4-2222-4000-a000-000000000002",
+      "name": "Horizon Crypto Brief",
+      "enabled": true,
+      "createdAtMs": 1776900000000,
+      "updatedAtMs": 1776900000000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "50 8 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run News Digest Agent for batch: crypto\n\n1. Determine today's date in YYYY-MM-DD format.\n2. Use web fetch to retrieve the Markdown file from: https://juliuss1907.github.io/Horizon/horizon-{today}-crypto-vi.md\n   - If the Vietnamese version returns 404, try: https://juliuss1907.github.io/Horizon/horizon-{today}-crypto-en.md\n   - If both return 404, report: '❌ Horizon crypto report not available yet. GitHub Actions may still be running.'\n3. If the fetch succeeds, format the content as follows:\n   - Start with: 💰 CRYPTO BRIEF — Tin Tức & Gọi Vốn\n   - Add: 📅 {today's date}\n   - Add a separator line: ──────────────────────────────\n   - Include the full fetched Markdown content (clean up excessive blank lines)\n   - End with separator and: Reply \"lưu [số]\" để ingest | \"lưu all\" | \"skip\"\n4. Send the formatted message as your response.",
+        "model": "minimax/MiniMax-M2.7"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776909000000
+      }
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-a000-000000000003",
+      "name": "Horizon Tech Brief",
+      "enabled": true,
+      "createdAtMs": 1776900000000,
+      "updatedAtMs": 1776900000000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "50 12 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run News Digest Agent for batch: tech\n\n1. Determine today's date in YYYY-MM-DD format.\n2. Use web fetch to retrieve the Markdown file from: https://juliuss1907.github.io/Horizon/horizon-{today}-tech-vi.md\n   - If the Vietnamese version returns 404, try: https://juliuss1907.github.io/Horizon/horizon-{today}-tech-en.md\n   - If both return 404, report: '❌ Horizon tech report not available yet. GitHub Actions may still be running.'\n3. If the fetch succeeds, format the content as follows:\n   - Start with: 💻 TECH BRIEF — Công Nghệ & Startup\n   - Add: 📅 {today's date}\n   - Add a separator line: ──────────────────────────────\n   - Include the full fetched Markdown content (clean up excessive blank lines)\n   - End with separator and: Reply \"lưu [số]\" để ingest | \"lưu all\" | \"skip\"\n4. Send the formatted message as your response.",
+        "model": "minimax/MiniMax-M2.7"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776923400000
+      }
+    },
+    {
+      "id": "a1b2c3d4-4444-4000-a000-000000000004",
+      "name": "Horizon F1 Brief",
+      "enabled": true,
+      "createdAtMs": 1776900000000,
+      "updatedAtMs": 1776851434657,
+      "schedule": {
+        "kind": "cron",
+        "expr": "50 16 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run News Digest Agent for batch: f1\n\n1. Determine today's date in YYYY-MM-DD format.\n2. Use web fetch to retrieve the Markdown file from: https://juliuss1907.github.io/Horizon/horizon-{today}-f1-vi.md\n   - If the Vietnamese version returns 404, try: https://juliuss1907.github.io/Horizon/horizon-{today}-f1-en.md\n   - If both return 404, report: '❌ Horizon F1 report not available yet. GitHub Actions may still be running.'\n3. If the fetch succeeds, format the content as follows:\n   - Start with: 🏎️ F1 BRIEF — Formula 1\n   - Add: 📅 {today's date}\n   - Add a separator line: ──────────────────────────────\n   - Include the full fetched Markdown content (clean up excessive blank lines)\n   - End with separator and: Reply \"lưu [số]\" để ingest | \"lưu all\" | \"skip\"\n4. Send the formatted message as your response.",
+        "model": "minimax/MiniMax-M2.7"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776937800000,
+        "lastRunAtMs": 1776851400018,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 34639,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "a1b2c3d4-5555-4000-a000-000000000005",
+      "name": "Horizon Evening Reads",
+      "enabled": true,
+      "createdAtMs": 1776900000000,
+      "updatedAtMs": 1776900000000,
+      "schedule": {
+        "kind": "cron",
+        "expr": "50 20 * * *",
+        "tz": "Asia/Ho_Chi_Minh"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run News Digest Agent for batch: evening\n\n1. Determine today's date in YYYY-MM-DD format.\n2. Use web fetch to retrieve the Markdown file from: https://juliuss1907.github.io/Horizon/horizon-{today}-evening-vi.md\n   - If the Vietnamese version returns 404, try: https://juliuss1907.github.io/Horizon/horizon-{today}-evening-en.md\n   - If both return 404, report: '❌ Horizon evening report not available yet. GitHub Actions may still be running.'\n3. If the fetch succeeds, format the content as follows:\n   - Start with: 🌙 EVENING READS — Bài Hay Cuối Ngày\n   - Add: 📅 {today's date}\n   - Add a separator line: ──────────────────────────────\n   - Include the full fetched Markdown content (clean up excessive blank lines)\n   - End with separator and: Reply \"lưu [số]\" để ingest | \"lưu all\" | \"skip\"\n4. Send the formatted message as your response.",
+        "model": "minimax/MiniMax-M2.7"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "1370258715"
+      },
+      "state": {
+        "nextRunAtMs": 1776865800000
+      }
+    }
+  ]
+}

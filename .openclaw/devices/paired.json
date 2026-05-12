@@ -1,0 +1,47 @@
+{
+  "25fb03d647b41d746b4ea7d310e4801feb65862d531415610f34f30c763b70b0": {
+    "deviceId": "25fb03d647b41d746b4ea7d310e4801feb65862d531415610f34f30c763b70b0",
+    "publicKey": "f4L2ZWGUAt0ZmC6IMM7x45ycu5YkmJ5QzJQlMF2iY50",
+    "platform": "linux",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing",
+      "operator.talk.secrets"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing",
+      "operator.talk.secrets"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "adQr00z9irraSuRhrH2-g2F09vncGVTregkfSjj_RUA",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.talk.secrets",
+          "operator.write"
+        ],
+        "createdAtMs": 1776675030486
+      }
+    },
+    "createdAtMs": 1776675030486,
+    "approvedAtMs": 1776675030486,
+    "displayName": "gateway:sessions.list"
+  }
+}

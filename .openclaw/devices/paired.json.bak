@@ -1,0 +1,32 @@
+{
+  "25fb03d647b41d746b4ea7d310e4801feb65862d531415610f34f30c763b70b0": {
+    "deviceId": "25fb03d647b41d746b4ea7d310e4801feb65862d531415610f34f30c763b70b0",
+    "publicKey": "f4L2ZWGUAt0ZmC6IMM7x45ycu5YkmJ5QzJQlMF2iY50",
+    "platform": "linux",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read"
+    ],
+    "approvedScopes": [
+      "operator.read"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "HoW0JVFY5SnlMI_aRB4DQuUYMq-n7OimtiwY9KPZo-o",
+        "role": "operator",
+        "scopes": [
+          "operator.read"
+        ],
+        "createdAtMs": 1776659917923
+      }
+    },
+    "createdAtMs": 1776659917923,
+    "approvedAtMs": 1776659917923,
+    "displayName": "gateway:doctor.memory.status"
+  }
+}

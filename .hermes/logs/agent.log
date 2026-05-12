@@ -1,0 +1,73 @@
+2026-05-12 11:23:17,457 INFO tools.tirith_security: tirith not found — downloading latest release for x86_64-unknown-linux-gnu...
+2026-05-12 11:23:17,460 INFO gateway.run: Starting Hermes Gateway...
+2026-05-12 11:23:17,461 INFO gateway.run: Session storage: /home/julius/knowledge-base/.hermes/sessions
+2026-05-12 11:23:17,610 INFO gateway.run: Connecting to telegram...
+2026-05-12 11:23:17,888 INFO gateway.platforms.telegram_network: DoH discovery yielded no new IPs (system DNS: 149.154.166.110); using seed fallback IPs 149.154.167.220
+2026-05-12 11:23:17,888 INFO gateway.platforms.telegram: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.167.220
+2026-05-12 11:23:17,889 INFO gateway.platforms.telegram: [Telegram] Telegram fallback IPs active: 149.154.167.220
+2026-05-12 11:23:18,463 INFO telegram.ext.Application: Application started
+2026-05-12 11:23:19,484 INFO gateway.platforms.telegram: [Telegram] Telegram menu: 100 commands registered, 9 hidden (over 100 limit). Use /commands for full list.
+2026-05-12 11:23:19,485 INFO gateway.platforms.telegram: [Telegram] Connected to Telegram (polling mode)
+2026-05-12 11:23:19,495 INFO gateway.run: ✓ telegram connected
+2026-05-12 11:23:19,497 INFO gateway.run: 1 hook(s) loaded
+2026-05-12 11:23:19,498 INFO gateway.run: Gateway running with 1 platform(s)
+2026-05-12 11:23:19,502 INFO gateway.run: Channel directory built: 1 target(s)
+2026-05-12 11:23:19,503 INFO gateway.run: Press Ctrl+C to stop
+2026-05-12 11:23:19,506 INFO gateway.run: Cron ticker started (interval=60s)
+2026-05-12 11:23:19,751 INFO tools.tirith_security: cosign not on PATH — installing tirith with SHA-256 verification only (install cosign for full supply chain verification)
+2026-05-12 11:23:19,905 INFO tools.tirith_security: tirith installed to /home/julius/knowledge-base/.hermes/bin/tirith (SHA-256 only)
+2026-05-12 11:27:47,034 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1370258715 (5 chars)
+2026-05-12 11:27:47,035 INFO gateway.run: inbound message: platform=telegram user=Julius chat=1370258715 msg='hello'
+2026-05-12 11:27:48,576 INFO run_agent: Loaded environment variables from /home/julius/knowledge-base/.hermes/.env
+2026-05-12 11:27:48,576 INFO run_agent: Loaded environment variables from /home/julius/knowledge-base/.hermes/hermes-agent/.env
+2026-05-12 11:27:49,790 INFO agent.auxiliary_client: Vision auto-detect: using main provider opencode-go (glm-5)
+2026-05-12 11:27:49,989 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider opencode-go (glm-5)
+2026-05-12 11:27:53,581 INFO gateway.run: response ready: platform=telegram chat=1370258715 time=6.5s api_calls=1 response=41 chars
+2026-05-12 11:27:53,607 INFO gateway.platforms.base: [Telegram] Sending response (41 chars) to 1370258715
+2026-05-12 11:28:01,180 INFO gateway.run: Invalidated run generation for agent:main:telegram: → 2 (session_reset)
+2026-05-12 11:28:01,342 INFO gateway.platforms.base: [Telegram] Sending response (208 chars) to 1370258715
+2026-05-12 11:28:01,524 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider opencode-go (glm-5)
+2026-05-12 11:28:13,869 INFO gateway.platforms.base: [Telegram] Sending response (1859 chars) to 1370258715
+2026-05-12 11:28:17,054 INFO [20260501_211916_a960c82a] gateway.run: Pre-reset memory flush completed for session 20260501_211916_a960c82a
+2026-05-12 11:29:45,951 INFO gateway.run: Stopping gateway for restart...
+2026-05-12 11:29:46,617 INFO telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-12 11:29:46,617 INFO telegram.ext.Application: Application.stop() complete
+2026-05-12 11:29:46,619 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-12 11:29:46,619 INFO gateway.run: ✓ telegram disconnected
+2026-05-12 11:29:46,632 INFO gateway.run: Gateway stopped
+2026-05-12 11:29:46,632 INFO gateway.run: Cron ticker stopped
+2026-05-12 14:44:58,620 INFO agent.google_oauth: Google OAuth credentials saved to /home/julius/knowledge-base/.hermes/auth/google_oauth.json
+2026-05-12 19:11:24,259 INFO gateway.run: Starting Hermes Gateway...
+2026-05-12 19:11:24,259 INFO gateway.run: Session storage: /home/julius/knowledge-base/.hermes/sessions
+2026-05-12 19:11:24,262 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-05-12 19:11:24,364 INFO gateway.run: Connecting to telegram...
+2026-05-12 19:11:24,365 ERROR gateway.platforms.base: [Telegram] Telegram bot token already in use (PID 1196). Stop the other gateway first.
+2026-05-12 19:11:24,365 WARNING gateway.run: ✗ telegram failed to connect
+2026-05-12 19:11:24,366 INFO gateway.platforms.telegram: [Telegram] Disconnected from Telegram
+2026-05-12 19:11:24,366 ERROR gateway.run: Gateway hit a non-retryable startup conflict: telegram: Telegram bot token already in use (PID 1196). Stop the other gateway first.
+2026-05-12 19:11:24,367 ERROR gateway.run: Gateway exiting cleanly: telegram: Telegram bot token already in use (PID 1196). Stop the other gateway first.
+2026-05-12 19:12:57,971 INFO gateway.run: Starting Hermes Gateway...
+2026-05-12 19:12:57,971 INFO gateway.run: Session storage: /home/julius/knowledge-base/.hermes/sessions
+2026-05-12 19:12:58,080 INFO gateway.run: Connecting to telegram...
+2026-05-12 19:12:58,326 INFO gateway.platforms.telegram_network: DoH discovery yielded no new IPs (system DNS: 149.154.166.110); using seed fallback IPs 149.154.167.220
+2026-05-12 19:12:58,326 INFO gateway.platforms.telegram: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.167.220
+2026-05-12 19:12:58,327 INFO gateway.platforms.telegram: [Telegram] Telegram fallback IPs active: 149.154.167.220
+2026-05-12 19:12:59,100 INFO telegram.ext.Application: Application started
+2026-05-12 19:13:00,026 INFO gateway.platforms.telegram: [Telegram] Telegram menu: 100 commands registered, 9 hidden (over 100 limit). Use /commands for full list.
+2026-05-12 19:13:00,026 INFO gateway.platforms.telegram: [Telegram] Connected to Telegram (polling mode)
+2026-05-12 19:13:00,036 INFO gateway.run: ✓ telegram connected
+2026-05-12 19:13:00,037 INFO gateway.run: 1 hook(s) loaded
+2026-05-12 19:13:00,038 INFO gateway.run: Gateway running with 1 platform(s)
+2026-05-12 19:13:00,044 INFO gateway.run: Channel directory built: 1 target(s)
+2026-05-12 19:13:00,045 INFO gateway.run: Press Ctrl+C to stop
+2026-05-12 19:13:00,050 INFO gateway.run: Cron ticker started (interval=60s)
+2026-05-12 19:13:08,041 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1370258715 (171 chars)
+2026-05-12 19:13:08,051 INFO gateway.run: inbound message: platform=telegram user=Julius chat=1370258715 msg='Đặt giả thuyết là nếu tôi muốn thêm 1 folder hoặc một file mới vào workspace. Th'
+2026-05-12 19:13:08,574 INFO run_agent: Loaded environment variables from /home/julius/knowledge-base/.hermes/.env
+2026-05-12 19:13:08,575 INFO run_agent: Loaded environment variables from /home/julius/knowledge-base/.hermes/hermes-agent/.env
+2026-05-12 19:13:09,865 INFO agent.auxiliary_client: Vision auto-detect: using main provider ollama-cloud (deepseek-v4-pro)
+2026-05-12 19:13:10,828 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider ollama-cloud (deepseek-v4-pro)
+2026-05-12 19:16:43,862 INFO gateway.run: response ready: platform=telegram chat=1370258715 time=215.8s api_calls=5 response=4283 chars
+2026-05-12 19:16:44,035 INFO gateway.platforms.base: [Telegram] Sending response (4283 chars) to 1370258715
+2026-05-12 19:16:44,038 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider ollama-cloud (deepseek-v4-pro)
+2026-05-12 19:16:44,039 INFO agent.auxiliary_client: Auxiliary title_generation: using auto (deepseek-v4-pro) at https://ollama.com/v1/

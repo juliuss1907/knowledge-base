@@ -5,4 +5,3 @@
 
 ---
 
-<!-- TODO Wave 6: Fill content -->

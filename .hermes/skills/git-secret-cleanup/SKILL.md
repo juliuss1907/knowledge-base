@@ -43,13 +43,26 @@ rm -rf .hermes/auth/
 
 ### Step 4: Clean working directory completely
 
-`filter-branch` requires a pristine working directory. Do NOT skip this.
+`filter-branch` is extremely strict — it will fail with "You have unstaged changes"
+even when `git stash --all` appears to clear everything. This is because submodule
+dirty state and certain modified files survive stash. Do NOT skip any of these:
 
 ```bash
+# Stash everything including untracked and ignored
 git stash push --all -m "temp-stash-before-filter"
+
+# Discard any remaining modifications
 git checkout .
+
+# Force-delete any remaining untracked files (critical!)
 git clean -fd   # requires approval for force delete
+
+# Verify: git status must show NOTHING
+git status
 ```
+
+**If filter-branch STILL fails:** `git status --short` and `git checkout --` each
+modified file individually. Submodule entries (`m <path>`) can be ignored.
 
 ### Step 5: Run filter-branch
 
@@ -132,10 +145,12 @@ Combined with Obsidian exclusions:
 
 ## Pitfalls
 
-- **filter-branch needs clean working tree** — stash ALL changes including untracked (`--all`), then `git clean -fd`
+- **filter-branch needs pristine working tree** — stash ALL changes including untracked (`--all`), then `git checkout .` then `git clean -fd`. Submodule dirty state (`m <path>`) is harmless and can be ignored.
 - **Stash conflicts on pop** — stash may conflict with filter-branch rewritten files. Drop conflicting stashes and let them regenerate naturally.
 - **No credential** — HTTPS remotes with no credential helper will fail. Check with `ssh -T git@github.com` or `gh auth status`. If neither works, the push must be done from a machine with valid GitHub auth.
 - **Other machines must reset** — after force push, other clones need `git fetch origin && git reset --hard origin/master`, NOT a normal pull.
+- **.gitignore does NOT untrack already-committed files** — after filter-branch, files you added to `.gitignore` may still appear in `git status` as tracked. You must explicitly `git rm --cached` each one, then commit. Always run `git ls-files <pattern>` to find stragglers, then `git rm --cached` them all before the final commit.
+- **Session/state files constantly regenerate** — `.hermes/sessions/*.json`, `state.db*`, `.jsonl` files are recreated every time the agent runs. Make sure ALL variants are in `.gitignore` AND `git rm --cached`'d.
 
 ## Recovery
 

@@ -71,3 +71,18 @@
 2026-05-12 19:16:44,035 INFO gateway.platforms.base: [Telegram] Sending response (4283 chars) to 1370258715
 2026-05-12 19:16:44,038 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider ollama-cloud (deepseek-v4-pro)
 2026-05-12 19:16:44,039 INFO agent.auxiliary_client: Auxiliary title_generation: using auto (deepseek-v4-pro) at https://ollama.com/v1/
+2026-05-12 19:41:00,644 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1370258715 (158 chars)
+2026-05-12 19:41:00,644 INFO gateway.run: inbound message: platform=telegram user=Julius chat=1370258715 msg='trong workspace đang có file conflict khi commit lên git, anh có thể đọc và kiểm'
+2026-05-12 19:42:16,393 INFO gateway.run: response ready: platform=telegram chat=1370258715 time=75.7s api_calls=4 response=2036 chars
+2026-05-12 19:42:16,445 INFO agent.auxiliary_client: Auxiliary title_generation: using auto (deepseek-v4-pro) at https://ollama.com/v1/
+2026-05-12 19:42:16,478 INFO gateway.platforms.base: [Telegram] Sending response (2036 chars) to 1370258715
+2026-05-12 19:42:55,776 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1370258715 (14 chars)
+2026-05-12 19:42:55,778 INFO gateway.run: inbound message: platform=telegram user=Julius chat=1370258715 msg='Phương án A đi'
+2026-05-12 19:45:23,965 INFO gateway.run: response ready: platform=telegram chat=1370258715 time=148.2s api_calls=5 response=1622 chars
+2026-05-12 19:45:23,990 INFO gateway.platforms.base: [Telegram] Sending response (1622 chars) to 1370258715
+2026-05-12 19:46:28,362 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1370258715 (8 chars)
+2026-05-12 19:46:28,363 INFO gateway.run: inbound message: platform=telegram user=Julius chat=1370258715 msg='Đã allow'
+2026-05-12 19:48:25,301 INFO gateway.run: response ready: platform=telegram chat=1370258715 time=116.9s api_calls=2 response=617 chars
+2026-05-12 19:48:25,380 INFO gateway.platforms.base: [Telegram] Sending response (617 chars) to 1370258715
+2026-05-12 19:48:25,494 INFO agent.auxiliary_client: Vision auto-detect: using main provider ollama-cloud (deepseek-v4-pro)
+2026-05-12 19:48:25,598 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider ollama-cloud (deepseek-v4-pro)

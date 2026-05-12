@@ -22,6 +22,15 @@ signal-os-agent/agents/openclaw/logs/
 # Node modules (nếu có script local)
 node_modules/
 
+# Hermes auth & session data (không lên git)
+.hermes/auth/
+.hermes/auth.json
+.hermes/channel_directory.json
+.hermes/state.db*
+.hermes/logs/
+.hermes/sessions/
+.hermes/cron/
+
 # Obsidian workspace files (full path)
 knowledge-base-agent/.obsidian/workspace.json
 knowledge-base-agent/.obsidian/graph.json

@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "5151445ea66c1a1f",
+    "id": "15bfd7b1b24917eb",
     "type": "split",
     "children": [
       {
-        "id": "94c95ecdb92e0ea0",
+        "id": "dfc1a37c963769e5",
         "type": "tabs",
         "children": [
           {
-            "id": "a7b333f108a9e9c5",
+            "id": "77c346755b6fea43",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1be1c0df7a49f319",
+    "id": "40976aa187eff8f6",
     "type": "split",
     "children": [
       {
-        "id": "73bbaf597b15fa71",
+        "id": "232ef9ad955c9ebc",
         "type": "tabs",
         "children": [
           {
-            "id": "701e247fbc61b902",
+            "id": "38000a33a1f2167c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "33039c225470264e",
+            "id": "5744d3621745a344",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "196709cf7c09ed71",
+            "id": "8734831ad95fedc5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,19 +74,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "4715b2b14e8ed10f",
+    "id": "169be5f78f14a173",
     "type": "split",
     "children": [
       {
-        "id": "b2fc6376891c7176",
+        "id": "2944387e06cb9d79",
         "type": "tabs",
         "children": [
           {
-            "id": "1d66500a53534360",
+            "id": "0db3294518c37c42",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -104,7 +103,7 @@
             }
           },
           {
-            "id": "b3bc95b5fd32c7c6",
+            "id": "bc4c7070cf8cca68",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -117,7 +116,7 @@
             }
           },
           {
-            "id": "7b6c460db45729ab",
+            "id": "e2c8e2b5e5f09909",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,7 +131,7 @@
             }
           },
           {
-            "id": "5cc5e32dceb97bd9",
+            "id": "9b8feca5ebb53c02",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -146,7 +145,7 @@
             }
           },
           {
-            "id": "817cc7c8f80cf860",
+            "id": "ccf646d785e3a155",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -160,7 +159,7 @@
             }
           },
           {
-            "id": "d307df8b504f0b9b",
+            "id": "cdf47c26efa17cc3",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -174,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,15 +187,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7b333f108a9e9c5",
+  "active": "77c346755b6fea43",
   "lastOpenFiles": [
-    "IDENTITY.md",
+    "context/USER.md",
+    "context/context.md",
     "raw/articles/2026-05-12_active-vs-lazy-thinking.md",
-    "HEARTBEAT.md",
-    "conflict-files-obsidian-git.md",
-    "raw/repos/repos.md",
-    "raw/papers/papers.md",
     "raw/articles/articles.md",
-    "memory/2026-05-12-api-rate-limit-reached-please-.md"
+    "scripts",
+    "memory/2026-05-12-api-rate-limit-reached-please-.md",
+    "memory",
+    "USER.md",
+    "TOOLS.md",
+    "SOUL.md",
+    "IDENTITY.md",
+    "HEARTBEAT.md",
+    "TAGS.md",
+    "README.md",
+    "knowledge-base.md",
+    "raw/repos/repos.md"
   ]
 }

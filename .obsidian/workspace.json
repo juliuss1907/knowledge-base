@@ -8,49 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0c13fab76c6eddba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/2026-05-12_active-vs-lazy-thinking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-12_active-vs-lazy-thinking"
-            }
-          },
-          {
-            "id": "14d0394ecdf5ddd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IDENTITY.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IDENTITY"
-            }
-          },
-          {
             "id": "a7b333f108a9e9c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/articles/2026-05-12_active-vs-lazy-thinking.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-05-12_active-vs-lazy-thinking"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Xem biểu đồ"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4715b2b14e8ed10f",
@@ -123,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/articles/2026-05-12_active-vs-lazy-thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Liên kết đến của 2026-05-12_active-vs-lazy-thinking"
+              "title": "Liên kết đến"
             }
           },
           {
@@ -142,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/articles/2026-05-12_active-vs-lazy-thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra từ 2026-05-12_active-vs-lazy-thinking"
+              "title": "Liên kết đi ra"
             }
           },
           {
@@ -185,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/articles/2026-05-12_active-vs-lazy-thinking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương của 2026-05-12_active-vs-lazy-thinking"
+              "title": "Đề cương"
             }
           },
           {
@@ -209,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,12 +191,12 @@
   },
   "active": "a7b333f108a9e9c5",
   "lastOpenFiles": [
+    "IDENTITY.md",
+    "raw/articles/2026-05-12_active-vs-lazy-thinking.md",
     "HEARTBEAT.md",
     "conflict-files-obsidian-git.md",
-    "IDENTITY.md",
     "raw/repos/repos.md",
     "raw/papers/papers.md",
-    "raw/articles/2026-05-12_active-vs-lazy-thinking.md",
     "raw/articles/articles.md",
     "memory/2026-05-12-api-rate-limit-reached-please-.md"
   ]

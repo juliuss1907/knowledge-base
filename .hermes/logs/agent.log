@@ -86,3 +86,6 @@
 2026-05-12 19:48:25,380 INFO gateway.platforms.base: [Telegram] Sending response (617 chars) to 1370258715
 2026-05-12 19:48:25,494 INFO agent.auxiliary_client: Vision auto-detect: using main provider ollama-cloud (deepseek-v4-pro)
 2026-05-12 19:48:25,598 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider ollama-cloud (deepseek-v4-pro)
+2026-05-12 19:48:55,310 INFO gateway.platforms.telegram: [Telegram] Flushing text batch agent:main:telegram:dm:1370258715 (15 chars)
+2026-05-12 19:48:55,311 INFO gateway.run: inbound message: platform=telegram user=Julius chat=1370258715 msg='Làm luôn đi nào'
+2026-05-12 19:53:36,479 INFO gateway.platforms.telegram: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:1370258715 (choice=once, user=Julius)

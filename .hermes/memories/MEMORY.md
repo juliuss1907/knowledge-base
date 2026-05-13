@@ -1,0 +1,1 @@
+KB gitignore patterns for Hermes runtime (đã thiết lập 2026-05-12): .hermes/auth/, .hermes/auth.json, .hermes/channel_directory.json, .hermes/state.db*, .hermes/logs/, .hermes/sessions/, .hermes/cron/. Các file này đã bị xóa khỏi git history bằng filter-branch và sẽ không còn bị track.

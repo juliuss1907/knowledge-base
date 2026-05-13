@@ -105,6 +105,10 @@
       1776603339887928710,
       8818
     ],
+    "git-secret-cleanup/SKILL.md": [
+      1778592123068275624,
+      5286
+    ],
     "github/codebase-inspection/SKILL.md": [
       1776603339888356698,
       3738
@@ -749,6 +753,19 @@
       "category": "gaming",
       "frontmatter_name": "pokemon-player",
       "description": "Play Pokemon games autonomously via headless emulation. S...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "git-secret-cleanup",
+      "category": "git-secret-cleanup",
+      "frontmatter_name": "git-secret-cleanup",
+      "description": "Remove accidentally committed secrets from git history, u...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],

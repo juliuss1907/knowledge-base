@@ -1,13 +1,14 @@
-_Last check: 2026-05-13 23:30 Asia/Saigon (2026-05-13 16:30 UTC)_
+_Last check: 2026-05-14 00:00 Asia/Saigon (2026-05-13 17:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 8 hours, 16 minutes`
-- Load average: `0.48 0.46 0.41`
+- Host uptime: `1 day, 8 hours, 47 minutes`
+- Load average: `0.72 0.42 0.35`
 - Disk (`/`): `37G / 230G used (17%)`
+- Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
 - Memory: `5.2Gi used / 2.5Gi free / 8.4Gi available / 13Gi total`
 - Swap: `0B used / 17Gi total`
 
@@ -20,7 +21,7 @@ _Last check: 2026-05-13 23:30 Asia/Saigon (2026-05-13 16:30 UTC)_
 ## Git state
 
 - Branch: `master`
-- Commit: `0179c31`
+- Commit: `58347c6`
 - Changed paths: `1`
 - Dirty paths: `.hermes/hermes-agent`
 

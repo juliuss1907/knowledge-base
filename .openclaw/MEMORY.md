@@ -22,6 +22,14 @@ Each entry follows this format:
 - **Output:** [what was created/updated]
 - **Status:** [success|failed|partial]
 - **Notes:** [additional context if needed]
-Recent Operations
+## 2026-05-13 08:00:00 — Compiled
+
+- **Raw:** raw/articles/2026-05-12_active-vs-lazy-thinking.md
+- **Source note:** wiki/sources/src_active-vs-lazy-thinking.md
+- **Concepts:** [lazy-thinking, active-thinking, nice-syndrome, philosopher-syndrome, abstraction-layer-fallacy, organizational-incrementalism, information-compression]
+- **Tags applied:** main=#productivity, sub=[#opinion], topic=active-thinking-methodology
+- **Action:** created 7 concept files
+
+---
 <!-- Entries appear below in reverse chronological order (newest first) -->
 <!-- OpenClaw appends new entries here -->

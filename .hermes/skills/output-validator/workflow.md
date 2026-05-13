@@ -898,7 +898,7 @@ except PermissionError:
 
 ```python
 try:
-    result = llm_call(prompt, model='claude-3-5-sonnet')
+    result = llm_call(prompt, model='opencode/glm-5.1')
 except Exception as e:
     log(f"[WARNING] LLM call failed for {file}: {e}")
     # Skip this check, continue with others

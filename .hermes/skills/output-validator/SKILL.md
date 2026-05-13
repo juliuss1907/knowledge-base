@@ -1,7 +1,8 @@
 ---
 name: output-validator
+model: opencode/glm-5.1
 description: Validates content quality of wiki files (sources and concepts). Checks factual accuracy, completeness, coherence, and Vietnamese language quality. Use daily at 22:00 after Index Agent completes, or when user says "validate output", "check content quality". Reads wiki/sources/ and wiki/concepts/, generates quality report in wiki/reviews/, does NOT modify any wiki files.
-when_to_use: Daily 22:00 validation run (after Index Agent, before Hygiene Inspector), or on-demand when Julius requests content quality check. Runs after Compile Agent has processed new content.
+when_to_use: Daily 23:00 validation run (after Index Agent, before Hygiene Inspector), or on-demand when Julius requests content quality check. Runs after Compile Agent has processed new content.
 disable-model-invocation: false
 user-invocable: false
 allowed-tools: Read Bash(date *)

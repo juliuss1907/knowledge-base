@@ -151,6 +151,11 @@ Combined with Obsidian exclusions:
 - **Other machines must reset** — after force push, other clones need `git fetch origin && git reset --hard origin/master`, NOT a normal pull.
 - **.gitignore does NOT untrack already-committed files** — after filter-branch, files you added to `.gitignore` may still appear in `git status` as tracked. You must explicitly `git rm --cached` each one, then commit. Always run `git ls-files <pattern>` to find stragglers, then `git rm --cached` them all before the final commit.
 - **Session/state files constantly regenerate** — `.hermes/sessions/*.json`, `state.db*`, `.jsonl` files are recreated every time the agent runs. Make sure ALL variants are in `.gitignore` AND `git rm --cached`'d.
+- **Submodule dirty state is harmless** — `m .hermes/hermes-agent` in `git status --short` means a submodule has modified content. This does NOT block filter-branch. Ignore it.
+- **After `git rm --cached`, git status shows files as both deleted (`D`) and untracked (`??`)** — this is normal and expected. The `D` means staged-as-deleted (no longer tracked), `??` means the file still exists on disk but is now ignored by `.gitignore`. Both are correct.
+- **GitHub credential on remote machine** — if the agent is running on a VPS without GitHub credential helper, the final `git push` will fail with "could not read Username". Check `gh auth status` or `ssh -T git@github.com` first. The actual push must be done from a machine with valid GitHub auth (e.g., Julius's main machine or CLI with a personal access token).
+- **OpenClaw gateway pairing** — if `openclaw` CLI commands fail with "pairing required" or "GatewayClientRequestError", the CLI client is an unapproved device. Fix with `openclaw devices list` then `openclaw devices approve <request-id>`. The gateway process and CLI tool use separate auth — Telegram bots may work fine while CLI is blocked.
+- **After filter-branch, .gitignore alone won't stop tracked files from appearing** — must run `git ls-files <pattern>` to find all tracked stragglers, then `git rm --cached` each one, commit, and push. Files like `.jsonl` sessions, `.log` files, and `state.db-wal`/`state.db-shm` are commonly missed.
 
 ## Recovery
 

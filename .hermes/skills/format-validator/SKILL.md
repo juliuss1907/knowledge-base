@@ -1,7 +1,8 @@
 ---
 name: format-validator
+model: opencode/glm-5.1
 description: Validates wiki file format compliance against format-spec.md. Checks frontmatter fields, section structure, naming conventions, and markdown syntax. Use daily at 22:30 after Output Validator or when user says "validate format", "check format compliance". Reads wiki/sources/ and wiki/concepts/, generates format report in wiki/reviews/, does NOT modify any wiki files.
-when_to_use: Daily 22:30 validation run (after Output Validator, before Hygiene Inspector), or on-demand when Julius requests format check. Runs as part of daily validation pipeline.
+when_to_use: Daily 23:15 validation run (after Output Validator, before Hygiene Inspector), or on-demand when Julius requests format check. Runs as part of daily validation pipeline.
 disable-model-invocation: false
 user-invocable: false
 allowed-tools: Read Bash(date *)

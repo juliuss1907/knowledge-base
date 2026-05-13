@@ -14,7 +14,7 @@ Scan entire knowledge base directory tree, validate folder structure and file pa
 
 ## When to use
 
-- **Daily**: 23:00 (after Format and Output Validators complete)
+- **Daily**: 23:30 (after Format and Output Validators complete)
 - **On-demand**: Julius says "validate hygiene" or "check folder structure"
 - **After bulk operations**: File moves, folder restructuring, cleanup
 - **After structure changes**: When folder-structure.md is updated

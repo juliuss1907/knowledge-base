@@ -1,1 +1,3 @@
 Julius vận hành Knowledge Base trên 2 máy: VPS (chạy Hermes validators) và máy chính (Obsidian + OpenClaw agents). Đồng bộ qua GitHub bằng Obsidian Git plugin với auto-sync 5 phút. Thích hành động nhanh, quyết đoán — không thích vòng vo. Sẵn sàng force push, rewrite git history khi cần. Nói tiếng Việt.
+§
+Julius prefers clean, complete solutions — not quick patches. He chose to fully remove secrets from git history rather than just unblock them on GitHub. He'd rather do it right once than revisit problems later.

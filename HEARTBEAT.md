@@ -1,15 +1,15 @@
-_Last check: 2026-05-13 12:00 Asia/Saigon (2026-05-13 05:00 UTC)_
+_Last check: 2026-05-13 12:30 Asia/Saigon (2026-05-13 05:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `20 hours, 47 minutes`
-- Load average: `0.47 0.47 0.38`
-- Memory: unavailable in current cron shell (`free -h` did not return a usable `Mem:` line)
+- Host uptime: `21 hours, 16 minutes`
+- Load average: `0.31 0.19 0.20`
+- Memory: `4.2 GiB / 13.6 GiB` used (`9.4 GiB` available)
 - Disk (`/`): `37G / 230G` used (`17%`)
-- OS: `Linux 6.14.0-37-generic`
+- OS: `Linux 6.14.0-37-generic x86_64 GNU/Linux`
 
 ## OpenClaw checks
 
@@ -29,8 +29,8 @@ _Last check: 2026-05-13 12:00 Asia/Saigon (2026-05-13 05:00 UTC)_
 
 - Host-level health looks normal.
 - Load remains low.
+- Memory is available and looks healthy.
 - Disk headroom is comfortable.
 - OpenClaw CLI is not on PATH for this cron execution context, so gateway, update, and security audit checks could not run.
 - Git workspace is not clean because `.hermes/hermes-agent` is modified.
 - Session runtime is responsive.
-- Memory could not be confirmed from this check because the shell output was incomplete.

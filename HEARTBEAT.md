@@ -1,15 +1,15 @@
-_Last check: 2026-05-14 05:30 Asia/Saigon (2026-05-13 22:30 UTC)_
+_Last check: 2026-05-14 06:00 Asia/Saigon (2026-05-13 23:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 14 hours, 17 minutes`
-- Load average: `0.95 0.52 0.41`
+- Host uptime: `1 day, 14 hours, 47 minutes`
+- Load average: `0.62 0.50 0.43`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `5.5Gi used / 2.1Gi free / 8.1Gi available / 13Gi total`
+- Memory: `5.6Gi used / 2.0Gi free / 8.0Gi available / 13Gi total`
 - Swap: `0B used / 17Gi total`
 
 ## OpenClaw checks
@@ -17,8 +17,8 @@ _Last check: 2026-05-14 05:30 Asia/Saigon (2026-05-13 22:30 UTC)_
 - Session runtime: responsive; current model `9router/cx/gpt-5.5`
 - OpenClaw version: `2026.4.15 (041266a)`
 - OpenClaw CLI: available at `/home/julius/.nvm/versions/node/v24.15.0/bin/openclaw`; not in cron shell PATH as bare `openclaw`
-- Gateway: running via user systemd; bind `127.0.0.1`; port `18789`; RPC probe `ok`
-- Gateway service: enabled; PID `1197`; logs `/tmp/openclaw/openclaw-2026-05-14.log`
+- Gateway: running via user systemd; bind `127.0.0.1` and `[::1]`; port `18789`; HTTP health probe `ok`
+- Gateway service: enabled; PID `1197`
 - Security audit: unchanged; still needs review unless already accepted/remediated
   - Critical: small fallback models (`google/gemma-4-31b-it`, `google/gemma-4-26b-it`) have sandbox off and web tools enabled
   - Warn: `gateway.trustedProxies` empty if exposed through reverse proxy
@@ -28,7 +28,7 @@ _Last check: 2026-05-14 05:30 Asia/Saigon (2026-05-13 22:30 UTC)_
 ## Git state
 
 - Branch: `master`
-- Commit: `153ca15`
+- Commit: `dc76fd1`
 - Changed paths: `1`
 - Dirty paths: `.hermes/hermes-agent`
 

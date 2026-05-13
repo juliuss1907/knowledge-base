@@ -1,27 +1,32 @@
-_Last check: 2026-05-14 01:30 Asia/Saigon (2026-05-13 18:30 UTC)_
+_Last check: 2026-05-14 02:00 Asia/Saigon (2026-05-13 19:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 10 hours, 17 minutes`
-- Load average: `0.65 0.47 0.40`
+- Host uptime: `1 day, 10 hours, 47 minutes`
+- Load average: `0.67 0.51 0.41`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `5.2Gi used / 2.4Gi free / 8.3Gi available / 13Gi total`
+- Memory: `5.3Gi used / 2.3Gi free / 8.3Gi available / 13Gi total`
 - Swap: `0B used / 17Gi total`
 
 ## OpenClaw checks
 
 - Session runtime: responsive; current model `9router/cx/gpt-5.5`
-- OpenClaw CLI checks: unavailable in current shell (`openclaw` not found in cron PATH context)
-- Gateway / update / security audit: not runnable from this cron shell if CLI is unavailable
+- OpenClaw CLI: available at `/home/julius/.nvm/versions/node/v24.15.0/bin/openclaw`; not in cron shell PATH as bare `openclaw`
+- Gateway: running via systemd; bind `127.0.0.1`; port `18789`; RPC probe `ok`
+- Security audit: `1 critical`, `2 warn`, `1 info`
+  - Critical: small fallback models (`google/gemma-4-31b-it`, `google/gemma-4-26b-it`) have sandbox off and web tools enabled
+  - Warn: `gateway.trustedProxies` empty if exposed through reverse proxy
+  - Warn: potential multi-user setup with runtime/process tools exposed outside full sandboxing
+- Update status: update available on stable channel: `npm 2026.5.7`; suggested command: `openclaw update`
 
 ## Git state
 
 - Branch: `master`
-- Commit: `262770a`
+- Commit: `4034a81`
 - Changed paths: `1`
 - Dirty paths: `.hermes/hermes-agent`
 
@@ -31,4 +36,6 @@ _Last check: 2026-05-14 01:30 Asia/Saigon (2026-05-13 18:30 UTC)_
 - Load is healthy.
 - Disk and memory headroom are comfortable.
 - Cron-triggered agent session is responsive.
+- Security audit has one critical configuration finding; call `healthcheck` to review and fix it.
+- OpenClaw CLI should be added to cron PATH or invoked by absolute path for future checks.
 - Git workspace remains dirty if listed above.

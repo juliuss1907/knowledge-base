@@ -1,4 +1,7 @@
-KB gitignore patterns for Hermes runtime (đã thiết lập 2026-05-12): .hermes/auth/, .hermes/auth.json, .hermes/channel_directory.json, .hermes/state.db*, .hermes/logs/, .hermes/sessions/, .hermes/cron/. Các file này đã bị xóa khỏi git history bằng filter-branch và sẽ không còn bị track.
+KB gitignore/untrack patterns (đã thiết lập 2026-05-12):
+- Hermes runtime: .hermes/auth/, .hermes/auth.json, .hermes/channel_directory.json, .hermes/state.db*, .hermes/logs/, .hermes/sessions/, .hermes/cron/
+- Obsidian UI config: .obsidian/graph.json, .obsidian/workspace.json
+Tất cả đã bị xóa khỏi git history (filter-branch) hoặc untrack (git rm --cached).
 §
 Julius syncs knowledge-base between 2 machines (VPS + main machine) via Obsidian Git plugin with auto-commit/push/pull. After force pushes, the other machine must run `git fetch origin && git reset --hard origin/master` — normal pull won't work.
 §

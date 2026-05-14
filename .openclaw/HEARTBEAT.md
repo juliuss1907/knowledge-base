@@ -1,15 +1,15 @@
-_Last check: 2026-05-14 21:00 Asia/Saigon (2026-05-14 14:00 UTC)_
+_Last check: 2026-05-14 21:30 Asia/Saigon (2026-05-14 14:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `2 days, 5 hours, 47 minutes`
-- Load average: `0.40 0.33 0.25`
+- Host uptime: `2 days, 6 hours, 17 minutes`
+- Load average: `0.59 0.48 0.45`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `6,4Gi / 13Gi used; 7,2Gi available`
+- Memory: `6,4Gi / 13Gi used; 7,1Gi available`
 - Swap: `512Ki / 17Gi used`
 
 ## OpenClaw checks
@@ -22,7 +22,7 @@ _Last check: 2026-05-14 21:00 Asia/Saigon (2026-05-14 14:00 UTC)_
 - Wiki sources: `2`
 - Pending reviews: `0` pending reports in `wiki/reviews/_action-required.md`
 - Recent OpenClaw errors: none found
-- Git status: working tree has changes outside heartbeat: `.hermes/hermes-agent`; no cleanup performed
+- Git status: working tree has changes outside heartbeat: .hermes/hermes-agent; no cleanup performed
 
 ## Result
 

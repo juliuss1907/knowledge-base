@@ -1,21 +1,21 @@
-_Last check: 2026-05-15 02:00 Asia/Saigon (2026-05-14 19:00 UTC)_
+_Last check: 2026-05-15 02:30 Asia/Saigon (2026-05-14 19:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `up 2 days, 10 hours, 47 minutes`
-- Load average: `0.46, 0.38, 0.36`
-- Disk (`/`): healthy; `39G / 230G used (16%)`
-- Disk (`/home/julius/knowledge-base`): healthy; `39G used / 182G free / 16% used`
-- Memory: healthy; `7.0Gi available / 13.6Gi total`
-- Swap: healthy; no pressure observed
+- Host uptime: `up 2 days, 11 hours, 16 minutes`
+- Load average: `0.34, 0.29, 0.27`
+- Disk (`/`): healthy; `37G / 230G used (17%)`
+- Disk (`/home/julius/knowledge-base`): healthy; `37G used / 182G free / 17% used`
+- Memory: healthy; `7.0Gi available / 13Gi total`
+- Swap: healthy; `512Ki used / 17Gi total`
 
 ## OpenClaw checks
 
 - Session runtime: responsive; current model `9router/cx/gpt-5.5`
-- Gateway: running; process present
+- Gateway: running; process present (`openclaw-gateway`)
 - Raw backlog: `0` files with `status: unprocessed`
 - Raw files: `10`
 - Wiki concepts: `12`

@@ -1,10 +1,16 @@
-Title: What Comes After Systems Thinking
+---
+type: article
+title: "What Comes After Systems Thinking"
+url: http://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking?r=1g2ue2
+author: Nicole Williams
+date_published: 2026-04-02
+date_ingested: 2026-04-02
+status: processed
+compiled_at: 2026-05-14
+source: Substack (PM Researcher)
+---
 
-URL Source: http://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking?r=1g2ue2
-
-Published Time: 2026-04-02T02:45:32+00:00
-
-Markdown Content:
+# What Comes After Systems Thinking
 # What Comes After Systems Thinking - by Nicole Williams
 
 [![Image 2: PM Researcher](https://substackcdn.com/image/fetch/$s_!JyrV!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F724fdb49-5871-4c40-af33-61b2e1bc7809_720x720.png)](http://open.substack.com/)

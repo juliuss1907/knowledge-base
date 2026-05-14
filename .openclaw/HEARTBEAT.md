@@ -6,11 +6,11 @@ _Last check: 2026-05-14 18:00 Asia/Saigon (2026-05-14 11:00 UTC)_
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
 - Host uptime: `2 days, 2 hours, 48 minutes`
-- Load average: `0.39 0.39 0.35`
+- Load average: `0.43 0.40 0.36`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `6,2Gi / 13Gi used; 7,3Gi available`
-- Swap: `17Gi / đổi: used`
+- Memory: `6,3Gi / 14Gi used; 7,3Gi available`
+- Swap: `512Ki / 17Gi used`
 
 ## OpenClaw checks
 
@@ -20,7 +20,7 @@ _Last check: 2026-05-14 18:00 Asia/Saigon (2026-05-14 11:00 UTC)_
 - Raw files: `10`
 - Wiki concepts: `12`
 - Wiki sources: `2`
-- Pending reviews: `Pendingreports` reports in `wiki/reviews/_action-required.md`
+- Pending reviews: `0` reports in `wiki/reviews/_action-required.md`
 - Recent OpenClaw errors: none found
 - Git status: working tree has changes outside heartbeat; no cleanup performed
 

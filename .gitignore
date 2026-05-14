@@ -6,10 +6,20 @@ signal-os-personal/Context/Personal/
 .env.local
 .env.production
 
-# Obsidian workspace state (không cần sync)
+# Obsidian UI/state files (máy-specific — không sync)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/app.json
+.obsidian/appearance.json
 .obsidian/cache
+.obsidian/hotkeys.json
+.obsidian/text.json
+.obsidian/bookmarks.json
+.obsidian/snippets/
+
+# Obsidian plugin data (máy-specific state)
+.obsidian/plugins/*/data.json
 
 # OS files
 .DS_Store

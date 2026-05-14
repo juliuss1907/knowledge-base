@@ -1,16 +1,16 @@
-_Last check: 2026-05-15 01:30 Asia/Saigon (2026-05-14 18:30 UTC)_
+_Last check: 2026-05-15 02:00 Asia/Saigon (2026-05-14 19:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `up 2 days, 10 hours, 17 minutes`
-- Load average: `0.28, 0.43, 0.42`
-- Disk (`/`): healthy; last known check `37G / 230G used (17%)`
-- Disk (`/home/julius/knowledge-base`): healthy; last known check `37G used / 182G free / 17% used`
-- Memory: healthy; last known check `6.6Gi / 13Gi used; 7.0Gi available`
-- Swap: healthy; last known check `512Ki / 17Gi used`
+- Host uptime: `up 2 days, 10 hours, 47 minutes`
+- Load average: `0.46, 0.38, 0.36`
+- Disk (`/`): healthy; `39G / 230G used (16%)`
+- Disk (`/home/julius/knowledge-base`): healthy; `39G used / 182G free / 16% used`
+- Memory: healthy; `7.0Gi available / 13.6Gi total`
+- Swap: healthy; no pressure observed
 
 ## OpenClaw checks
 
@@ -24,7 +24,7 @@ _Last check: 2026-05-15 01:30 Asia/Saigon (2026-05-14 18:30 UTC)_
   - Output Validator: 1 pending report (4 issues)
   - Format Validator: 1 pending report (3 issues)
   - Hygiene Inspector: 1 pending report (14 issues — 8 ERROR, 2 WARNING, 4 INFO)
-- Recent OpenClaw errors: `.hermes/logs/errors.log` exists; read-only, no auto-fix performed
+- Recent OpenClaw errors: no `.openclaw/logs/errors.log`; config logs present only
 - Git status: pre-existing modification outside OpenClaw write zone: `.hermes/hermes-agent`; not modified by heartbeat
 
 ## Result

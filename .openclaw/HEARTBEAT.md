@@ -1,15 +1,15 @@
-_Last check: 2026-05-14 13:00 Asia/Saigon (2026-05-14 06:00 UTC)_
+_Last check: 2026-05-14 13:30 Asia/Saigon (2026-05-14 06:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 21 hours, 47 minutes`
-- Load average: `0.60 0.50 0.45`
+- Host uptime: `1 day, 22 hours, 17 minutes`
+- Load average: `0.35 0.31 0.32`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `5.8Gi / 13Gi used`; `7.8Gi available`
+- Memory: `5.9Gi / 13Gi used`; `7.7Gi available`
 - Swap: `0B / 17Gi used`
 
 ## OpenClaw checks
@@ -22,7 +22,7 @@ _Last check: 2026-05-14 13:00 Asia/Saigon (2026-05-14 06:00 UTC)_
 - Raw files: `8`
 - Wiki concepts: `12`
 - Pending reviews: `0` reports in `wiki/reviews/_action-required.md`
-- Concept backlinks: all concept files have `sources:` frontmatter or source block present
+- Concept backlinks: sampled `wiki/concepts/organizational-incrementalism.md` and `wiki/concepts/complex-adaptive-systems.md`; both have `sources:` frontmatter and `## Sources`
 
 ## Notes
 

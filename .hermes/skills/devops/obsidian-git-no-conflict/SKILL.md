@@ -66,9 +66,9 @@ Open Obsidian → Settings → Community plugins → Obsidian Git → settings g
 
 ### The push policy
 
-- **Auto-pull stays ON** → each machine auto-fetches latest within 30 seconds
-- **Auto-push turned OFF** → Julius pushes manually from whichever machine he's actively working on
-- Result: Machine A manually pushes → Machine B auto-pulls → never a conflict
+- **Auto-pull stays ON** on both machines → each auto-fetches latest within 30 seconds
+- **Auto-push: VPS ON, main machine OFF** — VPS agents push on predictable schedules (08:00, 21:00, 23:00), main machine human editing is unpredictable. Only one machine ever pushes, eliminating race conditions
+- Result: VPS auto-pushes agent output → main machine auto-pulls → Julius manually pushes human edits when ready → never a conflict
 
 ## Fix 3: Identity file symlinks (if applicable)
 

@@ -9,8 +9,8 @@ _Last check: 2026-05-14 20:00 Asia/Saigon (2026-05-14 13:00 UTC)_
 - Load average: `0.15 0.32 0.33`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: ``
-- Swap: ``
+- Memory: `6,4Gi / 14Gi used; 7,2Gi available`
+- Swap: `512Ki / 18Gi used`
 
 ## OpenClaw checks
 

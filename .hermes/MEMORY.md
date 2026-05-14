@@ -37,3 +37,12 @@ Each entry follows this format:
 - **Report:** wiki/reviews/2026-05-14_output-report.md
 - **Status:** complete
 - **Notes:** Systematic pattern: 7 concept files (compiled 2026-05-13) use incorrect `[[wiki/sources/...]]` wikilink format instead of bare slug. Compile Agent wikilink generation likely needs fix. All 12 concept files have empty `## Notes` sections.
+
+## 2026-05-14 23:18:48 — Format validation
+
+- **Validator:** format-validator
+- **Files checked:** 14 (2 sources + 12 concepts)
+- **Issues found:** 3 (0 ERROR, 2 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-05-14_format-report.md
+- **Status:** complete
+- **Notes:** Both source files have legacy `date_ingested` field (not in format-spec v2.0) disrupting field order. Ambiguity flag raised: bare-slug vs full-path wikilinks in concept `sources` field — format-spec examples use full path but Output Validator recommends bare slug. Recommend Julius clarify canonical convention.

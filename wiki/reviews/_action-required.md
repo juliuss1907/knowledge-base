@@ -4,17 +4,17 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-14 23:00:00
+**Last updated:** 2026-05-14 23:18:48
 
 ---
 
 ## Summary
 
-**Pending reports:** 1
+**Pending reports:** 2
 
 **Status:**
 - Output Validator: 1 pending report (4 issues)
-- Format Validator: No pending issues
+- Format Validator: 1 pending report (3 issues)
 - Hygiene Inspector: No pending issues
 
 ---
@@ -70,6 +70,26 @@
 - `approve output` — approve this report
 - `reject output` — reject this report
 - `show output` — show full report details
+
+---
+
+### 2. Format Validation — 2026-05-14
+
+**File:** [2026-05-14_format-report.md](2026-05-14_format-report.md)
+**Status:** pending
+**Created:** 2026-05-14 23:18:48
+**Issues:** 3 (0 ERROR, 2 WARNING, 1 INFO)
+**Files affected:** 4
+
+**Summary:**
+- 2 source files have legacy `date_ingested` field + disrupted field order
+- 1 ambiguity flag: conflicting wikilink conventions (bare slug vs full path)
+- Clean on sections, naming, YAML syntax, list/emphasis/code styling
+
+**Actions:**
+- `approve format` — approve this report
+- `reject format` — reject this report
+- `show format` — show full report details
 
 ---
 

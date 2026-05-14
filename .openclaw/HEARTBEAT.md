@@ -1,16 +1,16 @@
-_Last check: 2026-05-14 10:30 Asia/Saigon (2026-05-14 03:30 UTC)_
+_Last check: 2026-05-14 11:00 Asia/Saigon (2026-05-14 04:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 19 hours, 17 minutes`
-- Load average: `0.46 0.41 0.37`
+- Host uptime: `1 day, 19 hours, 47 minutes`
+- Load average: `0.70 0.47 0.39`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: not captured this run
-- Swap: not captured this run
+- Memory: `5.8Gi / 13Gi used`; `7.8Gi available`
+- Swap: `0B / 17Gi used`
 
 ## OpenClaw checks
 
@@ -32,7 +32,7 @@ _Last check: 2026-05-14 10:30 Asia/Saigon (2026-05-14 03:30 UTC)_
 ## Git state
 
 - Branch: `master`
-- Commit: `c158cba`
+- Commit: `904ed2a`
 - Changed paths: `1`
 - Dirty paths: `.hermes/hermes-agent`
 
@@ -40,11 +40,11 @@ _Last check: 2026-05-14 10:30 Asia/Saigon (2026-05-14 03:30 UTC)_
 
 - Host-level health looks normal.
 - Load is healthy.
-- Disk headroom is comfortable.
+- Disk and memory headroom are comfortable.
 - Cron-triggered agent session is responsive.
 - Raw backlog is clear.
 - Hermes action queue is clear.
 - Security audit still has one critical configuration finding from the previous check; call `healthcheck` to review and fix it.
 - Cron/system skill lookup is still trying `.openclaw/skills/healthcheck/SKILL.md`, but the available healthcheck skill is installed under the OpenClaw package path.
 - OpenClaw CLI should be added to cron PATH or invoked by absolute path for future checks.
-- Git workspace remains dirty if listed above.
+- Git workspace remains dirty: `.hermes/hermes-agent`.

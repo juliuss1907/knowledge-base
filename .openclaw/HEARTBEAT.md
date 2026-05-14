@@ -1,12 +1,12 @@
-_Last check: 2026-05-14 14:00 Asia/Saigon (2026-05-14 07:00 UTC)_
+_Last check: 2026-05-14 14:30 Asia/Saigon (2026-05-14 07:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 22 hours, 48 minutes`
-- Load average: `0.41 0.36 0.36`
+- Host uptime: `1 day, 23 hours, 17 minutes`
+- Load average: `0.43 0.39 0.45`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
 - Memory: `5,9Gi / 13Gi used; 7,7Gi available`
@@ -21,6 +21,7 @@ _Last check: 2026-05-14 14:00 Asia/Saigon (2026-05-14 07:00 UTC)_
 - Raw backlog: `0` files with `status: unprocessed`
 - Raw files: `8`
 - Wiki concepts: `12`
+- Wiki sources: `2`
 - Pending reviews: `0` reports in `wiki/reviews/_action-required.md`
 
 ## Result

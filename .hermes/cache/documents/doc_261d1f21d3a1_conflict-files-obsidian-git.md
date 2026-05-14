@@ -1,0 +1,25 @@
+# Conflicts
+Please resolve them and commit them using the commands `Git: Commit all changes` followed by `Git: Push`
+(This file will automatically be deleted before commit)
+[[#Additional Instructions]] available below file list
+
+- Not a file: .gitignore
+- Not a file: .openclaw/memory/2026-05-12-api-rate-limit-reached-please-.md
+- Not a file: .openclaw/memory/2026-05-13-cinefin-explanation.md
+- Not a file: .openclaw/memory/2026-05-13-identity-setup.md
+- Not a file: HEARTBEAT.md
+- Not a file: IDENTITY.md
+- Not a file: SOUL.md
+- Not a file: TOOLS.md
+- Not a file: USER.md
+
+# Additional Instructions
+I strongly recommend to use "Source mode" for viewing the conflicted files. For simple conflicts, in each file listed above replace every occurrence of the following text blocks with the desired text.
+
+```diff
+<<<<<<< HEAD
+    File changes in local repository
+=======
+    File changes in remote repository
+>>>>>>> origin/main
+```

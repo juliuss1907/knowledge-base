@@ -1,16 +1,16 @@
-_Last check: 2026-05-14 12:00 Asia/Saigon (2026-05-14 05:00 UTC)_
+_Last check: 2026-05-14 12:30 Asia/Saigon (2026-05-14 05:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 20 hours, 46 minutes`
-- Load average: `0.57 0.42 0.43`
+- Host uptime: `1 day, 21 hours, 16 minutes`
+- Load average: `0.45 0.35 0.36`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `5.8Gi / 13Gi used`; `7.8Gi available`
-- Swap: `0B / 17Gi used`
+- Memory: check incomplete this cycle; no pressure observed from previous cycle
+- Swap: check incomplete this cycle
 
 ## OpenClaw checks
 
@@ -22,6 +22,7 @@ _Last check: 2026-05-14 12:00 Asia/Saigon (2026-05-14 05:00 UTC)_
 - Raw files: `8`
 - Wiki concepts: `12`
 - Pending reviews: `0` reports in `wiki/reviews/_action-required.md`
+- Concept backlinks: sampled concepts have `sources:` frontmatter; no missing source block detected across `wiki/concepts/`
 
 ## Notes
 

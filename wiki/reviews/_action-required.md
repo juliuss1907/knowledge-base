@@ -4,18 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-14 23:18:48
+**Last updated:** 2026-05-14 23:34:24
 
 ---
 
 ## Summary
 
-**Pending reports:** 2
+**Pending reports:** 3
 
 **Status:**
 - Output Validator: 1 pending report (4 issues)
 - Format Validator: 1 pending report (3 issues)
-- Hygiene Inspector: No pending issues
+- Hygiene Inspector: 1 pending report (14 issues — 8 ERROR, 2 WARNING, 4 INFO)
 
 ---
 
@@ -27,6 +27,15 @@
 - 7 concept files use `[[wiki/sources/src_active-vs-lazy-thinking]]` instead of `[[src_active-vs-lazy-thinking]]`
 - Affects: `philosopher-syndrome`, `information-compression`, `abstraction-layer-fallacy`, `organizational-incrementalism`, `nice-syndrome`, `lazy-thinking`, `active-thinking`
 
+### Hygiene Inspector — 2026-05-14
+
+**⚠️ SPEC vs REALITY CONFLICT** — folder-structure.md v1.0 is outdated
+- `.hermes/` and `.openclaw/` have 30+ runtime files (databases, caches, logs, sessions, deployed skills) — spec only allows 5 items
+- `.hermes/skills/` has 29 folders vs 3 spec'd (26 extra deployed skills)
+- `.openclaw/skills/` has 5 folders vs 4 spec'd (1 extra: agent-reach)
+- 5 root-level symlinks not in whitelist
+- **Recommendation:** Update folder-structure.md to v1.1
+
 ---
 
 ## 🟡 Warnings (Can Fix Later)
@@ -36,6 +45,11 @@
 **1. Empty `## Notes` sections in all 12 concept files** — WARNING
 - All concept files have empty Notes section headers
 - Either remove or add annotations
+
+### Hygiene Inspector — 2026-05-14
+
+**1. Non-standard file in skill folder** — WARNING
+- `.hermes/skills/output-validator/validation-criteria.md` not in allowed file list (expected: SKILL.md, workflow.md, examples.md, reference.md)
 
 ---
 
@@ -48,6 +62,11 @@
 
 **2. Key points above recommended range** — INFO
 - 3 files (2 sources + 1 concept) have 10-11 items vs 5-10 target
+
+### Hygiene Inspector — 2026-05-14
+
+**1-4. Expected subfolders not yet created** — INFO
+- `wiki/tag/`, `wiki/topic/`, `wiki/drafts/`, `wiki/reviews/archive/` — create as needed
 
 ---
 
@@ -90,6 +109,31 @@
 - `approve format` — approve this report
 - `reject format` — reject this report
 - `show format` — show full report details
+
+---
+
+### 3. Hygiene Inspection — 2026-05-14
+
+**File:** [2026-05-14_hygiene-report.md](2026-05-14_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-05-14 23:34:24
+**Issues:** 14 (8 ERROR, 2 WARNING, 4 INFO)
+**Files affected:** N/A (folder structure only)
+
+**Summary:**
+- ⚠️ Critical SPEC vs REALITY conflict: folder-structure.md defines idealized agent homes (5 items each), real agents have 30+ runtime files
+- 5 root-level symlinks (HEARTBEAT.md, IDENTITY.md, SOUL.md, TOOLS.md, USER.md) not in whitelist
+- .hermes/skills/ has 29 folders vs 3 spec'd — 26 extra deployed skills
+- .openclaw/skills/ has 5 folders vs 4 spec'd — 1 extra (agent-reach)
+- 4 expected folders not yet created: wiki/tag/, wiki/topic/, wiki/drafts/, wiki/reviews/archive/
+- 1 non-standard file in skill folder: validation-criteria.md
+
+**Recommendation:** Update folder-structure.md to v1.1 with runtime artifact whitelists
+
+**Actions:**
+- `approve hygiene` — approve this report
+- `reject hygiene` — reject this report
+- `show hygiene` — show full report details
 
 ---
 

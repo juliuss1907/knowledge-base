@@ -61,7 +61,7 @@ Open Obsidian → Settings → Community plugins → Obsidian Git → settings g
 | Setting | Wrong value | Correct value | Why |
 |---|---|---|---|
 | **Auto push interval** | `10` (minutes) | `0` (disabled) | Eliminates race condition — only one machine ever pushes at a time |
-| **Merge strategy** | `none` | `ort` | Enables automatic merge resolution instead of failing on every parallel change |
+| **Merge strategy** | `none` | **để trống** | Enables automatic merge resolution instead of failing on every parallel change. NOTE: "ort" is a Git engine strategy, NOT an option in the plugin UI. The UI shows \"Other sync service\" for `none`. Leave this field empty for normal merge. |
 | **Pull before push** | `true` | `true` (keep) | Ensures local is always up to date before pushing |
 
 ### The push policy

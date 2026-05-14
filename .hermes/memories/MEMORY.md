@@ -14,3 +14,5 @@ Daily validation pipeline schedule (finalized 2026-05-12):
 - 23:15 Hermes Connor: Format Validator — structure check (model: opencode/glm-5.1)
 - 23:30 Hermes Connor: Hygiene Inspector — folder check (model: opencode/glm-5.1)
 OpenClaw cron managed separately via `openclaw cron` (Go-based). Hermes cron managed via `hermes cron` / cronjob tool (Python-based, requires croniter package). When creating Hermes cron jobs, use model object format `{provider: "opencode", model: "glm-5.1"}`.
+§
+Máy chính working dir: /home/julius/julius-workspace/knowledge-base (KHÁC với VPS: /home/julius/knowledge-base). Obsidian Git plugin trên máy chính auto-sync cạnh tranh lock với git CLI thủ công — cần tắt Obsidian hoặc plugin trước khi chạy git merge/push. Micro editor để lại backup MERGE_MSG ở ~/.config/micro/backups/ — mỗi merge sẽ prompt [r]ecover/[i]gnore/[a]bort, chọn 'i'.

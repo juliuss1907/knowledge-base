@@ -1,16 +1,16 @@
-_Last check: 2026-05-14 16:00 Asia/Saigon (2026-05-14 09:00 UTC)_
+_Last check: 
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `2 days, 46 minutes`
-- Load average: `1.44 0.83 0.59`
+- Host uptime: `2 days, 1 hour, 17 minutes`
+- Load average: `0.80 0.74 0.73`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `6.2Gi / 13.6Gi used; 7.4Gi available`
-- Swap: `256KiB / 17.9Gi used`
+- Memory: ``
+- Swap: ``
 
 ## OpenClaw checks
 
@@ -19,7 +19,7 @@ _Last check: 2026-05-14 16:00 Asia/Saigon (2026-05-14 09:00 UTC)_
 - Gateway: running via user systemd; bind `127.0.0.1`; port `18789`; RPC probe `ok`
 - Gateway service: enabled; logs `/tmp/openclaw/openclaw-2026-05-14.log`
 - Raw backlog: `0` files with `status: unprocessed`
-- Raw files: `9`
+- Raw files: `10`
 - Wiki concepts: `12`
 - Wiki sources: `2`
 - Pending reviews: `0` reports in `wiki/reviews/_action-required.md`

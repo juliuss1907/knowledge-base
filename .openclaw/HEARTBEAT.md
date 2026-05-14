@@ -1,16 +1,16 @@
-_Last check: 
+_Last check: 2026-05-14 16:30 Asia/Saigon (2026-05-14 09:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `2 days, 1 hour, 17 minutes`
-- Load average: `0.80 0.74 0.73`
+- Host uptime: `2 days, 1 hour, 18 minutes`
+- Load average: `0.82 0.76 0.74`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: ``
-- Swap: ``
+- Memory: `6,4Gi / 13Gi used; 7,2Gi available`
+- Swap: `256Ki / 17Gi used`
 
 ## OpenClaw checks
 

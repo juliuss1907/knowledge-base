@@ -1,1 +1,0 @@
-.openclaw/HEARTBEAT.md

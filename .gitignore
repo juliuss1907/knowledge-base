@@ -35,6 +35,8 @@ node_modules/
 knowledge-base-agent/.obsidian/workspace.json
 knowledge-base-agent/.obsidian/graph.json
 .obsidian/graph.json
+
+# Agent identity files — symlink to .openclaw/ (tránh Git track)
 IDENTITY.md
 SOUL.md
 HEARTBEAT.md

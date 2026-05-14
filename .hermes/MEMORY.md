@@ -27,3 +27,13 @@ Each entry follows this format:
 ## Recent Validations
 <!-- Entries appear below in reverse chronological order (newest first) --> 
 <!-- Hermes appends new entries here -->
+
+## 2026-05-14 23:00:00 — Output validation
+
+- **Validator:** output-validator
+- **Files checked:** 14 (2 sources + 12 concepts)
+- **New files:** 6 (compiled today)
+- **Issues found:** 4 (1 ERROR, 1 WARNING, 2 INFO)
+- **Report:** wiki/reviews/2026-05-14_output-report.md
+- **Status:** complete
+- **Notes:** Systematic pattern: 7 concept files (compiled 2026-05-13) use incorrect `[[wiki/sources/...]]` wikilink format instead of bare slug. Compile Agent wikilink generation likely needs fix. All 12 concept files have empty `## Notes` sections.

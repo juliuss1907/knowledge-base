@@ -1,15 +1,15 @@
-_Last check: 2026-05-14 09:00 Asia/Saigon (2026-05-14 02:00 UTC)_
+_Last check: 2026-05-14 09:30 Asia/Saigon (2026-05-14 02:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 17 hours, 47 minutes`
-- Load average: `0.64 0.42 0.44`
+- Host uptime: `1 day, 18 hours, 16 minutes`
+- Load average: `0.39 0.39 0.37`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `5.7Gi used / 1.9Gi free / 7.9Gi available / 13Gi total`
+- Memory: `5.8Gi used / 1.8Gi free / 7.8Gi available / 13Gi total`
 - Swap: `0B used / 17Gi total`
 
 ## OpenClaw checks
@@ -19,7 +19,10 @@ _Last check: 2026-05-14 09:00 Asia/Saigon (2026-05-14 02:00 UTC)_
 - Gateway: running via user systemd; bind `127.0.0.1`; port `18789`; RPC probe `ok`
 - Gateway service: enabled; PID `1197`; logs `/tmp/openclaw/openclaw-2026-05-14.log`
 - Raw backlog: `0` files with `status: unprocessed`
+- Raw files: `8`
+- Wiki concepts: `12`
 - Pending reviews: `wiki/reviews/_action-required.md` present
+- Recent OpenClaw errors: none in checked log tail
 - Security audit: previous finding still needs review unless already remediated
   - Critical noted previously: small fallback models (`google/gemma-4-31b-it`, `google/gemma-4-26b-it`) have sandbox off and web tools enabled
   - Warn noted previously: `gateway.trustedProxies` empty if exposed through reverse proxy

@@ -1,15 +1,15 @@
-_Last check: 2026-05-14 07:30 Asia/Saigon (2026-05-14 00:30 UTC)_
+_Last check: 2026-05-14 08:03 Asia/Saigon (2026-05-14 01:03 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `1 day, 16 hours, 17 minutes`
-- Load average: `0.56 0.41 0.42`
+- Host uptime: `1 day, 16 hours, 51 minutes`
+- Load average: `0.30 0.39 0.38`
 - Disk (`/`): `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): `37G used / 182G free / 17% used`
-- Memory: `5.6Gi used / 2.0Gi free / 8.0Gi available / 13Gi total`
+- Memory: `5.7Gi used / 1.9Gi free / 7.9Gi available / 13Gi total`
 - Swap: `0B used / 17Gi total`
 
 ## OpenClaw checks
@@ -23,14 +23,14 @@ _Last check: 2026-05-14 07:30 Asia/Saigon (2026-05-14 00:30 UTC)_
   - Critical: small fallback models (`google/gemma-4-31b-it`, `google/gemma-4-26b-it`) have sandbox off and web tools enabled
   - Warn: `gateway.trustedProxies` empty if exposed through reverse proxy
   - Warn: potential multi-user setup with runtime/process tools exposed outside full sandboxing
-- Update status: stable update likely available; previous check reported `npm 2026.5.7`; suggested command: `openclaw update`
+- Update status: stable update available; `npm 2026.5.7`; suggested command: `openclaw update`
 
 ## Git state
 
 - Branch: `master`
-- Commit: `cf87d42`
-- Changed paths: `1`
-- Dirty paths: `.hermes/hermes-agent`
+- Commit: `861e5b0`
+- Changed paths: `2`
+- Dirty paths: `.hermes/hermes-agent`, `.openclaw/MEMORY.md`
 
 ## Notes
 
@@ -40,5 +40,6 @@ _Last check: 2026-05-14 07:30 Asia/Saigon (2026-05-14 00:30 UTC)_
 - Cron-triggered agent session is responsive.
 - Gateway remains live via absolute OpenClaw path; bare `openclaw` still fails in cron shell PATH.
 - Security audit still has one critical configuration finding; call `healthcheck` to review and fix it.
+- Stable OpenClaw update is available: `2026.5.7`.
 - OpenClaw CLI should be added to cron PATH or invoked by absolute path for future checks.
 - Git workspace remains dirty if listed above.

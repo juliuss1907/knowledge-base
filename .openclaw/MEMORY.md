@@ -33,3 +33,12 @@ Each entry follows this format:
 ---
 <!-- Entries appear below in reverse chronological order (newest first) -->
 <!-- OpenClaw appends new entries here -->
+
+## 2026-05-14 08:05:00 — Compiled
+
+- **Raw:** raw/articles/2026-04-02_what-comes-after-systems-thinking.md
+- **Source note:** wiki/sources/src_what-comes-after-systems-thinking.md
+- **Concepts:** [cynefin-framework, complex-adaptive-systems, ashbys-law, complicated-vs-complex, systems-thinking-limitations]
+- **Tags applied:** main=#system, sub=[#research], topic=post-systems-thinking
+- **Action:** created 5 concept files
+- **Note:** File had non-standard frontmatter (inline metadata format), fixed before compiling

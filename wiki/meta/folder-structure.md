@@ -49,7 +49,6 @@ knowledge-base/
 - Symlinks to agent identity files allowed at root (for convenience)
 - No folders starting with uppercase (except `.git`, `.obsidian`)
 - Archives (`*-archive/`, `*-v1-backup/`) must be gitignored
-- Archives (`*-archive/`, `*-v1-backup/`) must be gitignored
 
 ---
 
@@ -69,6 +68,12 @@ knowledge-base/
     ├── index-agent/
     ├── fix-agent/
     └── */         ✓ allowed (additional skills)
+├── agents/       ✓ allowed (runtime state)
+├── cron/         ✓ allowed (runtime state)
+├── memory/       ✓ allowed (runtime state)
+├── main.sqlite   ✓ allowed (runtime database)
+├── *.log         ✓ allowed (log files)
+└── *.tmp         ✓ allowed (temporary files)
 ```
 
 **Rules:**
@@ -90,6 +95,12 @@ knowledge-base/
     ├── format-validator/
     ├── hygiene-inspector/
     └── */         ✓ allowed (additional skills)
+├── sessions/     ✓ allowed (runtime state)
+├── cron/         ✓ allowed (runtime state)
+├── hermes-agent/ ✓ allowed (runtime state)
+├── state.db      ✓ allowed (runtime database)
+├── *.log         ✓ allowed (log files)
+└── *.tmp         ✓ allowed (temporary files)
 ```
 
 **Rules:**

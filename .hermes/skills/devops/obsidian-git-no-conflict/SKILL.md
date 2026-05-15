@@ -8,13 +8,15 @@ category: devops
 
 When two machines (VPS + máy chính) both run Obsidian Git plugin with auto-sync, merge conflicts are inevitable. This skill eliminates them permanently through Git hygiene + plugin configuration.
 
-## Root causes (3 simultaneous problems)
+## Root causes (5 simultaneous problems)
 
 | # | Cause | Effect |
 |---|---|---|
-| 1 | Machine-specific UI state files tracked by Git | `.obsidian/graph.json`, `workspace.json`, `app.json` change every session → perpetual conflicts |
-| 2 | `mergeStrategy: "none"` | Plugin refuses to auto-merge, so ANY simultaneous change becomes a conflict |
-| 3 | Auto-push on both machines (interval 10 min) | Race condition when both push new commits simultaneously |
+| 1 | Machine-specific Obsidian UI state files tracked by Git | `.obsidian/graph.json`, `workspace.json`, `app.json` change every session → perpetual conflicts |
+| 2 | Agent runtime state files tracked by Git | `.hermes/auth.json`, `memories/MEMORY.md`, `models_dev_cache.json`; `.openclaw/main.sqlite`, `device-auth.json` — change on every agent run → sync = conflict |
+| 3 | `mergeStrategy: "none"` | Plugin refuses to auto-merge, so ANY simultaneous change becomes a conflict |
+| 4 | Auto-push on both machines (interval 10 min) | Race condition when both push new commits simultaneously |
+| 5 | `git rm --cached` only on one machine | File still exists on disk on the other → Obsidian Git re-stages it → "Not a file" conflict when the other machine's deletion arrives |
 
 ## Fix 1: Comprehensive .gitignore
 
@@ -54,7 +56,76 @@ git commit -m "fix: untrack all Obsidian UI state + plugin data from Git"
 git push
 ```
 
-## Fix 2: Change 3 plugin settings
+## Fix 2: Agent runtime state (.hermes/ + .openclaw/)
+
+Agent runtime creates files that change on every execution. These MUST be gitignored and untracked from BOTH machines, or they'll cause "Not a file" conflicts when one machine deletes and the other recreates.
+
+### The complete runtime ignore block
+
+```gitignore
+# Hermes runtime state (máy-specific — không sync)
+.hermes/auth/
+.hermes/auth.json
+.hermes/auth.lock
+.hermes/channel_directory.json
+.hermes/state.db*
+.hermes/gateway.pid
+.hermes/gateway_state.json
+.hermes/logs/
+.hermes/sessions/
+.hermes/cron/
+.hermes/cache/
+.hermes/memories/MEMORY.md
+.hermes/.skills_prompt_snapshot.json
+.hermes/.update_check
+.hermes/.restart_last_processed.json
+.hermes/models_dev_cache.json
+.hermes/ollama_cloud_models_cache.json
+.hermes/bin/
+
+# OpenClaw runtime state (máy-specific — không sync)
+.openclaw/main.sqlite
+.openclaw/device-auth.json
+.openclaw/device.json
+.openclaw/devices/
+.openclaw/exec-approvals.json
+.openclaw/update-check.json
+.openclaw/workspace-state.json
+.openclaw/logs/
+.openclaw/completions/
+.openclaw/flows/
+.openclaw/subagents/
+.openclaw/tasks/
+.openclaw/media/
+.openclaw/telegram/
+.openclaw/canvas/
+.openclaw/identity/
+.openclaw/agents/
+.openclaw/*.bak
+```
+
+### Untrack from BOTH machines
+
+**Critical: both machines must untrack, or the conflict persists.** The "Not a file" error happens because machine A deleted the file from Git, but machine B still has it on disk → Obsidian Git sees the changed file and auto-stages it → pushes a re-creation → machine A sees "deleted by them."
+
+```bash
+# Run on BOTH VPS and máy chính
+cd ~/knowledge-base
+git pull --no-rebase origin master
+
+# Untrack hermes runtime files that are still tracked
+git rm --cached .hermes/memories/MEMORY.md \
+  .hermes/.skills_prompt_snapshot.json \
+  .hermes/.update_check .hermes/models_dev_cache.json \
+  .hermes/auth.json .hermes/gateway.pid \
+  .hermes/channel_directory.json \
+  .openclaw/HEARTBEAT.md 2>/dev/null
+
+git add .gitignore
+git commit -m "fix: untrack all agent runtime state files" && git push origin master
+```
+
+## Fix 3: Change 3 plugin settings (Fix 2 renumbered to Fix 3 — Fix 2 is now "Agent runtime state")
 
 Open Obsidian → Settings → Community plugins → Obsidian Git → settings gear:
 
@@ -120,7 +191,9 @@ grep "obsidian" .gitignore
 ## Pitfalls
 
 - **`.gitignore` won't untrack already-committed files** — always run `git ls-files <pattern>` after adding to `.gitignore`, and `git rm --cached` any stragglers
-- **Obsidian Git plugin auto-stages files** — even with `.gitignore`, the plugin may detect changes and stage them. The `.gitignore` prevents them from being committed, but you'll still see them as modified. This is safe — they won't actually be pushed.
+- **"Not a file" conflicts** — this specific error means file was deleted from Git on machine A but still exists on disk on machine B. Obsidian Git on machine B auto-stages the file and pushes it back → machine A sees "deleted by them." Fix: run `git rm --cached` on BOTH machines, not just one.
+- **Agent runtime files regenerate** — `.hermes/auth.json`, `memories/MEMORY.md`, cache files are recreated on every agent run. They MUST be in `.gitignore` AND untracked from both machines, or they'll perpetually re-enter Git.
+- **Obsidian Git plugin auto-stages files** — even with `.gitignore`, the plugin may detect changes. The `.gitignore` prevents them from being committed, but you'll still see them as modified. This is safe.
 - **Plugin data.json is regenerated on restart** — after `git rm --cached`, the file still exists on disk (just untracked). The plugin will keep updating it locally, but Git will ignore it.
 - **Other plugin conflicts** — any Obsidian plugin that stores machine-specific state in `data.json` is a conflict vector. The `plugins/*/data.json` pattern covers them all.
 - **micro editor backup on merge** — when `git pull` triggers a merge commit and `EDITOR=micro`, micro may detect a stale backup file. Press `i` to ignore it, then `Ctrl+S`, `Ctrl+Q` to complete the merge.

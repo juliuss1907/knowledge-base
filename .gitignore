@@ -32,14 +32,45 @@ signal-os-agent/agents/openclaw/logs/
 # Node modules (nếu có script local)
 node_modules/
 
-# Hermes auth & session data (không lên git)
+# Hermes runtime state (máy-specific — không sync)
 .hermes/auth/
 .hermes/auth.json
+.hermes/auth.lock
 .hermes/channel_directory.json
 .hermes/state.db*
+.hermes/gateway.pid
+.hermes/gateway_state.json
 .hermes/logs/
 .hermes/sessions/
 .hermes/cron/
+.hermes/cache/
+.hermes/memories/MEMORY.md
+.hermes/.skills_prompt_snapshot.json
+.hermes/.update_check
+.hermes/.restart_last_processed.json
+.hermes/models_dev_cache.json
+.hermes/ollama_cloud_models_cache.json
+.hermes/bin/
+
+# OpenClaw runtime state (máy-specific — không sync)
+.openclaw/main.sqlite
+.openclaw/device-auth.json
+.openclaw/device.json
+.openclaw/devices/
+.openclaw/exec-approvals.json
+.openclaw/update-check.json
+.openclaw/workspace-state.json
+.openclaw/logs/
+.openclaw/completions/
+.openclaw/flows/
+.openclaw/subagents/
+.openclaw/tasks/
+.openclaw/media/
+.openclaw/telegram/
+.openclaw/canvas/
+.openclaw/identity/
+.openclaw/agents/
+.openclaw/*.bak
 
 # Agent identity files — symlink to .openclaw/ (tránh Git track)
 IDENTITY.md

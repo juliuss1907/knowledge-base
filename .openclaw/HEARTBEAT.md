@@ -1,16 +1,16 @@
-_Last check: 2026-05-15 13:30 Asia/Saigon (2026-05-15 06:30 UTC)_
+_Last check: 2026-05-15 14:00 Asia/Saigon (2026-05-15 07:00 UTC)_
 
 ## Agent health
 
 - Status: healthy with pending review issues
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `13:30:34 up 2 days, 22:17,  1 user,  load average: 0,38, 0,30, 0,28`
-- Load average: healthy; approximately `0,38, 0,30, 0,28`
-- Disk (`/`): healthy; `37G / 230G used (17%)`
-- Disk (`/home/julius/knowledge-base`): healthy; `37G used / 182G free / 17% used`
-- Memory: healthy; `13Gi total / 7,3Gi used / 6,3Gi available`
-- Swap: healthy; `17Gi total / 512Ki used`
+- Host uptime: `14:01:28 up 2 days, 22:47,  1 user,  load average: 0,37, 0,46, 0,40`
+- Load average: healthy; `0,37, 0,46, 0,40`
+- Disk (`/`): healthy; `/dev/mapper/vgmint-root  230G   37G  182G   17% /`
+- Disk (`/home/julius/knowledge-base`): healthy; `/dev/mapper/vgmint-root  230G   37G  182G   17% /`
+- Memory: healthy; `BNhớ:           13Gi       7,3Gi       1,7Gi        66Mi       5,0Gi       6,3Gi`
+- Swap: healthy; `Tráo đổi:       17Gi       512Ki        17Gi`
 
 ## OpenClaw checks
 

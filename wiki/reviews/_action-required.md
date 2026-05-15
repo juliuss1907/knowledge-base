@@ -100,65 +100,34 @@
 ### 1. Output Validation — 2026-05-14
 
 **File:** [2026-05-14_output-report.md](2026-05-14_output-report.md)
-**Status:** pending
+**Status:** partially approved
 **Created:** 2026-05-14 23:00:00
-**Issues:** 4 (1 ERROR, 1 WARNING, 2 INFO)
-**Files affected:** 14
+**Issues:** 4 (1 ERROR → Fix Agent, 1 WARNING, 2 INFO)
 
-**Summary:**
-- 1 critical quality issue (wrong wikilink format in 7 files)
-- 1 improvement needed (empty Notes sections in 12 files)
-- 2 suggestions (summary length, key points count)
-
-**Actions:**
-- `approve output` — approve this report
-- `reject output` — reject this report
-- `show output` — show full report details
+**Actions for Fix Agent:**
+- Fix wikilink format in 7 concept files (see Critical Issues above)
 
 ---
 
 ### 2. Format Validation — 2026-05-14
 
 **File:** [2026-05-14_format-report.md](2026-05-14_format-report.md)
-**Status:** pending
+**Status:** partially approved
 **Created:** 2026-05-14 23:18:48
-**Issues:** 3 (0 ERROR, 2 WARNING, 1 INFO)
-**Files affected:** 4
+**Issues:** 3 (0 ERROR, 2 WARNING → 1 Fix Agent, 1 INFO)
 
-**Summary:**
-- 2 source files have legacy `date_ingested` field + disrupted field order
-- 1 ambiguity flag: conflicting wikilink conventions (bare slug vs full path)
-- Clean on sections, naming, YAML syntax, list/emphasis/code styling
-
-**Actions:**
-- `approve format` — approve this report
-- `reject format` — reject this report
-- `show format` — show full report details
+**Actions for Fix Agent:**
+- Remove `date_ingested` field from 2 source files (see Critical Issues above)
 
 ---
 
-### 3. Hygiene Inspection — 2026-05-14
+### 3. Hygiene Inspection — 2026-05-14 ✅ RESOLVED
 
 **File:** [2026-05-14_hygiene-report.md](2026-05-14_hygiene-report.md)
-**Status:** pending
+**Status:** resolved
 **Created:** 2026-05-14 23:34:24
-**Issues:** 14 (8 ERROR, 2 WARNING, 4 INFO)
-**Files affected:** N/A (folder structure only)
-
-**Summary:**
-- ⚠️ Critical SPEC vs REALITY conflict: folder-structure.md defines idealized agent homes (5 items each), real agents have 30+ runtime files
-- 5 root-level symlinks (HEARTBEAT.md, IDENTITY.md, SOUL.md, TOOLS.md, USER.md) not in whitelist
-- .hermes/skills/ has 29 folders vs 3 spec'd — 26 extra deployed skills
-- .openclaw/skills/ has 5 folders vs 4 spec'd — 1 extra (agent-reach)
-- 4 expected folders not yet created: wiki/tag/, wiki/topic/, wiki/drafts/, wiki/reviews/archive/
-- 1 non-standard file in skill folder: validation-criteria.md
-
-**Recommendation:** Update folder-structure.md to v1.1 with runtime artifact whitelists
-
-**Actions:**
-- `approve hygiene` — approve this report
-- `reject hygiene` — reject this report
-- `show hygiene` — show full report details
+**Resolution:** folder-structure.md v1.1 + missing folders created
+- 14 issues all addressed via spec update
 
 ---
 

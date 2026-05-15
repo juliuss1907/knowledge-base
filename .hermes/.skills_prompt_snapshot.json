@@ -82,8 +82,12 @@
       5571
     ],
     "devops/hermes-cron-management/SKILL.md": [
-      1778683356204561272,
-      3668
+      1778748864338392530,
+      5234
+    ],
+    "devops/obsidian-git-no-conflict/SKILL.md": [
+      1778748880432495908,
+      6198
     ],
     "devops/webhook-subscriptions/SKILL.md": [
       1776603339886834049,
@@ -692,6 +696,19 @@
       "category": "devops",
       "frontmatter_name": "hermes-cron-management",
       "description": "Create and manage recurring Hermes cron jobs at specific ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "obsidian-git-no-conflict",
+      "category": "devops",
+      "frontmatter_name": "obsidian-git-no-conflict",
+      "description": "Prevent Obsidian Git plugin merge conflicts on multi-mach...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],

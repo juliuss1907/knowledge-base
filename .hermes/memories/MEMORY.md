@@ -3,7 +3,7 @@ KB gitignore/untrack patterns (đã thiết lập 2026-05-12):
 - Obsidian UI config: .obsidian/graph.json, .obsidian/workspace.json
 Tất cả đã bị xóa khỏi git history (filter-branch) hoặc untrack (git rm --cached).
 §
-Julius syncs knowledge-base between 2 machines (VPS + main machine) via Obsidian Git plugin with auto-commit/push/pull. After force pushes, the other machine must run `git fetch origin && git reset --hard origin/master` — normal pull won't work. Main machine uses git SSH protocol, VPS uses HTTPS.
+Julius syncs knowledge-base between 2 machines via Obsidian Git plugin. Máy chính: auto-commit 5min, auto-pull 30s, auto-push OFF. VPS: auto-push ON. mergeStrategy="", syncMethod="merge". After force pushes: `git fetch && git reset --hard origin/master`. Máy chính SSH, VPS HTTPS. Paths: VPS=/home/julius/knowledge-base, máy chính=/home/julius/julius-workspace/knowledge-base.
 §
 On this VPS, Hermes cron `create` with cron expression (`0 15 * * *`) fails with "Cron expressions require 'croniter' package" even after installing croniter in venv. Workaround: use interval format like `24h` instead. First run is calculated from creation time, so create it at the desired start time.
 §

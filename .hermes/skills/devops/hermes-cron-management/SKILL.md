@@ -15,33 +15,68 @@ Workflow for creating recurring Hermes cron jobs that run at specific wall-clock
 Cron expressions require 'croniter' package. Install with: pip install croniter
 ```
 
-Even after installing `croniter` in both the venv and globally (`--break-system-packages`), the error persists intermittently. The cron scheduler may use a different Python than expected.
+The code (`cron/jobs.py` line 150-166) DOES support cron expressions, but it gates on `HAS_CRONITER` from `import croniter`. Even after installing `croniter` in both the venv (where hermes-agent lives) AND globally (`--break-system-packages`), the Python runtime used by the Hermes scheduler process cannot resolve `croniter`.
 
-The `24h` interval works but starts counting from creation time — to anchor it at 23:00, you'd need to create the job at exactly 23:00.
+The `every 1d` / `every 1440m` interval format works for recurring but starts counting from creation time — to anchor it at 23:00, you'd need to create the job at exactly 23:00.
 
-## Solution: Bootstrap pattern
+## Solution: Use system crontab (recommended)
 
-Use a **one-shot timestamped job** that:
-1. Fires at the exact desired hour
-2. Creates the real recurring `24h` job (now anchored correctly)
-3. Self-destructs
+The Hermes cron scheduler is unreliable for daily wall-clock jobs. Use Linux `crontab` instead:
 
-### Template
+```bash
+crontab -e
+```
+
+Add these entries:
+
+```cron
+# Knowledge Base Validation Pipeline
+0  23 * * * cd ~/knowledge-base && hermes cron run 3c3b96dbdea6  # Output Validator
+15 23 * * * cd ~/knowledge-base && hermes cron run 44412beced6c  # Format Validator
+30 23 * * * cd ~/knowledge-base && hermes cron run bbcdaf907f0a  # Hygiene Inspector
+```
+
+### How this works
+
+1. Each Hermes job is a **one-shot** with ISO timestamp `2026-05-14T23:00:00+07:00` (repeat=1)
+2. Linux cron triggers `hermes cron run <job_id>` at the exact time
+3. After the job completes (one-shot, repeat limit reached), it auto-deletes
+4. No recurring state to manage — Linux cron IS the recurrence
+
+### Recreating daily
+
+Since jobs self-destruct after running, you need to recreate them daily. The simplest approach: create a wrapper script that creates 3 one-shot jobs for today, then runs them.
+
+```bash
+#!/bin/bash
+# ~/knowledge-base/.hermes/scripts/daily-validation.sh
+NOW=$(date +%Y-%m-%d)
+hermes cron create --schedule "${NOW}T23:00:00+07:00" --repeat 1 --skill output-validator ...
+hermes cron create --schedule "${NOW}T23:15:00+07:00" --repeat 1 --skill format-validator ...
+hermes cron create --schedule "${NOW}T23:30:00+07:00" --repeat 1 --skill hygiene-inspector ...
+```
+
+Then in crontab: `0 22 * * * /path/to/daily-validation.sh` (creates jobs 1h before they fire).
+
+## Alternative: `every 1440m` with caveat
+
+If you must use Hermes scheduler (e.g., gateway restart persistence):
 
 ```python
 cronjob(
     action="create",
-    name="Bootstrap [Validator Name]",
-    schedule="YYYY-MM-DDT23:00:00+07:00",   # exact ISO timestamp
-    repeat=1,                                  # one-shot
-    deliver="local",                           # no notification needed
-    skills=["skill-name"],
-    model={"provider": "opencode", "model": "glm-5.1"},
-    prompt="Tạo recurring cron job tên \"KB [Name] Daily\", schedule 24h, skill [skill], deliver telegram, model opencode/glm-5.1. Prompt: \"[task description]\" Sau đó tự xóa chính job này."
+    name="KB Output Validator Daily",
+    schedule="every 1440m",   # 24h recurring — first run: NOW + 24h
+    repeat=None,               # forever
+    deliver="origin",
+    skills=["output-validator"],
+    prompt="..."
 )
 ```
 
-### Knowledge Base validation pipeline
+**Caveat:** First run is 24h from creation time. If created at 15:50, it runs daily at 15:50, not 23:00. To anchor at a specific time, you must create the job at exactly that time (e.g., wake up at 23:00 and create it).
+
+## Knowledge Base validation pipeline
 
 Three validators chạy tuần tự mỗi tối, mỗi job cách nhau 15 phút:
 
@@ -52,10 +87,6 @@ Three validators chạy tuần tự mỗi tối, mỗi job cách nhau 15 phút:
 | 23:30 | KB Hygiene Inspector Daily | hygiene-inspector |
 
 All three use `opencode/glm-5.1` to avoid dependency on Google API (which may have leaked key issues).
-
-### Hygiene Inspector special behavior
-
-This is the last validator — it updates `wiki/reviews/_action-required.md` with a summary of all three validators, not just its own findings. Include this in its prompt.
 
 ## Cron list
 
@@ -71,7 +102,7 @@ Returns all jobs with IDs, names, schedules, and statuses.
 cronjob(action="remove", job_id="<id>")
 ```
 
-Common scenario: bootstrap job created at wrong time → `remove` it → recalculate timestamp → recreate.
+Common scenario: job created at wrong time → `remove` it → recalculate timestamp → recreate.
 
 ## Model format
 
@@ -85,9 +116,10 @@ String format like `"opencode/glm-5.1"` will result in `model: null` in the crea
 
 ## Pitfalls
 
-- **Bootstrap jobs are fragile** — if the gateway restarts before the bootstrap fires, the job is lost and no recurring job will exist. After gateway restarts, always check `cronjob(action="list")`.
+- **Cron expressions will NEVER work in Hermes** — the `HAS_CRONITER` check fails because the scheduler's Python runtime (not the venv, not system Python) cannot import `croniter`. Don't waste time trying to install it.
+- **`every 1d` != daily at fixed time** — it's 24h from creation. Only use if you can create the job at the exact desired hour.
+- **One-shot jobs are fragile** — they self-destruct after running. If the gateway restarts before they fire, they're lost. Always check `cronjob(action="list")` after restarts.
 - **Timestamp must be in the future** — ISO timestamps in the past will cause the job to fire immediately or never.
-- **`repeat=1` is one-shot** — without this, the bootstrap would keep creating duplicate recurring jobs.
+- **`repeat=1` is one-shot** — if you want a one-shot, specify `repeat=1`. Without `repeat`, a one-shot schedule auto-sets `repeat=1` anyway.
 - **Timezone must be explicit** — use `+07:00` for Vietnam time, not UTC.
-- **Stale bootstrap jobs** — if you create a bootstrap at the wrong time, remove it immediately (don't just create another). Otherwise both will fire and create duplicate recurring jobs.
-- **Cron expressions don't work** — don't waste time trying `"0 23 * * *"` format. Use the bootstrap pattern.
+- **Bootstrap pattern is NOT recommended** — the bootstrap job itself is a one-shot that dies if gateway restarts. When it fails, no recurring job exists and you don't know it failed. Use system crontab instead.

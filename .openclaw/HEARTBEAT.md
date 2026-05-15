@@ -1,14 +1,14 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 06:00 Asia/Saigon (2026-05-15 23:00 UTC)_
+_Last check: 2026-05-16 06:30 Asia/Saigon (2026-05-15 23:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `06:00:31 up 3 days, 14:46, 1 user, load average: 0,67, 0,40, 0,31`
-- Load average: healthy; `0,67, 0,40, 0,31`
+- Host uptime: `06:30:29 up 3 days, 15:16, 1 user, load average: 0,31, 0,29, 0,27`
+- Load average: healthy; `0,31, 0,29, 0,27`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
 - Memory: healthy; 5.4Gi available / 13Gi total
@@ -23,7 +23,7 @@ _Last check: 2026-05-16 06:00 Asia/Saigon (2026-05-15 23:00 UTC)_
 - Wiki sources: `4`
 - Wiki concepts: `25`
 - Pending review file: present; approved Fix Agent actions remain listed
-- Concept backlink scan: issue detected; concept files still use deprecated full-path source wikilinks
+- Concept backlink scan: issue detected; `20` files still use deprecated full-path source wikilinks
 - Git working tree changed entries: `1` (`.hermes/hermes-agent`)
 
 ## Issues
@@ -31,7 +31,7 @@ _Last check: 2026-05-16 06:00 Asia/Saigon (2026-05-15 23:00 UTC)_
 - Pending approved fixes remain in `wiki/reviews/_action-required.md`:
   - Replace deprecated `[[wiki/sources/...]]` source wikilinks with canonical bare slugs.
   - Remove legacy `date_ingested` from 2 source files.
-- Deprecated source wikilinks remain in concepts, including:
+- Deprecated source wikilinks remain in concepts/sources, including:
   - `wiki/concepts/skill-atrophy.md`
   - `wiki/concepts/negative-compounding.md`
   - `wiki/concepts/information-compression.md`

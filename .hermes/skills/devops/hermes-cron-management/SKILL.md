@@ -1,125 +1,109 @@
 ---
 name: hermes-cron-management
-description: Create and manage recurring Hermes cron jobs at specific wall-clock times. Uses a bootstrap pattern to work around the limitation that cron expressions are unsupported (require croniter package that doesn't work reliably).
+description: Create and manage recurring Hermes cron jobs at specific wall-clock times. Cron expressions work via hermes cron create CLI, but NOT via the cronjob tool (HAS_CRONITER=False in that runtime).
 category: devops
 ---
 
 # Hermes Cron Management
 
-Workflow for creating recurring Hermes cron jobs that run at specific wall-clock times.
+Guide to creating recurring daily Hermes cron jobs that fire at specific wall-clock times.
 
-## The problem
+## The key discovery
 
-`hermes cron create` with cron expressions like `"0 23 * * *"` fails with:
-```
-Cron expressions require 'croniter' package. Install with: pip install croniter
-```
+**`cronjob` tool ≠ `hermes cron create` CLI.** They run in different Python processes:
 
-The code (`cron/jobs.py` line 150-166) DOES support cron expressions, but it gates on `HAS_CRONITER` from `import croniter`. Even after installing `croniter` in both the venv (where hermes-agent lives) AND globally (`--break-system-packages`), the Python runtime used by the Hermes scheduler process cannot resolve `croniter`.
+| Method | Cron expressions | Works? |
+|---|---|---|
+| `cronjob` tool (from agent) | `"0 23 * * *"` | ❌ FAILS — `HAS_CRONITER=False` in agent's Python runtime |
+| `hermes cron create` CLI (on VPS/machine) | `"0 23 * * *"` | ✅ WORKS — VPS Hermes has `croniter` in its venv |
 
-The `every 1d` / `every 1440m` interval format works for recurring but starts counting from creation time — to anchor it at 23:00, you'd need to create the job at exactly 23:00.
+The `cronjob` tool's runtime cannot import `croniter` (even after installing it into the hermes venv). But running `hermes cron create` directly on the VPS terminal DOES work because the CLI uses the correct venv where `croniter` is installed.
 
-## Solution: Use system crontab (recommended)
+## For users: How to create recurring daily jobs
 
-The Hermes cron scheduler is unreliable for daily wall-clock jobs. Use Linux `crontab` instead:
-
-```bash
-crontab -e
-```
-
-Add these entries:
-
-```cron
-# Knowledge Base Validation Pipeline
-0  23 * * * cd ~/knowledge-base && hermes cron run 3c3b96dbdea6  # Output Validator
-15 23 * * * cd ~/knowledge-base && hermes cron run 44412beced6c  # Format Validator
-30 23 * * * cd ~/knowledge-base && hermes cron run bbcdaf907f0a  # Hygiene Inspector
-```
-
-### How this works
-
-1. Each Hermes job is a **one-shot** with ISO timestamp `2026-05-14T23:00:00+07:00` (repeat=1)
-2. Linux cron triggers `hermes cron run <job_id>` at the exact time
-3. After the job completes (one-shot, repeat limit reached), it auto-deletes
-4. No recurring state to manage — Linux cron IS the recurrence
-
-### Recreating daily
-
-Since jobs self-destruct after running, you need to recreate them daily. The simplest approach: create a wrapper script that creates 3 one-shot jobs for today, then runs them.
+Run these commands directly on the **VPS terminal** (not through the agent):
 
 ```bash
-#!/bin/bash
-# ~/knowledge-base/.hermes/scripts/daily-validation.sh
-NOW=$(date +%Y-%m-%d)
-hermes cron create --schedule "${NOW}T23:00:00+07:00" --repeat 1 --skill output-validator ...
-hermes cron create --schedule "${NOW}T23:15:00+07:00" --repeat 1 --skill format-validator ...
-hermes cron create --schedule "${NOW}T23:30:00+07:00" --repeat 1 --skill hygiene-inspector ...
+cd ~/knowledge-base
+
+# Output Validator — 23:00 daily
+hermes cron create \
+  --name "Output Validator" \
+  --deliver origin \
+  --skill output-validator \
+  "0 23 * * *" \
+  "Chạy Output Validator: đọc toàn bộ wiki/sources/*.md và wiki/concepts/*.md, validate content quality theo 4 dimensions. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
+
+# Format Validator — 23:15 daily
+hermes cron create \
+  --name "Format Validator" \
+  --deliver origin \
+  --skill format-validator \
+  "15 23 * * *" \
+  "Chạy Format Validator: đọc format-spec.md và toàn bộ wiki, validate format compliance 4 categories. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
+
+# Hygiene Inspector — 23:30 daily
+hermes cron create \
+  --name "Hygiene Inspector" \
+  --deliver origin \
+  --skill hygiene-inspector \
+  "30 23 * * *" \
+  "Chạy Hygiene Inspector: đọc folder-structure.md, scan toàn bộ cây thư mục, validate 3 dimensions. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
 ```
 
-Then in crontab: `0 22 * * * /path/to/daily-validation.sh` (creates jobs 1h before they fire).
+**No Linux crontab needed.** Hermes scheduler handles recurrence automatically. Jobs persist in `~/.hermes/cron/jobs.json`.
 
-## Alternative: `every 1440m` with caveat
+## For agents: What you CAN and CANNOT do
 
-If you must use Hermes scheduler (e.g., gateway restart persistence):
+### ✅ You CAN do via `cronjob` tool:
+- `cronjob(action="list")` — check existing jobs
+- `cronjob(action="remove", job_id="...")` — delete jobs
+- `cronjob(action="create", schedule="<ISO timestamp>", repeat=1)` — one-shot jobs
+- `cronjob(action="create", schedule="every 1440m")` — recurring with interval (but first run is NOW + 24h, not anchored)
 
-```python
-cronjob(
-    action="create",
-    name="KB Output Validator Daily",
-    schedule="every 1440m",   # 24h recurring — first run: NOW + 24h
-    repeat=None,               # forever
-    deliver="origin",
-    skills=["output-validator"],
-    prompt="..."
-)
+### ❌ You CANNOT do via `cronjob` tool:
+- `cronjob(action="create", schedule="0 23 * * *")` — will fail with "Cron expressions require 'croniter'"
+- `cronjob(action="create", schedule="every day at 23:00")` — invalid duration format
+
+### Workaround when user needs recurring daily jobs:
+1. Tell user to run `hermes cron create` commands directly on VPS terminal
+2. OR: create one-shot jobs for today, then remind user to recreate tomorrow
+3. OR: use `every 1440m` and accept the 24h-from-now timing (not anchored to specific hour)
+
+## Verifying jobs are active
+
+```bash
+# On VPS
+hermes cron status   # Must show "Gateway is running"
+hermes cron list     # Show all jobs with next run times
 ```
 
-**Caveat:** First run is 24h from creation time. If created at 15:50, it runs daily at 15:50, not 23:00. To anchor at a specific time, you must create the job at exactly that time (e.g., wake up at 23:00 and create it).
+If gateway is NOT running, start it: `hermes gateway start` (or however the VPS starts Hermes).
+
+## Removing old/duplicate jobs
+
+```bash
+hermes cron remove <job_id>
+```
+
+Common scenario: after creating recurring cron jobs, old one-shot jobs with same name still exist. Always `hermes cron list` and remove duplicates.
 
 ## Knowledge Base validation pipeline
 
-Three validators chạy tuần tự mỗi tối, mỗi job cách nhau 15 phút:
+Three validators chạy tuần tự mỗi tối:
 
-| Giờ | Job | Skill |
-|---|---|---|
-| 23:00 | KB Output Validator Daily | output-validator |
-| 23:15 | KB Format Validator Daily | format-validator |
-| 23:30 | KB Hygiene Inspector Daily | hygiene-inspector |
+| Giờ | Job | Skill | Model |
+|---|---|---|---|
+| 23:00 | Output Validator | output-validator | opencode/glm-5.1 |
+| 23:15 | Format Validator | format-validator | opencode/glm-5.1 |
+| 23:30 | Hygiene Inspector | hygiene-inspector | opencode/glm-5.1 |
 
-All three use `opencode/glm-5.1` to avoid dependency on Google API (which may have leaked key issues).
-
-## Cron list
-
-```bash
-cronjob(action="list")
-```
-
-Returns all jobs with IDs, names, schedules, and statuses.
-
-## Removing jobs
-
-```bash
-cronjob(action="remove", job_id="<id>")
-```
-
-Common scenario: job created at wrong time → `remove` it → recalculate timestamp → recreate.
-
-## Model format
-
-Models must be specified as objects, not strings:
-
-```python
-model={"provider": "opencode", "model": "glm-5.1"}
-```
-
-String format like `"opencode/glm-5.1"` will result in `model: null` in the created job.
+All use model from skill's frontmatter (no `--model` flag on `hermes cron create`).
 
 ## Pitfalls
 
-- **Cron expressions will NEVER work in Hermes** — the `HAS_CRONITER` check fails because the scheduler's Python runtime (not the venv, not system Python) cannot import `croniter`. Don't waste time trying to install it.
-- **`every 1d` != daily at fixed time** — it's 24h from creation. Only use if you can create the job at the exact desired hour.
-- **One-shot jobs are fragile** — they self-destruct after running. If the gateway restarts before they fire, they're lost. Always check `cronjob(action="list")` after restarts.
-- **Timestamp must be in the future** — ISO timestamps in the past will cause the job to fire immediately or never.
-- **`repeat=1` is one-shot** — if you want a one-shot, specify `repeat=1`. Without `repeat`, a one-shot schedule auto-sets `repeat=1` anyway.
-- **Timezone must be explicit** — use `+07:00` for Vietnam time, not UTC.
-- **Bootstrap pattern is NOT recommended** — the bootstrap job itself is a one-shot that dies if gateway restarts. When it fails, no recurring job exists and you don't know it failed. Use system crontab instead.
+- **`cronjob` tool ≠ `hermes cron create`** — even if `croniter` is installed in the hermes venv, the agent's `cronjob` tool uses a different Python process that cannot import it. Don't try to install `croniter` via the agent — just tell the user to use the CLI.
+- **Job IDs are machine-specific** — jobs created via `cronjob` tool go to `~/.hermes/cron/jobs.json` on the CURRENT machine. If you're on the main machine, the VPS won't see them.
+- **`cronjob` tool list also shows remote jobs?** No. Always check `cronjob(action="list")` to see jobs on the CURRENT machine only.
+- **`--model` flag not available** — `hermes cron create` doesn't have a `--model` flag. Model is determined by the skill's SKILL.md frontmatter.
+- **`--deliver origin`** — delivers results back to the same chat/topic where the job was created. For CLI-created jobs, make sure the delivery origin is correctly configured.

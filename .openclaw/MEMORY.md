@@ -34,6 +34,28 @@ Each entry follows this format:
 <!-- Entries appear below in reverse chronological order (newest first) -->
 <!-- OpenClaw appends new entries here -->
 
+## 2026-05-15 08:00:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-14_how-ai-productivity-fails.md
+- **Source note:** wiki/sources/src_how-ai-productivity-fails.md
+- **Concepts:** [shift-left-testing, closed-loop-system, codified-taste, skill-atrophy, loop-ownership, taste-holders]
+- **Tags applied:** main=#ai, sub=[#tools, #automation, #opinion], topic=ai-productivity
+- **Action:** created 6 concept files
+- **Note:** File had old frontmatter format with custom main_tag/sub_tags — normalized to standard format
+
+## 2026-05-15 08:01:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-14_how-some-people-become-unrecognizable.md
+- **Source note:** wiki/sources/src_how-some-people-become-unrecognizable.md
+- **Concepts:** [compounding-effect, casino-culture, discipline-system, environment-baseline, leading-indicators, negative-compounding, patience-vs-passivity]
+- **Tags applied:** main=#productivity, sub=[#opinion, #tools], topic=compounding-growth
+- **Action:** created 7 concept files
+- **Note:** File had old frontmatter format (main_tag: personal-development not in Pool A) — remapped to #productivity
+
+---
+<!-- Entries appear below in reverse chronological order (newest first) -->
+<!-- OpenClaw appends new entries here -->
+
 ## 2026-05-14 08:05:00 — Compiled
 
 - **Raw:** raw/articles/2026-04-02_what-comes-after-systems-thinking.md

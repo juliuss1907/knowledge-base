@@ -5,9 +5,8 @@ source_url: "https://open.substack.com/pub/shrivu/p/how-ai-productivity-fails"
 date_published: 2026-05-14
 date_ingested: 2026-05-14
 type: article
-main_tag: ai
-sub_tags: [productivity, engineering]
-topic: ai-productivity
+status: processed
+compiled_at: 2026-05-15
 ---
 
 # How AI Productivity Fails

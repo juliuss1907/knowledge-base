@@ -5,9 +5,8 @@ source_url: "https://open.substack.com/pub/thebeautyofsaas/p/how-some-people-bec
 date_published: 2026-05-14
 date_ingested: 2026-05-14
 type: article
-main_tag: personal-development
-tags: [productivity, mindset]
-topic: compounding
+status: processed
+compiled_at: 2026-05-15
 ---
 
 # Compounding: How Some People Become Unrecognizable

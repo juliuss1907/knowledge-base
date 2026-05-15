@@ -106,18 +106,19 @@ Each skill folder must contain:
 
 ```
 skills/<skill-name>/
-├── SKILL.md       ✓ required (main skill file)
-├── workflow.md    ✓ allowed (detailed workflow)
-├── examples.md    ✓ allowed (sample inputs/outputs)
-├── reference.md   ✓ allowed (specs, references)
-└── *              ✗ forbidden (no other files)
+├── SKILL.md                ✓ required (main skill file)
+├── workflow.md             ✓ allowed (detailed workflow)
+├── examples.md             ✓ allowed (sample inputs/outputs)
+├── reference.md            ✓ allowed (specs, references)
+├── validation-criteria.md  ✓ allowed (validation rules)
+└── *.md                    ✓ allowed (additional documentation)
 ```
 
 **Rules:**
 - `SKILL.md` is required
-- Supporting files (`workflow.md`, `examples.md`, `reference.md`) are optional
+- Supporting markdown files allowed (no limit on names)
 - No subfolders
-- No files with other names
+- No non-markdown files (except `.gitkeep`)
 
 ---
 

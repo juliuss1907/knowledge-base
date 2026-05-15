@@ -347,8 +347,25 @@ author: <optional-author-name>
 - Must use double brackets: `[[target]]`
 - Optional display text: `[[target|display text]]`
 - No spaces around brackets: `[[target]]` not `[[ target ]]`
-- Relative paths for wiki files: `[[wiki/sources/src_slug]]`
+- **Use bare slugs** (Obsidian resolves automatically):
+  - Concepts: `[[concept-slug]]` not `[[wiki/concepts/concept-slug]]`
+  - Sources: `[[src_slug]]` not `[[wiki/sources/src_slug]]`
+- Full paths allowed but discouraged (verbose, breaks on folder rename)
 - No wikilinks to files outside `wiki/`
+
+**Examples:**
+```
+✅ Correct (bare slug):
+[[claude-code-workflow]]
+[[src_anthropic-claude-code]]
+
+⚠️ Acceptable (full path):
+[[wiki/concepts/claude-code-workflow]]
+[[wiki/sources/src_anthropic-claude-code]]
+
+❌ Wrong (external):
+[[../raw/articles/file.md]]
+```
 
 **Validation:**
 - ERROR: Wikilink has spaces around brackets
@@ -360,7 +377,7 @@ author: <optional-author-name>
 
 **Rules:**
 - Concepts link to concepts: `[[concept-slug]]`
-- Concepts link to sources: `[[wiki/sources/src_slug]]`
+- Concepts link to sources: `[[src_slug]]`
 - Sources link to concepts: `[[concept-slug]]`
 - No external URLs in wikilinks — use markdown links for external
 

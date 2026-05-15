@@ -1,17 +1,17 @@
 # HEARTBEAT
 
-_Last check: 2026-05-15 22:00 Asia/Saigon (2026-05-15 15:00 UTC)_
+_Last check: 2026-05-15 22:30 Asia/Saigon (2026-05-15 15:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `22:00:35 up 3 days,  6:47,  1 user,  load average: 0,61, 0,38, 0,31`
-- Load average: healthy; `0,61, 0,38, 0,31`
+- Host uptime: `22:30:36 up 3 days,  7:17,  1 user,  load average: 0,76, 0,41, 0,34`
+- Load average: healthy; `0,76, 0,41, 0,34`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
-- Memory: healthy; 13Gi total, 5.9Gi available
+- Memory: healthy; 13Gi total, 5.8Gi available
 - Swap: healthy; 17Gi total, 512Ki used
 
 ## OpenClaw checks
@@ -27,7 +27,7 @@ _Last check: 2026-05-15 22:00 Asia/Saigon (2026-05-15 15:00 UTC)_
 - Topic indexes: `0`
 - Review files: `4`
 - Pending review: `wiki/reviews/_action-required.md` present; approved Fix Agent item remains (format)
-- Concept backlink spot-check: canonical source wikilinks clean; `0` concept files still use `wiki/sources` in `sources`
+- Concept backlink spot-check: `20` concept files still contain `wiki/sources` references pending approved format fix
 - Source format spot-check: `2` source files still contain legacy `date_ingested` pending approved format fix
 
 ## Result

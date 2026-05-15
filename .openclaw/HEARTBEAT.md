@@ -1,12 +1,12 @@
-_Last check: 2026-05-15 08:04 Asia/Saigon (2026-05-15 01:04 UTC)_
+_Last check: 2026-05-15 08:30 Asia/Saigon (2026-05-15 01:30 UTC)_
 
 ## Agent health
 
 - Status: healthy with pending review issues
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `up 2 days, 16 hours, 51 minutes`
-- Load average: healthy; approximately `0.62, 0.54, 0.68`
+- Host uptime: `up 2 days, 17 hours, 17 minutes`
+- Load average: healthy; approximately `0.49, 0.42, 0.47`
 - Disk (`/`): healthy; `37G / 230G used (17%)`
 - Disk (`/home/julius/knowledge-base`): healthy; `37G used / 182G free / 17% used`
 - Memory: healthy; `6.6Gi available / 13Gi total`
@@ -16,11 +16,10 @@ _Last check: 2026-05-15 08:04 Asia/Saigon (2026-05-15 01:04 UTC)_
 
 - Session runtime: responsive; current model `9router/cx/gpt-5.5`
 - Raw backlog: `0` files with `status: unprocessed`
-- Raw files: `10`
-- Wiki files: `35`
+- Raw processed files: `4`
 - Wiki concepts: `25`
-- Wiki reviews: `4`
-- Action-required markers: `10`
+- Concept backlink sample: clean (`5/5` checked have source references)
+- Pending reports: `3` in `wiki/reviews/_action-required.md`
 - Git working tree: `1` changed path (`.hermes/hermes-agent`)
 
 ## Result

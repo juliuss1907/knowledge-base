@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [opinion]
 topic: active-thinking-methodology
 sources:
-  - [[wiki/sources/src_active-vs-lazy-thinking]]
+  - [[src_active-vs-lazy-thinking]]
 last_updated: 2026-05-13
 ---
 

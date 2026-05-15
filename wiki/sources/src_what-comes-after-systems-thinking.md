@@ -4,7 +4,6 @@ original: raw/articles/2026-04-02_what-comes-after-systems-thinking.md
 main_tag: system
 sub_tags: [research]
 topic: post-systems-thinking
-date_ingested: 2026-04-02
 date_compiled: 2026-05-14
 url: http://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking?r=1g2ue2
 author: Nicole Williams

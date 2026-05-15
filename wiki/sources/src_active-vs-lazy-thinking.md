@@ -4,7 +4,6 @@ original: raw/articles/2026-05-12_active-vs-lazy-thinking.md
 main_tag: productivity
 sub_tags: [opinion]
 topic: active-thinking-methodology
-date_ingested: 2026-05-12
 date_compiled: 2026-05-13
 url: https://alexw.substack.com/p/active-vs-lazy-thinking
 author: Alexandr Wang

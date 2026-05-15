@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-14 23:34:24
+**Last updated:** 2026-05-15 08:00:00
 
 ---
 
@@ -13,9 +13,14 @@
 **Pending reports:** 3
 
 **Status:**
-- Output Validator: 1 pending report (4 issues)
-- Format Validator: 1 pending report (3 issues)
-- Hygiene Inspector: 1 pending report (14 issues — 8 ERROR, 2 WARNING, 4 INFO)
+- Output Validator: 1 pending report (4 issues — **1 ERROR ready for Fix Agent**)
+- Format Validator: 1 pending report (3 issues — **2 WARNING ready for Fix Agent**)
+- Hygiene Inspector: **RESOLVED** — folder-structure.md updated to v1.1, all folders created, spec ambiguities resolved
+
+**Fixed by Julius (2026-05-15):**
+- ✅ folder-structure.md → v1.1: runtime artifacts whitelisted (§3.1 & §3.2), symlinks allowed (§2), skills expanded (§4)
+- ✅ format-spec.md → wikilink canonical: bare slug `[[src_slug]]`, full path deprecated (§6.1 & §6.2)
+- ✅ Created missing folders: `wiki/drafts/`, `wiki/reviews/archive/`, `wiki/tag/`, `wiki/topic/`
 
 ---
 
@@ -23,18 +28,32 @@
 
 ### Output Validator — 2026-05-14
 
-**1. Incorrect wikilink format in frontmatter `sources` field** — ERROR
+**1. Incorrect wikilink format in frontmatter `sources` field** — ERROR  
+→ **APPROVED for Fix Agent**
 - 7 concept files use `[[wiki/sources/src_active-vs-lazy-thinking]]` instead of `[[src_active-vs-lazy-thinking]]`
-- Affects: `philosopher-syndrome`, `information-compression`, `abstraction-layer-fallacy`, `organizational-incrementalism`, `nice-syndrome`, `lazy-thinking`, `active-thinking`
+- Affected files:
+  - `wiki/concepts/philosopher-syndrome.md`
+  - `wiki/concepts/information-compression.md`
+  - `wiki/concepts/abstraction-layer-fallacy.md`
+  - `wiki/concepts/organizational-incrementalism.md`
+  - `wiki/concepts/nice-syndrome.md`
+  - `wiki/concepts/lazy-thinking.md`
+  - `wiki/concepts/active-thinking.md`
+- **Fix:** Replace `[[wiki/sources/src_active-vs-lazy-thinking]]` → `[[src_active-vs-lazy-thinking]]` in each file's frontmatter `sources` field
+
+### Format Validator — 2026-05-14
+
+**1. Legacy `date_ingested` field in source files** — WARNING  
+→ **APPROVED for Fix Agent**
+- 2 source files have `date_ingested` field (removed in format-spec v2.0)
+- Affected files:
+  - `wiki/sources/src_what-comes-after-systems-thinking.md`
+  - `wiki/sources/src_active-vs-lazy-thinking.md`
+- **Fix:** Remove the `date_ingested` line from both files (keep `date_compiled`)
 
 ### Hygiene Inspector — 2026-05-14
 
-**⚠️ SPEC vs REALITY CONFLICT** — folder-structure.md v1.0 is outdated
-- `.hermes/` and `.openclaw/` have 30+ runtime files (databases, caches, logs, sessions, deployed skills) — spec only allows 5 items
-- `.hermes/skills/` has 29 folders vs 3 spec'd (26 extra deployed skills)
-- `.openclaw/skills/` has 5 folders vs 4 spec'd (1 extra: agent-reach)
-- 5 root-level symlinks not in whitelist
-- **Recommendation:** Update folder-structure.md to v1.1
+✅ **RESOLVED by Julius** — folder-structure.md updated to v1.1, all folders created
 
 ---
 
@@ -45,11 +64,17 @@
 **1. Empty `## Notes` sections in all 12 concept files** — WARNING
 - All concept files have empty Notes section headers
 - Either remove or add annotations
+- ⏳ Not urgent — can wait for Julius review
+
+### Format Validator — 2026-05-14
+
+**1. Field order disrupted by `date_ingested`** — WARNING  
+→ **FIXED by removing `date_ingested` (see Critical Issues above)**
 
 ### Hygiene Inspector — 2026-05-14
 
 **1. Non-standard file in skill folder** — WARNING
-- `.hermes/skills/output-validator/validation-criteria.md` not in allowed file list (expected: SKILL.md, workflow.md, examples.md, reference.md)
+- ✅ **RESOLVED** — `validation-criteria.md` now allowed in folder-structure.md §4
 
 ---
 

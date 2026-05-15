@@ -1,16 +1,16 @@
-_Last check: 2026-05-15 16:30 Asia/Saigon (2026-05-15 09:30 UTC)_
+_Last check: 2026-05-15 17:00 Asia/Saigon (2026-05-15 10:00 UTC)_
 
 ## Agent health
 
 - Status: healthy with pending review issues
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `16:31:54 up 3 days,  1:18,  1 user,  load average: 0,46, 0,33, 0,26`
-- Load average: healthy; `0,46, 0,33, 0,26`
+- Host uptime: `17:00:37 up 3 days,  1:47,  1 user,  load average: 1,00, 0,63, 0,44`
+- Load average: healthy; `1,00, 0,63, 0,44`
 - Disk (`/`): healthy; 17% used
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used
 - Memory: healthy; 13Gi total, 6,1Gi available
-- Swap: healthy; 512Ki available
+- Swap: healthy; 17Gi available
 
 ## OpenClaw checks
 
@@ -21,7 +21,7 @@ _Last check: 2026-05-15 16:30 Asia/Saigon (2026-05-15 09:30 UTC)_
 - Wiki sources: `4`
 - Wiki concepts: `25`
 - Pending review reports: `3` in `wiki/reviews/_action-required.md`
-- Review files present: `3`
+- Review files present: `4`
 
 ## Notes
 

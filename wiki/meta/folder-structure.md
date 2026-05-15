@@ -28,6 +28,11 @@ knowledge-base/
 ├── TAGS.md            ✓ required
 ├── README.md          ✓ required
 ├── knowledge-base.md  ✓ required
+├── HEARTBEAT.md       ✓ allowed (symlink to .openclaw/HEARTBEAT.md)
+├── IDENTITY.md        ✓ allowed (symlink to .openclaw/IDENTITY.md)
+├── SOUL.md            ✓ allowed (symlink to .openclaw/SOUL.md)
+├── TOOLS.md           ✓ allowed (symlink to .openclaw/TOOLS.md)
+├── USER.md            ✓ allowed (symlink to .openclaw/USER.md)
 ├── .gitignore         ✓ required
 ├── .git/              ✓ required (git internals)
 ├── .obsidian/         ✓ allowed (Obsidian config)
@@ -38,11 +43,12 @@ knowledge-base/
 ├── wiki/              ✓ required
 ├── scripts/           ✓ allowed (utility scripts)
 └── *                  ✗ forbidden (no other files/folders)
-```
 
 **Rules:**
-- No loose `.md` files except the 4 required ones
+- No loose `.md` files except the 4 required ones + 5 allowed symlinks
+- Symlinks to agent identity files allowed at root (for convenience)
 - No folders starting with uppercase (except `.git`, `.obsidian`)
+- Archives (`*-archive/`, `*-v1-backup/`) must be gitignored
 - Archives (`*-archive/`, `*-v1-backup/`) must be gitignored
 
 ---
@@ -61,13 +67,15 @@ knowledge-base/
     ├── ingest-agent/
     ├── compile-agent/
     ├── index-agent/
-    └── fix-agent/
+    ├── fix-agent/
+    └── */         ✓ allowed (additional skills)
 ```
 
 **Rules:**
 - Exactly 4 identity files at root
-- `skills/` contains exactly 4 subfolders (agent jobs)
-- No other files or folders
+- `skills/` contains 4 core subfolders + additional skills allowed
+- Runtime folders (`agents/`, `cron/`, `memory/`) allowed
+- Runtime files (`.sqlite`, `.log`, `.tmp`) allowed
 
 ### 3.2 `.hermes/`
 
@@ -80,13 +88,15 @@ knowledge-base/
 └── skills/       ✓ required
     ├── output-validator/
     ├── format-validator/
-    └── hygiene-inspector/
+    ├── hygiene-inspector/
+    └── */         ✓ allowed (additional skills)
 ```
 
 **Rules:**
 - Exactly 4 identity files at root
-- `skills/` contains exactly 3 subfolders (validator roles)
-- No other files or folders
+- `skills/` contains 3 core subfolders + additional skills allowed
+- Runtime folders (`sessions/`, `cron/`, `hermes-agent/`) allowed
+- Runtime files (`.db`, `.log`, `.tmp`) allowed
 
 ---
 

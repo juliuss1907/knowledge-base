@@ -1,15 +1,15 @@
-_Last check: 2026-05-15 19:00 Asia/Saigon (2026-05-15 12:00 UTC)_
+_Last check: 2026-05-15 19:30 Asia/Saigon (2026-05-15 12:30 UTC)_
 
 ## Agent health
 
 - Status: healthy with pending review issues
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `19:00:31 up 3 days,  3:46,  1 user,  load average: 0,52, 0,31, 0,27`
-- Load average: healthy; `0,52, 0,31, 0,27`
-- Disk (`/`): healthy; 17% used
-- Disk (`/home/julius/knowledge-base`): healthy; 17% used
-- Memory: healthy; 13Gi total, 6,0Gi available
+- Host uptime: ` 19:30:58 up 3 days,  4:17,  1 user,  load average: 0.77, 0.55, 0.34`
+- Load average: healthy; `0.77, 0.55, 0.34`
+- Disk (`/`): healthy; 17% used (182G free)
+- Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
+- Memory: healthy; 13Gi total, 6.0Gi available
 - Swap: healthy; 17Gi available
 
 ## OpenClaw checks
@@ -20,13 +20,11 @@ _Last check: 2026-05-15 19:00 Asia/Saigon (2026-05-15 12:00 UTC)_
 - Raw markdown files: `10`
 - Wiki sources: `4`
 - Wiki concepts: `25`
-- Pending review reports: `3` in `wiki/reviews/_action-required.md`
-- Review files present: `4`
+- Tag indexes: `0`
+- Topic indexes: `0`
+- Review files: `4`
+- Pending review: wiki/reviews/_action-required.md present; 6 flagged lines
 
-## Notes
+## Result
 
-- HEARTBEAT.md updated by cron `3e70fe54-de76-4781-9342-c1ab2a73ebd4`.
-- Pending Hermes reports remain: output, format, hygiene.
-- Approved Fix Agent items remain pending in `_action-required.md`.
-- Raw folder index files without status remain unchanged: `raw/repos/repos.md`, `raw/articles/articles.md`, `raw/papers/papers.md`, `raw/posts/posts.md`, `raw/videos/videos.md`, `raw/websites/websites.md`.
-- No destructive actions performed.
+HEARTBEAT_OK

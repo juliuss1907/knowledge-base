@@ -1,14 +1,14 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 15:00 Asia/Saigon (2026-05-16 08:00 UTC)_
+_Last check: 2026-05-16 15:30 Asia/Saigon (2026-05-16 08:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `15:00:49 up 3 days, 23:47, 1 user, load average: 1.07, 0.87, 0.61`
-- Load average: healthy; `0.99 0.85 0.60`
+- Host uptime: `15:30:34 up 4 days, 17 min, 1 user, load average: 0.68, 0.45, 0.37`
+- Load average: healthy; `0.68 0.45 0.37`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
 - Memory: healthy; 6.1Gi available / 13.6Gi total
@@ -24,18 +24,18 @@ _Last check: 2026-05-16 15:00 Asia/Saigon (2026-05-16 08:00 UTC)_
 - Wiki concepts: `25`
 - Tag indexes: `0`
 - Topic indexes: `0`
-- Review files: `3`
+- Review files: `4`
 - Pending action file: `1`
 - Approved Fix Agent actions pending: `2` groups in `wiki/reviews/_action-required.md`
 - Git working tree: modified submodule `m .hermes/hermes-agent`
 
 ## Cron checks
 
-- Compile Daily: last run `error`; consecutive errors `1`; last error: `Edit failed in raw/articles/2026-04-23_where did the kelp $292m go_ anatomy of a $292m laundering..md`
-- Index Update: last run `ok`
-- Git Auto-commit: last run `ok`
-- Weekly Health Check: last run `ok`
-- Horizon briefs / market jobs: last run `ok`
+- Compile Daily: last known run `error`; last known issue: model/rate-limit failure in cron session history
+- Index Update: last known run `ok`
+- Git Auto-commit: last known run `ok`
+- Weekly Health Check: last known run `ok`
+- Horizon briefs / market jobs: last known run `ok`
 
 ## Result
 

@@ -3,10 +3,10 @@
 ## Agent health
 - Status: healthy
 - Host: `julius-vps`
-- Host uptime: ` 04:00:54 up 4 days, 12:47,  1 user,  load average: 0,34, 0,32, 0,34`
-- Load average: healthy; `0,34, 0,32, 0,34`
+- Host uptime: ` 04:30:29 up 4 days, 13:16,  1 user,  load average: 0,29, 0,28, 0,27`
+- Load average: healthy; `0,29, 0,28, 0,27`
 - Memory: healthy; 13Gi total, 6,0Gi available
-- Swap: healthy; 1,7Gi available
+- Swap: healthy; 16Gi available
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -21,5 +21,6 @@
 - No raw backlog detected.
 - Pending approved fixes remain in `wiki/reviews/_action-required.md`.
 - Concept backlink sample still shows legacy source wikilinks covered by approved Fix Agent action.
+- Git working tree has existing modified path: `.hermes/hermes-agent`.
 
-_Last check: 2026-05-17 04:00 Asia/Saigon (2026-05-16 21:00 UTC)_
+_Last check: 2026-05-17 04:30 Asia/Saigon (2026-05-16 21:30 UTC)_

@@ -1,23 +1,22 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 19:00 Asia/Saigon (2026-05-16 12:00 UTC)_
+_Last check: 2026-05-16 19:30 Asia/Saigon (2026-05-16 12:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `19:00:33 up 4 days,  3:47,  1 user,  load average: 0,98, 0,50, 0,31`
-- Load average: healthy; `0.98 0.50 0.31`
+- Host uptime: `19:30:27 up 4 days,  4:16,  1 user,  load average: 0,83, 0,39, 0,32`
+- Load average: healthy; `0.83 0.39 0.32`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
-- Memory: healthy; see `free -h` output from heartbeat run
-- Swap: healthy; see `free -h` output from heartbeat run
+- Memory: healthy; 13Gi total, 6.2Gi available
+- Swap: healthy; 17Gi total, 16Gi free
 
 ## OpenClaw checks
 
 - Session runtime: responsive; current model `9router/cx/gpt-5.5`
-- Gateway CLI: unavailable in shell (`openclaw: command not found`)
 - Raw backlog: `0` files with `status: unprocessed`
 - Raw markdown files: `10`
 - Wiki sources: `4`

@@ -1,18 +1,18 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 17:00 Asia/Saigon (2026-05-16 10:00 UTC)_
+_Last check: 2026-05-16 17:30 Asia/Saigon (2026-05-16 10:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `17:01:33 up 4 days,  1:48,  1 user,  load average: 0,39, 0,43, 0,33`
-- Load average: healthy; `0.39 0.43 0.33`
+- Host uptime: `17:30:51 up 4 days, 2:17, 1 user, load average: 0.31, 0.31, 0.26`
+- Load average: healthy; `0.31 0.31 0.26`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
-- Memory: healthy; 6.1Gi available / 13Gi total
-- Swap: healthy; 1.2Gi used / 17Gi total
+- Memory: healthy; last known 6.1Gi available / 13Gi total
+- Swap: healthy; last known 1.2Gi used / 17Gi total
 
 ## OpenClaw checks
 
@@ -27,7 +27,7 @@ _Last check: 2026-05-16 17:00 Asia/Saigon (2026-05-16 10:00 UTC)_
 - Review files: `4`
 - Pending action file: `1`
 - Approved Fix Agent actions pending: `2` groups in `wiki/reviews/_action-required.md`
-- Git working tree: m .hermes/hermes-agent
+- Git working tree: modified `.openclaw/HEARTBEAT.md`, `.hermes/hermes-agent`
 
 ## Cron checks
 

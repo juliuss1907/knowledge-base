@@ -3,10 +3,10 @@
 ## Agent health
 - Status: healthy
 - Host: `julius-vps`
-- Host uptime: ` 03:00:47 up 4 days, 11:47,  1 user,  load average: 0,68, 0,42, 0,31`
-- Load average: healthy; `0.68, 0.42, 0.31`
-- Memory: healthy; 13Gi total, 6,1Gi available
-- Swap: healthy; 1,7Gi available
+- Host uptime: ` 03:30:35 up 4 days, 12:17,  1 user,  load average: 0,48, 0,49, 0,39`
+- Load average: healthy; `0.48, 0.49, 0.39`
+- Memory: healthy; 13Gi total, 6.0Gi available
+- Swap: healthy; 16Gi available
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -21,4 +21,4 @@
 - No raw backlog detected.
 - Pending approved fixes remain in `wiki/reviews/_action-required.md`.
 
-_Last check: 2026-05-17 03:00 Asia/Saigon (2026-05-16 20:00 UTC)_
+_Last check: 2026-05-17 03:30 Asia/Saigon (2026-05-16 20:30 UTC)_

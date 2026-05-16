@@ -64,3 +64,12 @@ Each entry follows this format:
 - **Tags applied:** main=#system, sub=[#research], topic=post-systems-thinking
 - **Action:** created 5 concept files
 - **Note:** File had non-standard frontmatter (inline metadata format), fixed before compiling
+
+## 2026-05-16 21:00:30 — Indexed
+
+- **Scanned:** 26 concepts + 4 sources = 30 total files
+- **Tags indexed:** 8 (3 main-tags + 5 sub-tags)
+- **Topics indexed:** 4
+- **Orphans deleted:** 0 (no orphan cleanup needed — fresh run)
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped

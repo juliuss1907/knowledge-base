@@ -1,18 +1,18 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 11:30 Asia/Saigon (2026-05-16 04:30 UTC)_
+_Last check: 2026-05-16 12:00 Asia/Saigon (2026-05-16 05:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `11:30:54 up 3 days, 20:17,  1 user,  load average: 0,26, 0,25, 0,27`
-- Load average: healthy; `0.26 0.25 0.27`
+- Host uptime: `12:00:34 up 3 days, 20:47,  1 user,  load average: 0,88, 0,45, 0,33`
+- Load average: healthy; `0.88 0.45 0.33`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
 - Memory: healthy; 6,0Gi available / 13Gi total
-- Swap: healthy; 890Mi used / 17Gi total
+- Swap: healthy; 947Mi used / 17Gi total
 
 ## OpenClaw checks
 
@@ -27,6 +27,14 @@ _Last check: 2026-05-16 11:30 Asia/Saigon (2026-05-16 04:30 UTC)_
 - Review files: `4`
 - Pending action file: `1`
 - Approved Fix Agent actions pending: `2` groups in `wiki/reviews/_action-required.md`
+
+## Cron checks
+
+- Compile Daily: last run `error`; consecutive errors `1`; last error: `Edit failed in raw/articles/2026-04-23_where did the kelp $292m go_ anatomy of a $292m laundering..md`
+- Index Update: last run `ok`
+- Git Auto-commit: last run `ok`
+- Weekly Health Check: last run `ok`
+- Horizon briefs / market jobs: last run `ok`
 
 ## Result
 

@@ -1,14 +1,14 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 12:00 Asia/Saigon (2026-05-16 05:00 UTC)_
+_Last check: 2026-05-16 12:30 Asia/Saigon (2026-05-16 05:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `12:00:34 up 3 days, 20:47,  1 user,  load average: 0,88, 0,45, 0,33`
-- Load average: healthy; `0.88 0.45 0.33`
+- Host uptime: `12:30:37 up 3 days, 21:17,  1 user,  load average: 0,38, 0,34, 0,36`
+- Load average: healthy; `0.38 0.34 0.36`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
 - Memory: healthy; 6,0Gi available / 13Gi total
@@ -22,8 +22,8 @@ _Last check: 2026-05-16 12:00 Asia/Saigon (2026-05-16 05:00 UTC)_
 - Raw markdown files: `10`
 - Wiki sources: `4`
 - Wiki concepts: `25`
-- Tag indexes: `0`
-- Topic indexes: `0`
+- Tag indexes: `1`
+- Topic indexes: `1`
 - Review files: `4`
 - Pending action file: `1`
 - Approved Fix Agent actions pending: `2` groups in `wiki/reviews/_action-required.md`

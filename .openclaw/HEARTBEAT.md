@@ -1,14 +1,14 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 07:30 Asia/Saigon (2026-05-16 00:30 UTC)_
+_Last check: 2026-05-16 08:00 Asia/Saigon (2026-05-16 01:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `07:30:52 up 3 days, 16:17, 1 user, load average: 0,55, 0,34, 0,28`
-- Load average: healthy; `0,55, 0,34, 0,28`
+- Host uptime: ` 08:01:25 up 3 days, 16:47,  1 user,  load average: 0,72, 0,83, 0,56`
+- Load average: healthy; `0,72, 0,83, 0,56`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
 - Memory: healthy; 5.3Gi available / 13Gi total
@@ -22,27 +22,11 @@ _Last check: 2026-05-16 07:30 Asia/Saigon (2026-05-16 00:30 UTC)_
 - Raw markdown files: `10`
 - Wiki sources: `4`
 - Wiki concepts: `25`
-- Pending review file: present; approved Fix Agent actions remain listed
-- Concept backlink scan: issue detected; `20` files still use deprecated full-path source wikilinks
-- Git working tree changed entries: `1` (`.hermes/hermes-agent`)
-
-## Issues
-
-- Pending approved fixes remain in `wiki/reviews/_action-required.md`:
-  - Replace deprecated `[[wiki/sources/...]]` source wikilinks with canonical bare slugs.
-  - Remove legacy `date_ingested` from 2 source files.
-- Deprecated source wikilinks remain in concepts/sources, including:
-  - `wiki/concepts/skill-atrophy.md`
-  - `wiki/concepts/negative-compounding.md`
-  - `wiki/concepts/information-compression.md`
-  - `wiki/concepts/organizational-incrementalism.md`
-  - `wiki/concepts/taste-holders.md`
-  - `wiki/concepts/discipline-system.md`
-  - `wiki/concepts/patience-vs-passivity.md`
-  - `wiki/concepts/closed-loop-system.md`
-  - `wiki/concepts/active-thinking.md`
-  - `wiki/concepts/leading-indicators.md`
+- Tag indexes: `0`
+- Topic indexes: `0`
+- Review files: `4`
+- Git working tree: `1` changed/untracked entries
 
 ## Result
 
-HEARTBEAT_ATTENTION
+HEARTBEAT_OK

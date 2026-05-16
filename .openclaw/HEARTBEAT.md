@@ -1,18 +1,18 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 23:00 Asia/Saigon (2026-05-16 16:00 UTC)_
+_Last check: 2026-05-16 23:30 Asia/Saigon (2026-05-16 16:30 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `23:01:12 up 4 days,  7:47,  1 user,  load average: 0,42, 0,35, 0,29`
-- Load average: healthy; `0,42, 0,35, 0,29`
-- Disk (`/`): healthy; 21% used (182G free)
-- Disk (`/home/julius/knowledge-base`): healthy; 21% used (182G free)
+- Host uptime: `23:31:01 up 4 days,  8:17,  1 user,  load average: 0,56, 0,38, 0,36`
+- Load average: healthy; `0,56, 0,38, 0,36`
+- Disk (`/`): healthy; 16% used (181G free)
+- Disk (`/home/julius/knowledge-base`): healthy; 16% used (181G free)
 - Memory: healthy; 13.6Gi total, 6.1Gi available
-- Swap: healthy; 17.9Gi total, 16.3Gi free
+- Swap: healthy; available
 
 ## OpenClaw checks
 

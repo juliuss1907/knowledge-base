@@ -3,10 +3,10 @@
 ## Agent health
 - Status: healthy
 - Host: `julius-vps`
-- Host uptime: ` 03:30:35 up 4 days, 12:17,  1 user,  load average: 0,48, 0,49, 0,39`
-- Load average: healthy; `0.48, 0.49, 0.39`
-- Memory: healthy; 13Gi total, 6.0Gi available
-- Swap: healthy; 16Gi available
+- Host uptime: ` 04:00:54 up 4 days, 12:47,  1 user,  load average: 0,34, 0,32, 0,34`
+- Load average: healthy; `0,34, 0,32, 0,34`
+- Memory: healthy; 13Gi total, 6,0Gi available
+- Swap: healthy; 1,7Gi available
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -20,5 +20,6 @@
 ## Notes
 - No raw backlog detected.
 - Pending approved fixes remain in `wiki/reviews/_action-required.md`.
+- Concept backlink sample still shows legacy source wikilinks covered by approved Fix Agent action.
 
-_Last check: 2026-05-17 03:30 Asia/Saigon (2026-05-16 20:30 UTC)_
+_Last check: 2026-05-17 04:00 Asia/Saigon (2026-05-16 21:00 UTC)_

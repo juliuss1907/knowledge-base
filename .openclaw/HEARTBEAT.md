@@ -1,18 +1,18 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 16:30 Asia/Saigon (2026-05-16 09:30 UTC)_
+_Last check: 2026-05-16 17:00 Asia/Saigon (2026-05-16 10:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `16:30:48 up 4 days,  1:17,  1 user,  load average: 0,41, 0,33, 0,34`
-- Load average: healthy; `0.41 0.33 0.34`
-- Disk (`/`): healthy; 16% used (181G free)
-- Disk (`/home/julius/knowledge-base`): healthy; 16% used (181G free)
-- Memory: healthy; 5Gi available / 13Gi total
-- Swap: healthy; 1Gi used / 17Gi total
+- Host uptime: `17:01:33 up 4 days,  1:48,  1 user,  load average: 0,39, 0,43, 0,33`
+- Load average: healthy; `0.39 0.43 0.33`
+- Disk (`/`): healthy; 17% used (182G free)
+- Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
+- Memory: healthy; 6.1Gi available / 13Gi total
+- Swap: healthy; 1.2Gi used / 17Gi total
 
 ## OpenClaw checks
 
@@ -31,11 +31,14 @@ _Last check: 2026-05-16 16:30 Asia/Saigon (2026-05-16 09:30 UTC)_
 
 ## Cron checks
 
-- Compile Daily: last known run `error`; last known issue: model/rate-limit failure in cron session history
+- Compile Daily: last known run `error`
 - Index Update: last known run `ok`
 - Git Auto-commit: last known run `ok`
 - Weekly Health Check: last known run `ok`
-- Horizon briefs / market jobs: last known run `ok`
+- Horizon Morning Brief: last known run `ok`
+- Horizon Crypto Brief: last known run `ok`
+- Horizon Tech Brief: last known run `ok`
+- Horizon F1 Brief: last known run `ok`
 
 ## Result
 

@@ -1,14 +1,14 @@
 # HEARTBEAT
 
-_Last check: 2026-05-16 19:30 Asia/Saigon (2026-05-16 12:30 UTC)_
+_Last check: 2026-05-16 20:00 Asia/Saigon (2026-05-16 13:00 UTC)_
 
 ## Agent health
 
 - Status: healthy
 - Workspace: `/home/julius/knowledge-base`
 - Host: `julius-vps`
-- Host uptime: `19:30:27 up 4 days,  4:16,  1 user,  load average: 0,83, 0,39, 0,32`
-- Load average: healthy; `0.83 0.39 0.32`
+- Host uptime: `20:00:36 up 4 days,  4:47,  1 user,  load average: 0,44, 0,25, 0,23`
+- Load average: healthy; `0.44 0.25 0.23`
 - Disk (`/`): healthy; 17% used (182G free)
 - Disk (`/home/julius/knowledge-base`): healthy; 17% used (182G free)
 - Memory: healthy; 13Gi total, 6.2Gi available
@@ -23,13 +23,16 @@ _Last check: 2026-05-16 19:30 Asia/Saigon (2026-05-16 12:30 UTC)_
 - Wiki concepts: `25`
 - Tag indexes: `0`
 - Topic indexes: `0`
-- Pending reviews: `0`
+- Pending reviews: `3` reports in `wiki/reviews/_action-required.md`
+  - Output Validator: 1 pending report; 1 approved Fix Agent action
+  - Format Validator: 1 pending report; 1 approved Fix Agent action
+  - Hygiene Inspector: resolved
 
 ## Repository state
 
 - Git status: dirty only under `.hermes/hermes-agent`
-- OpenClaw write zone touched: `.openclaw/HEARTBEAT.md`
+- OpenClaw write zone touched: `HEARTBEAT.md`
 
 ## Result
 
-HEARTBEAT_OK
+HEARTBEAT_OK_WITH_PENDING_REVIEWS

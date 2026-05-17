@@ -1,32 +1,43 @@
-# Tag: #system
-
-Auto-generated index of all content tagged with `#system`.
-
-Last updated: 2026-05-16 21:03:16
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: system
+auto_generated: true
+last_updated: 2026-05-17
 ---
 
-## Concepts (10)
+# Tag: #system
 
-- [[ashbys-law]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[closed-loop-system]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[codified-taste]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[complex-adaptive-systems]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[complicated-vs-complex]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[cynefin-framework]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[loop-ownership]] — main: #system, sub: [#automation], topic: ai-productivity
-- [[shift-left-testing]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[systems-thinking-limitations]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[taste-holders]] — main: #system, sub: [#automation, #opinion], topic: ai-productivity
+## Parent
 
-## Sources (1)
+- [[tag]]
 
-- [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#research], topic: post-systems-thinking
+## Stats
+
+- Total files: 11
+- Sources: 1
+- Concepts: 10
+- Last updated: 2026-05-17
+
+## Files with this tag
+
+- [[ashbys-law]] — Ashby's Law (concept)
+- [[closed-loop-system]] — Closed Loop System (concept)
+- [[codified-taste]] — Codified Taste (concept)
+- [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
+- [[complicated-vs-complex]] — Complicated vs Complex (concept)
+- [[cynefin-framework]] — Cynefin Framework (concept)
+- [[loop-ownership]] — Loop Ownership (concept)
+- [[shift-left-testing]] — Shift Left Testing (concept)
+- [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
+- [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
+- [[taste-holders]] — Taste Holders (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#system`:
-- `#research` (6 files)
-- `#automation` (5 files)
-- `#tools` (3 files)
-- `#opinion` (1 files)
+- [[research]] — 6 co-occurrences
+- [[automation]] — 5 co-occurrences
+- [[tools]] — 3 co-occurrences
+- [[opinion]] — 1 co-occurrence

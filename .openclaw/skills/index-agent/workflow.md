@@ -330,43 +330,67 @@ For each tag in `tag_index`:
 ### 7.1 Generate file content
 
 ```python
-def generate_tag_index(tag, data, co_occur):
-    content = f"""# Tag: #{tag}
-
-Auto-generated index of all content tagged with `#{tag}`.
-
-Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-
+def generate_tag_index(tag, data, co_occur, all_files):
+    """Generate level 3 tag index per index-spec.md §5."""
+    
+    today = datetime.now().strftime('%Y-%m-%d')
+    
+    # Frontmatter
+    content = f"""---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: {tag}
+auto_generated: true
+last_updated: {today}
 ---
 
-## Concepts ({len(data['concepts'])})
+# Tag: #{tag}
+
+## Parent
+
+- [[tag]]
+
+## Stats
+
+- Total files: {len(data['concepts']) + len(data['sources'])}
+- Sources: {len(data['sources'])}
+- Concepts: {len(data['concepts'])}
+- Last updated: {today}
+
+## Files with this tag
 
 """
     
-    # Add concept links
-    for file in data['concepts']:
-        main = file['main_tag']
-        subs = ', '.join([f"#{s}" for s in file['sub_tags']])
-        topic = file['topic']
-        content += f"- [[{file['slug']}]] — main: #{main}, sub: [{subs}], topic: {topic}\n"
+    # Merge concepts + sources, sort alphabetically
+    all_items = []
+    for f in data['concepts']:
+        title = derive_title(f['slug'])  # Convert slug to Title Case
+        all_items.append((f['slug'], title, 'concept'))
+    for f in data['sources']:
+        title = derive_title(f['slug'].replace('src_', ''))
+        all_items.append((f['slug'], title, 'source'))
     
-    content += f"\n## Sources ({len(data['sources'])})\n\n"
+    all_items.sort(key=lambda x: x[0])  # Alphabetical by slug
     
-    # Add source links
-    for file in data['sources']:
-        main = file['main_tag']
-        subs = ', '.join([f"#{s}" for s in file['sub_tags']])
-        topic = file['topic']
-        content += f"- [[{file['slug']}]] — main: #{main}, sub: [{subs}], topic: {topic}\n"
+    for slug, title, ftype in all_items:
+        content += f"- [[{slug}]] — {title} ({ftype})\n"
     
-    # Add co-occurrence section
+    # Co-occurring tags (new format)
     if co_occur:
         content += "\n## Co-occurring tags\n\n"
-        content += f"Tags that frequently appear with `#{tag}`:\n"
         for other_tag, count in co_occur:
-            content += f"- `#{other_tag}` ({count} files)\n"
+            unit = "co-occurrence" if count == 1 else "co-occurrences"
+            content += f"- [[{other_tag}]] — {count} {unit}\n"
     
     return content
+
+
+def derive_title(slug):
+    """Convert slug to human-readable title."""
+    # Replace hyphens with spaces, title case
+    return ' '.join(word.capitalize() for word in slug.split('-'))
 ```
 
 ### 7.2 Write file
@@ -450,6 +474,87 @@ EOF
 ```
 
 ---
+## Step 8.5: Update tag.md Master Index
+
+After writing all tag index files, update `wiki/tag/tag.md`:
+
+### 8.5.1 Append new tags to Items section
+
+```bash
+if ! grep -q "^\- \[\[${tag}\]\]" wiki/tag/tag.md; then
+    if grep -q "^${tag}$" <(echo "$main_tags"); then
+        pool="Main Tags (Pool A)"
+    else
+        pool="Sub Tags (Pool B)"
+    fi
+
+    description=$(grep "^| \`#${tag}\`" TAGS.md | cut -d'|' -f3 | xargs)
+
+    sed -i "/^### ${pool}$/a\\
+- [[${tag}]] — ${description}" wiki/tag/tag.md
+fi
+```
+
+**Entry format:**
+```markdown
+- [[tag]] — Description from TAGS.md
+```
+
+### 8.5.2 Update Stats section in tag.md
+
+```bash
+total_tags=$(ls wiki/tag/*.md 2>/dev/null | grep -v "tag.md" | wc -l)
+main_tags_count=7
+sub_tags_count=$((total_tags - main_tags_count))
+
+declare -A tag_counts
+for tag_file in wiki/tag/*.md; do
+    tag=$(basename "$tag_file" .md)
+    if [ "$tag" != "tag" ]; then
+        count=$(grep -c "^\- \[\[" "$tag_file" 2>/dev/null || echo 0)
+        tag_counts[$tag]=$count
+    fi
+done
+
+top_3=$(for tag in "${!tag_counts[@]}"; do
+    echo "${tag_counts[$tag]} $tag"
+done | sort -rn | head -3)
+
+most_used=""
+while read -r count tag; do
+    most_used="${most_used}#${tag} (${count}), "
+done <<< "$top_3"
+most_used=${most_used%, }
+
+cat > temp_stats << EOF
+## Stats
+
+- Total tags: ${total_tags}
+- Main tags: ${main_tags_count}
+- Sub tags: ${sub_tags_count}
+- Most used: ${most_used}
+- Last updated: $(date +%Y-%m-%d)
+EOF
+
+sed -i '/^## Stats$/,/^## Items$/{//!d}' wiki/tag/tag.md
+sed -i '/^## Stats$/r temp_stats' wiki/tag/tag.md
+rm temp_stats
+```
+
+### 8.5.3 Verify update
+
+```bash
+grep -q "Last updated: $(date +%Y-%m-%d)" wiki/tag/tag.md && echo "✓ tag.md Stats updated"
+
+for tag in "${!tag_index[@]}"; do
+    grep -q "^\- \[\[${tag}\]\]" wiki/tag/tag.md || echo "⚠ Missing: ${tag}"
+done
+```
+
+**Error handling:**
+- If tag.md doesn't exist → create from template (see `index-spec.md` Section 9.3)
+- If Stats section malformed → regenerate entire Stats section
+- If tag description not found in TAGS.md → use placeholder "[description]"
 
 ## Step 9: Clean Up Orphaned Index Files
 

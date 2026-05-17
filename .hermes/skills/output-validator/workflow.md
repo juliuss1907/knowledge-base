@@ -107,6 +107,20 @@ for file in new_files + existing_files:
     })
 ```
 
+**Filter out index files — Output Validator does not check navigation metadata
+```python
+files = [
+    f for f in files
+    if f['frontmatter'].get('type') not in ['index']
+]
+```
+
+**Log skipped count
+```python
+index_count = total_count - len(files)
+if index_count > 0:
+    log(f"[SKIP] {index_count} index files excluded from output validation")
+```
 ---
 
 ## Step 2: Validate Each File

@@ -1,24 +1,35 @@
-# Tag: #research
-
-Auto-generated index of all content tagged with `#research`.
-
-Last updated: 2026-05-16 21:03:16
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: research
+auto_generated: true
+last_updated: 2026-05-17
 ---
 
-## Concepts (5)
+# Tag: #research
 
-- [[ashbys-law]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[complex-adaptive-systems]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[complicated-vs-complex]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[cynefin-framework]] — main: #system, sub: [#research], topic: post-systems-thinking
-- [[systems-thinking-limitations]] — main: #system, sub: [#research], topic: post-systems-thinking
+## Parent
 
-## Sources (1)
+- [[tag]]
 
-- [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#research], topic: post-systems-thinking
+## Stats
+
+- Total files: 6
+- Sources: 1
+- Concepts: 5
+- Last updated: 2026-05-17
+
+## Files with this tag
+
+- [[ashbys-law]] — Ashby's Law (concept)
+- [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
+- [[complicated-vs-complex]] — Complicated vs Complex (concept)
+- [[cynefin-framework]] — Cynefin Framework (concept)
+- [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
+- [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#research`:
-- `#system` (6 files)
+- [[system]] — 6 co-occurrences

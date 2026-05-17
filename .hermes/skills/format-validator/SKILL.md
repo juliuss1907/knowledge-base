@@ -14,9 +14,13 @@ Ensures wiki files comply with format specifications defined in `wiki/meta/forma
 
 ## Role
 
-Read all wiki files (`wiki/sources/*.md` + `wiki/concepts/*.md`), validate format compliance, generate report listing format violations with severity levels. Report goes to `wiki/reviews/YYYY-MM-DD_format-report.md` and updates `wiki/reviews/_action-required.md`.
+Read all markdown files across the KB, dispatch validation by `type` field:
+- `type: concept` or `type: source` → validate against `wiki/meta/format-spec.md`
+- `type: index` → validate against `wiki/meta/index-spec.md`
 
-**Critical**: This validator only reads and reports. Never modifies wiki files. Fix Agent applies corrections after Julius approves.
+Generate report listing format violations with severity levels. Report goes to `wiki/reviews/YYYY-MM-DD_format-report.md` and updates `wiki/reviews/_action-required.md`.
+
+**Critical**: This validator only reads and reports. Never modifies any files. Fix Agent applies corrections after Julius approves.
 
 ## When to use
 
@@ -32,14 +36,16 @@ Read all wiki files (`wiki/sources/*.md` + `wiki/concepts/*.md`), validate forma
 
 ## Quick start
 
-1. **Load format-spec.md** — read ground truth format rules
-2. **Scan wiki files** — read all `wiki/sources/*.md` + `wiki/concepts/*.md`
-3. **Validate each file** — check frontmatter, sections, naming, markdown syntax
-4. **Score violations** — assign severity (ERROR/WARNING/INFO)
-5. **Generate report** — write to `wiki/reviews/YYYY-MM-DD_format-report.md`
-6. **Update action file** — add entry to `wiki/reviews/_action-required.md`
-7. **Send notification** — Telegram alert to Julius
-8. **Log** to `.hermes/MEMORY.md`
+1. **Load specs** — read both `wiki/meta/format-spec.md` and `wiki/meta/index-spec.md`
+2. **Scan files** — read all markdown files in:
+   - `wiki/sources/`, `wiki/concepts/` (content files)
+   - `wiki/tag/`, `wiki/topic/` (auto-generated indexes)
+   - `raw/`, `wiki/`, `context/` (manual indexes — root + sub level)
+3. **Dispatch by type** — route each file to correct spec:
+   - `type: concept|source` → format-spec.md rules
+   - `type: index` → index-spec.md rules (then check `level` field)
+   - Missing/unknown `type` → ERROR
+4. **Validate each file** — check frontmatter, sections, naming, markdown syntax
 
 ## Critical rules
 
@@ -49,12 +55,24 @@ Read all wiki files (`wiki/sources/*.md` + `wiki/concepts/*.md`), validate forma
 - **Never modify** wiki content files
 - **Never delete** any files
 
-### Format dimensions (4 checks per file)
+### Format dimensions (5 checks per file)
 
-1. **Frontmatter compliance** — Required fields, field order, YAML syntax
-2. **Section structure** — Required sections, section order, heading levels
-3. **Naming conventions** — Filename format, slug rules, path correctness
-4. **Markdown syntax** — Wikilinks, code blocks, lists, emphasis
+1. **Type detection** — Verify `type` field exists, route to correct spec
+2. **Frontmatter compliance** — Required fields, field order, YAML syntax (per spec)
+3. **Section structure** — Required sections, section order, heading levels (per spec)
+4. **Naming conventions** — Filename format, slug rules, path correctness
+5. **Markdown syntax** — Wikilinks, code blocks, lists, emphasis
+
+**Spec dispatch table:**
+
+| `type` value | Validation spec | File location |
+|---|---|---|
+| `concept` | format-spec.md §2 | `wiki/concepts/` |
+| `source` | format-spec.md §3 | `wiki/sources/` |
+| `index` (level 1) | index-spec.md §3 | `raw/`, `wiki/`, `context/` |
+| `index` (level 2) | index-spec.md §4 | `raw/<type>/`, `wiki/tag/` |
+| `index` (level 3) | index-spec.md §5 | `wiki/tag/` |
+| Missing/other | ERROR — flag immediately | Any |
 
 ### Severity levels
 
@@ -127,7 +145,7 @@ Read all wiki files (`wiki/sources/*.md` + `wiki/concepts/*.md`), validate forma
 
 ### Write zones
 - **Allowed:** `wiki/reviews/` only
-- **Forbidden:** `wiki/sources/`, `wiki/concepts/`, `wiki/drafts/`, `wiki/tag/`, `wiki/topic/`, `wiki/meta/`
+- **Forbidden:** Everything else (read-only validator)
 
 ### Forbidden actions
 - No modifying any wiki content files

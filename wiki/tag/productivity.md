@@ -1,35 +1,46 @@
-# Tag: #productivity
-
-Auto-generated index of all content tagged with `#productivity`.
-
-Last updated: 2026-05-16 21:03:16
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: productivity
+auto_generated: true
+last_updated: 2026-05-17
 ---
 
-## Concepts (14)
+# Tag: #productivity
 
-- [[abstraction-layer-fallacy]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[active-thinking]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[casino-culture]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[compounding-effect]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[discipline-system]] — main: #productivity, sub: [#tools], topic: compounding-growth
-- [[environment-baseline]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[information-compression]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[lazy-thinking]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[leading-indicators]] — main: #productivity, sub: [#tools], topic: compounding-growth
-- [[negative-compounding]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[nice-syndrome]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[organizational-incrementalism]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[patience-vs-passivity]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[philosopher-syndrome]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
+## Parent
 
-## Sources (2)
+- [[tag]]
 
-- [[src_active-vs-lazy-thinking]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools], topic: compounding-growth
+## Stats
+
+- Total files: 16
+- Sources: 2
+- Concepts: 14
+- Last updated: 2026-05-17
+
+## Files with this tag
+
+- [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
+- [[active-thinking]] — Active Thinking (concept)
+- [[casino-culture]] — Casino Culture (concept)
+- [[compounding-effect]] — Compounding Effect (concept)
+- [[discipline-system]] — Discipline System (concept)
+- [[environment-baseline]] — Environment Baseline (concept)
+- [[information-compression]] — Information Compression (concept)
+- [[lazy-thinking]] — Lazy Thinking (concept)
+- [[leading-indicators]] — Leading Indicators (concept)
+- [[negative-compounding]] — Negative Compounding (concept)
+- [[nice-syndrome]] — Nice Syndrome (concept)
+- [[organizational-incrementalism]] — Organizational Incrementalism (concept)
+- [[patience-vs-passivity]] — Patience vs Passivity (concept)
+- [[philosopher-syndrome]] — Philosopher Syndrome (concept)
+- [[src_active-vs-lazy-thinking]] — Active vs Lazy Thinking (source)
+- [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#productivity`:
-- `#opinion` (14 files)
-- `#tools` (3 files)
+- [[opinion]] — 14 co-occurrences
+- [[tools]] — 3 co-occurrences

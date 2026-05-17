@@ -294,6 +294,69 @@ Append entry to `.openclaw/MEMORY.md`:
 - Author or metadata (already in file)
 
 ---
+## Step 8.5: Update Index File
+
+### 8.5.1 Append to type index
+
+After writing raw file, update the corresponding index file:
+
+```bash
+# Determine index file path
+index_file="raw/${type}/${type}.md"
+
+# Generate entry
+entry="- [[${date}_${slug}]] — ${title} (unprocessed)"
+
+# Append to Items section
+sed -i "/^## Items$/a\\
+${entry}" "${index_file}"
+```
+
+**Entry format:**
+```markdown
+- [[YYYY-MM-DD_slug]] — Title here (unprocessed)
+```
+
+### 8.5.2 Update Stats section
+
+```bash
+# Count total files
+total=$(find "raw/${type}/" -name "*.md" -not -name "${type}.md" | wc -l)
+
+# Count by status
+processed=$(grep -l "status: processed" raw/${type}/*.md 2>/dev/null | wc -l)
+unprocessed=$((total - processed))
+
+# Count by date
+this_week=$(find "raw/${type}/" -name "*.md" -mtime -7 | wc -l)
+this_month=$(find "raw/${type}/" -name "*.md" -mtime -30 | wc -l)
+
+# Update Stats section
+cat > temp_stats << EOF
+## Stats
+
+- Total: ${total} files
+- By status: ${processed} processed, ${unprocessed} unprocessed
+- By date: ${this_week} this week, ${this_month} this month
+- Last updated: $(date +%Y-%m-%d)
+EOF
+
+sed -i '/^## Stats$/,/^## Items$/{//!d}' "${index_file}"
+sed -i '/^## Stats$/r temp_stats' "${index_file}"
+rm temp_stats
+```
+
+### 8.5.3 Verify update
+
+```bash
+grep -q "[[${date}_${slug}]]" "${index_file}" && echo "✓ Index updated"
+grep -q "Last updated: $(date +%Y-%m-%d)" "${index_file}" && echo "✓ Stats updated"
+```
+
+**Error handling:**
+- If index file doesn't exist → create from template (see `index-spec.md` Section 9.2)
+- If Stats section malformed → regenerate entire Stats section
+- If append fails → log warning, continue (non-critical)
 
 ## Step 9: Confirm to User
 

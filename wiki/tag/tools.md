@@ -1,30 +1,41 @@
-# Tag: #tools
-
-Auto-generated index of all content tagged with `#tools`.
-
-Last updated: 2026-05-16 21:03:16
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: tools
+auto_generated: true
+last_updated: 2026-05-17
 ---
 
-## Concepts (6)
+# Tag: #tools
 
-- [[closed-loop-system]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[codified-taste]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[discipline-system]] — main: #productivity, sub: [#tools], topic: compounding-growth
-- [[leading-indicators]] — main: #productivity, sub: [#tools], topic: compounding-growth
-- [[shift-left-testing]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[skill-atrophy]] — main: #ai, sub: [#opinion, #tools], topic: ai-productivity
+## Parent
 
-## Sources (2)
+- [[tag]]
 
-- [[src_how-ai-productivity-fails]] — main: #ai, sub: [#tools, #automation, #opinion], topic: ai-productivity
-- [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools], topic: compounding-growth
+## Stats
+
+- Total files: 8
+- Sources: 2
+- Concepts: 6
+- Last updated: 2026-05-17
+
+## Files with this tag
+
+- [[closed-loop-system]] — Closed Loop System (concept)
+- [[codified-taste]] — Codified Taste (concept)
+- [[discipline-system]] — Discipline System (concept)
+- [[leading-indicators]] — Leading Indicators (concept)
+- [[shift-left-testing]] — Shift Left Testing (concept)
+- [[skill-atrophy]] — Skill Atrophy (concept)
+- [[src_how-ai-productivity-fails]] — How AI Productivity Fails (source)
+- [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#tools`:
-- `#automation` (4 files)
-- `#opinion` (3 files)
-- `#productivity` (3 files)
-- `#system` (3 files)
-- `#ai` (2 files)
+- [[automation]] — 4 co-occurrences
+- [[opinion]] — 3 co-occurrences
+- [[productivity]] — 3 co-occurrences
+- [[system]] — 3 co-occurrences
+- [[ai]] — 2 co-occurrences

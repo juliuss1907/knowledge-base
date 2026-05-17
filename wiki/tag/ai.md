@@ -1,22 +1,31 @@
-# Tag: #ai
-
-Auto-generated index of all content tagged with `#ai`.
-
-Last updated: 2026-05-16 21:03:16
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: ai
+auto_generated: true
+last_updated: 2026-05-17
 ---
 
-## Concepts (1)
+# Tag: #ai
 
-- [[skill-atrophy]] — main: #ai, sub: [#opinion, #tools], topic: ai-productivity
+## Parent
 
-## Sources (1)
+- [[tag]]
 
-- [[src_how-ai-productivity-fails]] — main: #ai, sub: [#tools, #automation, #opinion], topic: ai-productivity
+## Stats
+
+- Total files: 2
+- Sources: 1
+- Concepts: 1
+- Last updated: 2026-05-17
+
+## Files with this tag
+
+- [[skill-atrophy]] — Skill Atrophy (concept)
+- [[src_how-ai-productivity-fails]] — How AI Productivity Fails (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#ai`:
-- `#tools` (2 files)
-- `#opinion` (2 files)
-- `#automation` (1 files)
+- [[tools]] 

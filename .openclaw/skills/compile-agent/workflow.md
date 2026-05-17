@@ -555,31 +555,56 @@ echo "[MERGE CONFLICT] wiki/concepts/<concept-slug>.md — see drafts/ for new v
 ```yaml
 status: processed
 compiled_at: YYYY-MM-DD
+compiled_to: [[wiki/sources/src_<slug>]]
 ```
 
 **Edit operation:**
 ```bash
-# Use sed to update status line
 sed -i 's/^status: unprocessed$/status: processed/' raw/<type>/<filename>
-
-# Append compiled_at after status line
-sed -i '/^status: processed$/a compiled_at: 2026-05-07' raw/<type>/<filename>
+sed -i '/^status: processed$/a compiled_at: $(date +%Y-%m-%d)' raw/<type>/<filename>
+sed -i "/^compiled_at:/a compiled_to: [[wiki/sources/src_${slug}]]" raw/<type>/<filename>
 ```
 
 **Verify:**
 ```bash
-# Check status updated
 grep -q "status: processed" raw/<type>/<filename> && echo "✓ Status updated"
-
-# Check compiled_at added
 grep -q "compiled_at:" raw/<type>/<filename> && echo "✓ Compiled date added"
+grep -q "compiled_to:" raw/<type>/<filename> && echo "✓ Compiled link added"
 ```
 
 **Do NOT modify body:**
 - Raw file body remains unchanged
 - Only frontmatter fields updated
 
----
+### 7.2 Update raw index file Stats
+
+After updating raw file status, update `raw/<type>/<type>.md` Stats section:
+
+```bash
+type_folder="raw/${type}"
+total=$(find "${type_folder}/" -name "*.md" -not -name "${type}.md" | wc -l)
+processed=$(grep -l "status: processed" ${type_folder}/*.md 2>/dev/null | wc -l)
+unprocessed=$((total - processed))
+this_week=$(find "${type_folder}/" -name "*.md" -mtime -7 -not -name "${type}.md" | wc -l)
+this_month=$(find "${type_folder}/" -name "*.md" -mtime -30 -not -name "${type}.md" | wc -l)
+
+index_file="${type_folder}/${type}.md"
+
+cat > temp_stats << EOF
+## Stats
+
+- Total: ${total} files
+- By status: ${processed} processed, ${unprocessed} unprocessed
+- By date: ${this_week} this week, ${this_month} this month
+- Last updated: $(date +%Y-%m-%d)
+EOF
+
+sed -i '/^## Stats$/,/^## Items$/{//!d}' "${index_file}"
+sed -i '/^## Stats$/r temp_stats' "${index_file}"
+rm temp_stats
+```
+
+**Note:** Reflects new processed count after compilation.
 
 ## Step 8: Log to Memory
 

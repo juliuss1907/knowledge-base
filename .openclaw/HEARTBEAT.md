@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-17 15:00:00 Asia/Saigon
+- Last checked: 2026-05-17 15:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `15:01:17 up 4 days. 23:47.  1 user.  load average: 0.51. 0.46. 0.62`
-- Load average: healthy; `0.51. 0.46. 0.62`
+- Host uptime: `15:30:45 up 5 days, 17 min, 1 user, load average: 0,18, 0,24, 0,33`
+- Load average: healthy; `0,18, 0,24, 0,33`
 - Memory: healthy; 13Gi total, 6,0Gi available
-- Swap: healthy; 2,4Gi free
+- Swap: healthy; 15Gi free
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -22,7 +22,7 @@
 - Raw backlog scan: clean
 - Concept backlink spot check: issues present; 33 `[[wiki/sources/...]]` links found in `wiki/concepts/`
 - Source frontmatter spot check: issues present; 2 source files still contain `date_ingested`
-- Pending review scan: 4 review files present
+- Pending review scan: 3 review files present
 
 ## Last result
 HEARTBEAT_OK

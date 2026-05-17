@@ -2,10 +2,10 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-17 22:00:00 Asia/Saigon
+- Last checked: 2026-05-17 22:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 5 days, 6 hours, 47 minutes`
-- Load average: healthy; `0.66, 0.33, 0.29`
+- Host uptime: `up 5 days, 7 hours, 17 minutes`
+- Load average: healthy; `0,39, 0,30, 0,27`
 - Memory: healthy; 13Gi total, 6.2Gi available
 - Swap: healthy; 14Gi free
 

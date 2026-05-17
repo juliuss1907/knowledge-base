@@ -152,6 +152,7 @@ context/
 
 ```
 raw/
+├── raw.md                          ✓ required (level 1 index)
 ├── articles/
 │   ├── articles.md              ✓ required (index)
 │   └── YYYY-MM-DD_<slug>.md     ✓ allowed (content files)
@@ -170,6 +171,7 @@ raw/
 ├── repos/
 │   ├── repos.md                 ✓ required
 │   └── YYYY-MM-DD_<owner>_<repo>.md    ✓ allowed
+└── raw.md                       ✓ required (index)
 └── *                            ✗ forbidden (no other subfolders)
 ```
 
@@ -186,6 +188,7 @@ raw/
 
 ```
 wiki/
+├── wiki.md                               ✓ required (level 1 index)
 ├── meta/
 │   ├── format-spec.md           ✓ required
 │   ├── folder-structure.md      ✓ required (this file)
@@ -195,6 +198,7 @@ wiki/
 ├── concepts/
 │   └── <concept-slug>.md        ✓ allowed (many files)
 ├── tag/
+│ ├── tag.md                        ✓ required (level 2 index)
 │   └── <tag>.md                 ✓ allowed (auto-generated)
 ├── topic/
 │   └── <topic>.md               ✓ allowed (auto-generated)
@@ -295,6 +299,8 @@ This whitelist is versioned. When structure changes:
 | Version | Date | Changes |
 |---|---|---|
 | 1.0 | 2026-05-07 | Initial structure whitelist for V2 |
+| 1.1 | 2026-05-17 | Added index files to whitelist: raw.md, wiki.md, wiki/tag/tag.md. Added runtime artifacts for .openclaw/ and .hermes/. |
+
 
 ---
 

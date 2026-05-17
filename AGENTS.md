@@ -54,14 +54,15 @@ These rules apply to every agent. Skill-level SKILL.md may add more, but cannot 
 
 ### 4.1 Write zones (whitelist)
 
-| Agent | May write to |
-|---|---|
-| OpenClaw Ingest | `raw/<type>/` only |
-| OpenClaw Compile | `wiki/sources/`, `wiki/concepts/`, `wiki/drafts/` |
-| OpenClaw Index | `wiki/tag/`, `wiki/topic/` |
-| OpenClaw Fix | Files explicitly listed in approved Hermes report |
-| Hermes (any role) | `wiki/reviews/` only |
-| Hermes-local (main machine) | Nothing — read-only |
+| Agent                       | May write to                                                           |
+| --------------------------- | ---------------------------------------------------------------------- |
+| OpenClaw Ingest             | `raw/<type>/` only + Stats/Items sections in `raw/<type>/<type>.md`    |
+| OpenClaw Compile            | `wiki/sources/`, `wiki/concepts/`, `wiki/drafts/`                      |
+| OpenClaw Index              | `wiki/tag/`, `wiki/topic/` + Stats/Items sections in `wiki/tag/tag.md` |
+| OpenClaw Fix                | Files explicitly listed in approved Hermes report                      |
+| Hermes (any role)           | `wiki/reviews/` only                                                   |
+| Hermes-local (main machine) | Nothing — read-only                                                    |
+|                             |                                                                        |
 
 Anything not listed above is forbidden territory.
 
@@ -71,9 +72,14 @@ Anything not listed above is forbidden territory.
 - `TAGS.md`
 - `wiki/meta/format-spec.md`
 - `wiki/meta/folder-structure.md`
+- `wiki/meta/index-spec.md`
 - `context/USER.md`
+- `context/context.md`
+- `raw/raw.md`
+- `wiki/wiki.md`
 - `.openclaw/IDENTITY.md`, `.openclaw/SOUL.md`
 - `.hermes/IDENTITY.md`, `.hermes/SOUL.md`
+
 
 Changes to these files are made by Julius only.
 

@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 00:00:00 Asia/Saigon
+- Last checked: 2026-05-18 00:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 5 days, 8 hours, 47 minutes`
-- Load average: healthy; `0.60, 0.33, 0.29`
-- Memory: healthy; 13Gi total, 6.5Gi available
+- Host uptime: `up 5 days, 9 hours, 17 minutes`
+- Load average: healthy; `0.81, 0.43, 0.36`
+- Memory: healthy; 13Gi total, 6.4Gi available
 - Swap: healthy; 14Gi free
 
 ## OpenClaw checks
@@ -21,6 +21,7 @@
 
 ## Spot checks
 - Raw backlog scan: issues present; 1 raw article unprocessed: `raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body.md`
+- Concept source-link spot check: issues present; sampled concepts still use deprecated `[[wiki/sources/...]]` links
 - Deprecated wikilinks: issues present; 20 concept files contain `[[wiki/sources/...]]`
 - Source frontmatter scan: issues present; 2 source files still contain `date_ingested`: `wiki/sources/src_how-ai-productivity-fails.md`, `wiki/sources/src_how-some-people-become-unrecognizable.md`
 - Pending review scan: approved fixes and pending reports still tracked in `wiki/reviews/_action-required.md`

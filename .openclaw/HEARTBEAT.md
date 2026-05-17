@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 04:30:00 Asia/Saigon
+- Last checked: 2026-05-18 05:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 5 days, 13 hours, 16 minutes`
-- Load average: healthy; `0.29, 0.47, 0.39`
+- Host uptime: `up 5 days, 13 hours, 47 minutes`
+- Load average: healthy; `0.65, 0.39, 0.35`
 - Memory: healthy; 13Gi total, 6.4Gi available
-- Swap: healthy; 14Gi free
+- Swap: healthy; 3.6Gi free
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -26,7 +26,7 @@
 - Source frontmatter scan: issues present; 2 source file(s) still contain legacy `date_ingested` fields
 - Pending review scan: approved fixes and pending reports still tracked in `wiki/reviews/_action-required.md`
 - Inbox scan: no active `#agent/inbox` markers found in operational files
-- Git scan: working tree has existing changes:  m .hermes/hermes-agent
+- Git scan: working tree has existing changes: `m .hermes/hermes-agent`
 
 ## Last result
 HEARTBEAT_ISSUES_PRESENT

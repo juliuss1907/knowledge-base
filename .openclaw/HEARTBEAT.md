@@ -6,8 +6,8 @@
 - Host: `julius-vps`
 - Host uptime: `17:01:25 up 5 days,  1:47,  1 user,  load average: 0,43, 0,42, 0,33`
 - Load average: healthy; `0,43, 0,42, 0,33`
-- Memory: healthy; 
-- Swap: healthy; 
+- Memory: healthy; 13Gi total, 5,9Gi available
+- Swap: healthy; 15Gi free
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -20,7 +20,7 @@
 
 ## Spot checks
 - Raw backlog scan: clean
-- Concept backlink spot check: issues present; 0 `[[wiki/sources/...]]` links found in `wiki/concepts/`
+- Concept backlink spot check: issues present; 33 `[[wiki/sources/...]]` links found in `wiki/concepts/`
 - Source frontmatter spot check: issues present; 2 source files still contain `date_ingested`
 - Pending review scan: approved fixes still tracked in `wiki/reviews/_action-required.md`
 

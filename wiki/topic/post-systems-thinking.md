@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `post-systems-thinking`.
 
-Last updated: 2026-05-17 21:07:13
+Last updated: 2026-05-17 21:12:39
 
 ---
 

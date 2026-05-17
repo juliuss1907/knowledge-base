@@ -2,10 +2,10 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 01:00:00 Asia/Saigon
+- Last checked: 2026-05-18 01:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 5 days, 9 hours, 46 minutes`
-- Load average: healthy; `0.71, 0.40, 0.31`
+- Host uptime: `up 5 days, 10 hours, 16 minutes`
+- Load average: healthy; `0.77, 0.36, 0.25`
 - Memory: healthy; 13Gi total, 6.5Gi available
 - Swap: healthy; 14Gi free
 
@@ -16,8 +16,8 @@
 - Disk `/home/julius/knowledge-base`: healthy; 17% used, 182G free
 - Raw backlog: 1 file with `status: unprocessed`
 - Inbox markers: none active outside Hermes session history files
-- Pending Hermes reports: 5 tracked; 1 resolved, 2 partially approved, 2 pending
-- Approved Fix Agent actions pending: 4 groups
+- Pending Hermes reports: 4 pending report groups tracked; 1 resolved, 1 partially approved, 2 pending
+- Approved Fix Agent actions pending: present in `wiki/reviews/_action-required.md`
 
 ## Spot checks
 - Raw backlog scan: issues present; 1 raw article unprocessed: `raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body.md`

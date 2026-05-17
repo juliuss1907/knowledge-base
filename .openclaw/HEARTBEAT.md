@@ -2,10 +2,10 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-17 06:30:00 Asia/Saigon
+- Last checked: 2026-05-17 07:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `06:30:29 up 4 days, 15:16,  1 user,  load average: 0,42, 0,34, 0,33`
-- Load average: healthy; `0,42, 0,34, 0,33`
+- Host uptime: `07:00:30 up 4 days, 15:46,  1 user,  load average: 1,40, 0,61, 0,40`
+- Load average: healthy; `1,40, 0,61, 0,40`
 - Memory: healthy; 13Gi total, 6,0Gi available
 - Swap: healthy; 16Gi available
 
@@ -17,6 +17,13 @@
 - Raw backlog: 0 files with `status: unprocessed`
 - Pending Hermes reports: 3
 - Approved Fix Agent actions pending: 2
+
+## Spot checks
+- Raw processed files checked: 4 article files; all `status: processed`
+- Concept backlink samples checked:
+  - `wiki/concepts/environment-baseline.md`
+  - `wiki/concepts/casino-culture.md`
+- Note: sampled concept files still use legacy full-path source wikilinks already listed in approved Fix Agent actions.
 
 ## Notes
 - No raw backlog detected.

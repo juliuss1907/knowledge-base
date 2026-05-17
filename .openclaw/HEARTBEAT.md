@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-17 08:30:00 Asia/Saigon
+- Last checked: 2026-05-17 09:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `08:30:35 up 4 days, 17:17,  1 user,  load average: 0,62, 0,37, 0,30`
-- Load average: healthy; `0,62, 0,37, 0,30`
-- Memory: healthy; 13Gi total, 5,8Gi available
+- Host uptime: `09:00:32 up 4 days, 17:46,  1 user,  load average: 0,91, 0,77, 0,47`
+- Load average: healthy; `0,91, 0,77, 0,47`
+- Memory: healthy; 13Gi total, 6,0Gi available
 - Swap: healthy; 15Gi free
 
 ## OpenClaw checks
@@ -20,6 +20,7 @@
 
 ## Spot checks
 - Raw backlog scan: clean
+- Concept backlink spot check: clean
 - Hermes action file: present
 - Write check: `.openclaw/HEARTBEAT.md` updated by cron `3e70fe54-de76-4781-9342-c1ab2a73ebd4`
 

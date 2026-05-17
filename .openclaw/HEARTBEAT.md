@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-17 07:00:00 Asia/Saigon
+- Last checked: 2026-05-17 07:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `07:00:30 up 4 days, 15:46,  1 user,  load average: 1,40, 0,61, 0,40`
-- Load average: healthy; `1,40, 0,61, 0,40`
-- Memory: healthy; 13Gi total, 6,0Gi available
-- Swap: healthy; 16Gi available
+- Host uptime: `07:31:18 up 4 days, 16:17, 1 user, load average: 0,40, 0,35, 0,32`
+- Load average: healthy; `0,40, 0,35, 0,32`
+- Memory: healthy; 13Gi total, 5,9Gi available
+- Swap: healthy; 1,9Gi free
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -19,11 +19,13 @@
 - Approved Fix Agent actions pending: 2
 
 ## Spot checks
-- Raw processed files checked: 4 article files; all `status: processed`
-- Concept backlink samples checked:
-  - `wiki/concepts/environment-baseline.md`
-  - `wiki/concepts/casino-culture.md`
-- Note: sampled concept files still use legacy full-path source wikilinks already listed in approved Fix Agent actions.
+- Raw backlog scan: clean
+- Approved Fix Agent action samples checked:
+  - 7 concept files still use legacy full-path source wikilinks for `src_active-vs-lazy-thinking`
+  - 2 source files still contain legacy `date_ingested` field
+- Note: pending fix files differ from older report examples for `date_ingested`; current affected files are:
+  - `wiki/sources/src_how-ai-productivity-fails.md`
+  - `wiki/sources/src_how-some-people-become-unrecognizable.md`
 
 ## Notes
 - No raw backlog detected.

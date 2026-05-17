@@ -2,10 +2,10 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-17 17:30:00 Asia/Saigon
+- Last checked: 2026-05-17 18:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `17:30:29 up 5 days,  2:16,  1 user,  load average: 0,29, 0,31, 0,33`
-- Load average: healthy; `0,29, 0,31, 0,33`
+- Host uptime: `18:00:34 up 5 days,  2:47,  1 user,  load average: 0,37, 0,26, 0,27`
+- Load average: healthy; `0,37, 0,26, 0,27`
 - Memory: healthy; 13Gi total, 6,0Gi available
 - Swap: healthy; 15Gi free
 
@@ -20,7 +20,7 @@
 
 ## Spot checks
 - Raw backlog scan: clean
-- Concept backlink spot check: issues present; 33 `[[wiki/sources/...]]` links found in `wiki/concepts/`
+- Concept backlink spot check: issues present; 20 concept files contain deprecated `[[wiki/sources/...]]` links
 - Source frontmatter spot check: issues present; 2 source files still contain `date_ingested`
 - Pending review scan: approved fixes still tracked in `wiki/reviews/_action-required.md`
 

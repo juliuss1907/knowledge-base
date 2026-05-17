@@ -20,17 +20,25 @@ Master index of all tags used across the wiki. Each entry links to a tag file li
 
 ## Stats
 
-- Total tags: 7
-- Main tags: 7
-- Sub tags: 0
-- Most used: #productivity (25), #system (18), #ai (7)
+- Total tags: 0
+- Main tags: 8
+- Sub tags: -8
+- Most used: 
 - Last updated: 2026-05-17
 
 ## Items
 
 ### Main Tags (Pool A)
 
-- [[ai]] — AI / ML / LLM
+
+- [[`politic`]] — Policy, regulation, geopolitics
+- [[`economic`]] — Macroeconomics, finance, markets, trading
+- [[`system`]] — System design, architecture, automation pipelines
+- [[`productivity`]] — Workflows, methodologies, knowledge management, personal systems
+- [[`tech`]] — Software engineering, infrastructure, web, mobile, dev tooling
+- [[`crypto`]] — Blockchain, DeFi, tokens, exchanges, on-chain activity
+- [[`ai`]] — AI / ML / LLM, agents, models, training, inference
+- [[---]] — ---- [[ai]] — AI / ML / LLM
 - [[crypto]] — Blockchain, DeFi
 - [[tech]] — Software engineering
 - [[productivity]] — Workflows, KM
@@ -40,7 +48,19 @@ Master index of all tags used across the wiki. Each entry links to a tag file li
 
 ### Sub Tags (Pool B)
 
-- [[hack]] — Exploits, vulnerabilities
+
+- [[`layer2`]] — Scaling solutions, rollups, sidechains
+- [[`layer1`]] — Base-layer blockchains
+- [[`perpdex`]] — Perpetual exchanges, derivatives DEXs
+- [[`defi`]] — Decentralized finance protocols, AMMs, lending, yield
+- [[`news`]] — Recent events, announcements, time-sensitive updates
+- [[`opinion`]] — Personal takes, editorials, commentary
+- [[`tutorial`]] — How-to guides, walkthroughs, step-by-step instructions
+- [[`research`]] — Academic papers, deep analysis, primary sources
+- [[`vibecode`]] — Vibe coding, AI-assisted development style
+- [[`automation`]] — Bots, scripts, scheduled jobs, automated workflows
+- [[`tools`]] — Concrete software, products, services, libraries
+- [[`hack`]] — Exploits, vulnerabilities, attacks, post-mortems- [[hack]] — Exploits, vulnerabilities
 - [[tools]] — Software, products
 - [[automation]] — Bots, scripts
 - [[vibecode]] — AI-assisted dev

@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `post-systems-thinking`.
 
-Last updated: 2026-05-16 21:03:16
+Last updated: 2026-05-17 21:07:13
 
 ---
 
@@ -17,3 +17,7 @@ Last updated: 2026-05-16 21:03:16
 ## Sources (1)
 
 - [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#research]
+
+## Related topics
+
+Topics that share concepts/sources with `post-systems-thinking`:

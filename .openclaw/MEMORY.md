@@ -73,3 +73,157 @@ Each entry follows this format:
 - **Orphans deleted:** 0 (no orphan cleanup needed — fresh run)
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
+
+## 2026-05-17 21:04:42 — Indexed
+
+- **Scanned:** 29 total files
+- **Tags indexed:** 0 (8 main + -8 sub)
+- **Topics indexed:** 4
+- **Orphans deleted:** 8 tag indexes + 0 topic indexes
+- **Invalid tags found:** 66
+- **Errors:** 0 files skipped
+
+### Invalid Tag Details
+- /home/julius/knowledge-base/wiki/sources/src_active-vs-lazy-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/sources/src_active-vs-lazy-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: main_tag=ai
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/sources/src_what-comes-after-systems-thinking.md: main_tag=system
+- /home/julius/knowledge-base/wiki/sources/src_what-comes-after-systems-thinking.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/abstraction-layer-fallacy.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/abstraction-layer-fallacy.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/active-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/active-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/ashbys-law.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/ashbys-law.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/casino-culture.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/casino-culture.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/complex-adaptive-systems.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/complex-adaptive-systems.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/complicated-vs-complex.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/complicated-vs-complex.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/compounding-effect.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/compounding-effect.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/cynefin-framework.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/cynefin-framework.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/discipline-system.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/discipline-system.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/environment-baseline.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/environment-baseline.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/information-compression.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/information-compression.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/lazy-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/lazy-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/leading-indicators.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/leading-indicators.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/loop-ownership.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/loop-ownership.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/negative-compounding.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/negative-compounding.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/nice-syndrome.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/nice-syndrome.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/organizational-incrementalism.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/organizational-incrementalism.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/patience-vs-passivity.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/patience-vs-passivity.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/philosopher-syndrome.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/philosopher-syndrome.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: main_tag=ai
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/systems-thinking-limitations.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/systems-thinking-limitations.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: sub_tag=opinion
+
+## 2026-05-17 21:07:13 — Indexed
+
+- **Scanned:** 29 total files
+- **Tags indexed:** 0 (8 main + -8 sub)
+- **Topics indexed:** 4
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 66
+- **Errors:** 0 files skipped
+
+### Invalid Tag Details
+- /home/julius/knowledge-base/wiki/sources/src_active-vs-lazy-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/sources/src_active-vs-lazy-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: main_tag=ai
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/sources/src_what-comes-after-systems-thinking.md: main_tag=system
+- /home/julius/knowledge-base/wiki/sources/src_what-comes-after-systems-thinking.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/abstraction-layer-fallacy.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/abstraction-layer-fallacy.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/active-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/active-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/ashbys-law.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/ashbys-law.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/casino-culture.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/casino-culture.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/complex-adaptive-systems.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/complex-adaptive-systems.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/complicated-vs-complex.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/complicated-vs-complex.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/compounding-effect.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/compounding-effect.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/cynefin-framework.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/cynefin-framework.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/discipline-system.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/discipline-system.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/environment-baseline.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/environment-baseline.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/information-compression.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/information-compression.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/lazy-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/lazy-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/leading-indicators.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/leading-indicators.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/loop-ownership.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/loop-ownership.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/negative-compounding.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/negative-compounding.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/nice-syndrome.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/nice-syndrome.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/organizational-incrementalism.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/organizational-incrementalism.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/patience-vs-passivity.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/patience-vs-passivity.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/philosopher-syndrome.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/philosopher-syndrome.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: main_tag=ai
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/systems-thinking-limitations.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/systems-thinking-limitations.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: sub_tag=opinion

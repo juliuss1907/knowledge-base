@@ -1,65 +1,82 @@
 # Knowledge Base V2
 
-> Personal knowledge management system powered by AI agents
-> Last manual update: 2026-05-09
+> Dashboard cho AI-powered knowledge management system
+> Last manual update: 2026-05-17
 
 ---
 
-## System Status
+## 🗺️ Navigation
 
-> **Note:** Metrics below update automatically when you open this file in Obsidian (requires Dataview plugin)
+### Layer Indexes (Level 1)
+
+3 entry points chính cho toàn bộ KB:
+
+- 📥 [[raw]] — Ingested source material (articles, posts, videos, papers, repos, websites)
+- 📚 [[wiki]] — Compiled knowledge (concepts, sources, tags, topics)
+- 👤 [[context]] — User profile và environment context
+
+### Master Indexes (Level 2)
+
+- 🏷️ [[tag]] — Master tag index (Pool A + Pool B)
+
+### Action Center
+
+- ⚠️ [[wiki/reviews/_action-required]] — Pending reviews & fixes
+- 📋 [[AGENTS]] — Global rules cho tất cả agents
+- 🏷️ [[TAGS]] — Tag taxonomy spec
+
+### Ground Truth Specs
+
+- 📐 [[wiki/meta/format-spec]] — File format rules (concept + source)
+- 📁 [[wiki/meta/folder-structure]] — Folder hierarchy rules
+- 🗂️ [[wiki/meta/index-spec]] — Index file format rules
+
+---
+
+## 📊 System Status
+
+> Metrics auto-update khi mở file (yêu cầu Obsidian Dataview plugin)
 
 ### Raw Layer
-
-```dataview
-TABLE WITHOUT ID
-  "Unprocessed files" AS Metric,
-  length(filter(rows, (r) => contains(string(r.file.frontmatter.status), "unprocessed"))) AS Count
-FROM "raw"
-WHERE file.name != "README"
-GROUP BY true
-```
 
 ```dataview
 TABLE WITHOUT ID
   "Total raw files" AS Metric,
   length(rows) AS Count
 FROM "raw"
-WHERE file.name != "README"
+WHERE file.name != "raw" AND !contains(file.name, "articles") 
+  AND !contains(file.name, "posts") AND !contains(file.name, "videos")
+  AND !contains(file.name, "papers") AND !contains(file.name, "repos")
+  AND !contains(file.name, "websites")
 GROUP BY true
 ```
 
-### Wiki Layer — Concepts
-
 ```dataview
 TABLE WITHOUT ID
-  file.frontmatter.status AS Status,
-  length(rows) AS Count
-FROM "wiki/concepts"
-WHERE file.name != "README"
-GROUP BY file.frontmatter.status
-SORT Status ASC
-```
-
-### Wiki Layer — Sources
-
-```dataview
-TABLE WITHOUT ID
-  "Total source files" AS Metric,
-  length(rows) AS Count
-FROM "wiki/sources"
-WHERE file.name != "README"
+  "Unprocessed files" AS Metric,
+  length(filter(rows, (r) => contains(string(r.file.frontmatter.status), "unprocessed"))) AS Count
+FROM "raw"
+WHERE file.frontmatter.type != "index"
 GROUP BY true
 ```
 
-### Wiki Layer — Indexes
+### Wiki Layer
+
+```dataview
+TABLE WITHOUT ID
+  file.frontmatter.type AS Type,
+  length(rows) AS Count
+FROM "wiki/concepts" OR "wiki/sources"
+WHERE file.frontmatter.type
+GROUP BY file.frontmatter.type
+```
 
 ```dataview
 TABLE WITHOUT ID
   "Tag indexes" AS Type,
   length(rows) AS Count
 FROM "wiki/tag"
-WHERE file.name != "README"
+WHERE file.name != "tag" AND file.frontmatter.type = "index"
 GROUP BY true
 ```
 
@@ -68,96 +85,108 @@ TABLE WITHOUT ID
   "Topic indexes" AS Type,
   length(rows) AS Count
 FROM "wiki/topic"
-WHERE file.name != "README"
-GROUP BY true
-```
-
-### Pending Reviews
-
-```dataview
-TABLE WITHOUT ID
-  "Pending review entries" AS Metric,
-  length(file.tasks.text) AS Count
-FROM "wiki/reviews"
-WHERE file.name = "_action-required"
 GROUP BY true
 ```
 
 ---
 
-## Quick Navigation
+## 🤖 Agents
 
-### Core Documentation
-- [[AGENTS.md]] — Global system rules
-- [[TAGS.md]] — Tag taxonomy (2 pools)
-- [[README.md]] — How to use this KB
+### OpenClaw (Kara — AX400)
 
-### Ground Truth Files
-- [[wiki/meta/format-spec.md]] — Format Validator ground truth
-- [[wiki/meta/folder-structure.md]] — Hygiene Inspector ground truth
+**Role:** Automation engine — Ingest → Compile → Index → Fix
 
-### Agent Homes
-- [[.openclaw/IDENTITY.md]] — OpenClaw identity
-- [[.openclaw/SOUL.md]] — OpenClaw personality
-- [[.hermes/IDENTITY.md]] — Hermes identity
-- [[.hermes/SOUL.md]] — Hermes personality
+| Skill | Trigger | Schedule |
+|---|---|---|
+| [[.openclaw/skills/ingest-agent/SKILL\|Ingest]] | On-demand | Manual (Telegram link share) |
+| [[.openclaw/skills/compile-agent/SKILL\|Compile]] | Cron | Daily 08:00 |
+| [[.openclaw/skills/index-agent/SKILL\|Index]] | Cron | Daily 21:00 |
+| [[.openclaw/skills/fix-agent/SKILL\|Fix]] | On-demand | Manual (after Julius approves) |
 
-### Action Required
-- [[wiki/reviews/_action-required.md]] — Pending reviews and fixes
+**Identity:** [[.openclaw/IDENTITY|Kara]] · [[.openclaw/SOUL|Personality]] · [[.openclaw/MEMORY|Logs]] · [[.openclaw/HEARTBEAT|Status]]
 
 ---
 
-## Agent Status
+### Hermes (Connor — RK800)
 
-### OpenClaw (Kara, AX400)
+**Role:** Validation agent — Quality → Format → Structure (read-only, report-only)
 
-**Role:** Automation engine (Ingest → Compile → Index)
+| Skill | Validates | Schedule |
+|---|---|---|
+| [[.hermes/skills/output-validator/SKILL\|Output]] | Content quality | Daily 23:00 |
+| [[.hermes/skills/format-validator/SKILL\|Format]] | File format | Daily 23:15 |
+| [[.hermes/skills/hygiene-inspector/SKILL\|Hygiene]] | Folder structure | Daily 23:30 |
 
-**Skills:**
-- [[.openclaw/skills/ingest-agent/SKILL.md]] — Save external content to raw/
-- [[.openclaw/skills/compile-agent/SKILL.md]] — Transform raw → wiki
-- [[.openclaw/skills/index-agent/SKILL.md]] — Maintain tag/topic indexes
-- [[.openclaw/skills/fix-agent/SKILL.md]] — Apply approved Hermes reports
-
-**Schedule:**
-- Heartbeat: Every 30 minutes
-- Readwise sync: Daily 07:00
-- Compile: Daily 08:00
-- Index update: Daily 21:00
-
-**Last activity:** Check `.openclaw/MEMORY.md`
+**Identity:** [[.hermes/IDENTITY|Connor]] · [[.hermes/SOUL|Personality]] · [[.hermes/MEMORY|Logs]] · [[.hermes/HEARTBEAT|Status]]
 
 ---
 
-### Hermes (Connor, RK800)
+## 📅 Daily Pipeline (UTC+7)
 
-**Role:** Validation agent (Quality → Format → Structure)
-
-**Skills:**
-- [[.hermes/skills/output-validator/SKILL.md]] — Content quality validation
-- [[.hermes/skills/format-validator/SKILL.md]] — Structure validation
-- [[.hermes/skills/hygiene-inspector/SKILL.md]] — Folder structure validation
-
-**Schedule:**
-- Output validation: Daily 22:00
-- Format validation: Daily 22:30
-- Hygiene inspection: Daily 23:00
-
-**Last activity:** Check `.hermes/MEMORY.md`
+```
+08:00 → Kara compiles raw/ → wiki/sources/ + wiki/concepts/
+21:00 → Kara regenerates wiki/tag/ + wiki/topic/
+23:00 → Connor validates content quality
+23:15 → Connor validates format compliance
+23:30 → Connor validates folder structure
+        ↓
+        Reports → wiki/reviews/_action-required.md
+        ↓
+        Telegram notification → Julius
+```
 
 ---
 
-## Recent Activity (Last 7 Days)
+## ⚡ Quick Actions
+
+### Ingest Content
+
+```
+# Via Telegram (recommended)
+Send link/file to OpenClaw bot
+
+# Via CLI
+openclaw ingest [url]
+```
+
+### Process Files Manually
+
+```
+openclaw compile all new      # All unprocessed
+openclaw compile [filename]   # Specific file
+openclaw index update         # Regenerate indexes
+```
+
+### Review Hermes Reports
+
+| Action | Telegram Command |
+|---|---|
+| View pending | Open [[wiki/reviews/_action-required]] |
+| Approve | `approve output` / `approve format` / `approve hygiene` |
+| Reject | `reject output` / `reject format` / `reject hygiene` |
+| Show details | `show output` / `show format` / `show hygiene` |
+
+### Apply Fixes
+
+After approval:
+```
+openclaw apply fixes
+```
+
+---
+
+## 📈 Recent Activity (Last 7 Days)
 
 ### Files Ingested
 
 ```dataview
 TABLE WITHOUT ID
   file.link AS File,
-  file.frontmatter.date_ingested AS "Date Ingested",
-  file.frontmatter.source_type AS Type
+  file.frontmatter.date_ingested AS "Ingested",
+  file.frontmatter.type AS Type
 FROM "raw"
 WHERE file.frontmatter.date_ingested >= date(today) - dur(7 days)
+  AND file.frontmatter.type != "index"
 SORT file.frontmatter.date_ingested DESC
 LIMIT 10
 ```
@@ -167,7 +196,7 @@ LIMIT 10
 ```dataview
 TABLE WITHOUT ID
   file.link AS File,
-  file.frontmatter.date_compiled AS "Date Compiled",
+  file.frontmatter.date_compiled AS "Compiled",
   file.frontmatter.topic AS Topic
 FROM "wiki/sources"
 WHERE file.frontmatter.date_compiled >= date(today) - dur(7 days)
@@ -180,7 +209,7 @@ LIMIT 10
 ```dataview
 TABLE WITHOUT ID
   file.link AS File,
-  file.frontmatter.last_updated AS "Last Updated",
+  file.frontmatter.last_updated AS "Updated",
   file.frontmatter.status AS Status
 FROM "wiki/concepts"
 WHERE file.frontmatter.last_updated >= date(today) - dur(7 days)
@@ -190,203 +219,110 @@ LIMIT 10
 
 ---
 
-## Quick Actions
+## 🚨 Health Indicators
 
-### Ingest Content
-
-**Via Telegram:**
-- Send link → OpenClaw auto-ingests to `raw/`
-- Send file → OpenClaw saves with frontmatter
-
-**Manual:**
-```bash
-openclaw ingest [url]
-```
-
----
-
-### Compile Files
-
-**Automatic:**
-- Daily 08:00 — all unprocessed files in `raw/`
-
-**Manual:**
-```bash
-openclaw compile all new      # Compile all unprocessed
-openclaw compile [filename]   # Compile specific file
-```
-
----
-
-### Review Pending Actions
-
-**Check pending:**
-- Open [[wiki/reviews/_action-required.md]]
-- Review individual reports in `wiki/reviews/`
-
-**Approve via Telegram:**
-```
-approve output      # Approve Output Validator report
-approve format      # Approve Format Validator report
-approve hygiene     # Approve Hygiene Inspector report
-```
-
-**View details:**
-```
-show output         # View full Output Validator report
-show format         # View full Format Validator report
-show hygiene        # View full Hygiene Inspector report
-```
-
-**Reject:**
-```
-reject output       # Reject Output Validator report
-reject format       # Reject Format Validator report
-reject hygiene      # Reject Hygiene Inspector report
-```
-
----
-
-### Update Indexes
-
-**Automatic:**
-- Daily 21:00 — all tag and topic indexes
-
-**Manual:**
-```bash
-openclaw index update
-```
-
----
-
-### Check System Health
-
-**Heartbeat:**
-```bash
-openclaw heartbeat
-```
-
-Returns:
-- `HEARTBEAT_OK` — all systems normal
-- Brief report — issues detected (max 3 bullets)
-
----
-
-## Tag Taxonomy
-
-### Pool A — Main Tags (7)
-
-```dataview
-TABLE WITHOUT ID
-  file.link AS Tag,
-  length(rows) AS "Files Using This Tag"
-FROM "wiki/tag"
-WHERE file.name != "README"
-GROUP BY file.link
-SORT length(rows) DESC
-```
-
-### Pool B — Sub Tags (12)
-
-See [[TAGS.md]] for complete taxonomy and tagging rules.
-
----
-
-## System Health Indicators
-
-### Raw Backlog Alert
+### Raw Backlog (>1 day unprocessed)
 
 ```dataview
 TABLE WITHOUT ID
   file.link AS File,
   file.frontmatter.date_ingested AS "Ingested",
-  date(today) - file.frontmatter.date_ingested AS "Days Waiting"
+  (date(today) - file.frontmatter.date_ingested).days AS "Days Waiting"
 FROM "raw"
 WHERE file.frontmatter.status = "unprocessed"
-  AND date(today) - file.frontmatter.date_ingested > dur(1 day)
+  AND (date(today) - file.frontmatter.date_ingested).days > 1
 SORT file.frontmatter.date_ingested ASC
 ```
 
-> **Action:** If files appear above, run `openclaw compile all new`
+> **Action:** Run `openclaw compile all new` if files appear above.
 
----
+### Concepts in Draft Status
 
-### Concepts Awaiting Review
+```dataview
+TABLE WITHOUT ID
+  file.link AS File,
+  file.frontmatter.last_updated AS "Updated",
+  (date(today) - file.frontmatter.last_updated).days AS "Days as Draft"
+FROM "wiki/concepts"
+WHERE file.frontmatter.status = "draft"
+SORT file.frontmatter.last_updated ASC
+LIMIT 10
+```
+
+> **Action:** Hermes validates daily at 23:00. Review reports trong [[wiki/reviews/_action-required]].
+
+### Stale Index Files (>2 days)
 
 ```dataview
 TABLE WITHOUT ID
   file.link AS File,
   file.frontmatter.last_updated AS "Last Updated",
-  date(today) - file.frontmatter.last_updated AS "Days Waiting"
-FROM "wiki/concepts"
-WHERE file.frontmatter.status = "draft"
+  (date(today) - file.frontmatter.last_updated).days AS "Days Stale"
+FROM "wiki/tag" OR "raw"
+WHERE file.frontmatter.type = "index"
+  AND (date(today) - file.frontmatter.last_updated).days > 2
 SORT file.frontmatter.last_updated ASC
 ```
 
-> **Action:** Hermes validates daily at 22:00. Check [[wiki/reviews/_action-required.md]] after validation.
+> **Action:** Trigger Index Agent (21:00) hoặc Ingest Agent để refresh stats.
 
 ---
 
-## Maintenance
+## 🔧 Maintenance
 
-### Weekly Tasks
-- [ ] Review [[wiki/reviews/_action-required.md]]
-- [ ] Archive old reports (>30 days) to `wiki/reviews/archive/`
-- [ ] Check for orphaned files via Hygiene Inspector
+### Weekly Checklist
 
-### Monthly Tasks
-- [ ] Review tag taxonomy — consolidate or add tags
-- [ ] Check concept link coverage
-- [ ] Update agent skills if needed
-- [ ] Review `.openclaw/MEMORY.md` and `.hermes/MEMORY.md` for patterns
+- [ ] Review [[wiki/reviews/_action-required]]
+- [ ] Approve/reject pending Hermes reports
+- [ ] Check OpenClaw [[.openclaw/MEMORY|MEMORY]] for recurring errors
+- [ ] Check Hermes [[.hermes/MEMORY|MEMORY]] for systematic issues
+
+### Monthly Checklist
+
+- [ ] Archive reports >30 days to `wiki/reviews/archive/YYYY-MM/`
+- [ ] Review tag taxonomy — consolidate hoặc add tags qua [[TAGS]]
+- [ ] Check concept link coverage (orphan concepts)
+- [ ] Update agent skills nếu workflow thay đổi
 
 ---
 
-## Troubleshooting
+## 🆘 Troubleshooting
 
-### Raw Backlog Building Up
+### Raw backlog building up
 
-**Symptoms:** Many files in "Raw Backlog Alert" section above
-
-**Solutions:**
-1. Check OpenClaw heartbeat status
+1. Check Kara heartbeat: `cat .openclaw/HEARTBEAT.md`
 2. Manual trigger: `openclaw compile all new`
-3. Check `.openclaw/MEMORY.md` for compile errors
+3. Inspect errors: `cat .openclaw/MEMORY.md | tail -50`
+
+### Hermes reports không xuất hiện
+
+1. Check cron status: `hermes cron list`
+2. Check last run: `cat .hermes/MEMORY.md | tail -20`
+3. Verify files có `type: concept|source` trong frontmatter
+
+### Tag mới cần thêm
+
+1. Agent gửi proposal qua Telegram
+2. Approve/reject qua Telegram
+3. Nếu approve → OpenClaw thêm vào [[TAGS]]
+4. Index Agent tạo `wiki/tag/[tag].md` ở 21:00
+
+### Index file outdated
+
+1. Check `last_updated` field
+2. Trigger Index Agent: `openclaw cron run [index-agent-job-id]`
+3. Hoặc đợi cron 21:00
 
 ---
 
-### Hermes Reports Not Appearing
+## 📝 Notes
 
-**Symptoms:** No new entries in [[wiki/reviews/_action-required.md]]
-
-**Solutions:**
-1. Check Hermes last validation timestamp in `.hermes/MEMORY.md`
-2. Verify files have correct status (`draft` or `ready_review`)
-3. Check if files are in correct folders (`wiki/concepts/` or `wiki/sources/`)
+<!-- Free space for Julius -->
 
 ---
 
-### Tags Not in Taxonomy
-
-**Symptoms:** OpenClaw proposes new tag via notification
-
-**Solutions:**
-1. Review tag proposal in Telegram
-2. Approve or reject via Telegram
-3. If approved, OpenClaw adds to [[TAGS.md]]
-4. Index Agent creates `wiki/tag/[tag].md` at next run (21:00)
-
----
-
-## Contact
-
-**System Owner:** Julius
-
-**Agent Communication:**
-- OpenClaw (Kara): Telegram bot
-- Hermes (Connor): Reports via `wiki/reviews/`
-
----
-
-*Knowledge Base V2 — Powered by OpenClaw & Hermes*  
+*Knowledge Base V2 — Powered by OpenClaw (Kara) & Hermes (Connor)*  
 *Dashboard auto-updates via Obsidian Dataview plugin*
+```
+
+---

@@ -1,6 +1,6 @@
 ---
 type: article
-title: "What Comes After Systems Thinking"
+title: What Comes After Systems Thinking
 url: http://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking?r=1g2ue2
 author: Nicole Williams
 date_published: 2026-04-02
@@ -8,6 +8,7 @@ date_ingested: 2026-04-02
 status: processed
 compiled_at: 2026-05-14
 source: Substack (PM Researcher)
+compiled_to: "[[src_what-comes-after-systems-thinking]]"
 ---
 
 # What Comes After Systems Thinking

@@ -1,6 +1,6 @@
 ---
 type: article
-title: "Active vs. Lazy Thinking"
+title: Active vs. Lazy Thinking
 url: https://alexw.substack.com/p/active-vs-lazy-thinking
 author: Alexandr Wang
 date_published: 2026-05-12
@@ -8,6 +8,7 @@ date_ingested: 2026-05-12
 status: processed
 compiled_at: 2026-05-13
 source: Substack (alexw)
+compiled_to: "[[src_active-vs-lazy-thinking]]"
 ---
 
 # Active vs. Lazy Thinking

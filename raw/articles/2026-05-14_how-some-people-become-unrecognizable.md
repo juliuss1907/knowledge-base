@@ -1,12 +1,13 @@
 ---
 title: "Compounding: How Some People Become Unrecognizable"
-author: "The Beauty of SaaS"
-source_url: "https://open.substack.com/pub/thebeautyofsaas/p/how-some-people-become-unrecognizable"
+author: The Beauty of SaaS
+source_url: https://open.substack.com/pub/thebeautyofsaas/p/how-some-people-become-unrecognizable
 date_published: 2026-05-14
 date_ingested: 2026-05-14
 type: article
 status: processed
 compiled_at: 2026-05-15
+compiled_to: "[[src_how-some-people-become-unrecognizable]]"
 ---
 
 # Compounding: How Some People Become Unrecognizable

@@ -1,12 +1,13 @@
 ---
-title: "How AI Productivity Fails"
-author: "Shrivu"
-source_url: "https://open.substack.com/pub/shrivu/p/how-ai-productivity-fails"
+title: How AI Productivity Fails
+author: Shrivu
+source_url: https://open.substack.com/pub/shrivu/p/how-ai-productivity-fails
 date_published: 2026-05-14
 date_ingested: 2026-05-14
 type: article
 status: processed
 compiled_at: 2026-05-15
+compiled_to: "[[src_how-ai-productivity-fails]]"
 ---
 
 # How AI Productivity Fails

@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-17 11:30:00 Asia/Saigon
+- Last checked: 2026-05-17 12:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `11:30:38 up 4 days, 20:17,  1 user,  load average: 0,31, 0,29, 0,27`
-- Load average: healthy; `0,31, 0,29, 0,27`
-- Memory: healthy; 13Gi total, 6,0Gi available
+- Host uptime: `12:00:29 up 4 days, 20:46,  1 user,  load average: 0,57, 0,38, 0,37`
+- Load average: healthy; `0,57, 0,38, 0,37`
+- Memory: healthy; 13Gi total, 6,1Gi available
 - Swap: healthy; 15Gi free
 
 ## OpenClaw checks
@@ -20,7 +20,7 @@
 
 ## Spot checks
 - Raw backlog scan: clean
-- Concept backlink spot check: issue present; 20 concept files still contain legacy `[[wiki/sources/...]]` wikilinks
+- Concept backlink spot check: issue present; 33 legacy `[[wiki/sources/...]]` wikilinks remain in `wiki/concepts/`
 - Source format spot check: issue present; 2 source files still contain legacy `date_ingested`
 - Hermes action file: present
 - Write check: `HEARTBEAT.md` updated by cron `3e70fe54-de76-4781-9342-c1ab2a73ebd4`

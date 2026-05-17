@@ -4,17 +4,17 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-15 08:00:00
+**Last updated:** 2026-05-17 23:15:00
 
 ---
 
 ## Summary
 
-**Pending reports:** 3
+**Pending reports:** 4
 
 **Status:**
 - Output Validator: 1 pending report (4 issues — **1 ERROR ready for Fix Agent**)
-- Format Validator: 1 pending report (3 issues — **2 WARNING ready for Fix Agent**)
+- Format Validator: 2 pending reports (2026-05-14: 3 issues → 1 Fix Agent / 2026-05-17: 5 issues — **5 WARNING ready for Fix Agent**)
 - Hygiene Inspector: **RESOLVED** — folder-structure.md updated to v1.1, all folders created, spec ambiguities resolved
 
 **Fixed by Julius (2026-05-15):**
@@ -121,7 +121,24 @@
 
 ---
 
-### 3. Hygiene Inspection — 2026-05-14 ✅ RESOLVED
+### 3. Format Validation — 2026-05-17
+
+**File:** [2026-05-17_format-report.md](2026-05-17_format-report.md)
+**Status:** pending
+**Created:** 2026-05-17 23:15:00
+**Issues:** 5 (0 ERROR, 5 WARNING, 0 INFO)
+
+**Actions for Fix Agent:**
+- Fix extra fields and field order in `wiki/sources/src_how-ai-productivity-fails.md`
+- Fix extra fields and field order in `wiki/sources/src_how-some-people-become-unrecognizable.md`
+- Convert `sub_tags` to bracket syntax in both files
+- Fix broken wikilink `[[transposed-organization]]` in `src_how-ai-productivity-fails.md`
+
+⚠️ **SPEC CONFLICT pending:** `sources` array syntax in concept files — bracket vs YAML list (see report escalation)
+
+---
+
+### 4. Hygiene Inspection — 2026-05-14 ✅ RESOLVED
 
 **File:** [2026-05-14_hygiene-report.md](2026-05-14_hygiene-report.md)
 **Status:** resolved

@@ -20,13 +20,15 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 8 files
-- By status: 4 processed, 4 unprocessed
-- By date: 4 this week, 8 this month
+- Total: 10 files
+- By status: 4 processed, 6 unprocessed
+- By date: 6 this week, 10 this month
 - Last updated: 2026-05-18
 
 ## Items
 
+- [[2026-05-18_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things I Learnt After 3 Weeks of Using Hermes as a Personal Analyst (unprocessed)
+- [[2026-05-18_hermes-200-30-skills-3-worth-it]] — Hermes, $200 and 30 Skills Later — Here Are the 3 Skills That're Worth It (unprocessed)
 - [[2026-05-18_hermes-as-a-real-time-analyst]] — Hermes as a Real-time Analyst (unprocessed)
 - [[2026-05-18_1-month-with-hermes-ive-been-using-wrong]] — 1 Month with Hermes — I've Been Using Hermes Wrong All Along (unprocessed)
 - [[2026-05-18_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (unprocessed)

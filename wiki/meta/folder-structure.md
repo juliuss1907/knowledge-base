@@ -150,7 +150,6 @@ raw/
 ├── repos/
 │   ├── repos.md                 ✓ required
 │   └── YYYY-MM-DD_<owner>_<repo>.md    ✓ allowed
-└── raw.md                       ✓ required (index)
 └── *                            ✗ forbidden (no other subfolders)
 ```
 

@@ -20,13 +20,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 5 files
-- By status: 4 processed, 1 unprocessed
-- By date: 1 this week, 5 this month
+- Total: 6 files
+- By status: 4 processed, 2 unprocessed
+- By date: 2 this week, 6 this month
 - Last updated: 2026-05-18
 
 ## Items
 
+- [[2026-05-18_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (unprocessed)
 - [[2026-05-17_aaron-wright-ai-agents-legal-body]] — The Agent's Legal Body: How AI Agents Get the Right to Contract (unprocessed)
 - [[2026-05-14_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (processed)
 - [[2026-05-14_how-ai-productivity-fails]] — How AI Productivity Fails (processed)

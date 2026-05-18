@@ -2,10 +2,10 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 14:00:00 Asia/Saigon
+- Last checked: 2026-05-18 14:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 5 days, 22 hours, 47 minutes`
-- Load average: healthy; `0.78, 0.55, 0.46` at current sample
+- Host uptime: `up 5 days, 23 hours, 17 minutes`
+- Load average: healthy; `0,49, 0,46, 0,47` at current sample
 - Memory: healthy; 6.0Gi available
 - Swap: healthy; 13Gi free / 17Gi total
 
@@ -15,7 +15,7 @@
 - Disk `/`: healthy; 17% used, ~182G free
 - Disk `/home/julius/knowledge-base`: healthy; 17% used, ~182G free
 - Raw backlog: 0 file(s) with `status: unprocessed`
-- Inbox markers: 0 actionable markers found (`#agent/inbox` references are protocol text only)
+- Inbox markers: 0 actionable markers found in `Tasks/`
 - Pending Hermes reports: 6 report files present; `_action-required.md` has pending/approved Fix Agent items
 - Approved Fix Agent actions pending: present in `wiki/reviews/_action-required.md`
 
@@ -26,7 +26,8 @@
   - `wiki/sources/src_how-ai-productivity-fails.md`
   - `wiki/sources/src_how-some-people-become-unrecognizable.md`
 - Pending review scan: pending/approved Fix Agent items remain in `wiki/reviews/_action-required.md`
-- Git scan: working tree has existing change outside heartbeat scope: `.hermes/hermes-agent`
+- Git scan: working tree has existing changes outside heartbeat scope:
+  - ` m .hermes/hermes-agent`
 
 ## Last result
 HEARTBEAT_ISSUES_PRESENT

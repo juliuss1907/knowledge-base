@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 16:30:00 Asia/Saigon
+- Last checked: 2026-05-18 17:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 6 days, 1 hour, 16 minutes`
-- Load average: healthy; `0.35, 0.39, 0.37` at current sample
-- Memory: healthy; 5.9Gi available
+- Host uptime: `up 6 days, 1 hour, 47 minutes`
+- Load average: healthy; `0.76, 0.73, 0.57` at current sample
+- Memory: healthy; 5.8Gi available
 - Swap: healthy; 13Gi free / 17Gi total
 
 ## OpenClaw checks
@@ -21,7 +21,7 @@
 
 ## Spot checks
 - Raw backlog scan: issues present — `raw/articles/2026-05-18_hermes-analyst-workflow-essentials.md`
-- Concept source-link scan: issues present; 33 deprecated `[[wiki/sources/...]]` matches across 20 concept files
+- Concept source-link scan: issues present; 33 deprecated `[[wiki/sources/...]]` matches across concept files
 - Source frontmatter scan: issues present; 2 source files still contain legacy `date_ingested` fields:
   - `wiki/sources/src_how-ai-productivity-fails.md`
   - `wiki/sources/src_how-some-people-become-unrecognizable.md`

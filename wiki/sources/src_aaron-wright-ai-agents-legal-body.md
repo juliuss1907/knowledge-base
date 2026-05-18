@@ -1,14 +1,17 @@
 ---
-type: raw
-source_type: article
+type: source
+id: src_aaron-wright-ai-agents-legal-body
+title: The Agent's Legal Body: How AI Agents Get the Right to Contract
+author: Aaron Wright
 source_url: https://x.com/i/article/2055291336488620032
-date_ingested: 2026-05-17
-tags:
-  - ai
+main_tag: ai
+sub_tags:
   - law
   - agents
-status: processed
-processed_date: 2026-05-18
+date_published: 2026-05-15
+date_compiled: 2026-05-18
+topic: ai-legal-personhood
+status: compiled
 ---
 
 # The Agent's Legal Body: How AI Agents Get the Right to Contract
@@ -74,3 +77,7 @@ Ví dụ: Research-and-trading agent ở **Wyoming DAO LLC**
 - **Lớp quan trọng nhất:** Operating agreements, governance procedures, theories of authority
 - **Cơ chế:** Zero-member LLC với AI làm manager
 - **Jurisdiction thuận lợi:** Wyoming (DAO LLC Act), New York
+
+---
+
+*Biên dịch từ: [[src_aaron-wright-ai-agents-legal-body]]*

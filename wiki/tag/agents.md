@@ -1,6 +1,6 @@
-# Tag: #ai
+# Tag: #agents
 
-Auto-generated index of all content tagged with `#ai`.
+Auto-generated index of all content tagged with `#agents`.
 
 Last updated: 2026-05-18 07:40:00
 
@@ -16,8 +16,8 @@ Last updated: 2026-05-18 07:40:00
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#ai`:
+Tags that frequently appear with `#agents`:
+- `#ai` (1 files)
 - `#law` (1 files)
-- `#agents` (1 files)
 
 (Top 5 by frequency)

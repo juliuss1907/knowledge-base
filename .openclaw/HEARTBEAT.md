@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 07:00:00 Asia/Saigon
+- Last checked: 2026-05-18 07:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 5 days, 15 hours, 47 minutes`
-- Load average: healthy; `0.93, 0.45, 0.32`
-- Memory: healthy; 13Gi total, 6.4Gi available
-- Swap: healthy; 14Gi free
+- Host uptime: `up 5 days, 16 hours, 17 minutes`
+- Load average: healthy; `0.90, 0.97, 0.69`
+- Memory: healthy; 13Gi total, available capacity OK
+- Swap: healthy
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -21,12 +21,12 @@
 
 ## Spot checks
 - Raw backlog scan: issues present; 1 raw file(s) unprocessed: `raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body.md`
-- Concept source-link spot check: issues present; sampled concepts still include missing/deprecated source-link patterns
-- Deprecated wikilinks: issues present; files still contain `[[wiki/sources/...]]` patterns
-- Source frontmatter scan: issues present; 2 source file(s) still contain legacy `date_ingested` fields per pending review
+- Concept source-link spot check: issues present; concept files still include deprecated `[[wiki/sources/...]]` source-link patterns
+- Deprecated wikilinks: issues present; files still contain `[[wiki/sources/...]]` patterns in `wiki/concepts/`
+- Source frontmatter scan: issues present; source files still contain legacy `date_ingested` fields, including `wiki/sources/src_how-ai-productivity-fails.md` and `wiki/sources/src_how-some-people-become-unrecognizable.md`
 - Pending review scan: approved fixes and pending reports still tracked in `wiki/reviews/_action-required.md`
 - Inbox scan: 1 active `#agent/inbox` marker found outside identity/reference/runtime files
-- Git scan: working tree has existing changes: ` m .hermes/hermes-agent`
+- Git scan: working tree has existing changes: `m .hermes/hermes-agent`
 
 ## Last result
 HEARTBEAT_ISSUES_PRESENT

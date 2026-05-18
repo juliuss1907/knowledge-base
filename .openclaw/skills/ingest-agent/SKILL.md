@@ -24,12 +24,13 @@ Transform external content (articles, social posts, videos, papers, repos, websi
 
 ## Quick start
 
-1. **Identify content type** — article, post, video, paper, repo, or website
-2. **Extract metadata** — title, author, date, URL, source
-3. **Generate slug** — lowercase-hyphen from title
-4. **Create file** — `raw/<type>/YYYY-MM-DD_<slug>.md`
-5. **Write frontmatter + content** — follow format in [reference.md](reference.md)
-6. **Verify** — file exists, frontmatter valid, status set to `unprocessed`
+1. **Receive content** — URL, text, or file from user
+2. **Determine type** — article, post, video, paper, repo, website
+3. **Extract metadata** — title, author, date, URL, source
+4. **Generate slug** — lowercase-hyphen from title (max 50 chars)
+5. **Write raw file** — `raw/<type>/YYYY-MM-DD_<slug>.md` with frontmatter
+6. **Update index** — append entry to `raw/<type>/<type>.md` + update Stats
+7. **Log to memory** — append entry to `.openclaw/MEMORY.md`
 
 ## Frontmatter schema
 
@@ -125,12 +126,32 @@ Ask Julius when:
 - Content is in a language other than English/Vietnamese
 - Metadata is ambiguous (e.g., multiple authors, unclear date)
 
+## Index management
+
+After writing raw file, update the type index:
+
+**Append to Items section:**
+```markdown
+- [[YYYY-MM-DD_slug]] — Title here (unprocessed)
+Update Stats section:
+
+Total: +1
+Unprocessed: +1
+This week/month: +1 (if within timeframe)
+Last updated: today
+Index file location: <type>.md
+
+See workflow.md Step 8.5 for implementation details.
+
 ## Details
 
-For complete workflow including fetch strategies, content cleaning, and edge case handling, see:
-- [workflow.md](workflow.md) — step-by-step ingestion process
-- [examples.md](examples.md) — sample raw files for each content type
-- [reference.md](reference.md) — frontmatter field definitions
+For complete instructions, see:
+- [workflow.md](workflow.md) — Step-by-step ingest process
+  - Step 8: Write raw file
+  - **Step 8.5: Update index file** ← New
+  - Step 9: Log to memory
+- [examples.md](examples.md) — Sample raw files for each type
+- [reference.md](reference.md) — Frontmatter field definitions
 
 ## Post-ingest
 

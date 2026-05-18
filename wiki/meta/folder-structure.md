@@ -131,7 +131,6 @@ context/
 
 ```
 raw/
-├── raw.md                          ✓ required (level 1 index)
 ├── articles/
 │   ├── articles.md              ✓ required (index)
 │   └── YYYY-MM-DD_<slug>.md     ✓ allowed (content files)

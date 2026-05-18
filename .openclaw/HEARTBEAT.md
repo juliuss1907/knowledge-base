@@ -2,21 +2,21 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 22:30:00 Asia/Saigon
+- Last checked: 2026-05-18 23:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 6 days, 7 hours, 17 minutes`
-- Load average: healthy; `1.06, 0.97, 0.66` at current sample
-- Memory: healthy; `5.5Gi` available of `14Gi`
-- Swap: healthy; `4.1Gi` used of `18Gi`
+- Host uptime: `up 6 days, 7 hours, 48 minutes`
+- Load average: healthy; `0.31, 0.43, 0.44` at current sample
+- Memory: healthy; `5,5Gi available of 13Gi`
+- Swap: healthy; `4,1Gi used of 17Gi`
 
 ## OpenClaw checks
 - Runtime: responsive
 - Workspace: `/home/julius/knowledge-base`
-- Disk `/`: healthy; `16%` used, `182G` free
-- Disk `/home/julius/knowledge-base`: healthy; `16%` used, `182G` free
+- Disk `/`: healthy; `17% used, 182G free`
+- Disk `/home/julius/knowledge-base`: healthy; `17% used, 182G free`
 - Raw backlog: 6 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
-- Pending review action file: 7 pending report(s) in `wiki/reviews/_action-required.md`
+- Pending review action file: 5 pending report(s) in `wiki/reviews/_action-required.md`
 
 ## Raw backlog
 - `raw/articles/2026-05-18_1-month-with-hermes-ive-been-using-wrong.md`
@@ -27,7 +27,7 @@
 - `raw/articles/2026-05-18_hermes-as-a-real-time-analyst.md`
 
 ## Pending reviews
-- 7 pending report(s) listed in `wiki/reviews/_action-required.md`
+- 5 pending report(s) listed in `wiki/reviews/_action-required.md`
 
 ## Last result
 - `HEARTBEAT_OK_WITH_BACKLOG_AND_PENDING_REVIEWS`

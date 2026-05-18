@@ -2,18 +2,18 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 03:00:00 Asia/Saigon
+- Last checked: 2026-05-19 03:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 6 days, 11 hours, 47 minutes`
-- Load average: healthy; `0.66, 0.58, 0.51` at current sample
-- Memory: healthy; ``
-- Swap: healthy; ``
+- Host uptime: `03:43:10 up 6 days, 12:29,  1 user,  load average: 0,57, 0,51, 0,42`
+- Load average: healthy; `0,57, 0,51, 0,42` at current sample
+- Memory: healthy; `8.5Gi used / 13.6Gi total, 5.1Gi available`
+- Swap: healthy; `4.1Gi used / 17.9Gi total`
 
 ## OpenClaw checks
 - Runtime: responsive
 - Workspace: `/home/julius/knowledge-base`
-- Disk `/`: healthy; `17% used, 182G free`
-- Disk `/home/julius/knowledge-base`: healthy; `17% used, 182G free`
+- Disk `/`: healthy; `/: 17% used, 182G free`
+- Disk `/home/julius/knowledge-base`: healthy; `/: 17% used, 182G free`
 - Raw backlog: 6 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
 - Pending review action file: **Pending reports:** 5 in `wiki/reviews/_action-required.md`
@@ -33,6 +33,8 @@
 
 ## Spot check
 - Sampled 2 concept files for source/backlink presence.
+- `wiki/concepts/abstraction-layer-fallacy.md`: sources field=yes; legacy full-path wikilinks=yes
+- `wiki/concepts/active-thinking.md`: sources field=yes; legacy full-path wikilinks=yes
 - Legacy full-path wikilinks still present in sampled concepts; this matches approved pending Fix Agent work.
 
 ## Last result

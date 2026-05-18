@@ -2,18 +2,18 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 20:00:00 Asia/Saigon
+- Last checked: 2026-05-18 20:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 6 days, 4 hours, 47 minutes`
-- Load average: healthy; `1.22, 0.74, 0.55` at current sample
-- Memory: healthy; available memory remains sufficient
-- Swap: healthy; swap remains available
+- Host uptime: `up 6 days, 5 hours, 17 minutes`
+- Load average: healthy; `0.74, 0.41, 0.37` at current sample
+- Memory: healthy; `5.7Gi` available of `13Gi`
+- Swap: healthy; `4.0Gi` used of `17Gi`
 
 ## OpenClaw checks
 - Runtime: responsive
 - Workspace: `/home/julius/knowledge-base`
-- Disk `/`: healthy; prior sample 17% used, 182G free
-- Disk `/home/julius/knowledge-base`: healthy; prior sample 17% used, 182G free
+- Disk `/`: healthy; `17%` used, `182G` free
+- Disk `/home/julius/knowledge-base`: healthy; `17%` used, `182G` free
 - Raw backlog: 1 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
 - Pending Hermes reports: actionable entries remain in `wiki/reviews/_action-required.md`

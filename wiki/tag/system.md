@@ -23,11 +23,11 @@ last_updated: 2026-05-17
 
 ## Files with this tag
 
-- [[ashbys-law]] — Ashby's Law (concept)
+- [[ashbys-law]] — Ashbys Law (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
 - [[codified-taste]] — Codified Taste (concept)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
-- [[complicated-vs-complex]] — Complicated vs Complex (concept)
+- [[complicated-vs-complex]] — Complicated Vs Complex (concept)
 - [[cynefin-framework]] — Cynefin Framework (concept)
 - [[loop-ownership]] — Loop Ownership (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)

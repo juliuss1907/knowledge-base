@@ -27,7 +27,7 @@ last_updated: 2026-05-17
 - [[codified-taste]] — Codified Taste (concept)
 - [[loop-ownership]] — Loop Ownership (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)
-- [[src_how-ai-productivity-fails]] — How AI Productivity Fails (source)
+- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[taste-holders]] — Taste Holders (concept)
 
 ## Co-occurring tags

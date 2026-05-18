@@ -29,7 +29,7 @@ last_updated: 2026-05-17
 - [[leading-indicators]] — Leading Indicators (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)
 - [[skill-atrophy]] — Skill Atrophy (concept)
-- [[src_how-ai-productivity-fails]] — How AI Productivity Fails (source)
+- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 
 ## Co-occurring tags

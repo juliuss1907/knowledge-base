@@ -35,9 +35,9 @@ last_updated: 2026-05-17
 - [[negative-compounding]] — Negative Compounding (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
-- [[patience-vs-passivity]] — Patience vs Passivity (concept)
+- [[patience-vs-passivity]] — Patience Vs Passivity (concept)
 - [[philosopher-syndrome]] — Philosopher Syndrome (concept)
-- [[src_active-vs-lazy-thinking]] — Active vs Lazy Thinking (source)
+- [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 
 ## Co-occurring tags

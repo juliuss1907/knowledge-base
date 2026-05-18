@@ -24,8 +24,10 @@ last_updated: 2026-05-17
 ## Files with this tag
 
 - [[skill-atrophy]] — Skill Atrophy (concept)
-- [[src_how-ai-productivity-fails]] — How AI Productivity Fails (source)
+- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 
 ## Co-occurring tags
 
-- [[tools]] 
+- [[tools]] — 2 co-occurrences
+- [[opinion]] — 2 co-occurrences
+- [[automation]] — 1 co-occurrence

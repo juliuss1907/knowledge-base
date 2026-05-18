@@ -23,9 +23,9 @@ last_updated: 2026-05-17
 
 ## Files with this tag
 
-- [[ashbys-law]] — Ashby's Law (concept)
+- [[ashbys-law]] — Ashbys Law (concept)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
-- [[complicated-vs-complex]] — Complicated vs Complex (concept)
+- [[complicated-vs-complex]] — Complicated Vs Complex (concept)
 - [[cynefin-framework]] — Cynefin Framework (concept)
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
 - [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)

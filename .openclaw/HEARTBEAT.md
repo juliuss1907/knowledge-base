@@ -2,10 +2,10 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-18 13:00:00 Asia/Saigon
+- Last checked: 2026-05-18 13:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `up 5 days, 21 hours, 47 minutes`
-- Load average: healthy; `0.72, 0.47, 0.45` at current sample
+- Host uptime: `up 5 days, 22 hours, 17 minutes`
+- Load average: healthy; `0.50, 0.37, 0.37` at current sample
 - Memory: healthy; 6.1Gi available
 - Swap: healthy; 13Gi free / 17Gi total
 
@@ -15,8 +15,8 @@
 - Disk `/`: healthy; 17% used, ~182G free
 - Disk `/home/julius/knowledge-base`: healthy; 17% used, ~182G free
 - Raw backlog: 0 file(s) with `status: unprocessed`
-- Inbox markers: 0 actionable markers found
-- Pending Hermes reports: 5 report files present; `_action-required.md` has pending/approved Fix Agent items
+- Inbox markers: 0 actionable markers found (`#agent/inbox` references are protocol text only)
+- Pending Hermes reports: 6 report files present; `_action-required.md` has pending/approved Fix Agent items
 - Approved Fix Agent actions pending: present in `wiki/reviews/_action-required.md`
 
 ## Spot checks

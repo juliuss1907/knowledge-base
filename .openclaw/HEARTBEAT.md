@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 03:30:00 Asia/Saigon
+- Last checked: 2026-05-19 04:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `03:43:10 up 6 days, 12:29,  1 user,  load average: 0,57, 0,51, 0,42`
-- Load average: healthy; `0,57, 0,51, 0,42` at current sample
-- Memory: healthy; `8.5Gi used / 13.6Gi total, 5.1Gi available`
-- Swap: healthy; `4.1Gi used / 17.9Gi total`
+- Host uptime: `04:00:42 up 6 days, 12:47,  1 user,  load average: 0,71, 0,46, 0,40`
+- Load average: healthy; `0,71, 0,46, 0,40` at current sample
+- Memory: healthy; ``
+- Swap: healthy; ``
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -16,7 +16,7 @@
 - Disk `/home/julius/knowledge-base`: healthy; `/: 17% used, 182G free`
 - Raw backlog: 6 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
-- Pending review action file: **Pending reports:** 5 in `wiki/reviews/_action-required.md`
+- Pending review action file: **Pending reports:** 5 in wiki/reviews/_action-required.md
 
 ## Raw backlog
 - `raw/articles/2026-05-18_1-month-with-hermes-ive-been-using-wrong.md`

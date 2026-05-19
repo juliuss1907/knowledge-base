@@ -2,10 +2,10 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 03:00:00 Asia/Saigon
+- Last checked: 2026-05-20 03:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `03:02:06 up 7 days, 11:48,  1 user,  load average: 0,22, 0,41, 0,39`
-- Load average: healthy — 0,22, 0,41, 0,39
+- Host uptime: `03:30:54 up 7 days, 12:17,  1 user,  load average: 0,53, 0,49, 0,39`
+- Load average: healthy — 0,53, 0,49, 0,39
 - Memory: healthy — 6,1Gi available
 - Swap: healthy — 4,8Gi free
 
@@ -13,7 +13,7 @@
 - Runtime: responsive
 - Workspace: `/home/julius/knowledge-base`
 - Disk `/`: healthy; 17% used, 182G free
-- Disk `/home/julius/knowledge-base`: healthy; 17% used, 182G free
+- Disk `/`: healthy; 17% used, 182G free
 - Raw backlog: 1 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable marker(s) found in `Tasks/`
 - Pending review action file: 5 pending report(s) in `wiki/reviews/_action-required.md`

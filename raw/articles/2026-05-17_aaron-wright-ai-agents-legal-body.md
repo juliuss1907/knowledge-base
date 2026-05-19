@@ -1,14 +1,12 @@
 ---
-type: raw
-source_type: article
-source_url: https://x.com/i/article/2055291336488620032
+type: article
+title: The Agent's Legal Body - How AI Agents Get the Right to Contract
+url: https://x.com/i/article/2055291336488620032
+author: Aaron Wright (@awrigh01)
+date_published: 2026-05-15
 date_ingested: 2026-05-17
-tags:
-  - ai
-  - law
-  - agents
 status: processed
-processed_date: 2026-05-18
+source: X Article / Tribute Labs, The LAO, FlamingoDAO
 ---
 
 # The Agent's Legal Body: How AI Agents Get the Right to Contract

@@ -5,7 +5,7 @@ source_url: https://developers.google.com/search/docs/fundamentals/ai-optimizati
 date_ingested: 2026-05-18
 status: processed
 compiled_at: 2026-05-19
-compiled_to: "[[wiki/sources/src_google-guide-optimizing-generative-ai-search]]]"
+compiled_to: "[[wiki/sources/src_google-guide-optimizing-generative-ai-search]]"
 ---
 
 # Google's Guide to Optimizing for Generative AI Features on Google Search

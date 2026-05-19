@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 14:00:00 Asia/Saigon
+- Last checked: 2026-05-19 14:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `14:00:53 up 6 days, 22:47,  1 user,  load average: 1,15, 1,02, 0,86`
+- Host uptime: `14:30:27 up 6 days, 23:16,  1 user,  load average: 0,33, 0,35, 0,46`
 - Load average: healthy
-- Memory: healthy; 6.1Gi available
+- Memory: healthy; 6.2Gi available
 - Swap: healthy; 13Gi free
 
 ## OpenClaw checks
@@ -14,23 +14,24 @@
 - Workspace: `/home/julius/knowledge-base`
 - Disk `/`: healthy; 17% used, 182G free
 - Disk `/home/julius/knowledge-base`: healthy; 17% used, 182G free
-- Raw backlog: 0 file(s) with `status: unprocessed`
+- Raw backlog: 1 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
 - Pending review action file: 5 pending report(s) in `wiki/reviews/_action-required.md`
+- Gateway CLI check: unavailable in cron shell (`openclaw: command not found`)
 
 ## Raw backlog
-- None detected.
+- `raw/posts/2026-05-19_dont-sign-in-with-google.md` — `status: unprocessed`
 
 ## Pending reviews
 - **Pending reports:** 5 unresolved report(s) listed in `wiki/reviews/_action-required.md`
 - Approved Fix Agent items remain pending: output wikilink format fix and source `date_ingested` removal
 - Format 2026-05-17 and Hygiene 2026-05-17 still require Julius review/spec decisions before broader fixes
-- Pending review file unchanged since 2026-05-17 23:35:00 content timestamp
+- Pending review file mtime: 2026-05-17 23:46:59 Asia/Saigon
 
 ## Spot check
-- Raw source files show 0 unprocessed items.
+- Raw backlog now has 1 unprocessed item.
 - Inbox markers show 0 actionable items.
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result
-- `HEARTBEAT_OK_WITH_PENDING_REVIEWS`
+- `HEARTBEAT_OK_WITH_BACKLOG_AND_PENDING_REVIEWS`

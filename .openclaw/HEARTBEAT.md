@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 11:00:00 Asia/Saigon
+- Last checked: 2026-05-19 11:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 11:00:30 up 6 days, 19:46,  1 user,  load average: 0,80, 0,48, 0,38`
+- Host uptime: ` 11:30:35 up 6 days, 20:17,  1 user,  load average: 0,45, 0,38, 0,39`
 - Load average: healthy
 - Memory: healthy; 5.8Gi available
 - Swap: healthy; 12Gi free
@@ -30,6 +30,7 @@
 ## Spot check
 - Raw source files show 0 unprocessed items.
 - `raw/articles/articles.md` still has stale rollup text showing 1 unprocessed.
+- Concept spot check: `wiki/concepts/abstraction-layer-fallacy.md` and `wiki/concepts/active-thinking.md` have source backlinks present.
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result

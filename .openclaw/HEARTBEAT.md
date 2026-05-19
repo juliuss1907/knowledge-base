@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 23:30:00 Asia/Saigon
+- Last checked: 2026-05-20 00:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `23:31:21 up 7 days,  8:17,  1 user,  load average: 0.51, 0.45, 0.39`
+- Host uptime: `00:01:14 up 7 days,  8:47,  1 user,  load average: 0,40, 0,33, 0,32`
 - Load average: healthy
-- Memory: healthy — check completed
-- Swap: healthy — check completed
+- Memory: healthy — 6.2Gi available
+- Swap: healthy — 13Gi free
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -16,14 +16,21 @@
 - Disk `/home/julius/knowledge-base`: healthy; 17% used, 182G free
 - Raw backlog: 1 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
-- Pending review action file: 0 pending report marker(s) in `wiki/reviews/_action-required.md`
+- Pending review action file: 5 pending report(s) in `wiki/reviews/_action-required.md`
 - Gateway CLI check: skipped in cron heartbeat
 
 ## Raw backlog
 - `raw/posts/2026-05-19_dont-sign-in-with-google.md` — `status: unprocessed`
 
 ## Pending reviews
-- **Pending markers:** 0 marker(s) found in `wiki/reviews/_action-required.md`
+- **Pending reports:** 5 in `wiki/reviews/_action-required.md`
+- Approved Fix Agent actions present:
+  - Fix wikilink format in 7 concept files
+  - Remove `date_ingested` from 2 source files
+- Requires Julius review:
+  - `memory/` root folder policy
+  - `wiki/meta/index-spec.md` whitelist conflict
+  - Runtime folder whitelist warnings
 - Pending review file mtime: 2026-05-17 23:46:59 Asia/Saigon
 
 ## Spot check
@@ -32,4 +39,4 @@
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result
-- `HEARTBEAT_OK_WITH_BACKLOG`
+- `HEARTBEAT_OK_WITH_BACKLOG_AND_PENDING_REVIEWS`

@@ -20,12 +20,14 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 0 files
-- By status: 0 processed, 0 unprocessed
-- By date: 0 this week, 0 this month
-- Last updated: 2026-05-17
+- Total: 1 files
+- By status: 0 processed, 1 unprocessed
+- By date: 1 this week, 1 this month
+- Last updated: 2026-05-19
 
 ## Items
+
+- [[2026-05-19_defi0xjeff-3-worth-it-skills]] — @defi0xjeff: 3 Hermes skills worth it (unprocessed)
 
 <!-- Ingest Agent appends here, newest first -->
 

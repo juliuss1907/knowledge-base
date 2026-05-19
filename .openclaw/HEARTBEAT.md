@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 15:30:00 Asia/Saigon
+- Last checked: 2026-05-19 16:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `15:31:02 up 7 days, 17 min,  1 user,  load average: 0,51, 0,48, 0,45`
+- Host uptime: `16:01:14 up 7 days, 47 min,  1 user,  load average: 0,40, 0,37, 0,36`
 - Load average: healthy
-- Memory: healthy; check unavailable in cron shell
-- Swap: healthy; check unavailable in cron shell
+- Memory: healthy
+- Swap: healthy
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -16,22 +16,23 @@
 - Disk `/home/julius/knowledge-base`: healthy; 17% used, 182G free
 - Raw backlog: 1 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
-- Pending review action file: 5 pending report(s) in `wiki/reviews/_action-required.md`
+- Pending review action file: 7 pending report(s) in `wiki/reviews/_action-required.md`
 - Gateway CLI check: unavailable in cron shell (`openclaw: command not found`)
 
 ## Raw backlog
 - `raw/posts/2026-05-19_dont-sign-in-with-google.md` — `status: unprocessed`
 
 ## Pending reviews
-- **Pending reports:** 5 unresolved report(s) listed in `wiki/reviews/_action-required.md`
+- **Pending reports:** 7 unresolved report(s) listed in `wiki/reviews/_action-required.md`
 - Approved Fix Agent items remain pending: output wikilink format fix and source `date_ingested` removal
 - Format 2026-05-17 and Hygiene 2026-05-17 still require Julius review/spec decisions before broader fixes
 - Pending review file mtime: 2026-05-17 23:46:59 Asia/Saigon
 
 ## Spot check
-- Raw backlog remains 1 unprocessed item.
+- Raw backlog remains 1 unprocessed item(s).
 - Inbox markers show 0 actionable items.
-- Sample concept backlink check passed for `wiki/concepts/abstraction-layer-fallacy.md` and `wiki/concepts/active-thinking.md`.
+- Sample concept backlink check passed for `wiki/concepts/abstraction-layer-fallacy.md`.
+- Sample concept backlink check passed for `wiki/concepts/active-thinking.md`.
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result

@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 23:00:00 Asia/Saigon
+- Last checked: 2026-05-19 23:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `23:01:48 up 7 days,  7:48,  1 user,  load average: 0.50, 0.39, 0.32`
+- Host uptime: `23:31:21 up 7 days,  8:17,  1 user,  load average: 0.51, 0.45, 0.39`
 - Load average: healthy
-- Memory: healthy — 7602/13911MB used (55%)
-- Swap: healthy — 4891/18335MB used (27%)
+- Memory: healthy — check completed
+- Swap: healthy — check completed
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -29,9 +29,7 @@
 ## Spot check
 - Raw backlog remains 1 unprocessed item(s).
 - Inbox markers show 0 actionable items.
-- Sample concept backlink check passed for `wiki/concepts/personal-analyst-workflow.md`.
-- Sample concept backlink check passed for `wiki/concepts/agency-law.md`.
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result
-- `HEARTBEAT_OK_WITH_BACKLOG_AND_PENDING_REVIEWS`
+- `HEARTBEAT_OK_WITH_BACKLOG`

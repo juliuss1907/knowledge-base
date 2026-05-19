@@ -534,4 +534,13 @@ Each entry follows this format:
 - **Concepts:** [ai-legal-personhood, zero-member-llc, agency-law, agentic-commerce]
 - **Tags applied:** main=#ai, sub=[#law, #tools], topic=ai-legal-personhood
 - **New tag:** #law (Pool B) — approved by Julius
-- **Action:** created 4 concept files + 1 source note
+- **Raw updated:** status=processed, compiled_at=2026-05-19
+
+## 2026-05-19 21:03:00 — Indexed
+
+- **Scanned:** 59 concepts + 11 sources = 70 total files
+- **Tags indexed:** 13 (5 main-tags + 8 sub-tags)
+- **Topics indexed:** 11
+- **Orphans deleted:** 1 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped due to invalid frontmatter

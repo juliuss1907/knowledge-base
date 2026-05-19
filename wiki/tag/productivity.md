@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: productivity
 auto_generated: true
-last_updated: 2026-05-17
+last_updated: 2026-05-19
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-05-17
 
 ## Stats
 
-- Total files: 16
+- Total files: 17
 - Sources: 2
-- Concepts: 14
-- Last updated: 2026-05-17
+- Concepts: 15
+- Last updated: 2026-05-19
 
 ## Files with this tag
 
@@ -34,6 +34,7 @@ last_updated: 2026-05-17
 - [[leading-indicators]] — Leading Indicators (concept)
 - [[negative-compounding]] — Negative Compounding (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
+- [[non-commodity-content]] — Non Commodity Content (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
 - [[patience-vs-passivity]] — Patience Vs Passivity (concept)
 - [[philosopher-syndrome]] — Philosopher Syndrome (concept)
@@ -42,5 +43,6 @@ last_updated: 2026-05-17
 
 ## Co-occurring tags
 
-- [[opinion]] — 14 co-occurrences
+- [[opinion]] — 15 co-occurrences
 - [[tools]] — 3 co-occurrences
+- [[tutorial]] — 1 co-occurrence

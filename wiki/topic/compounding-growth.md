@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `compounding-growth`.
 
-Last updated: 2026-05-17 21:12:39
+Last updated: 2026-05-19 21:03:00
 
 ---
 
@@ -19,7 +19,3 @@ Last updated: 2026-05-17 21:12:39
 ## Sources (1)
 
 - [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `compounding-growth`:

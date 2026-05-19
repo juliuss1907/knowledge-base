@@ -6,6 +6,8 @@ author: Aaron Wright (@awrigh01)
 date_published: 2026-05-15
 date_ingested: 2026-05-17
 status: processed
+compiled_at: 2026-05-19
+compiled_to: [[wiki/sources/src_aaron-wright-ai-agents-legal-body]]
 source: X Article / Tribute Labs, The LAO, FlamingoDAO
 ---
 

@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 16:30:00 Asia/Saigon
+- Last checked: 2026-05-19 17:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `16:30:50 up 7 days,  1:17,  1 user,  load average: 0,49, 0,40, 0,34`
+- Host uptime: `17:00:43 up 7 days,  1:47,  1 user,  load average: 0,44, 0,47, 0,45`
 - Load average: healthy
 - Memory: healthy
 - Swap: healthy
@@ -16,14 +16,14 @@
 - Disk `/home/julius/knowledge-base`: healthy; 17% used, 182G free
 - Raw backlog: 1 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
-- Pending review action file: 7 pending report(s) in `wiki/reviews/_action-required.md`
+- Pending review action file: 5 pending report(s) in `wiki/reviews/_action-required.md`
 - Gateway CLI check: unavailable in cron shell (`openclaw: command not found`)
 
 ## Raw backlog
 - `raw/posts/2026-05-19_dont-sign-in-with-google.md` — `status: unprocessed`
 
 ## Pending reviews
-- **Pending reports:** 7 unresolved report(s) listed in `wiki/reviews/_action-required.md`
+- **Pending reports:** 5 unresolved report(s) listed in `wiki/reviews/_action-required.md`
 - Pending review file mtime: 2026-05-17 23:46:59 Asia/Saigon
 
 ## Spot check

@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 15:00:00 Asia/Saigon
+- Last checked: 2026-05-19 15:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `15:00:48 up 6 days, 23:47,  1 user,  load average: 1,07, 0,60, 0,44`
+- Host uptime: `15:31:02 up 7 days, 17 min,  1 user,  load average: 0,51, 0,48, 0,45`
 - Load average: healthy
-- Memory: healthy; 6.2Gi available
-- Swap: healthy; 13Gi free
+- Memory: healthy; check unavailable in cron shell
+- Swap: healthy; check unavailable in cron shell
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -31,6 +31,7 @@
 ## Spot check
 - Raw backlog remains 1 unprocessed item.
 - Inbox markers show 0 actionable items.
+- Sample concept backlink check passed for `wiki/concepts/abstraction-layer-fallacy.md` and `wiki/concepts/active-thinking.md`.
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result

@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 19:30:00 Asia/Saigon
+- Last checked: 2026-05-19 20:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `19:30:41 up 7 days, 4:17, 1 user, load average: 0.40, 0.35, 0.38`
+- Host uptime: `20:00:35 up 7 days, 4:47, 1 user, load average: 0.79, 0.46, 0.40`
 - Load average: healthy
-- Memory: healthy — 7546/13911MB used (54%)
+- Memory: healthy — 7558/13911MB used (54%)
 - Swap: healthy — 4921/18335MB used (26%)
 
 ## OpenClaw checks
@@ -17,7 +17,7 @@
 - Raw backlog: 1 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable markers found in `Tasks/`
 - Pending review action file: 5 pending report(s) in `wiki/reviews/_action-required.md`
-- Gateway CLI check: unavailable in cron shell (`openclaw: command not found`)
+- Gateway CLI check: skipped in cron heartbeat
 
 ## Raw backlog
 - `raw/posts/2026-05-19_dont-sign-in-with-google.md` — `status: unprocessed`
@@ -29,8 +29,8 @@
 ## Spot check
 - Raw backlog remains 1 unprocessed item(s).
 - Inbox markers show 0 actionable items.
-- Sample concept backlink check passed for `wiki/concepts/abstraction-layer-fallacy.md`.
-- Sample concept backlink check passed for `wiki/concepts/active-thinking.md`.
+- Sample concept backlink check passed for `wiki/concepts/closed-loop-system.md`.
+- Sample concept backlink check passed for `wiki/concepts/organizational-incrementalism.md`.
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result

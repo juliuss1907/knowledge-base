@@ -1,23 +1,26 @@
-# Tag: #law
-
-Auto-generated index of all content tagged with `#law`.
-
-Last updated: 2026-05-18 07:40:00
-
+---
+type: tag
+created: 2026-05-19
+created_by: compile-agent
 ---
 
-## Concepts (1)
+# #law
 
-- [[ai-legal-personhood]] — main: #ai, sub: [#law, #agents], topic: ai-legal-personhood
+## Description
 
-## Sources (1)
+Legal frameworks, contracts, regulations, compliance
 
-- [[src_aaron-wright-ai-agents-legal-body]] — main: #ai, sub: [#law, #agents], topic: ai-legal-personhood
+## Concepts
 
-## Co-occurring tags
+- [[ai-legal-personhood]]
+- [[zero-member-llc]]
+- [[agency-law]]
 
-Tags that frequently appear with `#law`:
-- `#ai` (1 files)
-- `#agents` (1 files)
+## Sources
 
-(Top 5 by frequency)
+- [[wiki/sources/src_aaron-wright-ai-agents-legal-body]]
+
+## Co-occurring Tags
+
+- #ai
+- #tools

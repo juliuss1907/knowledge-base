@@ -524,3 +524,14 @@ Each entry follows this format:
 - **Concepts:** [hermes-three-layers, soul-md-configuration, user-md-configuration, agent-skill-management, browser-harness-tool]
 - **Tags applied:** main=#ai, sub=[#tools, #automation, #tutorial], topic=hermes-workflow-optimization
 - **Action:** created 5 concept files
+
+---
+
+## 2026-05-19 20:43:00 — Compiled (Re-compile)
+
+- **Raw:** raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body.md
+- **Source note:** wiki/sources/src_aaron-wright-ai-agents-legal-body.md
+- **Concepts:** [ai-legal-personhood, zero-member-llc, agency-law, agentic-commerce]
+- **Tags applied:** main=#ai, sub=[#law, #tools], topic=ai-legal-personhood
+- **New tag:** #law (Pool B) — approved by Julius
+- **Action:** created 4 concept files + 1 source note

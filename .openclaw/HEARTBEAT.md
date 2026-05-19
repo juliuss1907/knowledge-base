@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-19 16:00:00 Asia/Saigon
+- Last checked: 2026-05-19 16:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `16:01:14 up 7 days, 47 min,  1 user,  load average: 0,40, 0,37, 0,36`
+- Host uptime: `16:30:50 up 7 days,  1:17,  1 user,  load average: 0,49, 0,40, 0,34`
 - Load average: healthy
 - Memory: healthy
 - Swap: healthy
@@ -24,8 +24,6 @@
 
 ## Pending reviews
 - **Pending reports:** 7 unresolved report(s) listed in `wiki/reviews/_action-required.md`
-- Approved Fix Agent items remain pending: output wikilink format fix and source `date_ingested` removal
-- Format 2026-05-17 and Hygiene 2026-05-17 still require Julius review/spec decisions before broader fixes
 - Pending review file mtime: 2026-05-17 23:46:59 Asia/Saigon
 
 ## Spot check

@@ -5,7 +5,7 @@ source_url: https://defi0xjeff.substack.com/p/hermes-200-and-30-skills-later-her
 date_ingested: 2026-05-18
 status: processed
 compiled_at: 2026-05-19
-compiled_to: [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+compiled_to: "[[2026-05-18_hermes-analyst-workflow-essentials]]"
 ---
 
 # Hermes, $200 and 30 Skills Later — Here Are the 3 Skills That're Worth It

@@ -370,7 +370,7 @@ Where `<slug>` is derived from raw filename (strip date prefix and `.md` extensi
 ```yaml
 ---
 type: source
-original: raw/<type>/YYYY-MM-DD_<slug>.md
+original: [[raw/<type>/YYYY-MM-DD_<slug>.md]]
 main_tag: <from-step-5.2>
 sub_tags: [<from-step-5.3>]
 topic: <from-step-5.4>

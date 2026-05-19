@@ -1,8 +1,11 @@
 ---
 type: source
-original: raw/articles/2026-05-18_1-month-with-hermes-ive-been-using-wrong.md
+original: "[[2026-05-18_1-month-with-hermes-ive-been-using-wrong]]"
 main_tag: ai
-sub_tags: [tools, automation, opinion]
+sub_tags:
+  - tools
+  - automation
+  - opinion
 topic: hermes-operator-builder-pattern
 date_compiled: 2026-05-19
 url: https://defi0xjeff.substack.com/p/1-month-with-hermes-ive-been-using

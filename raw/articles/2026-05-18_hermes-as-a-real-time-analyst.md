@@ -5,7 +5,7 @@ source_url: https://defi0xjeff.substack.com/p/hermes-as-a-real-time-analyst
 date_ingested: 2026-05-18
 status: processed
 compiled_at: 2026-05-19
-compiled_to: [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+compiled_to: "[[2026-05-18_hermes-as-a-real-time-analyst]]"
 ---
 
 # Hermes as a Real-time Analyst

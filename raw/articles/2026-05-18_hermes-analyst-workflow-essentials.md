@@ -5,7 +5,7 @@ source_url: https://defi0xjeff.substack.com/p/hermes-analyst-workflow-essentials
 date_ingested: 2026-05-18
 status: processed
 compiled_at: 2026-05-19
-compiled_to: [[wiki/sources/src_hermes-analyst-workflow-essentials]]
+compiled_to: "[[wiki/sources/src_hermes-analyst-workflow-essentials]]"
 ---
 
 # Hermes Analyst Workflow Essentials

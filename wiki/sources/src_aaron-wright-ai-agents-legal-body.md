@@ -1,83 +1,47 @@
 ---
 type: source
-id: src_aaron-wright-ai-agents-legal-body
-title: The Agent's Legal Body: How AI Agents Get the Right to Contract
-author: Aaron Wright
-source_url: https://x.com/i/article/2055291336488620032
+original: [[raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body]]
 main_tag: ai
-sub_tags:
-  - law
-  - agents
-date_published: 2026-05-15
-date_compiled: 2026-05-18
+sub_tags: [law, tools]
 topic: ai-legal-personhood
-status: compiled
+date_ingested: 2026-05-17
+date_compiled: 2026-05-19
+url: https://x.com/i/article/2055291336488620032
+author: Aaron Wright (@awrigh01)
 ---
 
 # The Agent's Legal Body: How AI Agents Get the Right to Contract
 
-**Tác giả:** Aaron Wright (@awrigh01)  
-**Nguồn:** X Article / Tribute Labs, The LAO, FlamingoDAO  
-**Ngày đăng:** 2026-05-15
+## Metadata
 
----
+- **Author:** Aaron Wright (@awrigh01)
+- **Date Published:** 2026-05-15
+- **Source:** X Article / Tribute Labs, The LAO, FlamingoDAO
+- **Date Ingested:** 2026-05-17
+- **Date Compiled:** 2026-05-19
 
-## Tóm tắt
+## Summary
 
-AI có thể đọc hợp đồng tốt hơn hầu hết luật sư, nhưng không thể ký. Đây là nút thắt cổ chai cho thương mại agentic — mọi giao dịch đều cần con người ký sau.
-
-## Vấn đề cốt lõi (2026)
-
-- AI có thể phân tích quy định, dự đoán phán quyết tòa án, soạn thảo phản hồi
-- **Nhưng:** Không thể là bên tham gia pháp lý, không sở hữu, không ký tên, không bị kiện
-- **Kết quả:** Thương mại agentic bị giới hạn bởi sự can thiệp của con người
-
-## Hai dịch chuyển lớn
-
-1. **AI từ công cụ → agent** — đặt vé máy bay, đàm phán giá, quản lý portfolio, triển khai code
-2. **Văn bản pháp lý trở nên machine-readable** — compliance kiểm tra real-time
-
-## Cơ chế Bayern (2014)
-
-**Shawn Bayern** — giáo sư Florida State — chỉ ra LLC (Limited Liability Company) đã chứa sẵn giải pháp:
-
-| Yếu tố | Ý nghĩa |
-|--------|---------|
-| LLC là legal person | Sở hữu, ký hợp đồng, kiện/bị kiện |
-| Operating agreement = algorithm | Điều kiện ràng buộc có thể mã hóa |
-| Zero-member LLC | Không cần thành viên con người |
-
-**Zero-member LLC:** Legal person với quy trình ra quyết định là AI, không người nào trong vòng lặp.
-
-## Con đường khác: Agency Law
-
-- AI là **agent** của principal (người/công ty)
-- **Ưu:** Sạch, không cần tranh luận về personhood
-- **Nhược:** Giới hạn khi AI cần hoạt động độc lập khỏi mọi principal
-
-## Thực tế 2026: Agent hoạt động như thế nào?
-
-Ví dụ: Research-and-trading agent ở **Wyoming DAO LLC**
-
-- Operating agreement: AI = manager (phiên bản model + prompt template cụ thể)
-- Người thành lập chỉ nhận service of process
-- Treasury stablecoin do AI kiểm soát multi-sig
-- Ký hợp đồng, trả hóa đơn, thuê contractor, phản hồi subpoena
-- **Không chữ ký con người nào**
-
-## Kết luận
-
-> "The future of agentic commerce may look radical at the level of software. At the level of law, it may begin in the least glamorous place imaginable: an LLC agreement, carefully drafted, in a jurisdiction that knows how to leave private ordering alone."
-
----
+Aaron Wright giải thích cách AI agents có thể tham gia thương mại độc lập thông qua cơ chế pháp lý hiện có: **zero-member LLC**. Thay vì chờ quyền pháp nhân mới cho AI, các luật sư đang sử dụng LLC như một "vỏ bọc" cho phép AI hành động như manager, ký hợp đồng, quản lý tài sản, và chịu trách nhiệm pháp lý — tất cả mà không cần người trong vòng lặp quyết định.
 
 ## Key Points
 
-- **Biên giới mới:** Không chỉ kỹ thuật, mà là tổ chức và pháp lý
-- **Lớp quan trọng nhất:** Operating agreements, governance procedures, theories of authority
-- **Cơ chế:** Zero-member LLC với AI làm manager
-- **Jurisdiction thuận lợi:** Wyoming (DAO LLC Act), New York
+- AI hiện tại không thể là bên tham gia pháp lý (không ký tên, không sở hữu, không bị kiện)
+- **Shawn Bayern (2014)** chỉ ra LLC đã chứa sẵn giải pháp: zero-member LLC với AI làm manager
+- Operating agreement = algorithm: điều kiện ràng buộc có thể mã hóa
+- **Agency Law** là lựa chọn khác: AI là agent của principal, nhưng giới hạn khi cần hoạt động độc lập
+- Ví dụ thực tế: Wyoming DAO LLC với AI research-and-trading agent làm manager, kiểm soát treasury multi-sig
+- Jurisdiction thuận lợi: Wyoming (DAO LLC Act), New York
 
----
+## Concepts Referenced
 
-*Biên dịch từ: [[src_aaron-wright-ai-agents-legal-body]]*
+- [[ai-legal-personhood]]
+- [[zero-member-llc]]
+- [[agency-law]]
+- [[agentic-commerce]]
+
+## Original Excerpts
+
+> "The future of agentic commerce may look radical at the level of software. At the level of law, it may begin in the least glamorous place imaginable: an LLC agreement, carefully drafted, in a jurisdiction that knows how to leave private ordering alone."
+
+> "LLC với zero member: legal person với quy trình ra quyết định là AI, không người nào trong vòng lặp."

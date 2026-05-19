@@ -5,7 +5,7 @@
 > **Append-only.** Index Agent proposes new tags → Julius approves → entry added here.
 
 **Version:** 1.0
-**Last updated:** 2026-05-04
+**Last updated:** 2026-05-19
 
 ---
 
@@ -63,8 +63,9 @@ Sub-tags are independent of main-tags. Any sub-tag may co-occur with any main-ta
 | `#perpdex` | Perpetual exchanges, derivatives DEXs |
 | `#layer1` | Base-layer blockchains |
 | `#layer2` | Scaling solutions, rollups, sidechains |
+| `#law` | Legal frameworks, contracts, regulations, compliance |
 
-**Total:** 12 sub-tags.
+**Total:** 13 sub-tags.
 
 ---
 

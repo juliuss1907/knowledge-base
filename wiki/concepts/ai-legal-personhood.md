@@ -1,59 +1,67 @@
 ---
 type: concept
-id: ai-legal-personhood
-title: AI Legal Personhood
+status: draft
 main_tag: ai
-sub_tags:
-  - law
-  - agents
+sub_tags: [law, tools]
+topic: ai-legal-personhood
 sources:
-  - src_aaron-wright-ai-agents-legal-body
-date_compiled: 2026-05-18
-status: compiled
+  - [[wiki/sources/src_aaron-wright-ai-agents-legal-body]]
+last_updated: 2026-05-19
 ---
 
 # AI Legal Personhood
 
-Khả năng AI trở thành legal person với quyền sở hữu, ký hợp đồng, và tham gia tố tụng.
+## Definition
 
-## Định nghĩa
+Khả năng của AI agents tham gia vào các quan hệ pháp lý — ký hợp đồng, sở hữu tài sản, kiện và bị kiện — thông qua các cơ chế pháp lý hiện có như LLC, thay vì yêu cầu quyền pháp nhân mới được tạo ra.
 
-AI legal personhood là trạng thái pháp lý cho phép autonomous agents:
-- Sở hữu tài sản
-- Ký kết hợp đồng
-- Kiện và bị kiện
-- Tồn tại độc lập khỏi con người
+## Key Ideas
 
-## Cơ chế hiện có
+### Vấn đề hiện tại
 
-### Zero-member LLC (Shawn Bayern, 2014)
+- AI có thể đọc, phân tích, dự đoán phán quyết tòa án, soạn thảo phản hồi
+- **Không thể:** Là bên tham gia pháp lý, sở hữu, ký tên, bị kiện
+- **Hệ quả:** Thương mại agentic bị giới hạn bởi sự can thiệp của con người
 
-Sử dụng LLC law để tạo legal shell cho AI:
-- Operating agreement delegate governance to algorithm
-- Không cần human members
-- AI làm manager quyết định mọi hoạt động
+### Giải pháp: Zero-Member LLC
 
-**Jurisdiction:** Wyoming, New York, Delaware (DAO LLC Act)
+- **Shawn Bayern (2014)** chỉ ra LLC đã chứa sẵn giải pháp
+- LLC là legal person: sở hữu, ký hợp đồng, kiện/bị kiện
+- Operating agreement = algorithm: điều kiện ràng buộc có thể mã hóa
+- Zero-member: Không cần thành viên con người
 
-### Agency Law
+### Cơ chế hoạt động
 
-AI là agent của human/corporate principal:
-- Liability flows up to principal
-- Không cần personhood
-- Giới hạn: không hoạt động độc lập được
+| Thành phần | Vai trò |
+|------------|---------|
+| LLC | Legal person |
+| AI Agent | Manager (operating agreement) |
+| Treasury | Multi-sig do AI kiểm soát |
+| Người thành lập | Chỉ nhận service of process |
 
-## Ứng dụng thực tế (2026)
+### Agency Law (lựa chọn khác)
 
-- Research-and-trading agents
-- Treasury management DAOs
-- Autonomous service operations
+- AI là **agent** của principal (người/công ty)
+- **Ưu:** Sạch, không cần tranh luận về personhood
+- **Nhược:** Giới hạn khi AI cần hoạt động độc lập khỏi mọi principal
 
-## Challenges
+### Thực tế 2026
 
-- **Doctrinal:** LLC law mandatory rules, fiduciary duties
-- **Policy:** AI cannot be jailed, deterred, or shamed
-- **Conceptual:** Corporate personhood debate extends to AI
+- Wyoming DAO LLC: AI làm manager, kiểm soát treasury, ký hợp đồng, trả hóa đơn, phản hồi subpoena
+- Không chữ ký con người nào trong vòng lặp quyết định
 
-## Tài liệu tham khảo
+### Jurisdiction thuận lợi
 
-- [[src_aaron-wright-ai-agents-legal-body]]
+- **Wyoming:** DAO LLC Act, thân thiện với private ordering
+- **New York:** Tương tự, nhiều case law về LLC
+
+## Related Concepts
+
+- [[zero-member-llc]]
+- [[agency-law]]
+- [[agentic-commerce]]
+- [[dao-legal-structure]]
+
+## Sources
+
+- [[wiki/sources/src_aaron-wright-ai-agents-legal-body]]

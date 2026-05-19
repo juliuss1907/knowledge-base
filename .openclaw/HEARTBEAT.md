@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 02:30:00 Asia/Saigon
+- Last checked: 2026-05-20 03:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `02:30:27 up 7 days, 11:16,  1 user,  load average: 0,47, 0,36, 0,38`
-- Load average: healthy
-- Memory: healthy — 6,2Gi available
-- Swap: healthy — 13Gi free
+- Host uptime: `03:02:06 up 7 days, 11:48,  1 user,  load average: 0,22, 0,41, 0,39`
+- Load average: healthy — 0,22, 0,41, 0,39
+- Memory: healthy — 6,1Gi available
+- Swap: healthy — 4,8Gi free
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -15,7 +15,7 @@
 - Disk `/`: healthy; 17% used, 182G free
 - Disk `/home/julius/knowledge-base`: healthy; 17% used, 182G free
 - Raw backlog: 1 file(s) with `status: unprocessed`
-- Inbox markers: 0 actionable markers found in `Tasks/`
+- Inbox markers: 0 actionable marker(s) found in `Tasks/`
 - Pending review action file: 5 pending report(s) in `wiki/reviews/_action-required.md`
 - Gateway CLI check: skipped in cron heartbeat
 

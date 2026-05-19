@@ -624,8 +624,8 @@ rm temp_stats
 ```markdown
 ## 2026-05-07 14:30:15 — Compiled
 
-- **Raw:** raw/articles/2026-05-04_claude-code-skills-guide.md
-- **Source note:** wiki/sources/src_claude-code-skills-guide.md
+- **Raw:** [[raw/articles/2026-05-04_claude-code-skills-guide.md]]
+- **Source note:** [[wiki/sources/src_claude-code-skills-guide.md]]
 - **Concepts:** [progressive-disclosure, skill-description-pattern, three-level-loading]
 - **Tags applied:** main=#ai, sub=[#tools, #automation], topic=agent-skills
 - **Action:** created 3 concept files

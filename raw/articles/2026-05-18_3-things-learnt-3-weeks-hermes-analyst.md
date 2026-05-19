@@ -3,7 +3,9 @@ type: raw
 source_type: article
 source_url: https://defi0xjeff.substack.com/p/3-things-i-learnt-after-3-weeks-of
 date_ingested: 2026-05-18
-status: unprocessed
+status: processed
+compiled_at: 2026-05-19
+compiled_to: [[wiki/sources/src_3-things-learnt-3-weeks-hermes-analyst]]
 ---
 
 # 3 Things I Learnt After 3 Weeks of Using Hermes as a Personal Analyst

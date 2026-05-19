@@ -476,3 +476,51 @@ Each entry follows this format:
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
+
+## 2026-05-19 08:00:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-18_1-month-with-hermes-ive-been-using-wrong.md
+- **Source note:** wiki/sources/src_1-month-with-hermes-ive-been-using-wrong.md
+- **Concepts:** [hermes-operator-role, claude-builder-role, ai-tool-role-separation, prediction-market-dashboard, persistent-memory-ai]
+- **Tags applied:** main=#ai, sub=[#tools, #automation, #opinion], topic=hermes-operator-builder-pattern
+- **Action:** created 5 concept files
+
+## 2026-05-19 08:01:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-18_google-guide-optimizing-generative-ai-search.md
+- **Source note:** wiki/sources/src_google-guide-optimizing-generative-ai-search.md
+- **Concepts:** [rag-retrieval-augmented-generation, generative-ai-search-optimization, non-commodity-content, query-fan-out, google-ai-overviews]
+- **Tags applied:** main=#tech, sub=[#tools, #tutorial], topic=generative-ai-seo
+- **Action:** created 5 concept files
+
+## 2026-05-19 08:02:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-18_hermes-as-a-real-time-analyst.md
+- **Source note:** wiki/sources/src_hermes-as-a-real-time-analyst.md
+- **Concepts:** [x-search-tool, grok-hermes-integration, six-stage-research-pipeline, cookie-fun-mcp, ai-research-workflow]
+- **Tags applied:** main=#ai, sub=[#tools, #automation, #tutorial], topic=hermes-xai-grok-integration
+- **Action:** created 5 concept files
+
+## 2026-05-19 08:03:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-18_3-things-learnt-3-weeks-hermes-analyst.md
+- **Source note:** wiki/sources/src_3-things-learnt-3-weeks-hermes-analyst.md
+- **Concepts:** [hermes-persistent-memory, personal-analyst-workflow, hindsight-skill, last30days-skill, ai-agent-setup-mistakes]
+- **Tags applied:** main=#ai, sub=[#tools, #automation, #opinion], topic=hermes-personal-analyst-setup
+- **Action:** created 5 concept files
+
+## 2026-05-19 08:04:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-18_hermes-200-30-skills-3-worth-it.md
+- **Source note:** wiki/sources/src_hermes-200-30-skills-3-worth-it.md
+- **Concepts:** [x-account-tracking-skill, x-bookmark-prioritization, reflect-skill-hindsight, hermes-token-management, external-memory-providers]
+- **Tags applied:** main=#ai, sub=[#tools, #automation, #opinion], topic=hermes-top-skills-analysis
+- **Action:** created 5 concept files
+
+## 2026-05-19 08:05:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-18_hermes-analyst-workflow-essentials.md
+- **Source note:** wiki/sources/src_hermes-analyst-workflow-essentials.md
+- **Concepts:** [hermes-three-layers, soul-md-configuration, user-md-configuration, agent-skill-management, browser-harness-tool]
+- **Tags applied:** main=#ai, sub=[#tools, #automation, #tutorial], topic=hermes-workflow-optimization
+- **Action:** created 5 concept files

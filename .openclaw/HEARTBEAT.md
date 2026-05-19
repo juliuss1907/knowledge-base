@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 00:00:00 Asia/Saigon
+- Last checked: 2026-05-20 00:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `00:01:14 up 7 days,  8:47,  1 user,  load average: 0,40, 0,33, 0,32`
+- Host uptime: ` 00:30:47 up 7 days,  9:17,  1 user,  load average: 0,32, 0,44, 0,39`
 - Load average: healthy
 - Memory: healthy — 6.2Gi available
 - Swap: healthy — 13Gi free
@@ -36,6 +36,7 @@
 ## Spot check
 - Raw backlog remains 1 unprocessed item(s).
 - Inbox markers show 0 actionable items.
+- Concept backlinks spot check passed.
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result

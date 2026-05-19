@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-19T17:30:19.824Z",
+  "entries": {
+    "memory:memory/2026-05-19.md:1:35": {
+      "key": "memory:memory/2026-05-19.md:1:35",
+      "path": "memory/2026-05-19.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "# Memory Flush — 2026-05-19 ## Session Highlights ### Compile Agent Execution (Manual Re-compile) - **Time:** 2026-05-19 ~20:43 Asia/Saigon - **File:** `raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body.md` - **Action:** Re-compiled already-processed file with Julius's approval - **Outputs:** - Source note: `wiki/sources/src_aaron-wright-ai-agents-legal-body.md` - Concepts: `ai-legal-personhood.md`, `zero-member-llc.md`, `agency-law.md`, `agentic-commerce.md` - **New tag:** `#law` (Pool B) — approved by Julius ### Tag System Discovery - Found TAGS.md taxonomy: 7 main-tags (Pool A) + 12 sub-tags (Pool B) - Learned proposal flow for new tags: Stop → Propose → Wait approval → App",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.4653056055307388,
+      "maxScore": 0.4653056055307388,
+      "firstRecalledAt": "2026-05-19T17:30:19.824Z",
+      "lastRecalledAt": "2026-05-19T17:30:19.824Z",
+      "queryHashes": [
+        "7f2baa849b0c"
+      ],
+      "recallDays": [
+        "2026-05-20"
+      ],
+      "conceptTags": [
+        "re-compile",
+        "asia/saigon",
+        "re-compiled",
+        "already-processed",
+        "ai-legal-personhood.md",
+        "zero-member-llc.md",
+        "agency-law.md",
+        "agentic-commerce.md"
+      ]
+    }
+  }
+}

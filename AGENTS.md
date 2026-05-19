@@ -28,11 +28,11 @@ NGUỒN ──► INGEST ──► COMPILE ──► INDEX ──► VALIDATION
 
 | Stage | Owner | Skill | Output |
 |---|---|---|---|
-| Ingest | OpenClaw | `.openclaw/skills/ingest-agent/` | New file in `raw/<type>/` |
-| Compile | OpenClaw | `.openclaw/skills/compile-agent/` | `wiki/sources/` + `wiki/concepts/` |
-| Index | OpenClaw | `.openclaw/skills/index-agent/` | `wiki/tag/` + `wiki/topic/` |
-| Validation | Hermes-VPS | `.hermes/skills/{output,format,hygiene}/` | `wiki/reviews/<type>-report.md` |
-| Fix (post-validation) | OpenClaw | `.openclaw/skills/fix-agent/` | Updated files based on approved reports |
+| Ingest | OpenClaw | `knowledge-base/.openclaw/skills/ingest-agent/` | New file in `raw/<type>/` |
+| Compile | OpenClaw | `knowledge-base/.openclaw/skills/compile-agent` | `wiki/sources/` + `wiki/concepts/` |
+| Index | OpenClaw | `knowledge-base/.openclaw/skills/index-agent/` | `wiki/tag/` + `wiki/topic/` |
+| Validation | Hermes-VPS | `knowledge-base/.hermes/skills/{output,format,hygiene}/` | `wiki/reviews/<type>-report.md` |
+| Fix (post-validation) | OpenClaw | `knowledge-base/.openclaw/skills/fix-agent/` | Updated files based on approved reports |
 
 ---
 
@@ -120,13 +120,13 @@ When invoked for a specific task, an agent loads the relevant SKILL.md only. SKI
 
 | Task type | Skill location |
 |---|---|
-| Ingest new source | `.openclaw/skills/ingest-agent/SKILL.md` |
-| Compile raw → wiki | `.openclaw/skills/compile-agent/SKILL.md` |
-| Maintain tag/topic indexes | `.openclaw/skills/index-agent/SKILL.md` |
-| Apply approved Hermes fixes | `.openclaw/skills/fix-agent/SKILL.md` |
-| Quality-check wiki content | `.hermes/skills/output-validator/SKILL.md` |
-| Format-check wiki files | `.hermes/skills/format-validator/SKILL.md` |
-| Folder-structure check | `.hermes/skills/hygiene-inspector/SKILL.md` |
+| Ingest new source | `knowledge-base/.openclaw/skills/ingest-agent/SKILL.md` |
+| Compile raw → wiki | `knowledge-base/.openclaw/skills/compile-agent/SKILL.md` |
+| Maintain tag/topic indexes | `knowledge-base/.openclaw/skills/index-agent/SKILL.md` |
+| Apply approved Hermes fixes | `knowledge-base/.openclaw/skills/fix-agent/SKILL.md` |
+| Quality-check wiki content | `knowledge-base/.hermes/skills/output-validator/SKILL.md` |
+| Format-check wiki files | `knowledge-base/.hermes/skills/format-validator/SKILL.md` |
+| Folder-structure check | `knowledge-base/.hermes/skills/hygiene-inspector/SKILL.md` |
 
 Ground-truth references used by skills:
 

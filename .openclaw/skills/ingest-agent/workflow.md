@@ -214,7 +214,6 @@ type: <article|post|video|paper|repo|website>
 title: <extracted or generated title>
 url: <original URL>
 author: <extracted author or [unknown]>
-date_published: YYYY-MM-DD
 date_ingested: YYYY-MM-DD  # Today's date
 status: unprocessed
 source: <domain or platform>

@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 03:30:00 Asia/Saigon
+- Last checked: 2026-05-21 04:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `03:30:28 up 8 days, 12:16,  1 user,  load average: 0,27, 0,36, 0,45`
-- Load average: healthy — 0,27, 0,36, 0,45
-- Memory: healthy — BNhớ:           13Gi       6,3Gi       1,6Gi        57Mi       6,1Gi       7,3Gi
+- Host uptime: `04:00:38 up 8 days, 12:47,  1 user,  load average: 0,60, 0,36, 0,36`
+- Load average: healthy — 0,60, 0,36, 0,36
+- Memory: healthy — BNhớ:           13Gi       6,3Gi       1,6Gi        53Mi       6,0Gi       7,3Gi
 - Swap: healthy — Tráo đổi:       17Gi       7,1Gi        10Gi
 
 ## OpenClaw checks
@@ -33,7 +33,7 @@
 ## Spot check
 - 5 raw file(s) waiting for CompileAgent.
 - Inbox markers show 0 actionable item(s).
-- Format drift persists: 59 concept file(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
+- Format drift persists: 119 concept source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.
 
 ## Last result

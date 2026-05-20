@@ -191,7 +191,7 @@ grep "obsidian" .gitignore
 ## Pitfalls
 
 - **`.gitignore` won't untrack already-committed files** — always run `git ls-files <pattern>` after adding to `.gitignore`, and `git rm --cached` any stragglers
-- **"Not a file" conflicts** — this specific error means file was deleted from Git on machine A but still exists on disk on machine B. Obsidian Git on machine B auto-stages the file and pushes it back → machine A sees "deleted by them." Fix: run `git rm --cached` on BOTH machines, not just one.
+- **"Not a file" conflicts are recursive** — this is the single hardest conflict pattern to break. Machine A deletes file from Git → Machine B's Obsidian Git auto-pushes a recreation before B pulls the deletion → Machine A pulls and sees "deleted by them" → Machine A resolves → Machine B's auto-push recreates AGAIN. This loop continues until auto-push is disabled on one machine OR both machines untrack simultaneously. **The fix is always: untrack on BOTH machines + disable auto-push on one.**
 - **Agent runtime files regenerate** — `.hermes/auth.json`, `memories/MEMORY.md`, cache files are recreated on every agent run. They MUST be in `.gitignore` AND untracked from both machines, or they'll perpetually re-enter Git.
 - **Obsidian Git plugin auto-stages files** — even with `.gitignore`, the plugin may detect changes. The `.gitignore` prevents them from being committed, but you'll still see them as modified. This is safe.
 - **Plugin data.json is regenerated on restart** — after `git rm --cached`, the file still exists on disk (just untracked). The plugin will keep updating it locally, but Git will ignore it.

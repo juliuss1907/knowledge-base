@@ -3,12 +3,12 @@ type: index
 level: 3
 scope: tag
 parent: [[tag]]
-tag: tech
+tag: hack
 auto_generated: true
 last_updated: 2026-05-20
 ---
 
-# Tag: #tech
+# Tag: #hack
 
 ## Parent
 
@@ -16,27 +16,22 @@ last_updated: 2026-05-20
 
 ## Stats
 
-- Total files: 9
-- Sources: 2
-- Concepts: 7
+- Total files: 6
+- Sources: 1
+- Concepts: 5
 - Last updated: 2026-05-20
 
 ## Files with this tag
 
 - [[consent-phishing]] — Consent Phishing (concept)
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
-- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
-- [[google-ai-overviews]] — Google Ai Overviews (concept)
 - [[oauth-security-risks]] — Oauth Security Risks (concept)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
-- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
 
 ## Co-occurring tags
 
-- [[tools]] — 9 co-occurrences
-- [[hack]] — 6 co-occurrences
-- [[tutorial]] — 2 co-occurrences
+- [[tech]] — 6 co-occurrences
+- [[tools]] — 6 co-occurrences
 - [[opinion]] — 1 co-occurrence
-- [[news]] — 1 co-occurrence

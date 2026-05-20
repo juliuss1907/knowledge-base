@@ -552,3 +552,13 @@ Each entry follows this format:
 - **Concepts:** [oauth-security-risks, sso-single-point-of-failure, token-theft-attack, consent-phishing, domain-takeover-vulnerability]
 - **Tags applied:** main=#tech, sub=[#hack, #tools, #opinion], topic=sso-security-risks
 - **Action:** created 5 concept files
+
+
+## 2026-05-20 21:04:53 — Indexed
+
+- **Scanned:** 64 concepts + 12 sources = 76 total files
+- **Tags indexed:** 13 (7 main-tags + 6 sub-tags)
+- **Topics indexed:** 12
+- **Orphans deleted:** 1 tag indexes + 0 topic indexes
+- **Invalid tags found:** 4
+- Details: /home/julius/knowledge-base/wiki/sources/src_aaron-wright-ai-agents-legal-body.md: sub_tag=law; /home/julius/knowledge-base/wiki/concepts/ai-legal-personhood.md: sub_tag=law; /home/julius/knowledge-base/wiki/concepts/agency-law.md: sub_tag=law; /home/julius/knowledge-base/wiki/concepts/zero-member-llc.md: sub_tag=law

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tutorial
 auto_generated: true
-last_updated: 2026-05-19
+last_updated: 2026-05-20
 ---
 
 # Tag: #tutorial
@@ -19,7 +19,7 @@ last_updated: 2026-05-19
 - Total files: 12
 - Sources: 3
 - Concepts: 9
-- Last updated: 2026-05-19
+- Last updated: 2026-05-20
 
 ## Files with this tag
 

@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 20:30:00 Asia/Saigon
+- Last checked: 2026-05-20 21:05:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `20:30:32 up 8 days,  5:16,  1 user,  load average: 0,57, 0,52, 0,49`
-- Load average: healthy — 0.57, 0.52, 0.49
-- Memory: healthy — 13Gi total, 6.4Gi used, 7.2Gi available
+- Host uptime: `21:06:02 up 8 days,  5:52,  1 user,  load average: 1,92, 1,45, 0,90`
+- Load average: healthy — 1.92, 1.45, 0.90
+- Memory: healthy — 13Gi total, 6.9Gi used, 6.7Gi available
 - Swap: healthy — 17Gi total, 6.6Gi used, 11Gi free
 
 ## OpenClaw checks
@@ -35,8 +35,7 @@
 ## Spot check
 - 5 raw file(s) waiting for CompileAgent.
 - Inbox markers show 0 actionable item(s).
-- Concept spot check checked `wiki/concepts/claude-builder-role.md` and `wiki/concepts/agency-law.md`.
-- New format issue detected in spot check: both sampled concepts still use legacy full-path source wikilinks (`[[wiki/sources/src_...]]`) in frontmatter / Sources section instead of canonical bare source wikilinks.
+- Format drift persists: 59 concept file(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.
 
 ## Last result

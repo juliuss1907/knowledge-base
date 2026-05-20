@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: news
 auto_generated: true
-last_updated: 2026-05-19
+last_updated: 2026-05-20
 ---
 
 # Tag: #news
@@ -19,7 +19,7 @@ last_updated: 2026-05-19
 - Total files: 2
 - Sources: 0
 - Concepts: 2
-- Last updated: 2026-05-19
+- Last updated: 2026-05-20
 
 ## Files with this tag
 

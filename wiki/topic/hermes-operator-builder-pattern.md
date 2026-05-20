@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `hermes-operator-builder-pattern`.
 
-Last updated: 2026-05-19 21:03:00
+Last updated: 2026-05-20 21:04:53
 
 ---
 

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: crypto
 auto_generated: true
-last_updated: 2026-05-19
+last_updated: 2026-05-20
 ---
 
 # Tag: #crypto
@@ -19,7 +19,7 @@ last_updated: 2026-05-19
 - Total files: 2
 - Sources: 0
 - Concepts: 2
-- Last updated: 2026-05-19
+- Last updated: 2026-05-20
 
 ## Files with this tag
 
@@ -28,5 +28,5 @@ last_updated: 2026-05-19
 
 ## Co-occurring tags
 
-- [[defi]] — 2 co-occurrences
 - [[tools]] — 2 co-occurrences
+- [[defi]] — 2 co-occurrences

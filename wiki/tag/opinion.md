@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-05-19
+last_updated: 2026-05-20
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-05-19
 
 ## Stats
 
-- Total files: 25
-- Sources: 6
+- Total files: 26
+- Sources: 7
 - Concepts: 19
-- Last updated: 2026-05-19
+- Last updated: 2026-05-20
 
 ## Files with this tag
 
@@ -44,6 +44,7 @@ last_updated: 2026-05-19
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
+- [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
@@ -52,7 +53,7 @@ last_updated: 2026-05-19
 ## Co-occurring tags
 
 - [[productivity]] — 15 co-occurrences
-- [[tools]] — 10 co-occurrences
+- [[tools]] — 11 co-occurrences
 - [[ai]] — 9 co-occurrences
 - [[automation]] — 7 co-occurrences
 - [[tutorial]] — 2 co-occurrences

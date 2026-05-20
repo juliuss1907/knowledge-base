@@ -154,7 +154,7 @@ TL;DR: [1 dòng covering both categories]
 
 **Location:**
 ```
-ai-labs/resource/skills/x-news-brief/.state/
+/home/julius/knowledge-base/.hermes/skills/x-news-brief/.state/
 └── last-run-timestamp.txt
 ```
 

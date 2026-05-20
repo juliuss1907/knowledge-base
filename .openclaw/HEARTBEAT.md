@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 23:30:00 Asia/Saigon
+- Last checked: 2026-05-21 00:00:56 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `23:30:45 up 8 days,  8:17,  1 user,  load average: 0,41, 0,46, 0,48`
-- Load average: healthy — 0,41, 0,46, 0,48
-- Memory: healthy — 13Gi total, 6,3Gi used, 7,3Gi available
-- Swap: healthy — 17Gi total, 6,8Gi used, 11Gi free
+- Host uptime: `00:00:56 up 8 days,  8:47,  1 user,  load average: 0,82, 0,53, 0,42`
+- Load average: healthy — 0,82, 0,53, 0,42
+- Memory: healthy — 13Gi total, 6,2Gi used, 7,3Gi available
+- Swap: healthy — 17Gi total, 6,9Gi used, 10Gi free
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -15,7 +15,7 @@
 - Disk `/`: healthy — 18% used, 181G free
 - Raw backlog: 5 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable marker(s) found in `Tasks/`
-- Pending review action file: present; mtime: 2026-05-17 23:46:59 Asia/Saigon; size: 7607 bytes
+- Pending review action file: present; mtime: 2026-05-20 23:39:26 Asia/Saigon; size: 9517 bytes
 - Gateway CLI check: skipped in cron heartbeat
 
 ## Raw backlog
@@ -27,10 +27,8 @@
 
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
-- State: still requires action/review from prior heartbeat.
-- Pending/action-like lines detected: 1
-- Approved Fix Agent actions remain listed for prior output/format findings.
-- Hygiene findings still require Julius review for spec/runtime whitelist decisions.
+- State: updated since prior heartbeat; still requires action/review.
+- Approved Fix Agent actions and hygiene/spec decisions remain tracked there.
 
 ## Spot check
 - 5 raw file(s) waiting for CompileAgent.

@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 15:30:00 Asia/Saigon
+- Last checked: 2026-05-20 16:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `15:30:45 up 8 days, 17 min,  1 user,  load average: 0,62, 0,48, 0,40`
-- Load average: healthy — 0,62, 0,48, 0,40
-- Memory: healthy — `BNhớ:           13Gi       6,3Gi       1,6Gi        53Mi       6,0Gi       7,2Gi`
+- Host uptime: ` 16:00:42 up 8 days, 47 min,  1 user,  load average: 0,46, 0,37, 0,36`
+- Load average: healthy — 0,46, 0,37, 0,36
+- Memory: healthy — `BNhớ:           13Gi       6,3Gi       1,7Gi        58Mi       6,0Gi       7,3Gi`
 - Swap: healthy — `Tráo đổi:       17Gi       6,4Gi        11Gi`
 
 ## OpenClaw checks
@@ -29,7 +29,6 @@
 
 ## Spot check
 - 3 raw file(s) waiting for CompileAgent.
-- 2 sampled concept file(s) checked; both still use legacy full-path source wikilinks already listed in pending reviews.
 - Inbox markers show 0 actionable item(s).
 - Agent runtime is responsive; host load is healthy.
 

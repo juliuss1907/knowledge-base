@@ -106,6 +106,7 @@ All use model from skill's frontmatter (no `--model` flag on `hermes cron create
 - **Job IDs are machine-specific** — jobs created via `cronjob` tool go to `~/.hermes/cron/jobs.json` on the CURRENT machine. If you're on the main machine, the VPS won't see them. Always create jobs directly on the machine where the scheduler runs.
 - **`cronjob` tool list shows current machine only** — use `hermes cron list` on the target machine to see what's actually scheduled.
 - **`--model` flag not available** — `hermes cron create` doesn't have a `--model` flag. Model is determined by the skill's SKILL.md frontmatter.
-- **`--deliver origin`** — delivers results back to the same chat/topic where the job was created. For CLI-created jobs, ensure the delivery origin is correctly configured.
+- **`--deliver` defaults to `local` for CLI-created jobs** — when creating jobs from VPS terminal (not from within a chat), the default delivery is `local` (save to file only, no Telegram). Always explicitly add `--deliver origin` to `hermes cron create`. If you forgot, fix with `hermes cron edit <job_id> --deliver origin`.
+- **`hermes cron edit` can fix deliver after creation** — `hermes cron edit <job_id> --deliver origin` changes the delivery target without recreating the job.
 - **Stale one-shot jobs accumulate** — after creating recurring cron jobs, old one-shot duplicates may persist. Always `hermes cron list` and remove them.
 - **`jobs.json` is in `.gitignore`** — cron job definitions are NOT synced between machines. Each machine manages its own cron independently via Hermes scheduler.

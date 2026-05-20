@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 20:00:00 Asia/Saigon
+- Last checked: 2026-05-20 20:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `20:00:33 up 8 days,  4:47,  1 user,  load average: 0,66, 0,43, 0,38`
-- Load average: healthy — 0.66, 0.43, 0.38
-- Memory: healthy — 13Gi total, 6.3Gi used, 7.3Gi available
+- Host uptime: `20:30:32 up 8 days,  5:16,  1 user,  load average: 0,57, 0,52, 0,49`
+- Load average: healthy — 0.57, 0.52, 0.49
+- Memory: healthy — 13Gi total, 6.4Gi used, 7.2Gi available
 - Swap: healthy — 17Gi total, 6.6Gi used, 11Gi free
 
 ## OpenClaw checks
@@ -21,7 +21,7 @@
 ## Raw backlog
 - `raw/articles/2026-05-20_juliachristina-were-not-supposed-to-live-like-this.md`
 - `raw/posts/2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent.md`
-- `raw/posts/2026-05-20_the-smart-ape_11-minutes-hack-github.md`
+- `raw/posts/2026-05-20_the-smart-ape-11-minutes-hack-github.md`
 - `raw/posts/2026-05-20_the-smart-ape-ai-destroy-world-economy.md`
 - `raw/posts/2026-05-20_xdevelopers-hermes-xurl-skill-guide.md`
 
@@ -35,8 +35,9 @@
 ## Spot check
 - 5 raw file(s) waiting for CompileAgent.
 - Inbox markers show 0 actionable item(s).
-- Concept spot check checked `wiki/concepts/abstraction-layer-fallacy.md` and `wiki/concepts/active-thinking.md`; no new concept issue detected in this cron pass.
+- Concept spot check checked `wiki/concepts/claude-builder-role.md` and `wiki/concepts/agency-law.md`.
+- New format issue detected in spot check: both sampled concepts still use legacy full-path source wikilinks (`[[wiki/sources/src_...]]`) in frontmatter / Sources section instead of canonical bare source wikilinks.
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.
 
 ## Last result
-- `HEARTBEAT_OK_WITH_RAW_BACKLOG_AND_PENDING_REVIEWS`
+- `HEARTBEAT_OK_WITH_RAW_BACKLOG_PENDING_REVIEWS_AND_FORMAT_DRIFT`

@@ -2,10 +2,10 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 19:00:00 Asia/Saigon
+- Last checked: 2026-05-20 19:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 19:01:01 up 8 days,  3:47,  1 user,  load average: 0.79, 0.76, 0.60`
-- Load average: healthy — 0.79, 0.76, 0.60
+- Host uptime: `19:30:29 up 8 days,  4:16,  1 user,  load average: 0.74, 0.46, 0.44`
+- Load average: healthy — 0.74, 0.46, 0.44
 - Memory: healthy — 13Gi total, 6.4Gi used, 7.2Gi available
 - Swap: healthy — 17Gi total, 6.5Gi used, 11Gi free
 
@@ -28,14 +28,14 @@
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
 - State: still requires action/review from prior heartbeat.
-- Pending reports: 11
+- Pending reports: 5
 - Approved Fix Agent actions remain listed for prior output/format findings.
 - Hygiene findings still require Julius review for spec/runtime whitelist decisions.
 
 ## Spot check
 - 5 raw file(s) waiting for CompileAgent.
 - Inbox markers show 0 actionable item(s).
-- Concept spot check retained from previous healthy sample; no new concept issue detected in this cron pass.
+- Concept spot check checked `wiki/concepts/abstraction-layer-fallacy.md` and `wiki/concepts/active-thinking.md`; no new concept issue detected in this cron pass.
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.
 
 ## Last result

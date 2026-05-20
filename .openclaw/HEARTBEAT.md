@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 22:30:00 Asia/Saigon
+- Last checked: 2026-05-20 23:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `22:31:43 up 8 days,  7:18,  1 user,  load average: 0,61, 0,48, 0,41`
-- Load average: healthy — 0,61, 0,48, 0,41
-- Memory: healthy — 13Gi total, 6,4Gi used, 7,2Gi available
-- Swap: healthy — 17Gi total, 6,7Gi used, 11Gi free
+- Host uptime: ` 23:00:49 up 8 days,  7:47,  1 user,  load average: 1,06, 0,59, 0,44`
+- Load average: healthy — 1,06, 0,59, 0,44
+- Memory: healthy — 13Gi total, 6,3Gi used, 7,3Gi available
+- Swap: healthy — 17Gi total, 6,8Gi used, 11Gi free
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -28,7 +28,7 @@
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
 - State: still requires action/review from prior heartbeat.
-- Pending reports: 5 listed in action file.
+- Pending/action-like lines detected: 1
 - Approved Fix Agent actions remain listed for prior output/format findings.
 - Hygiene findings still require Julius review for spec/runtime whitelist decisions.
 

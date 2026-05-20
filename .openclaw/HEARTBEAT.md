@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 04:30:00 Asia/Saigon
+- Last checked: 2026-05-21 05:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `04:30:39 up 8 days, 13:17,  1 user,  load average: 0,60, 0,44, 0,39`
-- Load average: healthy — 0,60, 0,44, 0,39
-- Memory: healthy — BNhớ:           13Gi       6,4Gi       1,5Gi        53Mi       6,1Gi       7,2Gi
+- Host uptime: ` 05:00:43 up 8 days, 13:47,  1 user,  load average: 0,90, 0,59, 0,49`
+- Load average: healthy
+- Memory: healthy — BNhớ:           13Gi       6,4Gi       1,6Gi        53Mi       6,0Gi       7,2Gi
 - Swap: healthy — Tráo đổi:       17Gi       7,1Gi        10Gi
 
 ## OpenClaw checks

@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 00:00:56 Asia/Saigon
+- Last checked: 2026-05-21 00:30:49 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `00:00:56 up 8 days,  8:47,  1 user,  load average: 0,82, 0,53, 0,42`
-- Load average: healthy — 0,82, 0,53, 0,42
-- Memory: healthy — 13Gi total, 6,2Gi used, 7,3Gi available
-- Swap: healthy — 17Gi total, 6,9Gi used, 10Gi free
+- Host uptime: `00:30:49 up 8 days,  9:17,  1 user,  load average: 1,04, 0,75, 0,52`
+- Load average: healthy — 1,04, 0,75, 0,52
+- Memory: healthy — BNhớ:           13Gi       6,3Gi       1,6Gi        54Mi       6,1Gi       7,3Gi
+- Swap: healthy — Tráo đổi:       17Gi       6,9Gi        10Gi
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -27,7 +27,7 @@
 
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
-- State: updated since prior heartbeat; still requires action/review.
+- State: present; still requires action/review.
 - Approved Fix Agent actions and hygiene/spec decisions remain tracked there.
 
 ## Spot check

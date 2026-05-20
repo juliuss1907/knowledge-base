@@ -1,21 +1,21 @@
-# Action Required — Pending Reviews
+# Action Required — Pending Reports
 
 > Consolidated list of pending Hermes validation reports
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-17 23:35:00
+**Last updated:** 2026-05-20 23:30:00
 
 ---
 
 ## Summary
 
-**Pending reports:** 5
+**Pending reports:** 6
 
 **Status:**
 - Output Validator: 1 pending report (4 issues -- **1 ERROR ready for Fix Agent**)
 - Format Validator: 2 pending reports (2026-05-14: 3 issues -> 1 Fix Agent / 2026-05-17: 5 issues -- **5 WARNING ready for Fix Agent**)
-- Hygiene Inspector: 1 pending report (20 issues -- 2 ERROR, 18 WARNING -> **most are spec gaps in runtime folder whitelists**)
+- Hygiene Inspector: 2 pending reports (2026-05-17: 20 issues -> 2 ERROR, 18 WARNING / 2026-05-20: 6 issues -- 3 ERROR, 3 WARNING)
 
 **Fixed by Julius (2026-05-15):**
 - [x] folder-structure.md -> v1.1: runtime artifacts whitelisted (S3.1 & S3.2), symlinks allowed (S2), skills expanded (S4)
@@ -51,10 +51,30 @@
   - `wiki/sources/src_active-vs-lazy-thinking.md`
 - **Fix:** Remove the `date_ingested` line from both files (keep `date_compiled`)
 
+### Hygiene Inspector -- 2026-05-20 (NEW)
+
+**1. `EOF` file at KB root** -- ERROR  
+-> **REQUIRES JULIUS REVIEW**
+- Zero-byte file named `EOF` at knowledge-base/ root (created 2026-05-19)
+- Likely a terminal redirect artifact (`> EOF` instead of `> file`)
+- Either remove or add to .gitignore
+
+**2. `memory/` folder at KB root** -- ERROR  
+-> **REQUIRES JULIUS REVIEW (carried over from 2026-05-17)**
+- Non-standard folder at knowledge-base/ root level
+- Contains Hermes heartbeat polls and session notes (2026-05-19.md, 2026-05-20.md, .dreams/)
+- Content should be merged into `.openclaw/memory/` per AGENTS.md S4.1
+- Either remove or add to folder-structure.md root whitelist
+
+**3. `state/` empty directory at KB root** -- ERROR  
+-> **REQUIRES JULIUS REVIEW**
+- Empty directory at knowledge-base/ root (no files)
+- Purpose unclear; safe to remove
+
 ### Hygiene Inspector -- 2026-05-17
 
 **1. `memory/` folder at KB root** -- ERROR
--> **REQUIRES JULIUS REVIEW**
+-> **REQUIRES JULIUS REVIEW** (still unresolved, also in 2026-05-20 report)
 - Non-standard folder at knowledge-base/ root level
 - Contains Hermes heartbeat polls and session notes (2026-05-15-heartbeat-poll.md, 2026-05-17.md)
 - Either remove or add to folder-structure.md root whitelist
@@ -62,8 +82,8 @@
 **2. `wiki/meta/index-spec.md` not in meta/ whitelist** -- ERROR
 -> **REQUIRES JULIUS REVIEW**
 - AGENTS.md lists index-spec.md as ground-truth reference alongside format-spec and folder-structure.md
-- But folder-structure.md S7 says meta/ contains exactly 2 files
-- Either add to S7 whitelist or reconcile the spec conflict
+- But folder-structure.md S7 says meta/ contains exactly 3 files (now updated in v1.2)
+- Note: v1.2 change log mentions "Updated meta/ count from 2 to 3 (added index-spec.md)" — appears resolved in spec but report not yet approved
 
 ### Hygiene Inspector -- 2026-05-14
 
@@ -84,6 +104,15 @@
 
 **1. Field order disrupted by `date_ingested`** -- WARNING  
 -> **FIXED by removing `date_ingested` (see Critical Issues above)**
+
+### Hygiene Inspector -- 2026-05-20 (NEW)
+
+**1-3. Stale backup/tmp files in .openclaw/** -- WARNING  
+-> **SAFE FOR AUTO-CLEANUP by Fix Agent**
+- `.openclaw/cron/jobs.json.bak` — backup of cron config
+- `.openclaw/devices/pending.json.*.tmp` — leftover temp file
+- `.openclaw/openclaw.json.bak.3` — old backup chain (keep .bak.1 only)
+- **Fix:** Delete all three files
 
 ### Hygiene Inspector -- 2026-05-17
 
@@ -196,6 +225,21 @@
 
 ---
 
+### 6. Hygiene Inspection -- 2026-05-20 (NEW)
+
+**File:** [2026-05-20_hygiene-report.md](2026-05-20_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-05-20 23:30:00
+**Issues:** 6 (3 ERROR, 3 WARNING, 0 INFO)
+
+**Key findings:**
+- 3 ERROR: `EOF` file, `memory/` dir, `state/` dir at KB root — all root-level anomalies
+- 3 WARNING: Stale backup/tmp files in .openclaw/ — safe for auto-cleanup
+
+**Overall assessment:** KB structure is clean. After folder-structure.md v1.2 with catch-all clauses, noise from runtime folders eliminated. Remaining issues are genuine hygiene concerns.
+
+---
+
 ## Recently Applied
 
 *No recently applied reports.*
@@ -213,11 +257,6 @@ approve hygiene
 show output
 show format
 show hygiene
-
-**To reject a report:**
-reject output
-reject format
-reject hygiene
 
 **To apply approved fixes:**
 openclaw fix apply

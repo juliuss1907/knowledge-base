@@ -73,3 +73,17 @@
   - 5 WARNING: stale .bak/.tmp files in .openclaw/ (safe auto-cleanup)
 - **Escalations:** folder-structure.md §3.1 & §3.2 too narrow — legitimate runtime folders flagged as WARNINGs; meta/ §7 conflicts with AGENTS.md re: index-spec.md
 - **Recommendation:** Expand agent home whitelists to use broader runtime-folder categories
+
+---
+
+## 2026-05-20 23:30:00 — Hygiene inspection
+
+- **Paths checked:** 5738 (full KB scan)
+- **Issues found:** 6 (3 ERROR, 3 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-20_hygiene-report.md
+- **Top violations:**
+  - 1 ERROR: `EOF` — zero-byte file at KB root (terminal artifact)
+  - 1 ERROR: `memory/` — residual directory at KB root (carried from 2026-05-17, still unresolved)
+  - 1 ERROR: `state/` — empty directory at KB root
+  - 3 WARNING: stale .bak/.tmp files in .openclaw/ (safe auto-cleanup)
+- **Assessment:** KB structure is clean. folder-structure.md v1.2 catch-all clauses eliminated runtime folder noise. Only genuine anomalies remain.

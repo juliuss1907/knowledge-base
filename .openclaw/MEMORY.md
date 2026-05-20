@@ -544,3 +544,11 @@ Each entry follows this format:
 - **Orphans deleted:** 1 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped due to invalid frontmatter
+
+## 2026-05-20 08:00:00 — Compiled (Daily Cron)
+
+- **Raw:** [[raw/posts/2026-05-19_dont-sign-in-with-google.md]]
+- **Source note:** [[wiki/sources/src_dont-sign-in-with-google.md]]
+- **Concepts:** [oauth-security-risks, sso-single-point-of-failure, token-theft-attack, consent-phishing, domain-takeover-vulnerability]
+- **Tags applied:** main=#tech, sub=[#hack, #tools, #opinion], topic=sso-security-risks
+- **Action:** created 5 concept files

@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 02:30:00 Asia/Saigon
+- Last checked: 2026-05-21 03:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `02:30:29 up 8 days, 11:16,  1 user,  load average: 0,60, 0,38, 0,40`
-- Load average: healthy — 0,60, 0,38, 0,40
-- Memory: healthy — BNhớ:           13Gi       6,3Gi       1,6Gi        57Mi       6,1Gi       7,3Gi
-- Swap: healthy — Tráo đổi:       17Gi       7,0Gi        10Gi
+- Host uptime: `03:00:59 up 8 days, 11:47,  1 user,  load average: 1,86, 0,76, 0,50`
+- Load average: healthy — 1,86, 0,76, 0,50
+- Memory: healthy — BNhớ:           13Gi       6,2Gi       1,6Gi        51Mi       6,1Gi       7,3Gi
+- Swap: healthy — Tráo đổi:       17Gi       7,1Gi        10Gi
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -21,8 +21,8 @@
 ## Raw backlog
 - `raw/articles/2026-05-20_juliachristina-were-not-supposed-to-live-like-this.md`
 - `raw/posts/2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent.md`
-- `raw/posts/2026-05-20_the-smart-ape_11-minutes-hack-github.md`
-- `raw/posts/2026-05-20_the-smart-ape_ai-destroy-world-economy.md`
+- `raw/posts/2026-05-20_the-smart-ape-11-minutes-hack-github.md`
+- `raw/posts/2026-05-20_the-smart-ape-ai-destroy-world-economy.md`
 - `raw/posts/2026-05-20_xdevelopers-hermes-xurl-skill-guide.md`
 
 ## Pending reviews

@@ -2,17 +2,17 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-20 16:00:00 Asia/Saigon
+- Last checked: 2026-05-20 16:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 16:00:42 up 8 days, 47 min,  1 user,  load average: 0,46, 0,37, 0,36`
-- Load average: healthy — 0,46, 0,37, 0,36
-- Memory: healthy — `BNhớ:           13Gi       6,3Gi       1,7Gi        58Mi       6,0Gi       7,3Gi`
-- Swap: healthy — `Tráo đổi:       17Gi       6,4Gi        11Gi`
+- Host uptime: `up 8 days, 1:17, 1 user, load average: 0.47, 0.43, 0.45`
+- Load average: healthy — 0.47, 0.43, 0.45
+- Memory: not refreshed — cron shell output was truncated by tool wrapper
+- Swap: not refreshed — cron shell output was truncated by tool wrapper
 
 ## OpenClaw checks
 - Runtime: responsive
 - Workspace: `/home/julius/knowledge-base`
-- Disk `/`: healthy; 17% used, 181G free
+- Disk `/`: healthy at previous check; 17% used, 181G free
 - Raw backlog: 3 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable marker(s) found in `Tasks/`
 - Pending review action file: present; mtime: 2026-05-17 23:46:59 Asia/Saigon; size: 7607 bytes
@@ -26,10 +26,14 @@
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
 - State: still requires action/review from prior heartbeat.
+- Pending reports: 5
+- Approved Fix Agent actions remain listed for prior output/format findings.
+- Hygiene findings still require Julius review for spec/runtime whitelist decisions.
 
 ## Spot check
 - 3 raw file(s) waiting for CompileAgent.
 - Inbox markers show 0 actionable item(s).
+- Concept spot check sampled `wiki/concepts/persistent-memory-ai.md` and `wiki/concepts/cynefin-framework.md`; both have source links present.
 - Agent runtime is responsive; host load is healthy.
 
 ## Last result

@@ -22,6 +22,70 @@ Each entry follows this format:
 - **Output:** [what was created/updated]
 - **Status:** [success|failed|partial]
 - **Notes:** [additional context if needed]
+## 2026-05-21 08:00:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-20_juliachristina-were-not-supposed-to-live-like-this.md
+- **Source note:** wiki/sources/src_were-not-supposed-to-live-like-this.md
+- **Concepts:** [evolutionary-mismatch, default-mode-network, dunbar-number, hunter-gatherer-lifestyle]
+- **Tags applied:** main=#productivity, sub=[#research, #opinion], topic=evolutionary-mismatch-modern-life
+- **Action:** created 4 concept files
+
+## 2026-05-21 08:02:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/posts/2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent.md
+- **Source note:** wiki/sources/src_hermes-polymarket-btc-trading-agent.md
+- **Concepts:** [hermes-agent, polymarket, prediction-markets, crypto-trading-bots, atomic-mac-agent, self-learning-agents]
+- **Tags applied:** main=#crypto, sub=[#automation, #tools, #tutorial], topic=hermes-polymarket-trading-agent
+- **Action:** created 6 concept files
+
+## 2026-05-21 08:04:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/posts/2026-05-20_the-smart-ape-11-minutes-hack-github.md
+- **Source note:** wiki/sources/src_11-minutes-hack-github.md
+- **Concepts:** [supply-chain-attack, vs-code-marketplace-security, team-pcp-hacker-group]
+- **Tags applied:** main=#tech, sub=[#hack, #tools, #news], topic=github-supply-chain-attack-vs-code
+- **Action:** created 3 concept files
+
+## 2026-05-21 08:06:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/posts/2026-05-20_the-smart-ape-ai-destroy-world-economy.md
+- **Source note:** wiki/sources/src_ai-will-destroy-world-economy.md
+- **Concepts:** [ai-white-collar-automation, productivity-wage-gap]
+- **Tags applied:** main=#ai, sub=[#opinion, #economic], topic=ai-economic-disruption-white-collar
+- **Action:** created 2 concept files
+
+## 2026-05-21 08:08:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/posts/2026-05-20_xdevelopers-hermes-xurl-skill-guide.md
+- **Source note:** wiki/sources/src_hermes-xurl-skill-guide.md
+- **Concepts:** [xurl-cli, x-api-oauth2]
+- **Tags applied:** main=#ai, sub=[#tools, #tutorial, #automation], topic=hermes-xurl-x-api-integration
+- **Action:** created 2 concept files
+
+## 2026-05-21 08:10:00 — Compiled Summary
+
+- **Files processed:** 5/5
+- **Source notes created:** 5
+- **Concepts created:** 17
+- **Raw files updated:** 5 (status: processed)
+- **Index files updated:** 2 (articles.md, posts.md)
+- **Errors:** 0
+- **Duration:** ~10 minutes
+
+---
+<!-- Entries appear below in reverse chronological order (newest first) -->
+<!-- OpenClaw appends new entries here -->
+
+Each entry follows this format:
+
+```markdown
+## YYYY-MM-DD HH:MM:SS — [Operation Type]
+
+- **Action:** [what was done]
+- **Input:** [what was processed]
+- **Output:** [what was created/updated]
+- **Status:** [success|failed|partial]
+- **Notes:** [additional context if needed]
 ## 2026-05-13 08:00:00 — Compiled
 
 - **Raw:** raw/articles/2026-05-12_active-vs-lazy-thinking.md

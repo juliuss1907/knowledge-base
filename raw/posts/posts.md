@@ -20,15 +20,18 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 1 files
-- By status: 1 processed, 0 unprocessed
-- By date: 1 this week, 1 this month
-- Last updated: 2026-05-20
+- Total: 5 files
+- By status: 5 processed, 0 unprocessed
+- By date: 5 this week, 5 this month
+- Last updated: 2026-05-21
 
 ## Items
 
+- [[2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent]] — Hermes + Polymarket - how i built a self-learning BTC up/down trading agent 100$ → 5000$ ( guide ) (processed)
+- [[2026-05-20_the-smart-ape-11-minutes-hack-github]] — 11 minutes was all it took to hack github (processed)
+- [[2026-05-20_the-smart-ape-ai-destroy-world-economy]] — ai will destroy the world economy (processed)
+- [[2026-05-20_xdevelopers-hermes-xurl-skill-guide]] — X API + Hermes via xurl skill (processed)
 - [[2026-05-19_dont-sign-in-with-google]] — Don't Sign In With Google (processed)
-- [[2026-05-19_defi0xjeff-3-worth-it-skills]] — @defi0xjeff: 3 Hermes skills worth it (unprocessed)
 
 <!-- Ingest Agent appends here, newest first -->
 

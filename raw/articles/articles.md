@@ -21,9 +21,9 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Stats
 
 - Total: 11 files
-- By status: 10 processed, 1 unprocessed
-- By date: 6 this week, 11 this month
-- Last updated: 2026-05-19
+- By status: 11 processed, 0 unprocessed
+- By date: 5 this week, 11 this month
+- Last updated: 2026-05-21
 
 ## Items
 
@@ -33,6 +33,7 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 - [[2026-05-18_hermes-as-a-real-time-analyst]] — Hermes as a Real-time Analyst (processed)
 - [[2026-05-18_1-month-with-hermes-ive-been-using-wrong]] — 1 Month with Hermes — I've Been Using Hermes Wrong All Along (processed)
 - [[2026-05-18_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (processed)
+- [[2026-05-20_juliachristina-were-not-supposed-to-live-like-this]] — We're not supposed to live like this (processed)
 - [[2026-05-17_aaron-wright-ai-agents-legal-body]] — The Agent's Legal Body: How AI Agents Get the Right to Contract (unprocessed)
 - [[2026-05-14_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (processed)
 - [[2026-05-14_how-ai-productivity-fails]] — How AI Productivity Fails (processed)

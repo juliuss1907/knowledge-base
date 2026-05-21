@@ -5,7 +5,9 @@ url: https://x.com/XDevelopers/status/2056871280599847054
 author: Developers on X (@XDevelopers)
 date_published: 2026-05-20
 date_ingested: 2026-05-20
-status: unprocessed
+status: processed
+compiled_at: 2026-05-21
+compiled_to: [[wiki/sources/src_hermes-xurl-skill-guide.md]]
 source: X / Twitter
 ---
 

@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-22 01:30:00 Asia/Saigon
+- Last checked: 2026-05-22 02:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `01:30:42 up 9 days, 10:17, 1 user, load average: 0,54, 0,32, 0,27`
-- Load average: healthy
-- Memory / Swap: healthy — `Mem 6,7Gi/13Gi; Swap 7,1Gi/17Gi`
+- Host uptime: `02:01:02 up 9 days, 10:47,  1 user,  load average: 0,56, 0,43, 0,33`
+- Load average: healthy — `0.33 1/1194 4156441`
+- Memory / Swap: healthy — `Mem 6.7Gi/13Gi; Swap 7.1Gi/17Gi`
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -35,7 +35,8 @@
 - wiki/concepts/: 78 concept file(s).
 - Format drift persists: 147 concept/source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
 - Git working tree has changes:
-  - ` m .hermes/hermes-agent`
+  - `M .hermes/hermes-agent`
+  - ` M .openclaw/HEARTBEAT.md`
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.
 
 ## Last result

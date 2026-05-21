@@ -4,16 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-21 23:15:00
+**Last updated:** 2026-05-21 23:30:00
 
 ---
 
 ## Summary
 
-**Pending reports:** 2
+**Pending reports:** 3
 
 **Status:**
-- ⚠️ 2 pending reports require Julius review
+- ⚠️ 3 pending reports require Julius review
 
 **Resolved reports:**
 - [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
@@ -35,7 +35,7 @@ Last resolved: Hygiene 2026-05-20 (EOF, memory/, state/ — moved/removed)
 
 ## Warnings (Can Fix Later)
 
-*No warnings — all resolved by Julius 2026-05-21.*
+- ⚠️ 9 stale backup files (.bak) in `.openclaw/` — pending (Hygiene 2026-05-21)
 
 Last resolved: Stale backup/tmp files in .openclaw/ — deleted
 
@@ -86,6 +86,27 @@ Last resolved: Stale backup/tmp files in .openclaw/ — deleted
 - `approve format` — approve this report
 - `reject format` — reject this report
 - `show format` — show full report details
+
+---
+
+### 3. Hygiene Inspection — 2026-05-21
+
+**File:** [2026-05-21_hygiene-report.md](2026-05-21_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-05-21 23:30:00
+**Issues:** 9 (0 ERROR, 9 WARNING, 0 INFO)
+**Paths checked:** 5755 (966 folders + 4789 files)
+
+**Summary:**
+- 0 structural violations — all paths comply with folder-structure.md v1.2
+- 9 WARNINGs: stale backup files (.bak) in `.openclaw/` agent runtime
+- No issues in `raw/`, `wiki/`, or `context/` layers
+- Overall: clean bill of health
+
+**Actions:**
+- `approve hygiene` — approve this report
+- `reject hygiene` — reject this report
+- `show hygiene` — show full report details
 
 ---
 

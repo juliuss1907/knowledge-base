@@ -4,16 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-21 23:05:00
+**Last updated:** 2026-05-21 23:15:00
 
 ---
 
 ## Summary
 
-**Pending reports:** 1
+**Pending reports:** 2
 
 **Status:**
-- ⚠️ 1 pending report requires Julius review
+- ⚠️ 2 pending reports require Julius review
 
 **Resolved reports:**
 - [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
@@ -66,6 +66,26 @@ Last resolved: Stale backup/tmp files in .openclaw/ — deleted
 - `approve output` — approve this report
 - `reject output` — reject this report
 - `show output` — show full report details
+
+---
+
+### 2. Format Validation — 2026-05-21
+
+**File:** [2026-05-21_format-report.md](2026-05-21_format-report.md)
+**Status:** pending
+**Created:** 2026-05-21 23:15:00
+**Issues:** 20 (3 ERROR, 17 WARNING, 0 INFO)
+**Files affected:** 95 checked (78 concepts + 17 sources)
+
+**Summary:**
+- 3 ERRORs: 2 invalid sub_tag (`economic` is Pool A, not Pool B), 1 code block missing language tag
+- 17 WARNINGs: 9 section case mismatches (`Key Ideas`→`Key ideas`, `Related Concepts`→`Related concepts`), 7 wikilink-wrapped `original` field, 1 deprecated `date_ingested`
+- Systemic: 4 concepts share identical section case issues (same compile run); 7 sources use wikilink in `original`; 9 sources retain deprecated `date_ingested`
+
+**Actions:**
+- `approve format` — approve this report
+- `reject format` — reject this report
+- `show format` — show full report details
 
 ---
 

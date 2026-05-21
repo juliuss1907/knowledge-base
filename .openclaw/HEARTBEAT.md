@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 21:00:00 Asia/Saigon
+- Last checked: 2026-05-21 21:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 21:01:27 up 9 days,  5:47,  1 user,  load average: 1,13, 0,46, 0,29`
+- Host uptime: ` 21:30:36 up 9 days,  6:17,  1 user,  load average: 0,61, 0,45, 0,45`
 - Load average: healthy
-- Memory / Swap: healthy — `Mem 7.2Gi/13Gi; Swap 7.1Gi/17Gi`
+- Memory / Swap: healthy — `Mem 6,6Gi/13Gi; Swap 7,1Gi/17Gi`
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -26,13 +26,12 @@
 
 ## Spot check
 - 0 raw file(s) waiting for CompileAgent.
-- raw/: 17 markdown source file(s).
+- raw/: 23 markdown source/index file(s).
 - wiki/sources/: 17 source file(s).
 - wiki/concepts/: 78 concept file(s).
 - Format drift persists: 147 concept/source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
 - Git working tree has changes:
   - ` m .hermes/hermes-agent`
-  - ` M .hermes/models_dev_cache.json`
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.
 
 ## Last result

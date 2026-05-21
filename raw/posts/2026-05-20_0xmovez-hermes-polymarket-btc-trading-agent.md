@@ -5,7 +5,9 @@ url: https://x.com/0xMovez/status/2049891014249431141
 author: Movez (@0xMovez)
 date_published: 2026-05-17
 date_ingested: 2026-05-20
-status: unprocessed
+status: processed
+compiled_at: 2026-05-21
+compiled_to: [[wiki/sources/src_hermes-polymarket-btc-trading-agent.md]]
 source: X / Twitter
 ---
 

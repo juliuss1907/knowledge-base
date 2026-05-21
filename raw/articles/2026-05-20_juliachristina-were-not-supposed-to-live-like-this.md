@@ -5,7 +5,9 @@ url: https://juliachristina.substack.com/p/were-not-supposed-to-live-like-this
 author: Julia Christina
 date_published: 2026-05-17
 date_ingested: 2026-05-20
-status: unprocessed
+status: processed
+compiled_at: 2026-05-21
+compiled_to: [[wiki/sources/src_were-not-supposed-to-live-like-this.md]]
 source: Substack / Julia Christina
 ---
 

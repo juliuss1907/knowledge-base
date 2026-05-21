@@ -2,11 +2,11 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 22:30:00 Asia/Saigon
+- Last checked: 2026-05-21 23:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `22:30:32 up 9 days, 7:16, 1 user, load average: 0,31, 0,25, 0,24`
+- Host uptime: `23:00:40 up 9 days, 7:47, 1 user, load average: 0,51, 0,34, 0,26`
 - Load average: healthy
-- Memory / Swap: healthy — `Mem 6,6Gi/13Gi; Swap 7,1Gi/17Gi`
+- Memory / Swap: healthy — `Mem 6,7Gi/13Gi; Swap 7,1Gi/17Gi`
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -26,7 +26,7 @@
 
 ## Spot check
 - 0 raw file(s) waiting for CompileAgent.
-- raw/: 23 markdown source/index file(s).
+- raw/: 24 markdown source/index file(s).
 - wiki/sources/: 17 source file(s).
 - wiki/concepts/: 78 concept file(s).
 - Format drift persists: 147 concept/source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).

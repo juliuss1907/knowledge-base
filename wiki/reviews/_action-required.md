@@ -69,74 +69,7 @@
 
 ## Pending Reports
 
-### 1. Output Validation -- 2026-05-14
-
-**File:** [2026-05-14_output-report.md](2026-05-14_output-report.md)
-**Status:** partially approved
-**Created:** 2026-05-14 23:00:00
-**Issues:** 4 (1 ERROR -> Fix Agent, 1 WARNING, 2 INFO)
-
-**Actions for Fix Agent:**
-- Fix wikilink format in 7 concept files (see Critical Issues above)
-
----
-
-### 2. Format Validation -- 2026-05-14
-
-**File:** [2026-05-14_format-report.md](2026-05-14_format-report.md)
-**Status:** partially approved
-**Created:** 2026-05-14 23:18:48
-**Issues:** 3 (0 ERROR, 2 WARNING -> 1 Fix Agent, 1 INFO)
-
-**Actions for Fix Agent:**
-- Remove `date_ingested` field from 2 source files (see Critical Issues above)
-
----
-
-### 3. Format Validation -- 2026-05-17
-
-**File:** [2026-05-17_format-report.md](2026-05-17_format-report.md)
-**Status:** pending
-**Created:** 2026-05-17 23:15:00
-**Issues:** 5 (0 ERROR, 5 WARNING, 0 INFO)
-
-**Actions for Fix Agent:**
-- Fix extra fields and field order in `wiki/sources/src_how-ai-productivity-fails.md`
-- Fix extra fields and field order in `wiki/sources/src_how-some-people-become-unrecognizable.md`
-- Convert `sub_tags` to bracket syntax in both files
-- Fix broken wikilink `[[transposed-organization]]` in `src_how-ai-productivity-fails.md`
-
-[SPEC CONFLICT] pending: `sources` array syntax in concept files -- bracket vs YAML list (see report escalation)
-
----
-
-### 4. Hygiene Inspection -- 2026-05-14 [RESOLVED]
-
-**File:** [2026-05-14_hygiene-report.md](2026-05-14_hygiene-report.md)
-**Status:** resolved
-**Created:** 2026-05-14 23:34:24
-**Resolution:** folder-structure.md v1.1 + missing folders created
-- 14 issues all addressed via spec update
-
----
-
-### 5. Hygiene Inspection -- 2026-05-17
-
-**File:** [2026-05-17_hygiene-report.md](2026-05-17_hygiene-report.md)
-**Status:** pending
-**Created:** 2026-05-17 23:35:00
-**Issues:** 20 (2 ERROR, 18 WARNING, 0 INFO)
-
-**Key findings:**
-- 2 ERROR: `memory/` folder at KB root (non-standard) + `wiki/meta/index-spec.md` not in meta/ whitelist
-- 5 WARNING: Stale .bak/.tmp files in .openclaw/ -- safe for auto-cleanup
-- 13 WARNING: Legitimate runtime folders/identity files in .openclaw/ and .hermes/ not yet whitelisted in folder-structure.md
-
-[ESCALATION] 10+ WARNINGs are legitimate runtime folders. Recommend expanding agent home whitelists (S3.1 & S3.2) to use broader runtime-folder categories or catch-all clauses.
-
----
-
-### 6. Hygiene Inspection -- 2026-05-20 (NEW)
+### 1. Hygiene Inspection -- 2026-05-20
 
 **File:** [2026-05-20_hygiene-report.md](2026-05-20_hygiene-report.md)
 **Status:** pending
@@ -153,7 +86,11 @@
 
 ## Recently Applied
 
-*No recently applied reports.*
+- [x] Output Validator — 2026-05-14 (wikilink fix — marked resolved 2026-05-21)
+- [x] Format Validator — 2026-05-14 (date_ingested removal — marked resolved 2026-05-21)
+- [x] Format Validator — 2026-05-17 (extra fields, bracket syntax, broken wikilink — marked resolved 2026-05-21)
+- [x] Hygiene Inspector — 2026-05-14 (folder-structure.md v1.1 + missing folders — marked resolved 2026-05-21)
+- [x] Hygiene Inspector — 2026-05-17 (memory/ folder, stale files, runtime whitelist — marked resolved 2026-05-21)
 
 ---
 

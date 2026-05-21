@@ -103,10 +103,24 @@ All use model from skill's frontmatter (no `--model` flag on `hermes cron create
 ## Pitfalls
 
 - **`cronjob` tool ≠ `hermes cron create`** — even if `croniter` is installed in the hermes venv, the agent's `cronjob` tool uses a different Python process that cannot import it. Don't try to install `croniter` via the agent — just tell the user to use the CLI.
+- **Cron sessions don't run in KB root by default** — validation jobs that reference relative paths (e.g., `wiki/meta/format-spec.md`) will fail with FATAL if the session's working directory is wrong. **Always prepend `cd /home/julius/knowledge-base &&` to every KB validation cron prompt.** This was the root cause of Format Validator FATAL on 2026-05-20.
+- **To fix existing cron prompts**: use `hermes cron edit <job_id> --prompt "cd /home/julius/knowledge-base && <original prompt>"` on the VPS terminal. Note: editing prompt with `--schedule` at the same time requires croniter — do them in separate commands if needed.
 - **Job IDs are machine-specific** — jobs created via `cronjob` tool go to `~/.hermes/cron/jobs.json` on the CURRENT machine. If you're on the main machine, the VPS won't see them. Always create jobs directly on the machine where the scheduler runs.
 - **`cronjob` tool list shows current machine only** — use `hermes cron list` on the target machine to see what's actually scheduled.
 - **`--model` flag not available** — `hermes cron create` doesn't have a `--model` flag. Model is determined by the skill's SKILL.md frontmatter.
 - **`--deliver` defaults to `local` for CLI-created jobs** — when creating jobs from VPS terminal (not from within a chat), the default delivery is `local` (save to file only, no Telegram). Always explicitly add `--deliver origin` to `hermes cron create`. If you forgot, fix with `hermes cron edit <job_id> --deliver origin`.
 - **`hermes cron edit` can fix deliver after creation** — `hermes cron edit <job_id> --deliver origin` changes the delivery target without recreating the job.
+- **Editing schedule may require separate commands** — when using `hermes cron edit` with both `--schedule` and `--prompt`, cron expression parsing may fail even on VPS. Safer to update schedule and prompt in separate `hermes cron edit` calls.
 - **Stale one-shot jobs accumulate** — after creating recurring cron jobs, old one-shot duplicates may persist. Always `hermes cron list` and remove them.
 - **`jobs.json` is in `.gitignore`** — cron job definitions are NOT synced between machines. Each machine manages its own cron independently via Hermes scheduler.
+
+## Maintenance: Cleaning up _action-required.md
+
+After validating, old reports accumulate in `wiki/reviews/_action-required.md`. To prevent Kara (Fix Agent) from processing stale issues:
+
+1. Mark all pre-target-date reports as resolved in the Summary section
+2. Remove their entries from Critical Issues, Warnings, Info, and Pending Reports sections
+3. Add them to Recently Applied with date of resolution
+4. Update `Pending reports:` count and `Last updated:` timestamp
+
+This keeps the action file focused on only the current pending work.

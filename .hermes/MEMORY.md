@@ -76,6 +76,17 @@
 
 ---
 
+## 2026-05-21 23:05:00 — Output validation
+
+- **Validator:** output-validator
+- **Files checked:** 96 (19 new, 77 existing)
+- **New files:** 19 (5 sources + 14 concepts compiled today)
+- **Issues found:** 11 (0 ERROR, 6 WARNING, 5 INFO)
+- **Report:** wiki/reviews/2026-05-21_output-report.md
+- **Status:** complete
+- **Notes:** No ERRORs — all 19 new files are well-formed. Systematic patterns: (1) 3 concept files have 4 key ideas instead of 5-10 minimum, (2) 15+ missing concept files referenced as wikilinks across 7 source/concept files — pending compilation by Compile Agent, (3) all 14 new concept files have empty `## Notes` sections, consistent with previous validation runs. One Vietnamese typo ("tiếm" → "tiếng") in hunter-gatherer-lifestyle.md. Source file src_hermes-xurl-skill-guide.md has empty Original excerpts section.
+- **Top issues:** 3 files with too few key ideas (evolutionary-mismatch, default-mode-network, dunbar-number), 15+ broken wikilinks, empty sections
+
 ## 2026-05-20 23:30:00 — Hygiene inspection
 
 - **Paths checked:** 5738 (full KB scan)

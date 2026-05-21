@@ -4,16 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-21 10:00:00
+**Last updated:** 2026-05-21 23:05:00
 
 ---
 
 ## Summary
 
-**Pending reports:** 0
+**Pending reports:** 1
 
 **Status:**
-- ✅ All reports resolved — KB clean.
+- ⚠️ 1 pending report requires Julius review
 
 **Resolved reports:**
 - [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
@@ -49,7 +49,23 @@ Last resolved: Stale backup/tmp files in .openclaw/ — deleted
 
 ## Pending Reports
 
-*No pending reports — all resolved by Julius 2026-05-21.*
+### 1. Output Validation — 2026-05-21
+
+**File:** [2026-05-21_output-report.md](2026-05-21_output-report.md)
+**Status:** pending
+**Created:** 2026-05-21 23:05:00
+**Issues:** 11 (0 ERROR, 6 WARNING, 5 INFO)
+**Files affected:** 19 new files (5 sources + 14 concepts)
+
+**Summary:**
+- 0 critical quality issues (no ERRORs)
+- 6 warnings: empty excerpts section, 3 files with too few key ideas, Vietnamese typo, broken wikilinks
+- 5 info: excess key points, 15+ pending concept compilations, empty Notes sections
+
+**Actions:**
+- `approve output` — approve this report
+- `reject output` — reject this report
+- `show output` — show full report details
 
 ---
 

@@ -32,7 +32,7 @@ hermes cron create \
   --deliver origin \
   --skill output-validator \
   "0 23 * * *" \
-  "Chạy Output Validator: đọc toàn bộ wiki/sources/*.md và wiki/concepts/*.md, validate content quality theo 4 dimensions. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
+  "cd /home/julius/knowledge-base && Chạy Output Validator: đọc toàn bộ wiki/sources/*.md và wiki/concepts/*.md, validate content quality theo 4 dimensions. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
 
 # Format Validator — 23:15 daily
 hermes cron create \
@@ -40,7 +40,7 @@ hermes cron create \
   --deliver origin \
   --skill format-validator \
   "15 23 * * *" \
-  "Chạy Format Validator: đọc format-spec.md và toàn bộ wiki, validate format compliance 4 categories. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
+  "cd /home/julius/knowledge-base && Chạy Format Validator: đọc format-spec.md và toàn bộ wiki, validate format compliance 4 categories. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
 
 # Hygiene Inspector — 23:30 daily
 hermes cron create \
@@ -48,8 +48,10 @@ hermes cron create \
   --deliver origin \
   --skill hygiene-inspector \
   "30 23 * * *" \
-  "Chạy Hygiene Inspector: đọc folder-structure.md, scan toàn bộ cây thư mục, validate 3 dimensions. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
+  "cd /home/julius/knowledge-base && Chạy Hygiene Inspector: đọc folder-structure.md, scan toàn bộ cây thư mục, validate 3 dimensions. Viết report, gửi Telegram. Read-only. Giới hạn top 20 issues."
 ```
+
+**Critical:** ALL prompts must start with `cd /home/julius/knowledge-base &&` because cron sessions run in default working directory, NOT the knowledge base root. Without this, `wiki/meta/format-spec.md` and other relative paths will fail with FATAL.
 
 **No Linux crontab needed.** Hermes scheduler handles recurrence automatically. Jobs persist in `~/.hermes/cron/jobs.json`.
 
@@ -104,6 +106,7 @@ All use model from skill's frontmatter (no `--model` flag on `hermes cron create
 
 - **`cronjob` tool ≠ `hermes cron create`** — even if `croniter` is installed in the hermes venv, the agent's `cronjob` tool uses a different Python process that cannot import it. Don't try to install `croniter` via the agent — just tell the user to use the CLI.
 - **Cron sessions don't run in KB root by default** — validation jobs that reference relative paths (e.g., `wiki/meta/format-spec.md`) will fail with FATAL if the session's working directory is wrong. **Always prepend `cd /home/julius/knowledge-base &&` to every KB validation cron prompt.** This was the root cause of Format Validator FATAL on 2026-05-20.
+- **Some cron jobs auto-disable after each run** — observed with X News Brief jobs (created via `hermes cron create` CLI). After running successfully (`last_status: ok`), the job flips to `enabled: false, state: completed` instead of staying `enabled: true, state: scheduled` for the next recurrence. This prevents delivery of output and blocks the next scheduled run. **Fix:** `hermes cron resume <job_id>` restores scheduled state. Root cause unknown — may be a Hermes scheduler bug. Monitor after each run; if auto-disable persists, consider a watchdog approach or file a bug.
 - **To fix existing cron prompts**: use `hermes cron edit <job_id> --prompt "cd /home/julius/knowledge-base && <original prompt>"` on the VPS terminal. Note: editing prompt with `--schedule` at the same time requires croniter — do them in separate commands if needed.
 - **Job IDs are machine-specific** — jobs created via `cronjob` tool go to `~/.hermes/cron/jobs.json` on the CURRENT machine. If you're on the main machine, the VPS won't see them. Always create jobs directly on the machine where the scheduler runs.
 - **`cronjob` tool list shows current machine only** — use `hermes cron list` on the target machine to see what's actually scheduled.

@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 13:30:00 Asia/Saigon
+- Last checked: 2026-05-21 14:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 13:30:33 up 8 days, 22:17,  1 user,  load average: 0,22, 0,24, 0,26`
+- Host uptime: ` 14:00:38 up 8 days, 22:47,  1 user,  load average: 0,67, 0,37, 0,27`
 - Load average: healthy
 - Memory / Swap: healthy
 ```text
@@ -31,7 +31,7 @@ Tráo đổi:       17Gi       7,1Gi        10Gi
 
 ## Spot check
 - 0 raw file(s) waiting for CompileAgent.
-- raw/: 23 markdown source file(s).
+- raw/: 17 markdown source file(s).
 - wiki/concepts/: 78 concept file(s).
 - Format drift persists: 147 concept source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.

@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 12:30:00 Asia/Saigon
+- Last checked: 2026-05-21 13:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `12:31:00 up 8 days, 21:17,  1 user,  load average: 0,27, 0,29, 0,26`
+- Host uptime: ` 13:02:28 up 8 days, 21:48,  1 user,  load average: 0,36, 0,57, 0,44`
 - Load average: healthy
 - Memory / Swap: healthy
 ```text
@@ -18,7 +18,7 @@ Tráo đổi:       17Gi       7,1Gi        10Gi
 - Workspace: `/home/julius/knowledge-base`
 - Disk `/`: healthy — `/dev/mapper/vgmint-root  230G   38G  181G   18% /`
 - Raw backlog: 0 file(s) with `status: unprocessed`
-- Pending review action file: present; no pending reports
+- Pending review action file: present; pending markers: 0
 - Gateway CLI check: skipped in cron heartbeat
 
 ## Raw backlog
@@ -26,7 +26,7 @@ Tráo đổi:       17Gi       7,1Gi        10Gi
 
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
-- Pending reports: 0
+- Pending markers: 0
 - State: clean.
 
 ## Spot check

@@ -2,12 +2,12 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 06:30:00 Asia/Saigon
+- Last checked: 2026-05-21 07:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `06:30:29 up 8 days, 15:16, 1 user, load average: 0,52, 0,41, 0,42`
+- Host uptime: `07:00:44 up 8 days, 15:47,  1 user,  load average: 1,22, 0,58, 0,43`
 - Load average: healthy
-- Memory: healthy — BNhớ: 13Gi total, 6,5Gi used, 1,4Gi free, 7,1Gi available
-- Swap: healthy — Tráo đổi: 17Gi total, 7,1Gi used, 10Gi free
+- Memory: healthy — BNhớ:           13Gi       7,0Gi       939Mi       211Mi       6,2Gi       6,6Gi
+- Swap: healthy — Tráo đổi:       17Gi       7,1Gi        10Gi
 
 ## OpenClaw checks
 - Runtime: responsive
@@ -15,7 +15,7 @@
 - Disk `/`: healthy — 18% used, 181G free
 - Raw backlog: 5 file(s) with `status: unprocessed`
 - Inbox markers: 0 actionable marker(s) found in `Tasks/`
-- Pending review action file: present; mtime: 2026-05-20 23:39:26 Asia/Saigon; size: 9517 bytes
+- Pending review action file: present; still requires action/review; mtime: 2026-05-20 23:39:26 Asia/Saigon; size: 9517 bytes
 - Gateway CLI check: skipped in cron heartbeat
 
 ## Raw backlog

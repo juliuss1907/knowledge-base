@@ -73,8 +73,8 @@
   - 5 WARNING: stale .bak/.tmp files in .openclaw/ (safe auto-cleanup)
 - **Escalations:** folder-structure.md §3.1 & §3.2 too narrow — legitimate runtime folders flagged as WARNINGs; meta/ §7 conflicts with AGENTS.md re: index-spec.md
 - **Recommendation:** Expand agent home whitelists to use broader runtime-folder categories
-
----
+  - 3 WARNING: stale .bak/.tmp files in .openclaw/ (safe auto-cleanup)
+- **Assessment:** KB structure is clean. folder-structure.md v1.2 catch-all clauses eliminated runtime folder noise. Only genuine anomalies remain.
 
 ## 2026-05-21 23:05:00 — Output validation
 
@@ -86,6 +86,27 @@
 - **Status:** complete
 - **Notes:** No ERRORs — all 19 new files are well-formed. Systematic patterns: (1) 3 concept files have 4 key ideas instead of 5-10 minimum, (2) 15+ missing concept files referenced as wikilinks across 7 source/concept files — pending compilation by Compile Agent, (3) all 14 new concept files have empty `## Notes` sections, consistent with previous validation runs. One Vietnamese typo ("tiếm" → "tiếng") in hunter-gatherer-lifestyle.md. Source file src_hermes-xurl-skill-guide.md has empty Original excerpts section.
 - **Top issues:** 3 files with too few key ideas (evolutionary-mismatch, default-mode-network, dunbar-number), 15+ broken wikilinks, empty sections
+
+## 2026-05-21 23:15:00 — Format validation
+
+- **Validator:** format-validator
+- **Files checked:** 95 (78 concepts + 17 sources)
+- **Issues found:** 20 (3 ERROR, 17 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-21_format-report.md
+- **Status:** complete
+- **Notes:** 3 ERRORs: 2 invalid sub_tag usage (`economic` is Pool A, not Pool B), 1 code block missing language tag. 17 WARNINGs: 9 section case mismatches (`Key Ideas`→`Key ideas`, `Related Concepts`→`Related concepts`), 7 wikilink-wrapped `original` fields, 1 deprecated `date_ingested`. Systemic: 4 concepts from same compile run share identical section case issues.
+- **Top issues:** Section case mismatches (systemic in same compile run), invalid sub_tag, deprecated fields
+
+## 2026-05-21 23:30:00 — Hygiene inspection
+
+- **Paths checked:** 5755 (966 folders + 4789 files)
+- **Issues found:** 9 (0 ERROR, 9 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-21_hygiene-report.md
+- **Top violations:**
+  - All 9 WARNINGs: stale backup (.bak) files in .openclaw/ agent runtime
+  - 5 from .openclaw/cron/jobs.json.bak.*, 4 from .openclaw/openclaw.json.bak.*
+- **Assessment:** Clean bill of health. No structural violations in raw/, wiki/, or context/ layers. All paths comply with folder-structure.md v1.2. folder-structure.md v1.2 catch-all clauses for agent homes working correctly — zero noise from runtime folders. Only residual .bak files remain from pre-v1.2 cleanup cycle.
+- **Recommendation:** None urgent — .bak files are safe to delete and not in KB content zones. Julius can run `rm .openclaw/cron/jobs.json.bak.* .openclaw/openclaw.json.bak.* .openclaw/openclaw.json.bak_2026-04-20 .openclaw/openclaw.json.clobbered.*` to clear them.
 
 ## 2026-05-20 23:30:00 — Hygiene inspection
 

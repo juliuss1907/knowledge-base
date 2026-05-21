@@ -700,6 +700,71 @@ for depth in sorted(paths_by_depth.keys()):
 
 ---
 
+## Common Pitfalls (learned from false positives)
+
+These are implementation bugs that produce false-positive hygiene violations. Avoid them.
+
+### 1. Single-word folder names flagged as "not lowercase-hyphen"
+
+**Bug:** `check_naming()` reports `concepts`, `sources`, `meta` etc. as violations.
+
+**Root cause:** The exemption logic uses `os.path.dirname(path)` to get the parent folder, but for depth-1 directories like `wiki/concepts`, the parent is `wiki`, not `wiki/concepts`. The exemption for wiki subfolders never fires.
+
+**Fix:** Validate depth-1 wiki/ subfolders only against the whitelist (`wiki_items` set), not against the naming regex. Only apply naming checks to actual content (depth 2+ files/folders).
+
+```python
+# WRONG — flags wiki/concepts as naming violation
+if path.startswith('wiki/') and p['type'] == 'directory':
+    check_naming(path, 'directory')
+
+# RIGHT — only whitelist-check depth-1 wiki/ folders  
+if p['depth'] == 1 and path.startswith('wiki/') and p['type'] == 'directory':
+    if name not in wiki_items:
+        add_issue(...)  # Path violation only, no naming check
+```
+
+### 2. `.gitkeep` files flagged as naming violations
+
+**Bug:** `.gitkeep` in `wiki/tag/` or `wiki/topic/` triggers "filename not lowercase-hyphen".
+
+**Fix:** Always skip hidden files (starting with `.`) in naming checks:
+```python
+if name.startswith('.'):
+    return  # .gitkeep, .gitignore etc. are always allowed
+```
+
+### 3. `wiki/wiki.md` flagged as "unexpected wiki/ location"
+
+**Bug:** Orphan check at depth 2+ looks at all `wiki/` files and flags `wiki/wiki.md` (which is at `wiki/` root — depth 1, not depth 2).
+
+**Root cause:** The orphan check iterates all `wiki/` paths without checking depth. `wiki/wiki.md` has `parts = ['wiki', 'wiki.md']`, so `sub = parts[1]` is `wiki.md`, which isn't in the allowed subfolder list.
+
+**Fix:** Only apply depth-2+ orphan checks to paths with `depth >= 2`. Depth-1 wiki/ files are validated separately against `wiki_items`.
+
+### 4. `venv` not fully skipped — partial recursion
+
+**Bug:** `dirnames[:] = [d for d in dirnames if d not in IGNORED_DIRS]` catches `venv` at the dirname level, but the deeper `venv/lib/python3.11/site-packages/...` tree already entered `all_paths` before hitting the filter at the right level.
+
+**Fix:** Use a path-level skip function checked at every `os.walk` iteration:
+```python
+def skip_path(rel):
+    return ('/venv/' in rel or '/venv' in rel or 
+            '/node_modules/' in rel or '/.git/' in rel)
+
+# In the walk loop:
+if skip_path(rel):
+    dirnames[:] = []  # Don't recurse
+    continue
+```
+
+### 5. `json` module not imported in execute_code
+
+**Bug:** `NameError: name 'json' is not defined` when trying to dump debug output.
+
+**Fix:** Always include `import json` in execute_code scripts that may need it, even for debug output.
+
+---
+
 ## Validation Checklist
 
 Before marking validation complete:

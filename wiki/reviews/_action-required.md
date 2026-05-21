@@ -4,54 +4,29 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-20 23:30:00
+**Last updated:** 2026-05-21 09:30:00
 
 ---
 
 ## Summary
 
-**Pending reports:** 6
+**Pending reports:** 1
 
 **Status:**
-- Output Validator: 1 pending report (4 issues -- **1 ERROR ready for Fix Agent**)
-- Format Validator: 2 pending reports (2026-05-14: 3 issues -> 1 Fix Agent / 2026-05-17: 5 issues -- **5 WARNING ready for Fix Agent**)
-- Hygiene Inspector: 2 pending reports (2026-05-17: 20 issues -> 2 ERROR, 18 WARNING / 2026-05-20: 6 issues -- 3 ERROR, 3 WARNING)
+- Hygiene Inspector: 1 pending report (2026-05-20: 6 issues — 3 ERROR, 3 WARNING)
 
-**Fixed by Julius (2026-05-15):**
-- [x] folder-structure.md -> v1.1: runtime artifacts whitelisted (S3.1 & S3.2), symlinks allowed (S2), skills expanded (S4)
-- [x] format-spec.md -> wikilink canonical: bare slug `[[src_slug]]`, full path deprecated (S6.1 & S6.2)
-- [x] Created missing folders: `wiki/drafts/`, `wiki/reviews/archive/`, `wiki/tag/`, `wiki/topic/`
+**Resolved reports (pre-2026-05-20):**
+- [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
+- [x] Format Validator — 2026-05-14 (3 issues: date_ingested removal + warnings)
+- [x] Format Validator — 2026-05-17 (5 issues: extra fields, bracket syntax, broken wikilink)
+- [x] Hygiene Inspector — 2026-05-14 (14 issues: folder-structure.md v1.1 + missing folders)
+- [x] Hygiene Inspector — 2026-05-17 (20 issues: memory/ folder, stale files, runtime whitelist)
 
 ---
 
 ## Critical Issues (Fix Immediately)
 
-### Output Validator -- 2026-05-14
-
-**1. Incorrect wikilink format in frontmatter `sources` field** -- ERROR  
--> **APPROVED for Fix Agent**
-- 7 concept files use `[[wiki/sources/src_active-vs-lazy-thinking]]` instead of `[[src_active-vs-lazy-thinking]]`
-- Affected files:
-  - `wiki/concepts/philosopher-syndrome.md`
-  - `wiki/concepts/information-compression.md`
-  - `wiki/concepts/abstraction-layer-fallacy.md`
-  - `wiki/concepts/organizational-incrementalism.md`
-  - `wiki/concepts/nice-syndrome.md`
-  - `wiki/concepts/lazy-thinking.md`
-  - `wiki/concepts/active-thinking.md`
-- **Fix:** Replace `[[wiki/sources/src_active-vs-lazy-thinking]]` -> `[[src_active-vs-lazy-thinking]]` in each file's frontmatter `sources` field
-
-### Format Validator -- 2026-05-14
-
-**1. Legacy `date_ingested` field in source files** -- WARNING  
--> **APPROVED for Fix Agent**
-- 2 source files have `date_ingested` field (removed in format-spec v2.0)
-- Affected files:
-  - `wiki/sources/src_what-comes-after-systems-thinking.md`
-  - `wiki/sources/src_active-vs-lazy-thinking.md`
-- **Fix:** Remove the `date_ingested` line from both files (keep `date_compiled`)
-
-### Hygiene Inspector -- 2026-05-20 (NEW)
+### Hygiene Inspector -- 2026-05-20
 
 **1. `EOF` file at KB root** -- ERROR  
 -> **REQUIRES JULIUS REVIEW**
@@ -60,7 +35,7 @@
 - Either remove or add to .gitignore
 
 **2. `memory/` folder at KB root** -- ERROR  
--> **REQUIRES JULIUS REVIEW (carried over from 2026-05-17)**
+-> **REQUIRES JULIUS REVIEW**
 - Non-standard folder at knowledge-base/ root level
 - Contains Hermes heartbeat polls and session notes (2026-05-19.md, 2026-05-20.md, .dreams/)
 - Content should be merged into `.openclaw/memory/` per AGENTS.md S4.1
@@ -71,41 +46,11 @@
 - Empty directory at knowledge-base/ root (no files)
 - Purpose unclear; safe to remove
 
-### Hygiene Inspector -- 2026-05-17
-
-**1. `memory/` folder at KB root** -- ERROR
--> **REQUIRES JULIUS REVIEW** (still unresolved, also in 2026-05-20 report)
-- Non-standard folder at knowledge-base/ root level
-- Contains Hermes heartbeat polls and session notes (2026-05-15-heartbeat-poll.md, 2026-05-17.md)
-- Either remove or add to folder-structure.md root whitelist
-
-**2. `wiki/meta/index-spec.md` not in meta/ whitelist** -- ERROR
--> **REQUIRES JULIUS REVIEW**
-- AGENTS.md lists index-spec.md as ground-truth reference alongside format-spec and folder-structure.md
-- But folder-structure.md S7 says meta/ contains exactly 3 files (now updated in v1.2)
-- Note: v1.2 change log mentions "Updated meta/ count from 2 to 3 (added index-spec.md)" — appears resolved in spec but report not yet approved
-
-### Hygiene Inspector -- 2026-05-14
-
-[RESOLVED by Julius] -- folder-structure.md updated to v1.1, all folders created
-
 ---
 
 ## Warnings (Can Fix Later)
 
-### Output Validator -- 2026-05-14
-
-**1. Empty `## Notes` sections in all 12 concept files** -- WARNING
-- All concept files have empty Notes section headers
-- Either remove or add annotations
-- Not urgent -- can wait for Julius review
-
-### Format Validator -- 2026-05-14
-
-**1. Field order disrupted by `date_ingested`** -- WARNING  
--> **FIXED by removing `date_ingested` (see Critical Issues above)**
-
-### Hygiene Inspector -- 2026-05-20 (NEW)
+### Hygiene Inspector -- 2026-05-20
 
 **1-3. Stale backup/tmp files in .openclaw/** -- WARNING  
 -> **SAFE FOR AUTO-CLEANUP by Fix Agent**
@@ -114,45 +59,11 @@
 - `.openclaw/openclaw.json.bak.3` — old backup chain (keep .bak.1 only)
 - **Fix:** Delete all three files
 
-### Hygiene Inspector -- 2026-05-17
-
-**1-6. Stale .bak/.tmp files in .openclaw/** -- WARNING
--> **SAFE FOR AUTO-CLEANUP by Fix Agent**
-- `.openclaw/cron/jobs.json.bak`
-- `.openclaw/devices/paired.json.*.tmp`
-- `.openclaw/devices/paired.json.bak`
-- `.openclaw/devices/pending.json.bak`
-- `.openclaw/devices/pending.json.*.tmp`
-- `.openclaw/openclaw.json.bak`
-
-**7-18. Legitimate runtime folders not whitelisted** -- WARNING
--> **REQUIRES JULIUS REVIEW (spec update)**
-- .openclaw/: canvas, completions, devices, flows -- all legitimate OpenClaw runtime folders
-- .openclaw/: TOOLS.md, USER.md -- additional identity files
-- .hermes/: bin, cache, logs, memories -- legitimate Hermes runtime folders
-- **Recommendation:** Expand S3.1 and S3.2 to allow broader runtime folder categories
-
-### Hygiene Inspector -- 2026-05-14
-
-**1. Non-standard file in skill folder** -- WARNING
-- [RESOLVED] -- `validation-criteria.md` now allowed in folder-structure.md S4
-
 ---
 
 ## Info & Suggestions
 
-### Output Validator -- 2026-05-14
-
-**1. Source summaries at minimum boundary (3 sentences)** -- INFO
-- Both source files (`src_what-comes-after-systems-thinking`, `src_active-vs-lazy-thinking`) at exactly 3 sentences
-
-**2. Key points above recommended range** -- INFO
-- 3 files (2 sources + 1 concept) have 10-11 items vs 5-10 target
-
-### Hygiene Inspector -- 2026-05-14
-
-**1-4. Expected subfolders not yet created** -- INFO
-- `wiki/tag/`, `wiki/topic/`, `wiki/drafts/`, `wiki/reviews/archive/` -- now created as of v1.1
+*No pending info-level issues.*
 
 ---
 

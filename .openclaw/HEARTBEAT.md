@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 14:30:00 Asia/Saigon
+- Last checked: 2026-05-21 15:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 14:30:40 up 8 days, 23:17,  1 user,  load average: 0,43, 0,44, 0,37`
+- Host uptime: ` 15:00:35 up 8 days, 23:47,  1 user,  load average: 0,26, 0,31, 0,29`
 - Load average: healthy
 - Memory / Swap: healthy
 ```text
@@ -18,7 +18,7 @@ Tráo đổi:       17Gi       7,1Gi        10Gi
 - Workspace: `/home/julius/knowledge-base`
 - Disk `/`: healthy — `/dev/mapper/vgmint-root  230G   38G  181G   18% /`
 - Raw backlog: 0 file(s) with `status: unprocessed`
-- Pending review action file: present; pending markers: 0
+- Pending review action file: present; pending reports: 0
 - Gateway CLI check: skipped in cron heartbeat
 
 ## Raw backlog
@@ -26,7 +26,7 @@ Tráo đổi:       17Gi       7,1Gi        10Gi
 
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
-- Pending markers: 0
+- Pending reports: 0
 - State: clean.
 
 ## Spot check
@@ -34,6 +34,8 @@ Tráo đổi:       17Gi       7,1Gi        10Gi
 - raw/: 24 markdown source file(s).
 - wiki/concepts/: 78 concept file(s).
 - Format drift persists: 147 concept source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
+- Spot concept check flagged possible missing source backlink: `wiki/concepts/complex-adaptive-systems.md`.
+- Git working tree has unrelated modified submodule/path: `.hermes/hermes-agent`.
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.
 
 ## Last result

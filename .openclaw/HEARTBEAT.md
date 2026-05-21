@@ -2,21 +2,16 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 18:30:00 Asia/Saigon
+- Last checked: 2026-05-21 19:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 18:30:31 up 9 days,  3:16,  1 user,  load average: 0,46, 0,33, 0,29`
+- Host uptime: `19:00:47 up 9 days, 3:47, 1 user, load average: 0.52, 0.38, 0.30`
 - Load average: healthy
 - Memory / Swap: healthy
-```text
-               total        used        free      shared  buff/cache   available
-BNhớ:           13Gi       6,6Gi       1,1Gi        40Mi       6,2Gi       7,0Gi
-Tráo đổi:       17Gi       7,1Gi        10Gi
-```
 
 ## OpenClaw checks
 - Runtime: responsive
 - Workspace: `/home/julius/knowledge-base`
-- Disk `/`: healthy — `/dev/mapper/vgmint-root  230G   38G  181G   18% /`
+- Disk `/`: healthy — last check 18:30 showed `/dev/mapper/vgmint-root  230G   38G  181G   18% /`
 - Raw backlog: 0 file(s) with `status: unprocessed`
 - Pending review action file: present; pending reports: 0
 - Gateway CLI check: skipped in cron heartbeat

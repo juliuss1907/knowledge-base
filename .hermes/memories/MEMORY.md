@@ -10,3 +10,5 @@ On this VPS, Hermes cron `create` with cron expression (`0 15 * * *`) fails with
 Máy chính working dir: /home/julius/julius-workspace/knowledge-base (KHÁC với VPS: /home/julius/knowledge-base). Obsidian Git plugin trên máy chính auto-sync cạnh tranh lock với git CLI thủ công — cần tắt Obsidian hoặc plugin trước khi chạy git merge/push. Micro editor để lại backup MERGE_MSG ở ~/.config/micro/backups/ — mỗi merge sẽ prompt [r]ecover/[i]gnore/[a]bort, chọn 'i'.
 §
 Validation pipeline (2026-05-14): Kara compile 08:00 (kimi-k2.5), index 21:00 (gemma-4-31b). Connor validate 23:00 Output / 23:15 Format / 23:30 Hygiene (all glm-5.1 via opencode). Cron jobs created on VPS via `hermes cron create` — cron expressions work on VPS (croniter available). Hermes gateway scheduler auto-fires, no Linux crontab needed. Job IDs: d48e30a9a963, d14687442111, f1ff44c008e2.
+§
+Connor (Hermes) QUY TẮC CỨNG: KHÔNG tự sửa file trong wiki/concepts/. Chỉ validate + report. Việc sửa lỗi (compile lại, format, hygiene) thuộc về Kara (Compile Agent). Connor chỉ ghi verdict vào wiki/reviews/, không được patch/sửa bất kỳ concept file nào.

@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-22 01:00:00 Asia/Saigon
+- Last checked: 2026-05-22 01:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `01:00:40 up 9 days,  9:47,  1 user,  load average: 0,60, 0,39, 0,31`
+- Host uptime: `01:30:42 up 9 days, 10:17, 1 user, load average: 0,54, 0,32, 0,27`
 - Load average: healthy
 - Memory / Swap: healthy — `Mem 6,7Gi/13Gi; Swap 7,1Gi/17Gi`
 
@@ -13,7 +13,7 @@
 - Workspace: `/home/julius/knowledge-base`
 - Disk `/`: healthy — `/dev/mapper/vgmint-root  230G   38G  181G   18% /`
 - Raw backlog: 0 file(s) with `status: unprocessed`
-- Pending review action file: present; pending reports: 7
+- Pending review action file: present; pending reports: 3
 - Gateway CLI check: skipped in cron heartbeat
 
 ## Raw backlog
@@ -21,8 +21,12 @@
 
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
-- Pending reports: 7
+- Pending reports: 3
 - State: requires Julius review.
+- Reports:
+  - Output Validation — 2026-05-21
+  - Format Validation — 2026-05-21
+  - Hygiene Inspection — 2026-05-21
 
 ## Spot check
 - 0 raw file(s) waiting for CompileAgent.

@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 16:00:00 Asia/Saigon
+- Last checked: 2026-05-21 16:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 16:00:53 up 9 days, 47 min,  1 user,  load average: 0,37, 0,31, 0,28`
+- Host uptime: `16:30:32 up 9 days, 1:16, 1 user, load average: 0,36, 0,23, 0,24`
 - Load average: healthy
 - Memory / Swap: healthy
 ```text
@@ -31,9 +31,9 @@ Tráo đổi:       17Gi       7,1Gi        10Gi
 
 ## Spot check
 - 0 raw file(s) waiting for CompileAgent.
-- raw/: 24 markdown source file(s).
+- raw/: 23 markdown source file(s).
 - wiki/concepts/: 78 concept file(s).
-- Format drift persists: 147 concept source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
+- Format drift persists: 147 concept/source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
 - Spot concept check: no missing source backlink found in sampled files.
 - Git working tree has changes:
   - ` m .hermes/hermes-agent`

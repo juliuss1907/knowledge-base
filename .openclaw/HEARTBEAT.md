@@ -2,14 +2,14 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-21 18:00:00 Asia/Saigon
+- Last checked: 2026-05-21 18:30:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: ` 18:00:41 up 9 days,  2:47,  1 user,  load average: 0,53, 0,31, 0,28`
+- Host uptime: ` 18:30:31 up 9 days,  3:16,  1 user,  load average: 0,46, 0,33, 0,29`
 - Load average: healthy
 - Memory / Swap: healthy
 ```text
                total        used        free      shared  buff/cache   available
-BNhớ:           13Gi       6,6Gi       1,2Gi        40Mi       6,2Gi       7,0Gi
+BNhớ:           13Gi       6,6Gi       1,1Gi        40Mi       6,2Gi       7,0Gi
 Tráo đổi:       17Gi       7,1Gi        10Gi
 ```
 

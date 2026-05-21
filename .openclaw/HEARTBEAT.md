@@ -2,9 +2,9 @@
 
 ## Agent health
 - Status: healthy
-- Last checked: 2026-05-22 00:30:31 Asia/Saigon
+- Last checked: 2026-05-22 01:00:00 Asia/Saigon
 - Host: `julius-vps`
-- Host uptime: `00:30:31 up 9 days,  9:16,  1 user,  load average: 0,73, 0,43, 0,32`
+- Host uptime: `01:00:40 up 9 days,  9:47,  1 user,  load average: 0,60, 0,39, 0,31`
 - Load average: healthy
 - Memory / Swap: healthy — `Mem 6,7Gi/13Gi; Swap 7,1Gi/17Gi`
 
@@ -13,7 +13,7 @@
 - Workspace: `/home/julius/knowledge-base`
 - Disk `/`: healthy — `/dev/mapper/vgmint-root  230G   38G  181G   18% /`
 - Raw backlog: 0 file(s) with `status: unprocessed`
-- Pending review action file: present; pending reports: 3
+- Pending review action file: present; pending reports: 7
 - Gateway CLI check: skipped in cron heartbeat
 
 ## Raw backlog
@@ -21,7 +21,7 @@
 
 ## Pending reviews
 - Pending review file: `wiki/reviews/_action-required.md`
-- Pending reports: 3
+- Pending reports: 7
 - State: requires Julius review.
 
 ## Spot check
@@ -31,7 +31,7 @@
 - wiki/concepts/: 78 concept file(s).
 - Format drift persists: 147 concept/source wikilink occurrence(s) still contain legacy full-path source wikilinks (`[[wiki/sources/src_...]]`).
 - Git working tree has changes:
-  - `m .hermes/hermes-agent`
+  - ` m .hermes/hermes-agent`
 - Agent runtime is responsive; host load, memory, swap, and disk are healthy.
 
 ## Last result

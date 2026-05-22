@@ -4,16 +4,17 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-22 23:10:00
+**Last updated:** 2026-05-22 23:15:00
 
 ---
 
 ## Summary
 
-**Pending reports:** 1
+**Pending reports:** 2
 
 **Status:**
 - ⚠️ Output Validator — 2026-05-22: 16 issues (8 WARNING, 8 INFO) — awaiting review
+- ℹ️ Format Validator — 2026-05-22: 11 issues (0 ERROR, 11 WARNING, 0 INFO) — awaiting review
 
 **Resolved reports:**
 - [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
@@ -37,6 +38,7 @@
 ## Warnings (Can Fix Later)
 
 - Output Validator 2026-05-22: 8 WARNING issues — see report for details
+- Format Validator 2026-05-22: 11 WARNING (extra sections, YAML syntax, legacy fields, field order)
 
 ---
 
@@ -52,6 +54,10 @@
   - WARNING: Empty Original excerpts (persistent), key points overflow × 6 files, missing trailing newlines × 3
   - INFO: 17 broken wikilinks, 49 empty Notes, format inconsistencies
   - Report: wiki/reviews/2026-05-22_output-report.md
+
+- [ ] **Format Validator — 2026-05-22** (11 issues: 0 ERROR + 11 WARNING)
+  - WARNING: Extra sections between required sections × 3, YAML list syntax × 3, legacy fields × 2, field order × 2
+  - Report: wiki/reviews/2026-05-22_format-report.md
 
 ---
 

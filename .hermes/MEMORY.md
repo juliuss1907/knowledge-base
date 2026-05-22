@@ -99,6 +99,18 @@
   - 3 WARNING: stale .bak/.tmp files in .openclaw/ (safe auto-cleanup)
 - **Assessment:** KB structure is clean. folder-structure.md v1.2 catch-all clauses eliminated runtime folder noise. Only genuine anomalies remain.
 
+## 2026-05-22 23:15 — Format validation
+
+- **Files checked:** 67 (50 concepts + 17 sources)
+- **Issues found:** 11 (0 ERROR, 11 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-22_format-report.md
+- **Top violations:**
+  - 3 WARNING: Extra sections between required sections (`## Setup`, `## Cost Comparison`, `## Comparison với x_search`)
+  - 3 WARNING: sub_tags using YAML list syntax instead of bracket syntax
+  - 2 WARNING: Legacy fields date_ingested/scope in source files
+  - 2 WARNING: Field order mismatch (date_compiled after url/author)
+- **Assessment:** Cleanest daily run ever. Zero ERRORs. All WARNINGs are convention drift from early-version Compile Agent output. No systematic issues.
+
 ## 2026-05-21 23:05:00 — Output validation
 
 - **Validator:** output-validator

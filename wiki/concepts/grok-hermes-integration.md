@@ -24,13 +24,6 @@ Tích hợp giữa Nous Research (Hermes) và xAI cho phép X Premium/Premium+ u
 - **Setup**: Authenticate với `hermes model` command, dùng `xai-oauth`
 - **Real-time capability**: Access real-time X data cho research
 
-## Cost Comparison
-
-| Method | Cost/ngày | Notes |
-|--------|-----------|-------|
-| X API | ~$0.5 | Fetch smart accounts |
-| x_search | ~$0.1 | Chỉ dùng cho X bookmark cron job |
-
 ## Related concepts
 
 - [[x-search-tool]]
@@ -39,5 +32,12 @@ Tích hợp giữa Nous Research (Hermes) và xAI cho phép X Premium/Premium+ u
 ## Sources
 
 - [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+
+## Cost Comparison
+
+| Method | Cost/ngày | Notes |
+|--------|-----------|-------|
+| X API | ~$0.5 | Fetch smart accounts |
+| x_search | ~$0.1 | Chỉ dùng cho X bookmark cron job |
 
 ## Notes

@@ -24,6 +24,15 @@ Tool của Hermes cho phép search X (Twitter) natively như SuperGrok, tích h�
 - **No X API needed**: Không cần X API subscription, tiết kiệm chi phí (~$0.1/ngày vs $0.5/ngày)
 - **Real-time data**: Access "town square" cho macro, geopolitics, tech, AI, crypto
 
+## Related concepts
+
+- [[grok-hermes-integration]]
+- [[six-stage-research-pipeline]]
+
+## Sources
+
+- [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+
 ## Setup
 
 ```yaml
@@ -34,14 +43,5 @@ x_search:
 ```
 
 **Lưu ý**: Dùng `xai-oauth` thay vì `xai` để đi qua Grok subscription thay vì xAI API.
-
-## Related concepts
-
-- [[grok-hermes-integration]]
-- [[six-stage-research-pipeline]]
-
-## Sources
-
-- [[wiki/sources/src_hermes-as-a-real-time-analyst]]
 
 ## Notes

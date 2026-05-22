@@ -23,13 +23,6 @@ MCP (Model Context Protocol) tool tích hợp với Cookie.fun — platform cung
 - **Complement x_search**: x_search cho real-time news và deep research, Cookie cho structured analytics
 - **Stage 2 của pipeline**: Dùng trong 6-stage research pipeline
 
-## Comparison với x_search
-
-| Tool | Mạnh | Yếu |
-|------|------|-----|
-| **Cookie** | Structured data, analytics, metrics | Real-time news, "why" explanations |
-| **x_search** | Real-time search, deep research | Raw output, cần post-processing |
-
 ## Related concepts
 
 - [[six-stage-research-pipeline]]
@@ -38,5 +31,12 @@ MCP (Model Context Protocol) tool tích hợp với Cookie.fun — platform cung
 ## Sources
 
 - [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+
+## Comparison với x_search
+
+| Tool | Mạnh | Yếu |
+|------|------|-----|
+| **Cookie** | Structured data, analytics, metrics | Real-time news, "why" explanations |
+| **x_search** | Real-time search, deep research | Raw output, cần post-processing |
 
 ## Notes

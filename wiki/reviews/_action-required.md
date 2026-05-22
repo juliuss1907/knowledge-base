@@ -4,16 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-22 08:00:00
+**Last updated:** 2026-05-22 23:10:00
 
 ---
 
 ## Summary
 
-**Pending reports:** 0
+**Pending reports:** 1
 
 **Status:**
-- ✅ All reports resolved — KB clean.
+- ⚠️ Output Validator — 2026-05-22: 16 issues (8 WARNING, 8 INFO) — awaiting review
 
 **Resolved reports:**
 - [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
@@ -36,19 +36,22 @@
 
 ## Warnings (Can Fix Later)
 
-*No warnings — all resolved.*
+- Output Validator 2026-05-22: 8 WARNING issues — see report for details
 
 ---
 
 ## Info & Suggestions
 
-*No pending info-level issues.*
+- Output Validator 2026-05-22: 8 INFO issues — see report for details
 
 ---
 
 ## Pending Reports
 
-*No pending reports — all resolved by Julius 2026-05-22.*
+- [ ] **Output Validator — 2026-05-22** (16 issues: 8 WARNING + 8 INFO)
+  - WARNING: Empty Original excerpts (persistent), key points overflow × 6 files, missing trailing newlines × 3
+  - INFO: 17 broken wikilinks, 49 empty Notes, format inconsistencies
+  - Report: wiki/reviews/2026-05-22_output-report.md
 
 ---
 

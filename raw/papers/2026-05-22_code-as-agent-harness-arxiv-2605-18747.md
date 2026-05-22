@@ -3,12 +3,11 @@ type: raw
 source_type: paper
 source_url: https://www.alphaxiv.org/abs/2605.18747
 date_ingested: 2026-05-22
-tags:
-  - ai
-  - agents
+main_tag: ai
+sub_tags:
+  - research
   - coding
-  - llm
-  - survey
+topic: code-as-agent-harness
 status: unprocessed
 ---
 

@@ -64,8 +64,9 @@ Sub-tags are independent of main-tags. Any sub-tag may co-occur with any main-ta
 | `#layer1` | Base-layer blockchains |
 | `#layer2` | Scaling solutions, rollups, sidechains |
 | `#law` | Legal frameworks, contracts, regulations, compliance |
+| `#coding` | Programming, software development, code generation, dev practices |
 
-**Total:** 13 sub-tags.
+**Total:** 14 sub-tags.
 
 ---
 

@@ -15,7 +15,7 @@ last_updated: 2026-05-19
 
 Thương mại được thực hiện bởi AI agents độc lập — từ research, đàm phán, ký hợp đồng, thanh toán, đến customer service — mà không cần sự can thiệp liên tục của con người.
 
-## Key Ideas
+## Key ideas
 
 ### Hai dịch chuyển lớn
 
@@ -60,7 +60,7 @@ Thương mại được thực hiện bởi AI agents độc lập — từ rese
 - "Begins in the least glamorous place: an LLC agreement"
 - Private ordering + careful drafting
 
-## Related Concepts
+## Related concepts
 
 - [[ai-legal-personhood]]
 - [[zero-member-llc]]

@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-05-18_1-month-with-hermes-ive-been-using-wrong]]"
+original: raw/articles/2026-05-18_1-month-with-hermes-ive-been-using-wrong.md
 main_tag: ai
 sub_tags:
   - tools

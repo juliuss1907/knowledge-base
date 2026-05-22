@@ -1,10 +1,9 @@
 ---
 type: source
-original: "[[raw/articles/2026-05-20_juliachristina-were-not-supposed-to-live-like-this.md]]"
+original: raw/articles/2026-05-20_juliachristina-were-not-supposed-to-live-like-this.md
 main_tag: productivity
 sub_tags: [opinion, research]
 topic: evolutionary-mismatch-modern-life
-date_ingested: 2026-05-20
 date_compiled: 2026-05-21
 url: https://juliachristina.substack.com/p/were-not-supposed-to-live-like-this
 author: Julia Christina

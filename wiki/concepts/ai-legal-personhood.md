@@ -15,7 +15,7 @@ last_updated: 2026-05-19
 
 Khả năng của AI agents tham gia vào các quan hệ pháp lý — ký hợp đồng, sở hữu tài sản, kiện và bị kiện — thông qua các cơ chế pháp lý hiện có như LLC, thay vì yêu cầu quyền pháp nhân mới được tạo ra.
 
-## Key Ideas
+## Key ideas
 
 ### Vấn đề hiện tại
 
@@ -55,7 +55,7 @@ Khả năng của AI agents tham gia vào các quan hệ pháp lý — ký hợp
 - **Wyoming:** DAO LLC Act, thân thiện với private ordering
 - **New York:** Tương tự, nhiều case law về LLC
 
-## Related Concepts
+## Related concepts
 
 - [[zero-member-llc]]
 - [[agency-law]]

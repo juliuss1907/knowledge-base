@@ -15,7 +15,7 @@ last_updated: 2026-05-19
 
 Lĩnh vực pháp luật về mối quan hệ ủy quyền (principal-agent), trong đó một bên (agent) được ủy quyền hành động thay mặt cho bên khác (principal). Áp dụng cho AI agents khi chúng hoạt động như agent của người hoặc tổ chức.
 
-## Key Ideas
+## Key ideas
 
 ### Mô hình Principal-Agent
 
@@ -59,7 +59,7 @@ Lĩnh vực pháp luật về mối quan hệ ủy quyền (principal-agent), tr
 - High-frequency decisions
 - Autonomous commerce
 
-## Related Concepts
+## Related concepts
 
 - [[ai-legal-personhood]]
 - [[zero-member-llc]]

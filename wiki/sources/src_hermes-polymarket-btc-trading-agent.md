@@ -1,10 +1,9 @@
 ---
 type: source
-original: "[[raw/posts/2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent.md]]"
+original: raw/posts/2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent.md
 main_tag: crypto
 sub_tags: [automation, tools, tutorial]
 topic: hermes-polymarket-trading-agent
-date_ingested: 2026-05-20
 date_compiled: 2026-05-21
 url: https://x.com/0xMovez/status/2049891014249431141
 author: Movez (@0xMovez)

@@ -1,10 +1,9 @@
 ---
 type: source
-original: "[[raw/posts/2026-05-19_dont-sign-in-with-google.md]]"
+original: raw/posts/2026-05-19_dont-sign-in-with-google.md
 main_tag: tech
 sub_tags: [hack, tools, opinion]
 topic: sso-security-risks
-date_ingested: 2026-05-19
 date_compiled: 2026-05-20
 url: https://x.com/the_smart_ape/status/2055941633179283523
 author: The Smart Ape (@the_smart_ape)

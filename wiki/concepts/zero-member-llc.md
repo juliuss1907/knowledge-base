@@ -15,7 +15,7 @@ last_updated: 2026-05-19
 
 Limited Liability Company (LLC) không có thành viên con người — cấu trúc pháp lý cho phép AI agents hoạt động như manager độc lập, ký hợp đồng, quản lý tài sản mà không cần sự can thiệp của con người trong vòng lặp quyết định.
 
-## Key Ideas
+## Key ideas
 
 ### Nguồn gốc
 
@@ -66,7 +66,7 @@ Limited Liability Company (LLC) không có thành viên con người — cấu t
 - **Liability:** Ai chịu trách nhiệm khi AI sai?
 - **Dispute resolution:** Làm sao "kiện" một AI?
 
-## Related Concepts
+## Related concepts
 
 - [[ai-legal-personhood]]
 - [[agency-law]]

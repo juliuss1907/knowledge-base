@@ -1,10 +1,9 @@
 ---
 type: source
-original: [[raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body]]
+original: raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body.md
 main_tag: ai
 sub_tags: [law, tools]
 topic: ai-legal-personhood
-date_ingested: 2026-05-17
 date_compiled: 2026-05-19
 url: https://x.com/i/article/2055291336488620032
 author: Aaron Wright (@awrigh01)
@@ -24,7 +23,7 @@ author: Aaron Wright (@awrigh01)
 
 Aaron Wright giải thích cách AI agents có thể tham gia thương mại độc lập thông qua cơ chế pháp lý hiện có: **zero-member LLC**. Thay vì chờ quyền pháp nhân mới cho AI, các luật sư đang sử dụng LLC như một "vỏ bọc" cho phép AI hành động như manager, ký hợp đồng, quản lý tài sản, và chịu trách nhiệm pháp lý — tất cả mà không cần người trong vòng lặp quyết định.
 
-## Key Points
+## Key points
 
 - AI hiện tại không thể là bên tham gia pháp lý (không ký tên, không sở hữu, không bị kiện)
 - **Shawn Bayern (2014)** chỉ ra LLC đã chứa sẵn giải pháp: zero-member LLC với AI làm manager
@@ -33,7 +32,7 @@ Aaron Wright giải thích cách AI agents có thể tham gia thương mại đ�
 - Ví dụ thực tế: Wyoming DAO LLC với AI research-and-trading agent làm manager, kiểm soát treasury multi-sig
 - Jurisdiction thuận lợi: Wyoming (DAO LLC Act), New York
 
-## Concepts Referenced
+## Concepts referenced
 
 - [[ai-legal-personhood]]
 - [[zero-member-llc]]

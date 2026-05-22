@@ -1,10 +1,9 @@
 ---
 type: source
-original: "[[raw/posts/2026-05-20_the-smart-ape-11-minutes-hack-github.md]]"
+original: raw/posts/2026-05-20_the-smart-ape-11-minutes-hack-github.md
 main_tag: tech
 sub_tags: [hack, tools, news]
 topic: github-supply-chain-attack-vs-code
-date_ingested: 2026-05-20
 date_compiled: 2026-05-21
 url: https://x.com/i/status/2056983617302122740
 author: The Smart Ape (@the_smart_ape)

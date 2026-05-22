@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [economic, opinion]
+sub_tags: [research, opinion]
 topic: ai-economic-disruption-white-collar
 sources:
   - [[wiki/sources/src_ai-will-destroy-world-economy.md]]

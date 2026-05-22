@@ -20,7 +20,7 @@ Hunter-gatherer lifestyle (lối sống săn bắn-hái lượm) là cách tổ 
 - Hunter-gatherers làm việc 15-20 giờ/tuần, theo đợt với khoảng nghỉ dài, có tự chủ cao — so với 40-55 giờ/tuần liên tục của công việc hiện đại
 - Sống trong băng nhóm 25-50 người, với mối quan hệ đối mặt, biết mặt nhau, sống cùng nhau
 - Di chuyển 6-10 dặm/ngày không phải "tập thể dục" — mà là phụ phẩm tự nhiên của cuộc sống
-- Ngủ theo nhịp mặt trời, 8-9 tiếm mỗi đêm
+- Ngủ theo nhịp mặt trời, 8-9 tiếng mỗi đêm
 - Dành 100% thời gian ngoài trời
 - Cấu trúc công việc linh hoạt, không bị ép buộc liên tục
 - Đây là môi trường mà con người tiến hóa để thích nghi — hiện đại đã thay đổi quá nhanh so với khả năng thích nghi sinh học

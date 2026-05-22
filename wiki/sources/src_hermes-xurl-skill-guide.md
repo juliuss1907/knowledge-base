@@ -45,3 +45,11 @@ Hướng dẫn cài đặt và sử dụng skill xurl trong Hermes Agent — cho
 - [[nous-research]]
 
 ## Original excerpts
+
+> Hermes is an open-source AI agent from Nous Research that runs in your terminal. It's simple, modular, and built for developers who want to build, customize, and automate tasks with AI.
+> 
+> The xurl skill lets you read and write on X using natural language — whether you're managing multiple accounts or building automated workflows.
+> 
+> Chain actions: Hermes can "search → summarize → draft reply" all in one go.
+
+— [X Developers](https://x.com/XDevelopers/status/2056871280599847054)

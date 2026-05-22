@@ -10,4 +10,4 @@ Validation pipeline (2026-05-14): Kara compile 08:00 (kimi-k2.5), index 21:00 (g
 §
 Connor (Hermes) QUY TẮC CỨNG: KHÔNG tự sửa file trong wiki/concepts/. Chỉ validate + report. Việc sửa lỗi (compile lại, format, hygiene) thuộc về Kara (Compile Agent). Connor chỉ ghi verdict vào wiki/reviews/, không được patch/sửa bất kỳ concept file nào.
 §
-X News Brief — model quá nhẹ: glm-5.1 scrape 50 items (210KB, 34 msg) xong hết context, chỉ trả summary metadata 361 chars thay vì brief format. Fix: model mạnh hơn (deepseek-v4-pro) hoặc tách scrape/synthesize.
+Empty `## Notes` section trong concept files là intentional — Julius đã thiết lập Compile Agent template như vậy. Output validator không nên flag empty Notes section.

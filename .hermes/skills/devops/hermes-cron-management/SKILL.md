@@ -116,6 +116,7 @@ All use model from skill's frontmatter (no `--model` flag on `hermes cron create
 - **Editing schedule may require separate commands** — when using `hermes cron edit` with both `--schedule` and `--prompt`, cron expression parsing may fail even on VPS. Safer to update schedule and prompt in separate `hermes cron edit` calls.
 - **Stale one-shot jobs accumulate** — after creating recurring cron jobs, old one-shot duplicates may persist. Always `hermes cron list` and remove them.
 - **`jobs.json` is in `.gitignore`** — cron job definitions are NOT synced between machines. Each machine manages its own cron independently via Hermes scheduler.
+- **Kara cannot spawn Fix Agent by default** — `openclaw fix apply` tries to spawn a subagent, but OpenClaw's default config has `sessions.spawn.allowed_agents: []` (empty — nothing allowed). Error: `agentId is not allowed for sessions_spawn (allowed: none)`. Fix: add agent names to `~/.openclaw/config.yaml` under `sessions.spawn.allowed_agents` (e.g., `["fix-agent", "compile-agent"]` or `["*"]`), then restart the gateway. Workaround until config is updated: Kara applies fixes directly via Read/Edit tools.
 
 ## Maintenance: Cleaning up _action-required.md
 

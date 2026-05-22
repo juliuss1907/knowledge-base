@@ -370,11 +370,10 @@ Where `<slug>` is derived from raw filename (strip date prefix and `.md` extensi
 ```yaml
 ---
 type: source
-original: [[raw/<type>/YYYY-MM-DD_<slug>.md]]
+original: raw/<type>/YYYY-MM-DD_<slug>.md
 main_tag: <from-step-5.2>
 sub_tags: [<from-step-5.3>]
 topic: <from-step-5.4>
-date_ingested: <from-raw-frontmatter>
 date_compiled: <today-YYYY-MM-DD>
 url: <from-raw-frontmatter-if-present>
 author: <from-raw-frontmatter-if-present>
@@ -465,20 +464,14 @@ last_updated: <today-YYYY-MM-DD>
 ## Key ideas
 
 <main points about this concept, extracted from source>
-- Idea 1
-- Idea 2
-- ...
 
 ## Related concepts
 
 <wikilinks to other concepts mentioned in source>
-- [[related-concept-1]]
-- [[related-concept-2]]
 
 ## Sources
 
 <auto-maintained list, matches frontmatter>
-- [[wiki/sources/src_<slug>]]
 
 ## Notes
 

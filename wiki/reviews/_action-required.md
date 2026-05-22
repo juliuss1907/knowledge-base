@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-22 23:15:00
+**Last updated:** 2026-05-22 23:33:52
 
 ---
 
 ## Summary
 
-**Pending reports:** 2
+**Pending reports:** 3
 
 **Status:**
 - ⚠️ Output Validator — 2026-05-22: 16 issues (8 WARNING, 8 INFO) — awaiting review
 - ℹ️ Format Validator — 2026-05-22: 11 issues (0 ERROR, 11 WARNING, 0 INFO) — awaiting review
+- 🔴 Hygiene Inspector — 2026-05-22: 5 issues (3 ERROR, 1 WARNING, 1 INFO) — awaiting review
 
 **Resolved reports:**
 - [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
@@ -31,7 +32,7 @@
 
 ## Critical Issues (Fix Immediately)
 
-*No critical issues.*
+- **Hygiene 2026-05-22:** 3 ERROR — `memory/` stale dir at root, `RAW_BACKLOG.md` at root (not in whitelist), `wiki/reviews/HEARTBEAT.md` in wrong location
 
 ---
 
@@ -39,12 +40,14 @@
 
 - Output Validator 2026-05-22: 8 WARNING issues — see report for details
 - Format Validator 2026-05-22: 11 WARNING (extra sections, YAML syntax, legacy fields, field order)
+- Hygiene Inspector 2026-05-22: 1 WARNING — `.gitkeep` naming in `wiki/topic/`
 
 ---
 
 ## Info & Suggestions
 
 - Output Validator 2026-05-22: 8 INFO issues — see report for details
+- Hygiene Inspector 2026-05-22: 1 INFO — `raw/raw.md` spec gap (missing from folder-structure.md Section 6)
 
 ---
 
@@ -58,6 +61,12 @@
 - [ ] **Format Validator — 2026-05-22** (11 issues: 0 ERROR + 11 WARNING)
   - WARNING: Extra sections between required sections × 3, YAML list syntax × 3, legacy fields × 2, field order × 2
   - Report: wiki/reviews/2026-05-22_format-report.md
+
+- [ ] **Hygiene Inspector — 2026-05-22** (5 issues: 3 ERROR + 1 WARNING + 1 INFO)
+  - ERROR: Stale `memory/` at root, `RAW_BACKLOG.md` at root (not whitelisted), `wiki/reviews/HEARTBEAT.md` misplaced
+  - WARNING: `.gitkeep` in `wiki/topic/` naming convention
+  - INFO: `raw/raw.md` spec gap (missing from folder-structure.md Section 6)
+  - Report: wiki/reviews/2026-05-22_hygiene-report.md
 
 ---
 

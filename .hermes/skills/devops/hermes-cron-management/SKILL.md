@@ -106,7 +106,9 @@ All use model from skill's frontmatter (no `--model` flag on `hermes cron create
 
 - **`cronjob` tool ≠ `hermes cron create`** — even if `croniter` is installed in the hermes venv, the agent's `cronjob` tool uses a different Python process that cannot import it. Don't try to install `croniter` via the agent — just tell the user to use the CLI.
 - **Cron sessions don't run in KB root by default** — validation jobs that reference relative paths (e.g., `wiki/meta/format-spec.md`) will fail with FATAL if the session's working directory is wrong. **Always prepend `cd /home/julius/knowledge-base &&` to every KB validation cron prompt.** This was the root cause of Format Validator FATAL on 2026-05-20.
-- **Some cron jobs auto-disable after each run** — observed with X News Brief jobs (created via `hermes cron create` CLI). After running successfully (`last_status: ok`), the job flips to `enabled: false, state: completed` instead of staying `enabled: true, state: scheduled` for the next recurrence. This prevents delivery of output and blocks the next scheduled run. **Fix:** `hermes cron resume <job_id>` restores scheduled state. Root cause unknown — may be a Hermes scheduler bug. Monitor after each run; if auto-disable persists, consider a watchdog approach or file a bug.
+- **ALL recurring cron jobs auto-disable after each run** — observed across all 6 jobs (validation + X News). After running successfully (`last_status: ok`), the job flips to `enabled: false, state: completed` instead of staying scheduled for the next recurrence. This blocks delivery and prevents the next scheduled run. **Must resume every job after every run cycle:** `hermes cron resume <job_id>` for all 6. Root cause unknown — likely a Hermes scheduler bug.
+- **Changing model/provider via `cronjob` tool corrupts schedule** — the tool's `update` action converts cron expression (`0 23 * * *`) to interval format (`once in 24h` anchored from NOW, not wall-clock time). After any `cronjob` tool update that changes model/provider, **immediately restore the cron expression on VPS terminal:** `hermes cron edit <job_id> --schedule "0 23 * * *"`.
+- **`hermes cron edit` has NO `--model` or `--provider` flag** — model/provider changes must go through the `cronjob` tool (which then corrupts schedule, requiring the restore step above).
 - **To fix existing cron prompts**: use `hermes cron edit <job_id> --prompt "cd /home/julius/knowledge-base && <original prompt>"` on the VPS terminal. Note: editing prompt with `--schedule` at the same time requires croniter — do them in separate commands if needed.
 - **Job IDs are machine-specific** — jobs created via `cronjob` tool go to `~/.hermes/cron/jobs.json` on the CURRENT machine. If you're on the main machine, the VPS won't see them. Always create jobs directly on the machine where the scheduler runs.
 - **`cronjob` tool list shows current machine only** — use `hermes cron list` on the target machine to see what's actually scheduled.
@@ -118,12 +120,26 @@ All use model from skill's frontmatter (no `--model` flag on `hermes cron create
 - **`jobs.json` is in `.gitignore`** — cron job definitions are NOT synced between machines. Each machine manages its own cron independently via Hermes scheduler.
 - **Kara cannot spawn Fix Agent by default** — `openclaw fix apply` tries to spawn a subagent, but OpenClaw's default config has `sessions.spawn.allowed_agents: []` (empty — nothing allowed). Error: `agentId is not allowed for sessions_spawn (allowed: none)`. Fix: add agent names to `~/.openclaw/config.yaml` under `sessions.spawn.allowed_agents` (e.g., `["fix-agent", "compile-agent"]` or `["*"]`), then restart the gateway. Workaround until config is updated: Kara applies fixes directly via Read/Edit tools.
 
+## X News Brief: Model Test Results
+
+The x-news-brief skill scrapes 50 items then synthesizes a formatted brief — all in one session. This exceeds context windows of many models. Test results on Evening job (7844efdc25ca):
+
+| Model | Provider | Result |
+|---|---|---|
+| `glm-5.1` | opencode | Scrapes OK (50 items), returns metadata summary only — no formatted brief |
+| `deepseek-v4-pro` | opencode | Empty response (scrapes data but can't produce output) |
+| `kimi-k2.5` | opencode | `opencode-zen` provider API key error — model unavailable |
+| `claude-sonnet-4` | opencode | **Does not exist** on this provider |
+| `deepseek-v4-pro` | ollama-cloud | PENDING — being tested (current session) |
+
+**Root cause:** Skill is too heavy for single session — scrape 50 full items + synthesize long brief in one run. Recommended fix: split into scrape job (save to state JSON) + synthesize job (read state, produce brief, deliver).
+
 ## Maintenance: Cleaning up _action-required.md
 
 After validating, old reports accumulate in `wiki/reviews/_action-required.md`. To prevent Kara (Fix Agent) from processing stale issues:
 
 1. Mark all pre-target-date reports as resolved in the Summary section
-2. Remove their entries from Critical Issues, Warnings, Info, and Pending Reports sections
+2. Remove their entries from Critical Issues, Warnings, Info, and Pending Reports sections  
 3. Add them to Recently Applied with date of resolution
 4. Update `Pending reports:` count and `Last updated:` timestamp
 

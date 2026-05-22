@@ -49,14 +49,14 @@ Nous Research hợp tác với xAI để tích hợp Grok subscription vào Herm
 
 Tác giả brainstorm với Claude Opus 4.7 để tạo pipeline tận dụng `x_search`:
 
-| Stage | Tool | Chức năng |
-|-------|------|-----------|
-| 1 | `x_search` | Targeted search trên X |
-| 2 | @cookiedotfun MCP | Sentiment trend, KOL discussions |
-| 3 | Browser CDP | Mở Grok trên Chrome, prompt SuperGrok trực tiếp |
-| 4 | DeepSeek | Synthesize thông tin |
-| 5 | Hindsight | Recall/reflect, cross-reference với insights cũ |
-| 6 | Report | Comprehensive end-to-end report |
+| Stage | Tool              | Chức năng                                       |
+| ----- | ----------------- | ----------------------------------------------- |
+| 1     | `x_search`        | Targeted search trên X                          |
+| 2     | @cookiedotfun MCP | Sentiment trend, KOL discussions                |
+| 3     | Browser CDP       | Mở Grok trên Chrome, prompt SuperGrok trực tiếp |
+| 4     | DeepSeek          | Synthesize thông tin                            |
+| 5     | Hindsight         | Recall/reflect, cross-reference với insights cũ |
+| 6     | Report            | Comprehensive end-to-end report                 |
 
 **Kết quả:** Report capture past, present, future dựa trên knowledge base cá nhân.
 
@@ -75,10 +75,11 @@ Tác giả brainstorm với Claude Opus 4.7 để tạo pipeline tận dụng `x
 
 ## Tool Comparison: Cookie vs x_search
 
-| Tool | Mạnh | Yếu |
-|------|------|-----|
-| **Cookie** | Structured data (KOL leaderboards, mindshare timeseries, social decay metrics), project analytics | Real-time news, "why" explanations, search reliability |
-| **x_search** | Real-time search, deep research, X article analysis | Raw output, cần post-processing |
+| Tool         | Mạnh                                                                                              | Yếu                                                    |
+| ------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| **Cookie**   | Structured data (KOL leaderboards, mindshare timeseries, social decay metrics), project analytics | Real-time news, "why" explanations, search reliability |
+| **x_search** | Real-time search, deep research, X article analysis                                               | Raw output, cần post-processing                        |
+|              |                                                                                                   |                                                        |
 
 ## Config x_search
 

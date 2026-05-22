@@ -77,14 +77,16 @@ If user requests "re-compile [filename]" for a file with `status: processed`:
 ## Frontmatter schemas
 
 ### Source note (`wiki/sources/src_<slug>.md`)
+
+**Note:** `date_ingested` was deprecated in format-spec.md v2.0 (2026-05-09). Use `date_compiled` only.
+
 ```yaml
 ---
 type: source
-original: [[raw/<type>/YYYY-MM-DD_<slug>.md]]
+original: raw/<type>/YYYY-MM-DD_<slug>.md
 main_tag: <pool-a>
 sub_tags: [<pool-b>, ...]
 topic: <slug>
-date_ingested: YYYY-MM-DD
 date_compiled: YYYY-MM-DD
 url: <optional, from raw>
 author: <optional, from raw>
@@ -118,6 +120,7 @@ Full schema details in `wiki/meta/format-spec.md`.
 5. `## Concepts referenced` — wikilinks to concept files: `[[concept-slug]]`
 6. `## Original excerpts` (optional) — key quotes worth preserving
 
+### Concept note body
 ### Concept note body
 1. `# <Concept name>`
 2. `## Definition` — 2-3 sentence definition (same language as source)

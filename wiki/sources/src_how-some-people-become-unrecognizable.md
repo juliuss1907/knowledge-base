@@ -2,13 +2,10 @@
 type: source
 original: raw/articles/2026-05-14_how-some-people-become-unrecognizable.md
 main_tag: productivity
-sub_tags:
-  - opinion
-  - tools
+sub_tags: [opinion, tools]
 topic: compounding-growth
 author: The Beauty of SaaS
 url: https://open.substack.com/pub/thebeautyofsaas/p/how-some-people-become-unrecognizable
-date_ingested: 2026-05-14
 date_compiled: 2026-05-15
 ---
 

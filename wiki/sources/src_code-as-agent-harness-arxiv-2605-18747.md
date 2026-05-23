@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/papers/2026-05-22_code-as-agent-harness-arxiv-2605-18747.md
+original: 2026-05-22_code-as-agent-harness-arxiv-2605-18747.md
 main_tag: ai
 sub_tags: [research, coding]
 topic: code-as-agent-harness

@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/videos/2026-05-22_luke-alvoeiro-multi-agent-architecture-factory.md
+original: 2026-05-22_luke-alvoeiro-multi-agent-architecture-factory.md
 main_tag: ai
 sub_tags: [tools, automation]
 topic: factory-missions-architecture

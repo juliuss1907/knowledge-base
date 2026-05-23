@@ -1,13 +1,13 @@
 # HEARTBEAT.md
 
 > OpenClaw system health log
-> Updated: 2026-05-22 19:00 Asia/Saigon
+> Updated: 2026-05-23 10:00 Asia/Saigon
 
 ---
 
-## Status: ✅ CLEAN
+## Status: ⚠️ PENDING REVIEW
 
-**Last heartbeat:** 2026-05-22 19:00 (Asia/Saigon)
+**Last heartbeat:** 2026-05-23 10:00 (Asia/Saigon)
 
 ---
 
@@ -16,26 +16,25 @@
 | Check | Status | Notes |
 |---|---|---|
 | Inbox tasks | ✅ | No #agent/inbox entries |
-| Raw backlog | ✅ | 2 unprocessed files (today), not overdue |
-| Pending reviews | ✅ | 0 pending — all clear |
-| Hermes reports | ✅ | No action required |
+| Raw backlog | ✅ | 0 unprocessed files |
+| Concept check | ✅ | Sampled 2 files, backlinks OK |
+| Pending reviews | ⚠️ | 3 reports pending since 2026-05-22 |
 
 ---
 
-## Raw unprocessed (non-backlog)
+## Pending Reports
 
-These files are from today and will be compiled at next scheduled run:
-
-- `raw/papers/2026-05-22_code-as-agent-harness-arxiv-2605-18747.md`
-- `raw/videos/2026-05-22_luke-alvoeiro-multi-agent-architecture-factory.md`
+- Output Validator (2026-05-22) — 7 WARNING
+- Format Validator (2026-05-22) — 5 WARNING
+- Hygiene Inspector (2026-05-22) — 1 WARNING, 1 INFO
 
 ---
 
 ## Notes
 
-- System operating normally.
-- CompileAgent will process new files at next scheduled run (08:00 tomorrow).
+- System stable. 
+- 3 validation reports from yesterday are awaiting Julius's review in `wiki/reviews/_action-required.md`.
 
 ---
 
-*Next heartbeat: 19:30 Asia/Saigon*
+*Next heartbeat: 10:30 Asia/Saigon*

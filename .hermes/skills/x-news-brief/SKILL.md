@@ -2,11 +2,12 @@
 name: x-news-brief
 aliases: ["x-morning-news", "brief CT", "tin sáng", "x-news"]
 agent: Hermes (local)
+description: Automated crypto + tech news briefing from X via thefeed.today — 3x daily cron, dual-category extraction, 3-tier prioritization, Vietnamese output to Telegram.
 purpose: Automated crypto + tech news briefing from X via thefeed.today
 trigger: Cron (3x daily — 7:00, 13:00, 21:00 ICT)
 output: Telegram message
-version: 1.0
-last_updated: 2026-05-19
+version: 1.1
+last_updated: 2026-05-23
 ---
 
 # SKILL — X News Brief
@@ -128,6 +129,8 @@ TL;DR: [1 dòng tóm tắt cả hai mảng]
 - Engagement rate > 5%
 - Sort by views descending
 
+**⚠️ Practical note (2026-05-23):** On thefeed.today, engagement rates are exceptionally low (0.1-2% typical) because "views" are impression counts, not unique viewers. The 5% threshold almost never fires. **Fallback:** When the 5% threshold produces zero or <3 items, fall back to pure views-based ranking. Tier 2 effectively becomes "highest views descending, no rate cutoff." This is expected — do not inflate selections to hit a target.
+
 ### Tier 3: Narrative Shift
 - New topics not seen in previous runs
 - Emerging trends
@@ -170,6 +173,8 @@ TL;DR: [1 dòng tóm tắt cả hai mảng]
 - Update after successful extraction
 - If missing (first run): set to 24 hours ago
 - Single timestamp for both categories (simpler dedup)
+
+**⚠️ Timestamp edge case (observed 2026-05-23):** The state file may contain the cron *trigger* time rather than when content was last captured. All thefeed items are 8-23h old relative to any given run — a strict `item_time > last_run` filter rejects everything. **Solution:** Always use a 24-hour sliding window for dedup (`cutoff = now - timedelta(hours=24)`). The purpose is overnight coverage, not precise wall-clock filtering. Update timestamp to `now` after brief delivery; this becomes the boundary for `now - 24h` in the next run.
 
 ---
 

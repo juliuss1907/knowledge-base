@@ -83,7 +83,7 @@ If user requests "re-compile [filename]" for a file with `status: processed`:
 ```yaml
 ---
 type: source
-original: raw/<type>/YYYY-MM-DD_<slug>.md
+original: YYYY-MM-DD_<slug>.md
 main_tag: <pool-a>
 sub_tags: [<pool-b>, ...]
 topic: <slug>
@@ -102,8 +102,8 @@ main_tag: <pool-a>
 sub_tags: [<pool-b>, ...]
 topic: <slug>
 sources:
-  - [[wiki/sources/src_<slug-1>]]
-  - [[wiki/sources/src_<slug-2>]]
+  - [[src_<slug-1>]]
+  - [[src_<slug-2>]]
 last_updated: YYYY-MM-DD
 ---
 ```

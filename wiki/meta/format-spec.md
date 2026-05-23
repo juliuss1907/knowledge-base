@@ -64,7 +64,7 @@ main_tag: <one-from-pool-a>
 sub_tags: [<one-to-three-from-pool-b>]
 topic: <lowercase-hyphen-slug>
 sources:
-  - [[wiki/sources/src_<slug>]]
+  - [[src_<slug>]]
 last_updated: YYYY-MM-DD
 ---
 ```
@@ -78,7 +78,7 @@ last_updated: YYYY-MM-DD
 | `main_tag` | string | Yes | Must exist in `TAGS.md` Pool A |
 | `sub_tags` | array | Yes | 1–3 tags from `TAGS.md` Pool B |
 | `topic` | string | Yes | Lowercase-hyphen slug, max 60 chars |
-| `sources` | array | Yes | Wikilinks to `wiki/sources/src_*.md` files |
+| `sources` | array | Yes | Wikilinks to `src_*.md` files |
 | `last_updated` | date | Yes | ISO format `YYYY-MM-DD` |
 
 **Field order (required):**
@@ -134,7 +134,7 @@ last_updated: YYYY-MM-DD
 **Rules:**
 - Use wikilink syntax: `[[target]]` or `[[target|display text]]`
 - Concepts link to concepts: `[[other-concept]]`
-- Concepts link to sources: `[[wiki/sources/src_slug]]`
+- Concepts link to sources: `[[src_slug]]`
 - No external URLs in concept body — put in source files instead
 
 **Validation:**
@@ -363,9 +363,6 @@ author: <optional-author-name>
 [[claude-code-workflow]]
 [[src_anthropic-claude-code]]
 
-⚠️ Acceptable (full path):
-[[wiki/concepts/claude-code-workflow]]
-[[wiki/sources/src_anthropic-claude-code]]
 
 ❌ Wrong (external):
 [[../raw/articles/file.md]]
@@ -439,7 +436,7 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: claude-code-workflow
 sources:
-  - [[wiki/sources/src_anthropic-claude-code]]
+  - [[src_anthropic-claude-code]]
 last_updated: 2026-05-09
 ---
 
@@ -465,7 +462,7 @@ Claude Code is an AI-assisted development workflow where Claude autonomously imp
 
 ## Sources
 
-- [[wiki/sources/src_anthropic-claude-code]]
+- [[src_anthropic-claude-code]]
 ```
 
 ### Example source file (valid)
@@ -473,7 +470,7 @@ Claude Code is an AI-assisted development workflow where Claude autonomously imp
 ```markdown
 ---
 type: source
-original: raw/articles/2026-05-01_anthropic-claude-code.md
+original: 2026-05-01_anthropic-claude-code.md
 main_tag: ai
 sub_tags: [tools, tutorial]
 topic: claude-code-intro

@@ -55,7 +55,6 @@ sed -n '/^---$/,/^---$/p' raw/<type>/<filename>
 **Required fields check:**
 - `type` — must be one of 6 allowed values
 - `title` — must be non-empty
-- `date_ingested` — must be valid YYYY-MM-DD
 - `status` — must be exactly `unprocessed`
 
 **If validation fails:**

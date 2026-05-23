@@ -10,7 +10,7 @@ sub_tags:
 topic: code-as-agent-harness
 status: processed
 compiled_at: 2026-05-23
-compiled_to: [[wiki/sources/src_code-as-agent-harness-arxiv-2605-18747.md]]
+compiled_to: "[[src_code-as-agent-harness-arxiv-2605-18747.md]]"
 ---
 
 # Code as Agent Harness

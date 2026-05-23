@@ -651,3 +651,25 @@ Each entry follows this format:
 - **Raw files updated:** 2 (status: processed)
 - **Errors:** 0
 - **Duration:** ~4 minutes
+
+## 2026-05-23 21:07 — Indexed (Manual)
+
+- **Scanned:** 84 concepts + 19 sources
+- **Tags indexed:** 14 (7 main-tags + 7 sub-tags)
+- **Topics indexed:** 4
+- **Orphans deleted:** 0
+- **New tag indexes:** #productivity, #system, #crypto, #economic, #research, #tools, #automation, #law, #coding, #seo, #marketing, #security
+- **New topic indexes:** compounding-growth, generative-ai-seo, geo-generative-engine-optimization, ai-security-vulnerability-discovery
+- **Updated tag indexes:** #ai
+- **Note:** Manual index run after cron job failed (LLM error 500)
+
+## 2026-05-23 21:07 — Indexed (Manual)
+
+- **Scanned:** 84 concepts + 19 sources
+- **Tags indexed:** 14 (7 main-tags + 7 sub-tags)
+- **Topics indexed:** 4
+- **Orphans deleted:** 0
+- **New tag indexes:** #productivity, #system, #crypto, #economic, #research, #tools, #automation, #law, #coding, #seo, #marketing, #security
+- **New topic indexes:** compounding-growth, generative-ai-seo, geo-generative-engine-optimization, ai-security-vulnerability-discovery
+- **Updated tag indexes:** #ai
+- **Note:** Manual index run after cron job failed (LLM error 500)

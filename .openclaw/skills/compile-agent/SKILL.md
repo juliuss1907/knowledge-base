@@ -83,7 +83,7 @@ If user requests "re-compile [filename]" for a file with `status: processed`:
 ```yaml
 ---
 type: source
-original: YYYY-MM-DD_<slug>.md
+original: [[YYYY-MM-DD_<slug>.md]]
 main_tag: <pool-a>
 sub_tags: [<pool-b>, ...]
 topic: <slug>
@@ -204,6 +204,7 @@ After successful compilation of one raw file:
    ```yaml
    status: processed
    compiled_at: YYYY-MM-DD
+   compiled_to: [[src_<slug>]]
    ```
 3. **Log to MEMORY.md:**
    ```markdown

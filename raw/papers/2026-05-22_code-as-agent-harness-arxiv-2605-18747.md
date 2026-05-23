@@ -4,13 +4,11 @@ source_type: paper
 source_url: https://www.alphaxiv.org/abs/2605.18747
 date_ingested: 2026-05-22
 main_tag: ai
-sub_tags:
-  - research
-  - coding
+sub_tags: [research, coding]
 topic: code-as-agent-harness
 status: processed
 compiled_at: 2026-05-23
-compiled_to: "[[src_code-as-agent-harness-arxiv-2605-18747.md]]"
+compiled_to: [[src_code-as-agent-harness-arxiv-2605-18747.md]]
 ---
 
 # Code as Agent Harness

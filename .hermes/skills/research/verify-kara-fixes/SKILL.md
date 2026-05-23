@@ -85,6 +85,41 @@ Clear summary to Julius:
 | `original` wikilink unfixed | Compile Agent wraps all paths | Fix in compile-agent SKILL.md |
 | Individual typos unfixed | Kara missed specific file | Manual fix by Julius or re-run |
 
+## Multi-report verification
+
+When verifying fixes across multiple reports (Output + Format + Hygiene) simultaneously, use `execute_code` to batch all checks. Each validator type requires different methods:
+
+**Format fixes (frontmatter + sections):**
+```python
+# Check frontmatter: sub_tags bracket syntax, legacy fields
+for f in ["file1.md", "file2.md", "file3.md"]:
+    r = terminal(f"sed -n '/^---$/,/^---$/p' /home/julius/knowledge-base/wiki/sources/{f}")
+    print(f"--- {f} ---\n{r['output']}")
+
+# Check section ordering: extra sections moved after Sources
+r = terminal("grep -n '^## ' /home/julius/knowledge-base/wiki/concepts/cookie-fun-mcp.md")
+```
+
+**Output fixes (content quality):**
+```python
+# Check empty excerpts filled
+r = terminal("grep -A 5 '## Original excerpts' /path/to/file.md")
+
+# Verify broken wikilink concepts exist
+r = terminal("test -f /home/julius/knowledge-base/wiki/concepts/orphan-commit-attack.md && echo 'EXISTS' || echo 'MISSING'")
+```
+
+**Hygiene fixes (filesystem):**
+```python
+# Check files/dirs removed
+r = terminal("test -d /home/julius/knowledge-base/memory && echo 'EXISTS' || echo 'GONE'")
+r = terminal("test -f /home/julius/knowledge-base/RAW_BACKLOG.md && echo 'EXISTS' || echo 'GONE'")
+```
+
+## User preferences to skip
+
+- **Empty `## Notes` sections**: Intentional — Julius configured Compile Agent template to include them. Do NOT flag as issues. Output validator should skip empty Notes.
+
 ## Performance
 
 - Typical verification: 30-60 seconds

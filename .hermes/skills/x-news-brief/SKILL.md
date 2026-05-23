@@ -73,28 +73,30 @@ Hermes handles:
 
 **Format:** Telegram message (Markdown)
 
+**Ngôn ngữ: TIẾNG VIỆT 100%.** Tất cả nội dung brief phải bằng tiếng Việt. Tên riêng, tên sản phẩm, tên công ty giữ nguyên tiếng Anh. Thuật ngữ kỹ thuật có thể để tiếng Anh nếu không có bản dịch phổ biến.
+
 **Structure:**
 ```
-✖️ X News Brief [☀️ / 🌤 / 🌙] — [Day], [Date]
+✖️ X News Brief [☀️ / 🌤 / 🌙] — [Thứ], [Ngày tháng]
 
-🔥 Top 2-5 stories (flexible mix)
-• [Story] — [Summary] ([views])
+🔥 Top 2-5 stories (linh hoạt)
+• [Story] — [Tóm tắt 1 dòng] ([lượt xem])
 
 🧠 Narrative pulse
-Crypto: [1-2 sentences]
-Tech: [1-2 sentences]
+Crypto: [1-2 câu]
+Tech: [1-2 câu]
 
-📌 Đáng đọc (7-10 items, 50/50 split)
+📌 Đáng đọc (7-10 mục, chia đều 50/50)
 
 Crypto:
-• [Item] — [Why interesting] [Link]
-• [Item] — [Why interesting] [Link]
+• [Mục] — [Tại sao đáng đọc] [Link]
+• [Mục] — [Tại sao đáng đọc] [Link]
 
 Tech:
-• [Item] — [Why interesting] [Link]
-• [Item] — [Why interesting] [Link]
+• [Mục] — [Tại sao đáng đọc] [Link]
+• [Mục] — [Tại sao đáng đọc] [Link]
 
-TL;DR: [1 dòng covering both categories]
+TL;DR: [1 dòng tóm tắt cả hai mảng]
 ```
 
 **Length targets:**
@@ -105,7 +107,7 @@ TL;DR: [1 dòng covering both categories]
 - Total message: ~500-800 words
 
 **CT Voice:**
-- Casual, informative tone
+- Casual, informative tone — bằng tiếng Việt tự nhiên
 - Minimal slang (1-2 terms max: ser, alpha, based)
 - Emoji for section markers only
 - No hype, no speculation
@@ -176,9 +178,9 @@ TL;DR: [1 dòng covering both categories]
 ### Scenario A: No new items
 **Action:** Send brief with message:
 ```
-No new crypto/tech news since last check (7:00 AM).
+Không có tin crypto/tech mới từ lần kiểm tra trước (7:00 AM).
 
-Last item: [timestamp]
+Lần cuối: [timestamp]
 ```
 
 ### Scenario B: thefeed.today down

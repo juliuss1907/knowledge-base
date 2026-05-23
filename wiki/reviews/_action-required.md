@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-22 23:33:52
+**Last updated:** 2026-05-23 07:05 — Fix Agent applied 10 fixes (3 Hygiene ERROR, 6 Format WARNING, 1 Output WARNING)
 
 ---
 
@@ -13,9 +13,9 @@
 **Pending reports:** 3
 
 **Status:**
-- ⚠️ Output Validator — 2026-05-22: 16 issues (8 WARNING, 8 INFO) — awaiting review
-- ℹ️ Format Validator — 2026-05-22: 11 issues (0 ERROR, 11 WARNING, 0 INFO) — awaiting review
-- 🔴 Hygiene Inspector — 2026-05-22: 5 issues (3 ERROR, 1 WARNING, 1 INFO) — awaiting review
+- ⚠️ Output Validator — 2026-05-22: 7 issues remaining (7 WARNING, 0 INFO after fixes) — awaiting review
+- ℹ️ Format Validator — 2026-05-22: 5 issues remaining (0 ERROR, 5 WARNING, 0 INFO after fixes) — awaiting review
+- 🔴 Hygiene Inspector — 2026-05-22: 2 issues remaining (0 ERROR, 1 WARNING, 1 INFO after fixes) — awaiting review
 
 **Resolved reports:**
 - [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
@@ -27,6 +27,9 @@
 - [x] Output Validator — 2026-05-21 (11 issues: empty sections, key ideas, typo, broken wikilinks)
 - [x] Format Validator — 2026-05-21 (20 issues: section case, original wikilink, date_ingested — Compile Agent fixed)
 - [x] Hygiene Inspector — 2026-05-21 (9 issues: stale backup files)
+- [x] Hygiene Inspector — 2026-05-22 (3 ERROR fixed: memory/ → .openclaw/memory/, RAW_BACKLOG.md deleted, wiki/reviews/HEARTBEAT.md removed)
+- [x] Format Validator — 2026-05-22 (6 WARNING fixed: extra sections ×3, YAML syntax ×2, legacy fields ×2)
+- [x] Output Validator — 2026-05-22 (1 WARNING fixed: Empty Original excerpts)
 
 ---
 
@@ -38,32 +41,29 @@
 
 ## Warnings (Can Fix Later)
 
-- Output Validator 2026-05-22: 8 WARNING issues — see report for details
-- Format Validator 2026-05-22: 11 WARNING (extra sections, YAML syntax, legacy fields, field order)
+- Output Validator 2026-05-22: 7 WARNING remaining — Empty Notes (systematic), Too many key points (needs Julius decision), Broken wikilinks (needs concept compilation)
+- Format Validator 2026-05-22: 5 WARNING remaining — Field order (minor)
 - Hygiene Inspector 2026-05-22: 1 WARNING — `.gitkeep` naming in `wiki/topic/`
 
 ---
 
 ## Info & Suggestions
 
-- Output Validator 2026-05-22: 8 INFO issues — see report for details
 - Hygiene Inspector 2026-05-22: 1 INFO — `raw/raw.md` spec gap (missing from folder-structure.md Section 6)
 
 ---
 
 ## Pending Reports
 
-- [ ] **Output Validator — 2026-05-22** (16 issues: 8 WARNING + 8 INFO)
-  - WARNING: Empty Original excerpts (persistent), key points overflow × 6 files, missing trailing newlines × 3
-  - INFO: 17 broken wikilinks, 49 empty Notes, format inconsistencies
+- [ ] **Output Validator — 2026-05-22** (7 issues remaining: 7 WARNING after fixes applied by Kara)
+  - WARNING: Empty Notes (systematic — needs Compile Agent template fix), key points overflow × 6 files (needs consolidation), broken wikilinks × 17 (needs concept compilation)
   - Report: wiki/reviews/2026-05-22_output-report.md
 
-- [ ] **Format Validator — 2026-05-22** (11 issues: 0 ERROR + 11 WARNING)
-  - WARNING: Extra sections between required sections × 3, YAML list syntax × 3, legacy fields × 2, field order × 2
+- [ ] **Format Validator — 2026-05-22** (5 issues remaining: 5 WARNING after fixes applied by Kara)
+  - WARNING: Field order × 2 files (minor)
   - Report: wiki/reviews/2026-05-22_format-report.md
 
-- [ ] **Hygiene Inspector — 2026-05-22** (5 issues: 3 ERROR + 1 WARNING + 1 INFO)
-  - ERROR: Stale `memory/` at root, `RAW_BACKLOG.md` at root (not whitelisted), `wiki/reviews/HEARTBEAT.md` misplaced
+- [ ] **Hygiene Inspector — 2026-05-22** (2 issues remaining: 1 WARNING + 1 INFO after ERROR fixes applied by Kara)
   - WARNING: `.gitkeep` in `wiki/topic/` naming convention
   - INFO: `raw/raw.md` spec gap (missing from folder-structure.md Section 6)
   - Report: wiki/reviews/2026-05-22_hygiene-report.md

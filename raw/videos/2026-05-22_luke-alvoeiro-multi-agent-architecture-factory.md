@@ -3,12 +3,13 @@ type: raw
 source_type: video
 source_url: https://www.youtube.com/watch?v=ow1we5PzK-o
 date_ingested: 2026-05-22
-main_tag: ai
-sub_tags: [tools, automation]
-topic: factory-missions-architecture
+tags:
+  - ai
+  - agents
+  - architecture
 status: processed
 compiled_at: 2026-05-23
-compiled_to: [[src_luke-alvoeiro-multi-agent-architecture-factory.md]]
+compiled_to: [[wiki/sources/src_luke-alvoeiro-multi-agent-architecture-factory.md]]
 ---
 
 # The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory

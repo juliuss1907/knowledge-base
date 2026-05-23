@@ -7,7 +7,9 @@ tags:
   - ai
   - agents
   - architecture
-status: unprocessed
+status: processed
+compiled_at: 2026-05-23
+compiled_to: [[wiki/sources/src_luke-alvoeiro-multi-agent-architecture-factory.md]]
 ---
 
 # The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory

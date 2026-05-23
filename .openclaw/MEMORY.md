@@ -626,3 +626,28 @@ Each entry follows this format:
 - **Orphans deleted:** 1 tag indexes + 0 topic indexes
 - **Invalid tags found:** 4
 - Details: /home/julius/knowledge-base/wiki/sources/src_aaron-wright-ai-agents-legal-body.md: sub_tag=law; /home/julius/knowledge-base/wiki/concepts/ai-legal-personhood.md: sub_tag=law; /home/julius/knowledge-base/wiki/concepts/agency-law.md: sub_tag=law; /home/julius/knowledge-base/wiki/concepts/zero-member-llc.md: sub_tag=law
+
+## 2026-05-23 08:00:00 — Compiled (Daily Cron)
+
+- **Raw:** [[raw/papers/2026-05-22_code-as-agent-harness-arxiv-2605-18747.md]]
+- **Source note:** [[wiki/sources/src_code-as-agent-harness-arxiv-2605-18747.md]]
+- **Concepts:** [agent-harness, code-as-substrate, plan-execute-verify-loop]
+- **Tags applied:** main=#ai, sub=[#research, #coding], topic=code-as-agent-harness
+- **Action:** created 3 concept files
+
+## 2026-05-23 08:02:00 — Compiled (Daily Cron)
+
+- **Raw:** [[raw/videos/2026-05-22_luke-alvoeiro-multi-agent-architecture-factory.md]]
+- **Source note:** [[wiki/sources/src_luke-alvoeiro-multi-agent-architecture-factory.md]]
+- **Concepts:** [factory-missions, multi-agent-taxonomy, validation-contract]
+- **Tags applied:** main=#ai, sub=[#tools, #automation], topic=factory-missions-architecture
+- **Action:** created 3 concept files
+
+## 2026-05-23 08:04:00 — Compiled Summary
+
+- **Files processed:** 2/2
+- **Source notes created:** 2
+- **Concepts created:** 6
+- **Raw files updated:** 2 (status: processed)
+- **Errors:** 0
+- **Duration:** ~4 minutes

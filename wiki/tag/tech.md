@@ -1,42 +1,34 @@
----
-type: index
-level: 3
-scope: tag
-parent: [[tag]]
-tag: tech
-auto_generated: true
-last_updated: 2026-05-20
----
-
 # Tag: #tech
 
-## Parent
+Auto-generated index of all content tagged with `#tech`.
 
-- [[tag]]
+Last updated: 2026-05-23 21:07
 
-## Stats
+---
 
-- Total files: 9
-- Sources: 2
-- Concepts: 7
-- Last updated: 2026-05-20
+## Concepts (16)
 
-## Files with this tag
+- [[atomic-mac-agent]] — main: #tech, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
+- [[cookie-fun-mcp]] — main: #ai, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
+- [[github-security-model]] — main: #tech, sub: [#hack, #tools], topic: github-supply-chain-attack-vs-code
+- [[mcp-architecture]] — main: #tech, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
+- [[model-agnostic-broker]] — main: #ai, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
+- [[open-source-security]] — main: #tech, sub: [#hack, #tools], topic: github-supply-chain-attack-vs-code
+- [[supply-chain-attack]] — main: #tech, sub: [#hack, #tools], topic: github-supply-chain-attack-vs-code
+- [[x-url-research-tool]] — main: #ai, sub: [#tools, #automation], topic: hermes-xurl-x-api-integration
 
-- [[consent-phishing]] — Consent Phishing (concept)
-- [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
-- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
-- [[google-ai-overviews]] — Google Ai Overviews (concept)
-- [[oauth-security-risks]] — Oauth Security Risks (concept)
-- [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
-- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
-- [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
-- [[token-theft-attack]] — Token Theft Attack (concept)
+## Sources (8)
+
+- [[src_11-minutes-hack-github]] — main: #tech, sub: [#hack, #tools], topic: github-supply-chain-attack-vs-code
+- [[src_dont-sign-in-with-google]] — main: #tech, sub: [#tools, #hack], topic: sso-security-risks
+- [[src_hermes-polymarket-btc-trading-agent]] — main: #ai, sub: [#automation, #tools], topic: hermes-polymarket-trading-agent
+- [[src_hermes-xurl-skill-guide]] — main: #ai, sub: [#tools, #automation], topic: hermes-xurl-x-api-integration
+- [[src_project-glasswing-anthropic-initial-update]] — main: #ai, sub: [#security, #research], topic: ai-security-vulnerability-discovery
 
 ## Co-occurring tags
 
-- [[tools]] — 9 co-occurrences
-- [[hack]] — 6 co-occurrences
-- [[tutorial]] — 2 co-occurrences
-- [[opinion]] — 1 co-occurrence
-- [[news]] — 1 co-occurrence
+Tags that frequently appear with `#tech`:
+- `#tools` (12 files)
+- `#hack` (6 files)
+- `#automation` (5 files)
+- `#ai` (5 files)

@@ -2,10 +2,11 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [research, opinion]
+sub_tags:
+  - research
+  - opinion
 topic: evolutionary-mismatch-modern-life
-sources:
-  - [[wiki/sources/src_were-not-supposed-to-live-like-this.md]]
+sources: "[[src_were-not-supposed-to-live-like-this.md]]"
 last_updated: 2026-05-21
 ---
 

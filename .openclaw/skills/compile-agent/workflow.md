@@ -370,7 +370,7 @@ Where `<slug>` is derived from raw filename (strip date prefix and `.md` extensi
 ```yaml
 ---
 type: source
-original: raw/<type>/YYYY-MM-DD_<slug>.md
+original: [[YYYY-MM-DD_<slug>.md]]
 main_tag: <from-step-5.2>
 sub_tags: [<from-step-5.3>]
 topic: <from-step-5.4>
@@ -414,7 +414,7 @@ author: <from-raw-frontmatter-if-present>
 
 **Write operation:**
 ```bash
-cat > "wiki/sources/src_<slug>.md" << 'EOF'
+cat > "src_<slug>.md" << 'EOF'
 <full content above>
 EOF
 ```
@@ -422,10 +422,10 @@ EOF
 **Verify:**
 ```bash
 # Check file exists
-test -f "wiki/sources/src_<slug>.md" && echo "✓ Source note created"
+test -f "src_<slug>.md" && echo "✓ Source note created"
 
 # Check frontmatter valid
-head -n 20 "wiki/sources/src_<slug>.md" | grep -q "^---$" && echo "✓ Frontmatter valid"
+head -n 20 "src_<slug>.md" | grep -q "^---$" && echo "✓ Frontmatter valid"
 ```
 
 ### 6.2 Write/update concept notes
@@ -448,7 +448,7 @@ main_tag: <same-as-source-note>
 sub_tags: [<same-as-source-note>]
 topic: <same-as-source-note>
 sources:
-  - [[wiki/sources/src_<slug>]]
+  - [[src_<slug>]]
 last_updated: <today-YYYY-MM-DD>
 ---
 ```
@@ -548,21 +548,21 @@ echo "[MERGE CONFLICT] wiki/concepts/<concept-slug>.md — see drafts/ for new v
 ```yaml
 status: processed
 compiled_at: YYYY-MM-DD
-compiled_to: [[wiki/sources/src_<slug>]]
+compiled_to: [[src_<slug>]]
 ```
 
 **Edit operation:**
 ```bash
 sed -i 's/^status: unprocessed$/status: processed/' raw/<type>/<filename>
 sed -i '/^status: processed$/a compiled_at: $(date +%Y-%m-%d)' raw/<type>/<filename>
-sed -i "/^compiled_at:/a compiled_to: [[wiki/sources/src_${slug}]]" raw/<type>/<filename>
+sed -i "/^compiled_at:/a compiled_to: [[src_${slug}]]" <filename>
 ```
 
 **Verify:**
 ```bash
 grep -q "status: processed" raw/<type>/<filename> && echo "✓ Status updated"
 grep -q "compiled_at:" raw/<type>/<filename> && echo "✓ Compiled date added"
-grep -q "compiled_to:" raw/<type>/<filename> && echo "✓ Compiled link added"
+grep -q "compiled_to:" <filename> && echo "✓ Compiled link added"
 ```
 
 **Do NOT modify body:**

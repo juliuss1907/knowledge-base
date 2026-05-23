@@ -5,7 +5,7 @@ source_url: https://x.com/the_smart_ape/status/2055941633179283523
 date_ingested: 2026-05-19
 status: processed
 compiled_at: 2026-05-20
-compiled_to: [[wiki/sources/src_dont-sign-in-with-google.md]]
+compiled_to: "[[src_dont-sign-in-with-google]]"
 ---
 
 # Don't Sign In With Google

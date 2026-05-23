@@ -1,13 +1,13 @@
 ---
 type: post
-title: "11 minutes was all it took to hack github"
+title: 11 minutes was all it took to hack github
 url: https://x.com/i/status/2056983617302122740
 author: The Smart Ape (@the_smart_ape)
 date_published: 2026-05-20
 date_ingested: 2026-05-20
 status: processed
 compiled_at: 2026-05-21
-compiled_to: [[wiki/sources/src_11-minutes-hack-github.md]]
+compiled_to: "[[src_11-minutes-hack-github]]"
 source: X / Twitter
 ---
 

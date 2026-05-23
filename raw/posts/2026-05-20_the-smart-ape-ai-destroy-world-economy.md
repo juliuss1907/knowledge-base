@@ -1,13 +1,13 @@
 ---
 type: post
-title: "ai will destroy the world economy"
+title: ai will destroy the world economy
 url: https://x.com/i/status/2056673988869235142
 author: The Smart Ape (@the_smart_ape)
 date_published: 2026-05-19
 date_ingested: 2026-05-20
 status: processed
 compiled_at: 2026-05-21
-compiled_to: [[wiki/sources/src_ai-will-destroy-world-economy.md]]
+compiled_to: "[[src_ai-will-destroy-world-economy]]"
 source: X / Twitter
 ---
 

@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "compiled_to": "text"
+    "compiled_to": "text",
+    "sources": "text"
   }
 }

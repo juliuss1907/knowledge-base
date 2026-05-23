@@ -7,7 +7,7 @@ date_published: 2026-05-17
 date_ingested: 2026-05-20
 status: processed
 compiled_at: 2026-05-21
-compiled_to: [[wiki/sources/src_were-not-supposed-to-live-like-this.md]]
+compiled_to: "[[src_were-not-supposed-to-live-like-this]]"
 source: Substack / Julia Christina
 ---
 

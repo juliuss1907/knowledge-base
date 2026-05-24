@@ -10,7 +10,7 @@
 
 ## Summary
 
-**Pending reports:** 3 (2026-05-22 only)
+**Pending reports:** 3 (2026-05-22 validation batch — chờ Julius review)
 
 **Status:**
 - ✅ Output Validator — 2026-05-24: approved (ERROR wikilinks → systematic, requires Compile Agent)
@@ -65,17 +65,13 @@
 
 ## Pending Reports
 
-- [ ] **Output Validator — 2026-05-22** (7 issues remaining: 7 WARNING after fixes applied by Kara)
-  - WARNING: Empty Notes (systematic — needs Compile Agent template fix), key points overflow × 6 files (needs consolidation), broken wikilinks × 17 (needs concept compilation)
+- [ ] **Output Validator — 2026-05-22** (7 issues: Empty Notes systematic, key points overflow ×6, broken wikilinks ×17 — chờ Julius review)
   - Report: wiki/reviews/2026-05-22_output-report.md
 
-- [ ] **Format Validator — 2026-05-22** (5 issues remaining: 5 WARNING after fixes applied by Kara)
-  - WARNING: Field order × 2 files (minor)
+- [ ] **Format Validator — 2026-05-22** (5 issues: Field order ×2 (minor) — chờ Julius review)
   - Report: wiki/reviews/2026-05-22_format-report.md
 
-- [ ] **Hygiene Inspector — 2026-05-22** (2 issues remaining: 1 WARNING + 1 INFO after ERROR fixes applied by Kara)
-  - WARNING: `.gitkeep` in `wiki/topic/` naming convention
-  - INFO: `raw/raw.md` spec gap (missing from folder-structure.md Section 6)
+- [ ] **Hygiene Inspector — 2026-05-22** (2 issues: .gitkeep naming convention ×1, raw/raw.md spec gap ×1 — chờ Julius review)
   - Report: wiki/reviews/2026-05-22_hygiene-report.md
 
 ---

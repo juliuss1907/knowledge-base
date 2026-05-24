@@ -8,7 +8,9 @@ tags:
   - seo
   - marketing
   - content
-status: unprocessed
+status: processed
+compiled_at: 2026-05-24
+compiled_to: [[src_generative-ai-search-optimization]]
 ---
 
 # How to Optimize Content for Generative AI Search Engines

@@ -7,7 +7,9 @@ tags:
   - ai
   - security
   - research
-status: unprocessed
+status: processed
+compiled_at: 2026-05-24
+compiled_to: [[src_project-glasswing-update]]
 ---
 
 # Project Glasswing: An initial update

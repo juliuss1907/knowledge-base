@@ -8,7 +8,9 @@ tags:
   - ai
   - seo
   - search
-status: unprocessed
+status: processed
+compiled_at: 2026-05-24
+compiled_to: [[src_google-generative-ai-search-guide]]
 ---
 
 # Google publishes guide to optimizing for generative AI search

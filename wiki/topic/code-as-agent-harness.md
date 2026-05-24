@@ -1,29 +1,17 @@
----
-type: index
-topic: code-as-agent-harness
-created: 2026-05-22
-updated: 2026-05-22
----
-
 # Topic: code-as-agent-harness
 
-## Description
-Code as Agent Harness — paper survey về code như operational substrate cho AI agents
+Auto-generated index of all content with topic `code-as-agent-harness`.
 
-## Related Tags
-
-- #ai
-- #research  
-- #coding
-
-## Sources
-
-- [[src_code-as-agent-harness-arxiv-2605-18747]] (sẽ tạo khi Compile Agent chạy)
-
-## Concepts
-
-- Code as Agent Harness (sẽ tạo khi Compile Agent chạy)
-- Agent-Initiated Code Artifacts (sẽ tạo khi Compile Agent chạy)
+Last updated: 2026-05-24 21:03:44
 
 ---
-*Index placeholder. Sẽ cập nhật đầy đủ sau khi Compile Agent xử lý.*
+
+## Concepts (3)
+
+- [[agent-harness]] — main: #ai, sub: [#research, #coding]
+- [[code-as-substrate]] — main: #ai, sub: [#research, #coding]
+- [[plan-execute-verify-loop]] — main: #ai, sub: [#research, #coding]
+
+## Sources (1)
+
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding]

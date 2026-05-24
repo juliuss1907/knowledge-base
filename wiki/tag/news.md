@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: news
 auto_generated: true
-last_updated: 2026-05-20
+last_updated: 2026-05-24
 ---
 
 # Tag: #news
@@ -16,19 +16,23 @@ last_updated: 2026-05-20
 
 ## Stats
 
-- Total files: 2
-- Sources: 0
-- Concepts: 2
-- Last updated: 2026-05-20
+- Total files: 5
+- Sources: 2
+- Concepts: 3
+- Last updated: 2026-05-24
 
 ## Files with this tag
 
 - [[google-ai-overviews]] — Google Ai Overviews (concept)
 - [[grok-hermes-integration]] — Grok Hermes Integration (concept)
+- [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
+- [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source)
+- [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)
 
 ## Co-occurring tags
 
-- [[tools]] — 2 co-occurrences
-- [[tech]] — 1 co-occurrence
-- [[ai]] — 1 co-occurrence
-- [[automation]] — 1 co-occurrence
+- [[tech]] — 3 co-occurrences
+- [[tools]] — 3 co-occurrences
+- [[hack]] — 2 co-occurrences
+- [[ai]] — 2 co-occurrences
+- [[opinion]] — 1 co-occurrence

@@ -837,3 +837,13 @@ Each entry follows this format:
 - Output issues: empty Notes, empty Original excerpts, broken wikilinks
 
 **Status:** All 2026-05-22 reports marked as applied
+
+## 2026-05-24 21:00:18 — Indexed
+
+- **Scanned:** 78 concepts + 36 sources = 114 total files
+- **Tags indexed:** 15 (6 main-tags + 9 sub-tags)
+- **Topics indexed:** 30
+- **Orphans deleted:** 3 tag indexes (security, marketing, seo) + 2 topic indexes
+- **Invalid tags found:** 8 (non-existent tags referenced - no index created for these)
+- **Errors:** 0 files skipped
+- **tag.md:** Regenerated with current tag list

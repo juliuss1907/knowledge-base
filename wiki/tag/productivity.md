@@ -1,41 +1,53 @@
-# Tag: #productivity
-
-Auto-generated index of all content tagged with `#productivity`.
-
-Last updated: 2026-05-23 21:07
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: productivity
+auto_generated: true
+last_updated: 2026-05-24
 ---
 
-## Concepts (21)
+# Tag: #productivity
 
-- [[abstraction-layer-fallacy]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[active-thinking]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[casino-culture]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[compounding]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[deliberate-action]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[ego-and-progress]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[high-agency]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[lazy-thinking]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[leverage]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[long-term-vs-short-term]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[lucid-depression]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[mental-models]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[ownership-mindset]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[philosopher-syndrome]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[prioritization]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[self-awareness]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[systems-thinking]] — main: #productivity, sub: [#opinion], topic: post-systems-thinking
-- [[taste-gap]] — main: #productivity, sub: [#opinion], topic: compounding-growth
-- [[time-blocking]] — main: #productivity, sub: [#opinion], topic: compounding-growth
+## Parent
 
-## Sources (2)
+- [[tag]]
 
-- [[src_active-vs-lazy-thinking]] — main: #productivity, sub: [#opinion], topic: active-thinking-methodology
-- [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion], topic: compounding-growth
+## Stats
+
+- Total files: 21
+- Sources: 3
+- Concepts: 18
+- Last updated: 2026-05-24
+
+## Files with this tag
+
+- [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
+- [[active-thinking]] — Active Thinking (concept)
+- [[casino-culture]] — Casino Culture (concept)
+- [[compounding-effect]] — Compounding Effect (concept)
+- [[discipline-system]] — Discipline System (concept)
+- [[dunbar-number]] — Dunbar Number (concept)
+- [[environment-baseline]] — Environment Baseline (concept)
+- [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
+- [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
+- [[information-compression]] — Information Compression (concept)
+- [[lazy-thinking]] — Lazy Thinking (concept)
+- [[leading-indicators]] — Leading Indicators (concept)
+- [[negative-compounding]] — Negative Compounding (concept)
+- [[nice-syndrome]] — Nice Syndrome (concept)
+- [[non-commodity-content]] — Non Commodity Content (concept)
+- [[organizational-incrementalism]] — Organizational Incrementalism (concept)
+- [[patience-vs-passivity]] — Patience Vs Passivity (concept)
+- [[philosopher-syndrome]] — Philosopher Syndrome (concept)
+- [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
+- [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#productivity`:
-- `#opinion` (21 files)
-- `#ai` (2 files)
-- `#tools` (1 file)
+- [[opinion]] — 17 co-occurrences
+- [[research]] — 4 co-occurrences
+- [[tools]] — 3 co-occurrences
+- [[tutorial]] — 1 co-occurrence

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: defi
 auto_generated: true
-last_updated: 2026-05-20
+last_updated: 2026-05-24
 ---
 
 # Tag: #defi
@@ -16,17 +16,18 @@ last_updated: 2026-05-20
 
 ## Stats
 
-- Total files: 2
+- Total files: 3
 - Sources: 0
-- Concepts: 2
-- Last updated: 2026-05-20
+- Concepts: 3
+- Last updated: 2026-05-24
 
 ## Files with this tag
 
 - [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
+- [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
 
 ## Co-occurring tags
 
-- [[crypto]] — 2 co-occurrences
-- [[tools]] — 2 co-occurrences
+- [[crypto]] — 3 co-occurrences
+- [[tools]] — 3 co-occurrences

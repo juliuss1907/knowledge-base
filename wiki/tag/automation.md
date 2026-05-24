@@ -1,51 +1,70 @@
-# Tag: #automation
-
-Auto-generated index of all content tagged with `#automation`.
-
-Last updated: 2026-05-23 21:07
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: automation
+auto_generated: true
+last_updated: 2026-05-24
 ---
 
-## Concepts (25)
+# Tag: #automation
 
-- [[agentic-commerce]] — main: #ai, sub: [#tools, #automation], topic: ai-legal-personhood
-- [[agent-skill-management]] — main: #ai, sub: [#automation, #tools, #tutorial], topic: hermes-workflow-optimization
-- [[ai-research-workflow]] — main: #ai, sub: [#automation, #tools, #opinion], topic: hermes-xai-grok-integration
-- [[ai-tool-role-separation]] — main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-operator-builder-pattern
-- [[atomic-mac-agent]] — main: #tech, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
-- [[browser-harness-tool]] — main: #ai, sub: [#tools, #automation], topic: hermes-workflow-optimization
-- [[cookie-fun-mcp]] — main: #ai, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
-- [[delegation-strategy]] — main: #ai, sub: [#tools, #automation, #tutorial], topic: hermes-workflow-optimization
-- [[external-memory-providers]] — main: #system, sub: [#tools, #automation], topic: hermes-workflow-optimization
-- [[factory-missions]] — main: #ai, sub: [#tools, #automation], topic: factory-missions-architecture
-- [[grok-hermes-integration]] — main: #ai, sub: [#tools, #automation, #news], topic: hermes-xai-grok-integration
-- [[hermes-personal-analyst]] — main: #ai, sub: [#automation, #tools], topic: hermes-personal-analyst-setup
-- [[mcp-architecture]] — main: #tech, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
-- [[model-agnostic-broker]] — main: #ai, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
-- [[operator-builder-separation]] — main: #ai, sub: [#automation, #tools, #tutorial], topic: hermes-operator-builder-pattern
-- [[perplexity-search-tool]] — main: #ai, sub: [#tools, #automation], topic: hermes-xai-grok-integration
-- [[productivity-through-ai]] — main: #ai, sub: [#tools, #automation, #opinion], topic: ai-productivity
-- [[rag-chatbot-workflow]] — main: #ai, sub: [#automation, #tools], topic: hermes-workflow-optimization
-- [[structured-delegation]] — main: #ai, sub: [#automation, #tools, #tutorial], topic: hermes-workflow-optimization
-- [[tool-selection-heuristics]] — main: #ai, sub: [#tools, #automation, #tutorial], topic: hermes-workflow-optimization
-- [[trading-agent-guardrails]] — main: #ai, sub: [#automation, #tools, #tutorial], topic: hermes-polymarket-trading-agent
-- [[validation-contract]] — main: #ai, sub: [#research, #coding], topic: factory-missions-architecture
-- [[vibe-coding]] — main: #ai, sub: [#vibecode, #automation], topic: hermes-workflow-optimization
-- [[x-url-research-tool]] — main: #ai, sub: [#tools, #automation], topic: hermes-xurl-x-api-integration
+## Parent
 
-## Sources (10)
+- [[tag]]
 
-- [[src_1-month-with-hermes-ive-been-using-wrong]] — main: #ai, sub: [#tools, #automation, #tutorial], topic: hermes-operator-builder-pattern
-- [[src_hermes-analyst-workflow-essentials]] — main: #ai, sub: [#tools, #automation, #tutorial], topic: hermes-workflow-optimization
-- [[src_hermes-as-a-real-time-analyst]] — main: #ai, sub: [#automation, #tools], topic: hermes-xai-grok-integration
-- [[src_hermes-polymarket-btc-trading-agent]] — main: #ai, sub: [#automation, #tools], topic: hermes-polymarket-trading-agent
-- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — main: #ai, sub: [#tools, #automation], topic: factory-missions-architecture
-- [[src_optimize-content-generative-ai-search-sagepath]] — main: #ai, sub: [#seo, #marketing], topic: geo-generative-engine-optimization
+## Stats
+
+- Total files: 37
+- Sources: 9
+- Concepts: 28
+- Last updated: 2026-05-24
+
+## Files with this tag
+
+- [[agent-skill-management]] — Agent Skill Management (concept)
+- [[agentic-commerce]] — Agentic Commerce (concept)
+- [[ai-research-workflow]] — Ai Research Workflow (concept)
+- [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
+- [[atomic-mac-agent]] — Atomic Mac Agent (concept)
+- [[browser-harness-tool]] — Browser Harness Tool (concept)
+- [[closed-loop-system]] — Closed Loop System (concept)
+- [[codified-taste]] — Codified Taste (concept)
+- [[factory-missions]] — Factory Missions (concept)
+- [[grok-hermes-integration]] — Grok Hermes Integration (concept)
+- [[hermes-agent]] — Hermes Agent (concept)
+- [[hermes-operator-role]] — Hermes Operator Role (concept)
+- [[hermes-persistent-memory]] — Hermes Persistent Memory (concept)
+- [[hermes-three-layers]] — Hermes Three Layers (concept)
+- [[hindsight-skill]] — Hindsight Skill (concept)
+- [[last30days-skill]] — Last30days Skill (concept)
+- [[loop-ownership]] — Loop Ownership (concept)
+- [[persistent-memory-ai]] — Persistent Memory Ai (concept)
+- [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
+- [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)
+- [[shift-left-testing]] — Shift Left Testing (concept)
+- [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
+- [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
+- [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
+- [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
+- [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)
+- [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)
+- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
+- [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
+- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
+- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
+- [[taste-holders]] — Taste Holders (concept)
+- [[validation-contract]] — Validation Contract (concept)
+- [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
+- [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
+- [[x-search-tool]] — X Search Tool (concept)
+- [[xurl-cli]] — Xurl Cli (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#automation`:
-- `#tools` (25 files)
-- `#ai` (25 files)
-- `#tutorial` (8 files)
-- `#tech` (5 files)
+- [[tools]] — 34 co-occurrences
+- [[ai]] — 29 co-occurrences
+- [[opinion]] — 7 co-occurrences
+- [[tutorial]] — 7 co-occurrences
+- [[system]] — 5 co-occurrences

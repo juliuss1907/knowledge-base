@@ -3,12 +3,12 @@ type: index
 level: 3
 scope: tag
 parent: [[tag]]
-tag: economic
+tag: vibecode
 auto_generated: true
 last_updated: 2026-05-24
 ---
 
-# Tag: #economic
+# Tag: #vibecode
 
 ## Parent
 
@@ -23,9 +23,10 @@ last_updated: 2026-05-24
 
 ## Files with this tag
 
-- [[productivity-wage-gap]] — Productivity Wage Gap (concept)
+- [[hermes-agent]] — Hermes Agent (concept)
 
 ## Co-occurring tags
 
-- [[research]] — 1 co-occurrence
-- [[opinion]] — 1 co-occurrence
+- [[ai]] — 1 co-occurrence
+- [[tools]] — 1 co-occurrence
+- [[automation]] — 1 co-occurrence

@@ -76,16 +76,6 @@ Each entry follows this format:
 <!-- Entries appear below in reverse chronological order (newest first) -->
 <!-- OpenClaw appends new entries here -->
 
-Each entry follows this format:
-
-```markdown
-## YYYY-MM-DD HH:MM:SS — [Operation Type]
-
-- **Action:** [what was done]
-- **Input:** [what was processed]
-- **Output:** [what was created/updated]
-- **Status:** [success|failed|partial]
-- **Notes:** [additional context if needed]
 ## 2026-05-13 08:00:00 — Compiled
 
 - **Raw:** raw/articles/2026-05-12_active-vs-lazy-thinking.md
@@ -526,6 +516,83 @@ Each entry follows this format:
 ## 2026-05-17 21:12:31 — Indexed
 
 - **Scanned:** 29 total files
+- **Tags indexed:** 0 (8 main + -8 sub)
+- **Topics indexed:** 4
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 66
+- **Errors:** 0 files skipped
+
+### Invalid Tag Details
+- /home/julius/knowledge-base/wiki/sources/src_active-vs-lazy-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/sources/src_active-vs-lazy-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: main_tag=ai
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/sources/src_how-ai-productivity-fails.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/sources/src_how-some-people-become-unrecognizable.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/sources/src_what-comes-after-systems-thinking.md: main_tag=system
+- /home/julius/knowledge-base/wiki/sources/src_what-comes-after-systems-thinking.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/abstraction-layer-fallacy.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/abstraction-layer-fallacy.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/active-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/active-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/ashbys-law.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/ashbys-law.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/casino-culture.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/casino-culture.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/closed-loop-system.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/codified-taste.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/complex-adaptive-systems.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/complex-adaptive-systems.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/complicated-vs-complex.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/complicated-vs-complex.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/compounding-effect.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/compounding-effect.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/cynefin-framework.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/cynefin-framework.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/discipline-system.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/discipline-system.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/environment-baseline.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/environment-baseline.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/information-compression.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/information-compression.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/lazy-thinking.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/lazy-thinking.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/leading-indicators.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/leading-indicators.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/loop-ownership.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/loop-ownership.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/negative-compounding.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/negative-compounding.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/nice-syndrome.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/nice-syndrome.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/organizational-incrementalism.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/organizational-incrementalism.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/patience-vs-passivity.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/patience-vs-passivity.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/philosopher-syndrome.md: main_tag=productivity
+- /home/julius/knowledge-base/wiki/concepts/philosopher-syndrome.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/shift-left-testing.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: main_tag=ai
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: sub_tag=opinion
+- /home/julius/knowledge-base/wiki/concepts/skill-atrophy.md: sub_tag=tools
+- /home/julius/knowledge-base/wiki/concepts/systems-thinking-limitations.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/systems-thinking-limitations.md: sub_tag=research
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: main_tag=system
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: sub_tag=automation
+- /home/julius/knowledge-base/wiki/concepts/taste-holders.md: sub_tag=opinion
+
+## 2026-05-17 21:12:39 — Indexed
+
+- **Scanned:** 29 total files
 - **Tags indexed:** 7 (8 main + -1 sub)
 - **Topics indexed:** 4
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
@@ -673,3 +740,63 @@ Each entry follows this format:
 - **New topic indexes:** compounding-growth, generative-ai-seo, geo-generative-engine-optimization, ai-security-vulnerability-discovery
 - **Updated tag indexes:** #ai
 - **Note:** Manual index run after cron job failed (LLM error 500)
+
+## 2026-05-24 08:00:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/websites/2026-05-23_google-publishes-generative-ai-search-guide-semrush.md
+- **Source note:** wiki/sources/src_google-generative-ai-search-guide.md
+- **Concepts:** [retrieval-augmented-generation, ai-overviews, google-ai-mode, geo-strategy]
+- **Tags applied:** main=#ai, sub=[#tools, #research], topic=google-ai-search-optimization
+- **Action:** created 4 concept files
+
+## 2026-05-24 08:02:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/websites/2026-05-23_optimize-content-generative-ai-search-sagepath.md
+- **Source note:** wiki/sources/src_generative-ai-search-optimization.md
+- **Concepts:** [geo-strategy, generative-search-results]
+- **Tags applied:** main=#ai, sub=[#research, #tools], topic=generative-ai-search-optimization
+- **Action:** updated 1 concept, created 1 new concept (merged into existing geo-strategy)
+
+## 2026-05-24 08:04:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/websites/2026-05-23_project-glasswing-anthropic-initial-update.md
+- **Source note:** wiki/sources/src_project-glasswing-update.md
+- **Concepts:** [ai-vulnerability-discovery, coordinated-vulnerability-disclosure, responsible-ai-security-research]
+- **Tags applied:** main=#ai, sub=[#hack, #research], topic=ai-security-vulnerability-research
+- **Action:** created 3 concept files
+
+## 2026-05-24 08:06:00 — Compiled Summary
+
+- **Files processed:** 3/3
+- **Source notes created:** 3
+- **Concepts created:** 10
+- **Concepts updated:** 1
+- **Raw files updated:** 3 (status: processed)
+- **Index files updated:** 1 (websites.md)
+- **Errors:** 0
+- **Duration:** ~6 minutes
+
+---
+<!-- Entries appear below in reverse chronological order (newest first) -->
+<!-- OpenClaw appends new entries here -->
+
+## 2026-05-24 08:00:00 — Compiled (Daily Cron)
+
+- **Files processed:** 3/3 files từ raw/websites/
+- **Source notes created:** 3 files trong wiki/sources/
+  - src_google-generative-ai-search-guide
+  - src_generative-ai-search-optimization  
+  - src_project-glasswing-update
+- **Concepts created:** 10 files mới trong wiki/concepts/
+  - retrieval-augmented-generation
+  - ai-overviews
+  - google-ai-mode
+  - geo-strategy
+  - generative-search-results
+  - ai-vulnerability-discovery
+  - coordinated-vulnerability-disclosure
+  - responsible-ai-security-research
+- **Concepts updated:** 1 file (geo-strategy.md — merged content từ 2 sources)
+- **Raw files updated:** 3 files (status → processed)
+- **Index files updated:** raw/websites/websites.md
+- **Errors:** 0

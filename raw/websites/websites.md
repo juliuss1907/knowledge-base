@@ -20,10 +20,10 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 0 files
-- By status: 0 processed, 0 unprocessed
-- By date: 0 this week, 0 this month
-- Last updated: 2026-05-17
+- Total: 3 files
+- By status: 3 processed, 0 unprocessed
+- By date: 3 this week, 3 this month
+- Last updated: 2026-05-24
 
 ## Items
 

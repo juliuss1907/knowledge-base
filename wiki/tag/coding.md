@@ -1,27 +1,25 @@
----
-type: index
-tag: coding
-created: 2026-05-22
-updated: 2026-05-22
----
-
 # Tag: #coding
 
-## Description
-Programming, software development, code generation, dev practices
+Auto-generated index of all content tagged with `#coding`.
 
-## Sources
-
-*No sources tagged with #coding yet (Compile Agent will process raw files)*
-
-## Concepts
-
-*No concepts tagged with #coding yet*
-
-## Co-occurring Tags
-
-- #ai (via raw/papers/2026-05-22_code-as-agent-harness...)
-- #research (via raw/papers/2026-05-22_code-as-agent-harness...)
+Last updated: 2026-05-23 21:07
 
 ---
-*Index auto-generated. Updated when Compile Agent runs.*
+
+## Concepts (5)
+
+- [[agent-harness]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+- [[code-as-substrate]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+- [[multi-agent-taxonomy]] — main: #ai, sub: [#research, #coding], topic: factory-missions-architecture
+- [[plan-execute-verify-loop]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+- [[validation-contract]] — main: #ai, sub: [#research, #coding], topic: factory-missions-architecture
+
+## Sources (1)
+
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+
+## Co-occurring tags
+
+Tags that frequently appear with `#coding`:
+- `#research` (5 files)
+- `#ai` (5 files)

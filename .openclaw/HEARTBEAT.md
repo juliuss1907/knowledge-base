@@ -1,40 +1,62 @@
-# HEARTBEAT.md
+# OpenClaw — HEARTBEAT
 
-> OpenClaw system health log
-> Updated: 2026-05-23 10:00 Asia/Saigon
-
----
-
-## Status: ⚠️ PENDING REVIEW
-
-**Last heartbeat:** 2026-05-23 10:00 (Asia/Saigon)
+> Cập nhật mỗi 30 phút bởi Kara (OpenClaw)
+> Current time: 2026-05-24 07:00 Asia/Saigon
 
 ---
 
-## Checks
+## Status
 
-| Check | Status | Notes |
+**HEARTBEAT_OK**
+
+---
+
+## Raw Backlog
+
+| Thư mục | Số file | Ghi chú |
 |---|---|---|
-| Inbox tasks | ✅ | No #agent/inbox entries |
-| Raw backlog | ✅ | 0 unprocessed files |
-| Concept check | ✅ | Sampled 2 files, backlinks OK |
-| Pending reviews | ⚠️ | 3 reports pending since 2026-05-22 |
+| `raw/websites/` | 3 files unprocessed | Từ 2026-05-23 — CompileAgent sẽ xử lý lúc 08:00 |
+
+**Files:**
+- `2026-05-23_google-publishes-generative-ai-search-guide-semrush.md` — status: unprocessed
+- `2026-05-23_optimize-content-generative-ai-search-sagepath.md` — status: unprocessed
+- `2026-05-23_project-glasswing-anthropic-initial-update.md` — status: unprocessed
 
 ---
 
-## Pending Reports
+## Pending Reviews (Hermes)
 
-- Output Validator (2026-05-22) — 7 WARNING
-- Format Validator (2026-05-22) — 5 WARNING
-- Hygiene Inspector (2026-05-22) — 1 WARNING, 1 INFO
+**3 reports chờ Julius approve** (từ 2026-05-22):
+
+| Report | Issues | Severity |
+|---|---|---|
+| Output Validator | 7 WARNING | ⚠️ Medium |
+| Format Validator | 5 WARNING | ⚠️ Low |
+| Hygiene Inspector | 2 remaining (1 WARNING + 1 INFO) | ℹ️ Low |
+
+**Chi tiết:** `wiki/reviews/_action-required.md`
 
 ---
 
-## Notes
+## Quick Stats
 
-- System stable. 
-- 3 validation reports from yesterday are awaiting Julius's review in `wiki/reviews/_action-required.md`.
+| | Số lượng | Notes |
+|---|---|---|
+| `wiki/concepts/` | 84 files | |
+| `wiki/sources/` | 19 files | |
+| Review reports | 14 total | 11 resolved, 3 pending |
 
 ---
 
-*Next heartbeat: 10:30 Asia/Saigon*
+## Cron Schedule
+
+| Task | Time | Status |
+|---|---|---|
+| Readwise sync | 07:00 daily | ✅ |
+| Compile | 08:00 daily | Pending (3 files) |
+| Index update | 21:00 daily | — |
+| Heartbeat check | every 30min | ✅ Running |
+
+---
+
+*Last updated: 2026-05-24 07:00*

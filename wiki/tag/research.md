@@ -1,44 +1,35 @@
----
-type: index
-level: 3
-scope: tag
-parent: [[tag]]
-tag: research
-auto_generated: true
-last_updated: 2026-05-22
----
-
 # Tag: #research
 
-## Parent
+Auto-generated index of all content tagged with `#research`.
 
-- [[tag]]
+Last updated: 2026-05-23 21:07
 
-## Stats
+---
 
-- Total files: 9
-- Sources: 1
-- Concepts: 8
-- Last updated: 2026-05-22
+## Concepts (14)
 
-## Co-occurring Tags
+- [[agent-harness]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+- [[ai-white-collar-automation]] — main: #ai, sub: [#research, #opinion], topic: ai-economic-disruption-white-collar
+- [[ashbys-law]] — main: #system, sub: [#research], topic: post-systems-thinking
+- [[code-as-substrate]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+- [[complicated-vs-complex]] — main: #system, sub: [#research], topic: post-systems-thinking
+- [[hunter-gatherer-lifestyle]] — main: #system, sub: [#research], topic: evolutionary-mismatch-modern-life
+- [[multi-agent-taxonomy]] — main: #ai, sub: [#research, #coding], topic: factory-missions-architecture
+- [[plan-execute-verify-loop]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+- [[token-level-reasoning]] — main: #ai, sub: [#research], topic: hermes-polymarket-trading-agent
+- [[validation-contract]] — main: #ai, sub: [#research, #coding], topic: factory-missions-architecture
 
-- #coding (new tag added 2026-05-22)
+## Sources (4)
 
-## Files with this tag
-
-- [[ashbys-law]] — Ashbys Law (concept)
-- [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
-- [[complicated-vs-complex]] — Complicated Vs Complex (concept)
-- [[cynefin-framework]] — Cynefin Framework (concept)
-- [[external-memory-providers]] — External Memory Providers (concept)
-- [[query-fan-out]] — Query Fan Out (concept)
-- [[rag-retrieval-augmented-generation]] — Rag Retrieval Augmented Generation (concept)
-- [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
-- [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
+- [[src_ai-will-destroy-world-economy]] — main: #ai, sub: [#research, #opinion], topic: ai-economic-disruption-white-collar
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+- [[src_project-glasswing-anthropic-initial-update]] — main: #ai, sub: [#security, #research], topic: ai-security-vulnerability-discovery
+- [[src_were-not-supposed-to-live-like-this]] — main: #system, sub: [#research], topic: evolutionary-mismatch-modern-life
+- [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#research], topic: post-systems-thinking
 
 ## Co-occurring tags
 
-- [[system]] — 6 co-occurrences
-- [[ai]] — 3 co-occurrences
-- [[tools]] — 3 co-occurrences
+Tags that frequently appear with `#research`:
+- `#ai` (14 files)
+- `#coding` (5 files)
+- `#system` (7 files)

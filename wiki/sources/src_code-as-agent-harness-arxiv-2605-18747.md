@@ -1,14 +1,12 @@
 ---
 type: source
-original: "[[2026-05-22_code-as-agent-harness-arxiv-2605-18747]]"
+original: [[2026-05-22_code-as-agent-harness-arxiv-2605-18747.md]]
 main_tag: ai
-sub_tags:
-  - research
-  - coding
+sub_tags: [research, coding]
 topic: code-as-agent-harness
 date_compiled: 2026-05-23
 url: https://www.alphaxiv.org/abs/2605.18747
-author: Xuying Ning, Katherine Tieu, Dongqi Fu, Tianxin Wei, Zihao Li, Yuanchen Bei
+author: "Xuying Ning, Katherine Tieu, Dongqi Fu, Tianxin Wei, Zihao Li, Yuanchen Bei"
 ---
 
 # Code as Agent Harness

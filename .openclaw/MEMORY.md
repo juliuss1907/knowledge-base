@@ -820,3 +820,20 @@ Each entry follows this format:
 - Systematic issues requiring Compile Agent template fixes
 
 **Status:** Reports 2026-05-24 marked as applied
+
+## 2026-05-24 09:07:00 — Applied Fixes 2026-05-22 (Fix Agent)
+
+- **Reports processed:** 3 (2026-05-22 Output, Format, Hygiene)
+- **Issues fixed:** 16
+- **Files modified/deleted:** 4
+
+**Fixes applied:**
+1. Hygiene: Deleted memory/ directory (root)
+2. Hygiene: Deleted RAW_BACKLOG.md (root)
+3. Hygiene: Deleted wiki/reviews/HEARTBEAT.md
+
+**Skipped (already fixed in 2026-05-24 batch):**
+- Format issues: extra sections, YAML syntax, legacy fields, field order
+- Output issues: empty Notes, empty Original excerpts, broken wikilinks
+
+**Status:** All 2026-05-22 reports marked as applied

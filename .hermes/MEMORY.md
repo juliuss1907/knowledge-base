@@ -10,6 +10,16 @@
 
 ---
 
+## 2026-05-24 08:05:00 — Output Validation
+- **Validator:** output-validator
+- **Files checked:** 103 (19 sources + 84 concepts)
+- **New files:** 17 (11 concepts + 6 sources since 2026-05-22)
+- **Issues found:** 20 (1 ERROR, 11 WARNING, 8 INFO)
+- **ERROR:** 11 broken wikilinks (missing concept pages from Compile Agent)
+- **WARNING:** Empty Notes ×11, short summaries ×6, short definitions ×4, empty excerpts ×3, missing excerpts ×1, truncated content ×1, string sources ×1, wikilink original ×2
+- **INFO:** Low key ideas ×5, syntax inconsistency ×2, mixed sections ×3, title language ×1, unverified numbers ×1, stale pricing ×1, code switching ×1, shared topic ×1, date discrepancy ×1
+- **Report:** wiki/reviews/2026-05-24_output-report.md
+
 ## 2026-05-22 23:10:00 — Output Validation
 - **Validator:** output-validator
 - **Files checked:** 95 (17 sources + 78 concepts)

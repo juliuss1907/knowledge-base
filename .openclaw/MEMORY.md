@@ -779,3 +779,24 @@ Each entry follows this format:
 ---
 <!-- Entries appear below in reverse chronological order (newest first) -->
 <!-- OpenClaw appends new entries here -->
+
+## 2026-05-24 08:00:00 — Compiled (Daily Cron)
+
+- **Files processed:** 3/3 files từ raw/websites/
+- **Source notes created:** 3 files trong wiki/sources/
+  - src_google-generative-ai-search-guide
+  - src_generative-ai-search-optimization  
+  - src_project-glasswing-update
+- **Concepts created:** 10 files mới trong wiki/concepts/
+  - retrieval-augmented-generation
+  - ai-overviews
+  - google-ai-mode
+  - geo-strategy
+  - generative-search-results
+  - ai-vulnerability-discovery
+  - coordinated-vulnerability-disclosure
+  - responsible-ai-security-research
+- **Concepts updated:** 1 file (geo-strategy.md — merged content từ 2 sources)
+- **Raw files updated:** 3 files (status → processed)
+- **Index files updated:** raw/websites/websites.md
+- **Errors:** 0

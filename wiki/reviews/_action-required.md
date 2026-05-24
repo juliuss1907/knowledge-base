@@ -43,6 +43,7 @@
 
 ## Warnings (Can Fix Later)
 
+- Output Validator 2026-05-24: 11 WARNING — Empty Notes ×11 (systematic), Summary too short ×6, Definition too short ×4, Empty excerpts ×3, Missing excerpts ×1, Truncated content ×1, String sources field ×1, Wikilink original field ×2
 - Output Validator 2026-05-22: 7 WARNING remaining — Empty Notes (systematic), Too many key points (needs Julius decision), Broken wikilinks (needs concept compilation)
 - Format Validator 2026-05-22: 5 WARNING remaining — Field order (minor)
 - Hygiene Inspector 2026-05-22: 1 WARNING — `.gitkeep` naming in `wiki/topic/`
@@ -51,11 +52,18 @@
 
 ## Info & Suggestions
 
+- Output Validator 2026-05-24: 8 INFO — Low key ideas ×5, syntax inconsistency ×2, mixed format sections ×3, title language ×1, unverified numbers ×1, stale pricing ×1, code switching ×1, shared topic ×1, date discrepancy ×1
 - Hygiene Inspector 2026-05-22: 1 INFO — `raw/raw.md` spec gap (missing from folder-structure.md Section 6)
 
 ---
 
 ## Pending Reports
+
+- [ ] **Output Validator — 2026-05-24** (20 issues: 1 ERROR + 11 WARNING + 8 INFO)
+  - ERROR: 11 broken wikilinks → requires Compile Agent to create 11 missing concept pages
+  - WARNING: Empty Notes ×11, Summary too short ×6, Definition too short ×4, Empty excerpts ×3, Missing excerpts ×1, Truncated content ×1, String sources ×1, Wikilink original ×2
+  - INFO: Low key ideas ×5, syntax inconsistency ×2, mixed sections ×3, title language ×1, unverified numbers ×1, stale pricing ×1, code switching ×1, shared topic ×1, date discrepancy ×1
+  - Report: wiki/reviews/2026-05-24_output-report.md
 
 - [ ] **Output Validator — 2026-05-22** (7 issues remaining: 7 WARNING after fixes applied by Kara)
   - WARNING: Empty Notes (systematic — needs Compile Agent template fix), key points overflow × 6 files (needs consolidation), broken wikilinks × 17 (needs concept compilation)

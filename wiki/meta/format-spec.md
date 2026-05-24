@@ -63,8 +63,13 @@ status: draft | reviewed | needs-revision
 main_tag: <one-from-pool-a>
 sub_tags: [<one-to-three-from-pool-b>]
 topic: <lowercase-hyphen-slug>
-sources:
-  - [[src_<slug>]]
+sources: <wikilink-or-array>
+  # Single source (string):
+  sources: [[src_<slug>]]
+  # Multiple sources (array):
+  sources:
+    - [[src_slug1]]
+    - [[src_slug2]]
 last_updated: YYYY-MM-DD
 ---
 ```
@@ -78,7 +83,7 @@ last_updated: YYYY-MM-DD
 | `main_tag` | string | Yes | Must exist in `TAGS.md` Pool A |
 | `sub_tags` | array | Yes | 1–3 tags from `TAGS.md` Pool B |
 | `topic` | string | Yes | Lowercase-hyphen slug, max 60 chars |
-| `sources` | array | Yes | Wikilinks to `src_*.md` files |
+| `sources` | string or array | Yes | Single wikilink as string, or array of wikilinks |
 | `last_updated` | date | Yes | ISO format `YYYY-MM-DD` |
 
 **Field order (required):**
@@ -100,7 +105,7 @@ last_updated: YYYY-MM-DD
 - ERROR: `last_updated` not valid ISO date (YYYY-MM-DD)
 - ERROR: Invalid YAML syntax
 - WARNING: Field order does not match spec
-- WARNING: `sources` array is empty
+- WARNING: `sources` field is empty
 
 ### 2.3 Required sections (in order)
 

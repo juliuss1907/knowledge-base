@@ -4,15 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-23 07:05 — Fix Agent applied 10 fixes (3 Hygiene ERROR, 6 Format WARNING, 1 Output WARNING)
+**Last updated:** 2026-05-24 08:05 — Output Validator run complete (17 new files validated, 20 issues found)
 
 ---
 
 ## Summary
 
-**Pending reports:** 3
+**Pending reports:** 4
 
 **Status:**
+- 🔴 Output Validator — 2026-05-24: 1 ERROR (broken wikilinks) + 11 WARNING + 8 INFO — requires Compile Agent re-run
 - ⚠️ Output Validator — 2026-05-22: 7 issues remaining (7 WARNING, 0 INFO after fixes) — awaiting review
 - ℹ️ Format Validator — 2026-05-22: 5 issues remaining (0 ERROR, 5 WARNING, 0 INFO after fixes) — awaiting review
 - 🔴 Hygiene Inspector — 2026-05-22: 2 issues remaining (0 ERROR, 1 WARNING, 1 INFO after fixes) — awaiting review
@@ -35,6 +36,7 @@
 
 ## Critical Issues (Fix Immediately)
 
+- **Output 2026-05-24:** 1 ERROR — 11 broken wikilinks referencing missing concept pages. Compile Agent must create: `agent-initiated-code-artifacts`, `multi-agent-systems`, `code-for-reasoning`, `code-for-action`, `code-for-environment-modeling`, `orchestrator-worker-validator`, `agent-handoff`, `harness-control`, `program-of-thoughts`, `supergrok-subscription`, `nous-research`
 - **Hygiene 2026-05-22:** 3 ERROR — `memory/` stale dir at root, `RAW_BACKLOG.md` at root (not in whitelist), `wiki/reviews/HEARTBEAT.md` in wrong location
 
 ---

@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [hack, tools]
 topic: github-supply-chain-attack-vs-code
 sources:
-  - [[wiki/sources/src_11-minutes-hack-github.md]]
+  - [[src_11-minutes-hack-github]]
 last_updated: 2026-05-21
 ---
 
@@ -35,6 +35,6 @@ Supply chain attack là hình thức tấn công mà kẻ xâm nhập target kh�
 
 ## Sources
 
-- [[wiki/sources/src_11-minutes-hack-github.md]]
+- [[src_11-minutes-hack-github]]
 
 ## Notes

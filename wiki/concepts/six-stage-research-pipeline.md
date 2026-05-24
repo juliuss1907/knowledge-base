@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [automation, tools, tutorial]
 topic: hermes-xai-grok-integration
 sources:
-  - [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+  - [[src_hermes-as-a-real-time-analyst]]
 last_updated: 2026-05-19
 ---
 
@@ -38,6 +38,6 @@ Pipeline 6 giai đoạn kết hợp nhiều tools để tạo comprehensive rese
 
 ## Sources
 
-- [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+- [[src_hermes-as-a-real-time-analyst]]
 
 ## Notes

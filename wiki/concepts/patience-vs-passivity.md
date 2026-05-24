@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [opinion]
 topic: compounding-growth
 sources:
-  - [[wiki/sources/src_how-some-people-become-unrecognizable]]
+  - [[src_how-some-people-become-unrecognizable]]
 last_updated: 2026-05-15
 ---
 
@@ -33,6 +33,6 @@ Sự khác biệt giữa Patience (kiên nhẫn) và Passivity (thụ động). 
 
 ## Sources
 
-- [[wiki/sources/src_how-some-people-become-unrecognizable]]
+- [[src_how-some-people-become-unrecognizable]]
 
 ## Notes

@@ -5,8 +5,8 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: hermes-workflow-optimization
 sources:
-  - [[wiki/sources/src_hermes-analyst-workflow-essentials]]
-  - [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+  - [[src_hermes-analyst-workflow-essentials]]
+  - [[src_hermes-200-30-skills-3-worth-it]]
 last_updated: 2026-05-19
 ---
 
@@ -37,7 +37,7 @@ Tool @browser_use trong Hermes cho phép agent surf web như human — flexible 
 
 ## Sources
 
-- [[wiki/sources/src_hermes-analyst-workflow-essentials]]
-- [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+- [[src_hermes-analyst-workflow-essentials]]
+- [[src_hermes-200-30-skills-3-worth-it]]
 
 ## Notes

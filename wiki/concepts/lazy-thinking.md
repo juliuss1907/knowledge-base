@@ -35,7 +35,7 @@ A decision-making mode characterized by reliance on broad, imprecise beliefs tha
 
 ## Sources
 
-- [[wiki/sources/src_active-vs-lazy-thinking]]
+- [[src_active-vs-lazy-thinking]]
 
 ## Notes
 

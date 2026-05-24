@@ -34,7 +34,7 @@ The error of believing that clean abstraction layers in system diagrams or state
 
 ## Sources
 
-- [[wiki/sources/src_active-vs-lazy-thinking]]
+- [[src_active-vs-lazy-thinking]]
 
 ## Notes
 

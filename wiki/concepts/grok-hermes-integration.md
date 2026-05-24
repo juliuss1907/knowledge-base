@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation, news]
 topic: hermes-xai-grok-integration
 sources:
-  - [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+  - [[src_hermes-as-a-real-time-analyst]]
 last_updated: 2026-05-19
 ---
 
@@ -31,7 +31,7 @@ Tích hợp giữa Nous Research (Hermes) và xAI cho phép X Premium/Premium+ u
 
 ## Sources
 
-- [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+- [[src_hermes-as-a-real-time-analyst]]
 
 ## Cost Comparison
 
@@ -40,4 +40,3 @@ Tích hợp giữa Nous Research (Hermes) và xAI cho phép X Premium/Premium+ u
 | X API | ~$0.5 | Fetch smart accounts |
 | x_search | ~$0.1 | Chỉ dùng cho X bookmark cron job |
 
-## Notes

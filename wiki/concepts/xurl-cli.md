@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [tools, automation]
 topic: hermes-xurl-x-api-integration
 sources:
-  - [[wiki/sources/src_hermes-xurl-skill-guide.md]]
+  - [[src_hermes-xurl-skill-guide]]
 last_updated: 2026-05-21
 ---
 
@@ -35,6 +35,6 @@ xurl là standalone CLI (command-line interface) cho X (Twitter) API, cho phép 
 
 ## Sources
 
-- [[wiki/sources/src_hermes-xurl-skill-guide.md]]
+- [[src_hermes-xurl-skill-guide]]
 
 ## Notes

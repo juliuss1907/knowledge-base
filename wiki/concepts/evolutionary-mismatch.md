@@ -6,7 +6,7 @@ sub_tags:
   - research
   - opinion
 topic: evolutionary-mismatch-modern-life
-sources: "[[src_were-not-supposed-to-live-like-this.md]]"
+sources: "[[src_were-not-supposed-to-live-like-this]]"
 last_updated: 2026-05-21
 ---
 
@@ -31,6 +31,5 @@ Evolutionary mismatch (lệch lạc tiến hóa) là hiện tượng môi trư�
 
 ## Sources
 
-- [[wiki/sources/src_were-not-supposed-to-live-like-this.md]]
+- [[src_were-not-supposed-to-live-like-this]]
 
-## Notes

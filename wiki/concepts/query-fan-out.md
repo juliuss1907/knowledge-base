@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [research, tools]
 topic: generative-ai-seo
 sources:
-  - [[wiki/sources/src_google-guide-optimizing-generative-ai-search]]
+  - [[src_google-guide-optimizing-generative-ai-search]]
 last_updated: 2026-05-19
 ---
 
@@ -30,6 +30,6 @@ Set của concurrent, related queries được AI model generate để request t
 
 ## Sources
 
-- [[wiki/sources/src_google-guide-optimizing-generative-ai-search]]
+- [[src_google-guide-optimizing-generative-ai-search]]
 
 ## Notes

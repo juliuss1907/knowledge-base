@@ -41,4 +41,7 @@ Workflow tối ưu để sử dụng Hermes như analyst cá nhân, dựa trên 
 - [[agent-skill-management]]
 - [[browser-harness-tool]]
 
+
 ## Original excerpts
+
+<!-- TODO: Add key quotes from source -->

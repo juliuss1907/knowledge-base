@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [tools, tutorial]
 topic: generative-ai-seo
 sources:
-  - [[wiki/sources/src_google-guide-optimizing-generative-ai-search]]
+  - [[src_google-guide-optimizing-generative-ai-search]]
 last_updated: 2026-05-19
 ---
 
@@ -32,6 +32,6 @@ Các best practices để tối ưu website và content cho các tính năng gen
 
 ## Sources
 
-- [[wiki/sources/src_google-guide-optimizing-generative-ai-search]]
+- [[src_google-guide-optimizing-generative-ai-search]]
 
 ## Notes

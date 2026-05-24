@@ -34,7 +34,7 @@ A condition where otherwise sensible people fall prey to lazy thinking when isol
 
 ## Sources
 
-- [[wiki/sources/src_active-vs-lazy-thinking]]
+- [[src_active-vs-lazy-thinking]]
 
 ## Notes
 

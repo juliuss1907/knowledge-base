@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, research]
 topic: hermes-top-skills-analysis
 sources:
-  - [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+  - [[src_hermes-200-30-skills-3-worth-it]]
 last_updated: 2026-05-19
 ---
 
@@ -30,6 +30,6 @@ Các service cung cấp external memory cho AI agents như Hermes — lưu trữ
 
 ## Sources
 
-- [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+- [[src_hermes-200-30-skills-3-worth-it]]
 
 ## Notes

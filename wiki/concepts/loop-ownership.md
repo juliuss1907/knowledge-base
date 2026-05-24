@@ -5,7 +5,7 @@ main_tag: system
 sub_tags: [automation]
 topic: ai-productivity
 sources:
-  - [[wiki/sources/src_how-ai-productivity-fails]]
+  - [[src_how-ai-productivity-fails]]
 last_updated: 2026-05-15
 ---
 
@@ -31,6 +31,6 @@ Loop Ownership là mô hình tổ chức trong đó một người/cá nhân đ�
 
 ## Sources
 
-- [[wiki/sources/src_how-ai-productivity-fails]]
+- [[src_how-ai-productivity-fails]]
 
 ## Notes

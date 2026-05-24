@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [research]
 topic: evolutionary-mismatch-modern-life
 sources:
-  - [[wiki/sources/src_were-not-supposed-to-live-like-this.md]]
+  - [[src_were-not-supposed-to-live-like-this]]
 last_updated: 2026-05-21
 ---
 
@@ -28,6 +28,6 @@ Default Mode Network (DMN) là mạng não kích hoạt khi não bộ không t�
 
 ## Sources
 
-- [[wiki/sources/src_were-not-supposed-to-live-like-this.md]]
+- [[src_were-not-supposed-to-live-like-this]]
 
 ## Notes

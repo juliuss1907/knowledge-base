@@ -6,7 +6,7 @@ sub_tags:
   - research
 topic: factory-missions-architecture
 sources:
-  - [[wiki/sources/src_luke-alvoeiro-multi-agent-architecture-factory.md]]
+  - [[src_luke-alvoeiro-multi-agent-architecture-factory]]
 last_updated: 2026-05-23
 ---
 
@@ -32,6 +32,5 @@ Phân loại 5 mô hình giao tiếp cơ bản giữa các agent trong hệ th�
 
 ## Sources
 
-- [[wiki/sources/src_luke-alvoeiro-multi-agent-architecture-factory.md]]
+- [[src_luke-alvoeiro-multi-agent-architecture-factory]]
 
-## Notes

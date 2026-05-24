@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [tutorial, opinion]
 topic: generative-ai-seo
 sources:
-  - [[wiki/sources/src_google-guide-optimizing-generative-ai-search]]
+  - [[src_google-guide-optimizing-generative-ai-search]]
 last_updated: 2026-05-19
 ---
 
@@ -30,6 +30,6 @@ Content cung cấp unique expert/experienced takes, không chỉ dựa trên com
 
 ## Sources
 
-- [[wiki/sources/src_google-guide-optimizing-generative-ai-search]]
+- [[src_google-guide-optimizing-generative-ai-search]]
 
 ## Notes

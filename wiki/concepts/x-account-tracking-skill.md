@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: hermes-top-skills-analysis
 sources:
-  - [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+  - [[src_hermes-200-30-skills-3-worth-it]]
 last_updated: 2026-05-19
 ---
 
@@ -32,6 +32,6 @@ Skill của Hermes dưới dạng cron job để theo dõi X (Twitter) accounts 
 
 ## Sources
 
-- [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+- [[src_hermes-200-30-skills-3-worth-it]]
 
 ## Notes

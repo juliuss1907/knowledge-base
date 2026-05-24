@@ -41,4 +41,7 @@ Sau $200 và 30 skills, tác giả chia sẻ 3 skills đáng giá nhất từ He
 - [[hermes-token-management]]
 - [[external-memory-providers]]
 
+
 ## Original excerpts
+
+<!-- TODO: Add key quotes from source -->

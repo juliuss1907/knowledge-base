@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: hermes-personal-analyst-setup
 sources:
-  - [[wiki/sources/src_3-things-learnt-3-weeks-hermes-analyst]]
+  - [[src_3-things-learnt-3-weeks-hermes-analyst]]
 last_updated: 2026-05-19
 ---
 
@@ -31,6 +31,6 @@ Skill của Hermes thực hiện 30-day multi-source alpha scan từ Reddit, X, 
 
 ## Sources
 
-- [[wiki/sources/src_3-things-learnt-3-weeks-hermes-analyst]]
+- [[src_3-things-learnt-3-weeks-hermes-analyst]]
 
 ## Notes

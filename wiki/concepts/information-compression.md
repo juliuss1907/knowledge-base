@@ -31,7 +31,7 @@ The process by which detailed information is simplified or condensed during tran
 
 ## Sources
 
-- [[wiki/sources/src_active-vs-lazy-thinking]]
+- [[src_active-vs-lazy-thinking]]
 
 ## Notes
 

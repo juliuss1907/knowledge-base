@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [opinion]
 topic: compounding-growth
 sources:
-  - [[wiki/sources/src_how-some-people-become-unrecognizable]]
+  - [[src_how-some-people-become-unrecognizable]]
 last_updated: 2026-05-15
 ---
 
@@ -30,6 +30,6 @@ Casino Culture là mindset và behavior pattern theo đó mọi người mong đ
 
 ## Sources
 
-- [[wiki/sources/src_how-some-people-become-unrecognizable]]
+- [[src_how-some-people-become-unrecognizable]]
 
 ## Notes

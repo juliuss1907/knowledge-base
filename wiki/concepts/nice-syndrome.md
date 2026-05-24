@@ -33,7 +33,7 @@ An organizational dysfunction where people avoid challenging others' beliefs bec
 
 ## Sources
 
-- [[wiki/sources/src_active-vs-lazy-thinking]]
+- [[src_active-vs-lazy-thinking]]
 
 ## Notes
 

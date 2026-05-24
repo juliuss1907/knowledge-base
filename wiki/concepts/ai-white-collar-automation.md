@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [research, opinion]
 topic: ai-economic-disruption-white-collar
 sources:
-  - [[wiki/sources/src_ai-will-destroy-world-economy.md]]
+  - [[src_ai-will-destroy-world-economy]]
 last_updated: 2026-05-21
 ---
 
@@ -35,6 +35,6 @@ AI white-collar automation là xu hướng AI thay thế hoàn toàn công việ
 
 ## Sources
 
-- [[wiki/sources/src_ai-will-destroy-world-economy.md]]
+- [[src_ai-will-destroy-world-economy]]
 
 ## Notes

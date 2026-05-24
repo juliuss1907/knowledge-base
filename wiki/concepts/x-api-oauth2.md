@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [tools, tutorial]
 topic: hermes-xurl-x-api-integration
 sources:
-  - [[wiki/sources/src_hermes-xurl-skill-guide.md]]
+  - [[src_hermes-xurl-skill-guide]]
 last_updated: 2026-05-21
 ---
 
@@ -35,6 +35,6 @@ X API OAuth 2.0 là phương thức xác thực để ứng dụng third-party (
 
 ## Sources
 
-- [[wiki/sources/src_hermes-xurl-skill-guide.md]]
+- [[src_hermes-xurl-skill-guide]]
 
 ## Notes

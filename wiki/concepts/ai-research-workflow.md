@@ -5,8 +5,8 @@ main_tag: ai
 sub_tags: [automation, tools, opinion]
 topic: hermes-xai-grok-integration
 sources:
-  - [[wiki/sources/src_hermes-as-a-real-time-analyst]]
-  - [[wiki/sources/src_1-month-with-hermes-ive-been-using-wrong]]
+  - [[src_hermes-as-a-real-time-analyst]]
+  - [[src_1-month-with-hermes-ive-been-using-wrong]]
 last_updated: 2026-05-19
 ---
 
@@ -31,7 +31,7 @@ Workflow sử dụng AI agents như learning augment để nhanh chóng hiểu t
 
 ## Sources
 
-- [[wiki/sources/src_hermes-as-a-real-time-analyst]]
-- [[wiki/sources/src_1-month-with-hermes-ive-been-using-wrong]]
+- [[src_hermes-as-a-real-time-analyst]]
+- [[src_1-month-with-hermes-ive-been-using-wrong]]
 
 ## Notes

@@ -5,8 +5,8 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: hermes-top-skills-analysis
 sources:
-  - [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
-  - [[wiki/sources/src_3-things-learnt-3-weeks-hermes-analyst]]
+  - [[src_hermes-200-30-skills-3-worth-it]]
+  - [[src_3-things-learnt-3-weeks-hermes-analyst]]
 last_updated: 2026-05-19
 ---
 
@@ -34,7 +34,7 @@ Skill "Reflect" của Hermes kết hợp với Hindsight (external memory provid
 
 ## Sources
 
-- [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
-- [[wiki/sources/src_3-things-learnt-3-weeks-hermes-analyst]]
+- [[src_hermes-200-30-skills-3-worth-it]]
+- [[src_3-things-learnt-3-weeks-hermes-analyst]]
 
 ## Notes

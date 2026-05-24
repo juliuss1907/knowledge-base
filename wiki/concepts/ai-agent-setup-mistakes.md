@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, tutorial, opinion]
 topic: hermes-personal-analyst-setup
 sources:
-  - [[wiki/sources/src_3-things-learnt-3-weeks-hermes-analyst]]
+  - [[src_3-things-learnt-3-weeks-hermes-analyst]]
 last_updated: 2026-05-19
 ---
 
@@ -47,6 +47,6 @@ Các lỗi phổ biến khi setup AI agents và cách fix — từ Windows setup
 
 ## Sources
 
-- [[wiki/sources/src_3-things-learnt-3-weeks-hermes-analyst]]
+- [[src_3-things-learnt-3-weeks-hermes-analyst]]
 
 ## Notes

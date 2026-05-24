@@ -4,9 +4,9 @@ original: raw/articles/2026-05-14_how-some-people-become-unrecognizable.md
 main_tag: productivity
 sub_tags: [opinion, tools]
 topic: compounding-growth
-author: The Beauty of SaaS
-url: https://open.substack.com/pub/thebeautyofsaas/p/how-some-people-become-unrecognizable
 date_compiled: 2026-05-15
+url: https://open.substack.com/pub/thebeautyofsaas/p/how-some-people-become-unrecognizable
+author: The Beauty of SaaS
 ---
 
 # Compounding: How Some People Become Unrecognizable

@@ -7,7 +7,7 @@ sub_tags:
   - coding
 topic: code-as-agent-harness
 sources:
-  - [[wiki/sources/src_code-as-agent-harness-arxiv-2605-18747.md]]
+  - [[src_code-as-agent-harness-arxiv-2605-18747]]
 last_updated: 2026-05-23
 ---
 
@@ -32,6 +32,5 @@ Vòng lặp Plan-Execute-Verify (PEV) là cơ chế điều khiển (control pro
 
 ## Sources
 
-- [[wiki/sources/src_code-as-agent-harness-arxiv-2605-18747.md]]
+- [[src_code-as-agent-harness-arxiv-2605-18747]]
 
-## Notes

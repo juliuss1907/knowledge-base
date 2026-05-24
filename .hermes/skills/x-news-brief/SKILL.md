@@ -242,6 +242,16 @@ See [workflow.md](workflow.md) for detailed 10-phase process.
 8. Deliver to Telegram
 9. Update timestamp
 
+### Known Issue: Context exhaustion (v1.1, observed 2026-05-23)
+
+**Problem:** Scraping and synthesizing in a single agent session fails. Two categories × ~50 items each = too much data. Agent exhausts all turns on browser automation, leaving zero context for prioritization and synthesis. Observed on 3 consecutive runs (morning 07:25, midday 13:10, attempted manual run).
+
+**Proposed fix (not yet implemented):** Split into 2 steps:
+1. **Scrape step** — Python script (no LLM turns): Playwright → thefeed.today → extract both categories → save JSON to `.state/raw-YYYY-MM-DD_HHmm.json`.
+2. **Synthesize step** — Agent reads JSON (small, clean data) → dedup 24h window → prioritize 3-tier → synthesize Vietnamese brief → Telegram.
+
+Requires 6 cron jobs (3 sessions × 2 steps) or chained execution.
+
 ---
 
 ## Quality Standards

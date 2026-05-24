@@ -10,6 +10,15 @@
 
 ---
 
+## 2026-05-24 08:22:00 — Hygiene Inspection
+- **Validator:** hygiene-inspector
+- **Paths checked:** 695
+- **Issues found:** 2 (1 ERROR, 1 INFO)
+- **ERROR:** Orphan `EOF` file at root level (not in whitelist)
+- **INFO:** Orphan `EOF` file in `.openclaw/` (clean up recommendation)
+- **Report:** wiki/reviews/2026-05-24_hygiene-report.md
+- **Overall:** Very clean KB — only 2 minor orphan terminal artifacts
+
 ## 2026-05-24 08:05:00 — Output Validation
 - **Validator:** output-validator
 - **Files checked:** 103 (19 sources + 84 concepts)

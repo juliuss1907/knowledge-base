@@ -4,16 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-24 08:05 — Output Validator run complete (17 new files validated, 20 issues found)
+**Last updated:** 2026-05-24 08:22 — Hygiene Inspector run complete (695 paths checked, 1 ERROR + 1 INFO)
 
 ---
 
 ## Summary
 
-**Pending reports:** 4
+**Pending reports:** 6
 
 **Status:**
 - 🔴 Output Validator — 2026-05-24: 1 ERROR (broken wikilinks) + 11 WARNING + 8 INFO — requires Compile Agent re-run
+- 🔴 Format Validator — 2026-05-24: 2 ERROR (sources-as-string) + 3 WARNING (field order, code block) + 75 INFO (full-path wikilinks — systematic) — requires Compile Agent update
+- 🆕 Hygiene Inspector — 2026-05-24: 1 ERROR (orphan EOF at root) + 1 INFO (orphan EOF in .openclaw/) — simple cleanup
 - ⚠️ Output Validator — 2026-05-22: 7 issues remaining (7 WARNING, 0 INFO after fixes) — awaiting review
 - ℹ️ Format Validator — 2026-05-22: 5 issues remaining (0 ERROR, 5 WARNING, 0 INFO after fixes) — awaiting review
 - 🔴 Hygiene Inspector — 2026-05-22: 2 issues remaining (0 ERROR, 1 WARNING, 1 INFO after fixes) — awaiting review
@@ -58,6 +60,17 @@
 ---
 
 ## Pending Reports
+
+- [ ] **Hygiene Inspector — 2026-05-24** (2 issues: 1 ERROR + 1 INFO)
+  - ERROR: Orphan `EOF` file at root level (not in whitelist) — delete it
+  - INFO: Orphan `EOF` file in `.openclaw/` — clean up if unused
+  - Report: wiki/reviews/2026-05-24_hygiene-report.md
+
+- [ ] **Format Validator — 2026-05-24** (80 issues: 2 ERROR + 3 WARNING + 75 INFO)
+  - ERROR: `sources` field as string instead of YAML array × 2 (wiki/concepts/active-thinking.md, wiki/concepts/evolutionary-mismatch.md)
+  - WARNING: Field order × 2 files (src_how-ai-productivity-fails.md, src_how-some-people-become-unrecognizable.md), Code block no language tag × 1 (x-search-tool.md)
+  - INFO: 75 concepts use full-path wikilinks `[[wiki/sources/...]]` instead of bare slugs `[[src_...]]` — systematic Compile Agent issue
+  - Report: wiki/reviews/2026-05-24_format-report.md
 
 - [ ] **Output Validator — 2026-05-24** (20 issues: 1 ERROR + 11 WARNING + 8 INFO)
   - ERROR: 11 broken wikilinks → requires Compile Agent to create 11 missing concept pages

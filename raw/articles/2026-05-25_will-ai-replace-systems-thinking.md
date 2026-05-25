@@ -6,7 +6,9 @@ author: pmresearcher
 pubname: PM Researcher
 date_published: 2025-05-24
 date_ingested: 2026-05-25
-status: unprocessed
+status: processed
+processed_date: 2026-05-26
+processed_to: wiki/sources/src_will-ai-replace-systems-thinking.md
 ---
 
 # Will AI Replace Systems Thinking?

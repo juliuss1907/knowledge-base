@@ -6,7 +6,9 @@ author: Suyash Karn
 handle: @SuyashKarn2
 date_published: 2025-05-24
 date_ingested: 2026-05-25
-status: unprocessed
+status: processed
+processed_date: 2026-05-26
+processed_to: wiki/sources/src_ai-trillion-dollar-blind-spot.md
 ---
 
 # AI's Trillion-Dollar Blind Spot: The Static Website

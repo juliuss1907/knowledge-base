@@ -847,3 +847,13 @@ Each entry follows this format:
 - **Invalid tags found:** 8 (non-existent tags referenced - no index created for these)
 - **Errors:** 0 files skipped
 - **tag.md:** Regenerated with current tag list
+
+## 2026-05-25 08:18:00 — Ingested Post
+
+- **File:** raw/posts/2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website.md
+- **Source:** X/Twitter
+- **URL:** https://x.com/SuyashKarn2/status/2057099123413946617?s=20
+- **Author:** Suyash Karn (@SuyashKarn2)
+- **Type:** post
+- **Status:** unprocessed
+- **Next:** Compile Agent sẽ xử lý vào 08:00 ngày mai

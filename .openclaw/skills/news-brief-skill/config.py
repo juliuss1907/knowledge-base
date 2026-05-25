@@ -35,7 +35,7 @@ GLOBAL_SETTINGS = {
         'rss_timeout': 30
     },
     'time_window': {
-        'hours': 4,
+        'hours': 2,
         'max_age_days': 1
     },
     'keywords': {

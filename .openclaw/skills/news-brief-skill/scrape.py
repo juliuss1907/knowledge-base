@@ -1,182 +1,227 @@
-# scrape.py
-from scrape_telegram import scrape_telegram
-from scrape_thefeed import scrape_thefeed
-from merge import merge_and_dedup_multi, filter_by_time_window, sort_by_timestamp
-from datetime import datetime, timezone
-from config import STATE_DIR, LOGS_DIR, NEWS_SOURCES, TIME_WINDOW_HOURS, TOPICS
-from config_helpers import get_all_enabled_sources
+#!/usr/bin/env python3
+"""
+News Brief Scraper - Full version
+Scrapes Telegram channels, RSS feeds, and websites
+"""
+import asyncio
 import json
 import os
+import sys
+from datetime import datetime, timedelta
+from telethon import TelegramClient
+from telethon.errors import SessionPasswordNeededError
+import feedparser
+import requests
+from config import (
+    TELEGRAM_API_ID, TELEGRAM_API_HASH,
+    TOPICS, GLOBAL_SETTINGS
+)
 
+SESSION_FILE = 'hermes_session'
+TIME_WINDOW_HOURS = GLOBAL_SETTINGS['time_window']['hours']
 
-def scrape_all_sources():
-    """Scrape from all enabled sources"""
-    all_items = []
-    source_stats = {}
+def get_timestamp_filename():
+    """Generate timestamped filename"""
+    return f"raw-{datetime.now().strftime('%Y%m%d-%H%M%S')}.json"
 
-    # 1. Telegram
-    if NEWS_SOURCES['telegram']['enabled']:
-        print("\n" + "=" * 60)
+async def scrape_telegram_topic(client, topic_key, topic_config, cutoff_time):
+    """Scrape Telegram channels for a topic"""
+    results = []
+    sources = topic_config.get('sources', {}).get('telegram', [])
+    
+    for source in sources:
+        if not source.get('enabled', True):
+            continue
+        
+        username = source['username']
         try:
-            telegram_items = scrape_telegram()
-            all_items.extend(telegram_items)
-            source_stats['telegram'] = len(telegram_items)
+            entity = await client.get_entity(username)
+            
+            async for message in client.iter_messages(entity, limit=50):
+                msg_time = message.date.replace(tzinfo=None)
+                if msg_time < cutoff_time:
+                    break
+                
+                if message.text and len(message.text) > 50:
+                    results.append({
+                        'topic': topic_key,
+                        'source_type': 'telegram',
+                        'source': username,
+                        'source_name': source.get('name', username),
+                        'text': message.text,
+                        'date': message.date.isoformat(),
+                        'views': getattr(message, 'views', 0) or 0,
+                        'forwards': getattr(message, 'forwards', 0) or 0,
+                        'url': f"https://t.me/{username}/{message.id}"
+                    })
+            
+            print(f"  ✅ @{username}: {len([r for r in results if r['source'] == username])} messages")
+            
         except Exception as e:
-            print(f"Telegram scrape failed: {e}")
-            source_stats['telegram'] = 0
-    else:
-        print("\nTelegram scraping disabled")
-        source_stats['telegram'] = 0
+            print(f"  ❌ @{username}: {str(e)[:50]}")
+    
+    return results
 
-    # 2. Websites - thefeed.today
-    if NEWS_SOURCES['websites']['enabled']:
-        print("\n" + "=" * 60)
+async def scrape_telegram():
+    """Scrape all Telegram channels"""
+    print("\n📱 Scraping Telegram channels...")
+    
+    client = TelegramClient(SESSION_FILE, TELEGRAM_API_ID, TELEGRAM_API_HASH)
+    await client.connect()
+    
+    if not await client.is_user_authorized():
+        print("❌ Not authorized! Run: python3 telegram_auth.py")
+        await client.disconnect()
+        return []
+    
+    cutoff_time = datetime.now() - timedelta(hours=TIME_WINDOW_HOURS)
+    all_results = []
+    
+    for topic_key, topic_config in TOPICS.items():
+        if not topic_config.get('enabled', False):
+            continue
+        
+        print(f"\n🔹 {topic_config.get('display_name', topic_key)}")
+        
+        results = await scrape_telegram_topic(
+            client, topic_key, topic_config, cutoff_time
+        )
+        all_results.extend(results)
+    
+    await client.disconnect()
+    return all_results
+
+def scrape_rss_topic(topic_key, topic_config, cutoff_time):
+    """Scrape RSS feeds for a topic"""
+    results = []
+    sources = topic_config.get('sources', {}).get('rss', [])
+    
+    for source in sources:
+        if not source.get('enabled', True):
+            continue
+        
         try:
-            thefeed_items = scrape_thefeed()
-            all_items.extend(thefeed_items)
-            source_stats['thefeed'] = len(thefeed_items)
+            feed = feedparser.parse(source['url'])
+            
+            for entry in feed.entries[:20]:
+                # Parse published date
+                pub_date = None
+                if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                    pub_date = datetime(*entry.published_parsed[:6])
+                elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+                    pub_date = datetime(*entry.updated_parsed[:6])
+                
+                if not pub_date or pub_date < cutoff_time:
+                    continue
+                
+                # Combine title and summary
+                text = entry.get('title', '')
+                if hasattr(entry, 'summary'):
+                    text += "\n\n" + entry.summary
+                
+                if len(text) > 50:
+                    results.append({
+                        'topic': topic_key,
+                        'source_type': 'rss',
+                        'source': source['name'],
+                        'source_name': source['name'],
+                        'text': text[:1000],
+                        'date': pub_date.isoformat(),
+                        'views': 0,
+                        'forwards': 0,
+                        'url': entry.get('link', source['url'])
+                    })
+            
+            print(f"  ✅ {source['name']}: {len([r for r in results if r['source'] == source['name']])} items")
+            
         except Exception as e:
-            print(f"thefeed scrape failed: {e}")
-            source_stats['thefeed'] = 0
-    else:
-        print("\nWebsite scraping disabled")
-        source_stats['thefeed'] = 0
+            print(f"  ❌ {source['name']}: {str(e)[:50]}")
+    
+    return results
 
-    # 3. RSS feeds
-    if NEWS_SOURCES.get('rss', {}).get('enabled'):
-        print("\n" + "=" * 60)
-        try:
-            from scrape_rss import scrape_rss
-            rss_items = scrape_rss()
-            all_items.extend(rss_items)
-            source_stats['rss'] = len(rss_items)
-        except ImportError:
-            print("RSS scraper not available. Install: pip install feedparser")
-            source_stats['rss'] = 0
-        except Exception as e:
-            print(f"RSS scrape failed: {e}")
-            source_stats['rss'] = 0
-    else:
-        source_stats['rss'] = 0
+def scrape_rss():
+    """Scrape all RSS feeds"""
+    print("\n📡 Scraping RSS feeds...")
+    
+    cutoff_time = datetime.now() - timedelta(hours=TIME_WINDOW_HOURS)
+    all_results = []
+    
+    for topic_key, topic_config in TOPICS.items():
+        if not topic_config.get('enabled', False):
+            continue
+        
+        rss_sources = topic_config.get('sources', {}).get('rss', [])
+        if not rss_sources:
+            continue
+        
+        print(f"\n🔹 {topic_config.get('display_name', topic_key)}")
+        
+        results = scrape_rss_topic(topic_key, topic_config, cutoff_time)
+        all_results.extend(results)
+    
+    return all_results
 
-    return all_items, source_stats
-
-
-def save_json(items, filename):
-    """Save items to JSON file (atomic write)"""
-    os.makedirs(STATE_DIR, exist_ok=True)
-
-    # Count by topic
-    topic_counts = {}
-    for item in items:
-        topic_id = item.get('topic_id', 'unknown')
-        topic_counts[topic_id] = topic_counts.get(topic_id, 0) + 1
-
-    data = {
-        'scraped_at': datetime.now(timezone.utc).isoformat(),
-        'total_items': len(items),
-        'topic_counts': topic_counts,
-        # Backward compatibility
-        'crypto_count': topic_counts.get('crypto', 0),
-        'tech_count': topic_counts.get('tech', 0),
-        'sources': {},
-        'items': items
-    }
-
-    # Count by source
-    for item in items:
-        source = item['source']
-        source_name = item.get('source_name', source)
-        key = f"{source}:{source_name}"
-        data['sources'][key] = data['sources'].get(key, 0) + 1
-
-    # Atomic write
-    tmp_file = f"{filename}.tmp"
-    with open(tmp_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2, default=str)
-
-    os.rename(tmp_file, filename)
-    print(f"Saved to: {filename}")
-
+def save_results(results):
+    """Save scraped results to JSON file"""
+    if not results:
+        return None
+    
+    filename = get_timestamp_filename()
+    
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    
+    return filename
 
 def main():
-    """Main scrape function"""
     print("=" * 60)
-    print(f"News Brief Scraper — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("🔍 News Brief Scraper")
     print("=" * 60)
-
-    # Print enabled topics and sources
-    summary = get_all_enabled_sources()
-
-    print(f"\nEnabled topics:")
-    for topic_id, topic_info in summary['topics'].items():
-        print(f"  {topic_info['icon']} {topic_info['name']}:")
-        print(f"    Telegram: {topic_info['telegram']}")
-        print(f"    Websites: {topic_info['websites']}")
-        print(f"    RSS: {topic_info['rss']}")
-
-    print(f"\nTotal sources:")
-    print(f"  Telegram channels: {summary['total']['telegram']}")
-    print(f"  Websites: {summary['total']['websites']}")
-    print(f"  RSS feeds: {summary['total']['rss']}")
-
-    if all(v == 0 for v in summary['total'].values()):
-        print("\nNo sources enabled. Please configure TOPICS in config.py")
-        return
-
-    try:
-        # 1. Scrape all sources
-        all_items, source_stats = scrape_all_sources()
-
-        if not all_items:
-            print("\nNo items scraped")
-            return
-
-        # 2. Merge and dedup
-        print("\n" + "=" * 60)
-        print("Processing...")
-        unique_items = merge_and_dedup_multi(all_items)
-
-        # 3. Filter by time window
-        recent_items = filter_by_time_window(unique_items, hours=TIME_WINDOW_HOURS)
-
-        # 4. Sort by timestamp
-        sorted_items = sort_by_timestamp(recent_items)
-
-        # 5. Save JSON
-        timestamp = datetime.now().strftime('%Y-%m-%d_%H%M')
-        filename = f"{STATE_DIR}/raw-{timestamp}.json"
-        save_json(sorted_items, filename)
-
-        # 6. Summary
-        print("\n" + "=" * 60)
-        print("Final Summary:")
-        print(f"  Sources:")
-        for source, count in source_stats.items():
-            print(f"    {source}: {count} items")
-        print(f"  Total raw: {sum(source_stats.values())}")
-        print(f"  After dedup: {len(unique_items)}")
-        print(f"  After {TIME_WINDOW_HOURS}h filter: {len(recent_items)}")
-
-        # Per-topic breakdown
-        print(f"  By topic:")
-        for topic_id, topic in TOPICS.items():
-            if topic['enabled']:
-                count = len([i for i in sorted_items if i.get('topic_id') == topic_id])
-                print(f"    {topic['icon']} {topic['display_name']}: {count}")
-
-        print("=" * 60)
-
-    except Exception as e:
-        print(f"\nError: {e}")
-        import traceback
-        traceback.print_exc()
-
-        os.makedirs(LOGS_DIR, exist_ok=True)
-        with open(f"{LOGS_DIR}/scrape-error.log", 'a') as f:
-            f.write(f"\n{datetime.now().isoformat()}\n")
-            f.write(f"{traceback.format_exc()}\n")
-
+    print(f"⏰ Time window: {TIME_WINDOW_HOURS} hours")
+    print()
+    
+    all_results = []
+    
+    # Scrape Telegram
+    telegram_results = asyncio.run(scrape_telegram())
+    all_results.extend(telegram_results)
+    
+    # Scrape RSS
+    rss_results = scrape_rss()
+    all_results.extend(rss_results)
+    
+    # Summary
+    print("\n" + "=" * 60)
+    print(f"📊 Total scraped: {len(all_results)} items")
+    
+    # Group by topic
+    by_topic = {}
+    for r in all_results:
+        topic = r.get('topic', 'unknown')
+        by_topic[topic] = by_topic.get(topic, 0) + 1
+    
+    for topic, count in by_topic.items():
+        print(f"   • {topic}: {count}")
+    
+    # Group by source type
+    by_type = {}
+    for r in all_results:
+        st = r.get('source_type', 'unknown')
+        by_type[st] = by_type.get(st, 0) + 1
+    
+    print(f"\nBy source type:")
+    for st, count in by_type.items():
+        print(f"   • {st}: {count}")
+    
+    # Save results
+    if all_results:
+        filename = save_results(all_results)
+        print(f"\n💾 Saved to: {filename}")
+        print("\n✅ Scrape complete!")
+        print(f"\nNext step: python3 synthesize.py")
+    else:
+        print("\n⚠️  No items scraped")
+        print("   Channels may be empty or private")
 
 if __name__ == '__main__':
     main()

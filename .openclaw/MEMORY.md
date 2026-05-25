@@ -857,3 +857,13 @@ Each entry follows this format:
 - **Type:** post
 - **Status:** unprocessed
 - **Next:** Compile Agent sẽ xử lý vào 08:00 ngày mai
+
+## 2026-05-25 08:42:00 — Ingested Article
+
+- **File:** raw/articles/2026-05-25_will-ai-replace-systems-thinking.md
+- **Source:** Substack
+- **URL:** https://open.substack.com/pub/pmresearcher/p/will-ai-replace-systems-thinking?r=1g2ue2
+- **Author:** pmresearcher
+- **Type:** article
+- **Status:** unprocessed
+- **Next:** Compile Agent sẽ xử lý vào 08:00 ngày mai

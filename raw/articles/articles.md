@@ -20,13 +20,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 11 files
-- By status: 11 processed, 0 unprocessed
-- By date: 5 this week, 11 this month
-- Last updated: 2026-05-21
+- Total: 12 files
+- By status: 11 processed, 1 unprocessed
+- By date: 6 this week, 12 this month
+- Last updated: 2026-05-25
 
 ## Items
 
+- [[2026-05-25_will-ai-replace-systems-thinking]] — Will AI Replace Systems Thinking? by PM Researcher (unprocessed)
 - [[2026-05-18_google-guide-optimizing-generative-ai-search]] — Google's Guide to Optimizing for Generative AI Features on Google Search (processed)
 - [[2026-05-18_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things I Learnt After 3 Weeks of Using Hermes as a Personal Analyst (processed)
 - [[2026-05-18_hermes-200-30-skills-3-worth-it]] — Hermes, $200 and 30 Skills Later — Here Are the 3 Skills That're Worth It (processed)

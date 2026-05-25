@@ -6,6 +6,7 @@ Scrapes Telegram channels, RSS feeds, and websites
 import asyncio
 import json
 import os
+import re
 import sys
 from datetime import datetime, timedelta
 from telethon import TelegramClient
@@ -124,6 +125,10 @@ def scrape_rss_topic(topic_key, topic_config, cutoff_time):
                 text = entry.get('title', '')
                 if hasattr(entry, 'summary'):
                     text += "\n\n" + entry.summary
+                
+                # Clean HTML tags
+                text = re.sub(r'<[^>]+>', '', text)
+                text = text.replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
                 
                 if len(text) > 50:
                     results.append({

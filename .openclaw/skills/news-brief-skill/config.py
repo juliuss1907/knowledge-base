@@ -138,11 +138,11 @@ TOPICS = {
                 {'name': 'thefeed.today', 'url': 'https://thefeed.today/tech', 'priority': 'high', 'type': 'news', 'enabled': True}
             ],
             'rss': [
-                {'name': 'AI News', 'url': 'https://www.artificialintelligence-news.com/artificial-intelligence-news/', 'priority': 'high', 'enabled': True},
-                {'name': 'TechCrunch AI', 'url': 'https://techcrunch.com/category/artificial-intelligence/', 'priority': 'medium', 'enabled': True},
-                {'name': 'Reuters AI', 'url': 'https://www.reuters.com/technology/artificial-intelligence/', 'priority': 'high', 'enabled': True},
-                {'name': 'The Verge Tech', 'url': 'https://www.theverge.com/tech', 'priority': 'high', 'enabled': True},
-                {'name': 'The Verge AI', 'url': 'https://www.theverge.com/ai-artificial-intelligence', 'priority': 'high', 'enabled': True}
+                {'name': 'Hacker News', 'url': 'https://news.ycombinator.com/rss', 'priority': 'high', 'enabled': True},
+                {'name': 'TechCrunch', 'url': 'https://techcrunch.com/feed/', 'priority': 'medium', 'enabled': True},
+                {'name': 'The Verge', 'url': 'https://www.theverge.com/rss/index.xml', 'priority': 'high', 'enabled': True},
+                {'name': 'Ars Technica', 'url': 'https://feeds.arstechnica.com/arstechnica/index', 'priority': 'high', 'enabled': True},
+                {'name': 'MIT Tech Review', 'url': 'https://www.technologyreview.com/feed/', 'priority': 'high', 'enabled': True}
             ]
         },
         

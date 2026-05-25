@@ -17,3 +17,8 @@ Status: All checks clean.
 
 2026-05-25 12:00 - HEARTBEAT_OK
 2026-05-25 13:00 - HEARTBEAT_OK
+2026-05-25 23:30 - Status: Issue
+- [Priority 1] Concept missing backlinks: wiki/concepts/xurl-cli.md, wiki/concepts/nice-syndrome.md
+- Inbox: Clean
+- Raw backlog: Clean
+- Pending review: Clean

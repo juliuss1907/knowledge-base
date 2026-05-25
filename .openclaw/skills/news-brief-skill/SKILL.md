@@ -113,6 +113,18 @@ News Brief Skill is a flexible, multi-topic news aggregation system that:
 
 ---
 
+## Documentation
+
+| Document | Purpose |
+|----------|---------|
+| `README.md` | User-facing setup guide |
+| `SKILL.md` | This file — full technical spec |
+| `docs/AGENT_GUIDE.md` | **⚠️ For agents** — Common pitfalls, debugging, RSS URLs |
+| `docs/examples.md` | Example briefs |
+| `docs/workflow.md` | Detailed workflow documentation |
+
+---
+
 ## Configuration
 
 ### Topics Structure

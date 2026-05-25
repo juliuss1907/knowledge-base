@@ -15,6 +15,15 @@ Automated news aggregator and brief generator for Crypto & Tech news.
 
 ---
 
+## Documentation
+
+| File | Purpose |
+|------|---------|
+| `SKILL.md` | Full technical documentation |
+| `docs/AGENT_GUIDE.md` | **⚠️ Read this first if you're an agent** - Common pitfalls & debug guide |
+| `docs/examples.md` | Example briefs |
+| `docs/workflow.md` | Detailed workflow |
+
 ## 🚀 Setup Process (Fully Automated)
 
 **You don't need to run any commands or edit any files.** The agent handles everything.

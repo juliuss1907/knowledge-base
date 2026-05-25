@@ -867,3 +867,12 @@ Each entry follows this format:
 - **Type:** article
 - **Status:** unprocessed
 - **Next:** Compile Agent sẽ xử lý vào 08:00 ngày mai
+
+## 2026-05-25 21:01:31 — Indexed
+
+- **Scanned:** 92 concepts + 22 sources = 114 total files
+- **Tags indexed:** 16 (6 main-tags + 10 sub-tags)
+- **Topics indexed:** 30
+- **Orphans deleted:** 1 tag indexes + 0 topic indexes
+- **Invalid tags found:** 4
+- **Errors:** 0 files skipped due to invalid frontmatter

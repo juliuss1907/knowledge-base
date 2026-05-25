@@ -1,23 +1,34 @@
-# Tag: #law
-
-Auto-generated index of all content tagged with `#law`.
-
-Last updated: 2026-05-23 21:07
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: law
+auto_generated: true
+last_updated: 2026-05-25
 ---
 
-## Concepts (4)
+# Tag: #law
 
-- [[agency-law]] — main: #ai, sub: [#law], topic: ai-legal-personhood
-- [[ai-legal-personhood]] — main: #ai, sub: [#law, #tools], topic: ai-legal-personhood
-- [[zero-member-llc]] — main: #ai, sub: [#law, #tools], topic: ai-legal-personhood
+## Parent
 
-## Sources (1)
+- [[tag]]
 
-- [[src_aaron-wright-ai-agents-legal-body]] — main: #ai, sub: [#law], topic: ai-legal-personhood
+## Stats
+
+- Total files: 4
+- Sources: 1
+- Concepts: 3
+- Last updated: 2026-05-25
+
+## Files with this tag
+
+- [[agency-law]] — Agency Law (concept)
+- [[ai-legal-personhood]] — Ai Legal Personhood (concept)
+- [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
+- [[zero-member-llc]] — Zero Member Llc (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#law`:
-- `#ai` (4 files)
-- `#tools` (2 files)
+- [[ai]] — 4 co-occurrences
+- [[tools]] — 3 co-occurrences

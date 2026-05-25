@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `google-ai-search-optimization`.
 
-Last updated: 2026-05-24 21:03:44
+Last updated: 2026-05-25 21:01:31
 
 ---
 

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-05-24
+last_updated: 2026-05-25
 ---
 
 # Tag: #research
@@ -19,7 +19,7 @@ last_updated: 2026-05-24
 - Total files: 32
 - Sources: 6
 - Concepts: 26
-- Last updated: 2026-05-24
+- Last updated: 2026-05-25
 
 ## Files with this tag
 
@@ -61,5 +61,5 @@ last_updated: 2026-05-24
 - [[ai]] — 21 co-occurrences
 - [[tools]] — 10 co-occurrences
 - [[system]] — 6 co-occurrences
-- [[coding]] — 4 co-occurrences
 - [[hack]] — 4 co-occurrences
+- [[opinion]] — 4 co-occurrences

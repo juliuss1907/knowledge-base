@@ -9,5 +9,11 @@ Status: All checks clean.
 2026-05-25 01:30 - HEARTBEAT_OK
 2026-05-25 06:00 - HEARTBEAT_OK
 2026-05-25 08:01 - HEARTBEAT_OK
+2026-05-25 14:02 - Status: Minor
+- Raw backlog: 2 files unprocessed (raw/articles/2026-05-25_will-ai-replace-systems-thinking.md, raw/posts/2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website.md)
+- Inbox: Clean
+- Concept check: Clean
+- Pending review: Clean
+
 2026-05-25 12:00 - HEARTBEAT_OK
 2026-05-25 13:00 - HEARTBEAT_OK

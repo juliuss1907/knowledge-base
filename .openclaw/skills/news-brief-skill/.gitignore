@@ -1,30 +1,35 @@
-# .gitignore
-
-# Telegram session (sensitive)
-*.session
-*.session-journal
-
-# State files (generated)
-.state/
-
-# Logs
-logs/
-*.log
-
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
+.Python
 *.egg-info/
+dist/
+build/
+
+# Virtual environments
 venv/
-.venv/
+venv-*/
 env/
 ENV/
 
-# Playwright
-playwright-report/
-test-results/
+# Telegram session
+*.session
+*.session-journal
+
+# Config with secrets
+config_local.py
+.env
+
+# Output data
+archive/*.json
+archive/*.html
+*.json
+
+# Logs
+*.log
+logs/
 
 # IDE
 .vscode/
@@ -37,5 +42,5 @@ test-results/
 .DS_Store
 Thumbs.db
 
-# Environment variables (if using .env)
-.env
+# Test outputs
+tests/*.json

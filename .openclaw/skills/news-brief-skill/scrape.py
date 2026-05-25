@@ -43,6 +43,12 @@ async def scrape_telegram_topic(client, topic_key, topic_config, cutoff_time):
                     break
                 
                 if message.text and len(message.text) > 50:
+                    # Build message URL
+                    if hasattr(entity, 'username') and entity.username:
+                        url = f"https://t.me/{entity.username}/{message.id}"
+                    else:
+                        url = ""
+                    
                     results.append({
                         'topic': topic_key,
                         'source_type': 'telegram',
@@ -52,7 +58,7 @@ async def scrape_telegram_topic(client, topic_key, topic_config, cutoff_time):
                         'date': message.date.isoformat(),
                         'views': getattr(message, 'views', 0) or 0,
                         'forwards': getattr(message, 'forwards', 0) or 0,
-                        'url': f"https://t.me/{username}/{message.id}"
+                        'url': url
                     })
             
             print(f"  ✅ @{username}: {len([r for r in results if r['source'] == username])} messages")

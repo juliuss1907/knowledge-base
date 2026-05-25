@@ -31,6 +31,11 @@ Skill của Hermes nhìn vào X bookmarks, pick và rank theo priority (preferen
 - [[x-account-tracking-skill]]
 - [[reflect-skill-hindsight]]
 
+## Backlinks
+
+- [[browser-harness-tool]]
+- [[x-account-tracking-skill]]
+
 ## Sources
 
 - [[src_hermes-200-30-skills-3-worth-it]]

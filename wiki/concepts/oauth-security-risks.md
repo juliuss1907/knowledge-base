@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [hack, tools]
 topic: sso-security-risks
 sources:
-  - [[wiki/sources/src_dont-sign-in-with-google.md]]
+  - [[src_dont-sign-in-with-google]]
 last_updated: 2026-05-20
 ---
 
@@ -31,7 +31,7 @@ OAuth là giao thức ủy quyền phổ biến cho phép người dùng đăng 
 
 ## Sources
 
-- [[wiki/sources/src_dont-sign-in-with-google.md]]
+- [[src_dont-sign-in-with-google]]
 
 ## Notes
 

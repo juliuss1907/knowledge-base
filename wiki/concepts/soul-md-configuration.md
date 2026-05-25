@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, tutorial]
 topic: hermes-workflow-optimization
 sources:
-  - [[wiki/sources/src_hermes-analyst-workflow-essentials]]
+  - [[src_hermes-analyst-workflow-essentials]]
 last_updated: 2026-05-19
 ---
 
@@ -35,6 +35,6 @@ File configuration quan trọng nhất trong Hermes — định nghĩa "Who the 
 
 ## Sources
 
-- [[wiki/sources/src_hermes-analyst-workflow-essentials]]
+- [[src_hermes-analyst-workflow-essentials]]
 
 ## Notes

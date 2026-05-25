@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: hermes-xai-grok-integration
 sources:
-  - [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+  - [[src_hermes-as-a-real-time-analyst]]
 last_updated: 2026-05-19
 ---
 
@@ -31,7 +31,7 @@ Tool của Hermes cho phép search X (Twitter) natively như SuperGrok, tích h�
 
 ## Sources
 
-- [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+- [[src_hermes-as-a-real-time-analyst]]
 
 ## Setup
 
@@ -44,4 +44,3 @@ x_search:
 
 **Lưu ý**: Dùng `xai-oauth` thay vì `xai` để đi qua Grok subscription thay vì xAI API.
 
-## Notes

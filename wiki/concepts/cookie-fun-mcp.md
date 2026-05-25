@@ -5,7 +5,7 @@ main_tag: crypto
 sub_tags: [tools, defi]
 topic: hermes-xai-grok-integration
 sources:
-  - [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+  - [[src_hermes-as-a-real-time-analyst]]
 last_updated: 2026-05-19
 ---
 
@@ -30,7 +30,7 @@ MCP (Model Context Protocol) tool tích hợp với Cookie.fun — platform cung
 
 ## Sources
 
-- [[wiki/sources/src_hermes-as-a-real-time-analyst]]
+- [[src_hermes-as-a-real-time-analyst]]
 
 ## Comparison với x_search
 
@@ -39,4 +39,3 @@ MCP (Model Context Protocol) tool tích hợp với Cookie.fun — platform cung
 | **Cookie** | Structured data, analytics, metrics | Real-time news, "why" explanations |
 | **x_search** | Real-time search, deep research | Raw output, cần post-processing |
 
-## Notes

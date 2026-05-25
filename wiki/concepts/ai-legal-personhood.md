@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [law, tools]
 topic: ai-legal-personhood
 sources:
-  - [[wiki/sources/src_aaron-wright-ai-agents-legal-body]]
+  - [[src_aaron-wright-ai-agents-legal-body]]
 last_updated: 2026-05-19
 ---
 
@@ -64,4 +64,4 @@ Khả năng của AI agents tham gia vào các quan hệ pháp lý — ký hợp
 
 ## Sources
 
-- [[wiki/sources/src_aaron-wright-ai-agents-legal-body]]
+- [[src_aaron-wright-ai-agents-legal-body]]

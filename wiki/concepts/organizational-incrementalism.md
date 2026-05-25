@@ -34,7 +34,7 @@ A trap where organizations make changes too small to yield large impacts, while 
 
 ## Sources
 
-- [[wiki/sources/src_active-vs-lazy-thinking]]
+- [[src_active-vs-lazy-thinking]]
 
 ## Notes
 

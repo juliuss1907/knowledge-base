@@ -800,3 +800,70 @@ Each entry follows this format:
 - **Raw files updated:** 3 files (status → processed)
 - **Index files updated:** raw/websites/websites.md
 - **Errors:** 0
+
+## 2026-05-24 08:55:00 — Applied Fixes (Fix Agent)
+
+- **Reports processed:** 3 (2026-05-24 Output, Format, Hygiene)
+- **Issues fixed:** 20+
+- **Files modified:** ~20 files
+
+**Fixes applied:**
+1. Hygiene: Deleted 2 EOF files (root + .openclaw/)
+2. Format: Fixed field order in 2 source files
+3. Output: Removed empty Notes sections (11 concepts)
+4. Output: Added Original excerpts section to 3 source files
+5. Output: Fixed wikilink format in ~75 concept files
+6. Output: Updated last_updated in active-thinking.md
+
+**Skipped per Julius approval:**
+- 2 ERRORs: sources-as-string (format-spec updated to accept string OR array)
+- Systematic issues requiring Compile Agent template fixes
+
+**Status:** Reports 2026-05-24 marked as applied
+
+## 2026-05-24 09:07:00 — Applied Fixes 2026-05-22 (Fix Agent)
+
+- **Reports processed:** 3 (2026-05-22 Output, Format, Hygiene)
+- **Issues fixed:** 16
+- **Files modified/deleted:** 4
+
+**Fixes applied:**
+1. Hygiene: Deleted memory/ directory (root)
+2. Hygiene: Deleted RAW_BACKLOG.md (root)
+3. Hygiene: Deleted wiki/reviews/HEARTBEAT.md
+
+**Skipped (already fixed in 2026-05-24 batch):**
+- Format issues: extra sections, YAML syntax, legacy fields, field order
+- Output issues: empty Notes, empty Original excerpts, broken wikilinks
+
+**Status:** All 2026-05-22 reports marked as applied
+
+## 2026-05-24 21:00:18 — Indexed
+
+- **Scanned:** 78 concepts + 36 sources = 114 total files
+- **Tags indexed:** 15 (6 main-tags + 9 sub-tags)
+- **Topics indexed:** 30
+- **Orphans deleted:** 3 tag indexes (security, marketing, seo) + 2 topic indexes
+- **Invalid tags found:** 8 (non-existent tags referenced - no index created for these)
+- **Errors:** 0 files skipped
+- **tag.md:** Regenerated with current tag list
+
+## 2026-05-25 08:18:00 — Ingested Post
+
+- **File:** raw/posts/2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website.md
+- **Source:** X/Twitter
+- **URL:** https://x.com/SuyashKarn2/status/2057099123413946617?s=20
+- **Author:** Suyash Karn (@SuyashKarn2)
+- **Type:** post
+- **Status:** unprocessed
+- **Next:** Compile Agent sẽ xử lý vào 08:00 ngày mai
+
+## 2026-05-25 08:42:00 — Ingested Article
+
+- **File:** raw/articles/2026-05-25_will-ai-replace-systems-thinking.md
+- **Source:** Substack
+- **URL:** https://open.substack.com/pub/pmresearcher/p/will-ai-replace-systems-thinking?r=1g2ue2
+- **Author:** pmresearcher
+- **Type:** article
+- **Status:** unprocessed
+- **Next:** Compile Agent sẽ xử lý vào 08:00 ngày mai

@@ -5,7 +5,7 @@ main_tag: system
 sub_tags: [automation, tools]
 topic: ai-productivity
 sources:
-  - [[wiki/sources/src_how-ai-productivity-fails]]
+  - [[src_how-ai-productivity-fails]]
 last_updated: 2026-05-15
 ---
 
@@ -29,6 +29,6 @@ Codified Taste là việc chuyển taste (gu thẩm mỹ, tiêu chuẩn chất l
 
 ## Sources
 
-- [[wiki/sources/src_how-ai-productivity-fails]]
+- [[src_how-ai-productivity-fails]]
 
 ## Notes

@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation, vibecode]
 topic: hermes-polymarket-trading-agent
 sources:
-  - [[wiki/sources/src_hermes-polymarket-btc-trading-agent.md]]
+  - [[src_hermes-polymarket-btc-trading-agent]]
 last_updated: 2026-05-21
 ---
 
@@ -36,6 +36,6 @@ Hermes Agent là framework AI agent tự học mã nguồn mở được phát t
 
 ## Sources
 
-- [[wiki/sources/src_hermes-polymarket-btc-trading-agent.md]]
+- [[src_hermes-polymarket-btc-trading-agent]]
 
 ## Notes

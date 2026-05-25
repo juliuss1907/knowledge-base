@@ -5,7 +5,7 @@ main_tag: crypto
 sub_tags: [defi, tools]
 topic: hermes-polymarket-trading-agent
 sources:
-  - [[wiki/sources/src_hermes-polymarket-btc-trading-agent.md]]
+  - [[src_hermes-polymarket-btc-trading-agent]]
 last_updated: 2026-05-21
 ---
 
@@ -36,6 +36,6 @@ Polymarket là nền tảng prediction market phi tập trung cho phép người
 
 ## Sources
 
-- [[wiki/sources/src_hermes-polymarket-btc-trading-agent.md]]
+- [[src_hermes-polymarket-btc-trading-agent]]
 
 ## Notes

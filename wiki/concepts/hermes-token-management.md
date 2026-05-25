@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, opinion]
 topic: hermes-top-skills-analysis
 sources:
-  - [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+  - [[src_hermes-200-30-skills-3-worth-it]]
 last_updated: 2026-05-19
 ---
 
@@ -38,6 +38,6 @@ Quản lý chi phí inference tokens khi sử dụng Hermes — balance giữa p
 
 ## Sources
 
-- [[wiki/sources/src_hermes-200-30-skills-3-worth-it]]
+- [[src_hermes-200-30-skills-3-worth-it]]
 
 ## Notes

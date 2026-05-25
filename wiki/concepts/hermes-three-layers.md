@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation, tutorial]
 topic: hermes-workflow-optimization
 sources:
-  - [[wiki/sources/src_hermes-analyst-workflow-essentials]]
+  - [[src_hermes-analyst-workflow-essentials]]
 last_updated: 2026-05-19
 ---
 
@@ -39,6 +39,6 @@ Ba lớp của một agent hữu ích trong Hermes: Layer 1 — Identity (Soul.m
 
 ## Sources
 
-- [[wiki/sources/src_hermes-analyst-workflow-essentials]]
+- [[src_hermes-analyst-workflow-essentials]]
 
 ## Notes

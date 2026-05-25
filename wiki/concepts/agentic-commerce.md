@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: ai-legal-personhood
 sources:
-  - [[wiki/sources/src_aaron-wright-ai-agents-legal-body]]
+  - [[src_aaron-wright-ai-agents-legal-body]]
 last_updated: 2026-05-19
 ---
 
@@ -69,4 +69,4 @@ Thương mại được thực hiện bởi AI agents độc lập — từ rese
 
 ## Sources
 
-- [[wiki/sources/src_aaron-wright-ai-agents-legal-body]]
+- [[src_aaron-wright-ai-agents-legal-body]]

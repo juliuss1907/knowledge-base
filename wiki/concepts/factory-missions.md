@@ -7,7 +7,7 @@ sub_tags:
   - automation
 topic: factory-missions-architecture
 sources:
-  - [[wiki/sources/src_luke-alvoeiro-multi-agent-architecture-factory.md]]
+  - [[src_luke-alvoeiro-multi-agent-architecture-factory]]
 last_updated: 2026-05-23
 ---
 
@@ -35,6 +35,5 @@ last_updated: 2026-05-23
 
 ## Sources
 
-- [[wiki/sources/src_luke-alvoeiro-multi-agent-architecture-factory.md]]
+- [[src_luke-alvoeiro-multi-agent-architecture-factory]]
 
-## Notes

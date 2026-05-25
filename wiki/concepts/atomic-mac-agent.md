@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [tools, automation]
 topic: hermes-polymarket-trading-agent
 sources:
-  - [[wiki/sources/src_hermes-polymarket-btc-trading-agent.md]]
+  - [[src_hermes-polymarket-btc-trading-agent]]
 last_updated: 2026-05-21
 ---
 
@@ -31,6 +31,6 @@ Atomic là native macOS AI assistant — không phải browser tab, không phả
 
 ## Sources
 
-- [[wiki/sources/src_hermes-polymarket-btc-trading-agent.md]]
+- [[src_hermes-polymarket-btc-trading-agent]]
 
 ## Notes

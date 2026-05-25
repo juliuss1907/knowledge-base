@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [hack, tools]
 topic: sso-security-risks
 sources:
-  - [[wiki/sources/src_dont-sign-in-with-google.md]]
+  - [[src_dont-sign-in-with-google]]
 last_updated: 2026-05-20
 ---
 
@@ -31,7 +31,7 @@ Consent phishing là kỹ thuật tấn công trong đó attacker không cố g�
 
 ## Sources
 
-- [[wiki/sources/src_dont-sign-in-with-google.md]]
+- [[src_dont-sign-in-with-google]]
 
 ## Notes
 

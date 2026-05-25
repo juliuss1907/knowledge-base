@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [research]
 topic: evolutionary-mismatch-modern-life
 sources:
-  - [[wiki/sources/src_were-not-supposed-to-live-like-this.md]]
+  - [[src_were-not-supposed-to-live-like-this]]
 last_updated: 2026-05-21
 ---
 
@@ -29,6 +29,6 @@ Dunbar's Number (Số Dunbar) là giới hạn khoảng 150 mối quan hệ cá 
 
 ## Sources
 
-- [[wiki/sources/src_were-not-supposed-to-live-like-this.md]]
+- [[src_were-not-supposed-to-live-like-this]]
 
 ## Notes

@@ -1,22 +1,31 @@
-# Tag: #economic
-
-Auto-generated index of all content tagged with `#economic`.
-
-Last updated: 2026-05-23 21:07
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: economic
+auto_generated: true
+last_updated: 2026-05-24
 ---
 
-## Concepts (1)
+# Tag: #economic
 
-- [[ai-white-collar-automation]] — main: #ai, sub: [#research, #opinion], topic: ai-economic-disruption-white-collar
+## Parent
 
-## Sources (1)
+- [[tag]]
 
-- [[src_ai-will-destroy-world-economy]] — main: #ai, sub: [#research, #opinion], topic: ai-economic-disruption-white-collar
+## Stats
+
+- Total files: 1
+- Sources: 0
+- Concepts: 1
+- Last updated: 2026-05-24
+
+## Files with this tag
+
+- [[productivity-wage-gap]] — Productivity Wage Gap (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#economic`:
-- `#ai` (2 files)
-- `#research` (2 files)
-- `#opinion` (2 files)
+- [[research]] — 1 co-occurrence
+- [[opinion]] — 1 co-occurrence

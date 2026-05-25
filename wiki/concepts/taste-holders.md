@@ -5,7 +5,7 @@ main_tag: system
 sub_tags: [automation, opinion]
 topic: ai-productivity
 sources:
-  - [[wiki/sources/src_how-ai-productivity-fails]]
+  - [[src_how-ai-productivity-fails]]
 last_updated: 2026-05-15
 ---
 
@@ -32,6 +32,6 @@ Taste Holders là những người biết "good looks like" trong một domain, 
 
 ## Sources
 
-- [[wiki/sources/src_how-ai-productivity-fails]]
+- [[src_how-ai-productivity-fails]]
 
 ## Notes

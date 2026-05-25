@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [opinion, tools]
 topic: ai-productivity
 sources:
-  - [[wiki/sources/src_how-ai-productivity-fails]]
+  - [[src_how-ai-productivity-fails]]
 last_updated: 2026-05-15
 ---
 
@@ -30,6 +30,6 @@ Skill Atrophy (teo kỹ năng) là hiện tượng kỹ năng domain bị suy gi
 
 ## Sources
 
-- [[wiki/sources/src_how-ai-productivity-fails]]
+- [[src_how-ai-productivity-fails]]
 
 ## Notes

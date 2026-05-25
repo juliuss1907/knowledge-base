@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tutorial
 auto_generated: true
-last_updated: 2026-05-20
+last_updated: 2026-05-24
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-05-20
 
 ## Stats
 
-- Total files: 12
-- Sources: 3
-- Concepts: 9
-- Last updated: 2026-05-20
+- Total files: 15
+- Sources: 5
+- Concepts: 10
+- Last updated: 2026-05-24
 
 ## Files with this tag
 
@@ -34,12 +34,15 @@ last_updated: 2026-05-20
 - [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
 - [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)
 - [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)
+- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
+- [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
 - [[user-md-configuration]] — User Md Configuration (concept)
+- [[x-api-oauth2]] — X Api Oauth2 (concept)
 
 ## Co-occurring tags
 
-- [[tools]] — 11 co-occurrences
-- [[ai]] — 9 co-occurrences
-- [[automation]] — 5 co-occurrences
-- [[tech]] — 2 co-occurrences
+- [[tools]] — 14 co-occurrences
+- [[ai]] — 10 co-occurrences
+- [[automation]] — 7 co-occurrences
+- [[tech]] — 3 co-occurrences
 - [[opinion]] — 2 co-occurrences

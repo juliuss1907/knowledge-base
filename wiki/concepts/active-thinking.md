@@ -6,7 +6,7 @@ sub_tags:
   - opinion
 topic: active-thinking-methodology
 sources: "[[src_active-vs-lazy-thinking]]"
-last_updated: 2026-05-13
+last_updated: 2026-05-24
 ---
 
 # Active Thinking
@@ -35,7 +35,5 @@ A rigorous decision-making approach that forces clear, verifiable hypotheses and
 
 ## Sources
 
-- [[wiki/sources/src_active-vs-lazy-thinking]]
-
-## Notes
+- [[src_active-vs-lazy-thinking]]
 

@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [tools]
 topic: compounding-growth
 sources:
-  - [[wiki/sources/src_how-some-people-become-unrecognizable]]
+  - [[src_how-some-people-become-unrecognizable]]
 last_updated: 2026-05-15
 ---
 
@@ -29,6 +29,6 @@ Leading Indicators là những metrics trong tầm kiểm soát, di chuyển hà
 
 ## Sources
 
-- [[wiki/sources/src_how-some-people-become-unrecognizable]]
+- [[src_how-some-people-become-unrecognizable]]
 
 ## Notes

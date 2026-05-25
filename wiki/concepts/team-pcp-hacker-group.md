@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [hack, news]
 topic: github-supply-chain-attack-vs-code
 sources:
-  - [[wiki/sources/src_11-minutes-hack-github.md]]
+  - [[src_11-minutes-hack-github]]
 last_updated: 2026-05-21
 ---
 
@@ -36,6 +36,6 @@ TeamPCP là nhóm hacker chuyên supply chain compromise với các alias: deadc
 
 ## Sources
 
-- [[wiki/sources/src_11-minutes-hack-github.md]]
+- [[src_11-minutes-hack-github]]
 
 ## Notes

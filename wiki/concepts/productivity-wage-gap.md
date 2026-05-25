@@ -5,7 +5,7 @@ main_tag: economic
 sub_tags: [research, opinion]
 topic: ai-economic-disruption-white-collar
 sources:
-  - [[wiki/sources/src_ai-will-destroy-world-economy.md]]
+  - [[src_ai-will-destroy-world-economy]]
 last_updated: 2026-05-21
 ---
 
@@ -36,6 +36,6 @@ Productivity-wage gap là hiện tượng năng suất lao động tăng nhưng 
 
 ## Sources
 
-- [[wiki/sources/src_ai-will-destroy-world-economy.md]]
+- [[src_ai-will-destroy-world-economy]]
 
 ## Notes

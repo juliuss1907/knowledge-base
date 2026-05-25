@@ -4,9 +4,9 @@ original: raw/articles/2026-05-14_how-ai-productivity-fails.md
 main_tag: ai
 sub_tags: [tools, automation, opinion]
 topic: ai-productivity
-author: Shrivu
-url: https://open.substack.com/pub/shrivu/p/how-ai-productivity-fails
 date_compiled: 2026-05-15
+url: https://open.substack.com/pub/shrivu/p/how-ai-productivity-fails
+author: Shrivu
 ---
 
 # How AI Productivity Fails

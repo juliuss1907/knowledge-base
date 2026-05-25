@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [research, tools]
 topic: generative-ai-seo
 sources:
-  - [[wiki/sources/src_google-guide-optimizing-generative-ai-search]]
+  - [[src_google-guide-optimizing-generative-ai-search]]
 last_updated: 2026-05-19
 ---
 
@@ -31,6 +31,6 @@ Kỹ thuật (còn gọi là grounding) để cải thiện quality, accuracy, v
 
 ## Sources
 
-- [[wiki/sources/src_google-guide-optimizing-generative-ai-search]]
+- [[src_google-guide-optimizing-generative-ai-search]]
 
 ## Notes

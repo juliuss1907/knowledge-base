@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [hack, tools]
 topic: sso-security-risks
 sources:
-  - [[wiki/sources/src_dont-sign-in-with-google.md]]
+  - [[src_dont-sign-in-with-google]]
 last_updated: 2026-05-20
 ---
 
@@ -30,7 +30,7 @@ Single Sign-On (SSO) cho phép người dùng đăng nhập một lần vào nh�
 
 ## Sources
 
-- [[wiki/sources/src_dont-sign-in-with-google.md]]
+- [[src_dont-sign-in-with-google]]
 
 ## Notes
 

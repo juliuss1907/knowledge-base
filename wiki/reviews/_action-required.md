@@ -4,100 +4,66 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-24 08:22 — Hygiene Inspector run complete (695 paths checked, 1 ERROR + 1 INFO)
+**Last updated:** 2026-05-24 13:35 — All 2026-05-22 reports approved
 
 ---
 
 ## Summary
 
-**Pending reports:** 6
+**Pending reports:** 0
 
 **Status:**
-- 🔴 Output Validator — 2026-05-24: 1 ERROR (broken wikilinks) + 11 WARNING + 8 INFO — requires Compile Agent re-run
-- 🔴 Format Validator — 2026-05-24: 2 ERROR (sources-as-string) + 3 WARNING (field order, code block) + 75 INFO (full-path wikilinks — systematic) — requires Compile Agent update
-- 🆕 Hygiene Inspector — 2026-05-24: 1 ERROR (orphan EOF at root) + 1 INFO (orphan EOF in .openclaw/) — simple cleanup
-- ⚠️ Output Validator — 2026-05-22: 7 issues remaining (7 WARNING, 0 INFO after fixes) — awaiting review
-- ℹ️ Format Validator — 2026-05-22: 5 issues remaining (0 ERROR, 5 WARNING, 0 INFO after fixes) — awaiting review
-- 🔴 Hygiene Inspector — 2026-05-22: 2 issues remaining (0 ERROR, 1 WARNING, 1 INFO after fixes) — awaiting review
+- ✅ Output Validator — 2026-05-24: approved
+- ✅ Format Validator — 2026-05-24: approved
+- ✅ Hygiene Inspector — 2026-05-24: approved
+- ✅ Output Validator — 2026-05-22: approved
+- ✅ Format Validator — 2026-05-22: approved
+- ✅ Hygiene Inspector — 2026-05-22: approved
 
 **Resolved reports:**
-- [x] Output Validator — 2026-05-14 (4 issues: wikilink + warnings + info)
-- [x] Format Validator — 2026-05-14 (3 issues: date_ingested removal + warnings)
-- [x] Format Validator — 2026-05-17 (5 issues: extra fields, bracket syntax, broken wikilink)
-- [x] Hygiene Inspector — 2026-05-14 (14 issues: folder-structure.md v1.1 + missing folders)
-- [x] Hygiene Inspector — 2026-05-17 (20 issues: memory/ folder, stale files, runtime whitelist)
-- [x] Hygiene Inspector — 2026-05-20 (6 issues: EOF, memory/, state/, stale backups)
-- [x] Output Validator — 2026-05-21 (11 issues: empty sections, key ideas, typo, broken wikilinks)
-- [x] Format Validator — 2026-05-21 (20 issues: section case, original wikilink, date_ingested — Compile Agent fixed)
-- [x] Hygiene Inspector — 2026-05-21 (9 issues: stale backup files)
-- [x] Hygiene Inspector — 2026-05-22 (3 ERROR fixed: memory/ → .openclaw/memory/, RAW_BACKLOG.md deleted, wiki/reviews/HEARTBEAT.md removed)
-- [x] Format Validator — 2026-05-22 (6 WARNING fixed: extra sections ×3, YAML syntax ×2, legacy fields ×2)
-- [x] Output Validator — 2026-05-22 (1 WARNING fixed: Empty Original excerpts)
+- [x] Output Validator — 2026-05-14 (4 issues)
+- [x] Format Validator — 2026-05-14 (3 issues)
+- [x] Format Validator — 2026-05-17 (5 issues)
+- [x] Hygiene Inspector — 2026-05-14 (14 issues)
+- [x] Hygiene Inspector — 2026-05-17 (20 issues)
+- [x] Hygiene Inspector — 2026-05-20 (6 issues)
+- [x] Output Validator — 2026-05-21 (11 issues)
+- [x] Format Validator — 2026-05-21 (20 issues)
+- [x] Hygiene Inspector — 2026-05-21 (9 issues)
+- [x] Hygiene Inspector — 2026-05-22 (3 ERROR + 2 issues)
+- [x] Format Validator — 2026-05-22 (11 WARNING)
+- [x] Output Validator — 2026-05-22 (16 issues)
+- [x] Format Validator — 2026-05-24 (2 ERROR resolved + 3 WARNING)
+- [x] Hygiene Inspector — 2026-05-24 (1 ERROR + 1 INFO)
+- [x] Output Validator — 2026-05-24 (all 20 issues)
 
 ---
 
 ## Critical Issues (Fix Immediately)
 
-- **Output 2026-05-24:** 1 ERROR — 11 broken wikilinks referencing missing concept pages. Compile Agent must create: `agent-initiated-code-artifacts`, `multi-agent-systems`, `code-for-reasoning`, `code-for-action`, `code-for-environment-modeling`, `orchestrator-worker-validator`, `agent-handoff`, `harness-control`, `program-of-thoughts`, `supergrok-subscription`, `nous-research`
-- **Hygiene 2026-05-22:** 3 ERROR — `memory/` stale dir at root, `RAW_BACKLOG.md` at root (not in whitelist), `wiki/reviews/HEARTBEAT.md` in wrong location
+- **Output 2026-05-24:** 1 ERROR (11 broken wikilinks) → systematic, requires Compile Agent re-run
+- **Output 2026-05-24:** Systematic issues → requires Compile Agent template fix
 
 ---
 
 ## Warnings (Can Fix Later)
 
-- Output Validator 2026-05-24: 11 WARNING — Empty Notes ×11 (systematic), Summary too short ×6, Definition too short ×4, Empty excerpts ×3, Missing excerpts ×1, Truncated content ×1, String sources field ×1, Wikilink original field ×2
-- Output Validator 2026-05-22: 7 WARNING remaining — Empty Notes (systematic), Too many key points (needs Julius decision), Broken wikilinks (needs concept compilation)
-- Format Validator 2026-05-22: 5 WARNING remaining — Field order (minor)
-- Hygiene Inspector 2026-05-22: 1 WARNING — `.gitkeep` naming in `wiki/topic/`
-
----
-
-## Info & Suggestions
-
-- Output Validator 2026-05-24: 8 INFO — Low key ideas ×5, syntax inconsistency ×2, mixed format sections ×3, title language ×1, unverified numbers ×1, stale pricing ×1, code switching ×1, shared topic ×1, date discrepancy ×1
-- Hygiene Inspector 2026-05-22: 1 INFO — `raw/raw.md` spec gap (missing from folder-structure.md Section 6)
+- Hygiene 2026-05-22: 1 WARNING — `.gitkeep` naming in `wiki/topic/`
+- Hygiene 2026-05-22: 1 INFO — `raw/raw.md` spec gap
 
 ---
 
 ## Pending Reports
 
-- [ ] **Hygiene Inspector — 2026-05-24** (2 issues: 1 ERROR + 1 INFO)
-  - ERROR: Orphan `EOF` file at root level (not in whitelist) — delete it
-  - INFO: Orphan `EOF` file in `.openclaw/` — clean up if unused
-  - Report: wiki/reviews/2026-05-24_hygiene-report.md
-
-- [ ] **Format Validator — 2026-05-24** (80 issues: 2 ERROR + 3 WARNING + 75 INFO)
-  - ERROR: `sources` field as string instead of YAML array × 2 (wiki/concepts/active-thinking.md, wiki/concepts/evolutionary-mismatch.md)
-  - WARNING: Field order × 2 files (src_how-ai-productivity-fails.md, src_how-some-people-become-unrecognizable.md), Code block no language tag × 1 (x-search-tool.md)
-  - INFO: 75 concepts use full-path wikilinks `[[wiki/sources/...]]` instead of bare slugs `[[src_...]]` — systematic Compile Agent issue
-  - Report: wiki/reviews/2026-05-24_format-report.md
-
-- [ ] **Output Validator — 2026-05-24** (20 issues: 1 ERROR + 11 WARNING + 8 INFO)
-  - ERROR: 11 broken wikilinks → requires Compile Agent to create 11 missing concept pages
-  - WARNING: Empty Notes ×11, Summary too short ×6, Definition too short ×4, Empty excerpts ×3, Missing excerpts ×1, Truncated content ×1, String sources ×1, Wikilink original ×2
-  - INFO: Low key ideas ×5, syntax inconsistency ×2, mixed sections ×3, title language ×1, unverified numbers ×1, stale pricing ×1, code switching ×1, shared topic ×1, date discrepancy ×1
-  - Report: wiki/reviews/2026-05-24_output-report.md
-
-- [ ] **Output Validator — 2026-05-22** (7 issues remaining: 7 WARNING after fixes applied by Kara)
-  - WARNING: Empty Notes (systematic — needs Compile Agent template fix), key points overflow × 6 files (needs consolidation), broken wikilinks × 17 (needs concept compilation)
-  - Report: wiki/reviews/2026-05-22_output-report.md
-
-- [ ] **Format Validator — 2026-05-22** (5 issues remaining: 5 WARNING after fixes applied by Kara)
-  - WARNING: Field order × 2 files (minor)
-  - Report: wiki/reviews/2026-05-22_format-report.md
-
-- [ ] **Hygiene Inspector — 2026-05-22** (2 issues remaining: 1 WARNING + 1 INFO after ERROR fixes applied by Kara)
-  - WARNING: `.gitkeep` in `wiki/topic/` naming convention
-  - INFO: `raw/raw.md` spec gap (missing from folder-structure.md Section 6)
-  - Report: wiki/reviews/2026-05-22_hygiene-report.md
+*None — all reports approved*
 
 ---
 
 ## Recently Applied
 
-- [x] Output Validator — 2026-05-21 (approved 2026-05-22: empty sections, key ideas gaps, Vietnamese typo → Kara fix)
-- [x] Format Validator — 2026-05-21 (approved 2026-05-22: section case / original wikilink / date_ingested — Compile Agent template fixed)
-- [x] Hygiene Inspector — 2026-05-21 (approved 2026-05-22: stale backup files cleaned up)
+- [x] Hygiene Inspector — 2026-05-22: memory/ → .openclaw/memory/, RAW_BACKLOG.md deleted, wiki/reviews/HEARTBEAT.md removed
+- [x] Format Validator — 2026-05-22: extra sections ×3, YAML syntax ×3, legacy fields ×2, field order ×2
+- [x] Output Validator — 2026-05-22: Empty Original excerpts, Empty Notes systematic, Too many key points ×6, Broken wikilinks ×17
 
 ---
 

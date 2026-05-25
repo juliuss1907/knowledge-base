@@ -1,24 +1,36 @@
-# Tag: #crypto
-
-Auto-generated index of all content tagged with `#crypto`.
-
-Last updated: 2026-05-23 21:07
-
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: crypto
+auto_generated: true
+last_updated: 2026-05-24
 ---
 
-## Concepts (4)
+# Tag: #crypto
 
-- [[atomic-mac-agent]] — main: #tech, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
-- [[mcp-architecture]] — main: #tech, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
-- [[model-agnostic-broker]] — main: #ai, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent
-- [[token-level-reasoning]] — main: #ai, sub: [#research], topic: hermes-polymarket-trading-agent
+## Parent
 
-## Sources (0)
+- [[tag]]
 
-No sources found with this tag.
+## Stats
+
+- Total files: 4
+- Sources: 1
+- Concepts: 3
+- Last updated: 2026-05-24
+
+## Files with this tag
+
+- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
+- [[polymarket]] — Polymarket (concept)
+- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
+- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#crypto`:
-- `#automation` (4 files)
-- `#tools` (4 files)
+- [[tools]] — 4 co-occurrences
+- [[defi]] — 3 co-occurrences
+- [[automation]] — 1 co-occurrence
+- [[tutorial]] — 1 co-occurrence

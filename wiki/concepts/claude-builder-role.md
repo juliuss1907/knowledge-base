@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, tutorial]
 topic: hermes-operator-builder-pattern
 sources:
-  - [[wiki/sources/src_1-month-with-hermes-ive-been-using-wrong]]
+  - [[src_1-month-with-hermes-ive-been-using-wrong]]
 last_updated: 2026-05-19
 ---
 
@@ -30,6 +30,6 @@ Claude (và các AI code assistant như Codex) đóng vai trò **Builder** — c
 
 ## Sources
 
-- [[wiki/sources/src_1-month-with-hermes-ive-been-using-wrong]]
+- [[src_1-month-with-hermes-ive-been-using-wrong]]
 
 ## Notes

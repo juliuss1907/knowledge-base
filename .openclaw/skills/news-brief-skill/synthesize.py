@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-News Brief Synthesizer - Full version with fixed Markdown formatting
+News Brief Synthesizer - Full version with links on sources
 Generates brief from scraped data and sends to Telegram
 """
 import json
@@ -108,8 +108,8 @@ def score_message(msg, topic_config):
     
     return score, matched_keywords
 
-def clean_text_for_markdown(text):
-    """Clean text for safe Markdown display - remove problematic characters"""
+def clean_text_for_display(text):
+    """Clean text for safe display - remove problematic characters but keep content"""
     if not text:
         return ""
     
@@ -119,21 +119,22 @@ def clean_text_for_markdown(text):
     # Remove multiple spaces
     text = ' '.join(text.split())
     
-    # Remove markdown links that might be malformed [text](url)
+    # Remove markdown links [text](url) - keep just the text
     text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
     
     # Remove bare URLs
     text = re.sub(r'https?://\S+', '', text)
     
-    # Remove markdown formatting characters
-    text = text.replace('*', '').replace('_', '').replace('`', '')
-    text = text.replace('[', '').replace(']', '').replace('(', '').replace(')', '')
+    # Remove markdown formatting characters from content
+    text = text.replace('*', '').replace('`', '').replace('_', '')
+    text = text.replace('[', '').replace(']', '')
+    # Keep parentheses for source links
     
     return text.strip()
 
 def truncate_text(text, max_length=150):
     """Truncate text to max length, preserving words"""
-    text = clean_text_for_markdown(text)
+    text = clean_text_for_display(text)
     
     if len(text) <= max_length:
         return text
@@ -148,7 +149,7 @@ def truncate_text(text, max_length=150):
         return truncated + '...'
 
 def generate_brief(messages):
-    """Generate news brief in Vietnamese with clean formatting"""
+    """Generate news brief in Vietnamese with linked sources"""
     if not messages:
         return None
     
@@ -201,9 +202,16 @@ def generate_brief(messages):
         lines.append("🔥 TIN NÓNG")
         for msg in all_scored[:5]:
             text = truncate_text(msg['text'], 140)
-            source = msg.get('source_name', msg.get('source', 'Unknown'))
-            # Plain text, no markdown
-            lines.append(f"• {text} ({source})")
+            source_name = msg.get('source_name', msg.get('source', 'Unknown'))
+            url = msg.get('url', '')
+            
+            # Source with link if available
+            if url:
+                source_display = f"[{source_name}]({url})"
+            else:
+                source_display = source_name
+            
+            lines.append(f"• {text} ({source_display})")
         lines.append("")
         lines.append("━━━━━━━━━━━━━━")
         lines.append("")
@@ -225,9 +233,16 @@ def generate_brief(messages):
         
         for msg in msgs[:max_items]:
             text = truncate_text(msg['text'], 140)
-            source = msg.get('source_name', msg.get('source', 'Unknown'))
-            # Plain text, no markdown formatting
-            lines.append(f"• {text} ({source})")
+            source_name = msg.get('source_name', msg.get('source', 'Unknown'))
+            url = msg.get('url', '')
+            
+            # Source with link if available
+            if url:
+                source_display = f"[{source_name}]({url})"
+            else:
+                source_display = source_name
+            
+            lines.append(f"• {text} ({source_display})")
         
         lines.append("")
     
@@ -256,7 +271,7 @@ def save_markdown(brief_text, session='brief'):
     return filepath
 
 async def send_to_telegram(brief_text):
-    """Send brief to Telegram using plain text"""
+    """Send brief to Telegram with Markdown links on sources"""
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         print("❌ Telegram not configured")
         return False
@@ -285,16 +300,15 @@ async def send_to_telegram(brief_text):
             if current:
                 messages.append(current)
         
-        # Send messages (plain text, no markdown parsing)
+        # Send messages with Markdown parse_mode for links
         for i, msg in enumerate(messages):
             if i > 0:
                 await asyncio.sleep(1)
             
-            # Use no parse_mode or HTML with proper escaping
             await bot.send_message(
                 chat_id=TELEGRAM_CHAT_ID,
-                text=msg
-                # No parse_mode - plain text
+                text=msg,
+                parse_mode=ParseMode.MARKDOWN
             )
         
         print(f"✅ Sent {len(messages)} message(s) to Telegram")

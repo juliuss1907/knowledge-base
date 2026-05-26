@@ -174,7 +174,7 @@ wiki/sources/src_<slug>.md
 ```yaml
 ---
 type: source
-original: raw/<type>/YYYY-MM-DD_<slug>.md
+original: [[YYYY-MM-DD_<slug>]]
 main_tag: <one-from-pool-a>
 sub_tags: [<one-to-three-from-pool-b>]
 topic: <lowercase-hyphen-slug>

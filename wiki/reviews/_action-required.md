@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-24 13:35 — All 2026-05-22 reports approved
+**Last updated:** 2026-05-26 22:00 — Output validation complete (6 issues)
 
 ---
 
 ## Summary
 
-**Pending reports:** 0
+**Pending reports:** 1
 
 **Status:**
 - ✅ Output Validator — 2026-05-24: approved
@@ -41,6 +41,7 @@
 
 ## Critical Issues (Fix Immediately)
 
+- **Output 2026-05-26:** 2 ERROR — Definition too short (static-website-blind-spot, ai-augmented-systems-thinking) → expand to 2-3 sentences
 - **Output 2026-05-24:** 1 ERROR (11 broken wikilinks) → systematic, requires Compile Agent re-run
 - **Output 2026-05-24:** Systematic issues → requires Compile Agent template fix
 
@@ -48,6 +49,7 @@
 
 ## Warnings (Can Fix Later)
 
+- **Output 2026-05-26:** 4 WARNING — Summary too short (×2), section name mismatch (×2), empty sections + dangling references (×2)
 - Hygiene 2026-05-22: 1 WARNING — `.gitkeep` naming in `wiki/topic/`
 - Hygiene 2026-05-22: 1 INFO — `raw/raw.md` spec gap
 
@@ -55,7 +57,24 @@
 
 ## Pending Reports
 
-*None — all reports approved*
+### 1. Output Validation — 2026-05-26
+
+**File:** [2026-05-26_output-report.md](2026-05-26_output-report.md)
+**Status:** pending
+**Created:** 2026-05-26 22:00:00
+**Issues:** 6 (2 ERROR, 4 WARNING, 0 INFO)
+**Files affected:** 4 (2 sources + 2 concepts — all new)
+
+**Summary:**
+- 2 critical quality issues: definitions too short (1 sentence each)
+- 4 improvements needed: summaries too short (×2), section name mismatch (×2), empty sections + dangling references (×2)
+
+**Actions:**
+- `approve output` — approve this report
+- `reject output` — reject this report
+- `show output` — show full report details
+
+---
 
 ---
 

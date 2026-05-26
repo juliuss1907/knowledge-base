@@ -66,11 +66,21 @@
     24|    24|- **Status:** [complete|failed|partial]
     25|    25|- **Notes:** [patterns detected, systematic issues, etc.]
     26|    26|
-    27|    27|## Recent Validations
-    28|    28|<!-- Entries appear below in reverse chronological order (newest first) --> 
-    29|    29|<!-- Hermes appends new entries here -->
-    30|    30|
-    31|    31|## 2026-05-14 23:00:00 — Output validation
+## Recent Validations
+<!-- Entries appear below in reverse chronological order (newest first) --> 
+<!-- Hermes appends new entries here -->
+
+## 2026-05-26 22:00:00 — Output validation
+
+- **Validator:** output-validator
+- **Files checked:** 74 (24 sources + 50 concepts)
+- **New files:** 4 (2 sources + 2 concepts compiled today)
+- **Issues found:** 6 (2 ERROR, 4 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-26_output-report.md
+- **Status:** complete
+- **Notes:** All 4 new files have quality issues (2 definitions too short, 2 summaries too short, 2 section name mismatches, empty sections + dangling references). Compile Agent produced `## Related Concepts` instead of `## Concepts referenced` in both new source files. Both new concept files reference concepts not yet compiled (ai-powered-discovery, conversational-website, generative-ai-seo, human-judgment-ai, ai-productivity).
+
+## 2026-05-14 23:00:00 — Output validation
     32|    32|
     33|    33|- **Validator:** output-validator
     34|    34|- **Files checked:** 14 (2 sources + 12 concepts)

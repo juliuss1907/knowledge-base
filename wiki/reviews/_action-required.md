@@ -14,7 +14,7 @@
 
 **Status:**
 - ✅ Output Validator — 2026-05-26: **approved** (2 ERROR + 4 WARNING → Kara fix)
-- 🔶 Format Validator — 2026-05-26: **partial approved** — Compile Agent template fix + individual file fixes (4 new files with source_type/source_url)
+- 🔶 Format Validator — 2026-05-26: **partial approved** — individual file fixes only (4 new files with source_type/source_url), SKIP compile-agent/SKILL.md
 - 🔶 Hygiene Inspector — 2026-05-26: **partial approved** — .gitkeep fixes only, KEEP RAW_BACKLOG.md + HEARTBEAT.md
 - ✅ Format Validator — 2026-05-24: approved
 - ✅ Hygiene Inspector — 2026-05-24: approved

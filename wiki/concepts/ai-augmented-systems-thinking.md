@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [opinion, system]
+sub_tags: [opinion, research]
 topic: ai-systems-thinking-augmentation
 sources:
   - [[src_will-ai-replace-systems-thinking]]
@@ -13,9 +13,11 @@ last_updated: 2026-05-26
 
 ## Definition
 
-AI-Augmented Systems Thinking là việc sử dụng AI như một công cụ hỗ trợ để tăng cường khả năng tư duy hệ thống của con người — không thay thế judgment và giá trị của hệ thống tư duy này.
+AI-Augmented Systems Thinking là việc sử dụng AI như một công cụ hỗ trợ để tăng cường khả năng tư duy hệ thống của con người — không thay thế judgment và giá trị của hệ thống tư duy này. Đây là sự kết hợp giữa khả năng xử lý phức tạp của AI và sự đánh giá phản biện của con người.
 
-## Key Ideas
+Khác biệt cốt lõi so với systems thinking truyền thống là tốc độ và quy mô phân tích được mở rộng đáng kể, trong khi vẫn giữ nguyên vai trò của human judgment trong việc đặt câu hỏi và đánh giá kết quả.
+
+## Key ideas
 
 - **AI as amplifier:** AI có thể accelerate analysis, expand scenario range, make dependencies visible
 - **Human judgment essential:** Questions about boundaries, incentives, tradeoffs, values vẫn cần human judgment
@@ -35,7 +37,7 @@ AI-Augmented Systems Thinking là việc sử dụng AI như một công cụ h�
 - AI cannot take responsibility for judgment
 - AI may miss second- and third-order effects without human questioning
 
-## Related Concepts
+## Related concepts
 
 - [[systems-thinking]]
 - [[human-judgment-ai]]

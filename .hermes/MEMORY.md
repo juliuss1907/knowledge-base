@@ -183,3 +183,15 @@
   - 1 ERROR: `state/` — empty directory at KB root
   - 3 WARNING: stale .bak/.tmp files in .openclaw/ (safe auto-cleanup)
 - **Assessment:** KB structure is clean. folder-structure.md v1.2 catch-all clauses eliminated runtime folder noise. Only genuine anomalies remain.
+
+## 2026-05-26 22:00:00 — Hygiene inspection
+
+- **Paths checked:** ~24,452 (full KB scan excluding .git, node_modules, .obsidian)
+- **Issues found:** 4 (2 ERROR, 2 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-26_hygiene-report.md
+- **Top violations:**
+  - 1 ERROR: `raw/RAW_BACKLOG.md` — file at raw/ root level (persistent from prior reports)
+  - 1 ERROR: `wiki/reviews/HEARTBEAT.md` — unexpected file in reviews/
+  - 1 WARNING: `wiki/topic/.gitkeep` — non-markdown placeholder
+  - 1 WARNING: `wiki/drafts/.gitkeep` — non-markdown placeholder
+- **Assessment:** Core structure is healthy. Two ERRORs need Julius attention (RAW_BACKLOG.md persistent, HEARTBEAT.md new). `.gitkeep` files are cosmetic.

@@ -876,3 +876,27 @@ Each entry follows this format:
 - **Orphans deleted:** 1 tag indexes + 0 topic indexes
 - **Invalid tags found:** 4
 - **Errors:** 0 files skipped due to invalid frontmatter
+
+## 2026-05-26 08:00:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-25_will-ai-replace-systems-thinking.md
+- **Source note:** wiki/sources/src_will-ai-replace-systems-thinking.md
+- **Concepts:** [ai-augmented-systems-thinking, human-judgment-ai, second-order-effects]
+- **Tags applied:** main=#ai, sub=[#opinion, #system], topic=ai-systems-thinking-augmentation
+- **Action:** created 3 concept files
+
+## 2026-05-26 08:02:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/posts/2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website.md
+- **Source note:** wiki/sources/src_ai-trillion-dollar-blind-spot.md
+- **Concepts:** [static-website-blind-spot, ai-powered-discovery, conversational-website]
+- **Tags applied:** main=#ai, sub=[#marketing, #tools], topic=ai-landing-page-discovery
+- **Action:** created 3 concept files
+
+## 2026-05-26 08:05:00 — Daily Compile Summary
+
+- **Processed:** 2 files
+- **Source notes:** 2 created
+- **Concepts:** 6 created/updated
+- **Raw backlog:** 0 files remaining
+- **Next:** Index Agent at 21:00

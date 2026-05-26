@@ -3,14 +3,14 @@
 > Consolidated list of pending Hermes validation reports
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
+**Last updated:** 2026-05-26 22:00 — Hygiene inspection complete (4 issues)
 
-**Last updated:** 2026-05-27 00:05 — Format validation complete (20 issues)
 
 ---
 
 ## Summary
 
-**Pending reports:** 2
+**Pending reports:** 3
 
 **Status:**
 - ✅ Output Validator — 2026-05-24: approved
@@ -21,6 +21,7 @@
 - ✅ Hygiene Inspector — 2026-05-22: approved
 - 🔴 Format Validator — 2026-05-26: pending
 - 🔴 Output Validator — 2026-05-26: pending
+- 🔴 Hygiene Inspector — 2026-05-26: pending
 
 **Resolved reports:**
 - [x] Output Validator — 2026-05-14 (4 issues)
@@ -99,6 +100,23 @@
 - `show output` — show full report details
 
 ---
+
+### 3. Hygiene Inspection — 2026-05-26
+
+**File:** [2026-05-26_hygiene-report.md](2026-05-26_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-05-26 22:00
+**Issues:** 4 (2 ERROR, 2 WARNING, 0 INFO)
+**Files affected:** 4 (raw/RAW_BACKLOG.md, wiki/reviews/HEARTBEAT.md, wiki/topic/.gitkeep, wiki/drafts/.gitkeep)
+
+**Summary:**
+- 2 critical path violations: file at raw/ root level (`RAW_BACKLOG.md` — persistent from prior reports), unexpected HEARTBEAT.md in reviews/
+- 2 naming warnings: .gitkeep placeholders in topic/ and drafts/
+
+**Actions:**
+- `approve hygiene` — approve this report
+- `reject hygiene` — reject this report
+- `show hygiene` — show full report details
 
 ---
 

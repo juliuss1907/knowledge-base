@@ -2,10 +2,10 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: news
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #news
@@ -19,7 +19,7 @@ last_updated: 2026-05-25
 - Total files: 5
 - Sources: 2
 - Concepts: 3
-- Last updated: 2026-05-25
+- Last updated: 2026-05-26
 
 ## Files with this tag
 
@@ -33,6 +33,6 @@ last_updated: 2026-05-25
 
 - [[tech]] — 3 co-occurrences
 - [[tools]] — 3 co-occurrences
-- [[hack]] — 2 co-occurrences
 - [[ai]] — 2 co-occurrences
-- [[opinion]] — 1 co-occurrence
+- [[hack]] — 2 co-occurrences
+- [[automation]] — 1 co-occurrence

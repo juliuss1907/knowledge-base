@@ -2,10 +2,10 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: economic
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #economic
@@ -19,7 +19,7 @@ last_updated: 2026-05-25
 - Total files: 1
 - Sources: 0
 - Concepts: 1
-- Last updated: 2026-05-25
+- Last updated: 2026-05-26
 
 ## Files with this tag
 

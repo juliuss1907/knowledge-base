@@ -20,31 +20,34 @@ Master index of all tags used across the wiki. Each entry links to a tag file li
 
 ## Stats
 
-- Total tags: 16
+- Total tags: 17
 - Main tags: 6
-- Sub tags: 10
-- Most used: #tools (72), #ai (61), #automation (37)
-- Last updated: 2026-05-25
+- Sub tags: 11
+- Most used: #tools (78), #ai (70), #automation (38)
+- Last updated: 2026-05-26
+
 
 ## Items
 
 ### Main Tags (Pool A)
-- [[ai]] — [description]
-- [[crypto]] — [description]
-- [[tech]] — [description]
-- [[productivity]] — [description]
-- [[system]] — [description]
-- [[economic]] — [description]
+
+- [[ai]] — 
+- [[crypto]] — 
+- [[tech]] — 
+- [[productivity]] — 
+- [[system]] — 
+- [[economic]] — 
 
 ### Sub Tags (Pool B)
-- [[hack]] — [description]
-- [[tools]] — [description]
-- [[automation]] — [description]
-- [[vibecode]] — [description]
-- [[research]] — [description]
-- [[tutorial]] — [description]
-- [[opinion]] — [description]
-- [[news]] — [description]
-- [[defi]] — [description]
-- [[law]] — [description]
 
+- [[hack]] — 
+- [[tools]] — 
+- [[automation]] — 
+- [[vibecode]] — 
+- [[research]] — 
+- [[tutorial]] — 
+- [[opinion]] — 
+- [[news]] — 
+- [[defi]] — 
+- [[law]] — 
+- [[coding]] — 

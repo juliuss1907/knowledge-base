@@ -2,10 +2,10 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: automation
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #automation
@@ -16,10 +16,10 @@ last_updated: 2026-05-25
 
 ## Stats
 
-- Total files: 37
+- Total files: 38
 - Sources: 9
-- Concepts: 28
-- Last updated: 2026-05-25
+- Concepts: 29
+- Last updated: 2026-05-26
 
 ## Files with this tag
 
@@ -31,6 +31,7 @@ last_updated: 2026-05-25
 - [[browser-harness-tool]] — Browser Harness Tool (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
 - [[codified-taste]] — Codified Taste (concept)
+- [[conversational-website]] — Conversational Website (concept)
 - [[factory-missions]] — Factory Missions (concept)
 - [[grok-hermes-integration]] — Grok Hermes Integration (concept)
 - [[hermes-agent]] — Hermes Agent (concept)
@@ -63,8 +64,8 @@ last_updated: 2026-05-25
 
 ## Co-occurring tags
 
-- [[tools]] — 34 co-occurrences
-- [[ai]] — 29 co-occurrences
-- [[opinion]] — 7 co-occurrences
+- [[tools]] — 35 co-occurrences
+- [[ai]] — 30 co-occurrences
 - [[tutorial]] — 7 co-occurrences
+- [[opinion]] — 7 co-occurrences
 - [[system]] — 5 co-occurrences

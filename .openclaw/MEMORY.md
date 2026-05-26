@@ -900,3 +900,12 @@ Each entry follows this format:
 - **Concepts:** 6 created/updated
 - **Raw backlog:** 0 files remaining
 - **Next:** Index Agent at 21:00
+
+## 2026-05-26 21:02:49 — Indexed
+
+- **Scanned:** 99 concepts + 24 sources = 123 total files
+- **Tags indexed:** 17 (6 main-tags + 11 sub-tags)
+- **Topics indexed:** 32
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 2
+- **Errors:** 0 files skipped due to invalid frontmatter

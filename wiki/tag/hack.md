@@ -2,10 +2,10 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: hack
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #hack
@@ -19,7 +19,7 @@ last_updated: 2026-05-25
 - Total files: 14
 - Sources: 3
 - Concepts: 11
-- Last updated: 2026-05-25
+- Last updated: 2026-05-26
 
 ## Files with this tag
 

@@ -2,10 +2,10 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: productivity
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #productivity
@@ -19,7 +19,7 @@ last_updated: 2026-05-25
 - Total files: 21
 - Sources: 3
 - Concepts: 18
-- Last updated: 2026-05-25
+- Last updated: 2026-05-26
 
 ## Files with this tag
 
@@ -48,6 +48,7 @@ last_updated: 2026-05-25
 ## Co-occurring tags
 
 - [[opinion]] — 17 co-occurrences
+- [[tools]] — 4 co-occurrences
 - [[research]] — 4 co-occurrences
-- [[tools]] — 3 co-occurrences
+- [[ai]] — 1 co-occurrence
 - [[tutorial]] — 1 co-occurrence

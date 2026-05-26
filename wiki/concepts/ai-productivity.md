@@ -4,7 +4,8 @@ status: stub
 main_tag: ai
 sub_tags: [tools, productivity]
 topic: ai-systems-thinking-augmentation
-sources: []
+sources:
+  - [[src_how-ai-productivity-fails]]
 last_updated: 2026-05-26
 ---
 
@@ -24,5 +25,6 @@ AI Productivity là việc sử dụng AI để tăng cường năng suất cá 
 ## Backlinks
 
 - [[ai-augmented-systems-thinking]]
+- [[src_how-ai-productivity-fails]]
 
 ## Notes

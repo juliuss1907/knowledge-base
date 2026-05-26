@@ -422,7 +422,9 @@ This spec is versioned. When format changes:
 ### Change log
 
 | Version | Date       | Changes                                                                                                                                                                                                                              |
-| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+| 2.2     | 2026-05-26 | Change 'original' value to wikilink
+|
 | 2.1     | 2026-05-17 | Clarified scope: explicitly excludes index files (type: index). Added reference to index-spec.md.                                                                                                                                    |
 | 2.0     | 2026-05-09 | Clarified scope (structure only, not content quality). Aligned concept sections with Output Validator. Changed `date_ingested` → `date_compiled`. Moved markdown syntax rules from Output Validator. Added field order requirements. |
 | 1.0     | 2026-05-07 | Initial format spec for V2                                                                                                                                                                                                           |

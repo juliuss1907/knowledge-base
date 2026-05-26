@@ -14,7 +14,7 @@
 
 **Status:**
 - ✅ Output Validator — 2026-05-26: **approved** (2 ERROR + 4 WARNING → Kara fix)
-- 🔶 Format Validator — 2026-05-26: **partial approved** — Compile Agent template fix only (compile-agent/SKILL.md), NOT file-level fixes
+- 🔶 Format Validator — 2026-05-26: **partial approved** — Compile Agent template fix + individual file fixes (4 new files with source_type/source_url)
 - 🔶 Hygiene Inspector — 2026-05-26: **partial approved** — .gitkeep fixes only, KEEP RAW_BACKLOG.md + HEARTBEAT.md
 - ✅ Format Validator — 2026-05-24: approved
 - ✅ Hygiene Inspector — 2026-05-24: approved
@@ -43,8 +43,7 @@
 
 ## Critical Issues (Fix Immediately)
 
-- **Format 2026-05-26 — COMPILE AGENT TEMPLATE FIX ONLY:** 4 new files (compiled 2026-05-26) used wrong template — `source_type`/`source_url` instead of `original`, wrong section names, extra non-spec sections. Update `compile-agent/SKILL.md` to match format-spec.md v2.0. DO NOT fix individual files.
-- **Format 2026-05-26 — YAML quoting (16 L3 tags):** `parent: [[tag]]` → `parent: "[[tag]]"` in all L3 tag files. Systematic but file-level — SKIP, part of template fix.
+- **Format 2026-05-26 — FILE FIXES ONLY:** 4 new files (src_ai-trillion-dollar-blind-spot, src_will-ai-replace-systems-thinking, static-website-blind-spot, ai-augmented-systems-thinking) use wrong fields (`source_type`/`source_url`) — Fix Agent to replace with correct `original` field per format-spec. Also fix section names (`Key Points`→`Key points`, `Related Concepts`→`Concepts referenced`), remove extra sections (`Opportunity`, `Backlinks`, `Notes`), fix `marketing` and `system` sub-tags. Compile Agent SKILL.md template is CORRECT as-is.
 - **Output 2026-05-24:** 11 broken wikilinks → systematic, requires Compile Agent re-run
 
 ---

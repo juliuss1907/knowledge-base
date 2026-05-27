@@ -1,4 +1,4 @@
-# HEARTBEAT.md — Last Check: 2026-05-27 09:30 Asia/Saigon
+# HEARTBEAT.md — Last Check: 2026-05-27 10:00 Asia/Saigon
 
 ## Status: CLEAN
 
@@ -12,13 +12,13 @@
 
 ### Concept Backlinks
 - Last check: OK (2026-05-27 09:30)
-- Checked: `compounding-effect.md`, `shift-left-testing.md`
+- Checked: `active-thinking.md`, `agent-harness.md`
 
 ### System
 - All folders accessible ✓
-- Tag indexes updated today at 21:00 ✓
+- Tag indexes updated yesterday at 21:00 ✓
 - IndexAgent next run: 21:00 today
 
 ---
 
-*Next heartbeat: 10:00 Asia/Saigon*
+*Next heartbeat: 10:30 Asia/Saigon*

@@ -4,16 +4,17 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-27 — New Output Validator report, pending review
+**Last updated:** 2026-05-27 — Output + Format Validator reports pending review
 
 ---
 
 ## Summary
 
-**Pending reports:** 1
+**Pending reports:** 2
 
 **Status:**
 - 🔴 Output Validator — 2026-05-27: pending (3 ERROR + 5 WARNING + 3 INFO)
+- 🔴 Format Validator — 2026-05-27: pending (14 ERROR + 6 WARNING)
 - ✅ Output Validator — 2026-05-26: approved (2 ERROR + 4 WARNING → Kara fix)
 - ✅ Format Validator — 2026-05-26: approved (4 new files — source_type/source_url → original, section names, tags)
 - ✅ Hygiene Inspector — 2026-05-26: approved (.gitkeep in topic/ + drafts/)
@@ -46,9 +47,9 @@
 
 ## Critical Issues (Fix Immediately)
 
-- **Format 2026-05-26 — 4 FILE FIXES:** src_ai-trillion-dollar-blind-spot, src_will-ai-replace-systems-thinking, static-website-blind-spot, ai-augmented-systems-thinking — source_type/source_url → original, Key Points → Key points, Related Concepts → Concepts referenced, remove extra sections, fix sub-tags
-- **Format 2026-05-26 — 16 L3 TAG YAML:** Fix Agent patch all L3 tag files: `parent: [[tag]]` → `parent: "[[tag]]"` (16 files in wiki/tag/)
-- **Output 2026-05-24 — 11 BROKEN WIKILINKS:** Fix Agent — replace with bare wikilinks or create stub concept files for: agent-initiated-code-artifacts, multi-agent-systems, orchestrator-worker-validator, autonomous-agents, prediction-markets, crypto-trading-bots, self-learning-agents, bittensor, ubi-universal-basic-income, economic-inequality, financial-crisis-2008-comparison, smart-contracts
+- **Format 2026-05-27 — 5 STUB FILES:** ai-powered-discovery, ai-productivity, conversational-website, generative-ai-seo, human-judgment-ai — `status: stub` → `status: draft`, add `## Key ideas` section, fill `sources` array
+- **Format 2026-05-27 — 2 INVALID SUB-TAGS:** ai-productivity (sub_tag 'productivity' → replace with Pool B tag), generative-ai-seo (sub_tag 'marketing' → replace or propose new tag)
+- **Format 2026-05-27 — 2 FIELD ORDER:** src_ai-trillion-dollar-blind-spot, src_will-ai-replace-systems-thinking — reorder: main_tag, sub_tags, topic, date_compiled, author
 
 ---
 
@@ -68,6 +69,7 @@
 ## Pending Reports
 
 - 🔴 **Output Validator — 2026-05-27**: 3 ERROR + 5 WARNING + 3 INFO — [Report](2026-05-27_output-report.md)
+- 🔴 **Format Validator — 2026-05-27**: 14 ERROR + 6 WARNING — [Report](2026-05-27_format-report.md)
 
 ---
 

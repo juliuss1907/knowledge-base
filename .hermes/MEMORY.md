@@ -195,3 +195,18 @@
   - 1 WARNING: `wiki/topic/.gitkeep` — non-markdown placeholder
   - 1 WARNING: `wiki/drafts/.gitkeep` — non-markdown placeholder
 - **Assessment:** Core structure is healthy. Two ERRORs need Julius attention (RAW_BACKLOG.md persistent, HEARTBEAT.md new). `.gitkeep` files are cosmetic.
+
+## 2026-05-27 07:43:00 — Format Validation
+- **Validator:** format-validator
+- **Files checked:** 123 (99 concepts + 24 sources)
+- **Issues found:** 20 (14 ERROR, 6 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-27_format-report.md
+- **Top violations:**
+  - 5 ERROR: Invalid status 'stub' (not in enum): ai-powered-discovery, ai-productivity, conversational-website, generative-ai-seo, human-judgment-ai
+  - 5 ERROR: Missing 'Key ideas' section (same 5 stub concepts)
+  - 4 WARNING: Empty sources array (4 of 5 stub concepts)
+  - 2 ERROR: Invalid sub_tags ('productivity' and 'marketing' not in Pool B)
+  - 2 WARNING: Field order incorrect in source files (author/date_compiled swapped)
+  - 1 ERROR: Missing 'Related concepts' section (static-website-blind-spot)
+  - 1 ERROR: Code block missing language tag (x-search-tool)
+- **Assessment:** 5 stub concepts share a systematic pattern — incomplete format. Compile Agent should ensure minimum format compliance (valid status, required sections, non-empty sources) even for draft concepts.

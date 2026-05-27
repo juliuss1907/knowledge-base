@@ -1,4 +1,4 @@
-HEARTBEAT_OK — 2026-05-27 21:01 (Asia/Saigon)
+⚠️ Heartbeat 21:30 (Asia/Saigon) — Issue found
 
 ---
 
@@ -6,10 +6,16 @@ HEARTBEAT_OK — 2026-05-27 21:01 (Asia/Saigon)
 
 | Check | Status | Notes |
 |---|---|---|
-| Inbox | ✅ Clean | No #agent/inbox files |
-| Raw backlog | ⚠️ 3 files unprocessed | All ingested today — will process at 08:00 tomorrow |
-| Concept backlinks | ✅ Clean | Checked ai-productivity.md, static-website-blind-spot.md — both have content |
+| Inbox | ✅ Clean | No Tasks/ folder or #agent/inbox files |
+| Raw backlog | ✅ Clean | 3 files unprocessed, all from today (2026-05-27) |
+| Concept backlinks | ❌ Issue | Checked default-mode-network.md, memory-extraction-timing.md — both missing backlinks to sources |
 | Pending review | ✅ Clean | _action-required.md shows 0 pending |
+
+---
+
+## Issues Found
+
+- [Priority 2] Concept thiếu backlink: `wiki/concepts/default-mode-network.md` và `wiki/concepts/memory-extraction-timing.md` không có link đến sources.
 
 ---
 
@@ -24,9 +30,9 @@ HEARTBEAT_OK — 2026-05-27 21:01 (Asia/Saigon)
 ## System Status
 
 - **raw/:** 3 files unprocessed (all from today)
-- **wiki/reviews/:** 0 pending reports (all 2026-05-27 fixes applied)
+- **wiki/reviews/:** 0 pending reports
 - **Last Hermes review:** 2026-05-27 08:10
 
 ---
 
-*Next heartbeat: 21:30*
+*Next heartbeat: 22:00*

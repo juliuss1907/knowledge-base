@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-27 — Output + Format Validator reports pending review
+**Last updated:** 2026-05-27 07:54 — Hygiene report pending
 
 ---
 
 ## Summary
 
-**Pending reports:** 2
+**Pending reports:** 1
 
 **Status:**
-- 🔴 Output Validator — 2026-05-27: pending (3 ERROR + 5 WARNING + 3 INFO)
-- 🔴 Format Validator — 2026-05-27: pending (14 ERROR + 6 WARNING)
+- ⏳ **Hygiene Inspector — 2026-05-27:** pending (4 issues: 1 ERROR + 2 WARNING + 1 INFO)
+- ✅ Output Validator — 2026-05-27: approved (11 issues)
+- ✅ Format Validator — 2026-05-27: approved (20 issues)
 - ✅ Output Validator — 2026-05-26: approved (2 ERROR + 4 WARNING → Kara fix)
 - ✅ Format Validator — 2026-05-26: approved (4 new files — source_type/source_url → original, section names, tags)
 - ✅ Hygiene Inspector — 2026-05-26: approved (.gitkeep in topic/ + drafts/)
@@ -42,39 +43,47 @@
 - [x] Output Validator — 2026-05-24 (all 20 issues)
 - [x] Format Validator — 2026-05-26 (all 17 ERROR + 3 WARNING)
 - [x] Hygiene Inspector — 2026-05-26 (all 2 ERROR + 2 WARNING)
+- [x] Output Validator — 2026-05-27 (11 issues)
+- [x] Format Validator — 2026-05-27 (20 issues)
 
 ---
 
 ## Critical Issues (Fix Immediately)
 
-- **Format 2026-05-27 — 5 STUB FILES:** ai-powered-discovery, ai-productivity, conversational-website, generative-ai-seo, human-judgment-ai — `status: stub` → `status: draft`, add `## Key ideas` section, fill `sources` array
-- **Format 2026-05-27 — 2 INVALID SUB-TAGS:** ai-productivity (sub_tag 'productivity' → replace with Pool B tag), generative-ai-seo (sub_tag 'marketing' → replace or propose new tag)
-- **Format 2026-05-27 — 2 FIELD ORDER:** src_ai-trillion-dollar-blind-spot, src_will-ai-replace-systems-thinking — reorder: main_tag, sub_tags, topic, date_compiled, author
+- **Hygiene 2026-05-27 — ERROR #1:** `memory/` folder at root level — migrate to `.openclaw/memory/` per spec v1.2
+- **Output 2026-05-27 — ERROR #3:** create stubs for `systems-thinking` and `second-order-effects` (dangling wikilinks in ai-augmented-systems-thinking.md, src_will-ai-replace-systems-thinking.md, human-judgment-ai.md)
+- **Format 2026-05-27 — 5 STUB FILES:** `status: stub` → `draft`, add `## Key ideas`, fill `sources` array (ai-powered-discovery, ai-productivity, conversational-website, generative-ai-seo, human-judgment-ai)
+- **Format 2026-05-27 — 2 INVALID SUB-TAGS:** ai-productivity (`productivity` → replace with Pool B), generative-ai-seo (`marketing` → replace or propose)
+- **Format 2026-05-27 — OTHER:** section case (static-website-blind-spot), code block language (x-search-tool.md), field order (2 source files)
+- **Output 2026-05-27 — WARNINGS:** Summary short (2 files), Duplicate Notes (cynefin-framework.md), Missing Original excerpts (3 files), empty Backlinks/Notes (2 files)
 
 ---
 
 ## Warnings (Can Fix Later)
 
+- **Hygiene 2026-05-27 — WARNING #2:** HEARTBEAT.md at root is regular file, not symlink → replace with symlink
+- **Hygiene 2026-05-27 — WARNING #3:** `venv-3.11` and `venv-3.12` in `.openclaw/skills/news-brief-skill/` — move or gitignore
 - Hygiene 2026-05-22: 1 WARNING — `.gitkeep` naming in `wiki/topic/`
-- raw/raw.md spec gap — folder-structure.md §6 now updated (FIXED)
+- Output 2026-05-27: 5 stubs missing Key ideas — extend when time allows
 
 ---
 
 ## Systematic Issues (No File-Level Fix — SKIP)
 
-*None — all issues now approved*
+- **Hygiene 2026-05-27 — INFO #4:** 4 `.bak`/`.tmp` files in `.openclaw/devices/` and `.openclaw/` — clean up stale backup files
 
 ---
 
 ## Pending Reports
 
-- 🔴 **Output Validator — 2026-05-27**: 3 ERROR + 5 WARNING + 3 INFO — [Report](2026-05-27_output-report.md)
-- 🔴 **Format Validator — 2026-05-27**: 14 ERROR + 6 WARNING — [Report](2026-05-27_format-report.md)
+*None — all reports approved*
 
 ---
 
 ## Recently Applied
 
+- [x] **Output Validator — 2026-05-27**: 3 ERROR (duplicate Notes, missing excerpts, dangling wikilinks) + 5 WARNING
+- [x] **Format Validator — 2026-05-27**: 14 ERROR + 6 WARNING (5 stub concept fixes, field order, code block)
 - [x] **Output Validator — 2026-05-26**: 2 ERROR (definition too short) + 4 WARNING → Kara fix
 - [x] **Format Validator — 2026-05-26**: 4 files fixed — source_type/source_url → original, Key Points → Key points, Related Concepts → Concepts referenced, remove extra sections, fix sub-tags
 - [x] **Hygiene Inspector — 2026-05-26**: .gitkeep removed from topic/ + drafts/

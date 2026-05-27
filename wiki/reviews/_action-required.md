@@ -4,15 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-27 — All issues approved, Fix Agent queued
+**Last updated:** 2026-05-27 — New Output Validator report, pending review
 
 ---
 
 ## Summary
 
-**Pending reports:** 0
+**Pending reports:** 1
 
 **Status:**
+- 🔴 Output Validator — 2026-05-27: pending (3 ERROR + 5 WARNING + 3 INFO)
 - ✅ Output Validator — 2026-05-26: approved (2 ERROR + 4 WARNING → Kara fix)
 - ✅ Format Validator — 2026-05-26: approved (4 new files — source_type/source_url → original, section names, tags)
 - ✅ Hygiene Inspector — 2026-05-26: approved (.gitkeep in topic/ + drafts/)
@@ -66,7 +67,7 @@
 
 ## Pending Reports
 
-*None — all reports approved and queued for Fix Agent*
+- 🔴 **Output Validator — 2026-05-27**: 3 ERROR + 5 WARNING + 3 INFO — [Report](2026-05-27_output-report.md)
 
 ---
 

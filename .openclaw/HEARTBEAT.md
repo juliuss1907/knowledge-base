@@ -1,4 +1,4 @@
-# HEARTBEAT.md — Last Check: 2026-05-27 08:30 Asia/Saigon
+# HEARTBEAT.md — Last Check: 2026-05-27 09:30 Asia/Saigon
 
 ## Status: CLEAN
 
@@ -11,8 +11,8 @@
 - **0 entries** — all clear
 
 ### Concept Backlinks
-- Last check: OK (2026-05-26 23:30)
-
+- Last check: OK (2026-05-27 09:30)
+- Checked: `compounding-effect.md`, `shift-left-testing.md`
 
 ### System
 - All folders accessible ✓
@@ -21,4 +21,4 @@
 
 ---
 
-*Next heartbeat: 09:00 Asia/Saigon*
+*Next heartbeat: 10:00 Asia/Saigon*

@@ -1,13 +1,8 @@
-# HEARTBEAT.md — System Health Log
+# Heartbeat Log
 
-> Tự động cập nhật bởi OpenClaw mỗi 30 phút.
+**Last Check:** 2026-05-27 14:00 (Asia/Saigon)
+**Status:** ISSUES FOUND
 
-**Current status:** 2026-05-27 12:30 (Asia/Saigon)
-**Status:** OK
-
-**Checks:**
-- Inbox: Clean
-- Raw backlog: Clean (1 file found, ingested today)
-- Concept backlinks: OK (Sampled 2 files, all have sources)
-- Pending reviews: Clean
-2026-05-27 13:30 — HEARTBEAT_OK
+- [Priority 1] Raw backlog: 8 files trong raw/ (articles/repos) chưa compile, cũ nhất từ 2026-04-20.
+- [Priority 2] Concept thiếu liên kết: wiki/concepts/systems-thinking.md không có link đến sources.
+- [Priority 3] Pending review: 0 entries. Hệ thống clean.

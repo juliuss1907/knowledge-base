@@ -4,7 +4,9 @@ status: draft
 main_tag: system
 sub_tags: [research]
 topic: post-systems-thinking
-sources: []
+sources:
+  - [[src_what-comes-after-systems-thinking]]
+  - [[src_will-ai-replace-systems-thinking]] []
 last_updated: 2026-05-27
 ---
 

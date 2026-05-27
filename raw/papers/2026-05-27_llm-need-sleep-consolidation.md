@@ -4,7 +4,9 @@ source_type: paper
 source_url: https://arxiv.org/abs/2505.0xxxxx
 date_ingested: 2026-05-27
 tags: [ai, agents, research]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-28
+compiled_to: [[src_llm-need-sleep-consolidation]]
 ---
 
 # Research Report: Language Models Need Sleep

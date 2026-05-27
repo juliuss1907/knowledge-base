@@ -4,7 +4,9 @@ source_type: article
 source_url: https://www.mindstudio.ai/blog/build-ai-trading-agent-claude-code-alpaca
 date_ingested: 2026-05-27
 tags: [ai, agents, tools, economic]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-28
+compiled_to: [[src_build-ai-trading-agent-claude-code-alpaca]]
 ---
 
 # How to Build a 24/7 AI Trading Agent with Claude Code and Alpaca

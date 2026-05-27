@@ -5,7 +5,9 @@ source_url: https://youtu.be/MGXwxwYMgfU
 platform: youtube
 channel: Productive Peter
 date_ingested: 2026-05-26
-status: unprocessed
+status: processed
+compiled_at: 2026-05-27
+compiled_to: [[src_why-we-complicate-life-productive-peter]]
 ---
 
 # TẠI SAO CUỘC SỐNG RẤT ĐƠN GIẢN NHƯNG CHÚNG TA LẠI CỐ TÌNH LÀM NÓ PHỨC TẠP?

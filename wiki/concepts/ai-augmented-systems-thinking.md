@@ -49,4 +49,11 @@ Khác biệt cốt lõi so với systems thinking truyền thống là tốc đ�
 
 ## Backlinks
 
+- [[ai-productivity]]
+- [[human-judgment-ai]]
+- [[second-order-effects]]
+- [[systems-thinking]]
+
 ## Notes
+
+<!-- Free space for Julius -->

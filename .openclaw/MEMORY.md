@@ -909,3 +909,35 @@ Each entry follows this format:
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 2
 - **Errors:** 0 files skipped due to invalid frontmatter
+
+## 2026-05-27 08:00:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-27_agent-memory-anatomy.md
+- **Source note:** wiki/sources/src_agent-memory-anatomy.md
+- **Concepts:** [agent-memory-taxonomy, memory-extraction-timing, consolidation-offline-processing, autobiographical-memory-systems, prospective-memory-gap]
+- **Tags applied:** main=#ai, sub=[#research, #tools], topic=agent-memory-systems
+- **Action:** created 5 concept files
+
+## 2026-05-27 08:02:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-05-27_the-revenge-of-the-business-idiot.md
+- **Source note:** wiki/sources/src_the-revenge-of-the-business-idiot.md
+- **Concepts:** [business-idiot-archetype, rot-economy, ai-impression-of-work]
+- **Tags applied:** main=#ai, sub=[#opinion, #economic], topic=ai-business-criticism
+- **Action:** created 3 concept files
+
+## 2026-05-27 08:04:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/videos/2026-05-26_why-we-complicate-life-productive-peter.md
+- **Source note:** wiki/sources/src_why-we-complicate-life-productive-peter.md
+- **Concepts:** [paradox-of-effort, glymphatic-system, hedonic-treadmill, memory-reconstruction, stoic-control-dichotomy]
+- **Tags applied:** main=#productivity, sub=[#tutorial, #opinion], topic=simplicity-psychology
+- **Action:** created 5 concept files
+
+## 2026-05-27 08:06:00 — Daily Compile Summary
+
+- **Processed:** 3 files
+- **Source notes:** 3 created
+- **Concepts:** 13 created
+- **Raw backlog:** 0 files remaining
+- **Next:** Index Agent at 21:00

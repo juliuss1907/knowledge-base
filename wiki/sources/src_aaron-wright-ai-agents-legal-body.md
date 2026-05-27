@@ -39,7 +39,7 @@ Aaron Wright giải thích cách AI agents có thể tham gia thương mại đ�
 - [[agency-law]]
 - [[agentic-commerce]]
 
-## Original Excerpts
+## Original excerpts
 
 > "The future of agentic commerce may look radical at the level of software. At the level of law, it may begin in the least glamorous place imaginable: an LLC agreement, carefully drafted, in a jurisdiction that knows how to leave private ordering alone."
 

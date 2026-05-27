@@ -43,5 +43,3 @@ Cynefin is a decision framework developed by Dave Snowden at IBM in the late 199
 - [[systems-thinking-limitations]]
 
 ## Notes
-
-## Notes

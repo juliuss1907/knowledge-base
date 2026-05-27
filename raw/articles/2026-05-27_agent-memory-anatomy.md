@@ -4,7 +4,9 @@ source_type: article
 source_url: https://brgsk.xyz/agent-memory-anatomy/
 date_ingested: 2026-05-27
 tags: [ai, agents, research]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-27
+compiled_to: [[src_agent-memory-anatomy]]
 ---
 
 # Agent Memory: An Anatomy

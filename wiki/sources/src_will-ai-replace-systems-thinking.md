@@ -1,12 +1,12 @@
 ---
 type: source
 original: https://open.substack.com/pub/pmresearcher/p/will-ai-replace-systems-thinking
-author: pmresearcher
-date_published: 2025-05-24
-date_compiled: 2026-05-26
 main_tag: ai
 sub_tags: [opinion, research]
 topic: ai-systems-thinking-augmentation
+date_compiled: 2026-05-26
+url: https://open.substack.com/pub/pmresearcher/p/will-ai-replace-systems-thinking
+author: pmresearcher
 ---
 
 # Will AI Replace Systems Thinking?
@@ -45,6 +45,14 @@ AI will not replace systems thinking, but it will fundamentally change how syste
 - [[ai-augmented-systems-thinking]]
 - [[human-judgment-ai]]
 - [[second-order-effects]]
+
+## Original excerpts
+
+> "AI will not replace systems thinking, but it will fundamentally change how systems thinking is practiced."
+
+> "AI is a powerful assistant for pattern recognition and complexity processing, but cannot replace human judgment on questions of boundaries, incentives, tradeoffs, and values."
+
+> "The future belongs to those who know how to think with AI without surrendering judgment to it."
 
 ---
 *Compiled by OpenClaw Compile Agent*

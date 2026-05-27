@@ -43,7 +43,7 @@ Rebuild the discovery layer with:
 - Dynamic personalization
 - Lower friction pathways
 
-## Related Concepts
+## Related concepts
 
 - [[ai-powered-discovery]]
 - [[conversational-website]]
@@ -55,4 +55,10 @@ Rebuild the discovery layer with:
 
 ## Backlinks
 
+- [[ai-powered-discovery]]
+- [[conversational-website]]
+- [[generative-ai-seo]]
+
 ## Notes
+
+<!-- Free space for Julius -->

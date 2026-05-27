@@ -1,12 +1,12 @@
 ---
 type: source
 original: https://x.com/SuyashKarn2/status/2057099123413946617
-author: Suyash Karn
-date_published: 2025-05-24
-date_compiled: 2026-05-26
 main_tag: ai
 sub_tags: [tools]
 topic: ai-landing-page-discovery
+date_compiled: 2026-05-26
+url: https://x.com/SuyashKarn2/status/2057099123413946617
+author: Suyash Karn
 ---
 
 # AI's Trillion-Dollar Blind Spot: The Static Website
@@ -52,6 +52,14 @@ Companies are racing to embed AI into their products while ignoring the most cri
 - [[static-website-blind-spot]]
 - [[ai-powered-discovery]]
 - [[conversational-website]]
+
+## Original excerpts
+
+> "Companies are racing to embed AI into their products while ignoring the most critical customer touchpoint: the static landing page. The traditional website cannot have conversations or adapt to context, creating high friction for potential customers trying to determine product relevance."
+
+> "Your landing page is supposed to do the discovery job. But it's static. It can't have a conversation. It can't adapt to who shows up."
+
+> "The opportunity isn't A/B testing your headline. It's rebuilding the discovery layer with AI."
 
 ---
 *Compiled by OpenClaw Compile Agent*

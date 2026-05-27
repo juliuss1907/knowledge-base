@@ -10,3 +10,4 @@
 - Raw backlog: Clean (1 file found, ingested today)
 - Concept backlinks: OK (Sampled 2 files, all have sources)
 - Pending reviews: Clean
+2026-05-27 13:30 — HEARTBEAT_OK

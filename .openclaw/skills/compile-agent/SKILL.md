@@ -37,7 +37,7 @@ For each unprocessed raw file:
 4. **Assign tags** — pick 1 main-tag + 1-3 sub-tags from `TAGS.md`. Propose new tag if needed (do NOT auto-add)
 5. **Write source note** → `wiki/sources/src_<slug>.md`
 6. **Write/update concept notes** → `wiki/concepts/<concept-slug>.md`
-7. **Update raw frontmatter** → `status: processed`, add `compiled_at: YYYY-MM-DD`, `compiled_to: src_<slug>`
+7. **Update raw frontmatter** → `status: processed`, add `compiled_at: YYYY-MM-DD`, `compiled_to: "[[src_<slug>]]"`
 8. **Log** to `.openclaw/MEMORY.md`
 
 ## Critical rules

@@ -1,37 +1,25 @@
-# HEARTBEAT — OpenClaw
+# OpenClaw Heartbeat
 
-> Automated health check log
-> Last check: 2026-05-28 10:00 Asia/Saigon
+**Last Check:** 2026-05-28 19:30 (Asia/Saigon)
 
----
+**Status:** ISSUE DETECTED
 
-## Status
+**Issues:**
+- [Priority 1] Pending review: Format Validator report (2026-05-28) — 80 ERRORs (wikilinks in frontmatter not quoted). Julius needs to approve fixes.
 
-**HEARTBEAT_OK**
-
----
-
-## Checks
-
-| Check | Result | Notes |
-|---|---|---|
-| Inbox (#agent/inbox) | ✅ Clean | No pending tasks |
-| Raw backlog | ✅ Clean | 0 files unprocessed |
-| Pending review | ⚠️ Notified | 1 pending: Format Validator (80 ERROR — wikilinks not quoted) |
+**Details:**
+- Inbox: Clean
+- Raw backlog: Clean
+- Concept check: Clean
+- Pending review: 1 pending report in `wiki/reviews/_action-required.md`
 
 ---
 
-## Notified
+## System Health Summary
 
-- Pending review: Format Validator — 2026-05-28 — 80 ERROR ([report](wiki/reviews/2026-05-28_format-report.md))
-
----
-
-## Next scheduled
-
-- Index update: 2026-05-28 21:00
-- Next heartbeat: 2026-05-28 10:30
-
----
-
-*Updated: 2026-05-28 10:00*
+| Component | Status |
+|-----------|--------|
+| Inbox (`Tasks/`) | ✅ Clean |
+| Raw backlog (`raw/`) | ✅ Clean — all files processed |
+| Concept backlinks | ✅ Clean |
+| Pending Hermes reviews | ⚠️ 1 pending (Format Validator) |

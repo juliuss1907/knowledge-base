@@ -61,7 +61,7 @@ Anthropic today announced Claude Code...
 ```yaml
 ---
 type: source
-original: [[2026-05-01_anthropic-claude-code]]
+original: "[[2026-05-01_anthropic-claude-code]]"
 main_tag: ai
 sub_tags: [tools, tutorial]
 topic: claude-code-intro
@@ -90,7 +90,7 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: claude-code-workflow
 sources:
-  - [[src_anthropic-claude-code]]
+  - "[[src_anthropic-claude-code]]"
 last_updated: 2026-05-09
 ---
 ```

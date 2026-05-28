@@ -369,7 +369,7 @@ Where `<slug>` is derived from raw filename (strip date prefix and `.md` extensi
 ```yaml
 ---
 type: source
-original: [[YYYY-MM-DD_<slug>]]
+original: "[[YYYY-MM-DD_<slug>]]"
 main_tag: <from-step-5.2>
 sub_tags: [<from-step-5.3>]
 topic: <from-step-5.4>
@@ -447,7 +447,7 @@ main_tag: <same-as-source-note>
 sub_tags: [<same-as-source-note>]
 topic: <same-as-source-note>
 sources:
-  - [[src_<slug>]]
+  - "[[src_<slug>]]"
 last_updated: <today-YYYY-MM-DD>
 ---
 ```
@@ -547,14 +547,14 @@ echo "[MERGE CONFLICT] wiki/concepts/<concept-slug>.md — see drafts/ for new v
 ```yaml
 status: processed
 compiled_at: YYYY-MM-DD
-compiled_to: [[src_<slug>]]
+compiled_to: "[[src_<slug>]]"
 ```
 
 **Edit operation:**
 ```bash
 sed -i 's/^status: unprocessed$/status: processed/' raw/<type>/<filename>
 sed -i '/^status: processed$/a compiled_at: $(date +%Y-%m-%d)' raw/<type>/<filename>
-sed -i "/^compiled_at:/a compiled_to: [[src_${slug}]]" <filename>
+sed -i "/^compiled_at:/a compiled_to: "[[src_${slug}]]"" <filename>
 ```
 
 **Verify:**

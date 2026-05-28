@@ -1,7 +1,7 @@
-# HEARTBEAT LOG
+# HEARTBEAT.md
 
-## 2026-05-29 01:00
-- [Priority 1] Pending review: 1 report (Format Validator — 2026-05-28) với 80 ERROR (wikilinks not quoted).
-- Raw backlog: 6 files unprocessed (tất cả < 24h).
-- Concept check: OK.
-- Inbox: OK.
+**Last Heartbeat:** 2026-05-29 02:00 (Asia/Saigon)
+**Status:** ISSUE_FOUND
+
+## Findings
+- [Priority 1] Pending review not notified: 1 Format Validator report (2026-05-28) with 80 ERRORs (wikilinks not quoted) in `wiki/reviews/_action-required.md`.

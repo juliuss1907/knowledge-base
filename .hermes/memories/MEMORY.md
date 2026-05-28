@@ -1,6 +1,6 @@
 KB gitignore: .hermes/auth/, .hermes/auth.json, .hermes/channel_directory.json, .hermes/state.db*, .hermes/logs/, .hermes/sessions/, .hermes/cron/, .obsidian/graph.json, .obsidian/workspace.json. Đã clean git history.
 §
-KB sync: máy chính (auto-commit 5min, auto-pull 30s, auto-push OFF) ↔ VPS (auto-push ON) ↔ GitHub. mergeStrategy="", syncMethod="merge". After force pushes: `git fetch && git reset --hard origin/master`. Paths: VPS=/home/julius/knowledge-base, máy chính=/home/julius/julius-workspace/knowledge-base. Micro editor backup MERGE_MSG.
+Scan raw/ compiled_to: grep -rn 'compiled_to.*\[\[\[' raw/ — finds quoted wikilinks. Patterns: `"[[...]]"` (quotes), `"[[wiki/sources/...]]"` (wrong path), `"[[src_....md]]"` (with .md extension). Use cat -A or xxd to detect hidden chars when terminal output looks clean but file seems wrong.
 §
 Cron workaround: dùng interval (24h) thay vì cron expression vì thiếu croniter package. First run tính từ lúc create.
 §

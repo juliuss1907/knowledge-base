@@ -2,7 +2,7 @@ KB gitignore: .hermes/auth/, .hermes/auth.json, .hermes/channel_directory.json, 
 §
 KB sync: máy chính (auto-commit 5min, auto-pull 30s, auto-push OFF) ↔ VPS (auto-push ON) ↔ GitHub. mergeStrategy="", syncMethod="merge". After force pushes: `git fetch && git reset --hard origin/master`. Paths: VPS=/home/julius/knowledge-base, máy chính=/home/julius/julius-workspace/knowledge-base. Micro editor backup MERGE_MSG.
 §
-On this VPS, Hermes cron `create` with cron expression (`0 15 * * *`) fails with "Cron expressions require 'croniter' package" even after installing croniter in venv. Workaround: use interval format like `24h` instead. First run is calculated from creation time, so create it at the desired start time.
+Cron workaround: dùng interval (24h) thay vì cron expression vì thiếu croniter package. First run tính từ lúc create.
 §
 Máy chính working dir: /home/julius/julius-workspace/knowledge-base (KHÁC với VPS: /home/julius/knowledge-base). Obsidian Git plugin trên máy chính auto-sync cạnh tranh lock với git CLI thủ công — cần tắt Obsidian hoặc plugin trước khi chạy git merge/push. Micro editor để lại backup MERGE_MSG ở ~/.config/micro/backups/ — mỗi merge sẽ prompt [r]ecover/[i]gnore/[a]bort, chọn 'i'.
 §
@@ -13,3 +13,5 @@ Connor (Hermes) QUY TẮC CỨNG: KHÔNG tự sửa file trong wiki/concepts/. C
 Empty `## Notes` section trong concept files là intentional — Julius đã thiết lập Compile Agent template như vậy. Output validator không nên flag empty Notes section.
 §
 SKILL.md vs format-spec conflict: Julius keeps SKILL.md as authority. Updated format-spec to match compile-agent (original field uses wikilink). Future: defer to SKILL.md.
+§
+Hygiene cleanup ownership: Kara chỉ fix KB content (wiki/, sources/, concepts/). Root-level items (memory/, RAW_BACKLOG.md, venv/) thuộc Julius — cần hỏi trước khi fix.

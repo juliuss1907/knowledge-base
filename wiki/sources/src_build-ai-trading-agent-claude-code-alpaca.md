@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-27_build-ai-trading-agent-claude-code-alpaca]]
+original: "[[2026-05-27_build-ai-trading-agent-claude-code-alpaca]]"
 main_tag: tech
 sub_tags: [tutorial, automation, tools]
 topic: ai-trading-agent-claude-code

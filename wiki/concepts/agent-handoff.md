@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [automation]
 topic: multi-agent-architecture
 sources:
-  - [[src_luke-alvoeiro-multi-agent-architecture-factory]]
+  - "[[src_luke-alvoeiro-multi-agent-architecture-factory]]"
 last_updated: 2026-05-28
 ---
 

@@ -5,7 +5,7 @@ main_tag: system
 sub_tags: [research]
 topic: post-systems-thinking
 sources:
-  - [[src_what-comes-after-systems-thinking]]
+  - "[[src_what-comes-after-systems-thinking]]"
 last_updated: 2026-05-14
 ---
 

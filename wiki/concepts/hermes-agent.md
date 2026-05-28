@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation, vibecode]
 topic: hermes-polymarket-trading-agent
 sources:
-  - [[src_hermes-polymarket-btc-trading-agent]]
+  - "[[src_hermes-polymarket-btc-trading-agent]]"
 last_updated: 2026-05-21
 ---
 

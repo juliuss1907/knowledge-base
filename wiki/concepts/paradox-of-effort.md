@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [tutorial, opinion]
 topic: simplicity-psychology
 sources:
-  - [[src_why-we-complicate-life-productive-peter]]
+  - "[[src_why-we-complicate-life-productive-peter]]"
 last_updated: 2026-05-27
 ---
 

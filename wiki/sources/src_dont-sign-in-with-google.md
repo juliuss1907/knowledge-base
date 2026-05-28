@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-19_dont-sign-in-with-google]]
+original: "[[2026-05-19_dont-sign-in-with-google]]"
 main_tag: tech
 sub_tags: [hack, tools, opinion]
 topic: sso-security-risks

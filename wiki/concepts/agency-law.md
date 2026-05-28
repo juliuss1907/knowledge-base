@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [law]
 topic: ai-legal-personhood
 sources:
-  - [[src_aaron-wright-ai-agents-legal-body]]
+  - "[[src_aaron-wright-ai-agents-legal-body]]"
 last_updated: 2026-05-19
 ---
 

@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [tools, news]
 topic: generative-ai-seo
 sources:
-  - [[src_google-guide-optimizing-generative-ai-search]]
+  - "[[src_google-guide-optimizing-generative-ai-search]]"
 last_updated: 2026-05-19
 ---
 

@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-27_uae-opec-exit-end-of-era]]
+original: "[[2026-05-27_uae-opec-exit-end-of-era]]"
 main_tag: economic
 sub_tags: [research, opinion, politic]
 topic: uae-opec-exit-geopolitics

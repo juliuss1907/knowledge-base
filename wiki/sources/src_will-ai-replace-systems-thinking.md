@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-25_will-ai-replace-systems-thinking]]
+original: "[[2026-05-25_will-ai-replace-systems-thinking]]"
 main_tag: ai
 sub_tags: [opinion, research]
 topic: ai-systems-thinking-augmentation

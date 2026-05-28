@@ -5,7 +5,7 @@ main_tag: crypto
 sub_tags: [defi, tools]
 topic: hermes-polymarket-trading-agent
 sources:
-  - [[src_hermes-polymarket-btc-trading-agent]]
+  - "[[src_hermes-polymarket-btc-trading-agent]]"
 last_updated: 2026-05-21
 ---
 

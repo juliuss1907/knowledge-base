@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools]
 topic: agent-memory-systems
 sources:
-  - [[src_agent-memory-anatomy]]
+  - "[[src_agent-memory-anatomy]]"
 last_updated: 2026-05-27
 ---
 

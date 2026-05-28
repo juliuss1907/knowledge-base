@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-20_the-smart-ape-11-minutes-hack-github]]
+original: "[[2026-05-20_the-smart-ape-11-minutes-hack-github]]"
 main_tag: tech
 sub_tags: [hack, tools, news]
 topic: github-supply-chain-attack-vs-code

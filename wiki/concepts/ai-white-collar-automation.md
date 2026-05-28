@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [research, opinion]
 topic: ai-economic-disruption-white-collar
 sources:
-  - [[src_ai-will-destroy-world-economy]]
+  - "[[src_ai-will-destroy-world-economy]]"
 last_updated: 2026-05-21
 ---
 

@@ -5,8 +5,8 @@ main_tag: ai
 sub_tags: [tools, tutorial]
 topic: hermes-workflow-optimization
 sources:
-  - [[src_hermes-analyst-workflow-essentials]]
-  - [[src_3-things-learnt-3-weeks-hermes-analyst]]
+  - "[[src_hermes-analyst-workflow-essentials]]"
+  - "[[src_3-things-learnt-3-weeks-hermes-analyst]]"
 last_updated: 2026-05-19
 ---
 

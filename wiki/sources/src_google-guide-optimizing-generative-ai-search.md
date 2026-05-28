@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-18_google-guide-optimizing-generative-ai-search]]
+original: "[[2026-05-18_google-guide-optimizing-generative-ai-search]]"
 main_tag: tech
 sub_tags: [tools, tutorial]
 topic: generative-ai-seo

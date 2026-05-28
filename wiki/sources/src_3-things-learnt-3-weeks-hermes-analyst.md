@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-18_3-things-learnt-3-weeks-hermes-analyst]]
+original: "[[2026-05-18_3-things-learnt-3-weeks-hermes-analyst]]"
 main_tag: ai
 sub_tags: [tools, automation, opinion]
 topic: hermes-personal-analyst-setup

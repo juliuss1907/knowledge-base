@@ -4,17 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-28 08:40 — All 2026-05-28 fixes applied, system clean
+**Last updated:** 2026-05-28 09:47 — Format Validator scan complete
 
 ---
 
 ## Summary
 
-**Pending reports:** 0
+**Pending reports:** 1
 
 **Status:**
-- ✅ Output Validator — 2026-05-28: approved (12 ERROR + 8 WARNING)
-- ✅ Format Validator — 2026-05-28: approved (22 ERROR + 2 WARNING)
+- ⏳ Format Validator — 2026-05-28: PENDING (80 ERROR — wikilinks not quoted)
 - ✅ Hygiene Inspector — 2026-05-28: approved (memory/ merged, RAW_BACKLOG.md deleted, venv kept)
 - ✅ Output Validator — 2026-05-26: approved (2 ERROR + 4 WARNING → Kara fix)
 - ✅ Format Validator — 2026-05-26: approved (4 new files — source_type/source_url → original, section names, tags)
@@ -50,7 +49,10 @@
 
 ## Critical Issues (Fix Immediately)
 
-*None — all 2026-05-28 fixes applied*
+**80 ERRORs found — Wikilinks in frontmatter fields not quoted (format-spec v2.2 violation)**
+- 29 source files: `original:` field needs quotes
+- 51 concept files: `sources:` array items need quotes
+- See: `wiki/reviews/2026-05-28_format-report.md`
 
 ---
 

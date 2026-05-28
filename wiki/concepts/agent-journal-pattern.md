@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [automation, tools]
 topic: ai-trading-agent-claude-code
 sources:
-  - [[src_build-ai-trading-agent-claude-code-alpaca]]
+  - "[[src_build-ai-trading-agent-claude-code-alpaca]]"
 last_updated: 2026-05-28
 ---
 

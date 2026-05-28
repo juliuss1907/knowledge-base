@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [opinion, tools]
 topic: ai-business-criticism
 sources:
-  - [[src_the-revenge-of-the-business-idiot]]
+  - "[[src_the-revenge-of-the-business-idiot]]"
 last_updated: 2026-05-27
 ---
 

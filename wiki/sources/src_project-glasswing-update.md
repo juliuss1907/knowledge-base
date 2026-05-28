@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-23_project-glasswing-anthropic-initial-update]]
+original: "[[2026-05-23_project-glasswing-anthropic-initial-update]]"
 main_tag: ai
 sub_tags: [hack, research]
 topic: ai-security-vulnerability-research

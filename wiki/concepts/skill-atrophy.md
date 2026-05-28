@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [opinion, tools]
 topic: ai-productivity
 sources:
-  - [[src_how-ai-productivity-fails]]
+  - "[[src_how-ai-productivity-fails]]"
 last_updated: 2026-05-15
 ---
 

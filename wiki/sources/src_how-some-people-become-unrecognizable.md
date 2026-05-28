@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-14_how-some-people-become-unrecognizable]]
+original: "[[2026-05-14_how-some-people-become-unrecognizable]]"
 main_tag: productivity
 sub_tags: [opinion, tools]
 topic: compounding-growth

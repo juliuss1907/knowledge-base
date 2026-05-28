@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [hack, tools]
 topic: github-supply-chain-attack-vs-code
 sources:
-  - [[src_11-minutes-hack-github]]
+  - "[[src_11-minutes-hack-github]]"
 last_updated: 2026-05-21
 ---
 

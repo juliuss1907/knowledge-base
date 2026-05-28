@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [research, tools]
 topic: llm-memory-consolidation
 sources:
-  - [[src_llm-need-sleep-consolidation]]
+  - "[[src_llm-need-sleep-consolidation]]"
 last_updated: 2026-05-28
 ---
 

@@ -5,7 +5,7 @@ main_tag: politic
 sub_tags: [research, economic]
 topic: uae-opec-exit-geopolitics
 sources:
-  - [[src_uae-opec-exit-end-of-era]]
+  - "[[src_uae-opec-exit-end-of-era]]"
 last_updated: 2026-05-28
 ---
 

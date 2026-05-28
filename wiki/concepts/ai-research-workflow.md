@@ -5,8 +5,8 @@ main_tag: ai
 sub_tags: [automation, tools, opinion]
 topic: hermes-xai-grok-integration
 sources:
-  - [[src_hermes-as-a-real-time-analyst]]
-  - [[src_1-month-with-hermes-ive-been-using-wrong]]
+  - "[[src_hermes-as-a-real-time-analyst]]"
+  - "[[src_1-month-with-hermes-ive-been-using-wrong]]"
 last_updated: 2026-05-19
 ---
 

@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-23_optimize-content-generative-ai-search-sagepath]]
+original: "[[2026-05-23_optimize-content-generative-ai-search-sagepath]]"
 main_tag: ai
 sub_tags: [research, tools]
 topic: generative-ai-search-optimization

@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-27_the-revenge-of-the-business-idiot]]
+original: "[[2026-05-27_the-revenge-of-the-business-idiot]]"
 main_tag: ai
 sub_tags: [opinion, economic]
 topic: ai-business-criticism

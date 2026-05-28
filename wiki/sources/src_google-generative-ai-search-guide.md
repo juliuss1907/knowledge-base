@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-23_google-publishes-generative-ai-search-guide-semrush]]
+original: "[[2026-05-23_google-publishes-generative-ai-search-guide-semrush]]"
 main_tag: ai
 sub_tags: [tools, research]
 topic: google-ai-search-optimization

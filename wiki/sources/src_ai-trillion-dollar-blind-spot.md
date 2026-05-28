@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website]]
+original: "[[2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website]]"
 main_tag: ai
 sub_tags: [tools]
 topic: ai-landing-page-discovery

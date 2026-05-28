@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools]
 topic: ai-landing-page-discovery
 sources:
-  - [[src_ai-trillion-dollar-blind-spot]]
+  - "[[src_ai-trillion-dollar-blind-spot]]"
 last_updated: 2026-05-26
 ---
 

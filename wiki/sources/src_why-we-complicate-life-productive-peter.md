@@ -1,6 +1,6 @@
 ---
 type: source
-original: [[2026-05-26_why-we-complicate-life-productive-peter]]
+original: "[[2026-05-26_why-we-complicate-life-productive-peter]]"
 main_tag: productivity
 sub_tags: [tutorial, opinion]
 topic: simplicity-psychology

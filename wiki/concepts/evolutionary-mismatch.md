@@ -7,7 +7,7 @@ sub_tags:
   - opinion
 topic: evolutionary-mismatch-modern-life
 sources:
-  - [[src_were-not-supposed-to-live-like-this]]
+  - "[[src_were-not-supposed-to-live-like-this]]"
 last_updated: 2026-05-21
 ---
 

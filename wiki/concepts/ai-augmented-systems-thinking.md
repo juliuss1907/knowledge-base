@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [opinion, research]
 topic: ai-systems-thinking-augmentation
 sources:
-  - [[src_will-ai-replace-systems-thinking]]
+  - "[[src_will-ai-replace-systems-thinking]]"
 last_updated: 2026-05-26
 ---
 

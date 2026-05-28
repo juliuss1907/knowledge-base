@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, research]
 topic: google-ai-mode
 sources:
-  - [[src_google-generative-ai-search-guide]]
+  - "[[src_google-generative-ai-search-guide]]"
 last_updated: 2026-05-24
 ---
 

@@ -12,6 +12,6 @@ Connor (Hermes) QUY TẮC CỨNG: KHÔNG tự sửa file trong wiki/concepts/. C
 §
 Empty `## Notes` section trong concept files là intentional — Julius đã thiết lập Compile Agent template như vậy. Output validator không nên flag empty Notes section.
 §
-SKILL.md vs format-spec conflict: Julius keeps SKILL.md as authority. Updated format-spec to match compile-agent (original field uses wikilink). Future: defer to SKILL.md.
+Obsidian display quirk: frontmatter fields (original, sources, compiled_to) cần format `"[[wikilink]]"` (quotes) để Obsidian hiển thị đúng. Wikilinks trong body content dùng bare format `[[wikilink]]`. Đây là lý do format-spec và compile-agent cần quoted format.
 §
 Hygiene cleanup ownership: Kara chỉ fix KB content (wiki/, sources/, concepts/). Root-level items (memory/, RAW_BACKLOG.md, venv/) thuộc Julius — cần hỏi trước khi fix.

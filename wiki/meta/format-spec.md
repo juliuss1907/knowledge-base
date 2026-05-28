@@ -59,17 +59,17 @@ wiki/concepts/<concept-slug>.md
 ```yaml
 ---
 type: concept
-status: draft | reviewed | needs-revision
-main_tag: <one-from-pool-a>
-sub_tags: [<one-to-three-from-pool-b>]
-topic: <lowercase-hyphen-slug>
+status: draft
+main_tag: <pool-a>
+sub_tags: [<pool-b>, ...]
+topic: <slug>
 sources: <wikilink-or-array>
   # Single source (string):
-  sources: [[src_<slug>]]
+  sources: "[[src_<slug>]]"
   # Multiple sources (array):
   sources:
-    - [[src_slug1]]
-    - [[src_slug2]]
+    - "[[src_<slug-1>]]"
+    - "[[src_<slug-2>]]"
 last_updated: YYYY-MM-DD
 ---
 ```
@@ -174,7 +174,7 @@ wiki/sources/src_<slug>.md
 ```yaml
 ---
 type: source
-original: [[YYYY-MM-DD_<slug>]]
+original: "[[YYYY-MM-DD_<slug>]]"
 main_tag: <one-from-pool-a>
 sub_tags: [<one-to-three-from-pool-b>]
 topic: <lowercase-hyphen-slug>
@@ -443,7 +443,7 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: claude-code-workflow
 sources:
-  - [[src_anthropic-claude-code]]
+  - "[[src_anthropic-claude-code]]"
 last_updated: 2026-05-09
 ---
 
@@ -469,15 +469,17 @@ Claude Code is an AI-assisted development workflow where Claude autonomously imp
 
 ## Sources
 
-- [[src_anthropic-claude-code]]
+- "[[src_anthropic-claude-code]]"
 ```
+
+**Note:** Wikilinks in frontmatter fields (`original`, `sources`) use quoted format `"[[...]]"` for Obsidian compatibility. Wikilinks in body content use bare format `[[...]]`.
 
 ### Example source file (valid)
 
 ```markdown
 ---
 type: source
-original: 2026-05-01_anthropic-claude-code.md
+original: "[[2026-05-01_anthropic-claude-code]]"
 main_tag: ai
 sub_tags: [tools, tutorial]
 topic: claude-code-intro

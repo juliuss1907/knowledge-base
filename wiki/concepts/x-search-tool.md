@@ -34,7 +34,6 @@ Tool của Hermes cho phép search X (Twitter) natively như SuperGrok, tích h�
 - [[src_hermes-as-a-real-time-analyst]]
 
 ## Setup
-
 ```yaml
 x_search:
   timeout_seconds: 240 # hoặc 300 để tránh timeout

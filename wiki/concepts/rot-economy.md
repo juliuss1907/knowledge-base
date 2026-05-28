@@ -5,7 +5,7 @@ main_tag: economic
 sub_tags: [opinion, news]
 topic: ai-business-criticism
 sources:
-  - [[src_the-revenge-of-the-business-idiot]]
+  - "[[src_the-revenge-of-the-business-idiot]]"
 last_updated: 2026-05-27
 ---
 

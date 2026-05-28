@@ -5,7 +5,7 @@ main_tag: crypto
 sub_tags: [tools, defi]
 topic: hermes-operator-builder-pattern
 sources:
-  - [[src_1-month-with-hermes-ive-been-using-wrong]]
+  - "[[src_1-month-with-hermes-ive-been-using-wrong]]"
 last_updated: 2026-05-19
 ---
 

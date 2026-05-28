@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation, opinion]
 topic: hermes-operator-builder-pattern
 sources:
-  - [[src_1-month-with-hermes-ive-been-using-wrong]]
+  - "[[src_1-month-with-hermes-ive-been-using-wrong]]"
 last_updated: 2026-05-19
 ---
 

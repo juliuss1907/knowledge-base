@@ -6,7 +6,7 @@ sub_tags:
   - research
 topic: factory-missions-architecture
 sources:
-  - [[src_luke-alvoeiro-multi-agent-architecture-factory]]
+  - "[[src_luke-alvoeiro-multi-agent-architecture-factory]]"
 last_updated: 2026-05-23
 ---
 

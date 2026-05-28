@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, research]
 topic: generative-ai-seo
 sources:
-  - [[src_what-comes-after-systems-thinking]]
+  - "[[src_what-comes-after-systems-thinking]]"
 last_updated: 2026-05-27
 ---
 

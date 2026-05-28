@@ -5,8 +5,8 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: hermes-workflow-optimization
 sources:
-  - [[src_hermes-analyst-workflow-essentials]]
-  - [[src_hermes-200-30-skills-3-worth-it]]
+  - "[[src_hermes-analyst-workflow-essentials]]"
+  - "[[src_hermes-200-30-skills-3-worth-it]]"
 last_updated: 2026-05-19
 ---
 

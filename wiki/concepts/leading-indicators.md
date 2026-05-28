@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [tools]
 topic: compounding-growth
 sources:
-  - [[src_how-some-people-become-unrecognizable]]
+  - "[[src_how-some-people-become-unrecognizable]]"
 last_updated: 2026-05-15
 ---
 

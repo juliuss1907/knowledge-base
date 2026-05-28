@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [hack, tools]
 topic: sso-security-risks
 sources:
-  - [[src_dont-sign-in-with-google]]
+  - "[[src_dont-sign-in-with-google]]"
 last_updated: 2026-05-20
 ---
 

@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation, news]
 topic: hermes-xai-grok-integration
 sources:
-  - [[src_hermes-as-a-real-time-analyst]]
+  - "[[src_hermes-as-a-real-time-analyst]]"
 last_updated: 2026-05-19
 ---
 

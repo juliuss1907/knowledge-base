@@ -7,7 +7,7 @@ sub_tags:
   - coding
 topic: code-as-agent-harness
 sources:
-  - [[src_code-as-agent-harness-arxiv-2605-18747]]
+  - "[[src_code-as-agent-harness-arxiv-2605-18747]]"
 last_updated: 2026-05-23
 ---
 

@@ -5,8 +5,8 @@ main_tag: ai
 sub_tags: [research, tools]
 topic: geo-strategy
 sources:
-  - [[src_google-generative-ai-search-guide]]
-  - [[src_generative-ai-search-optimization]]
+  - "[[src_google-generative-ai-search-guide]]"
+  - "[[src_generative-ai-search-optimization]]"
 last_updated: 2026-05-24
 ---
 

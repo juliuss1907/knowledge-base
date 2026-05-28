@@ -1,6 +1,6 @@
 # Heartbeat Log
 
-**Last check:** 2026-05-29 04:30 (Asia/Saigon)
+**Last check:** 2026-05-29 05:00 (Asia/Saigon)
 **Status:** ISSUE_FOUND
 
 ## Issues
@@ -9,4 +9,4 @@
 
 ## Checks
 - Inbox: OK
-- Concept backlinks: OK (nice-syndrome, rag-retrieval-augmented-generation)
+- Concept backlinks: OK (agent-handoff, query-fan-out)

@@ -30,6 +30,8 @@ Human Judgment AI là khả năng con người duy trì vai trò quyết định
 
 ## Sources
 
+- [[src_will-ai-replace-systems-thinking]]
+
 ## Backlinks
 
 - [[ai-augmented-systems-thinking]]

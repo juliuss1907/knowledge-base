@@ -30,6 +30,8 @@ AI Productivity là việc sử dụng AI để tăng cường năng suất cá 
 
 ## Sources
 
+- [[src_how-ai-productivity-fails]]
+
 ## Backlinks
 
 - [[ai-augmented-systems-thinking]]

@@ -30,6 +30,8 @@ Generative AI SEO là việc tối ưu hóa nội dung và chiến lược SEO c
 
 ## Sources
 
+- [[src_what-comes-after-systems-thinking]]
+
 ## Backlinks
 
 - [[static-website-blind-spot]]

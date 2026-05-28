@@ -48,8 +48,6 @@ Research paper proposing "LLM Sleep" — a mechanism inspired by biological memo
 
 > "The novel contribution of this paper is the application of recurrence to the memory consolidation phase, rather than solely to the prediction phase."
 
-> "The spare capacity that Saudi Arabia and the UAE held was the enforcement mechanism. It was the threat that made the kink real — if anyone defected from the agreed price, the Saudis could flood the market and destroy the price-cutter's revenue."
-
 > "The concept of 'sleep' in LLMs is directly inspired by biological processes, specifically how animals consolidate short-term hippocampal memories into long-term cortical synaptic weights during sleep through hippocampal replay."
 
 > "For 6-operation problems, 6 loops improved accuracy from 0.742 to 0.812. For 8-operation problems, it improved from 0.351 to 0.388."

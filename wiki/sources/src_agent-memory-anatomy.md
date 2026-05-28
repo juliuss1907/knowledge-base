@@ -1,10 +1,8 @@
 ---
 type: source
-original: "[[2026-05-27_agent-memory-anatomy]]"
+original: [[2026-05-27_agent-memory-anatomy]]
 main_tag: ai
-sub_tags:
-  - research
-  - tools
+sub_tags: [research, tools]
 topic: agent-memory-systems
 date_compiled: 2026-05-27
 url: https://brgsk.xyz/agent-memory-anatomy/

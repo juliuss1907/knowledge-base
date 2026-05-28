@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "compiled_to": "text",
-    "sources": "text"
+    "sources": "text",
+    "original": "text"
   }
 }

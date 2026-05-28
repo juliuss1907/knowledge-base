@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026_05_27_agent-memory-anatomy]]"
+original: "[[2026-05-27_agent-memory-anatomy]]"
 main_tag: ai
 sub_tags:
   - research

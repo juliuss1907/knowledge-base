@@ -7,13 +7,12 @@
 
 ## Last Check
 **Time:** 2026-05-28 08:30 (Asia/Saigon)
-**Status:** `HEARTBEAT_OK`
+**Status:** `ISSUE_DETECTED`
 
 ## Detail
-- **Inbox:** No pending items.
-- **Raw Backlog:** 0 files unprocessed.
-- **Concept Check:** Verified `productivity-wage-gap.md` and `coordinated-vulnerability-disclosure.md` — both have proper sources backlinks (false positive in previous check).
-- **Pending Review:** `wiki/reviews/_action-required.md` is clean — 0 pending reports.
+- [Priority 1] Pending review: 3 reports từ 2026-05-28 (Output, Format, Hygiene) đang chờ xử lý.
+- [Priority 2] Hygiene: Phát hiện folder `memory/` và file `RAW_BACKLOG.md` tại root.
+- [Priority 3] Raw backlog & Inbox: Sạch.
 
 ---
 *Last updated by: Kara (OpenClaw)*

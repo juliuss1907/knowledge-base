@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body.md
+original: [[2026-05-17_aaron-wright-ai-agents-legal-body]]
 main_tag: ai
 sub_tags: [law, tools]
 topic: ai-legal-personhood

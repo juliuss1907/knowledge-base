@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/articles/2026-05-12_active-vs-lazy-thinking.md
+original: [[2026-05-12_active-vs-lazy-thinking]]
 main_tag: productivity
 sub_tags: [opinion]
 topic: active-thinking-methodology

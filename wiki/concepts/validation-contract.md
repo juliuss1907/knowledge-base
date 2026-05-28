@@ -2,8 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags:
-  - automation
+sub_tags: [automation]
 topic: factory-missions-architecture
 sources:
   - [[src_luke-alvoeiro-multi-agent-architecture-factory]]

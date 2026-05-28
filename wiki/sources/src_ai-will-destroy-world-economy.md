@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/posts/2026-05-20_the-smart-ape-ai-destroy-world-economy.md
+original: [[2026-05-20_the-smart-ape-ai-destroy-world-economy]]
 main_tag: ai
 sub_tags: [news, opinion]
 topic: ai-economic-disruption-white-collar

@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/articles/2026-05-14_how-ai-productivity-fails.md
+original: [[2026-05-14_how-ai-productivity-fails]]
 main_tag: ai
 sub_tags: [tools, automation, opinion]
 topic: ai-productivity

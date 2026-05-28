@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/articles/2026-05-18_hermes-200-30-skills-3-worth-it.md
+original: [[2026-05-18_hermes-200-30-skills-3-worth-it]]
 main_tag: ai
 sub_tags: [tools, automation, opinion]
 topic: hermes-top-skills-analysis

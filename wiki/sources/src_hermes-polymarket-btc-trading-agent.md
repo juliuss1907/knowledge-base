@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/posts/2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent.md
+original: [[2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent]]
 main_tag: crypto
 sub_tags: [automation, tools, tutorial]
 topic: hermes-polymarket-trading-agent

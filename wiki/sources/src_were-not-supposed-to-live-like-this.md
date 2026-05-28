@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/articles/2026-05-20_juliachristina-were-not-supposed-to-live-like-this.md
+original: [[2026-05-20_juliachristina-were-not-supposed-to-live-like-this]]
 main_tag: productivity
 sub_tags: [opinion, research]
 topic: evolutionary-mismatch-modern-life

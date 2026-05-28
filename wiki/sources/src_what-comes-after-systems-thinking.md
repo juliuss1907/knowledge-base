@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/articles/2026-04-02_what-comes-after-systems-thinking.md
+original: [[2026-04-02_what-comes-after-systems-thinking]]
 main_tag: system
 sub_tags: [research]
 topic: post-systems-thinking

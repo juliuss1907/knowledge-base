@@ -1,6 +1,6 @@
 ---
 type: source
-original: raw/articles/2026-05-18_hermes-as-a-real-time-analyst.md
+original: [[2026-05-18_hermes-as-a-real-time-analyst]]
 main_tag: ai
 sub_tags: [tools, automation, tutorial]
 topic: hermes-xai-grok-integration

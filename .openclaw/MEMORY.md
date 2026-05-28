@@ -27,3 +27,12 @@ Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử l�
 **Recommendation:** Julius chạy `rm -rf` hoặc di chuyển các thư mục/file trên theo preference.
 
 **Status:** Output fixes complete ✅ | Hygiene issues escalated ⏳
+
+## 2026-05-28 21:02:17 — Indexed
+
+- **Scanned:** 165 total files
+- **Tags indexed:** 18
+- **Topics indexed:** 39
+- **Orphans deleted:** 0 tag indexes + 1 topic indexes
+- **Invalid tags found:** 8
+- **Invalid details:** wiki/sources/src_uae-opec-exit-end-of-era.md: sub_tag=politic, wiki/sources/src_the-revenge-of-the-business-idiot.md: sub_tag=economic, wiki/concepts/uae-saudi-rivalry.md: sub_tag=economic, wiki/concepts/petrodollar-system.md: sub_tag=politic, wiki/concepts/spare-production-capacity.md: sub_tag=politic

@@ -2,19 +2,18 @@
 
 Auto-generated index of all content with topic `active-thinking-methodology`.
 
-Last updated: 2026-05-26 21:02:49
+Last updated: 2026-05-28 21:02:17
 
 ---
 
-## Concepts (7)
+## Concepts (6)
 
-- [[abstraction-layer-fallacy]] — main: #productivity, sub: [#opinion]
-- [[active-thinking]] — main: #productivity, sub: [#opinion]
 - [[information-compression]] — main: #productivity, sub: [#opinion]
-- [[lazy-thinking]] — main: #productivity, sub: [#opinion]
-- [[nice-syndrome]] — main: #productivity, sub: [#opinion]
 - [[organizational-incrementalism]] — main: #productivity, sub: [#opinion]
+- [[nice-syndrome]] — main: #productivity, sub: [#opinion]
 - [[philosopher-syndrome]] — main: #productivity, sub: [#opinion]
+- [[lazy-thinking]] — main: #productivity, sub: [#opinion]
+- [[abstraction-layer-fallacy]] — main: #productivity, sub: [#opinion]
 
 ## Sources (1)
 

@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `generative-ai-search-optimization`.
 
-Last updated: 2026-05-26 21:02:49
+Last updated: 2026-05-28 21:02:17
 
 ---
 

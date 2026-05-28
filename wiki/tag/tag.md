@@ -20,12 +20,8 @@ Master index of all tags used across the wiki. Each entry links to a tag file li
 
 ## Stats
 
-- Total tags: 17
-- Main tags: 6
-- Sub tags: 11
-- Most used: #tools (78), #ai (70), #automation (38)
-- Last updated: 2026-05-26
-
+- Total tags: 18
+- Last updated: 2026-05-28
 
 ## Items
 

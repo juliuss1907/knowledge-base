@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-05-26
+last_updated: 2026-05-28
 ---
 
 # Tag: #tools
@@ -16,25 +16,32 @@ last_updated: 2026-05-26
 
 ## Stats
 
-- Total files: 78
-- Sources: 17
-- Concepts: 61
-- Last updated: 2026-05-26
+- Total files: 95
+- Sources: 20
+- Concepts: 75
+- Last updated: 2026-05-28
 
 ## Files with this tag
 
+- [[agent-journal-pattern]] — Agent Journal Pattern (concept)
+- [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
 - [[agentic-commerce]] — Agentic Commerce (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
+- [[ai-impression-of-work]] — Ai Impression Of Work (concept)
 - [[ai-legal-personhood]] — Ai Legal Personhood (concept)
 - [[ai-overviews]] — Ai Overviews (concept)
 - [[ai-powered-discovery]] — Ai Powered Discovery (concept)
 - [[ai-productivity]] — Ai Productivity (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
+- [[ai-trading-agent]] — Ai Trading Agent (concept)
+- [[alpaca-api]] — Alpaca Api (concept)
 - [[atomic-mac-agent]] — Atomic Mac Agent (concept)
+- [[autobiographical-memory-systems]] — Autobiographical Memory Systems (concept)
 - [[browser-harness-tool]] — Browser Harness Tool (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
+- [[claude-code-routines]] — Claude Code Routines (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
 - [[codified-taste]] — Codified Taste (concept)
 - [[consent-phishing]] — Consent Phishing (concept)
@@ -44,6 +51,7 @@ last_updated: 2026-05-26
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[factory-missions]] — Factory Missions (concept)
+- [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
 - [[generative-ai-seo]] — Generative Ai Seo (concept)
 - [[generative-search-results]] — Generative Search Results (concept)
@@ -59,7 +67,12 @@ last_updated: 2026-05-26
 - [[hindsight-skill]] — Hindsight Skill (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[leading-indicators]] — Leading Indicators (concept)
+- [[llm-sleep]] — Llm Sleep (concept)
+- [[memory-extraction-timing]] — Memory Extraction Timing (concept)
+- [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
 - [[oauth-security-risks]] — Oauth Security Risks (concept)
+- [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
+- [[paper-trading]] — Paper Trading (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
 - [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
 - [[polymarket]] — Polymarket (concept)
@@ -76,7 +89,9 @@ last_updated: 2026-05-26
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
+- [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source)
 - [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
+- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
@@ -88,8 +103,10 @@ last_updated: 2026-05-26
 - [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
+- [[state-space-models-ssm]] — State Space Models Ssm (concept)
 - [[static-website-blind-spot]] — Static Website Blind Spot (concept)
 - [[supply-chain-attack]] — Supply Chain Attack (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
@@ -104,8 +121,8 @@ last_updated: 2026-05-26
 
 ## Co-occurring tags
 
-- [[ai]] — 53 co-occurrences
-- [[automation]] — 35 co-occurrences
-- [[tech]] — 15 co-occurrences
-- [[tutorial]] — 14 co-occurrences
-- [[opinion]] — 11 co-occurrences
+- [[ai]] — 66 co-occurrences
+- [[automation]] — 42 co-occurrences
+- [[research]] — 18 co-occurrences
+- [[tech]] — 17 co-occurrences
+- [[tutorial]] — 16 co-occurrences

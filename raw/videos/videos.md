@@ -5,14 +5,14 @@ scope: videos
 parent: [[raw]]
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-05-17
+last_updated: 2026-05-28
 ---
 
 # Posts Index
 
 ## Overview
 
-Short-form social media posts, threads, and micro-content.
+Video content from YouTube and other platforms.
 
 ## Parent
 
@@ -20,14 +20,15 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 0 files
-- By status: 0 processed, 0 unprocessed
-- By date: 0 this week, 0 this month
-- Last updated: 2026-05-17
+- Total: 2 files
+- By status: 2 processed, 0 unprocessed
+- By date: 2 this week, 2 this month
+- Last updated: 2026-05-28
 
 ## Items
 
-<!-- Ingest Agent appends here, newest first -->
+- [[2026-05-26_why-we-complicate-life-productive-peter]] — Why we complicate life (processed)
+- [[2026-05-22_luke-alvoeiro-multi-agent-architecture-factory]] — Building a Multi-Agent Architecture System with a Factory Pattern (processed)
 
 ## Notes
 

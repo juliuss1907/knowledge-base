@@ -6,7 +6,7 @@ date_ingested: 2026-05-27
 tags: [economic, research, opinion]
 status: processed
 compiled_at: 2026-05-28
-compiled_to: [[src_uae-opec-exit-end-of-era]]
+compiled_to: "[[src_uae-opec-exit-end-of-era]]"
 ---
 
 # The End of an Era: What the UAE's OPEC Exit Means for the World

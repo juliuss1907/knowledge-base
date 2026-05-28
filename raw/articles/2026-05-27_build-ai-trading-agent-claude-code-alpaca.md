@@ -6,7 +6,7 @@ date_ingested: 2026-05-27
 tags: [ai, agents, tools, economic]
 status: processed
 compiled_at: 2026-05-28
-compiled_to: [[src_build-ai-trading-agent-claude-code-alpaca]]
+compiled_to: "[[src_build-ai-trading-agent-claude-code-alpaca]]"
 ---
 
 # How to Build a 24/7 AI Trading Agent with Claude Code and Alpaca

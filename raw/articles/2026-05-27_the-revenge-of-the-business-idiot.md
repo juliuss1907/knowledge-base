@@ -6,7 +6,7 @@ date_ingested: 2026-05-27
 tags: [ai, opinion]
 status: processed
 compiled_at: 2026-05-27
-compiled_to: [[src_the-revenge-of-the-business-idiot]]
+compiled_to: "[[src_the-revenge-of-the-business-idiot]]"
 ---
 
 # The Revenge of The Business Idiot

@@ -2,8 +2,9 @@
 
 **Validator:** Hermes Format Validator  
 **Ground truth:** `wiki/meta/format-spec.md` v2.0 (2026-05-09)  
-**Scope:** `wiki/concepts/*.md` (50 files) + `wiki/sources/*.md` (30 files)  
-**Severity:** ERROR = blocks compilation | WARNING = should fix | INFO = suggestion  
+**Scope:** `wiki/concepts/*.md` (50 files) + `wiki/sources/*.md` (30 files)  \
+**Severity:** ERROR = blocks compilation | WARNING = should fix | INFO = suggestion  \
+**Status:** APPROVED 2026-05-28
 
 ---
 

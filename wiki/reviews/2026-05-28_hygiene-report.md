@@ -2,7 +2,8 @@
 
 > Hygiene Inspector run: 2026-05-28 08:21 AM
 > Ground truth: `wiki/meta/folder-structure.md` v1.2 (2026-05-17)
-> KB path: `/home/julius/knowledge-base/`
+|> KB path: `/home/julius/knowledge-base/`
+**Status:** APPROVED 2026-05-28
 
 ---
 

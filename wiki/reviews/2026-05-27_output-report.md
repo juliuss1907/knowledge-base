@@ -4,6 +4,7 @@
 **Ground truth:** `wiki/meta/format-spec.md` (v2.0, 2026-05-09)  
 **Scope:** 30 source files (`wiki/sources/*.md`), 50 concept files (`wiki/concepts/*.md`)  
 **Date:** 2026-05-28
+**Status:** APPROVED 2026-05-28
 
 ---
 

@@ -210,3 +210,17 @@
   - 1 ERROR: Missing 'Related concepts' section (static-website-blind-spot)
   - 1 ERROR: Code block missing language tag (x-search-tool)
 - **Assessment:** 5 stub concepts share a systematic pattern — incomplete format. Compile Agent should ensure minimum format compliance (valid status, required sections, non-empty sources) even for draft concepts.
+
+## 2026-05-28 08:26 — Output validation
+- Files checked: 149 (30 sources + 119 concepts)
+- New files: 8 (compiled today — 2026-05-28)
+- Yesterday files: 30 (compiled 2026-05-27, validated previously)
+- Issues found: 7 (3 ERROR, 2 WARNING, 2 INFO)
+- Key findings:
+  - **ERROR:** Cross-contaminated excerpt — OPEC oil text leaked into src_llm-need-sleep-consolidation.md (probable compilation bug)
+  - **ERROR:** 15 dangling wikilinks across all 8 new files — concepts referenced but not created
+  - **ERROR:** Empty `## Sources` body in 3 concept files despite valid `sources:` in frontmatter
+  - **WARNING:** Short summaries in 2 files still unfixed after 3 consecutive reports
+  - **WARNING:** Systematic dangling wikilink pattern — Compile Agent may need prompt fix
+- Previous issues resolved: Duplicate Notes, missing Original excerpts, section name case, non-standard section all fixed
+- Report: wiki/reviews/2026-05-28_output-report.md

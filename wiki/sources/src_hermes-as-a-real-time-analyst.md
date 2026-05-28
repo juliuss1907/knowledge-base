@@ -44,4 +44,8 @@ Nous Research hợp tác với xAI để tích hợp Grok subscription vào Herm
 
 ## Original excerpts
 
-<!-- TODO: Add key quotes from source -->
+> "X là 'town square' cho macro, geopolitics, tech, AI, crypto."
+
+> "6-Stage Research Pipeline: x_search → Cookie MCP → Browser CDP → DeepSeek → Hindsight → Report."
+
+> "Grok subscription hack: Đăng ký $30/tháng → Cancel → nhận offer 3 tháng $30 → chỉ trả ~$10/tháng."

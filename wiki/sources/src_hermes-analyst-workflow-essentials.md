@@ -44,4 +44,8 @@ Workflow tối ưu để sử dụng Hermes như analyst cá nhân, dựa trên 
 
 ## Original excerpts
 
-<!-- TODO: Add key quotes from source -->
+> "Soul.md — ROI cao nhất: 2-3 giờ viết, sửa 5+ lần — quyết định mọi thứ downstream."
+
+> "Agent tự tạo skill khi thấy task lặp lại — skill = recipe để thực thi workflow."
+
+> "Soul sửa 5-6 lần, User config cập nhật hàng ngày — compound mỗi session."

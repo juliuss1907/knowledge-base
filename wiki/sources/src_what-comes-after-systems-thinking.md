@@ -5,7 +5,7 @@ main_tag: system
 sub_tags: [research]
 topic: post-systems-thinking
 date_compiled: 2026-05-14
-url: http://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking?r=1g2ue2
+url: https://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking?r=1g2ue2
 author: Nicole Williams
 ---
 
@@ -16,7 +16,7 @@ author: Nicole Williams
 - **Author:** Nicole Williams
 - **Published:** 2026-04-02
 - **Source:** Substack (PM Researcher)
-- **URL:** http://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking
+- **URL:** https://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking
 - **Type:** article
 
 ## Summary

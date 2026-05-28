@@ -44,4 +44,8 @@ Sau $200 và 30 skills, tác giả chia sẻ 3 skills đáng giá nhất từ He
 
 ## Original excerpts
 
-<!-- TODO: Add key quotes from source -->
+> "Số lượng skills và cron jobs có thể expand nhanh → mess khi change config/setup."
+
+> "Bird CLI mistake: Có permission write → Hermes hallucinate, post random things."
+
+> "Đừng link Hindsight to OpenRouter + Claude Sonnet 4.6 → Burn $50+ tokens trong 1 ngày."

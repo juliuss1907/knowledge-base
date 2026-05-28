@@ -11,3 +11,4 @@
   - [Priority 2] Concept thiếu backlinks: wiki/concepts/ai-productivity.md, wiki/concepts/systems-thinking.md.
   - Raw backlog: 0 files > 24h.
   - Inbox: Clean.
+2026-05-28 22:00 - Pending review: Format Validator report (80 ERRORs) chưa được xử lý.

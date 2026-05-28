@@ -1,12 +1,12 @@
 # Heartbeat Log
 
-Last check: Friday, May 29th, 2026 - 03:00 (Asia/Saigon)
-Status: ISSUE_FOUND
+**Last check:** 2026-05-29 04:00 (Asia/Saigon)
+**Status:** ISSUE_FOUND
 
-## Findings
-- [Priority 1] Pending review: 1 report (Format Validator — 2026-05-28) chưa được xử lý.
-- [Priority 2] Raw backlog: 6 files unprocessed (all < 24h).
-- [Priority 3] Concept check: OK.
+## Issues
+- [Priority 1] Pending review: Format Validator (2026-05-28) PENDING với 80 ERROR (wikilinks not quoted). Chi tiết: `wiki/reviews/_action-required.md`
 
-## Details
-- Pending report: `wiki/reviews/2026-05-28_format-report.md` (80 ERROR — wikilinks not quoted).
+## Checks
+- Inbox: OK
+- Raw backlog: OK
+- Concept backlinks: OK (nice-syndrome, rag-retrieval-augmented-generation)

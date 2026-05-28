@@ -68,3 +68,11 @@ Lĩnh vực pháp luật về mối quan hệ ủy quyền (principal-agent), tr
 ## Sources
 
 - [[src_aaron-wright-ai-agents-legal-body]]
+
+## Backlinks
+
+- [[agentic-commerce]]
+- [[ai-legal-personhood]]
+- [[zero-member-llc]]
+
+## Notes

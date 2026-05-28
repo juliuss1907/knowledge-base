@@ -49,6 +49,6 @@ Factory trình bày "Missions" — kiến trúc multi-agent thực tế cho SDLC
 
 > "We write the Validation Contract **before** any code is written — we define what done looks like."
 
-## Related content
+> "Detailed notes: https://docs.google.com/document/d/e/2PACX-1vQTt9ppCFv0Mb97gbUIF4hbdmLWaktb4NqNwNT985kmlGbKlBcEq8CGZ92PtvJWHDOYbvHp922lOkQB/pub"
 
-- Detailed notes: https://docs.google.com/document/d/e/2PACX-1vQTt9ppCFv0Mb97gbUIF4hbdmLWaktb4NqNwNT985kmlGbKlBcEq8CGZ92PtvJWHDOYbvHp922lOkQB/pub
+---

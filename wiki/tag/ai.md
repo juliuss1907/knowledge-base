@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: ai
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #ai
@@ -16,10 +16,10 @@ last_updated: 2026-05-25
 
 ## Stats
 
-- Total files: 61
-- Sources: 14
-- Concepts: 47
-- Last updated: 2026-05-25
+- Total files: 70
+- Sources: 16
+- Concepts: 54
+- Last updated: 2026-05-26
 
 ## Files with this tag
 
@@ -28,8 +28,11 @@ last_updated: 2026-05-25
 - [[agent-skill-management]] — Agent Skill Management (concept)
 - [[agentic-commerce]] — Agentic Commerce (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
+- [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-legal-personhood]] — Ai Legal Personhood (concept)
 - [[ai-overviews]] — Ai Overviews (concept)
+- [[ai-powered-discovery]] — Ai Powered Discovery (concept)
+- [[ai-productivity]] — Ai Productivity (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
 - [[ai-vulnerability-discovery]] — Ai Vulnerability Discovery (concept)
@@ -37,10 +40,12 @@ last_updated: 2026-05-25
 - [[browser-harness-tool]] — Browser Harness Tool (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
 - [[code-as-substrate]] — Code As Substrate (concept)
+- [[conversational-website]] — Conversational Website (concept)
 - [[coordinated-vulnerability-disclosure]] — Coordinated Vulnerability Disclosure (concept)
 - [[default-mode-network]] — Default Mode Network (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[factory-missions]] — Factory Missions (concept)
+- [[generative-ai-seo]] — Generative Ai Seo (concept)
 - [[generative-search-results]] — Generative Search Results (concept)
 - [[geo-strategy]] — Geo Strategy (concept)
 - [[google-ai-mode]] — Google Ai Mode (concept)
@@ -51,6 +56,7 @@ last_updated: 2026-05-25
 - [[hermes-three-layers]] — Hermes Three Layers (concept)
 - [[hermes-token-management]] — Hermes Token Management (concept)
 - [[hindsight-skill]] — Hindsight Skill (concept)
+- [[human-judgment-ai]] — Human Judgment Ai (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[multi-agent-taxonomy]] — Multi Agent Taxonomy (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
@@ -67,6 +73,7 @@ last_updated: 2026-05-25
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
+- [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
 - [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
@@ -78,6 +85,8 @@ last_updated: 2026-05-25
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[src_project-glasswing-update]] — Project Glasswing Update (source)
+- [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
+- [[static-website-blind-spot]] — Static Website Blind Spot (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
 - [[validation-contract]] — Validation Contract (concept)
 - [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
@@ -87,8 +96,8 @@ last_updated: 2026-05-25
 
 ## Co-occurring tags
 
-- [[tools]] — 47 co-occurrences
-- [[automation]] — 29 co-occurrences
-- [[research]] — 21 co-occurrences
-- [[opinion]] — 11 co-occurrences
+- [[tools]] — 53 co-occurrences
+- [[automation]] — 30 co-occurrences
+- [[research]] — 24 co-occurrences
+- [[opinion]] — 14 co-occurrences
 - [[tutorial]] — 10 co-occurrences

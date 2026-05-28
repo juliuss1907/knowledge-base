@@ -5,14 +5,14 @@ scope: repos
 parent: [[raw]]
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-05-17
+last_updated: 2026-05-28
 ---
 
 # Posts Index
 
 ## Overview
 
-Short-form social media posts, threads, and micro-content.
+GitHub repositories and code projects.
 
 ## Parent
 
@@ -23,7 +23,7 @@ Short-form social media posts, threads, and micro-content.
 - Total: 0 files
 - By status: 0 processed, 0 unprocessed
 - By date: 0 this week, 0 this month
-- Last updated: 2026-05-17
+- Last updated: 2026-05-28
 
 ## Items
 

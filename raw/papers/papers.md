@@ -5,14 +5,14 @@ scope: papers
 parent: [[raw]]
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-05-17
+last_updated: 2026-05-28
 ---
 
 # Posts Index
 
 ## Overview
 
-Short-form social media posts, threads, and micro-content.
+Academic papers, research publications, and technical reports.
 
 ## Parent
 
@@ -20,14 +20,15 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 0 files
-- By status: 0 processed, 0 unprocessed
-- By date: 0 this week, 0 this month
-- Last updated: 2026-05-17
+- Total: 2 files
+- By status: 2 processed, 0 unprocessed
+- By date: 2 this week, 2 this month
+- Last updated: 2026-05-28
 
 ## Items
 
-<!-- Ingest Agent appends here, newest first -->
+- [[2026-05-27_llm-need-sleep-consolidation]] — LLMs need sleep: Consolidation of declarative memories via offline experience replay (processed)
+- [[2026-05-22_code-as-agent-harness-arxiv-2605-18747]] — Code as Agent: Harnessing Unit Tests for Robust Agent Benchmarking (processed)
 
 ## Notes
 

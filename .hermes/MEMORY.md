@@ -66,11 +66,21 @@
     24|    24|- **Status:** [complete|failed|partial]
     25|    25|- **Notes:** [patterns detected, systematic issues, etc.]
     26|    26|
-    27|    27|## Recent Validations
-    28|    28|<!-- Entries appear below in reverse chronological order (newest first) --> 
-    29|    29|<!-- Hermes appends new entries here -->
-    30|    30|
-    31|    31|## 2026-05-14 23:00:00 — Output validation
+## Recent Validations
+<!-- Entries appear below in reverse chronological order (newest first) --> 
+<!-- Hermes appends new entries here -->
+
+## 2026-05-26 22:00:00 — Output validation
+
+- **Validator:** output-validator
+- **Files checked:** 74 (24 sources + 50 concepts)
+- **New files:** 4 (2 sources + 2 concepts compiled today)
+- **Issues found:** 6 (2 ERROR, 4 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-26_output-report.md
+- **Status:** complete
+- **Notes:** All 4 new files have quality issues (2 definitions too short, 2 summaries too short, 2 section name mismatches, empty sections + dangling references). Compile Agent produced `## Related Concepts` instead of `## Concepts referenced` in both new source files. Both new concept files reference concepts not yet compiled (ai-powered-discovery, conversational-website, generative-ai-seo, human-judgment-ai, ai-productivity).
+
+## 2026-05-14 23:00:00 — Output validation
     32|    32|
     33|    33|- **Validator:** output-validator
     34|    34|- **Files checked:** 14 (2 sources + 12 concepts)
@@ -173,3 +183,44 @@
   - 1 ERROR: `state/` — empty directory at KB root
   - 3 WARNING: stale .bak/.tmp files in .openclaw/ (safe auto-cleanup)
 - **Assessment:** KB structure is clean. folder-structure.md v1.2 catch-all clauses eliminated runtime folder noise. Only genuine anomalies remain.
+
+## 2026-05-26 22:00:00 — Hygiene inspection
+
+- **Paths checked:** ~24,452 (full KB scan excluding .git, node_modules, .obsidian)
+- **Issues found:** 4 (2 ERROR, 2 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-26_hygiene-report.md
+- **Top violations:**
+  - 1 ERROR: `raw/RAW_BACKLOG.md` — file at raw/ root level (persistent from prior reports)
+  - 1 ERROR: `wiki/reviews/HEARTBEAT.md` — unexpected file in reviews/
+  - 1 WARNING: `wiki/topic/.gitkeep` — non-markdown placeholder
+  - 1 WARNING: `wiki/drafts/.gitkeep` — non-markdown placeholder
+- **Assessment:** Core structure is healthy. Two ERRORs need Julius attention (RAW_BACKLOG.md persistent, HEARTBEAT.md new). `.gitkeep` files are cosmetic.
+
+## 2026-05-27 07:43:00 — Format Validation
+- **Validator:** format-validator
+- **Files checked:** 123 (99 concepts + 24 sources)
+- **Issues found:** 20 (14 ERROR, 6 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-05-27_format-report.md
+- **Top violations:**
+  - 5 ERROR: Invalid status 'stub' (not in enum): ai-powered-discovery, ai-productivity, conversational-website, generative-ai-seo, human-judgment-ai
+  - 5 ERROR: Missing 'Key ideas' section (same 5 stub concepts)
+  - 4 WARNING: Empty sources array (4 of 5 stub concepts)
+  - 2 ERROR: Invalid sub_tags ('productivity' and 'marketing' not in Pool B)
+  - 2 WARNING: Field order incorrect in source files (author/date_compiled swapped)
+  - 1 ERROR: Missing 'Related concepts' section (static-website-blind-spot)
+  - 1 ERROR: Code block missing language tag (x-search-tool)
+- **Assessment:** 5 stub concepts share a systematic pattern — incomplete format. Compile Agent should ensure minimum format compliance (valid status, required sections, non-empty sources) even for draft concepts.
+
+## 2026-05-28 08:26 — Output validation
+- Files checked: 149 (30 sources + 119 concepts)
+- New files: 8 (compiled today — 2026-05-28)
+- Yesterday files: 30 (compiled 2026-05-27, validated previously)
+- Issues found: 7 (3 ERROR, 2 WARNING, 2 INFO)
+- Key findings:
+  - **ERROR:** Cross-contaminated excerpt — OPEC oil text leaked into src_llm-need-sleep-consolidation.md (probable compilation bug)
+  - **ERROR:** 15 dangling wikilinks across all 8 new files — concepts referenced but not created
+  - **ERROR:** Empty `## Sources` body in 3 concept files despite valid `sources:` in frontmatter
+  - **WARNING:** Short summaries in 2 files still unfixed after 3 consecutive reports
+  - **WARNING:** Systematic dangling wikilink pattern — Compile Agent may need prompt fix
+- Previous issues resolved: Duplicate Notes, missing Original excerpts, section name case, non-standard section all fixed
+- Report: wiki/reviews/2026-05-28_output-report.md

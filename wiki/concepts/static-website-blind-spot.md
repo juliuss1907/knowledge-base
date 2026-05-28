@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [marketing, tools]
+sub_tags: [tools]
 topic: ai-landing-page-discovery
 sources:
   - [[src_ai-trillion-dollar-blind-spot]]
@@ -13,9 +13,11 @@ last_updated: 2026-05-26
 
 ## Definition
 
-Static Website Blind Spot là xu hướng các công ty tập trung tích hợp AI vào sản phẩm nội bộ trong khi bỏ qua trang landing page tĩnh — touchpoint quan trọng nhất trong customer journey — tạo ra friction cao cho potential customers.
+Static Website Blind Spot là xu hướng các công ty tập trung tích hợp AI vào sản phẩm nội bộ trong khi bỏ qua trang landing page tĩnh — touchpoint quan trọng nhất trong customer journey. Điều này tạo ra friction cao cho potential customers khi họ cố gắng xác định xem sản phẩm có phù hợp hay không.
 
-## Key Ideas
+Vấn đề cốt lõi nằm ở chỗ static pages không thể có conversations và thiếu khả năng adapt theo context của từng visitor.
+
+## Key ideas
 
 - **The paradox:** Companies embed AI everywhere except where customers first see them
 - **Static page problems:**
@@ -41,7 +43,7 @@ Rebuild the discovery layer with:
 - Dynamic personalization
 - Lower friction pathways
 
-## Related Concepts
+## Related concepts
 
 - [[ai-powered-discovery]]
 - [[conversational-website]]
@@ -53,4 +55,10 @@ Rebuild the discovery layer with:
 
 ## Backlinks
 
+- [[ai-powered-discovery]]
+- [[conversational-website]]
+- [[generative-ai-seo]]
+
 ## Notes
+
+<!-- Free space for Julius -->

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #research
@@ -16,14 +16,15 @@ last_updated: 2026-05-25
 
 ## Stats
 
-- Total files: 32
-- Sources: 6
-- Concepts: 26
-- Last updated: 2026-05-25
+- Total files: 35
+- Sources: 7
+- Concepts: 28
+- Last updated: 2026-05-26
 
 ## Files with this tag
 
 - [[agent-harness]] — Agent Harness (concept)
+- [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-overviews]] — Ai Overviews (concept)
 - [[ai-vulnerability-discovery]] — Ai Vulnerability Discovery (concept)
 - [[ai-white-collar-automation]] — Ai White Collar Automation (concept)
@@ -40,6 +41,7 @@ last_updated: 2026-05-25
 - [[generative-search-results]] — Generative Search Results (concept)
 - [[geo-strategy]] — Geo Strategy (concept)
 - [[google-ai-mode]] — Google Ai Mode (concept)
+- [[human-judgment-ai]] — Human Judgment Ai (concept)
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
 - [[multi-agent-taxonomy]] — Multi Agent Taxonomy (concept)
 - [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
@@ -54,12 +56,13 @@ last_updated: 2026-05-25
 - [[src_project-glasswing-update]] — Project Glasswing Update (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
+- [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
 - [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
 
 ## Co-occurring tags
 
-- [[ai]] — 21 co-occurrences
+- [[ai]] — 24 co-occurrences
 - [[tools]] — 10 co-occurrences
+- [[opinion]] — 7 co-occurrences
 - [[system]] — 6 co-occurrences
-- [[hack]] — 4 co-occurrences
-- [[opinion]] — 4 co-occurrences
+- [[coding]] — 4 co-occurrences

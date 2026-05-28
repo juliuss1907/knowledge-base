@@ -5,7 +5,7 @@ scope: posts
 parent: [[raw]]
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-05-17
+last_updated: 2026-05-28
 ---
 
 # Posts Index
@@ -21,13 +21,13 @@ Short-form social media posts, threads, and micro-content.
 ## Stats
 
 - Total: 6 files
-- By status: 5 processed, 1 unprocessed
+- By status: 6 processed, 0 unprocessed
 - By date: 6 this week, 6 this month
-- Last updated: 2026-05-25
+- Last updated: 2026-05-28
 
 ## Items
 
-- [[2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website]] — AI's Trillion-Dollar Blind Spot: The Static Website (unprocessed)
+- [[2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website]] — AI's Trillion-Dollar Blind Spot: The Static Website (processed)
 - [[2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent]] — Hermes + Polymarket - how i built a self-learning BTC up/down trading agent 100$ → 5000$ ( guide ) (processed)
 - [[2026-05-20_the-smart-ape-11-minutes-hack-github]] — 11 minutes was all it took to hack github (processed)
 - [[2026-05-20_the-smart-ape-ai-destroy-world-economy]] — ai will destroy the world economy (processed)

@@ -1,18 +1,12 @@
 ---
 type: source
-source_type: post
-source_url: https://x.com/SuyashKarn2/status/2057099123413946617
-author: Suyash Karn
-handle: @SuyashKarn2
-date_published: 2025-05-24
-date_compiled: 2026-05-26
+original: https://x.com/SuyashKarn2/status/2057099123413946617
 main_tag: ai
-sub_tags: [marketing, tools]
+sub_tags: [tools]
 topic: ai-landing-page-discovery
-concepts:
-  - static-website-blind-spot
-  - ai-powered-discovery
-  - conversational-website
+date_compiled: 2026-05-26
+url: https://x.com/SuyashKarn2/status/2057099123413946617
+author: Suyash Karn
 ---
 
 # AI's Trillion-Dollar Blind Spot: The Static Website
@@ -21,11 +15,18 @@ concepts:
 **Published:** 2025-05-24  
 **Compiled:** 2026-05-26
 
+## Metadata
+
+- **Source type:** X post
+- **Author:** Suyash Karn (@SuyashKarn2)
+- **URL:** https://x.com/SuyashKarn2/status/2057099123413946617
+- **Published:** 2025-05-24
+
 ## Summary
 
 Companies are racing to embed AI into their products while ignoring the most critical customer touchpoint: the static landing page. The traditional website cannot have conversations or adapt to context, creating high friction for potential customers trying to determine product relevance.
 
-## Key Points
+## Key points
 
 1. **The blind spot:** Companies rebuild everything with AI except the front door (landing pages)
 2. **Static website limitations:**
@@ -46,11 +47,19 @@ Companies are racing to embed AI into their products while ignoring the most cri
 
 6. **Opportunity:** Rebuilding discovery layer with AI-powered, conversational interfaces
 
-## Related Concepts
+## Concepts referenced
 
 - [[static-website-blind-spot]]
 - [[ai-powered-discovery]]
 - [[conversational-website]]
+
+## Original excerpts
+
+> "Companies are racing to embed AI into their products while ignoring the most critical customer touchpoint: the static landing page. The traditional website cannot have conversations or adapt to context, creating high friction for potential customers trying to determine product relevance."
+
+> "Your landing page is supposed to do the discovery job. But it's static. It can't have a conversation. It can't adapt to who shows up."
+
+> "The opportunity isn't A/B testing your headline. It's rebuilding the discovery layer with AI."
 
 ---
 *Compiled by OpenClaw Compile Agent*

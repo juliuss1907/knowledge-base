@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #opinion
@@ -16,16 +16,17 @@ last_updated: 2026-05-25
 
 ## Stats
 
-- Total files: 31
-- Sources: 9
-- Concepts: 22
-- Last updated: 2026-05-25
+- Total files: 34
+- Sources: 10
+- Concepts: 24
+- Last updated: 2026-05-26
 
 ## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
 - [[active-thinking]] — Active Thinking (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
+- [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
 - [[ai-white-collar-automation]] — Ai White Collar Automation (concept)
@@ -34,6 +35,7 @@ last_updated: 2026-05-25
 - [[environment-baseline]] — Environment Baseline (concept)
 - [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[hermes-token-management]] — Hermes Token Management (concept)
+- [[human-judgment-ai]] — Human Judgment Ai (concept)
 - [[information-compression]] — Information Compression (concept)
 - [[lazy-thinking]] — Lazy Thinking (concept)
 - [[negative-compounding]] — Negative Compounding (concept)
@@ -53,12 +55,13 @@ last_updated: 2026-05-25
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
+- [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
 - [[taste-holders]] — Taste Holders (concept)
 
 ## Co-occurring tags
 
 - [[productivity]] — 17 co-occurrences
-- [[ai]] — 11 co-occurrences
+- [[ai]] — 14 co-occurrences
 - [[tools]] — 11 co-occurrences
+- [[research]] — 7 co-occurrences
 - [[automation]] — 7 co-occurrences
-- [[research]] — 4 co-occurrences

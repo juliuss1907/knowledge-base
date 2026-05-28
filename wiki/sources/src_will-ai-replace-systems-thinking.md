@@ -1,18 +1,12 @@
 ---
 type: source
-source_type: article
-source_url: https://open.substack.com/pub/pmresearcher/p/will-ai-replace-systems-thinking
-author: pmresearcher
-pubname: PM Researcher
-date_published: 2025-05-24
-date_compiled: 2026-05-26
+original: https://open.substack.com/pub/pmresearcher/p/will-ai-replace-systems-thinking
 main_tag: ai
-sub_tags: [opinion, system]
+sub_tags: [opinion, research]
 topic: ai-systems-thinking-augmentation
-concepts:
-  - ai-augmented-systems-thinking
-  - human-judgment-ai
-  - second-order-effects
+date_compiled: 2026-05-26
+url: https://open.substack.com/pub/pmresearcher/p/will-ai-replace-systems-thinking
+author: pmresearcher
 ---
 
 # Will AI Replace Systems Thinking?
@@ -21,11 +15,18 @@ concepts:
 **Published:** 2025-05-24  
 **Compiled:** 2026-05-26
 
+## Metadata
+
+- **Source type:** Article (Substack)
+- **Author:** pmresearcher
+- **URL:** https://open.substack.com/pub/pmresearcher/p/will-ai-replace-systems-thinking
+- **Published:** 2025-05-24
+
 ## Summary
 
 AI will not replace systems thinking, but it will fundamentally change how systems thinking is practiced. The article argues that AI is a powerful assistant for pattern recognition and complexity processing, but cannot replace human judgment on questions of boundaries, incentives, tradeoffs, and values.
 
-## Key Points
+## Key points
 
 1. **AI's strengths:** Pattern recognition, summarizing complexity, generating scenarios, mapping dependencies, surfacing weak signals
 2. **AI's limitations:** Cannot decide what matters, understand context/values/power/trust, or take responsibility for judgment
@@ -39,11 +40,19 @@ AI will not replace systems thinking, but it will fundamentally change how syste
 
 5. **Future belongs to:** People who know how to think with AI without surrendering judgment to it
 
-## Related Concepts
+## Concepts referenced
 
 - [[ai-augmented-systems-thinking]]
 - [[human-judgment-ai]]
 - [[second-order-effects]]
+
+## Original excerpts
+
+> "AI will not replace systems thinking, but it will fundamentally change how systems thinking is practiced."
+
+> "AI is a powerful assistant for pattern recognition and complexity processing, but cannot replace human judgment on questions of boundaries, incentives, tradeoffs, and values."
+
+> "The future belongs to those who know how to think with AI without surrendering judgment to it."
 
 ---
 *Compiled by OpenClaw Compile Agent*

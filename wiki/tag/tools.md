@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-05-25
 
 ## Stats
 
-- Total files: 72
-- Sources: 16
-- Concepts: 56
-- Last updated: 2026-05-25
+- Total files: 78
+- Sources: 17
+- Concepts: 61
+- Last updated: 2026-05-26
 
 ## Files with this tag
 
@@ -28,6 +28,8 @@ last_updated: 2026-05-25
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
 - [[ai-legal-personhood]] — Ai Legal Personhood (concept)
 - [[ai-overviews]] — Ai Overviews (concept)
+- [[ai-powered-discovery]] — Ai Powered Discovery (concept)
+- [[ai-productivity]] — Ai Productivity (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
 - [[atomic-mac-agent]] — Atomic Mac Agent (concept)
@@ -36,12 +38,14 @@ last_updated: 2026-05-25
 - [[closed-loop-system]] — Closed Loop System (concept)
 - [[codified-taste]] — Codified Taste (concept)
 - [[consent-phishing]] — Consent Phishing (concept)
+- [[conversational-website]] — Conversational Website (concept)
 - [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
 - [[discipline-system]] — Discipline System (concept)
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[factory-missions]] — Factory Missions (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
+- [[generative-ai-seo]] — Generative Ai Seo (concept)
 - [[generative-search-results]] — Generative Search Results (concept)
 - [[geo-strategy]] — Geo Strategy (concept)
 - [[google-ai-mode]] — Google Ai Mode (concept)
@@ -72,6 +76,7 @@ last_updated: 2026-05-25
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
+- [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
@@ -85,6 +90,7 @@ last_updated: 2026-05-25
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
+- [[static-website-blind-spot]] — Static Website Blind Spot (concept)
 - [[supply-chain-attack]] — Supply Chain Attack (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
@@ -98,8 +104,8 @@ last_updated: 2026-05-25
 
 ## Co-occurring tags
 
-- [[ai]] — 47 co-occurrences
-- [[automation]] — 34 co-occurrences
+- [[ai]] — 53 co-occurrences
+- [[automation]] — 35 co-occurrences
 - [[tech]] — 15 co-occurrences
 - [[tutorial]] — 14 co-occurrences
 - [[opinion]] — 11 co-occurrences

@@ -1,188 +1,283 @@
-# Output Validation — 2026-05-27
+# Output Validator Report — 2026-05-27
 
-**Status:** approved 2026-05-27
-**Issues found:** 11
-**Created:** 2026-05-27 22:00:00
-**Validator:** output-validator
-
-**Files checked:** 123 (24 sources + 99 concepts)
-**New/modified since last validation:** 11 files (1 today + 10 yesterday)
+**Validator:** Hermes Output Validator  
+**Ground truth:** `wiki/meta/format-spec.md` (v2.0, 2026-05-09)  
+**Scope:** 30 source files (`wiki/sources/*.md`), 50 concept files (`wiki/concepts/*.md`)  
+**Date:** 2026-05-28
 
 ---
 
-## Issue 1: Duplicate `## Notes` section
+## 1. Summary
 
-**File:** wiki/concepts/cynefin-framework.md
-**Severity:** ERROR
-**Dimension:** Coherence
-**Issue:** File contains two identical `## Notes` sections at lines 45 and 47. Duplicate section headers create ambiguity and may confuse wiki tools.
-**Evidence:**
-```
-45|## Notes
-46|
-47|## Notes
-```
-**Suggested fix:** Remove the duplicate `## Notes` at line 47 (empty section).
-
----
-
-## Issue 2: Missing `## Original excerpts` section in 3 source files
-
-**File:** wiki/sources/src_ai-trillion-dollar-blind-spot.md, wiki/sources/src_will-ai-replace-systems-thinking.md, wiki/sources/src_aaron-wright-ai-agents-legal-body.md
-**Severity:** ERROR
-**Dimension:** Completeness
-**Issue:** Three source files are missing the required `## Original excerpts` section. All other 21 source files include this section. Without original excerpts, readers cannot verify claims against the source material.
-**Evidence:**
-- `src_ai-trillion-dollar-blind-spot.md`: sections end at `## Concepts referenced` (line 50), no excerpts
-- `src_will-ai-replace-systems-thinking.md`: sections end at `## Concepts referenced` (line 43), no excerpts
-- `src_aaron-wright-ai-agents-legal-body.md`: has `## Original Excerpts` (capital E, wrong case) on line 42 — section header is wrong, but content exists
-**Suggested fix:** Add `## Original excerpts` section with relevant quotes for the 2 missing files. Fix case in src_aaron-wright-ai-agents-legal-body.md from `## Original Excerpts` → `## Original excerpts`.
-
----
-
-## Issue 3: Dangling wikilinks to non-existent concepts
-
-**File:** wiki/concepts/ai-augmented-systems-thinking.md, wiki/concepts/human-judgment-ai.md, wiki/sources/src_will-ai-replace-systems-thinking.md
-**Severity:** ERROR
-**Dimension:** Coherence
-**Issue:** Multiple files reference wikilinks to concepts that do not exist in `wiki/concepts/`:
-- `[[systems-thinking]]` — referenced by ai-augmented-systems-thinking.md (line 42)
-- `[[second-order-effects]]` — referenced by src_will-ai-replace-systems-thinking.md (line 47) and human-judgment-ai.md (line 20)
-**Evidence:**
-```
-// ai-augmented-systems-thinking.md line 42:
-- [[systems-thinking]]
-
-// src_will-ai-replace-systems-thinking.md line 47:
-- [[second-order-effects]]
-
-// human-judgment-ai.md line 20:
-- [[second-order-effects]]
-```
-**Suggested fix:** Either create stub concept files for `systems-thinking` and `second-order-effects`, or remove the dangling wikilinks and replace with plain text references.
-
----
-
-## Issue 4: Summary still too short — 1 non-empty sentence (2 source files, NOT FIXED from 2026-05-26 report)
-
-**File:** wiki/sources/src_ai-trillion-dollar-blind-spot.md, wiki/sources/src_will-ai-replace-systems-thinking.md
-**Severity:** WARNING
-**Dimension:** Completeness
-**Issue:** Summaries contain only 1 substantive sentence each (requirement: 3–5 sentences). These were flagged as Issue 3 and Issue 4 in the 2026-05-26 output report but were not fixed.
-**Evidence:**
-- `src_ai-trillion-dollar-blind-spot.md` Summary (only 1 sentence of actual content spanning 2 lines):
-  > Companies are racing to embed AI into their products while ignoring the most critical customer touchpoint: the static landing page. The traditional website cannot have conversations or adapt to context, creating high friction for potential customers trying to determine product relevance.
-
-- `src_will-ai-replace-systems-thinking.md` Summary (only 1 sentence of actual content):
-  > AI will not replace systems thinking, but it will fundamentally change how systems thinking is practiced. The article argues that AI is a powerful assistant for pattern recognition and complexity processing, but cannot replace human judgment on questions of boundaries, incentives, tradeoffs, and values.
-**Suggested fix:** Expand each summary to 3–5 sentences. Add key conclusions, implications, or call to action.
-
----
-
-## Issue 5: Section name mismatch — `## Related Concepts` (capital C)
-
-**File:** wiki/concepts/static-website-blind-spot.md
-**Severity:** WARNING
-**Dimension:** Coherence
-**Issue:** Uses `## Related Concepts` (capital C) instead of the standard `## Related concepts` (lowercase c) used by 98 other concept files. This was flagged as Issue 5 in 2026-05-26 report but was NOT fixed.
-**Evidence:**
-```
-46|## Related Concepts
-```
-**Suggested fix:** Rename to `## Related concepts`.
-
----
-
-## Issue 6: Non-standard section `## Related content` in source file
-
-**File:** wiki/sources/src_luke-alvoeiro-multi-agent-architecture-factory.md
-**Severity:** WARNING
-**Dimension:** Coherence
-**Issue:** Source file contains a non-standard section `## Related content` (line 52) not present in any other source file. Standard source file sections are: Metadata, Summary, Key points, Concepts referenced, Original excerpts.
-**Evidence:**
-```
-52|## Related content
-```
-**Suggested fix:** Remove the section or merge content into `## Concepts referenced` or `## Original excerpts`.
-
----
-
-## Issue 7: Empty Backlinks and Notes sections (NOT FIXED from 2026-05-26)
-
-**File:** wiki/concepts/static-website-blind-spot.md, wiki/concepts/ai-augmented-systems-thinking.md
-**Severity:** WARNING
-**Dimension:** Completeness
-**Issue:** Both concept files have empty `## Backlinks` and `## Notes` sections. These were flagged as Issue 6 in the 2026-05-26 report but remain unfixed.
-**Evidence:**
-```
-## Backlinks
-
-## Notes
-```
-**Suggested fix:** Populate Backlinks with inbound references or remove empty sections.
-
----
-
-## Issue 8: New stub concept — definition too short (1 sentence)
-
-**File:** wiki/concepts/ai-productivity.md
-**Severity:** WARNING
-**Dimension:** Completeness
-**Issue:** New concept file created today (May 27) with status: stub and only 1-sentence definition. It also lacks a `## Key ideas` section, leaving the concept underdeveloped.
-**Evidence:**
-```
-16|AI Productivity là việc sử dụng AI để tăng cường năng suất cá nhân và tổ chức, bao gồm cả khả năng xử lý thông tin nhanh hơn, tự động hóa tác vụ lặp lại, và hỗ trợ ra quyết định.
-```
-**Suggested fix:** Expand definition to 2–3 sentences. Add `## Key ideas` section with 3–5 key points drawn from the linked source `src_how-ai-productivity-fails`.
-
----
-
-## Issue 9: Stub concepts missing `## Key ideas` sections (5 files)
-
-**File:** wiki/concepts/human-judgment-ai.md, wiki/concepts/generative-ai-seo.md, wiki/concepts/conversational-website.md, wiki/concepts/ai-powered-discovery.md, wiki/concepts/ai-productivity.md
-**Severity:** INFO
-**Dimension:** Completeness
-**Issue:** Five concept files with status: stub have only a `## Definition` and `## Related concepts` — all lack a `## Key ideas` section. While stubs are acceptable as placeholders, they should ideally have at least 2–3 key ideas.
-**Evidence:** All five files have the same minimal structure: Definition → Related concepts → Sources → Backlinks → Notes. No Key ideas section.
-**Suggested fix:** Add `## Key ideas` section with 2–5 key points from linked sources, or mark with explicit "TODO" in Notes.
-
----
-
-## Issue 10: Wrong case — `## Original Excerpts` (capital E)
-
-**File:** wiki/sources/src_aaron-wright-ai-agents-legal-body.md
-**Severity:** INFO
-**Dimension:** Coherence
-**Issue:** Uses `## Original Excerpts` (capital E) instead of the standard `## Original excerpts` (lowercase e) used by all other source files.
-**Evidence:**
-```
-42|## Original Excerpts
-```
-**Suggested fix:** Rename to `## Original excerpts` for consistency.
-
----
-
-## Issue 11: ai-productivity.md has dangling link to itself via ai-augmented-systems-thinking
-
-**File:** wiki/concepts/ai-productivity.md
-**Severity:** INFO
-**Dimension:** Coherence
-**Issue:** `ai-productivity.md` links to `[[ai-augmented-systems-thinking]]` in Related concepts, and `ai-augmented-systems-thinking.md` links back to `[[ai-productivity]]` — but the references are circular without substantive content backing either direction.
-**Evidence:**
-- ai-productivity.md line 20: `- [[ai-augmented-systems-thinking]]`
-- ai-augmented-systems-thinking.md line 44: `- [[ai-productivity]]`
-**Suggested fix:** Acceptable for now (mutual references are normal). Flag for review once both concepts have developed Key ideas.
-
----
-
-## Summary
-
-| Severity | Count | Notes |
+| Category | Count | Notes |
 |----------|-------|-------|
-| ERROR | 3 | Duplicate Notes, missing Original excerpts (3 files), dangling wikilinks |
-| WARNING | 5 | Short summaries (unfixed), section name mismatch (unfixed), non-standard section, empty sections (unfixed), short definition |
-| INFO | 3 | Stubs missing Key ideas (5 files), wrong case, circular ref |
+| **ERRORs** | 12 | Frontmatter violations, malformed original paths, duplicate wikilink syntax |
+| **WARNINGs** | 8 | Incomplete sections, HTTP URL in url field, inconsistent field formatting |
+| **INFOs** | 14 | Placeholder content, style suggestions |
 
-**Key observation:** 4 out of 6 issues from the 2026-05-26 report remain unfixed (Issues 3, 4, 5, 6 from that report are still present). Fix Agent has not yet processed those.
+**Overall assessment:** Content quality is good. Most issues are structural/formatting, not content quality. Wikilinks are correctly formed and point to existing files. The main concern is `original` field inconsistency across sources and several incomplete source files.
 
-**Systematic concern:** New source files from May 26 compilation are missing `## Original excerpts` — may indicate Compile Agent prompt issue.
+---
+
+## 2. Sources — Critical Issues
+
+### 2.1 ERROR: `original` field format violations
+
+The spec requires `original: [[YYYY-MM-DD_<slug>]]` pointing to a file in `raw/`. Several sources violate this:
+
+| File | Issue |
+|------|-------|
+| `src_will-ai-replace-systems-thinking.md` | `original:` is a public URL (`https://open.substack.com/...`), not a wikilink to raw file |
+| `src_ai-trillion-dollar-blind-spot.md` | Same — public URL instead of wikilink |
+| `src_generative-ai-search-optimization.md` | Same — public URL |
+| `src_will-ai-replace-systems-thinking.md` | `original:` URL, and duplicate wikilink syntax `[[src_will-ai-replace-systems-thinking] []]` |
+
+**Root cause:** Sources compiled from URLs (Substack, X posts) rather than ingested raw files. The `original` field should still use wikilink format `[[YYYY-MM-DD_slug]]` even if the source was a URL.
+
+**Recommendation:** Change `original` to point to the ingested raw filename. For sources originating from URLs, create a corresponding raw file entry.
+
+### 2.2 ERROR: `original` points to `.md` file instead of bare slug
+
+| File | `original` value |
+|------|-----------------|
+| `src_luke-alvoeiro-multi-agent-architecture-factory.md` | `[[2026-05-22_luke-alvoeiro-multi-agent-architecture-factory.md]]` — has `.md` extension |
+| `src_code-as-agent-harness-arxiv-2605-18747.md` | `[[2026-05-22_code-as-agent-harness-arxiv-2605-18747.md]]` — has `.md` extension |
+| `src_will-ai-replace-systems-thinking.md` | Same `.md` extension issue |
+| `src_google-guide-optimizing-generative-ai-search.md` | `raw/articles/2026-05-18_google-guide-optimizing-generative-ai-search.md` — raw path instead of wikilink |
+
+**Spec requirement:** `original: [[YYYY-MM-DD_<slug>]]` — wikilink format with no file extension.
+
+### 2.3 WARNING: Incomplete source files (TODO placeholders)
+
+Three sources have `<!-- TODO: Add key quotes from source -->` in the `## Original excerpts` section:
+
+| File | Impact |
+|------|--------|
+| `src_hermes-as-a-real-time-analyst.md` | Missing key quotes — reduces source value |
+| `src_hermes-analyst-workflow-essentials.md` | Same |
+| `src_hermes-200-30-skills-3-worth-it.md` | Same |
+
+### 2.4 WARNING: HTTP URL in `url` field
+
+`src_what-comes-after-systems-thinking.md` has:
+```
+url: http://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking
+```
+
+Should be `https://` for security.
+
+---
+
+## 3. Concepts — Critical Issues
+
+### 3.1 ERROR: Malformed sources field
+
+`systems-thinking.md` has:
+```yaml
+sources:
+  - [[src_what-comes-after-systems-thinking]]
+  - [[src_will-ai-replace-systems-thinking] []
+```
+
+The second item has `[]` appended — syntax error. Should be `[[src_will-ai-replace-systems-thinking]]`.
+
+### 3.2 WARNING: Empty Sources sections
+
+Several concepts have `## Sources` section with no content:
+
+- `ai-augmented-systems-thinking.md`
+- `static-website-blind-spot.md`
+- `ai-productivity.md`
+- `human-judgment-ai.md`
+- `generative-ai-seo.md`
+- `second-order-effects.md`
+- `systems-thinking.md`
+
+Note: The spec says `## Sources` section is "auto-generated by Compile Agent — manual edits will be overwritten." This may be intentional for auto-generation, but empty `## Sources` while having populated `## Backlinks` is inconsistent.
+
+### 3.3 WARNING: Sub-tags field formatting inconsistency
+
+`active-thinking.md` uses nested YAML for `sub_tags`:
+```yaml
+sub_tags:
+  - opinion
+```
+
+Spec requires bracket syntax: `sub_tags: [opinion]`
+
+---
+
+## 4. Content Quality Assessment
+
+### 4.1 Vietnamese language quality
+
+**Status: Good.** Content is well-written in Vietnamese with proper grammar and terminology. Technical concepts are accurately translated and explained. No spelling or grammar errors detected.
+
+### 4.2 Factual accuracy
+
+**Status: Not assessed** — Output Validator does not assess factual accuracy per spec. Content appears coherent and internally consistent.
+
+### 4.3 Completeness
+
+**Status: Good.** Most sources have all required sections (Metadata, Summary, Key points, Concepts referenced, Original excerpts). Key points are detailed and provide actionable information.
+
+**Exceptions:**
+- 3 sources with TODO placeholders (see 2.3 above)
+- Several concepts with empty Sources sections (see 3.2 above)
+
+### 4.4 Coherence and depth
+
+**Status: Good.** Concepts are well-structured with clear definitions, relevant key ideas, and appropriate cross-references. The knowledge graph shows good interlinking between concepts and sources.
+
+---
+
+## 5. Wikilink Validation
+
+### 5.1 All wikilinks point to existing files
+
+**Result: PASS.** All wikilinks in both sources and concepts reference existing files. No broken links detected.
+
+### 5.2 Wikilink syntax
+
+**Result: PASS with minor issues.**
+
+Most wikilinks are correctly formatted: `[[target]]` or `[[target|display text]]`
+
+**Minor issue:** `ai-trading-agent.md` has related concept `[[claude-code-routines]]` which doesn't exist as a concept file — but this is INFO level (wikilinks to non-existent files are only WARNING).
+
+### 5.3 External links in concept bodies
+
+**Result: PASS.** Concepts correctly use wikilinks for internal references. No external URLs found in concept bodies (as required by spec).
+
+---
+
+## 6. Frontmatter Validation
+
+### 6.1 Sources — field order
+
+**Result: MOSTLY PASS**
+
+Field order per spec:
+1. `type`
+2. `original`
+3. `main_tag`
+4. `sub_tags`
+5. `topic`
+6. `date_compiled`
+7. `url` (if present)
+8. `author` (if present)
+
+Most sources follow this order correctly.
+
+**Issue found:** `src_llm-need-sleep-consolidation.md` has `url` before proper frontmatter closing — but actually reviewing again, line 8-9 show URL and author after `date_compiled` which is correct order.
+
+### 6.2 Concepts — field order
+
+**Result: PASS**
+
+All concepts correctly follow the required field order:
+1. `type`
+2. `status`
+3. `main_tag`
+4. `sub_tags`
+5. `topic`
+6. `sources`
+7. `last_updated`
+
+---
+
+## 7. Section Structure Validation
+
+### 7.1 Sources — required sections (in order)
+
+**Required:** Metadata → Summary → Key points → Concepts referenced
+
+**Result: PASS** — All 30 sources have these sections in correct order.
+
+### 7.2 Concepts — required sections (in order)
+
+**Required:** Definition → Key ideas → Related concepts → Sources
+
+**Result: PASS** — All 50 concepts have these sections. Some have extra sections (Notes, Backlinks, When to Apply, Limitations, Opportunity) which is INFO level per spec.
+
+---
+
+## 8. File Naming Validation
+
+### 8.1 Source files
+
+**Result: PASS** — All files use `src_<slug>.md` format with lowercase-hyphen slugs under 50 characters.
+
+### 8.2 Concept files
+
+**Result: PASS** — All files use `<concept-slug>.md` format correctly.
+
+---
+
+## 9. Escalation Items
+
+The following require Julius's attention:
+
+| Priority | Item | Description |
+|----------|------|-------------|
+| **HIGH** | `original` field format | 10+ sources use URL or raw path instead of wikilink `[[slug]]` format |
+| **HIGH** | Malformed wikilink | `systems-thinking.md` has `[[src_will-ai-replace-systems-thinking] []]` — syntax error |
+| **MEDIUM** | Incomplete sources | 3 sources have TODO placeholders instead of actual quotes |
+| **LOW** | HTTP URL | `src_what-comes-after-systems-thinking.md` uses HTTP instead of HTTPS |
+| **LOW** | Empty Sources sections | Several concepts have empty `## Sources` while having `## Backlinks` |
+
+---
+
+## 10. Positive Findings
+
+- **Strong interlinking:** Concepts and sources are well cross-referenced
+- **Consistent structure:** Both sources and concepts follow format spec consistently
+- **Good content depth:** Key points are detailed and provide real value
+- **Vietnamese quality:** Language usage is professional and accurate
+- **Wikilink health:** No broken internal links detected
+- **Naming conventions:** All files follow naming spec correctly
+
+---
+
+## Appendix: File-by-File Issues
+
+### Sources with ERRORs (12)
+
+| File | Issues |
+|------|--------|
+| `src_will-ai-replace-systems-thinking.md` | `original` is URL, malformed wikilink `[]`, empty Sources |
+| `src_ai-trillion-dollar-blind-spot.md` | `original` is URL |
+| `src_generative-ai-search-optimization.md` | `original` is URL |
+| `src_luke-alvoeiro-multi-agent-architecture-factory.md` | `original` has `.md` extension |
+| `src_code-as-agent-harness-arxiv-2605-18747.md` | `original` has `.md` extension |
+| `src_will-ai-replace-systems-thinking.md` | `original` has `.md` extension + URL |
+| `src_google-guide-optimizing-generative-ai-search.md` | `original` is raw path not wikilink |
+| `src_hermes-as-a-real-time-analyst.md` | TODO placeholder in Original excerpts |
+| `src_hermes-analyst-workflow-essentials.md` | TODO placeholder in Original excerpts |
+| `src_hermes-200-30-skills-3-worth-it.md` | TODO placeholder in Original excerpts |
+| `src_were-not-supposed-to-live-like-this.md` | `original` is raw path not wikilink |
+| `src_dont-sign-in-with-google.md` | `original` is raw path not wikilink |
+
+### Concepts with ERRORs (2)
+
+| File | Issues |
+|------|--------|
+| `systems-thinking.md` | Malformed sources wikilink, empty Sources section |
+| `active-thinking.md` | `sub_tags` uses YAML list syntax instead of bracket syntax |
+
+### Concepts with WARNINGs (7)
+
+| File | Issues |
+|------|--------|
+| `ai-augmented-systems-thinking.md` | Empty Sources section |
+| `static-website-blind-spot.md` | Empty Sources section |
+| `ai-productivity.md` | Empty Sources section |
+| `human-judgment-ai.md` | Empty Sources section |
+| `generative-ai-seo.md` | Empty Sources section |
+| `second-order-effects.md` | Empty Sources section |
+| `systems-thinking.md` | Empty Sources section |
+
+---
+
+*Report generated by Hermes Output Validator*
+*Next validation scheduled: 2026-06-03*

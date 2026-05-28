@@ -1,8 +1,11 @@
 ---
 type: source
-original: [[2026-05-20_xdevelopers-hermes-xurl-skill-guide]]
+original: "[[2026-05-20_xdevelopers-hermes-xurl-skill-guide]]"
 main_tag: ai
-sub_tags: [tools, tutorial, automation]
+sub_tags:
+  - tools
+  - tutorial
+  - automation
 topic: hermes-xurl-x-api-integration
 date_compiled: 2026-05-21
 url: https://x.com/XDevelopers/status/2056871280599847054

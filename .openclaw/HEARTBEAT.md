@@ -47,3 +47,18 @@
 ---
 
 *Next heartbeat: 13:30 Asia/Saigon*
+---
+
+## 2026-05-29 06:30 UTC
+
+**Status:** HEARTBEAT_OK
+
+| Zone | Status |
+|---|---|
+| Inbox | Clean — no pending items |
+| Raw backlog | Clean — 0 unprocessed |
+| Pending reviews | 3 completed items (all approved/resolved) |
+| Wiki concepts | 163 files |
+| Wiki sources | 36 files |
+| Tag indexes | 19 tags, 58 updated last 7 days |
+

@@ -1,62 +1,35 @@
-# HEARTBEAT.md
+# OpenClaw Heartbeat Log
 
-> OpenClaw system health log
-> Updated: 2026-05-29 20:00 (Asia/Saigon)
-
----
-
-## Status: ✅ HEALTHY
-
-**Heartbeat:** 2026-05-29 20:00 (Asia/Saigon)
+**Last check:** 2026-05-29 20:30 Asia/Saigon
+**Status:** HEARTBEAT_OK
 
 ---
 
-## Checks
+## System Health
 
-| Check | Result | Notes |
-|---|---|---|
-| Inbox | ✅ | No #agent/inbox entries |
-| Raw backlog | ✅ | 2 files unprocessed (cash-flow + japanese-evening-routine) — compile runs 08:00 |
-| Concept backlinks | ✅ | Sample checked — structure correct |
-| Pending reviews | ⚠️ | 3 reports pending Julius approval |
-
----
-
-## Raw Status
-
-| Type | Total | Processed | Unprocessed |
-|---|---|---|---|
-| Articles | 22 | 21 | 1 |
-| Papers | 3 | 3 | 0 |
-| Videos | 4 | 3 | 1 |
-| Posts | 6 | 6 | 0 |
-
-**Oldest unprocessed:** 2026-05-29_how-to-read-cash-flow-statement.md (today, 12h ago)
+| Metric | Value |
+|---|---|
+| Raw articles | 23 |
+| Raw papers | 4 |
+| Unprocessed files | 1 (today) |
+| Wiki concepts | 163 |
+| Wiki sources | 36 |
+| Pending reviews | 0 |
 
 ---
 
-## Wiki Counts
+## Current State
 
-- **wiki/concepts/**: 163 files
-- **wiki/sources/**: 36 files
-
----
-
-## Pending Reviews
-
-- ⏳ Output Validator — 2026-05-29: 1 ERROR + 2 WARNING + 1 INFO
-- ⏳ Hygiene Inspector — 2026-05-29: 32 missing concept files → compile needed
-- ⏳ Format Validator — 2026-05-28: 7 ERROR + 14 WARNING
-
-**Details:** `wiki/reviews/_action-required.md`
+- **Unprocessed:** 1 file — `raw/articles/2026-05-29_how-to-read-cash-flow-statement.md` (today, normal)
+- **Pending reviews:** None — all action-required items already approved
+- **Next scheduled:** Index update at 21:00
 
 ---
 
-## Scheduled
+## Notes
 
-- **Next compile:** 2026-05-30 08:00 (2 unprocessed files)
-- **Next index:** 2026-05-29 21:00
+- System stable. No action required.
 
 ---
 
-*HEARTBEAT_OK*
+*Next index: 2026-05-29 21:00*

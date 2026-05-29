@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: coding
 auto_generated: true
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # Tag: #coding
@@ -19,7 +19,7 @@ last_updated: 2026-05-28
 - Total files: 4
 - Sources: 1
 - Concepts: 3
-- Last updated: 2026-05-28
+- Last updated: 2026-05-29
 
 ## Files with this tag
 

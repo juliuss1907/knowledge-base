@@ -2,15 +2,15 @@
 
 Auto-generated index of all content with topic `ai-systems-thinking-augmentation`.
 
-Last updated: 2026-05-28 21:02:17
+Last updated: 2026-05-29 21:05:51
 
 ---
 
 ## Concepts (3)
 
-- [[human-judgment-ai]] — main: #ai, sub: [#opinion, #research]
-- [[ai-productivity]] — main: #ai, sub: [#tools, #opinion]
 - [[ai-augmented-systems-thinking]] — main: #ai, sub: [#opinion, #research]
+- [[ai-productivity]] — main: #ai, sub: [#tools, #opinion]
+- [[human-judgment-ai]] — main: #ai, sub: [#opinion, #research]
 
 ## Sources (1)
 

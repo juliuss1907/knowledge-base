@@ -2,15 +2,15 @@
 
 Auto-generated index of all content with topic `github-supply-chain-attack-vs-code`.
 
-Last updated: 2026-05-28 21:02:17
+Last updated: 2026-05-29 21:05:51
 
 ---
 
 ## Concepts (3)
 
 - [[supply-chain-attack]] — main: #tech, sub: [#hack, #tools]
-- [[vs-code-marketplace-security]] — main: #tech, sub: [#hack, #tools]
 - [[team-pcp-hacker-group]] — main: #tech, sub: [#hack, #news]
+- [[vs-code-marketplace-security]] — main: #tech, sub: [#hack, #tools]
 
 ## Sources (1)
 

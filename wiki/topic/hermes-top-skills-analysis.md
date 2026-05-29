@@ -2,17 +2,17 @@
 
 Auto-generated index of all content with topic `hermes-top-skills-analysis`.
 
-Last updated: 2026-05-28 21:02:17
+Last updated: 2026-05-29 21:05:51
 
 ---
 
 ## Concepts (5)
 
+- [[external-memory-providers]] — main: #ai, sub: [#tools, #research]
+- [[hermes-token-management]] — main: #ai, sub: [#tools, #opinion]
 - [[reflect-skill-hindsight]] — main: #ai, sub: [#tools, #automation]
 - [[x-account-tracking-skill]] — main: #ai, sub: [#tools, #automation]
 - [[x-bookmark-prioritization]] — main: #ai, sub: [#tools, #automation]
-- [[hermes-token-management]] — main: #ai, sub: [#tools, #opinion]
-- [[external-memory-providers]] — main: #ai, sub: [#tools, #research]
 
 ## Sources (1)
 

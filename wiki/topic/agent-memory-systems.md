@@ -2,16 +2,16 @@
 
 Auto-generated index of all content with topic `agent-memory-systems`.
 
-Last updated: 2026-05-28 21:02:17
+Last updated: 2026-05-29 21:05:51
 
 ---
 
 ## Concepts (5)
 
 - [[agent-memory-taxonomy]] — main: #ai, sub: [#research, #tools]
-- [[memory-extraction-timing]] — main: #ai, sub: [#research, #tools]
-- [[autobiographical-memory-systems]] — main: #ai, sub: [#tools]
+- [[autobiographical-memory-systems]] — main: #ai, sub: [#research, #memory]
 - [[consolidation-offline-processing]] — main: #ai, sub: [#research, #automation]
+- [[memory-extraction-timing]] — main: #ai, sub: [#research, #tools]
 - [[prospective-memory-gap]] — main: #ai, sub: [#research]
 
 ## Sources (1)

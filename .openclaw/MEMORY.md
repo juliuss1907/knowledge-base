@@ -76,3 +76,11 @@ Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử l�
 **Recommendation:** Julius chạy `rm -rf` hoặc di chuyển các thư mục/file trên theo preference.
 
 **Status:** Output fixes complete ✅ | Hygiene issues escalated ⏳
+## 2026-05-29 21:05:58 — Indexed
+
+- **Scanned:** 162 concepts + 36 sources = 198 total files
+- **Tags indexed:** 18
+- **Topics indexed:** 56
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 30
+- **Errors:** 1 file skipped due to invalid frontmatter

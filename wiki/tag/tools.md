@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-05-28
 
 ## Stats
 
-- Total files: 95
-- Sources: 20
-- Concepts: 75
-- Last updated: 2026-05-28
+- Total files: 90
+- Sources: 19
+- Concepts: 71
+- Last updated: 2026-05-29
 
 ## Files with this tag
 
@@ -31,14 +31,12 @@ last_updated: 2026-05-28
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
 - [[ai-legal-personhood]] — Ai Legal Personhood (concept)
 - [[ai-overviews]] — Ai Overviews (concept)
-- [[ai-powered-discovery]] — Ai Powered Discovery (concept)
 - [[ai-productivity]] — Ai Productivity (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
 - [[ai-trading-agent]] — Ai Trading Agent (concept)
 - [[alpaca-api]] — Alpaca Api (concept)
 - [[atomic-mac-agent]] — Atomic Mac Agent (concept)
-- [[autobiographical-memory-systems]] — Autobiographical Memory Systems (concept)
 - [[browser-harness-tool]] — Browser Harness Tool (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
 - [[claude-code-routines]] — Claude Code Routines (concept)
@@ -47,7 +45,7 @@ last_updated: 2026-05-28
 - [[consent-phishing]] — Consent Phishing (concept)
 - [[conversational-website]] — Conversational Website (concept)
 - [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
-- [[discipline-system]] — Discipline System (concept)
+- [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[factory-missions]] — Factory Missions (concept)
@@ -66,7 +64,6 @@ last_updated: 2026-05-28
 - [[hermes-token-management]] — Hermes Token Management (concept)
 - [[hindsight-skill]] — Hindsight Skill (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
-- [[leading-indicators]] — Leading Indicators (concept)
 - [[llm-sleep]] — Llm Sleep (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
 - [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
@@ -90,7 +87,6 @@ last_updated: 2026-05-28
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
 - [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source)
-- [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
@@ -107,7 +103,6 @@ last_updated: 2026-05-28
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
 - [[state-space-models-ssm]] — State Space Models Ssm (concept)
-- [[static-website-blind-spot]] — Static Website Blind Spot (concept)
 - [[supply-chain-attack]] — Supply Chain Attack (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
@@ -121,8 +116,8 @@ last_updated: 2026-05-28
 
 ## Co-occurring tags
 
-- [[ai]] — 66 co-occurrences
+- [[ai]] — 63 co-occurrences
 - [[automation]] — 42 co-occurrences
-- [[research]] — 18 co-occurrences
+- [[research]] — 19 co-occurrences
 - [[tech]] — 17 co-occurrences
 - [[tutorial]] — 16 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: news
 auto_generated: true
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # Tag: #news
@@ -16,16 +16,18 @@ last_updated: 2026-05-28
 
 ## Stats
 
-- Total files: 6
+- Total files: 8
 - Sources: 2
-- Concepts: 4
-- Last updated: 2026-05-28
+- Concepts: 6
+- Last updated: 2026-05-29
 
 ## Files with this tag
 
 - [[google-ai-overviews]] — Google Ai Overviews (concept)
 - [[grok-hermes-integration]] — Grok Hermes Integration (concept)
 - [[rot-economy]] — Rot Economy (concept)
+- [[saudi-pakistan-defense-agreement]] — Saudi Pakistan Defense Agreement (concept)
+- [[softbank-carry-trade]] — Softbank Carry Trade (concept)
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
 - [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source)
 - [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)

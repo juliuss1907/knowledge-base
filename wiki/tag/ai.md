@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: ai
 auto_generated: true
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # Tag: #ai
@@ -16,10 +16,10 @@ last_updated: 2026-05-28
 
 ## Stats
 
-- Total files: 91
-- Sources: 19
-- Concepts: 72
-- Last updated: 2026-05-28
+- Total files: 98
+- Sources: 20
+- Concepts: 78
+- Last updated: 2026-05-29
 
 ## Files with this tag
 
@@ -49,10 +49,13 @@ last_updated: 2026-05-28
 - [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)
 - [[conversational-website]] — Conversational Website (concept)
 - [[coordinated-vulnerability-disclosure]] — Coordinated Vulnerability Disclosure (concept)
+- [[csa-hca-attention]] — Csa Hca Attention (concept)
+- [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)
 - [[default-mode-network]] — Default Mode Network (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[factory-missions]] — Factory Missions (concept)
 - [[fast-weights]] — Fast Weights (concept)
+- [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-seo]] — Generative Ai Seo (concept)
 - [[generative-search-results]] — Generative Search Results (concept)
@@ -70,8 +73,11 @@ last_updated: 2026-05-28
 - [[kv-cache-eviction]] — Kv Cache Eviction (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[llm-sleep]] — Llm Sleep (concept)
+- [[long-context-models]] — Long Context Models (concept)
+- [[manifold-constrained-hyper-connections]] — Manifold Constrained Hyper Connections (concept)
 - [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
+- [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
 - [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
 - [[multi-agent-taxonomy]] — Multi Agent Taxonomy (concept)
 - [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
@@ -94,6 +100,7 @@ last_updated: 2026-05-28
 - [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
 - [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
+- [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
 - [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
@@ -117,8 +124,8 @@ last_updated: 2026-05-28
 
 ## Co-occurring tags
 
-- [[tools]] — 66 co-occurrences
-- [[research]] — 38 co-occurrences
+- [[tools]] — 63 co-occurrences
+- [[research]] — 48 co-occurrences
 - [[automation]] — 36 co-occurrences
 - [[opinion]] — 18 co-occurrences
 - [[tutorial]] — 10 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: productivity
 auto_generated: true
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-05-28
 
 ## Stats
 
-- Total files: 26
-- Sources: 4
-- Concepts: 22
-- Last updated: 2026-05-28
+- Total files: 31
+- Sources: 5
+- Concepts: 26
+- Last updated: 2026-05-29
 
 ## Files with this tag
 
@@ -30,12 +30,15 @@ last_updated: 2026-05-28
 - [[dunbar-number]] — Dunbar Number (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
 - [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
+- [[existential-vacuum]] — Existential Vacuum (concept)
 - [[glymphatic-system]] — Glymphatic System (concept)
 - [[hedonic-treadmill]] — Hedonic Treadmill (concept)
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
 - [[information-compression]] — Information Compression (concept)
 - [[lazy-thinking]] — Lazy Thinking (concept)
 - [[leading-indicators]] — Leading Indicators (concept)
+- [[logotherapy-frankl]] — Logotherapy Frankl (concept)
+- [[meaning-through-suffering]] — Meaning Through Suffering (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
 - [[negative-compounding]] — Negative Compounding (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
@@ -46,13 +49,15 @@ last_updated: 2026-05-28
 - [[philosopher-syndrome]] — Philosopher Syndrome (concept)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
+- [[tragic-optimism]] — Tragic Optimism (concept)
 
 ## Co-occurring tags
 
-- [[opinion]] — 20 co-occurrences
-- [[research]] — 7 co-occurrences
+- [[opinion]] — 24 co-occurrences
+- [[research]] — 8 co-occurrences
 - [[tutorial]] — 4 co-occurrences
-- [[tools]] — 3 co-occurrences
+- [[tools]] — 1 co-occurrence

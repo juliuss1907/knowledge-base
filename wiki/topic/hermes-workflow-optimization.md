@@ -2,17 +2,17 @@
 
 Auto-generated index of all content with topic `hermes-workflow-optimization`.
 
-Last updated: 2026-05-28 21:02:17
+Last updated: 2026-05-29 21:05:51
 
 ---
 
 ## Concepts (5)
 
-- [[user-md-configuration]] — main: #ai, sub: [#tools, #tutorial]
 - [[agent-skill-management]] — main: #ai, sub: [#automation, #tools, #tutorial]
-- [[hermes-three-layers]] — main: #ai, sub: [#tools, #automation, #tutorial]
 - [[browser-harness-tool]] — main: #ai, sub: [#tools, #automation]
+- [[hermes-three-layers]] — main: #ai, sub: [#tools, #automation, #tutorial]
 - [[soul-md-configuration]] — main: #ai, sub: [#tools, #tutorial]
+- [[user-md-configuration]] — main: #ai, sub: [#tools, #tutorial]
 
 ## Sources (1)
 

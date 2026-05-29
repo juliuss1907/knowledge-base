@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: hack
 auto_generated: true
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # Tag: #hack
@@ -19,7 +19,7 @@ last_updated: 2026-05-28
 - Total files: 14
 - Sources: 3
 - Concepts: 11
-- Last updated: 2026-05-28
+- Last updated: 2026-05-29
 
 ## Files with this tag
 

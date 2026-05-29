@@ -1,7 +1,7 @@
 # OpenClaw Heartbeat
 
 > Automated health check every 30 minutes
-> Last check: 2026-05-30 05:00 +07
+> Last check: 2026-05-30 05:30 +07
 
 ---
 
@@ -32,34 +32,16 @@
 | Hygiene Inspector | 2026-05-29 | 32 missing concept files | ⏳ PENDING |
 | Format Validator | 2026-05-28 | 7 ERROR + 14 WARNING | ⏳ PENDING |
 
-**Details:** `wiki/reviews/_action-required.md`
-
 ---
 
-## System Summary
+## System Stats
 
-| Path | Count |
+| Metric | Value |
 |---|---|
-| `wiki/concepts/` | 163 files |
-| `wiki/sources/` | 36 files |
-| `wiki/tag/` | updated daily |
-| `wiki/topic/` | updated daily |
-
-**Last index update:** 2026-05-29 21:00  
-**CompileAgent next run:** 2026-05-30 08:00
+| Wiki concepts | 163 |
+| Articles processed | 17 / 17 |
+| Papers processed | 2 / 2 |
 
 ---
 
-## Concept Backlinks
-
-10 files missing `sources/` backlinks — noted for awareness, not blocking:
-
-```
-agent-memory-taxonomy.md, self-reinforcing-systems.md, user-md-configuration.md,
-existential-vacuum.md, memory-extraction-timing.md, productivity-wage-gap.md,
-skill-atrophy.md, hermes-agent.md, hunter-gatherer-lifestyle.md, systems-thinking-limitations.md
-```
-
----
-
-*Next heartbeat: 2026-05-30 05:30 +07*
+*Next heartbeat: 06:00 +07*

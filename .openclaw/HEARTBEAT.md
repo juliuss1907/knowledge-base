@@ -1,47 +1,53 @@
-# OpenClaw Heartbeat
+# HEARTBEAT.md — OpenClaw System Health Log
 
-> Automated health check every 30 minutes
-> Last check: 2026-05-30 05:30 +07
+> Automated health check log — Updated every 30 minutes
+> Last check: 2026-05-30 06:00 Asia/Saigon
 
 ---
 
-## Status: HEARTBEAT_OK
+## Status Summary
 
-**Inbox:** 0 items  
-**Raw unprocessed:** 2 files (from yesterday)  
-**Pending reviews:** 3 reports awaiting Julius approval
+| Check | Status | Detail |
+|---|---|---|
+| Inbox | ✅ Clean | No #agent/inbox items |
+| Raw Backlog | ⚠️ 2 files | From yesterday (2026-05-29) |
+| Concept Backlinks | ⚠️ Unknown | Need compile run |
+| Pending Reviews | ⚠️ 3 reports | May 28-29, awaiting Julius approval |
 
 ---
 
 ## Raw Backlog
 
-| File | Status | Days Old |
+| File | Ingested | Age |
 |---|---|---|
-| `raw/articles/2026-05-29_how-to-read-cash-flow-statement.md` | unprocessed | 1 |
-| `raw/videos/2026-05-29_japanese-evening-routine-fix-sleep.md` | unprocessed | 1 |
+| `raw/articles/2026-05-29_how-to-read-cash-flow-statement.md` | 2026-05-29 | ~24h |
+| `raw/videos/2026-05-29_japanese-evening-routine-fix-sleep.md` | 2026-05-29 | ~24h |
 
-*Note: Category index files (articles.md, papers.md, repos.md, etc.) are not content — excluded from backlog.*
-
----
-
-## Pending Hermes Reports
-
-| Report | Date | Issues | Status |
-|---|---|---|---|
-| Output Validator | 2026-05-29 | 1 ERROR + 2 WARNING + 1 INFO | ⏳ PENDING |
-| Hygiene Inspector | 2026-05-29 | 32 missing concept files | ⏳ PENDING |
-| Format Validator | 2026-05-28 | 7 ERROR + 14 WARNING | ⏳ PENDING |
+→ CompileAgent will process at 08:00 (in ~2 hours)
 
 ---
 
-## System Stats
+## Pending Hermes Reviews
 
-| Metric | Value |
-|---|---|
-| Wiki concepts | 163 |
-| Articles processed | 17 / 17 |
-| Papers processed | 2 / 2 |
+1. **Output Validator — 2026-05-29** (PENDING)
+   - 1 ERROR + 2 WARNING + 1 INFO
+
+2. **Hygiene Inspector — 2026-05-29** (PENDING)
+   - 32 missing concept files → requires compile run first
+
+3. **Format Validator — 2026-05-28** (PENDING)
+   - 7 ERROR + 14 WARNING (field order, YAML syntax, section headers)
+
+→ Julius: `wiki/reviews/_action-required.md`
 
 ---
 
-*Next heartbeat: 06:00 +07*
+## Previous Heartbeats
+
+- 2026-05-29 23:30 — Clean
+- 2026-05-29 16:00 — Clean
+- 2026-05-29 08:00 — Compiled 7 files (7 source + 3 concept new)
+
+---
+
+*HEARTBEAT_OK with notes — 2026-05-30 06:00*

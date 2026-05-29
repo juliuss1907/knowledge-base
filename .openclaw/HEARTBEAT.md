@@ -46,3 +46,10 @@
 2026-05-29 23:00 → HEARTBEAT_OK
 Inbox: 0 | Raw backlog: 2 (today) | Pending: 3 reports
 ```
+
+---
+timestamp: 2026-05-30 01:00 +07
+status: HEARTBEAT_OK
+inbox: 0
+raw_unprocessed: 0
+pending_reviews: 0

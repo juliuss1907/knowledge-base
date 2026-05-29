@@ -15,7 +15,7 @@ last_updated: 2026-05-29
 
 Trường phái tâm lý trị liệu do Viktor Frankl phát triển, tập trung vào việc tìm kiếm ý nghĩa (logos) trong cuộc sống là động lực chính của con người — thay vì khoái lạc (thuyết Freud) hay quyền lực (thuyết Adler).
 
-## Core tenets
+## Key ideas
 
 - **Life has meaning under all circumstances:** Ngay cả trong đau khổ tột cùng
 - **Main motivation:** Ý chí tìm kiếm ý nghĩa (will to meaning), không phải will to pleasure hay will to power

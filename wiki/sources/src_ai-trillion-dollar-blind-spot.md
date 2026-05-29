@@ -11,10 +11,6 @@ author: Suyash Karn
 
 # AI's Trillion-Dollar Blind Spot: The Static Website
 
-**Source:** X post by @SuyashKarn2  
-**Published:** 2025-05-24  
-**Compiled:** 2026-05-26
-
 ## Metadata
 
 - **Source type:** X post
@@ -24,7 +20,7 @@ author: Suyash Karn
 
 ## Summary
 
-Companies are racing to embed AI into their products while ignoring the most critical customer touchpoint: the static landing page. The traditional website cannot have conversations or adapt to context, creating high friction for potential customers trying to determine product relevance.
+Companies are racing to embed AI into their products while ignoring the most critical customer touchpoint: the static landing page. The traditional website cannot have conversations or adapt to context, creating high friction for potential customers trying to determine product relevance. This represents a trillion-dollar blind spot where businesses invest heavily in AI capabilities for their products but leave their primary discovery interface—the landing page—unchanged and static. The article argues that the real issue is not about optimizing button colors or rewriting copy, but about fundamentally rebuilding the discovery layer with AI-powered conversational interfaces that can adapt to each visitor's specific context and questions. This shift would allow websites to do what they were originally meant to do: help people understand products and determine relevance, but through a dynamic, interactive dialogue instead of static one-way communication.
 
 ## Key points
 

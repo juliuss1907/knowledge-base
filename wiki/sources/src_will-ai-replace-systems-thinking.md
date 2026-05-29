@@ -11,10 +11,6 @@ author: pmresearcher
 
 # Will AI Replace Systems Thinking?
 
-**Source:** PM Researcher (Substack)  
-**Published:** 2025-05-24  
-**Compiled:** 2026-05-26
-
 ## Metadata
 
 - **Source type:** Article (Substack)
@@ -24,7 +20,7 @@ author: pmresearcher
 
 ## Summary
 
-AI will not replace systems thinking, but it will fundamentally change how systems thinking is practiced. The article argues that AI is a powerful assistant for pattern recognition and complexity processing, but cannot replace human judgment on questions of boundaries, incentives, tradeoffs, and values.
+AI will not replace systems thinking, but it will fundamentally change how systems thinking is practiced. The article argues that AI is a powerful assistant for pattern recognition and complexity processing, but cannot replace human judgment on questions of boundaries, incentives, tradeoffs, and values. While AI excels at summarizing complexity, generating scenarios, mapping dependencies, and surfacing weak signals, it cannot decide what matters or understand context, values, power dynamics, and trust. The core questions that drive systems thinking— What problem are we really solving? Where are we drawing the system boundary? Who benefits and who is burdened? What second- and third-order effects might emerge?—remain fundamentally human responsibilities. The article concludes that the future belongs to people who know how to think with AI without surrendering their judgment to it, suggesting a collaborative rather than substitutive relationship between human systems thinkers and AI tools.
 
 ## Key points
 

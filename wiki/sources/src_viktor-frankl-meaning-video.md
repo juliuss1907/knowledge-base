@@ -4,9 +4,9 @@ original: "[[2026-05-28_viktor-frankl-finding-meaning-meaningless-world]]"
 main_tag: productivity
 sub_tags: [opinion]
 topic: meaning-life-purpose
+date_compiled: 2026-05-29
 url: https://www.youtube.com/watch?v=JX-8-IYhQKk
 author: Einzelgänger (YouTube)
-date_compiled: 2026-05-29
 ---
 
 # Viktor Frankl — Finding Meaning in a Meaningless World

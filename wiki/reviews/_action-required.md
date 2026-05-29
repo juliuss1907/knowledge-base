@@ -4,16 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-28 09:47 — Format Validator scan complete
+**Last updated:** 2026-05-29 11:20 — Output Validator scan complete (4 issues: 1 ERROR + 2 WARNING + 1 INFO)
 
 ---
 
 ## Summary
 
-**Pending reports:** 1
+**Pending reports:** 3
 
 **Status:**
+- ⏳ Output Validator — 2026-05-29: PENDING (1 ERROR: softbank-carry-trade empty Sources body)
+- ⏳ Hygiene Inspector — 2026-05-29: PENDING (32 missing concept files → OpenClaw compile needed)
 - ⏳ Format Validator — 2026-05-28: PENDING (80 ERROR — wikilinks not quoted)
+- ✅ Output Validator — 2026-05-28: PENDING (7 issues from yesterday — carried forward)
 - ✅ Hygiene Inspector — 2026-05-28: approved (memory/ merged, RAW_BACKLOG.md deleted, venv kept)
 - ✅ Output Validator — 2026-05-26: approved (2 ERROR + 4 WARNING → Kara fix)
 - ✅ Format Validator — 2026-05-26: approved (4 new files — source_type/source_url → original, section names, tags)
@@ -49,10 +52,9 @@
 
 ## Critical Issues (Fix Immediately)
 
-**80 ERRORs found — Wikilinks in frontmatter fields not quoted (format-spec v2.2 violation)**
-- 29 source files: `original:` field needs quotes
-- 51 concept files: `sources:` array items need quotes
-- See: `wiki/reviews/2026-05-28_format-report.md`
+**33 ERRORs found (32 Hygiene + 1 Output):**
+- 32 wikilinks in source files point to concept files that don't exist yet → see: `wiki/reviews/2026-05-28_hygiene-report.md`
+- 1 Output Validator: softbank-carry-trade.md has empty `## Sources` section body despite frontmatter having sources listed
 
 ---
 

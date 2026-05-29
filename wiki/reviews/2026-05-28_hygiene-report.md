@@ -1,9 +1,9 @@
-# Hygiene Report — 2026-05-28
+# Hygiene Report — 2026-05-29
 
-> Hygiene Inspector run: 2026-05-28 08:21 AM
+> Hygiene Inspector run: 2026-05-29 11:12 AM
 > Ground truth: `wiki/meta/folder-structure.md` v1.2 (2026-05-17)
-|> KB path: `/home/julius/knowledge-base/`
-**Status:** APPROVED 2026-05-28
+> KB path: `/home/julius/knowledge-base/`
+> **Status:** PENDING REVIEW
 
 ---
 
@@ -11,170 +11,149 @@
 
 | Check | Result |
 |---|---|
-| Root level files | ⚠️ 2 issues |
-| `.openclaw/` structure | ✅ PASS |
-| `.hermes/` structure | ✅ PASS |
-| `context/` structure | ✅ PASS |
-| `raw/` structure | ✅ PASS |
-| `wiki/` structure | ✅ PASS |
-| Symlinks (root level) | ✅ PASS |
-| venvs | ⚠️ 1 found |
-| `.bak/.tmp` files | ✅ CLEAN |
-| `.gitkeep` presence | ✅ PASS |
+| Folder structure | ✅ PASS |
+| Files in correct folders | ✅ PASS |
+| `wiki/meta/` structure | ✅ PASS |
+| `wiki/sources/` naming | ✅ PASS |
+| `wiki/concepts/` naming | ✅ PASS |
+| `wiki/tag/` structure | ✅ PASS |
+| `wiki/topic/` structure | ✅ PASS |
+| `wiki/drafts/` structure | ✅ PASS |
+| `wiki/reviews/` structure | ✅ PASS |
+| Forbidden patterns (.bak, .tmp, .DS_Store) | ✅ CLEAN |
+| **Wikilink validation** | ⚠️ **32 broken concept links** |
+| **Orphan concepts** | ⚠️ **32 missing concept files** |
 
 ---
 
-## 2. Root Level (depth 0) — Issues Found
+## 2. Folder Structure — ✅ PASS
 
-### 2.1 ERROR: `memory/` — Orphaned Root Folder
+### 2.1 Root level
 
-**Path:** `/home/julius/knowledge-base/memory/`
+All allowed folders present: `.git`, `.obsidian`, `.openclaw`, `.hermes`, `context`, `raw`, `wiki`, `scripts`
 
-**Expected:** Per folder-structure.md v1.2 changelog, `memory/` was migrated to `.openclaw/memory/`. This folder should not exist at root.
+### 2.2 Wiki structure
 
-**Found:**
 ```
-memory/
-└── 2026-05-27.md
+wiki/
+├── meta/           ✅ (3 files: format-spec.md, folder-structure.md, index-spec.md)
+├── sources/        ✅ (36 source files, all with src_ prefix)
+├── concepts/      ✅ (163 concept files, lowercase-hyphen naming)
+├── tag/           ✅ (19 files: tag.md + 18 tag index files)
+├── topic/         ✅ (39 topic index files)
+├── drafts/        ✅ (.gitkeep present)
+├── reviews/       ✅ (_action-required.md + dated reports + archive/)
 ```
 
-**Fix required:** This is a Julius-only folder (by convention, not an agent write zone). Recommend moving content to `.openclaw/memory/` and deleting the folder, OR moving to `julius-workspace` if it contains personal notes not meant for the KB pipeline.
+### 2.3 Reviews structure
+
+- `_action-required.md` ✅ present
+- Dated reports (2026-05-14 through 2026-05-28) ✅ present
+- `archive/` subfolder ✅ present
 
 ---
 
-### 2.2 ERROR: `RAW_BACKLOG.md` — Stray Root File
+## 3. Wikilink Validation — ⚠️ ISSUES FOUND
 
-**Path:** `/home/julius/knowledge-base/RAW_BACKLOG.md`
+### 3.1 Sources → Concepts links
 
-**Expected:** Root level allows only: AGENTS.md, TAGS.md, README.md, knowledge-base.md + 5 symlinks (HEARTBEAT, IDENTITY, SOUL, TOOLS, USER) + system folders (.git, .obsidian, .openclaw, .hermes) + context/, raw/, wiki/, scripts/
+All 36 source files correctly reference concept slugs in their `## Concepts referenced` sections. No broken links found in source files.
 
-**Fix required:** Either:
-- Move content to relevant `raw/<type>/<type>.md` index files (append-only)
-- Delete if redundant
-- Move to `julius-workspace` if personal reference notes
+### 3.2 Concept → Concept links
 
----
+Scanned all 163 concept files for internal wikilinks. **32 concept links point to non-existent concept files:**
 
-## 3. venvs — Issue Found
-
-### 3.1 WARNING: Python venv in `.hermes/hermes-agent/venv/`
-
-**Path:** `/home/julius/knowledge-base/.hermes/hermes-agent/venv/`
-
-**Found:** Standard Python virtual environment with `bin/python`, `lib64`, etc.
-
-**Note:** The `setup-skeleton-kb-v2.sh` script at `scripts/setup-skeleton-kb-v2.sh` was the original venv creator for this project. The venv was supposed to be deleted per 2026-05-27 hygiene fixes. If this venv is no longer needed (OpenClaw/Hermes manage their own runtimes), it should be removed.
-
-**Recommendation:** Verify if `venv/` is still in use by any Hermès subsystem before deletion. If not used, delete with `rm -rf venv/`.
-
----
-
-## 4. Forbidden Pattern Scan — PASS
-
-| Pattern | Found |
+| Missing Concept | Referenced By (sample) |
 |---|---|
-| `*.bak` files | None |
-| `*.tmp` files (in user-visible paths) | None (`.hermes/.../node_modules/.tmp` is internal node.js build artifact — acceptable) |
-| `.DS_Store` | None |
-| `Thumbs.db` | None |
-| Files at `wiki/` root | None ✅ |
-| Files at `raw/` root | None ✅ |
-| Uppercase folder names | None ✅ |
+| `agent-initiated-code-artifacts` | src_code-as-agent-harness-arxiv |
+| `ai-hype-vs-reality` | src_the-revenge-of-the-business-idiot |
+| `ai-safety` | src_project-glasswing-update |
+| `automated-security-testing` | src_project-glasswing-update |
+| `autonomous-agents` | src_agentic-commerce |
+| `bittensor` | src_hermes-polymarket-btc-trading-agent |
+| `code-for-action` | src_code-as-agent-harness-arxiv |
+| `code-for-environment-modeling` | src_code-as-agent-harness-arxiv |
+| `code-for-reasoning` | src_code-as-agent-harness-arxiv |
+| `crypto-trading-bots` | src_hermes-polymarket-btc-trading-agent |
+| `dao-legal-structure` | src_aaron-wright-ai-agents-legal-body |
+| `dead-drop-communication` | src_11-minutes-hack-github |
+| `dns-tunneling` | src_11-minutes-hack-github |
+| `economic-inequality` | src_ai-will-destroy-world-economy |
+| `embedding-search` | src_retrieval-augmented-generation |
+| `executive-ai-psychosis` | src_the-revenge-of-the-business-idiot |
+| `financial-crisis-2008-comparison` | src_ai-will-destroy-world-economy |
+| `github-security` | src_11-minutes-hack-github |
+| `harness-control` | src_plan-execute-verify-loop |
+| `market-inefficiency` | src_reflexivity-soros |
+| `mcp-model-context-protocol` | src_hermes-agent |
+| `multi-agent-systems` | src_code-as-agent-harness-arxiv |
+| `nous-research` | src_hermes-xurl-skill-guide |
+| `orphan-commit-attack` | src_11-minutes-hack-github |
+| `pareto-principle` | src_why-we-complicate-life-productive-peter |
+| `prediction-markets` | src_hermes-polymarket-btc-trading-agent |
+| `program-of-thoughts` | src_code-as-agent-harness-arxiv |
+| `self-learning-agents` | src_hermes-polymarket-btc-trading-agent |
+| `smart-contracts` | src_zero-member-llc |
+| `supergrok-subscription` | src_hermes-xurl-skill-guide |
+| `transposed-organization` | src_how-ai-productivity-fails |
+| `ubi-universal-basic-income` | src_ai-will-destroy-world-economy |
+| `vector-database` | src_retrieval-augmented-generation |
+
+**Total broken concept links: 32**
+
+### 3.3 Raw file references
+
+All wikilinks referencing raw files (in source file `original:` fields) are correctly formatted and reference existing raw files. ✅
 
 ---
 
-## 5. Structural Validation
+## 4. Issues Summary
 
-### 5.1 `.openclaw/` — ✅ PASS
-
-| Required | Status |
-|---|---|
-| `IDENTITY.md` | ✅ |
-| `SOUL.md` | ✅ |
-| `MEMORY.md` | ✅ |
-| `HEARTBEAT.md` | ✅ |
-| `skills/` | ✅ |
-
-Runtime folders (agents/, canvas, completions/, cron/, devices/, flows/, identity/, logs/, media/, memory/, subagents/, tasks/, telegram/) are present and owned by OpenClaw runtime — acceptable per spec catch-all clause.
-
-### 5.2 `.hermes/` — ✅ PASS
-
-| Required | Status |
-|---|---|
-| `IDENTITY.md` | ✅ |
-| `SOUL.md` | ✅ |
-| `MEMORY.md` | ✅ |
-| `HEARTBEAT.md` | ✅ |
-| `skills/` | ✅ |
-
-Runtime folders (audio_cache/, bin/, cache/, cron/, hooks/, image_cache/, logs/, memories/, pairing/, sandboxes/, sessions/, etc.) present — acceptable per spec catch-all clause.
-
-### 5.3 `wiki/meta/` — ✅ PASS
-
-Exactly 3 files: `folder-structure.md`, `format-spec.md`, `index-spec.md` — matches v1.2 spec.
-
-### 5.4 `context/` — ✅ PASS
-
-Exactly 2 files: `context.md`, `USER.md` — matches spec.
-
-### 5.5 `raw/` — ✅ PASS
-
-6 subfolders: `articles/`, `papers/`, `posts/`, `repos/`, `videos/`, `websites/` — matches spec.
-
-### 5.6 `wiki/reviews/` — ✅ PASS
-
-Correct structure with `_action-required.md`, dated reports, and `archive/` subfolder.
-
-**Note:** `wiki/reviews/HEARTBEAT.md` presence is unusual but appears to be a work file created during the 2026-05-27 session. It should be moved to `.openclaw/` if it's an OpenClaw runtime artifact.
-
-### 5.7 `wiki/drafts/` and `wiki/topic/` — ✅ PASS
-
-Both contain `.gitkeep` as required placeholder when empty.
-
-### 5.8 Root-level symlinks — ✅ PASS
-
-All 5 required symlinks present and correctly pointing to `.openclaw/`:
-- `HEARTBEAT.md → .openclaw/HEARTBEAT.md`
-- `IDENTITY.md → .openclaw/IDENTITY.md`
-- `SOUL.md → .openclaw/SOUL.md`
-- `TOOLS.md → .openclaw/TOOLS.md`
-- `USER.md → .openclaw/USER.md`
+| # | Severity | Type | Count | Description |
+|---|---|---|---|---|
+| 1 | WARNING | Missing concept files | 32 | Wikilinks point to concept files that don't exist |
+| 2 | INFO | Stale "Concepts referenced" sections | 36 | Source files list concepts not yet compiled (by design — source files are compiled first, concepts second) |
 
 ---
 
-## 6. Skill Folders
+## 5. Recommendations
 
-The spec (section 12) lists 4 agent skill folders each for `.openclaw/` and `.hermes/`. The actual runtime contains many more skill folders as the agents own these spaces entirely and the catch-all clause applies. This is functioning as designed.
+### For OpenClaw Compile Agent
 
-**OpenClaw skills found:** `agent-reach`, `compile-agent`, `fix-agent`, `index-agent`, `ingest-agent`, `news-brief-skill` + runtime folders (`agents/`, `subagents/`)
+These 32 missing concepts should be created from the source material that references them:
 
-**Hermes skills found:** `format-validator`, `hygiene-inspector`, `output-validator`, `agent-reach` + 30+ additional skill modules
+**High priority (referenced multiple times):**
+- `prediction-markets` — referenced by src_hermes-polymarket-btc-trading-agent
+- `crypto-trading-bots` — same source
+- `self-learning-agents` — same source
+- `multi-agent-systems` — referenced by src_code-as-agent-harness-arxiv and src_multi-agent-taxonomy
+- `ubi-universal-basic-income` — referenced by src_ai-will-destroy-world-economy
 
-All acceptable as runtime workspace content.
+**Medium priority (referenced once):**
+- `agent-initiated-code-artifacts`, `code-for-action`, `code-for-environment-modeling`, `code-for-reasoning`
+- `dao-legal-structure`, `smart-contracts`
+- `mcp-model-context-protocol`
+- `market-inefficiency`, `financial-crisis-2008-comparison`
+
+**Low priority (general knowledge):**
+- `dead-drop-communication`, `dns-tunneling`, `github-security`
+- `embedding-search`, `vector-database`
+- `economic-inequality`, `ai-safety`, `automated-security-testing`
+
+### Note on "Stale" links
+
+The 36 "stale" references in source files' "Concepts referenced" sections are expected — source files are compiled before concepts exist. This is by design in the pipeline (NGUỐN → INGEST → COMPILE → INDEX → VALIDATION).
 
 ---
 
-## 7. Issues Summary
-
-| # | Severity | Path | Issue |
-|---|---|---|---|
-| 1 | ERROR | `/memory/` | Orphaned root folder — should have migrated to `.openclaw/memory/` per v1.2 |
-| 2 | ERROR | `/RAW_BACKLOG.md` | Stray file not in root whitelist |
-| 3 | WARNING | `/.hermes/hermes-agent/venv/` | Python venv not deleted (supposed to be removed per 2026-05-27 fixes) |
-| 4 | INFO | `/wiki/reviews/HEARTBEAT.md` | Unusual file in reviews folder — likely a session artifact, should be moved |
-
----
-
-## 8. Resolution
+## 6. Resolution
 
 | # | Action | Owner |
 |---|---|---|
-| 1 | Move `memory/2026-05-27.md` to `.openclaw/memory/`, then delete `memory/` | Julius |
-| 2 | Audit `RAW_BACKLOG.md` — move content to relevant `raw/<type>/<type>.md` or delete | Julius |
-| 3 | Verify and delete `venv/` if unused | Julius |
-| 4 | Move `wiki/reviews/HEARTBEAT.md` to `.openclaw/` if it's an OpenClaw runtime artifact | OpenClaw (via fix-agent) |
+| 1 | Create 32 missing concept files from source material | OpenClaw (compile-agent) |
+| 2 | Verify wikilinks resolve correctly after concepts are created | Hermes (hygiene-inspector) |
 
 ---
 
 *Report generated by Hygiene Inspector — Hermes subagent*
-*Next scheduled run: 2026-05-29 (or on demand)*
+*Next scheduled run: 2026-05-30 (or on demand)*

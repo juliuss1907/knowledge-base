@@ -1,0 +1,1 @@
+{"type":"memory.recall.recorded","timestamp":"2026-05-29T17:30:30.497Z","query":"heartbeat RAW_BACKLOG compile backlog","resultCount":1,"results":[{"path":"memory/2026-05-28.md","startLine":1,"endLine":21,"score":0.42565178573131557}]}

@@ -3,35 +3,51 @@ type: concept
 status: draft
 main_tag: economic
 sub_tags: [research, politic]
-topic: uae-opec-exit-geopolitics
+topic: petrodollar-collapse
 sources:
-  - "[[src_uae-opec-exit-end-of-era]]"
-last_updated: 2026-05-28
+  - "[[src_petrodollar-system-analysis]]"
+last_updated: 2026-05-29
 ---
 
 # Petrodollar System
 
 ## Definition
 
-Hệ thống tài chính toàn cầu mà trong đó dầu mỏ được định giá và giao dịch bằng đô la Mỹ, các nước sản xuất dầu Vùng Vịnh tái đầu tư surplus vào US Treasuries — nhưng nền tảng thực sự không phải đồng tiền mà là guarantee an ninh của Mỹ.
+Hệ thống trong đó dầu mỏ được mua bán bằng đồng USD trên toàn cầu. Bất kỳ quốc gia nào muốn mua dầu đều phải dùng USD thanh toán. Được hiểu sai phổ biến là OPEC "chọn" USD; thực tế là kết quả của thỏa thuận an ninh với Saudi.
 
-## Key ideas
+## The common myth
 
-- **Misconception thông thường:** Oil-for-dollars arrangement
-- **Foundation thực sự:** American military protection (rent paid via dollar pricing)
-- **Historical origin:** 1974-1975, Kissinger + King Faisal — web of mutual interests
-- **Fragmentation:** Từ multilateral American umbrella thành series bilateral arrangements
-- **UAE realignment:** Abraham Accords (2020), emergency dollar swap lines từ US (not Saudi) trong Iran War
-- **Consequences:** Giảm demand cho USD, undermining reserve currency status
+**Huyền thoại sai:**
+- OPEC đồng ý bán dầu bằng USD
+- Thế giới cần USD để mua dầu
+- USD trở thành đồng dự trữ toàn cầu
+- Mỹ được hưởng "đặc lợi đồng tiền dự trữ" (in tiền thoải mái)
+
+**Vấn đề:** Mô tả này chỉ mô tả plumbing (đường ống), không phải foundation (nền móng).
+
+## The real foundation
+
+Thỏa thuận Kissinger 1974-1975:
+- Saudi bán dầu bằng USD, mua trái phiếu Kho bạc Mỹ
+- Mỹ bảo vệ an ninh cho Saudi — ô dù quân sự
+
+USD là tiền thuê (rent payment) Saudi trả cho bảo hiểm quân sự.
+
+## Current status
+
+- Giao dịch dầu bằng USD: từ 90% (2000) xuống ~75% (2025)
+- Trung Quốc mua dầu Nga/Iran bằng yuan
+- Ấn Độ mua dầu Nga bằng rupee + dirham UAE
 
 ## Related concepts
 
-- [[opec-cartel-structure]]
-- [[american-security-guarantee]]
-- [[uae-saudi-rivalry]]
+- [[kissinger-deal-1974]]
+- [[dollar-as-rent-payment]]
+- [[us-security-umbrella]]
 
 ## Sources
 
-- [[src_uae-opec-exit-end-of-era]]
+- [[src_petrodollar-system-analysis]]
 
 ## Notes
+

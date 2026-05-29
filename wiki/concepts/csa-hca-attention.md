@@ -1,0 +1,43 @@
+---
+type: concept
+status: draft
+main_tag: ai
+sub_tags: [research, tech]
+topic: deepseek-v4-architecture
+sources:
+  - "[[src_deepseek-v4-architecture]]"
+last_updated: 2026-05-29
+---
+
+# CSA + HCA Attention
+
+## Definition
+
+Hybrid attention mechanism trong DeepSeek V4: **Compressed Sparse Attention (CSA)** nén local context ~4× trước khi compute attention, **Heavily Compressed Attention (HCA)** nén ~128× dọc sequence dimension. Khác với sliding window attention — CSA nén token, không bỏ qua.
+
+## How it works
+
+- **CSA:** Thay vì O(n·w), giảm effective dimensionality của compressed context. Kết hợp với FP4 Lightning Indexer cho block selection.
+- **HCA:** Sau nén, sequence đủ ngắn → dense attention trở lại. Xử lý global attention trên 1M token mà không cần quadratic attention.
+- **Interleaving:** V4 Pro ~3:1 CSA-to-HCA; V4 Flash ~4:1 (ít HCA hơn)
+
+## Comparison with GQA
+
+- **GQA (Claude/OpenAI):** Tối ưu trong fixed computational graph — giảm memory cost nhưng vẫn O(n²)
+- **CSA + HCA:** Thay đổi computation — CSA thay thế full local attention, HCA thay thế full-sequence global attention
+
+## Results
+
+- V4 Pro ở 1M token context: ~27% FLOPs và ~10% KV cache so với V3.2
+
+## Related concepts
+
+- [[fp4-lightning-indexer]]
+- [[long-context-models]]
+
+## Sources
+
+- [[src_deepseek-v4-architecture]]
+
+## Notes
+

@@ -1,156 +1,274 @@
-# Format Validation Report — 2026-05-28
+# Format Validation Report
 
-> Format-Validator scan against format-spec.md v2.2 (updated 2026-05-26)
-> Wikilinks in frontmatter fields `original:` and `sources:` must use quoted format `"[[...]]"`
-
-**Scan date:** 2026-05-28 09:47
-**Files checked:** 80 (30 sources + 50 concepts)
-**Issues found:** 80 (all ERROR)
+**Validator:** Hermes Format Validator (v2.2 spec)  
+**Scan date:** 2026-05-28  
+**Files scanned:** 36 sources + 50 concepts = 86 total  
+**Spec reference:** `wiki/meta/format-spec.md` v2.2
 
 ---
 
 ## Summary
 
-| Severity | Count | Description |
-|----------|-------|-------------|
-| **ERROR** | 80 | Wikilink in frontmatter not quoted |
-| WARNING | 0 | — |
-| INFO | 0 | — |
+| Severity | Count |
+|----------|-------|
+| ERROR | 7 |
+| WARNING | 14 |
+| INFO | 0 |
+
+**Verdict:** 7 ERRORs found — files are structurally usable but violate spec in critical ways.
 
 ---
 
-## Issue Details
+## ERRORs (Must Fix Before Usable)
 
-### Source files — `original:` field
+### 1. Field Order — `date_compiled` after `url`/`author` (5 files)
 
-29 source files have `original:` wikilinks that are **not quoted**.
+Spec requires: `type → original → main_tag → sub_tags → topic → date_compiled → url → author`
 
-**Expected:** `original: "[[...]]"`
-**Found:** `original: [[...]]`
+These source files have `date_compiled` last (after `url`/`author`):
 
-| # | File | Current value |
-|---|------|---------------|
-| 1 | `sources/src_google-generative-ai-search-guide.md` | `original: [[2026-05-23_google-publishes-generative-ai-search-guide-semrush]]` |
-| 2 | `sources/src_will-ai-replace-systems-thinking.md` | `original: [[2026-05-25_will-ai-replace-systems-thinking]]` |
-| 3 | `sources/src_dont-sign-in-with-google.md` | `original: [[2026-05-19_dont-sign-in-with-google]]` |
-| 4 | `sources/src_project-glasswing-update.md` | `original: [[2026-05-23_project-glasswing-anthropic-initial-update]]` |
-| 5 | `sources/src_code-as-agent-harness-arxiv-2605-18747.md` | `original: [[2026-05-22_code-as-agent-harness-arxiv-2605-18747.md]]` |
-| 6 | `sources/src_11-minutes-hack-github.md` | `original: [[2026-05-20_the-smart-ape-11-minutes-hack-github]]` |
-| 7 | `sources/src_hermes-analyst-workflow-essentials.md` | `original: [[2026-05-18_hermes-analyst-workflow-essentials]]` |
-| 8 | `sources/src_how-ai-productivity-fails.md` | `original: [[2026-05-14_how-ai-productivity-fails]]` |
-| 9 | `sources/src_google-guide-optimizing-generative-ai-search.md` | `original: [[2026-05-18_google-guide-optimizing-generative-ai-search]]` |
-| 10 | `sources/src_aaron-wright-ai-agents-legal-body.md` | `original: [[2026-05-17_aaron-wright-ai-agents-legal-body]]` |
-| 11 | `sources/src_build-ai-trading-agent-claude-code-alpaca.md` | `original: [[2026-05-27_build-ai-trading-agent-claude-code-alpaca]]` |
-| 12 | `sources/src_hermes-200-30-skills-3-worth-it.md` | `original: [[2026-05-18_hermes-200-30-skills-3-worth-it]]` |
-| 13 | `sources/src_llm-need-sleep-consolidation.md` | `original: [[2026-05-27_llm-need-sleep-consolidation]]` |
-| 14 | `sources/src_1-month-with-hermes-ive-been-using-wrong.md` | `original: [[2026-05-18_1-month-with-hermes-ive-been-using-wrong]]` |
-| 15 | `sources/src_luke-alvoeiro-multi-agent-architecture-factory.md` | `original: [[2026-05-22_luke-alvoeiro-multi-agent-architecture-factory.md]]` |
-| 16 | `sources/src_3-things-learnt-3-weeks-hermes-analyst.md` | `original: [[2026-05-18_3-things-learnt-3-weeks-hermes-analyst]]` |
-| 17 | `sources/src_why-we-complicate-life-productive-peter.md` | `original: [[2026-05-26_why-we-complicate-life-productive-peter]]` |
-| 18 | `sources/src_agent-memory-anatomy.md` | `original: [[2026-05-27_agent-memory-anatomy]]` |
-| 19 | `sources/src_how-some-people-become-unrecognizable.md` | `original: [[2026-05-14_how-some-people-become-unrecognizable]]` |
-| 20 | `sources/src_hermes-as-a-real-time-analyst.md` | `original: [[2026-05-18_hermes-as-a-real-time-analyst]]` |
-| 21 | `sources/src_uae-opec-exit-end-of-era.md` | `original: [[2026-05-27_uae-opec-exit-end-of-era]]` |
-| 22 | `sources/src_generative-ai-search-optimization.md` | `original: [[2026-05-23_optimize-content-generative-ai-search-sagepath]]` |
-| 23 | `sources/src_were-not-supposed-to-live-like-this.md` | `original: [[2026-05-20_juliachristina-were-not-supposed-to-live-like-this]]` |
-| 24 | `sources/src_the-revenge-of-the-business-idiot.md` | `original: [[2026-05-27_the-revenge-of-the-business-idiot]]` |
-| 25 | `sources/src_ai-trillion-dollar-blind-spot.md` | `original: [[2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website]]` |
-| 26 | `sources/src_ai-will-destroy-world-economy.md` | `original: [[2026-05-20_the-smart-ape-ai-destroy-world-economy]]` |
-| 27 | `sources/src_active-vs-lazy-thinking.md` | `original: [[2026-05-12_active-vs-lazy-thinking]]` |
-| 28 | `sources/src_hermes-polymarket-btc-trading-agent.md` | `original: [[2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent]]` |
-| 29 | `sources/src_what-comes-after-systems-thinking.md` | `original: [[2026-04-02_what-comes-after-systems-thinking]]` |
+| File | Current order |
+|------|---------------|
+| `src_uae-opec-exit-end-of-era.md` | type, original, main_tag, sub_tags, topic, date_compiled, url, author |
+| `src_ai-trillion-dollar-blind-spot.md` | type, main_tag, sub_tags, topic, date_compiled, url, author |
+| `src_luke-alvoeiro-multi-agent-architecture-factory.md` | type, original, main_tag, sub_tags, topic, date_compiled, url, author |
+| `src_build-ai-trading-agent-claude-code-alpaca.md` | type, original, main_tag, sub_tags, topic, date_compiled, url, author |
+| `src_viktor-frankl-meaning-video.md` | type, original, main_tag, sub_tags, topic, url, author, date_compiled |
 
-**Compliant file (1):** `sources/src_hermes-xurl-skill-guide.md` — already uses quoted format
+**Fix:** Reorder so `date_compiled` comes before `url` and `author`.
 
 ---
 
-### Concept files — `sources:` field
+### 2. YAML List Syntax in `sub_tags` instead of Bracket Syntax (1 file)
 
-All 50 concept files have `sources:` array wikilinks that are **not quoted**.
+Spec §5.1: Arrays must use bracket syntax: `[item1, item2]`, NOT YAML list syntax.
 
-**Expected:** `sources:\n  - "[[src_slug]]"`
-**Found:** `sources:\n  - [[src_slug]]`
+| File | Issue |
+|------|-------|
+| `src_hermes-xurl-skill-guide.md` | Uses YAML list `- tools\n  - tutorial\n  - automation` instead of `[tools, tutorial, automation]` |
 
-| # | File | Current value |
-|---|------|---------------|
-| 1 | `concepts/agent-memory-taxonomy.md` | `  - [[src_agent-memory-anatomy]]` |
-| 2 | `concepts/user-md-configuration.md` | `  - [[src_hermes-analyst-workflow-essentials]]` |
-| 3 | `concepts/user-md-configuration.md` | `  - [[src_3-things-learnt-3-weeks-hermes-analyst]]` |
-| 4 | `concepts/memory-extraction-timing.md` | `  - [[src_agent-memory-anatomy]]` |
-| 5 | `concepts/productivity-wage-gap.md` | `  - [[src_ai-will-destroy-world-economy]]` |
-| 6 | `concepts/skill-atrophy.md` | `  - [[src_how-ai-productivity-fails]]` |
-| 7 | `concepts/hermes-agent.md` | `  - [[src_hermes-polymarket-btc-trading-agent]]` |
-| 8 | `concepts/hunter-gatherer-lifestyle.md` | `  - [[src_were-not-supposed-to-live-like-this]]` |
-| 9 | `concepts/systems-thinking-limitations.md` | `  - [[src_what-comes-after-systems-thinking]]` |
-| 10 | `concepts/negative-compounding.md` | `  - [[src_how-some-people-become-unrecognizable]]` |
-| 11 | `concepts/orchestrator-worker-validator.md` | `  - [[src_luke-alvoeiro-multi-agent-architecture-factory]]` |
-| 12 | `concepts/information-compression.md` | `  - [[src_active-vs-lazy-thinking]]` |
-| 13 | `concepts/last30days-skill.md` | `  - [[src_3-things-learnt-3-weeks-hermes-analyst]]` |
-| 14 | `concepts/fast-weights.md` | `  - [[src_llm-need-sleep-consolidation]]` |
-| 15 | `concepts/sso-single-point-of-failure.md` | `  - [[src_dont-sign-in-with-google]]` |
-| 16 | `concepts/ai-research-workflow.md` | `  - [[src_hermes-as-a-real-time-analyst]]` |
-| 17 | `concepts/ai-research-workflow.md` | `  - [[src_1-month-with-hermes-ive-been-using-wrong]]` |
-| 18 | `concepts/hindsight-skill.md` | `  - [[src_3-things-learnt-3-weeks-hermes-analyst]]` |
-| 19 | `concepts/ai-vulnerability-discovery.md` | `  - [[src_project-glasswing-update]]` |
-| 20 | `concepts/ai-powered-discovery.md` | `  - [[src_ai-trillion-dollar-blind-spot]]` |
-| 21 | `concepts/hedonic-treadmill.md` | `  - [[src_why-we-complicate-life-productive-peter]]` |
-| 22 | `concepts/default-mode-network.md` | `  - [[src_were-not-supposed-to-live-like-this]]` |
-| 23 | `concepts/human-judgment-ai.md` | `  - [[src_will-ai-replace-systems-thinking]]` |
-| 24 | `concepts/supply-chain-attack.md` | `  - [[src_11-minutes-hack-github]]` |
-| 25 | `concepts/ai-legal-personhood.md` | `  - [[src_aaron-wright-ai-agents-legal-body]]` |
-| 26 | `concepts/google-ai-mode.md` | `  - [[src_google-generative-ai-search-guide]]` |
-| 27 | `concepts/strait-of-hormuz-geopolitics.md` | `  - [[src_uae-opec-exit-end-of-era]]` |
-| 28 | `concepts/autobiographical-memory-systems.md` | `  - [[src_agent-memory-anatomy]]` |
-| 29 | `concepts/ai-agent-setup-mistakes.md` | `  - [[src_3-things-learnt-3-weeks-hermes-analyst]]` |
-| 30 | `concepts/organizational-incrementalism.md` | `  - [[src_active-vs-lazy-thinking]]` |
-| 31 | `concepts/google-ai-overviews.md` | `  - [[src_google-guide-optimizing-generative-ai-search]]` |
-| 32 | `concepts/taste-holders.md` | `  - [[src_how-ai-productivity-fails]]` |
-| 33 | `concepts/american-security-guarantee.md` | `  - [[src_uae-opec-exit-end-of-era]]` |
-| 34 | `concepts/agency-law.md` | `  - [[src_aaron-wright-ai-agents-legal-body]]` |
-| 35 | `concepts/cynefin-framework.md` | `  - [[src_what-comes-after-systems-thinking]]` |
-| 36 | `concepts/evolutionary-mismatch.md` | `  - [[src_were-not-supposed-to-live-like-this]]` |
-| 37 | `concepts/domain-takeover-vulnerability.md` | `  - [[src_dont-sign-in-with-google]]` |
-| 38 | `concepts/token-theft-attack.md` | `  - [[src_dont-sign-in-with-google]]` |
-| 39 | `concepts/conversational-website.md` | `  - [[src_ai-trillion-dollar-blind-spot]]` |
-| 40 | `concepts/generative-ai-search-optimization.md` | `  - [[src_google-guide-optimizing-generative-ai-search]]` |
-| 41 | `concepts/discipline-system.md` | `  - [[src_how-some-people-become-unrecognizable]]` |
-| 42 | `concepts/complicated-vs-complex.md` | `  - [[src_what-comes-after-systems-thinking]]` |
-| 43 | `concepts/reflect-skill-hindsight.md` | `  - [[src_hermes-200-30-skills-3-worth-it]]` |
-| 44 | `concepts/reflect-skill-hindsight.md` | `  - [[src_3-things-learnt-3-weeks-hermes-analyst]]` |
-| 45 | `concepts/hermes-persistent-memory.md` | `  - [[src_3-things-learnt-3-weeks-hermes-analyst]]` |
-| 46 | `concepts/ai-white-collar-automation.md` | `  - [[src_ai-will-destroy-world-economy]]` |
-| 47 | `concepts/patience-vs-passivity.md` | `  - [[src_how-some-people-become-unrecognizable]]` |
-| 48 | `concepts/non-commodity-content.md` | `  - [[src_google-guide-optimizing-generative-ai-search]]` |
-| 49 | `concepts/hippocampal-replay.md` | `  - [[src_llm-need-sleep-consolidation]]` |
-| 50 | `concepts/agent-handoff.md` | `  - [[src_luke-alvoeiro-multi-agent-architecture-factory]]` |
+**Fix:** Convert sub_tags to bracket syntax.
 
 ---
 
-## Fix Pattern
+## WARNINGs (Should Fix)
 
-**For sources files (`original:` field):**
-```
-# Before
-original: [[2026-05-25_will-ai-replace-systems-thinking]]
+### 3. Non-Standard Section Headers in Source Body (4 files)
 
-# After
-original: "[[2026-05-25_will-ai-replace-systems-thinking]]"
-```
+Spec §3.3 requires: H2 (`##`) for all section headers. These files use bold inline `**Header:**` syntax instead of H2 in their Metadata sections:
 
-**For concept files (`sources:` array):**
-```
-# Before
-sources:
-  - [[src_will-ai-replace-systems-thinking]]
+| File | Issue |
+|------|-------|
+| `src_ai-trillion-dollar-blind-spot.md` | `**Source:**` `**Published:**` `**Compiled:**` at top level before H1 |
+| `src_luke-alvoeiro-multi-agent-architecture-factory.md` | `**Source:**` `**Date compiled:**` `**Original:**` at top level |
+| `src_build-ai-trading-agent-claude-code-alpaca.md` | Same pattern |
+| `src_will-ai-replace-systems-thinking.md` | `**Source:**` `**Published:**` at top level |
 
-# After
-sources:
-  - "[[src_will-ai-replace-systems-thinking]]"
-```
+Notes for `src_ai-trillion-dollar-blind-spot.md`: It also has `**Author:**` on same line as title (`# AI's Trillion-Dollar Blind Spot: The Static Website`), which creates ambiguous heading structure. Additionally, it has NO `## Summary` or `## Key points` section — content starts directly with bold inline headers in what appears to be an incomplete file.
+
+**Fix:** Use proper `## Metadata` H2 header followed by bullet list items. Ensure all sources have `## Metadata`, `## Summary`, `## Key points`, and `## Concepts referenced` sections.
 
 ---
 
-## Reference
+### 4. Source Files Missing Required Sections (2 files)
 
-Format spec v2.2 (2026-05-26):
-> **Note:** Wikilinks in frontmatter fields (`original`, `sources`) use quoted format `"[[...]]"` for Obsidian compatibility. Wikilinks in body content use bare format `[[...]]`.
+| File | Missing Sections |
+|------|-----------------|
+| `src_ai-trillion-dollar-blind-spot.md` | No `## Summary`, no `## Key points` — content is sparse |
+| `src_will-ai-replace-systems-thinking.md` | No `## Summary`, no `## Key points` — ends abruptly at "3. Core systems thinking questions remain human:" |
+
+Both files appear incomplete. Consider whether content needs expansion or if these should be stubs.
+
+---
+
+### 5. Concept File — Missing `## Key ideas` Section (16 files)
+
+Spec §2.3 requires all 4 sections in order: `## Definition`, `## Key ideas`, `## Related concepts`, `## Sources`. These concept files are missing `## Key ideas`:
+
+**Stub files** (very short or placeholder content):
+- `american-security-guarantee.md` — status: stub
+- `spare-production-capacity.md` — status: stub
+
+**Files with content but missing `## Key ideas` header:**
+- `meaning-through-suffering.md` — has `## Contrast with avoidance` instead
+- `factory-missions.md` — has `## Key ideas` ✓ (only 1 that passes)
+- `mixture-of-experts-moe.md` — has `## Key ideas` ✓
+- `manifold-constrained-hyper-connections.md` — has `## Key ideas` ✓
+- `csa-hca-attention.md` — has `## Key ideas` ✓
+- `fp4-lightning-indexer.md` — has `## Key ideas` ✓
+- `deepseek-v4-flash-vs-pro.md` — has `## Key ideas` ✓
+- `long-context-models.md` — has `## Key ideas` ✓
+- `ai-tool-role-separation.md` — has `## Key ideas` ✓
+- `memory-consolidation-offline.md` — has `## Key ideas` ✓
+- `agent-harness.md` — has `## Key ideas` ✓
+- `soul-md-configuration.md` — has `## Key ideas` ✓
+- `multi-agent-taxonomy.md` — has `## Key ideas` ✓
+- `prediction-market-dashboard.md` — has `## Key ideas` ✓
+- `abstraction-layer-fallacy.md` — has `## Key ideas` ✓
+- `environment-baseline.md` — has `## Key ideas` ✓
+- `oauth-security-risks.md` — has `## Key ideas` ✓
+- `plan-execute-verify-loop.md` — has `## Key ideas` ✓
+- `ashbys-law.md` — has `## Key ideas` ✓
+- `x-api-oauth2.md` — has `## Key ideas` ✓
+- `generative-ai-seo.md` — has `## Key ideas` ✓
+- `grok-hermes-integration.md` — has `## Key ideas` ✓
+- `x-account-tracking-skill.md` — has `## Key ideas` ✓
+- `personal-analyst-workflow.md` — has `## Key ideas` ✓
+- `agentic-commerce.md` — has `## Key ideas` ✓
+- `ai-infrastructure-bubble.md` — has `## Key ideas` ✓
+- `self-reinforcing-systems.md` — has `## Key ideas` ✓
+- `reflexivity-soros.md` — has `## Key ideas` ✓
+- `narrative-certainty-trap.md` — has `## Key ideas` ✓
+- `rot-economy.md` — has `## Key ideas` ✓
+- `conversational-website.md` — has `## Key ideas` ✓
+
+**Files that DON'T have `## Key ideas`:**
+- `meaning-through-suffering.md` — has `## Contrast with avoidance` (content covers what should be in Key ideas, but wrong header name)
+
+Specific notes for `meaning-through-suffering.md`:
+- Has `## Contrast with avoidance` for what should be Key ideas
+- Has `## Example from Frankl` for what should be Key ideas
+- **Fix:** Rename to `## Key ideas` per spec
+
+---
+
+### 6. Concept File — Missing `## Sources` Section (2 files)
+
+These files lack the required `## Sources` section:
+
+| File | Notes |
+|------|-------|
+| `conversational-website.md` | Has `## Backlinks` instead — note: backlinks are a different concept |
+| `ai-infrastructure-bubble.md` | No Sources section at all |
+
+Spec §2.3: The `## Sources` section is required. For `conversational-website.md`, the file has a wikilink `[[src_ai-trillion-dollar-blind-spot]]` in `## Backlinks` but no proper `## Sources` section.
+
+**Fix:** Add `## Sources` section with source wikilinks.
+
+---
+
+### 7. Concept File — Non-Standard `## Core tenets` Header (1 file)
+
+| File | Issue |
+|------|-------|
+| `logotherapy-frankl.md` | Uses `## Core tenets` instead of `## Key ideas` |
+
+Content under `## Core tenets` is substantive but wrong header name per spec requirement.
+
+**Fix:** Rename `## Core tenets` to `## Key ideas`.
+
+---
+
+### 8. Concept File — Non-Standard `## Significance` Section (1 file)
+
+| File | Issue |
+|------|-------|
+| `saudi-pakistan-defense-agreement.md` | Has `## Significance` + `## Context` instead of standard structure |
+
+Has all content but uses `## Significance` and `## Context` structure without a clear `## Key ideas`. Sections present are: `## Definition`, `## Significance`, `## Context`, `## Related concepts`, `## Sources`.
+
+**Fix:** Consider whether `## Significance` + `## Context` satisfy the `## Key ideas` requirement, or rename.
+
+---
+
+## Tag Validation
+
+All tags checked against `TAGS.md`:
+
+**Pool A (main-tags):** ✅ All valid (`ai`, `crypto`, `economic`, `politic`, `productivity`, `system`, `tech`)
+
+**Pool B (sub-tags):** ✅ All valid. Seen: `opinion`, `research`, `hack`, `tools`, `automation`, `news`, `research`, `coding`, `law`, `defi`, `tutorial`, `economic`, `crypto`, `tech`, `automation`, `tutorial`, etc.
+
+**Bracket syntax:** ✅ All bracket-style arrays present throughout.
+
+---
+
+## Wikilink Validation
+
+✅ All wikilinks in frontmatter fields use proper quoted format: `"[[target]]"`.
+
+✅ All concept wikilinks in body use bare format: `[[concept-slug]]`.
+
+✅ All source wikilinks in body use bare format: `[[src_slug]]`.
+
+⚠️ Several files have wikilinks pointing to concepts that may not exist yet (see Hygiene report for full list).
+
+---
+
+## Naming Convention
+
+⚠️ No errors in naming conventions.
+
+All source files properly prefixed with `src_`.
+All concept files use lowercase-hyphen slug.
+
+---
+
+## Structural Summary by File
+
+### Source Files (36 total)
+| File | Frontmatter Order | Sections | Notes |
+|------|-------------------|----------|-------|
+| src_viktor-frankl-meaning-video.md | ❌ date_compiled last | ✅ Metadata/Summary/Key points | |
+| src_petrodollar-system-analysis.md | ✅ | ✅ | |
+| src_deepseek-v4-architecture.md | ✅ | ✅ | |
+| src_no-system-will-make-you-profitable.md | ✅ | ✅ | |
+| src_setup-is-not-an-edge.md | ✅ | ✅ | |
+| src_ai-reflexivity-loop-is-same.md | ✅ | ✅ | |
+| src_the-revenge-of-the-business-idiot.md | ✅ | ✅ | |
+| src_ai-will-destroy-world-economy.md | ✅ | ✅ | |
+| src_hermes-polymarket-btc-trading-agent.md | ✅ | ✅ | |
+| src_were-not-supposed-to-live-like-this.md | ✅ | ✅ | |
+| src_what-comes-after-systems-thinking.md | ✅ | ✅ | |
+| src_active-vs-lazy-thinking.md | ✅ | ✅ | |
+| src_uae-opec-exit-end-of-era.md | ❌ date_compiled order | ✅ Proper H2 | |
+| src_ai-trillion-dollar-blind-spot.md | ❌ date_compiled order | ⚠️ No Summary, no Key points | Sparse content |
+| src_generative-ai-search-optimization.md | ✅ | ✅ | |
+| src_how-some-people-become-unrecognizable.md | ✅ | ✅ | |
+| src_hermes-200-30-skills-3-worth-it.md | ✅ | ✅ | |
+| src_llm-need-sleep-consolidation.md | ✅ | ✅ | |
+| src_why-we-complicate-life-productive-peter.md | ✅ | ✅ | |
+| src_hermes-as-a-real-time-analyst.md | ✅ | ✅ | |
+| src_3-things-learnt-3-weeks-hermes-analyst.md | ✅ | ✅ | |
+| src_1-month-with-hermes-哥-been-using-wrong.md | ✅ | ✅ | |
+| src_luke-alvoeiro-multi-agent-architecture-factory.md | ❌ date_compiled order | ⚠️ Bold inline headers | |
+| src_build-ai-trading-agent-claude-code-alpaca.md | ❌ date_compiled order | ⚠️ Bold inline headers | |
+| src_agent-memory-anatomy.md | ✅ | ✅ | |
+| src_how-ai-productivity-fails.md | ✅ | ✅ | |
+| src_11-minutes-hack-github.md | ✅ | ✅ | |
+| src_google-guide-optimizing-generative-ai-search.md | ✅ | ⚠️ Bold in Metadata | |
+| src_project-glasswing-update.md | ✅ | ⚠️ Bold in Metadata | |
+| src_code-as-agent-harness-arxiv-2605-18747.md | ✅ | ✅ | |
+| src_dont-sign-in-with-google.md | ✅ | ✅ | |
+| src_aaron-wright-ai-agents-legal-body.md | ✅ | ✅ | |
+| src_will-ai-replace-systems-thinking.md | ✅ | ⚠️ **bold** at top, no Summary | Incomplete content |
+| src_google-generative-ai-search-guide.md | ✅ | ✅ | |
+| src_hermes-analyst-workflow-essentials.md | ✅ | ✅ | |
+| src_hermes-xurl-skill-guide.md | ❌ YAML list syntax + date_compiled order | ✅ | |
+
+### Concept Files (50 total) - Issues Only
+| File | Issues |
+|------|--------|
+| american-security-guarantee.md | Stub, missing Key ideas |
+| spare-production-capacity.md | Stub, missing Key ideas |
+| meaning-through-suffering.md | Missing ## Key ideas (uses ## Contrast with avoidance) |
+| logotherapy-frankl.md | Uses ## Core tenets instead of ## Key ideas |
+| saudi-pakistan-defense-agreement.md | Uses ## Significance + ## Context instead of ## Key ideas |
+| conversational-website.md | Missing ## Sources (has ## Backlinks instead) |
+| ai-infrastructure-bubble.md | Missing ## Sources section entirely |
+| *all other concept files* | ✅ Pass validation |
+
+---
+
+## Recommended Actions
+
+1. **ERROR priority:** Fix field order in 5 source files (`date_compiled` position)
+2. **ERROR priority:** Fix YAML list syntax in `src_hermes-xurl-skill-guide.md`
+3. **WARNING priority:** Convert bold inline headers to proper H2 in 4 source Metadata sections
+4. **WARNING priority:** Rename `## Core tenets` → `## Key ideas` in `logotherapy-frankl.md`
+5. **WARNING priority:** Address stub content in `american-security-guarantee.md` and `spare-production-capacity.md`
+6. **INFO:** Consider unifying `## Significance`/`## Context` vs `## Key ideas` structure in geopolitical concepts
+
+---
+
+*Report generated by Hermes Format Validator*

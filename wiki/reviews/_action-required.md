@@ -4,19 +4,17 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-29 11:20 — Output Validator scan complete (4 issues: 1 ERROR + 2 WARNING + 1 INFO)
+**Last updated:** 2026-05-29 11:21 — Format Validator scan complete (7 ERROR + 14 WARNING) + Output Validator scan complete (4 issues)
 
 ---
 
 ## Summary
-
 **Pending reports:** 3
 
 **Status:**
-- ⏳ Output Validator — 2026-05-29: PENDING (1 ERROR: softbank-carry-trade empty Sources body)
+- ⏳ Output Validator — 2026-05-29: PENDING (1 ERROR + 2 WARNING + 1 INFO)
 - ⏳ Hygiene Inspector — 2026-05-29: PENDING (32 missing concept files → OpenClaw compile needed)
-- ⏳ Format Validator — 2026-05-28: PENDING (80 ERROR — wikilinks not quoted)
-- ✅ Output Validator — 2026-05-28: PENDING (7 issues from yesterday — carried forward)
+- ⏳ Format Validator — 2026-05-28: PENDING (7 ERROR + 14 WARNING — field order, YAML syntax, section headers)
 - ✅ Hygiene Inspector — 2026-05-28: approved (memory/ merged, RAW_BACKLOG.md deleted, venv kept)
 - ✅ Output Validator — 2026-05-26: approved (2 ERROR + 4 WARNING → Kara fix)
 - ✅ Format Validator — 2026-05-26: approved (4 new files — source_type/source_url → original, section names, tags)
@@ -52,15 +50,31 @@
 
 ## Critical Issues (Fix Immediately)
 
-**33 ERRORs found (32 Hygiene + 1 Output):**
+**40 ERRORs found (32 Hygiene + 1 Output + 7 Format):**
+
+**Format Validator — 7 ERRORs:**
+- Field order: `date_compiled` after `url`/`author` in 5 source files → reorder frontmatter
+- YAML list syntax instead of bracket array in `src_hermes-xurl-skill-guide.md`
+
+**Hygiene Inspector — 32 ERRORs:**
 - 32 wikilinks in source files point to concept files that don't exist yet → see: `wiki/reviews/2026-05-28_hygiene-report.md`
-- 1 Output Validator: softbank-carry-trade.md has empty `## Sources` section body despite frontmatter having sources listed
+
+**Output Validator — 1 ERROR:**
+- softbank-carry-trade.md has empty `## Sources` section body despite frontmatter having sources listed
 
 ---
 
 ## Warnings (Can Fix Later)
 
-*None*
+**14 Format Validator WARNINGs:**
+
+- Non-standard Metadata sections (bold inline `**Header:**` instead of H2 `## Header:`) in 4 source files
+- Source files missing `## Summary` or `## Key points` sections (2 files: `src_ai-trillion-dollar-blind-spot.md`, `src_will-ai-replace-systems-thinking.md`)
+- Concept files missing `## Key ideas` section (2 stub files: `american-security-guarantee.md`, `spare-production-capacity.md`)
+- Concept `meaning-through-suffering.md` uses `## Contrast with avoidance` instead of `## Key ideas`
+- Concept `logotherapy-frankl.md` uses `## Core tenets` instead of `## Key ideas`
+- Concept `conversational-website.md` uses `## Backlinks` instead of `## Sources`
+- Concept `saudi-pakistan-defense-agreement.md` uses non-standard section structure (`## Significance` + `## Context`) instead of `## Key ideas`
 
 ---
 

@@ -1,13 +1,13 @@
 # HEARTBEAT.md
 
 > OpenClaw system health log
-> Updated: 2026-05-29 17:30 Asia/Saigon
+> Updated: 2026-05-29 18:00 (Asia/Saigon)
 
 ---
 
-## Status: ✅ CLEAN
+## Status: ✅ HEALTHY
 
-**Heartbeat:** 2026-05-29 17:30 (Asia/Saigon)
+**Heartbeat:** 2026-05-29 18:00 (Asia/Saigon)
 
 ---
 
@@ -16,7 +16,8 @@
 | Check | Result | Notes |
 |---|---|---|
 | Inbox | ✅ | No #agent/inbox entries |
-| Raw backlog | ✅ | 0 files unprocessed |
+| Raw backlog | ✅ | 0 files unprocessed (20 files aged >1d — all compiled, status: processed) |
+| Concept backlinks | ✅ | Files exist with proper structure |
 | Pending reviews | ⚠️ | 3 reports pending Julius approval |
 
 ---
@@ -39,4 +40,4 @@
 
 ---
 
-*Next heartbeat: 18:00*
+*Next heartbeat: 18:30*

@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [tools]
+sub_tags: [psychology, behavior]
 topic: compounding-growth
 sources:
   - "[[src_how-some-people-become-unrecognizable]]"

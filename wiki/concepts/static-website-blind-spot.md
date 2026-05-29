@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [tools]
+sub_tags: [frontend, blindspots]
 topic: ai-landing-page-discovery
 sources:
   - "[[src_ai-trillion-dollar-blind-spot]]"

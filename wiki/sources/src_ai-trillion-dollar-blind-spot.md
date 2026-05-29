@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website]]"
 main_tag: ai
-sub_tags: [tools]
+sub_tags: [research, observation]
 topic: ai-landing-page-discovery
 date_compiled: 2026-05-26
 url: https://x.com/SuyashKarn2/status/2057099123413946617

@@ -1,4 +1,22 @@
 
+## 2026-05-29 12:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Scan Result
+
+- **Raw files scanned:** 36 files across 6 folders
+- **Unprocessed:** 0 files
+- **Already processed:** 36 files
+
+### Summary
+
+Tất cả các file trong `raw/` đã có status `processed`. Không có file nào cần compile.
+
+**Action:** No-op (no unprocessed files)
+
+---
+
 ## 2026-05-29 08:05:00 — Compiled (Daily Cron)
 
 **Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)

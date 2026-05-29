@@ -1,7 +1,7 @@
 # OpenClaw Heartbeat
 
 > Automated health check every 30 minutes
-> Last check: 2026-05-30 02:00 +07
+> Last check: 2026-05-30 03:00 +07
 
 ---
 
@@ -20,28 +20,32 @@
 | `raw/articles/2026-05-29_how-to-read-cash-flow-statement.md` | unprocessed | 1 |
 | `raw/videos/2026-05-29_japanese-evening-routine-fix-sleep.md` | unprocessed | 1 |
 
-CompileAgent will process at 08:00.
-
 ---
 
-## Pending Hermes Reviews
+## Pending Hermes Reports
 
-| Report | Date | Errors | Status |
+| Report | Date | Issues | Status |
 |---|---|---|---|
 | Output Validator | 2026-05-29 | 1 ERROR + 2 WARNING + 1 INFO | ⏳ PENDING |
 | Hygiene Inspector | 2026-05-29 | 32 missing concept files | ⏳ PENDING |
 | Format Validator | 2026-05-28 | 7 ERROR + 14 WARNING | ⏳ PENDING |
 
-Details: `wiki/reviews/_action-required.md`
+**Details:** `wiki/reviews/_action-required.md`
 
 ---
 
-## Notes
+## System Summary
 
-- No new inbox items
-- Tag indexes updated at 21:05 yesterday
-- System stable
+| Path | Count |
+|---|---|
+| `wiki/concepts/` | 163 files |
+| `wiki/sources/` | 36 files |
+| `wiki/tag/` | updated daily |
+| `wiki/topic/` | updated daily |
+
+**Last index update:** 2026-05-29 21:00  
+**CompileAgent next run:** 2026-05-30 08:00
 
 ---
 
-*Next heartbeat: 02:30*
+*Next heartbeat: 2026-05-30 03:30 +07*

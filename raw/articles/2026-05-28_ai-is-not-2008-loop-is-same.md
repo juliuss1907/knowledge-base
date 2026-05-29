@@ -4,7 +4,9 @@ source_type: article
 source_url: https://ashnawrites.substack.com/p/ai-is-not-2008-but-the-loop-is-the
 date_ingested: 2026-05-28
 tags: [economic, opinion, tech]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-29
+compiled_to: "[[src_ai-reflexivity-loop-is-same]]"
 ---
 
 # AI Is Not 2008. But the Loop Is the Same.

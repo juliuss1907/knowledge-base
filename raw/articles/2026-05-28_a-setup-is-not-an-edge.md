@@ -4,7 +4,9 @@ source_type: article
 source_url: https://ryanswright.substack.com/p/a-setup-is-not-an-edge
 date_ingested: 2026-05-28
 tags: [economic, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-29
+compiled_to: "[[src_setup-is-not-an-edge]]"
 ---
 
 # A setup is not an edge

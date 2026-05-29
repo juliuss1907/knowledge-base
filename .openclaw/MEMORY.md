@@ -1,4 +1,35 @@
 
+## 2026-05-29 08:05:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-05-28_ai-is-not-2008-loop-is-same.md | src_ai-reflexivity-loop-is-same | reflexivity-soros, ai-infrastructure-bubble, narrative-certainty-trap, softbank-carry-trade, self-reinforcing-systems |
+| raw/articles/2026-05-28_a-setup-is-not-an-edge.md | src_setup-is-not-an-edge | trading-policy-pi, state-conditioned-decisions, outcome-worship-trap, dynamic-edge-trading, retail-trading-fantasy |
+| raw/articles/2026-05-28_no-system-will-make-you-profitable.md | src_no-system-will-make-you-profitable | sizing-policy-trading, false-reinforcement-loop, policy-review-framework |
+| raw/articles/2026-05-28_deepseek-v4-architecture-deep-dive.md | src_deepseek-v4-architecture | csa-hca-attention, manifold-constrained-hyper-connections, fp4-lightning-indexer, mixture-of-experts-moe, deepseek-v4-flash-vs-pro, long-context-models |
+| raw/papers/2026-05-28_petrodollar-system-analysis.md | src_petrodollar-system-analysis | petrodollar-system, kissinger-deal-1974, dollar-as-rent-payment, us-security-umbrella, saudi-pakistan-defense-agreement |
+| raw/videos/2026-05-28_viktor-frankl-finding-meaning-meaningless-world.md | src_viktor-frankl-meaning-video | logotherapy-frankl, existential-vacuum, meaning-through-suffering, tragic-optimism |
+
+### Summary
+
+- **Processed:** 6/6 files
+- **Source notes created:** 6
+- **Concepts created:** 28
+- **Status updated:** All raw files → `processed`
+
+### Tags Applied
+
+- economic × 4 files
+- ai × 1 file  
+- productivity × 1 file
+
+Sub-tags: opinion, research, tech, politic
+
+---
 
 ## 2026-05-28 08:35:00 — Fix Agent Applied (Output Issues)
 
@@ -27,12 +58,3 @@ Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử l�
 **Recommendation:** Julius chạy `rm -rf` hoặc di chuyển các thư mục/file trên theo preference.
 
 **Status:** Output fixes complete ✅ | Hygiene issues escalated ⏳
-
-## 2026-05-28 21:02:17 — Indexed
-
-- **Scanned:** 165 total files
-- **Tags indexed:** 18
-- **Topics indexed:** 39
-- **Orphans deleted:** 0 tag indexes + 1 topic indexes
-- **Invalid tags found:** 8
-- **Invalid details:** wiki/sources/src_uae-opec-exit-end-of-era.md: sub_tag=politic, wiki/sources/src_the-revenge-of-the-business-idiot.md: sub_tag=economic, wiki/concepts/uae-saudi-rivalry.md: sub_tag=economic, wiki/concepts/petrodollar-system.md: sub_tag=politic, wiki/concepts/spare-production-capacity.md: sub_tag=politic

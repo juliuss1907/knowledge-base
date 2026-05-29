@@ -4,7 +4,9 @@ source_type: video
 source_url: https://www.youtube.com/watch?v=JX-8-IYhQKk
 date_ingested: 2026-05-28
 tags: [philosophy, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-29
+compiled_to: "[[src_viktor-frankl-meaning-video]]"
 ---
 
 # Viktor Frankl — Finding Meaning in a Meaningless World

@@ -4,7 +4,9 @@ source_type: paper
 source_url: https://ashnawrites.substack.com/p/the-end-of-an-era-what-the-uaes-opec
 date_ingested: 2026-05-28
 tags: [economic, research, politic]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-29
+compiled_to: "[[src_petrodollar-system-analysis]]"
 ---
 
 # Petrodollar là gì?

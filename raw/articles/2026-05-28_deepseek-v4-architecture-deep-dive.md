@@ -4,7 +4,9 @@ source_type: article
 source_url: https://boringbot.substack.com/p/deepseek-v4-architecture-deep-dive
 date_ingested: 2026-05-28
 tags: [ai, research, tech]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-29
+compiled_to: "[[src_deepseek-v4-architecture]]"
 ---
 
 # DeepSeek V4 Architecture Deep Dive

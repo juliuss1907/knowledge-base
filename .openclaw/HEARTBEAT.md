@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-**Last check:** 2026-05-29 12:30 Asia/Saigon (05:30 UTC)
-**Status:** ATTENTION REQUIRED
+**Last check:** 2026-05-29 13:00 Asia/Saigon (06:00 UTC)
+**Status:** HEALTHY
 
 ---
 
@@ -9,12 +9,13 @@
 
 | Check | Result |
 |---|---|
-| Raw backlog | 7 files unprocessed (36 processed / 43 total) |
-| Pending reviews | 3 reports pending Julius approval |
+| Raw backlog | ✅ 0 files unprocessed (43 total — all processed) |
+| Pending reviews | ⚠️ 3 reports pending Julius approval |
 | Tag index | 19 tag indexes |
 | Topic index | 39 topic indexes |
 | Concept files | 163 files |
-| Inbox | Empty |
+| Source files | 36 files |
+| Inbox | ✅ Empty |
 
 ---
 
@@ -32,7 +33,7 @@
 
 ## Raw Backlog
 
-7 files in `raw/` cần compile. Logged — Julius có thể nói "compile all" để xử lý ngay hoặc đợi CompileAgent chạy sáng mai 08:00.
+✅ Không có file unprocessed. Tất cả 43 files trong raw/ đã được compile.
 
 ---
 
@@ -41,3 +42,8 @@
 - Format Validator scan 2026-05-29: 7 ERROR + 14 WARNING — field order, YAML syntax, section headers
 - Hygiene Inspector scan 2026-05-29: 32 missing concept files — OpenClaw compile needed
 - Output Validator scan 2026-05-29: 4 issues (1 ERROR + 2 WARNING + 1 INFO)
+- CompileAgent chạy lần cuối: 2026-05-29 08:00 — 7 files đã xử lý
+
+---
+
+*Next heartbeat: 13:30 Asia/Saigon*

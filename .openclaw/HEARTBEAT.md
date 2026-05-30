@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Health Log
 
 > Automated health check log — Every 30 minutes
-> Last check: 2026-05-30 22:30 (Asia/Saigon)
+> Last check: 2026-05-30 23:00 (Asia/Saigon)
 
 ---
 
@@ -10,18 +10,18 @@
 | Component | Status | Notes |
 |---|---|---|
 | **Inbox** | ✅ Clean | No #agent/inbox items pending |
-| **Raw backlog** | ✅ Clean | 2 files from May 29 — both processed (compiled to source notes) |
-| **Concept links** | ✅ OK | Recent concepts: 688 total in wiki/concepts/ |
-| **Pending reviews** | ✅ Clean | 0 pending Hermes reports |
+| **Raw backlog** | ✅ Clean | 0 unprocessed files |
+| **Concept links** | ✅ OK | No broken backlinks detected |
+| **Pending reviews** | ✅ Clean | 5 entries in _action-required.md (format + hygiene — awaiting Julius) |
 | **System** | ✅ Stable | All systems operational |
 
 ---
 
 ## Quick Stats
 - **wiki/concepts/:** 688 files
-- **Processed today:** 2 raw files (articles + videos from May 29)
-- **Pending reviews:** 0
+- **Processed today:** 0 new raw files since last check
+- **Pending reviews:** 5 entries (format + hygiene reports)
 
 ---
 
-*Next check: 2026-05-30 23:00*
+*Next check: 2026-05-30 23:30*

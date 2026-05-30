@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Health Log
 
 > Automated health check log — Updated every 30 minutes
-> Last check: 2026-05-30 06:00 Asia/Saigon
+> Last check: 2026-05-30 09:00 Asia/Saigon
 
 ---
 
@@ -10,62 +10,51 @@
 | Check | Status | Detail |
 |---|---|---|
 | Inbox | ✅ Clean | No #agent/inbox items |
-| Raw Backlog | ⚠️ 2 files | From yesterday (2026-05-29) |
-| Concept Backlinks | ⚠️ Unknown | Need compile run |
+| Raw Backlog | ⚠️ 44 files unprocessed | Mix from past weeks |
+| Concept Backlinks | ⚠️ 0 backlinks | Recent concepts missing sources/ links |
 | Pending Reviews | ⚠️ 3 reports | May 28-29, awaiting Julius approval |
 
 ---
 
 ## Raw Backlog
 
-| File | Ingested | Age |
-|---|---|---|
-| `raw/articles/2026-05-29_how-to-read-cash-flow-statement.md` | 2026-05-29 | ~24h |
-| `raw/videos/2026-05-29_japanese-evening-routine-fix-sleep.md` | 2026-05-29 | ~24h |
+**44 files** in `raw/` unprocessed (status not updated since compile).  
+Oldest files from 2026-05-14.
 
-→ CompileAgent will process at 08:00 (in ~2 hours)
+Files from yesterday (2026-05-29):
+- `raw/repos/repos.md`
+- `raw/articles/2026-05-14_how-ai-productivity-fails.md`
+- `raw/articles/2026-05-18_hermes-as-a-real-time-analyst.md`
+- `raw/articles/2026-05-20_juliachristina-were-not-supposed-to-live-like-this.md`
+- `raw/papers/papers.md`
 
----
-
-## Pending Hermes Reviews
-
-1. **Output Validator — 2026-05-29** (PENDING)
-   - 1 ERROR + 2 WARNING + 1 INFO
-
-2. **Hygiene Inspector — 2026-05-29** (PENDING)
-   - 32 missing concept files → requires compile run first
-
-3. **Format Validator — 2026-05-28** (PENDING)
-   - 7 ERROR + 14 WARNING (field order, YAML syntax, section headers)
-
-→ Julius: `wiki/reviews/_action-required.md`
+**CompileAgent** chạy lúc 08:00 nhưng chưa xử lý — cần kiểm tra log.
 
 ---
 
-## Previous Heartbeats
+## Concept Backlinks
 
-- 2026-05-29 23:30 — Clean
-- 2026-05-29 16:00 — Clean
-- 2026-05-29 08:00 — Compiled 7 files (7 source + 3 concept new)
+Random sample 7 concept files — **0 have backlinks to sources/**.  
+Cần compile run để tạo backlinks.
 
 ---
 
-*HEARTBEAT_OK with notes — 2026-05-30 06:00*
+## Pending Reviews
+
+3 reports chưa approve:
+- **Format Validator** — 2026-05-28: 7 ERROR + 14 WARNING
+- **Output Validator** — 2026-05-29: 1 ERROR + 2 WARNING + 1 INFO
+- **Hygiene Inspector** — 2026-05-29: 32 missing concept files
+
+Chi tiết: `wiki/reviews/_action-required.md`
+
 ---
-## 2026-05-30 07:00 — HEARTBEAT CHECK
 
-**INBOX:** ✅ Clean (0 #agent/inbox files)
+## Action Required
 
-**RAW BACKLOG:** ⚠️ 11 files unprocessed
-- raw/articles/: 7 files (oldest: 2026-05-14)
-- raw/papers/: 2 files (2026-05-22, 2026-05-27)
-- raw/posts/: 1 file (2026-05-20)
+1. **CompileAgent** — chạy lại để process 44 files + tạo concept backlinks
+2. **Julius approve** — 3 Hermes reports từ `_action-required.md`
 
-**PENDING REVIEWS:** ⚠️ 3 reports
-- Output Validator (2026-05-29): 1 ERROR + 2 WARNING + 1 INFO → waiting Julius approve
-- Hygiene Inspector (2026-05-29): 32 missing concept files → OpenClaw compile needed
-- Format Validator (2026-05-28): 7 ERROR + 14 WARNING → waiting Julius approve
+---
 
-**CONCEPT BACKLINKS:** ✅ Sample checked — files have proper source links
-
-**NOTE:** Backlog từ 2 tuần trước. CompileAgent cần chạy để xử lý.
+*HEARTBEAT_OK for inbox, pending actions above*

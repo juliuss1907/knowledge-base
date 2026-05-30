@@ -111,3 +111,29 @@ Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử l�
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 30
 - **Errors:** 1 file skipped due to invalid frontmatter
+
+## 2026-05-30 14:05:00 — Heartbeat: CRON SCHEDULER DOWN
+
+**Trigger:** Scheduled heartbeat check
+
+### Findings
+
+1. **Cron scheduler stopped** — all 10 jobs overdue 17 days
+   - Gateway running (PID 858811) but cron not firing
+   - Hermès validation still runs (seen in PM2 logs from 2026-05-30 10:21)
+   - Root cause: unknown, needs Julius investigation
+
+2. **KB data status:** ✅ clean
+   - 0 unprocessed in raw/
+   - 172 concepts, 38 sources, 44 raw files
+
+3. **Compile Daily job:** error on file `raw/articles/2026-04-23_where did the kelp...md`
+
+4. **Pending reports:** 0 — all resolved
+
+### Action Required
+
+- Julius: check/restart cron scheduler
+- FixCompile: resolve kelp file error
+
+### Updated: HEARTBEAT.md

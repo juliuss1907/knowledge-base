@@ -1,13 +1,13 @@
 # HEARTBEAT.md — OpenClaw System Health
 
-> Last updated: 2026-05-30 14:30 (Asia/Saigon)
-> Next check: 2026-05-30 15:00
+> Last updated: 2026-05-30 17:00 (Asia/Saigon)
+> Next check: 2026-05-30 17:30
 
 ---
 
 ## Status: HEARTBEAT_OK
 
-System running normally. Cron scheduler active.
+System running normally.
 
 ---
 
@@ -29,23 +29,17 @@ System running normally. Cron scheduler active.
 
 ---
 
-## Cron Jobs — Normal Operation
-
-| Job | Last Run | Status |
-|-----|----------|--------|
-| KB Index Daily | ~14:30 | ✅ ok |
-| Compile Daily | 2026-05-12 08:48 | ⚠️ error (1) |
-| Horizon briefs | Various | ✅ ok |
-| Market Prices | Various | ✅ ok |
-
-**Note:** jobs.json timestamps may be stale from gateway restart 2026-05-28. Scheduler is operational.
-
----
-
 ## Pending Reports
 
 - **0 reports** pending — all resolved
 
 ---
 
-*OpenClaw Heartbeat — AX400 — 2026-05-30 14:30*
+## Notes
+
+- Last action-required update: 2026-05-29 11:30 (Format Validator applied 55/60 files)
+- CompileAgent last ran: 2026-05-12 (not error — old job, replaced by manual flow)
+
+---
+
+*OpenClaw Heartbeat — AX400 — 2026-05-30 17:00*

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-05-29
 
 ## Stats
 
-- Total files: 57
-- Sources: 17
-- Concepts: 40
-- Last updated: 2026-05-29
+- Total files: 67
+- Sources: 18
+- Concepts: 49
+- Last updated: 2026-05-30
 
 ## Files with this tag
 
@@ -33,9 +33,14 @@ last_updated: 2026-05-29
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
 - [[ai-white-collar-automation]] — Ai White Collar Automation (concept)
+- [[ashbys-law]] — Ashbys Law (concept)
 - [[business-idiot-archetype]] — Business Idiot Archetype (concept)
 - [[casino-culture]] — Casino Culture (concept)
+- [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
+- [[complicated-vs-complex]] — Complicated Vs Complex (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
+- [[cynefin-framework]] — Cynefin Framework (concept)
+- [[dynamic-edge-trading]] — Dynamic Edge Trading (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
 - [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
@@ -59,6 +64,7 @@ last_updated: 2026-05-29
 - [[reflexivity-soros]] — Reflexivity Soros (concept)
 - [[retail-trading-fantasy]] — Retail Trading Fantasy (concept)
 - [[rot-economy]] — Rot Economy (concept)
+- [[second-order-effects]] — Second Order Effects (concept)
 - [[skill-atrophy]] — Skill Atrophy (concept)
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
@@ -75,16 +81,20 @@ last_updated: 2026-05-29
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
+- [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
+- [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
 - [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
+- [[systems-thinking]] — Systems Thinking (concept)
+- [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
 - [[taste-holders]] — Taste Holders (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
 
 ## Co-occurring tags
 
-- [[productivity]] — 24 co-occurrences
-- [[ai]] — 18 co-occurrences
+- [[productivity]] — 40 co-occurrences
+- [[economic]] — 26 co-occurrences
+- [[research]] — 24 co-occurrences
+- [[ai]] — 19 co-occurrences
 - [[tools]] — 13 co-occurrences
-- [[economic]] — 13 co-occurrences
-- [[research]] — 11 co-occurrences

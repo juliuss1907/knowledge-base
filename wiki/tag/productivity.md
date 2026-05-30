@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: productivity
 auto_generated: true
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Tag: #productivity
@@ -16,19 +16,22 @@ last_updated: 2026-05-29
 
 ## Stats
 
-- Total files: 31
-- Sources: 5
-- Concepts: 26
-- Last updated: 2026-05-29
+- Total files: 36
+- Sources: 6
+- Concepts: 30
+- Last updated: 2026-05-30
 
 ## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
 - [[casino-culture]] — Casino Culture (concept)
+- [[circadian-rhythm]] — Circadian Rhythm (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
+- [[cortisol-management]] — Cortisol Management (concept)
 - [[discipline-system]] — Discipline System (concept)
 - [[dunbar-number]] — Dunbar Number (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
+- [[evening-routine]] — Evening Routine (concept)
 - [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
 - [[glymphatic-system]] — Glymphatic System (concept)
@@ -47,8 +50,10 @@ last_updated: 2026-05-29
 - [[paradox-of-effort]] — Paradox Of Effort (concept)
 - [[patience-vs-passivity]] — Patience Vs Passivity (concept)
 - [[philosopher-syndrome]] — Philosopher Syndrome (concept)
+- [[sleep-hygiene]] — Sleep Hygiene (concept)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
@@ -57,7 +62,8 @@ last_updated: 2026-05-29
 
 ## Co-occurring tags
 
-- [[opinion]] — 24 co-occurrences
-- [[research]] — 8 co-occurrences
-- [[tutorial]] — 4 co-occurrences
-- [[tools]] — 1 co-occurrence
+- [[opinion]] — 40 co-occurrences
+- [[productivity]] — 20 co-occurrences
+- [[research]] — 14 co-occurrences
+- [[tutorial]] — 9 co-occurrences
+- [[economic]] — 4 co-occurrences

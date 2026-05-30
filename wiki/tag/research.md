@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Tag: #research
@@ -16,13 +16,14 @@ last_updated: 2026-05-29
 
 ## Stats
 
-- Total files: 84
-- Sources: 13
-- Concepts: 71
-- Last updated: 2026-05-29
+- Total files: 94
+- Sources: 16
+- Concepts: 78
+- Last updated: 2026-05-30
 
 ## Files with this tag
 
+- [[agency-law]] — Agency Law (concept)
 - [[agent-harness]] — Agent Harness (concept)
 - [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
@@ -33,6 +34,7 @@ last_updated: 2026-05-29
 - [[american-security-guarantee]] — American Security Guarantee (concept)
 - [[ashbys-law]] — Ashbys Law (concept)
 - [[autobiographical-memory-systems]] — Autobiographical Memory Systems (concept)
+- [[cash-flow-statement]] — Cash Flow Statement (concept)
 - [[code-as-substrate]] — Code As Substrate (concept)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
 - [[complicated-vs-complex]] — Complicated Vs Complex (concept)
@@ -45,10 +47,13 @@ last_updated: 2026-05-29
 - [[dollar-as-rent-payment]] — Dollar As Rent Payment (concept)
 - [[dunbar-number]] — Dunbar Number (concept)
 - [[dynamic-edge-trading]] — Dynamic Edge Trading (concept)
+- [[ebitda-trap]] — Ebitda Trap (concept)
 - [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[fast-weights]] — Fast Weights (concept)
+- [[financial-metrics]] — Financial Metrics (concept)
 - [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
+- [[free-cash-flow]] — Free Cash Flow (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-seo]] — Generative Ai Seo (concept)
 - [[generative-search-results]] — Generative Search Results (concept)
@@ -62,6 +67,7 @@ last_updated: 2026-05-29
 - [[kinked-demand-curve]] — Kinked Demand Curve (concept)
 - [[kissinger-deal-1974]] — Kissinger Deal 1974 (concept)
 - [[kv-cache-eviction]] — Kv Cache Eviction (concept)
+- [[lazy-thinking]] — Lazy Thinking (concept)
 - [[llm-sleep]] — Llm Sleep (concept)
 - [[logotherapy-frankl]] — Logotherapy Frankl (concept)
 - [[long-context-models]] — Long Context Models (concept)
@@ -72,6 +78,7 @@ last_updated: 2026-05-29
 - [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
 - [[multi-agent-taxonomy]] — Multi Agent Taxonomy (concept)
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
+- [[operating-cash-flow]] — Operating Cash Flow (concept)
 - [[petrodollar-system]] — Petrodollar System (concept)
 - [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
 - [[policy-review-framework]] — Policy Review Framework (concept)
@@ -92,9 +99,12 @@ last_updated: 2026-05-29
 - [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
+- [[src_how-to-read-cash-flow-statement]] — How To Read Cash Flow Statement (source)
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
+- [[src_no-system-will-make-you-profitable]] — No System Will Make You Profitable (source)
 - [[src_petrodollar-system-analysis]] — Petrodollar System Analysis (source)
 - [[src_project-glasswing-update]] — Project Glasswing Update (source)
+- [[src_setup-is-not-an-edge]] — Setup Is Not An Edge (source)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
@@ -110,8 +120,8 @@ last_updated: 2026-05-29
 
 ## Co-occurring tags
 
-- [[ai]] — 48 co-occurrences
-- [[tools]] — 19 co-occurrences
-- [[economic]] — 15 co-occurrences
-- [[opinion]] — 11 co-occurrences
-- [[productivity]] — 8 co-occurrences
+- [[ai]] — 56 co-occurrences
+- [[economic]] — 37 co-occurrences
+- [[tools]] — 24 co-occurrences
+- [[opinion]] — 24 co-occurrences
+- [[politic]] — 14 co-occurrences

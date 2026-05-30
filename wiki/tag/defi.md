@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: defi
 auto_generated: true
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Tag: #defi
@@ -19,7 +19,7 @@ last_updated: 2026-05-29
 - Total files: 3
 - Sources: 0
 - Concepts: 3
-- Last updated: 2026-05-29
+- Last updated: 2026-05-30
 
 ## Files with this tag
 

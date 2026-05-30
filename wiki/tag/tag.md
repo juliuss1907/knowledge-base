@@ -19,13 +19,11 @@ Master index of all tags used across the wiki. Each entry links to a tag file li
 - [[wiki]]
 
 ## Stats
-
 - Total tags: 18
 - Main tags: 7
 - Sub tags: 11
-- Most used: #ai (104), #tools (96), #research (90)
-- Last updated: 2026-05-29
-
+- Most used: #ai (104), #tools (102), #research (100)
+- Last updated: 2026-05-30
 
 ## Items
 

@@ -1,8 +1,8 @@
 # Topic: ai-productivity
 
-Auto-generated index of all content with topic `ai-productivity`.
+Auto-generated index of all content with topic `{topic}`.
 
-Last updated: 2026-05-29 21:05:51
+Last updated: 2026-05-30 21:03:46
 
 ---
 
@@ -10,7 +10,7 @@ Last updated: 2026-05-29 21:05:51
 
 - [[closed-loop-system]] — main: #system, sub: [#automation, #tools]
 - [[codified-taste]] — main: #system, sub: [#automation, #tools]
-- [[loop-ownership]] — main: #system, sub: [#automation]
+- [[loop-ownership]] — main: #system, sub: [#automation, #productivity, #systems]
 - [[shift-left-testing]] — main: #system, sub: [#automation, #tools]
 - [[skill-atrophy]] — main: #ai, sub: [#opinion, #tools]
 - [[taste-holders]] — main: #system, sub: [#automation, #opinion]

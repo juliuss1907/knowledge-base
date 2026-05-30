@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: law
 auto_generated: true
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Tag: #law
@@ -19,7 +19,7 @@ last_updated: 2026-05-29
 - Total files: 4
 - Sources: 1
 - Concepts: 3
-- Last updated: 2026-05-29
+- Last updated: 2026-05-30
 
 ## Files with this tag
 
@@ -30,5 +30,6 @@ last_updated: 2026-05-29
 
 ## Co-occurring tags
 
-- [[ai]] — 4 co-occurrences
+- [[ai]] — 5 co-occurrences
 - [[tools]] — 3 co-occurrences
+- [[research]] — 1 co-occurrence

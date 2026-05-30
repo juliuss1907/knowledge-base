@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-05-29
 
 ## Stats
 
-- Total files: 90
+- Total files: 96
 - Sources: 19
-- Concepts: 71
-- Last updated: 2026-05-29
+- Concepts: 77
+- Last updated: 2026-05-30
 
 ## Files with this tag
 
@@ -49,6 +49,7 @@ last_updated: 2026-05-29
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[factory-missions]] — Factory Missions (concept)
+- [[fast-weights]] — Fast Weights (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
 - [[generative-ai-seo]] — Generative Ai Seo (concept)
@@ -63,8 +64,10 @@ last_updated: 2026-05-29
 - [[hermes-three-layers]] — Hermes Three Layers (concept)
 - [[hermes-token-management]] — Hermes Token Management (concept)
 - [[hindsight-skill]] — Hindsight Skill (concept)
+- [[kv-cache-eviction]] — Kv Cache Eviction (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[llm-sleep]] — Llm Sleep (concept)
+- [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
 - [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
 - [[oauth-security-risks]] — Oauth Security Risks (concept)
@@ -72,6 +75,7 @@ last_updated: 2026-05-29
 - [[paper-trading]] — Paper Trading (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
 - [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
+- [[policy-review-framework]] — Policy Review Framework (concept)
 - [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
 - [[query-fan-out]] — Query Fan Out (concept)
@@ -80,6 +84,7 @@ last_updated: 2026-05-29
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
+- [[sizing-policy-trading]] — Sizing Policy Trading (concept)
 - [[skill-atrophy]] — Skill Atrophy (concept)
 - [[soul-md-configuration]] — Soul Md Configuration (concept)
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
@@ -106,6 +111,7 @@ last_updated: 2026-05-29
 - [[supply-chain-attack]] — Supply Chain Attack (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
+- [[validation-contract]] — Validation Contract (concept)
 - [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)
 - [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
 - [[x-api-oauth2]] — X Api Oauth2 (concept)
@@ -116,8 +122,8 @@ last_updated: 2026-05-29
 
 ## Co-occurring tags
 
-- [[ai]] — 63 co-occurrences
-- [[automation]] — 42 co-occurrences
-- [[research]] — 19 co-occurrences
+- [[ai]] — 71 co-occurrences
+- [[automation]] — 43 co-occurrences
+- [[research]] — 24 co-occurrences
 - [[tech]] — 17 co-occurrences
 - [[tutorial]] — 16 co-occurrences

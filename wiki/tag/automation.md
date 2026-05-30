@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: automation
 auto_generated: true
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Tag: #automation
@@ -16,10 +16,10 @@ last_updated: 2026-05-29
 
 ## Stats
 
-- Total files: 47
+- Total files: 48
 - Sources: 10
-- Concepts: 37
-- Last updated: 2026-05-29
+- Concepts: 38
+- Last updated: 2026-05-30
 
 ## Files with this tag
 
@@ -51,6 +51,7 @@ last_updated: 2026-05-29
 - [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
 - [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
+- [[prospective-memory-gap]] — Prospective Memory Gap (concept)
 - [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
@@ -73,8 +74,8 @@ last_updated: 2026-05-29
 
 ## Co-occurring tags
 
-- [[tools]] — 42 co-occurrences
-- [[ai]] — 36 co-occurrences
+- [[tools]] — 43 co-occurrences
+- [[ai]] — 40 co-occurrences
 - [[tutorial]] — 8 co-occurrences
 - [[opinion]] — 7 co-occurrences
 - [[system]] — 5 co-occurrences

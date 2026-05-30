@@ -1,8 +1,8 @@
 # Topic: us-saudi-relations
 
-Auto-generated index of all content with topic `us-saudi-relations`.
+Auto-generated index of all content with topic `{topic}`.
 
-Last updated: 2026-05-29 21:05:51
+Last updated: 2026-05-30 21:03:46
 
 ---
 
@@ -12,4 +12,3 @@ Last updated: 2026-05-29 21:05:51
 - [[us-security-umbrella]] — main: #politic, sub: [#research, #economic]
 
 ## Sources (0)
-

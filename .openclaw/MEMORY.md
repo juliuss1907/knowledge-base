@@ -137,3 +137,27 @@ Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử l�
 - FixCompile: resolve kelp file error
 
 ### Updated: HEARTBEAT.md
+
+## 2026-05-30 21:02:51 — Indexed
+- **Scanned:** 171 concepts + 38 sources = 209 total files
+- **Tags indexed:** 0 (7 main-tags + -7 sub-tags)
+- **Topics indexed:** 58
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 701 (see logs)
+- **Errors:** 0 files skipped (unless warned above)
+
+## 2026-05-30 21:03:32 — Indexed
+- **Scanned:** 171 concepts + 38 sources = 209 total files
+- **Tags indexed:** 0 (7 main-tags + -7 sub-tags)
+- **Topics indexed:** 58
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 701 (see logs)
+- **Errors:** 0 files skipped (unless warned above)
+
+## 2026-05-30 21:03:46 — Indexed
+- **Scanned:** 171 concepts + 38 sources = 209 total files
+- **Tags indexed:** 18 (7 main-tags + 11 sub-tags)
+- **Topics indexed:** 58
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 122 (see logs)
+- **Errors:** 0 files skipped (unless warned above)

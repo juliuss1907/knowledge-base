@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: news
 auto_generated: true
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Tag: #news
@@ -19,7 +19,7 @@ last_updated: 2026-05-29
 - Total files: 8
 - Sources: 2
 - Concepts: 6
-- Last updated: 2026-05-29
+- Last updated: 2026-05-30
 
 ## Files with this tag
 
@@ -36,6 +36,6 @@ last_updated: 2026-05-29
 
 - [[tech]] — 3 co-occurrences
 - [[tools]] — 3 co-occurrences
+- [[economic]] — 3 co-occurrences
 - [[hack]] — 2 co-occurrences
 - [[ai]] — 2 co-occurrences
-- [[opinion]] — 2 co-occurrences

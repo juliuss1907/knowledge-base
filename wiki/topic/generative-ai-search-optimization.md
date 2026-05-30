@@ -1,8 +1,8 @@
 # Topic: generative-ai-search-optimization
 
-Auto-generated index of all content with topic `generative-ai-search-optimization`.
+Auto-generated index of all content with topic `{topic}`.
 
-Last updated: 2026-05-29 21:05:51
+Last updated: 2026-05-30 21:03:46
 
 ---
 

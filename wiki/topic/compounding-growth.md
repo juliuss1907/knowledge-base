@@ -1,20 +1,20 @@
 # Topic: compounding-growth
 
-Auto-generated index of all content with topic `compounding-growth`.
+Auto-generated index of all content with topic `{topic}`.
 
-Last updated: 2026-05-29 21:05:51
+Last updated: 2026-05-30 21:03:46
 
 ---
 
 ## Concepts (7)
 
-- [[casino-culture]] — main: #productivity, sub: [#opinion]
-- [[compounding-effect]] — main: #productivity, sub: [#opinion]
+- [[casino-culture]] — main: #productivity, sub: [#opinion, #productivity, #economic]
+- [[compounding-effect]] — main: #productivity, sub: [#opinion, #productivity, #economic]
 - [[discipline-system]] — main: #productivity, sub: [#psychology, #behavior]
-- [[environment-baseline]] — main: #productivity, sub: [#opinion]
+- [[environment-baseline]] — main: #productivity, sub: [#opinion, #productivity, #systems]
 - [[leading-indicators]] — main: #productivity, sub: [#economics, #analysis]
-- [[negative-compounding]] — main: #productivity, sub: [#opinion]
-- [[patience-vs-passivity]] — main: #productivity, sub: [#opinion]
+- [[negative-compounding]] — main: #productivity, sub: [#opinion, #productivity, #systems]
+- [[patience-vs-passivity]] — main: #productivity, sub: [#opinion, #productivity, #systems]
 
 ## Sources (1)
 

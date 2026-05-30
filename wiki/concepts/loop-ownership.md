@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: system
-sub_tags: [automation]
+sub_tags: [automation, productivity, systems]
 topic: ai-productivity
 sources:
   - "[[src_how-ai-productivity-fails]]"

@@ -12,7 +12,7 @@
 **Pending reports:** 1
 
 **Status:**
-- ⏳ Format Validator — 2026-05-29: PENDING (60 files with 1 sub_tag — need 2-3 per spec)
+- ✅ Format Validator — 2026-05-29: **APPLIED** (55/60 files fixed — 5 files not found)
 - ✅ Format Validator — 2026-05-28: RESOLVED (7 ERROR + 14 WARNING fixed 2026-05-28/29)
 - ✅ Output Validator — 2026-05-29: RESOLVED (1 ERROR + 2 WARNING + 1 INFO — all fixed)
 - ✅ Hygiene Inspector — 2026-05-29: RESOLVED (KB structure clean, 32 missing concepts by design)

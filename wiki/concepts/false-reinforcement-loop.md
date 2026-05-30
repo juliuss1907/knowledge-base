@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: economic
-sub_tags: [opinion]
+sub_tags: [opinion, economic, psychology]
 topic: trading-psychology
 sources:
   - "[[src_no-system-will-make-you-profitable]]"

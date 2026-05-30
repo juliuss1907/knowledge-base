@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-05-12_active-vs-lazy-thinking]]"
 main_tag: productivity
-sub_tags: [opinion]
+sub_tags: [opinion, productivity, systems]
 topic: active-thinking-methodology
 date_compiled: 2026-05-13
 url: https://alexw.substack.com/p/active-vs-lazy-thinking

@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [research]
+sub_tags: [research, ai, automation]
 topic: agent-memory-systems
 sources:
   - "[[src_agent-memory-anatomy]]"

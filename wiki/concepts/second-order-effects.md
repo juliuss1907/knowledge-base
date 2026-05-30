@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: system
-sub_tags: [research]
+sub_tags: [research, systems, opinion]
 topic: post-systems-thinking
 sources: []
 last_updated: 2026-05-27

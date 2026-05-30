@@ -2,7 +2,7 @@
 type: concept
 status: stub
 main_tag: economic
-sub_tags: [research]
+sub_tags: [research, economic, politic]
 topic: uae-opec-exit-geopolitics
 sources:
   - "[[src_uae-opec-exit-end-of-era]]"

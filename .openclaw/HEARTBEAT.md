@@ -51,3 +51,21 @@
 ---
 
 *HEARTBEAT_OK with notes — 2026-05-30 06:00*
+---
+## 2026-05-30 07:00 — HEARTBEAT CHECK
+
+**INBOX:** ✅ Clean (0 #agent/inbox files)
+
+**RAW BACKLOG:** ⚠️ 11 files unprocessed
+- raw/articles/: 7 files (oldest: 2026-05-14)
+- raw/papers/: 2 files (2026-05-22, 2026-05-27)
+- raw/posts/: 1 file (2026-05-20)
+
+**PENDING REVIEWS:** ⚠️ 3 reports
+- Output Validator (2026-05-29): 1 ERROR + 2 WARNING + 1 INFO → waiting Julius approve
+- Hygiene Inspector (2026-05-29): 32 missing concept files → OpenClaw compile needed
+- Format Validator (2026-05-28): 7 ERROR + 14 WARNING → waiting Julius approve
+
+**CONCEPT BACKLINKS:** ✅ Sample checked — files have proper source links
+
+**NOTE:** Backlog từ 2 tuần trước. CompileAgent cần chạy để xử lý.

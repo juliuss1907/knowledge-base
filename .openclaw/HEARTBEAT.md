@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Health
 
-> Last updated: 2026-05-30 12:30 (Asia/Saigon)
-> Next check: 2026-05-30 13:00
+> Last updated: 2026-05-30 13:30 (Asia/Saigon)
+> Next check: 2026-05-30 14:00
 
 ---
 
@@ -52,4 +52,4 @@ No critical issues detected.
 
 ---
 
-*OpenClaw Heartbeat — AX400 — 2026-05-30 12:30
+*OpenClaw Heartbeat — AX400 — 2026-05-30 13:30*

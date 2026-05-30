@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Health
 
-> Last updated: 2026-05-30 14:08 (Asia/Saigon)
-> Next check: 2026-05-30 14:30
+> Last updated: 2026-05-30 14:30 (Asia/Saigon)
+> Next check: 2026-05-30 15:00
 
 ---
 
@@ -33,7 +33,7 @@ System running normally. Cron scheduler active.
 
 | Job | Last Run | Status |
 |-----|----------|--------|
-| KB Index Daily | ~13:30 (34m ago) | ✅ ok |
+| KB Index Daily | ~14:30 | ✅ ok |
 | Compile Daily | 2026-05-12 08:48 | ⚠️ error (1) |
 | Horizon briefs | Various | ✅ ok |
 | Market Prices | Various | ✅ ok |
@@ -48,4 +48,4 @@ System running normally. Cron scheduler active.
 
 ---
 
-*OpenClaw Heartbeat — AX400 — 2026-05-30 14:08*
+*OpenClaw Heartbeat — AX400 — 2026-05-30 14:30*

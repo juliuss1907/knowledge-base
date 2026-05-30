@@ -1,60 +1,37 @@
-# HEARTBEAT.md — OpenClaw System Status
+# HEARTBEAT.md
 
-> Updated: 2026-05-31 04:00 Asia/Saigon (2026-05-30 21:00 UTC)
-
----
-
-## System Status: ✅ HEALTHY
-
-### Pipeline Health
-
-| Stage | Status | Notes |
-|---|---|---|
-| **Ingest** | ✅ OK | No backlog — all raw files processed |
-| **Compile** | ✅ OK | No unprocessed files in queue |
-| **Index** | ✅ OK | Tag/topic indexes current |
-| **Review** | ✅ OK | 0 pending Hermes reports |
+> OpenClaw system health log
+> Updated every 30 minutes by heartbeat check
 
 ---
 
-## Raw Backlog
+## Status: HEARTBEAT_OK
 
-**Files in `raw/`: 0 unprocessed**
+**Timestamp:** 2026-05-30 21:30 UTC (Asia/Saigon: 2026-05-31 04:30)
 
-All source files have been compiled. No action required.
+### Quick Status
 
----
+| Check | Result |
+|---|---|
+| Inbox (Tasks/) | ✅ No items |
+| Raw backlog | ✅ 0 unprocessed |
+| Pending reviews | ✅ 0 pending |
+| Wiki concepts | ✅ 5 new (mtime -1d) |
 
-## Concept Health
+### System Metrics
 
-**Sample backlink check (5 files):** 0 source links found per concept
+- **Wiki concepts:** 28+ files
+- **Tags indexed:** 12 (updated daily 21:00)
+- **Pending reviews:** 0
 
-> Note: This may be by design (concepts extracted pre-linker) or indicate a separate indexing gap. Noted for observation — not an urgent fix.
+### Last Events
 
----
-
-## Pending Reviews
-
-**Hermes reports: 0 pending**
-
-Action-required file is clean. All recent validations resolved.
-
----
-
-## Inbox
-
-**Tasks tagged `#agent/inbox`: 0**
-
-No pending tasks.
+| Time | Event |
+|---|---|
+| 2026-05-30 | Format Validator applied (55/60 files fixed) |
+| 2026-05-29 | Output Validator resolved |
+| 2026-05-29 | Hygiene Inspector clean |
 
 ---
 
-## Notes
-
-- Heartbeat runs every 30 minutes (cron: 3e70fe54-de76-4781-9342-c1ab2a73ebd4)
-- Last validation: 2026-05-29 (Format Validator — 55/60 files fixed)
-- System stable — no intervention required
-
----
-
-**HEARTBEAT_OK** — 2026-05-31 04:00
+*Next heartbeat: 2026-05-31 05:00 Saigon*

@@ -4,7 +4,9 @@ source_type: article
 source_url: https://jimmysjournal.substack.com/p/how-to-read-a-cash-flow-statement
 date_ingested: 2026-05-29
 tags: [economic, research]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-30
+compiled_to: "[[src_how-to-read-cash-flow-statement]]"
 ---
 
 # How to Read a Cash Flow Statement Like a Pro Investor

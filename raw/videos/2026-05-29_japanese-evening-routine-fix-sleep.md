@@ -4,7 +4,9 @@ source_type: video
 source_url: https://youtu.be/ZD5alBMRtOw
 date_ingested: 2026-05-29
 tags: [productivity, health]
-status: unprocessed
+status: processed
+compiled_at: 2026-05-30
+compiled_to: "[[src_japanese-evening-routine-fix-sleep]]"
 ---
 
 # Japanese Evening Routine That Fixes Your Sleep

@@ -1,4 +1,31 @@
 
+## 2026-05-30 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-05-29_how-to-read-cash-flow-statement.md | src_how-to-read-cash-flow-statement | cash-flow-statement, operating-cash-flow, free-cash-flow, ebitda-trap, financial-metrics |
+| raw/videos/2026-05-29_japanese-evening-routine-fix-sleep.md | src_japanese-evening-routine-fix-sleep | cortisol-management, sleep-hygiene, evening-routine, circadian-rhythm |
+
+### Summary
+
+- **Processed:** 2/2 files
+- **Source notes created:** 2
+- **Concepts created:** 9
+- **Status updated:** All raw files → `processed`
+
+### Tags Applied
+
+- economic × 1 file
+- productivity × 1 file
+
+Sub-tags: research, tutorial, health
+
+---
+
 ## 2026-05-29 12:00:00 — Compiled (Daily Cron)
 
 **Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)

@@ -1,45 +1,27 @@
-# HEARTBEAT.md — System Health Log
+# HEARTBEAT.md — OpenClaw System Health Log
 
-> Automated check every 30 minutes
-> Last check: 2026-05-30 18:30 (Asia/Saigon)
+> Automated health check log — Every 30 minutes
+> Last check: 2026-05-30 19:00 (Asia/Saigon)
 
 ---
 
 ## Status: ✅ HEARTBEAT_OK
 
-### Checks performed
-
-| Check | Result | Notes |
+| Component | Status | Notes |
 |---|---|---|
-| **Inbox** | ✅ Clean | No `#agent/inbox` files in Tasks/ |
-| **Raw backlog** | ✅ Clean | All raw index files current, no unprocessed content files |
-| **Pending reviews** | ✅ Clean | 0 pending — all reports resolved |
-| **Concept backlinks** | ✅ OK | Recent files have proper source links |
-| **System files** | ✅ OK | All write zones accessible |
-
-### Quick stats
-
-| Area | Count | Last updated |
-|---|---|---|
-| `raw/` content files | System current | — |
-| `wiki/concepts/` | 59 files processed | Last 24h |
-| `wiki/sources/` | System current | — |
-| Pending Hermes reports | 0 | 2026-05-29 |
-
-### Quick stats
-
-| Area | Count | Last updated |
-|---|---|---|
-| `raw/` content files | System current | — |
-| `wiki/concepts/` | 59 files processed | Last 24h |
-| `wiki/sources/` | System current | — |
-| Pending Hermes reports | 0 | 2026-05-29 |
-
-### Notes
-- 59 concept files processed recently — good flow
-- All 2026-05-29 Hermes reports resolved
-- System stable
+| **Inbox** | ✅ Clean | No #agent/inbox items pending |
+| **Raw backlog** | ✅ Clean | All raw files processed |
+| **Concept links** | ✅ OK | Recent concepts created today |
+| **Pending reviews** | ✅ Clean | 0 pending Hermes reports |
+| **System** | ✅ Stable | All systems operational |
 
 ---
 
-*Next check: 2026-05-30 19:00*
+## Quick Stats
+- **wiki/concepts/:** 688 files
+- **Last concept:** outcome-worship-trap.md (10:20 today)
+- **Pending reviews:** 0
+
+---
+
+*Next check: 2026-05-30 19:30*

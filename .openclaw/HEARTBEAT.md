@@ -1,6 +1,6 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-> Last check: 2026-05-30 11:00 Asia/Saigon (UTC 04:00)
+> Last check: 2026-05-30 11:30 Asia/Saigon (UTC 04:30)
 > Cron trigger: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status: ✅ HEARTBEAT_OK
@@ -28,4 +28,4 @@
 
 ---
 
-*Next heartbeat: 2026-05-30 11:30 Asia/Saigon*
+*Next heartbeat: 2026-05-30 12:00 Asia/Saigon*

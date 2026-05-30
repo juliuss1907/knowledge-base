@@ -1,29 +1,28 @@
-# HEARTBEAT.md — OpenClaw System Status
+# HEARTBEAT.md — System Health Log
 
-> Automated health check — Updated every 30 minutes
+> Updated every 30 minutes by OpenClaw
 
-**Last check:** 2026-05-30 17:30 UTC (00:30 Asia/Saigon)
+**Last check:** 2026-05-30 18:00 UTC (01:00 Asia/Saigon, Sunday)
+**Status:** ✅ HEARTBEAT_OK
 
 ---
 
-## Status: ✅ CLEAN
+## Health indicators
 
 | Check | Result |
 |---|---|
-| Inbox (Tasks/) | 0 items |
-| Raw backlog | 0 files unprocessed |
-| Concept backlinks | OK |
-| Pending reviews | 0 pending |
+| Raw backlog (unprocessed) | 0 / 45 files |
+| Pending Hermes reports | 0 |
+| Tasks dir | Does not exist (no active tasks) |
+| Action required | 0 pending, all resolved |
 
 ---
 
-## System Health
+## Notes
 
-- **raw/:** All files processed
-- **wiki/concepts/:** Backlinks intact
-- **wiki/reviews/:** No pending action required
-- **Scheduled tasks:** Running normally
+- No recent ingest activity detected
+- All systems operational
 
 ---
 
-*Next heartbeat: 2026-05-30 18:00 UTC (01:00 Asia/Saigon)*
+*Next check: 2026-05-30 18:30 UTC*

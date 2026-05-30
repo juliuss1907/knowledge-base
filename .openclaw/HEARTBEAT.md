@@ -2,7 +2,7 @@
 
 > Automated health check — Updated every 30 minutes
 
-**Last check:** 2026-05-30 17:00 UTC (00:00 Asia/Saigon)
+**Last check:** 2026-05-30 17:30 UTC (00:30 Asia/Saigon)
 
 ---
 
@@ -26,4 +26,4 @@
 
 ---
 
-*Next heartbeat: 2026-05-30 17:30 UTC (00:30 Asia/Saigon)*
+*Next heartbeat: 2026-05-30 18:00 UTC (01:00 Asia/Saigon)*

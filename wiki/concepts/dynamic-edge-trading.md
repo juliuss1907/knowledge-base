@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: economic
-sub_tags: [research]
+sub_tags: [research, economic, opinion]
 topic: market-dynamics
 sources:
   - "[[src_setup-is-not-an-edge]]"

@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [research]
+sub_tags: [research, health, psychology]
 topic: evolutionary-mismatch-modern-life
 sources:
   - "[[src_were-not-supposed-to-live-like-this]]"

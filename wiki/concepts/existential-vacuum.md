@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [opinion]
+sub_tags: [opinion, psychology, productivity]
 topic: meaning-life-purpose
 sources:
   - "[[src_viktor-frankl-meaning-video]]"

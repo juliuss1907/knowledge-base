@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [opinion]
+sub_tags: [opinion, productivity, research]
 sources:
   - "[[src_active-vs-lazy-thinking]]"
 last_updated: 2026-05-24

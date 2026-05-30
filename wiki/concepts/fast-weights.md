@@ -2,7 +2,7 @@
 type: concept
 status: stub
 main_tag: ai
-sub_tags: [research]
+sub_tags: [research, ai, tools]
 topic: llm-memory-consolidation
 sources:
   - "[[src_llm-need-sleep-consolidation]]"

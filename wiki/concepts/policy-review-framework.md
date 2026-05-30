@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: economic
-sub_tags: [research]
+sub_tags: [research, economic, tools]
 topic: trading-process
 sources:
   - "[[src_no-system-will-make-you-profitable]]"

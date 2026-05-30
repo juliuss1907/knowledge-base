@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [law]
+sub_tags: [law, ai, research]
 topic: ai-legal-personhood
 sources:
   - "[[src_aaron-wright-ai-agents-legal-body]]"

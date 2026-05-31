@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [research, tech]
+sub_tags: [research, tools]
 topic: deepseek-v4-architecture
 sources:
   - "[[src_deepseek-v4-architecture]]"

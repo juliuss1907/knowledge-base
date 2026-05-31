@@ -1,6 +1,6 @@
 ---
 type: concept
-status: stub
+status: draft
 main_tag: ai
 sub_tags: [automation, tools]
 topic: multi-agent-architecture

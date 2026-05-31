@@ -1,6 +1,6 @@
 ---
 type: concept
-status: stub
+status: draft
 main_tag: economic
 sub_tags: [research, economic, politic]
 topic: uae-opec-exit-geopolitics

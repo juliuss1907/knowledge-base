@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: economic
-sub_tags: [tech, opinion]
+sub_tags: [tools, opinion]
 topic: ai-reflexivity-2026
 sources:
   - "[[src_ai-reflexivity-loop-is-same]]"

@@ -1,43 +1,67 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-**Last check:** 2026-05-31 23:00 (Asia/Saigon)  
-**Agent:** Kara (OpenClaw AX400)  
-**Status:** ⚠️ 3 pending Hermes reports
+> Updated: 2026-06-01 00:30 Asia/Saigon
+> Frequency: Every 30 minutes
 
 ---
 
-## Quick Status
-
-| Zone | Status | Notes |
-|------|--------|-------|
-| raw/ | ✅ | 0 unprocessed files (7 index files only, no source backlog) |
-| wiki/ | ✅ | 172 concepts |
-| Pending reviews | ⚠️ | 3 reports awaiting Julius approval |
+## Current Status: ⚠️ BACKLOG DETECTED
 
 ---
 
-## Issues Requiring Attention
+## Health Checks
 
-### ⚠️ Pending Hermes Reports (3)
+| Check | Status | Notes |
+|---|---|---|
+| Inbox (Tasks/) | ✅ Clean | No pending agent items |
+| Raw Backlog | ⚠️ 10 files unprocessed | Oldest from Apr 2 |
+| Pending Hermes Reviews | ⚠️ 3 reports awaiting approval | 36 total issues |
+| Index (tag/topic) | ✅ Updated | Tag files modified <24h ago |
+| Compile Agent | ⏸️ Scheduled 08:00 | |
+
+---
+
+## Details
+
+### Raw Backlog (>24h unprocessed)
+
+```
+raw/repos/repos.md                    — Apr 2
+raw/articles/2026-05-14_how-ai-productivity-fails.md
+raw/articles/2026-05-18_1-month-with-hermes-ive-been-using-wrong.md
+raw/articles/2026-05-18_google-guide-optimizing-generative-ai-search.md
+raw/articles/2026-05-18_hermes-as-a-real-time-analyst.md
+raw/articles/2026-05-27_the-revenge-of-the-business-idiot.md
+raw/articles/2026-05-28_no-system-will-make-you-profitable.md
+raw/articles/2026-05-28_deepseek-v4-architecture-deep-dive.md
+raw/articles/2026-05-04_what-comes-after-systems-thinking.md
+```
+
+**Total: 10 files in raw/ awaiting processing**
+
+CompileAgent sẽ chạy lúc 08:00. Julius có thể nói "compile all now" để xử lý ngay.
+
+---
+
+### Pending Hermes Reviews
 
 | Report | Date | Issues | Status |
-|--------|------|--------|--------|
-| Format Validator | 2026-05-30 | 16 (6 empty sub_tags, 8 invalid tags, 2 field order) | PENDING APPROVAL |
-| Output Validator | 2026-05-30 | 18 (1 empty sources, 17 status:stub) | PENDING APPROVAL |
-| Hygiene Inspector | 2026-05-30 | 2 (unauthorized folders: memory/, search/) | PENDING APPROVAL |
+|---|---|---|---|
+| Format Validator | 2026-05-30 | 16 issues (6 empty sub_tags, 8 invalid tags, 2 field order) | ⏳ PENDING APPROVAL |
+| Output Validator | 2026-05-30 | 18 issues (1 empty sources, 17 status:stub) | ⏳ PENDING APPROVAL |
+| Hygiene Inspector | 2026-05-30 | 2 unauthorized folders (memory/, search/) | ⏳ PENDING APPROVAL |
 
-**Action required:** Julius approve/reject fixes via `wiki/reviews/_action-required.md`
-
----
-
-## System Health
-
-- ✅ No inbox items
-- ✅ raw/: 0 unprocessed source files (38 processed across 6 categories)
-- ✅ wiki/concepts/: 172 files
-- ✅ Tag indexes: updated at 21:03
-- ✅ No new issues detected
+**36 issues total chờ Julius approve → Fix Agent xử lý.**
 
 ---
 
-*Next heartbeat: 23:30*
+## Summary
+
+- Inbox: ✅ clean
+- Raw backlog: ⚠️ 10 files (CompileAgent 08:00)
+- Pending reviews: ⚠️ 3 reports / 36 issues (Julius approve → Fix Agent)
+- System: ⏸️ running, scheduled tasks intact
+
+---
+
+*HEARTBEAT_OK chỉ khi không có issues hoặc tất cả issues đã được xử lý.*

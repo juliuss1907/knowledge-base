@@ -1,20 +1,20 @@
 # Topic: uae-opec-exit-geopolitics
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `uae-opec-exit-geopolitics`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (6)
 
-- [[american-security-guarantee]] — main: #politic, sub: [#research, #politic, #economic]
-- [[kinked-demand-curve]] — main: #economic, sub: [#research, #economic, #politic]
-- [[opec-cartel-structure]] — main: #economic, sub: [#research, #politic]
-- [[spare-production-capacity]] — main: #economic, sub: [#research, #politic]
-- [[strait-of-hormuz-geopolitics]] — main: #politic, sub: [#research, #politic, #economic]
-- [[uae-saudi-rivalry]] — main: #politic, sub: [#research, #economic]
+- [[american-security-guarantee]] — American Security Guarantee
+- [[kinked-demand-curve]] — Kinked Demand Curve
+- [[opec-cartel-structure]] — Opec Cartel Structure
+- [[spare-production-capacity]] — Spare Production Capacity
+- [[strait-of-hormuz-geopolitics]] — Strait Of Hormuz Geopolitics
+- [[uae-saudi-rivalry]] — Uae Saudi Rivalry
 
 ## Sources (1)
 
-- [[src_uae-opec-exit-end-of-era]] — main: #economic, sub: [#research, #opinion, #politic]
+- [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era

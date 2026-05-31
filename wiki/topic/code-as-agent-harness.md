@@ -1,17 +1,17 @@
 # Topic: code-as-agent-harness
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `code-as-agent-harness`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (3)
 
-- [[agent-harness]] — main: #ai, sub: [#research, #coding]
-- [[code-as-substrate]] — main: #ai, sub: [#research, #coding]
-- [[plan-execute-verify-loop]] — main: #ai, sub: [#research, #coding]
+- [[agent-harness]] — Agent Harness
+- [[code-as-substrate]] — Code As Substrate
+- [[plan-execute-verify-loop]] — Plan Execute Verify Loop
 
 ## Sources (1)
 
-- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding]
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747

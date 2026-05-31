@@ -1,13 +1,14 @@
 # Topic: generative-search-results
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `generative-search-results`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (1)
 
-- [[generative-search-results]] — main: #ai, sub: [#research, #tools]
+- [[generative-search-results]] — Generative Search Results
 
 ## Sources (0)
+

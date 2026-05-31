@@ -1,18 +1,18 @@
 # Topic: evolutionary-mismatch-modern-life
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `evolutionary-mismatch-modern-life`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (4)
 
-- [[default-mode-network]] — main: #ai, sub: [#research, #ai, #health]
-- [[dunbar-number]] — main: #productivity, sub: [#research, #productivity, #psychology]
-- [[evolutionary-mismatch]] — main: #productivity, sub: [#research, #opinion]
-- [[hunter-gatherer-lifestyle]] — main: #productivity, sub: [#research, #health, #psychology]
+- [[default-mode-network]] — Default Mode Network
+- [[dunbar-number]] — Dunbar Number
+- [[evolutionary-mismatch]] — Evolutionary Mismatch
+- [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle
 
 ## Sources (1)
 
-- [[src_were-not-supposed-to-live-like-this]] — main: #productivity, sub: [#opinion, #research]
+- [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This

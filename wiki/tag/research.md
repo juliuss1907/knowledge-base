@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 ---
 
 # Tag: #research
@@ -16,13 +16,14 @@ last_updated: 2026-05-30
 
 ## Stats
 
-- Total files: 94
+- Total files: 95
 - Sources: 16
-- Concepts: 78
-- Last updated: 2026-05-30
+- Concepts: 79
+- Last updated: 2026-05-31
 
 ## Files with this tag
 
+- [[active-thinking]] — Active Thinking (concept)
 - [[agency-law]] — Agency Law (concept)
 - [[agent-harness]] — Agent Harness (concept)
 - [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
@@ -122,6 +123,6 @@ last_updated: 2026-05-30
 
 - [[ai]] — 56 co-occurrences
 - [[economic]] — 37 co-occurrences
-- [[tools]] — 24 co-occurrences
-- [[opinion]] — 24 co-occurrences
-- [[politic]] — 14 co-occurrences
+- [[tools]] — 28 co-occurrences
+- [[opinion]] — 26 co-occurrences
+- [[productivity]] — 16 co-occurrences

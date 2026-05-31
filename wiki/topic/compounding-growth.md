@@ -1,21 +1,21 @@
 # Topic: compounding-growth
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `compounding-growth`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (7)
 
-- [[casino-culture]] — main: #productivity, sub: [#opinion, #productivity, #economic]
-- [[compounding-effect]] — main: #productivity, sub: [#opinion, #productivity, #economic]
-- [[discipline-system]] — main: #productivity, sub: [#psychology, #behavior]
-- [[environment-baseline]] — main: #productivity, sub: [#opinion, #productivity, #systems]
-- [[leading-indicators]] — main: #productivity, sub: [#economics, #analysis]
-- [[negative-compounding]] — main: #productivity, sub: [#opinion, #productivity, #systems]
-- [[patience-vs-passivity]] — main: #productivity, sub: [#opinion, #productivity, #systems]
+- [[casino-culture]] — Casino Culture
+- [[compounding-effect]] — Compounding Effect
+- [[discipline-system]] — Discipline System
+- [[environment-baseline]] — Environment Baseline
+- [[leading-indicators]] — Leading Indicators
+- [[negative-compounding]] — Negative Compounding
+- [[patience-vs-passivity]] — Patience Vs Passivity
 
 ## Sources (1)
 
-- [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools]
+- [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable

@@ -1,17 +1,17 @@
 # Topic: ai-landing-page-discovery
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `ai-landing-page-discovery`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (3)
 
-- [[ai-powered-discovery]] — main: #ai, sub: [#research, #opinion]
-- [[conversational-website]] — main: #ai, sub: [#tools, #automation]
-- [[static-website-blind-spot]] — main: #ai, sub: [#frontend, #blindspots]
+- [[ai-powered-discovery]] — Ai Powered Discovery
+- [[conversational-website]] — Conversational Website
+- [[static-website-blind-spot]] — Static Website Blind Spot
 
 ## Sources (1)
 
-- [[src_ai-trillion-dollar-blind-spot]] — main: #ai, sub: [#research, #observation]
+- [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot

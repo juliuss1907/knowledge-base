@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: crypto
 auto_generated: true
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 ---
 
 # Tag: #crypto
@@ -16,16 +16,17 @@ last_updated: 2026-05-30
 
 ## Stats
 
-- Total files: 4
+- Total files: 5
 - Sources: 1
-- Concepts: 3
-- Last updated: 2026-05-30
+- Concepts: 4
+- Last updated: 2026-05-31
 
 ## Files with this tag
 
 - [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
 - [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
+- [[softbank-carry-trade]] — Softbank Carry Trade (concept)
 - [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
 
 ## Co-occurring tags

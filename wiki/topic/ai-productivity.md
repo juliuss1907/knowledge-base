@@ -1,20 +1,20 @@
 # Topic: ai-productivity
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `ai-productivity`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (6)
 
-- [[closed-loop-system]] — main: #system, sub: [#automation, #tools]
-- [[codified-taste]] — main: #system, sub: [#automation, #tools]
-- [[loop-ownership]] — main: #system, sub: [#automation, #productivity, #systems]
-- [[shift-left-testing]] — main: #system, sub: [#automation, #tools]
-- [[skill-atrophy]] — main: #ai, sub: [#opinion, #tools]
-- [[taste-holders]] — main: #system, sub: [#automation, #opinion]
+- [[closed-loop-system]] — Closed Loop System
+- [[codified-taste]] — Codified Taste
+- [[loop-ownership]] — Loop Ownership
+- [[shift-left-testing]] — Shift Left Testing
+- [[skill-atrophy]] — Skill Atrophy
+- [[taste-holders]] — Taste Holders
 
 ## Sources (1)
 
-- [[src_how-ai-productivity-fails]] — main: #ai, sub: [#tools, #automation, #opinion]
+- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails

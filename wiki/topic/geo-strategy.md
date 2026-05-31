@@ -1,13 +1,14 @@
 # Topic: geo-strategy
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `geo-strategy`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (1)
 
-- [[geo-strategy]] — main: #ai, sub: [#research, #tools]
+- [[geo-strategy]] — Geo Strategy
 
 ## Sources (0)
+

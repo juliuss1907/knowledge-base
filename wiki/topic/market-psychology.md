@@ -1,13 +1,14 @@
 # Topic: market-psychology
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `market-psychology`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (1)
 
-- [[narrative-certainty-trap]] — main: #economic, sub: [#opinion, #economic, #psychology]
+- [[narrative-certainty-trap]] — Narrative Certainty Trap
 
 ## Sources (0)
+

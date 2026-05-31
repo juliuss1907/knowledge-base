@@ -1,19 +1,19 @@
 # Topic: simplicity-psychology
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `simplicity-psychology`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (5)
 
-- [[glymphatic-system]] — main: #productivity, sub: [#research, #productivity, #health]
-- [[hedonic-treadmill]] — main: #productivity, sub: [#research, #opinion]
-- [[memory-reconstruction]] — main: #productivity, sub: [#research, #productivity, #psychology]
-- [[paradox-of-effort]] — main: #productivity, sub: [#tutorial, #opinion]
-- [[stoic-control-dichotomy]] — main: #productivity, sub: [#tutorial, #opinion]
+- [[glymphatic-system]] — Glymphatic System
+- [[hedonic-treadmill]] — Hedonic Treadmill
+- [[memory-reconstruction]] — Memory Reconstruction
+- [[paradox-of-effort]] — Paradox Of Effort
+- [[stoic-control-dichotomy]] — Stoic Control Dichotomy
 
 ## Sources (1)
 
-- [[src_why-we-complicate-life-productive-peter]] — main: #productivity, sub: [#tutorial, #opinion]
+- [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter

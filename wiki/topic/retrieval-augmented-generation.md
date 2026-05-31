@@ -1,13 +1,14 @@
 # Topic: retrieval-augmented-generation
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `retrieval-augmented-generation`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (1)
 
-- [[retrieval-augmented-generation]] — main: #ai, sub: [#research, #tools]
+- [[retrieval-augmented-generation]] — Retrieval Augmented Generation
 
 ## Sources (0)
+

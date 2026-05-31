@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tech
 auto_generated: true
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 ---
 
 # Tag: #tech
@@ -16,10 +16,10 @@ last_updated: 2026-05-30
 
 ## Stats
 
-- Total files: 18
-- Sources: 4
-- Concepts: 14
-- Last updated: 2026-05-30
+- Total files: 20
+- Sources: 5
+- Concepts: 15
+- Last updated: 2026-05-31
 
 ## Files with this tag
 
@@ -29,9 +29,11 @@ last_updated: 2026-05-30
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
 - [[google-ai-overviews]] — Google Ai Overviews (concept)
+- [[long-context-models]] — Long Context Models (concept)
 - [[oauth-security-risks]] — Oauth Security Risks (concept)
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
@@ -46,6 +48,6 @@ last_updated: 2026-05-30
 
 - [[tools]] — 17 co-occurrences
 - [[hack]] — 10 co-occurrences
-- [[ai]] — 6 co-occurrences
-- [[research]] — 6 co-occurrences
 - [[tutorial]] — 4 co-occurrences
+- [[automation]] — 4 co-occurrences
+- [[news]] — 3 co-occurrences

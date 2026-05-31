@@ -1,14 +1,15 @@
 # Topic: market-dynamics
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `market-dynamics`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (2)
 
-- [[dynamic-edge-trading]] — main: #economic, sub: [#research, #economic, #opinion]
-- [[reflexivity-soros]] — main: #economic, sub: [#research, #opinion]
+- [[dynamic-edge-trading]] — Dynamic Edge Trading
+- [[reflexivity-soros]] — Reflexivity Soros
 
 ## Sources (0)
+

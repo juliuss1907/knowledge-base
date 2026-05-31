@@ -1,13 +1,14 @@
 # Topic: llm-capabilities
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `llm-capabilities`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (1)
 
-- [[long-context-models]] — main: #ai, sub: [#research, #tech]
+- [[long-context-models]] — Long Context Models
 
 ## Sources (0)
+

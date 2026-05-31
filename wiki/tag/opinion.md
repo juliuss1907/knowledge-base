@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 ---
 
 # Tag: #opinion
@@ -16,14 +16,15 @@ last_updated: 2026-05-30
 
 ## Stats
 
-- Total files: 67
-- Sources: 18
-- Concepts: 49
-- Last updated: 2026-05-30
+- Total files: 69
+- Sources: 19
+- Concepts: 50
+- Last updated: 2026-05-31
 
 ## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
+- [[active-thinking]] — Active Thinking (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
@@ -70,6 +71,7 @@ last_updated: 2026-05-30
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
+- [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
 - [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
@@ -93,8 +95,8 @@ last_updated: 2026-05-30
 
 ## Co-occurring tags
 
-- [[productivity]] — 40 co-occurrences
+- [[productivity]] — 42 co-occurrences
 - [[economic]] — 26 co-occurrences
-- [[research]] — 24 co-occurrences
-- [[ai]] — 19 co-occurrences
-- [[tools]] — 13 co-occurrences
+- [[research]] — 26 co-occurrences
+- [[ai]] — 20 co-occurrences
+- [[tools]] — 15 co-occurrences

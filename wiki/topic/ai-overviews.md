@@ -1,13 +1,14 @@
 # Topic: ai-overviews
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `ai-overviews`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (1)
 
-- [[ai-overviews]] — main: #ai, sub: [#tools, #research]
+- [[ai-overviews]] — Ai Overviews
 
 ## Sources (0)
+

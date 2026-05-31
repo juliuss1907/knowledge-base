@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-05-30
 
 ## Stats
 
-- Total files: 96
-- Sources: 19
-- Concepts: 77
-- Last updated: 2026-05-30
+- Total files: 102
+- Sources: 20
+- Concepts: 82
+- Last updated: 2026-05-31
 
 ## Files with this tag
 
@@ -29,6 +29,7 @@ last_updated: 2026-05-30
 - [[agentic-commerce]] — Agentic Commerce (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
+- [[ai-infrastructure-bubble]] — Ai Infrastructure Bubble (concept)
 - [[ai-legal-personhood]] — Ai Legal Personhood (concept)
 - [[ai-overviews]] — Ai Overviews (concept)
 - [[ai-productivity]] — Ai Productivity (concept)
@@ -45,11 +46,13 @@ last_updated: 2026-05-30
 - [[consent-phishing]] — Consent Phishing (concept)
 - [[conversational-website]] — Conversational Website (concept)
 - [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
+- [[csa-hca-attention]] — Csa Hca Attention (concept)
 - [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[factory-missions]] — Factory Missions (concept)
 - [[fast-weights]] — Fast Weights (concept)
+- [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
 - [[generative-ai-seo]] — Generative Ai Seo (concept)
@@ -67,8 +70,10 @@ last_updated: 2026-05-30
 - [[kv-cache-eviction]] — Kv Cache Eviction (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[llm-sleep]] — Llm Sleep (concept)
+- [[manifold-constrained-hyper-connections]] — Manifold Constrained Hyper Connections (concept)
 - [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
+- [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
 - [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
 - [[oauth-security-risks]] — Oauth Security Risks (concept)
 - [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
@@ -92,6 +97,7 @@ last_updated: 2026-05-30
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
 - [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source)
+- [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
@@ -122,8 +128,8 @@ last_updated: 2026-05-30
 
 ## Co-occurring tags
 
-- [[ai]] — 71 co-occurrences
+- [[ai]] — 75 co-occurrences
 - [[automation]] — 43 co-occurrences
-- [[research]] — 24 co-occurrences
+- [[research]] — 28 co-occurrences
 - [[tech]] — 17 co-occurrences
 - [[tutorial]] — 16 co-occurrences

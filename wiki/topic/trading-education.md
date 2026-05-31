@@ -1,13 +1,14 @@
 # Topic: trading-education
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `trading-education`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (1)
 
-- [[retail-trading-fantasy]] — main: #economic, sub: [#opinion, #economic, #psychology]
+- [[retail-trading-fantasy]] — Retail Trading Fantasy
 
 ## Sources (0)
+

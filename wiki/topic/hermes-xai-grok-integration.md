@@ -1,19 +1,19 @@
 # Topic: hermes-xai-grok-integration
 
-Auto-generated index of all content with topic `{topic}`.
+Auto-generated index of all content with topic `hermes-xai-grok-integration`.
 
-Last updated: 2026-05-30 21:03:46
+Last updated: 2026-05-31
 
 ---
 
 ## Concepts (5)
 
-- [[ai-research-workflow]] — main: #ai, sub: [#automation, #tools, #opinion]
-- [[cookie-fun-mcp]] — main: #crypto, sub: [#tools, #defi]
-- [[grok-hermes-integration]] — main: #ai, sub: [#tools, #automation, #news]
-- [[six-stage-research-pipeline]] — main: #ai, sub: [#automation, #tools, #tutorial]
-- [[x-search-tool]] — main: #ai, sub: [#tools, #automation]
+- [[ai-research-workflow]] — Ai Research Workflow
+- [[cookie-fun-mcp]] — Cookie Fun Mcp
+- [[grok-hermes-integration]] — Grok Hermes Integration
+- [[six-stage-research-pipeline]] — Six Stage Research Pipeline
+- [[x-search-tool]] — X Search Tool
 
 ## Sources (1)
 
-- [[src_hermes-as-a-real-time-analyst]] — main: #ai, sub: [#tools, #automation, #tutorial]
+- [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst

@@ -1,6 +1,6 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-**Last check:** 2026-05-31 15:30 (Asia/Saigon)  
+**Last check:** 2026-05-31 16:30 (Asia/Saigon)  
 **Agent:** Kara (OpenClaw AX400)  
 **Status:** ⚠️ 3 pending Hermes reports
 
@@ -18,31 +18,35 @@
 
 ## Issues Requiring Attention
 
-**3 Hermes reports pending (since 2026-05-30):**
-- Format: 16 issues (empty sub_tags + invalid tags + field order)
-- Output: 18 issues (empty sources + invalid status:stub)
-- Hygiene: 2 unauthorized folders (memory/, search/ — outside Kara's scope)
+### ⏳ Pending Hermes Reports (since 2026-05-30)
 
-**Total:** 36 issues awaiting Julius approval  
-**Details:** `wiki/reviews/_action-required.md`
+| Report | Issues | Status |
+|--------|--------|--------|
+| Format Validator | 16 (6 empty sub_tags, 8 invalid tag `tech`, 1 invalid tag `observation`, 2 field order) | Awaiting approval |
+| Output Validator | 18 (1 empty sources, 17 invalid status:stub) | Awaiting approval |
+| Hygiene Inspector | 2 (unauthorized folders: memory/, search/) | Awaiting approval |
 
----
-
-## Commands
-
-```
-approve format    # Approve Format Validator report
-approve output    # Approve Output Validator report
-approve hygiene   # Approve Hygiene Inspector report
-openclaw fix apply  # Apply approved fixes
-```
+**Total: 36 issues across 3 reports — Julius needs to approve before Fix Agent can apply**
 
 ---
 
-## Resolved This Session
+## System Clean
 
-*None*
+- ✅ No unprocessed files in raw/
+- ✅ No inbox tasks flagged
+- ✅ Concept count stable (172)
+- ✅ Indexes current
 
 ---
 
-*Next heartbeat: 16:00 (30 min)*
+## Next Scheduled
+
+| Task | Time |
+|------|------|
+| Readwise sync | Tomorrow 07:00 |
+| Compile (if approved) | Tomorrow 08:00 |
+| Index update | Tomorrow 21:00 |
+
+---
+
+*HEARTBEAT_OK — No immediate action required. Awaiting Julius approval on 3 Hermes reports.*

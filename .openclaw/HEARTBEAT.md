@@ -1,6 +1,6 @@
 # HEARTBEAT.md — Knowledge Base V2
 
-> Last heartbeat: 2026-05-31 10:00 (Asia/Saigon)
+> Last heartbeat: 2026-05-31 13:00 (Asia/Saigon)
 > Status: **ISSUES FOUND** (3 reports pending approval)
 
 ---
@@ -43,4 +43,4 @@
 
 ---
 
-*Next heartbeat: 10:30*
+*Next heartbeat: 13:30*

@@ -1,37 +1,31 @@
 # HEARTBEAT.md
 
-> Last updated: 2026-06-01 04:30 Asia/Saigon
-
-## Status: CLEAN
-
-```
-HEARTBEAT_OK
-```
+> OpenClaw system health log
+> Updated every 30 minutes via cron
 
 ---
 
-## System Metrics
+## Heartbeat — 2026-06-01 06:30 Asia/Saigon
 
-| Zone | Count | Notes |
-|------|-------|-------|
-| raw/ | 0 unprocessed | No backlog |
-| wiki/concepts/ | 172 files | |
-| wiki/sources/ | 38 files | |
-| Pending reviews | 3 reports | Awaiting Julius approval |
+**Status:** ⚠️ INTERVENTION NEEDED
+
+**System health:**
+- raw/: 0 new files, no backlog
+- wiki/concepts/: 172 files
+- wiki/tag/: 17 indexes
+- Index updated: today 06:00
+
+**Issues requiring attention:**
+
+1. **[Priority 1] Pending Hermes reviews — 3 reports awaiting approval**
+   - Format Validator: 16 issues (6 empty sub_tags, 8 invalid tags, 2 field order)
+   - Output Validator: 18 issues (1 empty sources + 17 invalid status:stub)
+   - Hygiene Inspector: 2 unauthorized folders (memory/, search/)
+   - Detail: wiki/reviews/_action-required.md
+   - Julius needs to review and approve before FixAgent can apply
+
+**Note:** Raw files listed as "unprocessed" in system checks are index helper files (articles.md, repos.md) or already-processed content — no actual backlog.
 
 ---
 
-## Pending Hermes Reviews
-
-- **Format Validator** — 2026-05-30: 16 issues (6 empty sub_tags, 8 invalid tags, 2 field order)
-- **Output Validator** — 2026-05-30: 18 issues (1 empty sources + 17 invalid status:stub)
-- **Hygiene Inspector** — 2026-05-30: 2 issues (unauthorized folders: memory/, search/)
-
-**Details:** `wiki/reviews/_action-required.md`
-
----
-
-## Notes
-
-- Invalid tags flagged in recent batch: systems, coding, health, psychology, behavior, economics, analysis, frontend, blindspots, memory
-- Files indexed under valid tags only; pending Julius approval for tag taxonomy update
+*Next heartbeat: 07:00*

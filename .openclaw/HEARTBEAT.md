@@ -1,6 +1,6 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-**Last check:** 2026-05-31 18:00 (Asia/Saigon)  
+**Last check:** 2026-05-31 18:30 (Asia/Saigon)  
 **Agent:** Kara (OpenClaw AX400)  
 **Status:** ⚠️ 3 pending Hermes reports
 

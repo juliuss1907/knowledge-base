@@ -65,3 +65,9 @@ CompileAgent sẽ chạy lúc 08:00. Julius có thể nói "compile all now" đ�
 ---
 
 *HEARTBEAT_OK chỉ khi không có issues hoặc tất cả issues đã được xử lý.*
+## 2026-06-01 03:00 (Asia/Saigon)
+- Status: ✅ HEARTBEAT_OK
+- Raw backlog: 0 unprocessed
+- Wiki: 172 concepts, 38 sources, 17 tags
+- Pending reviews: 11 files in wiki/reviews/ (older reports, not new)
+- System: running normally

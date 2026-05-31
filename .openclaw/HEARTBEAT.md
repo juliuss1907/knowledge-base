@@ -1,6 +1,6 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-**Last check:** 2026-05-31 16:30 (Asia/Saigon)  
+**Last check:** 2026-05-31 18:00 (Asia/Saigon)  
 **Agent:** Kara (OpenClaw AX400)  
 **Status:** ⚠️ 3 pending Hermes reports
 
@@ -11,7 +11,7 @@
 | Zone | Status | Notes |
 |------|--------|-------|
 | raw/ | ✅ | 0 unprocessed files |
-| wiki/ | ✅ | 172 concepts, 38 sources, 19 tags |
+| wiki/ | ✅ | 172 concepts, 38 sources |
 | Pending reviews | ⚠️ | 3 reports awaiting Julius approval |
 
 ---
@@ -34,7 +34,7 @@
 
 - ✅ No unprocessed files in raw/
 - ✅ No inbox tasks flagged
-- ✅ Concept count stable (172)
+- ✅ Concept count stable (172 concepts, 38 sources)
 - ✅ Indexes current
 
 ---
@@ -44,7 +44,7 @@
 | Task | Time |
 |------|------|
 | Readwise sync | Tomorrow 07:00 |
-| Compile (if approved) | Tomorrow 08:00 |
+| Compile (if new raw) | Tomorrow 08:00 |
 | Index update | Tomorrow 21:00 |
 
 ---

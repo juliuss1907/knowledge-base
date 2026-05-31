@@ -2,7 +2,7 @@ KB gitignore: .hermes/auth/, .hermes/auth.json, .hermes/channel_directory.json, 
 §
 Scan raw/ compiled_to: grep -rn 'compiled_to.*\[\[\[' raw/ — finds quoted wikilinks. Patterns: `"[[...]]"` (quotes), `"[[wiki/sources/...]]"` (wrong path), `"[[src_....md]]"` (with .md extension). Use cat -A or xxd to detect hidden chars when terminal output looks clean but file seems wrong.
 §
-Cron workaround: dùng interval (24h) thay vì cron expression vì thiếu croniter package. First run tính từ lúc create.
+Cron: dùng interval (24h) thay vì cron expression. First run tính từ lúc create. Job IDs: d48e30a9a963, d14687442111, f1ff44c008e2.
 §
 Máy chính working dir: /home/julius/julius-workspace/knowledge-base (KHÁC với VPS: /home/julius/knowledge-base). Obsidian Git plugin trên máy chính auto-sync cạnh tranh lock với git CLI thủ công — cần tắt Obsidian hoặc plugin trước khi chạy git merge/push. Micro editor để lại backup MERGE_MSG ở ~/.config/micro/backups/ — mỗi merge sẽ prompt [r]ecover/[i]gnore/[a]bort, chọn 'i'.
 §
@@ -14,4 +14,4 @@ Empty `## Notes` section trong concept files là intentional — Julius đã thi
 §
 Obsidian display quirk: frontmatter fields (original, sources, compiled_to) cần format `"[[wikilink]]"` (quotes) để Obsidian hiển thị đúng. Wikilinks trong body content dùng bare format `[[wikilink]]`. Đây là lý do format-spec và compile-agent cần quoted format.
 §
-Hygiene cleanup ownership: Kara chỉ fix KB content (wiki/, sources/, concepts/). Root-level items (memory/, RAW_BACKLOG.md, venv/) thuộc Julius — cần hỏi trước khi fix.
+Hygiene: Kara fix KB content only. Root-level (memory/, RAW_BACKLOG.md, venv/, search/) belong to Julius — not Kara scope. Validation hygiene: KHÔNG flag root-level issues.

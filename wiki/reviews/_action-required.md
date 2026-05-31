@@ -4,18 +4,21 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-29 11:30 — Format Validator scan: 60 files with single sub_tag
+**Last updated:** 2026-05-31 — Connor validation: 16 format issues + 18 output issues + 2 hygiene issues
 
 ---
 
 ## Summary
-**Pending reports:** 0
+**Pending reports:** 3 (awaiting Kara fix)
 
 **Status:**
-- ✅ Format Validator — 2026-05-29: **APPLIED** (55/60 files fixed — 5 files not found)
-- ✅ Format Validator — 2026-05-28: RESOLVED (7 ERROR + 14 WARNING fixed 2026-05-28/29)
-- ✅ Output Validator — 2026-05-29: RESOLVED (1 ERROR + 2 WARNING + 1 INFO — all fixed)
-- ✅ Hygiene Inspector — 2026-05-29: RESOLVED (KB structure clean, 32 missing concepts by design)
+- ⏳ Format Validator — 2026-05-30: **PENDING APPROVAL** (16 issues: 6 empty sub_tags, 8 invalid tags, 2 field order)
+- ⏳ Output Validator — 2026-05-30: **PENDING APPROVAL** (18 issues: 1 empty sources + 17 invalid status:stub)
+- ⏳ Hygiene Inspector — 2026-05-30: **PENDING APPROVAL** (2 unauthorized folders: memory/, search/)
+- ✅ Format Validator — 2026-05-29: APPLIED (55/60 files fixed)
+- ✅ Format Validator — 2026-05-28: RESOLVED
+- ✅ Output Validator — 2026-05-29: RESOLVED
+- ✅ Hygiene Inspector — 2026-05-29: RESOLVED
 
 **Resolved reports:**
 - [x] Format Validator — 2026-05-14 (3 issues)
@@ -44,17 +47,42 @@
 
 ---
 
+---
+
 ## Critical Issues (Fix Immediately)
 
-**60 files with single sub_tag — spec requires 1–3 per format-spec.md §2.2/§3.2**
+### ⏳ Format Validator — 2026-05-30 (16 issues)
 
-### Concepts (55 files) — change `sub_tags: [x]` to `sub_tags: [x, y]` or `sub_tags: [x, y, z]`:
+**6 files empty `sub_tags: []`** — need 1–3 tags:
+agent-harness, code-as-substrate, evolutionary-mismatch, factory-missions, multi-agent-taxonomy, plan-execute-verify-loop
 
-self-reinforcing-systems, existential-vacuum, hunter-gatherer-lifestyle, systems-thinking-limitations, negative-compounding, information-compression, fast-weights, default-mode-network, strait-of-hormuz-geopolitics, sizing-policy-trading, organizational-incrementalism, american-security-guarantee, agency-law, cynefin-framework, complicated-vs-complex, tragic-optimism, patience-vs-passivity, narrative-certainty-trap, hippocampal-replay, agent-handoff, validation-contract, meaning-through-suffering, memory-consolidation-offline, logotherapy-frankl, dynamic-edge-trading, active-thinking, ashbys-law, policy-review-framework, compounding-effect, complex-adaptive-systems, false-reinforcement-loop, memory-reconstruction, glymphatic-system, dunbar-number, nice-syndrome, philosopher-syndrome, second-order-effects, casino-culture, trading-policy-pi, prospective-memory-gap, kv-cache-eviction, environment-baseline, lazy-thinking, loop-ownership, systems-thinking, state-conditioned-decisions, kinked-demand-curve, abstraction-layer-fallacy, retail-trading-fantasy, outcome-worship-trap, reflection-as-learning, cognitive-load, context-window-utilization, planning-as-search, operational-failure
+**8 files invalid tag `tech`** (not in Pool B — use `tools`):
+Concepts: ai-infrastructure-bubble, csa-hca-attention, deepseek-v4-architecture, fp4-lightning-indexer, manifold-constrained-hyper-connections, mixture-of-experts-moe
+Sources: src_ai-reflexivity-loop-is-same
 
-### Sources (5 files) — change `sub_tags: [x]` to `sub_tags: [x, y]` or `sub_tags: [x, y, z]`:
+**1 file invalid tag `observation`** (not in Pool B):
+src_ai-trillion-dollar-blind-spot
 
-src_setup-is-not-an-edge, src_viktor-frankl-meaning-video, src_no-system-will-make-you-profitable, src_active-vs-lazy-thinking, src_what-comes-after-systems-thinking
+**2 files frontmatter field order wrong** (`url`/`author` before `date_compiled`):
+src_setup-is-not-an-edge, src_no-system-will-make-you-profitable
+
+---
+
+### ⏳ Output Validator — 2026-05-30 (18 issues)
+
+**1 file empty `sources: []`**:
+second-order-effects.md
+
+**17 files invalid `status: stub`** (spec requires: draft|reviewed|needs-revision):
+agent-handoff, orchestrator-worker-validator, fast-weights, strait-of-hormuz-geopolitics, american-security-guarantee, hippocampal-replay, agent-journal-pattern, uae-saudi-rivalry, spare-production-capacity, gated-delta-networks, multi-agent-risk-review, state-space-models-ssm, alpaca-api, kv-cache-eviction, kinked-demand-curve, claude-code-routines, paper-trading
+
+---
+
+### ⏳ Hygiene Inspector — 2026-05-30 (2 issues)
+
+**2 unauthorized folders at root level — OUTSIDE Kara's scope** (per SKILL.md: root-level items belong to Julius):
+- `memory/` — legacy folder, belongs to Julius
+- `search/` — not in allowed list, belongs to Julius
 
 ---
 

@@ -1,6 +1,6 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-> Updated: 2026-06-01 00:30 Asia/Saigon
+> Updated: 2026-06-01 02:30 Asia/Saigon
 > Frequency: Every 30 minutes
 
 ---

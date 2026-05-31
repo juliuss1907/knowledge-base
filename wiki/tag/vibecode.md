@@ -28,5 +28,5 @@ last_updated: 2026-05-31
 ## Co-occurring tags
 
 - [[ai]] — 1 co-occurrence
-- [[tools]] — 1 co-occurrence
 - [[automation]] — 1 co-occurrence
+- [[tools]] — 1 co-occurrence

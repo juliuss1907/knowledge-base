@@ -75,7 +75,7 @@ last_updated: 2026-05-31
 ## Co-occurring tags
 
 - [[tools]] — 43 co-occurrences
-- [[ai]] — 40 co-occurrences
+- [[ai]] — 37 co-occurrences
 - [[tutorial]] — 8 co-occurrences
 - [[opinion]] — 7 co-occurrences
 - [[system]] — 5 co-occurrences

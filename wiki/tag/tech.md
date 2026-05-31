@@ -48,6 +48,6 @@ last_updated: 2026-05-31
 
 - [[tools]] — 17 co-occurrences
 - [[hack]] — 10 co-occurrences
-- [[tutorial]] — 4 co-occurrences
 - [[automation]] — 4 co-occurrences
+- [[tutorial]] — 4 co-occurrences
 - [[news]] — 3 co-occurrences

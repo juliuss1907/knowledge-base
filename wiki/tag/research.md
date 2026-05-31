@@ -121,8 +121,8 @@ last_updated: 2026-05-31
 
 ## Co-occurring tags
 
-- [[ai]] — 56 co-occurrences
-- [[economic]] — 37 co-occurrences
+- [[ai]] — 49 co-occurrences
 - [[tools]] — 28 co-occurrences
+- [[economic]] — 28 co-occurrences
 - [[opinion]] — 26 co-occurrences
-- [[productivity]] — 16 co-occurrences
+- [[politic]] — 12 co-occurrences

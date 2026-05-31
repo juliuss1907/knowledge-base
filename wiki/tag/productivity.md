@@ -16,77 +16,56 @@ last_updated: 2026-05-31
 
 ## Stats
 
-- Total files: 59
-- Sources: 8
-- Concepts: 51
+- Total files: 38
+- Sources: 6
+- Concepts: 32
 - Last updated: 2026-05-31
 
 ## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
-- [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
 - [[active-thinking]] — Active Thinking (concept)
-- [[active-thinking]] — Active Thinking (concept)
-- [[casino-culture]] — Casino Culture (concept)
 - [[casino-culture]] — Casino Culture (concept)
 - [[circadian-rhythm]] — Circadian Rhythm (concept)
-- [[compounding-effect]] — Compounding Effect (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
 - [[cortisol-management]] — Cortisol Management (concept)
 - [[discipline-system]] — Discipline System (concept)
 - [[dunbar-number]] — Dunbar Number (concept)
-- [[dunbar-number]] — Dunbar Number (concept)
-- [[environment-baseline]] — Environment Baseline (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
 - [[evening-routine]] — Evening Routine (concept)
 - [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
-- [[existential-vacuum]] — Existential Vacuum (concept)
-- [[glymphatic-system]] — Glymphatic System (concept)
 - [[glymphatic-system]] — Glymphatic System (concept)
 - [[hedonic-treadmill]] — Hedonic Treadmill (concept)
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
 - [[information-compression]] — Information Compression (concept)
-- [[information-compression]] — Information Compression (concept)
-- [[lazy-thinking]] — Lazy Thinking (concept)
 - [[lazy-thinking]] — Lazy Thinking (concept)
 - [[leading-indicators]] — Leading Indicators (concept)
 - [[logotherapy-frankl]] — Logotherapy Frankl (concept)
-- [[logotherapy-frankl]] — Logotherapy Frankl (concept)
 - [[loop-ownership]] — Loop Ownership (concept)
 - [[meaning-through-suffering]] — Meaning Through Suffering (concept)
-- [[meaning-through-suffering]] — Meaning Through Suffering (concept)
-- [[memory-reconstruction]] — Memory Reconstruction (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
 - [[negative-compounding]] — Negative Compounding (concept)
-- [[negative-compounding]] — Negative Compounding (concept)
-- [[nice-syndrome]] — Nice Syndrome (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
 - [[non-commodity-content]] — Non Commodity Content (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
-- [[organizational-incrementalism]] — Organizational Incrementalism (concept)
 - [[paradox-of-effort]] — Paradox Of Effort (concept)
 - [[patience-vs-passivity]] — Patience Vs Passivity (concept)
-- [[patience-vs-passivity]] — Patience Vs Passivity (concept)
-- [[philosopher-syndrome]] — Philosopher Syndrome (concept)
 - [[philosopher-syndrome]] — Philosopher Syndrome (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
-- [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
-- [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
-- [[tragic-optimism]] — Tragic Optimism (concept)
 
 ## Co-occurring tags
 
-- [[opinion]] — 42 co-occurrences
-- [[productivity]] — 21 co-occurrences
-- [[research]] — 16 co-occurrences
+- [[opinion]] — 25 co-occurrences
+- [[research]] — 10 co-occurrences
 - [[tutorial]] — 9 co-occurrences
-- [[economic]] — 4 co-occurrences
+- [[economic]] — 2 co-occurrences
+- [[tools]] — 1 co-occurrence

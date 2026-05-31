@@ -95,8 +95,8 @@ last_updated: 2026-05-31
 
 ## Co-occurring tags
 
-- [[productivity]] — 42 co-occurrences
-- [[economic]] — 26 co-occurrences
 - [[research]] — 26 co-occurrences
+- [[productivity]] — 25 co-occurrences
 - [[ai]] — 20 co-occurrences
+- [[economic]] — 18 co-occurrences
 - [[tools]] — 15 co-occurrences

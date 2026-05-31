@@ -16,14 +16,13 @@ last_updated: 2026-05-31
 
 ## Stats
 
-- Total files: 15
+- Total files: 13
 - Sources: 2
-- Concepts: 13
+- Concepts: 11
 - Last updated: 2026-05-31
 
 ## Files with this tag
 
-- [[american-security-guarantee]] — American Security Guarantee (concept)
 - [[american-security-guarantee]] — American Security Guarantee (concept)
 - [[dollar-as-rent-payment]] — Dollar As Rent Payment (concept)
 - [[kinked-demand-curve]] — Kinked Demand Curve (concept)
@@ -35,14 +34,12 @@ last_updated: 2026-05-31
 - [[src_petrodollar-system-analysis]] — Petrodollar System Analysis (source)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
 - [[strait-of-hormuz-geopolitics]] — Strait Of Hormuz Geopolitics (concept)
-- [[strait-of-hormuz-geopolitics]] — Strait Of Hormuz Geopolitics (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
 
 ## Co-occurring tags
 
-- [[economic]] — 16 co-occurrences
-- [[research]] — 14 co-occurrences
-- [[politic]] — 2 co-occurrences
+- [[economic]] — 13 co-occurrences
+- [[research]] — 12 co-occurrences
 - [[opinion]] — 1 co-occurrence
 - [[news]] — 1 co-occurrence

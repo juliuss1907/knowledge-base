@@ -169,3 +169,17 @@ Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử l�
 - **Pending reviews:** 0 (all resolved)
 - **Tag index:** Updated May 30 21:03
 - **Status:** HEARTBEAT_OK
+
+## 2026-05-31 21:04:06 — Indexed
+
+- **Scanned:** 172 concepts + 38 sources = 210 total files
+- **Tags indexed:** 16 (7 main-tags + 9 sub-tags)
+- **Topics indexed:** 58
+- **Orphans deleted:** 2 tag indexes (coding, law)
+- **Invalid tags found:** 57 (tags not in TAGS.md - see below for details)
+- **Errors:** 0 files skipped
+
+### Invalid tags flagged (not in TAGS.md taxonomy):
+- Sub-tags: systems, coding, health, psychology, behavior, economics, analysis, frontend, blindspots, memory
+- Note: These files are still indexed under their valid tags
+

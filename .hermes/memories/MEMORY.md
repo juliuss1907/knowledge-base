@@ -13,5 +13,3 @@ Connor (Hermes) QUY TẮC CỨNG: KHÔNG tự sửa file trong wiki/concepts/. C
 Empty `## Notes` section trong concept files là intentional — Julius đã thiết lập Compile Agent template như vậy. Output validator không nên flag empty Notes section.
 §
 Obsidian display quirk: frontmatter fields (original, sources, compiled_to) cần format `"[[wikilink]]"` (quotes) để Obsidian hiển thị đúng. Wikilinks trong body content dùng bare format `[[wikilink]]`. Đây là lý do format-spec và compile-agent cần quoted format.
-§
-Hygiene: Kara fix KB content only. Root-level (memory/, RAW_BACKLOG.md, venv/, search/) belong to Julius — not Kara scope. Validation hygiene: KHÔNG flag root-level issues.

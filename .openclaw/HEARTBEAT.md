@@ -1,6 +1,6 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-**Last check:** 2026-05-31 19:00 (Asia/Saigon)  
+**Last check:** 2026-05-31 20:30 (Asia/Saigon)  
 **Agent:** Kara (OpenClaw AX400)  
 **Status:** ⚠️ 3 pending Hermes reports
 
@@ -11,48 +11,32 @@
 | Zone | Status | Notes |
 |------|--------|-------|
 | raw/ | ✅ | 0 unprocessed files |
-| wiki/ | ✅ | 172 concepts, 38 sources |
+| wiki/ | ✅ | 172 concepts, compiled clean |
 | Pending reviews | ⚠️ | 3 reports awaiting Julius approval |
 
 ---
 
 ## Issues Requiring Attention
 
-### ⏳ Pending Hermes Reports (since 2026-05-30)
+### ⚠️ Pending Hermes Reports (3)
 
-| Report | Issues | Status |
-|--------|--------|--------|
-| Format Validator | 16 (6 empty sub_tags, 8 invalid tag `tech`, 1 invalid tag `observation`, 2 field order) | Awaiting approval |
-| Output Validator | 18 (1 empty sources, 17 invalid status:stub) | Awaiting approval |
-| Hygiene Inspector | 2 (unauthorized folders: memory/, search/) | Awaiting approval |
+| Report | Date | Issues | Status |
+|--------|------|--------|--------|
+| Format Validator | 2026-05-30 | 16 (6 empty sub_tags, 8 invalid tags, 2 field order) | PENDING APPROVAL |
+| Output Validator | 2026-05-30 | 18 (1 empty sources, 17 status:stub) | PENDING APPROVAL |
+| Hygiene Inspector | 2026-05-30 | 2 (unauthorized folders: memory/, search/) | PENDING APPROVAL |
 
-**Total: 36 issues across 3 reports — Julius needs to approve before Fix Agent can apply**
-
----
-
-## System Clean
-
-- ✅ No unprocessed files in raw/
-- ✅ No inbox tasks flagged
-- ✅ Concept count stable (172 concepts, 38 sources)
-- ✅ Indexes current
+**Action required:** Julius approve/reject fixes via `_action-required.md`
 
 ---
 
-## Next Scheduled
+## System Health
 
-| Task | Time |
-|------|------|
-| Readwise sync | Tomorrow 07:00 |
-| Compile (if new raw) | Tomorrow 08:00 |
-| Index update | Tomorrow 21:00 |
+- ✅ No inbox items
+- ✅ raw/: 0 files unprocessed (22 articles, all status: processed)
+- ✅ wiki/concepts/: 172 files
+- ✅ No new issues detected
 
 ---
 
-*HEARTBEAT_OK — No immediate action required. Awaiting Julius approval on 3 Hermes reports.*
-## 2026-05-31 19:30 ICT
-**Status:** HEARTBEAT_OK
-- Inbox: 0 items
-- Raw backlog: 0 unprocessed
-- Pending reviews: 0 actionable
-- Note: concept backlinks may need attention (sample showed 0 links)
+*Next heartbeat: 21:00*

@@ -161,3 +161,11 @@ Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử l�
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 122 (see logs)
 - **Errors:** 0 files skipped (unless warned above)
+
+---
+## Heartbeat 2026-05-31 07:00 (Asia/Saigon)
+- **Raw backlog:** 0 files unprocessed
+- **Wiki concepts:** 172 files
+- **Pending reviews:** 0 (all resolved)
+- **Tag index:** Updated May 30 21:03
+- **Status:** HEARTBEAT_OK

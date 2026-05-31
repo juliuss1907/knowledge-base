@@ -78,3 +78,10 @@ CompileAgent sẽ chạy lúc 08:00. Julius có thể nói "compile all now" đ�
 - Pending reviews: 3 reports / 36 issues (Format 16 + Output 18 + Hygiene 2) — still awaiting Julius approval
 - System: running normally
 
+## 2026-06-01 04:00 (Asia/Saigon)
+- Status: ✅ HEARTBEAT_OK
+- Raw backlog: 0 unprocessed (no new files since May 30)
+- Wiki: 172 concepts (draft), 38 sources, 17 tag indexes
+- Pending reviews: 3 reports / 36 issues — Format (16) + Output (18) + Hygiene (2) from May 30, awaiting Julius approval
+- System: running normally
+

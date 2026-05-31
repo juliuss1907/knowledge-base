@@ -1,37 +1,38 @@
 # HEARTBEAT.md
 
-> OpenClaw system health log
-> Updated every 30 minutes by heartbeat check
-
----
+> Last updated: 2026-05-31 07:30 Asia/Saigon
+> Cron: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status: HEARTBEAT_OK
 
-**Timestamp:** 2026-05-30 22:30 UTC (Asia/Saigon: 2026-05-31 05:30)
+---
 
-### Quick Status
+## Checks (2026-05-31 07:30)
 
 | Check | Result |
 |---|---|
-| Inbox (Tasks/) | ✅ No items |
-| Raw backlog | ✅ 0 unprocessed |
-| Pending reviews | ✅ 0 pending |
-| Wiki concepts | ✅ Stable |
-
-### System Metrics
-
-- **Wiki concepts:** 28+ files
-- **Tags indexed:** 12 (updated daily 21:00)
-- **Pending reviews:** 0
-
-### Last Events
-
-| Time | Event |
-|---|---|
-| 2026-05-30 | Format Validator applied (55/60 files fixed) |
-| 2026-05-29 | Output Validator resolved |
-| 2026-05-29 | Hygiene Inspector clean |
+| Inbox | ✅ 0 files tagged #agent/inbox |
+| Raw backlog | ✅ 0 unprocessed files (all processed as of May 28-30) |
+| Concept backlinks | ✅ All concepts have sources field |
+| Pending reviews | ⚠️ wiki/reviews/_action-required.md has entries pending (last updated May 29) |
 
 ---
 
-*Next heartbeat: 2026-05-31 06:00 Saigon*
+## Pending Actions
+
+- **Review queue**: _action-required.md contains items from May 29 — Julius has not approved or processed them yet.
+
+---
+
+## System Stats
+
+| Metric | Value |
+|---|---|
+| Total raw files | ~40+ |
+| Raw status | All processed |
+| Concepts | All have source links |
+| Last heartbeat | 2026-05-29 |
+
+---
+
+*Next heartbeat: 2026-05-31 08:00 Saigon*

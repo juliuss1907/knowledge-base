@@ -30,11 +30,22 @@ Connor (Hermes-RK800) validates wiki files against format-spec.md v2.2. Read-onl
 ### 1. Format Validator
 Checks: frontmatter fields, field order, sub_tags count (1-3 required), wikilink format ("[[...]]" in frontmatter, bare elsewhere), naming conventions.
 
-Known valid sub_tags (Pool B): research, opinion, tools, security, economics, politics, biology, psychology, philosophy, finance, strategy, systems, memory, agents, reasoning, planning, creativity, communication, collaboration, learning, adaptation, alignment, inference, architecture, training, evaluation
+**Pool B tags are defined in TAGS.md — ALWAYS read TAGS.md as ground truth, do NOT hardcode.**  
+Current Pool B (14 tags as of 2026-05-19): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding.
 
-Known INVALID sub_tags ( recurring issues — do NOT flag as valid):
-- `tech` → use `tools`
-- `observation` → not in Pool B
+**RECURRING SYSTEMIC ISSUE — Main-tags used as sub_tags:**  
+Compile Agent frequently puts main_tags (economic, productivity, systems, ai, politic, tech, crypto) into sub_tags. These are Pool A tags, NOT Pool B. Pattern: `sub_tags: [opinion, productivity, systems]` — `productivity` and `systems` are main_tags masquerading as sub_tags. Fix: strip main-tag duplicates, keep only valid Pool B tags.
+
+Known INVALID sub_tags (recurring — do NOT flag as valid):
+- `economic` → already main_tag (Pool A), remove from sub_tags
+- `productivity` → already main_tag, remove from sub_tags  
+- `systems` → already main_tag, remove from sub_tags
+- `ai` → already main_tag, remove from sub_tags
+- `politic` → already main_tag, remove from sub_tags
+- `tech` → already main_tag, remove from sub_tags
+- `crypto` → already main_tag, remove from sub_tags
+- `economics` → typo, use `economic` as main_tag only
+- `psychology`, `health`, `behavior`, `blindspots`, `frontend`, `analysis` → not in Pool B, need Julius approval to add
 - Any tag not in TAGS.md Pool B
 
 ### 2. Output Validator
@@ -77,11 +88,13 @@ When Julius approves, mark:
 
 ## Process
 
-1. Run all 3 validators in parallel via delegate_task (each with `terminal` + `file` toolsets)
-2. Collect findings, deduplicate, verify against spec
-3. Write individual report files to wiki/reviews/
-4. Update _action-required.md with all pending issues
-5. Report to Julius via Telegram
+1. **Verify working directory**: `cd ~/knowledge-base` — NOT the hermes-agent repo. Check `ls wiki/concepts/ | head -3` to confirm.
+2. **Read TAGS.md** to get current Pool B (not hardcoded from skill memory).
+3. **Run all 3 validators using `execute_code` with shell scripts** — do NOT use `delegate_task` for validation runs. Subagent overhead is too high (684s for partial run vs 15s direct). Each validator runs as a shell pipeline via `terminal()` inside `execute_code`.
+4. Collect findings, deduplicate, verify against TAGS.md
+5. Write individual report files to `wiki/reviews/`
+6. Update `_action-required.md` with all pending issues, prepending new entries above old ones
+7. Report summary to Julius via Telegram
 
 ### Validation Output Template
 

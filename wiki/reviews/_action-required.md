@@ -4,20 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-01 08:17 — Connor validation: 80 format issues + 4 output issues + 0 hygiene issues
+**Last updated:** 2026-06-01 08:20 — Connor validation: 80 format issues + 4 output issues + 0 hygiene issues
 
 ---
 
 ## Summary
-**Pending reports:** 6 (awaiting Kara fix)
+**Pending reports:** 3 (awaiting Kara fix)
 
 **Status:**
 - ⏳ Format Validator — 2026-06-01: **PENDING APPROVAL** (80 invalid sub_tags + 6 empty sub_tags)
 - ⏳ Output Validator — 2026-06-01: **PENDING APPROVAL** (4 issues: Summary 1-dòng 210 files, 17 Key Points <3, 3 Sources trống, all draft)
 - ✅ Hygiene Inspector — 2026-06-01: **PROMOTE** (0 issues — KB structure clean)
-- ⏳ Format Validator — 2026-05-30: **PENDING APPROVAL** (16 issues: 6 empty sub_tags, 8 invalid tags, 2 field order)
-- ⏳ Output Validator — 2026-05-30: **PENDING APPROVAL** (18 issues: 1 empty sources + 17 invalid status:stub)
-- ⏳ Hygiene Inspector — 2026-05-30: **PENDING APPROVAL** (2 unauthorized folders: memory/, search/)
+- ✅ Format Validator — 2026-05-30: RESOLVED (16 issues fixed by Julius)
+- ✅ Output Validator — 2026-05-30: RESOLVED (18 issues fixed by Julius)
+- ✅ Hygiene Inspector — 2026-05-30: RESOLVED (2 issues: memory/, search/ — root-level folders, Julius's territory)
 - ✅ Format Validator — 2026-05-29: APPLIED (55/60 files fixed)
 - ✅ Format Validator — 2026-05-28: RESOLVED
 - ✅ Output Validator — 2026-05-29: RESOLVED

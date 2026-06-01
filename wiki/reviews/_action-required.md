@@ -4,14 +4,17 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-05-31 — Connor validation: 16 format issues + 18 output issues + 2 hygiene issues
+**Last updated:** 2026-06-01 08:17 — Connor validation: 80 format issues + 4 output issues + 0 hygiene issues
 
 ---
 
 ## Summary
-**Pending reports:** 3 (awaiting Kara fix)
+**Pending reports:** 6 (awaiting Kara fix)
 
 **Status:**
+- ⏳ Format Validator — 2026-06-01: **PENDING APPROVAL** (80 invalid sub_tags + 6 empty sub_tags)
+- ⏳ Output Validator — 2026-06-01: **PENDING APPROVAL** (4 issues: Summary 1-dòng 210 files, 17 Key Points <3, 3 Sources trống, all draft)
+- ✅ Hygiene Inspector — 2026-06-01: **PROMOTE** (0 issues — KB structure clean)
 - ⏳ Format Validator — 2026-05-30: **PENDING APPROVAL** (16 issues: 6 empty sub_tags, 8 invalid tags, 2 field order)
 - ⏳ Output Validator — 2026-05-30: **PENDING APPROVAL** (18 issues: 1 empty sources + 17 invalid status:stub)
 - ⏳ Hygiene Inspector — 2026-05-30: **PENDING APPROVAL** (2 unauthorized folders: memory/, search/)
@@ -50,6 +53,28 @@
 ---
 
 ## Critical Issues (Fix Immediately)
+
+### ⏳ Format Validator — 2026-06-01 (86 issues)
+
+**80 files invalid sub_tags** (tags not in TAGS.md Pool B):
+Most common invalid tags: `economic`(23), `productivity`(22), `systems`(21), `psychology`(13), `ai`(10), `politic`(9), `health`(9). Root cause: main_tags being used as sub_tags. Fix: remove main-tag duplicates, keep only valid Pool B tags (automation, tools, research, tutorial, hack, opinion, news, law, coding, vibecode).
+
+**6 files empty `sub_tags: []`**:
+agent-harness, code-as-substrate, evolutionary-mismatch, factory-missions, multi-agent-taxonomy, plan-execute-verify-loop
+
+---
+
+### ⏳ Output Validator — 2026-06-01 (4 systemic issues)
+
+**#1 Summary 1 dòng — tất cả 210 files:** Avg = 0-1 lines/file. Spec yêu cầu 3-5 sentences. Critical — cần update Compile Agent prompt.
+
+**#2 Key Points <3 — 17 files:** 17/172 concepts có <3 Key Points. Cần review từng file.
+
+**#3 Sources section trống — 3 files:** 3 concepts không có backlink đến source nào.
+
+**#4 All status: draft:** 210/210 files. Cần update status lên `reviewed` sau khi fixes được apply.
+
+---
 
 ### ⏳ Format Validator — 2026-05-30 (16 issues)
 

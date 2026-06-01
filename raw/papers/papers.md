@@ -20,13 +20,14 @@ Academic papers, research publications, and technical reports.
 
 ## Stats
 
-- Total: 2 files
-- By status: 2 processed, 0 unprocessed
-- By date: 2 this week, 2 this month
-- Last updated: 2026-05-28
+- Total: 3 files
+- By status: 3 processed, 0 unprocessed
+- By date: 3 this week, 3 this month
+- Last updated: 2026-06-01
 
 ## Items
 
+- [[2026-05-28_petrodollar-system-analysis]] — Petrodollar là gì? (processed)
 - [[2026-05-27_llm-need-sleep-consolidation]] — LLMs need sleep: Consolidation of declarative memories via offline experience replay (processed)
 - [[2026-05-22_code-as-agent-harness-arxiv-2605-18747]] — Code as Agent: Harnessing Unit Tests for Robust Agent Benchmarking (processed)
 

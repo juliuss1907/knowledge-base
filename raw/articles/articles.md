@@ -20,13 +20,18 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 17 files
-- By status: 17 processed, 0 unprocessed
-- By date: 7 this week, 17 this month
-- Last updated: 2026-05-28
+- Total: 22 files
+- By status: 22 processed, 0 unprocessed
+- By date: 12 this week, 22 this month
+- Last updated: 2026-06-01
 
 ## Items
 
+- [[2026-05-29_how-to-read-cash-flow-statement]] — How to Read a Cash Flow Statement Like a Pro Investor by Jimmy Investor (processed)
+- [[2026-05-28_deepseek-v4-architecture-deep-dive]] — DeepSeek V4 Architecture Deep Dive by Hamza Farooq (processed)
+- [[2026-05-28_ai-is-not-2008-loop-is-same]] — AI Is Not 2008. But the Loop Is the Same. by Ashna Dhuper (processed)
+- [[2026-05-28_no-system-will-make-you-profitable]] — Nobody Else's System Will Make You Profitable by Ryan Wright (processed)
+- [[2026-05-28_a-setup-is-not-an-edge]] — A setup is not an edge by Ryan Wright (processed)
 - [[2026-05-27_uae-opec-exit-end-of-era]] — The End of an Era: What the UAE's OPEC Exit Means for the World (processed)
 - [[2026-05-27_build-ai-trading-agent-claude-code-alpaca]] — How to Build a 24/7 AI Trading Agent with Claude Code and Alpaca (processed)
 - [[2026-05-27_the-revenge-of-the-business-idiot]] — The Revenge of The Business Idiot (processed)

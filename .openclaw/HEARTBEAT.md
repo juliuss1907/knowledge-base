@@ -1,17 +1,17 @@
 # OpenClaw Heartbeat Log
 
-**Last check:** 2026-06-01 08:01 Asia/Saigon
+**Last check:** 2026-06-01 08:30 Asia/Saigon
 **Status:** ATTENTION REQUIRED
 
 ---
 
-## Heartbeat 2026-06-01 08:01
+## Heartbeat 2026-06-01 08:30
 
 | Check | Result |
 |---|---|
 | Inbox (#agent/inbox) | ✅ Clean |
 | Raw backlog (unprocessed >24h) | ✅ Clean |
-| Concept backlinks | ✅ OK (sampled) |
+| Concept backlinks | ⚠️ 0 backlinks (all concepts lack wiki/sources/ links) |
 | Pending reviews | ⚠️ 3 reports awaiting Julius approval |
 
 **Pending Hermes reports:**
@@ -25,5 +25,5 @@
 
 ## Previous
 
-**Last check:** 2026-06-01 07:30 Asia/Saigon
+**Last check:** 2026-06-01 08:01 Asia/Saigon
 **Status:** ATTENTION REQUIRED

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: ai
 sub_tags: [automation, tools, tutorial]
 topic: hermes-workflow-optimization

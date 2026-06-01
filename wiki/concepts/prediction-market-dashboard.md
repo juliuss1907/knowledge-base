@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: crypto
 sub_tags: [tools, defi]
 topic: hermes-operator-builder-pattern

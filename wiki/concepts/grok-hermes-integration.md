@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: ai
 sub_tags: [tools, automation, news]
 topic: hermes-xai-grok-integration

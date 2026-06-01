@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: crypto
 sub_tags: [defi, tools]
 topic: hermes-polymarket-trading-agent

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: tech
 sub_tags: [tools, news]
 topic: generative-ai-seo

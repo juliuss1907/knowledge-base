@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: system
 sub_tags: [automation, opinion]
 topic: ai-productivity

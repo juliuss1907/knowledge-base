@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: tech
 sub_tags: [automation, tools]
 topic: ai-trading-agent-claude-code

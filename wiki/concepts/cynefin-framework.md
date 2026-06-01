@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: system
 sub_tags: [research, systems, opinion]
 topic: post-systems-thinking

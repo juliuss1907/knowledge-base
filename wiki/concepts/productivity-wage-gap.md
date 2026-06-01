@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: economic
 sub_tags: [research, opinion]
 topic: ai-economic-disruption-white-collar

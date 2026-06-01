@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: tech
 sub_tags: [hack, tools]
 topic: github-supply-chain-attack-vs-code

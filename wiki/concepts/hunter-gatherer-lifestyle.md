@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: productivity
 sub_tags: [research, health, psychology]
 topic: evolutionary-mismatch-modern-life

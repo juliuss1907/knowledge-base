@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: economic
 sub_tags: [tutorial, tools]
 topic: ai-trading-agent-claude-code

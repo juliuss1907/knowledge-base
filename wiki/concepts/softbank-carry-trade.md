@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: economic
 sub_tags: [news, crypto]
 topic: ai-funding-dynamics

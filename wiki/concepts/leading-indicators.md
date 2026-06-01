@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: productivity
 sub_tags: [economics, analysis]
 topic: compounding-growth

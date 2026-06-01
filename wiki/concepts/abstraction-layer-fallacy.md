@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: productivity
 sub_tags: [opinion, systems]
 topic: active-thinking-methodology

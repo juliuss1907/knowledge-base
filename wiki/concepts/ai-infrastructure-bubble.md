@@ -1,6 +1,6 @@
 ---
 type: concept
-status: draft
+status: reviewed
 main_tag: economic
 sub_tags: [tools, opinion]
 topic: ai-reflexivity-2026

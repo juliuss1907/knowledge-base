@@ -276,7 +276,8 @@ approvals:
   mode: manual
   timeout: 60
   cron_mode: deny
-command_allowlist: []
+command_allowlist:
+- script execution via -e/-c flag
 quick_commands: {}
 personalities: {}
 security:

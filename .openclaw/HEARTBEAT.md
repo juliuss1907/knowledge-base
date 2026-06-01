@@ -1,7 +1,7 @@
 # OpenClaw Heartbeat
 
-**Last check:** 2026-06-01 15:00 (Asia/Saigon)  
-**Next check:** 15:30
+**Last check:** 2026-06-01 17:00 (Asia/Saigon)  
+**Next check:** 17:30
 
 ---
 
@@ -18,11 +18,15 @@
 ---
 
 ## System Stats
-- raw/: 45 files total
-- wiki/concepts/: 172 files
-- wiki/sources/: 38 files
-- wiki/tag/: 14 indexes
+
+| Category | Count |
+|---|---|
+| wiki/concepts/ | 172 files |
+| wiki/sources/ | 38 files |
+| wiki/tag/ | 14 files |
 
 ---
 
-*HEARTBEAT_OK*
+## Recent Activity
+
+- **2026-06-01 09:14** — Re-compile completed. All source notes fixed. 172 concepts status: reviewed.

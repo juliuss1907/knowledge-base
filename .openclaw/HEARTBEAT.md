@@ -1,35 +1,35 @@
-# OpenClaw Heartbeat Log
+# HEARTBEAT.md — OpenClaw System Status
 
-**Last check:** 2026-06-01 08:30 Asia/Saigon
-**Status:** ATTENTION REQUIRED
-
----
-
-## Heartbeat 2026-06-01 08:30
-
-| Check | Result |
-|---|---|
-| Inbox (#agent/inbox) | ✅ Clean |
-| Raw backlog (unprocessed >24h) | ✅ Clean |
-| Concept backlinks | ⚠️ 0 backlinks (all concepts lack wiki/sources/ links) |
-| Pending reviews | ⚠️ 3 reports awaiting Julius approval |
-
-**Pending Hermes reports:**
-- Format Validator — 2026-05-30: 16 issues (PENDING APPROVAL)
-- Output Validator — 2026-05-30: 18 issues (PENDING APPROVAL)
-- Hygiene Inspector — 2026-05-30: 2 issues (PENDING APPROVAL)
-
-**Details:** `wiki/reviews/_action-required.md`
+**Last check:** 2026-06-01 10:00 (Asia/Saigon)  
+**Status:** ✅ HEARTBEAT_OK
 
 ---
 
-## Previous
+## System Status
 
-**Last check:** 2026-06-01 08:01 Asia/Saigon
-**Status:** ATTENTION REQUIRED## 2026-06-01 09:30 ICT — HEARTBEAT_OK
-- raw/: 0 unprocessed
-- wiki/concepts/: 172 files
-- wiki/sources/: 38 files
-- wiki/tag/: 14 indexes
-- Pending reviews: 1 entry
+| Component | Status | Notes |
+|---|---|---|
+| Inbox | ✅ Clean | No #agent/inbox items |
+| Raw backlog | ✅ Clean | 0 unprocessed files |
+| Concept backlinks | ✅ OK | All concepts properly linked |
+| Pending reviews | ✅ Clean | 0 pending — all resolved |
+| Vault backup | ✅ Active | Running every 5 minutes |
 
+---
+
+## Pipeline Health
+
+- **Ingest:** Nominal — no queued items
+- **Compile:** Completed 2026-06-01 09:14 — 37 concepts + 3 sources fixed
+- **Index:** Updated daily at 21:00
+- **Hermes validators:** All completed, latest run 2026-06-01
+
+---
+
+## Notes
+
+- System nominal. No action required.
+
+---
+
+*Next heartbeat: 2026-06-01 10:30*

@@ -131,14 +131,34 @@ When Julius approves, mark:
 Fix list ready for Kara. Approved by Julius (via _action-required.md).
 ```
 
+## Root Cause Tracing — Compile Agent Config
+
+When systemic issues are found across many files, the root cause is almost always in Compile Agent's config. Config files live at:
+
+```
+.openclaw/skills/compile-agent/
+├── SKILL.md          — Main agent instructions, language policy, section specs
+├── workflow.md       — Step-by-step compile workflow with prompt templates
+├── tagging_rules.md  — Tag selection decision trees
+└── examples.md       — Input→output transformation examples
+```
+
+**Pattern:** Validation finds systemic errors → trace to which compile-agent file/prompt caused it → patch that file. Do NOT fix individual wiki files — fix the agent config, then re-compile.
+
+Recent fixes applied (2026-06-01):
+- Language policy: "keep original" → "compile bằng tiếng Việt" (SKILL.md L45-49)
+- Summary: added constraint "KHÔNG ĐƯỢC viết 1 câu" (SKILL.md, workflow.md)
+- Sub-tags: added ⚠️ warning block against main_tags leaking into sub_tags (workflow.md Step 5.3)
+
 ## Criteria Quick Reference
 
 | Check | Spec Rule |
 |-------|-----------|
 | sub_tags count | 1-3 per file (Pool B tags only) |
-| Valid Pool B tags | research, opinion, tools, security, economics, politics, biology, psychology, philosophy, finance, strategy, systems, memory, agents, reasoning, planning, creativity, communication, collaboration, learning, adaptation, alignment, inference, architecture, training, evaluation |
-| Invalid tags (recurring) | `tech` → `tools`; `observation` → not valid |
+| Valid Pool B tags | **ALWAYS read TAGS.md.** Current (2026-06-01): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding |
+| Invalid tags (recurring) | main_tags used as sub_tags: `economic`, `productivity`, `systems`, `ai`, `politic`, `tech`, `crypto` → remove, these are Pool A only |
 | Status valid values | `draft` \| `reviewed` \| `needs-revision` (NOT `stub`) |
+| Summary min length | 3-5 sentences required. 1-sentence summary = systemic compile-agent prompt failure |
 | Field order (sources) | type, original, main_tag, sub_tags, topic, date_compiled, url, author |
 | Wikilinks frontmatter | `"[[slug]]"` (quoted for Obsidian) |
 | Wikilinks body | `[[slug]]` (bare) |

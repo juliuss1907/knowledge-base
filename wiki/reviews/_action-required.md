@@ -4,16 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-01 08:30 — TAGS.md updated (+psychology, +health). Compile Agent ready for re-compile.
+**Last updated:** 2026-06-01 09:14 — Re-compile completed. All source notes fixed.
 
 ---
 
 ## Summary
-**Pending reports:** 1 (awaiting Kara re-compile with updated Compile Agent + updated TAGS.md)
+**Pending reports:** 0 (All fixes applied and re-compile completed)
 
 **Status:**
-- ✅ Format Validator — 2026-06-01: **APPLIED** (37 files fixed: removed main_tags from sub_tags)
-- ✅ Output Validator — 2026-06-01: **APPLIED** (172 concepts status: draft → reviewed; 6 concepts Definition expanded to 3-5 sentences)
+- ✅ Format Validator — 2026-06-01: **COMPLETED** (37 concepts + 3 sources fixed)
+- ✅ Output Validator — 2026-06-01: **COMPLETED** (172 concepts status: reviewed; source notes updated)
 - ✅ Hygiene Inspector — 2026-06-01: **PROMOTE** (0 issues)
 - ✅ Format Validator — 2026-05-30: RESOLVED (16 issues fixed by Julius)
 - ✅ Output Validator — 2026-05-30: RESOLVED (18 issues fixed by Julius)

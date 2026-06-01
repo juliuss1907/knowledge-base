@@ -44,3 +44,8 @@
 ---
 
 *Next heartbeat: 2026-06-01 13:00*
+## 2026-06-01 13:00 — HEARTBEAT_OK
+- Inbox: empty
+- Raw backlog: 0 unprocessed
+- Concept backlinks: 5 sample checked, all 0 refs (needs attention)
+- Pending reviews: 0 (all resolved)

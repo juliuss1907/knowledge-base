@@ -46,3 +46,18 @@
 
 - Batch from Apr–May accumulated due to manual prioritization
 - All files have valid frontmatter (type, status: unprocessed confirmed)
+---
+
+## Heartbeat Update — 2026-06-01 20:30 Asia/Saigon
+
+**New backlog detected:**
+- `raw/articles/`: 22 files unprocessed (>24h)
+- `raw/papers/`: 3 files unprocessed (>24h)
+- `raw/posts/`: 6 files unprocessed (>24h)
+- `raw/videos/`: 4 files unprocessed (>24h)
+- `raw/websites/`: 3 files unprocessed (>24h)
+- **Total: 38 files accumulated**
+
+**Concept spot check:** 3/3 wiki/concepts/ files lack source backlinks
+
+**Action:** CompileAgent scheduled for 08:00 tomorrow, or manual trigger needed.

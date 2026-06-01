@@ -1,22 +1,28 @@
-# HEARTBEAT.md
+# OpenClaw Heartbeat
 
-> Automated heartbeat log — OpenClaw AX400
+**Last check:** 2026-06-01 15:00 (Asia/Saigon)  
+**Next check:** 15:30
 
 ---
 
-## Heartbeat History
-
-### 2026-06-01 · 14:30 · ✓ CLEAN
+## Status: ✅ CLEAN
 
 | Check | Result |
 |---|---|
-| Inbox (Tasks/) | 0 items |
-| Raw backlog | 0 unprocessed |
-| Pending reviews | None |
-| System time | 2026-06-01 14:30 +07 |
-
-**Status:** `HEARTBEAT_OK`
+| raw/backlog | 0 unprocessed |
+| inbox | 0 files |
+| pending review | 0 (all resolved) |
+| concept backlinks | OK (random sample: 4-5 links/file) |
+| tag indexes | 14 files, healthy |
 
 ---
 
-*Next check: 15:00*
+## System Stats
+- raw/: 45 files total
+- wiki/concepts/: 172 files
+- wiki/sources/: 38 files
+- wiki/tag/: 14 indexes
+
+---
+
+*HEARTBEAT_OK*

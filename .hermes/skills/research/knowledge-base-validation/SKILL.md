@@ -31,7 +31,7 @@ Connor (Hermes-RK800) validates wiki files against format-spec.md v2.2. Read-onl
 Checks: frontmatter fields, field order, sub_tags count (1-3 required), wikilink format ("[[...]]" in frontmatter, bare elsewhere), naming conventions.
 
 **Pool B tags are defined in TAGS.md — ALWAYS read TAGS.md as ground truth, do NOT hardcode.**  
-Current Pool B (14 tags as of 2026-05-19): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding.
+Current Pool B (16 tags as of 2026-06-01): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding, psychology, health.
 
 **RECURRING SYSTEMIC ISSUE — Main-tags used as sub_tags:**  
 Compile Agent frequently puts main_tags (economic, productivity, systems, ai, politic, tech, crypto) into sub_tags. These are Pool A tags, NOT Pool B. Pattern: `sub_tags: [opinion, productivity, systems]` — `productivity` and `systems` are main_tags masquerading as sub_tags. Fix: strip main-tag duplicates, keep only valid Pool B tags.

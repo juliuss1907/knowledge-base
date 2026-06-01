@@ -280,7 +280,7 @@ Output: <one-tag-from-pool-a>
 ```
 Chọn 1-3 sub-tags từ Pool B mô tả cross-cutting attributes của nội dung này:
 
-Pool B: #hack, #tools, #automation, #vibecode, #research, #tutorial, #opinion, #news, #defi, #perpdex, #layer1, #layer2, #law, #coding
+Pool B: #hack, #tools, #automation, #vibecode, #research, #tutorial, #opinion, #news, #defi, #perpdex, #layer1, #layer2, #law, #coding, #psychology, #health
 
 ⚠️ KHÔNG dùng main_tags làm sub_tags. Nếu main_tag đã là `ai` thì không thêm `ai` vào sub_tags.
 
@@ -305,6 +305,8 @@ Output: <1-to-3-tags-from-pool-b>
 - `#layer2` — scaling solutions (crypto-specific)
 - `#law` — pháp lý, regulation, compliance
 - `#coding` — programming, code generation, dev practices
+- `#psychology` — tâm lý học, cognitive science, mental models, biases
+- `#health` — sức khỏe, sleep, exercise, nutrition, biohacking
 
 **Constraints:**
 - Tối thiểu 1 sub-tag

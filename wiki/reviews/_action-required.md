@@ -4,17 +4,17 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-01 08:20 — Connor validation: 80 format issues + 4 output issues + 0 hygiene issues
+**Last updated:** 2026-06-01 08:30 — TAGS.md updated (+psychology, +health). Compile Agent ready for re-compile.
 
 ---
 
 ## Summary
-**Pending reports:** 3 (awaiting Kara fix)
+**Pending reports:** 1 (awaiting Kara re-compile with updated Compile Agent + updated TAGS.md)
 
 **Status:**
-- ⏳ Format Validator — 2026-06-01: **PENDING APPROVAL** (80 invalid sub_tags + 6 empty sub_tags)
-- ⏳ Output Validator — 2026-06-01: **PENDING APPROVAL** (4 issues: Summary 1-dòng 210 files, 17 Key Points <3, 3 Sources trống, all draft)
-- ✅ Hygiene Inspector — 2026-06-01: **PROMOTE** (0 issues — KB structure clean)
+- ✅ Format Validator — 2026-06-01: **APPROVED** (86 issues — fix by re-compile. Compile Agent updated: Vietnamese output, 3-5 sentence Summary, ≥3 Key ideas, no empty Sources, no main_tags as sub_tags. TAGS.md updated: #psychology + #health added to Pool B.)
+- ✅ Output Validator — 2026-06-01: **APPROVED** (4 systemic issues — fix by re-compile)
+- ✅ Hygiene Inspector — 2026-06-01: **PROMOTE** (0 issues)
 - ✅ Format Validator — 2026-05-30: RESOLVED (16 issues fixed by Julius)
 - ✅ Output Validator — 2026-05-30: RESOLVED (18 issues fixed by Julius)
 - ✅ Hygiene Inspector — 2026-05-30: RESOLVED (2 issues: memory/, search/ — root-level folders, Julius's territory)

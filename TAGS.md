@@ -65,8 +65,10 @@ Sub-tags are independent of main-tags. Any sub-tag may co-occur with any main-ta
 | `#layer2` | Scaling solutions, rollups, sidechains |
 | `#law` | Legal frameworks, contracts, regulations, compliance |
 | `#coding` | Programming, software development, code generation, dev practices |
+| `#psychology` | Cognitive science, behavioral psychology, mental models, biases |
+| `#health` | Physical health, sleep, exercise, nutrition, biohacking |
 
-**Total:** 14 sub-tags.
+**Total:** 16 sub-tags.
 
 ---
 

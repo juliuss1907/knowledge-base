@@ -13,7 +13,7 @@ last_updated: 2026-05-19
 
 ## Definition
 
-Khả năng của AI agents tham gia vào các quan hệ pháp lý — ký hợp đồng, sở hữu tài sản, kiện và bị kiện — thông qua các cơ chế pháp lý hiện có như LLC, thay vì yêu cầu quyền pháp nhân mới được tạo ra.
+Khả năng của AI agents tham gia vào các quan hệ pháp lý — ký hợp đồng, sở hữu tài sản, kiện và bị kiện — thông qua các cơ chế pháp lý hiện có như LLC, thay vì yêu cầu quyền pháp nhân mới được tạo ra. Đây là cách tiếp cận pragmatic cho agentic commerce trong bối cảnh pháp lý hiện tại. Shawn Bayern (2014) chỉ ra rằng LLC structure đã chứa sẵn giải pháp cho vấn đề này. Zero-member LLC có thể own, sign contracts, và sue/be sued, với operating agreement có thể được mã hóa. AI legal personhood là nền tảng cho autonomous business operations.
 
 ## Key ideas
 

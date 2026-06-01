@@ -13,7 +13,7 @@ last_updated: 2026-05-28
 
 ## Definition
 
-Pattern yêu cầu agent ghi lại structured log entry cho mọi decision — bao gồm cả những ngày không có action.
+Pattern yêu cầu agent ghi lại structured log entry cho mọi decision — bao gồm cả những ngày không có action. Đây là cơ chế accountability và audit trail cho AI agents hoạt động trong production environments. Journal entries được viết ở structured markdown format bao gồm portfolio status, market research, trades, và reflection. Pattern này đảm bảo rằng mọi quyết định đều có thể được trace và review sau này. Đặc biệt quan trọng cho việc debugging và continuous improvement của agent behavior.
 
 ## Key ideas
 

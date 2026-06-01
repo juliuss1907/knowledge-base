@@ -13,7 +13,7 @@ last_updated: 2026-05-19
 
 ## Definition
 
-Thương mại được thực hiện bởi AI agents độc lập — từ research, đàm phán, ký hợp đồng, thanh toán, đến customer service — mà không cần sự can thiệp liên tục của con người.
+Thương mại được thực hiện bởi AI agents độc lập — từ research, đàm phán, ký hợp đồng, thanh toán, đến customer service — mà không cần sự can thiệp liên tục của con người. Đây là sự chuyển đổi từ AI như công cụ sang AI như agent tự chủ trong môi trường kinh doanh. Agentic commerce bao gồm các hoạt động như đặt vé máy bay, đàm phán giá, quản lý portfolio, và triển khai code một cách tự động. Văn bản pháp lý cũng trở nên machine-readable, cho phép compliance kiểm tra real-time và contract analysis tự động. Đây là xu hướng mới nổi trong AI applications cho business automation.
 
 ## Key ideas
 

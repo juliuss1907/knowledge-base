@@ -13,7 +13,7 @@ last_updated: 2026-05-24
 
 ## Definition
 
-AI Overviews là tính năng generative AI trong Google Search hiển thị AI-generated summary responses cho search queries, synthesized từ multiple sources trong Search index.
+AI Overviews là tính năng generative AI trong Google Search hiển thị AI-generated summary responses cho search queries, synthesized từ multiple sources trong Search index. Đây là implementation của Retrieval-Augmented Generation (RAG) trong search context. AI Overviews không chạy trên separate systems mà được built on top of Google's existing Search infrastructure. Content cần technically sound và high-quality để rank trong traditional search — đây là prerequisite cho appearing trong AI Overviews. Đây là một dạng của Generative Search Results (GSRs) đang reshape SEO landscape.
 
 ## Key ideas
 

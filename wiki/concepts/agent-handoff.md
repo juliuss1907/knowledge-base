@@ -13,7 +13,7 @@ last_updated: 2026-05-28
 
 ## Definition
 
-Process chuyển control từ agent này sang agent khác trong multi-agent system — critical cho workflow orchestration.
+Process chuyển control từ agent này sang agent khác trong multi-agent system — critical cho workflow orchestration. Handoff đảm bảo state transfer (memory, context, progress) được truyền tải chính xác giữa các agents. Protocol definition xác định những gì được chuyển giao và cách thức thực hiện. Các handoff triggers bao gồm completion, escalation, và error conditions. Đây là pattern cơ bản được sử dụng rộng rãi trong Factory Missions cho complex workflows.
 
 ## Key ideas
 

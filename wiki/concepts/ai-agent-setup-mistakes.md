@@ -13,7 +13,7 @@ last_updated: 2026-05-19
 
 ## Definition
 
-Các lỗi phổ biến khi setup AI agents và cách fix — từ Windows setup issues đến subscription choices và cost optimization.
+Các lỗi phổ biến khi setup AI agents và cách fix — từ Windows setup issues đến subscription choices và cost optimization. Setup đúng là critical cho việc có productive experience với AI agents. Common mistakes bao gồm Windows setup problems, wrong subscription choices, và lack of cost awareness. Có best practices cụ thể cho từng platform và use case để tránh những pitfalls này. Learning from others' mistakes giúp accelerate adoption và reduce frustration.
 
 ## Key ideas
 

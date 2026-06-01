@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-05-28_a-setup-is-not-an-edge]]"
 main_tag: economic
-sub_tags: [opinion, economic, research]
+sub_tags: [opinion, research]
 topic: trading-state-policy
 url: https://ryanswright.substack.com/p/a-setup-is-not-an-edge
 author: Ryan Wright

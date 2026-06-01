@@ -26,4 +26,10 @@
 ## Previous
 
 **Last check:** 2026-06-01 08:01 Asia/Saigon
-**Status:** ATTENTION REQUIRED
+**Status:** ATTENTION REQUIRED## 2026-06-01 09:30 ICT — HEARTBEAT_OK
+- raw/: 0 unprocessed
+- wiki/concepts/: 172 files
+- wiki/sources/: 38 files
+- wiki/tag/: 14 indexes
+- Pending reviews: 1 entry
+

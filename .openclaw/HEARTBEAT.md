@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat Log
 
-**Time:** 2026-06-02 04:30 Asia/Saigon (2026-06-01 21:30 UTC)
+**Time:** 2026-06-02 05:30 Asia/Saigon (2026-06-01 22:30 UTC)
 **Status:** HEARTBEAT_OK
 
 ---
@@ -35,7 +35,7 @@ CompileAgent sẽ xử lý lúc 08:00.
 | Total concepts | 172 |
 | Total sources | 38 |
 | Total raw files | 47 |
-| Tag indexes | 18 active |
+| Tag indexes | 20 active |
 | Topic indexes | 58 |
 | Concepts with sources | 172 / 172 ✅ |
 
@@ -51,4 +51,4 @@ CompileAgent sẽ xử lý lúc 08:00.
 
 ---
 
-*Logged: 2026-06-02 04:30*
+*Logged: 2026-06-02 05:30*

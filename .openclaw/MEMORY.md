@@ -183,3 +183,11 @@ Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử l�
 - Sub-tags: systems, coding, health, psychology, behavior, economics, analysis, frontend, blindspots, memory
 - Note: These files are still indexed under their valid tags
 
+## 2026-06-01 21:00:00 — Indexed
+
+- **Scanned:** 171 concepts + 38 sources = 209 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags used)
+- **Topics indexed:** 58
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 49 (see details in indexer output)
+- **Errors:** 1 file skipped due to invalid frontmatter

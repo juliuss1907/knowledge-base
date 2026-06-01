@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat Log
 
-**Time:** 2026-06-02 04:00 Asia/Saigon (2026-06-01 21:00 UTC)
+**Time:** 2026-06-02 04:30 Asia/Saigon (2026-06-01 21:30 UTC)
 **Status:** HEARTBEAT_OK
 
 ---
@@ -12,7 +12,7 @@
 | Inbox tasks (#agent/inbox) | ✅ None |
 | Raw backlog | ⚠️ 3 files unprocessed (from Jun 1) |
 | Pending reviews | ✅ Clean (all resolved 2026-06-01 17:15) |
-| Concept backlinks | ⚠️ 5 files missing source: field |
+| Concept backlinks | ✅ All 172 concepts have sources field |
 | Index status | ✅ Updated 2026-06-01 21:06 |
 
 ---
@@ -28,19 +28,6 @@ CompileAgent sẽ xử lý lúc 08:00.
 
 ---
 
-## Issue: 5 Concept Files Missing Source
-
-**Files without `source:` frontmatter:**
-- `wiki/concepts/agent-memory-taxonomy.md`
-- `wiki/concepts/self-reinforcing-systems.md`
-- `wiki/concepts/user-md-configuration.md`
-- `wiki/concepts/existential-vacuum.md`
-- `wiki/concepts/memory-extraction-timing.md`
-
-**Action:** Cần FixAgent để thêm source links.
-
----
-
 ## System Status
 
 | Metric | Value |
@@ -50,6 +37,7 @@ CompileAgent sẽ xử lý lúc 08:00.
 | Total raw files | 47 |
 | Tag indexes | 18 active |
 | Topic indexes | 58 |
+| Concepts with sources | 172 / 172 ✅ |
 
 ---
 
@@ -58,9 +46,9 @@ CompileAgent sẽ xử lý lúc 08:00.
 - **Time:** 2026-06-01 21:06
 - **Scanned:** 209 files (171 concepts + 38 sources)
 - **Tags indexed:** 20
-- **Invalid tags:** 49 (flagged,不影响 indexing)
+- **Invalid tags:** 49 (flagged, không ảnh hưởng indexing)
 - **Errors:** 1 file skipped (invalid frontmatter)
 
 ---
 
-*Logged: 2026-06-02 04:00*
+*Logged: 2026-06-02 04:30*

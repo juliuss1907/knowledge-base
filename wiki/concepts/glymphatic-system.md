@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [research, productivity, health]
+sub_tags: [research, health]
 topic: simplicity-psychology
 sources:
   - "[[src_why-we-complicate-life-productive-peter]]"

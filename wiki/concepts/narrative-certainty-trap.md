@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: economic
-sub_tags: [opinion, economic, psychology]
+sub_tags: [opinion, psychology]
 topic: market-psychology
 sources:
   - "[[src_ai-reflexivity-loop-is-same]]"

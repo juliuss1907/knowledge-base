@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: economic
-sub_tags: [research, economic, systems]
+sub_tags: [research, systems]
 topic: trading-state-policy
 sources:
   - "[[src_setup-is-not-an-edge]]"

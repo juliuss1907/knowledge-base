@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: economic
-sub_tags: [research, systems, economic]
+sub_tags: [research, systems]
 topic: system-dynamics
 sources:
   - "[[src_ai-reflexivity-loop-is-same]]"

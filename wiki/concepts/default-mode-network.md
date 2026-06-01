@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [research, ai, health]
+sub_tags: [research, health]
 topic: evolutionary-mismatch-modern-life
 sources:
   - "[[src_were-not-supposed-to-live-like-this]]"

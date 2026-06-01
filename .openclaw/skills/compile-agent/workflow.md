@@ -88,7 +88,7 @@ sed '1,/^---$/d; /^---$/d' raw/<type>/<filename>
 
 **Prompt template:**
 ```
-Summarize the following content in 3-5 sentences. Keep the same language as the original content. Focus on the main thesis and key takeaways.
+Tóm tắt nội dung sau bằng TIẾNG VIỆT trong 3-5 câu. Tập trung vào luận điểm chính và những điểm quan trọng nhất. KHÔNG viết 1 câu — nếu nội dung quá ngắn để có 3 câu, hãy mở rộng bằng cách nêu thêm ngữ cảnh hoặc hệ quả.
 
 Content:
 <raw file body>
@@ -96,20 +96,20 @@ Content:
 
 **Output format:**
 ```
-<3-5 sentence summary in original language>
+<3-5 câu tóm tắt bằng tiếng Việt>
 ```
 
 **Quality criteria:**
-- Captures main thesis
-- Mentions key findings or arguments
-- Avoids trivial details
-- Same language as source (no translation)
+- Nắm được luận điểm chính (main thesis)
+- Nêu được key findings hoặc arguments
+- Tránh chi tiết vụn vặt (trivial details)
+- Tiếng Việt, technical terms giữ nguyên tiếng Anh
 
 ### 3.2 Extract key points (5-10 bullets)
 
 **Prompt template:**
 ```
-Extract 5-10 key points from the following content as a bullet list. Keep the same language as the original. Each point should be one sentence.
+Trích xuất 5-10 điểm chính từ nội dung sau dưới dạng bullet list bằng TIẾNG VIỆT. Mỗi điểm là một câu. Technical terms giữ nguyên tiếng Anh.
 
 Content:
 <raw file body>
@@ -117,17 +117,17 @@ Content:
 
 **Output format:**
 ```
-- Key point 1
-- Key point 2
+- Điểm chính 1
+- Điểm chính 2
 - ...
-- Key point N (5-10 total)
+- Điểm chính N (5-10 total)
 ```
 
 **Quality criteria:**
-- Each point is self-contained (readable without context)
-- Points are ordered by importance
-- Avoid redundancy between points
-- Technical terms preserved in English
+- Mỗi điểm tự chứa đựng đủ ngữ cảnh (self-contained)
+- Sắp xếp theo mức độ quan trọng
+- Tránh trùng lặp
+- Technical terms giữ nguyên tiếng Anh
 
 ### 3.3 Extract original excerpts (optional)
 
@@ -163,22 +163,22 @@ code example
 
 **Prompt template:**
 ```
-Identify 1-5 knowledge atoms from this content that warrant their own concept files. A concept should be:
-- A technical term or methodology with depth
-- A tool, product, or system worth tracking
-- A pattern or practice with reusable knowledge
+Xác định 1-5 knowledge atoms từ nội dung này xứng đáng có file concept riêng. Một concept nên là:
+- Thuật ngữ kỹ thuật hoặc phương pháp có chiều sâu
+- Công cụ, sản phẩm hoặc hệ thống đáng theo dõi
+- Pattern hoặc practice có kiến thức tái sử dụng được
 
-Do NOT extract:
-- Generic terms (AI, blockchain)
-- Trivial mentions without explanation
-- Author names or organizations (unless they are the subject)
+KHÔNG trích xuất:
+- Thuật ngữ chung chung (AI, blockchain)
+- Đề cập thoáng qua không giải thích
+- Tên tác giả hoặc tổ chức (trừ khi họ là chủ đề chính)
 
 Content:
 <raw file body>
 
-Output format:
-1. <concept-name-1>: <1 sentence why it's a concept>
-2. <concept-name-2>: <1 sentence why it's a concept>
+Output format (tiếng Việt):
+1. <concept-name-1>: <1 câu tiếng Việt giải thích>
+2. <concept-name-2>: <1 câu tiếng Việt giải thích>
 ...
 ```
 
@@ -248,61 +248,68 @@ cat TAGS.md
 
 **Prompt template:**
 ```
-Given this content, select exactly ONE main-tag from Pool A that best categorizes it:
+Chọn ĐÚNG MỘT main-tag từ Pool A phân loại nội dung này:
 
 Pool A: #ai, #crypto, #tech, #productivity, #system, #economic, #politic
+(LƯU Ý: Đây là main-tags. KHÔNG dùng chúng làm sub_tags.)
 
-Content summary:
+Tóm tắt nội dung:
 <summary from Step 3.1>
 
 Output: <one-tag-from-pool-a>
 ```
 
 **Decision logic:**
-- If content is about AI/ML/LLM → `#ai`
-- If content is about blockchain/DeFi/crypto → `#crypto`
-- If content is about software/dev tools → `#tech`
-- If content is about workflows/methods → `#productivity`
-- If content is about architecture/design → `#system`
-- If content is about markets/finance → `#economic`
-- If content is about policy/regulation → `#politic`
+- Nếu nội dung về AI/ML/LLM → `#ai`
+- Nếu về blockchain/DeFi/crypto → `#crypto`
+- Nếu về software/dev tools → `#tech`
+- Nếu về workflows/methods → `#productivity`
+- Nếu về architecture/design → `#system`
+- Nếu về markets/finance → `#economic`
+- Nếu về policy/regulation → `#politic`
 
 **If ambiguous (e.g., AI + crypto):**
-- Choose primary focus (what is 60%+ of content about?)
-- Secondary focus goes into sub-tags
+- Chọn primary focus (60%+ nội dung nói về gì?)
+- Secondary focus cho vào sub-tags
 
 ### 5.3 Select sub-tags (Pool B, 1-3 tags)
 
+**⚠️ QUAN TRỌNG:** Pool B CHỈ gồm các sub-tags bên dưới. **KHÔNG dùng main_tags (ai, crypto, tech, productivity, system, economic, politic) làm sub_tags.** Nếu thấy mình đang định thêm `economic`, `productivity`, `systems`, `ai`, `politic`, `tech`, `crypto` vào sub_tags — DỪNG LẠI, chúng đã là main_tag rồi.
+
 **Prompt template:**
 ```
-Given this content, select 1-3 sub-tags from Pool B that describe cross-cutting attributes:
+Chọn 1-3 sub-tags từ Pool B mô tả cross-cutting attributes của nội dung này:
 
-Pool B: #hack, #tools, #automation, #vibecode, #research, #tutorial, #opinion, #news, #defi, #perpdex, #layer1, #layer2
+Pool B: #hack, #tools, #automation, #vibecode, #research, #tutorial, #opinion, #news, #defi, #perpdex, #layer1, #layer2, #law, #coding
 
-Content summary:
+⚠️ KHÔNG dùng main_tags làm sub_tags. Nếu main_tag đã là `ai` thì không thêm `ai` vào sub_tags.
+
+Tóm tắt nội dung:
 <summary from Step 3.1>
 
 Output: <1-to-3-tags-from-pool-b>
 ```
 
 **Decision logic:**
-- `#hack` — if about exploits, vulnerabilities, attacks
-- `#tools` — if about specific software/products
-- `#automation` — if about bots, scripts, workflows
-- `#vibecode` — if about AI-assisted development
-- `#research` — if academic paper or deep analysis
-- `#tutorial` — if how-to guide or walkthrough
-- `#opinion` — if personal take or commentary
-- `#news` — if recent event or announcement
-- `#defi` — if about DeFi protocols (crypto-specific)
-- `#perpdex` — if about perpetual exchanges (crypto-specific)
-- `#layer1` — if about base-layer blockchains (crypto-specific)
-- `#layer2` — if about scaling solutions (crypto-specific)
+- `#hack` — exploits, vulnerabilities, attacks
+- `#tools` — phần mềm/sản phẩm cụ thể
+- `#automation` — bots, scripts, workflows
+- `#vibecode` — AI-assisted development
+- `#research` — academic paper hoặc deep analysis
+- `#tutorial` — how-to guide hoặc walkthrough
+- `#opinion` — personal take hoặc commentary
+- `#news` — recent event hoặc announcement
+- `#defi` — DeFi protocols (crypto-specific)
+- `#perpdex` — perpetual exchanges (crypto-specific)
+- `#layer1` — base-layer blockchains (crypto-specific)
+- `#layer2` — scaling solutions (crypto-specific)
+- `#law` — pháp lý, regulation, compliance
+- `#coding` — programming, code generation, dev practices
 
 **Constraints:**
-- Minimum 1 sub-tag
-- Maximum 3 sub-tags
-- If content fits 4+ sub-tags, pick the 3 most relevant
+- Tối thiểu 1 sub-tag
+- Tối đa 3 sub-tags
+- KHÔNG dùng main_tags làm sub_tags
 
 ### 5.4 Generate topic (free-form slug)
 

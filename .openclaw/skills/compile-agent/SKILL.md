@@ -43,10 +43,10 @@ For each unprocessed raw file:
 ## Critical rules
 
 ### Language handling
-- **Keep original language** — do NOT auto-translate
-- Source notes and concept notes use the same language as the raw content
-- If Julius needs translation, he will request it separately: "translate [file] to Vietnamese"
-- Preserve technical terms in English regardless of content language (e.g., "embedding", "fine-tuning", "prompt injection")
+- **Compile bằng tiếng Việt** — tất cả output (Summary, Key Points, Definition, Key ideas) phải là tiếng Việt
+- Nếu raw content là tiếng Anh → dịch sang tiếng Việt
+- Nếu raw content là tiếng Việt → giữ nguyên
+- **Preserve technical terms in English** (e.g., "embedding", "fine-tuning", "prompt injection") — không dịch thuật ngữ kỹ thuật
 
 ### Tag assignment
 - **Always** read `TAGS.md` first to know current taxonomy
@@ -115,18 +115,17 @@ Full schema details in `wiki/meta/format-spec.md`.
 ### Source note body
 1. `# <Original title>`
 2. `## Metadata` — author, date, URL, source platform
-3. `## Summary` — 3-5 sentence summary (same language as source)
+3. `## Summary` — **3-5 câu tiếng Việt** (KHÔNG ĐƯỢC viết 1 câu. Nếu thiếu ý, mở rộng bằng cách nêu thêm context hoặc implication của nội dung.)
 4. `## Key points` — bullet list (5-10 items)
 5. `## Concepts referenced` — wikilinks to concept files: `[[concept-slug]]`
 6. `## Original excerpts` (optional) — key quotes worth preserving
 
 ### Concept note body
-### Concept note body
 1. `# <Concept name>`
-2. `## Definition` — 2-3 sentence definition (same language as source)
-3. `## Key ideas` — main points about this concept
+2. `## Definition` — **2-3 câu tiếng Việt**, định nghĩa khái niệm rõ ràng
+3. `## Key ideas` — **tối thiểu 3 ý chính** bằng tiếng Việt (5-8 là lý tưởng)
 4. `## Related concepts` — wikilinks: `[[other-concept]]`
-5. `## Sources` — wikilinks to source files (auto-maintained)
+5. `## Sources` — **KHÔNG được để trống.** Luôn có ít nhất 1 backlink `[[src_xxx]]`. Danh sách phải khớp với frontmatter `sources:` list.
 6. `## Notes` (optional) — Julius's annotations (preserved across re-compiles)
 
 ## Constraints
@@ -215,6 +214,12 @@ After successful compilation of one raw file:
    - Tags applied: main=<x>, sub=[<y>, <z>], topic=<t>
   ```
 4. **Do NOT trigger** Index Agent — runs separately at 21:00
+
+### Status lifecycle
+- Compile Agent tạo concept → `status: draft`
+- Julius review concept → nếu OK, tự đổi thành `status: reviewed`
+- Nếu cần sửa → `status: needs-revision`
+- Concept đã `reviewed` được coi là stable, không re-compile trừ khi có source mới
 
 ## Batch behavior
 

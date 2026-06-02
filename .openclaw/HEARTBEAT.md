@@ -1,13 +1,13 @@
 # HEARTBEAT.md — OpenClaw
 
 > Cập nhật mỗi 30 phút
-> Last updated: 2026-06-02 23:30 (Asia/Saigon)
+> Last updated: 2026-06-03 00:00 (Asia/Saigon)
 
 ---
 
 ## System Status
 
-**Tình trạng:** ⚠️ Có backlog
+**Tình trạng:** ⚠️ ATTENTION REQUIRED
 
 ---
 
@@ -27,20 +27,21 @@
 
 ## Pending Reviews
 
-1 report đang chờ:
-- Format Validator 2026-06-01-v2: **PARTIALLY APPLIED** — 10 invalid sub_tags + 6 empty remaining
-- Output Validator 2026-06-01-v2: **APPROVED** — 4 systemic issues cần re-compile
+⚠️ Format Validator 2026-06-01-v2: **PARTIALLY APPLIED**
+- Fix Agent #2 claimed 0/0 nhưng thực tế: 10 invalid sub_tags + 6 empty remaining
+- Systemic issues chưa resolved — cần re-compile
+- Details: wiki/reviews/_action-required.md
 
-**Action:** Julius cần approve để Fix Agent xử lý tiếp.
-
----
-
-## Notes
-
-- Không có task mới trong inbox
-- Wiki concepts backlink check: OK
-- Hệ thống ổn định, chờ compile sáng mai
+✅ Output Validator 2026-06-01-v2: **APPROVED** — 4 systemic issues cần re-compile
 
 ---
 
-*Next heartbeat: 2026-06-03 00:00*
+## Heartbeat Log
+
+| Time | Status | Notes |
+|------|--------|-------|
+| 2026-06-03 00:00 | ⚠️ ATTENTION REQUIRED | 3 raw unprocessed; FormatValidator systemic issues unresolved |
+
+---
+
+*Next heartbeat: 2026-06-03 00:30*

@@ -1,44 +1,31 @@
-# HEARTBEAT.md — System Health Log
+# Heartbeat Log — OpenClaw
 
-> Updated every 30 minutes by OpenClaw heartbeat
-> Last check: 2026-06-02 15:30 (Asia/Saigon)
-
----
-
-## Status: ✅ HEARTBEAT_OK
-
-### System Overview
-
-| Metric | Value | Notes |
-|--------|-------|-------|
-| Raw backlog | 0 | No unprocessed files |
-| Inbox items | 0 | No pending tasks |
-| Pending reviews | 1 | From earlier today — tracking in _action-required.md |
-| Concepts | 186 | All reviewed |
-| Sources | 41 | All reviewed |
-| Tag indexes | 20 | Updated |
-
-### Details
-
-#### Raw Processing
-- ✅ No files unprocessed >24h
-- ✅ All raw/ folders empty of backlog
-
-#### Pending Hermes Reviews
-- 1 report from 2026-06-01-v2 — systemic format issues, Fix Agent partially applied
-- No new reviews since last check
-
-#### Index Status
-- ✅ Tag indexes: 20 files, all current
-- ✅ Concept backlink integrity: assumed OK (no alerts)
+**Time:** 2026-06-02 16:00 (Asia/Saigon)
+**Status:** ATTENTION REQUIRED
 
 ---
 
-## Log
+## System Status
 
-| Time | Status | Notes |
-|------|--------|-------|
-| 2026-06-02 15:30 | ✅ OK | No issues |
-| 2026-06-02 08:40 | ✅ OK | Fix Agent run complete, 1 pending systemic issue |
-| 2026-06-02 08:00 | ✅ OK | Daily compile complete |
-| 2026-06-01 21:00 | ✅ OK | Index updated |
+| Check | Result |
+|---|---|
+| Raw backlog | ⚠️ 1 file (raw/videos/2026-06-02_handoff-skill-context-window-management.md) — status: unprocessed |
+| Pending reviews | ⚠️ 1 report with unresolved issues (from 08:40 today) |
+| Concepts | ✅ 186 files |
+| Sources | ✅ 41 files |
+| Tags | ✅ 12 indexes |
+
+---
+
+## Issues Requiring Julius Attention
+
+1. **Format Validator — 2026-06-01-v2**: 10 invalid sub_tags + 6 empty remaining after Fix Agent #2. Requires re-compile.
+2. **Output Validator — 2026-06-01-v2**: 4 systemic issues approved but awaiting re-compile.
+
+---
+
+## Notes
+
+- Raw file 2026-06-02 is from today (just ingested, compile scheduled for 08:00 tomorrow)
+- Pending review report was updated at 08:40, not yet resolved
+

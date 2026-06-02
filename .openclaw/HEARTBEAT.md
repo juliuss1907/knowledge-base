@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Status
 
 > Automated health check every 30 minutes
-> Last check: 2026-06-02 12:30 (Asia/Saigon)
+> Last check: 2026-06-02 13:00 (Asia/Saigon)
 
 ---
 
@@ -56,9 +56,8 @@
 
 Sample check shows **all sampled concepts have 0 backlinks**:
 
-- `leader-leader-model.md`: 0 links
-- `free-cash-flow.md`: 0 links  
-- `prospective-memory-gap.md`: 0 links
+- `atomic-mac-agent.md`: 0 links
+- `code-as-substrate.md`: 0 links
 
 **This suggests a systemic compilation problem** — concepts are being created without cross-references. Requires investigation and potential re-compile of affected files.
 
@@ -71,4 +70,4 @@ Sample check shows **all sampled concepts have 0 backlinks**:
 
 ---
 
-*Next heartbeat: 13:00*
+*Next heartbeat: 13:30*

@@ -21,3 +21,14 @@
 - Raw backlog: 3 unprocessed (articles x2, posts x1) — oldest from 2026-06-01
 - Pending reviews: 0 ✅
 - Wiki: recent concepts created, no issues
+---
+
+## 2026-06-02 02:30 UTC — ISSUES DETECTED
+
+- **Raw backlog:** 15 files unprocessed, oldest from 15 days ago (2026-05-14) ⚠️
+  - articles: 25 files, papers: 4 files, posts: 8 files, websites: 4 files
+- **Pending reviews:** Systemic issues in _action-required.md — re-compile needed
+- **Concept links:** Sample shows 0 links to sources — possible compilation issue
+
+**Requires Julius attention.**
+

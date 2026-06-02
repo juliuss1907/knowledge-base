@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Status
 
 > Automated health check every 30 minutes
-> Last check: 2026-06-02 14:00 (Asia/Saigon)
+> Last check: 2026-06-02 14:30 (Asia/Saigon)
 
 ---
 
@@ -18,56 +18,32 @@
 
 ---
 
-## Raw Inventory
-
-| Folder | Files |
-|---|---|
-| articles | 25 |
-| papers | 4 |
-| posts | 8 |
-| repos | 1 |
-| videos | 5 |
-| websites | 4 |
-| **Total** | **47** |
-
----
-
-## Wiki Inventory
-
-| Folder | Count |
-|---|---|
-| sources | 41 |
-| concepts | 186 |
-
----
-
 ## Pending Reviews
 
-**1 report** — `wiki/reviews/_action-required.md`
+**Format Validator — 2026-06-01.v2:** 16 issues remaining (10 invalid sub_tags + 6 empty sub_tags)  
+**Output Validator — 2026-06-01.v2:** 4 systemic issues (all require re-compile)  
+**Hygiene Inspector — 2026-06-01.v2:** ✅ PROMOTED
 
-Format Validator (2026-06-01-v2): **PARTIALLY APPLIED**
-- 10 invalid sub_tags + 6 empty remaining after Fix Agent #2
-- Output Validator (2026-06-01-v2): 4 systemic issues requiring re-compile
-
-**Action required by:** Julius
+**Details:** `wiki/reviews/_action-required.md`
 
 ---
 
-## Concept Backlinks — Systemic Issue
+## System Stats
 
-Sample check shows **all sampled concepts have 0 backlinks**:
-- `ashbys-law.md`: 0 links in sample
-- Other recent concepts: no cross-references
-
-**This suggests a systemic compilation problem** — concepts created without back-references to sources. Requires re-compile of affected files after Format Validator issues are resolved.
-
----
-
-## Next Scheduled Actions
-
-- **Index Agent**: 21:00 (daily index update)
-- **Readwise sync**: 07:00 tomorrow
+| Category | Count | Notes |
+|---|---|---|
+| **wiki/concepts/** | 186 | |
+| **wiki/sources/** | 41 | |
+| **wiki/tag/** | 20 | |
+| **raw/** | 48 | All processed |
 
 ---
 
-*Next heartbeat: 14:30*
+## Next Actions
+
+1. Re-compile required for Format + Output Validator systemic issues
+2. Julius approval needed before Fix Agent can proceed
+
+---
+
+*HEARTBEAT_OK — Next check at 15:00*

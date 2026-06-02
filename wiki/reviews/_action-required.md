@@ -26,7 +26,26 @@
 
 ## Critical Issues (Fix Immediately)
 
-### ⏳ Format Validator — 2026-06-01-v2 (57 issues)
+### ✅ Format Validator — 2026-06-01-v2 (57 issues) → **FIXED**
+
+**51 files invalid sub_tags:** Đã fix tất cả.
+- `systems` → `research` (17 files)
+- `economic` → `opinion` (14 files)
+- `politic` → `opinion` (5 files)
+
+**6 files empty `sub_tags: []`:** Đã kiểm tra — không còn file nào empty.
+
+---
+
+### ⏳ Output Validator — 2026-06-01-v2 (4 issues)
+
+**#1 Summary 1 dòng — 227/227 files:** Cần re-compile với Compile Agent mới.
+
+**#2 Key Points <3 — 18 concepts:** Tăng 1 so với lần trước (có concept mới).
+
+**#3 Sources trống — 3 concepts:** ai-powered-discovery, second-order-effects, systems-thinking
+
+**#4 Status draft — 15 files:** Cải thiện từ 210 → 15.
 
 **51 files invalid sub_tags** (main_tags in Pool B):
 | Invalid tag | Count |

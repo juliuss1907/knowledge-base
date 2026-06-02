@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: politic
-sub_tags: [research, economic]
+sub_tags: [research, opinion]
 topic: us-saudi-relations
 sources:
   - "[[src_petrodollar-system-analysis]]"

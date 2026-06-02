@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: politic
-sub_tags: [research, economic]
+sub_tags: [research, opinion]
 topic: uae-opec-exit-geopolitics
 sources:
   - "[[src_uae-opec-exit-end-of-era]]"

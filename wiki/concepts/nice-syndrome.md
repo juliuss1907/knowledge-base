@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: productivity
-sub_tags: [opinion, systems]
+sub_tags: [opinion, research]
 topic: active-thinking-methodology
 sources:
   - "[[src_active-vs-lazy-thinking]]"

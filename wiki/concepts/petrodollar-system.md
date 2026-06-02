@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: economic
-sub_tags: [research, politic]
+sub_tags: [research, opinion]
 topic: petrodollar-collapse
 sources:
   - "[[src_petrodollar-system-analysis]]"

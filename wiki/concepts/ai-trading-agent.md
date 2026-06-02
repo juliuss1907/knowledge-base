@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: ai
-sub_tags: [automation, tools, economic]
+sub_tags: [automation, tools, opinion]
 topic: ai-trading-agent-claude-code
 sources:
   - "[[src_build-ai-trading-agent-claude-code-alpaca]]"

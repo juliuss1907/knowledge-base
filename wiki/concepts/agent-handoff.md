@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: ai
-sub_tags: [automation, systems]
+sub_tags: [automation, tools]
 topic: multi-agent-architecture
 sources:
   - "[[src_luke-alvoeiro-multi-agent-architecture-factory]]"

@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: politic
-sub_tags: [news, economic]
+sub_tags: [news, opinion]
 topic: saudi-defense-diversification
 sources:
   - "[[src_petrodollar-system-analysis]]"

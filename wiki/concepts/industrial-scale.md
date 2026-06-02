@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: politic
-sub_tags: [research, economic]
+sub_tags: [research, opinion]
 topic: structural-competition
 sources:
   - "[[src_why-i-write-about-structural-competition]]"

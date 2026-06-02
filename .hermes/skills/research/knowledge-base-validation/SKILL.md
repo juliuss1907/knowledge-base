@@ -96,6 +96,33 @@ When Julius approves, mark:
 6. Update `_action-required.md` with all pending issues, prepending new entries above old ones
 7. Report summary to Julius via Telegram
 
+### Re-validation Cycle (Post-Fix)
+
+After Julius approves reports and Fix Agent applies fixes, re-run all 3 validators to verify what was actually fixed:
+
+1. **Append `-v2`** to report filenames: `wiki/reviews/2026-06-01_format-report-v2.md`
+2. **Compare before/after** counts — show improvement explicitly (e.g., "86→57, 36% fixed")
+3. **Categorize remaining issues**:
+   - **Fixable by Fix Agent** — individual file errors (invalid sub_tags, empty sub_tags, wrong status)
+   - **Systemic — needs re-compile** — content quality issues (Summary 1-dòng, Key Points <3, Definition too short). Fix Agent cannot expand content.
+4. **Update `_action-required.md`** with v2 reports, prepending above v1 entries
+
+### Compile Agent Patching Pattern
+
+When systemic issues trace to Compile Agent config, patch these files (NOT individual wiki files):
+
+| File | What to patch |
+|---|---|
+| `SKILL.md` | Language policy, section specs (Summary 3-5 câu, Key ideas ≥3, Sources not empty), Status lifecycle |
+| `workflow.md` | Prompt templates — add hard constraints, switch to Vietnamese, add ⚠️ warnings for recurring mistakes |
+| `TAGS.md` | Only Julius can modify — propose new tags, don't auto-add |
+
+**Proven patches (2026-06-01):**
+- Language: "keep original" → "compile bằng tiếng Việt" + "KHÔNG dịch technical terms"
+- Summary: "3-5 câu tiếng Việt (KHÔNG ĐƯỢC viết 1 câu)" — both in SKILL.md spec AND workflow.md prompt template
+- Sub-tags: Add ⚠️ block: "KHÔNG dùng main_tags (ai, crypto, tech, productivity, system, economic, politic) làm sub_tags" — must appear in BOTH the decision logic section AND the prompt template
+- Constraints must appear in prompt templates, not just in spec docs. LLM agents skip spec docs but follow prompt templates.
+
 ### Validation Output Template
 
 ```markdown
@@ -155,7 +182,7 @@ Recent fixes applied (2026-06-01):
 | Check | Spec Rule |
 |-------|-----------|
 | sub_tags count | 1-3 per file (Pool B tags only) |
-| Valid Pool B tags | **ALWAYS read TAGS.md.** Current (2026-06-01): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding |
+| Valid Pool B tags | **ALWAYS read TAGS.md.** Current (2026-06-01): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding, psychology, health |
 | Invalid tags (recurring) | main_tags used as sub_tags: `economic`, `productivity`, `systems`, `ai`, `politic`, `tech`, `crypto` → remove, these are Pool A only |
 | Status valid values | `draft` \| `reviewed` \| `needs-revision` (NOT `stub`) |
 | Summary min length | 3-5 sentences required. 1-sentence summary = systemic compile-agent prompt failure |

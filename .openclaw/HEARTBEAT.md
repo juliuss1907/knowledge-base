@@ -1,32 +1,25 @@
-HEARTBEAT_OK
+# HEARTBEAT.md — Last check: 2026-06-03 03:30 (Asia/Saigon)
 
-| Time | Inbox | Raw Backlog | Concept Links | Pending Reviews |
-|---|---|---|---|---|
-| 01:30 | 0 | 3 files (yesterday, scheduled 08:00) | ✅ | ⚠️ 1 unresolved (FormatValidator systemic issues) |
+## Status: HEARTBEAT_OK
 
-*Next: 2026-06-03 02:00*
+### Quick Stats
+| Zone | Count | Notes |
+|---|---|---|
+| raw/ unprocessed | 0 | Clean |
+| wiki/concepts/ | 186 | All good |
+| wiki/sources/ | 41 | All good |
+| wiki/tag/ indexes | 20 | All good |
+| Pending reviews | 1 | wiki/reviews/_action-required.md (from Jun 2) |
+
+### Last Events
+- Raw backlog: none
+- Pending review: 1 file from Jun 2 (not yet notified to Julius)
+- Index: tag/topic indexes stable
+
+### System Health
+- OpenClaw: Operational
+- Hermes: Idle
+- All agents: Nominal
+
 ---
-## 2026-06-03 03:00 +07
-
-**Status:** Issues detected
-
-| Check | Result |
-|---|---|
-| Inbox | ✅ Clean |
-| Raw backlog | ⚠️ 3 unprocessed (all from 2026-06-02) |
-| Concept backlinks | ⚠️ Spot-checked 2 files — both have 0 `[[` links |
-| Pending reviews | ⚠️ `_action-required.md` exists, last updated 2026-06-02 08:46 |
-
-### Raw backlog details
-- `raw/articles/2026-06-02_live-disciplined-life-spontaneously.md`
-- `raw/articles/2026-06-02_building-latticework-mental-models.md`
-- `raw/videos/2026-06-02_handoff-skill-context-window-management.md`
-
-### Actions taken
-- Logged to RAW_BACKLOG.md
-
-### Recommended
-- CompileAgent will process at 08:00 (in ~5h)
-- Julius may want to address concept backlink gap
-- Pending reviews still waiting for Julius action
-
+*Next heartbeat: 04:00*

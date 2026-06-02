@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-05-27_uae-opec-exit-end-of-era]]"
 main_tag: economic
-sub_tags: [research, opinion, politic]
+sub_tags: [research, opinion]
 topic: uae-opec-exit-geopolitics
 date_compiled: 2026-05-28
 url: https://ashnawrites.substack.com/p/the-end-of-an-era-what-the-uaes-opec

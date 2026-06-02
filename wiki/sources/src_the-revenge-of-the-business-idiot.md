@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-05-27_the-revenge-of-the-business-idiot]]"
 main_tag: ai
-sub_tags: [opinion, economic]
+sub_tags: [opinion, research]
 topic: ai-business-criticism
 date_compiled: 2026-05-27
 url: https://www.wheresyoured.at/the-revenge-of-the-business-idiot/

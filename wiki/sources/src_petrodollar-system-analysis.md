@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-05-28_petrodollar-system-analysis]]"
 main_tag: economic
-sub_tags: [research, politic]
+sub_tags: [research, opinion]
 topic: petrodollar-collapse
 url: https://ashnawrites.substack.com/p/the-end-of-an-era-what-the-uaes-opec
 author: Ashna Writes (Substack)

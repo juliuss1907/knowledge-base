@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: productivity
-sub_tags: [economics, analysis]
+sub_tags: [opinion, analysis]
 topic: compounding-growth
 sources:
   - "[[src_how-some-people-become-unrecognizable]]"

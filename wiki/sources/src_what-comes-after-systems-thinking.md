@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-04-02_what-comes-after-systems-thinking]]"
 main_tag: system
-sub_tags: [research, systems, opinion]
+sub_tags: [research, opinion]
 topic: post-systems-thinking
 date_compiled: 2026-05-14
 url: https://open.substack.com/pub/pmresearcher/p/what-comes-after-systems-thinking?r=1g2ue2

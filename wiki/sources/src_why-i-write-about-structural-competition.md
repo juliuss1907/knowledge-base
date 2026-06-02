@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-06-01_why-i-write-about-structural-competition]]"
 main_tag: politic
-sub_tags: [opinion, research, economic]
+sub_tags: [opinion, research]
 topic: structural-competition
 date_compiled: 2026-06-02
 url: https://open.substack.com/pub/leonliao/p/why-i-write-about-structural-competition

@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: system
-sub_tags: [research, systems, opinion]
+sub_tags: [research, opinion]
 topic: post-systems-thinking
 sources:
   - "[[src_what-comes-after-systems-thinking]]"

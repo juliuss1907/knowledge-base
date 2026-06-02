@@ -25,6 +25,16 @@ Connor (Hermes-RK800) validates wiki files against format-spec.md v2.2. Read-onl
 
 **Connor KHÔNG tự sửa file trong wiki/concepts/ hoặc wiki/sources/. Chỉ validate + report.** Kara fix sau khi Julius approve.
 
+### Exception: Connor direct fix
+
+Chỉ override rule này khi tất cả điều kiện sau đều đúng:
+1. **Fix Agent đã fail ≥2 lần** với cùng issues
+2. **Fix Agent báo cáo sai** (claim 0 issues nhưng validation cho thấy còn)
+3. **Số lượng file nhỏ** (<20 files)
+4. **Julius đã approve rõ ràng** từng file cụ thể
+
+Quy trình: báo cáo list file + proposed fix → Julius confirm → Connor patch trực tiếp → re-validate.
+
 ## Validation Types
 
 ### 1. Format Validator

@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: system
-sub_tags: [automation, productivity, research]
+sub_tags: [automation, research]
 topic: ai-productivity
 sources:
   - "[[src_how-ai-productivity-fails]]"

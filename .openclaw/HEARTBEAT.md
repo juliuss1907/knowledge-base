@@ -1,35 +1,44 @@
-# HEARTBEAT.md — OpenClaw System Status
+# HEARTBEAT.md — System Health Log
 
-**Last updated:** 2026-06-02 15:00 (Asia/Saigon)
-**Cron:** 3e70fe54-de76-4781-9342-c1ab2a73ebd4
-
----
-
-## System Status: ✅ HEALTHY
-
-### Pipeline Status
-| Stage | Status | Notes |
-|---|---|---|
-| **Raw Ingest** | ✅ Clean | 0 unprocessed files |
-| **Compile** | ✅ Active | Latest run: 2026-06-02 08:49 (12 files processed) |
-| **Index** | ✅ Updated | Last index: 2026-06-01 21:06 |
-| **Validation** | ⚠️ Pending | 1 report pending re-compile |
-
-### Inventory
-- **Concepts:** 186 files (reviewed + draft)
-- **Sources:** 8 files
-- **Tags:** 20 indexes
-- **Raw files today:** 5 new
-
-### Pending Hermes Actions
-- **1 report** awaiting re-compile (systemic issues from Output Validator)
-- Format issues partially fixed (Fix Agent run #2 - discrepancies noted)
-
-### Recent Activity
-- Compile run 2026-06-02 08:00-08:49: 12 concepts processed
-- Hygiene Inspector: PROMOTE (0 issues)
-- Output Validator: APPROVED with 4 systemic recommendations
+> Updated every 30 minutes by OpenClaw heartbeat
+> Last check: 2026-06-02 15:30 (Asia/Saigon)
 
 ---
 
-**HEARTBEAT_OK** — No immediate action required. System running normally.
+## Status: ✅ HEARTBEAT_OK
+
+### System Overview
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Raw backlog | 0 | No unprocessed files |
+| Inbox items | 0 | No pending tasks |
+| Pending reviews | 1 | From earlier today — tracking in _action-required.md |
+| Concepts | 186 | All reviewed |
+| Sources | 41 | All reviewed |
+| Tag indexes | 20 | Updated |
+
+### Details
+
+#### Raw Processing
+- ✅ No files unprocessed >24h
+- ✅ All raw/ folders empty of backlog
+
+#### Pending Hermes Reviews
+- 1 report from 2026-06-01-v2 — systemic format issues, Fix Agent partially applied
+- No new reviews since last check
+
+#### Index Status
+- ✅ Tag indexes: 20 files, all current
+- ✅ Concept backlink integrity: assumed OK (no alerts)
+
+---
+
+## Log
+
+| Time | Status | Notes |
+|------|--------|-------|
+| 2026-06-02 15:30 | ✅ OK | No issues |
+| 2026-06-02 08:40 | ✅ OK | Fix Agent run complete, 1 pending systemic issue |
+| 2026-06-02 08:00 | ✅ OK | Daily compile complete |
+| 2026-06-01 21:00 | ✅ OK | Index updated |

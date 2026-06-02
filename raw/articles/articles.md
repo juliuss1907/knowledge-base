@@ -20,13 +20,15 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 22 files
-- By status: 22 processed, 0 unprocessed
-- By date: 12 this week, 22 this month
-- Last updated: 2026-06-01
+- Total: 24 files
+- By status: 24 processed, 0 unprocessed
+- By date: 14 this week, 24 this month
+- Last updated: 2026-06-02
 
 ## Items
 
+- [[2026-06-01_why-i-write-about-structural-competition]] — Why I Write About Structural Competition by Leon Liao (processed)
+- [[2026-06-01_shift-leader-follower-to-leader-leader]] — Shift from Leader-Follower to Leader-Leader by Mirek Stanek (processed)
 - [[2026-05-29_how-to-read-cash-flow-statement]] — How to Read a Cash Flow Statement Like a Pro Investor by Jimmy Investor (processed)
 - [[2026-05-28_deepseek-v4-architecture-deep-dive]] — DeepSeek V4 Architecture Deep Dive by Hamza Farooq (processed)
 - [[2026-05-28_ai-is-not-2008-loop-is-same]] — AI Is Not 2008. But the Loop Is the Same. by Ashna Dhuper (processed)

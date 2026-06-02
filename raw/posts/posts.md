@@ -20,13 +20,14 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 6 files
-- By status: 6 processed, 0 unprocessed
-- By date: 6 this week, 6 this month
-- Last updated: 2026-05-28
+- Total: 7 files
+- By status: 7 processed, 0 unprocessed
+- By date: 7 this week, 7 this month
+- Last updated: 2026-06-02
 
 ## Items
 
+- [[2026-06-01_trading-brain-chemistry-ferb]] — nobody talks about what trading does to your brain by ferb (@ferbsol) (processed)
 - [[2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website]] — AI's Trillion-Dollar Blind Spot: The Static Website (processed)
 - [[2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent]] — Hermes + Polymarket - how i built a self-learning BTC up/down trading agent 100$ → 5000$ ( guide ) (processed)
 - [[2026-05-20_the-smart-ape-11-minutes-hack-github]] — 11 minutes was all it took to hack github (processed)

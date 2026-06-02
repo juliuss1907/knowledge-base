@@ -4,7 +4,9 @@ source_type: article
 source_url: https://www.practicalengineering.management/p/shift-from-a-leader-follower-to-a
 date_ingested: 2026-06-01
 tags: [productivity, opinion, research]
-status: unprocessed
+status: processed
+compiled_at: 2026-06-02
+compiled_to: "[[src_shift-leader-follower-to-leader-leader]]"
 ---
 
 # Shift from Leader-Follower to Leader-Leader

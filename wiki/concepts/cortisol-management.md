@@ -1,36 +1,40 @@
 ---
 type: concept
-status: reviewed
-main_tag: productivity
-sub_tags: [tutorial, health]
-topic: sleep-hygiene
+status: draft
+main_tag: economic
+sub_tags: [psychology]
+topic: trading-psychology
 sources:
-  - "[[src_japanese-evening-routine-fix-sleep]]"
-last_updated: 2026-05-30
+  - "[[src_trading-brain-chemistry-ferb]]"
+last_updated: 2026-06-02
 ---
 
 # Cortisol Management
 
 ## Definition
 
-Quản lý hormone cortisol — hormone stress ban ngày cần được giảm dần vào buổi tối để melatonin có thể lên ngôi và giấc ngủ diễn ra tự nhiên.
+Quản lý cortisol — hormone stress — trong trading. Cortisol là yếu tố chemistry giữ trader mắc kệt trong stress loops, phá hủy giấc ngủ và biến decisions thành emotional.
 
 ## Key ideas
 
-- Cortisol cao vào tối do: đèn điện, màn hình, ăn muộn, lo âu
-- Các thói quen hạ cortisol: ăn sớm, đi dạo, dim đèn, digital sunset, tắm nước nóng, ngủ phòng mát, đọc sách giấy, gratitude journal, thở bụng
-- Tanden breathing (thở bụng): thở vào bụng dưới, thở ra gấp đôi thời gian hít vào — 2 phút hạ nhịp tim
-- Inemuri: 20 phút ngủ trưa trước 13h giúp quản lý cortisol buổi chiều
+- **Cortisol effects:**
+  - Ruins sleep
+  - Makes decisions emotional
+  - Destroys patience
+  - Changes you without you realizing
+- **Source:** Humans weren't designed to live under constant pressure — but that's what traders do every day
+- **Connection to trading:** Cortisol là hormone giữ trader trapped trong vòng lặp stress
+- **Management:** Recognizing signs, stopping when in cortisol cycle
 
 ## Related concepts
 
-- [[sleep-hygiene]]
-- [[evening-routine]]
-- [[circadian-rhythm]]
+- [[trading-psychology]]
+- [[dopamine-reward-loop]]
+- [[trading-addiction-cycle]]
+- [[know-when-not-to-trade]]
 
 ## Sources
 
-- [[src_japanese-evening-routine-fix-sleep]]
+- [[src_trading-brain-chemistry-ferb]]
 
 ## Notes
-

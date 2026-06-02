@@ -4,7 +4,9 @@ source_type: article
 source_url: https://open.substack.com/pub/leonliao/p/why-i-write-about-structural-competition?r=1g2ue2&utm_campaign=post&utm_medium=web
 date_ingested: 2026-06-01
 tags: [politic, opinion, research, economic]
-status: unprocessed
+status: processed
+compiled_at: 2026-06-02
+compiled_to: "[[src_why-i-write-about-structural-competition]]"
 ---
 
 # Why I Write About Structural Competition

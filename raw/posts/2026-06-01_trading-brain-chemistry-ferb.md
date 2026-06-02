@@ -4,7 +4,9 @@ source_type: post
 source_url: https://x.com/i/status/2061072658779820353
 date_ingested: 2026-06-01
 tags: [economic, opinion, productivity]
-status: unprocessed
+status: processed
+compiled_at: 2026-06-02
+compiled_to: "[[src_trading-brain-chemistry-ferb]]"
 ---
 
 # nobody talks about what trading does to your brain

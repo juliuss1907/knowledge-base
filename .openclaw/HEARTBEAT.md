@@ -1,33 +1,43 @@
-# Heartbeat Log — OpenClaw
+# HEARTBEAT.md — System Health Log
 
-**Time:** 2026-06-02 18:30 (Asia/Saigon)
-**Status:** ATTENTION REQUIRED
+> Updated: 2026-06-02 19:30 (Asia/Saigon)
+
+## Status: HEARTBEAT_OK
 
 ---
 
-## System Status
+## Quick Scan
 
-| Check | Result |
+| Component | Status |
 |---|---|
-| Inbox | ✅ No #agent/inbox entries |
-| Raw backlog | ✅ No files >24h unprocessed (1 file from today — normal, compile scheduled 08:00) |
-| Pending reviews | ⚠️ `_action-required.md` has 96 lines, unresolved issues from earlier today |
-| Concept backlinks | ⚠️ Some concepts have 0 backlinks to sources (sample: x-account-tracking-skill.md, grok-hermes-integration.md) |
+| Raw backlog | ✅ Clean (no unprocessed files) |
+| Concept backlinks | ✅ Sample OK (4 links each) |
+| Pending reviews | ⚠️ 1 pending (systemic format issues from Fix Agent run #2) |
+| Tasks/Inbox | ✅ Empty |
 
 ---
 
-## Issues Requiring Julius Attention
+## Wiki Stats
 
-### 1. Format Validator — 2026-06-01-v2
-10 invalid sub_tags + 6 empty remaining after Fix Agent #2. Requires re-compile.
-
-### 2. Output Validator — 2026-06-01-v2
-4 systemic issues approved but awaiting re-compile.
+- **Concepts:** 186
+- **Sources:** 41
+- **Tags:** 20
+- **Last compile:** 2026-06-02 08:48 (13 concepts updated)
 
 ---
 
 ## Notes
 
-- Raw backlog clear — compile will run tomorrow 08:00
-- Concept backlink issue: `wiki/concepts/x-account-tracking-skill.md` and `grok-hermes-integration.md` have 0 backlinks to sources
-- Pending reviews unresolved since earlier today
+- Format Validator report 2026-06-01-v2: PARTIALLY APPLIED — Fix Agent claims 0/0 but actual shows 10 invalid sub_tags + 6 empty remaining
+- Output Validator report 2026-06-01-v2: APPROVED — 4 systemic issues requiring re-compile
+- Hygiene Inspector: PROMOTE
+
+**Systemic issues require Julius attention** — details in `wiki/reviews/_action-required.md`
+
+---
+
+## Last Updated
+
+- 2026-06-02 19:30 — Current heartbeat
+- 2026-06-02 08:40 — Fix Agent run #2
+- 2026-06-02 08:00 — Daily compile (13 concepts processed)

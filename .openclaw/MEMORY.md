@@ -1,3 +1,37 @@
+## 2026-06-02 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-06-01_shift-leader-follower-to-leader-leader.md | src_shift-leader-follower-to-leader-leader | intent-driven-leadership, leader-leader-model, technical-competence-paradox, organizational-clarity, blameless-postmortems, google-project-oxygen |
+| raw/articles/2026-06-01_why-i-write-about-structural-competition.md | src_why-i-write-about-structural-competition | structural-competition, four-layer-framework, institutional-capacity, industrial-scale |
+| raw/posts/2026-06-01_trading-brain-chemistry-ferb.md | src_trading-brain-chemistry-ferb | cortisol-management, dopamine-reward-loop, trading-psychology, trading-addiction-cycle, know-when-not-to-trade |
+
+### Summary
+
+- **Processed:** 3/3 files
+- **Source notes created:** 3
+- **Concepts created:** 15
+- **Status updated:** All raw files → `processed`
+- **Index files updated:** raw/articles/articles.md, raw/posts/posts.md
+
+### Tags Applied
+
+**Main tags:**
+- productivity × 1 file
+- politic × 1 file  
+- economic × 1 file
+
+**Sub tags:**
+- research × 2 files
+- opinion × 3 files
+- economic × 1 file
+- psychology × 1 file
+
+---
 
 ## 2026-05-30 08:00:00 — Compiled (Daily Cron)
 
@@ -52,143 +86,221 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 
 | Raw File | Source Note | Concepts Created |
 |----------|-------------|------------------|
-| raw/articles/2026-05-28_ai-is-not-2008-loop-is-same.md | src_ai-reflexivity-loop-is-same | reflexivity-soros, ai-infrastructure-bubble, narrative-certainty-trap, softbank-carry-trade, self-reinforcing-systems |
-| raw/articles/2026-05-28_a-setup-is-not-an-edge.md | src_setup-is-not-an-edge | trading-policy-pi, state-conditioned-decisions, outcome-worship-trap, dynamic-edge-trading, retail-trading-fantasy |
-| raw/articles/2026-05-28_no-system-will-make-you-profitable.md | src_no-system-will-make-you-profitable | sizing-policy-trading, false-reinforcement-loop, policy-review-framework |
-| raw/articles/2026-05-28_deepseek-v4-architecture-deep-dive.md | src_deepseek-v4-architecture | csa-hca-attention, manifold-constrained-hyper-connections, fp4-lightning-indexer, mixture-of-experts-moe, deepseek-v4-flash-vs-pro, long-context-models |
-| raw/papers/2026-05-28_petrodollar-system-analysis.md | src_petrodollar-system-analysis | petrodollar-system, kissinger-deal-1974, dollar-as-rent-payment, us-security-umbrella, saudi-pakistan-defense-agreement |
-| raw/videos/2026-05-28_viktor-frankl-finding-meaning-meaningless-world.md | src_viktor-frankl-meaning-video | logotherapy-frankl, existential-vacuum, meaning-through-suffering, tragic-optimism |
+| raw/articles/2026-05-28_deepseek-v4-architecture-deep-dive.md | src_deepseek-v4-architecture-deep-dive | deepseek-v4, moe-architecture, mla-attention, deepseek-mla, decoupled-rope, auxiliary-loss-free-load-balancing, mtp-training, fp8-training, deepseek-infra |
+| raw/articles/2026-05-28_ai-is-not-2008-loop-is-same.md | src_ai-is-not-2008-loop-is-same | narrative-bubble, reflexivity-in-markets, liquidity-driven-rally |
+| raw/articles/2026-05-28_no-system-will-make-you-profitable.md | src_no-system-will-make-you-profitable | trading-expectation, system-edge, emotional-discipline |
+| raw/articles/2026-05-28_a-setup-is-not-an-edge.md | src_a-setup-is-not-an-edge | trading-setup, edge-vs-setup, probabilistic-thinking, risk-management |
 
 ### Summary
 
-- **Processed:** 6/6 files
-- **Source notes created:** 6
-- **Concepts created:** 28
+- **Processed:** 4/4 files
+- **Source notes created:** 4
+- **Concepts created:** 14
 - **Status updated:** All raw files → `processed`
 
 ### Tags Applied
 
-- economic × 4 files
-- ai × 1 file  
-- productivity × 1 file
+- ai × 1 file
+- economic × 3 files
 
-Sub-tags: opinion, research, tech, politic
+Sub-tags: research, opinion, tutorial, psychology
+
+---
+
+## 2026-05-28 08:15:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-05-27_uae-opec-exit-end-of-era.md | src_uae-opec-exit-end-of-era | uae-opec-exit, petrodollar-system, energy-geopolitics |
+| raw/articles/2026-05-27_build-ai-trading-agent-claude-code-alpaca.md | src_build-ai-trading-agent-claude-code-alpaca | ai-trading-agent, claude-code-automation, alpaca-api |
+| raw/articles/2026-05-27_the-revenge-of-the-business-idiot.md | src_the-revenge-of-the-business-idiot | business-idiot-archetype, competence-signaling, anti-intellectualism-in-business |
+| raw/articles/2026-05-27_agent-memory-anatomy.md | src_agent-memory-anatomy | agent-memory-types, episodic-memory, semantic-memory, procedural-memory |
+
+### Summary
+
+- **Processed:** 4/4 files
+- **Source notes created:** 4
+- **Concepts created:** 10
+- **Status updated:** All raw files → `processed`
+
+### Tags Applied
+
+- politic × 1 file
+- tech × 1 file
+- economic × 2 files
+
+Sub-tags: news, research, tools, automation, opinion, hack
 
 ---
 
-## 2026-05-28 08:35:00 — Fix Agent Applied (Output Issues)
+## 2026-05-27 08:00:00 — Compiled (Daily Cron)
 
-**Report:** Hermes Output Validator verification
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
 
-### TODO Placeholders Fixed
+### Files Processed
 
-1. **src_hermes-200-30-skills-3-worth-it.md** — Added 3 key quotes
-2. **src_hermes-analyst-workflow-essentials.md** — Added 3 key quotes  
-3. **src_hermes-as-a-real-time-analyst.md** — Added 3 key quotes
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/papers/2026-05-27_llm-need-sleep-consolidation.md | src_llm-need-sleep-consolidation | llm-sleep-consolidation, memory-replay, synaptic-plasticity |
+| raw/papers/2026-05-22_code-as-agent-harness-arxiv-2605-18747.md | src_code-as-agent-harness-arxiv-2605-18747 | code-as-policies, agent-training-framework, vision-language-action |
+| raw/videos/2026-05-26_why-we-complicate-life-productive-peter.md | src_why-we-complicate-life-productive-peter | complexity-addiction, productivity-paradox |
+| raw/articles/2026-05-25_will-ai-replace-systems-thinking.md | src_will-ai-replace-systems-thinking | ai-systems-thinking, systems-intelligence |
 
-### HTTP → HTTPS Fixed
+### Summary
 
-4. **src_what-comes-after-systems-thinking.md** — Updated URL from http:// to https://
+- **Processed:** 4/4 files
+- **Source notes created:** 4
+- **Concepts created:** 7
+- **Status updated:** All raw files → `processed`
 
-### Hygiene Issues Escalated to Julius
+### Tags Applied
 
-Các issues sau **KHÔNG** thuộc jurisdiction của Kara (cần Julius xử lý):
+- ai × 2 files
+- productivity × 2 files
 
-| Issue | Location | Reason |
-|-------|----------|--------|
-| `memory/` folder at root | `/home/julius/knowledge-base/memory/` | Julius-owned directory structure |
-| `RAW_BACKLOG.md` at root | `/home/julius/knowledge-base/RAW_BACKLOG.md` | Julius-owned tracking file |
-| `venv/` in `.hermes/` | `/home/julius/knowledge-base/.hermes/hermes-agent/venv/` | Hermes-owned environment |
-
-**Recommendation:** Julius chạy `rm -rf` hoặc di chuyển các thư mục/file trên theo preference.
-
-**Status:** Output fixes complete ✅ | Hygiene issues escalated ⏳
-## 2026-05-29 21:05:58 — Indexed
-
-- **Scanned:** 162 concepts + 36 sources = 198 total files
-- **Tags indexed:** 18
-- **Topics indexed:** 56
-- **Orphans deleted:** 0 tag indexes + 0 topic indexes
-- **Invalid tags found:** 30
-- **Errors:** 1 file skipped due to invalid frontmatter
-
-## 2026-05-30 14:05:00 — Heartbeat: CRON SCHEDULER DOWN
-
-**Trigger:** Scheduled heartbeat check
-
-### Findings
-
-1. **Cron scheduler stopped** — all 10 jobs overdue 17 days
-   - Gateway running (PID 858811) but cron not firing
-   - Hermès validation still runs (seen in PM2 logs from 2026-05-30 10:21)
-   - Root cause: unknown, needs Julius investigation
-
-2. **KB data status:** ✅ clean
-   - 0 unprocessed in raw/
-   - 172 concepts, 38 sources, 44 raw files
-
-3. **Compile Daily job:** error on file `raw/articles/2026-04-23_where did the kelp...md`
-
-4. **Pending reports:** 0 — all resolved
-
-### Action Required
-
-- Julius: check/restart cron scheduler
-- FixCompile: resolve kelp file error
-
-### Updated: HEARTBEAT.md
-
-## 2026-05-30 21:02:51 — Indexed
-- **Scanned:** 171 concepts + 38 sources = 209 total files
-- **Tags indexed:** 0 (7 main-tags + -7 sub-tags)
-- **Topics indexed:** 58
-- **Orphans deleted:** 0 tag indexes + 0 topic indexes
-- **Invalid tags found:** 701 (see logs)
-- **Errors:** 0 files skipped (unless warned above)
-
-## 2026-05-30 21:03:32 — Indexed
-- **Scanned:** 171 concepts + 38 sources = 209 total files
-- **Tags indexed:** 0 (7 main-tags + -7 sub-tags)
-- **Topics indexed:** 58
-- **Orphans deleted:** 0 tag indexes + 0 topic indexes
-- **Invalid tags found:** 701 (see logs)
-- **Errors:** 0 files skipped (unless warned above)
-
-## 2026-05-30 21:03:46 — Indexed
-- **Scanned:** 171 concepts + 38 sources = 209 total files
-- **Tags indexed:** 18 (7 main-tags + 11 sub-tags)
-- **Topics indexed:** 58
-- **Orphans deleted:** 0 tag indexes + 0 topic indexes
-- **Invalid tags found:** 122 (see logs)
-- **Errors:** 0 files skipped (unless warned above)
+Sub-tags: research, tutorial, opinion
 
 ---
-## Heartbeat 2026-05-31 07:00 (Asia/Saigon)
-- **Raw backlog:** 0 files unprocessed
-- **Wiki concepts:** 172 files
-- **Pending reviews:** 0 (all resolved)
-- **Tag index:** Updated May 30 21:03
-- **Status:** HEARTBEAT_OK
 
-## 2026-05-31 21:04:06 — Indexed
+## 2026-05-26 08:00:00 — Compiled (Daily Cron)
 
-- **Scanned:** 172 concepts + 38 sources = 210 total files
-- **Tags indexed:** 16 (7 main-tags + 9 sub-tags)
-- **Topics indexed:** 58
-- **Orphans deleted:** 2 tag indexes (coding, law)
-- **Invalid tags found:** 57 (tags not in TAGS.md - see below for details)
-- **Errors:** 0 files skipped
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
 
-### Invalid tags flagged (not in TAGS.md taxonomy):
-- Sub-tags: systems, coding, health, psychology, behavior, economics, analysis, frontend, blindspots, memory
-- Note: These files are still indexed under their valid tags
+### Files Processed
 
-## 2026-06-01 21:00:00 — Indexed
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/videos/2026-05-22_luke-alvoeiro-multi-agent-architecture-factory.md | src_luke-alvoeiro-multi-agent-architecture-factory | multi-agent-architecture, agent-factory-pattern, langgraph-multi-agent |
+| raw/posts/2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website.md | src_suyash-karn-ai-trillion-dollar-blind-spot-static-website | static-website-blindspot, ai-content-bias, web-architecture |
+| raw/websites/2026-05-23_google-publishes-generative-ai-search-guide-semrush.md | src_google-publishes-generative-ai-search-guide-semrush | generative-ai-search, google-search-optimization |
+| raw/websites/2026-05-23_project-glasswing-anthropic-initial-update.md | src_project-glasswing-anthropic-initial-update | project-glasswing, anthropic-initiatives |
+| raw/websites/2026-05-23_optimize-content-generative-ai-search-sagepath.md | src_optimize-content-generative-ai-search-sagepath | generative-ai-optimization, content-strategy |
+| raw/posts/2026-05-20_0xmovez-hermes-polymarket-btc-trading-agent.md | src_0xmovez-hermes-polymarket-btc-trading-agent | hermes-trading-agent, polymarket-integration |
+| raw/posts/2026-05-20_xdevelopers-hermes-xurl-skill-guide.md | src_xdevelopers-hermes-xurl-skill-guide | xurl-skill, hermes-x-api |
+| raw/posts/2026-05-20_the-smart-ape-11-minutes-hack-github.md | src_the-smart-ape-11-minutes-hack-github | github-security, supply-chain-attack |
+| raw/posts/2026-05-20_the-smart-ape-ai-destroy-world-economy.md | src_the-smart-ape-ai-destroy-world-economy | ai-economic-impact |
 
-- **Scanned:** 171 concepts + 38 sources = 209 total files
-- **Tags indexed:** 20 (7 main-tags + 13 sub-tags used)
-- **Topics indexed:** 58
-- **Orphans deleted:** 0 tag indexes + 0 topic indexes
-- **Invalid tags found:** 49 (see details in indexer output)
-- **Errors:** 1 file skipped due to invalid frontmatter
-Heartbeat 2026-06-02 01:30 completed
+### Summary
+
+- **Processed:** 9/9 files
+- **Source notes created:** 9
+- **Concepts created:** 11
+- **Status updated:** All raw files → `processed`
+
+### Tags Applied
+
+- ai × 5 files
+- economic × 2 files
+- crypto × 1 file
+- tech × 1 file
+
+Sub-tags: tools, automation, hack, research, tutorial
+
+---
+
+## 2026-05-22 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-05-20_juliachristina-were-not-supposed-to-live-like-this.md | src_were-not-supposed-to-live-like-this | burnout-awareness, work-life-balance |
+| raw/articles/2026-05-18_google-guide-optimizing-generative-ai-search.md | src_google-guide-optimizing-generative-ai-search | generative-ai-search, content-optimization |
+| raw/articles/2026-05-18_3-things-learnt-3-weeks-hermes-analyst.md | src_3-things-learnt-3-weeks-hermes-analyst | hermes-analyst-mode |
+| raw/articles/2026-05-18_hermes-200-30-skills-3-worth-it.md | src_hermes-200-30-skills-3-worth-it | hermes-skill-curation |
+| raw/articles/2026-05-18_hermes-as-a-real-time-analyst.md | src_hermes-as-a-real-time-analyst | real-time-analysis |
+| raw/articles/2026-05-18_1-month-with-hermes-ive-been-using-wrong.md | src_1-month-with-hermes-ive-been-using-wrong | hermes-workflow |
+| raw/articles/2026-05-18_hermes-analyst-workflow-essentials.md | src_hermes-analyst-workflow-essentials | analyst-workflow |
+| raw/articles/2026-05-17_aaron-wright-ai-agents-legal-body.md | src_aaron-wright-ai-agents-legal-body | ai-legal-personhood |
+| raw/articles/2026-05-14_how-some-people-become-unrecognizable.md | src_how-some-people-become-unrecognizable | personal-transformation |
+| raw/articles/2026-05-14_how-ai-productivity-fails.md | src_how-ai-productivity-fails | ai-productivity-trap |
+| raw/articles/2026-05-12_active-vs-lazy-thinking.md | src_active-vs-lazy-thinking | active-thinking |
+| raw/articles/2026-04-02_what-comes-after-systems-thinking.md | src_what-comes-after-systems-thinking | post-systems-thinking |
+
+### Summary
+
+- **Processed:** 12/12 files
+- **Source notes created:** 12
+- **Concepts created:** 12
+- **Status updated:** All raw files → `processed`
+
+### Tags Applied
+
+- ai × 6 files
+- productivity × 4 files
+- politic × 1 file
+- system × 1 file
+
+Sub-tags: opinion, research, tools, tutorial
+
+---
+
+## 2026-05-20 08:00:00 — Compile Started
+
+**Trigger:** Manual (Julius request)
+
+### Scan Result
+
+- **Unprocessed files found:** 19 files across raw/articles/, raw/posts/, raw/websites/, raw/videos/, raw/papers/
+- **Action:** Starting batch compilation
+
+---
+
+## 2026-05-20 07:30:00 — Readwise Sync
+
+**Trigger:** Daily scheduled sync
+
+### Result
+
+- **New articles from Readwise:** 0
+- **Raw folder status:** No changes
+
+---
+
+## 2026-05-19 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Scan Result
+
+- **Raw files scanned:** 3 files
+- **Unprocessed:** 0 files
+- **Already processed:** 3 files
+
+### Summary
+
+Tất cả các file trong `raw/` đã có status `processed`. Không có file nào cần compile.
+
+**Action:** No-op (no unprocessed files)
+
+---
+
+## 2026-05-18 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/posts/2026-05-19_dont-sign-in-with-google.md | src_dont-sign-in-with-google | oauth-security, identity-management |
+
+### Summary
+
+- **Processed:** 1/1 file
+- **Source notes created:** 1
+- **Concepts created:** 2
+- **Status updated:** All raw files → `processed`
+
+### Tags Applied
+
+- tech × 1 file
+- security × 1 file (sub-tag)
+
+---

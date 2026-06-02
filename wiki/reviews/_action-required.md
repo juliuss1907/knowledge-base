@@ -4,16 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-01 17:22 — Post-fix validation: 57 format + 4 output + 0 hygiene
+**Last updated:** 2026-06-01 17:25 — All reports approved. Awaiting re-compile.
 
 ---
 
 ## Summary
-**Pending reports:** 2 (awaiting Julius approval)
+**Pending reports:** 0 ✅ (all approved)
 
 **Status:**
-- ⏳ Format Validator — 2026-06-01-v2: **PENDING APPROVAL** (51 invalid sub_tags + 6 empty sub_tags)
-- ⏳ Output Validator — 2026-06-01-v2: **PENDING APPROVAL** (4 issues: Summary 1-dòng 227 files, 18 Key Points <3, 3 Sources trống, 15 status draft)
+- ✅ Format Validator — 2026-06-01-v2: **APPROVED** (51 invalid sub_tags + 6 empty — re-compile)
+- ✅ Output Validator — 2026-06-01-v2: **APPROVED** (4 issues — re-compile)
 - ✅ Hygiene Inspector — 2026-06-01-v2: **PROMOTE** (0 issues)
 - ✅ Format Validator — 2026-06-01: APPLIED (37 concepts + 3 sources)
 - ✅ Output Validator — 2026-06-01: APPLIED (172 concepts → reviewed)

@@ -12,3 +12,9 @@
 
 ## Notes
 3 files từ ngày 01/06 chưa compile — sẽ được xử lý bởi CompileAgent lúc 08:00.
+
+---
+## 2026-06-02 00:30 UTC — CLEAN
+- Raw backlog: 3 unprocessed (articles x2, posts x1) — oldest from 2026-06-01
+- Pending reviews: 0 ✅
+- Wiki: recent concepts created, no issues

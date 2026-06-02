@@ -4,16 +4,16 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-01 17:25 — All reports approved. Awaiting re-compile.
+**Last updated:** 2026-06-02 08:40 — Fix Agent run #2. Format partially fixed, systemic issues remain.
 
 ---
 
 ## Summary
-**Pending reports:** 0 ✅ (all approved)
+**Pending reports:** 1 (awaiting re-compile for systemic issues)
 
 **Status:**
-- ✅ Format Validator — 2026-06-01-v2: **APPROVED** (51 invalid sub_tags + 6 empty — re-compile)
-- ✅ Output Validator — 2026-06-01-v2: **APPROVED** (4 issues — re-compile)
+- ✅ Format Validator — 2026-06-01-v2: **PARTIALLY APPLIED** (Fix Agent claims 0/0 but actual: 10 invalid sub_tags + 6 empty remaining)
+- ✅ Output Validator — 2026-06-01-v2: **APPROVED** (4 systemic issues — require re-compile)
 - ✅ Hygiene Inspector — 2026-06-01-v2: **PROMOTE** (0 issues)
 - ✅ Format Validator — 2026-06-01: APPLIED (37 concepts + 3 sources)
 - ✅ Output Validator — 2026-06-01: APPLIED (172 concepts → reviewed)
@@ -26,14 +26,26 @@
 
 ## Critical Issues (Fix Immediately)
 
-### ✅ Format Validator — 2026-06-01-v2 (57 issues) → **FIXED**
+### ⚠️ Format Validator — 2026-06-01-v2 (16 remaining after Fix Agent #2)
 
-**51 files invalid sub_tags:** Đã fix tất cả.
-- `systems` → `research` (17 files)
-- `economic` → `opinion` (14 files)
-- `politic` → `opinion` (5 files)
+**10 files invalid sub_tags** (chưa được fix):
 
-**6 files empty `sub_tags: []`:** Đã kiểm tra — không còn file nào empty.
+| File | Invalid tag | Suggested |
+|---|---|---|
+| autobiographical-memory-systems.md | `memory` | research |
+| business-idiot-archetype.md | `ai` | opinion |
+| discipline-system.md | `behavior` | research |
+| leading-indicators.md | `analysis` | research |
+| long-context-models.md | `tech` | research |
+| loop-ownership.md | `productivity` | automation |
+| softbank-carry-trade.md | `crypto` | news |
+| static-website-blind-spot.md | `frontend`, `blindspots` | tools |
+| src_deepseek-v4-architecture.md | `tech` | research |
+
+**6 files empty `sub_tags: []`** (chưa được fix):
+agent-harness, code-as-substrate, evolutionary-mismatch, factory-missions, multi-agent-taxonomy, plan-execute-verify-loop
+
+**Đã fix (41/51 invalid):** Fix Agent pass #1 (27 files) + pass #2 (14 files)
 
 ---
 
@@ -41,37 +53,11 @@
 
 **#1 Summary 1 dòng — 227/227 files:** Cần re-compile với Compile Agent mới.
 
-**#2 Key Points <3 — 18 concepts:** Tăng 1 so với lần trước (có concept mới).
+**#2 Key Points <3 — 18 concepts:** Cần re-compile.
 
 **#3 Sources trống — 3 concepts:** ai-powered-discovery, second-order-effects, systems-thinking
 
 **#4 Status draft — 15 files:** Cải thiện từ 210 → 15.
-
-**51 files invalid sub_tags** (main_tags in Pool B):
-| Invalid tag | Count |
-|---|---|
-| `systems` | 21 |
-| `economic` | 15 |
-| `politic` | 7 |
-| `tech` | 2 |
-| others | 6 |
-
-Improvement: 80→51 (36% fixed by Fix Agent).
-
-**6 files empty `sub_tags: []`**:
-agent-harness, code-as-substrate, evolutionary-mismatch, factory-missions, multi-agent-taxonomy, plan-execute-verify-loop
-
----
-
-### ⏳ Output Validator — 2026-06-01-v2 (4 issues)
-
-**#1 Summary 1 dòng — 227/227 files:** Không file nào đạt 3+ câu. Fix Agent không expand được — cần re-compile với Compile Agent mới.
-
-**#2 Key Points <3 — 18 concepts:** Tăng 1 so với lần trước (có concept mới).
-
-**#3 Sources trống — 3 concepts:** ai-powered-discovery, second-order-effects, systems-thinking
-
-**#4 Status draft — 15 files:** Cải thiện từ 210 → 15. 171 files đã được Fix Agent chuyển sang reviewed.
 
 ---
 

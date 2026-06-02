@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-05-28_deepseek-v4-architecture-deep-dive]]"
 main_tag: ai
-sub_tags: [research, tech]
+sub_tags: [research, tools]
 topic: deepseek-v4-architecture
 url: https://boringbot.substack.com/p/deepseek-v4-architecture-deep-dive
 author: Hamza Farooq (UCLA, MAVEN, Traversaal.ai)

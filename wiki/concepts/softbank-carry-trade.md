@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: economic
-sub_tags: [news, crypto]
+sub_tags: [news, defi]
 topic: ai-funding-dynamics
 sources:
   - "[[src_ai-reflexivity-loop-is-same]]"

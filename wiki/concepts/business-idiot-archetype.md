@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: economic
-sub_tags: [opinion, ai]
+sub_tags: [opinion, tools]
 topic: ai-business-criticism
 sources:
   - "[[src_the-revenge-of-the-business-idiot]]"

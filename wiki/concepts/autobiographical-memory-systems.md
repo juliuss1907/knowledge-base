@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: ai
-sub_tags: [research, memory]
+sub_tags: [research, opinion]
 topic: agent-memory-systems
 sources:
   - "[[src_agent-memory-anatomy]]"

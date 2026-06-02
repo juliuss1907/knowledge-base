@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: ai
-sub_tags: [frontend, blindspots]
+sub_tags: [tools, opinion]
 topic: ai-landing-page-discovery
 sources:
   - "[[src_ai-trillion-dollar-blind-spot]]"

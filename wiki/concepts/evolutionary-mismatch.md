@@ -2,7 +2,7 @@
 type: concept
 status: reviewed
 main_tag: productivity
-sub_tags:
+sub_tags: [research, opinion]
   - research
   - opinion
 topic: evolutionary-mismatch-modern-life

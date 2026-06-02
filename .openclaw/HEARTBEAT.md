@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Status
 
 > Automated health check every 30 minutes
-> Last check: 2026-06-02 13:00 (Asia/Saigon)
+> Last check: 2026-06-02 14:00 (Asia/Saigon)
 
 ---
 
@@ -13,8 +13,8 @@
 |---|---|---|
 | **Inbox** | ✅ Clean | No #agent/inbox files |
 | **Raw backlog** | ✅ Clean | 0 unprocessed files |
-| **Concept backlinks** | ⚠️ Weak | Sample: 3/3 concepts with 0 links |
-| **Pending reviews** | ⚠️ 1 pending | Systemic issues from Fix Agent #2 |
+| **Concept backlinks** | ⚠️ Weak | Sample: concepts still with 0 links |
+| **Pending reviews** | ⚠️ 1 pending | Fix Agent #2 partially applied |
 
 ---
 
@@ -45,8 +45,9 @@
 
 **1 report** — `wiki/reviews/_action-required.md`
 
-> Format Validator reports Fix Agent #2 applied but 10 invalid sub_tags + 6 empty remain.
-> Output Validator approved with 4 systemic issues requiring re-compile.
+Format Validator (2026-06-01-v2): **PARTIALLY APPLIED**
+- 10 invalid sub_tags + 6 empty remaining after Fix Agent #2
+- Output Validator (2026-06-01-v2): 4 systemic issues requiring re-compile
 
 **Action required by:** Julius
 
@@ -55,11 +56,10 @@
 ## Concept Backlinks — Systemic Issue
 
 Sample check shows **all sampled concepts have 0 backlinks**:
+- `ashbys-law.md`: 0 links in sample
+- Other recent concepts: no cross-references
 
-- `atomic-mac-agent.md`: 0 links
-- `code-as-substrate.md`: 0 links
-
-**This suggests a systemic compilation problem** — concepts are being created without cross-references. Requires investigation and potential re-compile of affected files.
+**This suggests a systemic compilation problem** — concepts created without back-references to sources. Requires re-compile of affected files after Format Validator issues are resolved.
 
 ---
 
@@ -70,4 +70,4 @@ Sample check shows **all sampled concepts have 0 backlinks**:
 
 ---
 
-*Next heartbeat: 13:30*
+*Next heartbeat: 14:30*

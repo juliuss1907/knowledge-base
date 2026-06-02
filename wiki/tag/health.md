@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: health
 auto_generated: true
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Tag: #health
@@ -16,15 +16,14 @@ last_updated: 2026-06-01
 
 ## Stats
 
-- Total files: 9
+- Total files: 8
 - Sources: 1
-- Concepts: 8
-- Last updated: 2026-06-01
+- Concepts: 7
+- Last updated: 2026-06-02
 
 ## Files with this tag
 
 - [[circadian-rhythm]] — Circadian Rhythm (concept)
-- [[cortisol-management]] — Cortisol Management (concept)
 - [[default-mode-network]] — Default Mode Network (concept)
 - [[evening-routine]] — Evening Routine (concept)
 - [[glymphatic-system]] — Glymphatic System (concept)
@@ -35,8 +34,8 @@ last_updated: 2026-06-01
 
 ## Co-occurring tags
 
-- [[productivity]] — 7 co-occurrences
-- [[tutorial]] — 5 co-occurrences
+- [[productivity]] — 6 co-occurrences
+- [[tutorial]] — 4 co-occurrences
 - [[research]] — 4 co-occurrences
 - [[ai]] — 2 co-occurrences
 - [[psychology]] — 1 co-occurrence

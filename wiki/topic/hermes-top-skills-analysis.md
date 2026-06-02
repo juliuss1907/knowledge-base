@@ -1,13 +1,12 @@
 # Topic: hermes-top-skills-analysis
 
-Auto-generated index of all content with topic `hermes-top-skills-analysis`.
+Auto-generated index of all content with topic \.
 
-Last updated: 2026-06-01 21:06:03
+Last updated: 2026-06-02 21:01:25
 
 ---
 
 ## Concepts (5)
-
 - [[external-memory-providers]] — main: #ai, sub: [#tools, #research]
 - [[hermes-token-management]] — main: #ai, sub: [#tools, #opinion]
 - [[reflect-skill-hindsight]] — main: #ai, sub: [#tools, #automation]
@@ -15,5 +14,4 @@ Last updated: 2026-06-01 21:06:03
 - [[x-bookmark-prioritization]] — main: #ai, sub: [#tools, #automation]
 
 ## Sources (1)
-
 - [[src_hermes-200-30-skills-3-worth-it]] — main: #ai, sub: [#tools, #automation, #opinion]

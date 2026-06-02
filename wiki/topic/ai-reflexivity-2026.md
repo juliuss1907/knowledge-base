@@ -1,15 +1,13 @@
 # Topic: ai-reflexivity-2026
 
-Auto-generated index of all content with topic `ai-reflexivity-2026`.
+Auto-generated index of all content with topic \.
 
-Last updated: 2026-06-01 21:06:03
+Last updated: 2026-06-02 21:01:25
 
 ---
 
 ## Concepts (1)
-
 - [[ai-infrastructure-bubble]] — main: #economic, sub: [#tools, #opinion]
 
 ## Sources (1)
-
 - [[src_ai-reflexivity-loop-is-same]] — main: #economic, sub: [#opinion, #tools]

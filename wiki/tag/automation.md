@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: automation
 auto_generated: true
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Tag: #automation
@@ -16,10 +16,10 @@ last_updated: 2026-06-01
 
 ## Stats
 
-- Total files: 48
+- Total files: 47
 - Sources: 10
-- Concepts: 38
-- Last updated: 2026-06-01
+- Concepts: 37
+- Last updated: 2026-06-02
 
 ## Files with this tag
 
@@ -38,7 +38,6 @@ last_updated: 2026-06-01
 - [[codified-taste]] — Codified Taste (concept)
 - [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)
 - [[conversational-website]] — Conversational Website (concept)
-- [[factory-missions]] — Factory Missions (concept)
 - [[grok-hermes-integration]] — Grok Hermes Integration (concept)
 - [[hermes-agent]] — Hermes Agent (concept)
 - [[hermes-operator-role]] — Hermes Operator Role (concept)
@@ -75,7 +74,7 @@ last_updated: 2026-06-01
 ## Co-occurring tags
 
 - [[tools]] — 43 co-occurrences
-- [[ai]] — 37 co-occurrences
+- [[ai]] — 36 co-occurrences
+- [[opinion]] — 8 co-occurrences
 - [[tutorial]] — 8 co-occurrences
-- [[opinion]] — 7 co-occurrences
 - [[system]] — 5 co-occurrences

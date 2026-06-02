@@ -304,3 +304,12 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 - security × 1 file (sub-tag)
 
 ---
+
+## 2026-06-02 21:01:25 — Indexed
+
+- **Scanned:** 179 concepts + 41 sources = 220 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 60
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 7 files skipped due to invalid frontmatter

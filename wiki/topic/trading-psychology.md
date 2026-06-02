@@ -1,15 +1,19 @@
 # Topic: trading-psychology
 
-Auto-generated index of all content with topic `trading-psychology`.
+Auto-generated index of all content with topic \.
 
-Last updated: 2026-06-01 21:06:03
+Last updated: 2026-06-02 21:01:25
 
 ---
 
-## Concepts (2)
-
+## Concepts (7)
+- [[cortisol-management]] — main: #economic, sub: [#psychology]
+- [[dopamine-reward-loop]] — main: #economic, sub: [#psychology]
 - [[false-reinforcement-loop]] — main: #economic, sub: [#opinion, #psychology]
+- [[know-when-not-to-trade]] — main: #economic, sub: [#psychology]
 - [[outcome-worship-trap]] — main: #economic, sub: [#opinion, #psychology]
+- [[trading-addiction-cycle]] — main: #economic, sub: [#psychology]
+- [[trading-psychology]] — main: #economic, sub: [#psychology, #opinion]
 
-## Sources (0)
-
+## Sources (1)
+- [[src_trading-brain-chemistry-ferb]] — main: #economic, sub: [#opinion, #psychology]

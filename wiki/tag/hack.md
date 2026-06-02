@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: hack
 auto_generated: true
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Tag: #hack
@@ -19,7 +19,7 @@ last_updated: 2026-06-01
 - Total files: 14
 - Sources: 3
 - Concepts: 11
-- Last updated: 2026-06-01
+- Last updated: 2026-06-02
 
 ## Files with this tag
 
@@ -42,6 +42,6 @@ last_updated: 2026-06-01
 
 - [[tech]] — 10 co-occurrences
 - [[tools]] — 9 co-occurrences
-- [[ai]] — 4 co-occurrences
 - [[research]] — 4 co-occurrences
+- [[ai]] — 4 co-occurrences
 - [[news]] — 2 co-occurrences

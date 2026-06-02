@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: coding
 auto_generated: true
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Tag: #coding
@@ -16,19 +16,17 @@ last_updated: 2026-06-01
 
 ## Stats
 
-- Total files: 4
+- Total files: 2
 - Sources: 1
-- Concepts: 3
-- Last updated: 2026-06-01
+- Concepts: 1
+- Last updated: 2026-06-02
 
 ## Files with this tag
 
-- [[agent-harness]] — Agent Harness (concept)
-- [[code-as-substrate]] — Code As Substrate (concept)
-- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
+- [[long-context-models]] — Long Context Models (concept)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
 
 ## Co-occurring tags
 
-- [[ai]] — 4 co-occurrences
-- [[research]] — 4 co-occurrences
+- [[research]] — 2 co-occurrences
+- [[ai]] — 2 co-occurrences

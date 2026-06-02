@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tutorial
 auto_generated: true
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-06-01
 
 ## Stats
 
-- Total files: 31
+- Total files: 30
 - Sources: 9
-- Concepts: 22
-- Last updated: 2026-06-01
+- Concepts: 21
+- Last updated: 2026-06-02
 
 ## Files with this tag
 
@@ -28,7 +28,6 @@ last_updated: 2026-06-01
 - [[cash-flow-statement]] — Cash Flow Statement (concept)
 - [[circadian-rhythm]] — Circadian Rhythm (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
-- [[cortisol-management]] — Cortisol Management (concept)
 - [[ebitda-trap]] — Ebitda Trap (concept)
 - [[evening-routine]] — Evening Routine (concept)
 - [[financial-metrics]] — Financial Metrics (concept)
@@ -59,6 +58,6 @@ last_updated: 2026-06-01
 
 - [[tools]] — 16 co-occurrences
 - [[ai]] — 10 co-occurrences
-- [[productivity]] — 9 co-occurrences
 - [[automation]] — 8 co-occurrences
+- [[productivity]] — 8 co-occurrences
 - [[economic]] — 7 co-occurrences

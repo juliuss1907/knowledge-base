@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tech
 auto_generated: true
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Tag: #tech
@@ -19,7 +19,7 @@ last_updated: 2026-06-01
 - Total files: 18
 - Sources: 4
 - Concepts: 14
-- Last updated: 2026-06-01
+- Last updated: 2026-06-02
 
 ## Files with this tag
 

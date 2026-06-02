@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Tag: #tools
@@ -16,13 +16,14 @@ last_updated: 2026-06-01
 
 ## Stats
 
-- Total files: 102
-- Sources: 20
-- Concepts: 82
-- Last updated: 2026-06-01
+- Total files: 105
+- Sources: 21
+- Concepts: 84
+- Last updated: 2026-06-02
 
 ## Files with this tag
 
+- [[agent-handoff]] — Agent Handoff (concept)
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
 - [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
@@ -39,6 +40,7 @@ last_updated: 2026-06-01
 - [[alpaca-api]] — Alpaca Api (concept)
 - [[atomic-mac-agent]] — Atomic Mac Agent (concept)
 - [[browser-harness-tool]] — Browser Harness Tool (concept)
+- [[business-idiot-archetype]] — Business Idiot Archetype (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
 - [[claude-code-routines]] — Claude Code Routines (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
@@ -50,7 +52,6 @@ last_updated: 2026-06-01
 - [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
-- [[factory-missions]] — Factory Missions (concept)
 - [[fast-weights]] — Fast Weights (concept)
 - [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
@@ -99,6 +100,7 @@ last_updated: 2026-06-01
 - [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source)
 - [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
@@ -114,6 +116,7 @@ last_updated: 2026-06-01
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
 - [[state-space-models-ssm]] — State Space Models Ssm (concept)
+- [[static-website-blind-spot]] — Static Website Blind Spot (concept)
 - [[supply-chain-attack]] — Supply Chain Attack (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
@@ -128,8 +131,8 @@ last_updated: 2026-06-01
 
 ## Co-occurring tags
 
-- [[ai]] — 71 co-occurrences
+- [[ai]] — 73 co-occurrences
 - [[automation]] — 43 co-occurrences
-- [[research]] — 28 co-occurrences
+- [[research]] — 29 co-occurrences
+- [[opinion]] — 18 co-occurrences
 - [[tech]] — 17 co-occurrences
-- [[tutorial]] — 16 co-occurrences

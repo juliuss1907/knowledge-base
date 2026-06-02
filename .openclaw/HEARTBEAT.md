@@ -1,43 +1,40 @@
-# HEARTBEAT.md — System Health Log
+# OpenClaw Heartbeat
 
-> Updated: 2026-06-02 19:30 (Asia/Saigon)
-
-## Status: HEARTBEAT_OK
-
----
-
-## Quick Scan
-
-| Component | Status |
-|---|---|
-| Raw backlog | ✅ Clean (no unprocessed files) |
-| Concept backlinks | ✅ Sample OK (4 links each) |
-| Pending reviews | ⚠️ 1 pending (systemic format issues from Fix Agent run #2) |
-| Tasks/Inbox | ✅ Empty |
+## Last Updated
+- **2026-06-02 20:30** — Current heartbeat ✓
+- **2026-06-02 19:00** — Previous heartbeat
+- **2026-06-02 08:40** — Fix Agent run #2
+- **2026-06-02 08:00** — Daily compile (13 concepts processed)
 
 ---
 
-## Wiki Stats
+## Status
 
-- **Concepts:** 186
-- **Sources:** 41
-- **Tags:** 20
-- **Last compile:** 2026-06-02 08:48 (13 concepts updated)
+**HEARTBEAT_OK**
+
+---
+
+## Inbox
+- 0 files tagged `#agent/inbox` in Tasks/
+
+---
+
+## Raw Backlog ⚠️
+- **3 files unprocessed** (ingested today, pending Compile at 08:00 tomorrow):
+  - `raw/articles/2026-06-02_live-disciplined-life-spontaneously.md` — unprocessed
+  - `raw/articles/2026-06-02_building-latticework-mental-models.md` — unprocessed
+  - `raw/videos/2026-06-02_handoff-skill-context-window-management.md` — unprocessed
+
+---
+
+## Pending Review
+- **1 report awaiting re-compile** — Format Validator 2026-06-01-v2:
+  - 51 files còn invalid sub_tags (main_tags trong Pool B)
+  - 6 files còn empty sub_tags
+  - Action required: Julius approve để Fix Agent chạy lại hoặc re-compile
 
 ---
 
 ## Notes
-
-- Format Validator report 2026-06-01-v2: PARTIALLY APPLIED — Fix Agent claims 0/0 but actual shows 10 invalid sub_tags + 6 empty remaining
-- Output Validator report 2026-06-01-v2: APPROVED — 4 systemic issues requiring re-compile
-- Hygiene Inspector: PROMOTE
-
-**Systemic issues require Julius attention** — details in `wiki/reviews/_action-required.md`
-
----
-
-## Last Updated
-
-- 2026-06-02 19:30 — Current heartbeat
-- 2026-06-02 08:40 — Fix Agent run #2
-- 2026-06-02 08:00 — Daily compile (13 concepts processed)
+- Format Validator report 2026-06-01-v2 details: `wiki/reviews/2026-06-01_format-report-v2.md`
+- Action consolidated: `wiki/reviews/_action-required.md`

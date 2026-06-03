@@ -1,7 +1,7 @@
 # HEARTBEAT — OpenClaw
 
-> **Time:** 2026-06-04 05:00 Asia/Saigon
-> **Status:** OK
+> **Time:** 2026-06-04 06:00 Asia/Saigon
+> **Status:** OK (attention needed)
 
 ---
 
@@ -9,43 +9,44 @@
 
 | Check | Result |
 |---|---|
-| Inbox (Tasks/) | ✅ Empty |
-| Raw backlog (>24h) | ✅ Likely compiled (status: processed) |
-| Unprocessed new | ✅ 9 files from 2026-06-03 — CompileAgent 08:00 |
-| Pending review | ✅ 1 systemic issue — awaiting Julius action |
+| Inbox | ✅ Clean — no pending items |
+| Raw Backlog | ⚠️ **9 files unprocessed since 2026-06-03** |
+| Pending Reviews | ✅ 1 stale entry (not new) |
+| Concept Backlinks | ⚠️ Spot check found 3/3 concepts missing source links |
 
 ---
 
-## Unprocessed Files (9)
+## Issues Requiring Attention
 
-From 2026-06-03 — CompileAgent will handle at 08:00:
+### ⚠️ Raw Backlog — 9 files
+```
+raw/articles/2026-06-03_inversion.md
+raw/articles/2026-06-03_second-order-thinking.md
+raw/articles/2026-06-03_fs-blog-mental-models.md
+raw/articles/2026-06-03_third-order-thinking-how-to-build.md
+raw/articles/2026-06-03_first-principles-thinking.md
+raw/articles/2026-06-03_thought-experiment.md
+raw/articles/2026-06-03_circle-of-competence.md
+raw/articles/2026-06-03_map-is-not-the-territory.md
+raw/articles/2026-06-03_probabilistic-thinking.md
+```
+**Oldest:** 2026-06-03 — ~24h stale  
+**Action:** CompileAgent should process at 08:00 or Julius can trigger manually
 
-- `raw/articles/2026-06-03_inversion.md`
-- `raw/articles/2026-06-03_second-order-thinking.md`
-- `raw/articles/2026-06-03_fs-blog-mental-models.md`
-- `raw/articles/2026-06-03_third-order-thinking-how-to-build.md`
-- `raw/articles/2026-06-03_first-principles-thinking.md`
-- `raw/articles/2026-06-03_thought-experiment.md`
-- `raw/articles/2026-06-03_circle-of-competence.md`
-- `raw/articles/2026-06-03_map-is-not-the-territory.md`
-- `raw/articles/2026-06-03_probabilistic-thinking.md`
+### ⚠️ Concept Backlinks — Possible systemic issue
+Spot check (3 files) found 0 source links. May need IndexAgent refresh or investigate missing source tags in compiled concepts.
 
 ---
 
-## Pending Review
+## Quick Stats
 
-`wiki/reviews/_action-required.md` — **1 systemic issue** approved by Hermes (2026-06-03), awaiting re-compile. Julius needs to trigger compile for affected sources.
-
----
-
-## Wiki Stats
-
-| Folder | Count |
+| Category | Count |
 |---|---|
-| Concepts | 199 |
-| Sources | 44 |
-| Tags | 21 |
+| raw/ unprocessed | 9 |
+| Pending Hermes reviews | 0 (1 stale) |
+| Last Compile | 2026-06-03 08:00 (missed yesterday's batch?) |
+| Last Index | 2026-06-03 21:00 |
 
 ---
 
-*Next heartbeat: 05:30*
+*Next heartbeat: 06:30*

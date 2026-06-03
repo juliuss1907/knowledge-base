@@ -1,4 +1,4 @@
-# HEARTBEAT — 2026-06-03 22:30
+# HEARTBEAT — 2026-06-04 00:30
 
 **Status:** ⚠️ ATTENTION REQUIRED
 
@@ -8,9 +8,8 @@
 
 ### 🔴 Priority 1 — Raw Backlog
 - **9 files** trong `raw/articles/` có `status: unprocessed`
-- Tất cả ingested hôm nay (2026-06-03), 19:33–19:54
-- Lớn nhất: `third-order-thinking-how-to-build.md` (19:54)
-- Compile chạy lúc 08:00 sáng — không bao gồm files mới
+- Tất cả ingested hôm qua (2026-06-03), 19:33–19:54
+- Compile chạy lúc 08:00 — không bao gồm files mới
 - **Cần CompileAgent chạy để xử lý**
 
 ### 🟡 Priority 2 — Pending Hermes Report
@@ -24,12 +23,13 @@
 
 | Component | Status | Last Updated |
 |---|---|---|
-| Inbox | ✅ Clean (0 items) | 22:30 |
-| Raw Backlog | 🔴 9 files unprocessed | 22:30 |
-| Wiki Sources | ✅ 0 processed today (batch đợi compile) | 08:22 |
-| Wiki Concepts | ✅ 4 files mới (08:22) | 08:22 |
-| Tag Index | ✅ Updated | 21:05 |
-| Action Required | 🟡 1 pending (re-compile needed) | 08:23 |
+| Inbox | ✅ Clean (0 items) | 00:30 |
+| Raw Backlog | 🔴 9 files unprocessed | 00:30 |
+| Wiki Sources | ✅ 0 processed (batch đợi compile) | 08:22 ( kemarin ) |
+| Wiki Concepts | ✅ 4 files mới (batch đợi compile) | 08:22 ( kemarin ) |
+| Tag Index | ✅ Updated | 21:05 ( kemarin ) |
+| Action Required | 🟡 1 pending (re-compile needed) | 08:23 ( kemarin ) |
+| Concept Links | ⚠️ Sample check: nhiều file 0 links | 00:30 |
 
 ---
 
@@ -40,4 +40,4 @@
 
 ---
 
-*Next heartbeat: 23:00*
+*Next heartbeat: 01:00*

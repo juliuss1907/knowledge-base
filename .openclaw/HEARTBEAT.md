@@ -1,21 +1,26 @@
-# HEARTBEAT.md — Last check: 2026-06-03 07:00 (Asia/Saigon)
+---
+host: julius-vps
+runtime: agent=main
+last_check: 2026-06-03 08:30 +07
+interval: 30_minutes
+---
 
-## Status: WARNING
+## Heartbeat 2026-06-03 08:30 +07
 
-### Quick Stats
-| Zone | Count | Notes |
-|---|---|---|
-| raw/ unprocessed | 3 | Articles x2, Videos x1 (from Jun 2) |
-| wiki/concepts/ | 186 | Sample: 0 backlinks to sources |
-| wiki/sources/ | 41 | All good |
-| wiki/tag/ indexes | 20 | All good |
-| Pending reviews | 1 | wiki/reviews/_action-required.md |
+### Status: HEARTBEAT_OK
 
-### Last Events
-- Raw backlog: 3 files unprocessed since Jun 2 — CompileAgent at 08:00
-- Concept backlink issue: Sample shows 0 source links — needs IndexAgent review
-- Pending review: Hermes report from Jun 2 (not yet notified to Julius)
+### Checks Performed
 
-### System Health
-- OpenClaw: Operational
-- CompileAgent: Next run at 08:00 today
+| Check | Result |
+|---|---|
+| Raw backlog (unprocessed >24h) | ✅ Clean — 0 files |
+| Inbox items | ✅ 0 agent/inbox items (IDENTITY.md除外) |
+| Pending reviews | ✅ No pending review entries |
+| Concept backlinks (spot check) | ⚠️ 2/2 checked have 0 outgoing links |
+
+### Notes
+- Concept backlink spot check: `cortisol-management.md`, `last30days-skill.md` — both with 0 outgoing links. May need IndexAgent review.
+- `_action-required.md` contains general guidance, no pending review items.
+
+### Next Check
+Scheduled: 2026-06-03 09:00 +07

@@ -1,4 +1,4 @@
-# HEARTBEAT — 2026-06-04 02:00
+# HEARTBEAT — 2026-06-04 02:30
 
 **Status:** ⚠️ ATTENTION REQUIRED
 
@@ -7,8 +7,8 @@
 ## Issues Found
 
 ### 🔴 Priority 1 — Raw Backlog
-- **9 files** trong `raw/articles/` có `status: unprocessed`
-- All from 2026-06-03 (19:33-19:54)
+- **9 files** trong `raw/` có `status: unprocessed`
+- All from 2026-06-03 (từ 19:33-19:54)
 - CompileAgent chạy lúc 08:00 sáng — sẽ xử lý
 
 ### 🟡 Priority 2 — Pending Hermes Report
@@ -28,8 +28,8 @@
 
 | Component | Status | Last Updated |
 |---|---|---|
-| Inbox | ✅ Clean | 02:00 |
-| Raw Backlog | 🔴 9 files unprocessed | 02:00 |
+| Inbox | ✅ Clean | 02:30 |
+| Raw Backlog | 🔴 9 files unprocessed | 02:30 |
 | Wiki Sources | 44 files | — |
 | Wiki Concepts | 199 files | — |
 | Tag Index | ✅ Updated | 21:05 (03/06) |
@@ -44,4 +44,4 @@
 
 ---
 
-*Next heartbeat: 02:30*
+*Next heartbeat: 03:00*

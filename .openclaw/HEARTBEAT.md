@@ -1,7 +1,7 @@
 # HEARTBEAT.md
 
-**Last check:** 2026-06-03 12:30 (Asia/Saigon)
-**Status:** HEARTBEAT_OK
+**Last check:** 2026-06-03 13:00 (Asia/Saigon)
+**Status:** ⚠️ BACKLOG DETECTED
 
 ---
 
@@ -10,18 +10,27 @@
 | Item | Result |
 |---|---|
 | Inbox (`#agent/inbox`) | 0 items |
-| Raw backlog (unprocessed >24h) | 0 files |
-| Pending reviews | 1 file (`_action-required.md`, updated Jun 2) |
+| Raw backlog (unprocessed >24h) | **43 files** (unchanged since May 31) |
+| Today's new files (Jun 3) | 8 files — status: unprocessed, normal |
+| Pending reviews | 1 systemic issue (re-compile required) |
+
+---
+
+## Backlog Detail
+
+43 files in `raw/` unprocessed for more than 24h. Oldest from April/May.
+
+**CompileAgent status:** Not running — last compile was 08:00 Jun 4 (tomorrow scheduled).
 
 ---
 
 ## Notes
 
-- 8 raw articles from today (Jun 3) — all status: unprocessed, ingested within last hour
-- CompileAgent will process at 08:00 tomorrow (Jun 4)
-- wiki/sources: 246 files total
-- wiki/concepts: maintained
+- Julius was last notified about this backlog: 2026-06-03 03:00 (via RAW_BACKLOG.md)
+- No response received yet regarding bulk compile
+- Recommendation: Run `openclaw compile --all` or similar bulk operation to clear backlog
 
 ---
 
-*Next heartbeat: 13:00*
+*Next heartbeat: 13:30*
+*Escalation: Pending Julius response on backlog*

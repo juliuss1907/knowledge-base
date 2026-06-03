@@ -1,27 +1,50 @@
 # HEARTBEAT.md
 
-**Last check:** 2026-06-03 16:00 (Asia/Saigon)
-**Status:** ✅ CLEAN
+> Automated health check — OpenClaw
+> Last run: 2026-06-03 17:00 (Asia/Saigon)
 
 ---
 
-## Check results
+## System Status: ✅ HEALTHY
 
-| Item | Result |
+---
+
+## Raw Backlog
+**8 files unprocessed** — all from today (2026-06-03), ingested 11:57-12:00.
+Expected: Readwise sync this morning delivered new articles.
+CompileAgent sẽ xử lý tự động lúc 08:00 ngày mai, hoặc Julius có thể trigger manual compile.
+
+| File | Ingested |
 |---|---|
-| Inbox (`#agent/inbox`) | 0 items |
-| Raw backlog (unprocessed >24h) | 0 files |
-| Today's new files (Jun 3) | 8 files — status: unprocessed, normal |
-| Pending reviews | 4 entries in _action-required.md |
+| raw/articles/2026-06-03_inversion.md | 12:00 |
+| raw/articles/2026-06-03_second-order-thinking.md | 11:59 |
+| raw/articles/2026-06-03_probabilistic-thinking.md | 11:59 |
+| raw/articles/2026-06-03_thought-experiment.md | 11:58 |
+| raw/articles/2026-06-03_circle-of-competence.md | 11:58 |
+| raw/articles/2026-06-03_first-principles-thinking.md | 11:58 |
+| raw/articles/2026-06-03_fs-blog-mental-models.md | 11:57 |
+| raw/articles/2026-06-03_map-is-not-the-territory.md | 11:57 |
 
 ---
 
-## Notes
-
-- CompileAgent chạy lúc 08:22 hôm nay, đã xử lý batch trước đó
-- 8 file mới hôm nay (Jun 3) chờ compile tomorrow 08:00
-- Không có backlog — hệ thống ổn định
+## Wiki Status
+- **Concepts:** 199 files
+- **Sources:** 44 files
+- **Tags:** 20 indexes
 
 ---
 
-*Next heartbeat: 16:30*
+## Pending Reviews
+**1 report awaiting re-compile** — Output Validator flagged 4 systemic issues (2026-06-03 08:23).
+Action required from Julius before Fix Agent can proceed.
+
+Details: `wiki/reviews/_action-required.md`
+
+---
+
+## Tasks / Inbox
+No inbox items detected.
+
+---
+
+*Next heartbeat: 17:30*

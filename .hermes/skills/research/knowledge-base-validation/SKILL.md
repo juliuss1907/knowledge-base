@@ -187,6 +187,52 @@ Recent fixes applied (2026-06-01):
 - Summary: added constraint "KHÔNG ĐƯỢC viết 1 câu" (SKILL.md, workflow.md)
 - Sub-tags: added ⚠️ warning block against main_tags leaking into sub_tags (workflow.md Step 5.3)
 
+## Full Pipeline Debugging — Upstream Tracing
+
+When systemic issues persist despite patching Compile Agent configs, trace further UPSTREAM. The pipeline is:
+
+```
+Ingest Agent → raw/ → Compile Agent → wiki/
+```
+
+**Pattern discovered 2026-06-03:** Compile Agent was blamed for Summary 1-dòng, but the ROOT cause was Ingest Agent. Ingest Agent was storing 1-sentence summaries instead of full article content. Compile Agent had nothing to work with — garbage in, garbage out.
+
+**Debugging flow:**
+1. Find systemic issue in validation → check Compile Agent config (SKILL.md, workflow.md, tagging_rules.md)
+2. If Compile Agent configs are correct but issue persists → trace to Ingest Agent's raw output
+3. `cat raw/<type>/YYYY-MM-DD_*.md` — if raw files have 1-sentence summaries, no full content, wrong frontmatter → Ingest Agent is the root cause
+
+**Full pipeline fix for Summary 1-dòng (2026-06-03):**
+- **Compile Agent:** Changed language policy to Vietnamese, added "3-5 câu" constraint to prompt templates
+- **Ingest Agent:** Added CRITICAL section requiring full content (min 500 chars), forbidding summaries, banning `[[wikilinks]]` in raw files. Fixed frontmatter schema (`type: raw` → `type: article`, removed `source_type`, `tags` fields).
+- **Result:** After both fixes, Compile Agent will have full articles to summarize → 3-5 sentence Summary, ≥3 Key ideas, populated Sources sections.
+
+### Ingest Agent Patching
+
+Ingest Agent config lives at `.openclaw/skills/ingest-agent/`. Files to patch:
+
+| File | Key changes for this fix |
+|---|---|
+| `SKILL.md` | Content extraction rules — add ⚠️ CRITICAL block: "Raw files MUST contain full content", forbid 1-sentence summaries, forbid `[[wikilinks]]`, min 500 chars |
+| `SKILL.md` | Frontmatter schema — add WRONG FORMATS examples: `type: raw` → `type: article`, `source_type: article` → `type: article`, `tags: [...]` → remove (Compile Agent assigns tags) |
+| `workflow.md` | Step 5 (Clean Content) — add "Never replace content with a summary" block |
+| `workflow.md` | Step 6 (Construct Frontmatter) — add wrong format examples with explicit corrections |
+
+## Fix Agent Trust Issues
+
+**Pattern:** Fix Agent frequently reports "0 issues remaining" or "all fixed" when validation shows issues still exist. Never trust Fix Agent self-reports — always re-validate.
+
+Fix Agent failure modes observed (2026-06-01):
+- Claimed "0 invalid sub_tags" but actual: 10 files remaining
+- Claimed "0 empty sub_tags" but actual: 6 files (unchanged from start)
+- Claimed "36 files fixed" but actual: 27 files (9 overstated)
+
+**Process after Fix Agent runs:**
+1. Run full format validator scan immediately
+2. Compare Fix Agent's claimed fixes vs actual scan
+3. If mismatch → report exact files to Julius with suggested fixes
+4. If Fix Agent fails ≥2 times on same issues → invoke Connor direct fix exception
+
 ## Criteria Quick Reference
 
 | Check | Spec Rule |

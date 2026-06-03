@@ -1,37 +1,148 @@
 ---
-type: raw
-source_type: article
-source_url: https://fs.blog/first-principles/
+type: article
+title: First Principles Thinking - How to Break Down Complex Problems
+url: https://fs.blog/first-principles/
+author: Farnam Street (Shane Parrish)
+date_published: 2026-06-03
 date_ingested: 2026-06-03
-tags: [productivity, research, opinion]
 status: unprocessed
+source: fs.blog
 ---
 
-# First Principles Thinking — Farnam Street
+First principles thinking is one of the best ways to discover new solutions.
 
-**Source:** Farnam Street Blog (fs.blog)  
-**URL:** https://fs.blog/first-principles/  
-**Date:** 2026-06-03  
-**Type:** article
+Sometimes called "reasoning from first principles," it's a tool to help break down complicated problems by separating what we know is absolutely true from anything that is an assumption. What remains are the essentials. If you know the first principles of something, you can build the rest of your knowledge around them to produce something new.
 
----
+While you could take this way of thinking down to an atomic level, a lot of value is gained by simply going a level or two deeper than most people. Solutions are based on what you see. Different answers reveal themselves at different levels.
 
-## Summary
+If I hand you a house made from Lego blocks, you know it's possible to make a house. Thinking at the first layer, you might move a few blocks around and, in the process, slightly improve the house. Most people stop here. They are presented with something that already exists and they endeavor to make it slightly better. Going a layer deeper and breaking the Lego house into individual pieces opens the door to possibility: not only can you build a better house, you can build something entirely different.
 
-A thinking framework popularized by Aristotle and used by Elon Musk: First Principles Thinking. Instead of reasoning by analogy (copying what others do), break problems down to their fundamental truths and build up from there. This approach enables innovation by freeing you from existing assumptions.
+Everything that exists is effectively a set of Lego blocks, assembled in a certain way, that can be taken apart and reassembled. A bike is just a seat, chain, body, handlebars, etc. Breaking the bike down into its parts allows you to reassemble the parts into something new. However, you can also go deeper, melting the parts into their core metals and making a shield, sword, or anything else, limited only by material and imagination.
 
----
+> I don't know what's the matter with people: they don't learn by understanding; they learn by some other way—by rote or something. Their knowledge is so fragile!
+> — Richard Feynman
 
-## Key Concepts
+## The Basics
 
-- [[first-principles-thinking]] — First Principles Thinking
-- [[elon-musk]] — Elon Musk
-- [[aristotle]] — Aristotle
-- [[reasoning-by-analogy]] — Reasoning by Analogy
-- [[innovation]] — Innovation
-- [[mental-models]] — Mental Models
-- [[farnam-street]] — Farnam Street
+The idea of building knowledge from first principles has a long tradition in philosophy. In the Western canon, it goes back to Plato, with significant contributions from Aristotle and Descartes. Essentially, these thinkers sought foundational knowledge that would remain constant and serve as a basis for building everything else, from our ethical systems to our social structures.
 
----
+First principles thinking doesn't have to be quite so grand. When we do it, we aren't necessarily looking for absolute truths—millennia of epistemological inquiry have shown us that these are hard to come by, and the scientific method has demonstrated that knowledge can be built only when we are actively trying to falsify it. Rather, first principles thinking identifies the elements that are, in the context of any given situation, irreducible.
 
-*A thinking framework: break problems to fundamental truths, build up from there.*
+First principles do not provide a checklist of things that will always be true; our understanding of first principles evolves as we gain more knowledge. They are the foundation on which we must build, and thus will be different in every situation—but the more we know, the more we can challenge. For example, if we are considering how to improve the energy efficiency of a refrigerator, the laws of thermodynamics can be taken as first principles. However, a theoretical chemist or physicist might want to explore entropy, and thus further break the second law of thermodynamics into its underlying principles and the assumptions that were made because of them.
+
+> "To understand is to know what to do."
+> — Wittgenstein
+
+## Techniques for Establishing First Principles
+
+If we never learn to take something apart, test our assumptions about it, and reconstruct it, we end up bound by what other people tell us is possible. We end up trapped in the way things have always been done. When the environment changes, we just continue as if things were the same, making costly mistakes along the way.
+
+Some of us are naturally skeptical of what we're told: Maybe it doesn't match up to our experiences. Maybe it's something that used to be true but isn't true anymore. Or maybe we just think differently about something. When it comes down to it, everything that is not a law of nature is just a shared belief. Money is a shared belief. So is a border. So is Bitcoin. So is love. The list goes on.
+
+There are two techniques we can use to change the level where we are looking at a situation, identify the first principles, and cut through the dogma and shared belief: Socratic questioning and the Five Whys.
+
+### Socratic Questioning
+
+Socratic questioning can be used to establish first principles through stringent analysis. This is a disciplined questioning process, used to establish truths, reveal underlying assumptions, and separate knowledge from ignorance. The key distinction between Socratic questioning and normal discussions is that the former seeks to draw out first principles in a systematic manner. Socratic questioning generally follows this process:
+
+- Clarifying your thinking and explaining the origins of your ideas (Why do I think this? What exactly do I think?)
+- Challenging assumptions (How do I know this is true? What if I thought the opposite?)
+- Looking for evidence (How can I back this up? What are the sources?)
+- Considering alternative perspectives (What might others think? How do I know I am correct?)
+- Examining consequences and implications (What if I am wrong? What are the consequences if I am?)
+- Questioning the original questions (Why did I think that? Was I correct? What conclusions can I draw from the reasoning process?)
+
+This process stops you from relying on your gut and limits strong emotional responses. This process helps you build something that lasts.
+
+### "Because I Said So" or "The Five Whys"
+
+Children instinctively think in first principles. Just like us, they want to understand what's happening in the world. To do so, they intuitively break through the fog with a game some parents have come to hate.
+
+"Why?" "Why?" "Why?"
+
+Here's an example that has played out numerous times at my house:
+
+"It's time to brush our teeth and get ready for bed."
+
+"Why?"
+
+"Because we need to take care of our bodies, and that means we need sleep."
+
+"Why do we need sleep?"
+
+"Because we'd die if we never slept."
+
+"Why would that make us die?"
+
+"I don't know; let's go look it up."
+
+Kids are just trying to understand why adults are saying something or why they want them to do something.
+
+The first time your kid plays this game, it's cute, but for most teachers and parents, it eventually becomes annoying. Then the answer becomes what my mom used to tell me: "Because I said so!"
+
+People hate the "because I said so" response for two reasons, both of which play out in the corporate world as well. The first reason we hate the game is that we feel like it slows us down. We know what we want to accomplish, and that response creates unnecessary drag. The second reason we hate this game is that after one or two questions, we are often lost. We actually don't know why. Confronted with our own ignorance, we resort to self-defense.
+
+I remember being in meetings and asking people why we were doing something this way or why they thought something was true. At first, there was a mild tolerance for this approach. After three "whys," though, you often find yourself on the other end of some version of "we can take this offline."
+
+Can you imagine how that would play out with Elon Musk? Richard Feynman? Charlie Munger? Musk would build a billion-dollar business to prove you wrong, Feynman would think you're an idiot, and Munger would profit based on your inability to think through a problem.
+
+> "Science is a way of thinking much more than it is a body of knowledge."
+> — Carl Sagan
+
+## Examples of First Principles in Action
+
+To better understand how first-principles reasoning works, let's examine some examples.
+
+### Elon Musk and SpaceX
+
+Perhaps no one embodies first-principles thinking more than Elon Musk. He is one of the most audacious entrepreneurs the world has ever seen.
+
+What's most interesting about Musk is not what he thinks but how he thinks:
+
+"I think people's thinking process is too bound by convention or analogy to prior experiences. It's rare that people try to think of something on a first principles basis. They'll say, 'We'll do that because it's always been done that way.' Or they'll not do it because 'Well, nobody's ever done that, so it must not be good. But that's just a ridiculous way to think. You have to build up the reasoning from the ground up—'from the first principles' is the phrase that's used in physics. You look at the fundamentals and construct your reasoning from that, and then you see if you have a conclusion that works or doesn't work, and it may or may not be different from what people have done in the past."
+
+His approach to understanding reality is to begin with what is true, rather than relying on his intuition. The problem is that we don't know as much as we think we do, so our intuition isn't very good. We trick ourselves into thinking we know what's possible and what's not.
+
+Musk's approach is quite different.
+
+He starts out with something he wants to achieve, like building a rocket. Then he starts with the first principles of the problem. Running through how Musk would think, Larry Page said in an interview, "What are the physics of it? How much time will it take? How much will it cost? How much cheaper can I make it? There's this level of engineering and physics that you need to make judgments about what's possible and interesting. Elon is unusual in that he knows that, and he also knows business and organization and leadership and governmental issues."
+
+Rockets are absurdly expensive, which is a problem because Musk wants to send people to Mars. And to send people to Mars, you need cheaper rockets. So he asked himself, "What is a rocket made of? Aerospace-grade aluminum alloys, plus some titanium, plus some copper, plus some carbon fiber. And then I asked, what is the value of these materials on the commodity market? It turned out that the materials cost of a rocket was around two percent of the typical price."
+
+So, SpaceX was born with the goal of dramatically reducing the cost of spaceflight by building rockets from scratch, in-house, using first-principles reasoning.
+
+"Musk's willingness to challenge the established wisdom and start from scratch is the same approach that led him to revolutionize the electric car industry with Tesla. While other automakers were incrementally improving on the internal combustion engine, Musk asked: What is a car, fundamentally? It's a device for moving people from point A to point B. What is the most efficient way to do that? An electric motor is far more efficient than an internal combustion engine. What is the real constraint? Battery cost and energy density. So Tesla focused on battery technology, building the Gigafactory to produce batteries at scale and reduce costs.
+
+### Derek Sivers and CD Baby
+
+Derek Sivers, the founder of CD Baby, built a successful business by questioning assumptions and applying first-principles thinking. When starting CD Baby, he didn't have funding, so he had to be creative.
+
+Instead of hiring expensive programmers, he learned to code and built the website himself. Instead of renting expensive office space, he worked from his home. Instead of buying expensive servers, he used consumer-grade hardware.
+
+By ignoring unnecessary details that cause many businesses to expend large amounts of money and time, Sivers was able to rapidly grow the company to $4 million in monthly revenue. In Anything You Want, Sivers wrote:
+
+"Having no funding was a huge advantage for me. A year after I started CD Baby, the dot-com boom happened. Anyone with a little hot air and a vague plan was given millions of dollars by investors. It was ridiculous. … Even years later, the desks were just planks of wood on cinder blocks from the hardware store. I made the office computers myself from parts. My well-funded friends would spend $100,000 to buy something I made myself for $1,000. They did it saying, 'We need the very best,' but it didn't improve anything for their customers. … It's counterintuitive, but the way to grow your business is to focus entirely on your existing customers. Just thrill them, and they'll tell everyone."
+
+To survive as a business, you need to treat your customers well. And yet so few of us master this principle.
+
+## Employing First Principles in Your Daily Life
+
+Most of us have no problem thinking about what we want to achieve in life, at least when we're young. We're full of big dreams, big ideas, and boundless energy. The problem is that we let others tell us what's possible, not only when it comes to our dreams but also when it comes to how we go after them. And when we let other people tell us what's possible or what the best way to do something is, we outsource our thinking to someone else.
+
+The real power of first-principles thinking is moving away from incremental improvement and into possibility. Letting others think for us means that we're using their analogies, their conventions, and their possibilities. It means we've inherited a world that conforms to what they think. This is incremental thinking.
+
+When we take what already exists and improve on it, we are in the shadow of others. It's only when we step back, ask ourselves what's possible, and cut through the flawed analogies that we see what is possible. Analogies are beneficial; they make complex problems easier to communicate and increase understanding. Using them, however, is not without a cost. They limit our beliefs about what's possible and allow people to argue without ever exposing our (faulty) thinking. Analogies move us to see the problem in the same way that someone else sees the problem.
+
+The gulf between what people currently see because their thinking is framed by someone else and what is physically possible is filled by the people who use first principles to think through problems.
+
+First-principles thinking clears the clutter of what we've told ourselves and allows us to rebuild from the ground up. Sure, it's a lot of work, but that's why so few people are willing to do it. It's also why the rewards for filling the chasm between possible and incremental improvement tend to be non-linear.
+
+Let's take a look at a few of the limiting beliefs that we tell ourselves.
+
+"I don't have a good memory." People have far better memories than they think they do. Saying you don't have a good memory is just a convenient excuse to let you forget. Taking a first-principles approach means asking how much information we can physically store in our minds. The answer is "a lot more than you think." Now that we know it's possible to put more into our brains, we can reframe the problem into finding the most optimal way to store information in our brains.
+
+"There is too much information out there." A lot of successful people never read the news. They don't need to know everything that's going on. They filter for what matters to them. Taking a first-principles approach means asking what information you really need to make good decisions. The answer is usually far less than you think.
+
+"I'm not creative." Creativity is not magic. It's not something you're born with or without. It's a process. Taking a first-principles approach means asking what creativity really is. It's the ability to connect things in new ways. Everyone can do that with practice.
+
+First-principles thinking is not easy. It requires work. It requires challenging assumptions that have been accepted for decades or centuries. It requires being willing to look foolish in pursuit of the truth. But the rewards are worth it. Those who master first-principles thinking can see possibilities that others cannot. They can solve problems that others consider unsolvable. They can create value in ways that others never imagined.

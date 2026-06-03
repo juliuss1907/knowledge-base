@@ -389,3 +389,8 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 7 files skipped
+
+## 2026-06-03 22:30:00 — Heartbeat Check
+- Raw backlog: 9 files unprocessed (all from today 19:33-19:54)
+- Pending Hermes: 1 report (Output Validator — requires re-compile)
+- Status: ⚠️ ATTENTION REQUIRED

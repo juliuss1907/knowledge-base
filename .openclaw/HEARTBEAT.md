@@ -1,7 +1,7 @@
 # HEARTBEAT.md
 
 > Automated health check — OpenClaw
-> Last run: 2026-06-03 17:00 (Asia/Saigon)
+> Last run: 2026-06-03 20:00 (Asia/Saigon)
 
 ---
 
@@ -11,8 +11,8 @@
 
 ## Raw Backlog
 **8 files unprocessed** — all from today (2026-06-03), ingested 11:57-12:00.
-Expected: Readwise sync this morning delivered new articles.
-CompileAgent sẽ xử lý tự động lúc 08:00 ngày mai, hoặc Julius có thể trigger manual compile.
+Source: Readwise sync — fs.blog mental models collection.
+CompileAgent sẽ xử lý tự động lúc 08:00 ngày mai (2026-06-04).
 
 | File | Ingested |
 |---|---|
@@ -35,7 +35,8 @@ CompileAgent sẽ xử lý tự động lúc 08:00 ngày mai, hoặc Julius có 
 ---
 
 ## Pending Reviews
-**1 report awaiting re-compile** — Output Validator flagged 4 systemic issues (2026-06-03 08:23).
+**1 report awaiting action** — Output Validator flagged 4 systemic issues (2026-06-03 08:23).
+- 5 files need `productivity` → `automation` tag fix
 Action required from Julius before Fix Agent can proceed.
 
 Details: `wiki/reviews/_action-required.md`
@@ -47,7 +48,8 @@ No inbox items detected.
 
 ---
 
-*Next heartbeat: 17:30*
+*Next heartbeat: 20:30*
+
 ## 2026-06-03 19:00 ICT
 - **Inbox:** 0 items
 - **Raw backlog:** 0 files unprocessed
@@ -60,3 +62,9 @@ No inbox items detected.
 - **Pending reviews:** 1 report requiring re-compile (Output systemic issues from 2026-06-03)
 - **Format issues:** 5 files need `productivity` → `automation` tag fix
 - **Concept backlinks:** not checked (focused on backlog)
+
+## 2026-06-03 20:00 ICT
+- **Inbox:** 0 items
+- **Raw backlog:** 8 files unprocessed (fs.blog mental models, ingested 11:57-12:00 today)
+- **Pending reviews:** 1 report requiring action (systemic tag fix)
+- **Concept backlinks:** not checked this round — last check 19:00 ✓

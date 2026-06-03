@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [tools, productivity]
+sub_tags: [tools, automation]
 topic: ai-coding-context-handoff
 sources:
   - "[[src_handoff-skill-context-window-management]]"

@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-06-02_handoff-skill-context-window-management]]"
 main_tag: ai
-sub_tags: [tools, productivity, coding]
+sub_tags: [tools, automation, coding]
 topic: ai-coding-context-handoff
 date_compiled: 2026-06-03
 url: https://www.youtube.com/watch?v=dtAJ2dOd3ko

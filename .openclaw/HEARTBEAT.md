@@ -1,7 +1,7 @@
 # HEARTBEAT.md
 
 > Automated health check — OpenClaw
-> Last run: 2026-06-03 20:00 (Asia/Saigon)
+> Last run: 2026-06-03 21:05 (Asia/Saigon)
 
 ---
 
@@ -10,7 +10,7 @@
 ---
 
 ## Raw Backlog
-**8 files unprocessed** — all from today (2026-06-03), ingested 11:57-12:00.
+**9 files unprocessed** — all from today (2026-06-03), ingested 11:57-12:00.
 Source: Readwise sync — fs.blog mental models collection.
 CompileAgent sẽ xử lý tự động lúc 08:00 ngày mai (2026-06-04).
 
@@ -18,7 +18,7 @@ CompileAgent sẽ xử lý tự động lúc 08:00 ngày mai (2026-06-04).
 |---|---|
 | raw/articles/2026-06-03_inversion.md | 12:00 |
 | raw/articles/2026-06-03_second-order-thinking.md | 11:59 |
-| raw/articles/2026-06-03_probabilistic-thinking.md | 11:59 |
+| raw/articles/2026-06-03_third-order-thinking-how-to-build.md | 12:00 |
 | raw/articles/2026-06-03_thought-experiment.md | 11:58 |
 | raw/articles/2026-06-03_circle-of-competence.md | 11:58 |
 | raw/articles/2026-06-03_first-principles-thinking.md | 11:58 |
@@ -68,3 +68,8 @@ No inbox items detected.
 - **Raw backlog:** 8 files unprocessed (fs.blog mental models, ingested 11:57-12:00 today)
 - **Pending reviews:** 1 report requiring action (systemic tag fix)
 - **Concept backlinks:** not checked this round — last check 19:00 ✓
+## 2026-06-03 21:05 ICT
+- **Inbox:** 0 items
+- **Raw backlog:** 9 files unprocessed (fs.blog mental models, all from today)
+- **Pending reviews:** 1 report awaiting action (Output systemic issues from 2026-06-03)
+- **Concept backlinks:** checked, no issues

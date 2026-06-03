@@ -371,3 +371,21 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 720
 - **Errors:** 7 files skipped
+
+## 2026-06-03 21:04:58 — Indexed
+
+- **Scanned:** 236 files (192 concepts + 44 sources)
+- **Tags indexed:** 0 (8 main-tags + -8 sub-tags)
+- **Topics indexed:** 63
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 720
+- **Errors:** 7 files skipped
+
+## 2026-06-03 21:05:26 — Indexed
+
+- **Scanned:** 236 files (192 concepts + 44 sources)
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 63
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 7 files skipped

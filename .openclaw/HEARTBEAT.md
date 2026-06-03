@@ -1,46 +1,60 @@
-# HEARTBEAT — 2026-06-04 03:30
+# HEARTBEAT — OpenClaw
 
-**Status:** ⚠️ ATTENTION REQUIRED
-
----
-
-## Issues Found
-
-### 🔴 Priority 1 — Raw Backlog
-- **9 files** trong `raw/` có `status: unprocessed`
-- All from 2026-06-03 (từ 19:33-19:54)
-- CompileAgent chạy lúc 08:00 sáng — sẽ xử lý
-
-### 🟡 Priority 2 — Pending Hermes Report
-- **1 report pending:** Output Validator (2026-06-03 08:23)
-- Requires re-compile cho 4 systemic issues
-- Đã APPROVED, chưa applied
-
-### ⚪ Priority 3 — System Clean
-- Inbox: 0 items
-- Wiki Sources: 44 files
-- Wiki Concepts: 199 files
+> **Time:** 2026-06-04 04:00 Asia/Saigon
+> **Status:** ATTENTION REQUIRED
 
 ---
 
-## System Status
+## System Health
 
-| Component | Status | Last Updated |
+| Check | Result |
+|---|---|
+| Inbox (Tasks/) | ✅ Empty |
+| Raw backlog (>24h) | ⚠️ **43 files** oldest from 2026-05-02 |
+| Unprocessed new | ⚠️ **9 files** from 2026-06-03 |
+| Pending review | ✅ No new entries since 2026-06-03 |
+
+---
+
+## Raw Backlog Detail
+
+**43 files** in `raw/` not modified in 24h. Breakdown by type:
+
+| Type | Count | Oldest |
 |---|---|---|
-| Inbox | ✅ Clean | 03:00 |
-| Raw Backlog | 🔴 9 files unprocessed | 03:00 |
-| Wiki Sources | 44 files | — |
-| Wiki Concepts | 199 files | — |
-| Tag Index | ✅ Updated | 21:05 (03/06) |
-| Pending Hermes | 🟡 1 report (re-compile) | 08:23 (03/06) |
+| articles | 28 | 2026-04-02 |
+| papers | 4 | 2026-05-22 |
+| posts | 6 | 2026-05-19 |
+| videos | 4 | 2026-05-22 |
+| websites | 3 | 2026-05-23 |
+| repos | 1 | 2026-05-28 |
+
+**Note:** Most are likely compiled (status: processed) but file age >24h triggers this flag.
 
 ---
 
-## Action Items
+## Unprocessed Files (9)
 
-1. **Compile lúc 08:00** — 9 raw files sẽ được xử lý tự động
-2. **Re-compile sau Hermes approval** — 4 systemic issues cần Julius approve
+From 2026-06-03 — pending CompileAgent:
+
+- `raw/articles/2026-06-03_inversion.md`
+- `raw/articles/2026-06-03_second-order-thinking.md`
+- `raw/articles/2026-06-03_fs-blog-mental-models.md`
+- `raw/articles/2026-06-03_third-order-thinking-how-to-build.md`
+- `raw/articles/2026-06-03_first-principles-thinking.md`
+- `raw/articles/2026-06-03_thought-experiment.md`
+- `raw/articles/2026-06-03_circle-of-competence.md`
+- `raw/articles/2026-06-03_map-is-not-the-territory.md`
+- `raw/articles/2026-06-03_probabilistic-thinking.md`
+
+CompileAgent runs at 08:00 — no action needed.
 
 ---
 
-*Next heartbeat: 04:00*
+## Pending Review
+
+`wiki/reviews/_action-required.md` — **1 systemic issue** awaiting re-compile (approved by Hermes 2026-06-03).
+
+---
+
+*Next heartbeat: 04:30*

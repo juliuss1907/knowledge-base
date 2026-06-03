@@ -1,4 +1,4 @@
-# HEARTBEAT — 2026-06-04 03:00
+# HEARTBEAT — 2026-06-04 03:30
 
 **Status:** ⚠️ ATTENTION REQUIRED
 
@@ -18,7 +18,6 @@
 
 ### ⚪ Priority 3 — System Clean
 - Inbox: 0 items
-- Tag Index: ✅ Updated (2026-06-03 21:05)
 - Wiki Sources: 44 files
 - Wiki Concepts: 199 files
 
@@ -28,8 +27,8 @@
 
 | Component | Status | Last Updated |
 |---|---|---|
-| Inbox | ✅ Clean | 02:30 |
-| Raw Backlog | 🔴 9 files unprocessed | 02:30 |
+| Inbox | ✅ Clean | 03:00 |
+| Raw Backlog | 🔴 9 files unprocessed | 03:00 |
 | Wiki Sources | 44 files | — |
 | Wiki Concepts | 199 files | — |
 | Tag Index | ✅ Updated | 21:05 (03/06) |
@@ -44,4 +43,4 @@
 
 ---
 
-*Next heartbeat: 03:30*
+*Next heartbeat: 04:00*

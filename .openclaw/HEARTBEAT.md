@@ -1,4 +1,4 @@
-# HEARTBEAT — 2026-06-04 00:30
+# HEARTBEAT — 2026-06-04 01:30
 
 **Status:** ⚠️ ATTENTION REQUIRED
 
@@ -7,15 +7,17 @@
 ## Issues Found
 
 ### 🔴 Priority 1 — Raw Backlog
-- **9 files** trong `raw/articles/` có `status: unprocessed`
-- Tất cả ingested hôm qua (2026-06-03), 19:33–19:54
-- Compile chạy lúc 08:00 — không bao gồm files mới
-- **Cần CompileAgent chạy để xử lý**
+- **10 files** trong `raw/articles/` và `raw/repos/` có `status: unprocessed`, older than 24h
+- Oldest: 2026-04-02 (`what-comes-after-systems-thinking.md`)
+- Không có dấu hiệu CompileAgent đã chạy lúc 01:00
 
 ### 🟡 Priority 2 — Pending Hermes Report
 - **1 report pending:** Output Validator (2026-06-03)
 - Yêu cầu re-compile cho 4 systemic issues
 - Đã APPROVED nhưng chưa applied
+
+### ⚠️ Priority 3 — Concept Backlinks
+- Sample check: nhiều file trong `wiki/concepts/` có 0 backlinks
 
 ---
 
@@ -23,21 +25,21 @@
 
 | Component | Status | Last Updated |
 |---|---|---|
-| Inbox | ✅ Clean (0 items) | 00:30 |
-| Raw Backlog | 🔴 9 files unprocessed | 00:30 |
-| Wiki Sources | ✅ 0 processed (batch đợi compile) | 08:22 ( kemarin ) |
-| Wiki Concepts | ✅ 4 files mới (batch đợi compile) | 08:22 ( kemarin ) |
-| Tag Index | ✅ Updated | 21:05 ( kemarin ) |
-| Action Required | 🟡 1 pending (re-compile needed) | 08:23 ( kemarin ) |
-| Concept Links | ⚠️ Sample check: nhiều file 0 links | 00:30 |
+| Inbox | ✅ Clean (0 items) | 01:30 |
+| Raw Backlog | 🔴 10 files unprocessed (>24h) | 01:30 |
+| Wiki Sources | ⚠️ Batch đợi compile | 08:22 (02/06) |
+| Wiki Concepts | ⚠️ 4 files mới đợi compile | 08:22 (02/06) |
+| Tag Index | ✅ Updated | 21:05 (02/06) |
+| Action Required | 🟡 1 pending (re-compile needed) | 08:23 (02/06) |
+| Concept Links | ⚠️ Sample check: nhiều file 0 links | 01:30 |
 
 ---
 
 ## Action Items
 
-1. **Compile now** — 9 raw files cần xử lý
+1. **Compile now** — 10 raw files cần xử lý
 2. **Re-compile sau Hermes approval** — 4 systemic issues
 
 ---
 
-*Next heartbeat: 01:00*
+*Next heartbeat: 02:00*

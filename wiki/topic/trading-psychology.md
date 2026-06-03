@@ -1,12 +1,13 @@
 # Topic: trading-psychology
 
-Auto-generated index of all content with topic \.
+Auto-generated index of all content with topic `trading-psychology`.
 
-Last updated: 2026-06-02 21:01:25
+Last updated: 2026-06-03 21:04:41
 
 ---
 
 ## Concepts (7)
+
 - [[cortisol-management]] — main: #economic, sub: [#psychology]
 - [[dopamine-reward-loop]] — main: #economic, sub: [#psychology]
 - [[false-reinforcement-loop]] — main: #economic, sub: [#opinion, #psychology]
@@ -16,4 +17,5 @@ Last updated: 2026-06-02 21:01:25
 - [[trading-psychology]] — main: #economic, sub: [#psychology, #opinion]
 
 ## Sources (1)
+
 - [[src_trading-brain-chemistry-ferb]] — main: #economic, sub: [#opinion, #psychology]

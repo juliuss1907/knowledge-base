@@ -1,12 +1,13 @@
 # Topic: llm-memory-consolidation
 
-Auto-generated index of all content with topic \.
+Auto-generated index of all content with topic `llm-memory-consolidation`.
 
-Last updated: 2026-06-02 21:01:25
+Last updated: 2026-06-03 21:04:41
 
 ---
 
 ## Concepts (7)
+
 - [[fast-weights]] — main: #ai, sub: [#research, #tools]
 - [[gated-delta-networks]] — main: #ai, sub: [#research, #tools]
 - [[hippocampal-replay]] — main: #ai, sub: [#research, #health]
@@ -16,4 +17,5 @@ Last updated: 2026-06-02 21:01:25
 - [[state-space-models-ssm]] — main: #ai, sub: [#research, #tools]
 
 ## Sources (1)
+
 - [[src_llm-need-sleep-consolidation]] — main: #ai, sub: [#research, #tools]

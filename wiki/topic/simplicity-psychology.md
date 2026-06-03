@@ -1,12 +1,13 @@
 # Topic: simplicity-psychology
 
-Auto-generated index of all content with topic \.
+Auto-generated index of all content with topic `simplicity-psychology`.
 
-Last updated: 2026-06-02 21:01:25
+Last updated: 2026-06-03 21:04:41
 
 ---
 
 ## Concepts (5)
+
 - [[glymphatic-system]] — main: #productivity, sub: [#research, #health]
 - [[hedonic-treadmill]] — main: #productivity, sub: [#research, #opinion]
 - [[memory-reconstruction]] — main: #productivity, sub: [#research, #psychology]
@@ -14,4 +15,5 @@ Last updated: 2026-06-02 21:01:25
 - [[stoic-control-dichotomy]] — main: #productivity, sub: [#tutorial, #opinion]
 
 ## Sources (1)
+
 - [[src_why-we-complicate-life-productive-peter]] — main: #productivity, sub: [#tutorial, #opinion]

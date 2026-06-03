@@ -1,12 +1,13 @@
 # Topic: ai-trading-agent-claude-code
 
-Auto-generated index of all content with topic \.
+Auto-generated index of all content with topic `ai-trading-agent-claude-code`.
 
-Last updated: 2026-06-02 21:01:25
+Last updated: 2026-06-03 21:04:41
 
 ---
 
 ## Concepts (6)
+
 - [[agent-journal-pattern]] — main: #ai, sub: [#automation, #tools]
 - [[ai-trading-agent]] — main: #ai, sub: [#automation, #tools, #opinion]
 - [[alpaca-api]] — main: #economic, sub: [#tools, #automation]
@@ -15,4 +16,5 @@ Last updated: 2026-06-02 21:01:25
 - [[paper-trading]] — main: #economic, sub: [#tutorial, #tools]
 
 ## Sources (1)
+
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — main: #tech, sub: [#tutorial, #automation, #tools]

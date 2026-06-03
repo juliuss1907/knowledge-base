@@ -1,12 +1,14 @@
 # Topic: google-ai-mode
 
-Auto-generated index of all content with topic \.
+Auto-generated index of all content with topic `google-ai-mode`.
 
-Last updated: 2026-06-02 21:01:25
+Last updated: 2026-06-03 21:04:41
 
 ---
 
 ## Concepts (1)
+
 - [[google-ai-mode]] — main: #ai, sub: [#tools, #research]
 
 ## Sources (0)
+

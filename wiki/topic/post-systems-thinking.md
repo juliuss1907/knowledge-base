@@ -1,12 +1,13 @@
 # Topic: post-systems-thinking
 
-Auto-generated index of all content with topic \.
+Auto-generated index of all content with topic `post-systems-thinking`.
 
-Last updated: 2026-06-02 21:01:25
+Last updated: 2026-06-03 21:04:41
 
 ---
 
 ## Concepts (7)
+
 - [[ashbys-law]] — main: #system, sub: [#research, #opinion]
 - [[complex-adaptive-systems]] — main: #system, sub: [#research, #opinion]
 - [[complicated-vs-complex]] — main: #system, sub: [#research, #opinion]
@@ -16,4 +17,5 @@ Last updated: 2026-06-02 21:01:25
 - [[systems-thinking-limitations]] — main: #system, sub: [#research, #opinion]
 
 ## Sources (1)
+
 - [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#research, #opinion]

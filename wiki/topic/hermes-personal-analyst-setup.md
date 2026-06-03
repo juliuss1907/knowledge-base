@@ -1,12 +1,13 @@
 # Topic: hermes-personal-analyst-setup
 
-Auto-generated index of all content with topic \.
+Auto-generated index of all content with topic `hermes-personal-analyst-setup`.
 
-Last updated: 2026-06-02 21:01:25
+Last updated: 2026-06-03 21:04:41
 
 ---
 
 ## Concepts (5)
+
 - [[ai-agent-setup-mistakes]] — main: #ai, sub: [#tools, #tutorial, #opinion]
 - [[hermes-persistent-memory]] — main: #ai, sub: [#tools, #automation]
 - [[hindsight-skill]] — main: #ai, sub: [#tools, #automation]
@@ -14,4 +15,5 @@ Last updated: 2026-06-02 21:01:25
 - [[personal-analyst-workflow]] — main: #ai, sub: [#automation, #tools]
 
 ## Sources (1)
+
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — main: #ai, sub: [#tools, #automation, #opinion]

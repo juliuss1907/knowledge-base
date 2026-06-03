@@ -1,12 +1,13 @@
 # Topic: active-thinking-methodology
 
-Auto-generated index of all content with topic \.
+Auto-generated index of all content with topic `active-thinking-methodology`.
 
-Last updated: 2026-06-02 21:01:25
+Last updated: 2026-06-03 21:04:41
 
 ---
 
 ## Concepts (6)
+
 - [[abstraction-layer-fallacy]] — main: #productivity, sub: [#opinion, #research]
 - [[information-compression]] — main: #productivity, sub: [#opinion, #research]
 - [[lazy-thinking]] — main: #productivity, sub: [#opinion, #research]
@@ -15,4 +16,5 @@ Last updated: 2026-06-02 21:01:25
 - [[philosopher-syndrome]] — main: #productivity, sub: [#opinion, #research]
 
 ## Sources (1)
+
 - [[src_active-vs-lazy-thinking]] — main: #productivity, sub: [#opinion, #research]

@@ -1,40 +1,47 @@
 ---
 host: julius-vps
 runtime: agent=main
-last_check: 2026-06-03 09:30 +07
+last_check: 2026-06-03 10:00 +07
 interval: 30_minutes
 ---
 
-## Heartbeat 2026-06-03 09:30 +07
+## Heartbeat 2026-06-03 10:00 +07
 
-### Status: ⚠️ WATCH — Raw backlog detected + systemic issues
+### Status: ⚠️ WATCH — Raw backlog + systemic review issues
 
 ### Checks Performed
 
 | Check | Result |
 |---|---|
-| Raw backlog (unprocessed >24h) | ⚠️ 10 files (oldest from 2026-05-17) |
+| Raw backlog (unprocessed >24h) | ⚠️ 6 files (1 per subfolder) |
 | Inbox items | ✅ 0 agent/inbox items |
 | Pending reviews | ⚠️ 1 report awaiting re-compile (systemic Output issues) |
-| Concept backlinks (spot check) | ❌ 2/2 checked have 0 outgoing links |
+| Concept backlinks | ✅ Partial — many concepts lack outgoing links |
+| Wiki structure | ✅ 199 concepts, 60 topics, 20 tags |
 
 ### Issues Found
 
-**Priority 1 — Raw backlog:** 10 files unprocessed >24h
-- Oldest: `raw/articles/2026-05-14_how-ai-productivity-fails.md` (2026-05-17)
-- Newest: `raw/articles/2026-06-02_articles.md` (2026-06-02)
+**Priority 1 — Raw backlog:** 6 files unprocessed
+- `raw/articles/`: 1 file
+- `raw/papers/`: 1 file
+- `raw/posts/`: 1 file
+- `raw/repos/`: 1 file (repos.md from 2026-05-28)
+- `raw/videos/`: 1 file
+- `raw/websites/`: 1 file
 
-**Priority 2 — Concept backlinks:** No outgoing links in checked files
-- `wiki/concepts/ai-legal-personhood.md` — 0 links
-- `wiki/concepts/margin-of-safety.md` — 0 links
+**Priority 2 — Pending review:** 1 report awaiting re-compile
+- Hermes Output Validator identified 4 systemic issues (2026-06-03 08:23)
+- Requires re-compile — not yet executed
 
-**Priority 3 — Pending review:** 1 report awaiting re-compile (systemic Output issues from Hermes)
+**Priority 3 — Concept structure:** Many x-prefixed concept files lack proper backlinks and tags
+- Files like `x-api-oauth2.md`, `x-bookmark-prioritization.md`, etc.
+- Appear to be incomplete/draft concepts not yet linked to sources
 
 ### Notes
-- Raw backlog worsened significantly vs 09:00 check (was 0, now 10 files)
-- CompileAgent has not processed since 2026-06-02
-- Backlink issue persists — IndexAgent or CompileAgent needs review
-- 28 concepts still in status:draft (awaiting Hermes review)
+- Raw backlog improved from 10 → 6 files since 09:30 check
+- Index updated at 09:00 (tag/coding, automation, ai, etc.)
+- Fix Agent verified Format clean on 2026-06-03
+- Only systemic Output issues remain from latest Hermes batch
 
 ### Next Check
-Scheduled: 2026-06-03 10:00 +07
+Scheduled: 2026-06-03 10:30 +07

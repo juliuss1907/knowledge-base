@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-01T19:00:36.276Z",
+  "updatedAt": "2026-06-03T08:30:21.094Z",
   "entries": {
     "memory:memory/2026-05-28.md:1:21": {
       "key": "memory:memory/2026-05-28.md:1:21",
@@ -9,22 +9,24 @@
       "endLine": 21,
       "source": "memory",
       "snippet": "## 2026-05-28 08:30-09:00 — Fix Agent Batch Execution **Fixes Applied:** 1. **Cross-contamination (src_llm-need-sleep-consolidation.md)** — Removed OPEC excerpt, kept LLM Sleep quotes 2. **15 dangling wikilinks** — Created 15 concept stubs: - AI Trading cluster (5): claude-code-routines, alpaca-api, paper-trading, agent-journal-pattern, multi-agent-risk-review - LLM Architecture cluster (5): state-space-models-ssm, fast-weights, gated-delta-networks, kv-cache-eviction, hippocampal-replay - Oil Geopolitics cluster (5): kinked-demand-curve, spare-production-capacity, strait-of-hormuz-geopolitics, uae-saudi-rivalry, american-security-guarantee 3. **3 empty Sources sections** — Adde",
-      "recallCount": 3,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1.2893268436193466,
+      "totalScore": 1.7044627219438553,
       "maxScore": 0.44128367304801935,
       "firstRecalledAt": "2026-05-29T17:30:30.497Z",
-      "lastRecalledAt": "2026-06-01T19:00:36.276Z",
+      "lastRecalledAt": "2026-06-03T08:30:21.094Z",
       "queryHashes": [
         "86ae24196de4",
         "ac520d46acfa",
-        "fb31313fd00d"
+        "fb31313fd00d",
+        "6149ae4f8613"
       ],
       "recallDays": [
         "2026-05-30",
         "2026-05-31",
-        "2026-06-02"
+        "2026-06-02",
+        "2026-06-03"
       ],
       "conceptTags": [
         "network",

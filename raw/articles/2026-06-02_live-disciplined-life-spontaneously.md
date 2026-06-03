@@ -4,7 +4,9 @@ source_type: article
 source_url: https://open.substack.com/pub/navalsarchive/p/live-a-disciplined-life-spontaneously?utm_campaign=post-expanded-share&utm_medium=web
 date_ingested: 2026-06-02
 tags: [productivity, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-06-03
+compiled_to: "[[src_live-disciplined-life-spontaneously]]"
 ---
 
 # Live a Disciplined Life Spontaneously

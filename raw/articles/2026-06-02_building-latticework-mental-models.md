@@ -4,7 +4,9 @@ source_type: article
 source_url: https://open.substack.com/pub/theintellectualedge/p/building-a-latticework-of-mental?utm_source=share&utm_medium=android&r=1g2ue2
 date_ingested: 2026-06-02
 tags: [economic, productivity, research]
-status: unprocessed
+status: processed
+compiled_at: 2026-06-03
+compiled_to: "[[src_building-latticework-mental-models]]"
 ---
 
 # Building a Latticework of Mental Models

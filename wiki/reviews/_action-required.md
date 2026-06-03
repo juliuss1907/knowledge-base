@@ -4,93 +4,87 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-02 08:40 — Fix Agent run #2. Format partially fixed, systemic issues remain.
+**Last updated:** 2026-06-03 08:20 — All 2026-06-03 reports approved. Awaiting fix/re-compile.
 
 ---
 
 ## Summary
-**Pending reports:** 1 (awaiting re-compile for systemic issues)
+**Pending reports:** 1 (awaiting re-compile for systemic Output issues)
 
 **Status:**
-- ✅ Format Validator — 2026-06-01-v2: **PARTIALLY APPLIED** (Fix Agent claims 0/0 but actual: 10 invalid sub_tags + 6 empty remaining)
-- ✅ Output Validator — 2026-06-01-v2: **APPROVED** (4 systemic issues — require re-compile)
-- ✅ Hygiene Inspector — 2026-06-01-v2: **PROMOTE** (0 issues)
-- ✅ Format Validator — 2026-06-01: APPLIED (37 concepts + 3 sources)
-- ✅ Output Validator — 2026-06-01: APPLIED (172 concepts → reviewed)
+- ✅ Format Validator — 2026-06-03: **APPROVED** (5 files: `productivity` → `automation`)
+- ✅ Output Validator — 2026-06-03: **APPROVED** (4 systemic issues — require re-compile)
+- ✅ Hygiene Inspector — 2026-06-03: **PROMOTE** (0 issues)
+- ✅ Format Validator — 2026-06-01-v2: **RESOLVED** (16 files fixed by Connor — Fix Agent had failed 2x)
+- ✅ Output Validator — 2026-06-01-v2: APPROVED
+- ✅ Hygiene Inspector — 2026-06-01-v2: PROMOTE
+- ✅ Format Validator — 2026-06-01: APPLIED
+- ✅ Output Validator — 2026-06-01: APPLIED
 - ✅ Hygiene Inspector — 2026-06-01: PROMOTE
-- ✅ Format Validator — 2026-05-30: RESOLVED
-- ✅ Output Validator — 2026-05-30: RESOLVED
-- ✅ Hygiene Inspector — 2026-05-30: RESOLVED
 
 ---
 
 ## Critical Issues (Fix Immediately)
 
-### ⚠️ Format Validator — 2026-06-01-v2 (16 remaining after Fix Agent #2)
+### ⏳ Format Validator — 2026-06-03 (5 files)
 
-**10 files invalid sub_tags** (chưa được fix):
+**Invalid sub_tag `productivity`** (Pool A tag):
 
-| File | Invalid tag | Suggested |
-|---|---|---|
-| autobiographical-memory-systems.md | `memory` | research |
-| business-idiot-archetype.md | `ai` | opinion |
-| discipline-system.md | `behavior` | research |
-| leading-indicators.md | `analysis` | research |
-| long-context-models.md | `tech` | research |
-| loop-ownership.md | `productivity` | automation |
-| softbank-carry-trade.md | `crypto` | news |
-| static-website-blind-spot.md | `frontend`, `blindspots` | tools |
-| src_deepseek-v4-architecture.md | `tech` | research |
+| File | Fix |
+|---|---|
+| compact-vs-handoff.md | `productivity` → `automation` |
+| context-window-management.md | `productivity` → `automation` |
+| handoff-skill.md | `productivity` → `automation` |
+| session-separation.md | `productivity` → `automation` |
+| src_handoff-skill-context-window-management.md | `productivity` → `automation` |
 
-**6 files empty `sub_tags: []`** (chưa được fix):
-agent-harness, code-as-substrate, evolutionary-mismatch, factory-missions, multi-agent-taxonomy, plan-execute-verify-loop
-
-**Đã fix (41/51 invalid):** Fix Agent pass #1 (27 files) + pass #2 (14 files)
+These are files newly compiled after the previous fix run. Compile Agent hasn't been applied yet.
 
 ---
 
-### ⏳ Output Validator — 2026-06-01-v2 (4 issues)
+### ⏳ Output Validator — 2026-06-03 (4 systemic issues)
 
-**#1 Summary 1 dòng — 227/227 files:** Cần re-compile với Compile Agent mới.
+**#1 Summary 1 dòng — 243/243 files:** Avg 0.18 lines/file. 0 files đạt 3+ câu.
 
-**#2 Key Points <3 — 18 concepts:** Cần re-compile.
+**#2 Key Points <3 — 18 concepts:** Avg 5.3 overall, 18 under threshold.
 
 **#3 Sources trống — 3 concepts:** ai-powered-discovery, second-order-effects, systems-thinking
 
-**#4 Status draft — 15 files:** Cải thiện từ 210 → 15.
+**#4 Status draft — 28 files:** Worsened from 15 → 28 (new files added).
 
 ---
 
-### ✅ Hygiene Inspector — 2026-06-01-v2
+### ✅ Hygiene Inspector — 2026-06-03
 
 **PROMOTE** — 0 issues.
 
 ---
 
-## Systemic Issues
+## Systemic Issues (No File-Level Fix)
 
-| Issue | Count | Root cause | Fix |
-|---|---|---|---|
-| Summary 1 dòng | 227 | Compile Agent prompt cũ | Re-compile |
-| Invalid sub_tags | 51 | Compile Agent dùng main_tags làm sub_tags | Re-compile |
-| Key Points <3 | 18 | Compile Agent không có constraint | Re-compile |
-| Sources trống | 3 | Compile Agent không enforce | Re-compile |
+All Output Validator issues + the persistent `productivity` as sub_tag pattern require **re-compile with updated Compile Agent**.
 
-**All systemic issues require re-compile with updated Compile Agent.**
+Compile Agent has been updated (2026-06-01) but has not been run yet:
+- Vietnamese output
+- 3-5 sentence Summary
+- ≥3 Key ideas
+- No empty Sources
+- No main_tags as sub_tags
+- Status lifecycle
 
 ---
 
 ## Commands
 
-**To approve a report:**
+**To approve:**
 ```
-approve output-v2
-approve format-v2
+approve format
+approve output
 ```
 
-**To view full report:**
+**To view reports:**
 ```
-show output-v2
-show format-v2
-show hygiene-v2
+show format
+show output
+show hygiene
 ```

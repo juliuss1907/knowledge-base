@@ -394,3 +394,9 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 - Raw backlog: 9 files unprocessed (all from today 19:33-19:54)
 - Pending Hermes: 1 report (Output Validator — requires re-compile)
 - Status: ⚠️ ATTENTION REQUIRED
+
+
+## 2026-06-04 02:00:00 — Heartbeat Check
+- Raw backlog: 9 files unprocessed (from 2026-06-03)
+- Pending Hermes: 1 report (Output Validator — requires re-compile)
+- Status: ⚠️ ATTENTION REQUIRED

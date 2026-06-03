@@ -1,4 +1,4 @@
-# HEARTBEAT — 2026-06-04 01:30
+# HEARTBEAT — 2026-06-04 02:00
 
 **Status:** ⚠️ ATTENTION REQUIRED
 
@@ -7,17 +7,20 @@
 ## Issues Found
 
 ### 🔴 Priority 1 — Raw Backlog
-- **10 files** trong `raw/articles/` và `raw/repos/` có `status: unprocessed`, older than 24h
-- Oldest: 2026-04-02 (`what-comes-after-systems-thinking.md`)
-- Không có dấu hiệu CompileAgent đã chạy lúc 01:00
+- **9 files** trong `raw/articles/` có `status: unprocessed`
+- All from 2026-06-03 (19:33-19:54)
+- CompileAgent chạy lúc 08:00 sáng — sẽ xử lý
 
 ### 🟡 Priority 2 — Pending Hermes Report
-- **1 report pending:** Output Validator (2026-06-03)
-- Yêu cầu re-compile cho 4 systemic issues
-- Đã APPROVED nhưng chưa applied
+- **1 report pending:** Output Validator (2026-06-03 08:23)
+- Requires re-compile cho 4 systemic issues
+- Đã APPROVED, chưa applied
 
-### ⚠️ Priority 3 — Concept Backlinks
-- Sample check: nhiều file trong `wiki/concepts/` có 0 backlinks
+### ⚪ Priority 3 — System Clean
+- Inbox: 0 items
+- Tag Index: ✅ Updated (2026-06-03 21:05)
+- Wiki Sources: 44 files
+- Wiki Concepts: 199 files
 
 ---
 
@@ -25,21 +28,20 @@
 
 | Component | Status | Last Updated |
 |---|---|---|
-| Inbox | ✅ Clean (0 items) | 01:30 |
-| Raw Backlog | 🔴 10 files unprocessed (>24h) | 01:30 |
-| Wiki Sources | ⚠️ Batch đợi compile | 08:22 (02/06) |
-| Wiki Concepts | ⚠️ 4 files mới đợi compile | 08:22 (02/06) |
-| Tag Index | ✅ Updated | 21:05 (02/06) |
-| Action Required | 🟡 1 pending (re-compile needed) | 08:23 (02/06) |
-| Concept Links | ⚠️ Sample check: nhiều file 0 links | 01:30 |
+| Inbox | ✅ Clean | 02:00 |
+| Raw Backlog | 🔴 9 files unprocessed | 02:00 |
+| Wiki Sources | 44 files | — |
+| Wiki Concepts | 199 files | — |
+| Tag Index | ✅ Updated | 21:05 (03/06) |
+| Pending Hermes | 🟡 1 report (re-compile) | 08:23 (03/06) |
 
 ---
 
 ## Action Items
 
-1. **Compile now** — 10 raw files cần xử lý
-2. **Re-compile sau Hermes approval** — 4 systemic issues
+1. **Compile lúc 08:00** — 9 raw files sẽ được xử lý tự động
+2. **Re-compile sau Hermes approval** — 4 systemic issues cần Julius approve
 
 ---
 
-*Next heartbeat: 02:00*
+*Next heartbeat: 02:30*

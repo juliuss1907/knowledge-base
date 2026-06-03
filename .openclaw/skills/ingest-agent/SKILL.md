@@ -50,16 +50,46 @@ source: <domain or platform name>
 ```
 
 **Required fields:** `type`, `title`, `date_ingested`, `status`
-
 **Optional but recommended:** `url`, `author`, `date_published`, `source`
+
+**⚠️ WRONG FORMATS (common mistakes):**
+```yaml
+# ❌ WRONG — do NOT use these formats:
+type: raw                  # must be one of 6 types: article|post|video|paper|repo|website
+source_type: article       # wrong field name — use `type`
+tags: [productivity, ...]  # raw/ does not use tags — Compile Agent assigns tags later
+```
+```yaml
+# ✅ CORRECT:
+type: article
+title: Inversion — Farnam Street
+url: https://fs.blog/inversion/
+author: Farnam Street
+date_ingested: 2026-06-03
+status: unprocessed
+source: fs.blog
+```
 
 ## Content extraction rules
 
+### ⚠️ CRITICAL: Raw files MUST contain full content
+
+**Ingest Agent stores content. Compile Agent processes it.** Do NOT summarize in raw/ — that's Compile Agent's job.
+
+**Minimum body length:** 500 characters for articles, papers, websites. If body is shorter, you failed to fetch full content — retry with different method.
+
+**Forbidden in raw body:**
+- ❌ 1-sentence summaries ("A mental model used by Charlie Munger...")
+- ❌ "Key Concepts" or "Concepts referenced" sections (that's Compile Agent's output)
+- ❌ Backlinks to non-existent wiki files (`[[concept]]` in raw is always wrong)
+
 ### Articles
-- Fetch full text via curl or reader mode
+- **Fetch full text** via curl, reader mode, or browser
 - Strip ads, navigation, footers
-- Preserve headings, lists, code blocks
+- **Preserve all headings, paragraphs, lists, code blocks** — keep article structure intact
 - Keep inline links
+- If paywall/login blocks: escalate to Julius, do NOT substitute with summary
+- **After fetch, verify:** `wc -c` should show >500 chars. If not, fetch failed.
 
 ### Posts (X, threads, LinkedIn)
 - Capture full thread if multi-part
@@ -69,12 +99,13 @@ source: <domain or platform name>
 ### Videos
 - Extract title, description, transcript if available
 - Store video URL in frontmatter
-- Summarize key points if transcript exists
+- **If transcript exists, include FULL transcript** (not summary)
 
 ### Papers
 - Prefer markdown conversion over PDF
 - Extract abstract, authors, publication venue
 - Store DOI or arXiv ID in frontmatter
+- **Include full abstract + key sections** (not just metadata)
 
 ### Repos
 - Capture README.md content
@@ -82,9 +113,10 @@ source: <domain or platform name>
 - Store GitHub/GitLab URL
 
 ### Websites
-- Store landing page content or tool description
+- Fetch landing page content or tool description
 - Capture pricing, features if relevant
 - Note if requires signup/API key
+- **Include actual page content** (not 1-line summary)
 
 ## File naming
 

@@ -53,3 +53,10 @@ No inbox items detected.
 - **Raw backlog:** 0 files unprocessed
 - **Pending reviews:** 0 new entries
 - **Concept backlinks:** sampled 5 files, all have 4-5 links ✓
+
+## 2026-06-03 19:30 ICT
+- **Inbox:** 0 items
+- **Raw backlog:** 8 files unprocessed (all from today, fs.blog articles)
+- **Pending reviews:** 1 report requiring re-compile (Output systemic issues from 2026-06-03)
+- **Format issues:** 5 files need `productivity` → `automation` tag fix
+- **Concept backlinks:** not checked (focused on backlog)

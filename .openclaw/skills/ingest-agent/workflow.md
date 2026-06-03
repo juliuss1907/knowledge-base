@@ -166,7 +166,14 @@ Check if `raw/<type>/YYYY-MM-DD_<slug>.md` exists:
 
 ## Step 5: Clean Content
 
-Remove unwanted elements before writing:
+Remove unwanted elements before writing. **Do NOT summarize or truncate the content.** The goal is to preserve as much of the original as possible — Compile Agent will extract knowledge atoms later.
+
+### ⚠️ CRITICAL: Never replace content with a summary
+- ❌ Do NOT write 1-sentence summaries ("A mental model used by...")
+- ❌ Do NOT add "Key Concepts" or "Concepts referenced" sections
+- ❌ Do NOT add wikilinks `[[concept]]` — these don't exist yet
+- ✅ Preserve ALL headings, paragraphs, lists, code blocks from original
+- ✅ Minimum body: 500+ characters for articles/papers/websites
 
 ### For articles
 - Strip `<script>`, `<style>`, `<nav>`, `<footer>`, `<aside>` tags
@@ -178,7 +185,8 @@ Remove unwanted elements before writing:
   - `<p>` → paragraph
   - `<a href="...">` → `[text](url)`
   - `<code>` → `` `code` ``
-  - `<pre><code>` → ` ```language\ncode\n``` `
+  - `<pre><code>` → ` ```language\\ncode\\n``` `
+- **After conversion, verify body has 500+ chars.** If not, fetch failed — escalate or retry.
 
 ### For posts
 - Keep original formatting (line breaks, @mentions, #hashtags)
@@ -206,7 +214,7 @@ Remove unwanted elements before writing:
 
 ## Step 6: Construct Frontmatter
 
-Build YAML frontmatter with extracted metadata:
+Build YAML frontmatter with extracted metadata. **Use this exact schema — do NOT invent custom fields.**
 
 ```yaml
 ---
@@ -218,6 +226,14 @@ date_ingested: YYYY-MM-DD  # Today's date
 status: unprocessed
 source: <domain or platform>
 ---
+```
+
+**⚠️ WRONG FORMATS — NEVER use these:**
+```yaml
+# ❌ These are ALL wrong:
+type: raw                    # must be article|post|video|paper|repo|website
+source_type: article         # wrong field name
+tags: [productivity, ...]    # raw files don't use tags
 ```
 
 **Validation before writing:**

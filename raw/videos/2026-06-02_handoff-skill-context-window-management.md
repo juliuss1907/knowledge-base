@@ -4,7 +4,9 @@ source_type: video
 source_url: https://www.youtube.com/watch?v=dtAJ2dOd3ko
 date_ingested: 2026-06-02
 tags: [ai, tools, productivity]
-status: unprocessed
+status: processed
+compiled_at: 2026-06-03
+compiled_to: "[[src_handoff-skill-context-window-management]]"
 ---
 
 # Handoff Skill — Context Window Management for AI Coding Agents

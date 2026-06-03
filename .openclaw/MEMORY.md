@@ -1,3 +1,43 @@
+---
+
+## 2026-06-03 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-06-02_live-disciplined-life-spontaneously.md | src_live-disciplined-life-spontaneously | discipline-as-freedom, spontaneity-within-structure, habit-automation |
+| raw/articles/2026-06-02_building-latticework-mental-models.md | src_building-latticework-mental-models | latticework-of-mental-models, mental-models, interdisciplinary-thinking, physics-envy, margin-of-safety |
+| raw/videos/2026-06-02_handoff-skill-context-window-management.md | src_handoff-skill-context-window-management | handoff-skill, context-window-management, session-separation, cross-agent-workflow, compact-vs-handoff |
+
+### Summary
+
+- **Processed:** 3/3 files
+- **Source notes created:** 3
+- **Concepts created:** 13
+- **Status updated:** All raw files → `processed`
+- **Index Agent:** Chạy riêng lúc 21:00
+
+### Tags Applied
+
+**Main tags:**
+- productivity × 1 file
+- economic × 1 file
+- ai × 1 file
+
+**Sub tags:**
+- opinion × 2 files
+- psychology × 2 files
+- research × 2 files
+- automation × 1 file
+- tools × 1 file
+- productivity × 1 file
+- coding × 1 file
+
+---
+
 ## 2026-06-02 08:00:00 — Compiled (Daily Cron)
 
 **Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)

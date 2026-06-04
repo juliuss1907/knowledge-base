@@ -1,6 +1,6 @@
-# HEARTBEAT.md — OpenClaw System Check
+# HEARTBEAT.md — Kara, AX400
 
-**Checked:** 2026-06-05 03:00 (Asia/Saigon) / 2026-06-04 20:00 UTC
+> Last updated: 2026-06-05 05:00 (Asia/Saigon) / 2026-06-04 22:00 UTC
 
 ---
 
@@ -15,41 +15,12 @@
   - `raw/articles/2026-06-04_thermodynamics.md`
 - CompileAgent will process at 08:00 today
 
-### Pending Reviews
-- **1 report awaiting re-compile** (Output systemic issues from 2026-06-03)
-- No new Hermes reviews since last check
-
-### Infrastructure
-- All write zones accessible
-- No permission errors
-- Indexes current (last update: 2026-06-04 21:00)
-
----
-
-**HEARTBEAT_OK**  
-*Kara — 2026-06-05 03:00*
----
-
-**Checked:** 2026-06-05 03:30 (Asia/Saigon) / 2026-06-04 20:30 UTC
-
----
-
-## System Status: ✅ HEALTHY
-
-### Raw Backlog
-- **5 files unprocessed** — all from 2026-06-04
-  - `raw/articles/2026-06-04_galilean-relativity.md`
-  - `raw/articles/2026-06-04_hanlons-razor.md`
-  - `raw/articles/2026-06-04_occams-razor.md`
-  - `raw/articles/2026-06-04_reciprocity.md`
-  - `raw/articles/2026-06-04_thermodynamics.md`
-- CompileAgent will process at 08:00 today
-
 ### Inbox
 - 0 items tagged #agent/inbox
 
 ### Pending Reviews
-- 0 action items in wiki/reviews/_action-required.md
+- 1 pending report (from 2026-06-03) — 4 systemic Output issues awaiting re-compile
+- Status: APPROVED by Julius, Fix Agent will handle after next compile cycle
 
 ### Infrastructure
 - All write zones accessible
@@ -58,4 +29,4 @@
 ---
 
 **HEARTBEAT_OK**  
-*Kara — 2026-06-05 03:30*
+*Kara — 2026-06-05 05:00*

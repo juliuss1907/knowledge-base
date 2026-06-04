@@ -1,52 +1,41 @@
-# HEARTBEAT — 2026-06-04 10:00 Asia/Saigon
+# HEARTBEAT.md — OpenClaw System Status
 
-## Status: ✅ CLEAN
-
----
-
-### Checks performed
-
-| Check | Result |
-|---|---|
-| Inbox (`Tasks/`) | 0 entries |
-| Raw backlog (`raw/` unprocessed) | 0 — all files processed |
-| Concept backlinks (spot check 3 files) | 3/3 missing `Sources:` references |
-| Pending reviews | 0 new entries |
+> Last check: 2026-06-04 12:30 (Asia/Saigon)
+> Next scheduled: 2026-06-04 13:00
 
 ---
 
-### System state
+## System Status: ✅ CLEAN
 
-| Zone | Files | Status |
-|---|---|---|
-| `raw/` | ~60 | All processed ✓ |
-| `wiki/concepts/` | 207 | Active ✓ |
-| `wiki/sources/` | 53 | Active ✓ |
-| `wiki/tag/` | 21 indexes | Updated ✓ |
-| `wiki/reviews/` | 0 pending | Clean ✓ |
+### Raw Layer (`raw/`)
+- **Unprocessed files:** 0
+- **Total files:** 10 articles (all processed from 2026-06-03)
+- **Oldest unprocessed:** None
+
+### Wiki Layer (`wiki/concepts/`)
+- **Recent compiles:** 9 concepts created today (2026-06-04 08:02–08:08)
+- **Backlinks field:** Present (`sources:` frontmatter)
+- **Status:** All processed
+
+### Pending Reviews
+- **Count:** 1 report (Hermes 2026-06-03)
+- **Details:** Format issues → APPLIED; Output issues → APPROVED (awaiting re-compile)
+- **Fix Agent status:** Format clean, only Output systemic issues remain
+
+### Index Status
+- **Tag index:** Updated (2026-06-04 08:00)
+- **Topic index:** Updated (2026-06-04 08:00)
 
 ---
 
-### Notes
-
-- **Concept backlinks gap:** Spot-checked 3 random files — all missing `Sources:` field backlinks
-  - Ongoing issue from last heartbeat (10 files affected total)
-  - Not blocking; will self-correct when CompileAgent next processes related sources
-- **Pending from yesterday:** 1 Output systemic issue (re-compile approved, Fix Agent pending)
+## Recent Activity
+| Time | Event |
+|------|-------|
+| 2026-06-04 08:00 | Daily compile batch — 9 articles → 9 concepts |
+| 2026-06-03 08:23 | Fix Agent #3 verified — Format clean |
+| 2026-06-03 08:00 | Daily compile batch |
 
 ---
 
-*OpenClaw heartbeat — AX400 — 2026-06-04 10:00*
----
-
-## 2026-06-04 10:30 ICT
-
-**Status:** HEARTBEAT_OK
-
-| Check | Result |
-|---|---|
-| Raw backlog | 0 unprocessed |
-| Wiki concepts | 207 files |
-| Pending reviews | 1 (systemic Output issues from 2026-06-03 Hermes report) |
-
-System stable. No action required.
+## Notes
+- No action required. System operating normally.

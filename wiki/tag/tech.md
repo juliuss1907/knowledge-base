@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tech
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #tech
@@ -19,7 +19,7 @@ last_updated: 2026-06-03
 - Total files: 18
 - Sources: 4
 - Concepts: 14
-- Last updated: 2026-06-03
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
@@ -41,11 +41,3 @@ last_updated: 2026-06-03
 - [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)
 - [[x-api-oauth2]] — X Api Oauth2 (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
-
-## Co-occurring tags
-
-- [[tools]] — 17 co-occurrences
-- [[hack]] — 10 co-occurrences
-- [[automation]] — 4 co-occurrences
-- [[tutorial]] — 4 co-occurrences
-- [[news]] — 3 co-occurrences

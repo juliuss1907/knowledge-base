@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #research
@@ -16,14 +16,15 @@ last_updated: 2026-06-03
 
 ## Stats
 
-- Total files: 122
+- Total files: 126
 - Sources: 21
-- Concepts: 101
-- Last updated: 2026-06-03
+- Concepts: 105
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
+- [[active-thinking]] — Active Thinking (concept)
 - [[agency-law]] — Agency Law (concept)
 - [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
@@ -50,7 +51,9 @@ last_updated: 2026-06-03
 - [[dynamic-edge-trading]] — Dynamic Edge Trading (concept)
 - [[ebitda-trap]] — Ebitda Trap (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
+- [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
+- [[factory-missions]] — Factory Missions (concept)
 - [[fast-weights]] — Fast Weights (concept)
 - [[financial-metrics]] — Financial Metrics (concept)
 - [[four-layer-framework]] — Four Layer Framework (concept)
@@ -88,8 +91,8 @@ last_updated: 2026-06-03
 - [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
-- [[mental-models]] — Mental Models (concept)
 - [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
+- [[multi-agent-taxonomy]] — Multi Agent Taxonomy (concept)
 - [[negative-compounding]] — Negative Compounding (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
@@ -100,6 +103,7 @@ last_updated: 2026-06-03
 - [[petrodollar-system]] — Petrodollar System (concept)
 - [[philosopher-syndrome]] — Philosopher Syndrome (concept)
 - [[physics-envy]] — Physics Envy (concept)
+- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
 - [[policy-review-framework]] — Policy Review Framework (concept)
 - [[productivity-wage-gap]] — Productivity Wage Gap (concept)
 - [[prospective-memory-gap]] — Prospective Memory Gap (concept)
@@ -145,11 +149,3 @@ last_updated: 2026-06-03
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
-
-## Co-occurring tags
-
-- [[opinion]] — 53 co-occurrences
-- [[ai]] — 46 co-occurrences
-- [[tools]] — 29 co-occurrences
-- [[economic]] — 29 co-occurrences
-- [[productivity]] — 26 co-occurrences

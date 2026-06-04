@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: vibecode
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #vibecode
@@ -16,17 +16,12 @@ last_updated: 2026-06-03
 
 ## Stats
 
-- Total files: 1
+- Total files: 2
 - Sources: 0
-- Concepts: 1
-- Last updated: 2026-06-03
+- Concepts: 2
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
+- [[code-as-substrate]] — Code As Substrate (concept)
 - [[hermes-agent]] — Hermes Agent (concept)
-
-## Co-occurring tags
-
-- [[ai]] — 1 co-occurrence
-- [[automation]] — 1 co-occurrence
-- [[tools]] — 1 co-occurrence

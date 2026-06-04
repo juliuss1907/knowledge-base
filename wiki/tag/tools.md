@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #tools
@@ -16,14 +16,15 @@ last_updated: 2026-06-03
 
 ## Stats
 
-- Total files: 111
+- Total files: 113
 - Sources: 22
-- Concepts: 89
-- Last updated: 2026-06-03
+- Concepts: 91
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
 - [[agent-handoff]] — Agent Handoff (concept)
+- [[agent-harness]] — Agent Harness (concept)
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
 - [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
@@ -44,6 +45,7 @@ last_updated: 2026-06-03
 - [[claude-builder-role]] — Claude Builder Role (concept)
 - [[claude-code-routines]] — Claude Code Routines (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
+- [[code-as-substrate]] — Code As Substrate (concept)
 - [[codified-taste]] — Codified Taste (concept)
 - [[compact-vs-handoff]] — Compact Vs Handoff (concept)
 - [[consent-phishing]] — Consent Phishing (concept)
@@ -134,11 +136,3 @@ last_updated: 2026-06-03
 - [[x-search-tool]] — X Search Tool (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
 - [[zero-member-llc]] — Zero Member Llc (concept)
-
-## Co-occurring tags
-
-- [[ai]] — 79 co-occurrences
-- [[automation]] — 49 co-occurrences
-- [[research]] — 29 co-occurrences
-- [[opinion]] — 18 co-occurrences
-- [[tech]] — 17 co-occurrences

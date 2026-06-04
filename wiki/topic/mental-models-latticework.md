@@ -1,17 +1,16 @@
 # Topic: mental-models-latticework
 
-Auto-generated index of all content with topic `mental-models-latticework`.
+Auto-generated index of all content with topic .
 
-Last updated: 2026-06-03 21:05:26
+Last updated: 2026-06-04 14:03:11
 
 ---
 
-## Concepts (5)
+## Concepts (4)
 
 - [[interdisciplinary-thinking]] — main: #economic, sub: [#research, #psychology]
 - [[latticework-of-mental-models]] — main: #economic, sub: [#research, #psychology]
 - [[margin-of-safety]] — main: #economic, sub: [#research]
-- [[mental-models]] — main: #economic, sub: [#research, #psychology]
 - [[physics-envy]] — main: #economic, sub: [#research, #psychology]
 
 ## Sources (1)

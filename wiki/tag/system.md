@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: system
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #system
@@ -19,7 +19,7 @@ last_updated: 2026-06-03
 - Total files: 13
 - Sources: 1
 - Concepts: 12
-- Last updated: 2026-06-03
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
@@ -36,10 +36,3 @@ last_updated: 2026-06-03
 - [[systems-thinking]] — Systems Thinking (concept)
 - [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
 - [[taste-holders]] — Taste Holders (concept)
-
-## Co-occurring tags
-
-- [[opinion]] — 9 co-occurrences
-- [[research]] — 9 co-occurrences
-- [[automation]] — 5 co-occurrences
-- [[tools]] — 3 co-occurrences

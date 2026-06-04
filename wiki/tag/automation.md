@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: automation
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #automation
@@ -16,14 +16,15 @@ last_updated: 2026-06-03
 
 ## Stats
 
-- Total files: 54
+- Total files: 58
 - Sources: 11
-- Concepts: 43
-- Last updated: 2026-06-03
+- Concepts: 47
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
 - [[agent-handoff]] — Agent Handoff (concept)
+- [[agent-harness]] — Agent Harness (concept)
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
 - [[agentic-commerce]] — Agentic Commerce (concept)
@@ -41,6 +42,7 @@ last_updated: 2026-06-03
 - [[context-window-management]] — Context Window Management (concept)
 - [[conversational-website]] — Conversational Website (concept)
 - [[cross-agent-workflow]] — Cross Agent Workflow (concept)
+- [[factory-missions]] — Factory Missions (concept)
 - [[grok-hermes-integration]] — Grok Hermes Integration (concept)
 - [[habit-automation]] — Habit Automation (concept)
 - [[handoff-skill]] — Handoff Skill (concept)
@@ -52,9 +54,11 @@ last_updated: 2026-06-03
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[loop-ownership]] — Loop Ownership (concept)
 - [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
+- [[multi-agent-taxonomy]] — Multi Agent Taxonomy (concept)
 - [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
 - [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
+- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
 - [[prospective-memory-gap]] — Prospective Memory Gap (concept)
 - [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)
 - [[session-separation]] — Session Separation (concept)
@@ -77,11 +81,3 @@ last_updated: 2026-06-03
 - [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
 - [[x-search-tool]] — X Search Tool (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
-
-## Co-occurring tags
-
-- [[tools]] — 49 co-occurrences
-- [[ai]] — 42 co-occurrences
-- [[opinion]] — 8 co-occurrences
-- [[tutorial]] — 8 co-occurrences
-- [[system]] — 5 co-occurrences

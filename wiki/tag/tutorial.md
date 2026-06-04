@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tutorial
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-06-03
 
 ## Stats
 
-- Total files: 30
-- Sources: 9
-- Concepts: 21
-- Last updated: 2026-06-03
+- Total files: 32
+- Sources: 10
+- Concepts: 22
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
@@ -31,6 +31,7 @@ last_updated: 2026-06-03
 - [[ebitda-trap]] — Ebitda Trap (concept)
 - [[evening-routine]] — Evening Routine (concept)
 - [[financial-metrics]] — Financial Metrics (concept)
+- [[first-principles-thinking]] — First Principles Thinking (concept)
 - [[free-cash-flow]] — Free Cash Flow (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
 - [[hermes-three-layers]] — Hermes Three Layers (concept)
@@ -42,6 +43,7 @@ last_updated: 2026-06-03
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
 - [[soul-md-configuration]] — Soul Md Configuration (concept)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_first-principles-thinking]] — First Principles Thinking (source)
 - [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
 - [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)
 - [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)
@@ -53,11 +55,3 @@ last_updated: 2026-06-03
 - [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
 - [[x-api-oauth2]] — X Api Oauth2 (concept)
-
-## Co-occurring tags
-
-- [[tools]] — 16 co-occurrences
-- [[ai]] — 10 co-occurrences
-- [[automation]] — 8 co-occurrences
-- [[productivity]] — 8 co-occurrences
-- [[economic]] — 7 co-occurrences

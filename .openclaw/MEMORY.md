@@ -459,3 +459,12 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 - Concept backlinks: Sample shows 0 — systemic issue pending re-compile
 - Pending review: 1 report (Output Validator — 4 systemic issues)
 - Status: ⚠️ ATTENTION REQUIRED (pending Julius approval for re-compile)
+## 2026-06-04 21:00:10 — Indexed
+
+- **Scanned:** 157 concepts + 103 sources = 260 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 65
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped
+

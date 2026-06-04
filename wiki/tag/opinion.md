@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #opinion
@@ -16,14 +16,15 @@ last_updated: 2026-06-03
 
 ## Stats
 
-- Total files: 96
+- Total files: 98
 - Sources: 24
-- Concepts: 72
-- Last updated: 2026-06-03
+- Concepts: 74
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
+- [[active-thinking]] — Active Thinking (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
@@ -49,6 +50,7 @@ last_updated: 2026-06-03
 - [[dollar-as-rent-payment]] — Dollar As Rent Payment (concept)
 - [[dynamic-edge-trading]] — Dynamic Edge Trading (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
+- [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
 - [[false-reinforcement-loop]] — False Reinforcement Loop (concept)
 - [[four-layer-framework]] — Four Layer Framework (concept)
@@ -119,11 +121,3 @@ last_updated: 2026-06-03
 - [[tragic-optimism]] — Tragic Optimism (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
-
-## Co-occurring tags
-
-- [[research]] — 53 co-occurrences
-- [[productivity]] — 28 co-occurrences
-- [[economic]] — 23 co-occurrences
-- [[ai]] — 22 co-occurrences
-- [[tools]] — 18 co-occurrences

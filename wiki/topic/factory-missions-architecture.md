@@ -1,13 +1,15 @@
 # Topic: factory-missions-architecture
 
-Auto-generated index of all content with topic `factory-missions-architecture`.
+Auto-generated index of all content with topic .
 
-Last updated: 2026-06-03 21:05:26
+Last updated: 2026-06-04 14:03:11
 
 ---
 
-## Concepts (1)
+## Concepts (3)
 
+- [[factory-missions]] — main: #ai, sub: [#automation, #research]
+- [[multi-agent-taxonomy]] — main: #ai, sub: [#research, #automation]
 - [[validation-contract]] — main: #ai, sub: [#automation, #tools]
 
 ## Sources (1)

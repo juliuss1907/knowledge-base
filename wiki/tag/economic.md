@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: economic
 auto_generated: true
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Tag: #economic
@@ -16,10 +16,10 @@ last_updated: 2026-06-03
 
 ## Stats
 
-- Total files: 46
+- Total files: 45
 - Sources: 8
-- Concepts: 38
-- Last updated: 2026-06-03
+- Concepts: 37
+- Last updated: 2026-06-04
 
 ## Files with this tag
 
@@ -40,7 +40,6 @@ last_updated: 2026-06-03
 - [[know-when-not-to-trade]] — Know When Not To Trade (concept)
 - [[latticework-of-mental-models]] — Latticework Of Mental Models (concept)
 - [[margin-of-safety]] — Margin Of Safety (concept)
-- [[mental-models]] — Mental Models (concept)
 - [[narrative-certainty-trap]] — Narrative Certainty Trap (concept)
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
 - [[operating-cash-flow]] — Operating Cash Flow (concept)
@@ -69,11 +68,3 @@ last_updated: 2026-06-03
 - [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
-
-## Co-occurring tags
-
-- [[research]] — 29 co-occurrences
-- [[opinion]] — 23 co-occurrences
-- [[psychology]] — 15 co-occurrences
-- [[tools]] — 7 co-occurrences
-- [[tutorial]] — 7 co-occurrences

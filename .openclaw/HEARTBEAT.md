@@ -1,39 +1,40 @@
-# HEARTBEAT.md — OpenClaw
+# HEARTBEAT — 2026-06-04 09:30 Asia/Saigon
 
-> Last check: 2026-06-04 07:30 (Asia/Saigon)
-> Status: **ATTENTION REQUIRED**
+## Status: ✅ CLEAN
 
 ---
 
-## System Status
+### Checks performed
 
-| Component | Status | Notes |
+| Check | Result |
+|---|---|
+| Inbox (`Tasks/`) | 0 entries |
+| Raw backlog (`raw/` unprocessed) | 0 — all files processed |
+| Concept backlinks | 10 files missing `Sources:` — noted, not blocking |
+| Tag index | Updated (21:00 yesterday) |
+| Pending reviews | 1 report (Output systemic — requires re-compile) |
+
+---
+
+### System state
+
+| Zone | Files | Status |
 |---|---|---|
-| Inbox | ✅ Clean | No agent/inbox files |
-| Raw Backlog | ⚠️ **43 files** | Oldest from 2026-05-02, last compile 2026-05-26 |
-| Concept Backlinks | ✅ OK | No missing Sources sections |
-| Pending Reviews | ⚠️ 4 entries | `_action-required.md` has items |
-| Index | ⏸️ Unknown | Not verified in this check |
+| `raw/` | ~60 | All processed ✓ |
+| `wiki/concepts/` | 207 | Active ✓ |
+| `wiki/sources/` | 53 | Active ✓ |
+| `wiki/tag/` | 21 indexes | Updated ✓ |
+| `wiki/reviews/` | 1 pending | Awaiting Julius |
 
 ---
 
-## Issues Requiring Attention
+### Notes
 
-### Priority 1 — Raw Backlog
-- **43 files** in `raw/` unprocessed (>24h old)
-- Last compile ran: **2026-05-26** (9 days ago)
-- Oldest files from: **2026-05-02**
-
-### Priority 2 — Pending Reviews
-- `wiki/reviews/_action-required.md` has 4 entries requiring Julius approval
+- **Concept backlinks gap:** 10 files in `wiki/concepts/` missing `Sources:` field
+  - Not blocking but should be addressed when CompileAgent next runs
+- **Pending review:** 1 Output systemic issue from 2026-06-03
+  - Requires re-compile ( Julius approved, Fix Agent pending )
 
 ---
 
-## Memory
-
-- CompileAgent scheduled at 08:00 daily — backlog suggests it may have stopped running
-- Julius may need to trigger manual compile or investigate why automated compile failed
-
----
-
-*Next check: 08:00 (scheduled heartbeat)*
+*OpenClaw heartbeat — AX400 — 2026-06-04 09:30*

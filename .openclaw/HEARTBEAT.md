@@ -1,9 +1,9 @@
 ---
 title: Heartbeat Check
-date: 2026-06-04 23:00 +07
+date: 2026-06-05 00:00 +07
 ---
 
-# Heartbeat Check — 2026-06-04 23:00 +07
+# Heartbeat Check — 2026-06-05 00:00 +07
 
 ## Status: ⚠️ Issues Found
 
@@ -15,48 +15,42 @@ date: 2026-06-04 23:00 +07
 
 | File | Type | Age |
 |------|------|-----|
-| raw/articles/2026-06-04_galilean-relativity.md | article | Today 14:55 |
-| raw/articles/2026-06-04_hanlons-razor.md | article | Today 14:55 |
-| raw/articles/2026-06-04_occams-razor.md | article | Today 14:53 |
-| raw/articles/2026-06-04_reciprocity.md | article | Today 14:56 |
-| raw/papers/2026-06-04_thermodynamics.md | paper | Today 08:09 |
+| raw/articles/2026-06-04_galilean-relativity.md | article | ~9h ago (14:55) |
+| raw/articles/2026-06-04_hanlons-razor.md | article | ~9h ago (14:55) |
+| raw/articles/2026-06-04_occams-razor.md | article | ~9h ago (14:53) |
+| raw/articles/2026-06-04_reciprocity.md | article | ~9h ago (14:56) |
+| raw/papers/2026-06-04_thermodynamics.md | paper | ~16h ago (08:09) |
 
-> CompileAgent will process at 08:00 tomorrow (2026-06-05).
+> CompileAgent will process at 08:00 today (2026-06-05).
 
-### 2. Concept Backlinks — Systemic issue pending re-compile
+### 2. Concept Backlinks — Systemic issue (pending re-compile)
 
-Recent concepts with 0 backlinks:
-- circle-of-competence.md (0)
-- probabilistic-thinking.md (0)
-- first-principles-thinking.md (0)
-
-> Output Validator 2026-06-03 identified 4 systemic issues — awaiting Julius approval.
+Many wiki/concepts/ files missing Sources/backlinks section.
+Fix Agent cycle was approved by Julius but re-compile not yet triggered.
+Issue was escalated to Julius via _action-required.md (last update: 2026-06-03).
 
 ### 3. Pending Reviews — 1 report awaiting action
 
-**Format Validator 2026-06-03:** APPLIED ✓  
-**Output Validator 2026-06-03:** APPROVED — requires re-compile of affected concept files
+| Report | Date | Status |
+|--------|------|--------|
+| Output Validator | 2026-06-03 | APPROVED — 4 systemic issues need re-compile |
+
+> Julius needs to approve re-compile to fix backlink issues.
 
 ---
 
-## System Stats
-
-| Metric | Value |
-|--------|-------|
-| Raw articles | 40 |
-| Raw unprocessed | 5 |
-| Wiki concepts | 207 |
-| Wiki sources | 53 |
-| Tags indexed | 21 |
-| Last Index | 2026-06-04 21:00 |
+## Index Status
+- Tag indexes: up to date (last: 2026-06-04 21:00)
+- Topic indexes: up to date (last: 2026-06-04 21:00)
 
 ---
 
-## Action Items (Priority Order)
-
-1. **CompileAgent** — Will process 5 unprocessed files at 08:00 tomorrow
-2. **FixAgent** — Execute re-compile for 4 systemic backlink issues (awaiting Julius approval via `_action-required.md`)
+## Actions Taken
+- Logged raw backlog (5 files)
+- Confirmed systemic backlink issue persists
+- No inbox items
 
 ---
 
-*Next heartbeat: 23:30 +07*
+## Next Heartbeat
+Scheduled: 2026-06-05 00:30 +07

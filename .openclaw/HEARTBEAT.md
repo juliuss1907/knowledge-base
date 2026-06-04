@@ -1,6 +1,6 @@
 # HEARTBEAT.md
 
-> Last updated: 2026-06-04 19:00:00 (Asia/Saigon)
+> Last updated: 2026-06-04 20:00:00 (Asia/Saigon)
 
 ## Status Summary
 
@@ -13,17 +13,17 @@
 
 | Priority | Issue | Detail |
 |----------|-------|--------|
-| 1 | Raw backlog | 5 files unprocessed (all from today, within 24h window — not urgent) |
-| 2 | Missing backlinks | 5+ concepts in wiki/concepts/ without source links (abstraction-layer-fallacy, active-thinking, agency-law, agent-handoff, agent-harness...) |
+| 1 | Missing backlinks | 5+ concepts in wiki/concepts/ without source links (abstraction-layer-fallacy, active-thinking, agency-law, agent-handoff, agent-harness...) |
+| 2 | Raw backlog | 5 files unprocessed (all from today, within 24h window — not urgent) |
 | 3 | Pending review | 1 report awaiting re-compile for systemic Output issues (from 2026-06-03) |
 
 ## Last Actions
 
 | Time | Action |
 |------|--------|
+| 2026-06-04 20:00 | Heartbeat check — issues unchanged, systemic backlink problem persists |
 | 2026-06-04 19:00 | Heartbeat check — issues detected, logged |
 | 2026-06-04 18:00 | Heartbeat check — clean |
-| 2026-06-04 17:30 | HEARTBEAT.md updated |
 | 2026-06-03 08:23 | Fix Agent #3 verified. Format clean. |
 | 2026-06-03 08:00 | Compile run processed 9 files |
 

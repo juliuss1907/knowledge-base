@@ -468,3 +468,14 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
 
+
+## 2026-06-05 04:00:00 — Heartbeat Check
+
+- **Raw backlog:** 5 files unprocessed (2026-06-04 articles + 1 paper)
+- **Inbox:** 0 items
+- **Index:** ✅ Updated 2026-06-04 21:00 (157 concepts, 20 tags, 65 topics)
+- **Pending review:** 1 report — Output Validator systemic issues + Format Validator 5 files
+- **Status:** ⚠️ ATTENTION REQUIRED — Julius needs to approve re-compile
+
+**Note:** Previous heartbeat at 2026-06-04 17:30 reported 0 raw backlog. 5 new files appeared 2026-06-04 (likely Readwise sync or manual ingest). Next compile at 08:00 should handle these.
+

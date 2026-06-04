@@ -1,4 +1,4 @@
-# HEARTBEAT — 2026-06-04 09:30 Asia/Saigon
+# HEARTBEAT — 2026-06-04 10:00 Asia/Saigon
 
 ## Status: ✅ CLEAN
 
@@ -10,9 +10,8 @@
 |---|---|
 | Inbox (`Tasks/`) | 0 entries |
 | Raw backlog (`raw/` unprocessed) | 0 — all files processed |
-| Concept backlinks | 10 files missing `Sources:` — noted, not blocking |
-| Tag index | Updated (21:00 yesterday) |
-| Pending reviews | 1 report (Output systemic — requires re-compile) |
+| Concept backlinks (spot check 3 files) | 3/3 missing `Sources:` references |
+| Pending reviews | 0 new entries |
 
 ---
 
@@ -24,17 +23,17 @@
 | `wiki/concepts/` | 207 | Active ✓ |
 | `wiki/sources/` | 53 | Active ✓ |
 | `wiki/tag/` | 21 indexes | Updated ✓ |
-| `wiki/reviews/` | 1 pending | Awaiting Julius |
+| `wiki/reviews/` | 0 pending | Clean ✓ |
 
 ---
 
 ### Notes
 
-- **Concept backlinks gap:** 10 files in `wiki/concepts/` missing `Sources:` field
-  - Not blocking but should be addressed when CompileAgent next runs
-- **Pending review:** 1 Output systemic issue from 2026-06-03
-  - Requires re-compile ( Julius approved, Fix Agent pending )
+- **Concept backlinks gap:** Spot-checked 3 random files — all missing `Sources:` field backlinks
+  - Ongoing issue from last heartbeat (10 files affected total)
+  - Not blocking; will self-correct when CompileAgent next processes related sources
+- **Pending from yesterday:** 1 Output systemic issue (re-compile approved, Fix Agent pending)
 
 ---
 
-*OpenClaw heartbeat — AX400 — 2026-06-04 09:30*
+*OpenClaw heartbeat — AX400 — 2026-06-04 10:00*

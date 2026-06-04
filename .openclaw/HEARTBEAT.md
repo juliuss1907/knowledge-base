@@ -1,41 +1,27 @@
 # HEARTBEAT.md — OpenClaw System Status
 
-> Last check: 2026-06-04 12:30 (Asia/Saigon)
-> Next scheduled: 2026-06-04 13:00
+> Last updated: 2026-06-04 14:30 (Asia/Saigon)
+> Cron: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
+
+## Status: ✅ HEARTBEAT_OK
 
 ---
 
-## System Status: ✅ CLEAN
+## Quick Health Scan
 
-### Raw Layer (`raw/`)
-- **Unprocessed files:** 0
-- **Total files:** 10 articles (all processed from 2026-06-03)
-- **Oldest unprocessed:** None
-
-### Wiki Layer (`wiki/concepts/`)
-- **Recent compiles:** 9 concepts created today (2026-06-04 08:02–08:08)
-- **Backlinks field:** Present (`sources:` frontmatter)
-- **Status:** All processed
-
-### Pending Reviews
-- **Count:** 1 report (Hermes 2026-06-03)
-- **Details:** Format issues → APPLIED; Output issues → APPROVED (awaiting re-compile)
-- **Fix Agent status:** Format clean, only Output systemic issues remain
-
-### Index Status
-- **Tag index:** Updated (2026-06-04 08:00)
-- **Topic index:** Updated (2026-06-04 08:00)
-
----
-
-## Recent Activity
-| Time | Event |
-|------|-------|
-| 2026-06-04 08:00 | Daily compile batch — 9 articles → 9 concepts |
-| 2026-06-03 08:23 | Fix Agent #3 verified — Format clean |
-| 2026-06-03 08:00 | Daily compile batch |
+| Check | Result |
+|---|---|
+| Inbox (`wiki/tasks/` #agent/inbox) | ✅ Clean — 0 items |
+| Raw backlog (`raw/` unprocessed) | ✅ Clean — 0 files |
+| Pending Hermes reviews | ✅ No new pending items |
 
 ---
 
 ## Notes
-- No action required. System operating normally.
+
+- Pending reviews file last updated: 2026-06-03 08:23
+- No action required at this time.
+
+---
+
+*Next heartbeat: 15:00 (30 min)*

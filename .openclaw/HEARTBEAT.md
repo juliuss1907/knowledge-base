@@ -1,9 +1,9 @@
 ---
 title: Heartbeat Check
-date: 2026-06-05 02:00 +07
+date: 2026-06-05 02:30 +07
 ---
 
-# Heartbeat Check — 2026-06-05 02:00 +07
+# Heartbeat Check — 2026-06-05 02:30 +07
 
 ## Status: ⚠️ Issues Persisting
 
@@ -29,32 +29,29 @@ Many wiki/concepts/ files missing Sources/backlinks section.
 Re-compile approved by Julius but not yet triggered.
 Issue escalated via _action-required.md (last update: 2026-06-03).
 
-### 3. Pending Reviews — 1 report awaiting action
+### 3. Pending Reviews — 1 entry
 
-| Report | Date | Status |
-|--------|------|--------|
-| Output Validator | 2026-06-03 | APPROVED — 4 systemic issues need re-compile |
-
-> Julius needs to approve re-compile to fix backlink issues.
+- **Output systemic issues** require re-compile (approved 2026-06-03)
 
 ---
 
-## Index Status
-- Tag indexes: up to date (last: 2026-06-04 21:00)
-- Topic indexes: up to date (last: 2026-06-04 21:00)
+## System Status
+
+| Component | Status | Last Update |
+|-----------|--------|-------------|
+| raw/ | ⚠️ 5 unprocessed | 2026-06-04 |
+| wiki/concepts/ | ⚠️ missing backlinks | 2026-06-03 |
+| wiki/tag/ | ✅ | 2026-06-04 21:03 |
+| wiki/reviews/ | ⚠️ 1 pending | 2026-06-03 |
 
 ---
 
-## Actions Taken
-- Logged raw backlog (5 files, no change since 01:30 check)
-- Confirmed systemic backlink issue persists
-- No new inbox items
+## Notes
+
+- CompileAgent runs at 08:00 — will handle 5 raw backlog files
+- Re-compile for systemic backlinks not yet triggered
+- No new issues detected
 
 ---
 
-## Next Heartbeat
-Scheduled: 2026-06-05 02:30 +07
-
----
-
-### Previous Check: 2026-06-05 01:30 +07
+*Next heartbeat: 03:00 +07*

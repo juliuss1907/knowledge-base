@@ -1,9 +1,9 @@
 ---
 title: Heartbeat Check
-date: 2026-06-04 21:30 +07
+date: 2026-06-04 22:00 +07
 ---
 
-# Heartbeat Check — 2026-06-04 21:30 +07
+# Heartbeat Check — 2026-06-04 22:00 +07
 
 ## Status: ⚠️ Issues Found
 
@@ -11,34 +11,29 @@ date: 2026-06-04 21:30 +07
 
 ## Findings
 
-### 1. Raw Backlog — 5 files unprocessed (Today)
+### 1. Raw Backlog — 5 files unprocessed
 
-| File | Age |
-|------|-----|
-| raw/articles/2026-06-04_galilean-relativity.md | Today 08:00 |
-| raw/articles/2026-06-04_hanlons-razor.md | Today 08:00 |
-| raw/articles/2026-06-04_occams-razor.md | Today 08:00 |
-| raw/articles/2026-06-04_reciprocity.md | Today 08:00 |
-| raw/papers/2026-06-04_thermodynamics.md | Today 08:00 |
+| File | Type | Age |
+|------|------|-----|
+| raw/articles/2026-06-04_galilean-relativity.md | article | Today 14:55 |
+| raw/articles/2026-06-04_hanlons-razor.md | article | Today 14:55 |
+| raw/articles/2026-06-04_occams-razor.md | article | Today 14:53 |
+| raw/articles/2026-06-04_reciprocity.md | article | Today 14:56 |
+| raw/papers/2026-06-04_thermodynamics.md | paper | Today 08:09 |
 
-### 2. Concept Backlinks — Many concepts have 0 backlinks
+### 2. Concept Backlinks — Systemic issue pending re-compile
 
-Recent concepts with no internal links:
-- circle-of-competence.md (0 backlinks)
-- probabilistic-thinking.md (0 backlinks)
-- first-principles-thinking.md (0 backlinks)
+Recent concepts with 0 backlinks:
+- circle-of-competence.md (0)
+- probabilistic-thinking.md (0)
+- first-principles-thinking.md (0)
 
-### 3. Pending Reviews — 1 item awaiting re-compile
+> Output Validator 2026-06-03 identified 4 systemic issues — Julius approved re-compile, Fix Agent pending.
 
-Format Validator 2026-06-03: 5 files need tag revision (productivity → automation)
+### 3. Pending Reviews — 1 report awaiting action
 
----
-
-## Action Items
-
-1. **CompileAgent** — 5 unprocessed files from today (Compile scheduled for 08:00, but these came in later)
-2. **IndexAgent** — Fix missing backlinks for recent concepts
-3. **FixAgent** — Pending 5-file tag revision from Hermes report
+**Format Validator 2026-06-03:** APPLIED ✓  
+**Output Validator 2026-06-03:** APPROVED — requires re-compile of affected concept files
 
 ---
 
@@ -47,10 +42,19 @@ Format Validator 2026-06-03: 5 files need tag revision (productivity → automat
 | Metric | Value |
 |--------|-------|
 | Raw articles | 40 |
+| Raw unprocessed | 5 |
 | Wiki concepts | 207 |
 | Wiki sources | 53 |
 | Tags indexed | 21 |
+| Last Index | 2026-06-04 21:00 |
 
 ---
 
-*Next heartbeat: 22:00 +07*
+## Action Items (Priority Order)
+
+1. **CompileAgent** — Process 5 unprocessed files (status: unprocessed since today)
+2. **FixAgent** — Execute re-compile for 4 systemic backlink issues (awaiting Julius approval via `_action-required.md`)
+
+---
+
+*Next heartbeat: 22:30 +07*

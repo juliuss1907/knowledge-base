@@ -1,6 +1,6 @@
 # HEARTBEAT.md — Kara, AX400
 
-> Last updated: 2026-06-05 05:00 (Asia/Saigon) / 2026-06-04 22:00 UTC
+> Last updated: 2026-06-05 05:30 (Asia/Saigon) / 2026-06-04 22:30 UTC
 
 ---
 
@@ -29,4 +29,4 @@
 ---
 
 **HEARTBEAT_OK**  
-*Kara — 2026-06-05 05:00*
+*Kara — 2026-06-05 05:30*

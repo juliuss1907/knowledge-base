@@ -1,43 +1,32 @@
 # HEARTBEAT.md
 
-> Last updated: 2026-06-04 17:30:00 (Asia/Saigon)
+> Last updated: 2026-06-04 18:00:00 (Asia/Saigon)
 
 ## Status Summary
 
-| Check | Result |
-|---|---|
-| Raw Backlog | ✅ 0 files unprocessed |
-| Inbox | ✅ 0 items |
-| Pending Review | ⚠️ 1 report (Julius approval needed) |
-| Concept Backlinks | ⚠️ Systemic issue (0 in sample) |
+- **Inbox:** 0 tasks
+- **Raw backlog:** 4 files unprocessed (from today 2026-06-04 — within 24h window, compile runs 08:00 tomorrow)
+- **Pending reviews:** 1 report awaiting re-compile (Output systemic issues — from 2026-06-03)
+- **Concepts missing source backlinks:** Systemic issue flagged 2026-06-03, requires re-compile to fix
 
-## Raw Backlog Detail
+## Last Actions
 
-**Clean:** Tất cả 9 files từ 2026-06-03 đã được Compile Agent xử lý lúc 08:00 hôm nay.
+| Time | Action |
+|------|--------|
+| 2026-06-04 18:00 | Heartbeat check — clean |
+| 2026-06-04 17:30 | HEARTBEAT.md updated |
+| 2026-06-03 08:23 | Fix Agent #3 verified. Format clean. |
+| 2026-06-03 08:00 | Compile run processed 9 files |
 
-## Pending Hermes Review
+## Issues
 
-**1 report chờ approve** — `wiki/reviews/_action-required.md`
+| Priority | Issue | Status |
+|----------|-------|--------|
+| 1 | Pending review: Output validator 2026-06-03 — 4 systemic issues require re-compile | Waiting on Julius |
+| 2 | 4 raw/articles/ unprocessed (today's ingest) | CompileAgent 2026-06-05 08:00 |
+| 3 | Concepts missing source backlinks (systemic) | Waiting on re-compile |
 
-**Output Validator (2026-06-03):** 4 systemic issues cần re-compile:
-- Summary 1 dòng (243 files)
-- Key Points <3 (18 concepts)  
-- Sources trống (3 concepts)
-- Status draft tăng 15 → 28 files
+## Note
 
-**Format Validator (2026-06-03):** 5 files có `productivity` như sub_tag — cần đổi thành `automation`
-
-## Systemic Issues
-
-Tất cả issues từ Hermes cần **re-compile** với Compile Agent đã update (2026-06-01):
-- Vietnamese output
-- 3-5 sentence Summary
-- ≥3 Key ideas
-- No empty Sources
-- No main_tags as sub_tags
-- Status lifecycle
-
-## Next Scheduled
-
-- **Compile:** 2026-06-05 08:00 (daily cron)
-- **Index:** 2026-06-04 21:00 (daily cron)
+- Backlog is within normal window (files ingested today, compile runs 08:00 tomorrow)
+- No notification to Julius required at this time

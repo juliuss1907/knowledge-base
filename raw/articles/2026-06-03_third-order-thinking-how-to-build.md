@@ -5,7 +5,9 @@ url: https://thejangg.substack.com/p/third-order-thinking-how-to-build
 author: Matt Connors (thejangg)
 date_published: 2026-06-03
 date_ingested: 2026-06-03
-status: unprocessed
+status: processed
+compiled_at: 2026-06-04
+compiled_to: "[[src_third-order-thinking-how-to-build]]"
 source: substack.com
 ---
 

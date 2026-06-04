@@ -20,13 +20,22 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 24 files
-- By status: 24 processed, 0 unprocessed
-- By date: 14 this week, 24 this month
-- Last updated: 2026-06-02
+- Total: 33 files
+- By status: 33 processed, 0 unprocessed
+- By date: 23 this week, 33 this month
+- Last updated: 2026-06-04
 
 ## Items
 
+- [[2026-06-03_circle-of-competence]] — Circle of Competence by Farnam Street (processed)
+- [[2026-06-03_first-principles-thinking]] — First Principles Thinking by Farnam Street (processed)
+- [[2026-06-03_fs-blog-mental-models]] — Mental Models - The Best Way to Make Intelligent Decisions by Farnam Street (processed)
+- [[2026-06-03_inversion]] — Inversion - The Power of Avoiding Stupidity by Farnam Street (processed)
+- [[2026-06-03_map-is-not-the-territory]] — The Map Is Not the Territory by Farnam Street (processed)
+- [[2026-06-03_probabilistic-thinking]] — Probabilistic Thinking by Farnam Street (processed)
+- [[2026-06-03_second-order-thinking]] — Second-Order Thinking by Farnam Street (processed)
+- [[2026-06-03_third-order-thinking-how-to-build]] — Third-order thinking - how to build a life that can't trap you by Matt Connors (processed)
+- [[2026-06-03_thought-experiment]] — Thought Experiment by Farnam Street (processed)
 - [[2026-06-01_why-i-write-about-structural-competition]] — Why I Write About Structural Competition by Leon Liao (processed)
 - [[2026-06-01_shift-leader-follower-to-leader-leader]] — Shift from Leader-Follower to Leader-Leader by Mirek Stanek (processed)
 - [[2026-05-29_how-to-read-cash-flow-statement]] — How to Read a Cash Flow Statement Like a Pro Investor by Jimmy Investor (processed)

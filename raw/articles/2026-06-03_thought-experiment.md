@@ -5,7 +5,9 @@ url: https://fs.blog/thought-experiment/
 author: Farnam Street (Shane Parrish)
 date_published: 2026-06-03
 date_ingested: 2026-06-03
-status: unprocessed
+status: processed
+compiled_at: 2026-06-04
+compiled_to: "[[src_thought-experiment]]"
 source: fs.blog
 ---
 

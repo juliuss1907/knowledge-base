@@ -401,9 +401,54 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 - Pending Hermes: 1 report (Output Validator — requires re-compile)
 - Status: ⚠️ ATTENTION REQUIRED
 
-## 2026-06-04 04:30:00 — Heartbeat Check
-- Raw backlog: 9 files unprocessed (from 2026-06-03)
-- Pending Hermes: 1 report (Output Validator — requires re-compile)
-- Concept backlinks: checked 2 files — OK
-- Status: ⚠️ ATTENTION REQUIRED (unchanged — no new files overnight)
+
+---
+
+## 2026-06-04 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-06-03_circle-of-competence.md | src_circle-of-competence | circle-of-competence, mental-models, charlie-munger |
+| raw/articles/2026-06-03_first-principles-thinking.md | src_first-principles-thinking | first-principles-thinking, socratic-questioning, five-whys |
+| raw/articles/2026-06-03_fs-blog-mental-models.md | src_fs-blog-mental-models | mental-models, circle-of-competence, first-principles-thinking, second-order-thinking, thought-experiment, probabilistic-thinking, inversion, map-is-not-territory, feedback-loops, emergence, compounding, opportunity-cost, cognitive-biases, incentives |
+| raw/articles/2026-06-03_inversion.md | src_inversion | inversion, charlie-munger, premeditatio-malorum, stoicism |
+| raw/articles/2026-06-03_map-is-not-the-territory.md | src_map-is-not-territory | map-is-not-territory, cognitive-biases, confirmation-bias |
+| raw/articles/2026-06-03_probabilistic-thinking.md | src_probabilistic-thinking | probabilistic-thinking, bayesian-thinking, fat-tailed-curves, uncertainty, vera-atkins, soe |
+| raw/articles/2026-06-03_second-order-thinking.md | src_second-order-thinking | second-order-thinking, first-order-thinking, third-order-thinking, decision-making |
+| raw/articles/2026-06-03_third-order-thinking-how-to-build.md | src_third-order-thinking-how-to-build | third-order-thinking, personal-systems, anti-fragile, resilience, golden-handcuffs, identity-systems |
+| raw/articles/2026-06-03_thought-experiment.md | src_thought-experiment | thought-experiment, zeno-paradox, trolley-problem, allegory-of-the-cave, laplaces-demon, infinite-monkey-theorem, einstein, galileo, plato, descartes |
+
+### Summary
+
+- **Processed:** 9/9 files
+- **Source notes created:** 9
+- **Concepts created:** 28 (9 mới + 19 reference/link)
+- **Status updated:** All raw files → `processed`
+- **Index Agent:** Chạy riêng lúc 21:00
+
+### Tags Applied
+
+**Main tags:**
+- productivity × 9 files
+
+**Sub tags:**
+- psychology × 9 files
+- tutorial × 1 file
+
+**Topics:**
+- mental-models × 8 files
+- personal-systems × 1 file
+
+### Notes
+
+- Tất cả các bài viết từ Farnam Street về mental models đã được compile
+- Third-order thinking là concept mới từ Substack, liên quan đến personal systems
+- Các concept về mental models (circle-of-competence, first-principles-thinking, second-order-thinking, inversion, probabilistic-thinking, thought-experiment, map-is-not-territory) đã được tạo và liên kết chéo
+- Raw file "map-is-not-the-territory.md" được xử lý (chú ý tên file có "the" trong slug)
+
+---
 

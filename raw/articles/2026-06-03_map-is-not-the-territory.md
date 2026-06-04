@@ -5,7 +5,9 @@ url: https://fs.blog/map-and-territory/
 author: Farnam Street (Shane Parrish)
 date_published: 2026-06-03
 date_ingested: 2026-06-03
-status: unprocessed
+status: processed
+compiled_at: 2026-06-04
+compiled_to: "[[src_map-is-not-territory]]"
 source: fs.blog
 ---
 

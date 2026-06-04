@@ -452,3 +452,10 @@ Tất cả các file trong `raw/` đã có status `processed`. Không có file n
 
 ---
 
+
+## 2026-06-04 17:30:00 — Heartbeat Check
+- Raw backlog: 0 files (9 files from 2026-06-03 processed today at 08:00)
+- Inbox: 0 items
+- Concept backlinks: Sample shows 0 — systemic issue pending re-compile
+- Pending review: 1 report (Output Validator — 4 systemic issues)
+- Status: ⚠️ ATTENTION REQUIRED (pending Julius approval for re-compile)

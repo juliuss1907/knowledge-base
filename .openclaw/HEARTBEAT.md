@@ -1,9 +1,9 @@
 ---
 title: Heartbeat Check
-date: 2026-06-04 22:00 +07
+date: 2026-06-04 22:30 +07
 ---
 
-# Heartbeat Check — 2026-06-04 22:00 +07
+# Heartbeat Check — 2026-06-04 22:30 +07
 
 ## Status: ⚠️ Issues Found
 
@@ -11,7 +11,7 @@ date: 2026-06-04 22:00 +07
 
 ## Findings
 
-### 1. Raw Backlog — 5 files unprocessed
+### 1. Raw Backlog — 5 files unprocessed (unchanged since 22:00)
 
 | File | Type | Age |
 |------|------|-----|
@@ -21,6 +21,8 @@ date: 2026-06-04 22:00 +07
 | raw/articles/2026-06-04_reciprocity.md | article | Today 14:56 |
 | raw/papers/2026-06-04_thermodynamics.md | paper | Today 08:09 |
 
+> CompileAgent will process at 08:00 tomorrow.
+
 ### 2. Concept Backlinks — Systemic issue pending re-compile
 
 Recent concepts with 0 backlinks:
@@ -28,7 +30,7 @@ Recent concepts with 0 backlinks:
 - probabilistic-thinking.md (0)
 - first-principles-thinking.md (0)
 
-> Output Validator 2026-06-03 identified 4 systemic issues — Julius approved re-compile, Fix Agent pending.
+> Output Validator 2026-06-03 identified 4 systemic issues — awaiting Julius approval.
 
 ### 3. Pending Reviews — 1 report awaiting action
 
@@ -52,9 +54,9 @@ Recent concepts with 0 backlinks:
 
 ## Action Items (Priority Order)
 
-1. **CompileAgent** — Process 5 unprocessed files (status: unprocessed since today)
+1. **CompileAgent** — Will process 5 unprocessed files at 08:00 tomorrow
 2. **FixAgent** — Execute re-compile for 4 systemic backlink issues (awaiting Julius approval via `_action-required.md`)
 
 ---
 
-*Next heartbeat: 22:30 +07*
+*Next heartbeat: 23:00 +07*

@@ -1,9 +1,9 @@
 ---
 title: Heartbeat Check
-date: 2026-06-04 22:30 +07
+date: 2026-06-04 23:00 +07
 ---
 
-# Heartbeat Check — 2026-06-04 22:30 +07
+# Heartbeat Check — 2026-06-04 23:00 +07
 
 ## Status: ⚠️ Issues Found
 
@@ -11,7 +11,7 @@ date: 2026-06-04 22:30 +07
 
 ## Findings
 
-### 1. Raw Backlog — 5 files unprocessed (unchanged since 22:00)
+### 1. Raw Backlog — 5 files unprocessed
 
 | File | Type | Age |
 |------|------|-----|
@@ -21,7 +21,7 @@ date: 2026-06-04 22:30 +07
 | raw/articles/2026-06-04_reciprocity.md | article | Today 14:56 |
 | raw/papers/2026-06-04_thermodynamics.md | paper | Today 08:09 |
 
-> CompileAgent will process at 08:00 tomorrow.
+> CompileAgent will process at 08:00 tomorrow (2026-06-05).
 
 ### 2. Concept Backlinks — Systemic issue pending re-compile
 
@@ -59,4 +59,4 @@ Recent concepts with 0 backlinks:
 
 ---
 
-*Next heartbeat: 23:00 +07*
+*Next heartbeat: 23:30 +07*

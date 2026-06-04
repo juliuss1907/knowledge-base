@@ -1,38 +1,56 @@
-# HEARTBEAT.md
+---
+title: Heartbeat Check
+date: 2026-06-04 21:30 +07
+---
 
-> Last updated: 2026-06-04 20:00:00 (Asia/Saigon)
+# Heartbeat Check — 2026-06-04 21:30 +07
 
-## Status Summary
-
-- **Inbox:** 0 tasks
-- **Raw backlog:** 5 files unprocessed (status: unprocessed), all from today 2026-06-04 — compile runs 08:00 tomorrow
-- **Pending reviews:** 1 report awaiting re-compile (Output systemic issues — from 2026-06-03)
-- **Concepts missing source backlinks:** 5+ concepts without wiki/sources/ links (systemic issue from 2026-06-03)
-
-## Issues Detected
-
-| Priority | Issue | Detail |
-|----------|-------|--------|
-| 1 | Missing backlinks | 5+ concepts in wiki/concepts/ without source links (abstraction-layer-fallacy, active-thinking, agency-law, agent-handoff, agent-harness...) |
-| 2 | Raw backlog | 5 files unprocessed (all from today, within 24h window — not urgent) |
-| 3 | Pending review | 1 report awaiting re-compile for systemic Output issues (from 2026-06-03) |
-
-## Last Actions
-
-| Time | Action |
-|------|--------|
-| 2026-06-04 20:00 | Heartbeat check — issues unchanged, systemic backlink problem persists |
-| 2026-06-04 19:00 | Heartbeat check — issues detected, logged |
-| 2026-06-04 18:00 | Heartbeat check — clean |
-| 2026-06-03 08:23 | Fix Agent #3 verified. Format clean. |
-| 2026-06-03 08:00 | Compile run processed 9 files |
-
-## System Status
-
-- **Index:** Updated 2026-06-03 21:05
-- **Tag count:** 12 tag indexes
-- **Compile scheduled:** 2026-06-05 08:00
+## Status: ⚠️ Issues Found
 
 ---
 
-*HEARTBEAT_OK with issues — see Summary*
+## Findings
+
+### 1. Raw Backlog — 5 files unprocessed (Today)
+
+| File | Age |
+|------|-----|
+| raw/articles/2026-06-04_galilean-relativity.md | Today 08:00 |
+| raw/articles/2026-06-04_hanlons-razor.md | Today 08:00 |
+| raw/articles/2026-06-04_occams-razor.md | Today 08:00 |
+| raw/articles/2026-06-04_reciprocity.md | Today 08:00 |
+| raw/papers/2026-06-04_thermodynamics.md | Today 08:00 |
+
+### 2. Concept Backlinks — Many concepts have 0 backlinks
+
+Recent concepts with no internal links:
+- circle-of-competence.md (0 backlinks)
+- probabilistic-thinking.md (0 backlinks)
+- first-principles-thinking.md (0 backlinks)
+
+### 3. Pending Reviews — 1 item awaiting re-compile
+
+Format Validator 2026-06-03: 5 files need tag revision (productivity → automation)
+
+---
+
+## Action Items
+
+1. **CompileAgent** — 5 unprocessed files from today (Compile scheduled for 08:00, but these came in later)
+2. **IndexAgent** — Fix missing backlinks for recent concepts
+3. **FixAgent** — Pending 5-file tag revision from Hermes report
+
+---
+
+## System Stats
+
+| Metric | Value |
+|--------|-------|
+| Raw articles | 40 |
+| Wiki concepts | 207 |
+| Wiki sources | 53 |
+| Tags indexed | 21 |
+
+---
+
+*Next heartbeat: 22:00 +07*

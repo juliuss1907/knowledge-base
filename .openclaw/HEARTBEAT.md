@@ -41,3 +41,13 @@
 - **Concept integrity:** 215 concepts total, checking randomly — samples show 0 backlinks (expected for older files, Index Agent maintains during daily cycle)
 - **Pending reviews:** 2 entries from 2026-06-03 (Format clean, Output issues only)
 - **System:** nominal
+---
+
+*Next heartbeat: 15:00 UTC / 22:00 Asia/Saigon*
+## 2026-06-05 14:30 — ✅ HEARTBEAT_OK
+
+- **Raw backlog:** 4 files unprocessed from today (2026-06-05) — all ingested this morning, compile at 08:00 tomorrow
+- **Inbox:** clean — no Tasks files, no inbox tagged files
+- **Concept integrity:** 215 concepts with src_ backlinks — nominal
+- **Pending reviews:** 1 entry from 2026-06-03 (Output systemic issues — requires re-compile, awaiting Julius approval)
+- **System:** nominal

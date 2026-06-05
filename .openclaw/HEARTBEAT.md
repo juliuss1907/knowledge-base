@@ -49,9 +49,21 @@
 - Pending reviews: 1 (systemic Output issues from 2026-06-03, awaiting re-compile)
 - System: nominal
 
+## 2026-06-05 20:00 +07
+**Status:** ✅ HEARTBEAT_OK
+- **Inbox:** 0 files
+- **Raw backlog:** 4 files unprocessed from today (2026-06-05) — compile at 08:00 tomorrow
+  - `activation-energy-why-getting-started-is-hardest-part.md`
+  - `hypergamy-can-it-be-harmful.md`
+  - `leverage-gaining-disproportionate-strength.md`
+  - `speed-velocity-getting-stuff-done.md`
+- **Wiki:** 215 concepts | 58 sources | 21 tags — stable
+- **Pending reviews:** 1 (systemic Output issues from 2026-06-03, awaiting re-compile)
+- **System:** nominal
+
 ---
 
-*Next heartbeat: 18:00 UTC / 2026-06-06 01:00 Asia/Saigon*
+*Next heartbeat: 21:00 UTC / 2026-06-06 04:00 Asia/Saigon*
 ## 2026-06-05 14:30 — ✅ HEARTBEAT_OK
 
 - **Raw backlog:** 4 files unprocessed from today (2026-06-05) — all ingested this morning, compile at 08:00 tomorrow

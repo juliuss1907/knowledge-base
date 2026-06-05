@@ -51,3 +51,10 @@
 - **Concept integrity:** 215 concepts with src_ backlinks — nominal
 - **Pending reviews:** 1 entry from 2026-06-03 (Output systemic issues — requires re-compile, awaiting Julius approval)
 - **System:** nominal
+
+## 2026-06-05 15:00 +07
+**Status:** HEARTBEAT_OK
+- Inbox: 0 files
+- Raw backlog: 0 unprocessed
+- wiki/concepts: 215 files | wiki/sources: 58 files | wiki/tag: 21 files
+- Pending reviews: 1 (systemic Output issues, awaiting re-compile)

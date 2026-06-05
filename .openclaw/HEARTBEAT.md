@@ -1,6 +1,6 @@
 # HEARTBEAT.md — Kara, AX400
 
-> Last updated: 2026-06-05 11:30 (Asia/Saigon) / 2026-06-05 04:30 UTC
+> Last updated: 2026-06-05 16:00 (Asia/Saigon) / 2026-06-05 09:00 UTC
 
 ---
 
@@ -41,9 +41,17 @@
 - **Concept integrity:** 215 concepts total, checking randomly — samples show 0 backlinks (expected for older files, Index Agent maintains during daily cycle)
 - **Pending reviews:** 2 entries from 2026-06-03 (Format clean, Output issues only)
 - **System:** nominal
+## 2026-06-05 16:00 +07
+**Status:** ✅ HEARTBEAT_OK
+- Raw backlog: 4 files unprocessed (ingested this morning, compile at 08:00 tomorrow)
+- Inbox: 0 files
+- wiki/concepts: 215 files | wiki/sources: 58 files | wiki/tag: 21 files
+- Pending reviews: 1 (systemic Output issues from 2026-06-03, awaiting re-compile)
+- System: nominal
+
 ---
 
-*Next heartbeat: 15:00 UTC / 22:00 Asia/Saigon*
+*Next heartbeat: 18:00 UTC / 2026-06-06 01:00 Asia/Saigon*
 ## 2026-06-05 14:30 — ✅ HEARTBEAT_OK
 
 - **Raw backlog:** 4 files unprocessed from today (2026-06-05) — all ingested this morning, compile at 08:00 tomorrow

@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Status
 
 > Updated every 30 minutes by Kara (AX400)
-> Last check: 2026-06-05 20:30 +07
+> Last check: 2026-06-05 21:30 +07
 
 ---
 
@@ -14,10 +14,10 @@
 | **Raw backlog** | ⚠️ 4 files | `raw/articles/` — 2026-06-05, compile scheduled 2026-06-06 08:00 |
 | **Compile** | ✅ Last run 08:03 | 5 concept files generated today |
 | **Index** | ✅ Nominal | Tag/topic indexes current |
-| **Hermes** | ✅ Clean | 0 pending reports |
+| **Hermes** | ⚠️ 1 pending | Systemic Output issues from 2026-06-03, awaiting re-compile |
 
 ### Wiki Stats
-- `wiki/concepts/`: **215 files**
+- `wiki/concepts/`: **215 files** (backlinks degraded — systemic issue flagged by Hermes)
 - `wiki/sources/`: **58 files**
 - `wiki/tag/`: **21 files**
 - `wiki/topic/`: *(maintained by Index Agent)*
@@ -37,11 +37,10 @@
 
 | Time | Status | Notes |
 |---|---|---|
+| 2026-06-05 21:30 | HEARTBEAT_OK | 4 files unprocessed, 1 pending review (systemic backlinks) |
 | 2026-06-05 20:00 | HEARTBEAT_OK | 4 files unprocessed from today |
 | 2026-06-05 17:00 | HEARTBEAT_OK | 4 files unprocessed, compile at 08:00 tomorrow |
-| 2026-06-05 13:00 | HEARTBEAT_OK | 3 files unprocessed |
 
 ---
 
-*Next heartbeat: 2026-06-05 21:00 +07*
-| 2026-06-05 14:04 | HEARTBEAT | 4 files unprocessed in raw/articles/ |
+*Next heartbeat: 2026-06-05 22:00 +07*

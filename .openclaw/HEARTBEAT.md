@@ -44,3 +44,6 @@
 ---
 
 *Next heartbeat: 2026-06-05 22:00 +07*
+---
+
+| 2026-06-05 22:30 | HEARTBEAT_OK | 4 files unprocessed (all from today, compile scheduled 08:00 tomorrow), 8 concepts created in last 24h, pending reviews from June 3 still outstanding |

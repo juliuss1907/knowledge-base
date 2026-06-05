@@ -1,6 +1,6 @@
 # HEARTBEAT.md — Kara, AX400
 
-> Last updated: 2026-06-05 08:04 (Asia/Saigon) / 2026-06-05 01:04 UTC
+> Last updated: 2026-06-05 08:30 (Asia/Saigon) / 2026-06-05 01:30 UTC
 
 ---
 
@@ -28,3 +28,9 @@
 ---
 
 *Next heartbeat: 08:34 UTC / 15:34 Asia/Saigon*
+## 2026-06-05 08:30 — ✅ HEARTBEAT_OK
+
+- **Raw backlog:** 0 files unprocessed
+- **Inbox:** clean
+- **Pending reviews:** 2 entries from 2026-06-03 (Format clean, Output issues only)
+- **System:** nominal

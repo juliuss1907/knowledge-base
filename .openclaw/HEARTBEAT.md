@@ -1,6 +1,6 @@
 # HEARTBEAT.md — Kara, AX400
 
-> Last updated: 2026-06-05 06:00 (Asia/Saigon) / 2026-06-04 23:00 UTC
+> Last updated: 2026-06-05 07:30 (Asia/Saigon) / 2026-06-04 00:30 UTC
 
 ---
 
@@ -13,7 +13,7 @@
   - `raw/articles/2026-06-04_occams-razor.md`
   - `raw/articles/2026-06-04_reciprocity.md`
   - `raw/papers/2026-06-04_thermodynamics.md`
-- CompileAgent will process at 08:00 today
+- CompileAgent will process at 08:00 today (in ~30 min)
 
 ### Inbox
 - 0 items tagged #agent/inbox
@@ -33,4 +33,4 @@
 ---
 
 **HEARTBEAT_OK**  
-*Kara — 2026-06-05 06:00*
+*Kara — 2026-06-05 07:30*

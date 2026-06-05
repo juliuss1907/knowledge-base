@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: politic
 auto_generated: true
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 # Tag: #politic
@@ -19,7 +19,7 @@ last_updated: 2026-06-04
 - Total files: 11
 - Sources: 1
 - Concepts: 10
-- Last updated: 2026-06-04
+- Last updated: 2026-06-05
 
 ## Files with this tag
 
@@ -34,3 +34,9 @@ last_updated: 2026-06-04
 - [[structural-competition]] — Structural Competition (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
+
+## Co-occurring tags
+
+- [[opinion]] — 11 co-occurrences
+- [[research]] — 10 co-occurrences
+- [[news]] — 1 co-occurrence

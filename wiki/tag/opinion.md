@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 # Tag: #opinion
@@ -16,15 +16,14 @@ last_updated: 2026-06-04
 
 ## Stats
 
-- Total files: 98
+- Total files: 97
 - Sources: 24
-- Concepts: 74
-- Last updated: 2026-06-04
+- Concepts: 73
+- Last updated: 2026-06-05
 
 ## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
-- [[active-thinking]] — Active Thinking (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
@@ -121,3 +120,11 @@ last_updated: 2026-06-04
 - [[tragic-optimism]] — Tragic Optimism (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
+
+## Co-occurring tags
+
+- [[research]] — 54 co-occurrences
+- [[productivity]] — 29 co-occurrences
+- [[economic]] — 23 co-occurrences
+- [[ai]] — 22 co-occurrences
+- [[tools]] — 18 co-occurrences

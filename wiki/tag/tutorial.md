@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tutorial
 auto_generated: true
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 # Tag: #tutorial
@@ -19,7 +19,7 @@ last_updated: 2026-06-04
 - Total files: 32
 - Sources: 10
 - Concepts: 22
-- Last updated: 2026-06-04
+- Last updated: 2026-06-05
 
 ## Files with this tag
 
@@ -55,3 +55,11 @@ last_updated: 2026-06-04
 - [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
 - [[x-api-oauth2]] — X Api Oauth2 (concept)
+
+## Co-occurring tags
+
+- [[tools]] — 16 co-occurrences
+- [[productivity]] — 10 co-occurrences
+- [[ai]] — 10 co-occurrences
+- [[automation]] — 8 co-occurrences
+- [[economic]] — 7 co-occurrences

@@ -1,8 +1,8 @@
 # Topic: uae-opec-exit-geopolitics
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `uae-opec-exit-geopolitics`.
 
-Last updated: 2026-06-04 14:03:11
+Last updated: 2026-06-05 21:04:08
 
 ---
 

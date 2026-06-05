@@ -1,8 +1,8 @@
 # Topic: ai-coding-context-handoff
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `ai-coding-context-handoff`.
 
-Last updated: 2026-06-04 14:03:11
+Last updated: 2026-06-05 21:04:08
 
 ---
 

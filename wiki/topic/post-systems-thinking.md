@@ -1,8 +1,8 @@
 # Topic: post-systems-thinking
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `post-systems-thinking`.
 
-Last updated: 2026-06-04 14:03:11
+Last updated: 2026-06-05 21:04:08
 
 ---
 
@@ -13,8 +13,8 @@ Last updated: 2026-06-04 14:03:11
 - [[complicated-vs-complex]] — main: #system, sub: [#research, #opinion]
 - [[cynefin-framework]] — main: #system, sub: [#research, #opinion]
 - [[second-order-effects]] — main: #system, sub: [#research, #opinion]
-- [[systems-thinking]] — main: #system, sub: [#research, #opinion]
 - [[systems-thinking-limitations]] — main: #system, sub: [#research, #opinion]
+- [[systems-thinking]] — main: #system, sub: [#research, #opinion]
 
 ## Sources (1)
 

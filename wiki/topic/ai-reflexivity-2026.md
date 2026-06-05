@@ -1,8 +1,8 @@
 # Topic: ai-reflexivity-2026
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `ai-reflexivity-2026`.
 
-Last updated: 2026-06-04 14:03:11
+Last updated: 2026-06-05 21:04:08
 
 ---
 

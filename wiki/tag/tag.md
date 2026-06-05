@@ -6,11 +6,9 @@ Auto-generated master index of all tags in Knowledge Base.
 
 - Total tags: 20
 - Main tags: 7
-- Sub tags: 16
-- Most used: #research (122), #tools (111), #ai (99)
-- Last updated: 2026-06-03
-
-## Items
+- Sub tags: 13
+- Most used: #research (137), #tools (113), #ai (104)
+- Last updated: 2026-06-05## Items
 
 ### Main Tags (Pool A)
 

@@ -151,9 +151,8 @@ def run_indexing():
     os.makedirs(TAG_DIR, exist_ok=True)
     for tag, data in tag_index.items():
         # Top 5 co-occurring
-        pairs = [(other, count) for (t1, t2), count in co_occurrence.items() if tag in (t1, t2)]
-        others = [(t2 if t1 == tag else t1, count) for (t1, t2), count in pairs]
-        top_5 = sorted(others, key=lambda x: -x[1])[:5]
+        pairs = [(t2 if t1 == tag else t1, count) for (t1, t2), count in co_occurrence.items() if tag in (t1, t2)]
+        top_5 = sorted(pairs, key=lambda x: -x[1])[:5]
 
         all_items = []
         for f in data['concepts']:

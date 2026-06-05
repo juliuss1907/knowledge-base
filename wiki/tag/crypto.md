@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: crypto
 auto_generated: true
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 # Tag: #crypto
@@ -19,7 +19,7 @@ last_updated: 2026-06-04
 - Total files: 4
 - Sources: 1
 - Concepts: 3
-- Last updated: 2026-06-04
+- Last updated: 2026-06-05
 
 ## Files with this tag
 
@@ -27,3 +27,10 @@ last_updated: 2026-06-04
 - [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
 - [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
+
+## Co-occurring tags
+
+- [[tools]] — 4 co-occurrences
+- [[defi]] — 3 co-occurrences
+- [[automation]] — 1 co-occurrence
+- [[tutorial]] — 1 co-occurrence

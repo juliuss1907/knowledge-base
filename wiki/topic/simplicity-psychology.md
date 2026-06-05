@@ -1,8 +1,8 @@
 # Topic: simplicity-psychology
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `simplicity-psychology`.
 
-Last updated: 2026-06-04 14:03:11
+Last updated: 2026-06-05 21:04:08
 
 ---
 

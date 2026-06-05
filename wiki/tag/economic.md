@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: economic
 auto_generated: true
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 # Tag: #economic
@@ -19,7 +19,7 @@ last_updated: 2026-06-04
 - Total files: 45
 - Sources: 8
 - Concepts: 37
-- Last updated: 2026-06-04
+- Last updated: 2026-06-05
 
 ## Files with this tag
 
@@ -68,3 +68,11 @@ last_updated: 2026-06-04
 - [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
+
+## Co-occurring tags
+
+- [[research]] — 28 co-occurrences
+- [[opinion]] — 23 co-occurrences
+- [[psychology]] — 14 co-occurrences
+- [[tools]] — 7 co-occurrences
+- [[tutorial]] — 7 co-occurrences

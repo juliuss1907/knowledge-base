@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: automation
 auto_generated: true
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 # Tag: #automation
@@ -19,7 +19,7 @@ last_updated: 2026-06-04
 - Total files: 58
 - Sources: 11
 - Concepts: 47
-- Last updated: 2026-06-04
+- Last updated: 2026-06-05
 
 ## Files with this tag
 
@@ -81,3 +81,11 @@ last_updated: 2026-06-04
 - [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
 - [[x-search-tool]] — X Search Tool (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
+
+## Co-occurring tags
+
+- [[tools]] — 50 co-occurrences
+- [[ai]] — 46 co-occurrences
+- [[opinion]] — 8 co-occurrences
+- [[tutorial]] — 8 co-occurrences
+- [[research]] — 6 co-occurrences

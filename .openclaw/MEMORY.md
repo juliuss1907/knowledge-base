@@ -83,3 +83,11 @@
 | raw/articles/2026-06-01_why-i-write-about-structural-competition.md | src_why-i-write-about-structural-competition | structural-competition, four-layer-framework, institutional-capacity, industrial-scale |
 
 [432 more lines in file. Use offset=51 to continue.]
+## 2026-06-05 21:04:08 — Indexed
+
+- **Scanned:** 214 concepts + 58 sources = 272 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 65
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 1 files skipped due to invalid frontmatter

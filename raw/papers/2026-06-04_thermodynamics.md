@@ -4,7 +4,9 @@ title: Thermodynamics - The Science of Energy, Heat, and Work
 author: Unknown
 date_ingested: 2026-06-04
 date_published: 2026-06-04
-status: unprocessed
+status: processed
+compiled_at: 2026-06-05
+compiled_to: "[[src_thermodynamics]]"
 ---
 
 Thermodynamics is the science of energy, heat, and work. It's the set of physical laws that govern how energy moves and changes in the universe. Chances are, when you first came across the subject, it was dry, full of equations and abstract concepts. But the truth is thermodynamics is a useful intellectual framework for daily life. Not only can it reveal why your room gets messier over time, but it also explains why you should choose your friends wisely.

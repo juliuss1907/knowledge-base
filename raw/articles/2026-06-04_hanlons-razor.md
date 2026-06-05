@@ -5,7 +5,9 @@ url: https://fs.blog/mental-model-hanlons-razor/
 author: Farnam Street (Shane Parrish)
 date_published: 2026-06-04
 date_ingested: 2026-06-04
-status: unprocessed
+status: processed
+compiled_at: 2026-06-05
+compiled_to: "[[src_hanlons-razor]]"
 source: fs.blog
 ---
 

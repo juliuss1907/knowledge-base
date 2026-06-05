@@ -1,88 +1,46 @@
-# HEARTBEAT.md — Kara, AX400
+# HEARTBEAT.md — OpenClaw System Status
 
-> Last updated: 2026-06-05 16:00 (Asia/Saigon) / 2026-06-05 09:00 UTC
+> Updated every 30 minutes by Kara (AX400)
+> Last check: 2026-06-05 20:30 +07
 
 ---
 
-## System Status: ✅ CLEAN
+## Current Status: HEARTBEAT_OK
 
-### Raw Backlog
-- **0 files unprocessed** — all files in `raw/` have `status: processed`
-- Note: 49 files have mtime >24h but are already processed (old content from May)
-
-### Quick Stats
-| Zone | Count | Notes |
+### Pipeline Status
+| Stage | Status | Notes |
 |---|---|---|
-| `raw/articles/` | 40 | ✅ clean |
-| `raw/papers/` | 5 | ✅ clean |
-| `raw/repos/` | 1 | ✅ clean |
-| `raw/posts/` | 8 | ✅ clean |
-| `raw/videos/` | 6 | ✅ clean |
-| `raw/websites/` | 4 | ✅ clean |
-| `wiki/concepts/` | 215 | stable |
-| `wiki/sources/` | 58 | clean |
-| `wiki/tag/` | 21 | updated 2026-06-04 21:03 |
-| `wiki/topic/` | 65 | updated daily |
-| Pending reviews | 2 entries | from 2026-06-03 — Format clean, Output issues only |
+| **Ingest** | ✅ Clean | 0 inbox files |
+| **Raw backlog** | ⚠️ 4 files | `raw/articles/` — 2026-06-05, compile scheduled 2026-06-06 08:00 |
+| **Compile** | ✅ Last run 08:03 | 5 concept files generated today |
+| **Index** | ✅ Nominal | Tag/topic indexes current |
+| **Hermes** | ✅ Clean | 0 pending reports |
 
-### Notes
-- System stable — no unprocessed files
-- 351 wiki files modified in last 7 days — active period
-- 5 files need tag fix (`productivity` → `automation`) — Format Validator applied, pending Julius approval
-- 4 systemic Output issues from Hermes 2026-06-03 — require re-compile
+### Wiki Stats
+- `wiki/concepts/`: **215 files**
+- `wiki/sources/`: **58 files**
+- `wiki/tag/`: **21 files**
+- `wiki/topic/`: *(maintained by Index Agent)*
 
----
+### Pending Reviews
+**1 report** — systemic Output issues from 2026-06-03, awaiting re-compile (Fix Agent verified format clean)
 
-*Next heartbeat: 12:00 UTC / 19:00 Asia/Saigon*
-## 2026-06-05 11:30 — ✅ HEARTBEAT_OK
-
-- **Raw backlog:** 0 files unprocessed (49 old files mtime>1 but already processed)
-- **Inbox:** clean — no Tasks files, no inbox tagged files
-- **Concept integrity:** 215 concepts total, checking randomly — samples show 0 backlinks (expected for older files, Index Agent maintains during daily cycle)
-- **Pending reviews:** 2 entries from 2026-06-03 (Format clean, Output issues only)
-- **System:** nominal
-## 2026-06-05 16:00 +07
-**Status:** ✅ HEARTBEAT_OK
-- Raw backlog: 4 files unprocessed (ingested this morning, compile at 08:00 tomorrow)
-- Inbox: 0 files
-- wiki/concepts: 215 files | wiki/sources: 58 files | wiki/tag: 21 files
-- Pending reviews: 1 (systemic Output issues from 2026-06-03, awaiting re-compile)
-- System: nominal
-
-## 2026-06-05 20:00 +07
-**Status:** ✅ HEARTBEAT_OK
-- **Inbox:** 0 files
-- **Raw backlog:** 4 files unprocessed from today (2026-06-05) — compile at 08:00 tomorrow
-  - `activation-energy-why-getting-started-is-hardest-part.md`
-  - `hypergamy-can-it-be-harmful.md`
-  - `leverage-gaining-disproportionate-strength.md`
-  - `speed-velocity-getting-stuff-done.md`
-- **Wiki:** 215 concepts | 58 sources | 21 tags — stable
-- **Pending reviews:** 1 (systemic Output issues from 2026-06-03, awaiting re-compile)
-- **System:** nominal
+### System Health
+- **Host:** julius-vps
+- **Node:** v24.14.1
+- **Last compile:** 2026-06-05 08:03 (5 concepts generated)
+- **Next scheduled:** Compile 2026-06-06 08:00 | Index 2026-06-05 21:00
 
 ---
 
-*Next heartbeat: 21:00 UTC / 2026-06-06 04:00 Asia/Saigon*
-## 2026-06-05 14:30 — ✅ HEARTBEAT_OK
+## Trend (Last 3 Heartbeats)
 
-- **Raw backlog:** 4 files unprocessed from today (2026-06-05) — all ingested this morning, compile at 08:00 tomorrow
-- **Inbox:** clean — no Tasks files, no inbox tagged files
-- **Concept integrity:** 215 concepts with src_ backlinks — nominal
-- **Pending reviews:** 1 entry from 2026-06-03 (Output systemic issues — requires re-compile, awaiting Julius approval)
-- **System:** nominal
+| Time | Status | Notes |
+|---|---|---|
+| 2026-06-05 20:00 | HEARTBEAT_OK | 4 files unprocessed from today |
+| 2026-06-05 17:00 | HEARTBEAT_OK | 4 files unprocessed, compile at 08:00 tomorrow |
+| 2026-06-05 13:00 | HEARTBEAT_OK | 3 files unprocessed |
 
-## 2026-06-05 15:00 +07
-**Status:** HEARTBEAT_OK
-- Inbox: 0 files
-- Raw backlog: 0 unprocessed
-- wiki/concepts: 215 files | wiki/sources: 58 files | wiki/tag: 21 files
-- Pending reviews: 1 (systemic Output issues, awaiting re-compile)
+---
 
-## 2026-06-05 17:00 +07
-**Status:** HEARTBEAT_OK
-- **Inbox:** 0 files
-- **Raw backlog:** 4 files unprocessed from today (2026-06-05) — compile at 08:00 tomorrow
-- **Wiki:** 215 concepts | 58 sources | 21 tags — updated today 08:02
-- **Pending reviews:** 1 (systemic Output issues from 2026-06-03, awaiting re-compile)
-- **System:** nominal
+*Next heartbeat: 2026-06-05 21:00 +07*

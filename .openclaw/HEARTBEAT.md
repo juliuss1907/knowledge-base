@@ -1,17 +1,13 @@
 # OpenClaw Heartbeat Log
 
-Last updated: 2026-06-06 05:30 (Asia/Saigon)
+Last updated: 2026-06-06 07:30 (Asia/Saigon)
 
 ## Status
 
 | Time | Status | Notes |
 |------|--------|-------|
+| 2026-06-06 07:30 | HEARTBEAT_OK | 4 files unprocessed since yesterday; CompileAgent at 08:00 |
 | 2026-06-06 05:30 | HEARTBEAT_OK | 4 files unprocessed, oldest from yesterday |
-| 2026-06-06 04:30 | HEARTBEAT_OK | 4 files unprocessed, oldest from yesterday |
-| 2026-06-06 02:00 | HEARTBEAT_OK | No issues |
-| 2026-06-06 00:00 | HEARTBEAT_OK | No issues |
-| 2026-06-05 22:00 | HEARTBEAT_OK | No issues |
-| 2026-06-05 20:00 | HEARTBEAT_OK | No issues |
 
 ## Current Issues
 

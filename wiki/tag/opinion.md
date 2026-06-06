@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-06-05
 
 ## Stats
 
-- Total files: 97
-- Sources: 24
+- Total files: 98
+- Sources: 25
 - Concepts: 73
-- Last updated: 2026-06-05
+- Last updated: 2026-06-06
 
 ## Files with this tag
 
@@ -49,13 +49,13 @@ last_updated: 2026-06-05
 - [[dollar-as-rent-payment]] — Dollar As Rent Payment (concept)
 - [[dynamic-edge-trading]] — Dynamic Edge Trading (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
-- [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
 - [[false-reinforcement-loop]] — False Reinforcement Loop (concept)
 - [[four-layer-framework]] — Four Layer Framework (concept)
 - [[hedonic-treadmill]] — Hedonic Treadmill (concept)
 - [[hermes-token-management]] — Hermes Token Management (concept)
 - [[human-judgment-ai]] — Human Judgment Ai (concept)
+- [[hypergamy]] — Hypergamy (concept)
 - [[industrial-scale]] — Industrial Scale (concept)
 - [[information-compression]] — Information Compression (concept)
 - [[institutional-capacity]] — Institutional Capacity (concept)
@@ -94,6 +94,7 @@ last_updated: 2026-06-05
 - [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_hypergamy]] — Hypergamy (source)
 - [[src_live-disciplined-life-spontaneously]] — Live Disciplined Life Spontaneously (source)
 - [[src_no-system-will-make-you-profitable]] — No System Will Make You Profitable (source)
 - [[src_petrodollar-system-analysis]] — Petrodollar System Analysis (source)
@@ -123,8 +124,8 @@ last_updated: 2026-06-05
 
 ## Co-occurring tags
 
-- [[research]] — 54 co-occurrences
-- [[productivity]] — 29 co-occurrences
+- [[research]] — 53 co-occurrences
+- [[productivity]] — 28 co-occurrences
 - [[economic]] — 23 co-occurrences
 - [[ai]] — 22 co-occurrences
 - [[tools]] — 18 co-occurrences

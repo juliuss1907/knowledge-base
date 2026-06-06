@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: system
 auto_generated: true
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Tag: #system
@@ -16,18 +16,20 @@ last_updated: 2026-06-05
 
 ## Stats
 
-- Total files: 13
+- Total files: 15
 - Sources: 1
-- Concepts: 12
-- Last updated: 2026-06-05
+- Concepts: 14
+- Last updated: 2026-06-06
 
 ## Files with this tag
 
 - [[ashbys-law]] — Ashbys Law (concept)
+- [[catalysts]] — Catalysts (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
 - [[codified-taste]] — Codified Taste (concept)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
 - [[complicated-vs-complex]] — Complicated Vs Complex (concept)
+- [[critical-mass]] — Critical Mass (concept)
 - [[cynefin-framework]] — Cynefin Framework (concept)
 - [[loop-ownership]] — Loop Ownership (concept)
 - [[second-order-effects]] — Second Order Effects (concept)
@@ -41,5 +43,6 @@ last_updated: 2026-06-05
 
 - [[opinion]] — 9 co-occurrences
 - [[research]] — 9 co-occurrences
-- [[automation]] — 5 co-occurrences
+- [[automation]] — 6 co-occurrences
 - [[tools]] — 3 co-occurrences
+- [[psychology]] — 2 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Tag: #research
@@ -16,10 +16,10 @@ last_updated: 2026-06-05
 
 ## Stats
 
-- Total files: 137
+- Total files: 133
 - Sources: 26
-- Concepts: 111
-- Last updated: 2026-06-05
+- Concepts: 107
+- Last updated: 2026-06-06
 
 ## Files with this tag
 
@@ -51,9 +51,7 @@ last_updated: 2026-06-05
 - [[ebitda-trap]] — Ebitda Trap (concept)
 - [[entropy]] — Entropy (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
-- [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
-- [[factory-missions]] — Factory Missions (concept)
 - [[fast-weights]] — Fast Weights (concept)
 - [[financial-metrics]] — Financial Metrics (concept)
 - [[four-layer-framework]] — Four Layer Framework (concept)
@@ -94,7 +92,6 @@ last_updated: 2026-06-05
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
 - [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
-- [[multi-agent-taxonomy]] — Multi Agent Taxonomy (concept)
 - [[negative-compounding]] — Negative Compounding (concept)
 - [[newtons-third-law]] — Newtons Third Law (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
@@ -107,7 +104,6 @@ last_updated: 2026-06-05
 - [[petrodollar-system]] — Petrodollar System (concept)
 - [[philosopher-syndrome]] — Philosopher Syndrome (concept)
 - [[physics-envy]] — Physics Envy (concept)
-- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
 - [[policy-review-framework]] — Policy Review Framework (concept)
 - [[productivity-wage-gap]] — Productivity Wage Gap (concept)
 - [[prospective-memory-gap]] — Prospective Memory Gap (concept)
@@ -163,8 +159,8 @@ last_updated: 2026-06-05
 
 ## Co-occurring tags
 
-- [[opinion]] — 54 co-occurrences
-- [[ai]] — 49 co-occurrences
-- [[productivity]] — 39 co-occurrences
+- [[opinion]] — 53 co-occurrences
+- [[ai]] — 46 co-occurrences
+- [[productivity]] — 38 co-occurrences
 - [[tools]] — 29 co-occurrences
 - [[economic]] — 28 co-occurrences

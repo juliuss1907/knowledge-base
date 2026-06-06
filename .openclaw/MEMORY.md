@@ -155,3 +155,12 @@
 - **Remaining:** Output Validator systemic issues (awaiting re-compile)
 
 ---
+
+## 2026-06-06 21:02:26 — Indexed
+
+- **Scanned:** 218 concepts + 62 sources = 280 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 69
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 5
+- **Errors:** 7 files skipped

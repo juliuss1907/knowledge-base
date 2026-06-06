@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: economic
 auto_generated: true
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Tag: #economic
@@ -16,10 +16,10 @@ last_updated: 2026-06-05
 
 ## Stats
 
-- Total files: 45
+- Total files: 46
 - Sources: 8
-- Concepts: 37
-- Last updated: 2026-06-05
+- Concepts: 38
+- Last updated: 2026-06-06
 
 ## Files with this tag
 
@@ -48,6 +48,7 @@ last_updated: 2026-06-05
 - [[petrodollar-system]] — Petrodollar System (concept)
 - [[physics-envy]] — Physics Envy (concept)
 - [[policy-review-framework]] — Policy Review Framework (concept)
+- [[power-law]] — Power Law (concept)
 - [[productivity-wage-gap]] — Productivity Wage Gap (concept)
 - [[reflexivity-soros]] — Reflexivity Soros (concept)
 - [[retail-trading-fantasy]] — Retail Trading Fantasy (concept)
@@ -73,6 +74,6 @@ last_updated: 2026-06-05
 
 - [[research]] — 28 co-occurrences
 - [[opinion]] — 23 co-occurrences
-- [[psychology]] — 14 co-occurrences
+- [[psychology]] — 15 co-occurrences
 - [[tools]] — 7 co-occurrences
 - [[tutorial]] — 7 co-occurrences

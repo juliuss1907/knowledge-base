@@ -2,11 +2,11 @@
 
 Auto-generated index of all content with topic `mental-models`.
 
-Last updated: 2026-06-05 21:04:08
+Last updated: 2026-06-06 21:02:26
 
 ---
 
-## Concepts (16)
+## Concepts (15)
 
 - [[circle-of-competence]] — main: #productivity, sub: [#psychology]
 - [[entropy]] — main: #productivity, sub: [#psychology, #research]
@@ -15,7 +15,6 @@ Last updated: 2026-06-05 21:04:08
 - [[hanlons-razor]] — main: #productivity, sub: [#psychology, #research]
 - [[inversion]] — main: #productivity, sub: [#psychology]
 - [[map-is-not-territory]] — main: #productivity, sub: [#psychology]
-- [[mental-models]] — main: #productivity, sub: [#psychology]
 - [[newtons-third-law]] — main: #productivity, sub: [#research]
 - [[occams-razor]] — main: #productivity, sub: [#psychology, #research]
 - [[perspective-bias]] — main: #productivity, sub: [#psychology]

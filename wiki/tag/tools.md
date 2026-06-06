@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Tag: #tools
@@ -17,14 +17,13 @@ last_updated: 2026-06-05
 ## Stats
 
 - Total files: 113
-- Sources: 22
-- Concepts: 91
-- Last updated: 2026-06-05
+- Sources: 23
+- Concepts: 90
+- Last updated: 2026-06-06
 
 ## Files with this tag
 
 - [[agent-handoff]] — Agent Handoff (concept)
-- [[agent-harness]] — Agent Harness (concept)
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
 - [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
@@ -45,7 +44,6 @@ last_updated: 2026-06-05
 - [[claude-builder-role]] — Claude Builder Role (concept)
 - [[claude-code-routines]] — Claude Code Routines (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
-- [[code-as-substrate]] — Code As Substrate (concept)
 - [[codified-taste]] — Codified Taste (concept)
 - [[compact-vs-handoff]] — Compact Vs Handoff (concept)
 - [[consent-phishing]] — Consent Phishing (concept)
@@ -76,6 +74,7 @@ last_updated: 2026-06-05
 - [[hindsight-skill]] — Hindsight Skill (concept)
 - [[kv-cache-eviction]] — Kv Cache Eviction (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
+- [[leverage]] — Leverage (concept)
 - [[llm-sleep]] — Llm Sleep (concept)
 - [[manifold-constrained-hyper-connections]] — Manifold Constrained Hyper Connections (concept)
 - [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
@@ -120,6 +119,7 @@ last_updated: 2026-06-05
 - [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_leverage]] — Leverage (source)
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
@@ -139,8 +139,8 @@ last_updated: 2026-06-05
 
 ## Co-occurring tags
 
-- [[ai]] — 81 co-occurrences
-- [[automation]] — 50 co-occurrences
+- [[ai]] — 79 co-occurrences
+- [[automation]] — 49 co-occurrences
 - [[research]] — 29 co-occurrences
 - [[opinion]] — 18 co-occurrences
 - [[tech]] — 17 co-occurrences

@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `leader-leader-leadership`.
 
-Last updated: 2026-06-05 21:04:08
+Last updated: 2026-06-06 21:02:26
 
 ---
 

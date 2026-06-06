@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tutorial
 auto_generated: true
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-06-05
 
 ## Stats
 
-- Total files: 32
-- Sources: 10
-- Concepts: 22
-- Last updated: 2026-06-05
+- Total files: 34
+- Sources: 11
+- Concepts: 23
+- Last updated: 2026-06-06
 
 ## Files with this tag
 
@@ -42,6 +42,7 @@ last_updated: 2026-06-05
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
 - [[soul-md-configuration]] — Soul Md Configuration (concept)
+- [[speed-vs-velocity]] — Speed Vs Velocity (concept)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
 - [[src_first-principles-thinking]] — First Principles Thinking (source)
 - [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
@@ -51,6 +52,7 @@ last_updated: 2026-06-05
 - [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
 - [[src_how-to-read-cash-flow-statement]] — How To Read Cash Flow Statement (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
+- [[src_speed-velocity]] — Speed Velocity (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
@@ -59,7 +61,7 @@ last_updated: 2026-06-05
 ## Co-occurring tags
 
 - [[tools]] — 16 co-occurrences
-- [[productivity]] — 10 co-occurrences
+- [[productivity]] — 12 co-occurrences
+- [[automation]] — 10 co-occurrences
 - [[ai]] — 10 co-occurrences
-- [[automation]] — 8 co-occurrences
 - [[economic]] — 7 co-occurrences

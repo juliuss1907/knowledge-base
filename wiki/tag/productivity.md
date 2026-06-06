@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: productivity
 auto_generated: true
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-06-05
 
 ## Stats
 
-- Total files: 77
-- Sources: 22
-- Concepts: 55
-- Last updated: 2026-06-05
+- Total files: 82
+- Sources: 24
+- Concepts: 58
+- Last updated: 2026-06-06
 
 ## Files with this tag
 
@@ -35,9 +35,9 @@ last_updated: 2026-06-05
 - [[entropy]] — Entropy (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
 - [[evening-routine]] — Evening Routine (concept)
-- [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
 - [[first-principles-thinking]] — First Principles Thinking (concept)
+- [[focus]] — Focus (concept)
 - [[galilean-relativity]] — Galilean Relativity (concept)
 - [[glymphatic-system]] — Glymphatic System (concept)
 - [[google-project-oxygen]] — Google Project Oxygen (concept)
@@ -51,12 +51,14 @@ last_updated: 2026-06-05
 - [[lazy-thinking]] — Lazy Thinking (concept)
 - [[leader-leader-model]] — Leader Leader Model (concept)
 - [[leading-indicators]] — Leading Indicators (concept)
+- [[leverage]] — Leverage (concept)
 - [[logotherapy-frankl]] — Logotherapy Frankl (concept)
 - [[map-is-not-territory]] — Map Is Not Territory (concept)
 - [[meaning-through-suffering]] — Meaning Through Suffering (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
 - [[mental-models]] — Mental Models (concept)
 - [[negative-compounding]] — Negative Compounding (concept)
+- [[negotiation]] — Negotiation (concept)
 - [[newtons-third-law]] — Newtons Third Law (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
 - [[non-commodity-content]] — Non Commodity Content (concept)
@@ -71,6 +73,7 @@ last_updated: 2026-06-05
 - [[reciprocity]] — Reciprocity (concept)
 - [[second-order-thinking]] — Second Order Thinking (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
+- [[speed-vs-velocity]] — Speed Vs Velocity (concept)
 - [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
@@ -81,6 +84,7 @@ last_updated: 2026-06-05
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 - [[src_inversion]] — Inversion (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
+- [[src_leverage]] — Leverage (source)
 - [[src_live-disciplined-life-spontaneously]] — Live Disciplined Life Spontaneously (source)
 - [[src_map-is-not-territory]] — Map Is Not Territory (source)
 - [[src_occams-razor]] — Occams Razor (source)
@@ -88,6 +92,7 @@ last_updated: 2026-06-05
 - [[src_reciprocity]] — Reciprocity (source)
 - [[src_second-order-thinking]] — Second Order Thinking (source)
 - [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source)
+- [[src_speed-velocity]] — Speed Velocity (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
 - [[src_thought-experiment]] — Thought Experiment (source)
@@ -103,8 +108,8 @@ last_updated: 2026-06-05
 
 ## Co-occurring tags
 
-- [[psychology]] — 43 co-occurrences
-- [[research]] — 39 co-occurrences
-- [[opinion]] — 29 co-occurrences
-- [[tutorial]] — 10 co-occurrences
+- [[psychology]] — 46 co-occurrences
+- [[research]] — 38 co-occurrences
+- [[opinion]] — 28 co-occurrences
+- [[tutorial]] — 12 co-occurrences
 - [[health]] — 6 co-occurrences

@@ -5,7 +5,9 @@ url: https://www.healthline.com/health/hypergamy#downsides
 author: Healthline
 date_published: 2026-06-05
 date_ingested: 2026-06-05
-status: unprocessed
+compiled_at: 2026-06-06
+compiled_to: "[[src_hypergamy]]"
+status: processed
 source: healthline.com
 ---
 

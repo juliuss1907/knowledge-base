@@ -83,6 +83,42 @@
 | raw/articles/2026-06-01_why-i-write-about-structural-competition.md | src_why-i-write-about-structural-competition | structural-competition, four-layer-framework, institutional-capacity, industrial-scale |
 
 [432 more lines in file. Use offset=51 to continue.]
+## 2026-06-06 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-06-05_activation-energy-why-getting-started-is-hardest-part.md | src_activation-energy | activation-energy, catalysts, mental-models |
+| raw/articles/2026-06-05_hypergamy-can-it-be-harmful.md | src_hypergamy | hypergamy, relationship-dynamics |
+| raw/articles/2026-06-05_leverage-gaining-disproportionate-strength.md | src_leverage | leverage, critical-mass, power-law, negotiation |
+| raw/articles/2026-06-05_speed-velocity-getting-stuff-done.md | src_speed-velocity | speed-vs-velocity, focus |
+
+### Summary
+
+- **Processed:** 4/4 files
+- **Source notes created:** 4
+- **Concepts created:** 11
+- **Status updated:** All raw files → `processed`
+- **Index Agent:** Chạy riêng lúc 21:00
+
+### Tags Applied
+
+**Main tags:**
+- productivity × 2 files
+- psychology × 2 files
+
+**Sub tags:**
+- psychology × 5 files
+- productivity × 4 files
+- opinion × 1 file
+- tools × 1 file
+- tutorial × 1 file
+
+---
+
 ## 2026-06-05 21:04:08 — Indexed
 
 - **Scanned:** 214 concepts + 58 sources = 272 total files

@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [productivity]
+sub_tags: [automation]
 topic: speed-vs-velocity-productivity
 sources:
   - "[[src_speed-velocity]]"

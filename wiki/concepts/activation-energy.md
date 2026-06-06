@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: psychology
-sub_tags: [psychology, productivity]
+sub_tags: [psychology, automation]
 topic: activation-energy-mental-model
 sources:
   - "[[src_activation-energy]]"

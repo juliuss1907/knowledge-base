@@ -4,15 +4,15 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-06 08:05 — Validation: 6 format issues (new from cron compile) + 4 output (unchanged)
+**Last updated:** 2026-06-06 09:09 — Format fixes applied by Fix Agent
 
 ---
 
 ## Summary
-**Pending reports:** 1 (awaiting re-compile for systemic Output issues)
+**Pending reports:** 1 (Output Validator systemic — awaiting re-compile)
 
 **Status:**
-- ✅ Format Validator — 2026-06-06: **APPROVED** (6 files: `productivity` in sub_tags — new from cron compile)
+- ✅ Format Validator — 2026-06-06: **APPLIED** (6 files: `productivity` → `automation` — fixed by Fix Agent)
 - ✅ Output Validator — 2026-06-06: **APPROVED** (4 systemic issues — require re-compile with updated Compile Agent)
 - ✅ Hygiene Inspector — 2026-06-06: **PROMOTE** (0 issues)
 - ✅ Format Validator — 2026-06-03: APPLIED (5 files)

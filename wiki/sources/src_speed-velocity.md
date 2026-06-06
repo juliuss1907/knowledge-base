@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-06-05_speed-velocity-getting-stuff-done]]"
 main_tag: productivity
-sub_tags: [productivity, tutorial]
+sub_tags: [automation, tutorial]
 topic: speed-vs-velocity-productivity
 date_compiled: 2026-06-06
 url: https://fs.blog/speed-velocity/

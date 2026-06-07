@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 # Tag: #research
@@ -16,10 +16,10 @@ last_updated: 2026-06-06
 
 ## Stats
 
-- Total files: 133
-- Sources: 26
-- Concepts: 107
-- Last updated: 2026-06-06
+- Total files: 136
+- Sources: 27
+- Concepts: 109
+- Last updated: 2026-06-07
 
 ## Files with this tag
 
@@ -41,6 +41,7 @@ last_updated: 2026-06-06
 - [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)
 - [[coordinated-vulnerability-disclosure]] — Coordinated Vulnerability Disclosure (concept)
 - [[csa-hca-attention]] — Csa Hca Attention (concept)
+- [[cultural-memetics]] — Cultural Memetics (concept)
 - [[cynefin-framework]] — Cynefin Framework (concept)
 - [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)
 - [[default-mode-network]] — Default Mode Network (concept)
@@ -107,6 +108,7 @@ last_updated: 2026-06-06
 - [[policy-review-framework]] — Policy Review Framework (concept)
 - [[productivity-wage-gap]] — Productivity Wage Gap (concept)
 - [[prospective-memory-gap]] — Prospective Memory Gap (concept)
+- [[psychological-survival]] — Psychological Survival (concept)
 - [[query-fan-out]] — Query Fan Out (concept)
 - [[rag-retrieval-augmented-generation]] — Rag Retrieval Augmented Generation (concept)
 - [[reciprocity]] — Reciprocity (concept)
@@ -129,6 +131,7 @@ last_updated: 2026-06-06
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
 - [[src_hanlons-razor]] — Hanlons Razor (source)
 - [[src_how-to-read-cash-flow-statement]] — How To Read Cash Flow Statement (source)
+- [[src_life-is-a-mind-game-heres-how-you]] — Life Is A Mind Game Heres How You (source)
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
 - [[src_no-system-will-make-you-profitable]] — No System Will Make You Profitable (source)
 - [[src_occams-razor]] — Occams Razor (source)
@@ -161,6 +164,6 @@ last_updated: 2026-06-06
 
 - [[opinion]] — 53 co-occurrences
 - [[ai]] — 46 co-occurrences
-- [[productivity]] — 38 co-occurrences
+- [[productivity]] — 41 co-occurrences
 - [[tools]] — 29 co-occurrences
 - [[economic]] — 28 co-occurrences

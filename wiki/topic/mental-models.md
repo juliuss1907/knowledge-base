@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `mental-models`.
 
-Last updated: 2026-06-06 21:02:26
+Last updated: 2026-06-07 21:04:48
 
 ---
 

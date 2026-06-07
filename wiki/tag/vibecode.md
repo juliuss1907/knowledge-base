@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: vibecode
 auto_generated: true
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 # Tag: #vibecode
@@ -19,7 +19,7 @@ last_updated: 2026-06-06
 - Total files: 1
 - Sources: 0
 - Concepts: 1
-- Last updated: 2026-06-06
+- Last updated: 2026-06-07
 
 ## Files with this tag
 

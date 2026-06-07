@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: ai
 auto_generated: true
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 # Tag: #ai
@@ -19,7 +19,7 @@ last_updated: 2026-06-06
 - Total files: 99
 - Sources: 21
 - Concepts: 78
-- Last updated: 2026-06-06
+- Last updated: 2026-06-07
 
 ## Files with this tag
 

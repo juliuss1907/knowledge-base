@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: automation
 auto_generated: true
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 # Tag: #automation
@@ -16,10 +16,10 @@ last_updated: 2026-06-06
 
 ## Stats
 
-- Total files: 60
-- Sources: 13
-- Concepts: 47
-- Last updated: 2026-06-06
+- Total files: 65
+- Sources: 14
+- Concepts: 51
+- Last updated: 2026-06-07
 
 ## Files with this tag
 
@@ -43,6 +43,7 @@ last_updated: 2026-06-06
 - [[context-window-management]] — Context Window Management (concept)
 - [[conversational-website]] — Conversational Website (concept)
 - [[cross-agent-workflow]] — Cross Agent Workflow (concept)
+- [[environment-design-for-habits]] — Environment Design For Habits (concept)
 - [[focus]] — Focus (concept)
 - [[grok-hermes-integration]] — Grok Hermes Integration (concept)
 - [[habit-automation]] — Habit Automation (concept)
@@ -52,9 +53,11 @@ last_updated: 2026-06-06
 - [[hermes-persistent-memory]] — Hermes Persistent Memory (concept)
 - [[hermes-three-layers]] — Hermes Three Layers (concept)
 - [[hindsight-skill]] — Hindsight Skill (concept)
+- [[impulse-response-gap]] — Impulse Response Gap (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[loop-ownership]] — Loop Ownership (concept)
 - [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
+- [[negative-future-projection]] — Negative Future Projection (concept)
 - [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
 - [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
@@ -68,6 +71,7 @@ last_updated: 2026-06-06
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_activation-energy]] — Activation Energy (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
 - [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)
 - [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
 - [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)
@@ -77,6 +81,7 @@ last_updated: 2026-06-06
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[src_speed-velocity]] — Speed Velocity (source)
+- [[success-trap]] — Success Trap (concept)
 - [[taste-holders]] — Taste Holders (concept)
 - [[validation-contract]] — Validation Contract (concept)
 - [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
@@ -89,5 +94,5 @@ last_updated: 2026-06-06
 - [[tools]] — 49 co-occurrences
 - [[ai]] — 42 co-occurrences
 - [[tutorial]] — 10 co-occurrences
-- [[opinion]] — 8 co-occurrences
-- [[system]] — 6 co-occurrences
+- [[psychology]] — 9 co-occurrences
+- [[productivity]] — 9 co-occurrences

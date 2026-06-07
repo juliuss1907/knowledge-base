@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 # Tag: #tools
@@ -19,7 +19,7 @@ last_updated: 2026-06-06
 - Total files: 113
 - Sources: 23
 - Concepts: 90
-- Last updated: 2026-06-06
+- Last updated: 2026-06-07
 
 ## Files with this tag
 

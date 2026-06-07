@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tech
 auto_generated: true
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 # Tag: #tech
@@ -19,7 +19,7 @@ last_updated: 2026-06-06
 - Total files: 18
 - Sources: 4
 - Concepts: 14
-- Last updated: 2026-06-06
+- Last updated: 2026-06-07
 
 ## Files with this tag
 
@@ -46,6 +46,6 @@ last_updated: 2026-06-06
 
 - [[tools]] — 17 co-occurrences
 - [[hack]] — 10 co-occurrences
-- [[automation]] — 4 co-occurrences
 - [[tutorial]] — 4 co-occurrences
+- [[automation]] — 4 co-occurrences
 - [[news]] — 3 co-occurrences

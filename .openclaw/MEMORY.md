@@ -164,3 +164,11 @@
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 5
 - **Errors:** 7 files skipped
+
+## 2026-06-07 08:15:00 — Compiled
+
+- **Raw:** [[raw/articles/2026-06-06_dan-koe-mind-game-practical-application.md]]
+- **Source note:** [[wiki/sources/src_dan-koe-mind-game-practical-application.md]]
+- **Concepts:** [impulse-response-gap, environment-design-for-habits, negative-future-projection, success-trap]
+- **Tags applied:** main=#productivity, sub=[#psychology, #automation], topic=dan-koe-mind-game
+- **Action:** created 4 concept files

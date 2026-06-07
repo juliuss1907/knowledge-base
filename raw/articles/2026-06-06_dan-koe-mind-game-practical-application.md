@@ -4,7 +4,9 @@ source_type: article
 source_url: https://letters.thedankoe.com/p/life-is-a-mind-game-heres-how-you
 date_ingested: 2026-06-06
 tags: [psychology, productivity, automation]
-status: unprocessed
+status: processed
+compiled_at: 2026-06-07
+compiled_to: "[[src_dan-koe-mind-game-practical-application]]"
 ---
 
 # Dan Koe: Life is a Mind Game — Practical Application & Detailed Breakdown

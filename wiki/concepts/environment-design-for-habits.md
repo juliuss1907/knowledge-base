@@ -6,6 +6,7 @@ sub_tags: [psychology, automation]
 topic: dan-koe-mind-game
 sources:
   - "[[src_dan-koe-mind-game-practical-application]]"
+  - "[[src_life-is-a-mind-game-heres-how-you]]"
 last_updated: 2026-06-07
 ---
 
@@ -21,6 +22,8 @@ Chiến lược thay đổi bối cảnh xung quanh (vật lý, số và xã h�
   - **Vật lý:** Sắp xếp lại không gian làm việc, loại bỏ thiết bị gây phân tâm, thay đổi vị trí địa lý.
   - **Số (Digital):** Lập trình lại feed mạng xã hội, xóa app gây nghiện, thiết kế lại màn hình chủ điện thoại.
   - **Xã hội:** Thay đổi vòng bạn bè, tiếp cận những người có tiêu chuẩn cao và mindset mục tiêu.
+- **Chiến lược ngắt mạch:** Xóa bỏ các triggers (tác nhân kích thích) cũ để phá vỡ chu kỳ lặp lại hàng ngày.
+- **Đắm mình trong tương lai:** Tiếp cận các ý kiến, niềm tin và giáo dục của phiên bản tương lai để định hình lại danh tính thông qua việc học.
 - **Triết lý "Phiên bản tương lai":** Thiết kế môi trường dựa trên câu hỏi: *"Nếu tôi đã là con người mình muốn trở thành, tôi sẽ sống trong môi trường nào?"*
 - **Quy trình thay đổi hệ thống:**
   1. Nhận diện tác nhân nuôi con người cũ.

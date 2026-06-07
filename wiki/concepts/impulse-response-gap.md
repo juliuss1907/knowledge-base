@@ -6,6 +6,7 @@ sub_tags: [psychology, automation]
 topic: dan-koe-mind-game
 sources:
   - "[[src_dan-koe-mind-game-practical-application]]"
+  - "[[src_life-is-a-mind-game-heres-how-you]]"
 last_updated: 2026-06-07
 ---
 
@@ -23,6 +24,8 @@ Khoảng thời gian chủ động được tạo ra giữa một xung động (
   - **Quan sát:** Dừng lại và định danh cảm xúc hiện tại.
   - **Thở 4-7-8:** Kích hoạt hệ thần kinh đối giao cảm để giảm cortisol và lấy lại sự bình tĩnh.
   - **Quy tắc 10 phút:** Trì hoãn hành động trong 10 phút để giảm tác động của dopamine.
+  - **Học cách làm người quan sát (the observer):** Vận hành từ một cấp độ nhận thức cao hơn để không bị cuốn theo phản xạ.
+  - **Zoom out/Zoom in:** Luyện tập giãn nở và co thắt tâm trí (zoom out để tư duy rõ ràng, zoom in để hành động quyết liệt).
 - **Ứng dụng trong đầu tư:** Tránh panic sell hoặc FOMO bằng cách áp dụng khoảng cách trước khi thực hiện giao dịch.
 
 ## Related concepts

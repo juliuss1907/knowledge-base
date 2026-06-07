@@ -172,3 +172,11 @@
 - **Concepts:** [impulse-response-gap, environment-design-for-habits, negative-future-projection, success-trap]
 - **Tags applied:** main=#productivity, sub=[#psychology, #automation], topic=dan-koe-mind-game
 - **Action:** created 4 concept files
+
+## 2026-06-07 08:30:00 — Compiled
+
+- **Raw:** [[raw/articles/2026-06-06_life-is-a-mind-game-heres-how-you.md]]
+- **Source note:** [[wiki/sources/src_life-is-a-mind-game-heres-how-you.md]]
+- **Concepts:** [psychological-survival, cultural-memetics, impulse-response-gap, environment-design-for-habits, negative-future-projection, success-trap]
+- **Tags applied:** main=#productivity, sub=[#psychology, #research], topic=dan-koe-mind-game
+- **Action:** created 2 concept files, updated 4 existing concepts

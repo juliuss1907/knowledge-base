@@ -6,6 +6,7 @@ sub_tags: [psychology, automation]
 topic: dan-koe-mind-game
 sources:
   - "[[src_dan-koe-mind-game-practical-application]]"
+  - "[[src_life-is-a-mind-game-heres-how-you]]"
 last_updated: 2026-06-07
 ---
 
@@ -18,6 +19,10 @@ Hiện tượng tâm lý khi một người đạt được mục tiêu nhưng t
 ## Key ideas
 
 - **Bản chất:** Đổi "nhà tù" cũ lấy một "nhà tù" đẹp hơn. Sự thành công trở thành một trò chơi sinh tồn mới nơi không bao giờ là "đủ".
+- **Phân biệt Nỗi đau & Sự khổ sở:**
+  - **Pain (Nỗi đau):** Là đặc tính tự nhiên của cuộc sống.
+  - **Suffering (Sự khổ sở):** Là sự từ chối chấp nhận sự việc của danh tính (ví dụ: "điều này không nên xảy ra với tôi").
+- **Vượt qua (Transcendence):** Đạt tới trạng thái làm việc với cường độ cao nhưng bình thản với kết quả. Đây là dấu hiệu của một tâm trí trưởng thành, có khả năng nắm giữ hai lực đối lập cùng lúc.
 - **Dấu hiệu nhận diện:**
   - Vạch đích liên tục thay đổi.
   - Tự tin phụ thuộc hoàn toàn vào kết quả ngắn hạn.

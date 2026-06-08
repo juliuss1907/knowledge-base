@@ -2788,3 +2788,12 @@
 - activation-energy.md: main_tag=psychology
 - relationship-dynamics.md: main_tag=psychology
 
+
+## 2026-06-08 21:02:55 — Indexed
+
+- **Scanned:** 224 concepts + 64 sources = 288 total files
+- **Tags indexed:** 0 (0 main-tags + 0 sub-tags)
+- **Topics indexed:** 70
+- **Orphans deleted:** 20 tag indexes + 0 topic indexes
+- **Invalid tags found:** 853
+- **Errors:** 7 files skipped

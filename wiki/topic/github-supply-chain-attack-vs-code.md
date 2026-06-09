@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `github-supply-chain-attack-vs-code`.
 
-Last updated: 2026-06-08 21:04:35
+Last updated: 2026-06-09 21:02:41
 
 ---
 

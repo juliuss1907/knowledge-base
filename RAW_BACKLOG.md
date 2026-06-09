@@ -1,49 +1,35 @@
-# RAW_BACKLOG.md
+# RAW_BACKLOG.md — Compile Queue Log
 
-> Raw files awaiting CompileAgent processing
-> Updated automatically by heartbeat check
-
----
-
-**Last updated:** 2026-06-05 23:30 (Asia/Saigon)
-**Heartbeat:** CRON-3e70fe54
+> Updated after each heartbeat. Oldest entries at top.
 
 ---
 
-## Backlog Summary
+## Current backlog — 2026-06-09 23:30
 
-| Metric | Value |
-|--------|-------|
-| **Unprocessed files** | 4 |
-| **Oldest unprocessed** | 2026-06-05 (today) |
-| **Status** | ✅ HEALTHY — no old backlog |
+| File | Date ingested | Age |
+|---|---|---|
+| raw/articles/2026-06-09_counterinsurgency-fighting-back.md | 2026-06-09 | today |
+| raw/articles/2026-06-09_farnam-street-mental-models-biology-series.md | 2026-06-09 | today |
+| raw/articles/2026-06-09_farnam-street-mental-models-systems-thinking.md | 2026-06-09 | today |
+| raw/articles/2026-06-09_feedback-loops-mental-model.md | 2026-06-09 | today |
+| raw/articles/2026-06-09_mental-models-of-art.md | 2026-06-09 | today |
+| raw/articles/2026-06-09_mental-models-of-economics.md | 2026-06-09 | today |
+| raw/articles/2026-06-09_mutually-assured-destruction.md | 2026-06-09 | today |
+| raw/articles/2026-06-09_the-power-of-incentives-hidden-forces-shape-behavior.md | 2026-06-09 | today |
 
----
-
-## New Files (Today — June 5)
-
-1. raw/articles/2026-06-05_speed-velocity-getting-stuff-done.md (fs.blog)
-2. raw/articles/2026-06-05_hypergamy-can-it-be-harmful.md (healthline.com)
-3. raw/articles/2026-06-05_leverage-gaining-disproportionate-strength.md (fs.blog)
-4. raw/articles/2026-06-05_activation-energy-why-getting-started-is-hardest-part.md (fs.blog)
-
----
-
-## Status
-
-- **CompileAgent:** 4 files pending — will process at 08:00 tomorrow (June 6)
-- **No old backlog:** All files from June 4 and earlier are processed
-- **Pending reviews:** 1 entry in _action-required (from June 3 Hermes report — awaiting Julius approval)
+**Total:** 8 files  
+**Compile time:** 08:00 tomorrow (2026-06-10)
 
 ---
 
-## Heartbeat Update — 2026-06-05 23:30 Asia/Saigon
+## History
 
-**System status:** ✅ CLEAN
+### 2026-06-09 23:30 — 8 files added (all today)
+No files older than 24h. System clean.
 
-- Inbox: 0 files
-- Raw backlog: 4 files (all new today, none >24h)
-- Concept backlink check: not run this heartbeat
-- Pending reviews: 1 entry awaiting Julius (from June 3)
+### 2026-06-05 23:30 — 4 files cleared
+All from June 4 processed. No old backlog.
 
-**No action required.** CompileAgent runs at 08:00 June 6.
+---
+
+*Last updated: 2026-06-09 23:30*

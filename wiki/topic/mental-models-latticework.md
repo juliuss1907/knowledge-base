@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `mental-models-latticework`.
 
-Last updated: 2026-06-09 21:02:41
+Last updated: 2026-06-09 21:06:40
 
 ---
 

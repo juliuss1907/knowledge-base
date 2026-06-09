@@ -251,3 +251,11 @@
 ### Invalid Tag Details
 [Truncated for brevity]
 
+## 2026-06-09 21:06:40 — Indexed
+
+- **Scanned:** 246 concepts + 71 sources = 317 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 77
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 5 (psychology used as main_tag)
+- **Errors:** 7 files skipped

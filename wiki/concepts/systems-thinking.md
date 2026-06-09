@@ -1,39 +1,43 @@
 ---
 type: concept
-status: reviewed
-main_tag: system
+status: draft
+main_tag: productivity
 sub_tags: [research, opinion]
-topic: post-systems-thinking
+topic: systems-thinking-cognitive-development
 sources:
-  - "[[src_what-comes-after-systems-thinking]]"
-  - "[[src_will-ai-replace-systems-thinking]]"
-last_updated: 2026-05-27
+  - "[[src_systems-thinking-rabbit-hole]]"
+last_updated: 2026-06-09
 ---
 
 # Systems Thinking
 
 ## Definition
 
-Systems Thinking là cách tiếp cận để hiểu và phân tích các hệ thống phức tạp bằng cách tập trung vào mối quan hệ giữa các thành phần, chứ không chỉ các thành phần riêng lẻ. Nó nhấn mạnh việc xem xét các pattern, cấu trúc, và tương tác mà từ đó hệnh việt nổi lên.
+Phương pháp nhìn nhận vấn đề thông qua cấu trúc tạo ra hành vi, thay vì chỉ tập trung vào triệu chứng riêng lẻ. Systems thinking không phải là việc nhận ra "mọi thứ đều kết nối" — điều đó dễ dẫn đến phân tích mơ hồ. Thay vào đó, nó đòi hỏi việc xác định rõ ràng các thành phần, mối quan hệ, ranh giới hệ thống, và điểm can thiệp có tác động cao.
 
 ## Key ideas
 
-- **Interconnectedness:** Mọi thứ trong hệ thống đều kết nối với nhau; thay đổi một phần ảnh hưởng đến toàn bộ
-- **Feedback loops:** Hành vi trong hệ thống tạo ra phản hồi có thể tăng cường (reinforcing) hoặc cân bằng (balancing) hệ thống
-- **Emergence:** Thuộc tính của toàn thể không thể dự đoán từ các phần riêng lẻ
-- **Delays:** Thời gian trễ giữa cause và effect trong hệ thống phức tạp
-- **Mental models:** Cấu trúc tư duy ẩn sau quyết định của chúng ta
+- Systems thinking là **capability**, không phải **trait** — ai cũng có thể học được
+- Chúng ta sinh ra với các "nguyên liệu" (ingredients): curiosity về cause-effect, khả năng nhận diện pattern
+- Nhưng systems thinking như một kỹ năng cần được rèn luyện, đặt tên, và sắc bén hóa
+- Systems thinking ≠ holistic thinking:
+  - Holistic = xu hướng nhìn context (tendency)
+  - Systems = phương pháp lập bản đồ và can thiệp (method)
+- Systems thinking không thay thế phân tích — nó cải thiện chất lượng phân tích
+- "Systems thinking must come before analytical thinking because analysis needs context."
+- Không có systems thinking, phân tích có thể trở thành "premature precision" — chính xác nhưng sai vấn đề
+- "Some people may see the system sooner. But seeing the system clearly still takes work."
 
 ## Related concepts
 
-- [[ai-augmented-systems-thinking]]
-- [[cynefin-framework]]
-- [[complex-adaptive-systems]]
+- [[causal-reasoning]]
+- [[pattern-recognition]]
+- [[relational-reasoning]]
+- [[holistic-thinking]]
+- [[premature-analysis]]
 
 ## Sources
 
-## Backlinks
-
-- [[ai-augmented-systems-thinking]]
+- [[src_systems-thinking-rabbit-hole]]
 
 ## Notes

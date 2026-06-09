@@ -1,47 +1,26 @@
-# HEARTBEAT.md — OpenClaw System Status
+# HEARTBEAT — 2026-06-09 23:00 (Asia/Saigon)
 
-> Last updated: 2026-06-09 18:30 (Asia/Saigon)
-> Status: OPERATIONAL
+**Status:** CLEAN
 
 ---
 
-## Current Status
+## Checks
 
 | Check | Result |
 |---|---|
-| Raw Backlog | 8 files unprocessed |
-| Pending Reviews | 5 entries in _action-required.md |
-| Wiki Concepts | 253 files |
-| Last Compile | 2026-06-09 08:06 |
-
----
-
-## Raw Backlog (8 files)
-
-All ingested today — compile scheduled for 08:00 tomorrow.
-
-1. raw/articles/2026-06-09_mutually-assured-destruction.md
-2. raw/articles/2026-06-09_the-power-of-incentives-hidden-forces-shape-behavior.md
-3. raw/articles/2026-06-09_mental-models-of-economics.md
-4. raw/articles/2026-06-09_feedback-loops-mental-model.md
-5. raw/articles/2026-06-09_farnam-street-mental-models-systems-thinking.md
-6. raw/articles/2026-06-09_counterinsurgency-fighting-back.md
-7. raw/articles/2026-06-09_farnam-street-mental-models-biology-series.md
-8. raw/articles/2026-06-09_mental-models-of-art.md
-
----
-
-## Pending Reviews
-
-5 entries in wiki/reviews/_action-required.md — awaiting Julius approval.
+| Inbox (Tasks/) | 0 files tagged #agent/inbox |
+| Raw backlog | 0 files unprocessed |
+| Concept count | 253 files |
+| Pending reviews | 1 systemic issue (Output Validator, awaiting re-compile) |
 
 ---
 
 ## Notes
 
-- No anomalies detected
-- System running normally
+- 8 files in raw/articles/ unprocessed — all ingested today (2026-06-09), compile scheduled 2026-06-10 08:00
+- Last Hermes review: 2026-06-06 (Format + Output + Hygiene, all resolved)
+- No new notifications needed
 
 ---
 
-*HEARTBEAT_OK — 2026-06-09 18:30*
+*Next heartbeat: 2026-06-09 23:30*

@@ -1,29 +1,47 @@
-# OpenClaw Heartbeat Log
+# HEARTBEAT.md — OpenClaw System Status
 
-Last updated: 2026-06-06 12:30 (Asia/Saigon)
+> Last updated: 2026-06-09 18:30 (Asia/Saigon)
+> Status: OPERATIONAL
 
-## Status
+---
 
-| Time | Status | Notes |
-|------|--------|-------|
-| 2026-06-06 12:30 | HEARTBEAT_OK | 0 files unprocessed; CompileAgent 08:00 ran clean |
-| 2026-06-06 05:30 | HEARTBEAT_OK | 4 files unprocessed, oldest from yesterday |
+## Current Status
 
-## Current Issues
+| Check | Result |
+|---|---|
+| Raw Backlog | 8 files unprocessed |
+| Pending Reviews | 5 entries in _action-required.md |
+| Wiki Concepts | 253 files |
+| Last Compile | 2026-06-09 08:06 |
 
-- **Raw backlog**: 4 files in `raw/articles/` unprocessed since 2026-06-05
-  - `speed-velocity-getting-stuff-done.md`
-  - `hypergamy-can-it-be-harmful.md`
-  - `leverage-gaining-disproportionate-strength.md`
-  - `activation-energy-why-getting-started-is-hardest-part.md`
+---
 
-## System Stats
+## Raw Backlog (8 files)
 
-- `wiki/concepts/`: 215 files
-- `wiki/sources/`: [count not checked in this run]
-- Pending Hermes reviews: 2 entries (format, output) awaiting approval
+All ingested today — compile scheduled for 08:00 tomorrow.
+
+1. raw/articles/2026-06-09_mutually-assured-destruction.md
+2. raw/articles/2026-06-09_the-power-of-incentives-hidden-forces-shape-behavior.md
+3. raw/articles/2026-06-09_mental-models-of-economics.md
+4. raw/articles/2026-06-09_feedback-loops-mental-model.md
+5. raw/articles/2026-06-09_farnam-street-mental-models-systems-thinking.md
+6. raw/articles/2026-06-09_counterinsurgency-fighting-back.md
+7. raw/articles/2026-06-09_farnam-street-mental-models-biology-series.md
+8. raw/articles/2026-06-09_mental-models-of-art.md
+
+---
+
+## Pending Reviews
+
+5 entries in wiki/reviews/_action-required.md — awaiting Julius approval.
+
+---
 
 ## Notes
 
-- CompileAgent scheduled for 08:00 — will process the 4 unprocessed files
-- Hermes review completed for previous batch; awaiting Julius approval
+- No anomalies detected
+- System running normally
+
+---
+
+*HEARTBEAT_OK — 2026-06-09 18:30*

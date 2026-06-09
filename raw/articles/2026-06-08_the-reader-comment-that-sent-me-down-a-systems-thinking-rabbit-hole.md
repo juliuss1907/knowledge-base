@@ -4,7 +4,9 @@ source_type: article
 source_url: https://open.substack.com/pub/pmresearcher/p/the-reader-comment-that-sent-me-down
 date_ingested: 2026-06-08
 tags: []
-status: unprocessed
+status: processed
+compiled_at: 2026-06-09
+compiled_to: "[[src_systems-thinking-rabbit-hole]]"
 ---
 
 # The Reader Comment That Sent Me Down a Systems Thinking Rabbit Hole

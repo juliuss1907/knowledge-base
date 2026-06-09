@@ -4,7 +4,9 @@ source_type: article
 source_url: https://open.substack.com/pub/octopusyarn/p/split-the-ikigai
 date_ingested: 2026-06-08
 tags: []
-status: unprocessed
+status: processed
+compiled_at: 2026-06-09
+compiled_to: "[[src_split-the-ikigai]]"
 ---
 
 # Split the Ikigai

@@ -4,7 +4,9 @@ source_type: post
 source_url: https://t.me/markus_rk_200_bot
 date_ingested: 2026-06-08
 tags: []
-status: unprocessed
+status: processed
+compiled_at: 2026-06-09
+compiled_to: "[[src_markus-systems-thinking-roadmap]]"
 ---
 
 # Markus — Lộ trình luyện tập Systems Thinking (4 mức độ)

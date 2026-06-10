@@ -4,7 +4,9 @@ source_type: article
 source_url: https://fs.blog/bias-incentives-reinforcement/
 date_ingested: 2026-06-09
 tags: []
-status: unprocessed
+status: processed
+compiled_at: 2026-06-10
+compiled_to: "[[src_the-power-of-incentives-hidden-forces-shape-behavior]]"
 ---
 
 # The Power of Incentives: The Hidden Forces That Shape Behavior

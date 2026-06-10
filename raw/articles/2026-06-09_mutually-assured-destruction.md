@@ -4,7 +4,9 @@ source_type: article
 source_url: https://fs.blog/mutually-assured-destruction/
 date_ingested: 2026-06-09
 tags: []
-status: unprocessed
+status: processed
+compiled_at: 2026-06-10
+compiled_to: "[[src_mutually-assured-destruction]]"
 ---
 
 # Mutually Assured Destruction: When Not to Play

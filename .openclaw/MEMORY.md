@@ -1,5 +1,45 @@
 ---
 
+## 2026-06-10 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| Raw File | Source Note | Concepts Created |
+|----------|-------------|------------------|
+| raw/articles/2026-06-09_counterinsurgency-fighting-back.md | src_counterinsurgency-fighting-back | counterinsurgency, oil-spot-strategy, hearts-and-minds |
+| raw/articles/2026-06-09_farnam-street-mental-models-biology-series.md | src_farnam-street-mental-models-biology-series | catalysts-mental-model, alloying-mental-model, red-queen-effect, ecosystems-mental-model, cooperation-mental-model |
+| raw/articles/2026-06-09_farnam-street-mental-models-systems-thinking.md | src_farnam-street-mental-models-systems-thinking | equilibrium-mental-model, bottlenecks-mental-model, margin-of-safety-mental-model, diminishing-returns-mental-model |
+| raw/articles/2026-06-09_feedback-loops-mental-model.md | src_feedback-loops-mental-model | feedback-loops |
+| raw/articles/2026-06-09_mental-models-of-art.md | src_mental-models-of-art | framing-mental-model, setting-mental-model |
+| raw/articles/2026-06-09_mental-models-of-economics.md | src_mental-models-of-economics | opportunity-cost, creative-destruction, greshams-law |
+| raw/articles/2026-06-09_mutually-assured-destruction.md | src_mutually-assured-destruction | mutually-assured-destruction |
+| raw/articles/2026-06-09_the-power-of-incentives-hidden-forces-shape-behavior.md | src_the-power-of-incentives-hidden-forces-shape-behavior | incentives-mental-model, operant-conditioning |
+
+### Summary
+
+- **Processed:** 8/8 files
+- **Source notes created:** 8
+- **Concepts created:** 22
+- **Status updated:** All raw files → `processed`
+- **Index Agent:** Chạy riêng lúc 21:00
+
+### Tags Applied
+
+**Main tags:**
+- productivity × 6 files
+- politic × 2 files
+- economic × 1 file
+
+**Sub tags:**
+- research × 8 files
+- psychology × 3 files
+- hack × 2 files
+- system × 3 files
+
+---
+
 ## 2026-06-09 08:00:00 — Compiled (Daily Cron)
 
 **Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)

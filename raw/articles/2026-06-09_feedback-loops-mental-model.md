@@ -4,7 +4,9 @@ source_type: article
 source_url: https://fs.blog/mental-model-feedback-loops/
 date_ingested: 2026-06-09
 tags: []
-status: unprocessed
+status: processed
+compiled_at: 2026-06-10
+compiled_to: "[[src_feedback-loops-mental-model]]"
 ---
 
 # Mental Model: Feedback Loops

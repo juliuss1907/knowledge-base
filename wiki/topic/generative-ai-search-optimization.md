@@ -1,14 +1,1 @@
-# Topic: generative-ai-search-optimization
-
-Auto-generated index of all content with topic `generative-ai-search-optimization`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (0)
-
-
-## Sources (1)
-
-- [[src_generative-ai-search-optimization]] — main: #ai, sub: [#research, #tools]
+# Topic: generative-ai-search-optimization\n\nAuto-generated index of all content with topic `generative-ai-search-optimization`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (0)\n\n\n## Sources (1)\n\n- [[src_generative-ai-search-optimization]] — main: #ai, sub: [#research, #tools]\n

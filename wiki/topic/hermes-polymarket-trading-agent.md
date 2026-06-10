@@ -1,17 +1,1 @@
-# Topic: hermes-polymarket-trading-agent
-
-Auto-generated index of all content with topic `hermes-polymarket-trading-agent`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (3)
-
-- [[atomic-mac-agent]] — main: #tech, sub: [#tools, #automation]
-- [[hermes-agent]] — main: #ai, sub: [#tools, #automation, #vibecode]
-- [[polymarket]] — main: #crypto, sub: [#defi, #tools]
-
-## Sources (1)
-
-- [[src_hermes-polymarket-btc-trading-agent]] — main: #crypto, sub: [#automation, #tools, #tutorial]
+# Topic: hermes-polymarket-trading-agent\n\nAuto-generated index of all content with topic `hermes-polymarket-trading-agent`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (3)\n\n- [[atomic-mac-agent]] — main: #tech, sub: [#tools, #automation]\n- [[hermes-agent]] — main: #ai, sub: [#tools, #automation, #vibecode]\n- [[polymarket]] — main: #crypto, sub: [#defi, #tools]\n\n## Sources (1)\n\n- [[src_hermes-polymarket-btc-trading-agent]] — main: #crypto, sub: [#automation, #tools, #tutorial]\n

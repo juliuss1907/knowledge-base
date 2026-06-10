@@ -1,15 +1,1 @@
-# Topic: personal-systems
-
-Auto-generated index of all content with topic `personal-systems`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (1)
-
-- [[third-order-thinking]] — main: #productivity, sub: [#psychology]
-
-## Sources (1)
-
-- [[src_third-order-thinking-how-to-build]] — main: #productivity, sub: [#psychology]
+# Topic: personal-systems\n\nAuto-generated index of all content with topic `personal-systems`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (1)\n\n- [[third-order-thinking]] — main: #productivity, sub: [#psychology]\n\n## Sources (1)\n\n- [[src_third-order-thinking-how-to-build]] — main: #productivity, sub: [#psychology]\n

@@ -1,17 +1,1 @@
-# Topic: discipline-and-spontaneity
-
-Auto-generated index of all content with topic `discipline-and-spontaneity`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (3)
-
-- [[discipline-as-freedom]] — main: #productivity, sub: [#opinion, #psychology]
-- [[habit-automation]] — main: #productivity, sub: [#psychology, #automation]
-- [[spontaneity-within-structure]] — main: #productivity, sub: [#opinion, #psychology]
-
-## Sources (1)
-
-- [[src_live-disciplined-life-spontaneously]] — main: #productivity, sub: [#opinion, #psychology]
+# Topic: discipline-and-spontaneity\n\nAuto-generated index of all content with topic `discipline-and-spontaneity`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (3)\n\n- [[discipline-as-freedom]] — main: #productivity, sub: [#opinion, #psychology]\n- [[habit-automation]] — main: #productivity, sub: [#psychology, #automation]\n- [[spontaneity-within-structure]] — main: #productivity, sub: [#opinion, #psychology]\n\n## Sources (1)\n\n- [[src_live-disciplined-life-spontaneously]] — main: #productivity, sub: [#opinion, #psychology]\n

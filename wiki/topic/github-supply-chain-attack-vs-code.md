@@ -1,17 +1,1 @@
-# Topic: github-supply-chain-attack-vs-code
-
-Auto-generated index of all content with topic `github-supply-chain-attack-vs-code`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (3)
-
-- [[supply-chain-attack]] — main: #tech, sub: [#hack, #tools]
-- [[team-pcp-hacker-group]] — main: #tech, sub: [#hack, #news]
-- [[vs-code-marketplace-security]] — main: #tech, sub: [#hack, #tools]
-
-## Sources (1)
-
-- [[src_11-minutes-hack-github]] — main: #tech, sub: [#hack, #tools, #news]
+# Topic: github-supply-chain-attack-vs-code\n\nAuto-generated index of all content with topic `github-supply-chain-attack-vs-code`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (3)\n\n- [[supply-chain-attack]] — main: #tech, sub: [#hack, #tools]\n- [[team-pcp-hacker-group]] — main: #tech, sub: [#hack, #news]\n- [[vs-code-marketplace-security]] — main: #tech, sub: [#hack, #tools]\n\n## Sources (1)\n\n- [[src_11-minutes-hack-github]] — main: #tech, sub: [#hack, #tools, #news]\n

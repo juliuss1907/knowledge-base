@@ -1,14 +1,1 @@
-# Topic: ai-funding-dynamics
-
-Auto-generated index of all content with topic `ai-funding-dynamics`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (1)
-
-- [[softbank-carry-trade]] — main: #economic, sub: [#news, #defi]
-
-## Sources (0)
-
+# Topic: ai-funding-dynamics\n\nAuto-generated index of all content with topic `ai-funding-dynamics`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (1)\n\n- [[softbank-carry-trade]] — main: #economic, sub: [#news, #defi]\n\n## Sources (0)\n\n

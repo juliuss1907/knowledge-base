@@ -1,14 +1,1 @@
-# Topic: system-dynamics
-
-Auto-generated index of all content with topic `system-dynamics`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (1)
-
-- [[self-reinforcing-systems]] — main: #economic, sub: [#research, #research]
-
-## Sources (0)
-
+# Topic: system-dynamics\n\nAuto-generated index of all content with topic `system-dynamics`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (1)\n\n- [[self-reinforcing-systems]] — main: #economic, sub: [#research, #research]\n\n## Sources (0)\n\n

@@ -1,0 +1,1 @@
+# Topic: mental-models-feedback\n\nAuto-generated index of all content with topic `mental-models-feedback`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (1)\n\n- [[feedback-loops]] — main: #productivity, sub: [#research, #system]\n\n## Sources (1)\n\n- [[src_feedback-loops-mental-model]] — main: #productivity, sub: [#research, #system]\n

@@ -1,17 +1,1 @@
-# Topic: sleep-hygiene
-
-Auto-generated index of all content with topic `sleep-hygiene`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (3)
-
-- [[circadian-rhythm]] — main: #productivity, sub: [#tutorial, #health]
-- [[evening-routine]] — main: #productivity, sub: [#tutorial, #health]
-- [[sleep-hygiene]] — main: #productivity, sub: [#tutorial, #health]
-
-## Sources (1)
-
-- [[src_japanese-evening-routine-fix-sleep]] — main: #productivity, sub: [#tutorial, #health]
+# Topic: sleep-hygiene\n\nAuto-generated index of all content with topic `sleep-hygiene`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (3)\n\n- [[circadian-rhythm]] — main: #productivity, sub: [#tutorial, #health]\n- [[evening-routine]] — main: #productivity, sub: [#tutorial, #health]\n- [[sleep-hygiene]] — main: #productivity, sub: [#tutorial, #health]\n\n## Sources (1)\n\n- [[src_japanese-evening-routine-fix-sleep]] — main: #productivity, sub: [#tutorial, #health]\n

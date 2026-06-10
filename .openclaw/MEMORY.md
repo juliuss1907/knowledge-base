@@ -299,3 +299,46 @@
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 5 (psychology used as main_tag)
 - **Errors:** 7 files skipped
+\n## 2026-06-10 21:04:40 — Indexed\n\n- **Scanned:** 346 files (267 concepts + 79 sources)\n- **Tags indexed:** 20 (7 main + 13 sub)\n- **Topics indexed:** 85\n- **Orphans deleted:** 0 tags + 0 topics\n\n### Invalid Tags Found\n- [INVALID TAG] wiki/sources/src_activation-energy.md: main_tag=psychology\n- [INVALID TAG] wiki/sources/src_farnam-street-mental-models-systems-thinking.md: sub_tag=system\n- [INVALID TAG] wiki/sources/src_feedback-loops-mental-model.md: sub_tag=system\n- [INVALID TAG] wiki/sources/src_hypergamy.md: main_tag=psychology\n- [INVALID TAG] wiki/concepts/activation-energy.md: main_tag=psychology\n- [INVALID TAG] wiki/concepts/bottlenecks-mental-model.md: sub_tag=system\n- [INVALID TAG] wiki/concepts/diminishing-returns-mental-model.md: sub_tag=system\n- [INVALID TAG] wiki/concepts/ecosystems-mental-model.md: sub_tag=system\n- [INVALID TAG] wiki/concepts/equilibrium-mental-model.md: sub_tag=system\n- [INVALID TAG] wiki/concepts/feedback-loops.md: sub_tag=system\n- [INVALID TAG] wiki/concepts/hypergamy.md: main_tag=psychology\n- [INVALID TAG] wiki/concepts/margin-of-safety-mental-model.md: sub_tag=system\n- [INVALID TAG] wiki/concepts/relationship-dynamics.md: main_tag=psychology\n\n### Errors\n- [FRONTMATTER ERROR] wiki/concepts/active-thinking.md: Missing required field: topic\n- [FRONTMATTER ERROR] wiki/concepts/agent-harness.md: Error: while parsing a block mapping
+  in "<unicode string>", line 2, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 6, column 3:
+      - research
+      ^\n- [FRONTMATTER ERROR] wiki/concepts/code-as-substrate.md: Error: while parsing a block mapping
+  in "<unicode string>", line 2, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 6, column 3:
+      - research
+      ^\n- [FRONTMATTER ERROR] wiki/concepts/evolutionary-mismatch.md: Error: while parsing a block mapping
+  in "<unicode string>", line 2, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 6, column 3:
+      - research
+      ^\n- [FRONTMATTER ERROR] wiki/concepts/factory-missions.md: Error: while parsing a block mapping
+  in "<unicode string>", line 2, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 6, column 3:
+      - tools
+      ^\n- [FRONTMATTER ERROR] wiki/concepts/multi-agent-taxonomy.md: Error: while parsing a block mapping
+  in "<unicode string>", line 2, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 6, column 3:
+      - research
+      ^\n- [FRONTMATTER ERROR] wiki/concepts/plan-execute-verify-loop.md: Error: while parsing a block mapping
+  in "<unicode string>", line 2, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 6, column 3:
+      - research
+      ^\n

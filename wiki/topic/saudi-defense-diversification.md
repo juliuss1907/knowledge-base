@@ -1,14 +1,1 @@
-# Topic: saudi-defense-diversification
-
-Auto-generated index of all content with topic `saudi-defense-diversification`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (1)
-
-- [[saudi-pakistan-defense-agreement]] — main: #politic, sub: [#news, #opinion]
-
-## Sources (0)
-
+# Topic: saudi-defense-diversification\n\nAuto-generated index of all content with topic `saudi-defense-diversification`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (1)\n\n- [[saudi-pakistan-defense-agreement]] — main: #politic, sub: [#news, #opinion]\n\n## Sources (0)\n\n

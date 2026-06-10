@@ -1,16 +1,1 @@
-# Topic: petrodollar-collapse
-
-Auto-generated index of all content with topic `petrodollar-collapse`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (2)
-
-- [[dollar-as-rent-payment]] — main: #economic, sub: [#research, #opinion]
-- [[petrodollar-system]] — main: #economic, sub: [#research, #opinion]
-
-## Sources (1)
-
-- [[src_petrodollar-system-analysis]] — main: #economic, sub: [#research, #opinion]
+# Topic: petrodollar-collapse\n\nAuto-generated index of all content with topic `petrodollar-collapse`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (2)\n\n- [[dollar-as-rent-payment]] — main: #economic, sub: [#research, #opinion]\n- [[petrodollar-system]] — main: #economic, sub: [#research, #opinion]\n\n## Sources (1)\n\n- [[src_petrodollar-system-analysis]] — main: #economic, sub: [#research, #opinion]\n

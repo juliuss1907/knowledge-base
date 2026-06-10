@@ -1,15 +1,1 @@
-# Topic: factory-missions-architecture
-
-Auto-generated index of all content with topic `factory-missions-architecture`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (1)
-
-- [[validation-contract]] — main: #ai, sub: [#automation, #tools]
-
-## Sources (1)
-
-- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — main: #ai, sub: [#tools, #automation]
+# Topic: factory-missions-architecture\n\nAuto-generated index of all content with topic `factory-missions-architecture`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (1)\n\n- [[validation-contract]] — main: #ai, sub: [#automation, #tools]\n\n## Sources (1)\n\n- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — main: #ai, sub: [#tools, #automation]\n

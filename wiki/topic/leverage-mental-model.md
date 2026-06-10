@@ -1,18 +1,1 @@
-# Topic: leverage-mental-model
-
-Auto-generated index of all content with topic `leverage-mental-model`.
-
-Last updated: 2026-06-09 21:06:40
-
----
-
-## Concepts (4)
-
-- [[critical-mass]] — main: #system, sub: [#psychology]
-- [[leverage]] — main: #productivity, sub: [#psychology, #tools]
-- [[negotiation]] — main: #productivity, sub: [#psychology]
-- [[power-law]] — main: #economic, sub: [#psychology]
-
-## Sources (1)
-
-- [[src_leverage]] — main: #productivity, sub: [#psychology, #tools]
+# Topic: leverage-mental-model\n\nAuto-generated index of all content with topic `leverage-mental-model`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (4)\n\n- [[critical-mass]] — main: #system, sub: [#psychology]\n- [[leverage]] — main: #productivity, sub: [#psychology, #tools]\n- [[negotiation]] — main: #productivity, sub: [#psychology]\n- [[power-law]] — main: #economic, sub: [#psychology]\n\n## Sources (1)\n\n- [[src_leverage]] — main: #productivity, sub: [#psychology, #tools]\n

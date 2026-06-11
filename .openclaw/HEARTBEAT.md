@@ -1,27 +1,35 @@
-# HEARTBEAT — 2026-06-10 04:00 (Asia/Saigon)
+# HEARTBEAT.md — System Status
 
-**Status:** ATTENTION
+> Updated: 2026-06-11 17:00 (Asia/Saigon)
+> Cron: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ---
 
-## Checks
+## System Status: ⚠️ ATTENTION REQUIRED
 
-| Check | Result |
+### Raw Backlog
+- ✅ **0 files unprocessed** in `raw/`.
+
+### Tasks / Inbox
+- ✅ **No inbox items** tagged `#agent/inbox`.
+
+### Pending Hermes Reviews
+- ⚠️ **Pending reports từ 2026-06-03** (Format + Output Validators).
+- Yêu cầu: Re-compile toàn bộ với Compile Agent mới để fix systemic issues.
+- Details: `wiki/reviews/_action-required.md`
+
+### Concept Backlinks
+- ✅ Checked 2026-06-11 17:00 — no issues (2/2 sampled).
+
+---
+
+## Quick Actions
+
+| Action | Command |
 |---|---|
-| Inbox (Tasks/) | 0 files tagged #agent/inbox |
-| Raw backlog | 8 files unprocessed since 2026-06-09 |
-| Concept count | 253 files |
-| Pending reviews | 1 systemic issue (Output Validator, awaiting re-compile) |
+| Re-compile all | `openclaw compile all` |
+| View pending reports | `cat wiki/reviews/_action-required.md` |
 
 ---
 
-## Notes
-
-- **8 files unprocessed** in raw/articles/ — oldest from 2026-06-05 (5 days ago)
-- CompileAgent scheduled 2026-06-10 08:00
-- Pending reviews: 1 (Output Validator systemic — needs re-compile with updated Compile Agent)
-- Last Hermes review: 2026-06-06
-
----
-
-*Next heartbeat: 2026-06-10 04:30*
+*Next heartbeat: 2026-06-11 17:30 (Asia/Saigon)*

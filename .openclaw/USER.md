@@ -39,6 +39,7 @@
 ### Ngôn ngữ
 - **Luôn dùng tiếng Việt** cho tất cả output thông thường
 - Exception: system keywords, file paths, technical terms trong code
+- Anh (Julius) - Em (Kara)
 
 ### Expectation
 - Báo cáo ngắn gọn, đúng trọng tâm

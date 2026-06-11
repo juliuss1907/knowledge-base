@@ -1,1 +1,154 @@
----\ntype: index\nlevel: 3\nscope: tag\nparent: [[tag]]\ntag: tools\nauto_generated: true\nlast_updated: 2026-06-10\n---\n\n# Tag: #tools\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: 121\n- Sources: 24\n- Concepts: 97\n- Last updated: 2026-06-10\n\n## Files with this tag\n\n- [[agent-handoff]] — Agent Handoff (concept)\n- [[agent-journal-pattern]] — Agent Journal Pattern (concept)\n- [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)\n- [[agent-skill-management]] — Agent Skill Management (concept)\n- [[agentic-commerce]] — Agentic Commerce (concept)\n- [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)\n- [[ai-impression-of-work]] — Ai Impression Of Work (concept)\n- [[ai-infrastructure-bubble]] — Ai Infrastructure Bubble (concept)\n- [[ai-legal-personhood]] — Ai Legal Personhood (concept)\n- [[ai-overviews]] — Ai Overviews (concept)\n- [[ai-productivity]] — Ai Productivity (concept)\n- [[ai-research-workflow]] — Ai Research Workflow (concept)\n- [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)\n- [[ai-trading-agent]] — Ai Trading Agent (concept)\n- [[alpaca-api]] — Alpaca Api (concept)\n- [[atomic-mac-agent]] — Atomic Mac Agent (concept)\n- [[browser-harness-tool]] — Browser Harness Tool (concept)\n- [[business-idiot-archetype]] — Business Idiot Archetype (concept)\n- [[claude-builder-role]] — Claude Builder Role (concept)\n- [[claude-code-routines]] — Claude Code Routines (concept)\n- [[closed-loop-system]] — Closed Loop System (concept)\n- [[codified-taste]] — Codified Taste (concept)\n- [[compact-vs-handoff]] — Compact Vs Handoff (concept)\n- [[consent-phishing]] — Consent Phishing (concept)\n- [[context-window-management]] — Context Window Management (concept)\n- [[conversational-website]] — Conversational Website (concept)\n- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)\n- [[cross-agent-workflow]] — Cross Agent Workflow (concept)\n- [[csa-hca-attention]] — Csa Hca Attention (concept)\n- [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)\n- [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)\n- [[external-memory-providers]] — External Memory Providers (concept)\n- [[fast-weights]] — Fast Weights (concept)\n- [[feedback-loop]] — Feedback Loop (concept)\n- [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)\n- [[gated-delta-networks]] — Gated Delta Networks (concept)\n- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)\n- [[generative-ai-seo]] — Generative Ai Seo (concept)\n- [[generative-search-results]] — Generative Search Results (concept)\n- [[geo-strategy]] — Geo Strategy (concept)\n- [[google-ai-mode]] — Google Ai Mode (concept)\n- [[google-ai-overviews]] — Google Ai Overviews (concept)\n- [[grok-hermes-integration]] — Grok Hermes Integration (concept)\n- [[handoff-skill]] — Handoff Skill (concept)\n- [[hermes-agent]] — Hermes Agent (concept)\n- [[hermes-operator-role]] — Hermes Operator Role (concept)\n- [[hermes-persistent-memory]] — Hermes Persistent Memory (concept)\n- [[hermes-three-layers]] — Hermes Three Layers (concept)\n- [[hermes-token-management]] — Hermes Token Management (concept)\n- [[hindsight-skill]] — Hindsight Skill (concept)\n- [[iceberg-model]] — Iceberg Model (concept)\n- [[kv-cache-eviction]] — Kv Cache Eviction (concept)\n- [[last30days-skill]] — Last30days Skill (concept)\n- [[leverage]] — Leverage (concept)\n- [[leverage-points]] — Leverage Points (concept)\n- [[llm-sleep]] — Llm Sleep (concept)\n- [[manifold-constrained-hyper-connections]] — Manifold Constrained Hyper Connections (concept)\n- [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)\n- [[memory-extraction-timing]] — Memory Extraction Timing (concept)\n- [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)\n- [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)\n- [[oauth-security-risks]] — Oauth Security Risks (concept)\n- [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)\n- [[paper-trading]] — Paper Trading (concept)\n- [[persistent-memory-ai]] — Persistent Memory Ai (concept)\n- [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)\n- [[policy-review-framework]] — Policy Review Framework (concept)\n- [[polymarket]] — Polymarket (concept)\n- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)\n- [[query-fan-out]] — Query Fan Out (concept)\n- [[rag-retrieval-augmented-generation]] — Rag Retrieval Augmented Generation (concept)\n- [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)\n- [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)\n- [[session-separation]] — Session Separation (concept)\n- [[shift-left-testing]] — Shift Left Testing (concept)\n- [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)\n- [[sizing-policy-trading]] — Sizing Policy Trading (concept)\n- [[skill-atrophy]] — Skill Atrophy (concept)\n- [[soul-md-configuration]] — Soul Md Configuration (concept)\n- [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)\n- [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)\n- [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)\n- [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)\n- [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source)\n- [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)\n- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)\n- [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)\n- [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)\n- [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)\n- [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)\n- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)\n- [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)\n- [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)\n- [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)\n- [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)\n- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)\n- [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)\n- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)\n- [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)\n- [[src_leverage]] — Leverage (source)\n- [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)\n- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)\n- [[src_tokens-and-tokenization]] — Tokens And Tokenization (source)\n- [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)\n- [[state-space-models-ssm]] — State Space Models Ssm (concept)\n- [[static-website-blind-spot]] — Static Website Blind Spot (concept)\n- [[stock-and-flow]] — Stock And Flow (concept)\n- [[supply-chain-attack]] — Supply Chain Attack (concept)\n- [[system-map]] — System Map (concept)\n- [[token-theft-attack]] — Token Theft Attack (concept)\n- [[tokenization]] — Tokenization (concept)\n- [[user-md-configuration]] — User Md Configuration (concept)\n- [[validation-contract]] — Validation Contract (concept)\n- [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)\n- [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)\n- [[x-account-tracking-skill]] — X Account Tracking Skill (concept)\n- [[x-api-oauth2]] — X Api Oauth2 (concept)\n- [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)\n- [[x-search-tool]] — X Search Tool (concept)\n- [[xurl-cli]] — Xurl Cli (concept)\n- [[zero-member-llc]] — Zero Member Llc (concept)\n\n## Co-occurring tags\n\n- [[ai]] — 82 co-occurrences\n- [[automation]] — 49 co-occurrences\n- [[research]] — 32 co-occurrences\n- [[opinion]] — 18 co-occurrences\n- [[tech]] — 17 co-occurrences\n
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: tools
+auto_generated: true
+last_updated: 2026-06-11
+---
+
+# Tag: #tools
+
+## Parent
+
+- [[tag]]
+
+## Stats
+
+- Total files: 121
+- Sources: 24
+- Concepts: 97
+- Last updated: 2026-06-11
+
+## Files with this tag
+
+- [[agent-handoff]] — Agent Handoff (concept)
+- [[agent-journal-pattern]] — Agent Journal Pattern (concept)
+- [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
+- [[agent-skill-management]] — Agent Skill Management (concept)
+- [[agentic-commerce]] — Agentic Commerce (concept)
+- [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
+- [[ai-impression-of-work]] — Ai Impression Of Work (concept)
+- [[ai-infrastructure-bubble]] — Ai Infrastructure Bubble (concept)
+- [[ai-legal-personhood]] — Ai Legal Personhood (concept)
+- [[ai-overviews]] — Ai Overviews (concept)
+- [[ai-productivity]] — Ai Productivity (concept)
+- [[ai-research-workflow]] — Ai Research Workflow (concept)
+- [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
+- [[ai-trading-agent]] — Ai Trading Agent (concept)
+- [[alpaca-api]] — Alpaca Api (concept)
+- [[atomic-mac-agent]] — Atomic Mac Agent (concept)
+- [[browser-harness-tool]] — Browser Harness Tool (concept)
+- [[business-idiot-archetype]] — Business Idiot Archetype (concept)
+- [[claude-builder-role]] — Claude Builder Role (concept)
+- [[claude-code-routines]] — Claude Code Routines (concept)
+- [[closed-loop-system]] — Closed Loop System (concept)
+- [[codified-taste]] — Codified Taste (concept)
+- [[compact-vs-handoff]] — Compact Vs Handoff (concept)
+- [[consent-phishing]] — Consent Phishing (concept)
+- [[context-window-management]] — Context Window Management (concept)
+- [[conversational-website]] — Conversational Website (concept)
+- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
+- [[cross-agent-workflow]] — Cross Agent Workflow (concept)
+- [[csa-hca-attention]] — Csa Hca Attention (concept)
+- [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)
+- [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
+- [[external-memory-providers]] — External Memory Providers (concept)
+- [[fast-weights]] — Fast Weights (concept)
+- [[feedback-loop]] — Feedback Loop (concept)
+- [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
+- [[gated-delta-networks]] — Gated Delta Networks (concept)
+- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
+- [[generative-ai-seo]] — Generative Ai Seo (concept)
+- [[generative-search-results]] — Generative Search Results (concept)
+- [[geo-strategy]] — Geo Strategy (concept)
+- [[google-ai-mode]] — Google Ai Mode (concept)
+- [[google-ai-overviews]] — Google Ai Overviews (concept)
+- [[grok-hermes-integration]] — Grok Hermes Integration (concept)
+- [[handoff-skill]] — Handoff Skill (concept)
+- [[hermes-agent]] — Hermes Agent (concept)
+- [[hermes-operator-role]] — Hermes Operator Role (concept)
+- [[hermes-persistent-memory]] — Hermes Persistent Memory (concept)
+- [[hermes-three-layers]] — Hermes Three Layers (concept)
+- [[hermes-token-management]] — Hermes Token Management (concept)
+- [[hindsight-skill]] — Hindsight Skill (concept)
+- [[iceberg-model]] — Iceberg Model (concept)
+- [[kv-cache-eviction]] — Kv Cache Eviction (concept)
+- [[last30days-skill]] — Last30days Skill (concept)
+- [[leverage]] — Leverage (concept)
+- [[leverage-points]] — Leverage Points (concept)
+- [[llm-sleep]] — Llm Sleep (concept)
+- [[manifold-constrained-hyper-connections]] — Manifold Constrained Hyper Connections (concept)
+- [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
+- [[memory-extraction-timing]] — Memory Extraction Timing (concept)
+- [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
+- [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
+- [[oauth-security-risks]] — Oauth Security Risks (concept)
+- [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
+- [[paper-trading]] — Paper Trading (concept)
+- [[persistent-memory-ai]] — Persistent Memory Ai (concept)
+- [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
+- [[policy-review-framework]] — Policy Review Framework (concept)
+- [[polymarket]] — Polymarket (concept)
+- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
+- [[query-fan-out]] — Query Fan Out (concept)
+- [[rag-retrieval-augmented-generation]] — Rag Retrieval Augmented Generation (concept)
+- [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)
+- [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
+- [[session-separation]] — Session Separation (concept)
+- [[shift-left-testing]] — Shift Left Testing (concept)
+- [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
+- [[sizing-policy-trading]] — Sizing Policy Trading (concept)
+- [[skill-atrophy]] — Skill Atrophy (concept)
+- [[soul-md-configuration]] — Soul Md Configuration (concept)
+- [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
+- [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
+- [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
+- [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
+- [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source)
+- [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
+- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
+- [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
+- [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
+- [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
+- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
+- [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)
+- [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
+- [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)
+- [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)
+- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
+- [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
+- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
+- [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_leverage]] — Leverage (source)
+- [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
+- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
+- [[src_tokens-and-tokenization]] — Tokens And Tokenization (source)
+- [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
+- [[state-space-models-ssm]] — State Space Models Ssm (concept)
+- [[static-website-blind-spot]] — Static Website Blind Spot (concept)
+- [[stock-and-flow]] — Stock And Flow (concept)
+- [[supply-chain-attack]] — Supply Chain Attack (concept)
+- [[system-map]] — System Map (concept)
+- [[token-theft-attack]] — Token Theft Attack (concept)
+- [[tokenization]] — Tokenization (concept)
+- [[user-md-configuration]] — User Md Configuration (concept)
+- [[validation-contract]] — Validation Contract (concept)
+- [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
+- [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)
+- [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
+- [[x-api-oauth2]] — X Api Oauth2 (concept)
+- [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
+- [[x-search-tool]] — X Search Tool (concept)
+- [[xurl-cli]] — Xurl Cli (concept)
+- [[zero-member-llc]] — Zero Member Llc (concept)
+
+## Co-occurring tags
+
+- [[ai]] — 82 co-occurrences
+- [[automation]] — 49 co-occurrences
+- [[research]] — 32 co-occurrences
+- [[opinion]] — 18 co-occurrences
+- [[tech]] — 17 co-occurrences

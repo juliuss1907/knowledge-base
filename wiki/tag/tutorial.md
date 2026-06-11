@@ -1,1 +1,69 @@
----\ntype: index\nlevel: 3\nscope: tag\nparent: [[tag]]\ntag: tutorial\nauto_generated: true\nlast_updated: 2026-06-10\n---\n\n# Tag: #tutorial\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: 36\n- Sources: 12\n- Concepts: 24\n- Last updated: 2026-06-10\n\n## Files with this tag\n\n- [[agent-skill-management]] — Agent Skill Management (concept)\n- [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)\n- [[cash-flow-statement]] — Cash Flow Statement (concept)\n- [[circadian-rhythm]] — Circadian Rhythm (concept)\n- [[claude-builder-role]] — Claude Builder Role (concept)\n- [[ebitda-trap]] — Ebitda Trap (concept)\n- [[evening-routine]] — Evening Routine (concept)\n- [[financial-metrics]] — Financial Metrics (concept)\n- [[first-principles-thinking]] — First Principles Thinking (concept)\n- [[free-cash-flow]] — Free Cash Flow (concept)\n- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)\n- [[hermes-three-layers]] — Hermes Three Layers (concept)\n- [[non-commodity-content]] — Non Commodity Content (concept)\n- [[operating-cash-flow]] — Operating Cash Flow (concept)\n- [[paper-trading]] — Paper Trading (concept)\n- [[paradox-of-effort]] — Paradox Of Effort (concept)\n- [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)\n- [[sleep-hygiene]] — Sleep Hygiene (concept)\n- [[soul-md-configuration]] — Soul Md Configuration (concept)\n- [[speed-vs-velocity]] — Speed Vs Velocity (concept)\n- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)\n- [[src_first-principles-thinking]] — First Principles Thinking (source)\n- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)\n- [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)\n- [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)\n- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)\n- [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)\n- [[src_how-to-read-cash-flow-statement]] — How To Read Cash Flow Statement (source)\n- [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)\n- [[src_markus-systems-thinking-roadmap]] — Markus Systems Thinking Roadmap (source)\n- [[src_speed-velocity]] — Speed Velocity (source)\n- [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)\n- [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)\n- [[systems-thinking-training-roadmap]] — Systems Thinking Training Roadmap (concept)\n- [[user-md-configuration]] — User Md Configuration (concept)\n- [[x-api-oauth2]] — X Api Oauth2 (concept)\n\n## Co-occurring tags\n\n- [[tools]] — 16 co-occurrences\n- [[productivity]] — 14 co-occurrences\n- [[automation]] — 10 co-occurrences\n- [[ai]] — 10 co-occurrences\n- [[economic]] — 7 co-occurrences\n
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: tutorial
+auto_generated: true
+last_updated: 2026-06-11
+---
+
+# Tag: #tutorial
+
+## Parent
+
+- [[tag]]
+
+## Stats
+
+- Total files: 36
+- Sources: 12
+- Concepts: 24
+- Last updated: 2026-06-11
+
+## Files with this tag
+
+- [[agent-skill-management]] — Agent Skill Management (concept)
+- [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
+- [[cash-flow-statement]] — Cash Flow Statement (concept)
+- [[circadian-rhythm]] — Circadian Rhythm (concept)
+- [[claude-builder-role]] — Claude Builder Role (concept)
+- [[ebitda-trap]] — Ebitda Trap (concept)
+- [[evening-routine]] — Evening Routine (concept)
+- [[financial-metrics]] — Financial Metrics (concept)
+- [[first-principles-thinking]] — First Principles Thinking (concept)
+- [[free-cash-flow]] — Free Cash Flow (concept)
+- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
+- [[hermes-three-layers]] — Hermes Three Layers (concept)
+- [[non-commodity-content]] — Non Commodity Content (concept)
+- [[operating-cash-flow]] — Operating Cash Flow (concept)
+- [[paper-trading]] — Paper Trading (concept)
+- [[paradox-of-effort]] — Paradox Of Effort (concept)
+- [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
+- [[sleep-hygiene]] — Sleep Hygiene (concept)
+- [[soul-md-configuration]] — Soul Md Configuration (concept)
+- [[speed-vs-velocity]] — Speed Vs Velocity (concept)
+- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_first-principles-thinking]] — First Principles Thinking (source)
+- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
+- [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)
+- [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)
+- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
+- [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
+- [[src_how-to-read-cash-flow-statement]] — How To Read Cash Flow Statement (source)
+- [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
+- [[src_markus-systems-thinking-roadmap]] — Markus Systems Thinking Roadmap (source)
+- [[src_speed-velocity]] — Speed Velocity (source)
+- [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
+- [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
+- [[systems-thinking-training-roadmap]] — Systems Thinking Training Roadmap (concept)
+- [[user-md-configuration]] — User Md Configuration (concept)
+- [[x-api-oauth2]] — X Api Oauth2 (concept)
+
+## Co-occurring tags
+
+- [[tools]] — 16 co-occurrences
+- [[productivity]] — 14 co-occurrences
+- [[automation]] — 10 co-occurrences
+- [[ai]] — 10 co-occurrences
+- [[economic]] — 7 co-occurrences

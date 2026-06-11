@@ -1,1 +1,19 @@
-# Topic: hermes-personal-analyst-setup\n\nAuto-generated index of all content with topic `hermes-personal-analyst-setup`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (5)\n\n- [[ai-agent-setup-mistakes]] — main: #ai, sub: [#tools, #tutorial, #opinion]\n- [[hermes-persistent-memory]] — main: #ai, sub: [#tools, #automation]\n- [[hindsight-skill]] — main: #ai, sub: [#tools, #automation]\n- [[last30days-skill]] — main: #ai, sub: [#tools, #automation]\n- [[personal-analyst-workflow]] — main: #ai, sub: [#automation, #tools]\n\n## Sources (1)\n\n- [[src_3-things-learnt-3-weeks-hermes-analyst]] — main: #ai, sub: [#tools, #automation, #opinion]\n
+# Topic: hermes-personal-analyst-setup
+
+Auto-generated index of all content with topic `hermes-personal-analyst-setup`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (5)
+
+- [[ai-agent-setup-mistakes]] — main: #ai, sub: [#tools, #tutorial, #opinion]
+- [[hermes-persistent-memory]] — main: #ai, sub: [#tools, #automation]
+- [[hindsight-skill]] — main: #ai, sub: [#tools, #automation]
+- [[last30days-skill]] — main: #ai, sub: [#tools, #automation]
+- [[personal-analyst-workflow]] — main: #ai, sub: [#automation, #tools]
+
+## Sources (1)
+
+- [[src_3-things-learnt-3-weeks-hermes-analyst]] — main: #ai, sub: [#tools, #automation, #opinion]

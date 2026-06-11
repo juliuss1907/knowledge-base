@@ -1,1 +1,16 @@
-# Topic: incentives-psychology\n\nAuto-generated index of all content with topic `incentives-psychology`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (2)\n\n- [[incentives-mental-model]] — main: #productivity, sub: [#research, #psychology]\n- [[operant-conditioning]] — main: #productivity, sub: [#research, #psychology]\n\n## Sources (1)\n\n- [[src_the-power-of-incentives-hidden-forces-shape-behavior]] — main: #productivity, sub: [#research, #psychology]\n
+# Topic: incentives-psychology
+
+Auto-generated index of all content with topic `incentives-psychology`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (2)
+
+- [[incentives-mental-model]] — main: #productivity, sub: [#research, #psychology]
+- [[operant-conditioning]] — main: #productivity, sub: [#research, #psychology]
+
+## Sources (1)
+
+- [[src_the-power-of-incentives-hidden-forces-shape-behavior]] — main: #productivity, sub: [#research, #psychology]

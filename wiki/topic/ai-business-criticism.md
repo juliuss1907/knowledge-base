@@ -1,1 +1,17 @@
-# Topic: ai-business-criticism\n\nAuto-generated index of all content with topic `ai-business-criticism`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (3)\n\n- [[ai-impression-of-work]] — main: #ai, sub: [#opinion, #tools]\n- [[business-idiot-archetype]] — main: #economic, sub: [#opinion, #tools]\n- [[rot-economy]] — main: #economic, sub: [#opinion, #news]\n\n## Sources (1)\n\n- [[src_the-revenge-of-the-business-idiot]] — main: #ai, sub: [#opinion, #research]\n
+# Topic: ai-business-criticism
+
+Auto-generated index of all content with topic `ai-business-criticism`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (3)
+
+- [[ai-impression-of-work]] — main: #ai, sub: [#opinion, #tools]
+- [[business-idiot-archetype]] — main: #economic, sub: [#opinion, #tools]
+- [[rot-economy]] — main: #economic, sub: [#opinion, #news]
+
+## Sources (1)
+
+- [[src_the-revenge-of-the-business-idiot]] — main: #ai, sub: [#opinion, #research]

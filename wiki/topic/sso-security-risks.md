@@ -1,1 +1,19 @@
-# Topic: sso-security-risks\n\nAuto-generated index of all content with topic `sso-security-risks`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (5)\n\n- [[consent-phishing]] — main: #tech, sub: [#hack, #tools]\n- [[domain-takeover-vulnerability]] — main: #tech, sub: [#hack, #tools]\n- [[oauth-security-risks]] — main: #tech, sub: [#hack, #tools]\n- [[sso-single-point-of-failure]] — main: #tech, sub: [#hack, #tools]\n- [[token-theft-attack]] — main: #tech, sub: [#hack, #tools]\n\n## Sources (1)\n\n- [[src_dont-sign-in-with-google]] — main: #tech, sub: [#hack, #tools, #opinion]\n
+# Topic: sso-security-risks
+
+Auto-generated index of all content with topic `sso-security-risks`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (5)
+
+- [[consent-phishing]] — main: #tech, sub: [#hack, #tools]
+- [[domain-takeover-vulnerability]] — main: #tech, sub: [#hack, #tools]
+- [[oauth-security-risks]] — main: #tech, sub: [#hack, #tools]
+- [[sso-single-point-of-failure]] — main: #tech, sub: [#hack, #tools]
+- [[token-theft-attack]] — main: #tech, sub: [#hack, #tools]
+
+## Sources (1)
+
+- [[src_dont-sign-in-with-google]] — main: #tech, sub: [#hack, #tools, #opinion]

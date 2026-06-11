@@ -1,1 +1,15 @@
-# Topic: us-saudi-relations\n\nAuto-generated index of all content with topic `us-saudi-relations`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (2)\n\n- [[kissinger-deal-1974]] — main: #politic, sub: [#research, #opinion]\n- [[us-security-umbrella]] — main: #politic, sub: [#research, #opinion]\n\n## Sources (0)\n\n
+# Topic: us-saudi-relations
+
+Auto-generated index of all content with topic `us-saudi-relations`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (2)
+
+- [[kissinger-deal-1974]] — main: #politic, sub: [#research, #opinion]
+- [[us-security-umbrella]] — main: #politic, sub: [#research, #opinion]
+
+## Sources (0)
+

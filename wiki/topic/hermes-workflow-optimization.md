@@ -1,1 +1,19 @@
-# Topic: hermes-workflow-optimization\n\nAuto-generated index of all content with topic `hermes-workflow-optimization`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (5)\n\n- [[agent-skill-management]] — main: #ai, sub: [#automation, #tools, #tutorial]\n- [[browser-harness-tool]] — main: #ai, sub: [#tools, #automation]\n- [[hermes-three-layers]] — main: #ai, sub: [#tools, #automation, #tutorial]\n- [[soul-md-configuration]] — main: #ai, sub: [#tools, #tutorial]\n- [[user-md-configuration]] — main: #ai, sub: [#tools, #tutorial]\n\n## Sources (1)\n\n- [[src_hermes-analyst-workflow-essentials]] — main: #ai, sub: [#tools, #automation, #tutorial]\n
+# Topic: hermes-workflow-optimization
+
+Auto-generated index of all content with topic `hermes-workflow-optimization`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (5)
+
+- [[agent-skill-management]] — main: #ai, sub: [#automation, #tools, #tutorial]
+- [[browser-harness-tool]] — main: #ai, sub: [#tools, #automation]
+- [[hermes-three-layers]] — main: #ai, sub: [#tools, #automation, #tutorial]
+- [[soul-md-configuration]] — main: #ai, sub: [#tools, #tutorial]
+- [[user-md-configuration]] — main: #ai, sub: [#tools, #tutorial]
+
+## Sources (1)
+
+- [[src_hermes-analyst-workflow-essentials]] — main: #ai, sub: [#tools, #automation, #tutorial]

@@ -342,3 +342,12 @@ expected <block end>, but found '<block sequence start>'
   in "<unicode string>", line 6, column 3:
       - research
       ^\n
+
+## 2026-06-11 21:02:37 — Indexed
+
+- **Scanned:** 269 concepts + 79 sources = 348 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 87
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 13
+- **Errors:** 1 files skipped, 6 warnings

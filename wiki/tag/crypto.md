@@ -1,1 +1,36 @@
----\ntype: index\nlevel: 3\nscope: tag\nparent: [[tag]]\ntag: crypto\nauto_generated: true\nlast_updated: 2026-06-10\n---\n\n# Tag: #crypto\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: 4\n- Sources: 1\n- Concepts: 3\n- Last updated: 2026-06-10\n\n## Files with this tag\n\n- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)\n- [[polymarket]] — Polymarket (concept)\n- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)\n- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)\n\n## Co-occurring tags\n\n- [[tools]] — 4 co-occurrences\n- [[defi]] — 3 co-occurrences\n- [[automation]] — 1 co-occurrence\n- [[tutorial]] — 1 co-occurrence\n
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: crypto
+auto_generated: true
+last_updated: 2026-06-11
+---
+
+# Tag: #crypto
+
+## Parent
+
+- [[tag]]
+
+## Stats
+
+- Total files: 4
+- Sources: 1
+- Concepts: 3
+- Last updated: 2026-06-11
+
+## Files with this tag
+
+- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
+- [[polymarket]] — Polymarket (concept)
+- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
+- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
+
+## Co-occurring tags
+
+- [[tools]] — 4 co-occurrences
+- [[defi]] — 3 co-occurrences
+- [[automation]] — 1 co-occurrence
+- [[tutorial]] — 1 co-occurrence

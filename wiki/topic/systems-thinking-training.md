@@ -1,1 +1,20 @@
-# Topic: systems-thinking-training\n\nAuto-generated index of all content with topic `systems-thinking-training`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (6)\n\n- [[feedback-loop]] — main: #productivity, sub: [#tools]\n- [[iceberg-model]] — main: #productivity, sub: [#tools]\n- [[leverage-points]] — main: #productivity, sub: [#tools]\n- [[stock-and-flow]] — main: #productivity, sub: [#tools]\n- [[system-map]] — main: #productivity, sub: [#tools]\n- [[systems-thinking-training-roadmap]] — main: #productivity, sub: [#tutorial]\n\n## Sources (1)\n\n- [[src_markus-systems-thinking-roadmap]] — main: #productivity, sub: [#tutorial, #opinion]\n
+# Topic: systems-thinking-training
+
+Auto-generated index of all content with topic `systems-thinking-training`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (6)
+
+- [[feedback-loop]] — main: #productivity, sub: [#tools]
+- [[iceberg-model]] — main: #productivity, sub: [#tools]
+- [[leverage-points]] — main: #productivity, sub: [#tools]
+- [[stock-and-flow]] — main: #productivity, sub: [#tools]
+- [[system-map]] — main: #productivity, sub: [#tools]
+- [[systems-thinking-training-roadmap]] — main: #productivity, sub: [#tutorial]
+
+## Sources (1)
+
+- [[src_markus-systems-thinking-roadmap]] — main: #productivity, sub: [#tutorial, #opinion]

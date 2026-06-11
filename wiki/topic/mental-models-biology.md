@@ -1,1 +1,19 @@
-# Topic: mental-models-biology\n\nAuto-generated index of all content with topic `mental-models-biology`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (5)\n\n- [[alloying-mental-model]] — main: #productivity, sub: [#research]\n- [[catalysts-mental-model]] — main: #productivity, sub: [#research]\n- [[cooperation-mental-model]] — main: #productivity, sub: [#research, #psychology]\n- [[ecosystems-mental-model]] — main: #productivity, sub: [#research, #system]\n- [[red-queen-effect]] — main: #productivity, sub: [#research, #psychology]\n\n## Sources (1)\n\n- [[src_farnam-street-mental-models-biology-series]] — main: #productivity, sub: [#research, #psychology]\n
+# Topic: mental-models-biology
+
+Auto-generated index of all content with topic `mental-models-biology`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (5)
+
+- [[alloying-mental-model]] — main: #productivity, sub: [#research]
+- [[catalysts-mental-model]] — main: #productivity, sub: [#research]
+- [[cooperation-mental-model]] — main: #productivity, sub: [#research, #psychology]
+- [[ecosystems-mental-model]] — main: #productivity, sub: [#research, #system]
+- [[red-queen-effect]] — main: #productivity, sub: [#research, #psychology]
+
+## Sources (1)
+
+- [[src_farnam-street-mental-models-biology-series]] — main: #productivity, sub: [#research, #psychology]

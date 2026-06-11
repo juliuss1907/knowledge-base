@@ -1,1 +1,41 @@
----\ntype: index\nlevel: 3\nscope: tag\nparent: [[tag]]\ntag: health\nauto_generated: true\nlast_updated: 2026-06-10\n---\n\n# Tag: #health\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: 8\n- Sources: 1\n- Concepts: 7\n- Last updated: 2026-06-10\n\n## Files with this tag\n\n- [[circadian-rhythm]] — Circadian Rhythm (concept)\n- [[default-mode-network]] — Default Mode Network (concept)\n- [[evening-routine]] — Evening Routine (concept)\n- [[glymphatic-system]] — Glymphatic System (concept)\n- [[hippocampal-replay]] — Hippocampal Replay (concept)\n- [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)\n- [[sleep-hygiene]] — Sleep Hygiene (concept)\n- [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)\n\n## Co-occurring tags\n\n- [[productivity]] — 6 co-occurrences\n- [[tutorial]] — 4 co-occurrences\n- [[research]] — 4 co-occurrences\n- [[ai]] — 2 co-occurrences\n- [[psychology]] — 1 co-occurrence\n
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: health
+auto_generated: true
+last_updated: 2026-06-11
+---
+
+# Tag: #health
+
+## Parent
+
+- [[tag]]
+
+## Stats
+
+- Total files: 8
+- Sources: 1
+- Concepts: 7
+- Last updated: 2026-06-11
+
+## Files with this tag
+
+- [[circadian-rhythm]] — Circadian Rhythm (concept)
+- [[default-mode-network]] — Default Mode Network (concept)
+- [[evening-routine]] — Evening Routine (concept)
+- [[glymphatic-system]] — Glymphatic System (concept)
+- [[hippocampal-replay]] — Hippocampal Replay (concept)
+- [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
+- [[sleep-hygiene]] — Sleep Hygiene (concept)
+- [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
+
+## Co-occurring tags
+
+- [[productivity]] — 6 co-occurrences
+- [[tutorial]] — 4 co-occurrences
+- [[research]] — 4 co-occurrences
+- [[ai]] — 2 co-occurrences
+- [[psychology]] — 1 co-occurrence

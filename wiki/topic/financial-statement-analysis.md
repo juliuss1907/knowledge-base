@@ -1,1 +1,19 @@
-# Topic: financial-statement-analysis\n\nAuto-generated index of all content with topic `financial-statement-analysis`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (5)\n\n- [[cash-flow-statement]] — main: #economic, sub: [#research, #tutorial]\n- [[ebitda-trap]] — main: #economic, sub: [#research, #tutorial]\n- [[financial-metrics]] — main: #economic, sub: [#research, #tutorial]\n- [[free-cash-flow]] — main: #economic, sub: [#research, #tutorial]\n- [[operating-cash-flow]] — main: #economic, sub: [#research, #tutorial]\n\n## Sources (1)\n\n- [[src_how-to-read-cash-flow-statement]] — main: #economic, sub: [#research, #tutorial]\n
+# Topic: financial-statement-analysis
+
+Auto-generated index of all content with topic `financial-statement-analysis`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (5)
+
+- [[cash-flow-statement]] — main: #economic, sub: [#research, #tutorial]
+- [[ebitda-trap]] — main: #economic, sub: [#research, #tutorial]
+- [[financial-metrics]] — main: #economic, sub: [#research, #tutorial]
+- [[free-cash-flow]] — main: #economic, sub: [#research, #tutorial]
+- [[operating-cash-flow]] — main: #economic, sub: [#research, #tutorial]
+
+## Sources (1)
+
+- [[src_how-to-read-cash-flow-statement]] — main: #economic, sub: [#research, #tutorial]

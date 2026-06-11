@@ -1,1 +1,51 @@
----\ntype: index\nlevel: 3\nscope: tag\nparent: [[tag]]\ntag: tech\nauto_generated: true\nlast_updated: 2026-06-10\n---\n\n# Tag: #tech\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: 18\n- Sources: 4\n- Concepts: 14\n- Last updated: 2026-06-10\n\n## Files with this tag\n\n- [[atomic-mac-agent]] — Atomic Mac Agent (concept)\n- [[claude-code-routines]] — Claude Code Routines (concept)\n- [[consent-phishing]] — Consent Phishing (concept)\n- [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)\n- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)\n- [[google-ai-overviews]] — Google Ai Overviews (concept)\n- [[oauth-security-risks]] — Oauth Security Risks (concept)\n- [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)\n- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)\n- [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)\n- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)\n- [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)\n- [[supply-chain-attack]] — Supply Chain Attack (concept)\n- [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)\n- [[token-theft-attack]] — Token Theft Attack (concept)\n- [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)\n- [[x-api-oauth2]] — X Api Oauth2 (concept)\n- [[xurl-cli]] — Xurl Cli (concept)\n\n## Co-occurring tags\n\n- [[tools]] — 17 co-occurrences\n- [[hack]] — 10 co-occurrences\n- [[automation]] — 4 co-occurrences\n- [[tutorial]] — 4 co-occurrences\n- [[news]] — 3 co-occurrences\n
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: tech
+auto_generated: true
+last_updated: 2026-06-11
+---
+
+# Tag: #tech
+
+## Parent
+
+- [[tag]]
+
+## Stats
+
+- Total files: 18
+- Sources: 4
+- Concepts: 14
+- Last updated: 2026-06-11
+
+## Files with this tag
+
+- [[atomic-mac-agent]] — Atomic Mac Agent (concept)
+- [[claude-code-routines]] — Claude Code Routines (concept)
+- [[consent-phishing]] — Consent Phishing (concept)
+- [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
+- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
+- [[google-ai-overviews]] — Google Ai Overviews (concept)
+- [[oauth-security-risks]] — Oauth Security Risks (concept)
+- [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
+- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
+- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
+- [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
+- [[supply-chain-attack]] — Supply Chain Attack (concept)
+- [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)
+- [[token-theft-attack]] — Token Theft Attack (concept)
+- [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)
+- [[x-api-oauth2]] — X Api Oauth2 (concept)
+- [[xurl-cli]] — Xurl Cli (concept)
+
+## Co-occurring tags
+
+- [[tools]] — 17 co-occurrences
+- [[hack]] — 10 co-occurrences
+- [[automation]] — 4 co-occurrences
+- [[tutorial]] — 4 co-occurrences
+- [[news]] — 3 co-occurrences

@@ -1,1 +1,17 @@
-# Topic: counterinsurgency-warfare\n\nAuto-generated index of all content with topic `counterinsurgency-warfare`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (3)\n\n- [[counterinsurgency]] — main: #politic, sub: [#research, #hack]\n- [[hearts-and-minds]] — main: #politic, sub: [#research]\n- [[oil-spot-strategy]] — main: #politic, sub: [#research]\n\n## Sources (1)\n\n- [[src_counterinsurgency-fighting-back]] — main: #politic, sub: [#research, #hack]\n
+# Topic: counterinsurgency-warfare
+
+Auto-generated index of all content with topic `counterinsurgency-warfare`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (3)
+
+- [[counterinsurgency]] — main: #politic, sub: [#research, #hack]
+- [[hearts-and-minds]] — main: #politic, sub: [#research]
+- [[oil-spot-strategy]] — main: #politic, sub: [#research]
+
+## Sources (1)
+
+- [[src_counterinsurgency-fighting-back]] — main: #politic, sub: [#research, #hack]

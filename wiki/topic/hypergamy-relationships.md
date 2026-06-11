@@ -1,1 +1,16 @@
-# Topic: hypergamy-relationships\n\nAuto-generated index of all content with topic `hypergamy-relationships`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (2)\n\n- [[hypergamy]] — main: #psychology, sub: [#psychology, #opinion]\n- [[relationship-dynamics]] — main: #psychology, sub: [#psychology]\n\n## Sources (1)\n\n- [[src_hypergamy]] — main: #psychology, sub: [#psychology, #opinion]\n
+# Topic: hypergamy-relationships
+
+Auto-generated index of all content with topic `hypergamy-relationships`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (2)
+
+- [[hypergamy]] — main: #psychology, sub: [#psychology, #opinion]
+- [[relationship-dynamics]] — main: #psychology, sub: [#psychology]
+
+## Sources (1)
+
+- [[src_hypergamy]] — main: #psychology, sub: [#psychology, #opinion]

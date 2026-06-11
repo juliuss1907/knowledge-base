@@ -1,1 +1,17 @@
-# Topic: ai-systems-thinking-augmentation\n\nAuto-generated index of all content with topic `ai-systems-thinking-augmentation`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (3)\n\n- [[ai-augmented-systems-thinking]] — main: #ai, sub: [#opinion, #research]\n- [[ai-productivity]] — main: #ai, sub: [#tools, #opinion]\n- [[human-judgment-ai]] — main: #ai, sub: [#opinion, #research]\n\n## Sources (1)\n\n- [[src_will-ai-replace-systems-thinking]] — main: #ai, sub: [#opinion, #research]\n
+# Topic: ai-systems-thinking-augmentation
+
+Auto-generated index of all content with topic `ai-systems-thinking-augmentation`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (3)
+
+- [[ai-augmented-systems-thinking]] — main: #ai, sub: [#opinion, #research]
+- [[ai-productivity]] — main: #ai, sub: [#tools, #opinion]
+- [[human-judgment-ai]] — main: #ai, sub: [#opinion, #research]
+
+## Sources (1)
+
+- [[src_will-ai-replace-systems-thinking]] — main: #ai, sub: [#opinion, #research]

@@ -1,1 +1,18 @@
-# Topic: ai-legal-personhood\n\nAuto-generated index of all content with topic `ai-legal-personhood`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (4)\n\n- [[agency-law]] — main: #ai, sub: [#law, #research]\n- [[agentic-commerce]] — main: #ai, sub: [#tools, #automation]\n- [[ai-legal-personhood]] — main: #ai, sub: [#law, #tools]\n- [[zero-member-llc]] — main: #ai, sub: [#law, #tools]\n\n## Sources (1)\n\n- [[src_aaron-wright-ai-agents-legal-body]] — main: #ai, sub: [#law, #tools]\n
+# Topic: ai-legal-personhood
+
+Auto-generated index of all content with topic `ai-legal-personhood`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (4)
+
+- [[agency-law]] — main: #ai, sub: [#law, #research]
+- [[agentic-commerce]] — main: #ai, sub: [#tools, #automation]
+- [[ai-legal-personhood]] — main: #ai, sub: [#law, #tools]
+- [[zero-member-llc]] — main: #ai, sub: [#law, #tools]
+
+## Sources (1)
+
+- [[src_aaron-wright-ai-agents-legal-body]] — main: #ai, sub: [#law, #tools]

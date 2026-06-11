@@ -1,1 +1,20 @@
-# Topic: systems-thinking-cognitive-development\n\nAuto-generated index of all content with topic `systems-thinking-cognitive-development`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (6)\n\n- [[causal-reasoning]] — main: #productivity, sub: [#psychology]\n- [[holistic-thinking]] — main: #productivity, sub: [#psychology]\n- [[pattern-recognition]] — main: #productivity, sub: [#psychology]\n- [[premature-analysis]] — main: #productivity, sub: [#opinion]\n- [[relational-reasoning]] — main: #productivity, sub: [#psychology]\n- [[systems-thinking]] — main: #productivity, sub: [#research, #opinion]\n\n## Sources (1)\n\n- [[src_systems-thinking-rabbit-hole]] — main: #productivity, sub: [#research, #opinion]\n
+# Topic: systems-thinking-cognitive-development
+
+Auto-generated index of all content with topic `systems-thinking-cognitive-development`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (6)
+
+- [[causal-reasoning]] — main: #productivity, sub: [#psychology]
+- [[holistic-thinking]] — main: #productivity, sub: [#psychology]
+- [[pattern-recognition]] — main: #productivity, sub: [#psychology]
+- [[premature-analysis]] — main: #productivity, sub: [#opinion]
+- [[relational-reasoning]] — main: #productivity, sub: [#psychology]
+- [[systems-thinking]] — main: #productivity, sub: [#research, #opinion]
+
+## Sources (1)
+
+- [[src_systems-thinking-rabbit-hole]] — main: #productivity, sub: [#research, #opinion]

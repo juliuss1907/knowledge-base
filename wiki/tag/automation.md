@@ -1,1 +1,98 @@
----\ntype: index\nlevel: 3\nscope: tag\nparent: [[tag]]\ntag: automation\nauto_generated: true\nlast_updated: 2026-06-10\n---\n\n# Tag: #automation\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: 65\n- Sources: 14\n- Concepts: 51\n- Last updated: 2026-06-10\n\n## Files with this tag\n\n- [[activation-energy]] — Activation Energy (concept)\n- [[agent-handoff]] — Agent Handoff (concept)\n- [[agent-journal-pattern]] — Agent Journal Pattern (concept)\n- [[agent-skill-management]] — Agent Skill Management (concept)\n- [[agentic-commerce]] — Agentic Commerce (concept)\n- [[ai-research-workflow]] — Ai Research Workflow (concept)\n- [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)\n- [[ai-trading-agent]] — Ai Trading Agent (concept)\n- [[alpaca-api]] — Alpaca Api (concept)\n- [[atomic-mac-agent]] — Atomic Mac Agent (concept)\n- [[browser-harness-tool]] — Browser Harness Tool (concept)\n- [[catalysts]] — Catalysts (concept)\n- [[claude-code-routines]] — Claude Code Routines (concept)\n- [[closed-loop-system]] — Closed Loop System (concept)\n- [[codified-taste]] — Codified Taste (concept)\n- [[compact-vs-handoff]] — Compact Vs Handoff (concept)\n- [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)\n- [[context-window-management]] — Context Window Management (concept)\n- [[conversational-website]] — Conversational Website (concept)\n- [[cross-agent-workflow]] — Cross Agent Workflow (concept)\n- [[environment-design-for-habits]] — Environment Design For Habits (concept)\n- [[focus]] — Focus (concept)\n- [[grok-hermes-integration]] — Grok Hermes Integration (concept)\n- [[habit-automation]] — Habit Automation (concept)\n- [[handoff-skill]] — Handoff Skill (concept)\n- [[hermes-agent]] — Hermes Agent (concept)\n- [[hermes-operator-role]] — Hermes Operator Role (concept)\n- [[hermes-persistent-memory]] — Hermes Persistent Memory (concept)\n- [[hermes-three-layers]] — Hermes Three Layers (concept)\n- [[hindsight-skill]] — Hindsight Skill (concept)\n- [[impulse-response-gap]] — Impulse Response Gap (concept)\n- [[last30days-skill]] — Last30days Skill (concept)\n- [[loop-ownership]] — Loop Ownership (concept)\n- [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)\n- [[negative-future-projection]] — Negative Future Projection (concept)\n- [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)\n- [[persistent-memory-ai]] — Persistent Memory Ai (concept)\n- [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)\n- [[prospective-memory-gap]] — Prospective Memory Gap (concept)\n- [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)\n- [[session-separation]] — Session Separation (concept)\n- [[shift-left-testing]] — Shift Left Testing (concept)\n- [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)\n- [[speed-vs-velocity]] — Speed Vs Velocity (concept)\n- [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)\n- [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)\n- [[src_activation-energy]] — Activation Energy (source)\n- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)\n- [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)\n- [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)\n- [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)\n- [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)\n- [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)\n- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)\n- [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)\n- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)\n- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)\n- [[src_speed-velocity]] — Speed Velocity (source)\n- [[success-trap]] — Success Trap (concept)\n- [[taste-holders]] — Taste Holders (concept)\n- [[validation-contract]] — Validation Contract (concept)\n- [[x-account-tracking-skill]] — X Account Tracking Skill (concept)\n- [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)\n- [[x-search-tool]] — X Search Tool (concept)\n- [[xurl-cli]] — Xurl Cli (concept)\n\n## Co-occurring tags\n\n- [[tools]] — 49 co-occurrences\n- [[ai]] — 42 co-occurrences\n- [[tutorial]] — 10 co-occurrences\n- [[psychology]] — 9 co-occurrences\n- [[productivity]] — 9 co-occurrences\n
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: automation
+auto_generated: true
+last_updated: 2026-06-11
+---
+
+# Tag: #automation
+
+## Parent
+
+- [[tag]]
+
+## Stats
+
+- Total files: 65
+- Sources: 14
+- Concepts: 51
+- Last updated: 2026-06-11
+
+## Files with this tag
+
+- [[activation-energy]] — Activation Energy (concept)
+- [[agent-handoff]] — Agent Handoff (concept)
+- [[agent-journal-pattern]] — Agent Journal Pattern (concept)
+- [[agent-skill-management]] — Agent Skill Management (concept)
+- [[agentic-commerce]] — Agentic Commerce (concept)
+- [[ai-research-workflow]] — Ai Research Workflow (concept)
+- [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
+- [[ai-trading-agent]] — Ai Trading Agent (concept)
+- [[alpaca-api]] — Alpaca Api (concept)
+- [[atomic-mac-agent]] — Atomic Mac Agent (concept)
+- [[browser-harness-tool]] — Browser Harness Tool (concept)
+- [[catalysts]] — Catalysts (concept)
+- [[claude-code-routines]] — Claude Code Routines (concept)
+- [[closed-loop-system]] — Closed Loop System (concept)
+- [[codified-taste]] — Codified Taste (concept)
+- [[compact-vs-handoff]] — Compact Vs Handoff (concept)
+- [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)
+- [[context-window-management]] — Context Window Management (concept)
+- [[conversational-website]] — Conversational Website (concept)
+- [[cross-agent-workflow]] — Cross Agent Workflow (concept)
+- [[environment-design-for-habits]] — Environment Design For Habits (concept)
+- [[focus]] — Focus (concept)
+- [[grok-hermes-integration]] — Grok Hermes Integration (concept)
+- [[habit-automation]] — Habit Automation (concept)
+- [[handoff-skill]] — Handoff Skill (concept)
+- [[hermes-agent]] — Hermes Agent (concept)
+- [[hermes-operator-role]] — Hermes Operator Role (concept)
+- [[hermes-persistent-memory]] — Hermes Persistent Memory (concept)
+- [[hermes-three-layers]] — Hermes Three Layers (concept)
+- [[hindsight-skill]] — Hindsight Skill (concept)
+- [[impulse-response-gap]] — Impulse Response Gap (concept)
+- [[last30days-skill]] — Last30days Skill (concept)
+- [[loop-ownership]] — Loop Ownership (concept)
+- [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
+- [[negative-future-projection]] — Negative Future Projection (concept)
+- [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
+- [[persistent-memory-ai]] — Persistent Memory Ai (concept)
+- [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
+- [[prospective-memory-gap]] — Prospective Memory Gap (concept)
+- [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)
+- [[session-separation]] — Session Separation (concept)
+- [[shift-left-testing]] — Shift Left Testing (concept)
+- [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
+- [[speed-vs-velocity]] — Speed Vs Velocity (concept)
+- [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
+- [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
+- [[src_activation-energy]] — Activation Energy (source)
+- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
+- [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)
+- [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
+- [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)
+- [[src_hermes-as-a-real-time-analyst]] — Hermes As A Real Time Analyst (source)
+- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
+- [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
+- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
+- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
+- [[src_speed-velocity]] — Speed Velocity (source)
+- [[success-trap]] — Success Trap (concept)
+- [[taste-holders]] — Taste Holders (concept)
+- [[validation-contract]] — Validation Contract (concept)
+- [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
+- [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
+- [[x-search-tool]] — X Search Tool (concept)
+- [[xurl-cli]] — Xurl Cli (concept)
+
+## Co-occurring tags
+
+- [[tools]] — 49 co-occurrences
+- [[ai]] — 42 co-occurrences
+- [[tutorial]] — 10 co-occurrences
+- [[psychology]] — 9 co-occurrences
+- [[productivity]] — 9 co-occurrences

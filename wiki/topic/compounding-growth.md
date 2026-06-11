@@ -1,1 +1,21 @@
-# Topic: compounding-growth\n\nAuto-generated index of all content with topic `compounding-growth`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (7)\n\n- [[casino-culture]] — main: #productivity, sub: [#opinion, #opinion]\n- [[compounding-effect]] — main: #productivity, sub: [#opinion, #opinion]\n- [[discipline-system]] — main: #productivity, sub: [#research, #psychology]\n- [[environment-baseline]] — main: #productivity, sub: [#opinion, #research]\n- [[leading-indicators]] — main: #productivity, sub: [#opinion, #research]\n- [[negative-compounding]] — main: #productivity, sub: [#opinion, #research]\n- [[patience-vs-passivity]] — main: #productivity, sub: [#opinion, #research]\n\n## Sources (1)\n\n- [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools]\n
+# Topic: compounding-growth
+
+Auto-generated index of all content with topic `compounding-growth`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (7)
+
+- [[casino-culture]] — main: #productivity, sub: [#opinion, #opinion]
+- [[compounding-effect]] — main: #productivity, sub: [#opinion, #opinion]
+- [[discipline-system]] — main: #productivity, sub: [#research, #psychology]
+- [[environment-baseline]] — main: #productivity, sub: [#opinion, #research]
+- [[leading-indicators]] — main: #productivity, sub: [#opinion, #research]
+- [[negative-compounding]] — main: #productivity, sub: [#opinion, #research]
+- [[patience-vs-passivity]] — main: #productivity, sub: [#opinion, #research]
+
+## Sources (1)
+
+- [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools]

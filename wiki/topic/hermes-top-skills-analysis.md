@@ -1,1 +1,19 @@
-# Topic: hermes-top-skills-analysis\n\nAuto-generated index of all content with topic `hermes-top-skills-analysis`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (5)\n\n- [[external-memory-providers]] — main: #ai, sub: [#tools, #research]\n- [[hermes-token-management]] — main: #ai, sub: [#tools, #opinion]\n- [[reflect-skill-hindsight]] — main: #ai, sub: [#tools, #automation]\n- [[x-account-tracking-skill]] — main: #ai, sub: [#tools, #automation]\n- [[x-bookmark-prioritization]] — main: #ai, sub: [#tools, #automation]\n\n## Sources (1)\n\n- [[src_hermes-200-30-skills-3-worth-it]] — main: #ai, sub: [#tools, #automation, #opinion]\n
+# Topic: hermes-top-skills-analysis
+
+Auto-generated index of all content with topic `hermes-top-skills-analysis`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (5)
+
+- [[external-memory-providers]] — main: #ai, sub: [#tools, #research]
+- [[hermes-token-management]] — main: #ai, sub: [#tools, #opinion]
+- [[reflect-skill-hindsight]] — main: #ai, sub: [#tools, #automation]
+- [[x-account-tracking-skill]] — main: #ai, sub: [#tools, #automation]
+- [[x-bookmark-prioritization]] — main: #ai, sub: [#tools, #automation]
+
+## Sources (1)
+
+- [[src_hermes-200-30-skills-3-worth-it]] — main: #ai, sub: [#tools, #automation, #opinion]

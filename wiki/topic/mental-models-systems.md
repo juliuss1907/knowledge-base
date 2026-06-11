@@ -1,1 +1,18 @@
-# Topic: mental-models-systems\n\nAuto-generated index of all content with topic `mental-models-systems`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (4)\n\n- [[bottlenecks-mental-model]] — main: #productivity, sub: [#research, #system]\n- [[diminishing-returns-mental-model]] — main: #productivity, sub: [#research, #system]\n- [[equilibrium-mental-model]] — main: #productivity, sub: [#research, #system]\n- [[margin-of-safety-mental-model]] — main: #productivity, sub: [#research, #system]\n\n## Sources (1)\n\n- [[src_farnam-street-mental-models-systems-thinking]] — main: #productivity, sub: [#research, #system]\n
+# Topic: mental-models-systems
+
+Auto-generated index of all content with topic `mental-models-systems`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (4)
+
+- [[bottlenecks-mental-model]] — main: #productivity, sub: [#research, #system]
+- [[diminishing-returns-mental-model]] — main: #productivity, sub: [#research, #system]
+- [[equilibrium-mental-model]] — main: #productivity, sub: [#research, #system]
+- [[margin-of-safety-mental-model]] — main: #productivity, sub: [#research, #system]
+
+## Sources (1)
+
+- [[src_farnam-street-mental-models-systems-thinking]] — main: #productivity, sub: [#research, #system]

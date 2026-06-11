@@ -1,1 +1,15 @@
-# Topic: job-evaluation-framework\n\nAuto-generated index of all content with topic `job-evaluation-framework`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (1)\n\n- [[job-scoring-framework]] — main: #productivity, sub: [#opinion]\n\n## Sources (1)\n\n- [[src_markus-job-scoring-framework]] — main: #productivity, sub: [#opinion]\n
+# Topic: job-evaluation-framework
+
+Auto-generated index of all content with topic `job-evaluation-framework`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (1)
+
+- [[job-scoring-framework]] — main: #productivity, sub: [#opinion]
+
+## Sources (1)
+
+- [[src_markus-job-scoring-framework]] — main: #productivity, sub: [#opinion]

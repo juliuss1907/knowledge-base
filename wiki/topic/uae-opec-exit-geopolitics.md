@@ -1,1 +1,20 @@
-# Topic: uae-opec-exit-geopolitics\n\nAuto-generated index of all content with topic `uae-opec-exit-geopolitics`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (6)\n\n- [[american-security-guarantee]] — main: #politic, sub: [#research, #opinion]\n- [[kinked-demand-curve]] — main: #economic, sub: [#research, #opinion]\n- [[opec-cartel-structure]] — main: #economic, sub: [#research, #opinion]\n- [[spare-production-capacity]] — main: #economic, sub: [#research, #opinion]\n- [[strait-of-hormuz-geopolitics]] — main: #politic, sub: [#research, #opinion]\n- [[uae-saudi-rivalry]] — main: #politic, sub: [#research, #opinion]\n\n## Sources (1)\n\n- [[src_uae-opec-exit-end-of-era]] — main: #economic, sub: [#research, #opinion]\n
+# Topic: uae-opec-exit-geopolitics
+
+Auto-generated index of all content with topic `uae-opec-exit-geopolitics`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (6)
+
+- [[american-security-guarantee]] — main: #politic, sub: [#research, #opinion]
+- [[kinked-demand-curve]] — main: #economic, sub: [#research, #opinion]
+- [[opec-cartel-structure]] — main: #economic, sub: [#research, #opinion]
+- [[spare-production-capacity]] — main: #economic, sub: [#research, #opinion]
+- [[strait-of-hormuz-geopolitics]] — main: #politic, sub: [#research, #opinion]
+- [[uae-saudi-rivalry]] — main: #politic, sub: [#research, #opinion]
+
+## Sources (1)
+
+- [[src_uae-opec-exit-end-of-era]] — main: #economic, sub: [#research, #opinion]

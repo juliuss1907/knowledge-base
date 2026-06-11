@@ -1,1 +1,14 @@
-# Topic: trading-policy-implementation\n\nAuto-generated index of all content with topic `trading-policy-implementation`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (0)\n\n\n## Sources (1)\n\n- [[src_no-system-will-make-you-profitable]] — main: #economic, sub: [#opinion, #research]\n
+# Topic: trading-policy-implementation
+
+Auto-generated index of all content with topic `trading-policy-implementation`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (0)
+
+
+## Sources (1)
+
+- [[src_no-system-will-make-you-profitable]] — main: #economic, sub: [#opinion, #research]

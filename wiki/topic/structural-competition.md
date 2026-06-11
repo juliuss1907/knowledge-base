@@ -1,1 +1,18 @@
-# Topic: structural-competition\n\nAuto-generated index of all content with topic `structural-competition`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (4)\n\n- [[four-layer-framework]] — main: #politic, sub: [#research, #opinion]\n- [[industrial-scale]] — main: #politic, sub: [#research, #opinion]\n- [[institutional-capacity]] — main: #politic, sub: [#research, #opinion]\n- [[structural-competition]] — main: #politic, sub: [#research, #opinion]\n\n## Sources (1)\n\n- [[src_why-i-write-about-structural-competition]] — main: #politic, sub: [#opinion, #research]\n
+# Topic: structural-competition
+
+Auto-generated index of all content with topic `structural-competition`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (4)
+
+- [[four-layer-framework]] — main: #politic, sub: [#research, #opinion]
+- [[industrial-scale]] — main: #politic, sub: [#research, #opinion]
+- [[institutional-capacity]] — main: #politic, sub: [#research, #opinion]
+- [[structural-competition]] — main: #politic, sub: [#research, #opinion]
+
+## Sources (1)
+
+- [[src_why-i-write-about-structural-competition]] — main: #politic, sub: [#opinion, #research]

@@ -1,1 +1,49 @@
----\ntype: index\nlevel: 3\nscope: tag\nparent: [[tag]]\ntag: politic\nauto_generated: true\nlast_updated: 2026-06-10\n---\n\n# Tag: #politic\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: 17\n- Sources: 3\n- Concepts: 14\n- Last updated: 2026-06-10\n\n## Files with this tag\n\n- [[american-security-guarantee]] — American Security Guarantee (concept)\n- [[counterinsurgency]] — Counterinsurgency (concept)\n- [[four-layer-framework]] — Four Layer Framework (concept)\n- [[hearts-and-minds]] — Hearts And Minds (concept)\n- [[industrial-scale]] — Industrial Scale (concept)\n- [[institutional-capacity]] — Institutional Capacity (concept)\n- [[kissinger-deal-1974]] — Kissinger Deal 1974 (concept)\n- [[mutually-assured-destruction]] — Mutually Assured Destruction (concept)\n- [[oil-spot-strategy]] — Oil Spot Strategy (concept)\n- [[saudi-pakistan-defense-agreement]] — Saudi Pakistan Defense Agreement (concept)\n- [[src_counterinsurgency-fighting-back]] — Counterinsurgency Fighting Back (source)\n- [[src_mutually-assured-destruction]] — Mutually Assured Destruction (source)\n- [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)\n- [[strait-of-hormuz-geopolitics]] — Strait Of Hormuz Geopolitics (concept)\n- [[structural-competition]] — Structural Competition (concept)\n- [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)\n- [[us-security-umbrella]] — Us Security Umbrella (concept)\n\n## Co-occurring tags\n\n- [[research]] — 16 co-occurrences\n- [[opinion]] — 11 co-occurrences\n- [[hack]] — 4 co-occurrences\n- [[news]] — 1 co-occurrence\n
+---
+type: index
+level: 3
+scope: tag
+parent: [[tag]]
+tag: politic
+auto_generated: true
+last_updated: 2026-06-11
+---
+
+# Tag: #politic
+
+## Parent
+
+- [[tag]]
+
+## Stats
+
+- Total files: 17
+- Sources: 3
+- Concepts: 14
+- Last updated: 2026-06-11
+
+## Files with this tag
+
+- [[american-security-guarantee]] — American Security Guarantee (concept)
+- [[counterinsurgency]] — Counterinsurgency (concept)
+- [[four-layer-framework]] — Four Layer Framework (concept)
+- [[hearts-and-minds]] — Hearts And Minds (concept)
+- [[industrial-scale]] — Industrial Scale (concept)
+- [[institutional-capacity]] — Institutional Capacity (concept)
+- [[kissinger-deal-1974]] — Kissinger Deal 1974 (concept)
+- [[mutually-assured-destruction]] — Mutually Assured Destruction (concept)
+- [[oil-spot-strategy]] — Oil Spot Strategy (concept)
+- [[saudi-pakistan-defense-agreement]] — Saudi Pakistan Defense Agreement (concept)
+- [[src_counterinsurgency-fighting-back]] — Counterinsurgency Fighting Back (source)
+- [[src_mutually-assured-destruction]] — Mutually Assured Destruction (source)
+- [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)
+- [[strait-of-hormuz-geopolitics]] — Strait Of Hormuz Geopolitics (concept)
+- [[structural-competition]] — Structural Competition (concept)
+- [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
+- [[us-security-umbrella]] — Us Security Umbrella (concept)
+
+## Co-occurring tags
+
+- [[research]] — 16 co-occurrences
+- [[opinion]] — 11 co-occurrences
+- [[hack]] — 4 co-occurrences
+- [[news]] — 1 co-occurrence

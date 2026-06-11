@@ -1,1 +1,15 @@
-# Topic: systems-thinking-types\n\nAuto-generated index of all content with topic `systems-thinking-types`.\n\nLast updated: 2026-06-10 21:04:40\n\n---\n\n## Concepts (1)\n\n- [[markus-four-thinking-types]] — main: #productivity, sub: [#opinion, #psychology]\n\n## Sources (1)\n\n- [[src_markus-four-thinking-types]] — main: #productivity, sub: [#opinion, #psychology]\n
+# Topic: systems-thinking-types
+
+Auto-generated index of all content with topic `systems-thinking-types`.
+
+Last updated: 2026-06-11 21:02:37
+
+---
+
+## Concepts (1)
+
+- [[markus-four-thinking-types]] — main: #productivity, sub: [#opinion, #psychology]
+
+## Sources (1)
+
+- [[src_markus-four-thinking-types]] — main: #productivity, sub: [#opinion, #psychology]

@@ -21,10 +21,10 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Stats
 ## Stats
 
-- Total: 45 files
-- By status: 45 processed, 0 unprocessed
-- By date: 23 this week, 45 this month
-- Last updated: 2026-06-07
+- Total: 57 files
+- By status: 57 processed, 0 unprocessed
+- By date: 22 this week, 57 this month
+- Last updated: 2026-06-12
 ## Items
 
 - [[2026-06-06_life-is-a-mind-game-heres-how-you]] — Life is a mind game, here's how you win by Dan Koe (unprocessed)

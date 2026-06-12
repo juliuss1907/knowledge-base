@@ -29,6 +29,9 @@ last_updated: 2026-05-29
 
 - **Kẻ lừa đảo vs Người sống sót:** Người từng có lợi nhuận trong môi trường nhất định lẫn lộn kết quả với sự hiểu biết, rồi bán "hệ thống" như chân lý vĩnh cửu
 - **"A system is easier to market than judgment"**: Setup dễ bán hơn state-conditioned decision-making
+- **Sự nhầm lẫn giữa Setup và Edge:** Retail traders tin rằng một "setup" (pattern trên chart) chính là lợi thế (edge), trong khi thực tế setup chỉ là trigger; edge thực sự nằm ở policy (quyết định hành động) dựa trên state đa chiều (liquidity, volatility, psychology, etc.).
+- **Vòng lặp củng cố sai lầm (False Reinforcement Loop):** PnL có thể dương ngay cả khi trader thực hiện những quyết định sai lầm, khiến họ tin rằng "hệ thống" của mình hiệu quả trong khi thực tế policy đang bị thoái hóa.
+- **Sự khác biệt về tư duy:** Người mới tìm kiếm "giá sẽ đi về đâu", trong khi chuyên gia tập trung vào việc "hành động nào là hợp lý nhất dựa trên những gì có thể biết tại thời điểm đó".
 
 ## Related concepts
 

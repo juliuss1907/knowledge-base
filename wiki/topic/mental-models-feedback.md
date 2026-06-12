@@ -2,14 +2,14 @@
 
 Auto-generated index of all content with topic `mental-models-feedback`.
 
-Last updated: 2026-06-11 21:02:37
+Last updated: 2026-06-12 21:03:28
 
 ---
 
 ## Concepts (1)
 
-- [[feedback-loops]] — main: #productivity, sub: [#research, #system]
+- [[feedback-loops]] — main: #productivity, sub: [#research]
 
 ## Sources (1)
 
-- [[src_feedback-loops-mental-model]] — main: #productivity, sub: [#research, #system]
+- [[src_feedback-loops-mental-model]] — main: #productivity, sub: [#research]

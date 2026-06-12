@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `mental-models-biology`.
 
-Last updated: 2026-06-11 21:02:37
+Last updated: 2026-06-12 21:03:28
 
 ---
 
@@ -11,7 +11,7 @@ Last updated: 2026-06-11 21:02:37
 - [[alloying-mental-model]] — main: #productivity, sub: [#research]
 - [[catalysts-mental-model]] — main: #productivity, sub: [#research]
 - [[cooperation-mental-model]] — main: #productivity, sub: [#research, #psychology]
-- [[ecosystems-mental-model]] — main: #productivity, sub: [#research, #system]
+- [[ecosystems-mental-model]] — main: #productivity, sub: [#research]
 - [[red-queen-effect]] — main: #productivity, sub: [#research, #psychology]
 
 ## Sources (1)

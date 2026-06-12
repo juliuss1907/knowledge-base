@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: productivity
 auto_generated: true
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-06-11
 
 ## Stats
 
-- Total files: 135
-- Sources: 37
-- Concepts: 98
-- Last updated: 2026-06-11
+- Total files: 139
+- Sources: 38
+- Concepts: 101
+- Last updated: 2026-06-12
 
 ## Files with this tag
 
@@ -59,6 +59,7 @@ last_updated: 2026-06-11
 - [[hanlons-razor]] — Hanlons Razor (concept)
 - [[hedonic-treadmill]] — Hedonic Treadmill (concept)
 - [[holistic-thinking]] — Holistic Thinking (concept)
+- [[human-premium]] — Human Premium (concept)
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
 - [[iceberg-model]] — Iceberg Model (concept)
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept)
@@ -92,6 +93,7 @@ last_updated: 2026-06-11
 - [[operant-conditioning]] — Operant Conditioning (concept)
 - [[organizational-clarity]] — Organizational Clarity (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
+- [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
 - [[paradox-of-effort]] — Paradox Of Effort (concept)
 - [[patience-vs-passivity]] — Patience Vs Passivity (concept)
 - [[pattern-recognition]] — Pattern Recognition (concept)
@@ -109,6 +111,7 @@ last_updated: 2026-06-11
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
 - [[speed-vs-velocity]] — Speed Vs Velocity (concept)
 - [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
+- [[src_2026-advice]] — 2026 Advice (source)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
 - [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
@@ -157,12 +160,13 @@ last_updated: 2026-06-11
 - [[thermodynamics]] — Thermodynamics (concept)
 - [[third-order-thinking]] — Third Order Thinking (concept)
 - [[thought-experiment]] — Thought Experiment (concept)
+- [[tokenmaxxing]] — Tokenmaxxing (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
 
 ## Co-occurring tags
 
-- [[psychology]] — 75 co-occurrences
+- [[psychology]] — 79 co-occurrences
 - [[research]] — 62 co-occurrences
-- [[opinion]] — 42 co-occurrences
+- [[opinion]] — 48 co-occurrences
 - [[tutorial]] — 14 co-occurrences
-- [[automation]] — 9 co-occurrences
+- [[automation]] — 13 co-occurrences

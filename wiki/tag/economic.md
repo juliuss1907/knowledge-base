@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: economic
 auto_generated: true
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Tag: #economic
@@ -19,7 +19,7 @@ last_updated: 2026-06-11
 - Total files: 51
 - Sources: 9
 - Concepts: 42
-- Last updated: 2026-06-11
+- Last updated: 2026-06-12
 
 ## Files with this tag
 
@@ -77,7 +77,7 @@ last_updated: 2026-06-11
 
 ## Co-occurring tags
 
-- [[research]] — 32 co-occurrences
+- [[research]] — 34 co-occurrences
 - [[opinion]] — 24 co-occurrences
 - [[psychology]] — 16 co-occurrences
 - [[tools]] — 7 co-occurrences

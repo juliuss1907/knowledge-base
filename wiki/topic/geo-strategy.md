@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `geo-strategy`.
 
-Last updated: 2026-06-11 21:02:37
+Last updated: 2026-06-12 21:03:28
 
 ---
 

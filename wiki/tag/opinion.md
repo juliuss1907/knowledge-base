@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-06-11
 
 ## Stats
 
-- Total files: 112
-- Sources: 31
-- Concepts: 81
-- Last updated: 2026-06-11
+- Total files: 116
+- Sources: 32
+- Concepts: 84
+- Last updated: 2026-06-12
 
 ## Files with this tag
 
@@ -56,6 +56,7 @@ last_updated: 2026-06-11
 - [[hedonic-treadmill]] — Hedonic Treadmill (concept)
 - [[hermes-token-management]] — Hermes Token Management (concept)
 - [[human-judgment-ai]] — Human Judgment Ai (concept)
+- [[human-premium]] — Human Premium (concept)
 - [[hypergamy]] — Hypergamy (concept)
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept)
 - [[industrial-scale]] — Industrial Scale (concept)
@@ -75,6 +76,7 @@ last_updated: 2026-06-11
 - [[non-commodity-content]] — Non Commodity Content (concept)
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
+- [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
 - [[paradox-of-effort]] — Paradox Of Effort (concept)
 - [[passion-economy-trap]] — Passion Economy Trap (concept)
@@ -92,6 +94,7 @@ last_updated: 2026-06-11
 - [[spare-production-capacity]] — Spare Production Capacity (concept)
 - [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
+- [[src_2026-advice]] — 2026 Advice (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
@@ -131,6 +134,7 @@ last_updated: 2026-06-11
 - [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
 - [[tacit-knowledge]] — Tacit Knowledge (concept)
 - [[taste-holders]] — Taste Holders (concept)
+- [[tokenmaxxing]] — Tokenmaxxing (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
@@ -139,7 +143,7 @@ last_updated: 2026-06-11
 ## Co-occurring tags
 
 - [[research]] — 54 co-occurrences
-- [[productivity]] — 42 co-occurrences
+- [[productivity]] — 48 co-occurrences
+- [[psychology]] — 26 co-occurrences
 - [[economic]] — 24 co-occurrences
 - [[ai]] — 22 co-occurrences
-- [[psychology]] — 22 co-occurrences

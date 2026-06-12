@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: psychology
 auto_generated: true
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-06-11
 
 ## Stats
 
-- Total files: 98
-- Sources: 28
-- Concepts: 70
-- Last updated: 2026-06-11
+- Total files: 102
+- Sources: 29
+- Concepts: 73
+- Last updated: 2026-06-12
 
 ## Files with this tag
 
@@ -46,6 +46,7 @@ last_updated: 2026-06-11
 - [[habit-automation]] — Habit Automation (concept)
 - [[hanlons-razor]] — Hanlons Razor (concept)
 - [[holistic-thinking]] — Holistic Thinking (concept)
+- [[human-premium]] — Human Premium (concept)
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
 - [[hypergamy]] — Hypergamy (concept)
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept)
@@ -68,6 +69,7 @@ last_updated: 2026-06-11
 - [[negotiation]] — Negotiation (concept)
 - [[occams-razor]] — Occams Razor (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
+- [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
 - [[passion-economy-trap]] — Passion Economy Trap (concept)
 - [[pattern-recognition]] — Pattern Recognition (concept)
@@ -85,6 +87,7 @@ last_updated: 2026-06-11
 - [[second-order-thinking]] — Second Order Thinking (concept)
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
+- [[src_2026-advice]] — 2026 Advice (source)
 - [[src_activation-energy]] — Activation Energy (source)
 - [[src_building-latticework-mental-models]] — Building Latticework Mental Models (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
@@ -118,14 +121,15 @@ last_updated: 2026-06-11
 - [[thermodynamics]] — Thermodynamics (concept)
 - [[third-order-thinking]] — Third Order Thinking (concept)
 - [[thought-experiment]] — Thought Experiment (concept)
+- [[tokenmaxxing]] — Tokenmaxxing (concept)
 - [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
 
 ## Co-occurring tags
 
-- [[productivity]] — 75 co-occurrences
+- [[productivity]] — 79 co-occurrences
 - [[research]] — 32 co-occurrences
-- [[opinion]] — 22 co-occurrences
+- [[opinion]] — 26 co-occurrences
 - [[economic]] — 16 co-occurrences
-- [[automation]] — 9 co-occurrences
+- [[automation]] — 13 co-occurrences

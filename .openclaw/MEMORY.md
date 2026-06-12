@@ -351,3 +351,72 @@ expected <block end>, but found '<block sequence start>'
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 13
 - **Errors:** 1 files skipped, 6 warnings
+[INVALID TAG] wiki/sources/src_activation-energy.md: main_tag=psychology
+[INVALID TAG] wiki/sources/src_hypergamy.md: main_tag=psychology
+[INVALID TAG] wiki/concepts/activation-energy.md: main_tag=psychology
+[ERROR] wiki/concepts/active-thinking.md: Missing required frontmatter fields
+[ERROR] Could not read wiki/concepts/agent-harness.md: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 5, column 3:
+      - research
+      ^
+[WARNING] wiki/concepts/agent-harness.md: No frontmatter found
+[ERROR] Could not read wiki/concepts/code-as-substrate.md: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 5, column 3:
+      - research
+      ^
+[WARNING] wiki/concepts/code-as-substrate.md: No frontmatter found
+[ERROR] Could not read wiki/concepts/evolutionary-mismatch.md: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 5, column 3:
+      - research
+      ^
+[WARNING] wiki/concepts/evolutionary-mismatch.md: No frontmatter found
+[ERROR] Could not read wiki/concepts/factory-missions.md: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 5, column 3:
+      - tools
+      ^
+[WARNING] wiki/concepts/factory-missions.md: No frontmatter found
+[INVALID TAG] wiki/concepts/hypergamy.md: main_tag=psychology
+[ERROR] Could not read wiki/concepts/multi-agent-taxonomy.md: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 5, column 3:
+      - research
+      ^
+[WARNING] wiki/concepts/multi-agent-taxonomy.md: No frontmatter found
+[ERROR] Could not read wiki/concepts/plan-execute-verify-loop.md: while parsing a block mapping
+  in "<unicode string>", line 1, column 1:
+    type: concept
+    ^
+expected <block end>, but found '<block sequence start>'
+  in "<unicode string>", line 5, column 3:
+      - research
+      ^
+[WARNING] wiki/concepts/plan-execute-verify-loop.md: No frontmatter found
+[INVALID TAG] wiki/concepts/relationship-dynamics.md: main_tag=psychology
+## 2026-06-12 21:03:28 — Indexed
+
+- **Scanned:** 272 concepts + 80 sources = 352 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 88
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 5
+- **Errors:** 7 files skipped
+

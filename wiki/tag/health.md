@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: health
 auto_generated: true
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Tag: #health
@@ -19,7 +19,7 @@ last_updated: 2026-06-11
 - Total files: 8
 - Sources: 1
 - Concepts: 7
-- Last updated: 2026-06-11
+- Last updated: 2026-06-12
 
 ## Files with this tag
 

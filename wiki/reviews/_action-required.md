@@ -4,90 +4,94 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-06 09:09 — Format fixes applied by Fix Agent
+**Last updated:** 2026-06-12 — Julius approved selected validation fixes; Summary 1-dòng explicitly ignored.
 
 ---
 
 ## Summary
-**Pending reports:** 1 (Output Validator systemic — awaiting re-compile)
+
+**Pending approved fixes:** 3 groups
 
 **Status:**
-- ✅ Format Validator — 2026-06-06: **APPLIED** (6 files: `productivity` → `automation` — fixed by Fix Agent)
-- ✅ Output Validator — 2026-06-06: **APPROVED** (4 systemic issues — require re-compile with updated Compile Agent)
-- ✅ Hygiene Inspector — 2026-06-06: **PROMOTE** (0 issues)
+- ✅ Format Validator — latest run: **APPROVED** (8 files with invalid sub_tag `system`)
+- ✅ Output Validator — latest run: **APPROVED PARTIAL**
+  - ✅ Sources trống: **2 concepts approved for fix**
+  - ✅ Key ideas <3: **18 concepts approved for fix**
+  - ⏭️ Summary 1 dòng: **IGNORED by Julius**
+  - ⏸️ Status draft: **not approved in this pass**
+- ✅ Hygiene Inspector — latest run: **PROMOTE** (0 issues)
+- ✅ Format Validator — 2026-06-06: APPLIED (6 files)
+- ✅ Output Validator — 2026-06-06: APPROVED
+- ✅ Hygiene Inspector — 2026-06-06: PROMOTE
 - ✅ Format Validator — 2026-06-03: APPLIED (5 files)
 - ✅ Output Validator — 2026-06-03: APPROVED
 - ✅ Hygiene Inspector — 2026-06-03: PROMOTE
-- ✅ Format Validator — 2026-06-01-v2: **RESOLVED** (16 files fixed by Connor — Fix Agent had failed 2x)
-- ✅ Output Validator — 2026-06-01-v2: APPROVED
-- ✅ Hygiene Inspector — 2026-06-01-v2: PROMOTE
-- ✅ Format Validator — 2026-06-01: APPLIED
-- ✅ Output Validator — 2026-06-01: APPLIED
-- ✅ Hygiene Inspector — 2026-06-01: PROMOTE
 
 ---
 
-## Critical Issues (Fix Immediately)
+## Approved Fixes
 
-### ⏳ Format Validator — 2026-06-03 (5 files)
+### ✅ Format Validator — latest run (8 files)
 
-**Invalid sub_tag `productivity`** (Pool A tag):
+**Issue:** invalid sub_tag `system` — `system` is Pool A main_tag, not Pool B sub_tag.
+
+**Approved fix:** replace `system` with `research`.
 
 | File | Fix |
 |---|---|
-| compact-vs-handoff.md | `productivity` → `automation` |
-| context-window-management.md | `productivity` → `automation` |
-| handoff-skill.md | `productivity` → `automation` |
-| session-separation.md | `productivity` → `automation` |
-| src_handoff-skill-context-window-management.md | `productivity` → `automation` |
-
-These are files newly compiled after the previous fix run. Compile Agent hasn't been applied yet.
-
----
-
-### ⏳ Output Validator — 2026-06-03 (4 systemic issues)
-
-**#1 Summary 1 dòng — 243/243 files:** Avg 0.18 lines/file. 0 files đạt 3+ câu.
-
-**#2 Key Points <3 — 18 concepts:** Avg 5.3 overall, 18 under threshold.
-
-**#3 Sources trống — 3 concepts:** ai-powered-discovery, second-order-effects, systems-thinking
-
-**#4 Status draft — 28 files:** Worsened from 15 → 28 (new files added).
+| bottlenecks-mental-model.md | `system` → `research` |
+| diminishing-returns-mental-model.md | `system` → `research` |
+| ecosystems-mental-model.md | `system` → `research` |
+| equilibrium-mental-model.md | `system` → `research` |
+| feedback-loops.md | `system` → `research` |
+| margin-of-safety-mental-model.md | `system` → `research` |
+| src_farnam-street-mental-models-systems-thinking.md | `system` → `research` |
+| src_feedback-loops-mental-model.md | `system` → `research` |
 
 ---
 
-### ✅ Hygiene Inspector — 2026-06-03
+### ✅ Output Validator — Sources trống (2 concepts)
 
-**PROMOTE** — 0 issues.
+**Approved fix:** add correct source backlink into `## Sources` section and ensure frontmatter `sources:` matches.
+
+| File | Issue |
+|---|---|
+| ai-powered-discovery.md | `## Sources` empty |
+| second-order-effects.md | `## Sources` empty |
 
 ---
 
-## Systemic Issues (No File-Level Fix)
+### ✅ Output Validator — Key ideas <3 (18 concepts)
 
-All Output Validator issues + the persistent `productivity` as sub_tag pattern require **re-compile with updated Compile Agent**.
+**Approved fix:** expand `## Key ideas` to at least 3 bullets per concept. Keep existing meaning. Do not invent unsupported claims. Prefer sourcing from linked source notes.
 
-Compile Agent has been updated (2026-06-01) but has not been run yet:
-- Vietnamese output
-- 3-5 sentence Summary
-- ≥3 Key ideas
-- No empty Sources
-- No main_tags as sub_tags
-- Status lifecycle
+**Count:** 18 concepts.
+
+---
+
+## Explicitly Ignored
+
+### ⏭️ Summary 1 dòng
+
+Julius explicitly chose to ignore this issue for now.
+
+**Do not fix in this pass:**
+- Summary 1 dòng across 359 files
+- No re-compile required solely for Summary length
+
+---
+
+## Not Approved In This Pass
+
+### ⏸️ Status draft
+
+Latest validation found **109 draft files**. Julius did not approve this item in the current instruction. Leave unchanged unless separately approved.
 
 ---
 
 ## Commands
 
-**To approve:**
+**To apply approved fixes:**
 ```
-approve format
-approve output
-```
-
-**To view reports:**
-```
-show format
-show output
-show hygiene
+openclaw fix apply
 ```

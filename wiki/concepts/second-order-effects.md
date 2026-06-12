@@ -31,6 +31,8 @@ Second-Order Effects (hiệu ứng bậc hai) là những hệ quả không lư�
 
 ## Sources
 
+- [[src_will-ai-replace-systems-thinking]]
+
 ## Backlinks
 
 - [[ai-augmented-systems-thinking]]

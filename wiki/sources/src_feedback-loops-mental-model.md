@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-06-09_feedback-loops-mental-model]]"
 main_tag: productivity
-sub_tags: [research, system]
+sub_tags: [research]
 topic: mental-models-feedback
 date_compiled: 2026-06-10
 url: https://fs.blog/mental-model-feedback-loops/

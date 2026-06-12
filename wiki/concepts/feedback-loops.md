@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [research, system]
+sub_tags: [research]
 topic: mental-models-feedback
 sources:
   - "[[src_feedback-loops-mental-model]]"

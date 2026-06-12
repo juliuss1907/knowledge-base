@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [research, system]
+sub_tags: [research]
 topic: mental-models-systems
 sources:
   - "[[src_farnam-street-mental-models-systems-thinking]]"

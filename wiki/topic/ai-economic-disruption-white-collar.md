@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `ai-economic-disruption-white-collar`.
 
-Last updated: 2026-06-12 21:03:28
+Last updated: 2026-06-13 21:03:27
 
 ---
 

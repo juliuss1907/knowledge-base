@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `simplicity-psychology`.
 
-Last updated: 2026-06-12 21:03:28
+Last updated: 2026-06-13 21:03:27
 
 ---
 

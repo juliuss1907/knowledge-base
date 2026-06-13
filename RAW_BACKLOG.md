@@ -4,25 +4,22 @@
 
 ---
 
-## Current backlog — 2026-06-09 23:30
+## Current backlog — 2026-06-13 13:00
 
 | File | Date ingested | Age |
 |---|---|---|
-| raw/articles/2026-06-09_counterinsurgency-fighting-back.md | 2026-06-09 | today |
-| raw/articles/2026-06-09_farnam-street-mental-models-biology-series.md | 2026-06-09 | today |
-| raw/articles/2026-06-09_farnam-street-mental-models-systems-thinking.md | 2026-06-09 | today |
-| raw/articles/2026-06-09_feedback-loops-mental-model.md | 2026-06-09 | today |
-| raw/articles/2026-06-09_mental-models-of-art.md | 2026-06-09 | today |
-| raw/articles/2026-06-09_mental-models-of-economics.md | 2026-06-09 | today |
-| raw/articles/2026-06-09_mutually-assured-destruction.md | 2026-06-09 | today |
-| raw/articles/2026-06-09_the-power-of-incentives-hidden-forces-shape-behavior.md | 2026-06-09 | today |
+| raw/articles/2026-06-12_systems-thinking-tools-deepdive.md | 2026-06-12 | ~25h |
+| raw/articles/2026-06-12_todays-most-crucial-leadership-skill-is-systems-thinking.md | 2026-06-12 | ~25h |
 
-**Total:** 8 files  
-**Compile time:** 08:00 tomorrow (2026-06-10)
+**Total:** 2 files  
+**Compile time:** 08:00 tomorrow (2026-06-14)
 
 ---
 
 ## History
+
+### 2026-06-13 13:00 — 2 files added
+Detected 2 files from June 12 in raw/articles/.
 
 ### 2026-06-09 23:30 — 8 files added (all today)
 No files older than 24h. System clean.
@@ -32,4 +29,4 @@ All from June 4 processed. No old backlog.
 
 ---
 
-*Last updated: 2026-06-09 23:30*
+*Last updated: 2026-06-13 13:00*

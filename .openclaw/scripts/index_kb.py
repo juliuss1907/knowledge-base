@@ -21,7 +21,7 @@ def load_tags():
                 lines = pool_a_match.group(1).strip().split('\n')
                 for line in lines:
                     if line.startswith('|'):
-                        tag = line.split('|')[1].strip().strip('#')
+                        tag = line.split('|')[1].strip().strip('`# ')
                         allowed['main'].append(tag)
             
             # Find Pool B
@@ -30,7 +30,7 @@ def load_tags():
                 lines = pool_b_match.group(1).strip().split('\n')
                 for line in lines:
                     if line.startswith('|'):
-                        tag = line.split('|')[1].strip().strip('#')
+                        tag = line.split('|')[1].strip().strip('`# ')
                         allowed['sub'].append(tag)
     except Exception as e:
         print(f"Error loading TAGS.md: {e}")
@@ -59,7 +59,6 @@ def main():
     timestamp = now.strftime('%Y-%m-%d %H:%M:%S')
     
     allowed_tags = load_tags()
-    print(f"Allowed tags loaded: {allowed_tags}")
     wiki_dirs = ['wiki/sources', 'wiki/concepts']
     files_data = []
     

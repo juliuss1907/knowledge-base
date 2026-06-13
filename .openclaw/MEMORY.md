@@ -2470,3 +2470,31 @@ expected <block end>, but found '<block sequence start>'
   - [INVALID TAG] wiki/concepts/zero-member-llc.md: main_tag=ai
   - [INVALID TAG] wiki/concepts/zero-member-llc.md: sub_tag=law
   - [INVALID TAG] wiki/concepts/zero-member-llc.md: sub_tag=tools
+
+
+## 2026-06-13 21:03:47 — Indexed
+
+- **Scanned:** 352 total files
+- **Tags indexed:** 20 (8 main + 12 sub)
+- **Topics indexed:** 88
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 5
+  - [INVALID TAG] wiki/sources/src_activation-energy.md: main_tag=psychology
+  - [INVALID TAG] wiki/sources/src_hypergamy.md: main_tag=psychology
+  - [INVALID TAG] wiki/concepts/activation-energy.md: main_tag=psychology
+  - [INVALID TAG] wiki/concepts/hypergamy.md: main_tag=psychology
+  - [INVALID TAG] wiki/concepts/relationship-dynamics.md: main_tag=psychology
+
+
+## 2026-06-13 21:03:55 — Indexed
+
+- **Scanned:** 352 total files
+- **Tags indexed:** 20 (8 main + 12 sub)
+- **Topics indexed:** 88
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 5
+  - [INVALID TAG] wiki/sources/src_activation-energy.md: main_tag=psychology
+  - [INVALID TAG] wiki/sources/src_hypergamy.md: main_tag=psychology
+  - [INVALID TAG] wiki/concepts/activation-energy.md: main_tag=psychology
+  - [INVALID TAG] wiki/concepts/hypergamy.md: main_tag=psychology
+  - [INVALID TAG] wiki/concepts/relationship-dynamics.md: main_tag=psychology

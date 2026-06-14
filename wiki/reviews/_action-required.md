@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-14 23:17:09
+**Last updated:** 2026-06-14 23:20:23
 
 ---
 
@@ -18,7 +18,10 @@
   - 🔴 Individual: 14 files missing `## Key ideas` section
   - 🟡 Individual: 1 source with short Summary, 2 concepts with empty Sources
   - Report: `wiki/reviews/2026-06-14_output-report.md`
-- ✅ Format Validator — 2026-06-14: **APPLIED + VERIFIED** (All issues fixed)
+- ⏳ Format Validator — 2026-06-14: **NEW REPORT** (4 ERROR, 289 WARNING)
+  - 🔴 ERROR: 2 source slugs exceed 50 chars, 1 markdown link, 1 missing frontmatter (tag.md)
+  - 🟡 WARNING: 289 broken wikilinks (concepts link to non-existent targets)
+  - Report: `wiki/reviews/2026-06-14_format-report.md`
 - ✅ Hygiene Inspector — 2026-06-14: **PROMOTE** (2 orphan sources, non-critical)
 - ✅ Format Validator — 2026-06-12: **APPLIED + VERIFIED** (0 invalid sub_tags remaining)
 - ✅ Output Validator — 2026-06-12: **APPLIED PARTIAL + VERIFIED**
@@ -36,13 +39,16 @@
 
 ## Verification — 2026-06-14
 
-### ✅ Format Validator
+### ⏳ Format Validator
 
 Scan result:
-- YAML parse errors: **0**
-- Invalid main_tag: **0**
-- Missing topic: **0**
-- Invalid original link extension: **0**
+- ERROR: **4**
+  - 2 source slugs exceed 50 characters
+  - 1 markdown link used for internal content
+  - 1 missing frontmatter (wiki/tag/tag.md)
+- WARNING: **289**
+  - 289 broken wikilinks (concepts link to non-existent targets)
+- Report: `wiki/reviews/2026-06-14_format-report.md`
 
 ### ✅ Output Validator
 
@@ -118,5 +124,4 @@ openclaw fix apply
 
 ## Pending Reports
 
-- [2026-06-14] Format Report: 1118 issues (479 ERROR, 639 WARNING, 0 INFO) — `2026-06-14_format-report.md`
-- [2026-06-14] Format Report: 1200 issues (561 ERROR, 639 WARNING, 0 INFO) — `2026-06-14_format-report.md`
+- [2026-06-14] Format Report: 293 issues (4 ERROR, 289 WARNING, 0 INFO) — `2026-06-14_format-report.md`

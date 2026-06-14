@@ -2498,3 +2498,15 @@ expected <block end>, but found '<block sequence start>'
   - [INVALID TAG] wiki/concepts/activation-energy.md: main_tag=psychology
   - [INVALID TAG] wiki/concepts/hypergamy.md: main_tag=psychology
   - [INVALID TAG] wiki/concepts/relationship-dynamics.md: main_tag=psychology
+## 2026-06-14 08:00:00 — Compiled
+- Raw: raw/articles/2026-06-12_systems-thinking-tools-deepdive.md
+- Source note: wiki/sources/src_systems-thinking-tools-deepdive.md
+- Concepts: [systems-thinking, iceberg-model, causal-loop-diagram, stakeholder-mapping, problem-statement-redesign]
+- Tags applied: main=#productivity, sub=[#tools, #research, #tutorial], topic=systems-thinking-tools
+- Action: created 5 concept files
+## 2026-06-14 08:00:00 — Compiled
+- Raw: raw/articles/2026-06-12_todays-most-crucial-leadership-skill-is-systems-thinking.md
+- Source note: wiki/sources/src_todays-most-crucial-leadership-skill-is-systems-thinking.md
+- Concepts: [systems-thinking, iceberg-model, causal-loop-diagram, stakeholder-mapping, problem-statement-redesign]
+- Tags applied: main=#productivity, sub=[#research, #opinion, #tutorial], topic=systems-thinking-leadership
+- Action: updated 5 concept files

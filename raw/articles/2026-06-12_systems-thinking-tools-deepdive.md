@@ -4,7 +4,9 @@ source_type: article
 source_url: https://www.forbes.com/sites/maryjohnstone-louis/2025/04/25/todays-most-crucial-leadership-skill-is-systems-thinking/
 date_ingested: 2026-06-12
 tags: []
-status: unprocessed
+status: processed
+compiled_at: 2026-06-14
+compiled_to: "[[src_systems-thinking-tools-deepdive]]"
 ---
 
 # Deep Dive: 5 Công Cụ Tư Duy Hệ Thống (Systems Thinking)

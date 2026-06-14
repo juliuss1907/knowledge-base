@@ -2,42 +2,37 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [research, opinion]
-topic: systems-thinking-cognitive-development
+sub_tags: [tools, research, tutorial]
+topic: systems-thinking-tools
 sources:
-  - "[[src_systems-thinking-rabbit-hole]]"
-last_updated: 2026-06-09
+  - "[[src_systems-thinking-tools-deepdive]]"
+last_updated: 2026-06-14
 ---
-
 # Systems Thinking
 
 ## Definition
 
-Phương pháp nhìn nhận vấn đề thông qua cấu trúc tạo ra hành vi, thay vì chỉ tập trung vào triệu chứng riêng lẻ. Systems thinking không phải là việc nhận ra "mọi thứ đều kết nối" — điều đó dễ dẫn đến phân tích mơ hồ. Thay vào đó, nó đòi hỏi việc xác định rõ ràng các thành phần, mối quan hệ, ranh giới hệ thống, và điểm can thiệp có tác động cao.
+Tư duy hệ thống (Systems Thinking) là một phương pháp luận phân tích vấn đề bằng cách nhìn nhận nó như một phần của một hệ thống lớn hơn, tập trung vào mối quan hệ và tương tác giữa các thành phần thay vì chỉ phân tích các thành phần đơn lẻ.
 
 ## Key ideas
 
-- Systems thinking là **capability**, không phải **trait** — ai cũng có thể học được
-- Chúng ta sinh ra với các "nguyên liệu" (ingredients): curiosity về cause-effect, khả năng nhận diện pattern
-- Nhưng systems thinking như một kỹ năng cần được rèn luyện, đặt tên, và sắc bén hóa
-- Systems thinking ≠ holistic thinking:
-  - Holistic = xu hướng nhìn context (tendency)
-  - Systems = phương pháp lập bản đồ và can thiệp (method)
-- Systems thinking không thay thế phân tích — nó cải thiện chất lượng phân tích
-- "Systems thinking must come before analytical thinking because analysis needs context."
-- Không có systems thinking, phân tích có thể trở thành "premature precision" — chính xác nhưng sai vấn đề
-- "Some people may see the system sooner. But seeing the system clearly still takes work."
+- Chuyển dịch từ tư duy tuyến tính (A gây ra B) sang tư duy vòng lặp (A tác động B, B quay lại tác động A).
+- Tập trung tìm kiếm nguyên nhân gốc rễ (root cause) thay vì xử lý triệu chứng (symptom).
+- Nhận diện các điểm đòn bẩy (leverage points) trong hệ thống để tạo ra thay đổi lớn với nỗ lực tối thiểu.
+- Coi trọng tính toàn thể (holism) và sự tương tác giữa các bên liên quan hơn là tối ưu hóa cục bộ.
+- Đặc biệt hiệu quả trong thế giới VUCA (Biến động, Bất định, Phức tạp, Mơ hồ) để điều hướng sự phức tạp.
+- Tập trung vào việc thay đổi "điều kiện" (conditions) đang giữ cho một vấn đề tồn tại thay vì chỉ giải quyết kết quả.
+- Nhận diện các "tính chất trồi" (emergent properties) — những đặc điểm của toàn hệ thống mà không thể thấy được khi phân tích từng thành phần riêng lẻ.
 
 ## Related concepts
 
-- [[causal-reasoning]]
-- [[pattern-recognition]]
-- [[relational-reasoning]]
-- [[holistic-thinking]]
-- [[premature-analysis]]
+- [[iceberg-model]]
+- [[causal-loop-diagram]]
+- [[stakeholder-mapping]]
 
 ## Sources
 
-- [[src_systems-thinking-rabbit-hole]]
+- [[src_systems-thinking-tools-deepdive]]
 
 ## Notes
+

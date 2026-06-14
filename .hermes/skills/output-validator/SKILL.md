@@ -253,3 +253,26 @@ Typical validation times (daily runs):
 - Cache common validation patterns
 - **Skip unchanged files** (check `last_updated` < today)
 - Prioritize ERROR severity checks over INFO checks
+
+## Production lessons
+
+### Backlink resolution
+When validating `[[...]]` wikilinks:
+- `[[slug]]` → `wiki/concepts/slug.md` (primary), then `wiki/sources/src_slug.md` (fallback)
+- `[[src_slug]]` → `wiki/sources/src_slug.md` only
+- Treat missing targets as ERROR, but aggregate by target concept when reporting to stay within the 20-issue limit.
+
+### Systemic issue aggregation
+When the same issue type appears >10 times, report it as a single systemic issue:
+- One entry describing the pattern, count, and top affected targets
+- 2–3 representative file examples as evidence
+- This preserves the 20-issue limit while conveying full scope.
+
+### Empty baseline report
+If `wiki/reviews/YYYY-MM-DD_output-report.md` exists but is empty/placeholder, treat it as if no prior report exists. Scan all files rather than relying on file timestamps.
+
+### Language detection heuristic
+For Vietnamese quality checks:
+- Count characters with Vietnamese diacritics (à, á, ạ, ả, ã, â, ầ, ấ, ậ, ẩ, ẫ, ă, ằ, ắ, ặ, ẳ, ẵ, è, é, ẹ, ẻ, ẽ, ê, ề, ế, ệ, ể, ễ, ì, í, ị, ỉ, ĩ, ò, ó, ọ, ỏ, õ, ô, ồ, ố, ộ, ổ, ỗ, ơ, ờ, ớ, ợ, ở, ỡ, ù, ú, ụ, ủ, ũ, ư, ừ, ứ, ự, ử, ữ, ỳ, ý, ỵ, ỷ, ỹ, đ)
+- If `english_words > vietnamese_count * 3` and `vietnamese_count > 0` → flag as "English-heavy"
+- If `vietnamese_count == 0` and `english_words > 50` → flag as "English-only"

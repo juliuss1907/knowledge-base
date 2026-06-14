@@ -211,6 +211,23 @@
   - 1 ERROR: Code block missing language tag (x-search-tool)
 - **Assessment:** 5 stub concepts share a systematic pattern — incomplete format. Compile Agent should ensure minimum format compliance (valid status, required sections, non-empty sources) even for draft concepts.
 
+## 2026-06-14 22:15:00 — Output validation
+
+- **Validator:** output-validator
+- **Files checked:** 364 (282 concepts + 82 sources)
+- **New files:** ~20 (compiled today — 2026-06-14)
+- **Issues found:** 20 (3 systemic patterns + 14 individual)
+- **Report:** wiki/reviews/2026-06-14_output-report.md
+- **Status:** complete
+- **Notes:** 
+  - **Systemic broken backlinks:** 281 instances across 154 concepts + 127 sources. Top missing targets: confirmation-bias (6), game-theory (5), ai-coding-agents (4), pareto-principle (4). Compile Agent needs backlink verification.
+  - **Systemic draft status:** ~160 concepts remain in `draft` despite having full content (Definition, Key ideas, Sources). Need batch promote to `reviewed`.
+  - **Systemic English-only:** ~15 concepts are entirely in English (no Vietnamese). Examples: abstraction-layer-fallacy, active-thinking, ashbys-law, complex-adaptive-systems, complicated-vs-complex, cynefin-framework, information-compression, lazy-thinking, nice-syndrome, organizational-incrementalism, philosopher-syndrome, systems-thinking-limitations.
+  - **Individual missing Key ideas:** 14 files lack `## Key ideas` section (csa-hca-attention, fp4-lightning-indexer, dollar-as-rent-payment, deepseek-v4-flash-vs-pro, existential-vacuum, false-reinforcement-loop, kissinger-deal-1974, long-context-models, mixture-of-experts-moe, petrodollar-system, policy-review-framework, saudi-pakistan-defense-agreement, tragic-optimism, us-security-umbrella).
+  - **Other:** 2 concepts with nearly empty Sources, 1 source with short Summary.
+
+---
+
 ## 2026-05-28 08:26 — Output validation
 - Files checked: 149 (30 sources + 119 concepts)
 - New files: 8 (compiled today — 2026-05-28)

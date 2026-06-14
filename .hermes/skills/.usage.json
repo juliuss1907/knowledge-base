@@ -16,13 +16,13 @@
     "archived_at": null,
     "created_at": "2026-06-14T02:18:16.885537+00:00",
     "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": "2026-06-14T02:18:16.885561+00:00",
-    "last_viewed_at": null,
-    "patch_count": 0,
+    "last_patched_at": "2026-06-14T02:24:45.660977+00:00",
+    "last_used_at": "2026-06-14T02:24:48.672081+00:00",
+    "last_viewed_at": "2026-06-14T02:24:48.669295+00:00",
+    "patch_count": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 1,
-    "view_count": 0
+    "use_count": 3,
+    "view_count": 2
   }
 }

@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-14 — Validation complete, pending Julius approval.
+**Last updated:** 2026-06-14 22:15 — Output validation complete, pending Julius approval.
 
 ---
 
@@ -13,8 +13,12 @@
 **Pending approved fixes:** 0
 
 **Status:**
+- ⏳ Output Validator — 2026-06-14: **NEW REPORT** (20 issues: 3 systemic + 14 individual)
+  - 🔴 Systemic: Broken backlinks (281 instances), Draft status (~160 files), English-only (~15 files)
+  - 🔴 Individual: 14 files missing `## Key ideas` section
+  - 🟡 Individual: 1 source with short Summary, 2 concepts with empty Sources
+  - Report: `wiki/reviews/2026-06-14_output-report.md`
 - ✅ Format Validator — 2026-06-14: **APPLIED + VERIFIED** (All issues fixed)
-- ✅ Output Validator — 2026-06-14: **APPLIED + VERIFIED** (All issues fixed)
 - ✅ Hygiene Inspector — 2026-06-14: **PROMOTE** (2 orphan sources, non-critical)
 - ✅ Format Validator — 2026-06-12: **APPLIED + VERIFIED** (0 invalid sub_tags remaining)
 - ✅ Output Validator — 2026-06-12: **APPLIED PARTIAL + VERIFIED**

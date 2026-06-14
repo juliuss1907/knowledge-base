@@ -2521,3 +2521,11 @@ expected <block end>, but found '<block sequence start>'
 - Corrected main_tag from psychology -> productivity for 5 files.
 - Updated _action-required.md to APPLIED + VERIFIED.
 - System is now fully aligned with 2026-06-14 validation reports.
+## 2026-06-14 21:05:12 — Indexed
+
+- **Scanned:** 364 total files
+- **Tags indexed:** 20 (7 main-tags + 13 sub-tags)
+- **Topics indexed:** 91
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped

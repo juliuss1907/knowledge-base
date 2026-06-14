@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-14 22:15 — Output validation complete, pending Julius approval.
+**Last updated:** 2026-06-14 23:17:09
 
 ---
 
@@ -115,3 +115,8 @@ Latest validation found draft files. Julius did not approve this item in the cur
 ```bash
 openclaw fix apply
 ```
+
+## Pending Reports
+
+- [2026-06-14] Format Report: 1118 issues (479 ERROR, 639 WARNING, 0 INFO) — `2026-06-14_format-report.md`
+- [2026-06-14] Format Report: 1200 issues (561 ERROR, 639 WARNING, 0 INFO) — `2026-06-14_format-report.md`

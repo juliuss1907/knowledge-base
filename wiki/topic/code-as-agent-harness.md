@@ -2,12 +2,15 @@
 
 Auto-generated index of all content with topic `code-as-agent-harness`.
 
-Last updated: 2026-06-13 21:03:55
+Last updated: 2026-06-14 21:07:08
 
 ---
 
-## Concepts (0)
+## Concepts (3)
 
+- [[agent-harness]] — main: #ai, sub: [#automation, #tools, #coding]
+- [[code-as-substrate]] — main: #ai, sub: [#vibecode, #tools, #coding]
+- [[plan-execute-verify-loop]] — main: #ai, sub: [#automation, #research, #coding]
 
 ## Sources (1)
 

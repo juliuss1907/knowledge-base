@@ -2,14 +2,13 @@
 
 Auto-generated index of all content with topic `systems-thinking-training`.
 
-Last updated: 2026-06-13 21:03:55
+Last updated: 2026-06-14 21:07:08
 
 ---
 
-## Concepts (6)
+## Concepts (5)
 
 - [[feedback-loop]] — main: #productivity, sub: [#tools]
-- [[iceberg-model]] — main: #productivity, sub: [#tools]
 - [[leverage-points]] — main: #productivity, sub: [#tools]
 - [[stock-and-flow]] — main: #productivity, sub: [#tools]
 - [[system-map]] — main: #productivity, sub: [#tools]

@@ -2,16 +2,16 @@
 
 Auto-generated index of all content with topic `activation-energy-mental-model`.
 
-Last updated: 2026-06-13 21:03:55
+Last updated: 2026-06-14 21:07:08
 
 ---
 
 ## Concepts (3)
 
-- [[activation-energy]] — main: #psychology, sub: [#psychology, #automation]
+- [[activation-energy]] — main: #productivity, sub: [#psychology, #automation]
 - [[catalysts]] — main: #system, sub: [#psychology, #automation]
 - [[mental-models]] — main: #productivity, sub: [#psychology]
 
 ## Sources (1)
 
-- [[src_activation-energy]] — main: #psychology, sub: [#psychology, #automation]
+- [[src_activation-energy]] — main: #productivity, sub: [#psychology, #automation]

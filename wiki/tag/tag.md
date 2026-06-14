@@ -2,12 +2,11 @@
 
 ## Stats
 
-- Total tags: 20
-- Main tags: 8
-- Sub tags: 12
-- Most used: #research (171), #productivity (139), #tools (121)
-- Last updated: 2026-06-13
-
+- Total tags: 0
+- Main tags: 0
+- Sub tags: 0
+- Most used: 
+- Last updated: 2026-06-14
 
 ## Items
 

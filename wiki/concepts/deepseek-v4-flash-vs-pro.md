@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 Hai biến thể của DeepSeek V4 với attention topology, KV cache pressure profile, và memory access patterns khác nhau — có cascading effects lên GPU memory budgeting, batching strategy, và multi-agent serving infrastructure.
 
+## Key ideas
+
+- V4 Pro tập trung vào long-context reasoning cao cấp (>200K tokens), yêu cầu hạ tầng GPU lớn (3+ H200 nodes)
+- V4 Flash tối ưu cho latency và throughput, phù hợp với workload 32K-200K tokens trên 1-2 nodes
+- Sự khác biệt chính nằm ở interleaving ratio của CSA và HCA
+- V4 Flash không phải bản distilled mà là thiết kế độc lập về MoE config và routing
+- Việc chọn phiên bản phụ thuộc vào break-even point về chi phí tokens/tháng và yêu cầu về tail latency
+
 ## Comparison
 
 | Thông số | V4 Pro | V4 Flash |

@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-05-29_japanese-evening-routine-fix-sleep.md]]"
+original: "[[2026-05-29_japanese-evening-routine-fix-sleep]]"
 main_tag: productivity
 sub_tags: [tutorial, health]
 topic: sleep-hygiene

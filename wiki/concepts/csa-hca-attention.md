@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 Hybrid attention mechanism trong DeepSeek V4: **Compressed Sparse Attention (CSA)** nén local context ~4× trước khi compute attention, **Heavily Compressed Attention (HCA)** nén ~128× dọc sequence dimension. Khác với sliding window attention — CSA nén token, không bỏ qua.
 
+## Key ideas
+
+- CSA nén local context để giảm computational cost mà không mất thông tin như sliding window
+- HCA xử lý global attention trên context cực lớn (1M+ tokens) bằng cách nén cực mạnh sequence dimension
+- Tối ưu hóa KV cache và FLOPs đáng kể so với attention truyền thống (giảm ~27% FLOPs)
+- Kết hợp CSA và HCA tạo ra khả năng reasoning dài hạn hiệu quả hơn GQA
+- V4 Pro và Flash có tỷ lệ CSA:HCA khác nhau tùy theo mục tiêu latency vs reasoning
+
 ## How it works
 
 - **CSA:** Thay vì O(n·w), giảm effective dimensionality của compressed context. Kết hợp với FP4 Lightning Indexer cho block selection.

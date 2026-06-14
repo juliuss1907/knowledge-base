@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 Cách hiểu đúng về vai trò của USD trong hệ thống petrodollar: không phải "đồng tiền dự trữ tự nhiên" mà là **tiền thuê (rent)** Saudi trả cho bảo hiểm quân sự của Mỹ.
 
+## Key ideas
+
+- USD trong hệ thống petrodollar không phải là kết quả của kinh tế thuần túy mà là một thỏa thuận an ninh (Security-Monetary swap)
+- Saudi bán dầu bằng USD và mua trái phiếu Mỹ để đổi lấy "ô dù quân sự" từ Mỹ
+- Đồng dollar đóng vai trò là "tiền thuê" cho sự bảo vệ an ninh của Mỹ đối với Saudi
+- Sự sụp đổ của petrodollar gắn liền với sự suy giảm khả năng bảo vệ an ninh của Mỹ hơn là sự trỗi dậy của BRICS
+- Khi hợp đồng an ninh hết hạn hoặc không còn giá trị, động lực giữ USD của Saudi biến mất
+
 ## The mechanism
 
 ```

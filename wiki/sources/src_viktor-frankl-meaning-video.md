@@ -22,7 +22,7 @@ author: Einzelgänger (YouTube)
 
 ## Summary
 
-Triết lý của Viktor Frankl, người sống sót qua trại tập trung Đức Quốc xã: ý nghĩa cuộc sống không đến từ tiền bạc, danh vọng hay khoái lạc — mà được khám phá qua ba con đường: công việc có ích, yêu thương gắn kết, và thái độ trước đau khổ.
+Triết lý của Viktor Frankl, người sống sót qua trại tập trung Đức Quốc xã: ý nghĩa cuộc sống không đến từ tiền bạc, danh vọng hay khoái lạc — mà được khám phá qua ba con đường: công việc có ích, yêu thương gắn kết, và thái độ trước đau khổ. Bài viết nhấn mạnh rằng ngay cả trong hoàn cảnh tồi tệ nhất, con người vẫn có tự do cuối cùng là chọn thái độ đối diện với nỗi đau để tìm thấy mục đích tồn tại.
 
 ## Key points
 

@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 Thỏa thuận đàm phán bởi Henry Kissinger với Saudi Arabia sau cuộc cấm vận dầu 1973. Nền móng của hệ thống petrodollar: Saudi đổi lòng trung thành tiền tệ lấy ô dù quân sự Mỹ.
 
+## Key ideas
+
+- Chuyển đổi mâu thuẫn dầu mỏ thành liên minh an ninh-tiền tệ chiến lược
+- Thiết lập cơ chế: Saudi định giá dầu bằng USD và tái đầu tư thặng dư vào trái phiếu Mỹ
+- Mỹ cam kết bảo vệ an ninh cho hoàng gia Saudi trước các mối đe dọa từ Iran và Iraq
+- Tạo ra cầu khổng lồ đối với đồng USD và trái phiếu Mỹ, củng cố vị thế siêu cường của Mỹ
+- Là ví dụ điển hình của "Realpolitik" — ưu tiên lợi ích quốc gia và an ninh hơn lý tưởng
+
 ## Context
 
 - **1973:** Saudi và OPEC cấm vận dầu với Mỹ vì ủng hộ Israel trong chiến tranh Yom Kippur

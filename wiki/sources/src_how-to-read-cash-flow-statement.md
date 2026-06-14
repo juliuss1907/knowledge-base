@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-05-29_how-to-read-cash-flow-statement.md]]"
+original: "[[2026-05-29_how-to-read-cash-flow-statement]]"
 main_tag: economic
 sub_tags: [research, tutorial]
 topic: financial-statement-analysis

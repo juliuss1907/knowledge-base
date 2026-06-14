@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 "Khoảng trống hiện sinh" — cảm giác vô định, trống rỗng xuất hiện khi con người mất đi ý nghĩa truyền thống từ cộng đồng, tôn giáo, bộ lạc, quê hương.
 
+## Key ideas
+
+- Xuất hiện khi các hệ giá trị truyền thống (cộng đồng, tôn giáo) bị xói mòn bởi toàn cầu hóa và thế tục hóa
+- Tạo ra cảm giác mất phương hướng và vô nghĩa mặc dù điều kiện vật chất có thể đầy đủ
+- Dẫn đến xu hướng lấp đầy khoảng trống bằng tiêu dùng vật chất hoặc khoái lạc nhất thời (hedonic treadmill)
+- Là tiền đề cho chủ nghĩa hư vô (nihilism) khi con người không tìm thấy mục đích tồn tại
+- Giải pháp là tìm lại ý nghĩa thông qua sáng tạo, trải nghiệm hoặc thái độ trước đau khổ (Logotherapy)
+
 ## In modern society
 
 - **Toàn cầu hóa:** Mất cộng đồng tôn giáo truyền thống

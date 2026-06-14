@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 Hiện tượng thị trường trả tiền cho trader trong lúc họ học sai — tạo reinforcement mạnh hơn cả hành động tốt thực sự. Một hành động xấu (mở rộng stop, add vào lỗ, không cắt lỗ) được cứu bởi may mắn → bộ não học được điều sai.
 
+## Key ideas
+
+- Sự nguy hiểm của "may mắn" trong trading: nó củng cố (reinforce) những thói quen sai lầm
+- Cảm giác nhẹ nhõm khi thoát khỏi thua lỗ (relief) mạnh hơn cảm giác hài lòng khi thắng theo đúng kỷ luật
+- Tạo ra niềm tin sai lầm rằng sự kiên nhẫn (không cắt lỗ) là bản lĩnh, trong khi thực chất là sai lầm về quản trị rủi ro
+- Dẫn đến "delayed liquidation": trader thắng nhiều lần nhỏ bằng cách sai, rồi mất sạch trong một lần sụp đổ lớn
+- Chỉ có kết quả (outcome) mà không có quy trình (process) đúng sẽ dẫn đến thảm họa dài hạn
+
 ## Example
 
 - **Tình huống:** Lỗ sâu, stop sắp chạm → rộng stop, add vào → thị trường quay lại → hòa/có lời

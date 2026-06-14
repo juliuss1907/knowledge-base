@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 LLMs có khả năng xử lý context window lớn (100K+ tokens). DeepSeek V4 đạt 1M tokens, vượt xa Claude Opus (200K max) và phần lớn frontier models.
 
+## Key ideas
+
+- Thách thức lớn nhất là sự tăng trưởng quadratic của attention (O(n²)) và kích thước KV cache khổng lồ
+- Giải pháp trong V4 là dùng hybrid attention (CSA + HCA) để nén context, giảm FLOPs và bộ nhớ
+- Khả năng xử lý 1M tokens cho phép model đọc toàn bộ codebase lớn hoặc hàng chục tài liệu dài cùng lúc
+- Hiệu suất (RULER benchmark) của V4 Pro vượt trội so với các model closed-source ở cùng độ dài context
+- Chia sẻ compressed KV giúp tối ưu hóa tài nguyên trong môi trường multi-agent
+
 ## Key challenges
 
 - **KV cache size:** 1M tokens = hàng trăng GB mỗi request

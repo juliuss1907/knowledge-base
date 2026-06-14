@@ -2510,3 +2510,7 @@ expected <block end>, but found '<block sequence start>'
 - Concepts: [systems-thinking, iceberg-model, causal-loop-diagram, stakeholder-mapping, problem-statement-redesign]
 - Tags applied: main=#productivity, sub=[#research, #opinion, #tutorial], topic=systems-thinking-leadership
 - Action: updated 5 concept files
+## 2026-06-14 08:55:28 — Applied fixes
+- Topic added to wiki/concepts/active-thinking.md
+- Fixed invalid sub_tags syntax and count for 6 concepts: agent-harness.md, code-as-substrate.md, evolutionary-mismatch.md, factory-missions.md, multi-agent-taxonomy.md, plan-execute-verify-loop.md
+- Verified backlinks for logotherapy-frankl.md and state-space-models-ssm.md (already present)

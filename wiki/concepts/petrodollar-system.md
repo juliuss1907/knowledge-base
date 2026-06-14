@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 Hệ thống trong đó dầu mỏ được mua bán bằng đồng USD trên toàn cầu. Bất kỳ quốc gia nào muốn mua dầu đều phải dùng USD thanh toán. Được hiểu sai phổ biến là OPEC "chọn" USD; thực tế là kết quả của thỏa thuận an ninh với Saudi.
 
+## Key ideas
+
+- Petrodollar không phải là một hiện tượng kinh tế tự nhiên mà là sản phẩm của một thỏa thuận chính trị-quân sự (Kissinger Deal)
+- Tạo ra nhu cầu bắt buộc đối với USD toàn cầu, cho phép Mỹ chạy thâm hụt ngân sách lớn mà không làm sụp đổ đồng tiền
+- Gắn chặt an ninh năng lượng thế giới với sự ổn định của đồng USD và chính sách đối ngoại của Mỹ
+- Đang suy yếu do sự xuất hiện của các thỏa thuận thanh toán song phương (ví dụ: Trung Quốc dùng yuan mua dầu Nga)
+- Sự sụp đổ của hệ thống này sẽ dẫn đến việc định giá lại tài sản toàn cầu và thay đổi cấu trúc quyền lực chính trị
+
 ## The common myth
 
 **Huyền thoại sai:**

@@ -48,7 +48,7 @@ Inversion (Suy nghĩ ngược) là một mental model giúp giải quyết vấn
 
 ## Sources
 
-- [[src_inversion]]
+- [[src_inversion]] — Bài viết từ Farnam Street giải thích chi tiết về mental model Inversion, nguồn gốc từ Jacobi, Stoicism và ứng dụng thực tế của Charlie Munger tại Berkshire Hathaway trong việc "tránh sự ngu ngốc" để đạt thành công dài hạn.
 
 ## Notes
 

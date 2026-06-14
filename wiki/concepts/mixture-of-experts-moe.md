@@ -15,7 +15,7 @@ last_updated: 2026-05-29
 
 Kiến trúc MoE trong DeepSeek V4 với routing innovations: adaptive routing temperature tự điều chỉnh độ sharpness của routing distribution dựa trên token-level uncertainty, plus shared experts pool.
 
-## Key innovations
+## Key ideas
 
 - **Auxiliary-loss-free load balancing:** Từ V3
 - **Adaptive routing temperature:** Tự động điều chỉnh dựa trên token uncertainty

@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 Khái niệm của Frankl về khả năng duy trì niềm tin vào ý nghĩa cuộc sống ngay cả khi đối mặt với thảm kịch, đau khổ, và sự vô nghĩa tưởng chừng không thể vượt qua.
 
+## Key ideas
+
+- Sự lạc quan không phải là phủ nhận thực tế đau khổ, mà là tìm thấy mục đích bên trong nỗi đau đó
+- Ý nghĩa cuộc sống không phải là thứ được cho sẵn, mà là thứ con người chủ động kiến tạo thông qua thái độ
+- Tự do cuối cùng của con người là quyền chọn thái độ trong mọi hoàn cảnh
+- Niềm tin vào ý nghĩa là yếu tố then chốt giúp con người sống sót và hồi phục sau chấn thương tâm lý cực độ
+- Biến thảm kịch thành thành tựu cá nhân thông qua việc chấp nhận và vượt qua
+
 ## Core idea
 
 Optimism không có nghĩa là phủ nhận thảm kịch. Nó có nghĩa là tin rằng ý nghĩa vẫn tồn tại ngay cả trong hoàn cảnh tồi tệ nhất.

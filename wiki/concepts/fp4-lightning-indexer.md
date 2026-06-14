@@ -15,6 +15,14 @@ last_updated: 2026-05-29
 
 Scoring network trong DeepSeek V4 chạy ở FP4 precision, chọn top-k compressed blocks cho sparse attention. Giải quyết vấn đề KV cache ở 1M tokens = hàng trăm GB mỗi request.
 
+## Key ideas
+
+- Sử dụng FP4 precision để tối thiểu hóa bộ nhớ và tăng tốc độ tính toán scoring
+- Thực hiện chọn lọc (block selection) các khối dữ liệu nén quan trọng nhất thay vì quét toàn bộ sequence
+- Hoạt động như một "bộ lọc" cho CSA và HCA attention, cho phép attention tập trung vào vùng context quan trọng
+- Giải quyết bài toán scaling KV cache cho context 1M tokens bằng cách giảm đáng kể lượng dữ liệu cần truy cập
+- Hỗ trợ kiến trúc shared compressed KV, cho phép nhiều agents chia sẻ cùng một biểu diễn dữ liệu nén
+
 ## Three-layer compression
 
 1. CSA compression ~4× dọc sequence dimension

@@ -58,6 +58,15 @@ Known INVALID sub_tags (recurring — do NOT flag as valid):
 - `psychology`, `health`, `behavior`, `blindspots`, `frontend`, `analysis` → not in Pool B, need Julius approval to add
 - Any tag not in TAGS.md Pool B
 
+**RECURRING SYSTEMIC ISSUE — Pool B tag used as main_tag:**
+Compile Agent sometimes uses Pool B tags as `main_tag`. Pattern found 2026-06-14: `main_tag: psychology` in 3 concepts + 2 sources. `psychology` is Pool B only. Fix: change to `productivity` (behavioral/mental-model content) or appropriate Pool A tag.
+
+**RECURRING SYSTEMIC ISSUE — Duplicate YAML sub_tags:**
+Compile Agent produces frontmatter where `sub_tags` is defined twice: once as inline array `[research, tools]` AND once as block list with `-` items. YAML parser fails. Pattern found in 6 files (2026-06-14). Fix: remove duplicate block list, keep inline array only.
+
+**RECURRING ISSUE — Source original field with .md extension:**
+Source files sometimes have `original: "[[YYYY-MM-DD_slug.md]]"` (with `.md` extension). Fix: remove `.md` from wikilink.
+
 ### 2. Output Validator
 Checks: summary sentences (3+), section content depth, sources section populated, status value valid.
 
@@ -68,6 +77,10 @@ Valid status values: `draft` | `reviewed` | `needs-revision`
 Checks: folder structure, no orphan files, no .bak/.tmp files.
 
 **Root-level items (memory/, search/, RAW_BACKLOG.md, venv/) = OUTSIDE Kara scope — belong to Julius. DO NOT flag these as hygiene issues.** Kara only cleans wiki/, sources/, concepts/.
+
+**Orphan detection nuance (2026-06-14):**
+- Orphan **concepts** (no source links): Check for `[[src_*]]` anywhere in concept body. In 282 concepts, 0 orphans found — all concepts link to at least one source.
+- Orphan **sources** (no concept links to them): Scan all concept bodies for `[[src_slug]]`. If no concept references a source, it's orphan. Usually 2-5 orphan sources are normal (recently compiled but not yet linked).
 
 ## Output Files
 
@@ -100,11 +113,13 @@ When Julius approves, mark:
 
 1. **Verify working directory**: `cd ~/knowledge-base` — NOT the hermes-agent repo. Check `ls wiki/concepts/ | head -3` to confirm.
 2. **Read TAGS.md** to get current Pool B (not hardcoded from skill memory).
-3. **Run all 3 validators using `execute_code` with shell scripts** — do NOT use `delegate_task` for validation runs. Subagent overhead is too high (684s for partial run vs 15s direct). Each validator runs as a shell pipeline via `terminal()` inside `execute_code`.
-4. Collect findings, deduplicate, verify against TAGS.md
-5. Write individual report files to `wiki/reviews/`
-6. Update `_action-required.md` with all pending issues, prepending new entries above old ones
-7. Report summary to Julius via Telegram
+3. **Run all 3 validators using `execute_code` with Python scripts** — do NOT use `delegate_task` for validation runs. Subagent overhead is too high (684s for partial run vs 15s direct). Each validator runs as a Python script inside `execute_code`.
+4. **Regex pitfall — Python raw strings:** When matching wikilinks in regex, use `r'^\[\[src_[\w\-]+\]\]$'` (single backslash inside raw string). Double-escaping like `r'^\\[\\[...\\]\\]$'` produces `re.error: bad character range`.
+5. **Section detection:** Use `re.search(r'## Section\s*\n', content, re.IGNORECASE)` to handle whitespace variations and case-insensitive matching.
+6. Collect findings, deduplicate, verify against TAGS.md
+7. Write individual report files to `wiki/reviews/`
+8. Update `_action-required.md` with all pending issues, prepending new entries above old ones
+9. Report summary to Julius via Telegram
 
 ### Re-validation Cycle (Post-Fix)
 
@@ -245,4 +260,7 @@ Fix Agent failure modes observed (2026-06-01):
 | Field order (sources) | type, original, main_tag, sub_tags, topic, date_compiled, url, author |
 | Wikilinks frontmatter | `"[[slug]]"` (quoted for Obsidian) |
 | Wikilinks body | `[[slug]]` (bare) |
+| Source original field | `[[YYYY-MM-DD_slug]]` (NO `.md` extension) |
 | Hygiene scope | wiki/, sources/, concepts/ only — NOT root-level folders |
+| Duplicate YAML | `sub_tags` must NOT appear as both inline array AND block list |
+| Pool B as main_tag | `psychology` as main_tag = invalid (Pool B only) |

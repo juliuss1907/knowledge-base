@@ -2,9 +2,7 @@
 type: concept
 status: reviewed
 main_tag: ai
-sub_tags: [automation, research]
-  - research
-  - coding
+sub_tags: [automation, research, coding]
 topic: code-as-agent-harness
 sources:
   - "[[src_code-as-agent-harness-arxiv-2605-18747]]"

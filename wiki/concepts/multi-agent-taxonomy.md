@@ -3,7 +3,6 @@ type: concept
 status: reviewed
 main_tag: ai
 sub_tags: [research, automation]
-  - research
 topic: factory-missions-architecture
 sources:
   - "[[src_luke-alvoeiro-multi-agent-architecture-factory]]"

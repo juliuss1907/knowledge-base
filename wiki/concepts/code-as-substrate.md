@@ -2,9 +2,7 @@
 type: concept
 status: reviewed
 main_tag: ai
-sub_tags: [vibecode, tools]
-  - research
-  - coding
+sub_tags: [vibecode, tools, coding]
 topic: code-as-agent-harness
 sources:
   - "[[src_code-as-agent-harness-arxiv-2605-18747]]"

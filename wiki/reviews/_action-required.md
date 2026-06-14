@@ -13,8 +13,8 @@
 **Pending approved fixes:** 0
 
 **Status:**
-- ⏳ Format Validator — 2026-06-14: **PENDING APPROVAL** (18 issues: 6 YAML parse errors, 5 invalid main_tag=psychology, 1 missing topic, 4 original wikilink with .md extension)
-- ⏳ Output Validator — 2026-06-14: **PENDING APPROVAL** (16 issues: 14 missing Key ideas sections, 1 empty Sources, 1 short Summary)
+- ✅ Format Validator — 2026-06-14: **APPROVED** (18 issues, ready for Fix Agent)
+- ✅ Output Validator — 2026-06-14: **APPROVED** (16 issues, ready for Fix Agent)
 - ✅ Hygiene Inspector — 2026-06-14: **PROMOTE** (2 orphan sources, non-critical)
 - ✅ Format Validator — 2026-06-12: **APPLIED + VERIFIED** (0 invalid sub_tags remaining)
 - ✅ Output Validator — 2026-06-12: **APPLIED PARTIAL + VERIFIED**

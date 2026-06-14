@@ -10,7 +10,17 @@
 
 ---
 
-## 2026-05-24 08:22:00 — Hygiene Inspection
+## 2026-06-14 23:30:00 — Hygiene Inspection
+- **Validator:** hygiene-inspector
+- **Paths checked:** 26
+- **Issues found:** 16 (8 ERROR, 8 WARNING, 1 INFO)
+- **ERROR:** Root whitelist violations × 6 (MEMORY.md, RAW_BACKLOG.md, temp_content/, search/, memory/, state/)
+- **ERROR:** `raw/.last_heartbeat` and `wiki/reviews/HEARTBEAT.md` misplaced
+- **WARNING:** 7 review files with non-standard naming (type-report-YYYY-MM-DD.md pattern)
+- **WARNING:** 1 draft file with underscore (`analysis_2026-advice.md`)
+- **INFO:** `archive/.gitkeep` directly in archive folder
+- **Report:** wiki/reviews/2026-06-14_hygiene-report.md
+- **Overall:** Structural drift at root level requires cleanup
 - **Validator:** hygiene-inspector
 - **Paths checked:** 695
 - **Issues found:** 2 (1 ERROR, 1 INFO)

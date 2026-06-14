@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-14 23:20:23
+**Last updated:** 2026-06-14 23:30:00
 
 ---
 
@@ -13,6 +13,12 @@
 **Pending approved fixes:** 0
 
 **Status:**
+- ⏳ Hygiene Inspector — 2026-06-14: **NEW REPORT** (16 issues: 8 ERROR + 8 WARNING + 1 INFO)
+  - 🔴 ERROR: 6 root-level orphans (folders/files not in whitelist)
+  - 🔴 ERROR: `raw/.last_heartbeat` and `wiki/reviews/HEARTBEAT.md` misplaced
+  - 🟡 WARNING: 7 review files with non-standard naming
+  - 🟡 WARNING: 1 draft file with underscore (`analysis_2026-advice.md`)
+  - Report: `wiki/reviews/2026-06-14_hygiene-report.md`
 - ⏳ Output Validator — 2026-06-14: **NEW REPORT** (20 issues: 3 systemic + 14 individual)
   - 🔴 Systemic: Broken backlinks (281 instances), Draft status (~160 files), English-only (~15 files)
   - 🔴 Individual: 14 files missing `## Key ideas` section
@@ -125,3 +131,4 @@ openclaw fix apply
 ## Pending Reports
 
 - [2026-06-14] Format Report: 293 issues (4 ERROR, 289 WARNING, 0 INFO) — `2026-06-14_format-report.md`
+- [2026-06-14] Hygiene Report: 16 issues (8 ERROR, 8 WARNING, 1 INFO) — `2026-06-14_hygiene-report.md`

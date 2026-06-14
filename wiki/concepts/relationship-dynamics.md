@@ -1,7 +1,7 @@
 ---
 type: concept
 status: draft
-main_tag: psychology
+main_tag: productivity
 sub_tags: [psychology]
 topic: hypergamy-relationships
 sources:

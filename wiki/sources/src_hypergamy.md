@@ -1,7 +1,7 @@
 ---
 type: source
 original: "[[2026-06-05_hypergamy-can-it-be-harmful]]"
-main_tag: psychology
+main_tag: productivity
 sub_tags: [psychology, opinion]
 topic: hypergamy-relationships
 date_compiled: 2026-06-06

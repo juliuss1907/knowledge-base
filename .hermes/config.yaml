@@ -495,7 +495,7 @@ x_search:
   model: grok-4.20-reasoning
   timeout_seconds: 180
   retries: 2
-_config_version: 19
+_config_version: 23
 smart_model_routing:
   enabled: false
   max_simple_chars: 160
@@ -530,6 +530,8 @@ custom_providers:
   base_url: https://api.minimax.io/anthropic
   api_key: ''
   api_mode: anthropic_messages
+plugins:
+  enabled: []
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.

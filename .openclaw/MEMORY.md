@@ -2514,3 +2514,10 @@ expected <block end>, but found '<block sequence start>'
 - Topic added to wiki/concepts/active-thinking.md
 - Fixed invalid sub_tags syntax and count for 6 concepts: agent-harness.md, code-as-substrate.md, evolutionary-mismatch.md, factory-missions.md, multi-agent-taxonomy.md, plan-execute-verify-loop.md
 - Verified backlinks for logotherapy-frankl.md and state-space-models-ssm.md (already present)
+## 2026-06-14 09:00:59 — Finalized 2026-06-14 Hermes fixes
+- Removed .md extension from original links in 4 source files.
+- Added ## Key ideas to 14 concepts (Batch 1, 2, 3).
+- Expanded Sources for inversion.md and Summary for src_viktor-frankl-meaning-video.md.
+- Corrected main_tag from psychology -> productivity for 5 files.
+- Updated _action-required.md to APPLIED + VERIFIED.
+- System is now fully aligned with 2026-06-14 validation reports.

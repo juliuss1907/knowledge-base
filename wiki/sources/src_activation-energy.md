@@ -1,7 +1,7 @@
 ---
 type: source
 original: "[[2026-06-05_activation-energy-why-getting-started-is-hardest-part]]"
-main_tag: psychology
+main_tag: productivity
 sub_tags: [psychology, automation]
 topic: activation-energy-mental-model
 date_compiled: 2026-06-06

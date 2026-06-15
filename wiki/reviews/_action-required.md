@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-14 23:30:00
+**Last updated:** 2026-06-15 08:02:00
 
 ---
 
@@ -13,20 +13,11 @@
 **Pending approved fixes:** 0
 
 **Status:**
-- ⏳ Hygiene Inspector — 2026-06-14: **NEW REPORT** (16 issues: 8 ERROR + 8 WARNING + 1 INFO)
-  - 🔴 ERROR: 6 root-level orphans (folders/files not in whitelist)
-  - 🔴 ERROR: `raw/.last_heartbeat` and `wiki/reviews/HEARTBEAT.md` misplaced
-  - 🟡 WARNING: 7 review files with non-standard naming
-  - 🟡 WARNING: 1 draft file with underscore (`analysis_2026-advice.md`)
+- ✅ Hygiene Inspector — 2026-06-14: **APPROVED** (16 issues: 8 ERROR + 8 WARNING + 1 INFO)
   - Report: `wiki/reviews/2026-06-14_hygiene-report.md`
-- ⏳ Output Validator — 2026-06-14: **NEW REPORT** (20 issues: 3 systemic + 14 individual)
-  - 🔴 Systemic: Broken backlinks (281 instances), Draft status (~160 files), English-only (~15 files)
-  - 🔴 Individual: 14 files missing `## Key ideas` section
-  - 🟡 Individual: 1 source with short Summary, 2 concepts with empty Sources
+- ✅ Output Validator — 2026-06-14: **APPROVED** (20 issues: 3 systemic + 14 individual)
   - Report: `wiki/reviews/2026-06-14_output-report.md`
-- ⏳ Format Validator — 2026-06-14: **NEW REPORT** (4 ERROR, 289 WARNING)
-  - 🔴 ERROR: 2 source slugs exceed 50 chars, 1 markdown link, 1 missing frontmatter (tag.md)
-  - 🟡 WARNING: 289 broken wikilinks (concepts link to non-existent targets)
+- ✅ Format Validator — 2026-06-14: **APPROVED** (4 ERROR, 289 WARNING)
   - Report: `wiki/reviews/2026-06-14_format-report.md`
 - ✅ Hygiene Inspector — 2026-06-14: **PROMOTE** (2 orphan sources, non-critical)
 - ✅ Format Validator — 2026-06-12: **APPLIED + VERIFIED** (0 invalid sub_tags remaining)
@@ -36,16 +27,54 @@
   - ⏭️ Summary 1 dòng: **IGNORED by Julius**
   - ⏸️ Status draft: **not approved in this pass**
 - ✅ Hygiene Inspector — 2026-06-12: **PROMOTE** (0 issues)
-- ✅ Format Validator — 2026-06-06: APPLIED (6 files)
-- ✅ Output Validator — 2026-06-06: APPROVED
-- ✅ Hygiene Inspector — 2026-06-06: PROMOTE
-- ✅ Format Validator — 2026-06-03: APPLIED (5 files)
-- ✅ Output Validator — 2026-06-03: APPROVED
-- ✅ Hygiene Inspector — 2026-06-03: PROMOTE
+- ✅ Format Validator — 2026-06-06: **APPLIED** (6 files)
+- ✅ Output Validator — 2026-06-06: **APPROVED**
+- ✅ Hygiene Inspector — 2026-06-06: **PROMOTE**
+- ✅ Format Validator — 2026-06-03: **APPLIED** (5 files)
+- ✅ Output Validator — 2026-06-03: **APPROVED**
+- ✅ Hygiene Inspector — 2026-06-03: **PROMOTE**
+
+---
+
+## Approved — 2026-06-15
+
+### ✅ Format Validator — 2026-06-14
+
+Status: **APPROVED** — ready for fix-agent
+
+Issues:
+- ERROR: 4
+  - 2 source slugs exceed 50 characters
+  - 1 markdown link used for internal content
+  - 1 missing frontmatter (wiki/tag/tag.md)
+- WARNING: 289
+  - 289 broken wikilinks (concepts link to non-existent targets)
+- Report: `wiki/reviews/2026-06-14_format-report.md`
+
+### ✅ Output Validator — 2026-06-14
+
+Status: **APPROVED** — ready for fix-agent
+
+Issues:
+- Missing `## Key ideas`: 0
+- Empty Sources: 0
+- Systemic: Broken backlinks (281 instances), Draft status (~160 files), English-only (~15 files)
+- Report: `wiki/reviews/2026-06-14_output-report.md`
+
+### ✅ Hygiene Inspector — 2026-06-14
+
+Status: **APPROVED** — ready for fix-agent
+
+Issues:
+- ERROR: 6 root-level orphans (folders/files not in whitelist)
+- ERROR: `raw/.last_heartbeat` and `wiki/reviews/HEARTBEAT.md` misplaced
+- WARNING: 7 review files with non-standard naming
+- WARNING: 1 draft file with underscore (`analysis_2026-advice.md`)
+- Report: `wiki/reviews/2026-06-14_hygiene-report.md`
+
+---
 
 ## Verification — 2026-06-14
-
-### ⏳ Format Validator
 
 Scan result:
 - ERROR: **4**
@@ -130,5 +159,14 @@ openclaw fix apply
 
 ## Pending Reports
 
-- [2026-06-14] Format Report: 293 issues (4 ERROR, 289 WARNING, 0 INFO) — `2026-06-14_format-report.md`
-- [2026-06-14] Hygiene Report: 16 issues (8 ERROR, 8 WARNING, 1 INFO) — `2026-06-14_hygiene-report.md`
+All pending reports approved — 2026-06-15.
+
+- [2026-06-14] Format Report: 293 issues (4 ERROR, 289 WARNING, 0 INFO) — `2026-06-14_format-report.md` — **APPROVED**
+- [2026-06-14] Hygiene Report: 16 issues (8 ERROR, 8 WARNING, 1 INFO) — `2026-06-14_hygiene-report.md` — **APPROVED**
+- [2026-06-14] Output Report: 20 issues (3 systemic, 14 individual) — `2026-06-14_output-report.md` — **APPROVED**
+
+## Approved Reports
+
+- [2026-06-14] Format Report — **APPROVED**
+- [2026-06-14] Hygiene Report — **APPROVED**
+- [2026-06-14] Output Report — **APPROVED**

@@ -88,9 +88,41 @@ After each validation run:
 1. Write individual report: `wiki/reviews/{format,output,hygiene}-report-YYYY-MM-DD.md`
 2. Update `wiki/reviews/_action-required.md` with pending issues and mark as ⏳ PENDING APPROVAL
 
+## Approving Reports
+
+When Julius approves reports (e.g., "approve all reports"):
+
+1. **Find all pending reports** in `wiki/reviews/`:
+   ```bash
+   grep -l "Status: pending" wiki/reviews/YYYY-MM-DD_*-report.md
+   ```
+
+2. **Update each report** — change status from `pending` → `approved`:
+   ```
+   **Status:** approved
+   **Approved by:** Julius
+   ```
+
+3. **Update `_action-required.md`**:
+   - Change ⏳ → ✅ for each approved report
+   - Move summary from "Status" list to "Approved" section
+   - Update **Last updated** timestamp
+   - Clear "Pending Reports" section or mark as "All pending reports approved"
+
+4. **Do NOT archive reports yet** — Fix Agent archives after applying fixes
+
+### Approval vs Applied
+
+| Status | Meaning | Next Action |
+|---|---|---|
+| ⏳ pending | New report, awaiting Julius review | Julius reviews and approves |
+| ✅ approved | Julius approved, ready for Fix Agent | Fix Agent applies fixes |
+| ✅ applied | Fix Agent applied fixes | Connor re-validates |
+| ✅ promote | No issues found | Archive report |
+
 ## _action-required.md Update Pattern
 
-When marking pending:
+### When marking pending (after validation):
 ```
 **Pending reports:** N
 
@@ -104,7 +136,13 @@ When marking pending:
 [Issue list grouped by type]
 ```
 
-When Julius approves, mark:
+### When Julius approves:
+```
+- ✅ [Validator] — YYYY-MM-DD: **APPROVED** (X issues)
+  - Report: `wiki/reviews/YYYY-MM-DD_<type>-report.md`
+```
+
+### After Fix Agent applies fixes:
 ```
 - ✅ [Validator] — YYYY-MM-DD: **APPLIED** (N files fixed)
 ```

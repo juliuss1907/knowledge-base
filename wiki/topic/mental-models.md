@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `mental-models`.
 
-Last updated: 2026-06-19 21:02:46
+Last updated: 2026-06-20 21:02:45
 
 ---
 
@@ -39,7 +39,3 @@ Last updated: 2026-06-19 21:02:46
 - [[src_second-order-thinking]] — main: #productivity, sub: [#psychology]
 - [[src_thermodynamics]] — main: #productivity, sub: [#psychology, #research]
 - [[src_thought-experiment]] — main: #productivity, sub: [#psychology]
-
-## Related topics
-
-Topics that share concepts/sources with `mental-models`:

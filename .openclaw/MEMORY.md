@@ -188,3 +188,12 @@
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
+## 2026-06-20 21:02:45 — Indexed
+
+- **Scanned:** 307 concepts + 93 sources = 400 total files
+- **Tags indexed:** 21 (8 main-tags + 16 sub-tags)
+- **Topics indexed:** 109
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped
+

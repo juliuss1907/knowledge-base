@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: politic
 auto_generated: true
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
 # Tag: #politic
@@ -19,7 +19,7 @@ last_updated: 2026-06-19
 - Total files: 17
 - Sources: 3
 - Concepts: 14
-- Last updated: 2026-06-19
+- Last updated: 2026-06-20
 
 ## Files with this tag
 

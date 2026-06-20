@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `market-structure-analysis`.
 
-Last updated: 2026-06-19 21:02:46
+Last updated: 2026-06-20 21:02:45
 
 ---
 
@@ -19,7 +19,3 @@ Last updated: 2026-06-19 21:02:46
 ## Sources (1)
 
 - [[src_how-the-market-warns-you-before-the-crash]] — main: #economic, sub: [#research, #tools, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `market-structure-analysis`:

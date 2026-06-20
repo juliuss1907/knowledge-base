@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `trading-psychology`.
 
-Last updated: 2026-06-19 21:02:46
+Last updated: 2026-06-20 21:02:45
 
 ---
 
@@ -20,7 +20,3 @@ Last updated: 2026-06-19 21:02:46
 ## Sources (1)
 
 - [[src_trading-brain-chemistry-ferb]] — main: #economic, sub: [#opinion, #psychology]
-
-## Related topics
-
-Topics that share concepts/sources with `trading-psychology`:

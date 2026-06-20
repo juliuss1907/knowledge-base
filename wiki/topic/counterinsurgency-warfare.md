@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `counterinsurgency-warfare`.
 
-Last updated: 2026-06-19 21:02:46
+Last updated: 2026-06-20 21:02:45
 
 ---
 
@@ -15,7 +15,3 @@ Last updated: 2026-06-19 21:02:46
 ## Sources (1)
 
 - [[src_counterinsurgency-fighting-back]] — main: #politic, sub: [#research, #hack]
-
-## Related topics
-
-Topics that share concepts/sources with `counterinsurgency-warfare`:

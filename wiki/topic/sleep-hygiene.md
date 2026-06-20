@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `sleep-hygiene`.
 
-Last updated: 2026-06-19 21:02:46
+Last updated: 2026-06-20 21:02:45
 
 ---
 
@@ -15,7 +15,3 @@ Last updated: 2026-06-19 21:02:46
 ## Sources (1)
 
 - [[src_japanese-evening-routine-fix-sleep]] — main: #productivity, sub: [#tutorial, #health]
-
-## Related topics
-
-Topics that share concepts/sources with `sleep-hygiene`:

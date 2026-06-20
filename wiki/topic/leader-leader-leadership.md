@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `leader-leader-leadership`.
 
-Last updated: 2026-06-19 21:02:46
+Last updated: 2026-06-20 21:02:45
 
 ---
 
@@ -18,7 +18,3 @@ Last updated: 2026-06-19 21:02:46
 ## Sources (1)
 
 - [[src_shift-leader-follower-to-leader-leader]] — main: #productivity, sub: [#research, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `leader-leader-leadership`:

@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `leverage-mental-model`.
 
-Last updated: 2026-06-19 21:02:46
+Last updated: 2026-06-20 21:02:45
 
 ---
 
@@ -16,7 +16,3 @@ Last updated: 2026-06-19 21:02:46
 ## Sources (1)
 
 - [[src_leverage]] — main: #productivity, sub: [#psychology, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `leverage-mental-model`:

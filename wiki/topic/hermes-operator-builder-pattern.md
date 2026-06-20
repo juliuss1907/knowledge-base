@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `hermes-operator-builder-pattern`.
 
-Last updated: 2026-06-19 21:02:46
+Last updated: 2026-06-20 21:02:45
 
 ---
 
@@ -17,7 +17,3 @@ Last updated: 2026-06-19 21:02:46
 ## Sources (1)
 
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — main: #ai, sub: [#tools, #automation, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `hermes-operator-builder-pattern`:

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: law
 auto_generated: true
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Tag: #law
@@ -16,20 +16,23 @@ last_updated: 2026-06-14
 
 ## Stats
 
-- Total files: 4
-- Sources: 1
+- Total files: 5
+- Sources: 2
 - Concepts: 3
-- Last updated: 2026-06-14
+- Last updated: 2026-06-19
 
 ## Files with this tag
 
 - [[agency-law]] — Agency Law (concept)
 - [[ai-legal-personhood]] — Ai Legal Personhood (concept)
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
+- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cach Nhanh Nhat Nop Ho So Bao Hiem That Nghiep (source)
 - [[zero-member-llc]] — Zero Member Llc (concept)
 
 ## Co-occurring tags
 
 - [[ai]] — 4 co-occurrences
 - [[tools]] — 3 co-occurrences
+- [[economic]] — 1 co-occurrence
+- [[tutorial]] — 1 co-occurrence
 - [[research]] — 1 co-occurrence

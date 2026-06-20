@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `incentives-psychology`.
 
-Last updated: 2026-06-14 21:11:42
+Last updated: 2026-06-19 21:02:46
 
 ---
 
@@ -13,4 +13,8 @@ Last updated: 2026-06-14 21:11:42
 
 ## Sources (1)
 
-- [[src_the-power-of-incentives-hidden-forces-shape-behavior]] — main: #productivity, sub: [#research, #psychology]
+- [[src_incentives-hidden-forces]] — main: #productivity, sub: [#research, #psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `incentives-psychology`:

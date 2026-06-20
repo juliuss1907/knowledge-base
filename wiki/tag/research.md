@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Tag: #research
@@ -16,13 +16,14 @@ last_updated: 2026-06-14
 
 ## Stats
 
-- Total files: 182
-- Sources: 39
-- Concepts: 143
-- Last updated: 2026-06-14
+- Total files: 196
+- Sources: 43
+- Concepts: 153
+- Last updated: 2026-06-19
 
 ## Files with this tag
 
+- [[200-day-sma-risk-line]] — 200 Day Sma Risk Line (concept)
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
 - [[active-thinking]] — Active Thinking (concept)
 - [[agency-law]] — Agency Law (concept)
@@ -32,6 +33,7 @@ last_updated: 2026-06-14
 - [[ai-powered-discovery]] — Ai Powered Discovery (concept)
 - [[ai-vulnerability-discovery]] — Ai Vulnerability Discovery (concept)
 - [[ai-white-collar-automation]] — Ai White Collar Automation (concept)
+- [[alignment-engineering]] — Alignment Engineering (concept)
 - [[alloying-mental-model]] — Alloying Mental Model (concept)
 - [[american-security-guarantee]] — American Security Guarantee (concept)
 - [[ashbys-law]] — Ashbys Law (concept)
@@ -39,10 +41,14 @@ last_updated: 2026-06-14
 - [[blameless-postmortems]] — Blameless Postmortems (concept)
 - [[bottlenecks-mental-model]] — Bottlenecks Mental Model (concept)
 - [[bpe-algorithm]] — Bpe Algorithm (concept)
+- [[brain-rot]] — Brain Rot (concept)
 - [[byte-level-bpe]] — Byte Level Bpe (concept)
 - [[cash-flow-statement]] — Cash Flow Statement (concept)
 - [[catalysts-mental-model]] — Catalysts Mental Model (concept)
 - [[causal-loop-diagram]] — Causal Loop Diagram (concept)
+- [[character-change-signal]] — Character Change Signal (concept)
+- [[climax-top]] — Climax Top (concept)
+- [[cognitive-load-theory]] — Cognitive Load Theory (concept)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
 - [[complicated-vs-complex]] — Complicated Vs Complex (concept)
 - [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)
@@ -72,6 +78,7 @@ last_updated: 2026-06-14
 - [[feedback-loops]] — Feedback Loops (concept)
 - [[financial-metrics]] — Financial Metrics (concept)
 - [[four-layer-framework]] — Four Layer Framework (concept)
+- [[four-stages-market-cycle]] — Four Stages Market Cycle (concept)
 - [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
 - [[framing-mental-model]] — Framing Mental Model (concept)
 - [[free-cash-flow]] — Free Cash Flow (concept)
@@ -111,6 +118,7 @@ last_updated: 2026-06-14
 - [[manifold-constrained-hyper-connections]] — Manifold Constrained Hyper Connections (concept)
 - [[margin-of-safety]] — Margin Of Safety (concept)
 - [[margin-of-safety-mental-model]] — Margin Of Safety Mental Model (concept)
+- [[market-structure-blueprint]] — Market Structure Blueprint (concept)
 - [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
@@ -143,6 +151,7 @@ last_updated: 2026-06-14
 - [[reciprocity]] — Reciprocity (concept)
 - [[red-queen-effect]] — Red Queen Effect (concept)
 - [[reflexivity-soros]] — Reflexivity Soros (concept)
+- [[relative-strength-leadership]] — Relative Strength Leadership (concept)
 - [[responsible-ai-security-research]] — Responsible Ai Security Research (concept)
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
 - [[second-order-effects]] — Second Order Effects (concept)
@@ -151,6 +160,7 @@ last_updated: 2026-06-14
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[sizing-policy-trading]] — Sizing Policy Trading (concept)
 - [[spare-production-capacity]] — Spare Production Capacity (concept)
+- [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source)
 - [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
@@ -165,9 +175,12 @@ last_updated: 2026-06-14
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
 - [[src_hanlons-razor]] — Hanlons Razor (source)
+- [[src_how-the-market-warns-you-before-the-crash]] — How The Market Warns You Before The Crash (source)
 - [[src_how-to-read-cash-flow-statement]] — How To Read Cash Flow Statement (source)
+- [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
 - [[src_life-is-a-mind-game-heres-how-you]] — Life Is A Mind Game Heres How You (source)
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
+- [[src_loop-native-factory]] — Loop Native Factory (source)
 - [[src_mental-models-of-art]] — Mental Models Of Art (source)
 - [[src_mental-models-of-economics]] — Mental Models Of Economics (source)
 - [[src_mutually-assured-destruction]] — Mutually Assured Destruction (source)
@@ -178,12 +191,12 @@ last_updated: 2026-06-14
 - [[src_reciprocity]] — Reciprocity (source)
 - [[src_setup-is-not-an-edge]] — Setup Is Not An Edge (source)
 - [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source)
+- [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source)
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
-- [[src_the-power-of-incentives-hidden-forces-shape-behavior]] — The Power Of Incentives Hidden Forces Shape Behavior (source)
 - [[src_the-revenge-of-the-business-idiot]] — The Revenge Of The Business Idiot (source)
+- [[src_the-seed-and-the-machine]] — The Seed And The Machine (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
-- [[src_todays-most-crucial-leadership-skill-is-systems-thinking]] — Todays Most Crucial Leadership Skill Is Systems Thinking (source)
 - [[src_tokens-and-tokenization]] — Tokens And Tokenization (source)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
@@ -205,11 +218,12 @@ last_updated: 2026-06-14
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
 - [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
+- [[volume-confirmation]] — Volume Confirmation (concept)
 
 ## Co-occurring tags
 
 - [[productivity]] — 70 co-occurrences
-- [[opinion]] — 56 co-occurrences
-- [[ai]] — 54 co-occurrences
-- [[tools]] — 39 co-occurrences
-- [[economic]] — 32 co-occurrences
+- [[opinion]] — 58 co-occurrences
+- [[ai]] — 57 co-occurrences
+- [[tools]] — 47 co-occurrences
+- [[economic]] — 40 co-occurrences

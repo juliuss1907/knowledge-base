@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-06-14
 
 ## Stats
 
-- Total files: 118
-- Sources: 33
-- Concepts: 85
-- Last updated: 2026-06-14
+- Total files: 126
+- Sources: 37
+- Concepts: 89
+- Last updated: 2026-06-19
 
 ## Files with this tag
 
@@ -29,18 +29,22 @@ last_updated: 2026-06-14
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
 - [[ai-infrastructure-bubble]] — Ai Infrastructure Bubble (concept)
+- [[ai-lab-crypto-analogy]] — Ai Lab Crypto Analogy (concept)
 - [[ai-powered-discovery]] — Ai Powered Discovery (concept)
 - [[ai-productivity]] — Ai Productivity (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
 - [[ai-trading-agent]] — Ai Trading Agent (concept)
 - [[ai-white-collar-automation]] — Ai White Collar Automation (concept)
+- [[altcoin-frenzy-pattern]] — Altcoin Frenzy Pattern (concept)
 - [[american-security-guarantee]] — American Security Guarantee (concept)
 - [[ashbys-law]] — Ashbys Law (concept)
 - [[autobiographical-memory-systems]] — Autobiographical Memory Systems (concept)
 - [[business-idiot-archetype]] — Business Idiot Archetype (concept)
 - [[casino-culture]] — Casino Culture (concept)
 - [[casino-culture]] — Casino Culture (concept)
+- [[category-kings-dynamics]] — Category Kings Dynamics (concept)
+- [[climax-top]] — Climax Top (concept)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
 - [[complicated-vs-complex]] — Complicated Vs Complex (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
@@ -99,6 +103,7 @@ last_updated: 2026-06-14
 - [[src_2026-advice]] — 2026 Advice (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
+- [[src_after-the-heater-rule-keeps-you-alive]] — After The Heater Rule Keeps You Alive (source)
 - [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
 - [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
 - [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source)
@@ -106,7 +111,9 @@ last_updated: 2026-06-14
 - [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_how-the-market-warns-you-before-the-crash]] — How The Market Warns You Before The Crash (source)
 - [[src_hypergamy]] — Hypergamy (source)
+- [[src_l1-blockchain-ai-lab-comparison]] — L1 Blockchain Ai Lab Comparison (source)
 - [[src_live-disciplined-life-spontaneously]] — Live Disciplined Life Spontaneously (source)
 - [[src_markus-four-thinking-types]] — Markus Four Thinking Types (source)
 - [[src_markus-job-scoring-framework]] — Markus Job Scoring Framework (source)
@@ -117,9 +124,10 @@ last_updated: 2026-06-14
 - [[src_setup-is-not-an-edge]] — Setup Is Not An Edge (source)
 - [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source)
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
+- [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source)
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
+- [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
 - [[src_the-revenge-of-the-business-idiot]] — The Revenge Of The Business Idiot (source)
-- [[src_todays-most-crucial-leadership-skill-is-systems-thinking]] — Todays Most Crucial Leadership Skill Is Systems Thinking (source)
 - [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
@@ -144,8 +152,8 @@ last_updated: 2026-06-14
 
 ## Co-occurring tags
 
-- [[research]] — 56 co-occurrences
+- [[research]] — 58 co-occurrences
 - [[productivity]] — 50 co-occurrences
+- [[economic]] — 30 co-occurrences
 - [[psychology]] — 26 co-occurrences
-- [[economic]] — 24 co-occurrences
-- [[ai]] — 22 co-occurrences
+- [[ai]] — 25 co-occurrences

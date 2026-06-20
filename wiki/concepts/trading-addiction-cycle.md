@@ -18,7 +18,7 @@ Vòng lặp nghiện trading — chuỗi phản ứng từ small wins qua FOMO �
 ## Key ideas
 
 **The loop:**
-```
+```text
 Small wins → miss runner → fear of missing out → impulsive → lose more → 
 lower standards to feel involved → trading becomes addiction
 ```

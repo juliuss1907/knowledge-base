@@ -4,9 +4,9 @@ original: "[[2026-05-28_no-system-will-make-you-profitable]]"
 main_tag: economic
 sub_tags: [opinion, research]
 topic: trading-policy-implementation
+date_compiled: 2026-05-29
 url: https://ryanswright.substack.com/p/no-system-will-make-you-profitable
 author: Ryan Wright
-date_compiled: 2026-05-29
 ---
 
 # Nobody Else's System Will Make You Profitable

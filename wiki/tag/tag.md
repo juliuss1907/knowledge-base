@@ -1,36 +1,63 @@
+---
+type: index
+level: 2
+scope: tags
+auto_generated: false
+last_updated: 2026-06-18
+---
+
 # Tag Index
+
+## Overview
+
+Index of all tags used in the knowledge base, organized by Pool A (main-tags) and Pool B (sub-tags).
 
 ## Stats
 
-- Total tags: 20
-- Main tags: 7
-- Sub tags: 13
-- Most used: #research (182), #productivity (151), #tools (129)
-- Last updated: 2026-06-14
+- Total tags: 21
+- Main tags: 9
+- Sub tags: 12
+- Most used: #research (202), #productivity (161), #tools (147)
+- Last updated: 2026-06-19
 
 ## Items
 
 ### Main Tags (Pool A)
 
-- [[ai]] — [description]
-- [[crypto]] — [description]
-- [[economic]] — [description]
-- [[politic]] — [description]
-- [[productivity]] — [description]
-- [[system]] — [description]
-- [[tech]] — [description]
+- [[investment]] — Investment principles, portfolio management, asset allocation, risk management
+- [[ai]] — AI / ML / LLM, agents, models, training, inference
+- [[crypto]] — Blockchain, DeFi, tokens, exchanges, on-chain activity
+- [[economic]] — Macroeconomics, finance, markets, trading
+- [[politic]] — Policy, regulation, geopolitics
+- [[productivity]] — Workflows, methodologies, knowledge management, personal systems
+- [[system]] — System design, architecture, automation pipelines
+- [[tech]] — Software engineering, infrastructure, web, mobile, dev tooling
+
+
 ### Sub Tags (Pool B)
 
-- [[automation]] — [description]
-- [[coding]] — [description]
-- [[defi]] — [description]
-- [[hack]] — [description]
-- [[health]] — [description]
-- [[law]] — [description]
-- [[news]] — [description]
-- [[opinion]] — [description]
-- [[psychology]] — [description]
-- [[research]] — [description]
-- [[tools]] — [description]
-- [[tutorial]] — [description]
-- [[vibecode]] — [description]
+- [[geopolitics]] — Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition
+- [[automation]] — Bots, scripts, scheduled jobs, automated workflows
+- [[coding]] — Programming, software development, code generation, dev practices
+- [[defi]] — Decentralized finance protocols, AMMs, lending, yield
+- [[hack]] — Exploits, vulnerabilities, attacks, post-mortems
+- [[health]] — Physical health, sleep, exercise, nutrition, biohacking
+- [[law]] — Legal frameworks, contracts, regulations, compliance
+- [[layer1]] — Base-layer blockchains
+- [[layer2]] — Scaling solutions, rollups, sidechains
+- [[news]] — Recent events, announcements, time-sensitive updates
+- [[opinion]] — Personal takes, editorials, commentary
+- [[perpdex]] — Perpetual exchanges, derivatives DEXs
+- [[psychology]] — Cognitive science, behavioral psychology, mental models, biases
+- [[research]] — Academic papers, deep analysis, primary sources
+- [[tools]] — Concrete software, products, services, libraries
+- [[tutorial]] — How-to guides, walkthroughs, step-by-step instructions
+- [[vibecode]] — Vibe coding, AI-assisted development style
+
+## Sub-indexes
+
+<!-- Individual tag indexes are auto-generated in wiki/tag/ -->
+
+## Notes
+
+<!-- Free space for Julius -->

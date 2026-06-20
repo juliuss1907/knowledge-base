@@ -52,4 +52,4 @@ Hướng dẫn cài đặt và sử dụng skill xurl trong Hermes Agent — cho
 > 
 > Chain actions: Hermes can "search → summarize → draft reply" all in one go.
 
-— [X Developers](https://x.com/XDevelopers/status/2056871280599847054)
+— X Developers

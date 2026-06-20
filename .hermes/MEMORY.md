@@ -10,6 +10,62 @@
 
 ---
 
+## 2026-06-19 23:30:00 — Hygiene inspection
+
+- **Paths checked:** 27
+- **Issues found:** 4 (0 ERROR, 4 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-19_hygiene-report.md
+- **Top violations:**
+  - WARNING: 4 × `-v2` duplicate reports in `wiki/reviews/archive/2026-06/` (unchanged from 06-18)
+  - 0 ERROR: Root structure clean, no orphans, no naming violations in active paths
+
+## 2026-06-18 23:30:00 — Hygiene inspection
+
+- **Paths checked:** 28
+- **Issues found:** 7 (3 ERROR, 4 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-18_hygiene-report.md
+- **Top violations:**
+  - ERROR: `RAW_BACKLOG.md` — root whitelist regression (unfixed since 06-14)
+  - ERROR: `memory/` — **NEW**: OpenClaw memory log folder at root; belongs in `.openclaw/memory/`
+  - ERROR: `wiki/reviews/HEARTBEAT.md` — heartbeat artifact regression (unfixed since 06-15)
+  - WARNING: 4 × `-v2` duplicate reports (unchanged from 06-17)
+
+## 2026-06-18 23:19:15 — Format validation
+
+- **Files checked:** 530 (300 concepts + 92 sources + 108 topics + 30 indexes)
+- **Issues found:** 17 (11 ERROR, 6 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-18_format-report.md
+- **Top violations:**
+  - 4 ERROR: `crypto` used as sub_tag (Pool A only, not in Pool B) — 3 concepts + 1 source
+  - 5 ERROR: `wiki/tag/tag.md` — wrong level/scope/auto_generated + missing 3 sections
+  - 2 ERROR: `infrastructure-capex-cycle.md` missing `## Related concepts` and `## Sources`
+  - 6 WARNING: All 6 raw sub-indexes have unquoted wikilink `parent: [[raw]]` (YAML ambiguity)
+
+## 2026-06-17 23:07:09 — Output validation
+
+- **Files checked:** 100 (50 sources + 50 concepts)
+- **New files:** 23 (9 sources + 14 concepts, compiled today)
+- **Issues found:** 6 (0 ERROR, 3 WARNING, 3 INFO)
+- **Report:** wiki/reviews/2026-06-17_output-report.md
+- **Top issues:**
+  - **Systemic WARNING — Vietnamese typo:** "ngưởi" → "người" in 9 source files (Compile Agent rendering artifact)
+  - **Systemic WARNING — Draft status:** All 14 new concepts carry `status: draft`
+  - **Systemic WARNING — Broken wikilinks:** 25+ targets referenced but not yet created (forward-refs from Compile Agent)
+  - **INFO:** 2 source files with 11 key points (1 over 10-item limit)
+  - **INFO:** 2 source files missing "Published" date in Metadata
+- **Overall:** No ERRORs. Batch well-compiled. Content faithful to sources. No factual issues or contradictions.
+
+## 2026-06-15 23:30:00 — Hygiene Inspection
+- **Validator:** hygiene-inspector
+- **Paths checked:** 30
+- **Issues found:** 6 (2 ERROR, 4 WARNING, 0 INFO)
+- **ERROR:** `state/` folder not in root whitelist
+- **ERROR:** `wiki/reviews/HEARTBEAT.md` misplaced (should be in `.hermes/` or root)
+- **WARNING:** 1 archived report naming violation (`2026-05-28_validation-check.md`)
+- **WARNING:** 3 draft backup files with uppercase/underscores (`RAW_BACKLOG-`, `MEMORY-`, `temp_content-`)
+- **Report:** wiki/reviews/2026-06-15_hygiene-report.md
+- **Overall:** Significant improvement from previous run (16 → 6 issues). Root-level orphans mostly cleaned. Remaining issues are 1 orphan folder, 1 misplaced file, and 4 naming cleanups.
+
 ## 2026-06-14 23:30:00 — Hygiene Inspection
 - **Validator:** hygiene-inspector
 - **Paths checked:** 26
@@ -251,3 +307,51 @@
   - **WARNING:** Systematic dangling wikilink pattern — Compile Agent may need prompt fix
 - Previous issues resolved: Duplicate Notes, missing Original excerpts, section name case, non-standard section all fixed
 - Report: wiki/reviews/2026-05-28_output-report.md
+
+## 2026-06-17 23:19:46 — Format validation
+- Files checked: 418 (296 concepts + 91 sources + 21 tag indexes + 10 root/raw indexes)
+- Issues found: 365 (16 ERROR, 349 WARNING, 0 INFO)
+- Excluding broken wikilinks (320): 45 issues (16 ERROR, 29 WARNING)
+- Top violations:
+  - 320 broken wikilinks (WARNING — forward-references)
+  - 26 unquoted wikilinks in YAML frontmatter (WARNING)
+  - 11 code blocks missing language tags (ERROR)
+  - 2 wiki/tag/tag.md wrong level/scope (ERROR)
+- Escalations: SPEC CONFLICT (unquoted wikilinks in index-spec.md), FORMAT UNCERTAINTY (tag.md level)
+- Report: wiki/reviews/2026-06-17_format-report.md
+
+## 2026-06-17 23:30:00 — Hygiene Inspection
+- **Validator:** hygiene-inspector
+- **Paths checked:** 27
+- **Issues found:** 7 (2 ERROR, 5 WARNING, 0 INFO)
+- **ERROR:** `RAW_BACKLOG.md` at root whitelist violation (regression from 06-14 fix)
+- **ERROR:** `wiki/reviews/HEARTBEAT.md` heartbeat artifact leaked (regression from 06-15 fix)
+- **WARNING:** 4 × `-v2` duplicate reports (`2026-06-01_output-report-v2.md`, `2026-06-03_output-report-v2.md`, `2026-06-01_format-report-v2.md`, `2026-06-01_hygiene-report-v2.md`)
+- **WARNING:** `archive/2026-06/2026-06-15_spot-check-report.md` — non-standard report type
+- **Report:** wiki/reviews/2026-06-17_hygiene-report.md
+- **Overall:** 2 regressions since last fixed inspection. Core folder structure remains compliant. Recommend investigating root cause of recurring artifacts (RAW_BACKLOG.md, HEARTBEAT.md).
+
+## 2026-06-18 22:00:00 — Output validation
+
+- **Files checked:** 392 (92 sources + 300 concepts)
+- **New files:** 5 (1 source + 4 concepts, compiled today)
+- **Issues found:** 4 (1 ERROR, 2 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-06-18_output-report.md
+- **Top issues:**
+  - **ERROR:** `infrastructure-capex-cycle.md` truncated — missing 2 required sections (Related concepts, Sources)
+  - **WARNING:** Two concepts with 1-sentence definitions (need 2-3): altcoin-frenzy-pattern.md, category-kings-dynamics.md
+  - **INFO:** One concept with 2-sentence definition (minimum threshold): ai-lab-crypto-analogy.md
+- **Overall:** Small batch, well-compiled aside from one truncated file. No "ngưởi" typo in today's files. Backlinks healthy.
+
+## 2026-06-19 22:00:00 — Output validation
+
+- **Files checked:** 400 (93 sources + 307 concepts)
+- **New files:** 8 (1 source + 7 concepts, compiled today)
+- **Issues found:** 5 (0 ERROR, 3 WARNING, 2 INFO)
+- **Report:** wiki/reviews/2026-06-19_output-report.md
+- **Top issues:**
+  - **WARNING (Systemic):** 7 new concepts with 1-sentence definitions — same pattern as 06-18. Compile Agent prompt may need tuning.
+  - **WARNING:** `four-stages-market-cycle.md` has only 4 key points (need 5-10)
+  - **WARNING (Systemic):** "ngưởi" typo still in 10 files — unfixed since 06-17 (none in today's new files)
+  - **INFO:** All new files carry `status: draft` + mixed EN/VN language
+- **Overall:** Clean batch — no truncated files, no broken wikilinks, no empty sections. Main quality gap is 1-sentence definitions across all new concepts (likely root cause: Compile Agent template).

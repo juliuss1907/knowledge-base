@@ -2,7 +2,7 @@
 type: index
 level: 2
 scope: articles
-parent: [[raw]]
+parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
 last_updated: 2026-05-28
@@ -20,12 +20,27 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 59 files
-- By status: 59 processed, 0 unprocessed
-- By date: 15 this week, 59 this month
-- Last updated: 2026-06-14
+- Total: 74 files
+- By status: 70 processed, 4 unprocessed
+- By date: 15 this week, 74 this month
+- Last updated: 2026-06-19
 ## Items
 
+- [[2026-06-19_the-tribute-system-the-new-world-order]] — The Tribute System: The New World Order by Ray Dalio (unprocessed)
+- [[2026-06-19_game-theory-will-change-your-life]] — Game Theory Will Change Your Life: The Invisible Rules Running Every Interaction by Ixcarus (unprocessed)
+- [[2026-06-19_why-i-recommend-being-a-global-macro]] — Why I Recommend Being a Global Macro Long-Short Investor by Ray Dalio (unprocessed)
+- [[2026-06-19_investment-principles-what-should-you-do]] — Investment Principles: What Should You Do Under Existing Conditions? by Ray Dalio (unprocessed)
+- [[2026-06-18_how-the-market-warns-you-before-the-crash]] — How the Market Warns You Before the Crash (and When It's Safe to Get Back In) by Trading Momentum (processed)
+- [[2026-06-17_dan-koe-workflow-analysis-markus]] — Workflow 'Learn to Figure Anything Out with AI' — Chi tiết từng bước by Markus (Analysis) (processed)
+- [[2026-06-17_how-average-people-will-get-rich-with-ai]] — how average people will get rich with AI by Dan Koe (processed)
+- [[2026-06-17_l1-blockchain-ai-lab-comparison]] — The L1 Blockchain <> AI Lab Comparison by Alok Vasudev (processed)
+- [[2026-06-16_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 thói quen "bình thường" đang hủy hoại não bộ của bạn by Hieu Being (processed)
+- [[2026-06-16_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cách nhanh nhất nộp hồ sơ bảo hiểm thất nghiệp by the1ight (processed)
+- [[2026-06-16_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tài chính cá nhân (9): bạn có đang thực sự tiết kiệm được tiền không? by Tony Vux (processed)
+- [[2026-06-16_the-seed-and-the-machine]] — The Seed and the Machine by bitsquarks (processed)
+- [[2026-06-16_loop-native-factory]] — Loop Native Factory by bitsquarks (processed)
+- [[2026-06-16_the-cost-of-discretion]] — The Cost of Discretion by Kieran Duff (processed)
+- [[2026-06-02_after-the-heater-rule-keeps-you-alive]] — After The Heater: The Rule That Keeps You Alive by Glitch (processed)
 - [[2026-06-06_life-is-a-mind-game-heres-how-you]] — Life is a mind game, here's how you win by Dan Koe (unprocessed)
 - [[2026-06-06_dan-koe-mind-game-practical-application]] — Dan Koe: Mind Game Practical Application (unprocessed)
 - [[2026-06-03_circle-of-competence]] — Circle of Competence by Farnam Street (processed)

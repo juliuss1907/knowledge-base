@@ -50,5 +50,4 @@ AI will not replace systems thinking, but it will fundamentally change how syste
 
 > "The future belongs to those who know how to think with AI without surrendering judgment to it."
 
----
 *Compiled by OpenClaw Compile Agent*

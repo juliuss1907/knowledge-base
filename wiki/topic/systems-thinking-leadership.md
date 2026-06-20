@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `systems-thinking-leadership`.
 
-Last updated: 2026-06-14 21:11:42
+Last updated: 2026-06-19 21:02:46
 
 ---
 
@@ -11,4 +11,8 @@ Last updated: 2026-06-14 21:11:42
 
 ## Sources (1)
 
-- [[src_todays-most-crucial-leadership-skill-is-systems-thinking]] — main: #productivity, sub: [#research, #opinion, #tutorial]
+- [[src_systems-thinking-leadership]] — main: #productivity, sub: [#research, #opinion, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `systems-thinking-leadership`:

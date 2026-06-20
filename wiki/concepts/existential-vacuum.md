@@ -32,7 +32,7 @@ last_updated: 2026-05-29
 ## The trap
 
 Thay vào đó, chúng ta mắc kẹt trong vòng xoáy:
-```
+```text
 Làm công việc vô nghĩa → Kiếm tiền → Mua sắm để lấp đầy khoảng trống
 ```
 

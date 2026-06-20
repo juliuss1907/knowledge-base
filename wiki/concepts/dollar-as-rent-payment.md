@@ -25,7 +25,7 @@ Cách hiểu đúng về vai trò của USD trong hệ thống petrodollar: khô
 
 ## The mechanism
 
-```
+```text
 Saudi trả:    Lòng trung thành tiền tệ (bán dầu USD, mua trái phiếu Mỹ)
                ↓
 Mỹ cung cấp: Ô dù quân sự (bảo vệ khỏi Iran, Iraq, mối đe dọa nội bộ)

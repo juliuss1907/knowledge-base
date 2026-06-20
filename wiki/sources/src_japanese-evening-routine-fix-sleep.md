@@ -50,5 +50,4 @@ Phân tích routine buổi tối kiểu Nhật giúp hạ cortisol để ngủ n
 
 > "Cortisol là hormone ban ngày — cần giảm dần vào tối để melatonin lên ngôi."
 
----
 *Source: Matt D'Avella — YouTube*

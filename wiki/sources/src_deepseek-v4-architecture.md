@@ -4,9 +4,9 @@ original: "[[2026-05-28_deepseek-v4-architecture-deep-dive]]"
 main_tag: ai
 sub_tags: [research, tools]
 topic: deepseek-v4-architecture
+date_compiled: 2026-05-29
 url: https://boringbot.substack.com/p/deepseek-v4-architecture-deep-dive
 author: Hamza Farooq (UCLA, MAVEN, Traversaal.ai)
-date_compiled: 2026-05-29
 ---
 
 # DeepSeek V4 Architecture Deep Dive

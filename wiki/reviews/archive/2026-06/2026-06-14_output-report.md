@@ -57,3 +57,10 @@
 ## Verdict
 
 **REVISE** — 16 issues across 15 files. 14 missing Key ideas sections are the bulk of the work. Fixable by Fix Agent.
+
+
+---
+**Status:** applied
+**Applied at:** 2026-06-15 14:31
+**Applied by:** fix-agent
+

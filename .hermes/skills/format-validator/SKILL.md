@@ -36,6 +36,14 @@ Generate report listing format violations with severity levels. Report goes to `
 
 ## Quick start
 
+**Option A — Use the reusable script (recommended):**
+```bash
+cd /home/julius/knowledge-base
+python3 .hermes/skills/format-validator/scripts/validate.py 2>&1
+```
+Then parse the pipe-delimited output to build the human-readable report.
+
+**Option B — Write a fresh script:**
 1. **Load specs** — read both `wiki/meta/format-spec.md` and `wiki/meta/index-spec.md`
 2. **Scan files** — read all markdown files in:
    - `wiki/sources/`, `wiki/concepts/` (content files)
@@ -43,8 +51,10 @@ Generate report listing format violations with severity levels. Report goes to `
    - `raw/`, `wiki/`, `context/` (manual indexes — root + sub level)
 3. **Dispatch by type** — route each file to correct spec:
    - `type: concept|source` → format-spec.md rules
+   - `type: index` + `scope: topic` (or file in `wiki/topic/`) → topic format rules (see §Topic files below)
    - `type: index` → index-spec.md rules (then check `level` field)
    - Missing/unknown `type` → ERROR
+   - **Skip**: `context/USER.md` (read-only, no frontmatter expected)
 4. **Validate each file** — check frontmatter, sections, naming, markdown syntax
 
 ## Critical rules
@@ -69,10 +79,12 @@ Generate report listing format violations with severity levels. Report goes to `
 |---|---|---|
 | `concept` | format-spec.md §2 | `wiki/concepts/` |
 | `source` | format-spec.md §3 | `wiki/sources/` |
+| `index` + `scope: topic` | topic format (light validation) | `wiki/topic/` |
 | `index` (level 1) | index-spec.md §3 | `raw/`, `wiki/`, `context/` |
-| `index` (level 2) | index-spec.md §4 | `raw/<type>/`, `wiki/tag/` |
-| `index` (level 3) | index-spec.md §5 | `wiki/tag/` |
+| `index` (level 2) | index-spec.md §4 | `raw/<type>/`, `wiki/tag/tag.md` |
+| `index` (level 3) | index-spec.md §5 | `wiki/tag/<tag>.md` |
 | Missing/other | ERROR — flag immediately | Any |
+| `context/USER.md` | SKIP (read-only, no frontmatter) | `context/` |
 
 ### Severity levels
 
@@ -195,6 +207,9 @@ For complete validation algorithm, format rules, and error handling, see:
 - [workflow.md](workflow.md) — step-by-step validation process
 - [reference.md](reference.md) — format-spec.md rules with annotations
 - [examples.md](examples.md) — sample format issues and fixes
+- [cross-spec-conflicts.md](references/cross-spec-conflicts.md) — known conflicts between format-spec.md and index-spec.md
+- [topic-file-dispatch.md](references/topic-file-dispatch.md) — topic file routing edge case
+- [validate.py](scripts/validate.py) — reusable validation script (run from KB root)
 
 ## Post-validation
 
@@ -239,6 +254,96 @@ Format Validator always processes entire wiki in one run:
 
 **Typical run time:** 15-45 seconds for daily runs (5-15 new files + quick scan of existing)
 
+## Pitfalls
+
+### execute_code blocked in cron mode
+
+The `execute_code` tool is blocked for cron job runs (BLOCKED: requires user approval). Do not attempt to use it in a cron context — the validation script will fail.
+
+**Workflow:** Use the reusable validation script at `scripts/validate.py`:
+```bash
+cd /home/julius/knowledge-base
+python3 .hermes/skills/format-validator/scripts/validate.py 2>&1
+```
+
+The script runs from the KB root, reads all wiki files, and outputs pipe-delimited issues to stdout. Parse the output to build the report.
+
+**If the script needs updating** (e.g., TAGS.md pools changed, new validation rules), write an updated version to `.hermes/tmp_format_validator.py`, test it, then update the skill's `scripts/validate.py` with the changes.
+
+**Note:** POOL_A and POOL_B tag sets are hardcoded in the script. When TAGS.md changes, update the `POOL_A` and `POOL_B` sets in `scripts/validate.py`.
+
+### Unquoted wikilinks in YAML frontmatter → parsed as nested list
+
+When `index-spec.md` shows `parent: [[tag]]` (unquoted), YAML's parser interprets the leading `[` as the start of a flow sequence. `yaml.safe_load('parent: [[tag]]')` produces `{'parent': [['tag']]}` — a **nested list**, not the string `'[[tag]]'`.
+
+**The validator must handle both forms:**
+- `isinstance(val, str) and val.startswith('[[')` → proper quoted wikilink
+- `isinstance(val, list)` → unquoted wikilink, parsed as nested list by YAML
+
+**Correct handling:**
+```python
+def check_wikilink_val(val, field_name, rel, issues):
+    if isinstance(val, str):
+        if val.startswith('[['):
+            return val  # properly quoted
+        # otherwise flag as invalid
+    elif isinstance(val, list):
+        # YAML parsed [[tag]] as [['tag']] — unquoted
+        issues.append(('WARNING', 'Frontmatter', rel,
+            f'{field_name}: ambiguous YAML — unquoted [[...]] parsed as list',
+            f'Use quoted format: {field_name}: "[[target]]"'))
+        return None
+```
+
+**Impact:** On first run, this caused 20 false-positive ERRORs (all `parent: [[tag]]` in `wiki/tag/*.md` files) before the fix was applied.
+
+**Cross-spec conflict:** `index-spec.md` shows unquoted `parent: [[tag]]` but `format-spec.md` §9 note requires quoted wikilinks in frontmatter (`"[[...]]"`). Escalate as `[SPEC CONFLICT]` when detected — index-spec.md should be updated to show quoted format.
+
+### YAML date parsing produces `datetime.date` objects
+
+PyYAML parses `YYYY-MM-DD` values into `datetime.date` objects, **not strings**. A date validator that only checks `isinstance(d, str)` will flag every valid date as "Invalid date format."
+
+**Correct check:**
+```python
+from datetime import date
+
+def validate_date(d):
+    if isinstance(d, date):
+        return 2000 <= d.year <= 2030
+    if isinstance(d, str):
+        # also accept string format
+        return bool(re.match(r'^\d{4}-\d{2}-\d{2}$', d))
+    return False
+```
+
+**Impact:** On first run, this caused 378 false-positive ERRORs before the fix was applied.
+
+### Broken wikilinks in a growing knowledge base
+
+When concepts link to related concepts that haven't been compiled yet, the target file does not exist. This is **expected forward-referencing behavior** in a growing KB, not a format error.
+
+- Report as **WARNING** (not ERROR)
+- Do not treat as systematic violation unless >50% of links are broken
+- Note in report: "Concepts reference future entries — links are forward-references"
+
+### Report limit clarification
+
+"Report limit: 20 issues per day" means **focus the written report on the most actionable issues**, not that the validator stops at 20. The report should still show all ERRORs and top WARNINGs. For daily runs, the full issue count goes in `_action-required.md` summary.
+
+### Topic files NOT index files (dispatch edge case)
+
+Topic files under `wiki/topic/*.md` have `type: index` and `scope: topic` but NO `level` field. Per index-spec.md §5.1, topic files "are NOT indexes in the navigation sense" and have their own format (defined in Index Agent skill). They should NOT be validated against index-spec.md.
+
+**Detection:** Check `scope: topic` in frontmatter OR file path starts with `wiki/topic/`. Route to light topic validation (check `topic` field matches filename, `auto_generated: true`, `last_updated` valid date, H1 present).
+
+**Impact:** Before this fix (2026-06-18), 108 topic files generated 100+ false ERRORs for "missing level field" because they were dispatched to `validate_index` which requires `level`.
+
+### context/USER.md is read-only (no frontmatter expected)
+
+`context/USER.md` is Julius's personal profile. It has no YAML frontmatter — this is intentional, not an error. The validator must skip this file. Same for `context/context.md` if it lacks frontmatter.
+
+**Detection:** Skip files listed in AGENTS.md §4.2 (Read-only zones) that are known to lack frontmatter. Currently: `context/USER.md`.
+
 ## Failure modes
 
 | Issue | Action |
@@ -249,6 +354,7 @@ Format Validator always processes entire wiki in one run:
 | File has invalid YAML | ERROR severity, report issue |
 | Cannot parse markdown | Skip file, log warning |
 | Disk full / Permission denied | Stop, alert Julius |
+| YAML date values parsed as `datetime.date` | Adjust validator to accept both `date` and `str` |
 
 ## Performance benchmarks
 

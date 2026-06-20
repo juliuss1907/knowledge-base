@@ -190,6 +190,7 @@ After successful validation run:
 2. **Update _action-required.md:**
    - Add entry to "Pending Reports" section
    - Update "Last updated" timestamp
+   - **⚠️ PITFALL**: The `patch` tool's fuzzy matching produces false positives on this file. Never use `replace_all=true`. Use at least 5-6 lines of unique context in `old_string`. See Production Lessons for full details.
 
 3. **Send Telegram notification:**
    ```
@@ -216,7 +217,7 @@ After successful validation run:
 Output Validator processes files in one run but optimizes for daily schedule:
 - **Scan all files** to maintain full context
 - **Prioritize new files** (compiled today) for detailed validation
-- **Quick check existing files** for systematic issues only
+- **Quick check existing files** for systematic issues only — use `scripts/quick-scan.sh` for efficient terminal-based checks (typos, truncated files, empty sections, draft count)
 - Generate single report with issues sorted by severity
 
 **Typical daily run time:** 15-45 seconds for 5-15 new files + quick scan of existing
@@ -271,8 +272,34 @@ When the same issue type appears >10 times, report it as a single systemic issue
 ### Empty baseline report
 If `wiki/reviews/YYYY-MM-DD_output-report.md` exists but is empty/placeholder, treat it as if no prior report exists. Scan all files rather than relying on file timestamps.
 
+### _action-required.md patch tool pitfall
+
+The `patch` tool uses fuzzy matching. `_action-required.md` has repeated structural patterns (identical "Actions:" blocks, similar summary formats across date entries) that cause fuzzy matching to find false positives — a search string that appears once in the file may match 2-3 times in the fuzzy index.
+
+**Rules when updating `_action-required.md`:**
+1. **Never use `replace_all=true`** on this file. A false positive duplicate match will corrupt unrelated sections. In a 2026-06-18 run, `replace_all` corrupted the "Approved Reports" section because it matched an entry there as well as the intended Pending Reports entry.
+2. **Always use a unique context string** — include at least 5-6 lines of text with specific details (e.g., the exact issue count, the specific date, the specific summary bullets) that cannot appear elsewhere.
+3. **If the patch tool reports >1 match**, do NOT force it with `replace_all`. Instead, broaden the old_string with even more surrounding lines until it uniquely identifies the target location.
+4. **Fallback**: If the patch tool insists on multiple matches after 3 attempts with highly specific strings, write the entire file fresh using `write_file` with the full reconstructed content.
+
+**Symptom to watch for**: The patch diff shows insertions in unexpected sections (e.g., new entries appearing in "Approved Reports" instead of "Pending Reports"). Immediately read back the file to verify correctness.
+
+### Truncated file detection
+
+When a concept file is incomplete (truncated mid-generation by Compile Agent), two signals:
+1. `read_file` returns fewer `total_lines` than typical (e.g., 25 vs expected 35-40 for a concept)
+2. The last line ends mid-sentence or mid-bullet (e.g., `- **Commoditization risk` with no closing)
+
+Treat as ERROR — missing `## Related concepts` and `## Sources` sections. The concept should be blocked from referencing until re-compiled.
+
 ### Language detection heuristic
 For Vietnamese quality checks:
 - Count characters with Vietnamese diacritics (à, á, ạ, ả, ã, â, ầ, ấ, ậ, ẩ, ẫ, ă, ằ, ắ, ặ, ẳ, ẵ, è, é, ẹ, ẻ, ẽ, ê, ề, ế, ệ, ể, ễ, ì, í, ị, ỉ, ĩ, ò, ó, ọ, ỏ, õ, ô, ồ, ố, ộ, ổ, ỗ, ơ, ờ, ớ, ợ, ở, ỡ, ù, ú, ụ, ủ, ũ, ư, ừ, ứ, ự, ử, ữ, ỳ, ý, ỵ, ỷ, ỹ, đ)
 - If `english_words > vietnamese_count * 3` and `vietnamese_count > 0` → flag as "English-heavy"
 - If `vietnamese_count == 0` and `english_words > 50` → flag as "English-only"
+
+### Cron working directory
+
+When running as a scheduled cron job, the session working directory may be `$HOME` (e.g., `/home/julius`) rather than the knowledge-base directory. The `search_files` and `read_file` tools resolve relative paths from the session cwd, so `wiki/sources/` will fail.
+
+**Fix**: Always use absolute paths (`/home/julius/knowledge-base/wiki/sources/`) for `search_files`, `read_file`, and `terminal` calls. For `terminal`, either `cd` first or use the `workdir` parameter. The quick-scan script handles this internally via `KB_DIR` variable.

@@ -35,6 +35,6 @@ AI white-collar automation là xu hướng AI thay thế hoàn toàn công việ
 
 ## Sources
 
-- [[src_ai-will-destroy-world-economy]]
+- [[src_ai-will-destroy-world-economy]] — Bài phân tích về khủng hoảng kinh tế do AI automation từ Mustafa Suleyman.
 
 ## Notes

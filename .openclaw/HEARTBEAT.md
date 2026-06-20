@@ -1,6 +1,27 @@
-# OpenClaw Heartbeat Log
+# HEARTBEAT.md — OpenClaw System Status
 
-**Last Check:** 2026-06-15 05:30 (Asia/Saigon)
-**Status:** ⚠️ Issues found
+**Last check:** 2026-06-19 23:00 (Asia/Saigon)
+**Status:** HEARTBEAT_OK
 
-- [Priority 1] Pending review: 3 new reports from 2026-06-14 (Hygiene, Output, Format) not yet notified.
+---
+
+## System Health
+
+| Check | Result |
+|---|---|
+| Inbox (Tasks/) | ✅ Không có file inbox |
+| Raw backlog | ✅ 0 files unprocessed >24h (4 files hôm nay, chưa đến 24h) |
+| Concept backlinks | ✅ 2 concepts checked — đầy đủ |
+| Pending reviews | ✅ 0 pending (all applied) |
+
+---
+
+## Notes
+
+- Không có inbox message
+- 4 raw files hôm nay → CompileAgent 08:00 mai sẽ xử lý
+- Tất cả Hermes review đã applied
+
+---
+
+*OpenClaw Heartbeat — 2026-06-19 23:00*

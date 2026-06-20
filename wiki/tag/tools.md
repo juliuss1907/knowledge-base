@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Tag: #tools
@@ -16,13 +16,14 @@ last_updated: 2026-06-14
 
 ## Stats
 
-- Total files: 129
-- Sources: 25
-- Concepts: 104
-- Last updated: 2026-06-14
+- Total files: 141
+- Sources: 28
+- Concepts: 113
+- Last updated: 2026-06-19
 
 ## Files with this tag
 
+- [[200-day-sma-risk-line]] — 200 Day Sma Risk Line (concept)
 - [[agent-handoff]] — Agent Handoff (concept)
 - [[agent-harness]] — Agent Harness (concept)
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
@@ -30,6 +31,7 @@ last_updated: 2026-06-14
 - [[agent-skill-management]] — Agent Skill Management (concept)
 - [[agentic-commerce]] — Agentic Commerce (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
+- [[ai-first-business-model]] — Ai First Business Model (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
 - [[ai-infrastructure-bubble]] — Ai Infrastructure Bubble (concept)
 - [[ai-legal-personhood]] — Ai Legal Personhood (concept)
@@ -43,6 +45,7 @@ last_updated: 2026-06-14
 - [[browser-harness-tool]] — Browser Harness Tool (concept)
 - [[business-idiot-archetype]] — Business Idiot Archetype (concept)
 - [[causal-loop-diagram]] — Causal Loop Diagram (concept)
+- [[character-change-signal]] — Character Change Signal (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
 - [[claude-code-routines]] — Claude Code Routines (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
@@ -56,11 +59,13 @@ last_updated: 2026-06-14
 - [[cross-agent-workflow]] — Cross Agent Workflow (concept)
 - [[csa-hca-attention]] — Csa Hca Attention (concept)
 - [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)
+- [[digital-product-flywheel]] — Digital Product Flywheel (concept)
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
 - [[factory-missions]] — Factory Missions (concept)
 - [[fast-weights]] — Fast Weights (concept)
 - [[feedback-loop]] — Feedback Loop (concept)
+- [[four-stages-market-cycle]] — Four Stages Market Cycle (concept)
 - [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
@@ -84,6 +89,7 @@ last_updated: 2026-06-14
 - [[leverage-points]] — Leverage Points (concept)
 - [[llm-sleep]] — Llm Sleep (concept)
 - [[manifold-constrained-hyper-connections]] — Manifold Constrained Hyper Connections (concept)
+- [[market-structure-blueprint]] — Market Structure Blueprint (concept)
 - [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
 - [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
@@ -93,6 +99,7 @@ last_updated: 2026-06-14
 - [[paper-trading]] — Paper Trading (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
 - [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
+- [[personal-branding-ai]] — Personal Branding Ai (concept)
 - [[policy-review-framework]] — Policy Review Framework (concept)
 - [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
@@ -100,6 +107,7 @@ last_updated: 2026-06-14
 - [[query-fan-out]] — Query Fan Out (concept)
 - [[rag-retrieval-augmented-generation]] — Rag Retrieval Augmented Generation (concept)
 - [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)
+- [[relative-strength-leadership]] — Relative Strength Leadership (concept)
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
 - [[session-separation]] — Session Separation (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)
@@ -126,9 +134,12 @@ last_updated: 2026-06-14
 - [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
 - [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
+- [[src_how-average-people-will-get-rich-with-ai]] — How Average People Will Get Rich With Ai (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_how-the-market-warns-you-before-the-crash]] — How The Market Warns You Before The Crash (source)
 - [[src_leverage]] — Leverage (source)
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
+- [[src_loop-native-factory]] — Loop Native Factory (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
 - [[src_tokens-and-tokenization]] — Tokens And Tokenization (source)
@@ -145,6 +156,7 @@ last_updated: 2026-06-14
 - [[user-md-configuration]] — User Md Configuration (concept)
 - [[validation-contract]] — Validation Contract (concept)
 - [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
+- [[volume-confirmation]] — Volume Confirmation (concept)
 - [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)
 - [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
 - [[x-api-oauth2]] — X Api Oauth2 (concept)
@@ -155,8 +167,8 @@ last_updated: 2026-06-14
 
 ## Co-occurring tags
 
-- [[ai]] — 85 co-occurrences
-- [[automation]] — 51 co-occurrences
-- [[research]] — 39 co-occurrences
-- [[tutorial]] — 22 co-occurrences
-- [[opinion]] — 18 co-occurrences
+- [[ai]] — 90 co-occurrences
+- [[automation]] — 52 co-occurrences
+- [[research]] — 47 co-occurrences
+- [[tutorial]] — 24 co-occurrences
+- [[opinion]] — 19 co-occurrences

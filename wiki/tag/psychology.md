@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: psychology
 auto_generated: true
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Tag: #psychology
@@ -16,17 +16,19 @@ last_updated: 2026-06-14
 
 ## Stats
 
-- Total files: 102
-- Sources: 29
-- Concepts: 73
-- Last updated: 2026-06-14
+- Total files: 108
+- Sources: 31
+- Concepts: 77
+- Last updated: 2026-06-19
 
 ## Files with this tag
 
 - [[activation-energy]] — Activation Energy (concept)
+- [[brain-rot]] — Brain Rot (concept)
 - [[catalysts]] — Catalysts (concept)
 - [[causal-reasoning]] — Causal Reasoning (concept)
 - [[circle-of-competence]] — Circle Of Competence (concept)
+- [[cognitive-load-theory]] — Cognitive Load Theory (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
 - [[cortisol-management]] — Cortisol Management (concept)
 - [[critical-mass]] — Critical Mass (concept)
@@ -58,6 +60,7 @@ last_updated: 2026-06-14
 - [[know-when-not-to-trade]] — Know When Not To Trade (concept)
 - [[latticework-of-mental-models]] — Latticework Of Mental Models (concept)
 - [[leverage]] — Leverage (concept)
+- [[lifestyle-inflation]] — Lifestyle Inflation (concept)
 - [[logotherapy-frankl]] — Logotherapy Frankl (concept)
 - [[map-is-not-territory]] — Map Is Not Territory (concept)
 - [[markus-four-thinking-types]] — Markus Four Thinking Types (concept)
@@ -73,6 +76,7 @@ last_updated: 2026-06-14
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
 - [[passion-economy-trap]] — Passion Economy Trap (concept)
 - [[pattern-recognition]] — Pattern Recognition (concept)
+- [[personal-branding-ai]] — Personal Branding Ai (concept)
 - [[perspective-bias]] — Perspective Bias (concept)
 - [[physics-envy]] — Physics Envy (concept)
 - [[power-law]] — Power Law (concept)
@@ -88,6 +92,7 @@ last_updated: 2026-06-14
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
 - [[src_2026-advice]] — 2026 Advice (source)
+- [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source)
 - [[src_activation-energy]] — Activation Energy (source)
 - [[src_building-latticework-mental-models]] — Building Latticework Mental Models (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
@@ -98,6 +103,7 @@ last_updated: 2026-06-14
 - [[src_galilean-relativity]] — Galilean Relativity (source)
 - [[src_hanlons-razor]] — Hanlons Razor (source)
 - [[src_hypergamy]] — Hypergamy (source)
+- [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
 - [[src_inversion]] — Inversion (source)
 - [[src_leverage]] — Leverage (source)
 - [[src_life-is-a-mind-game-heres-how-you]] — Life Is A Mind Game Heres How You (source)
@@ -110,7 +116,7 @@ last_updated: 2026-06-14
 - [[src_reciprocity]] — Reciprocity (source)
 - [[src_second-order-thinking]] — Second Order Thinking (source)
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
-- [[src_the-power-of-incentives-hidden-forces-shape-behavior]] — The Power Of Incentives Hidden Forces Shape Behavior (source)
+- [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
 - [[src_thought-experiment]] — Thought Experiment (source)
@@ -129,7 +135,7 @@ last_updated: 2026-06-14
 ## Co-occurring tags
 
 - [[productivity]] — 84 co-occurrences
-- [[research]] — 32 co-occurrences
+- [[research]] — 35 co-occurrences
 - [[opinion]] — 26 co-occurrences
-- [[economic]] — 16 co-occurrences
+- [[economic]] — 19 co-occurrences
 - [[automation]] — 13 co-occurrences

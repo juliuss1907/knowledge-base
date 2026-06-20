@@ -117,6 +117,10 @@ for dirpath, dirnames, filenames in os.walk(root):
                 for fn in filenames:
                     if fn not in allowed_meta and not fn.startswith('.'):
                         add_issue(os.path.join(rel, fn), 'ERROR', 'Path', 'Extra file in wiki/meta/', fn, 'Only format-spec.md, folder-structure.md, index-spec.md', 'Remove')
+                # Check for missing required files
+                for required in allowed_meta:
+                    if required not in filenames:
+                        add_issue(os.path.join(rel, f'MISSING {required}'), 'ERROR', 'Path', f'Missing required file in wiki/meta/', 'none', required, f'Create {required}')
                 for dn in dirnames:
                     add_issue(os.path.join(rel, dn), 'ERROR', 'Path', 'No subfolders in wiki/meta/', dn, 'None', 'Remove')
             elif sub == 'sources':
@@ -151,14 +155,27 @@ for dirpath, dirnames, filenames in os.walk(root):
                         continue
                     if not re.match(r'^[a-z0-9\-]+\.md$', fn):
                         add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Draft file naming convention violated', fn, '<slug>.md (lowercase, hyphens)', 'Rename')
+                    elif '_' in fn:
+                        add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Draft file uses underscores instead of hyphens', fn, '<slug>.md (lowercase, hyphens only)', 'Rename to use hyphens')
             elif sub == 'reviews':
                 for fn in filenames:
                     if fn.startswith('.'):
                         continue
-                    if fn in {'_action-required.md', 'HEARTBEAT.md'}:
+                    if fn in {'_action-required.md', 'HEARTBEAT.md', '_approval-log.md'}:
                         continue
-                    if not re.match(r'^\d{4}-\d{2}-\d{2}_(format|output|hygiene)-report(|-v2)?\.md$', fn):
-                        add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Review file naming convention violated', fn, 'YYYY-MM-DD_<type>-report.md', 'Rename or archive')
+                    # Canonical format: YYYY-MM-DD_type-report.md (includes spot-check)
+                    if re.match(r'^\d{4}-\d{2}-\d{2}_(format|output|hygiene|spot-check)-report\.md$', fn):
+                        continue
+                    # Old format (date at end): type-report-YYYY-MM-DD.md — flag separately
+                    if re.match(r'^(format|output|hygiene)-report-\d{4}-\d{2}-\d{2}\.md$', fn):
+                        add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Review file uses old naming format (date at end)', fn, 'YYYY-MM-DD_type-report.md', 'Rename to canonical format')
+                        continue
+                    # -v2 suffix: duplicate report that should be merged
+                    if re.match(r'^\d{4}-\d{2}-\d{2}_(format|output|hygiene)-report-v2\.md$', fn):
+                        add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Review file has -v2 suffix (duplicate)', fn, 'YYYY-MM-DD_type-report.md (merge into canonical)', 'Merge into canonical name or archive')
+                        continue
+                    # Everything else: naming violation
+                    add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Review file naming convention violated', fn, 'YYYY-MM-DD_<type>-report.md', 'Rename or archive')
                 for dn in dirnames:
                     if dn == 'archive':
                         continue
@@ -182,8 +199,19 @@ for dirpath, dirnames, filenames in os.walk(root):
         for fn in filenames:
             if fn.startswith('.'):
                 continue
-            if not re.match(r'^\d{4}-\d{2}-\d{2}_(format|output|hygiene)-report(|-v2)?\.md$', fn):
-                add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Archived report naming convention violated', fn, 'YYYY-MM-DD_<type>-report.md', 'Rename')
+            # Canonical format (includes spot-check)
+            if re.match(r'^\d{4}-\d{2}-\d{2}_(format|output|hygiene|spot-check)-report\.md$', fn):
+                continue
+            # Old format
+            if re.match(r'^(format|output|hygiene)-report-\d{4}-\d{2}-\d{2}\.md$', fn):
+                add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Archived report uses old naming format', fn, 'YYYY-MM-DD_type-report.md', 'Rename')
+                continue
+            # -v2 suffix
+            if re.match(r'^\d{4}-\d{2}-\d{2}_(format|output|hygiene)-report-v2\.md$', fn):
+                add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Archived report has -v2 suffix', fn, 'YYYY-MM-DD_type-report.md (merge into canonical)', 'Merge or remove')
+                continue
+            # Non-standard report type
+            add_issue(os.path.join(rel, fn), 'WARNING', 'Naming', 'Archived report uses non-standard type', fn, 'format|output|hygiene|spot-check only', 'Rename to canonical type or propose addition to whitelist')
         continue
 
 # Explicit checks for root-level orphans (deduplicated via seen set)

@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: automation
 auto_generated: true
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Tag: #automation
@@ -16,10 +16,10 @@ last_updated: 2026-06-14
 
 ## Stats
 
-- Total files: 73
-- Sources: 15
-- Concepts: 58
-- Last updated: 2026-06-14
+- Total files: 79
+- Sources: 16
+- Concepts: 63
+- Last updated: 2026-06-19
 
 ## Files with this tag
 
@@ -29,6 +29,7 @@ last_updated: 2026-06-14
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
 - [[agentic-commerce]] — Agentic Commerce (concept)
+- [[ai-coach-prompting]] — Ai Coach Prompting (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
 - [[ai-trading-agent]] — Ai Trading Agent (concept)
@@ -41,10 +42,13 @@ last_updated: 2026-06-14
 - [[codified-taste]] — Codified Taste (concept)
 - [[compact-vs-handoff]] — Compact Vs Handoff (concept)
 - [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)
+- [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[context-window-management]] — Context Window Management (concept)
 - [[conversational-website]] — Conversational Website (concept)
 - [[cross-agent-workflow]] — Cross Agent Workflow (concept)
+- [[digital-product-flywheel]] — Digital Product Flywheel (concept)
 - [[environment-design-for-habits]] — Environment Design For Habits (concept)
+- [[expert-knowledge-extraction]] — Expert Knowledge Extraction (concept)
 - [[factory-missions]] — Factory Missions (concept)
 - [[focus]] — Focus (concept)
 - [[grok-hermes-integration]] — Grok Hermes Integration (concept)
@@ -79,6 +83,7 @@ last_updated: 2026-06-14
 - [[src_activation-energy]] — Activation Energy (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
 - [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
+- [[src_dan-koe-workflow-analysis-markus]] — Dan Koe Workflow Analysis Markus (source)
 - [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)
 - [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
 - [[src_hermes-analyst-workflow-essentials]] — Hermes Analyst Workflow Essentials (source)
@@ -89,6 +94,7 @@ last_updated: 2026-06-14
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[src_speed-velocity]] — Speed Velocity (source)
 - [[success-trap]] — Success Trap (concept)
+- [[systematic-trading]] — Systematic Trading (concept)
 - [[taste-holders]] — Taste Holders (concept)
 - [[tokenmaxxing]] — Tokenmaxxing (concept)
 - [[validation-contract]] — Validation Contract (concept)
@@ -99,8 +105,8 @@ last_updated: 2026-06-14
 
 ## Co-occurring tags
 
-- [[tools]] — 51 co-occurrences
-- [[ai]] — 46 co-occurrences
-- [[productivity]] — 15 co-occurrences
+- [[tools]] — 52 co-occurrences
+- [[ai]] — 51 co-occurrences
+- [[productivity]] — 19 co-occurrences
+- [[tutorial]] — 15 co-occurrences
 - [[psychology]] — 13 co-occurrences
-- [[opinion]] — 12 co-occurrences

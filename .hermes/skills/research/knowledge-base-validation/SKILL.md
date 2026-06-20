@@ -90,7 +90,18 @@ After each validation run:
 
 ## Approving Reports
 
-When Julius approves reports (e.g., "approve all reports"):
+When Julius approves reports (e.g., "approve all reports", "approve output", "approve format", "approve hygiene"):
+
+### Approval Interpretation — Multi-Date
+
+**When Julius says "approve output" / "approve format" / "approve hygiene" WITHOUT specifying a date:**
+→ Approve **ALL pending reports** for that validator type across all dates, not just the latest.
+
+**Example:** If both 06-17 and 06-18 output reports are pending, "approve output" means approve BOTH.
+
+**Why:** Julius operates on validator types, not dates. He expects all pending work for that validator to be approved. Partial approval (only latest) requires him to repeat the command for each date.
+
+### Step-by-step
 
 1. **Find all pending reports** in `wiki/reviews/`:
    ```bash
@@ -109,6 +120,8 @@ When Julius approves reports (e.g., "approve all reports"):
    - Update **Last updated** timestamp
    - Clear "Pending Reports" section or mark as "All pending reports approved"
 
+   **⚠️ PITFALL — Complex updates:** When approving many reports at once (6+), `_action-required.md` requires changes to the Summary Status list, the Pending Reports section, AND the Applied Reports footer. Multiple `patch` calls risk fuzzy matching false positives (documented in output-validator's Production Lessons). **Prefer `write_file` with full reconstructed content** when 3+ sections need changes. Re-read the file fully first, reconstruct with all changes applied, then write once. This is safer than patching individual sections.
+
 4. **Do NOT archive reports yet** — Fix Agent archives after applying fixes
 
 ### Approval vs Applied
@@ -119,6 +132,37 @@ When Julius approves reports (e.g., "approve all reports"):
 | ✅ approved | Julius approved, ready for Fix Agent | Fix Agent applies fixes |
 | ✅ applied | Fix Agent applied fixes | Connor re-validates |
 | ✅ promote | No issues found | Archive report |
+
+## _approval-log.md — Cross-Machine Approval Contract
+
+`_approval-log.md` (in `wiki/reviews/`) là ledger riêng biệt với `_action-required.md`. Nó tồn tại vì KB chạy trên 2 máy:
+
+- **VPS (nơi Connor chạy validation)** — phát hiện issues, viết report, gửi Telegram cho Julius.
+- **Máy chính (nơi Fix Agent chạy)** — apply fixes sau khi được approve.
+
+**`_action-required.md`** = dashboard tổng hợp (status ngắn gọn: pending/approved/applied).
+
+**`_approval-log.md`** = structured scope contract cho Fix Agent — ghi lại:
+1. ✅ **Apply** — issues nào được duyệt, kèm file paths
+2. ⏭️ **Excluded** — issues nào bị loại + lý do (ví dụ: "279 broken wikilinks = forward-reference, cần LLM compile không phải sửa cơ học")
+3. ⚠️ **Verify-first** — files cần check đã được fix ở batch trước chưa (ví dụ: 5 Setext header files trùng 100% với batch 14/06 đã applied)
+
+**Tại sao không gộp vào `_action-required.md`:** Vì gộp sẽ mất:
+- Lý do exclude (Fix Agent cần biết tại sao không touch)
+- Verify-first checklist (tránh re-fix files đã OK)
+- Per-file scope table (report gốc có thể 298 issues, nhưng approval chỉ cover 19)
+
+**Workflow khi Julius approve có điều kiện** (ví dụ: "apply tất cả ERROR + WARNING trừ 279 broken wikilinks"):
+1. Connor parse message → tạo entry mới trong `_approval-log.md` với 3 sections: Apply / Excluded / Verify-first
+2. `_action-required.md` cross-reference: `Scope: _approval-log.md entry YYYY-MM-DD HH:MM`
+3. Fix Agent trên máy chính pull file qua Git sync, đọc scope, apply đúng phần được duyệt
+4. Sau khi apply, Fix Agent update report status → `applied`, archive vào `wiki/reviews/archive/YYYY-MM/`
+
+**Rule cho Connor:** Khi Julius gửi message approve (kể cả điều kiện đơn giản như "approve all"), PHẢI ghi entry vào `_approval-log.md` ngay lập tức, không chỉ update `_action-required.md`. Nếu chỉ update dashboard mà quên ledger, Fix Agent sẽ không có scope ground-truth.
+
+**Template:** See `references/_approval-log-template.md` for the entry structure. Each entry has 3 sections: ✅ Apply, ⏭️ Excluded, ⚠️ Verify-first.
+
+**Khi Julius hỏi "tại sao cần file này":** Đây là câu hỏi architectural. Trả lời: ledger là hợp đồng phạm vi giữa 2 process, không phải output validation. Report là khách quan, approval log là chủ quan (quyết định của Julius) + exclusions có lý do.
 
 ## _action-required.md Update Pattern
 
@@ -334,6 +378,38 @@ Source files occasionally use `[text](url)` for internal wiki links instead of w
 ## Cron Execution — Tool Selection
 
 When running as a scheduled cron job, `execute_code` may be blocked by the platform ("BLOCKED: execute_code runs arbitrary local Python... Cron jobs run without a user present"). **Workaround:** Write the validation script to a temp file using `write_file`, then execute it via `terminal` with `python3 /tmp/script.py`. This is functionally equivalent but passes the cron approval gate.
+
+## Spot-Check Validation (Pre-Promotion)
+
+When Julius asks for a "spot-check" or "validation trước khi promote", this is a **focused scan** on a specific batch, not the full daily pipeline.
+
+**How to identify the batch:**
+- Use `mtime` filtering with a precise date window: `start_ts = datetime(YYYY, MM, DD, 0, 0).timestamp()`
+- Scan `wiki/concepts/*.md` and `wiki/sources/*.md` where `start_ts <= mtime < end_ts`
+- Do NOT scan all files — the daily validators already cover the full wiki
+
+**What to check in a spot-check:**
+1. Frontmatter compliance (type, tags, field order, YAML validity)
+2. Section presence (all required sections present)
+3. Content depth (Definition non-empty, Key ideas ≥3 items, Sources populated)
+4. **Status audit** — count `draft` vs `reviewed` vs `needs-revision` in the batch
+5. English-only detection (INFO-level, non-blocking)
+
+**Status audit practice:**
+- Report counts: `reviewed: N`, `draft: M`, `needs-revision: K`
+- List all `draft` files by name — these may block promotion if Julius requires `reviewed` status
+- This is a **pre-promotion gate** — batch can be format-clean but still have `draft` status files
+
+**Key ideas counting — bullets AND numbered items:**
+Compile Agent sometimes uses numbered items (`1.`, `2.`, `3.`) instead of bullet points (`-`) in the `## Key ideas` section. The validator must count both:
+```python
+bullets = re.findall(r'^[\s]*[-*][\s]+', key_section, re.MULTILINE)
+numbered = re.findall(r'^[\s]*\d+\.[\s]+', key_section, re.MULTILINE)
+total = len(bullets) + len(numbered)
+```
+
+**Source files have NO `status` field:**
+Per format-spec.md §3.2, source files do NOT have a `status` field. Only concept files have `status`. When scanning mixed concepts + sources, skip the status check for `type: source` files. A validator that flags "missing status" on source files is producing false positives.
 
 ## Criteria Quick Reference
 

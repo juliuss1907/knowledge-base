@@ -4,9 +4,9 @@ original: "[[2026-05-28_ai-is-not-2008-loop-is-same]]"
 main_tag: economic
 sub_tags: [opinion, tools]
 topic: ai-reflexivity-2026
+date_compiled: 2026-05-29
 url: https://ashnawrites.substack.com/p/ai-is-not-2008-but-the-loop-is-the
 author: Ashna Dhuper
-date_compiled: 2026-05-29
 ---
 
 # AI Is Not 2008. But the Loop Is the Same.

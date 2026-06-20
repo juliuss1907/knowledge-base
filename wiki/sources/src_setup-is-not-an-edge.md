@@ -4,9 +4,9 @@ original: "[[2026-05-28_a-setup-is-not-an-edge]]"
 main_tag: economic
 sub_tags: [opinion, research]
 topic: trading-state-policy
+date_compiled: 2026-05-29
 url: https://ryanswright.substack.com/p/a-setup-is-not-an-edge
 author: Ryan Wright
-date_compiled: 2026-05-29
 ---
 
 # A Setup Is Not an Edge

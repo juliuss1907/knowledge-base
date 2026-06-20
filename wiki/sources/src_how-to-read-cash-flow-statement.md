@@ -49,5 +49,4 @@ Báo cáo lưu chuyển tiền tệ (CFS) trả lời câu hỏi cốt lõi: Cô
 
 > "Công ty có thể báo EBITDA $50M nhưng OCF chỉ $15M. Khi mở rộng nhanh, vốn lưu động âm thầm ngốn tiền."
 
----
 *Source: Jimmy's Journal — Substack*

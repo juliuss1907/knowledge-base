@@ -4,8 +4,8 @@
 > Tags are flat, not nested. Connections emerge via co-occurrence in files.
 > **Append-only.** Index Agent proposes new tags → Julius approves → entry added here.
 
-**Version:** 1.0
-**Last updated:** 2026-05-19
+**Version:** 1.3
+**Last updated:** 2026-06-19
 
 ---
 
@@ -40,8 +40,10 @@ Obsidian renders these as separate flat tags: `#main_tag`, `#sub_tag_1`, `#sub_t
 | `#system` | System design, architecture, automation pipelines |
 | `#economic` | Macroeconomics, finance, markets, trading |
 | `#politic` | Policy, regulation, geopolitics |
+| `#health` | Physical health, sleep, exercise, nutrition, biohacking |
+| `#investment` | Investment principles, portfolio management, asset allocation, risk management |
 
-**Total:** 7 main-tags.
+**Total:** 9 main-tags.
 
 ---
 
@@ -67,8 +69,11 @@ Sub-tags are independent of main-tags. Any sub-tag may co-occur with any main-ta
 | `#coding` | Programming, software development, code generation, dev practices |
 | `#psychology` | Cognitive science, behavioral psychology, mental models, biases |
 | `#health` | Physical health, sleep, exercise, nutrition, biohacking |
+| `#ai` | AI / ML / LLM, agents, models, training, inference (as attribute) |
+| `#system` | System design, architecture, automation pipelines (as attribute) |
+| `#geopolitics` | Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition |
 
-**Total:** 16 sub-tags.
+**Total:** 19 sub-tags.
 
 ---
 
@@ -163,3 +168,6 @@ When the Compile or Index Agent encounters content that doesn't fit any existing
 | Date | Change | Author |
 |---|---|---|
 | 2026-05-04 | Initial taxonomy: 7 main-tags + 12 sub-tags | Julius |
+| 2026-06-17 | Approved: #health → Pool A, #ai/#system → Pool B (Julius) | Kara |
+| 2026-06-19 | Approved: #investment → Pool A (Julius) | Kara |
+| 2026-06-19 | Approved: #geopolitics → Pool B (Julius) — includes empire cycles, tribute systems, great power competition | Kara |

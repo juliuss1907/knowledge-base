@@ -2,7 +2,7 @@
 type: index
 level: 2
 scope: posts
-parent: [[raw]]
+parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
 last_updated: 2026-05-28

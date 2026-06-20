@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `ai-business-criticism`.
 
-Last updated: 2026-06-14 21:11:42
+Last updated: 2026-06-19 21:02:46
 
 ---
 
@@ -15,3 +15,7 @@ Last updated: 2026-06-14 21:11:42
 ## Sources (1)
 
 - [[src_the-revenge-of-the-business-idiot]] — main: #ai, sub: [#opinion, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-business-criticism`:

@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `ai-coding-context-handoff`.
 
-Last updated: 2026-06-14 21:11:42
+Last updated: 2026-06-19 21:02:46
 
 ---
 
@@ -17,3 +17,7 @@ Last updated: 2026-06-14 21:11:42
 ## Sources (1)
 
 - [[src_handoff-skill-context-window-management]] — main: #ai, sub: [#tools, #automation, #coding]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-coding-context-handoff`:

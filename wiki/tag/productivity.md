@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: productivity
 auto_generated: true
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Tag: #productivity
@@ -16,16 +16,17 @@ last_updated: 2026-06-14
 
 ## Stats
 
-- Total files: 151
-- Sources: 42
-- Concepts: 109
-- Last updated: 2026-06-14
+- Total files: 155
+- Sources: 43
+- Concepts: 112
+- Last updated: 2026-06-19
 
 ## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
 - [[activation-energy]] — Activation Energy (concept)
 - [[active-thinking]] — Active Thinking (concept)
+- [[ai-coach-prompting]] — Ai Coach Prompting (concept)
 - [[alloying-mental-model]] — Alloying Mental Model (concept)
 - [[blameless-postmortems]] — Blameless Postmortems (concept)
 - [[bottlenecks-mental-model]] — Bottlenecks Mental Model (concept)
@@ -36,6 +37,7 @@ last_updated: 2026-06-14
 - [[circadian-rhythm]] — Circadian Rhythm (concept)
 - [[circle-of-competence]] — Circle Of Competence (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
+- [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
 - [[cultural-memetics]] — Cultural Memetics (concept)
 - [[diminishing-returns-mental-model]] — Diminishing Returns Mental Model (concept)
@@ -51,6 +53,7 @@ last_updated: 2026-06-14
 - [[evening-routine]] — Evening Routine (concept)
 - [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
+- [[expert-knowledge-extraction]] — Expert Knowledge Extraction (concept)
 - [[feedback-loop]] — Feedback Loop (concept)
 - [[feedback-loops]] — Feedback Loops (concept)
 - [[first-principles-thinking]] — First Principles Thinking (concept)
@@ -123,6 +126,7 @@ last_updated: 2026-06-14
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
 - [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
+- [[src_dan-koe-workflow-analysis-markus]] — Dan Koe Workflow Analysis Markus (source)
 - [[src_farnam-street-mental-models-biology-series]] — Farnam Street Mental Models Biology Series (source)
 - [[src_farnam-street-mental-models-systems-thinking]] — Farnam Street Mental Models Systems Thinking (source)
 - [[src_feedback-loops-mental-model]] — Feedback Loops Mental Model (source)
@@ -132,6 +136,7 @@ last_updated: 2026-06-14
 - [[src_hanlons-razor]] — Hanlons Razor (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 - [[src_hypergamy]] — Hypergamy (source)
+- [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
 - [[src_inversion]] — Inversion (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
 - [[src_leverage]] — Leverage (source)
@@ -150,13 +155,12 @@ last_updated: 2026-06-14
 - [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source)
 - [[src_speed-velocity]] — Speed Velocity (source)
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
+- [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source)
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
-- [[src_the-power-of-incentives-hidden-forces-shape-behavior]] — The Power Of Incentives Hidden Forces Shape Behavior (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
 - [[src_thought-experiment]] — Thought Experiment (source)
-- [[src_todays-most-crucial-leadership-skill-is-systems-thinking]] — Todays Most Crucial Leadership Skill Is Systems Thinking (source)
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
@@ -180,5 +184,5 @@ last_updated: 2026-06-14
 - [[psychology]] — 84 co-occurrences
 - [[research]] — 70 co-occurrences
 - [[opinion]] — 50 co-occurrences
-- [[tutorial]] — 21 co-occurrences
-- [[automation]] — 15 co-occurrences
+- [[tutorial]] — 25 co-occurrences
+- [[automation]] — 19 co-occurrences

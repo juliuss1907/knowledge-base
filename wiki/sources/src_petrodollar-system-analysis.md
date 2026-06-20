@@ -4,9 +4,9 @@ original: "[[2026-05-28_petrodollar-system-analysis]]"
 main_tag: economic
 sub_tags: [research, opinion]
 topic: petrodollar-collapse
+date_compiled: 2026-05-29
 url: https://ashnawrites.substack.com/p/the-end-of-an-era-what-the-uaes-opec
 author: Ashna Writes (Substack)
-date_compiled: 2026-05-29
 ---
 
 # Petrodollar là gì?
@@ -37,7 +37,7 @@ Petrodollar sụp đổ không phải vì BRICS hay Trung Quốc muốn thách t
 
 ## Core argument
 
-```
+```text
 Huyền thoại: Oil ──định giá──> USD ──làm──> Đồng dự trữ toàn cầu
                ↑                    ↑
          (cái này đúng)      (nhưng thiếu "tại sao?")

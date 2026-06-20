@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.1
-last_updated: 2026-06-14
+version: 1.2
+last_updated: 2026-06-17
 ---
 
 # Hygiene Inspector

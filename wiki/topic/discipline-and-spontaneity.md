@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `discipline-and-spontaneity`.
 
-Last updated: 2026-06-14 21:11:42
+Last updated: 2026-06-19 21:02:46
 
 ---
 
@@ -15,3 +15,7 @@ Last updated: 2026-06-14 21:11:42
 ## Sources (1)
 
 - [[src_live-disciplined-life-spontaneously]] — main: #productivity, sub: [#opinion, #psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `discipline-and-spontaneity`:

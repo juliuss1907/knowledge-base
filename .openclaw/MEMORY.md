@@ -197,3 +197,4 @@
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
 
+2026-06-21 | Ingested raw/articles/2026-06-20_3-brilliant-critical-thinking-tools-used-by-daniel-dennett.md from substack

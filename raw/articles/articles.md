@@ -20,12 +20,13 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 74 files
-- By status: 70 processed, 4 unprocessed
-- By date: 15 this week, 74 this month
-- Last updated: 2026-06-19
+- Total: 75 files
+- By status: 70 processed, 5 unprocessed
+- By date: 16 this week, 75 this month
+- Last updated: 2026-06-21
 ## Items
 
+- [[2026-06-20_3-brilliant-critical-thinking-tools-used-by-daniel-dennett]] — 3 brilliant critical thinking tools used by Daniel Dennett by Kevin Dickinson (unprocessed)
 - [[2026-06-19_the-tribute-system-the-new-world-order]] — The Tribute System: The New World Order by Ray Dalio (unprocessed)
 - [[2026-06-19_game-theory-will-change-your-life]] — Game Theory Will Change Your Life: The Invisible Rules Running Every Interaction by Ixcarus (unprocessed)
 - [[2026-06-19_why-i-recommend-being-a-global-macro]] — Why I Recommend Being a Global Macro Long-Short Investor by Ray Dalio (unprocessed)

@@ -4,70 +4,100 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-19 23:30
+**Last updated:** 2026-06-22 08:20
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3 — Format, Output, and Hygiene validators for 2026-06-19
+**Pending reports awaiting review:** 6 — Format, Output, and Hygiene validators for 2026-06-19 AND 2026-06-22
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** `_approval-log.md` entry 2026-06-19
 
 **Status:**
-- ✅ Format Validator — 2026-06-17: **APPLIED** (365 issues: 16 ERROR, 349 WARNING, 0 INFO)
-  - Report: `wiki/reviews/2026-06-17_format-report.md`
-  - Excluding broken wikilinks: 45 issues (16 ERROR, 29 WARNING)
-  - 320 broken wikilinks (forward-references to concepts not yet compiled)
-  - Key findings: 11 code blocks missing lang tags, wiki/tag/tag.md wrong level/scope, 20+ tag files unquoted parent YAML
-- ✅ Output Validator — 2026-06-17: **APPLIED** (6 issues: 0 ERROR, 3 WARNING, 3 INFO)
-  - Report: `wiki/reviews/2026-06-17_output-report.md`
-- ✅ Hygiene Inspector — 2026-06-17: **APPLIED** (7 issues: 2 ERROR, 5 WARNING, 0 INFO)
-  - Report: `wiki/reviews/2026-06-17_hygiene-report.md`
-- ✅ Format Validator — 2026-06-18: **APPLIED** (17 issues: 11 ERROR, 6 WARNING, 0 INFO)
-  - Report: `wiki/reviews/2026-06-18_format-report.md`
-- ✅ Output Validator — 2026-06-18: **APPLIED** (4 issues: 1 ERROR, 2 WARNING, 1 INFO)
-  - Report: `wiki/reviews/2026-06-18_output-report.md`
-- ✅ Hygiene Inspector — 2026-06-18: **APPLIED** (7 issues: 3 ERROR, 4 WARNING, 0 INFO)
-  - Report: `wiki/reviews/2026-06-18_hygiene-report.md`
-- ✅ Hygiene Inspector — 2026-06-15: **APPLIED** (2026-06-16 08:21)
-  - Report: `wiki/reviews/archive/2026-06/2026-06-15_hygiene-report.md`
-  - Fixes: removed state/, removed HEARTBEAT.md, renamed 4 files with naming violations
-- ✅ Format Validator — 2026-06-15: **APPLIED** (2026-06-16 08:21)
-  - Report: `wiki/reviews/archive/2026-06/2026-06-15_format-report.md`
-  - Fixes: 9 code block lang tags, 5 Setext headers removed, 5 field order reordered
-  - Excluded: 279 broken wikilinks (not fixed in this pass)
-- ✅ Output Validator — 2026-06-15: **CLEAN** (0 issues, 0 new files)
-  - Report: `wiki/reviews/2026-06-15_output-report.md`
-- ✅ Spot-Check Validator — 2026-06-15: **APPROVED** (0 ERROR, 0 WARNING, 1 INFO)
-  - Report: `wiki/reviews/2026-06-15_spot-check-report.md`
-  - Batch: 31 concepts + 10 sources (June 14–15) — verdict PROMOTE
-  - INFO: `active-thinking.md` English-only (non-blocking)
-  - Caveat: 9 concepts carry `draft` status (status change not approved in this pass)
-- ✅ Hygiene Inspector — 2026-06-14: **APPROVED** (16 issues: 8 ERROR + 8 WARNING + 1 INFO)
-  - Report: `wiki/reviews/2026-06-14_hygiene-report.md`
-- ✅ Output Validator — 2026-06-14: **APPROVED** (20 issues: 3 systemic + 14 individual)
-  - Report: `wiki/reviews/2026-06-14_output-report.md`
-- ✅ Format Validator — 2026-06-14: **APPROVED** (4 ERROR, 289 WARNING)
-  - Report: `wiki/reviews/2026-06-14_format-report.md`
-- ✅ Hygiene Inspector — 2026-06-14: **PROMOTE** (2 orphan sources, non-critical)
-- ✅ Format Validator — 2026-06-12: **APPLIED + VERIFIED** (0 invalid sub_tags remaining)
-- ✅ Output Validator — 2026-06-12: **APPLIED PARTIAL + VERIFIED**
-  - ✅ Sources trống: **2 concepts fixed; 0 empty Sources remaining**
-  - ✅ Key ideas <3: **reviewed; only `retail-trading-fantasy.md` required expansion and was fixed**
-  - ⏭️ Summary 1 dòng: **IGNORED by Julius**
-  - ⏸️ Status draft: **not approved in this pass**
-- ✅ Hygiene Inspector — 2026-06-12: **PROMOTE** (0 issues)
-- ✅ Format Validator — 2026-06-06: **APPLIED** (6 files)
-- ✅ Output Validator — 2026-06-06: **APPROVED**
-- ✅ Hygiene Inspector — 2026-06-06: **PROMOTE**
-- ✅ Format Validator — 2026-06-03: **APPLIED** (5 files)
-- ✅ Output Validator — 2026-06-03: **APPROVED**
-- ✅ Hygiene Inspector — 2026-06-03: **PROMOTE**
+- ⏳ Format Validator — 2026-06-22: **PENDING APPROVAL** (450 issues: 132 ERROR, 318 WARNING, 0 INFO)
+- ⏳ Output Validator — 2026-06-22: **PENDING APPROVAL** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
+- ⏳ Hygiene Inspector — 2026-06-22: **PENDING APPROVAL** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+- ⏳ Format Validator — 2026-06-19: **PENDING APPROVAL** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
+- ⏳ Output Validator — 2026-06-19: **PENDING APPROVAL** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
+- ⏳ Hygiene Inspector — 2026-06-19: **PENDING APPROVAL** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
 
 ---
 
 ## Pending Reports
+
+### ⏳ Format Validation — 2026-06-22
+
+**File:** [2026-06-22_format-report.md](2026-06-22_format-report.md)
+**Status:** pending
+**Created:** 2026-06-22 08:20
+**Issues:** 450 (132 ERROR, 318 WARNING, 0 INFO)
+**Files affected:** 563 checked (324 concepts + 99 sources + 31 indexes + 109 topics)
+
+**Summary:**
+- 109 ERROR: All topic files (`wiki/topic/*.md`) missing YAML frontmatter — systemic Index Agent issue (carry-over from 06-19)
+- 11 ERROR: `main_tag: psychology` on 9 concepts + 2 sources — `psychology` is Pool B only
+- 8 ERROR: Code blocks missing language tags (7 concepts + 1 source)
+- 4 ERROR: `wiki/tag/tag.md` missing `parent`, `items_managed_by` fields + `## Parent` section
+- 272 WARNING: Broken wikilinks (forward-references to uncompiled concepts)
+- 21 WARNING: Tag files use unquoted `parent: [[tag]]` parsed as nested YAML list (SPEC CONFLICT)
+- 2 WARNING: Field order mismatch + missing raw file in original wikilink
+
+**Escalations:**
+- `[SYSTEMATIC VIOLATION]` Topic files without frontmatter (109 files) — Index Agent needs update
+- `[SPEC CONFLICT]` Unquoted wikilinks — index-spec.md shows unquoted, format-spec.md requires quoted
+
+**Actions:**
+- `approve format` — approve this report
+- `reject format` — reject this report
+- `show format` — show full report details
+
+---
+
+### ⏳ Output Validation — 2026-06-22
+
+**File:** [2026-06-22_output-report.md](2026-06-22_output-report.md)
+**Status:** pending
+**Created:** 2026-06-22 08:20
+**Issues:** 5 (0 ERROR, 3 WARNING, 2 INFO)
+**Files affected:** 24 new (6 sources + 18 concepts)
+
+**Summary:**
+- 1 systemic WARNING: 322 concepts with 1-sentence definitions (Compile Agent template — Julius deprioritized in 06-12)
+- 1 WARNING: 82 concepts with <5 key points (content depth, needs re-compile)
+- 1 WARNING: "ngưởi" typo still in 10 files (unfixed since 06-17)
+- 2 INFO: 154 draft concepts, mixed EN/VN language in new batch
+
+**Actions:**
+- `approve output` — approve this report
+- `reject output` — reject this report
+- `show output` — show full report details
+
+---
+
+### ⏳ Hygiene Inspection — 2026-06-22
+
+**File:** [2026-06-22_hygiene-report.md](2026-06-22_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-06-22 08:20
+**Issues:** 4 (0 ERROR, 4 WARNING, 0 INFO)
+**Paths checked:** 27
+
+**Summary:**
+- 4 WARNING: Archived -v2 duplicate reports in `wiki/reviews/archive/2026-06/`
+  - `2026-06-01_output-report-v2.md`
+  - `2026-06-03_output-report-v2.md`
+  - `2026-06-01_format-report-v2.md`
+  - `2026-06-01_hygiene-report-v2.md`
+- 0 ERROR: Root structure clean, all whitelisted paths compliant
+- 0 active naming violations
+
+**Actions:**
+- `approve hygiene` — approve this report
+- `reject hygiene` — reject this report
+- `show hygiene` — show full report details
+
+---
 
 ### ⏳ Format Validation — 2026-06-19
 

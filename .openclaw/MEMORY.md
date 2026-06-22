@@ -261,3 +261,23 @@ All raw files updated with `status: processed` and `compiled_to` links.
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 1234
 - **Errors:** 0 files skipped due to invalid frontmatter
+
+
+## 2026-06-22 21:07:10 — Indexed
+
+- **Scanned:** 324 concepts + 99 sources = 423 total files
+- **Tags indexed:** 0 (0 main-tags + 0 sub-tags)
+- **Topics indexed:** 115
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 1234
+- **Errors:** 0 files skipped due to invalid frontmatter
+
+
+## 2026-06-22 21:07:44 — Indexed
+
+- **Scanned:** 324 concepts + 99 sources = 423 total files
+- **Tags indexed:** 23 (9 main-tags + 14 sub-tags)
+- **Topics indexed:** 115
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 11
+- **Errors:** 0 files skipped due to invalid frontmatter

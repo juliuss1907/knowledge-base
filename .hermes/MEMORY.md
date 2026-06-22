@@ -10,6 +10,16 @@
 
 ---
 
+## 2026-06-22 23:30 — Hygiene inspection
+
+- **Paths checked:** 29
+- **Issues found:** 1 (0 ERROR, 1 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-22_hygiene-report.md
+- **Top violations:**
+  - WARNING: `.last_heartbeat` hidden file at root level — heartbeat artifact leaked from agent runtime
+  - 0 ERROR: Root structure clean, all whitelisted paths compliant
+  - 0 naming convention violations across all active content zones
+
 ## 2026-06-19 23:30:00 — Hygiene inspection
 
 - **Paths checked:** 27

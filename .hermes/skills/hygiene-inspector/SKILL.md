@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.2
-last_updated: 2026-06-17
+version: 1.3
+last_updated: 2026-06-22
 ---
 
 # Hygiene Inspector
@@ -437,6 +437,8 @@ When invoked as a scheduled cron job, `execute_code` is blocked by `approvals.cr
 
 See `references/scan-script.py` for a known-good scan template.
 
+**⚠️ Pitfall:** The scan script handles Vietnamese diacritics via `\u` Unicode escapes. Do NOT use Python raw strings (`r'...'`) for regex patterns containing `\u` — raw strings treat `\u` literally, causing all naming checks to return false positives (hundreds of spurious WARNINGs). The corrected template in `references/scan-script.py` uses a non-raw `SLUG_CHARS` variable with single `\u` escapes, interpolated into regex patterns that use double-backslash escapes (`\\d`, `\\.`).
+
 ---
 
 ## Agent home scanning rule
@@ -486,6 +488,7 @@ Hygiene Inspector always processes entire KB in one run:
 | Permission denied on path | Skip path, log warning |
 | Disk full / Permission denied | Stop, alert Julius |
 | `execute_code` blocked (cron mode) | Use `write_file` + `terminal` workaround — see `references/scan-script.py` |
+| `\u` Unicode escapes in raw strings produce false positives | Python raw strings (`r'...'`) do NOT process `\u` escapes — all naming checks fail silently. Use non-raw strings with double-backslash regex escapes (`\\d`) + single `\u` for Unicode. See top-of-file comment in `references/scan-script.py`. |
 | Duplicate issues from os.walk + explicit checks | Deduplicate by `(path, issue)` tuple before reporting |
 
 ---
@@ -517,6 +520,15 @@ Typical validation times (daily runs):
 - Naming convention violations
 
 If systematic violations found, review agent SKILL.md files and update to match folder-structure.md.
+
+---
+
+## Version History
+
+| Version | Date | Changes |
+|---|---|---|
+| 1.3 | 2026-06-22 | Fixed `references/scan-script.py`: replaced raw-string regex patterns with non-raw strings to correctly handle `\u` Unicode escapes (Vietnamese diacritics). Raw strings treat `\u` literally — caused 722 false WARNINGs across all naming checks. Added pitfall to cron section and failure modes. |
+| 1.2 | 2026-06-17 | Initial release with scan script, common patterns reference, cron workaround. |
 
 ---
 

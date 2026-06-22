@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-22 22:30
+**Last updated:** 2026-06-22 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** `_approval-log.md` entry 2026-06-22 14:30
 
@@ -66,6 +66,23 @@
 **Escalations:** `[SYSTEMATIC VIOLATION]` Topic files without frontmatter, `[SPEC CONFLICT]` Unquoted wikilinks — both carried over from 06-17, approved 06-22 morning.
 
 **Report:** `wiki/reviews/2026-06-22_format-report.md`
+
+---
+
+### 🔴 Hygiene Inspection — 2026-06-22 (23:30 Update)
+
+**File:** [2026-06-22_hygiene-report.md](2026-06-22_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-06-22 23:30
+**Issues:** 1 (0 ERROR, 1 WARNING, 0 INFO)
+**Paths checked:** 29
+
+**Summary:**
+- 1 WARNING: `.last_heartbeat` hidden file at root level — only `.gitignore` allowed. Heartbeat artifact leaked from agent runtime.
+- 0 ERROR: Root structure clean, all whitelisted paths compliant
+- 0 naming convention violations across all active content zones (raw/, wiki/concepts/, wiki/sources/, wiki/tag/, wiki/topic/, wiki/drafts/, wiki/reviews/)
+
+**Report:** `wiki/reviews/2026-06-22_hygiene-report.md`
 
 ---
 

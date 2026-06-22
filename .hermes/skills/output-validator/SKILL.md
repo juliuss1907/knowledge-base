@@ -313,6 +313,21 @@ For Vietnamese quality checks:
 - If `english_words > vietnamese_count * 3` and `vietnamese_count > 0` → flag as "English-heavy"
 - If `vietnamese_count == 0` and `english_words > 50` → flag as "English-only"
 
+### Multiple runs per day (pre-existing approved report)
+
+When the validator runs and finds `wiki/reviews/YYYY-MM-DD_output-report.md` already exists AND is marked **APPROVED** in `_action-required.md`, do NOT skip validation. Instead:
+
+1. **Find files newer than the existing report:**
+   ```bash
+   find wiki/sources/ wiki/concepts/ -name "*.md" -newer wiki/reviews/YYYY-MM-DD_output-report.md -type f
+   ```
+2. **If new files exist:** validate only those files, produce an updated report. Title it `# Output Validator Report — YYYY-MM-DD (HH:MM Update)`. Include a `**Previous run:**` field linking to the approved morning report.
+3. **If no new files:** log "No new files since last approved report" to MEMORY.md and respond with `[SILENT]`.
+4. **When overwriting the approved report:** clearly mark the new report as `**Status:** pending` and note that the previous version was approved. Add a section summarizing the morning report's findings for continuity.
+5. **In _action-required.md:** add the new run as a separate "Pending" entry while keeping the morning run under "Approved." Both entries share the same date but have different timestamps.
+
+**Pattern (2026-06-22):** Morning report at 08:20 (24 new files, approved). Evening run at 22:00 found 11 additional files. Produced updated report noting the overlap, highlighting that "ngưởi" typo count dropped from 10→1 (Fix Agent resolved 9 between runs).
+
 ### Cron working directory
 
 When running as a scheduled cron job, the session working directory may be `$HOME` (e.g., `/home/julius`) rather than the knowledge-base directory. The `search_files` and `read_file` tools resolve relative paths from the session cwd, so `wiki/sources/` will fail.

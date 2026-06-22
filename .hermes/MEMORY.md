@@ -355,3 +355,18 @@
   - **WARNING (Systemic):** "ngưởi" typo still in 10 files — unfixed since 06-17 (none in today's new files)
   - **INFO:** All new files carry `status: draft` + mixed EN/VN language
 - **Overall:** Clean batch — no truncated files, no broken wikilinks, no empty sections. Main quality gap is 1-sentence definitions across all new concepts (likely root cause: Compile Agent template).
+
+## 2026-06-22 22:00:00 — Output validation (evening update)
+
+- **Files checked:** 423 (99 sources + 324 concepts)
+- **New files since morning:** 11 (5 concepts + 6 sources, compiled afternoon)
+- **Morning report:** 2026-06-22 08:20 — **APPROVED** by Julius (24 new files, 5 issues)
+- **Issues found (afternoon):** 5 (0 ERROR, 2 WARNING, 3 INFO)
+- **Report:** wiki/reviews/2026-06-22_output-report.md (overwritten with 22:00 update)
+- **Top issues:**
+  - **WARNING:** "Ngưởi" typo — 1 file remaining (was 10 in morning; Fix Agent resolved 9, missed `src_tai-chinh-ca-nhan-9-ban-co-ang-thuc.md`)
+  - **WARNING:** 7 broken wikilinks in new concepts — forward references to uncompiled targets (same systemic pattern)
+  - **INFO:** 2 Vietnamese spacing typos (`thờigian` in ai-coach-prompting.md, `thờiai` in ai-first-business-model.md)
+  - **INFO:** 1 source missing Published date in Metadata (`src_how-average-people-will-get-rich-with-ai.md`)
+  - **INFO:** All 11 afternoon files carry `status: draft`
+- **Overall:** Afternoon batch cleaner than morning — definitions are 2-3 sentences (not 1), no truncated files, no empty sections. "Ngưởi" typo count dropped from 10→1.

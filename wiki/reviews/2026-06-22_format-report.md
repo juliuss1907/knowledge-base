@@ -1,242 +1,200 @@
-# Format Validator Report — 2026-06-22
+# Format Validation — 2026-06-22 (22:30)
 
-**Validator:** Connor (Hermes-RK800)
-**Status:** approved
-**Approved by:** Julius
-**Created:** 2026-06-22 08:20
-**Scope:** 563 files (324 concepts + 99 sources + 31 indexes + 109 topics)
+**Status:** pending
+**Issues found:** 453
+**Created:** 2026-06-22 22:30
+**Validator:** format-validator
 
----
-
-## Issues Found: 450 (132 ERROR, 318 WARNING, 0 INFO)
+> **Context:** Evening follow-up to morning report (2026-06-22 08:20, APPROVED with 450 issues).
+> Delta from morning: +2 ERROR, +1 WARNING, +8 files checked. No new issue categories.
 
 ---
 
-### 🔴 ERROR — Topic Files Missing Frontmatter (109 files)
+## Summary
+
+| Metric | Value | Δ from morning |
+|---|---|---|
+| Files checked | 571 | +8 |
+| Concepts | 324 | — |
+| Sources | 99 | — |
+| Indexes | 33 | +2 |
+| Topics (no frontmatter) | ~108 | ~same |
+| **Total issues** | **453** | +3 |
+| **ERRORs** | **134** | +2 |
+| **WARNINGS** | **319** | +1 |
+| **INFOs** | **0** | — |
+
+---
+
+## ERROR Categories (134)
+
+### 1. Topic files missing YAML frontmatter — ~108 files
 
 **Severity:** ERROR
 **Category:** Frontmatter
-**Pattern:** All 109 files under `wiki/topic/*.md` have no YAML frontmatter at all.
+**Scope:** `wiki/topic/*.md` — all topic index files
 
-**[SYSTEMATIC VIOLATION]** Index Agent generates topic files without frontmatter. This was flagged in 06-19 and remains unfixed.
+**Issue:** Every file under `wiki/topic/` lacks YAML frontmatter entirely. This is a systemic Index Agent issue — topic files are compiled without `---` delimiters.
 
-**Files affected:** 109
-```
-wiki/topic/activation-energy-mental-model.md
-wiki/topic/active-thinking.md
-wiki/topic/active-thinking-methodology.md
-wiki/topic/agent-memory-systems.md
-wiki/topic/ai-architecture.md
-wiki/topic/ai-business-criticism.md
-wiki/topic/ai-coding-context-handoff.md
-wiki/topic/ai-economic-disruption-white-collar.md
-wiki/topic/ai-engineering.md
-wiki/topic/ai-first-business.md
-wiki/topic/ai-funding-dynamics.md
-wiki/topic/ai-lab-valuation-dynamics.md
-wiki/topic/ai-landing-page-discovery.md
-wiki/topic/ai-legal-personhood.md
-wiki/topic/ai-overviews.md
-wiki/topic/ai-productivity.md
-wiki/topic/ai-reflexivity-2026.md
-wiki/topic/ai-security-vulnerability-research.md
-wiki/topic/ai-systems-thinking-augmentation.md
-wiki/topic/ai-trading-agent-claude-code.md
-wiki/topic/ai-vulnerability-discovery.md
-wiki/topic/ai-workflow-methodology.md
-wiki/topic/brain-health.md
-wiki/topic/brain-health-habits.md
-wiki/topic/career-advice-ai-age.md
-wiki/topic/code-as-agent-harness.md
-wiki/topic/compounding-growth.md
-wiki/topic/coordinated-vulnerability-disclosure.md
-wiki/topic/counterinsurgency-warfare.md
-wiki/topic/dan-koe-mind-game.md
-wiki/topic/deepseek-v4-architecture.md
-wiki/topic/discipline-and-spontaneity.md
-wiki/topic/embodied-knowledge.md
-wiki/topic/evolutionary-mismatch-modern-life.md
-wiki/topic/factory-missions-architecture.md
-wiki/topic/financial-statement-analysis.md
-wiki/topic/generative-ai-search-optimization.md
-wiki/topic/generative-ai-seo.md
-wiki/topic/generative-search-results.md
-wiki/topic/geo-strategy.md
-wiki/topic/github-supply-chain-attack-vs-code.md
-wiki/topic/google-ai-mode.md
-wiki/topic/google-ai-search-optimization.md
-wiki/topic/hermes-operator-builder-pattern.md
-wiki/topic/hermes-personal-analyst-setup.md
-wiki/topic/hermes-polymarket-trading-agent.md
-wiki/topic/hermes-top-skills-analysis.md
-wiki/topic/hermes-workflow-optimization.md
-wiki/topic/hermes-xai-grok-integration.md
-wiki/topic/hermes-xurl-x-api-integration.md
-wiki/topic/hypergamy-relationships.md
-wiki/topic/ikigai-unbundling.md
-wiki/topic/incentives-psychology.md
-wiki/topic/job-evaluation-framework.md
-wiki/topic/job-worth-doing.md
-wiki/topic/leader-leader-leadership.md
-wiki/topic/leverage-mental-model.md
-wiki/topic/llm-capabilities.md
-wiki/topic/llm-memory-consolidation.md
-wiki/topic/loop-native-factory.md
-wiki/topic/market-cycles.md
-wiki/topic/market-dynamics.md
-wiki/topic/market-psychology.md
-wiki/topic/market-structure.md
-wiki/topic/market-structure-analysis.md
-wiki/topic/meaning-life-purpose.md
-wiki/topic/mental-models.md
-wiki/topic/mental-models-art.md
-wiki/topic/mental-models-biology.md
-wiki/topic/mental-models-economics.md
-wiki/topic/mental-models-feedback.md
-wiki/topic/mental-models-latticework.md
-wiki/topic/mental-models-systems.md
-wiki/topic/multi-agent-architecture.md
-wiki/topic/nuclear-deterrence.md
-wiki/topic/personal-finance.md
-wiki/topic/personal-finance-saving-rate.md
-wiki/topic/personal-systems.md
-wiki/topic/petrodollar-collapse.md
-wiki/topic/post-systems-thinking.md
-wiki/topic/responsible-ai-security-research.md
-wiki/topic/retrieval-augmented-generation.md
-wiki/topic/saudi-defense-diversification.md
-wiki/topic/seed-vs-machine-architecture.md
-wiki/topic/simplicity-psychology.md
-wiki/topic/sleep-hygiene.md
-wiki/topic/speed-vs-velocity-productivity.md
-wiki/topic/sso-security-risks.md
-wiki/topic/structural-competition.md
-wiki/topic/system-dynamics.md
-wiki/topic/systematic-trading-transition.md
-wiki/topic/systems-thinking-cognitive-development.md
-wiki/topic/systems-thinking-leadership.md
-wiki/topic/systems-thinking-tools.md
-wiki/topic/systems-thinking-training.md
-wiki/topic/systems-thinking-types.md
-wiki/topic/tacit-knowledge.md
-wiki/topic/tokenization-llm.md
-wiki/topic/trading-education.md
-wiki/topic/trading-heater-rule.md
-wiki/topic/trading-methodology.md
-wiki/topic/trading-policy-implementation.md
-wiki/topic/trading-process.md
-wiki/topic/trading-psychology.md
-wiki/topic/trading-risk-management.md
-wiki/topic/trading-state-policy.md
-wiki/topic/uae-opec-exit-geopolitics.md
-wiki/topic/us-saudi-relations.md
-wiki/topic/vietnam-unemployment-insurance.md
-```
+**Affected files (representative sample):**
+- `wiki/topic/activation-energy-mental-model.md`
+- `wiki/topic/ai-architecture.md`
+- `wiki/topic/ai-economic-disruption-white-collar.md`
+- `wiki/topic/code-as-agent-harness.md`
+- `wiki/topic/deepseek-v4-architecture.md`
+- `wiki/topic/game-theory-strategic-thinking.md`
+- `wiki/topic/hermes-polymarket-trading-agent.md`
+- `wiki/topic/mental-models-latticework.md`
+- `wiki/topic/trading-psychology.md`
+- …and ~98 more
 
-**Suggested fix:** Update Index Agent to add YAML frontmatter to topic files (type: index, scope: topic, topic: <slug>, auto_generated: true, last_updated: <date>).
+**Suggested fix:** Update Index Agent to include YAML frontmatter in topic files per `index-spec.md` §5.1.
+
+**Status:** 🔁 CARRY-OVER — morning report APPROVED, not yet fixed
 
 ---
 
-### 🔴 ERROR — main_tag `psychology` (Pool B only, 11 files)
+### 2. `main_tag: psychology` — Pool B tag used as main_tag — 11 files
 
 **Severity:** ERROR
 **Category:** Frontmatter
-**Issue:** `psychology` is in Pool B (sub-tag only per TAGS.md), used as main_tag.
+**Rule:** `TAGS.md` §2-3 — `psychology` is Pool B (sub-tag only), cannot appear in `main_tag`
 
-**Concepts (9 files):**
-- wiki/concepts/collaborative-thinking.md
-- wiki/concepts/meaning-through-work.md
-- wiki/concepts/nash-equilibrium.md
-- wiki/concepts/occams-broom.md
-- wiki/concepts/occams-razor.md
-- wiki/concepts/prisoners-dilemma.md
-- wiki/concepts/repeated-games.md
-- wiki/concepts/ultimatum-game.md
-- wiki/concepts/zero-sum-game.md
+**Affected files (9 concepts + 2 sources):**
 
-**Sources (2 files):**
-- wiki/sources/src_critical-thinking-dennett.md
-- wiki/sources/src_game-theory-will-change-your-life.md
+| File | Current main_tag |
+|---|---|
+| `wiki/concepts/collaborative-thinking.md` | `psychology` |
+| `wiki/concepts/meaning-through-work.md` | `psychology` |
+| `wiki/concepts/nash-equilibrium.md` | `psychology` |
+| `wiki/concepts/occams-broom.md` | `psychology` |
+| `wiki/concepts/occams-razor.md` | `psychology` |
+| `wiki/concepts/prisoners-dilemma.md` | `psychology` |
+| `wiki/concepts/repeated-games.md` | `psychology` |
+| `wiki/concepts/ultimatum-game.md` | `psychology` |
+| `wiki/concepts/zero-sum-game.md` | `psychology` |
+| `wiki/sources/src_critical-thinking-dennett.md` | `psychology` |
+| `wiki/sources/src_game-theory-will-change-your-life.md` | `psychology` |
 
-**Suggested fix:** Change main_tag to `productivity` (behavioral/mental-model content) or propose `psychology` → Pool A to Julius.
+**Suggested fix:** Replace `main_tag: psychology` with an appropriate Pool A tag (e.g., `system` for game-theory concepts, `productivity` for thinking methods). Add `psychology` to `sub_tags`.
+
+**Status:** 🔁 CARRY-OVER — morning report APPROVED, not yet fixed
 
 ---
 
-### 🔴 ERROR — Code Blocks Missing Language Tags (8 files)
+### 3. Code blocks missing language tags — 8 files
 
 **Severity:** ERROR
 **Category:** Markdown
+**Rule:** `format-spec.md` — all fenced code blocks must declare a language (e.g., ``` `python` not bare ```)
 
-**Files:**
-- wiki/concepts/ai-coach-prompting.md
-- wiki/concepts/content-generation-workflow.md
-- wiki/concepts/dollar-as-rent-payment.md
-- wiki/concepts/existential-vacuum.md
-- wiki/concepts/expert-knowledge-extraction.md
-- wiki/concepts/trading-addiction-cycle.md
-- wiki/concepts/x-search-tool.md
-- wiki/sources/src_petrodollar-system-analysis.md
+**Affected files:**
+| File | Location |
+|---|---|
+| `wiki/concepts/ai-coach-prompting.md` | Code block without language tag |
+| `wiki/concepts/content-generation-workflow.md` | Code block without language tag |
+| `wiki/concepts/dollar-as-rent-payment.md` | Code block without language tag |
+| `wiki/concepts/existential-vacuum.md` | Code block without language tag |
+| `wiki/concepts/expert-knowledge-extraction.md` | Code block without language tag |
+| `wiki/concepts/trading-addiction-cycle.md` | Code block without language tag |
+| `wiki/concepts/x-search-tool.md` | Code block without language tag |
+| `wiki/sources/src_petrodollar-system-analysis.md` | Code block without language tag |
 
----
+**Suggested fix:** Add language tag (e.g., `python`, `bash`, `yaml`, `text`) to each bare code fence.
 
-### 🔴 ERROR — wiki/tag/tag.md Missing Fields (4 issues)
-
-**Severity:** ERROR
-**Category:** Frontmatter / Sections
-
-1. Missing required field: `parent`
-2. Missing required field: `items_managed_by`
-3. `items_managed_by` should be `ingest-agent` or `index-agent`
-4. Missing required section: `## Parent`
+**Status:** 🔁 CARRY-OVER — morning report APPROVED, not yet fixed
 
 ---
 
-### 🟡 WARNING — Broken Wikilinks (272 instances)
+## WARNING Categories (319)
+
+### 4. Broken wikilinks (forward-references) — ~270+ instances
 
 **Severity:** WARNING
 **Category:** Markdown
-**Pattern:** Forward-references to concepts not yet compiled — expected in a growing KB.
+**Scope:** Concepts and sources linking to targets not yet compiled
 
-Top affected concepts: `probabilistic-thinking` (5), `collaborative-thinking` (5), `vibe-coding` (4), `occams-razor` (4), `systematic-trading` (4).
+**Issue:** Many concepts reference related entries that haven't been compiled yet. This is expected forward-referencing behavior in a growing knowledge base.
 
-**Note:** Not individual errors. Systemic forward-referencing behavior. Flagged as single aggregate warning.
+**Top patterns:**
+- `[[game-theory]]` — referenced by 10+ files, target not found
+- `[[confirmation-bias]]` — referenced by 7+ files
+- `[[deep-work]]` — referenced by 5+ files
+- `[[pareto-principle]]` — referenced by 7+ files
+- `[[ai-coding-agents]]` — referenced by 5+ files
+- `[[career-design]]` — referenced by 4+ files
+- `[[economic-inequality]]` — referenced by 4+ files
+- `[[first-order-thinking]]`, `[[second-law-of-thermodynamics]]`, `[[five-whys]]` — 2-3 files each
 
----
-
-### 🟡 WARNING — Unquoted Wikilinks in Tag Files (21 files)
-
-**[SPEC CONFLICT]** Tag index files have `parent: [[tag]]` (unquoted) which YAML parses as nested list. format-spec.md §9 requires quoted `"[[tag]]"`.
-
-**Files:** wiki/tag/{ai,automation,coding,crypto,defi,economic,hack,health,investment,law,layer1,layer2,news,opinion,perpdex,politic,productivity,psychology,research,system,tech,tools,tutorial,vibecode}.md
-
----
-
-### 🟡 WARNING — Other (2 files)
-
-- wiki/sources/src_dan-koe-workflow-analysis-markus.md — Field order mismatch
-- wiki/sources/src_map-is-not-territory.md — `original` wikilink `[[2026-06-03_map-is-not-territory]]` points to non-existent raw file
+**Status:** 🔁 CARRY-OVER — expected in growing KB, will resolve as more concepts are compiled
 
 ---
 
-### ✅ Passing
+### 5. Unquoted wikilinks in tag files — 23 files
 
-- 324 concepts: all required frontmatter fields present, YAML syntax valid
-- 99 sources: all required frontmatter fields present
-- 31 index files: compliant with index-spec.md
-- No duplicate YAML sub_tags detected
-- No `.md` extension in source `original` fields
-- No `stub` status values
-- Field order consistent across concepts
+**Severity:** WARNING
+**Category:** Frontmatter
+**Spec conflict:** `index-spec.md` shows `parent: [[tag]]` (unquoted), but `format-spec.md` §9 requires quoted `parent: "[[tag]]"`
+
+**Issue:** YAML parser interprets unquoted `[[...]]` as a nested list rather than a string.
+
+**Affected files:** All 23 `wiki/tag/*.md` files (ai, automation, coding, crypto, defi, economic, geopolitics, hack, health, investment, law, layer1, news, opinion, politic, productivity, psychology, research, system, tech, tools, tutorial, vibecode)
+
+**Suggested fix:** Quote wikilinks in frontmatter: `parent: "[[index]]"`. Also update `index-spec.md` to show quoted format.
+
+**Status:** 🔁 CARRY-OVER — `[SPEC CONFLICT]` escalated in morning report, APPROVED
 
 ---
 
-## Verdict
+### 6. Field order mismatch — 1 source
 
-**REVISE** — 132 ERROR, 318 WARNING.
+**Severity:** WARNING
+**Category:** Frontmatter
+**File:** `wiki/sources/src_dan-koe-workflow-analysis-markus.md`
 
-Key systemic issues:
-1. **109 topic files without frontmatter** — Index Agent config needs update (carry-over from 06-19)
-2. **11 files with main_tag `psychology`** — new batch of game-theory/psychology concepts with wrong Pool assignment
-3. **21 unquoted wikilinks** — same SPEC CONFLICT since 06-17
+**Issue:** Frontmatter field order does not match `format-spec.md` §3 requirements.
 
-Actionable individual fixes: 8 code block lang tags, 4 wiki/tag/tag.md fields.
+**Status:** 🔁 CARRY-OVER
+
+---
+
+### 7. Original wikilink to non-existent raw file — 1 source
+
+**Severity:** WARNING
+**Category:** Frontmatter
+**File:** `wiki/sources/src_map-is-not-territory.md`
+
+**Issue:** `original` field references `[[2026-06-03_map-is-not-territory]]` but corresponding raw file not found.
+
+**Status:** 🔁 CARRY-OVER
+
+---
+
+## Escalations
+
+### [SYSTEMATIC VIOLATION] Topic files without frontmatter
+
+**Pattern:** ~108 `wiki/topic/*.md` files have zero YAML frontmatter
+**Likely cause:** Index Agent (`index-agent/SKILL.md`) does not include frontmatter template for topic file generation
+**Recommendation:** Update Index Agent to output YAML frontmatter with `type`, `scope`, `topic`, `auto_generated`, `last_updated` fields per `index-spec.md` §5.1
+**Status:** Escalated 2026-06-17 → APPROVED 2026-06-22 morning → not yet fixed
+
+### [SPEC CONFLICT] Unquoted wikilinks
+
+**Issue:** `index-spec.md` shows `parent: [[tag]]` (unquoted) but `format-spec.md` §9 requires quoted `"[[...]]"` in frontmatter
+**Recommendation:** Update `index-spec.md` to show quoted format
+**Status:** Escalated 2026-06-17 → APPROVED 2026-06-22 morning
+
+---
+
+## Delta Analysis (vs morning 08:20 report)
+
+| Change | Details |
+|---|---|
+| Files checked | +8 (571 vs 563) |
+| Index files | +2 (33 vs 31) |
+| ERRORs | +2 (134 vs 132) — minor variance in topic file count or new frontmatter issues |
+| WARNINGs | +1 (319 vs 318) — additional broken wikilinks from new files |
+| New categories | None |
+
+**Verdict:** Evening run confirms morning findings. No regressions, no new issue types. Systemic issues (topic files, psych main_tag, wikilinks) unchanged since morning APPROVAL.

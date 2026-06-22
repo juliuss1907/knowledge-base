@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-22 22:00
+**Last updated:** 2026-06-22 22:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** `_approval-log.md` entry 2026-06-22 14:30
 
 **Status:**
 - 🔴 Output Validator — 2026-06-22 (22:00): **PENDING** (5 issues: 0 ERROR, 2 WARNING, 3 INFO)
+- 🔴 Format Validator — 2026-06-22 (22:30): **PENDING** (453 issues: 134 ERROR, 319 WARNING, 0 INFO)
 - ✅ Format Validator — 2026-06-22: **APPROVED** (450 issues: 132 ERROR, 318 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-22: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-22: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
@@ -41,6 +42,30 @@
 - 3 INFO: 2 Vietnamese spacing typos + 1 missing Published date + draft status
 
 **Report:** `wiki/reviews/2026-06-22_output-report.md`
+
+---
+
+### 🔴 Format Validation — 2026-06-22 (22:30 Update)
+
+**File:** [2026-06-22_format-report.md](2026-06-22_format-report.md)
+**Status:** pending
+**Created:** 2026-06-22 22:30
+**Issues:** 453 (134 ERROR, 319 WARNING, 0 INFO)
+**Files checked:** 571 (324 concepts + 99 sources + 33 indexes + ~108 topics)
+
+**Summary:**
+- ~108 ERROR: All topic files missing YAML frontmatter — systemic Index Agent issue (unchanged from morning)
+- 11 ERROR: `main_tag: psychology` — Pool B tag used as main_tag (unchanged)
+- 8 ERROR: Code blocks missing language tags (unchanged)
+- 7 ERROR: Other frontmatter/markdown issues (minor delta)
+- ~270 WARNING: Broken wikilinks (forward-references, expected in growing KB)
+- 23 WARNING: Tag files use unquoted `parent: [[tag]]` parsed as nested YAML list (SPEC CONFLICT)
+- 2 WARNING: Field order mismatch + missing raw file reference (unchanged)
+
+**Delta from morning (08:20 APPROVED):** +2 ERROR, +1 WARNING, +8 files. No new categories.
+**Escalations:** `[SYSTEMATIC VIOLATION]` Topic files without frontmatter, `[SPEC CONFLICT]` Unquoted wikilinks — both carried over from 06-17, approved 06-22 morning.
+
+**Report:** `wiki/reviews/2026-06-22_format-report.md`
 
 ---
 

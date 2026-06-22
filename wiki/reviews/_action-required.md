@@ -4,23 +4,43 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-22 14:30
+**Last updated:** 2026-06-22 22:00
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0 — all pending reports approved 2026-06-22
+**Pending reports awaiting review:** 1
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** `_approval-log.md` entry 2026-06-22 14:30
 
 **Status:**
+- 🔴 Output Validator — 2026-06-22 (22:00): **PENDING** (5 issues: 0 ERROR, 2 WARNING, 3 INFO)
 - ✅ Format Validator — 2026-06-22: **APPROVED** (450 issues: 132 ERROR, 318 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-22: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-22: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
 - ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+
+---
+
+## Pending — 2026-06-22
+
+### 🔴 Output Validation — 2026-06-22 (22:00 Update)
+
+**File:** [2026-06-22_output-report.md](2026-06-22_output-report.md)
+**Status:** pending
+**Created:** 2026-06-22 22:00
+**Issues:** 5 (0 ERROR, 2 WARNING, 3 INFO)
+**Files affected:** 11 new since morning report (5 concepts + 6 sources)
+
+**Summary:**
+- 1 WARNING: "Ngưởi" typo — 1 file remaining (was 10 in morning, Fix Agent resolved 9)
+- 1 WARNING: 7 broken wikilinks in new concepts (forward references, systemic)
+- 3 INFO: 2 Vietnamese spacing typos + 1 missing Published date + draft status
+
+**Report:** `wiki/reviews/2026-06-22_output-report.md`
 
 ---
 

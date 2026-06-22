@@ -22,7 +22,7 @@ original_author: Dan Koe
 
 ## Summary
 
-Phân tích chi tiết workflow từ bài viết của Dan Koe, hệ thống hóa thành 4 focus areas: Brand, Content, Product, Promotions. Markus nhấn mạnh đây là meta-skill — cách tự tạo prompt từ expert resource thay vì dùng prompt có sẵn. Workflow gồm 5 bước cốt lõi: tìm expert resource, feed vào AI, extract action plan, biến thành AI coach prompt, rồi dùng nó. Mỗi focus area có các bước mini-workflow cụ thể với prompt mẫu. Điểm mấu chốt là mỗi ngưởi sẽ có system khác nhau vì strategy được cá nhân hóa qua Phase 1 interview.
+Phân tích chi tiết workflow từ bài viết của Dan Koe, hệ thống hóa thành 4 focus areas: Brand, Content, Product, Promotions. Markus nhấn mạnh đây là meta-skill — cách tự tạo prompt từ expert resource thay vì dùng prompt có sẵn. Workflow gồm 5 bước cốt lõi: tìm expert resource, feed vào AI, extract action plan, biến thành AI coach prompt, rồi dùng nó. Mỗi focus area có các bước mini-workflow cụ thể với prompt mẫu. Điểm mấu chốt là mỗi người sẽ có system khác nhau vì strategy được cá nhân hóa qua Phase 1 interview.
 
 ## Key points
 
@@ -51,4 +51,4 @@ Phân tích chi tiết workflow từ bài viết của Dan Koe, hệ thống hó
 
 > "Đây không phải 'dùng prompt này để có kết quả.' Đây là cách tự build system cho riêng mình dựa trên expert knowledge + AI reasoning."
 
-> "Mỗi ngưởi sẽ có coach/content/product khác nhau vì strategy cá nhân hóa khác nhau."
+> "Mỗi người sẽ có coach/content/product khác nhau vì strategy cá nhân hóa khác nhau."

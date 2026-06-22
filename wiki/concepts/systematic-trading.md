@@ -13,7 +13,7 @@ last_updated: 2026-06-17
 
 ## Definition
 
-Phương pháp giao dịch sử dụng rules-based systems để tạo tín hiệu vào lệnh, quản lý vị thế, và thoát lệnh mà không cần can thiệp discretionary của trader. Mục tiêu là loại bỏ con ngưởi khỏi execution loop để tránh cognitive biases.
+Phương pháp giao dịch sử dụng rules-based systems để tạo tín hiệu vào lệnh, quản lý vị thế, và thoát lệnh mà không cần can thiệp discretionary của trader. Mục tiêu là loại bỏ con người khỏi execution loop để tránh cognitive biases.
 
 ## Key ideas
 

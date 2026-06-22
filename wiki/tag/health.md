@@ -2,7 +2,7 @@
 type: index
 level: 3
 scope: tag
-parent: [[tag]]
+parent: "[[tag"]]"
 tag: health
 auto_generated: true
 last_updated: 2026-06-20
@@ -12,7 +12,7 @@ last_updated: 2026-06-20
 
 ## Parent
 
-- [[tag]]
+- [[tag"]]"
 
 ## Stats
 

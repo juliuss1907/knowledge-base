@@ -20,13 +20,13 @@ author: Dan Koe
 
 ## Summary
 
-Dan Koe trình bày cách ngưởi bình thường có thể làm giàu bằng cách xây dựng AI-first business. Thay vì đưa ra prompt có sẵn, anh ấy dạy meta-skill: cách tự tạo prompt từ expert knowledge. Bài viết đề xuất 4 cách làm giàu, nhấn mạnh xây dựng cash flow business là khả thi nhất cho ngưởi có thờigian nhưng không có vốn. AI được xem là leverage để một ngưởi làm được nhiều việc hơn, nhanh hơn, với 4 skills cốt lõi: Content, Brand, Product, Promotions. Dan chia sẻ workflow 3 bước để dùng AI xây dựng personal brand: tìm expert resource, extract thành action plan, biến thành AI coach 2-phase.
+Dan Koe trình bày cách người bình thường có thể làm giàu bằng cách xây dựng AI-first business. Thay vì đưa ra prompt có sẵn, anh ấy dạy meta-skill: cách tự tạo prompt từ expert knowledge. Bài viết đề xuất 4 cách làm giàu, nhấn mạnh xây dựng cash flow business là khả thi nhất cho người có thờigian nhưng không có vốn. AI được xem là leverage để một người làm được nhiều việc hơn, nhanh hơn, với 4 skills cốt lõi: Content, Brand, Product, Promotions. Dan chia sẻ workflow 3 bước để dùng AI xây dựng personal brand: tìm expert resource, extract thành action plan, biến thành AI coach 2-phase.
 
 ## Key points
 
-1. **4 cách làm giàu:** Tiết kiệm (chậm), đầu tư (ít chậm hơn), xây dựng cash flow business (nhanh hơn), đầu tư dồi dào (dành cho ngưởi có vốn)
-2. **AI-first business:** Dùng AI làm leverage để một ngưởi làm việc hiệu quả bằng cả team nhỏ
-3. **Mọi business đều là media business:** Organic content là cách xây dựng brand lâu dài mà mọi ngưởi tin tưởng
+1. **4 cách làm giàu:** Tiết kiệm (chậm), đầu tư (ít chậm hơn), xây dựng cash flow business (nhanh hơn), đầu tư dồi dào (dành cho người có vốn)
+2. **AI-first business:** Dùng AI làm leverage để một người làm việc hiệu quả bằng cả team nhỏ
+3. **Mọi business đều là media business:** Organic content là cách xây dựng brand lâu dài mà mọi người tin tưởng
 4. **Personal branding:** Được trả tiền để là chính mình — không cần show face hay dùng tên thật, nhưng cần story, personality, mission
 5. **Digital product flywheel:** Test idea với social content → tạo digital product nhanh → cải thiện với feedback → mở rộng thành các offer khác
 6. **4 skills cần thiết:** Content (thu hút khách hàng), Brand (tạo trust), Product (để được trả tiền), Promotions (để được nhìn thấy)

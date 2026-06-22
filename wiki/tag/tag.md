@@ -2,11 +2,17 @@
 type: index
 level: 2
 scope: tags
+parent: "[[wiki]]"
 auto_generated: false
-last_updated: 2026-06-18
+items_managed_by: index-agent
+last_updated: 2026-06-22
 ---
 
 # Tag Index
+
+## Parent
+
+- [[wiki]]
 
 ## Overview
 
@@ -18,7 +24,7 @@ Index of all tags used in the knowledge base, organized by Pool A (main-tags) an
 - Main tags: 9
 - Sub tags: 12
 - Most used: #research (202), #productivity (161), #tools (147)
-- Last updated: 2026-06-19
+- Last updated: 2026-06-22
 
 ## Items
 

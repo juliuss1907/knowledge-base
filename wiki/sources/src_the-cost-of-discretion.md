@@ -21,14 +21,14 @@ author: Kieran Duff
 
 ## Summary
 
-Bài viết chia sẻ trải nghiệm cá nhân sau 7 năm giao dịch discretionary (thủ công) và quyết định chuyển sang systematic (tự động) vào 2024. Tác giả phân tích chi phí ẩn của discretionary trading: không phải lợi nhuận mà là reproducibility, capacity, và sự thật rằng "edge" và "good days" là hai thứ khác nhau. Bài viết chỉ ra 4 cognitive holes không thể discipline ra khỏi: loss aversion, recency bias, confirmation bias, sunk cost. Systematic trading cho phép loại bỏ con ngưởi khỏi execution loop, tạo khả năng scale và giải phóng thời gian.
+Bài viết chia sẻ trải nghiệm cá nhân sau 7 năm giao dịch discretionary (thủ công) và quyết định chuyển sang systematic (tự động) vào 2024. Tác giả phân tích chi phí ẩn của discretionary trading: không phải lợi nhuận mà là reproducibility, capacity, và sự thật rằng "edge" và "good days" là hai thứ khác nhau. Bài viết chỉ ra 4 cognitive holes không thể discipline ra khỏi: loss aversion, recency bias, confirmation bias, sunk cost. Systematic trading cho phép loại bỏ con người khỏi execution loop, tạo khả năng scale và giải phóng thời gian.
 
 ## Key points
 
 - Discretionary trading profitable sau 4 năm, nhưng bottleneck không phải edge mà chính là trader
 - 98% thời gian discretionary là vigilance (canh me), không phải decision-making. Nhiều ngày phải ngồi chờ setup
 - 4 cognitive holes: loss aversion (đau gấp đôi với cùng size), recency bias (10 trade gần nhất nặng hơn 500 trade trước), confirmation bias (uốn rule vì "market almost giving signal"), sunk cost (hold qua pain vì "đã chịu đựng nhiều rồi")
-- Không thể discipline ra khỏi các bias này - chỉ có thể loại bỏ con ngưởi khỏi execution loop
+- Không thể discipline ra khỏi các bias này - chỉ có thể loại bỏ con người khỏi execution loop
 - "Good discretionary day" nguy hiểm nhất: dạy bạn rằng "phiên bản bạn hôm đó" là thật, nhưng bạn hôm sau (mệt, con ốm) không giống bạn hôm trước
 - Systematic book scale được, chạy trong khi chăm sóc gia đình, accommodate 28 strategies across FX/indices/metals
 - Trade-off: engagement + agency + simplicity đổi lấy capacity

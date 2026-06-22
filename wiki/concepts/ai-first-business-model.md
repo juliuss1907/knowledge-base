@@ -13,7 +13,7 @@ last_updated: 2026-06-17
 
 ## Definition
 
-Mô hình kinh doanh sử dụng AI như một leverage để một ngưởi hoặc team nhỏ có thể làm được nhiều việc hơn, nhanh hơn, với chi phí thấp hơn truyền thống. AI không phải là sản phẩm mà là công cụ để thực hiện những gì đã được chứng minh hiệu quả một cách nhanh chóng hơn.
+Mô hình kinh doanh sử dụng AI như một leverage để một người hoặc team nhỏ có thể làm được nhiều việc hơn, nhanh hơn, với chi phí thấp hơn truyền thống. AI không phải là sản phẩm mà là công cụ để thực hiện những gì đã được chứng minh hiệu quả một cách nhanh chóng hơn.
 
 ## Key ideas
 
@@ -22,7 +22,7 @@ Mô hình kinh doanh sử dụng AI như một leverage để một ngưởi ho�
 3. **Digital product flywheel:** Test idea với content → Tạo digital product nhanh → Cải thiện với feedback → Mở rộng thành các offer khác
 4. **4 skills cốt lõi:** Content (thu hút khách), Brand (tạo trust), Product (để được trả tiền), Promotions (để được nhìn thấy)
 5. **Trust sẽ khan hiếm:** Khi AI tạo ra nhiều nội dung, personal brand đáng tin cậy sẽ có giá trị cao hơn
-6. **Một ngưởi = cả team:** AI cho phép individual có thể làm việc hiệu quả ngang với team nhờ automation và augmentation
+6. **Một người = cả team:** AI cho phép individual có thể làm việc hiệu quả ngang với team nhờ automation và augmentation
 
 ## Related concepts
 

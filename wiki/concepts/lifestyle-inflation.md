@@ -20,7 +20,7 @@ Hiện tượng chi tiêu tăng theo thu nhập, thường bắt đầu từ nh�
 - Không xảy ra đột ngột mà tích lũy qua các quyết định nhỏ: đổi xe, nâng cấp điện thoại, ăn nhà hàng sang...
 - "Chiếc thìa bạc" của Benjamin Franklin: từ bát đất + thìa thiếc → bát sứ + thìa bạc → đồ sứ và dĩa bạc hàng trăm bảng
 - Morgan Housel: "Tiết kiệm là khoảng trống giữa cái tôi và nguồn thu nhập"
-- Dùng tiền để mua "cái nhìn của ngưởi khác" - chi cho ego, không phải nhu cầu thực
+- Dùng tiền để mua "cái nhìn của người khác" - chi cho ego, không phải nhu cầu thực
 - Tỷ lệ tiết kiệm là biến số duy nhất bạn kiểm soát được (không thể kiểm soát thị trường)
 - Bài toán: tiết kiệm 50% lãi 8% đánh bại tiết kiệm 30% lãi 10% trong 40 năm đầu
 

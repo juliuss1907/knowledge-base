@@ -31,7 +31,7 @@ Bài viết phân tích tâm lý giao dịch sau khi có lãi lớn ("heater"). 
 - Dry powder (tiền mặt) là một vị thế - cho bạn optionality để tấn công cơ hội tiếp theo
 - Heater là một bài test: thị trường cho bạn tiền để xem bạn sẽ làm gì với nó
 - Framework hành động sau heater: (1) Pay yourself first - chốt lãi, (2) Giảm size ngay, (3) Chỉ giao dịch setup sạch nhất, (4) Tránh late entries, (5) Giữ dry powder
-- Trader sống sót không phải ngưởi biết khi nào đánh mạnh, mà là ngưởi biết khi nào dừng
+- Trader sống sót không phải người biết khi nào đánh mạnh, mà là người biết khi nào dừng
 
 ## Concepts referenced
 

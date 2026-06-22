@@ -251,3 +251,13 @@ All raw files updated with `status: processed` and `compiled_to` links.
 2026-06-22 | Ingested raw/articles/2026-06-22_nha-bao-lam-gi.md from vnexpress
 2026-06-22 | Ingested raw/posts/2026-06-22_gamification-app-truth.md from telegram
 2026-06-22 | Ingested raw/articles/2026-06-22_this-will-help-you-figure-out-what-you-want.md from substack
+
+
+## 2026-06-22 21:05:25 — Indexed
+
+- **Scanned:** 324 concepts + 99 sources = 423 total files
+- **Tags indexed:** 0 (0 main-tags + 0 sub-tags)
+- **Topics indexed:** 115
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 1234
+- **Errors:** 0 files skipped due to invalid frontmatter

@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `ai-landing-page-discovery`.
 
-Last updated: 2026-06-20 21:02:45
+Last updated: 2026-06-22 21:05:25
 
 ---
 

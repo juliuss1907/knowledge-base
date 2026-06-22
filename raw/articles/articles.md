@@ -20,13 +20,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 76 files
-- By status: 70 processed, 6 unprocessed
-- By date: 17 this week, 76 this month
-- Last updated: 2026-06-21
+- Total: 77 files
+- By status: 72 processed, 5 unprocessed
+- By date: 17 this week, 77 this month
+- Last updated: 2026-06-22
 ## Items
 
 - [[2026-06-20_most-high-income-skills-will-be-irrelevant-in-10-years]] — Most high-income skills will be irrelevant in 10 years (learn these 4 skills instead) by Hussain Ibarra (unprocessed)
+- [[2026-06-22_nha-bao-lam-gi]] — Nhà báo làm gì? by Trương Trí Vĩnh (unprocessed)
 - [[2026-06-20_3-brilliant-critical-thinking-tools-used-by-daniel-dennett]] — 3 brilliant critical thinking tools used by Daniel Dennett by Kevin Dickinson (unprocessed)
 - [[2026-06-19_the-tribute-system-the-new-world-order]] — The Tribute System: The New World Order by Ray Dalio (unprocessed)
 - [[2026-06-19_game-theory-will-change-your-life]] — Game Theory Will Change Your Life: The Invisible Rules Running Every Interaction by Ixcarus (unprocessed)

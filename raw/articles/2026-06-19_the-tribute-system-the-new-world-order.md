@@ -5,7 +5,9 @@ url: https://raydalio.substack.com/p/the-tribute-system-the-new-world
 author: Ray Dalio
 date_published: 2026-06-19
 date_ingested: 2026-06-19
-status: unprocessed
+status: processed
+compiled_at: 2026-06-22
+compiled_to: "[[src_tribute-system-new-world-order]]"
 source: Substack
 main_tag: politic
 sub_tags: [geopolitics, opinion]

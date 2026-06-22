@@ -5,7 +5,9 @@ url: https://raydalio.substack.com/p/why-i-recommend-being-a-global-macro
 author: Ray Dalio
 date_published: 2026-06-19
 date_ingested: 2026-06-19
-status: unprocessed
+status: processed
+compiled_at: 2026-06-22
+compiled_to: "[[src_global-macro-investing]]"
 source: Substack
 main_tag: investment
 sub_tags: [opinion, tutorial]

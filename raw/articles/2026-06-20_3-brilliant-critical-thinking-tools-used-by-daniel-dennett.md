@@ -5,7 +5,9 @@ url: https://bigthinkbusiness.substack.com/p/3-brilliant-critical-thinking-tools
 author: Kevin Dickinson
 date_published: 2026-06-20
 date_ingested: 2026-06-21
-status: unprocessed
+status: processed
+compiled_at: 2026-06-22
+compiled_to: "[[src_critical-thinking-dennett]]"
 source: substack
 ---
 

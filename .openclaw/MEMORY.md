@@ -199,3 +199,52 @@
 
 2026-06-21 | Ingested raw/articles/2026-06-20_3-brilliant-critical-thinking-tools-used-by-daniel-dennett.md from substack
 2026-06-21 | Ingested raw/articles/2026-06-20_most-high-income-skills-will-be-irrelevant-in-10-years.md from substack
+
+---
+
+## 2026-06-22 08:15:00 — Compiled (Batch)
+
+**Trigger:** Daily 08:00 cron
+
+### Summary
+- **Files processed:** 6/6
+- **Source notes created:** 6
+- **Concept notes created/updated:** 19
+- **Errors:** 0
+
+### Details
+
+| # | Raw File | Source Note | Concepts | Tags |
+|---|----------|-------------|----------|------|
+| 1 | game-theory-will-change-your-life | src_game-theory-will-change-your-life | prisoners-dilemma, nash-equilibrium, ultimatum-game, zero-sum-game, repeated-games | #psychology #research #tutorial |
+| 2 | investment-principles-dalio | src_investment-principles-dalio | diversification-strategy, holy-grail-investing, five-big-forces | #investment #opinion #research |
+| 3 | tribute-system-new-world-order | src_tribute-system-new-world-order | tribute-system, chinese-culture-confucianism, hundred-years-humiliation | #politic #geopolitics #opinion |
+| 4 | global-macro-investing | src_global-macro-investing | global-macro-investing | #investment #opinion #tutorial |
+| 5 | critical-thinking-dennett | src_critical-thinking-dennett | occams-razor, occams-broom, collaborative-thinking | #psychology #research #tutorial |
+| 6 | ai-future-skills | src_ai-future-skills | high-agency, vibe-coding, meaning-through-work | #ai #opinion #tools |
+
+### New concepts created
+- prisoners-dilemma
+- nash-equilibrium
+- ultimatum-game
+- zero-sum-game
+- repeated-games
+- diversification-strategy
+- holy-grail-investing
+- five-big-forces
+- tribute-system
+- chinese-culture-confucianism
+- hundred-years-humiliation
+- global-macro-investing
+- occams-razor
+- occams-broom
+- collaborative-thinking
+- high-agency
+- vibe-coding
+- meaning-through-work
+
+### Tag proposals
+- None (all tags existed in TAGS.md)
+
+### Notes
+All raw files updated with `status: processed` and `compiled_to` links.

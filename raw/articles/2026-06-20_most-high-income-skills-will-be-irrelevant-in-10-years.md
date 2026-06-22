@@ -5,7 +5,9 @@ url: https://hussainibarra.substack.com/p/most-high-income-skills-will-be-irrele
 author: Hussain Ibarra
 date_published: 2026-06-20
 date_ingested: 2026-06-21
-status: unprocessed
+status: processed
+compiled_at: 2026-06-22
+compiled_to: "[[src_ai-future-skills]]"
 source: substack
 ---
 

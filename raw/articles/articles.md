@@ -20,12 +20,13 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 77 files
-- By status: 72 processed, 5 unprocessed
-- By date: 17 this week, 77 this month
+- Total: 78 files
+- By status: 72 processed, 6 unprocessed
+- By date: 18 this week, 78 this month
 - Last updated: 2026-06-22
 ## Items
 
+- [[2026-06-22_this-will-help-you-figure-out-what-you-want]] — This will help you figure out what you want by Crystal Clear (unprocessed)
 - [[2026-06-20_most-high-income-skills-will-be-irrelevant-in-10-years]] — Most high-income skills will be irrelevant in 10 years (learn these 4 skills instead) by Hussain Ibarra (unprocessed)
 - [[2026-06-22_nha-bao-lam-gi]] — Nhà báo làm gì? by Trương Trí Vĩnh (unprocessed)
 - [[2026-06-20_3-brilliant-critical-thinking-tools-used-by-daniel-dennett]] — 3 brilliant critical thinking tools used by Daniel Dennett by Kevin Dickinson (unprocessed)

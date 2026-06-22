@@ -292,6 +292,21 @@ When a concept file is incomplete (truncated mid-generation by Compile Agent), t
 
 Treat as ERROR — missing `## Related concepts` and `## Sources` sections. The concept should be blocked from referencing until re-compiled.
 
+### False-positive content-depth flags (LLM hallucination)
+
+The LLM-based validator (glm-5.1 via opencode) can incorrectly flag files as having missing/inadequate content when the content is actually present and substantial. **Pattern (2026-06-19):** 7 files flagged as low-quality — but all had full Definitions (2+ câu), Key Ideas (5-6 items), and populated sections.
+
+**Files affected in that run:**
+- ai-coach-prompting.md — định nghĩa 2 câu + 6 key ideas
+- content-generation-workflow.md — định nghĩa 2 câu + 6 key ideas
+- dollar-as-rent-payment.md — định nghĩa đầy đủ + mechanism + key insight
+- existential-vacuum.md — định nghĩa đầy đủ + 5 key ideas + "the trap"
+- expert-knowledge-extraction.md — định nghĩa 2 câu + 6 key ideas
+- trading-addiction-cycle.md — định nghĩa đầy đủ + warning signs + realization
+- x-search-tool.md — định nghĩa đầy đủ + 6 key ideas + setup
+
+**Mitigation:** When the validator flags a file for "missing content" or "definition too short," verify by reading the actual file. If the content is present, the flag is a false positive. The quick-scan script (`scripts/quick-scan.sh`) is more reliable for mechanical checks (empty sections, line counts) — reserve the LLM validator for coherence and Vietnamese quality checks where mechanical heuristics fall short. For content-presence checks, prefer grep/line-count over LLM judgment.
+
 ### Language detection heuristic
 For Vietnamese quality checks:
 - Count characters with Vietnamese diacritics (à, á, ạ, ả, ã, â, ầ, ấ, ậ, ẩ, ẫ, ă, ằ, ắ, ặ, ẳ, ẵ, è, é, ẹ, ẻ, ẽ, ê, ề, ế, ệ, ể, ễ, ì, í, ị, ỉ, ĩ, ò, ó, ọ, ỏ, õ, ô, ồ, ố, ộ, ổ, ỗ, ơ, ờ, ớ, ợ, ở, ỡ, ù, ú, ụ, ủ, ũ, ư, ừ, ứ, ự, ử, ữ, ỳ, ý, ỵ, ỷ, ỹ, đ)

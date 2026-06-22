@@ -370,3 +370,11 @@
   - **INFO:** 1 source missing Published date in Metadata (`src_how-average-people-will-get-rich-with-ai.md`)
   - **INFO:** All 11 afternoon files carry `status: draft`
 - **Overall:** Afternoon batch cleaner than morning — definitions are 2-3 sentences (not 1), no truncated files, no empty sections. "Ngưởi" typo count dropped from 10→1.
+
+## 2026-06-22 22:30 — Format validation (evening)
+- **Files checked:** 571 (324 concepts + 99 sources + 33 indexes + ~108 topics)
+- **Issues found:** 453 (134 ERROR, 319 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-22_format-report.md
+- **Top violations:** Topic files missing frontmatter (~108), Pool B `psychology` as main_tag (11), code blocks missing lang tags (8), broken wikilinks (~270), unquoted wikilink YAML (23)
+- **Delta from morning (08:20 APPROVED):** +2 ERROR, +1 WARNING, +8 files. No new categories.
+- **Escalations:** [SYSTEMATIC VIOLATION] Topic frontmatter, [SPEC CONFLICT] Unquoted wikilinks — unchanged from morning.

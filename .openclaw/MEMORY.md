@@ -249,3 +249,4 @@
 ### Notes
 All raw files updated with `status: processed` and `compiled_to` links.
 2026-06-22 | Ingested raw/articles/2026-06-22_nha-bao-lam-gi.md from vnexpress
+2026-06-22 | Ingested raw/posts/2026-06-22_gamification-app-truth.md from telegram

@@ -4,32 +4,32 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-22 08:20
+**Last updated:** 2026-06-22 14:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6 — Format, Output, and Hygiene validators for 2026-06-19 AND 2026-06-22
+**Pending reports awaiting review:** 0 — all pending reports approved 2026-06-22
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
-**Scope:** `_approval-log.md` entry 2026-06-19
+**Scope:** `_approval-log.md` entry 2026-06-22 14:30
 
 **Status:**
-- ⏳ Format Validator — 2026-06-22: **PENDING APPROVAL** (450 issues: 132 ERROR, 318 WARNING, 0 INFO)
-- ⏳ Output Validator — 2026-06-22: **PENDING APPROVAL** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
-- ⏳ Hygiene Inspector — 2026-06-22: **PENDING APPROVAL** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
-- ⏳ Format Validator — 2026-06-19: **PENDING APPROVAL** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
-- ⏳ Output Validator — 2026-06-19: **PENDING APPROVAL** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
-- ⏳ Hygiene Inspector — 2026-06-19: **PENDING APPROVAL** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+- ✅ Format Validator — 2026-06-22: **APPROVED** (450 issues: 132 ERROR, 318 WARNING, 0 INFO)
+- ✅ Output Validator — 2026-06-22: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
+- ✅ Hygiene Inspector — 2026-06-22: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+- ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
+- ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
+- ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
 
 ---
 
-## Pending Reports
+## Approved — 2026-06-22
 
-### ⏳ Format Validation — 2026-06-22
+### ✅ Format Validation — 2026-06-22
 
 **File:** [2026-06-22_format-report.md](2026-06-22_format-report.md)
-**Status:** pending
+**Status:** approved
 **Created:** 2026-06-22 08:20
 **Issues:** 450 (132 ERROR, 318 WARNING, 0 INFO)
 **Files affected:** 563 checked (324 concepts + 99 sources + 31 indexes + 109 topics)
@@ -43,21 +43,14 @@
 - 21 WARNING: Tag files use unquoted `parent: [[tag]]` parsed as nested YAML list (SPEC CONFLICT)
 - 2 WARNING: Field order mismatch + missing raw file in original wikilink
 
-**Escalations:**
-- `[SYSTEMATIC VIOLATION]` Topic files without frontmatter (109 files) — Index Agent needs update
-- `[SPEC CONFLICT]` Unquoted wikilinks — index-spec.md shows unquoted, format-spec.md requires quoted
-
-**Actions:**
-- `approve format` — approve this report
-- `reject format` — reject this report
-- `show format` — show full report details
+**Report:** `wiki/reviews/2026-06-22_format-report.md`
 
 ---
 
-### ⏳ Output Validation — 2026-06-22
+### ✅ Output Validation — 2026-06-22
 
 **File:** [2026-06-22_output-report.md](2026-06-22_output-report.md)
-**Status:** pending
+**Status:** approved
 **Created:** 2026-06-22 08:20
 **Issues:** 5 (0 ERROR, 3 WARNING, 2 INFO)
 **Files affected:** 24 new (6 sources + 18 concepts)
@@ -68,17 +61,14 @@
 - 1 WARNING: "ngưởi" typo still in 10 files (unfixed since 06-17)
 - 2 INFO: 154 draft concepts, mixed EN/VN language in new batch
 
-**Actions:**
-- `approve output` — approve this report
-- `reject output` — reject this report
-- `show output` — show full report details
+**Report:** `wiki/reviews/2026-06-22_output-report.md`
 
 ---
 
-### ⏳ Hygiene Inspection — 2026-06-22
+### ✅ Hygiene Inspection — 2026-06-22
 
 **File:** [2026-06-22_hygiene-report.md](2026-06-22_hygiene-report.md)
-**Status:** pending
+**Status:** approved
 **Created:** 2026-06-22 08:20
 **Issues:** 4 (0 ERROR, 4 WARNING, 0 INFO)
 **Paths checked:** 27
@@ -92,17 +82,16 @@
 - 0 ERROR: Root structure clean, all whitelisted paths compliant
 - 0 active naming violations
 
-**Actions:**
-- `approve hygiene` — approve this report
-- `reject hygiene` — reject this report
-- `show hygiene` — show full report details
+**Report:** `wiki/reviews/2026-06-22_hygiene-report.md`
 
 ---
 
-### ⏳ Format Validation — 2026-06-19
+## Approved — 2026-06-19
+
+### ✅ Format Validation — 2026-06-19
 
 **File:** [2026-06-19_format-report.md](2026-06-19_format-report.md)
-**Status:** pending
+**Status:** approved
 **Created:** 2026-06-19 23:22:37
 **Issues:** 380 (121 ERROR, 259 WARNING, 0 INFO)
 **Files affected:** 540 checked (307 concepts + 93 sources + 31 indexes + 109 topics)
@@ -119,17 +108,14 @@
 - `[SYSTEMATIC VIOLATION]` Topic files without frontmatter (109 files) — Index Agent needs update
 - `[SPEC CONFLICT]` Unquoted wikilinks — index-spec.md shows unquoted, format-spec.md requires quoted
 
-**Actions:**
-- `approve format` — approve this report
-- `reject format` — reject this report
-- `show format` — show full report details
+**Report:** `wiki/reviews/2026-06-19_format-report.md`
 
 ---
 
-### ⏳ Output Validation — 2026-06-19
+### ✅ Output Validation — 2026-06-19
 
 **File:** [2026-06-19_output-report.md](2026-06-19_output-report.md)
-**Status:** pending
+**Status:** approved
 **Created:** 2026-06-19 22:00:00
 **Issues:** 5 (0 ERROR, 3 WARNING, 2 INFO)
 **Files affected:** 8 new (1 source + 7 concepts)
@@ -140,17 +126,14 @@
 - 1 systemic WARNING: "ngưởi" typo still in 10 files (unfixed since 06-17)
 - 2 INFO: draft status on all new files, mixed EN/VN language
 
-**Actions:**
-- `approve output` — approve this report
-- `reject output` — reject this report
-- `show output` — show full report details
+**Report:** `wiki/reviews/2026-06-19_output-report.md`
 
 ---
 
-### ⏳ Hygiene Inspection — 2026-06-19
+### ✅ Hygiene Inspection — 2026-06-19
 
 **File:** [2026-06-19_hygiene-report.md](2026-06-19_hygiene-report.md)
-**Status:** pending
+**Status:** approved
 **Created:** 2026-06-19 23:30:00
 **Issues:** 4 (0 ERROR, 4 WARNING, 0 INFO)
 **Paths checked:** 27
@@ -164,14 +147,11 @@
 - 0 ERROR: Root structure clean, all whitelisted paths compliant
 - 0 active naming violations
 
-**Actions:**
-- `approve hygiene` — approve this report
-- `reject hygiene` — reject this report
-- `show hygiene` — show full report details
+**Report:** `wiki/reviews/2026-06-19_hygiene-report.md`
 
 ---
 
-## Approved — 2026-06-19
+## Approved — 2026-06-19 (prior batch)
 
 ### ✅ Output Validator — 2026-06-17
 
@@ -370,12 +350,18 @@ openclaw fix apply
 
 ## Applied Reports
 
-- [2026-06-18] Hygiene Report — **APPROVED** (2026-06-19)
-- [2026-06-18] Format Report — **APPROVED** (2026-06-19)
-- [2026-06-18] Output Report — **APPROVED** (2026-06-19)
-- [2026-06-17] Hygiene Report — **APPROVED** (2026-06-19)
-- [2026-06-17] Format Report — **APPROVED** (2026-06-19)
-- [2026-06-17] Output Report — **APPROVED** (2026-06-19)
+- [2026-06-22] Hygiene Report — **APPROVED** (2026-06-22)
+- [2026-06-22] Output Report — **APPROVED** (2026-06-22)
+- [2026-06-22] Format Report — **APPROVED** (2026-06-22)
+- [2026-06-19] Hygiene Report — **APPROVED** (2026-06-22)
+- [2026-06-19] Output Report — **APPROVED** (2026-06-22)
+- [2026-06-19] Format Report — **APPROVED** (2026-06-22)
+- [2026-06-18] Hygiene Report — **APPLIED** (2026-06-19)
+- [2026-06-18] Format Report — **APPLIED** (2026-06-19)
+- [2026-06-18] Output Report — **APPLIED** (2026-06-19)
+- [2026-06-17] Hygiene Report — **APPLIED** (2026-06-19)
+- [2026-06-17] Format Report — **APPLIED** (2026-06-19)
+- [2026-06-17] Output Report — **APPLIED** (2026-06-19)
 
 - [2026-06-16] Hygiene Report — **APPLIED** (2026-06-16 08:21)
 - [2026-06-16] Format Report — **APPLIED** (2026-06-16 08:21)

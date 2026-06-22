@@ -43,7 +43,10 @@ done
 ONE_SENT_DEF=""
 for f in $(file_list "wiki/concepts"); do
     sentences=$(sed -n '/^## Definition$/,/^## /p' "$f" 2>/dev/null \
-        | sed '1d;/^## /,$d' | grep -v '^$' | grep -c '\.' || echo 0)
+        | sed '1d;/^## /,$d' | grep -v '^$' | grep -c '\.' 2>/dev/null || echo 0)
+    # Clean: strip trailing newlines from grep -c output in subshell
+    sentences=$(echo "$sentences" | tr -d '[:space:]')
+    [ -z "$sentences" ] && sentences=0
     if [ "$sentences" -eq 1 ]; then
         ONE_SENT_DEF="$ONE_SENT_DEF $f"
     fi
@@ -54,7 +57,9 @@ ONE_SENT_COUNT=$(echo "$ONE_SENT_DEF" | wc -w)
 FEW_POINTS=""
 for f in $(file_list "wiki/concepts"); do
     points=$(sed -n '/^## Key ideas$/,/^## /p' "$f" 2>/dev/null \
-        | sed '1d;/^## /,$d' | grep -c '^- ' || echo 0)
+        | sed '1d;/^## /,$d' | grep -c '^- ' 2>/dev/null || echo 0)
+    points=$(echo "$points" | tr -d '[:space:]')
+    [ -z "$points" ] && points=0
     if [ "$points" -gt 0 ] && [ "$points" -lt 5 ]; then
         FEW_POINTS="$FEW_POINTS $f:$points"
     fi
@@ -65,7 +70,9 @@ FEW_COUNT=$(echo "$FEW_POINTS" | wc -w)
 TRUNCATED_CONCEPTS=""
 for f in $(file_list "wiki/concepts"); do
     has_rel=$(grep -c "^## Related concepts" "$f" 2>/dev/null || echo 0)
+    has_rel=$(echo "$has_rel" | tr -d '[:space:]'); [ -z "$has_rel" ] && has_rel=0
     has_src=$(grep -c "^## Sources" "$f" 2>/dev/null || echo 0)
+    has_src=$(echo "$has_src" | tr -d '[:space:]'); [ -z "$has_src" ] && has_src=0
     if [ "$has_rel" -eq 0 ] || [ "$has_src" -eq 0 ]; then
         TRUNCATED_CONCEPTS="$TRUNCATED_CONCEPTS $f(rel=$has_rel src=$has_src)"
     fi
@@ -74,6 +81,7 @@ done
 TRUNCATED_SOURCES=""
 for f in $(file_list "wiki/sources"); do
     has_cr=$(grep -c "^## Concepts referenced" "$f" 2>/dev/null || echo 0)
+    has_cr=$(echo "$has_cr" | tr -d '[:space:]'); [ -z "$has_cr" ] && has_cr=0
     if [ "$has_cr" -eq 0 ]; then
         TRUNCATED_SOURCES="$TRUNCATED_SOURCES $f"
     fi
@@ -84,11 +92,13 @@ EMPTY_SOURCES=""
 EMPTY_KEY_IDEAS=""
 for f in $(file_list "wiki/concepts"); do
     src_count=$(sed -n '/^## Sources$/,/^## /p' "$f" 2>/dev/null \
-        | grep -c '\[\[.*\]\]' || echo 0)
+        | grep -c '\[\[.*\]\]' 2>/dev/null || echo 0)
+    src_count=$(echo "$src_count" | tr -d '[:space:]'); [ -z "$src_count" ] && src_count=0
     [ "$src_count" -eq 0 ] && EMPTY_SOURCES="$EMPTY_SOURCES $f"
 
     ideas=$(sed -n '/^## Key ideas$/,/^## /p' "$f" 2>/dev/null \
-        | sed '1d;/^## /,$d' | grep -c '^- ' || echo 0)
+        | sed '1d;/^## /,$d' | grep -c '^- ' 2>/dev/null || echo 0)
+    ideas=$(echo "$ideas" | tr -d '[:space:]'); [ -z "$ideas" ] && ideas=0
     [ "$ideas" -eq 0 ] && EMPTY_KEY_IDEAS="$EMPTY_KEY_IDEAS $f"
 done
 
@@ -99,7 +109,8 @@ DRAFT_COUNT=$(grep -rl "status: draft" wiki/concepts/*.md 2>/dev/null | wc -l | 
 SOURCE_FEW_POINTS=""
 for f in $(file_list "wiki/sources"); do
     points=$(sed -n '/^## Key points$/,/^## /p' "$f" 2>/dev/null \
-        | sed '1d;/^## /,$d' | grep -c '^- ' || echo 0)
+        | sed '1d;/^## /,$d' | grep -c '^- ' 2>/dev/null || echo 0)
+    points=$(echo "$points" | tr -d '[:space:]'); [ -z "$points" ] && points=0
     if [ "$points" -gt 0 ] && [ "$points" -lt 5 ]; then
         SOURCE_FEW_POINTS="$SOURCE_FEW_POINTS $f:$points"
     fi

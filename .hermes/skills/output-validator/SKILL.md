@@ -303,3 +303,17 @@ For Vietnamese quality checks:
 When running as a scheduled cron job, the session working directory may be `$HOME` (e.g., `/home/julius`) rather than the knowledge-base directory. The `search_files` and `read_file` tools resolve relative paths from the session cwd, so `wiki/sources/` will fail.
 
 **Fix**: Always use absolute paths (`/home/julius/knowledge-base/wiki/sources/`) for `search_files`, `read_file`, and `terminal` calls. For `terminal`, either `cd` first or use the `workdir` parameter. The quick-scan script handles this internally via `KB_DIR` variable.
+
+### quick-scan.sh: bash integer comparison with grep -c in $()
+
+When `grep -c` is used inside `$()` in bash, the output captures a trailing newline. When the pipeline produces no input (empty sed output), `grep -c` may exit 1, triggering `|| echo 0`, resulting in a two-line value like `"0\n0"`. Using this in `[ "$var" -eq N ]` causes:
+```
+[: 0\n0: cần biểu thức số nguyên
+```
+
+**Fix (applied 2026-06-22):** After every `grep -c` assignment, strip whitespace:
+```bash
+points=$(echo "$points" | tr -d '[:space:]')
+[ -z "$points" ] && points=0
+```
+This ensures the variable is a clean integer before arithmetic comparisons. All 5 loops in `scripts/quick-scan.sh` have been patched with this fix.

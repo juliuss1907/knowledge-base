@@ -195,7 +195,12 @@ When Julius approves reports (e.g., "approve all reports", "approve output", "ap
 
 1. **Verify working directory**: `cd ~/knowledge-base` — NOT the hermes-agent repo. Check `ls wiki/concepts/ | head -3` to confirm.
 2. **Read TAGS.md** to get current Pool B (not hardcoded from skill memory).
-3. **Run all 3 validators using `execute_code` with Python scripts** — do NOT use `delegate_task` for validation runs. Subagent overhead is too high (684s for partial run vs 15s direct). Each validator runs as a Python script inside `execute_code`.
+3. **Run all 3 validators.** Use `terminal` with the reusable scripts directly — do NOT use `execute_code` for validation runs. `execute_code` may be blocked even in manual mode. Each validator's script is invoked via `terminal`:
+   - Format: `cd ~/knowledge-base && python3 .hermes/skills/format-validator/scripts/validate.py 2>&1`
+   - Output quick-scan: `cd ~/knowledge-base && bash .hermes/skills/output-validator/scripts/quick-scan.sh 2>&1`
+   - Hygiene: `cd ~/knowledge-base && python3 .hermes/skills/hygiene-inspector/references/scan-script.py 2>&1`
+   
+   Run all 3 in parallel with separate `terminal` calls. Parse the pipe-delimited output to build human-readable reports.
 4. **Regex pitfall — Python raw strings:** When matching wikilinks in regex, use `r'^\[\[src_[\w\-]+\]\]$'` (single backslash inside raw string). Double-escaping like `r'^\\[\\[...\\]\\]$'` produces `re.error: bad character range`.
 5. **Section detection:** Use `re.search(r'## Section\s*\n', content, re.IGNORECASE)` to handle whitespace variations and case-insensitive matching.
 6. Collect findings, deduplicate, verify against TAGS.md

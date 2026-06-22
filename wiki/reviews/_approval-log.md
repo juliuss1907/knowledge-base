@@ -5,6 +5,76 @@
 
 ---
 
+## Entry: 2026-06-22 14:30 — Julius approves all pending reports
+
+**Approved at:** 2026-06-22
+**Approved by:** Julius
+**Scope:** All 6 pending validation reports — Output (06-19, 06-22), Format (06-19, 06-22), Hygiene (06-19, 06-22)
+
+### ✅ Apply — All issues from 6 reports
+
+#### Format Validator — 2026-06-22 (450 issues)
+- Report: `wiki/reviews/2026-06-22_format-report.md`
+- 109 ERROR: Topic files missing YAML frontmatter (systemic Index Agent)
+- 11 ERROR: `main_tag: psychology` on 9 concepts + 2 sources
+- 8 ERROR: Code blocks missing language tags
+- 4 ERROR: `wiki/tag/tag.md` missing `parent` + `items_managed_by`
+- 272 WARNING: Broken wikilinks (forward-references)
+- 21 WARNING: Tag files unquoted `parent` YAML
+- 2 WARNING: Field order mismatch
+- 23 CRITICAL concepts with system/deep topics inside compiled_to
+- **All 450 issues approved for Fix Agent**
+
+#### Output Validator — 2026-06-22 (5 issues)
+- Report: `wiki/reviews/2026-06-22_output-report.md`
+- 1 systemic WARNING: 322 concepts with 1-sentence definitions
+- 1 WARNING: 82 concepts with <5 key points
+- 1 WARNING: "ngưởi" typo in 10 files
+- 2 INFO: 154 draft concepts, mixed EN/VN language
+- **All 5 issues approved for Fix Agent**
+
+#### Hygiene Inspector — 2026-06-22 (4 issues)
+- Report: `wiki/reviews/2026-06-22_hygiene-report.md`
+- 4 WARNING: Archived -v2 duplicate reports
+- **All 4 issues approved for Fix Agent**
+
+#### Format Validator — 2026-06-19 (380 issues)
+- Report: `wiki/reviews/2026-06-19_format-report.md`
+- 109 ERROR: Topic files missing YAML frontmatter (systemic)
+- 8 ERROR: Code blocks missing language tags
+- 4 ERROR: `wiki/tag/tag.md` missing fields
+- 21 WARNING: Tag files unquoted `parent` YAML
+- ~230 WARNING: Broken wikilinks
+- 2 WARNING: Field order mismatches
+- **All 380 issues approved for Fix Agent**
+
+#### Output Validator — 2026-06-19 (5 issues)
+- Report: `wiki/reviews/2026-06-19_output-report.md`
+- 1 systemic WARNING: 7 concepts with 1-sentence definitions
+- 1 WARNING: `four-stages-market-cycle.md` only 4 key points
+- 1 WARNING: "ngưởi" typo in 10 files
+- 2 INFO: draft status, mixed EN/VN
+- **All 5 issues approved for Fix Agent**
+
+#### Hygiene Inspector — 2026-06-19 (4 issues)
+- Report: `wiki/reviews/2026-06-19_hygiene-report.md`
+- 4 WARNING: Archived -v2 duplicate reports
+- **All 4 issues approved for Fix Agent**
+
+### ⏭️ Excluded
+
+- **None** — all issues in all 6 reports approved without exclusions.
+
+### ⚠️ Verify-first
+
+- **None**
+
+---
+
+**Total scope:** 848 issues across 6 reports → Fix Agent apply all.
+
+---
+
 ## Entry: 2026-06-19 00:00 — Julius approves all pending reports
 
 **Approved at:** 2026-06-19

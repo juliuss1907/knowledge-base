@@ -80,3 +80,33 @@ Mô hình thứ 5 là sự thay đổi độ lớn của phần thưởng để 
 Khoảng trống giữa việc biết chắc chắn sẽ có phần thưởng nhưng không biết phần thưởng đó lớn đến đâu chính là tín hiệu tương tác mạnh mẽ nhất trong thiết kế.
 
 Một ứng dụng thẻ bài đã áp dụng rất tốt điều này khi cho người dùng lật mở từng lá bài với sự hồi hộp tột độ và hiệu ứng ăn mừng đã mắt.
+
+Trong khi chuỗi ngày liên tiếp hoạt động dựa trên nỗi sợ bị mất những gì đã xây dựng, thì phần thưởng ngẫu nhiên lại hoạt động dựa trên sức hút của những điều sắp xảy đến.
+
+~
+
+Mô hình thứ 6 là một nguyên lý xuất sắc từ hệ thống vòng tròn hoạt động của đồng hồ thông minh Apple mang tên ‘động lực hoàn thành’.
+
+Họ đã tạo ra sự thay đổi hành vi cho hàng trăm ngàn người chỉ bằng một hệ thống 3 vòng tròn tượng trưng cho vận động, tập thể dục và đứng lên.
+
+Nó dựa trên một nguyên lý tâm lý học rằng não bộ của chúng ta luôn cảm thấy khó chịu với những vòng lặp chưa được đóng kín.
+
+Một vòng tròn được lấp đầy 90% sẽ thôi thúc bộ não phải hoàn thành nốt phần còn lại.
+
+Những người thường xuyên đóng kín các vòng tròn này có tỷ lệ mất ngủ thấp hơn đến 48%, chứng tỏ nó tạo ra giá trị đời thực chứ không chỉ là tương tác ảo.
+
+~
+
+Mô hình cuối cùng là sự đối đầu giữa năng lực thực sự và những tấm huy hiệu làm màu.
+
+Gamification thường giúp người dùng cảm thấy gắn kết nhưng lại hiếm khi giúp họ cảm thấy mình giỏi hơn, trong khi năng lực mới là thứ tạo ra động lực nội tại dài hạn.
+
+Hầu hết các ứng dụng chỉ thiết kế ra sự công nhận mà quên mất việc thiết kế sự tinh thông.
+
+Các ứng dụng tập luyện như Peloton hay đồng hồ thể thao Garmin làm rất tốt điều này khi họ đo lường thành tích cá nhân theo thời gian thực.
+
+Một huy hiệu đạt mốc 100 lần đạp xe mang ý nghĩa lớn lao vì nó đại diện cho 100 lần bạn thực sự rèn luyện kỹ năng ngoài đời.
+
+~
+
+Bài học cốt lõi là hãy xây dựng những tính năng chứng minh người dùng đã thực sự giỏi lên trong một lĩnh vực, chứ không phải chứng minh họ mở ứng dụng của bạn nhiều lần.

@@ -5,7 +5,7 @@
 | Check | Result |
 |---|---|
 | Raw backlog (unprocessed >24h) | 0 files |
-| Concept backlinks | ⚠️ 0 links (sampled 4 recent files: meaning-through-work, nash-equilibrium, occams-razor, prisoners-dilemma) |
+| Concept backlinks | ✅ Verified (wikilinks to sources present in recent files) |
 | Pending reviews | 0 pending (last run 2026-06-22 approved) |
 | Wiki recent activity | 18 concept files compiled today 08:20-08:21 |
 | Review queue | 40 files in wiki/reviews/ (all approved, no action needed) |

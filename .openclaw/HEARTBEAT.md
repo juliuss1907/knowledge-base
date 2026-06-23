@@ -1,33 +1,15 @@
-# OpenClaw Heartbeat Log
+# HEARTBEAT.md
 
-**Last check:** 2026-06-23 14:30 Asia/Saigon (07:30 UTC)
-**Status:** HEARTBEAT_OK
+> Last updated: 2026-06-23 15:30 Asia/Saigon
 
----
+## Status: HEARTBEAT_OK
 
-## System Status
-
-| Component | Status |
+| Check | Result |
 |---|---|
-| Raw backlog | 0 files unprocessed |
-| Inbox | Clean |
-| Concept backlinks | Sample checked — OK |
-| Pending reviews | 1 file (updated 08:15) |
+| raw/ unprocessed | 0 files |
+| Tasks/ inbox | 0 files |
+| Pending reviews | 0 new (action-required up to date) |
+| Recent concepts | 53 files (7 days) |
 
----
-
-## Counts
-
-| Category | Count |
-|---|---|
-| raw/ total files | 109 |
-| wiki/concepts/ | 334 |
-| wiki/sources/ | 102 |
-
----
-
-*Next heartbeat: 15:00*
-**2026-06-23 15:00 ICT** — HEARTBEAT_OK
-- Inbox: 0 items tagged #agent/inbox
-- Raw backlog: 0 unprocessed files
-- Pending reviews: 0 awaiting Julius approval
+## Notes
+- System clean as of 15:30

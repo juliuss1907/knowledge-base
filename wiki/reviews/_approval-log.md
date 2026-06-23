@@ -5,6 +5,37 @@
 
 ---
 
+## Entry: 2026-06-23 23:16 — Format Validator cron run
+
+**Created at:** 2026-06-23 23:16
+**Created by:** Hermes-VPS (cron)
+**Validator:** format-validator
+**Scope:** Full format validation — 587 files
+
+### Report
+- `wiki/reviews/2026-06-23_format-report.md`
+- Issues: 463 (126 ERROR, 337 WARNING, 0 INFO)
+
+### Key Findings
+- ~108 ERROR: Topic files missing YAML frontmatter (unchanged, carry-over)
+- 8 ERROR: Code blocks missing language tags (unchanged, carry-over)
+- ~10 ERROR: Additional issues (truncated from stdout)
+- ~290 WARNING: Broken wikilinks (forward-references)
+- 22 WARNING: Unquoted `parent` YAML in tag files (SPEC CONFLICT)
+- 1 WARNING: Field order mismatch
+- 1 WARNING: Broken original wikilink
+
+### Positive Delta
+- ✅ `main_tag: psychology` errors (11 files) — **RESOLVED** (not present in this run)
+
+### Escalations Carried Forward
+- `[SYSTEMATIC VIOLATION]` Topic files without frontmatter — Index Agent needs update
+- `[SPEC CONFLICT]` Unquoted wikilinks — index-spec.md vs format-spec.md
+
+### Status: PENDING approval
+
+---
+
 ## Entry: 2026-06-23 00:10 — Julius approves evening update reports
 
 **Approved at:** 2026-06-23

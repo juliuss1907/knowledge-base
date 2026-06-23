@@ -402,3 +402,16 @@
   - **INFO:** All 13 new files in draft status + 81 concepts with <5 key points (unchanged)
 - **"Ngưởi" typo:** 0 (finally fully resolved!)
 - **Key insight:** "Ngưởi" typo evolved into "ngườii" variant — Compile Agent now doubles final 'i' after 'ờ' instead of using 'ỉ'. Same root cause, different manifestation.
+
+## 2026-06-23 23:16 — Format validation
+- **Files checked:** 587 (334 concepts + 102 sources + 33 indexes + ~108 topics)
+- **Issues found:** 463 (126 ERROR, 337 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-23_format-report.md
+- **Top violations:**
+  - **ERROR:** ~108 topic files missing YAML frontmatter (unchanged, carry-over since 06-17)
+  - **ERROR:** 8 code blocks missing language tags (unchanged, carry-over since 06-14)
+  - **WARNING:** ~290 broken wikilinks (forward-references, +~20 from 06-22 — KB growth)
+  - **WARNING:** 22 tag files unquoted `parent` YAML (SPEC CONFLICT, -1 from 06-22)
+  - **WARNING:** 1 field order mismatch + 1 broken original wikilink (unchanged)
+- **Positive delta:** `main_tag: psychology` errors (11 files) — **FULLY RESOLVED** ✅
+- **Escalations:** `[SYSTEMATIC VIOLATION]` Topic files without frontmatter, `[SPEC CONFLICT]` Unquoted wikilinks — both approved 06-22, awaiting fix

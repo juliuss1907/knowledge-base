@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-23 23:10
+**Last updated:** 2026-06-23 23:16
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** `_approval-log.md` entry 2026-06-23 23:10
 
 **Status:**
 - 🟡 Output Validator — 2026-06-23 (23:10): **PENDING** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
+- 🟡 Format Validator — 2026-06-23 (23:16): **PENDING** (463 issues: 126 ERROR, 337 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-22 (22:00): **APPROVED** (5 issues: 0 ERROR, 2 WARNING, 3 INFO)
 - ✅ Format Validator — 2026-06-22 (22:30): **APPROVED** (453 issues: 134 ERROR, 319 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-22 (23:30): **APPROVED** (1 issue: 0 ERROR, 1 WARNING, 0 INFO)
@@ -45,6 +46,31 @@
 - 2 INFO: Draft status on all 13 new files + 81 concepts with <5 key points (unchanged)
 
 **Report:** `wiki/reviews/2026-06-23_output-report.md`
+
+---
+
+### 🟡 Format Validation — 2026-06-23 (23:16)
+
+**File:** [2026-06-23_format-report.md](2026-06-23_format-report.md)
+**Status:** pending
+**Created:** 2026-06-23 23:16
+**Issues:** 463 (126 ERROR, 337 WARNING, 0 INFO)
+**Files checked:** 587 (334 concepts + 102 sources + 33 indexes + ~108 topics)
+
+**Summary:**
+- ~108 ERROR: All topic files missing YAML frontmatter — systemic Index Agent issue (unchanged, carry-over)
+- 8 ERROR: Code blocks missing language tags (unchanged, carry-over)
+- ~10 ERROR: Additional frontmatter/markdown issues (truncated from stdout cap)
+- ~290 WARNING: Broken wikilinks (forward-references, expected in growing KB)
+- 22 WARNING: Tag files use unquoted `parent: [[tag]]` parsed as nested YAML list (SPEC CONFLICT, -1 from 06-22)
+- 1 WARNING: Field order mismatch (unchanged)
+- 1 WARNING: Broken original wikilink in source frontmatter (unchanged)
+
+**Delta from 06-22 (APPROVED):** -8 ERROR, +18 WARNING, +16 files. `main_tag: psychology` errors **fully resolved**.
+
+**Escalations:** `[SYSTEMATIC VIOLATION]` Topic files without frontmatter, `[SPEC CONFLICT]` Unquoted wikilinks — both carried over from 06-17, approved 06-22.
+
+**Report:** `wiki/reviews/2026-06-23_format-report.md`
 
 ---
 

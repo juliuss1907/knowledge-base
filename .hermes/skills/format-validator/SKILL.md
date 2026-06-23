@@ -244,6 +244,22 @@ After successful validation run:
    - Top violations: [violation types]
    ```
 
+5. **Update _approval-log.md:**
+   - Prepend a new entry at the top of `wiki/reviews/_approval-log.md`
+   - Include: timestamp, validator name, scope, report path, issue counts, key findings, escalations, and status (`PENDING approval`)
+   - Format matches existing entries — see prior entries for template
+   - This creates the cross-machine approval contract between VPS (validation) and main machine (Fix Agent)
+
+## Delta tracking (compare against previous approved report)
+
+After generating the report, compare today's results against the most recent **APPROVED** report (not just the most recent report) to surface what changed:
+
+- **Positive delta** — issues that disappeared (e.g., `main_tag: psychology` errors resolved by Fix Agent)
+- **Negative delta** — new issues that appeared (e.g., new code blocks missing language tags)
+- **Volume delta** — file count growth, issue count changes
+
+Include a delta summary table at the top of the report so Julius can see at a glance whether the KB is getting cleaner or accumulating debt.
+
 ## Batch behavior
 
 Format Validator always processes entire wiki in one run:

@@ -5,7 +5,9 @@ url: https://vnexpress.net/nha-bao-lam-gi-5088274.html
 author: Trương Trí Vĩnh
 date_published: 2026-06-22
 date_ingested: 2026-06-22
-status: unprocessed
+status: processed
+compiled_at: 2026-06-23
+compiled_to: "[[src_nha-bao-lam-gi]]"
 source: vnexpress
 ---
 

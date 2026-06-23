@@ -273,6 +273,42 @@ All raw files updated with `status: processed` and `compiled_to` links.
 - **Errors:** 0 files skipped due to invalid frontmatter
 
 
+## 2026-06-23 08:00:00 — Compiled (Daily Cron)
+
+**Trigger:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| # | Raw File | Source Note | Concepts | Tags |
+|---|----------|-------------|----------|------|
+| 1 | this-will-help-you-figure-out-what-you-want | src_this-will-help-you-figure-out-what-you-want | increasing-surface-area-luck, self-discovery-through-conversations, recognizing-life-signals | #productivity #psychology #opinion |
+| 2 | nha-bao-lam-gi | src_nha-bao-lam-gi | knowledge-builder-journalist, attention-economy-vs-knowledge-economy, journalism-social-institution | #ai #opinion #news |
+| 3 | gamification-app-truth | src_gamification-app-truth | gamification-design-patterns, streak-psychology, variable-reward-systems, completion-motivation | #tech #tools #psychology #research |
+
+### Summary
+- **Processed:** 3/3 files
+- **Source notes created:** 3
+- **Concepts created:** 10
+- **Errors:** 0
+
+### New concepts created
+- increasing-surface-area-luck
+- self-discovery-through-conversations
+- recognizing-life-signals
+- knowledge-builder-journalist
+- attention-economy-vs-knowledge-economy
+- journalism-social-institution
+- gamification-design-patterns
+- streak-psychology
+- variable-reward-systems
+- completion-motivation
+
+### Tag proposals
+- None (all tags existed in TAGS.md)
+
+### Notes
+All raw files updated with `status: processed` and `compiled_to` links.
+
 ## 2026-06-22 21:07:44 — Indexed
 
 - **Scanned:** 324 concepts + 99 sources = 423 total files

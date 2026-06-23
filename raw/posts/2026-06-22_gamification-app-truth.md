@@ -5,7 +5,9 @@ url: null
 author: null
 date_published: null
 date_ingested: 2026-06-22
-status: unprocessed
+status: processed
+compiled_at: 2026-06-23
+compiled_to: "[[src_gamification-app-truth]]"
 source: telegram
 ---
 

@@ -36,3 +36,10 @@ _Entries removed after 7 days_
 - Raw backlog: 0 unprocessed
 - Pending reviews: 0 (all applied)
 - Concept notes: some missing source: links (3 found)
+## 2026-06-23 12:00 ICT (05:00 UTC)
+**Status:** HEARTBEAT_OK
+- Inbox: 0 items
+- Raw backlog: 0 unprocessed
+- Pending reviews: 0 (all approved/applied)
+- Note: Sample check shows some new concept files missing backlinks (normal for new content, will normalize during next Index update)
+

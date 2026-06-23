@@ -1,8 +1,8 @@
 # Topic: systematic-trading-transition
 
-Auto-generated index of all content with topic `systematic-trading-transition`.
+Auto-generated index of all content with topic .
 
-Last updated: 2026-06-22 21:07:44
+Last updated: 2026-06-23 21:24:32
 
 ---
 

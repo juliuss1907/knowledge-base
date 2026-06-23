@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: productivity
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-06-22
 
 ## Stats
 
-- Total files: 155
-- Sources: 43
-- Concepts: 112
-- Last updated: 2026-06-22
+- Total files: 164
+- Sources: 45
+- Concepts: 119
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -36,6 +36,7 @@ last_updated: 2026-06-22
 - [[causal-reasoning]] — Causal Reasoning (concept)
 - [[circadian-rhythm]] — Circadian Rhythm (concept)
 - [[circle-of-competence]] — Circle Of Competence (concept)
+- [[collaborative-thinking]] — Collaborative Thinking (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
@@ -74,6 +75,7 @@ last_updated: 2026-06-22
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept)
 - [[impulse-response-gap]] — Impulse Response Gap (concept)
 - [[incentives-mental-model]] — Incentives Mental Model (concept)
+- [[increasing-surface-area-luck]] — Increasing Surface Area Luck (concept)
 - [[information-compression]] — Information Compression (concept)
 - [[intent-driven-leadership]] — Intent Driven Leadership (concept)
 - [[intrinsic-motivation]] — Intrinsic Motivation (concept)
@@ -90,6 +92,7 @@ last_updated: 2026-06-22
 - [[margin-of-safety-mental-model]] — Margin Of Safety Mental Model (concept)
 - [[markus-four-thinking-types]] — Markus Four Thinking Types (concept)
 - [[meaning-through-suffering]] — Meaning Through Suffering (concept)
+- [[meaning-through-work]] — Meaning Through Work (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
 - [[mental-models]] — Mental Models (concept)
 - [[negative-compounding]] — Negative Compounding (concept)
@@ -98,6 +101,8 @@ last_updated: 2026-06-22
 - [[newtons-third-law]] — Newtons Third Law (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
 - [[non-commodity-content]] — Non Commodity Content (concept)
+- [[occams-broom]] — Occams Broom (concept)
+- [[occams-razor]] — Occams Razor (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
 - [[organizational-clarity]] — Organizational Clarity (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
@@ -112,11 +117,13 @@ last_updated: 2026-06-22
 - [[problem-statement-redesign]] — Problem Statement Redesign (concept)
 - [[psychological-survival]] — Psychological Survival (concept)
 - [[reciprocity]] — Reciprocity (concept)
+- [[recognizing-life-signals]] — Recognizing Life Signals (concept)
 - [[red-queen-effect]] — Red Queen Effect (concept)
 - [[relational-reasoning]] — Relational Reasoning (concept)
 - [[relationship-dynamics]] — Relationship Dynamics (concept)
 - [[sacred-art]] — Sacred Art (concept)
 - [[second-order-thinking]] — Second Order Thinking (concept)
+- [[self-discovery-through-conversations]] — Self Discovery Through Conversations (concept)
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
 - [[speed-vs-velocity]] — Speed Vs Velocity (concept)
@@ -125,6 +132,7 @@ last_updated: 2026-06-22
 - [[src_activation-energy]] — Activation Energy (source)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
+- [[src_critical-thinking-dennett]] — Critical Thinking Dennett (source)
 - [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
 - [[src_dan-koe-workflow-analysis-markus]] — Dan Koe Workflow Analysis Markus (source)
 - [[src_farnam-street-mental-models-biology-series]] — Farnam Street Mental Models Biology Series (source)
@@ -160,6 +168,7 @@ last_updated: 2026-06-22
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
+- [[src_this-will-help-you-figure-out-what-you-want]] — This Will Help You Figure Out What You Want (source)
 - [[src_thought-experiment]] — Thought Experiment (source)
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
@@ -181,8 +190,8 @@ last_updated: 2026-06-22
 
 ## Co-occurring tags
 
-- [[psychology]] — 84 co-occurrences
-- [[research]] — 69 co-occurrences
+- [[psychology]] — 93 co-occurrences
+- [[research]] — 73 co-occurrences
 - [[opinion]] — 52 co-occurrences
-- [[tutorial]] — 25 co-occurrences
+- [[tutorial]] — 26 co-occurrences
 - [[automation]] — 19 co-occurrences

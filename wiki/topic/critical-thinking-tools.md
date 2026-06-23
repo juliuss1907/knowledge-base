@@ -1,17 +1,17 @@
 # Topic: critical-thinking-tools
 
-Auto-generated index of all content with topic `critical-thinking-tools`.
+Auto-generated index of all content with topic .
 
-Last updated: 2026-06-22 21:07:44
+Last updated: 2026-06-23 21:24:32
 
 ---
 
 ## Concepts (3)
 
-- [[collaborative-thinking]] — main: #psychology, sub: [#research]
-- [[occams-broom]] — main: #psychology, sub: [#research]
-- [[occams-razor]] — main: #psychology, sub: [#research]
+- [[collaborative-thinking]] — main: #productivity, sub: [#psychology, #research]
+- [[occams-broom]] — main: #productivity, sub: [#psychology, #research]
+- [[occams-razor]] — main: #productivity, sub: [#psychology, #research]
 
 ## Sources (1)
 
-- [[src_critical-thinking-dennett]] — main: #psychology, sub: [#research, #tutorial]
+- [[src_critical-thinking-dennett]] — main: #productivity, sub: [#psychology, #research, #tutorial]

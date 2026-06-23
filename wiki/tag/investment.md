@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: investment
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #investment
@@ -19,7 +19,7 @@ last_updated: 2026-06-22
 - Total files: 6
 - Sources: 2
 - Concepts: 4
-- Last updated: 2026-06-22
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -33,5 +33,5 @@ last_updated: 2026-06-22
 ## Co-occurring tags
 
 - [[research]] — 4 co-occurrences
-- [[opinion]] — 2 co-occurrences
 - [[tutorial]] — 2 co-occurrences
+- [[opinion]] — 2 co-occurrences

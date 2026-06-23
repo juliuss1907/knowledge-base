@@ -1,15 +1,15 @@
 # Topic: ai-future-skills
 
-Auto-generated index of all content with topic `ai-future-skills`.
+Auto-generated index of all content with topic .
 
-Last updated: 2026-06-22 21:07:44
+Last updated: 2026-06-23 21:24:32
 
 ---
 
 ## Concepts (3)
 
 - [[high-agency]] — main: #productivity, sub: [#psychology]
-- [[meaning-through-work]] — main: #psychology, sub: [#health]
+- [[meaning-through-work]] — main: #productivity, sub: [#health, #psychology]
 - [[vibe-coding]] — main: #ai, sub: [#tools, #vibecode]
 
 ## Sources (1)

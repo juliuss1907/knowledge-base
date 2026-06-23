@@ -23,8 +23,8 @@ Index of all tags used in the knowledge base, organized by Pool A (main-tags) an
 - Total tags: 23
 - Main tags: 9
 - Sub tags: 14
-- Most used: #research (209), #productivity (155), #tools (143)
-- Last updated: 2026-06-22
+- Most used: #research (218), #productivity (170), #tools (152)
+- Last updated: 2026-06-23
 ## Items
 
 ### Main Tags (Pool A)
@@ -50,9 +50,11 @@ Index of all tags used in the knowledge base, organized by Pool A (main-tags) an
 - [[law]] — Legal frameworks, contracts, regulations, compliance
 - [[layer1]] — Base-layer blockchains
 - [[layer2]] — Scaling solutions, rollups, sidechains
+- [[perpdex]] — Perpetual exchanges, derivatives DEXs
+
 - [[news]] — Recent events, announcements, time-sensitive updates
 - [[opinion]] — Personal takes, editorials, commentary
-- [[perpdex]] — Perpetual exchanges, derivatives DEXs
+
 - [[psychology]] — Cognitive science, behavioral psychology, mental models, biases
 - [[research]] — Academic papers, deep analysis, primary sources
 - [[tools]] — Concrete software, products, services, libraries

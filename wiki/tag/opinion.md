@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-06-22
 
 ## Stats
 
-- Total files: 130
-- Sources: 41
-- Concepts: 89
-- Last updated: 2026-06-22
+- Total files: 136
+- Sources: 43
+- Concepts: 93
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -39,6 +39,7 @@ last_updated: 2026-06-22
 - [[altcoin-frenzy-pattern]] — Altcoin Frenzy Pattern (concept)
 - [[american-security-guarantee]] — American Security Guarantee (concept)
 - [[ashbys-law]] — Ashbys Law (concept)
+- [[attention-economy-vs-knowledge-economy]] — Attention Economy Vs Knowledge Economy (concept)
 - [[autobiographical-memory-systems]] — Autobiographical Memory Systems (concept)
 - [[business-idiot-archetype]] — Business Idiot Archetype (concept)
 - [[casino-culture]] — Casino Culture (concept)
@@ -70,8 +71,10 @@ last_updated: 2026-06-22
 - [[institutional-capacity]] — Institutional Capacity (concept)
 - [[job-scoring-framework]] — Job Scoring Framework (concept)
 - [[job-worth-doing]] — Job Worth Doing (concept)
+- [[journalism-social-institution]] — Journalism Social Institution (concept)
 - [[kinked-demand-curve]] — Kinked Demand Curve (concept)
 - [[kissinger-deal-1974]] — Kissinger Deal 1974 (concept)
+- [[knowledge-builder-journalist]] — Knowledge Builder Journalist (concept)
 - [[lazy-thinking]] — Lazy Thinking (concept)
 - [[leading-indicators]] — Leading Indicators (concept)
 - [[markus-four-thinking-types]] — Markus Four Thinking Types (concept)
@@ -91,6 +94,7 @@ last_updated: 2026-06-22
 - [[philosopher-syndrome]] — Philosopher Syndrome (concept)
 - [[premature-analysis]] — Premature Analysis (concept)
 - [[productivity-wage-gap]] — Productivity Wage Gap (concept)
+- [[recognizing-life-signals]] — Recognizing Life Signals (concept)
 - [[reflexivity-soros]] — Reflexivity Soros (concept)
 - [[retail-trading-fantasy]] — Retail Trading Fantasy (concept)
 - [[rot-economy]] — Rot Economy (concept)
@@ -122,6 +126,7 @@ last_updated: 2026-06-22
 - [[src_markus-job-scoring-framework]] — Markus Job Scoring Framework (source)
 - [[src_markus-job-worth-doing]] — Markus Job Worth Doing (source)
 - [[src_markus-systems-thinking-roadmap]] — Markus Systems Thinking Roadmap (source)
+- [[src_nha-bao-lam-gi]] — Nha Bao Lam Gi (source)
 - [[src_no-system-will-make-you-profitable]] — No System Will Make You Profitable (source)
 - [[src_petrodollar-system-analysis]] — Petrodollar System Analysis (source)
 - [[src_setup-is-not-an-edge]] — Setup Is Not An Edge (source)
@@ -131,6 +136,7 @@ last_updated: 2026-06-22
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
 - [[src_the-revenge-of-the-business-idiot]] — The Revenge Of The Business Idiot (source)
+- [[src_this-will-help-you-figure-out-what-you-want]] — This Will Help You Figure Out What You Want (source)
 - [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
 - [[src_tribute-system-new-world-order]] — Tribute System New World Order (source)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
@@ -158,6 +164,6 @@ last_updated: 2026-06-22
 
 - [[research]] — 59 co-occurrences
 - [[productivity]] — 52 co-occurrences
+- [[ai]] — 30 co-occurrences
 - [[economic]] — 30 co-occurrences
-- [[ai]] — 26 co-occurrences
-- [[psychology]] — 26 co-occurrences
+- [[psychology]] — 28 co-occurrences

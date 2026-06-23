@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #research
@@ -16,10 +16,10 @@ last_updated: 2026-06-22
 
 ## Stats
 
-- Total files: 209
-- Sources: 46
-- Concepts: 163
-- Last updated: 2026-06-22
+- Total files: 212
+- Sources: 47
+- Concepts: 165
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -86,6 +86,7 @@ last_updated: 2026-06-22
 - [[framing-mental-model]] — Framing Mental Model (concept)
 - [[free-cash-flow]] — Free Cash Flow (concept)
 - [[galilean-relativity]] — Galilean Relativity (concept)
+- [[gamification-design-patterns]] — Gamification Design Patterns (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-seo]] — Generative Ai Seo (concept)
 - [[generative-search-results]] — Generative Search Results (concept)
@@ -182,6 +183,7 @@ last_updated: 2026-06-22
 - [[src_feedback-loops-mental-model]] — Feedback Loops Mental Model (source)
 - [[src_galilean-relativity]] — Galilean Relativity (source)
 - [[src_game-theory-will-change-your-life]] — Game Theory Will Change Your Life (source)
+- [[src_gamification-app-truth]] — Gamification App Truth (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
 - [[src_hanlons-razor]] — Hanlons Razor (source)
@@ -229,14 +231,15 @@ last_updated: 2026-06-22
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[ultimatum-game]] — Ultimatum Game (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
+- [[variable-reward-systems]] — Variable Reward Systems (concept)
 - [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
 
 ## Co-occurring tags
 
-- [[productivity]] — 69 co-occurrences
+- [[productivity]] — 73 co-occurrences
 - [[opinion]] — 59 co-occurrences
 - [[ai]] — 57 co-occurrences
-- [[tools]] — 47 co-occurrences
-- [[psychology]] — 44 co-occurrences
+- [[tools]] — 49 co-occurrences
+- [[psychology]] — 47 co-occurrences

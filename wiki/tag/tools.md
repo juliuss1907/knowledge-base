@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-06-22
 
 ## Stats
 
-- Total files: 143
-- Sources: 29
-- Concepts: 114
-- Last updated: 2026-06-22
+- Total files: 146
+- Sources: 30
+- Concepts: 116
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -52,6 +52,7 @@ last_updated: 2026-06-22
 - [[code-as-substrate]] — Code As Substrate (concept)
 - [[codified-taste]] — Codified Taste (concept)
 - [[compact-vs-handoff]] — Compact Vs Handoff (concept)
+- [[completion-motivation]] — Completion Motivation (concept)
 - [[consent-phishing]] — Consent Phishing (concept)
 - [[context-window-management]] — Context Window Management (concept)
 - [[conversational-website]] — Conversational Website (concept)
@@ -67,6 +68,7 @@ last_updated: 2026-06-22
 - [[feedback-loop]] — Feedback Loop (concept)
 - [[four-stages-market-cycle]] — Four Stages Market Cycle (concept)
 - [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
+- [[gamification-design-patterns]] — Gamification Design Patterns (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
 - [[generative-ai-seo]] — Generative Ai Seo (concept)
@@ -125,6 +127,7 @@ last_updated: 2026-06-22
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
 - [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
+- [[src_gamification-app-truth]] — Gamification App Truth (source)
 - [[src_generative-ai-search-optimization]] — Generative Ai Search Optimization (source)
 - [[src_google-generative-ai-search-guide]] — Google Generative Ai Search Guide (source)
 - [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
@@ -171,6 +174,6 @@ last_updated: 2026-06-22
 
 - [[ai]] — 92 co-occurrences
 - [[automation]] — 52 co-occurrences
-- [[research]] — 47 co-occurrences
+- [[research]] — 49 co-occurrences
 - [[tutorial]] — 24 co-occurrences
 - [[opinion]] — 20 co-occurrences

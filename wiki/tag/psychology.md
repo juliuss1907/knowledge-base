@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: psychology
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-06-22
 
 ## Stats
 
-- Total files: 108
-- Sources: 31
-- Concepts: 77
-- Last updated: 2026-06-22
+- Total files: 128
+- Sources: 35
+- Concepts: 93
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -29,6 +29,8 @@ last_updated: 2026-06-22
 - [[causal-reasoning]] — Causal Reasoning (concept)
 - [[circle-of-competence]] — Circle Of Competence (concept)
 - [[cognitive-load-theory]] — Cognitive Load Theory (concept)
+- [[collaborative-thinking]] — Collaborative Thinking (concept)
+- [[completion-motivation]] — Completion Motivation (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
 - [[cortisol-management]] — Cortisol Management (concept)
 - [[critical-mass]] — Critical Mass (concept)
@@ -45,6 +47,7 @@ last_updated: 2026-06-22
 - [[first-principles-thinking]] — First Principles Thinking (concept)
 - [[framing-mental-model]] — Framing Mental Model (concept)
 - [[galilean-relativity]] — Galilean Relativity (concept)
+- [[gamification-design-patterns]] — Gamification Design Patterns (concept)
 - [[habit-automation]] — Habit Automation (concept)
 - [[hanlons-razor]] — Hanlons Razor (concept)
 - [[high-agency]] — High Agency (concept)
@@ -55,6 +58,7 @@ last_updated: 2026-06-22
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept)
 - [[impulse-response-gap]] — Impulse Response Gap (concept)
 - [[incentives-mental-model]] — Incentives Mental Model (concept)
+- [[increasing-surface-area-luck]] — Increasing Surface Area Luck (concept)
 - [[interdisciplinary-thinking]] — Interdisciplinary Thinking (concept)
 - [[intrinsic-motivation]] — Intrinsic Motivation (concept)
 - [[inversion]] — Inversion (concept)
@@ -66,11 +70,15 @@ last_updated: 2026-06-22
 - [[map-is-not-territory]] — Map Is Not Territory (concept)
 - [[markus-four-thinking-types]] — Markus Four Thinking Types (concept)
 - [[meaning-through-suffering]] — Meaning Through Suffering (concept)
+- [[meaning-through-work]] — Meaning Through Work (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
 - [[mental-models]] — Mental Models (concept)
 - [[narrative-certainty-trap]] — Narrative Certainty Trap (concept)
+- [[nash-equilibrium]] — Nash Equilibrium (concept)
 - [[negative-future-projection]] — Negative Future Projection (concept)
 - [[negotiation]] — Negotiation (concept)
+- [[occams-broom]] — Occams Broom (concept)
+- [[occams-razor]] — Occams Razor (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
@@ -80,15 +88,19 @@ last_updated: 2026-06-22
 - [[perspective-bias]] — Perspective Bias (concept)
 - [[physics-envy]] — Physics Envy (concept)
 - [[power-law]] — Power Law (concept)
+- [[prisoners-dilemma]] — Prisoners Dilemma (concept)
 - [[probabilistic-thinking]] — Probabilistic Thinking (concept)
 - [[psychological-survival]] — Psychological Survival (concept)
 - [[reciprocity]] — Reciprocity (concept)
+- [[recognizing-life-signals]] — Recognizing Life Signals (concept)
 - [[red-queen-effect]] — Red Queen Effect (concept)
 - [[relational-reasoning]] — Relational Reasoning (concept)
 - [[relationship-dynamics]] — Relationship Dynamics (concept)
+- [[repeated-games]] — Repeated Games (concept)
 - [[retail-trading-fantasy]] — Retail Trading Fantasy (concept)
 - [[sacred-art]] — Sacred Art (concept)
 - [[second-order-thinking]] — Second Order Thinking (concept)
+- [[self-discovery-through-conversations]] — Self Discovery Through Conversations (concept)
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
 - [[src_2026-advice]] — 2026 Advice (source)
@@ -96,11 +108,14 @@ last_updated: 2026-06-22
 - [[src_activation-energy]] — Activation Energy (source)
 - [[src_building-latticework-mental-models]] — Building Latticework Mental Models (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
+- [[src_critical-thinking-dennett]] — Critical Thinking Dennett (source)
 - [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
 - [[src_farnam-street-mental-models-biology-series]] — Farnam Street Mental Models Biology Series (source)
 - [[src_first-principles-thinking]] — First Principles Thinking (source)
 - [[src_fs-blog-mental-models]] — Fs Blog Mental Models (source)
 - [[src_galilean-relativity]] — Galilean Relativity (source)
+- [[src_game-theory-will-change-your-life]] — Game Theory Will Change Your Life (source)
+- [[src_gamification-app-truth]] — Gamification App Truth (source)
 - [[src_hanlons-razor]] — Hanlons Razor (source)
 - [[src_hypergamy]] — Hypergamy (source)
 - [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
@@ -119,9 +134,11 @@ last_updated: 2026-06-22
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
+- [[src_this-will-help-you-figure-out-what-you-want]] — This Will Help You Figure Out What You Want (source)
 - [[src_thought-experiment]] — Thought Experiment (source)
 - [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
+- [[streak-psychology]] — Streak Psychology (concept)
 - [[success-trap]] — Success Trap (concept)
 - [[tacit-knowledge]] — Tacit Knowledge (concept)
 - [[thermodynamics]] — Thermodynamics (concept)
@@ -131,11 +148,14 @@ last_updated: 2026-06-22
 - [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
+- [[ultimatum-game]] — Ultimatum Game (concept)
+- [[variable-reward-systems]] — Variable Reward Systems (concept)
+- [[zero-sum-game]] — Zero Sum Game (concept)
 
 ## Co-occurring tags
 
-- [[productivity]] — 84 co-occurrences
-- [[research]] — 44 co-occurrences
-- [[opinion]] — 26 co-occurrences
+- [[productivity]] — 93 co-occurrences
+- [[research]] — 47 co-occurrences
+- [[opinion]] — 28 co-occurrences
 - [[economic]] — 19 co-occurrences
 - [[automation]] — 13 co-occurrences

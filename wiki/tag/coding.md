@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: coding
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #coding
@@ -19,7 +19,7 @@ last_updated: 2026-06-22
 - Total files: 9
 - Sources: 2
 - Concepts: 7
-- Last updated: 2026-06-22
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -37,6 +37,6 @@ last_updated: 2026-06-22
 
 - [[ai]] — 9 co-occurrences
 - [[research]] — 5 co-occurrences
-- [[tools]] — 4 co-occurrences
 - [[automation]] — 4 co-occurrences
+- [[tools]] — 4 co-occurrences
 - [[vibecode]] — 1 co-occurrence

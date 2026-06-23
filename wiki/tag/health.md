@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: health
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #health
@@ -19,7 +19,7 @@ last_updated: 2026-06-22
 - Total files: 12
 - Sources: 2
 - Concepts: 10
-- Last updated: 2026-06-22
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -39,7 +39,7 @@ last_updated: 2026-06-22
 ## Co-occurring tags
 
 - [[research]] — 7 co-occurrences
-- [[productivity]] — 6 co-occurrences
+- [[productivity]] — 7 co-occurrences
 - [[psychology]] — 5 co-occurrences
 - [[tutorial]] — 4 co-occurrences
 - [[ai]] — 2 co-occurrences

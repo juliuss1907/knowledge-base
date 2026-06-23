@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: system
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #system
@@ -16,10 +16,10 @@ last_updated: 2026-06-22
 
 ## Stats
 
-- Total files: 18
-- Sources: 2
-- Concepts: 16
-- Last updated: 2026-06-22
+- Total files: 24
+- Sources: 3
+- Concepts: 21
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -34,18 +34,24 @@ last_updated: 2026-06-22
 - [[cynefin-framework]] — Cynefin Framework (concept)
 - [[loop-native-factory]] — Loop Native Factory (concept)
 - [[loop-ownership]] — Loop Ownership (concept)
+- [[nash-equilibrium]] — Nash Equilibrium (concept)
+- [[prisoners-dilemma]] — Prisoners Dilemma (concept)
+- [[repeated-games]] — Repeated Games (concept)
 - [[second-order-effects]] — Second Order Effects (concept)
 - [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)
+- [[src_game-theory-will-change-your-life]] — Game Theory Will Change Your Life (source)
 - [[src_the-seed-and-the-machine]] — The Seed And The Machine (source)
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
 - [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
 - [[taste-holders]] — Taste Holders (concept)
+- [[ultimatum-game]] — Ultimatum Game (concept)
+- [[zero-sum-game]] — Zero Sum Game (concept)
 
 ## Co-occurring tags
 
-- [[research]] — 10 co-occurrences
+- [[research]] — 16 co-occurrences
 - [[opinion]] — 8 co-occurrences
+- [[psychology]] — 8 co-occurrences
 - [[automation]] — 6 co-occurrences
 - [[ai]] — 4 co-occurrences
-- [[vibecode]] — 3 co-occurrences

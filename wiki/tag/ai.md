@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: ai
 auto_generated: true
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Tag: #ai
@@ -16,10 +16,10 @@ last_updated: 2026-06-22
 
 ## Stats
 
-- Total files: 128
-- Sources: 28
-- Concepts: 100
-- Last updated: 2026-06-22
+- Total files: 132
+- Sources: 29
+- Concepts: 103
+- Last updated: 2026-06-23
 
 ## Files with this tag
 
@@ -46,6 +46,7 @@ last_updated: 2026-06-22
 - [[ai-vulnerability-discovery]] — Ai Vulnerability Discovery (concept)
 - [[ai-white-collar-automation]] — Ai White Collar Automation (concept)
 - [[alignment-engineering]] — Alignment Engineering (concept)
+- [[attention-economy-vs-knowledge-economy]] — Attention Economy Vs Knowledge Economy (concept)
 - [[autobiographical-memory-systems]] — Autobiographical Memory Systems (concept)
 - [[bpe-algorithm]] — Bpe Algorithm (concept)
 - [[browser-harness-tool]] — Browser Harness Tool (concept)
@@ -85,6 +86,8 @@ last_updated: 2026-06-22
 - [[hippocampal-replay]] — Hippocampal Replay (concept)
 - [[human-judgment-ai]] — Human Judgment Ai (concept)
 - [[infrastructure-capex-cycle]] — Infrastructure Capex Cycle (concept)
+- [[journalism-social-institution]] — Journalism Social Institution (concept)
+- [[knowledge-builder-journalist]] — Knowledge Builder Journalist (concept)
 - [[kv-cache-eviction]] — Kv Cache Eviction (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[llm-sleep]] — Llm Sleep (concept)
@@ -135,6 +138,7 @@ last_updated: 2026-06-22
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
 - [[src_loop-native-factory]] — Loop Native Factory (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
+- [[src_nha-bao-lam-gi]] — Nha Bao Lam Gi (source)
 - [[src_project-glasswing-update]] — Project Glasswing Update (source)
 - [[src_the-revenge-of-the-business-idiot]] — The Revenge Of The Business Idiot (source)
 - [[src_the-seed-and-the-machine]] — The Seed And The Machine (source)
@@ -157,5 +161,5 @@ last_updated: 2026-06-22
 - [[tools]] — 92 co-occurrences
 - [[research]] — 57 co-occurrences
 - [[automation]] — 51 co-occurrences
-- [[opinion]] — 26 co-occurrences
+- [[opinion]] — 30 co-occurrences
 - [[tutorial]] — 16 co-occurrences

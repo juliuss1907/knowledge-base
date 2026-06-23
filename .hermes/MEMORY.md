@@ -10,6 +10,16 @@
 
 ---
 
+## 2026-06-23 23:30 — Hygiene inspection
+
+- **Paths checked:** 30
+- **Issues found:** 1 (1 ERROR, 0 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-23_hygiene-report.md
+- **Top violations:**
+  - ERROR: `state/` folder at root level — empty directory not in root whitelist
+  - 0 WARNING across all content zones (naming conventions compliant)
+  - `.last_heartbeat` at root resolved (since 06-22 report)
+
 ## 2026-06-22 23:30 — Hygiene inspection
 
 - **Paths checked:** 29

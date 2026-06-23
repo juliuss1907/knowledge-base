@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""
+r"""
 Hygiene scan script for Knowledge Base V2.
 Usage: python3 /tmp/hygiene_scan.py
 Output: pipe-delimited lines for terminal parsing.
@@ -24,8 +24,9 @@ import re
 root = '/home/julius/knowledge-base'
 
 # Slug chars: lowercase, digits, hyphens, and Vietnamese diacritics.
-# Built as a regular (non-raw) string so \u escapes are processed.
-SLUG_CHARS = r"a-z0-9\-\u00C0-\u024F\u1E00-\u1EFF"
+# Using a non-raw string with double-backslashes so \u escapes are preserved
+# literally in the string (regex engine processes \uXXXX).
+SLUG_CHARS = "a-z0-9\\-\\u00C0-\\u024F\\u1E00-\\u1EFF"
 
 # Whitelist definitions
 root_allowed_files = {

@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.3
-last_updated: 2026-06-22
+version: 1.4
+last_updated: 2026-06-23
 ---
 
 # Hygiene Inspector
@@ -488,6 +488,7 @@ Hygiene Inspector always processes entire KB in one run:
 | Permission denied on path | Skip path, log warning |
 | Disk full / Permission denied | Stop, alert Julius |
 | `execute_code` blocked (cron mode) | Use `write_file` + `terminal` workaround — see `references/scan-script.py` |
+| `SyntaxError: unicodeescape` on docstring (line 19) | Docstring uses non-raw `"""` containing `\u` sequences. When the file is written via `write_file` (JSON-encoded content), `\u` in the docstring body triggers Python's string parser. **Fix:** Use `r"""` for the docstring so `\u` literals are preserved as-is. The script shipped in `references/scan-script.py` has this fix applied. |
 | `\u` Unicode escapes in raw strings produce false positives | Python raw strings (`r'...'`) do NOT process `\u` escapes — all naming checks fail silently. Use non-raw strings with double-backslash regex escapes (`\\d`) + single `\u` for Unicode. See top-of-file comment in `references/scan-script.py`. |
 | Duplicate issues from os.walk + explicit checks | Deduplicate by `(path, issue)` tuple before reporting |
 
@@ -527,6 +528,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.4 | 2026-06-23 | Fixed `references/scan-script.py`: changed docstring from `"""` to `r"""` to prevent `SyntaxError: unicodeescape` when the script is written via `write_file` (JSON `\u` processing + non-raw Python string parsing conflict). Changed `SLUG_CHARS` from raw string to non-raw with double-backslashes for consistency with the documented pitfall. Added docstring SyntaxError to failure modes table. |
 | 1.3 | 2026-06-22 | Fixed `references/scan-script.py`: replaced raw-string regex patterns with non-raw strings to correctly handle `\u` Unicode escapes (Vietnamese diacritics). Raw strings treat `\u` literally — caused 722 false WARNINGs across all naming checks. Added pitfall to cron section and failure modes. |
 | 1.2 | 2026-06-17 | Initial release with scan script, common patterns reference, cron workaround. |
 

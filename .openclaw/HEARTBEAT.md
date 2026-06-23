@@ -1,46 +1,37 @@
-# HEARTBEAT — 2026-06-24 00:30 ICT
+# OpenClaw Heartbeat Log
 
-**Status:** ✅ HEALTHY
+**Last check:** 2026-06-24 02:00 (Asia/Saigon)
+**Status:** HEARTBEAT_OK
 
-## Checks
+---
+
+## System Status
 
 | Check | Result |
 |-------|--------|
-| Raw backlog (unprocessed >24h) | 0 files |
-| Pending Hermes reviews | 3 reports (Output + Format + Hygiene — 2026-06-23) |
+| Inbox (Tasks/) | Empty |
+| Raw backlog | 0 files unprocessed |
+| Concept backlinks | 2 random checked — 0 backlinks (noted) |
+| Pending reviews | 3 reports pending (Output + Format + Hygiene) |
 
-## Counts
+---
 
-| Zone | Count |
-|------|-------|
-| `wiki/concepts/` | 334 |
-| `wiki/sources/` | 102 |
-| `wiki/tag/` | 24 |
+## Pending Reviews
+
+- Output Validator: 2026-06-23 23:10 — 5 issues (PENDING)
+- Format Validator: 2026-06-23 23:16 — 463 issues (PENDING)
+- Hygiene Inspector: 2026-06-23 23:30 — 1 issue (PENDING)
+
+**Total pending:** 3 reports awaiting Julius approval
+
+---
 
 ## Notes
 
-- Last Hermes validation: 2026-06-23 23:30
-- Julius has 3 pending reports awaiting approval
+- Concept backlink count is 0 — may need IndexAgent review
+- No raw files require immediate processing
+- System stable
 
 ---
 
-*HEARTBEAT_OK | OpenClaw AX400*
-
-## 2026-06-24 01:00:00 — HEARTBEAT_OK
-
-| Zone | Status |
-|------|--------|
-| `raw/` | 0 files unprocessed |
-| `wiki/concepts/` | 334 files |
-| `wiki/sources/` | 102 files |
-| `wiki/tag/` | 24 tag indexes |
-| `wiki/topic/` | 118 topic indexes |
-| Pending reviews | 3 reports (2026-06-23 23:30) |
-
-**Notes**
-- IndexAgent ran successfully at 2026-06-23 21:24
-- Last Hermes validation: 2026-06-23 23:30 — Julius has 3 pending reports awaiting approval
-
----
-
-*HEARTBEAT_OK | OpenClaw AX400*
+*Next heartbeat: 02:30*

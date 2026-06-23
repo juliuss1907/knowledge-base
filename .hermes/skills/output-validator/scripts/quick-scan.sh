@@ -39,6 +39,21 @@ for f in $NEW_FILES; do
     fi
 done
 
+# ─── 2b. Typo: "ngườii/đờii/lờii/rờii/thờii" → double 'i' after 'ờ' ───
+# Compile Agent variant: doubles final 'i' after grave-accented 'ờ' in Vietnamese.
+# Patterns: ngườii→người, đờii→đời, lờii→lời, rờii→rời, thờii→thời, giớii→giới
+DOUBLE_I_PATTERNS='ngườii|đờii|lờii|rờii|thờii|giớii'
+DOUBLE_I_COUNT=$(grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null | wc -l | tr -d ' ')
+DOUBLE_I_INSTANCES=$(grep -rPoh "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null | wc -l | tr -d ' ')
+DOUBLE_I_FILES=$(grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null || echo "")
+# Check if any of today's new files are affected
+DOUBLE_I_NEW_COUNT=0
+for f in $NEW_FILES; do
+    if grep -qP "$DOUBLE_I_PATTERNS" "$f" 2>/dev/null; then
+        DOUBLE_I_NEW_COUNT=$((DOUBLE_I_NEW_COUNT + 1))
+    fi
+done
+
 # ─── 3. 1-sentence definitions (concepts only) ───────────
 ONE_SENT_DEF=""
 for f in $(file_list "wiki/concepts"); do
@@ -124,6 +139,9 @@ if $OUTPUT_JSON; then
   "new_file_list": $(echo "$NEW_FILES" | jq -R -s -c 'split(" ") | map(select(length>0))'),
   "typo_nguoi": $NGUOI_COUNT,
   "typo_nguoi_new": $(echo "$NGUOI_NEW" | wc -w),
+  "typo_double_i_files": $DOUBLE_I_COUNT,
+  "typo_double_i_instances": $DOUBLE_I_INSTANCES,
+  "typo_double_i_new": $DOUBLE_I_NEW_COUNT,
   "one_sentence_defs": $ONE_SENT_COUNT,
   "few_key_points": $FEW_COUNT,
   "few_key_points_detail": $(echo "$FEW_POINTS" | jq -R -s -c 'split(" ") | map(select(length>0))'),
@@ -141,6 +159,7 @@ else
     for f in $NEW_FILES; do echo "   $f"; done
     echo ""
     echo "🔤 Typo 'ngưởi': $NGUOI_COUNT files (new: $(echo "$NGUOI_NEW" | wc -w))"
+    echo "🔤 Typo 'ngườii/đờii/lờii...' (double-i): $DOUBLE_I_COUNT files, $DOUBLE_I_INSTANCES instances (new: $DOUBLE_I_NEW_COUNT)"
     echo "📝 1-sentence definitions: $ONE_SENT_COUNT concepts"
     echo "📊 Too few key points (<5): $FEW_COUNT"
     for fp in $FEW_POINTS; do echo "   $fp"; done

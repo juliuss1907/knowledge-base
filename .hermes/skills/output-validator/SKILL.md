@@ -292,6 +292,27 @@ When a concept file is incomplete (truncated mid-generation by Compile Agent), t
 
 Treat as ERROR — missing `## Related concepts` and `## Sources` sections. The concept should be blocked from referencing until re-compiled.
 
+### "ngườii/đờii/lờii/rờii/thờii" double-i typo variant (2026-06-23)
+
+The original "ngưởi" typo (hook-above 'ỉ' instead of 'ời') evolved into a new variant: Compile Agent now doubles the final 'i' after grave-accented 'ờ' in Vietnamese words. This is the SAME root cause (LLM generating incorrect diacritic/letter combinations) with a different manifestation.
+
+**Patterns detected:**
+- `ngườii` → `người` (most common, 39 instances in one batch)
+- `đờii` → `đời`
+- `lờii` → `lời`
+- `rờii` → `rời`
+- `thờii` → `thời`
+- `giớii` → `giới`
+
+**Fix command (sed):**
+```bash
+sed -i 's/ngườii/người/g; s/đờii/đời/g; s/lờii/lời/g; s/rờii/rời/g; s/thờii/thời/g; s/giớii/giới/g' <file>
+```
+
+**Detection in quick-scan:** `scripts/quick-scan.sh` section 2b uses `grep -rP 'ngườii|đờii|lờii|rờii|thờii|giớii'` to catch this variant. The original "ngưởi" check (section 2) remains active as a separate pass — these are distinct patterns that may co-occur.
+
+**Root cause:** Compile Agent's LLM prompt or tokenization adds an extra 'i' after words that combine the grave accent (`) with Vietnamese characters. When the original "ngưởi" typo was corrected in some files but not the underlying prompt, the error shifted form rather than being eliminated. The fix-agent should handle both variants; the compile-agent prompt should be reviewed to prevent recurrence.
+
 ### False-positive content-depth flags (LLM hallucination)
 
 The LLM-based validator (glm-5.1 via opencode) can incorrectly flag files as having missing/inadequate content when the content is actually present and substantial. **Pattern (2026-06-19):** 7 files flagged as low-quality — but all had full Definitions (2+ câu), Key Ideas (5-6 items), and populated sections.

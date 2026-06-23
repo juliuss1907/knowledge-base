@@ -1,7 +1,7 @@
 ---
 name: verify-kara-fixes
 description: Systematically verify that Kara (Fix Agent) correctly applied all fixes from approved Hermes validation reports. Run after every `openclaw fix apply` cycle to catch silent failures.
-when_to_use: After Kara responds "Fix apply completed" or "All reports resolved". Also use when Julius says "kiểm tra Kara fix đúng chưa" or "verify fixes".
+when_to_use: After Kara responds "Fix apply completed" or "All reports resolved". Also use when Julius says "kiểm tra Kara fix đúng chưa", "verify fixes", "đã kiểm tra lại chưa", "kiểm tra lại", or any variant asking whether previously approved fixes were actually applied.
 ---
 
 # Verify Kara Fixes
@@ -14,7 +14,50 @@ Kara's `fix apply` often fails silently — reports issues as "fixed" but files 
 - **Check evidence, not Kara's claims**: Kara says "fixed" — you verify by reading files.
 - **Report findings to Julius**: List what was fixed vs. what wasn't.
 
-## Verification workflow
+## Quick re-check (đã kiểm tra lại chưa?)
+
+When Julius asks "đã kiểm tra lại chưa" or "kiểm tra lại", he wants a fast status check — not the full systematic workflow. This is a condensed path:
+
+### Step 1: Read the latest approved reports
+
+Read `_action-required.md` to identify what was recently approved/applied. Focus on the most recent 1-2 batches.
+
+### Step 2: Grep for each specific issue
+
+Go directly to grepping. Do NOT re-run the full validators. Target only the issues listed in the approved reports:
+
+```bash
+# Example: check if "Ngưởi" typo was fixed
+grep -rn "Ngưởi" wiki/concepts/ wiki/sources/
+
+# Example: check if "thờigian" spacing typo was fixed
+grep -rn "thờigian" wiki/concepts/ wiki/sources/
+```
+
+**Run all grep commands in parallel** — use separate `terminal` calls, not a loop. Each grep targets one specific string.
+
+### Step 3: Report in table format
+
+Present findings as a compact before/after table:
+
+| Issue | Trước | Sau | Trạng thái |
+|---|---|---|---|
+| "Ngưởi" typo | 1 file còn lại | 0 | ✅ Đã fix |
+| "thờigian" | 1 instance | 1 | ❌ Chưa fix |
+
+Also note any new files compiled since the last report (check with `find -newer`).
+
+### When to use quick re-check vs full workflow
+
+| Trigger | Mode |
+|---|---|
+| "đã kiểm tra lại chưa", "kiểm tra lại" | Quick re-check (this section) |
+| "kiểm tra Kara fix", "verify fixes đầy đủ" | Full workflow (below) |
+| After `openclaw fix apply` just completed | Full workflow (below) |
+
+---
+
+## Full verification workflow
 
 ### Step 1: Identify all issues from approved reports
 

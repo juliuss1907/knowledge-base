@@ -29,6 +29,7 @@ Index of all tags used in the knowledge base, organized by Pool A (main-tags) an
 
 ### Main Tags (Pool A)
 
+- [[health]] — Physical health, sleep, exercise, nutrition, biohacking
 - [[investment]] — Investment principles, portfolio management, asset allocation, risk management
 - [[ai]] — AI / ML / LLM, agents, models, training, inference
 - [[crypto]] — Blockchain, DeFi, tokens, exchanges, on-chain activity
@@ -46,7 +47,6 @@ Index of all tags used in the knowledge base, organized by Pool A (main-tags) an
 - [[coding]] — Programming, software development, code generation, dev practices
 - [[defi]] — Decentralized finance protocols, AMMs, lending, yield
 - [[hack]] — Exploits, vulnerabilities, attacks, post-mortems
-- [[health]] — Physical health, sleep, exercise, nutrition, biohacking
 - [[law]] — Legal frameworks, contracts, regulations, compliance
 - [[layer1]] — Base-layer blockchains
 - [[layer2]] — Scaling solutions, rollups, sidechains

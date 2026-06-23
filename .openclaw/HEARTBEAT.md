@@ -4,6 +4,10 @@
 
 ## 2026-06-23
 
+### 11:30 ⚠️ Minor observations
+- Concepts with low outbound links: prediction-market-dashboard.md, entropy.md (2 files)
+- Pending reviews: 1 entry in _action-required.md
+
 ### 08:30 ✅ HEARTBEAT_OK
 - raw/: 0 files unprocessed
 - wiki/: no unprocessed files

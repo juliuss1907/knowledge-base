@@ -1,8 +1,8 @@
 ---
 type: source
 original: "[[2026-06-20_3-brilliant-critical-thinking-tools-used-by-daniel-dennett]]"
-main_tag: psychology
-sub_tags: [research, tutorial]
+main_tag: productivity
+sub_tags: [psychology, research, tutorial]
 topic: critical-thinking-tools
 date_compiled: 2026-06-22
 url: https://bigthinkbusiness.substack.com/p/3-brilliant-critical-thinking-tools

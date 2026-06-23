@@ -1,8 +1,8 @@
 ---
 type: concept
 status: draft
-main_tag: psychology
-sub_tags: [research]
+main_tag: system
+sub_tags: [psychology, research]
 topic: game-theory-strategic-thinking
 sources:
   - "[[src_game-theory-will-change-your-life]]"

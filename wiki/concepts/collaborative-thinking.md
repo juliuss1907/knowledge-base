@@ -1,8 +1,8 @@
 ---
 type: concept
 status: draft
-main_tag: psychology
-sub_tags: [research]
+main_tag: productivity
+sub_tags: [psychology, research]
 topic: critical-thinking-tools
 sources:
   - "[[src_critical-thinking-dennett]]"

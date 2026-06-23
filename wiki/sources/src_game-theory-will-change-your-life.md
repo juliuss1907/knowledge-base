@@ -1,8 +1,8 @@
 ---
 type: source
 original: "[[2026-06-19_game-theory-will-change-your-life]]"
-main_tag: psychology
-sub_tags: [research, tutorial]
+main_tag: system
+sub_tags: [psychology, research, tutorial]
 topic: game-theory-strategic-thinking
 date_compiled: 2026-06-22
 url: https://ixcarus.substack.com/p/game-theory-will-change-your-life

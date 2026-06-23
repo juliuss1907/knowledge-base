@@ -1,8 +1,8 @@
 ---
 type: concept
 status: draft
-main_tag: psychology
-sub_tags: [health]
+main_tag: productivity
+sub_tags: [health, psychology]
 topic: ai-future-skills
 sources:
   - "[[src_ai-future-skills]]"

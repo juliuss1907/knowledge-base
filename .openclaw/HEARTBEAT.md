@@ -1,36 +1,27 @@
 # OpenClaw Heartbeat Log
 
-**Last check:** 2026-06-23 07:00 (Asia/Saigon) / 2026-06-23 00:00 UTC
-**Status:** HEARTBEAT_OK
+> Every 30 minutes — 08:30, 09:00, 09:30, ...
 
-## Quick status
-- Inbox: clean
-- Raw backlog: 3 files from 2026-06-22 (unprocessed, ~8h old — compile at 08:00)
-- Pending reviews: 3 entries from 2026-06-22 (pending Julius approval)
-- Concept backlinks: not checked
+## 2026-06-23
 
-## Notes
-- Compile at 08:00 will process 3 files
-- Pending reviews: 3 reports from 06-22 evening cycle, awaiting Julius approval
-- Next heartbeat: 07:30
+### 08:30 ✅ HEARTBEAT_OK
+- raw/: 0 files unprocessed
+- wiki/: no unprocessed files
+- Pending reviews: 0 entries awaiting Julius
+- Last vault backup: 08:29
 
-## 2026-06-23 07:00 (Asia/Saigon)
-- **Status:** HEARTBEAT_OK
-- **Inbox:** 0 files tagged #agent/inbox
-- **Raw backlog:** 3 files unprocessed (from 2026-06-22, ~8h old)
-  - raw/articles/2026-06-22_this-will-help-you-figure-out-what-you-want.md
-  - raw/articles/2026-06-22_nha-bao-lam-gi.md
-  - raw/posts/2026-06-22_gamification-app-truth.md
-- **Pending review:** 3 entries from 06-22 evening cycle (Output + Format + Hygiene), still pending approval
-- **Next:** CompileAgent 08:00 today
+### 08:00 ✅ Daily tasks completed
+- Readwise sync: done (0 new articles)
+- Compile: not needed (0 unprocessed)
+- Index update: pending 21:00
 
-## 2026-06-23 06:00 (Asia/Saigon)
-- **Status:** HEARTBEAT_OK (minor - 3 pending compile)
-- **Inbox:** 0 files tagged #agent/inbox
-- **Raw backlog:** 3 files unprocessed (from 2026-06-22)
-  - raw/articles/2026-06-22_this-will-help-you-figure-out-what-you-want.md
-  - raw/articles/2026-06-22_nha-bao-lam-gi.md
-  - raw/posts/2026-06-22_gamification-app-truth.md
-- **Concept backlinks:** Sample checked - OK (6, 4 links)
-- **Pending review:** wiki/reviews/_action-required.md exists (last updated 23:33 yesterday)
-- **Next:** CompileAgent runs at 08:00 today
+### 00:10 ✅ Hermes review completed (2026-06-22)
+- Output: APPROVED (0 ERROR, 2 WARNING, 3 INFO)
+- Format: APPROVED (134 ERROR, 319 WARNING — awaiting Julius approval for Fix Agent)
+- Hygiene: APPROVED (0 ERROR, 1 WARNING)
+
+---
+
+## Archive
+
+_Entries removed after 7 days_

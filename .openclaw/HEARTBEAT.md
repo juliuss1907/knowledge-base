@@ -1,95 +1,30 @@
-# HEARTBEAT.md — OpenClaw System Status
+# OpenClaw Heartbeat Log
 
-> Last updated: 2026-06-23 21:30 (Asia/Saigon)
-> Agent: Kara (OpenClaw AX400)
+## 2026-06-23 17:00 UTC (00:00 Asia/Saigon)
 
----
-
-## Status: ⚠️ ATTENTION REQUIRED
+**Status:** 🟡 PARTIAL — Pending Hermes reports
 
 ---
 
-## System Checks
+### System Check Results
 
-| Check | Status | Detail |
-|---|---|---|
-| Raw backlog | ✅ Clean | 0 unprocessed files |
-| Pending reviews | ✅ Clean | 0 pending Hermes reports |
-| Vault backup | ✅ Active | Running every 30 min |
-| Index integrity | ✅ OK | 20 tag indexes, ~115 topics |
-| Git status | ✅ OK | Only `.hermes/hermes-agent` modified |
-| Concept backlinks | ❌ CRITICAL | 334/334 concepts have 0 backlinks |
+| Check | Status | Notes |
+|-------|--------|-------|
+| Inbox (#agent/inbox) | ✅ | None |
+| Raw backlog | ✅ | 0 unprocessed content files |
+| Concept backlinks | ✅ | 2 samples checked — OK |
+| Pending reviews | 🟡 | 3 reports pending Julius approval |
 
 ---
 
-## ⚠️ Issue Found: Concept Backlinks
+### Pending Hermes Reports
 
-**Problem:** All 334 concept files in `wiki/concepts/` have zero backlinks from `wiki/sources/` or other concepts. This indicates the compile process is not generating proper cross-links.
+- **Output Validator** (2026-06-23 23:10): 5 issues (0 ERROR, 3 WARNING, 2 INFO)
+- **Format Validator** (2026-06-23 23:16): 463 issues (126 ERROR, 337 WARNING)
+- **Hygiene Inspector** (2026-06-23 23:30): 1 issue (1 ERROR)
 
-**Impact:** Knowledge atoms are isolated — graph view and discovery are broken.
-
-**Next action:** Julius needs to review the compile-agent workflow for backlink generation.
-
----
-
-## Notes
-
-- Last vault backup: 2026-06-23 20:06 UTC
-- Tags indexed: 23 (9 main-tags + 14 sub-tags)
-- Topics indexed: 115
-- Invalid tags found: 11 (passive tracking)
-- Last cron run: 2026-06-23 21:30 UTC
+**Action:** Julius should review `wiki/reviews/_action-required.md`
 
 ---
 
-## Next Scheduled Tasks
-
-| Task | Time |
-|---|---|
-| Readwise sync | Tomorrow 07:00 |
-| Compile new raw files | Tomorrow 08:00 |
-| Index update | Tonight 21:00 |
-| Hermes review | Tonight (post-compile) |
-
----
-
-*OpenClaw — AX400 — Heartbeat*
-
----
-
-## Heartbeat — 2026-06-23 22:30 ICT
-
-```
-HEARTBEAT_OK
-```
-
-| Check | Status |
-|---|---|
-| raw/ backlog | 0 files unprocessed |
-| Pending reviews | 0 pending |
-| Inbox | Clean |
-
-*OpenClaw — AX400 — Heartbeat*EOF
-
----
-
-## Heartbeat — 2026-06-23 22:30 ICT
-
-```
-HEARTBEAT_OK
-```
-
-| Check | Status |
-|---|---|
-| raw/ backlog | 0 files unprocessed |
-| Pending reviews | 0 pending |
-| Inbox | Clean |
-
-*OpenClaw — AX400 — Heartbeat*
-
-## 2026-06-23 23:30 +07 — HEARTBEAT_OK
-- raw/: 109 files
-- wiki/concepts/: 334 files
-- wiki/sources/: 102 files
-- Pending reviews: none (last applied 2026-06-15)
-- Inbox: empty
+*Next heartbeat: 2026-06-23 17:30 UTC*

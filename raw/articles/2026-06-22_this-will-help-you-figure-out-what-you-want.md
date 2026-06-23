@@ -5,7 +5,9 @@ url: https://erifili.substack.com/p/this-will-help-you-figure-out-what
 author: Crystal Clear
 date_published: null
 date_ingested: 2026-06-22
-status: unprocessed
+status: processed
+compiled_at: 2026-06-23
+compiled_to: "[[src_this-will-help-you-figure-out-what-you-want]]"
 source: substack
 ---
 

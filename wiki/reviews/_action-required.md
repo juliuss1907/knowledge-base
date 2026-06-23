@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-23 00:10
+**Last updated:** 2026-06-23 23:10
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
-**Scope:** `_approval-log.md` entry 2026-06-23 00:10
+**Scope:** `_approval-log.md` entry 2026-06-23 23:10
 
 **Status:**
+- 🟡 Output Validator — 2026-06-23 (23:10): **PENDING** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Output Validator — 2026-06-22 (22:00): **APPROVED** (5 issues: 0 ERROR, 2 WARNING, 3 INFO)
 - ✅ Format Validator — 2026-06-22 (22:30): **APPROVED** (453 issues: 134 ERROR, 319 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-22 (23:30): **APPROVED** (1 issue: 0 ERROR, 1 WARNING, 0 INFO)
@@ -24,6 +25,26 @@
 - ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+
+---
+
+## Pending — 2026-06-23
+
+### 🟡 Output Validation — 2026-06-23 (23:10)
+
+**File:** [2026-06-23_output-report.md](2026-06-23_output-report.md)
+**Status:** pending
+**Created:** 2026-06-23 23:10
+**Issues:** 5 (0 ERROR, 3 WARNING, 2 INFO)
+**Files affected:** 13 new (10 concepts + 3 sources)
+
+**Summary:**
+- 1 systemic WARNING: "ngườii/đờii/lờii/rờii/thờii" typo (52 instances, 13/13 new files) — new variant of "ngưởi" typo, double 'i' after 'ờ'
+- 1 systemic WARNING: 17 broken wikilinks in new concepts (forward references, expected in growing KB)
+- 1 systemic WARNING: 1-sentence definitions across 10 new concepts (Compile Agent template, deprioritized by Julius 06-12)
+- 2 INFO: Draft status on all 13 new files + 81 concepts with <5 key points (unchanged)
+
+**Report:** `wiki/reviews/2026-06-23_output-report.md`
 
 ---
 

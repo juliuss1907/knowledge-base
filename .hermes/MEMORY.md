@@ -388,3 +388,17 @@
 - **Top violations:** Topic files missing frontmatter (~108), Pool B `psychology` as main_tag (11), code blocks missing lang tags (8), broken wikilinks (~270), unquoted wikilink YAML (23)
 - **Delta from morning (08:20 APPROVED):** +2 ERROR, +1 WARNING, +8 files. No new categories.
 - **Escalations:** [SYSTEMATIC VIOLATION] Topic frontmatter, [SPEC CONFLICT] Unquoted wikilinks — unchanged from morning.
+
+## 2026-06-23 23:10 — Output validation
+
+- **Files checked:** 436 (102 sources + 334 concepts)
+- **New files:** 13 (3 sources + 10 concepts, compiled today)
+- **Issues found:** 5 (0 ERROR, 3 WARNING, 2 INFO)
+- **Report:** wiki/reviews/2026-06-23_output-report.md
+- **Top issues:**
+  - **WARNING:** Systemic "ngườii/đờii/lờii/rờii/thờii" typo — 52 instances across 100% of new files (new variant of "ngưởi" typo: double 'i' after 'ờ')
+  - **WARNING:** 17 broken wikilinks in 10 new concepts (forward references)
+  - **WARNING:** 1-sentence definitions on all 10 new concepts (Compile Agent template, deprioritized)
+  - **INFO:** All 13 new files in draft status + 81 concepts with <5 key points (unchanged)
+- **"Ngưởi" typo:** 0 (finally fully resolved!)
+- **Key insight:** "Ngưởi" typo evolved into "ngườii" variant — Compile Agent now doubles final 'i' after 'ờ' instead of using 'ỉ'. Same root cause, different manifestation.

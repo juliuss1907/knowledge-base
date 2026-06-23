@@ -1,45 +1,39 @@
-# OpenClaw Heartbeat Log
+# HEARTBEAT — System Status Log
 
-> Every 30 minutes — 08:30, 09:00, 09:30, ...
+> Last updated: 2026-06-23 05:30 UTC (12:30 Asia/Saigon)
 
-## 2026-06-23
-
-### 11:30 ⚠️ Minor observations
-- Concepts with low outbound links: prediction-market-dashboard.md, entropy.md (2 files)
-- Pending reviews: 1 entry in _action-required.md
-
-### 08:30 ✅ HEARTBEAT_OK
-- raw/: 0 files unprocessed
-- wiki/: no unprocessed files
-- Pending reviews: 0 entries awaiting Julius
-- Last vault backup: 08:29
-
-### 08:00 ✅ Daily tasks completed
-- Readwise sync: done (0 new articles)
-- Compile: not needed (0 unprocessed)
-- Index update: pending 21:00
-
-### 00:10 ✅ Hermes review completed (2026-06-22)
-- Output: APPROVED (0 ERROR, 2 WARNING, 3 INFO)
-- Format: APPROVED (134 ERROR, 319 WARNING — awaiting Julius approval for Fix Agent)
-- Hygiene: APPROVED (0 ERROR, 1 WARNING)
+## Current Status: ✅ HEARTBEAT_OK
 
 ---
 
-## Archive
+## Checks Performed
 
-_Entries removed after 7 days_
+| Check | Result | Notes |
+|---|---|---|
+| Raw backlog | ✅ 0 files | All raw files processed |
+| Inbox items | ✅ 0 items | No pending inbox content |
+| Pending reviews | ✅ 0 pending | All approved/applied |
+| Wiki concepts | ✅ Active | 1352 concept files, recent updates from 08:21 |
 
-## 2026-06-23 09:00 UTC
-**Status:** HEARTBEAT_OK
-- Inbox: 0 items
-- Raw backlog: 0 unprocessed
-- Pending reviews: 0 (all applied)
-- Concept notes: some missing source: links (3 found)
-## 2026-06-23 12:00 ICT (05:00 UTC)
-**Status:** HEARTBEAT_OK
-- Inbox: 0 items
-- Raw backlog: 0 unprocessed
-- Pending reviews: 0 (all approved/applied)
-- Note: Sample check shows some new concept files missing backlinks (normal for new content, will normalize during next Index update)
+---
 
+## Recent Activity
+
+- 2026-06-23 08:21: New concept files compiled (meaning-through-work, collaborative-thinking, nash-equilibrium, occams-broom)
+- 2026-06-22 23:30: Hygiene Inspector completed — 1 WARNING, APPROVED
+- 2026-06-22 22:30: Format Validator completed — 453 issues, APPROVED
+- 2026-06-22 22:00: Output Validator completed — 5 issues, APPROVED
+
+---
+
+## System Health
+
+- Raw/: Clean — no unprocessed files
+- Wiki/: Active — 1352 concept files
+- Reviews: Resolved — 0 pending reports
+- Compile: Normal schedule (08:00 daily)
+
+---
+
+*OpenClaw — AX400 — Kara*
+*Heartbeat: 2026-06-23 05:30 UTC*

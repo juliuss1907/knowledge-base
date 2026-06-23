@@ -1,17 +1,28 @@
 # OpenClaw Heartbeat Log
 
-**Last check:** 2026-06-23 02:30 (Asia/Saigon) / 2026-06-22 19:30 UTC
-**Status:** HEARTBEAT_OK (minimal)
+**Last check:** 2026-06-23 07:00 (Asia/Saigon) / 2026-06-23 00:00 UTC
+**Status:** HEARTBEAT_OK
 
 ## Quick status
 - Inbox: clean
-- Raw backlog: 3 files from 2026-06-22 (unprocessed, <24h — will compile at 08:00)
-- Pending reviews: 3 entries from 2026-06-22 (existing, notified)
-- Concept backlinks: not checked at this hour
+- Raw backlog: 3 files from 2026-06-22 (unprocessed, ~8h old — compile at 08:00)
+- Pending reviews: 3 entries from 2026-06-22 (pending Julius approval)
+- Concept backlinks: not checked
 
 ## Notes
-- Hour is 02:30 AM — no notification sent
-- Next compile: 2026-06-23 08:00 Saigon
+- Compile at 08:00 will process 3 files
+- Pending reviews: 3 reports from 06-22 evening cycle, awaiting Julius approval
+- Next heartbeat: 07:30
+
+## 2026-06-23 07:00 (Asia/Saigon)
+- **Status:** HEARTBEAT_OK
+- **Inbox:** 0 files tagged #agent/inbox
+- **Raw backlog:** 3 files unprocessed (from 2026-06-22, ~8h old)
+  - raw/articles/2026-06-22_this-will-help-you-figure-out-what-you-want.md
+  - raw/articles/2026-06-22_nha-bao-lam-gi.md
+  - raw/posts/2026-06-22_gamification-app-truth.md
+- **Pending review:** 3 entries from 06-22 evening cycle (Output + Format + Hygiene), still pending approval
+- **Next:** CompileAgent 08:00 today
 
 ## 2026-06-23 06:00 (Asia/Saigon)
 - **Status:** HEARTBEAT_OK (minor - 3 pending compile)

@@ -31,7 +31,7 @@ Bài viết phân tích tầm quan trọng của tỷ lệ tiết kiệm so vớ
 - Câu chuyện Benjamin Franklin: từ bát đất + thìa thiếc → bát sứ + thìa bạc → đồ sứ và dĩa bạc hàng trăm bảng
 - Morgan Housel: "Tiết kiệm là khoảng trống giữa cái tôi và nguồn thu nhập của bạn"
 - Tiết kiệm không phải phép toán trừ (Thu nhập - Chi phí = Tiết kiệm), mà là phép thử tâm lý
-- Ngưởi dùng tiền để mua "cái nhìn của những người xung quanh" - chi cho ego, không phải cho nhu cầu thực sự
+- Người dùng tiền để mua "cái nhìn của những người xung quanh" - chi cho ego, không phải cho nhu cầu thực sự
 - Tỷ lệ tiết kiệm là biến số duy nhất bạn hoàn toàn kiểm soát được (không thể kiểm soát thị trường)
 - Tiết kiệm = mua lại sự tự do: chủ động nghỉ việc, có vốn khi thị trường lao dốc
 - Câu hỏi quan trọng khi chi tiêu: "Món đồ này phục vụ cuộc sống của mình, hay chỉ đang phục vụ cái tôi của mình?"

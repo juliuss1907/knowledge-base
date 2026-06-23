@@ -5,6 +5,52 @@
 
 ---
 
+## Entry: 2026-06-23 00:10 — Julius approves evening update reports
+
+**Approved at:** 2026-06-23
+**Approved by:** Julius
+**Scope:** 3 pending evening update reports — Output (06-22 22:00), Format (06-22 22:30), Hygiene (06-22 23:30)
+
+### ✅ Apply — All issues from 3 reports
+
+#### Output Validator — 2026-06-22 (22:00 Update, 5 issues)
+- Report: `wiki/reviews/2026-06-22_output-report.md`
+- 1 WARNING: "Ngưởi" typo — 1 file remaining (`src_tai-chinh-ca-nhan-9-ban-co-ang-thuc.md`)
+- 1 WARNING: 7 broken wikilinks in new concepts (forward references, systemic)
+- 3 INFO: 2 Vietnamese spacing typos + 1 missing Published date + draft status
+- **All 5 issues approved for Fix Agent**
+
+#### Format Validator — 2026-06-22 (22:30 Update, 453 issues)
+- Report: `wiki/reviews/2026-06-22_format-report.md`
+- ~108 ERROR: Topic files missing YAML frontmatter (systemic, unchanged from morning)
+- 11 ERROR: `main_tag: psychology` — Pool B as main_tag (unchanged)
+- 8 ERROR: Code blocks missing language tags (unchanged)
+- 7 ERROR: Other frontmatter/markdown (minor delta)
+- ~270 WARNING: Broken wikilinks (forward-references)
+- 23 WARNING: Tag files unquoted `parent` YAML (SPEC CONFLICT)
+- 2 WARNING: Field order mismatch + missing raw file
+- Delta from morning: +2 ERROR, +1 WARNING
+- **All 453 issues approved for Fix Agent**
+
+#### Hygiene Inspector — 2026-06-22 (23:30, 1 issue)
+- Report: `wiki/reviews/2026-06-22_hygiene-report.md`
+- 1 WARNING: `.last_heartbeat` hidden file at root level
+- **1 issue approved for Fix Agent**
+
+### ⏭️ Excluded
+
+- **None** — all issues in all 3 reports approved without exclusions.
+
+### ⚠️ Verify-first
+
+- **None**
+
+---
+
+**Total scope:** 459 issues across 3 evening update reports → Fix Agent apply all.
+
+---
+
 ## Entry: 2026-06-22 14:30 — Julius approves all pending reports
 
 **Approved at:** 2026-06-22

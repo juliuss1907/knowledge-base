@@ -23,7 +23,7 @@ Kỹ thuật tạo prompt AI hai giai đoạn (2-phase) để biến expert know
 3. **Meta-prompt là chìa khóa:** Dùng prompt để tạo prompt — không dùng prompt có sẵn mà tự tạo từ expert resource
 4. **Base trên expert knowledge:** Prompt coach được xây dựng dựa trên guide chi tiết extract từ video/sách khóa học
 5. **Cá nhân hóa hoàn toàn:** Mỗi người sẽ có strategy khác nhau vì Phase 1 thu thập context riêng biệt
-6. **Tiết kiệm thờigian và tiền bạc:** Có được expert coach trong 30 phút thay vì tốn $10K và hàng tuần nghiên cứu
+6. **Tiết kiệm thời gian và tiền bạc:** Có được expert coach trong 30 phút thay vì tốn $10K và hàng tuần nghiên cứu
 
 ## Workflow tạo AI coach
 

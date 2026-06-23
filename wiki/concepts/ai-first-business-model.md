@@ -18,7 +18,7 @@ Mô hình kinh doanh sử dụng AI như một leverage để một người ho�
 ## Key ideas
 
 1. **Leverage thay vì magic:** AI không tự động tạo ra thành công, nó là công cụ để thực hiện nhanh hơn những gì đã biết là hiệu quả
-2. **Mọi business đều là media business:** Trong thờiai AI, việc tạo organic content là cách xây dựng brand lâu dài và tạo trust
+2. **Mọi business đều là media business:** Trong thời AI, việc tạo organic content là cách xây dựng brand lâu dài và tạo trust
 3. **Digital product flywheel:** Test idea với content → Tạo digital product nhanh → Cải thiện với feedback → Mở rộng thành các offer khác
 4. **4 skills cốt lõi:** Content (thu hút khách), Brand (tạo trust), Product (để được trả tiền), Promotions (để được nhìn thấy)
 5. **Trust sẽ khan hiếm:** Khi AI tạo ra nhiều nội dung, personal brand đáng tin cậy sẽ có giá trị cao hơn

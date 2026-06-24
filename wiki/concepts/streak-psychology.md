@@ -21,7 +21,7 @@ Hiện tượng tâm lý trong thiết kế sản phẩm khi chuỗi ngày liên
 - **Cơ chế nỗi sợ:** Streak hoạt động dựa trên nỗi sợ mất đi những gì đã xây dựng (loss aversion), khác với phần thưởng ngẫu nhiên hoạt động trên sức hút tương lai
 - **Tác động tiêu cực:** Gây FOMO, mất kiểm soát, vấn đề tâm lý — đặc biệt nghiêm trọng với giới trẻ (Snapchat)
 - **Pháp lý:** Nhiều quốc gia đang đề xuất luật kiểm soát tính năng gây nghiện độc hại vào cuối năm 2026
-- **Thiết kế tốt hơn:** Streak chỉ thực sự tốt khi ngườii dùng được tự chọn mục tiêu, mua quyền tạm dừng (freeze), hoàn toàn làm chủ quá trình (như Duolingo)
+- **Thiết kế tốt hơn:** Streak chỉ thực sự tốt khi người dùng được tự chọn mục tiêu, mua quyền tạm dừng (freeze), hoàn toàn làm chủ quá trình (như Duolingo)
 - **Nguyên tắc tự chủ:** Ngườii dùng cần cảm giác kiểm soát streak thay vì bị streak kiểm soát
 
 ## Related concepts

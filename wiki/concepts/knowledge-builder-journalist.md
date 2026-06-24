@@ -13,7 +13,7 @@ last_updated: 2026-06-23
 
 ## Definition
 
-Vai trò mới của nhà báo trong thế kỷ 21, chuyển dịch từ ngườii đơn thuần truyền tải thông tin sang ngườii kiến tạo tri thức. Thay vì chỉ tường thuật sự kiện, nhà báo đóng vai trò kết nối các dữ kiện rờii rạc từ nhiều lĩnh vực thành bức tranh có ý nghĩa, đặt câu hỏi sâu về "vì sao" và giúp công chúng hiểu điều gì đang thực sự diễn ra.
+Vai trò mới của nhà báo trong thế kỷ 21, chuyển dịch từ người đơn thuần truyền tải thông tin sang người kiến tạo tri thức. Thay vì chỉ tường thuật sự kiện, nhà báo đóng vai trò kết nối các dữ kiện rời rạc từ nhiều lĩnh vực thành bức tranh có ý nghĩa, đặt câu hỏi sâu về "vì sao" và giúp công chúng hiểu điều gì đang thực sự diễn ra.
 
 ## Key ideas
 

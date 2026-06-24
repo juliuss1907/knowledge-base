@@ -17,8 +17,8 @@ Năng lực nhận biết và lắng nghe những dấu hiệu ngầm cho thấy
 
 ## Key ideas
 
-- Con ngườii thường biết mình muốn thay đổi từ rất lâu trước khi nhận thức được điều đó một cách rõ ràng
-- Các dấu hiệu xuất hiện dưới dạng mảnh vỡ nhỏ: một cảm giác thoáng qua khi nhìn thấy ngườii khác sống cuộc sống mình muốn
+- Con người thường biết mình muốn thay đổi từ rất lâu trước khi nhận thức được điều đó một cách rõ ràng
+- Các dấu hiệu xuất hiện dưới dạng mảnh vỡ nhỏ: một cảm giác thoáng qua khi nhìn thấy người khác sống cuộc sống mình muốn
 - Cảm giác không thỏa mãn ngày càng khó bỏ qua khi liên tục bắt gặp những "tia sáng" của cuộc sống lý tưởng
 - Trách nhiệm với bản thân là lắng nghe mọi dấu hiệu và theo đuổi con đường chúng chỉ ra
 - Không nên để bản thân trở thành chướng ngại vận trong con đường đến với sự thỏa mãn

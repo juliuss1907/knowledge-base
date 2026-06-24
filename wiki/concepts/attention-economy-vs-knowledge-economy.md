@@ -13,7 +13,7 @@ last_updated: 2026-06-23
 
 ## Definition
 
-Phân biệt hai hệ thống truyền thông với chức năng và động lực khác nhau. Nền kinh tế chú ý (attention economy) được thúc đẩy bởi sản lượng và tối ưu cho tương tác — đại diện bởi ngườii sáng tạo nội dung. Nền kinh tế tri thức (knowledge economy) được thúc đẩy bởi chiều sâu và tối ưu cho nhận thức — đại diện bởi báo chí truyền thống.
+Phân biệt hai hệ thống truyền thông với chức năng và động lực khác nhau. Nền kinh tế chú ý (attention economy) được thúc đẩy bởi sản lượng và tối ưu cho tương tác — đại diện bởi người sáng tạo nội dung. Nền kinh tế tri thức (knowledge economy) được thúc đẩy bởi chiều sâu và tối ưu cho nhận thức — đại diện bởi báo chí truyền thống.
 
 ## Key ideas
 

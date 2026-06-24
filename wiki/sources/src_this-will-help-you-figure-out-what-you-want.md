@@ -21,18 +21,18 @@ author: Crystal Clear
 
 ## Summary
 
-Bài viết chia sẻ quan điểm về cách tìm ra điều mình thực sự muốn trong cuộc sống khi cảm thấy mất phương hướng. Tác giả cho rằng thay vì cố gắng lập kế hoạch dài hạn, chúng ta nên chủ động tăng "diện tích tiếp xúc" để may mắn và sự tình cờ có cơ hội xảy ra. Thông qua việc gặp gỡ nhiều ngườii, tham gia nhiều sự kiện và lắng nghe câu chuyện của họ từ góc nhìn tò mò chân thành, ta có thể khám phá ra điều thực sự làm mình hứng thú. Sự ghen tị đôi khi là chỉ dấu quý giá chỉ ra điều ta thầm mong muốn. Cuối cùng, khi đã nhận ra con đường phù hợp, ta có trách nhiệm với bản thân là theo đuổi nó một cách không xin lỗi, bất chấp kỳ vọng của ngườii khác.
+Bài viết chia sẻ quan điểm về cách tìm ra điều mình thực sự muốn trong cuộc sống khi cảm thấy mất phương hướng. Tác giả cho rằng thay vì cố gắng lập kế hoạch dài hạn, chúng ta nên chủ động tăng "diện tích tiếp xúc" để may mắn và sự tình cờ có cơ hội xảy ra. Thông qua việc gặp gỡ nhiều người, tham gia nhiều sự kiện và lắng nghe câu chuyện của họ từ góc nhìn tò mò chân thành, ta có thể khám phá ra điều thực sự làm mình hứng thú. Sự ghen tị đôi khi là chỉ dấu quý giá chỉ ra điều ta thầm mong muốn. Cuối cùng, khi đã nhận ra con đường phù hợp, ta có trách nhiệm với bản thân là theo đuổi nó một cách không xin lỗi, bất chấp kỳ vọng của người khác.
 
 ## Key points
 
 - Cảm giác mất phương hướng và không thỏa mãn thường đến từ việc không biết mình thực sự muốn gì, không phải vì không có điều đó
-- Con ngườii rất kém trong việc dự đoán tương lai xa, những cơ hội thay đổi cuộc đờii thường đến từ những nơi không ngờ đến
-- Tăng "diện tích tiếp xúc" bằng cách gặp nhiều ngườii, đồng ý nhiều lờii mờii, xuất hiện ở nhiều nơi để tạo cơ hội cho sự tình cờ
-- Lắng nghe câu chuyện và con đường sự nghiệp của ngườii khác giúp ta học được nhiều điều về chính mình hơn mong đợi
+- Con người rất kém trong việc dự đoán tương lai xa, những cơ hội thay đổi cuộc đời thường đến từ những nơi không ngờ đến
+- Tăng "diện tích tiếp xúc" bằng cách gặp nhiều người, đồng ý nhiều lời mờii, xuất hiện ở nhiều nơi để tạo cơ hội cho sự tình cờ
+- Lắng nghe câu chuyện và con đường sự nghiệp của người khác giúp ta học được nhiều điều về chính mình hơn mong đợi
 - Sự ghen tị là cảm xúc mạnh mẽ có thể chỉ ra điều ta thực sự muốn nhưng chưa nhận thức được
-- Những dấu hiệu muốn thay đổi thường xuất hiện dưới dạng mảnh vỡ nhỏ mỗi khi ta nhìn thấy ngườii sống cuộc sống mình muốn
+- Những dấu hiệu muốn thay đổi thường xuất hiện dưới dạng mảnh vỡ nhỏ mỗi khi ta nhìn thấy người sống cuộc sống mình muốn
 - Thay đổi đáng sợ nhưng điều đáng sợ hơn là sống mà không biết điều gì sẽ xảy ra nếu mình theo đuổi ước mơ
-- Hạnh phúc và thành công của mỗi ngườii có thể trông khác nhau, cần trung thực với bản thân để xác định phiên bản riêng của mình
+- Hạnh phúc và thành công của mỗi người có thể trông khác nhau, cần trung thực với bản thân để xác định phiên bản riêng của mình
 - Những giấc mơ táo bạo nhất thường là nơi ta gặp được phần quan trọng nhất của chính mình
 - Chúng ta thường đánh giá thấp khả năng đạt được điều gì đó nếu thực sự theo đuổi hết mình
 

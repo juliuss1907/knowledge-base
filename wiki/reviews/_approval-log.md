@@ -5,6 +5,36 @@
 
 ---
 
+## Entry: 2026-06-24 00:10 — Julius approves Output report
+
+**Approved at:** 2026-06-24
+**Approved by:** Julius
+**Scope:** Output Validator — 2026-06-23 (23:10)
+
+### ✅ Apply — All 5 issues
+
+#### Output Validator — 2026-06-23 (23:10, 5 issues)
+- Report: `wiki/reviews/2026-06-23_output-report.md`
+- 1 systemic WARNING: "ngườii/đờii/lờii/rờii/thờii" typo — 52 instances across 13 new files (100% hit rate)
+- 1 systemic WARNING: 17 broken wikilinks in new concepts (forward references, expected)
+- 1 systemic WARNING: 1-sentence definitions across 10 new concepts (Compile Agent template, deprioritized by Julius 06-12)
+- 2 INFO: Draft status on all 13 new files + 81 concepts with <5 key points (unchanged)
+- **All 5 issues approved for Fix Agent**
+
+### ⏭️ Excluded
+
+- **None** — all issues approved without exclusions.
+
+### ⚠️ Verify-first
+
+- **None**
+
+---
+
+**Total scope:** 5 issues across 1 report → Fix Agent apply all.
+
+---
+
 ## Entry: 2026-06-23 23:16 — Format Validator cron run
 
 **Created at:** 2026-06-23 23:16

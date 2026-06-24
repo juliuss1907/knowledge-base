@@ -105,8 +105,9 @@ When Julius approves reports (e.g., "approve all reports", "approve output", "ap
 
 1. **Find all pending reports** in `wiki/reviews/`:
    ```bash
-   grep -l "Status: pending" wiki/reviews/YYYY-MM-DD_*-report.md
+   grep -l "Status:.*pending" wiki/reviews/*_report.md
    ```
+   **⚠️ PITFALL — Markdown bold breaks substring grep:** Report files use `**Status:** pending` (markdown bold). `grep "Status: pending"` fails because `**` sits between `:` and `pending`. Use regex `grep "Status:.*pending"` or fall back to `head -5` on each file to check status individually. The `*` glob (not `YYYY-MM-DD_`) catches all date formats including manual runs.
 
 2. **Update each report** — change status from `pending` → `approved`:
    ```

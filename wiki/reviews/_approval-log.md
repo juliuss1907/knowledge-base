@@ -5,6 +5,46 @@
 
 ---
 
+## Entry: 2026-06-24 00:20 — Julius approves Format + Hygiene reports
+
+**Approved at:** 2026-06-24
+**Approved by:** Julius
+**Scope:** Format Validator + Hygiene Inspector — 2026-06-23
+
+### ✅ Apply — All 464 issues from 2 reports
+
+#### Format Validator — 2026-06-23 (23:16, 463 issues)
+- Report: `wiki/reviews/2026-06-23_format-report.md`
+- ~108 ERROR: All topic files missing YAML frontmatter — systemic Index Agent issue (carry-over)
+- 8 ERROR: Code blocks missing language tags (carry-over)
+- ~10 ERROR: Additional frontmatter/markdown issues
+- ~290 WARNING: Broken wikilinks (forward-references, expected in growing KB)
+- 22 WARNING: Tag files unquoted `parent: [[tag]]` parsed as nested YAML list (SPEC CONFLICT)
+- 1 WARNING: Field order mismatch
+- 1 WARNING: Broken original wikilink in source frontmatter
+- Delta: `main_tag: psychology` errors fully resolved (-11 ERROR); -8 ERROR, +18 WARNING overall
+- **All 463 issues approved for Fix Agent**
+
+#### Hygiene Inspector — 2026-06-23 (23:30, 1 issue)
+- Report: `wiki/reviews/2026-06-23_hygiene-report.md`
+- 1 ERROR: `state/` folder at root level — empty directory not in root whitelist
+- Delta: `.last_heartbeat` WARNING resolved
+- **1 issue approved for Fix Agent**
+
+### ⏭️ Excluded
+
+- **None** — all issues in both reports approved without exclusions.
+
+### ⚠️ Verify-first
+
+- **None**
+
+---
+
+**Total scope:** 464 issues across 2 reports → Fix Agent apply all.
+
+---
+
 ## Entry: 2026-06-24 00:10 — Julius approves Output report
 
 **Approved at:** 2026-06-24
@@ -62,7 +102,7 @@
 - `[SYSTEMATIC VIOLATION]` Topic files without frontmatter — Index Agent needs update
 - `[SPEC CONFLICT]` Unquoted wikilinks — index-spec.md vs format-spec.md
 
-### Status: PENDING approval
+### Status: APPROVED (2026-06-24)
 
 ---
 

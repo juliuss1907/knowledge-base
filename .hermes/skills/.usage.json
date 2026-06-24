@@ -510,14 +510,14 @@
     "archived_at": null,
     "created_at": "2026-06-14T16:21:02.723839+00:00",
     "created_by": null,
-    "last_patched_at": "2026-06-22T01:21:46.589709+00:00",
-    "last_used_at": "2026-06-24T01:37:51.095717+00:00",
-    "last_viewed_at": "2026-06-24T01:37:51.091071+00:00",
-    "patch_count": 11,
+    "last_patched_at": "2026-06-24T01:40:17.514421+00:00",
+    "last_used_at": "2026-06-24T01:40:08.612787+00:00",
+    "last_viewed_at": "2026-06-24T01:40:08.597186+00:00",
+    "patch_count": 12,
     "pinned": false,
     "state": "active",
-    "use_count": 18,
-    "view_count": 18
+    "use_count": 19,
+    "view_count": 19
   },
   "llama-cpp": {
     "archived_at": null,

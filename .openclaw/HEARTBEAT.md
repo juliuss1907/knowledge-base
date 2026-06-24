@@ -35,3 +35,20 @@
 ---
 
 *Next heartbeat: 02:30*
+
+## 2026-06-24 07:00
+
+**Status:** ⚠️ ISSUES DETECTED
+
+**Raw backlog:** 11 files unprocessed (>24h)
+- Oldest: `raw/articles/2026-04-02_what-comes-after-systems-thinking.md` (May 17 — 38 days)
+- 8 files from May, 3 files from June
+
+**Pending reviews:** 3 reports (since 2026-06-23 23:30)
+- Output Validator: 5 issues (PENDING)
+- Format Validator: 463 issues (PENDING)
+- Hygiene Inspector: 1 issue (PENDING)
+
+**Concept backlinks:** OK (sample shows healthy link counts: 9-11 per file)
+
+**Action:** CompileAgent và Hermes notification đã có backlog từ lâu. Julius nên review.

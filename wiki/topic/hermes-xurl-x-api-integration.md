@@ -1,15 +1,15 @@
 # Topic: hermes-xurl-x-api-integration
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `hermes-xurl-x-api-integration`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (2)
 
-- [[x-api-oauth2]] — main: #tech, sub: [#tools, #tutorial]
 - [[xurl-cli]] — main: #tech, sub: [#tools, #automation]
+- [[x-api-oauth2]] — main: #tech, sub: [#tools, #tutorial]
 
 ## Sources (1)
 

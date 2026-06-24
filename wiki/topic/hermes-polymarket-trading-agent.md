@@ -1,15 +1,15 @@
 # Topic: hermes-polymarket-trading-agent
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `hermes-polymarket-trading-agent`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (3)
 
-- [[atomic-mac-agent]] — main: #tech, sub: [#tools, #automation]
 - [[hermes-agent]] — main: #ai, sub: [#tools, #automation, #vibecode]
+- [[atomic-mac-agent]] — main: #tech, sub: [#tools, #automation]
 - [[polymarket]] — main: #crypto, sub: [#defi, #tools]
 
 ## Sources (1)

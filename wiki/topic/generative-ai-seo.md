@@ -1,19 +1,19 @@
 # Topic: generative-ai-seo
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `generative-ai-seo`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (6)
 
-- [[generative-ai-search-optimization]] — main: #tech, sub: [#tools, #tutorial]
-- [[generative-ai-seo]] — main: #ai, sub: [#tools, #research]
 - [[google-ai-overviews]] — main: #tech, sub: [#tools, #news]
+- [[generative-ai-search-optimization]] — main: #tech, sub: [#tools, #tutorial]
 - [[non-commodity-content]] — main: #productivity, sub: [#tutorial, #opinion]
-- [[query-fan-out]] — main: #ai, sub: [#research, #tools]
 - [[rag-retrieval-augmented-generation]] — main: #ai, sub: [#research, #tools]
+- [[generative-ai-seo]] — main: #ai, sub: [#tools, #research]
+- [[query-fan-out]] — main: #ai, sub: [#research, #tools]
 
 ## Sources (1)
 

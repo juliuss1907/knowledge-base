@@ -1,15 +1,15 @@
 # Topic: multi-agent-architecture
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `multi-agent-architecture`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (2)
 
-- [[agent-handoff]] — main: #ai, sub: [#automation, #tools]
 - [[orchestrator-worker-validator]] — main: #ai, sub: [#automation, #tools]
+- [[agent-handoff]] — main: #ai, sub: [#automation, #tools]
 
 ## Sources (0)
 

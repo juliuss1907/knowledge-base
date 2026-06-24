@@ -1,16 +1,16 @@
 # Topic: counterinsurgency-warfare
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `counterinsurgency-warfare`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (3)
 
-- [[counterinsurgency]] — main: #politic, sub: [#research, #hack]
 - [[hearts-and-minds]] — main: #politic, sub: [#research]
 - [[oil-spot-strategy]] — main: #politic, sub: [#research]
+- [[counterinsurgency]] — main: #politic, sub: [#research, #hack]
 
 ## Sources (1)
 

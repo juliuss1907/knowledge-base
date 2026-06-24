@@ -1,18 +1,18 @@
 # Topic: game-theory-strategic-thinking
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `game-theory-strategic-thinking`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (5)
 
+- [[zero-sum-game]] — main: #system, sub: [#psychology, #research]
 - [[nash-equilibrium]] — main: #system, sub: [#psychology, #research]
+- [[ultimatum-game]] — main: #system, sub: [#psychology, #research]
 - [[prisoners-dilemma]] — main: #system, sub: [#psychology, #research]
 - [[repeated-games]] — main: #system, sub: [#psychology, #research]
-- [[ultimatum-game]] — main: #system, sub: [#psychology, #research]
-- [[zero-sum-game]] — main: #system, sub: [#psychology, #research]
 
 ## Sources (1)
 

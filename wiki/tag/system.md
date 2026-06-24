@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: system
 auto_generated: true
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 ---
 
 # Tag: #system
@@ -19,7 +19,7 @@ last_updated: 2026-06-23
 - Total files: 24
 - Sources: 3
 - Concepts: 21
-- Last updated: 2026-06-23
+- Last updated: 2026-06-24
 
 ## Files with this tag
 
@@ -51,7 +51,7 @@ last_updated: 2026-06-23
 ## Co-occurring tags
 
 - [[research]] — 16 co-occurrences
-- [[opinion]] — 8 co-occurrences
 - [[psychology]] — 8 co-occurrences
+- [[opinion]] — 8 co-occurrences
 - [[automation]] — 6 co-occurrences
 - [[ai]] — 4 co-occurrences

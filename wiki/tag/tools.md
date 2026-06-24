@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 ---
 
 # Tag: #tools
@@ -19,7 +19,7 @@ last_updated: 2026-06-23
 - Total files: 146
 - Sources: 30
 - Concepts: 116
-- Last updated: 2026-06-23
+- Last updated: 2026-06-24
 
 ## Files with this tag
 
@@ -176,4 +176,4 @@ last_updated: 2026-06-23
 - [[automation]] — 52 co-occurrences
 - [[research]] — 49 co-occurrences
 - [[tutorial]] — 24 co-occurrences
-- [[opinion]] — 20 co-occurrences
+- [[tech]] — 20 co-occurrences

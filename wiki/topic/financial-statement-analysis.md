@@ -1,18 +1,18 @@
 # Topic: financial-statement-analysis
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `financial-statement-analysis`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (5)
 
 - [[cash-flow-statement]] — main: #economic, sub: [#research, #tutorial]
+- [[operating-cash-flow]] — main: #economic, sub: [#research, #tutorial]
+- [[free-cash-flow]] — main: #economic, sub: [#research, #tutorial]
 - [[ebitda-trap]] — main: #economic, sub: [#research, #tutorial]
 - [[financial-metrics]] — main: #economic, sub: [#research, #tutorial]
-- [[free-cash-flow]] — main: #economic, sub: [#research, #tutorial]
-- [[operating-cash-flow]] — main: #economic, sub: [#research, #tutorial]
 
 ## Sources (1)
 

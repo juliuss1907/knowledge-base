@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 ---
 
 # Tag: #research
@@ -19,7 +19,7 @@ last_updated: 2026-06-23
 - Total files: 212
 - Sources: 47
 - Concepts: 165
-- Last updated: 2026-06-23
+- Last updated: 2026-06-24
 
 ## Files with this tag
 

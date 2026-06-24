@@ -19,12 +19,6 @@ last_updated: 2026-06-22
 Index of all tags used in the knowledge base, organized by Pool A (main-tags) and Pool B (sub-tags).
 
 ## Stats
-
-- Total tags: 23
-- Main tags: 9
-- Sub tags: 14
-- Most used: #research (218), #productivity (170), #tools (152)
-- Last updated: 2026-06-23
 ## Items
 
 ### Main Tags (Pool A)

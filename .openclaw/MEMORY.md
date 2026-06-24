@@ -326,3 +326,12 @@ All raw files updated with `status: processed` and `compiled_to` links.
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
+
+## 2026-06-24 21:32:53 — Indexed
+
+- **Scanned:** 334 concepts + 102 sources = 436 total files
+- **Tags indexed:** 23
+- **Topics indexed:** 118
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 178
+

@@ -1,8 +1,8 @@
 # Topic: seed-vs-machine-architecture
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `seed-vs-machine-architecture`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 

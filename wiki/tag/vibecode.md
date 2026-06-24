@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: vibecode
 auto_generated: true
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 ---
 
 # Tag: #vibecode
@@ -19,7 +19,7 @@ last_updated: 2026-06-23
 - Total files: 7
 - Sources: 2
 - Concepts: 5
-- Last updated: 2026-06-23
+- Last updated: 2026-06-24
 
 ## Files with this tag
 
@@ -37,4 +37,4 @@ last_updated: 2026-06-23
 - [[tools]] — 4 co-occurrences
 - [[system]] — 3 co-occurrences
 - [[research]] — 2 co-occurrences
-- [[coding]] — 1 co-occurrence
+- [[automation]] — 1 co-occurrence

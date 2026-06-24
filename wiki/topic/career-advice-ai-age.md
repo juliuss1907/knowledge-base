@@ -1,16 +1,16 @@
 # Topic: career-advice-ai-age
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `career-advice-ai-age`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (3)
 
-- [[human-premium]] — main: #productivity, sub: [#opinion, #psychology, #automation]
-- [[out-of-distribution-experience]] — main: #productivity, sub: [#opinion, #psychology, #automation]
 - [[tokenmaxxing]] — main: #productivity, sub: [#opinion, #psychology, #automation]
+- [[out-of-distribution-experience]] — main: #productivity, sub: [#opinion, #psychology, #automation]
+- [[human-premium]] — main: #productivity, sub: [#opinion, #psychology, #automation]
 
 ## Sources (1)
 

@@ -1,16 +1,16 @@
 # Topic: journalism-ai-era
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `journalism-ai-era`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (3)
 
+- [[knowledge-builder-journalist]] — main: #ai, sub: [#opinion]
 - [[attention-economy-vs-knowledge-economy]] — main: #ai, sub: [#opinion, #news]
 - [[journalism-social-institution]] — main: #ai, sub: [#opinion]
-- [[knowledge-builder-journalist]] — main: #ai, sub: [#opinion]
 
 ## Sources (1)
 

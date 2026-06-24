@@ -1,20 +1,20 @@
 # Topic: llm-memory-consolidation
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `llm-memory-consolidation`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (7)
 
 - [[fast-weights]] — main: #ai, sub: [#research, #tools]
-- [[gated-delta-networks]] — main: #ai, sub: [#research, #tools]
 - [[hippocampal-replay]] — main: #ai, sub: [#research, #health]
-- [[kv-cache-eviction]] — main: #ai, sub: [#research, #tools]
-- [[llm-sleep]] — main: #ai, sub: [#research, #tools]
 - [[memory-consolidation-offline]] — main: #ai, sub: [#research, #tools]
+- [[llm-sleep]] — main: #ai, sub: [#research, #tools]
+- [[gated-delta-networks]] — main: #ai, sub: [#research, #tools]
 - [[state-space-models-ssm]] — main: #ai, sub: [#research, #tools]
+- [[kv-cache-eviction]] — main: #ai, sub: [#research, #tools]
 
 ## Sources (1)
 

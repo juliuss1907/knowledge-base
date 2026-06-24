@@ -1,18 +1,18 @@
 # Topic: sso-security-risks
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `sso-security-risks`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (5)
 
-- [[consent-phishing]] — main: #tech, sub: [#hack, #tools]
-- [[domain-takeover-vulnerability]] — main: #tech, sub: [#hack, #tools]
-- [[oauth-security-risks]] — main: #tech, sub: [#hack, #tools]
 - [[sso-single-point-of-failure]] — main: #tech, sub: [#hack, #tools]
+- [[domain-takeover-vulnerability]] — main: #tech, sub: [#hack, #tools]
 - [[token-theft-attack]] — main: #tech, sub: [#hack, #tools]
+- [[oauth-security-risks]] — main: #tech, sub: [#hack, #tools]
+- [[consent-phishing]] — main: #tech, sub: [#hack, #tools]
 
 ## Sources (1)
 

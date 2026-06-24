@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: politic
 auto_generated: true
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 ---
 
 # Tag: #politic
@@ -19,7 +19,7 @@ last_updated: 2026-06-23
 - Total files: 21
 - Sources: 4
 - Concepts: 17
-- Last updated: 2026-06-23
+- Last updated: 2026-06-24
 
 ## Files with this tag
 
@@ -49,6 +49,6 @@ last_updated: 2026-06-23
 
 - [[research]] — 16 co-occurrences
 - [[opinion]] — 12 co-occurrences
-- [[geopolitics]] — 4 co-occurrences
 - [[hack]] — 4 co-occurrences
+- [[geopolitics]] — 4 co-occurrences
 - [[news]] — 1 co-occurrence

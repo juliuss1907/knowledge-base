@@ -1,8 +1,8 @@
 # Topic: nuclear-deterrence
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `nuclear-deterrence`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 

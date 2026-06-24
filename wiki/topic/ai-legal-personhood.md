@@ -1,17 +1,17 @@
 # Topic: ai-legal-personhood
 
-Auto-generated index of all content with topic .
+Auto-generated index of all content with topic `ai-legal-personhood`.
 
-Last updated: 2026-06-23 21:24:32
+Last updated: 2026-06-24 21:32:53
 
 ---
 
 ## Concepts (4)
 
-- [[agency-law]] — main: #ai, sub: [#law, #research]
-- [[agentic-commerce]] — main: #ai, sub: [#tools, #automation]
 - [[ai-legal-personhood]] — main: #ai, sub: [#law, #tools]
+- [[agency-law]] — main: #ai, sub: [#law, #research]
 - [[zero-member-llc]] — main: #ai, sub: [#law, #tools]
+- [[agentic-commerce]] — main: #ai, sub: [#tools, #automation]
 
 ## Sources (1)
 

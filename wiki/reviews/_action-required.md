@@ -4,17 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-24 08:41
+**Last updated:** 2026-06-25 15:53
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 3
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** `_approval-log.md` entry 2026-06-24 00:10
 
 **Status:**
+- ⏳ Output Validator — 2026-06-25 (15:53): **PENDING APPROVAL** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
+- ⏳ Format Validator — 2026-06-25 (15:53): **PENDING APPROVAL** (345 in-scope issues: 8 ERROR, 337 WARNING, 0 INFO)
+- ⏳ Hygiene Inspector — 2026-06-25 (15:53): **PENDING APPROVAL** (3 actionable issues: 2 ERROR, 1 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-23 (23:10): **APPLIED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Format Validator — 2026-06-23 (23:16): **APPLIED** (463 issues: 126 ERROR, 337 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-23 (23:30): **APPLIED** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)
@@ -27,6 +30,65 @@
 - ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+
+---
+
+## Pending — 2026-06-25
+
+### ⏳ Output Validation — 2026-06-25 (15:53)
+
+**File:** [2026-06-25_output-report.md](2026-06-25_output-report.md)
+**Status:** pending
+**Created:** 2026-06-25 15:53
+**Issues:** 4 (0 ERROR, 3 WARNING, 1 INFO)
+**Files checked:** 436 (102 sources + 334 concepts)
+**New files today:** 0
+
+**Summary:**
+- 332 concepts still have 1-sentence definitions — systemic content-depth issue, unchanged in principle
+- 81 concepts have <5 key points
+- 9 concepts have empty `## Key ideas`
+- 164 concepts remain `status: draft`
+
+**Report:** `wiki/reviews/2026-06-25_output-report.md`
+
+---
+
+### ⏳ Format Validation — 2026-06-25 (15:53)
+
+**File:** [2026-06-25_format-report.md](2026-06-25_format-report.md)
+**Status:** pending
+**Created:** 2026-06-25 15:53
+**Issues:** 345 in-scope (8 ERROR, 337 WARNING, 0 INFO)
+**Raw script findings:** 463 (includes 118 out-of-scope topic-file frontmatter errors)
+
+**Summary:**
+- 8 ERROR: code blocks missing language tags (7 concepts + 1 source)
+- 312 WARNING: broken wikilinks / forward references
+- 23 WARNING: tag files use unquoted `parent: [[tag]]` in YAML frontmatter
+- 1 WARNING: field order mismatch in `src_dan-koe-workflow-analysis-markus.md`
+- 1 WARNING: broken `original` raw reference in `src_map-is-not-territory.md`
+- 118 topic-file frontmatter errors were excluded from actionable count because `wiki/topic/*.md` is out of current validation scope
+
+**Report:** `wiki/reviews/2026-06-25_format-report.md`
+
+---
+
+### ⏳ Hygiene Inspection — 2026-06-25 (15:53)
+
+**File:** [2026-06-25_hygiene-report.md](2026-06-25_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-06-25 15:53
+**Issues:** 3 actionable (2 ERROR, 1 WARNING, 0 INFO)
+**Paths checked:** 31
+
+**Summary:**
+- 1 ERROR: `state/` folder not in root whitelist
+- 1 ERROR: `wiki/reviews/HEARTBEAT.md` leaked into review zone
+- 1 WARNING: hidden root artifact `.last-heartbeat`
+- 1 raw-script false positive excluded by scope: `memory/`
+
+**Report:** `wiki/reviews/2026-06-25_hygiene-report.md`
 
 ---
 

@@ -100,6 +100,21 @@ When Julius approves reports (e.g., "approve all reports", "approve output", "ap
 
 **Why:** Julius operates on validator types, not dates. He expects all pending work for that validator to be approved. Partial approval (only latest) requires him to repeat the command for each date.
 
+### Approval Scope — Use dashboard state, not stray `pending` strings
+
+**When Julius says "approve all reports":**
+→ Approve all reports that are **currently pending in `wiki/reviews/_action-required.md`**.
+
+Do **NOT** infer approval scope by grepping every file in `wiki/reviews/` for `**Status:** pending`.
+Older reports and archived files may still contain literal `pending` in historical content, but if they are not listed as pending in `_action-required.md`, they are **not** part of the current approval queue.
+
+**Ground truth order:**
+1. `_action-required.md` pending sections / summary count
+2. current active report files referenced there
+3. only then patch report status + `_approval-log.md`
+
+**Practical rule:** the dashboard is the approval contract; raw text matches in historical files are not.
+
 ### Step-by-step
 
 1. **Find all pending reports** in `wiki/reviews/`:

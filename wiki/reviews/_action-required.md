@@ -1,23 +1,23 @@
-# Action Required — Pending Reports
+# Action Required — Report Status
 
-> Consolidated list of pending Hermes validation reports
+> Consolidated list of Hermes validation reports and approval state
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-25 15:53
+**Last updated:** 2026-06-25 16:03
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 0
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
-**Scope:** `_approval-log.md` entry 2026-06-24 00:10
+**Scope:** `_approval-log.md` entry 2026-06-25 16:03
 
 **Status:**
-- ⏳ Output Validator — 2026-06-25 (15:53): **PENDING APPROVAL** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
-- ⏳ Format Validator — 2026-06-25 (15:53): **PENDING APPROVAL** (345 in-scope issues: 8 ERROR, 337 WARNING, 0 INFO)
-- ⏳ Hygiene Inspector — 2026-06-25 (15:53): **PENDING APPROVAL** (3 actionable issues: 2 ERROR, 1 WARNING, 0 INFO)
+- ✅ Output Validator — 2026-06-25 (15:53): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
+- ✅ Format Validator — 2026-06-25 (15:53): **APPROVED** (345 in-scope issues: 8 ERROR, 337 WARNING, 0 INFO)
+- ✅ Hygiene Inspector — 2026-06-25 (15:53): **APPROVED** (3 actionable issues: 2 ERROR, 1 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-23 (23:10): **APPLIED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Format Validator — 2026-06-23 (23:16): **APPLIED** (463 issues: 126 ERROR, 337 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-23 (23:30): **APPLIED** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)
@@ -33,12 +33,13 @@
 
 ---
 
-## Pending — 2026-06-25
+## Approved — 2026-06-25
 
-### ⏳ Output Validation — 2026-06-25 (15:53)
+### ✅ Output Validation — 2026-06-25 (15:53)
 
 **File:** [2026-06-25_output-report.md](2026-06-25_output-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-25 16:03 +07
 **Created:** 2026-06-25 15:53
 **Issues:** 4 (0 ERROR, 3 WARNING, 1 INFO)
 **Files checked:** 436 (102 sources + 334 concepts)
@@ -54,10 +55,11 @@
 
 ---
 
-### ⏳ Format Validation — 2026-06-25 (15:53)
+### ✅ Format Validation — 2026-06-25 (15:53)
 
 **File:** [2026-06-25_format-report.md](2026-06-25_format-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-25 16:03 +07
 **Created:** 2026-06-25 15:53
 **Issues:** 345 in-scope (8 ERROR, 337 WARNING, 0 INFO)
 **Raw script findings:** 463 (includes 118 out-of-scope topic-file frontmatter errors)
@@ -74,10 +76,11 @@
 
 ---
 
-### ⏳ Hygiene Inspection — 2026-06-25 (15:53)
+### ✅ Hygiene Inspection — 2026-06-25 (15:53)
 
 **File:** [2026-06-25_hygiene-report.md](2026-06-25_hygiene-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-25 16:03 +07
 **Created:** 2026-06-25 15:53
 **Issues:** 3 actionable (2 ERROR, 1 WARNING, 0 INFO)
 **Paths checked:** 31
@@ -548,6 +551,9 @@ openclaw fix apply
 
 ## Applied Reports
 
+- [2026-06-25] Hygiene Report — **APPROVED** (2026-06-25 16:03)
+- [2026-06-25] Format Report — **APPROVED** (2026-06-25 16:03)
+- [2026-06-25] Output Report — **APPROVED** (2026-06-25 16:03)
 - [2026-06-23] Hygiene Report — **APPROVED** (2026-06-24)
 - [2026-06-23] Format Report — **APPROVED** (2026-06-24)
 - [2026-06-23] Output Report — **APPROVED** (2026-06-24)

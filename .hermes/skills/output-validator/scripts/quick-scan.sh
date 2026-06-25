@@ -17,6 +17,7 @@ OUTPUT_JSON=false
 
 # ─── Helper ──────────────────────────────────────────────
 count_lines() { wc -l | tr -d ' '; }
+count_words_var() { echo "$1" | wc -w | tr -d ' '; }
 file_list() { find "$1" -maxdepth 1 -name "*.md" -type f 2>/dev/null | sort; }
 
 # ─── 1. New file detection ───────────────────────────────
@@ -30,7 +31,7 @@ NEW_COUNT=$(echo "$NEW_FILES" | wc -w)
 
 # ─── 2. Typo: "ngưởi" → "người" ─────────────────────────
 NGUOI_FILES=$(grep -rl "ngưởi" wiki/sources/ wiki/concepts/ 2>/dev/null || echo "")
-NGUOI_COUNT=$(echo "$NGUOI_FILES" | grep -c "." || echo 0)
+NGUOI_COUNT=$(count_words_var "$NGUOI_FILES")
 # Check if any of today's new files are affected
 NGUOI_NEW=""
 for f in $NEW_FILES; do
@@ -43,8 +44,8 @@ done
 # Compile Agent variant: doubles final 'i' after grave-accented 'ờ' in Vietnamese.
 # Patterns: ngườii→người, đờii→đời, lờii→lời, rờii→rời, thờii→thời, giớii→giới
 DOUBLE_I_PATTERNS='ngườii|đờii|lờii|rờii|thờii|giớii'
-DOUBLE_I_COUNT=$(grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null | wc -l | tr -d ' ')
-DOUBLE_I_INSTANCES=$(grep -rPoh "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null | wc -l | tr -d ' ')
+DOUBLE_I_COUNT=$( (grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null || true) | wc -l | tr -d ' ' )
+DOUBLE_I_INSTANCES=$( (grep -rPoh "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null || true) | wc -l | tr -d ' ' )
 DOUBLE_I_FILES=$(grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null || echo "")
 # Check if any of today's new files are affected
 DOUBLE_I_NEW_COUNT=0
@@ -145,10 +146,10 @@ if $OUTPUT_JSON; then
   "one_sentence_defs": $ONE_SENT_COUNT,
   "few_key_points": $FEW_COUNT,
   "few_key_points_detail": $(echo "$FEW_POINTS" | jq -R -s -c 'split(" ") | map(select(length>0))'),
-  "truncated_concepts": $(echo "$TRUNCATED_CONCEPTS" | grep -c "." || echo 0),
-  "truncated_sources": $(echo "$TRUNCATED_SOURCES" | grep -c "." || echo 0),
-  "empty_sources": $(echo "$EMPTY_SOURCES" | grep -c "." || echo 0),
-  "empty_key_ideas": $(echo "$EMPTY_KEY_IDEAS" | grep -c "." || echo 0),
+  "truncated_concepts": $(count_words_var "$TRUNCATED_CONCEPTS"),
+  "truncated_sources": $(count_words_var "$TRUNCATED_SOURCES"),
+  "empty_sources": $(count_words_var "$EMPTY_SOURCES"),
+  "empty_key_ideas": $(count_words_var "$EMPTY_KEY_IDEAS"),
   "draft_concepts": $DRAFT_COUNT
 }
 EOF
@@ -158,16 +159,16 @@ else
     echo "📁 New files today: $NEW_COUNT"
     for f in $NEW_FILES; do echo "   $f"; done
     echo ""
-    echo "🔤 Typo 'ngưởi': $NGUOI_COUNT files (new: $(echo "$NGUOI_NEW" | wc -w))"
+    echo "🔤 Typo 'ngưởi': $NGUOI_COUNT files (new: $(count_words_var "$NGUOI_NEW"))"
     echo "🔤 Typo 'ngườii/đờii/lờii...' (double-i): $DOUBLE_I_COUNT files, $DOUBLE_I_INSTANCES instances (new: $DOUBLE_I_NEW_COUNT)"
     echo "📝 1-sentence definitions: $ONE_SENT_COUNT concepts"
     echo "📊 Too few key points (<5): $FEW_COUNT"
     for fp in $FEW_POINTS; do echo "   $fp"; done
-    echo "✂️  Truncated concepts (missing sections): $(echo "$TRUNCATED_CONCEPTS" | grep -c "." || echo 0)"
+    echo "✂️  Truncated concepts (missing sections): $(count_words_var "$TRUNCATED_CONCEPTS")"
     for tc in $TRUNCATED_CONCEPTS; do echo "   $tc"; done
-    echo "✂️  Truncated sources (missing Concepts referenced): $(echo "$TRUNCATED_SOURCES" | grep -c "." || echo 0)"
-    echo "📭 Empty Key ideas: $(echo "$EMPTY_KEY_IDEAS" | grep -c "." || echo 0)"
-    echo "📭 Empty Sources: $(echo "$EMPTY_SOURCES" | grep -c "." || echo 0)"
+    echo "✂️  Truncated sources (missing Concepts referenced): $(count_words_var "$TRUNCATED_SOURCES")"
+    echo "📭 Empty Key ideas: $(count_words_var "$EMPTY_KEY_IDEAS")"
+    echo "📭 Empty Sources: $(count_words_var "$EMPTY_SOURCES")"
     echo "🏷️  Draft concepts: $DRAFT_COUNT"
     echo ""
     echo "Total sources: $(file_list 'wiki/sources' | wc -l)"

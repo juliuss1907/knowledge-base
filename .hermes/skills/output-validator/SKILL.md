@@ -368,3 +368,24 @@ points=$(echo "$points" | tr -d '[:space:]')
 [ -z "$points" ] && points=0
 ```
 This ensures the variable is a clean integer before arithmetic comparisons. All 5 loops in `scripts/quick-scan.sh` have been patched with this fix.
+
+**Additional pitfall (2026-06-25):** The same `grep -c ... || echo 0` pattern can break top-level counters outside loops, e.g.:
+```bash
+NGUOI_COUNT=$(echo "$NGUOI_FILES" | grep -c "." || echo 0)
+```
+When `NGUOI_FILES` is empty, this becomes `"0\n0"` and later JSON/human output is corrupted. Use a word-count helper for space-separated file lists instead:
+```bash
+count_words_var() { echo "$1" | wc -w | tr -d ' '; }
+NGUOI_COUNT=$(count_words_var "$NGUOI_FILES")
+```
+
+**Additional pitfall (2026-06-25):** Under `set -euo pipefail`, commands like:
+```bash
+grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ | wc -l
+```
+will exit the whole script when grep finds zero matches. Wrap the grep with `|| true` inside a subshell:
+```bash
+DOUBLE_I_COUNT=$( (grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null || true) | wc -l | tr -d ' ' )
+```
+
+**Additional pitfall (2026-06-25):** `--json` mode depends on `jq` for array serialization. On machines without `jq`, the script still exits 0 but emits invalid JSON and `jq: command not found`. In that environment, prefer plain-text mode or add a preflight check for `jq` before using `--json`.

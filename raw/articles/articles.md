@@ -20,7 +20,7 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 78 files
+- Total: 108 files
 - By status: 72 processed, 6 unprocessed
 - By date: 18 this week, 78 this month
 - Last updated: 2026-06-22
@@ -84,3 +84,4 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Notes
 
 <!-- Free space for Julius -->
+- [[2026-06-25_everything-is-a-win-when-the-goal]] — everything is a win when the goal is to experience (unprocessed)

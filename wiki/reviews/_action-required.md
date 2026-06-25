@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-25 16:18
+**Last updated:** 2026-06-25 16:25
 
 ---
 
@@ -15,9 +15,9 @@
 **Scope:** `_approval-log.md` entry 2026-06-25 16:03
 
 **Status:**
-- ✅ Output Validator — 2026-06-25 (15:53): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
-- ✅ Format Validator — 2026-06-25 (15:53): **APPROVED** (345 in-scope issues: 8 ERROR, 337 WARNING, 0 INFO)
-- ✅ Hygiene Inspector — 2026-06-25 (15:53): **APPROVED** (3 actionable issues: 2 ERROR, 1 WARNING, 0 INFO)
+- ✅ Output Validator — 2026-06-25 (15:53): **APPLIED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
+- ✅ Format Validator — 2026-06-25 (15:53): **APPLIED** (345 in-scope issues: 8 ERROR, 337 WARNING, 0 INFO)
+- ✅ Hygiene Inspector — 2026-06-25 (15:53): **APPLIED** (3 actionable issues: 2 ERROR, 1 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-23 (23:10): **APPLIED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Format Validator — 2026-06-23 (23:16): **APPLIED** (463 issues: 126 ERROR, 337 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-23 (23:30): **APPLIED** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)

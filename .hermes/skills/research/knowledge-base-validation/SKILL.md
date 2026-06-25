@@ -206,7 +206,28 @@ Older reports and archived files may still contain literal `pending` in historic
 - ✅ [Validator] — YYYY-MM-DD: **APPLIED** (N files fixed)
 ```
 
-## Process
+### History normalization for `_action-required.md`
+
+Khi Julius yêu cầu "bulk-normalize trạng thái" hoặc dọn sạch lịch sử dashboard, **ưu tiên normalize `_action-required.md` trước**, không đụng vào concept/source files.
+
+Checklist tối thiểu:
+1. **Section heading phải khớp trạng thái thực tế của batch**
+   - `## Pending — YYYY-MM-DD` → chỉ dùng khi batch còn chờ review
+   - `## Approved — YYYY-MM-DD` → dùng khi report đã được Julius duyệt nhưng chưa apply
+   - `## Applied — YYYY-MM-DD` → dùng khi fixes đã được apply
+2. **Status trong từng block phải khớp heading**
+   - Nếu batch đã apply, đổi `**Status:** approved` → `**Status:** applied`
+3. **Footer/history list phải đồng bộ với body**
+   - Nếu body nói `APPLIED`, footer không được vẫn ghi `APPROVED`
+4. **Đổi nhãn section khi cần để tránh semantic drift**
+   - Ví dụ `## Applied Reports` nhưng chứa cả APPROVED lẫn APPLIED → rename thành `## Recent Reports`
+5. **Update `Last updated` sau cùng**
+6. **Verify bằng diff + string checks**
+   - xác nhận section heading, body status, và footer entries cùng dùng một trạng thái cho cùng batch
+
+Nguyên tắc: nếu task chỉ là cleanup lịch sử/trạng thái dashboard, **không tự ý normalize các report files gốc** trừ khi Julius yêu cầu rõ. Dashboard cleanup và report-status migration là hai scope khác nhau.
+
+## _approval-log.md — Cross-Machine Approval Contract
 
 1. **Verify working directory**: `cd ~/knowledge-base` — NOT the hermes-agent repo. Check `ls wiki/concepts/ | head -3` to confirm.
 2. **Read TAGS.md** to get current Pool B (not hardcoded from skill memory).

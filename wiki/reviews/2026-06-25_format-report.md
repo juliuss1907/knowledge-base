@@ -1,6 +1,6 @@
 # Format Validation — 2026-06-25
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius — 2026-06-25 16:03 +07
 **Issues found:** 345 in-scope issues (`463` raw script findings minus `118` out-of-scope topic-file false positives)
 **Created:** 2026-06-25 15:53

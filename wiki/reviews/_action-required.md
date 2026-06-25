@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-25 16:03
+**Last updated:** 2026-06-25 16:18
 
 ---
 
@@ -95,12 +95,12 @@
 
 ---
 
-## Pending — 2026-06-23
+## Applied — 2026-06-23
 
 ### ✅ Output Validation — 2026-06-23 (23:10)
 
 **File:** [2026-06-23_output-report.md](2026-06-23_output-report.md)
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius — 2026-06-24
 **Created:** 2026-06-23 23:10
 **Issues:** 5 (0 ERROR, 3 WARNING, 2 INFO)
@@ -119,7 +119,7 @@
 ### ✅ Format Validation — 2026-06-23 (23:16)
 
 **File:** [2026-06-23_format-report.md](2026-06-23_format-report.md)
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius — 2026-06-24
 **Created:** 2026-06-23 23:16
 **Issues:** 463 (126 ERROR, 337 WARNING, 0 INFO)
@@ -145,7 +145,7 @@
 ### ✅ Hygiene Inspection — 2026-06-23 (23:30)
 
 **File:** [2026-06-23_hygiene-report.md](2026-06-23_hygiene-report.md)
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius — 2026-06-24
 **Created:** 2026-06-23 23:30
 **Issues:** 1 (1 ERROR, 0 WARNING, 0 INFO)
@@ -162,7 +162,7 @@
 
 ---
 
-## Pending — 2026-06-22
+## Approved — 2026-06-22
 
 ### ✅ Output Validation — 2026-06-22 (22:00 Update)
 
@@ -549,14 +549,14 @@ Latest validation found draft files. Julius did not approve this item in the cur
 openclaw fix apply
 ```
 
-## Applied Reports
+## Recent Reports
 
 - [2026-06-25] Hygiene Report — **APPROVED** (2026-06-25 16:03)
 - [2026-06-25] Format Report — **APPROVED** (2026-06-25 16:03)
 - [2026-06-25] Output Report — **APPROVED** (2026-06-25 16:03)
-- [2026-06-23] Hygiene Report — **APPROVED** (2026-06-24)
-- [2026-06-23] Format Report — **APPROVED** (2026-06-24)
-- [2026-06-23] Output Report — **APPROVED** (2026-06-24)
+- [2026-06-23] Hygiene Report — **APPLIED** (2026-06-24)
+- [2026-06-23] Format Report — **APPLIED** (2026-06-24)
+- [2026-06-23] Output Report — **APPLIED** (2026-06-24)
 - [2026-06-22] Hygiene Report (23:30) — **APPROVED** (2026-06-23)
 - [2026-06-22] Format Report (22:30) — **APPROVED** (2026-06-23)
 - [2026-06-22] Output Report (22:00) — **APPROVED** (2026-06-23)

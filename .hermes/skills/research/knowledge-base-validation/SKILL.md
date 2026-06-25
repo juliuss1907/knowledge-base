@@ -41,7 +41,7 @@ Quy trình: báo cáo list file + proposed fix → Julius confirm → Connor pat
 Checks: frontmatter fields, field order, sub_tags count (1-3 required), wikilink format ("[[...]]" in frontmatter, bare elsewhere), naming conventions.
 
 **Pool B tags are defined in TAGS.md — ALWAYS read TAGS.md as ground truth, do NOT hardcode.**  
-Current Pool B (16 tags as of 2026-06-01): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding, psychology, health.
+Current Pool B is defined by `TAGS.md` and currently includes 19 tags as of 2026-06-19: hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding, psychology, health, ai, system, geopolitics.
 
 **RECURRING SYSTEMIC ISSUE — Main-tags used as sub_tags:**  
 Compile Agent frequently puts main_tags (economic, productivity, systems, ai, politic, tech, crypto) into sub_tags. These are Pool A tags, NOT Pool B. Pattern: `sub_tags: [opinion, productivity, systems]` — `productivity` and `systems` are main_tags masquerading as sub_tags. Fix: strip main-tag duplicates, keep only valid Pool B tags.
@@ -50,7 +50,6 @@ Known INVALID sub_tags (recurring — do NOT flag as valid):
 - `economic` → already main_tag (Pool A), remove from sub_tags
 - `productivity` → already main_tag, remove from sub_tags  
 - `systems` → already main_tag, remove from sub_tags
-- `ai` → already main_tag, remove from sub_tags
 - `politic` → already main_tag, remove from sub_tags
 - `tech` → already main_tag, remove from sub_tags
 - `crypto` → already main_tag, remove from sub_tags
@@ -422,7 +421,7 @@ Per format-spec.md §3.2, source files do NOT have a `status` field. Only concep
 | Check | Spec Rule |
 |-------|-----------|
 | sub_tags count | 1-3 per file (Pool B tags only) |
-| Valid Pool B tags | **ALWAYS read TAGS.md.** Current (2026-06-01): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding, psychology, health |
+| Valid Pool B tags | **ALWAYS read TAGS.md.** Current Pool B (2026-06-19): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding, psychology, health, ai, system, geopolitics |
 | Invalid tags (recurring) | main_tags used as sub_tags: `economic`, `productivity`, `systems`, `ai`, `politic`, `tech`, `crypto` → remove, these are Pool A only |
 | Status valid values | `draft` \| `reviewed` \| `needs-revision` (NOT `stub`) |
 | Summary min length | 3-5 sentences required. 1-sentence summary = systemic compile-agent prompt failure |

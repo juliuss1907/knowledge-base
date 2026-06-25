@@ -5,6 +5,55 @@
 
 ---
 
+## Entry: 2026-06-25 16:03 — Julius approves all pending reports
+
+**Approved at:** 2026-06-25
+**Approved by:** Julius
+**Scope:** All 3 pending validation reports — Output, Format, Hygiene (2026-06-25)
+
+### ✅ Apply — All issues from 3 reports
+
+#### Output Validator — 2026-06-25 (4 issues)
+- Report: `wiki/reviews/2026-06-25_output-report.md`
+- 3 WARNING + 1 INFO
+- 332 concepts still have 1-sentence definitions
+- 81 concepts have <5 key points
+- 9 concepts have empty `## Key ideas`
+- 164 concepts remain `status: draft`
+- **All 4 issues approved for Fix Agent**
+
+#### Format Validator — 2026-06-25 (345 in-scope issues)
+- Report: `wiki/reviews/2026-06-25_format-report.md`
+- 8 ERROR: code blocks missing language tags
+- 312 WARNING: broken wikilinks / forward references
+- 23 WARNING: tag files use unquoted `parent: [[tag]]` in YAML frontmatter
+- 1 WARNING: field order mismatch in `src_dan-koe-workflow-analysis-markus.md`
+- 1 WARNING: broken raw `original` reference in `src_map-is-not-territory.md`
+- 118 topic-file frontmatter false positives excluded from actionable count
+- **All 345 in-scope issues approved for Fix Agent**
+
+#### Hygiene Inspector — 2026-06-25 (3 actionable issues)
+- Report: `wiki/reviews/2026-06-25_hygiene-report.md`
+- 1 ERROR: `state/` folder not in root whitelist
+- 1 ERROR: `wiki/reviews/HEARTBEAT.md` leaked into review zone
+- 1 WARNING: hidden root artifact `.last-heartbeat`
+- 1 raw-script false positive excluded by scope: `memory/`
+- **All 3 actionable issues approved for Fix Agent**
+
+### ⏭️ Excluded
+
+- **None** — all issues in all 3 reports approved without exclusions.
+
+### ⚠️ Verify-first
+
+- **None**
+
+---
+
+**Total scope:** 352 actionable issues across 3 reports → Fix Agent apply all.
+
+---
+
 ## Entry: 2026-06-24 00:20 — Julius approves Format + Hygiene reports
 
 **Approved at:** 2026-06-24

@@ -446,12 +446,12 @@
     "created_at": "2026-06-14T16:30:24.272691+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-23T16:36:50.435575+00:00",
-    "last_used_at": "2026-06-25T08:40:18.157738+00:00",
+    "last_used_at": "2026-06-25T16:30:30.672773+00:00",
     "last_viewed_at": "2026-06-25T08:40:18.148757+00:00",
     "patch_count": 21,
     "pinned": false,
     "state": "active",
-    "use_count": 35,
+    "use_count": 36,
     "view_count": 24
   },
   "imessage": {
@@ -511,13 +511,13 @@
     "created_at": "2026-06-14T16:21:02.723839+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-25T09:18:47.430269+00:00",
-    "last_used_at": "2026-06-25T11:01:56.454768+00:00",
-    "last_viewed_at": "2026-06-25T11:01:56.439076+00:00",
+    "last_used_at": "2026-06-25T16:29:54.161041+00:00",
+    "last_viewed_at": "2026-06-25T16:29:54.158020+00:00",
     "patch_count": 17,
     "pinned": false,
     "state": "active",
-    "use_count": 27,
-    "view_count": 27
+    "use_count": 28,
+    "view_count": 28
   },
   "llama-cpp": {
     "archived_at": null,
@@ -628,13 +628,13 @@
     "created_at": "2026-06-21T03:20:17.649938+00:00",
     "created_by": null,
     "last_patched_at": null,
-    "last_used_at": "2026-06-25T10:55:24.372675+00:00",
-    "last_viewed_at": "2026-06-25T10:55:24.364710+00:00",
+    "last_used_at": "2026-06-25T16:29:54.146982+00:00",
+    "last_viewed_at": "2026-06-25T16:29:54.143302+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 2,
-    "view_count": 2
+    "use_count": 3,
+    "view_count": 3
   },
   "ocr-and-documents": {
     "archived_at": null,

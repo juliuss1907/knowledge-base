@@ -5,6 +5,37 @@
 
 ---
 
+## Entry: 2026-06-25 23:15 — Format Validator cron run
+
+**Created at:** 2026-06-25 23:15
+**Created by:** Hermes-VPS (cron)
+**Validator:** format-validator
+**Scope:** Requested scope only — `wiki/concepts/*.md` + `wiki/sources/*.md` (436 files)
+
+### Report
+- `wiki/reviews/2026-06-25_format-report.md`
+- Issues: 322 in requested scope (8 ERROR, 314 WARNING, 0 INFO)
+- Raw script findings: 463 total, with 23 `wiki/tag/*.md` warnings and 118 `wiki/topic/*.md` errors excluded as out-of-scope for this run
+
+### Key Findings
+- 8 ERROR: code blocks missing language tags (7 concepts + 1 source)
+- 312 WARNING: broken wikilinks / forward references inside concepts and sources
+- 1 WARNING: field order mismatch in `src_dan-koe-workflow-analysis-markus.md`
+- 1 WARNING: broken `original` raw reference in `src_map-is-not-territory.md`
+
+### Delta vs most recent approved format report
+- No change in requested scope counts: 322 issues, 8 ERROR, 314 WARNING, 0 INFO
+- No new categories introduced
+- No previously approved requested-scope issues resolved in this rerun
+
+### Escalations
+- None for requested scope
+- Note: validator script still scans `wiki/tag/*.md` and `wiki/topic/*.md`; those findings were excluded to match this cron instruction
+
+### Status: PENDING approval
+
+---
+
 ## Entry: 2026-06-25 16:03 — Julius approves all pending reports
 
 **Approved at:** 2026-06-25

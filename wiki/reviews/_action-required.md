@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-25 16:25
+**Last updated:** 2026-06-25 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
-**Scope:** `_approval-log.md` entry 2026-06-25 16:03
+**Scope:** `_approval-log.md` entry 2026-06-25 23:15
 
 **Status:**
+- 🟡 Format Validator — 2026-06-25 (23:15): **PENDING** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-25 (15:53): **APPLIED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-25 (15:53): **APPLIED** (345 in-scope issues: 8 ERROR, 337 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-25 (15:53): **APPLIED** (3 actionable issues: 2 ERROR, 1 WARNING, 0 INFO)
@@ -30,6 +31,30 @@
 - ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+
+---
+
+## Pending — 2026-06-25
+
+### 🟡 Format Validation — 2026-06-25 (23:15)
+
+**File:** [2026-06-25_format-report.md](2026-06-25_format-report.md)
+**Status:** pending
+**Created:** 2026-06-25 23:15
+**Issues:** 322 in requested scope (8 ERROR, 314 WARNING, 0 INFO)
+**Files checked:** 436 (334 concepts + 102 sources)
+**Raw script findings:** 463 (includes 23 out-of-scope tag warnings + 118 out-of-scope topic-file errors)
+
+**Summary:**
+- 8 ERROR: code blocks missing language tags (7 concepts + 1 source)
+- 312 WARNING: broken wikilinks / forward references in concepts and sources
+- 1 WARNING: field order mismatch in `src_dan-koe-workflow-analysis-markus.md`
+- 1 WARNING: broken `original` raw reference in `src_map-is-not-territory.md`
+- 23 tag-frontmatter warnings excluded because this run was limited to `wiki/concepts/` + `wiki/sources/`
+- 118 topic-file frontmatter errors excluded because they are outside this run's requested scope
+- Delta vs last approved format run in same scope: no change
+
+**Report:** `wiki/reviews/2026-06-25_format-report.md`
 
 ---
 

@@ -1,13 +1,31 @@
 # Format Validation — 2026-06-25
 
-**Status:** applied
-**Approved by:** Julius — 2026-06-25 16:03 +07
-**Issues found:** 345 in-scope issues (`463` raw script findings minus `118` out-of-scope topic-file false positives)
-**Created:** 2026-06-25 15:53
+**Status:** pending
+**Issues found:** 322 in requested scope (`463` raw script findings minus `23` out-of-scope tag warnings and `118` out-of-scope topic-file errors)
+**Created:** 2026-06-25 23:15:51 +07
 **Validator:** format-validator
 
-> **Context:** Manual re-run on VPS. `TAGS.md` re-read before validation. Current Pool B includes `ai`, `system`, and `geopolitics` as valid sub-tags.
-> **Scope note:** Current validator script still scans `wiki/topic/*.md` and reports missing frontmatter there. Per current validation scope, topic files are out of scope for format-spec checks, so those `118` ERRORs are excluded from the actionable count below.
+> **Ground truth:** `wiki/meta/format-spec.md`
+> **Requested scope:** `wiki/concepts/*.md` + `wiki/sources/*.md`
+> **Scope note:** The reusable validator script still scans `wiki/tag/*.md` and `wiki/topic/*.md`. This report excludes those findings because this cron instruction explicitly limited validation to concepts and sources.
+
+---
+
+## Delta vs most recent approved format report
+
+Reference baseline: approved/applied Format Validator run dated `2026-06-25 15:53`.
+
+| Metric | Current run | Previous approved | Delta |
+|---|---:|---:|---:|
+| Files checked in requested scope | 436 | 436 | 0 |
+| In-scope issues | 322 | 322 | 0 |
+| In-scope ERROR | 8 | 8 | 0 |
+| In-scope WARNING | 314 | 314 | 0 |
+| In-scope INFO | 0 | 0 | 0 |
+|
+**Positive delta:** None.
+**Negative delta:** None.
+**Assessment:** No format drift detected inside `wiki/concepts/` and `wiki/sources/` since the last approved run.
 
 ---
 
@@ -15,22 +33,27 @@
 
 | Metric | Value |
 |---|---:|
+| Concepts checked | 334 |
+| Sources checked | 102 |
+| Requested-scope files checked | 436 |
 | Raw script findings | 463 |
-| Raw ERRORs | 126 |
-| Raw WARNINGs | 337 |
-| Excluded topic-file false positives | 118 ERROR |
+| Excluded `wiki/tag/*.md` warnings | 23 |
+| Excluded `wiki/topic/*.md` errors | 118 |
 | **In-scope ERRORs** | **8** |
-| **In-scope WARNINGs** | **337** |
-| **In-scope total** | **345** |
+| **In-scope WARNINGs** | **314** |
+| **In-scope INFOs** | **0** |
+| **In-scope total** | **322** |
 
 ---
 
-## ERROR Categories (8)
+## Issue 1: Code blocks missing language tags
 
-### 1. Code blocks missing language tags — 8 files
-
-**Severity:** ERROR  
+**Severity:** ERROR
 **Category:** Markdown
+**Issue:** Fenced code blocks use bare triple backticks without a language identifier.
+**Current:** ```
+**Expected:** ```bash, ```python, ```yaml, ```json, or another explicit language tag required by `format-spec.md` §4.
+**Suggested fix:** Add the correct language tag to every fenced code block.
 
 **Affected files:**
 1. `wiki/concepts/ai-coach-prompting.md`
@@ -42,81 +65,79 @@
 7. `wiki/concepts/x-search-tool.md`
 8. `wiki/sources/src_petrodollar-system-analysis.md`
 
-**Issue:** Fenced code blocks use bare ``` without language identifier.
-
-**Suggested fix:** Add explicit language tags such as `bash`, `python`, `yaml`, `json`, or `text`.
-
 ---
 
-## WARNING Categories (337)
+## Issue 2: Broken wikilinks / forward references
 
-### 2. Broken wikilinks / forward references — 312
-
-**Severity:** WARNING  
+**Severity:** WARNING
 **Category:** Markdown
+**Issue:** 312 wikilinks inside concepts and sources point to targets that do not exist yet.
+**Current:** Links resolve to non-existent concept/source slugs.
+**Expected:** Internal links should point to existing wiki files, or be accepted as explicit forward references until the target exists.
+**Suggested fix:** Create the missing target files, or defer if the links are intentional forward references in a growing KB.
 
-**Issue:** Concepts and sources link to targets not yet compiled. This remains the dominant warning class.
+**Most repeated missing targets:**
+- `[[game-theory]]` — 9 references
+- `[[confirmation-bias]]` — 8 references
+- `[[pareto-principle]]` — 6 references
+- `[[ai-coding-agents]]` — 5 references
+- `[[career-design]]` — 5 references
+- `[[decision-making]]` — 5 references
+- `[[deep-work]]` — 4 references
 
-**Representative missing targets with repeated references:**
-- `[[game-theory]]`
-- `[[confirmation-bias]]`
-- `[[decision-making]]`
-- `[[pareto-principle]]`
-- `[[deep-work]]`
-
-**Assessment:** Systemic forward-reference pattern. Not a per-file format failure.
-
----
-
-### 3. Unquoted `parent` wikilinks in tag frontmatter — 23 files
-
-**Severity:** WARNING  
-**Category:** Frontmatter
-
-**Affected scope:** `wiki/tag/*.md`
-
-**Issue:** `parent: [[tag]]` is parsed by YAML as a list, not a string. Expected format is quoted: `parent: "[[tag]]"`.
-
-**Affected files:**
-`ai.md`, `automation.md`, `coding.md`, `crypto.md`, `defi.md`, `economic.md`, `geopolitics.md`, `hack.md`, `health.md`, `investment.md`, `law.md`, `layer1.md`, `news.md`, `opinion.md`, `politic.md`, `productivity.md`, `psychology.md`, `research.md`, `system.md`, `tech.md`, `tools.md`, `tutorial.md`, `vibecode.md`.
-
-**Assessment:** Carry-over spec conflict between generated index output and frontmatter parsing expectations.
+**Assessment:** Đây vẫn là pattern forward-reference chiếm đa số warnings. Không có dấu hiệu regression mới trong requested scope.
 
 ---
 
-### 4. Field order mismatch — 1 file
-
-**Severity:** WARNING  
-**Category:** Frontmatter
+## Issue 3: Frontmatter field order mismatch
 
 **File:** `wiki/sources/src_dan-koe-workflow-analysis-markus.md`
+**Severity:** WARNING
+**Category:** Frontmatter
+**Issue:** Thứ tự fields trong YAML frontmatter không khớp `format-spec.md` §3.2.
+**Current:** Field order mismatch.
+**Expected:** `type`, `original`, `main_tag`, `sub_tags`, `topic`, `date_compiled`, rồi optional `url`, `author`.
+**Suggested fix:** Sắp xếp lại frontmatter theo đúng thứ tự spec.
 
 ---
 
-### 5. Broken `original` raw-file reference — 1 file
-
-**Severity:** WARNING  
-**Category:** Frontmatter
+## Issue 4: Broken `original` raw-file reference
 
 **File:** `wiki/sources/src_map-is-not-territory.md`
-
-**Issue:** `original: "[[2026-06-03_map-is-not-territory]]"` points to a raw file that does not exist.
+**Severity:** WARNING
+**Category:** Frontmatter
+**Issue:** `original: "[[2026-06-03_map-is-not-territory]]"` trỏ tới raw file không tồn tại.
+**Current:** Wikilink frontmatter không resolve được trong `raw/`.
+**Expected:** `original` phải trỏ tới raw file hiện có.
+**Suggested fix:** Khôi phục raw file đúng slug hoặc sửa `original` sang target tồn tại.
 
 ---
 
-## Excluded From Actionable Count
+## Requested-scope clean areas
 
-### Topic files scanned by script — 118 false positives
+- Không có lỗi naming convention trong `wiki/concepts/` hoặc `wiki/sources/`.
+- Không có lỗi YAML syntax trong requested scope.
+- Không có lỗi thiếu section bắt buộc hoặc sai heading level trong requested scope.
+- Không có INFO items trong requested scope.
 
-**Raw script behavior:** reports `wiki/topic/*.md` as `No frontmatter: Missing opening ---`.
+---
 
-**Why excluded:** Current KB validation scope treats `wiki/topic/*.md` as out of scope for format-spec validation. This is a validator-scope problem, not a new content regression.
+## Excluded from actionable count
+
+### Out-of-scope tag files — 23 WARNING
+
+`wiki/tag/*.md` vẫn dùng `parent: [[tag]]` không có quotes. Đây là issue ngoài requested scope của run này.
+
+### Out-of-scope topic files — 118 ERROR
+
+Script hiện tại vẫn report `wiki/topic/*.md` là `No frontmatter: Missing opening ---`.
+Theo current instruction của run này, topic files không nằm trong phạm vi actionable report.
 
 ---
 
 ## Verdict
 
-**REVISE** — 8 direct format errors remain, plus 337 warnings dominated by forward references and tag-frontmatter quoting.
+**REVISE** — 8 direct Markdown format errors còn tồn tại. Phần còn lại chủ yếu là forward-reference warnings và 2 frontmatter warnings đơn lẻ trong requested scope.
 
 ## Verification
 

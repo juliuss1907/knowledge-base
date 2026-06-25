@@ -1,7 +1,8 @@
 model:
   default: deepseek-v4-pro
-  provider: openai-codex
-  base_url: https://chatgpt.com/backend-api/codex
+  provider: opencode-go
+  base_url: https://opencode.ai/zen/go/v1
+  api_mode: chat_completions
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}

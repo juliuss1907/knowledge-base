@@ -1,32 +1,38 @@
 # Format Validation — 2026-06-26
 
-**Status:** approved
-**Approved by:** Julius — 2026-06-26 07:12 +07
-**Issues found:** 322 in requested scope (`463` raw script findings minus `23` out-of-scope tag warnings and `118` out-of-scope topic-file errors)
-**Created:** 2026-06-26 07:01:00 +07
+**Status:** pending
+**Issues found:** 314 in requested scope (`455` raw script findings minus `23` out-of-scope tag warnings and `118` out-of-scope topic-file errors)
+**Created:** 2026-06-26 23:15:57 +07
 **Validator:** format-validator
 
 > **Ground truth:** `wiki/meta/format-spec.md`
 > **Requested scope:** `wiki/concepts/*.md` + `wiki/sources/*.md`
-> **Scope note:** Reusable validator script still scans `wiki/tag/*.md` and `wiki/topic/*.md`. This report excludes those findings from the actionable count.
+> **Scope note:** Reusable validator script still scans `wiki/tag/*.md` and `wiki/topic/*.md`. Report này chỉ tính actionable findings trong requested scope.
 
 ---
 
 ## Delta vs most recent approved format report
 
-Reference baseline: approved/applied Format Validator run dated `2026-06-25 15:53`.
+Reference baseline: approved Format Validator run dated `2026-06-26 07:01 +07`.
 
 | Metric | Current run | Previous approved | Delta |
 |---|---:|---:|---:|
 | Files checked in requested scope | 436 | 436 | 0 |
-| In-scope issues | 322 | 322 | 0 |
-| In-scope ERROR | 8 | 8 | 0 |
-| In-scope WARNING | 314 | 314 | 0 |
+| In-scope issues | 314 | 322 | -8 |
+| In-scope ERROR | 4 | 8 | -4 |
+| In-scope WARNING | 310 | 314 | -4 |
 | In-scope INFO | 0 | 0 | 0 |
 
-**Positive delta:** None.
-**Negative delta:** None.
-**Assessment:** Không có format drift trong `wiki/concepts/` và `wiki/sources/` kể từ lần approved gần nhất.
+**Positive delta:**
+- 8 `Code block missing language tag` ERROR ở run approved buổi sáng đã biến mất.
+- 1 frontmatter field-order WARNING trong `wiki/sources/src_dan-koe-workflow-analysis-markus.md` đã biến mất.
+- 1 broken `original` WARNING trong `wiki/sources/src_map-is-not-territory.md` đã biến mất.
+- Broken wikilink warnings giảm nhẹ từ 312 xuống 310.
+
+**Negative delta:**
+- Xuất hiện 4 ERROR mới: toàn bộ là YAML frontmatter parse failures trong batch `everything-is-a-win-when-the-goal`.
+
+**Assessment:** Requested scope sạch hơn về tổng số issue, nhưng batch mới đã đưa vào 4 file không parse được frontmatter. Đây là regression mới. Không thể PROMOTE run này.
 
 ---
 
@@ -37,34 +43,39 @@ Reference baseline: approved/applied Format Validator run dated `2026-06-25 15:5
 | Concepts checked | 334 |
 | Sources checked | 102 |
 | Requested-scope files checked | 436 |
-| Raw script findings | 463 |
+| Raw script findings | 455 |
 | Excluded `wiki/tag/*.md` warnings | 23 |
 | Excluded `wiki/topic/*.md` errors | 118 |
-| **In-scope ERRORs** | **8** |
-| **In-scope WARNINGs** | **314** |
+| **In-scope ERRORs** | **4** |
+| **In-scope WARNINGs** | **310** |
 | **In-scope INFOs** | **0** |
-| **In-scope total** | **322** |
+| **In-scope total** | **314** |
 
 ---
 
-## Issue 1: Code blocks missing language tags
+## Issue 1: YAML frontmatter parse failures in new experience-over-achievement batch
 
 **Severity:** ERROR
-**Category:** Markdown
-**Issue:** Fenced code blocks dùng bare triple backticks, không có language identifier.
-**Current:** ```
-**Expected:** ```bash, ```python, ```yaml, ```json`, hoặc language tag phù hợp theo `format-spec.md` §4.
-**Suggested fix:** Thêm language tag đúng cho mọi fenced code block.
+**Category:** Frontmatter
+**Issue:** 4 file mới có YAML frontmatter không parse được. Parser dừng ở `sub_tags: [#psychology, #opinion]` vì `#` trong inline flow sequence bị hiểu như comment syntax, làm frontmatter vi phạm `format-spec.md` §2.2 / §3.2.
+**Current:**
+- `main_tag: #productivity`
+- `sub_tags: [#psychology, #opinion]`
+**Expected:**
+- `main_tag: productivity`
+- `sub_tags: [psychology, opinion]`
+- YAML frontmatter phải parse được trước khi kiểm tra các rule còn lại.
+**Suggested fix:** Bỏ toàn bộ prefix `#` trong frontmatter tags của batch này. Sau đó rerun validator để xác nhận các file pass đầy đủ.
 
 **Affected files:**
-1. `wiki/concepts/ai-coach-prompting.md`
-2. `wiki/concepts/content-generation-workflow.md`
-3. `wiki/concepts/dollar-as-rent-payment.md`
-4. `wiki/concepts/existential-vacuum.md`
-5. `wiki/concepts/expert-knowledge-extraction.md`
-6. `wiki/concepts/trading-addiction-cycle.md`
-7. `wiki/concepts/x-search-tool.md`
-8. `wiki/sources/src_petrodollar-system-analysis.md`
+1. `wiki/concepts/experience-over-achievement.md`
+2. `wiki/concepts/performative-existence.md`
+3. `wiki/concepts/presence.md`
+4. `wiki/sources/src_everything-is-a-win-when-the-goal.md`
+
+**Evidence:**
+- Parser error anchor: `sub_tags: [#psychology, #opinion]`
+- Cả 4 file cùng pattern. Đây không phải lỗi isolated. Đây là compile regression trong cùng một batch.
 
 ---
 
@@ -72,13 +83,13 @@ Reference baseline: approved/applied Format Validator run dated `2026-06-25 15:5
 
 **Severity:** WARNING
 **Category:** Markdown
-**Issue:** 312 wikilinks trong concepts và sources trỏ tới target chưa tồn tại.
-**Current:** Internal links resolve tới slug không có file tương ứng.
-**Expected:** Internal links nên trỏ tới file đã tồn tại, hoặc được chấp nhận rõ ràng là forward references.
-**Suggested fix:** Tạo missing targets, hoặc giữ nguyên nếu đây là forward-reference có chủ đích trong KB đang tăng trưởng.
+**Issue:** 310 wikilink warnings trong concepts và sources trỏ tới target chưa tồn tại.
+**Current:** Internal links resolve tới slug không có file tương ứng trong `wiki/` hoặc `raw/`.
+**Expected:** Internal links nên trỏ tới file đã tồn tại, hoặc được giữ lại có chủ đích như forward references trong KB đang mở rộng.
+**Suggested fix:** Tạo missing targets cho những concept trọng yếu, hoặc chấp nhận rõ ràng đây là forward-reference backlog.
 
 **Most repeated missing targets:**
-- `[[game-theory]]` — 9 references
+- `[[game-theory]]` — 10 references
 - `[[confirmation-bias]]` — 8 references
 - `[[pareto-principle]]` — 6 references
 - `[[ai-coding-agents]]` — 5 references
@@ -86,38 +97,16 @@ Reference baseline: approved/applied Format Validator run dated `2026-06-25 15:5
 - `[[decision-making]]` — 5 references
 - `[[deep-work]]` — 4 references
 
-**Assessment:** Đây vẫn là pattern forward-reference chiếm đa số warnings. Không có regression mới trong requested scope.
-
----
-
-## Issue 3: Frontmatter field order mismatch
-
-**File:** `wiki/sources/src_dan-koe-workflow-analysis-markus.md`
-**Severity:** WARNING
-**Category:** Frontmatter
-**Issue:** Thứ tự fields trong YAML frontmatter không khớp `format-spec.md` §3.2.
-**Current:** Field order mismatch.
-**Expected:** `type`, `original`, `main_tag`, `sub_tags`, `topic`, `date_compiled`, rồi optional `url`, `author`.
-**Suggested fix:** Sắp xếp lại frontmatter theo đúng thứ tự spec.
-
----
-
-## Issue 4: Broken `original` raw-file reference
-
-**File:** `wiki/sources/src_map-is-not-territory.md`
-**Severity:** WARNING
-**Category:** Frontmatter
-**Issue:** `original: "[[2026-06-03_map-is-not-territory]]"` trỏ tới raw file không tồn tại.
-**Current:** Wikilink frontmatter không resolve được trong `raw/`.
-**Expected:** `original` phải trỏ tới raw file hiện có.
-**Suggested fix:** Khôi phục raw file đúng slug hoặc sửa `original` sang target tồn tại.
+**Assessment:** Đây vẫn là backlog kiểu forward-reference. Không phải blocker tức thời như YAML parse errors.
 
 ---
 
 ## Requested-scope clean areas
 
+- Không còn `Code block missing language tag` ERROR trong requested scope.
+- Không còn frontmatter field-order WARNING trong requested scope.
+- Không còn broken `original` raw-reference WARNING trong requested scope.
 - Không có lỗi naming convention trong `wiki/concepts/` hoặc `wiki/sources/`.
-- Không có lỗi YAML syntax trong requested scope.
 - Không có lỗi thiếu section bắt buộc hoặc sai heading level trong requested scope.
 - Không có INFO items trong requested scope.
 
@@ -136,9 +125,18 @@ Theo current instruction của run này, topic files không nằm trong phạm v
 
 ---
 
+## Systematic note
+
+[SYSTEMATIC VIOLATION]
+Pattern: 4/4 file trong batch `everything-is-a-win-when-the-goal` dùng hashtag-style tags trong YAML frontmatter.
+Likely cause: Compile Agent hoặc manual template cho batch mới không theo `format-spec.md` frontmatter schema.
+Recommendation: Review compile path cho batch 2026-06-26 liên quan `experience-over-achievement` cluster.
+
+---
+
 ## Verdict
 
-**REVISE** — 8 direct Markdown format errors còn tồn tại. Phần còn lại chủ yếu là forward-reference warnings và 2 frontmatter warnings đơn lẻ trong requested scope.
+**REVISE** — 4 ERROR mới là hard format break. Phần còn lại chủ yếu là forward-reference warnings backlog.
 
 ## Verification
 

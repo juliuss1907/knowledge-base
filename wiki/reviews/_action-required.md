@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-26 23:01
+**Last updated:** 2026-06-26 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
-**Scope:** 1 pending Output Validator rerun on 2026-06-26 23:01; latest `_approval-log.md` entry remains 2026-06-26 07:12
+**Scope:** 2 pending reports — Output Validator rerun at 2026-06-26 23:01 and Format Validator rerun at 2026-06-26 23:15; latest `_approval-log.md` entry is 2026-06-26 23:15 pending
 
 **Status:**
+- ⏳ Format Validator — 2026-06-26 (23:15): **PENDING** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
 - ⏳ Output Validator — 2026-06-26 (23:01): **PENDING** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
@@ -39,6 +40,33 @@
 ---
 
 ## Pending Review
+
+### ⏳ Format Validation — 2026-06-26 (23:15 Rerun)
+
+**File:** [2026-06-26_format-report.md](2026-06-26_format-report.md)
+**Status:** pending
+**Created:** 2026-06-26 23:15:57 +07
+**Previous approved run:** 2026-06-26 07:01 +07
+**Issues:** 314 in requested scope (4 ERROR, 310 WARNING, 0 INFO)
+**Files checked:** 436 (102 sources + 334 concepts)
+**Raw script findings:** 455 (includes 23 out-of-scope tag warnings + 118 out-of-scope topic-file errors)
+**New files in requested scope since approved morning run:** 0
+
+**Summary:**
+- 4 ERROR mới: YAML frontmatter parse failures trong batch `everything-is-a-win-when-the-goal`
+- 8 code-block language-tag ERROR từ run approved buổi sáng đã biến mất
+- 2 frontmatter warnings đơn lẻ (`src_dan-koe-workflow-analysis-markus.md`, `src_map-is-not-territory.md`) đã biến mất
+- Broken wikilink backlog giảm nhẹ từ 312 xuống 310 warnings
+- Không có format drift về naming, required sections, hoặc heading levels trong requested scope
+
+**Actions:**
+- Review `wiki/reviews/2026-06-26_format-report.md`
+- Nếu approve: giao Fix Agent sửa 4 frontmatter file mới trước, không ưu tiên backlog forward references
+- Giữ approved morning run như baseline lịch sử; đây là rerun cùng ngày với delta rõ ràng
+
+**Report:** `wiki/reviews/2026-06-26_format-report.md`
+
+---
 
 ### ⏳ Output Validation — 2026-06-26 (23:01 Update)
 

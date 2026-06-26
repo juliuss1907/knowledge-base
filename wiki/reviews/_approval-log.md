@@ -5,6 +5,39 @@
 
 ---
 
+## Entry: 2026-06-26 23:15 — Format Validator cron rerun
+
+**Created at:** 2026-06-26 23:15:57 +07
+**Created by:** Hermes-VPS (cron)
+**Validator:** format-validator
+**Scope:** Requested scope only — `wiki/concepts/*.md` + `wiki/sources/*.md` (436 files)
+
+### Report
+- `wiki/reviews/2026-06-26_format-report.md`
+- Issues: 314 in requested scope (4 ERROR, 310 WARNING, 0 INFO)
+- Raw script findings: 455 total, with 23 `wiki/tag/*.md` warnings and 118 `wiki/topic/*.md` errors excluded as out-of-scope for this run
+
+### Key Findings
+- 4 ERROR mới: YAML frontmatter parse failures trong `experience-over-achievement`, `performative-existence`, `presence`, và `src_everything-is-a-win-when-the-goal`
+- 310 WARNING: broken wikilinks / forward references trong concepts và sources
+- 8 code-block language-tag ERROR từ approved morning run đã biến mất
+- 2 frontmatter warnings đơn lẻ từ approved morning run (`src_dan-koe-workflow-analysis-markus.md`, `src_map-is-not-territory.md`) đã biến mất
+
+### Delta vs most recent approved format report
+- Requested-scope total improved: 322 → 314 (-8)
+- ERROR improved: 8 → 4 (-4)
+- WARNING improved: 314 → 310 (-4)
+- Positive: code-block issue class resolved entirely in requested scope
+- Negative: new batch introduced 4 YAML parse regressions in frontmatter
+
+### Escalations
+- [SYSTEMATIC VIOLATION] 4/4 file trong batch `everything-is-a-win-when-the-goal` dùng hashtag-style tags trong YAML frontmatter, không theo `format-spec.md`
+- Tag-frontmatter warnings và topic-file errors excluded again to match requested scope
+
+### Status: PENDING approval
+
+---
+
 ## Entry: 2026-06-26 07:12 — Julius approves all pending reports
 
 **Approved at:** 2026-06-26

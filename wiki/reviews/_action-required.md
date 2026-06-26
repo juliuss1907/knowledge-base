@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-26 07:12
+**Last updated:** 2026-06-26 23:01
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
-**Scope:** `_approval-log.md` entry 2026-06-26 07:12
+**Scope:** 1 pending Output Validator rerun on 2026-06-26 23:01; latest `_approval-log.md` entry remains 2026-06-26 07:12
 
 **Status:**
+- ⏳ Output Validator — 2026-06-26 (23:01): **PENDING** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-26 (07:01): **APPROVED** (1 actionable issue: 1 ERROR, 0 WARNING, 0 INFO)
@@ -34,6 +35,33 @@
 - ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+
+---
+
+## Pending Review
+
+### ⏳ Output Validation — 2026-06-26 (23:01 Update)
+
+**File:** [2026-06-26_output-report.md](2026-06-26_output-report.md)
+**Status:** pending
+**Created:** 2026-06-26 23:01 +07
+**Previous approved run:** 2026-06-26 07:01 +07
+**Issues:** 3 (0 ERROR, 2 WARNING, 1 INFO)
+**Files checked:** 440 (103 sources + 337 concepts)
+**New files since approved morning run:** 6
+
+**Summary:**
+- 3 new concepts vẫn dùng Definition 1 câu (`experience-over-achievement`, `performative-existence`, `presence`)
+- Cùng 3 concept đó chỉ có 3 ý trong `## Key ideas`, dưới ngưỡng 5–10
+- `src_map-is-not-territory.md` có 1 phrasing artifact kiểu Việt-Anh lặp (`các mô hình mental models`)
+- `src_dan-koe-workflow-analysis-markus.md` và `src_everything-is-a-win-when-the-goal.md` không có issue actionable trong pass này
+
+**Actions:**
+- Review `wiki/reviews/2026-06-26_output-report.md`
+- Nếu approve: giao Fix Agent mở rộng 3 concept mới và cleanup 1 phrasing issue trong source
+- Giữ approved morning run như baseline lịch sử; đây là delta rerun cùng ngày
+
+**Report:** `wiki/reviews/2026-06-26_output-report.md`
 
 ---
 
@@ -645,6 +673,7 @@ openclaw fix apply
 
 ## Recent Reports
 
+- [2026-06-26] Output Report (23:01 update) — **PENDING**
 - [2026-06-26] Hygiene Report — **APPROVED** (2026-06-26 07:12)
 - [2026-06-26] Format Report — **APPROVED** (2026-06-26 07:12)
 - [2026-06-26] Output Report — **APPROVED** (2026-06-26 07:12)

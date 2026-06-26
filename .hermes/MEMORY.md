@@ -425,3 +425,15 @@
   - **WARNING:** 1 field order mismatch + 1 broken original wikilink (unchanged)
 - **Positive delta:** `main_tag: psychology` errors (11 files) — **FULLY RESOLVED** ✅
 - **Escalations:** `[SYSTEMATIC VIOLATION]` Topic files without frontmatter, `[SPEC CONFLICT]` Unquoted wikilinks — both approved 06-22, awaiting fix
+
+## 2026-06-26 23:01:02 — Output validation
+
+- **Files checked:** 440 (103 sources + 337 concepts)
+- **New files:** 6 (3 sources + 3 concepts newer than approved 07:01 report)
+- **Issues found:** 3 (0 ERROR, 2 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-06-26_output-report.md
+- **Top issues:**
+  - WARNING: 3 new concepts still use 1-sentence definitions
+  - WARNING: the same 3 concepts have only 3 key ideas each
+  - INFO: `src_map-is-not-territory.md` contains 1 minor Vietnamese phrasing artifact
+  - 2 updated sources passed this delta validation without actionable issues

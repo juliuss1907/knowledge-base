@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.4
-last_updated: 2026-06-23
+version: 1.5
+last_updated: 2026-06-26
 ---
 
 # Hygiene Inspector
@@ -43,7 +43,7 @@ Scan entire knowledge base directory tree, validate folder structure and file pa
 5. **Generate report** — write to `wiki/reviews/YYYY-MM-DD_hygiene-report.md`
 6. **Update action file** — add entry to `wiki/reviews/_action-required.md`
 7. **Send notification** — Telegram alert to Julius (or final response if cron)
-8. **Log** to `.hermes/MEMORY.md`
+8. **Verify scope conflicts** — if a workflow file is actively used but not whitelisted, report it as `[SPEC CONFLICT]` instead of silently suppressing it
 
 ---
 
@@ -368,6 +368,16 @@ Section B says: "wiki/tag/ manual only"
 Recommendation: Clarify folder-structure.md
 ```
 
+Also use `[SPEC CONFLICT]` when a file is clearly part of the live workflow but the whitelist was not updated to allow it.
+
+Example:
+```
+[SPEC CONFLICT]
+Path: wiki/reviews/_approval-log.md
+Issue: workflow uses this file, but folder-structure.md does not whitelist it in wiki/reviews/
+Recommendation: either whitelist the file or move the workflow artifact out of wiki/reviews/
+```
+
 ### Structure change detected
 ```
 [STRUCTURE CHANGE]
@@ -415,14 +425,10 @@ After successful validation run:
    Commands: 'approve hygiene' or 'show hygiene'
    ```
 
-4. **Log to MEMORY.md:**
-   ```markdown
-   ## YYYY-MM-DD HH:MM:SS — Hygiene inspection
-   - Paths checked: M
-   - Issues found: N (A ERROR, B WARNING, C INFO)
-   - Report: wiki/reviews/YYYY-MM-DD_hygiene-report.md
-   - Top violations: [violation types]
-   ```
+4. **Update _action-required.md:**
+   - Add entry to "Pending Reports" section
+   - Update "Last updated" timestamp
+   - Increment pending-report count if this run created a new pending review item
 
 ---
 
@@ -435,9 +441,11 @@ When invoked as a scheduled cron job, `execute_code` is blocked by `approvals.cr
 2. Run it via `terminal` with `python3 /tmp/hygiene_scan.py`
 3. Parse the terminal output to build the report
 
-See `references/scan-script.py` for a known-good scan template.
+See `references/scan-script.py` for a known-good scan template and `references/full-tree-scan-notes.md` for pitfalls found in real KB runs.
 
 **⚠️ Pitfall:** The scan script handles Vietnamese diacritics via `\u` Unicode escapes. Do NOT use Python raw strings (`r'...'`) for regex patterns containing `\u` — raw strings treat `\u` literally, causing all naming checks to return false positives (hundreds of spurious WARNINGs). The corrected template in `references/scan-script.py` uses a non-raw `SLUG_CHARS` variable with single `\u` escapes, interpolated into regex patterns that use double-backslash escapes (`\\d`, `\\.`).
+
+**⚠️ Pitfall:** In full-tree scans, classify `*.bak` leftovers in `wiki/drafts/` as temporary-file cleanup warnings, not naming errors. `.gitkeep` in a populated drafts zone is also a cleanup warning, not a structural ERROR.
 
 ---
 
@@ -528,6 +536,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.5 | 2026-06-26 | Removed contradictory `MEMORY.md` logging step because the skill is report-only and write-restricted to `wiki/reviews/`. Added guidance for live workflow artifacts that are not yet whitelisted (report as `[SPEC CONFLICT]`, e.g. `wiki/reviews/_approval-log.md`). Added `references/full-tree-scan-notes.md` and restored `references/scan-script.py` so the SKILL.md links resolve. Clarified that `wiki/drafts/*.bak` and `.gitkeep` should be cleanup warnings, while backup subfolders remain path errors. |
 | 1.4 | 2026-06-23 | Fixed `references/scan-script.py`: changed docstring from `"""` to `r"""` to prevent `SyntaxError: unicodeescape` when the script is written via `write_file` (JSON `\u` processing + non-raw Python string parsing conflict). Changed `SLUG_CHARS` from raw string to non-raw with double-backslashes for consistency with the documented pitfall. Added docstring SyntaxError to failure modes table. |
 | 1.3 | 2026-06-22 | Fixed `references/scan-script.py`: replaced raw-string regex patterns with non-raw strings to correctly handle `\u` Unicode escapes (Vietnamese diacritics). Raw strings treat `\u` literally — caused 722 false WARNINGs across all naming checks. Added pitfall to cron section and failure modes. |
 | 1.2 | 2026-06-17 | Initial release with scan script, common patterns reference, cron workaround. |

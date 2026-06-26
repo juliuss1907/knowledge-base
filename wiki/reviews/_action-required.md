@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-26 23:15
+**Last updated:** 2026-06-26 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
-**Scope:** 2 pending reports — Output Validator rerun at 2026-06-26 23:01 and Format Validator rerun at 2026-06-26 23:15; latest `_approval-log.md` entry is 2026-06-26 23:15 pending
+**Scope:** 3 pending reports — Hygiene Inspector full-tree rerun at 2026-06-26 23:30, Format Validator rerun at 2026-06-26 23:15, và Output Validator update at 2026-06-26 23:01
 
 **Status:**
+- ⏳ Hygiene Inspector — 2026-06-26 (23:30): **PENDING** (39 findings total: 9 ERROR, 11 WARNING, 19 INFO; 20 issues expanded due daily cap)
 - ⏳ Format Validator — 2026-06-26 (23:15): **PENDING** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
 - ⏳ Output Validator — 2026-06-26 (23:01): **PENDING** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
@@ -90,6 +91,34 @@
 - Giữ approved morning run như baseline lịch sử; đây là delta rerun cùng ngày
 
 **Report:** `wiki/reviews/2026-06-26_output-report.md`
+
+---
+
+### ⏳ Hygiene Inspection — 2026-06-26 (23:30 Full-tree rerun)
+
+**File:** [2026-06-26_hygiene-report.md](2026-06-26_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-06-26 23:30:59 +07
+**Previous approved run:** 2026-06-26 07:01 +07
+**Issues:** 39 total (9 ERROR, 11 WARNING, 19 INFO)
+**Paths checked:** 920
+**Expanded in report:** 20 highest-priority issues (daily cap), 19 INFO omitted from detailed section
+
+**Summary:**
+- `wiki/reviews/HEARTBEAT.md` từ approved morning run đã biến mất
+- 2 root-level paths không được whitelist: `memory/`, `state/`
+- 1 review-zone spec drift: `_approval-log.md` đang được workflow sử dụng nhưng không có trong `folder-structure.md`
+- 4 files trong `raw/papers/` sai naming pattern `YYYY-MM-DD_<author>_<title>.md`
+- `wiki/drafts/` có 2 backup subfolders + 10 `.bak` temporary files → process cleanup issue, không còn là isolated cases
+- 19 INFO backlog: old review reports >30 ngày cần archive
+
+**Actions:**
+- Review `wiki/reviews/2026-06-26_hygiene-report.md`
+- Nếu approve: giao Fix Agent cleanup root drift + drafts backup artifacts trước
+- Julius cần quyết định spec hay workflow sẽ đổi cho `_approval-log.md`
+- Sau cleanup, rerun Hygiene Inspector để xác nhận full-tree structure clean
+
+**Report:** `wiki/reviews/2026-06-26_hygiene-report.md`
 
 ---
 

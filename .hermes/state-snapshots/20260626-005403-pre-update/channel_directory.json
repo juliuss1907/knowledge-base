@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T08:53:33.466531",
+  "updated_at": "2026-06-26T07:51:34.673511",
   "platforms": {
     "telegram": [
       {
@@ -11,6 +11,7 @@
     ],
     "discord": [],
     "whatsapp": [],
+    "whatsapp_cloud": [],
     "slack": [],
     "signal": [],
     "mattermost": [],
@@ -19,11 +20,20 @@
     "email": [],
     "sms": [],
     "dingtalk": [],
+    "msgraph_webhook": [],
     "feishu": [],
     "wecom": [],
     "wecom_callback": [],
     "weixin": [],
     "bluebubbles": [],
-    "qqbot": []
+    "qqbot": [],
+    "yuanbao": [],
+    "google_chat": [],
+    "irc": [],
+    "line": [],
+    "ntfy": [],
+    "photon": [],
+    "simplex": [],
+    "teams": []
   }
 }

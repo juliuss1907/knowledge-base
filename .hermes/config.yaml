@@ -551,7 +551,7 @@ logging:
 model_catalog:
   enabled: true
   url: https://hermes-agent.nousresearch.com/docs/api/model-catalog.json
-  ttl_hours: 24
+  ttl_hours: 1
   providers: {}
 network:
   force_ipv4: false
@@ -604,7 +604,7 @@ secrets:
 paste_collapse_threshold: 5
 paste_collapse_threshold_fallback: 5
 paste_collapse_char_threshold: 2000
-_config_version: 23
+_config_version: 29
 smart_model_routing:
   enabled: false
   max_simple_chars: 160

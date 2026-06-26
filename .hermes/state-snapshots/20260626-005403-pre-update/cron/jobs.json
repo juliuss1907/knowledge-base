@@ -20,15 +20,15 @@
       "schedule_display": "0 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 9
+        "completed": 22
       },
-      "enabled": false,
-      "state": "completed",
+      "enabled": true,
+      "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:10:27.286282+07:00",
-      "next_run_at": null,
-      "last_run_at": "2026-05-28T08:29:54.277234+07:00",
+      "next_run_at": "2026-06-26T23:00:00+07:00",
+      "last_run_at": "2026-06-25T23:01:53.278395+07:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -55,17 +55,17 @@
       "schedule_display": "15 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 20
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:11:13.837401+07:00",
-      "next_run_at": null,
-      "last_run_at": "2026-05-27T07:54:19.711877+07:00",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-06-26T23:15:00+07:00",
+      "last_run_at": "2026-06-25T23:20:20.895803+07:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: HTTP 429: The usage limit has been reached",
       "last_delivery_error": null,
       "deliver": "origin",
       "origin": null
@@ -90,17 +90,17 @@
       "schedule_display": "30 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 20
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:11:23.785428+07:00",
-      "next_run_at": null,
-      "last_run_at": "2026-05-27T08:00:13.920916+07:00",
-      "last_status": "ok",
-      "last_error": null,
+      "next_run_at": "2026-06-26T23:30:00+07:00",
+      "last_run_at": "2026-06-25T23:30:42.552058+07:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: HTTP 429: The usage limit has been reached",
       "last_delivery_error": null,
       "deliver": "origin",
       "origin": null
@@ -226,5 +226,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-05-28T08:29:54.277622+07:00"
+  "updated_at": "2026-06-25T23:30:42.552627+07:00"
 }

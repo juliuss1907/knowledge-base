@@ -18,7 +18,7 @@
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-26 (07:01): **APPROVED** (1 actionable issue: 1 ERROR, 0 WARNING, 0 INFO)
-- ✅ Format Validator — 2026-06-25 (23:15): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
+- ✅ Format Validator — 2026-06-25 (23:15): **APPLIED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-25 (15:53): **APPLIED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-25 (15:53): **APPLIED** (345 in-scope issues: 8 ERROR, 337 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-25 (15:53): **APPLIED** (3 actionable issues: 2 ERROR, 1 WARNING, 0 INFO)

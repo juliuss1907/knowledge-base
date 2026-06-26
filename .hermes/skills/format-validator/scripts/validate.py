@@ -72,6 +72,24 @@ def validate_date(val):
         return bool(re.match(r'^\d{4}-\d{2}-\d{2}$', val))
     return False
 
+def codeblock_issues(body, rel):
+    issues = []
+    in_fence = False
+    for line in body.splitlines():
+        stripped = line.strip()
+        if not stripped.startswith('```'):
+            continue
+        suffix = stripped[3:].strip()
+        if not in_fence:
+            if suffix == '':
+                issues.append(('ERROR', 'Markdown', rel, 'Code block missing language tag'))
+            elif suffix != suffix.lower():
+                issues.append(('WARNING', 'Markdown', rel, f'Code block language tag uppercase: "{suffix}"'))
+            in_fence = True
+        else:
+            in_fence = False
+    return issues
+
 def validate_concept(filepath, fm, raw_fm, content):
     issues = []
     rel = str(filepath.relative_to(KB))
@@ -177,12 +195,7 @@ def validate_concept(filepath, fm, raw_fm, content):
     body_start = content.find('\n---', 3)
     body = content[body_start+4:] if body_start != -1 else content
     
-    code_blocks = re.findall(r'```(\S*)', body)
-    for lang in code_blocks:
-        if lang == '':
-            issues.append(('ERROR', 'Markdown', rel, 'Code block missing language tag'))
-        elif lang != lang.lower():
-            issues.append(('WARNING', 'Markdown', rel, f'Code block language tag uppercase: "{lang}"'))
+    issues.extend(codeblock_issues(body, rel))
     
     if re.search(r'\[\[\s+[^\]]+\]\]|\[\[[^\]]+\s+\]\]', body):
         issues.append(('ERROR', 'Markdown', rel, 'Wikilink has spaces around brackets'))
@@ -201,7 +214,7 @@ def validate_concept(filepath, fm, raw_fm, content):
         if not found:
             for rd in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos']:
                 rdir = KB / 'raw' / rd
-                if rdir.exists() and list(rdir.glob(f'*_{target}.md')):
+                if rdir.exists() and ((rdir / f'{target}.md').exists() or list(rdir.glob(f'*_{target}.md'))):
                     found = True; break
         if not found:
             broken.add(target)
@@ -319,12 +332,7 @@ def validate_source(filepath, fm, raw_fm, content):
     body_start = content.find('\n---', 3)
     body = content[body_start+4:] if body_start != -1 else content
     
-    code_blocks = re.findall(r'```(\S*)', body)
-    for lang in code_blocks:
-        if lang == '':
-            issues.append(('ERROR', 'Markdown', rel, 'Code block missing language tag'))
-        elif lang != lang.lower():
-            issues.append(('WARNING', 'Markdown', rel, f'Code block language tag uppercase: "{lang}"'))
+    issues.extend(codeblock_issues(body, rel))
     
     # Broken wikilinks
     all_wikilinks = re.findall(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', body)
@@ -334,9 +342,14 @@ def validate_source(filepath, fm, raw_fm, content):
         if '/' in target:
             continue
         found = False
-        for d in ['wiki/concepts', 'wiki/sources']:
+        for d in ['wiki/concepts', 'wiki/sources', 'wiki/tag', 'wiki/topic', 'raw']:
             if (KB / d / f'{target}.md').exists():
                 found = True; break
+        if not found:
+            for rd in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos']:
+                rdir = KB / 'raw' / rd
+                if rdir.exists() and ((rdir / f'{target}.md').exists() or list(rdir.glob(f'*_{target}.md'))):
+                    found = True; break
         if not found:
             broken.add(target)
     if broken:

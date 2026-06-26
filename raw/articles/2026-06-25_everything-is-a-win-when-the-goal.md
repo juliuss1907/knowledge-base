@@ -5,7 +5,9 @@ url: https://yearlyblues.substack.com/p/everything-is-a-win-when-the-goal
 author: yearlyblues
 date_published: 2026-06-25
 date_ingested: 2026-06-25
-status: unprocessed
+status: processed
+compiled_at: 2026-06-26
+compiled_to: "[[src_everything-is-a-win-when-the-goal]]"
 source: substack
 ---
 

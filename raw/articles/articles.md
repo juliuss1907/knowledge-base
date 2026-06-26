@@ -19,11 +19,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 - [[raw]]
 
 ## Stats
+## Stats
 
-- Total: 108 files
-- By status: 72 processed, 6 unprocessed
-- By date: 18 this week, 78 this month
-- Last updated: 2026-06-22
+- Total: 79 files
+- By status: 79 processed, 0 unprocessed
+- By date: 9 this week, 72 this month
+- Last updated: 2026-06-26
 ## Items
 
 - [[2026-06-22_this-will-help-you-figure-out-what-you-want]] — This will help you figure out what you want by Crystal Clear (unprocessed)

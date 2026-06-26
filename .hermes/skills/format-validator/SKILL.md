@@ -209,6 +209,7 @@ For complete validation algorithm, format rules, and error handling, see:
 - [examples.md](examples.md) — sample format issues and fixes
 - [cross-spec-conflicts.md](references/cross-spec-conflicts.md) — known conflicts between format-spec.md and index-spec.md
 - [topic-file-dispatch.md](references/topic-file-dispatch.md) — topic file routing edge case
+- [code-fence-and-raw-link-regressions.md](references/code-fence-and-raw-link-regressions.md) — validator regressions around fenced code blocks and raw-file wikilink resolution
 - [validate.py](scripts/validate.py) — reusable validation script (run from KB root)
 
 ## Post-validation
@@ -334,15 +335,24 @@ def validate_date(d):
 
 **Impact:** On first run, this caused 378 false-positive ERRORs before the fix was applied.
 
-### Broken wikilinks in a growing knowledge base
+### Closing code fences misread as missing language tags
 
-When concepts link to related concepts that haven't been compiled yet, the target file does not exist. This is **expected forward-referencing behavior** in a growing KB, not a format error.
+A naive regex like `re.findall(r'```(\\S*)', body)` matches both opening and closing fences. Closing fences return an empty suffix, which produces false-positive `Code block missing language tag` errors even when the opening fence is correct (` ```text `, ` ```yaml `, etc.).
 
-- Report as **WARNING** (not ERROR)
-- Do not treat as systematic violation unless >50% of links are broken
-- Note in report: "Concepts reference future entries — links are forward-references"
+**Correct handling:** track fence state line-by-line and only validate the **opening** fence. Closing fences should just flip state back.
 
-### Report limit clarification
+**Impact observed:** the 2026-06-25 format report still showed 8 code-block ERRORs after Kara had already added language tags, because the validator was counting the closing fences.
+
+### Source-body raw-file wikilinks need raw-subdir resolution
+
+Source files often mention the raw file again inside `## Metadata` or body content, e.g. `[[2026-06-17_dan-koe-workflow-analysis-markus]]`. If broken-wikilink validation only checks `wiki/concepts/` and `wiki/sources/`, it will flag these as broken even when the raw file exists under `raw/articles/` or another raw subtype.
+
+**Correct handling:** when validating wikilinks in source bodies, reuse the same raw-subdir resolution used for the `original` frontmatter field:
+- accept direct matches like `raw/<subdir>/<target>.md`
+- accept glob matches like `raw/<subdir>/*_<target>.md`
+
+**Observed case:** `src_dan-koe-workflow-analysis-markus.md` was incorrectly flagged until raw-subdir lookup was added to source-body wikilink validation.
+
 
 "Report limit: 20 issues per day" means **focus the written report on the most actionable issues**, not that the validator stops at 20. The report should still show all ERRORs and top WARNINGs. For daily runs, the full issue count goes in `_action-required.md` summary.
 

@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-06-03_map-is-not-territory]]"
+original: "[[2026-06-03_map-is-not-the-territory]]"
 main_tag: productivity
 sub_tags: [psychology]
 topic: mental-models

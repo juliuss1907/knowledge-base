@@ -1,6 +1,8 @@
 # Format Validation — 2026-06-25
 
-**Status:** approved
+**Status:** applied
+**Applied at:** 2026-06-26 07:48:51
+**Applied by:** fix-agent
 **Approved by:** Julius — 2026-06-26 07:12 +07
 **Issues found:** 322 in requested scope (`463` raw script findings minus `23` out-of-scope tag warnings and `118` out-of-scope topic-file errors)
 **Created:** 2026-06-25 23:15:51 +07

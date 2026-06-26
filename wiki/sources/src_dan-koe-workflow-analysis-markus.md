@@ -7,7 +7,6 @@ topic: ai-workflow-methodology
 date_compiled: 2026-06-17
 url: https://letters.thedankoe.com/p/how-average-people-will-get-rich
 author: Markus (Analysis)
-original_author: Dan Koe
 ---
 
 # Workflow "Learn to Figure Anything Out with AI" — Chi tiết từng bước

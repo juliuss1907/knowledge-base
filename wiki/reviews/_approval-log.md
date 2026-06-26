@@ -5,6 +5,58 @@
 
 ---
 
+## Entry: 2026-06-26 07:12 — Julius approves all pending reports
+
+**Approved at:** 2026-06-26
+**Approved by:** Julius
+**Scope:** All 4 pending validation reports — Output (2026-06-26), Format (2026-06-26 + 2026-06-25 rerun), Hygiene (2026-06-26)
+
+### ✅ Apply — All issues from 4 reports
+
+#### Output Validator — 2026-06-26 (4 issues)
+- Report: `wiki/reviews/2026-06-26_output-report.md`
+- 3 WARNING: 332 one-sentence definitions, 81 concepts with <5 key points, 9 empty `## Key ideas`
+- 1 INFO: 164 concepts remain `status: draft`
+- **All 4 issues approved for Fix Agent**
+
+#### Format Validator — 2026-06-26 (322 in-scope issues)
+- Report: `wiki/reviews/2026-06-26_format-report.md`
+- 8 ERROR: code blocks missing language tags
+- 312 WARNING: broken wikilinks / forward references
+- 1 WARNING: field order mismatch in `src_dan-koe-workflow-analysis-markus.md`
+- 1 WARNING: broken raw `original` reference in `src_map-is-not-territory.md`
+- 23 tag-frontmatter warnings + 118 topic-file errors remain excluded from actionable count for this run
+- **All 322 in-scope issues approved for Fix Agent**
+
+#### Hygiene Inspector — 2026-06-26 (1 actionable issue)
+- Report: `wiki/reviews/2026-06-26_hygiene-report.md`
+- 1 ERROR: `wiki/reviews/HEARTBEAT.md` leaked into review zone
+- `memory/` root finding remains excluded by scope
+- **1 actionable issue approved for Fix Agent**
+
+#### Format Validator — 2026-06-25 (23:15 rerun, 322 in-scope issues)
+- Report: `wiki/reviews/2026-06-25_format-report.md`
+- 8 ERROR: code blocks missing language tags
+- 312 WARNING: broken wikilinks / forward references
+- 1 WARNING: field order mismatch in `src_dan-koe-workflow-analysis-markus.md`
+- 1 WARNING: broken raw `original` reference in `src_map-is-not-territory.md`
+- 23 tag-frontmatter warnings + 118 topic-file errors remain excluded from actionable count for this run
+- **All 322 in-scope issues approved for Fix Agent**
+
+### ⏭️ Excluded
+
+- **None** — all issues in all 4 reports approved without exclusions.
+
+### ⚠️ Verify-first
+
+- **None**
+
+---
+
+**Total scope:** 649 actionable issues across 4 reports → Fix Agent apply all.
+
+---
+
 ## Entry: 2026-06-26 07:01 — Validation rerun
 
 **Created at:** 2026-06-26 07:01

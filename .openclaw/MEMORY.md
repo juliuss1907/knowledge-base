@@ -15,3 +15,6 @@
 - **Concepts:** [experience-over-achievement, performative-existence, presence]
 - **Tags applied:** main=#productivity, sub=[#psychology, #opinion], topic=experience-over-achievement
 - **Action:** created 3 concept files
+## 2026-06-26 08:04 — Ingested
+- File: raw/articles/2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md
+- Source: https://riansweetdoris.substack.com/p/give-me-14-minutes-and-ill-destroy

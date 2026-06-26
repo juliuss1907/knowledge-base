@@ -5,6 +5,35 @@
 
 ---
 
+## Entry: 2026-06-26 07:01 — Validation rerun
+
+**Created at:** 2026-06-26 07:01
+**Created by:** Connor (manual rerun)
+**Scope:** Output + Format + Hygiene validators
+
+### Reports
+- `wiki/reviews/2026-06-26_output-report.md` — 4 issues (0 ERROR, 3 WARNING, 1 INFO)
+- `wiki/reviews/2026-06-26_format-report.md` — 322 in-scope issues (8 ERROR, 314 WARNING, 0 INFO)
+- `wiki/reviews/2026-06-26_hygiene-report.md` — 1 actionable issue (1 ERROR, 0 WARNING, 0 INFO)
+
+### Key Findings
+- Output: backlog-level content-depth issues unchanged — 332 one-sentence definitions, 81 concepts with <5 key points, 9 empty `## Key ideas`, 164 draft concepts
+- Format: no requested-scope delta — 8 code-block language-tag errors, 312 broken wikilinks/forward references, 2 isolated frontmatter warnings
+- Hygiene: `state/` và `.last-heartbeat` đã được resolve; chỉ còn `wiki/reviews/HEARTBEAT.md` là actionable hygiene error
+
+### Delta vs last approved baseline
+- Output: no change
+- Format: no change in requested scope
+- Hygiene: improved from 3 actionable issues to 1
+
+### Escalations
+- None beyond existing systemic backlog
+- `memory/` root finding excluded again as Julius-side environment, not Kara cleanup scope
+
+### Status: PENDING approval
+
+---
+
 ## Entry: 2026-06-25 23:15 — Format Validator cron run
 
 **Created at:** 2026-06-25 23:15

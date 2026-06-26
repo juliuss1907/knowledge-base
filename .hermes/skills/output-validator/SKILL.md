@@ -346,9 +346,12 @@ When the validator runs and finds `wiki/reviews/YYYY-MM-DD_output-report.md` alr
 3. **If no new files:** log "No new files since last approved report" to MEMORY.md and respond with `[SILENT]`.
 4. **When overwriting the approved report:** clearly mark the new report as `**Status:** pending` and note that the previous version was approved. Add a section summarizing the morning report's findings for continuity.
 5. **In _action-required.md:** add the new run as a separate "Pending" entry while keeping the morning run under "Approved." Both entries share the same date but have different timestamps.
+6. **Because the report filename is reused, preserve the morning context inside `_action-required.md` itself.** Do not rely on the approved entry's link to still show the morning contents after the rerun overwrites `YYYY-MM-DD_output-report.md`. Keep the approved morning summary self-contained, and in the pending rerun entry explicitly say it is a delta against the approved morning run.
+7. **In the rerun report body, include a short "Previous approved run context" section.** This guards against loss of continuity once the same-day file is overwritten.
 
 **Pattern (2026-06-22):** Morning report at 08:20 (24 new files, approved). Evening run at 22:00 found 11 additional files. Produced updated report noting the overlap, highlighting that "ngưởi" typo count dropped from 10→1 (Fix Agent resolved 9 between runs).
 
+**Additional lesson (2026-06-26):** Same-day rerun at 23:01 overwrote `2026-06-26_output-report.md` after the 07:01 report had already been approved. The durable history survived only because `_action-required.md` retained the approved morning summary and the rerun report carried a `Previous approved run context` section. Treat those two summaries as required, not optional.
 ### Cron working directory
 
 When running as a scheduled cron job, the session working directory may be `$HOME` (e.g., `/home/julius`) rather than the knowledge-base directory. The `search_files` and `read_file` tools resolve relative paths from the session cwd, so `wiki/sources/` will fail.

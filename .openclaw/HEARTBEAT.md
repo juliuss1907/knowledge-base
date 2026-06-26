@@ -1,7 +1,7 @@
 # HEARTBEAT.md — OpenClaw System Health
 
-**Last check:** 2026-06-26 14:30 ICT
-**Status:** `HEARTBEAT_OK`
+**Last check:** 2026-06-26 16:30 ICT
+**Status:** `HEARTBEAT_ISSUES`
 
 ---
 
@@ -11,9 +11,23 @@
 |---|---|
 | Raw backlog (unprocessed >24h) | 0 files |
 | Raw unprocessed (today) | 2 files |
-| Wiki concepts | 337 files (no change) |
-| Total raw sources | 112 files (↑ 7 from last check) |
+| Wiki concepts | 337 files |
+| Wiki sources | 103 files |
+| Total raw sources | 112 files (no change from 14:30) |
 | Pending reviews | 0 — all approved/applied |
+
+---
+
+## Issues Found
+
+### 1. Frontmatter Error (raw)
+- ⚠️ `raw/articles/2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md` — dùng `type: article` thay vì `type: raw`. Sẽ khiến CompileAgent bỏ qua file này. Cần sửa trước 08:00 ngày mai.
+
+### 2. Concept Missing Backlinks Section
+- ⚠️ `wiki/concepts/impulse-response-gap.md` — thiếu `## Backlinks` section. Có `## Related concepts` và `## Sources` nhưng không có backlinks riêng.
+
+### 3. Hygiene — Leaked File in Review Zone
+- ⚠️ `wiki/reviews/HEARTBEAT.md` — vẫn tồn tại trong review zone (đã flag từ 06-25 hygiene report, chưa được xóa).
 
 ---
 
@@ -23,31 +37,22 @@
 
 ## Raw Backlog
 
-- 2 files unprocessed, both from today (2026-06-26) — within 24h window:
-  - `raw/articles/2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md`
-  - `raw/articles/2026-06-26_why-china-got-rich-and-india-didnt.md`
+- 2 files unprocessed, both from today (2026-06-26) — trong 24h window:
+  - `raw/articles/2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md` (lỗi frontmatter)
+  - `raw/articles/2026-06-26_why-china-got-rich-and-india-didnt.md` (OK)
 
 ## Concept Backlinks
 
-- Random check: `byte-level-bpe.md` (5 wikilinks), `prospective-memory-gap.md` (4 wikilinks) — both healthy.
-- No concept orphaned.
+- Random check: `conversational-website.md` — healthy (có Backlinks, Sources, Related concepts)
+- Random check: `impulse-response-gap.md` — **thiếu `## Backlinks` section**
 
 ## Pending Reviews
 
-- `_action-required.md`: 0 pending. All Hermes reports from 2026-06-25 and 2026-06-26 approved and applied.
-
-## Hygiene Flags
-
-- ⚠️ `wiki/reviews/HEARTBEAT.md` — leaked heartbeat log in review zone (still present, not yet removed). Was first flagged 2026-06-25 hygiene report. Contains a duplicate heartbeat entry from 13:00 today.
-
-## Frontmatter Issues
-
-- ⚠️ `raw/articles/2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md` sử dụng `type: article` thay vì `type: raw` — cần sửa trước khi compile.
+- `_action-required.md`: 0 pending. Tất cả Hermes reports từ 06-25 và 06-26 đã approved/applied.
 
 ---
 
 ## Notes
 
-- Tổng raw sources tăng từ 105 lên 112 (+7). Có thể có batch ingest gần đây hoặc file mới được thêm vào.
-- 2 file raw hôm nay chưa compile — CompileAgent sẽ xử lý vào 08:00 ngày mai.
-- `wiki/reviews/HEARTBEAT.md` nên được xóa khỏi review zone.
+- 2 file raw hôm nay chưa compile — CompileAgent sẽ xử lý 08:00 ngày mai, nhưng 1 file cần sửa frontmatter trước.
+- `wiki/reviews/HEARTBEAT.md` nên được xóa — đã tồn tại qua 2 hygiene cycles.

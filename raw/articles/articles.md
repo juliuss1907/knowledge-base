@@ -21,9 +21,9 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Stats
 ## Stats
 
-- Total: 79 files
-- By status: 79 processed, 0 unprocessed
-- By date: 9 this week, 72 this month
+- Total: 80 files
+- By status: 79 processed, 1 unprocessed
+- By date: 10 this week, 73 this month
 - Last updated: 2026-06-26
 ## Items
 
@@ -38,6 +38,7 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 - [[2026-06-18_how-the-market-warns-you-before-the-crash]] — How the Market Warns You Before the Crash (and When It's Safe to Get Back In) by Trading Momentum (processed)
 - [[2026-06-17_dan-koe-workflow-analysis-markus]] — Workflow 'Learn to Figure Anything Out with AI' — Chi tiết từng bước by Markus (Analysis) (processed)
 - [[2026-06-17_how-average-people-will-get-rich-with-ai]] — how average people will get rich with AI by Dan Koe (processed)
+- [[2026-06-26_next-gen-trading-about-timing-not-picking]] — The Next Generation of Trading Won't Be About Picking Stocks by glitchspx (unprocessed)
 - [[2026-06-17_l1-blockchain-ai-lab-comparison]] — The L1 Blockchain <> AI Lab Comparison by Alok Vasudev (processed)
 - [[2026-06-16_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 thói quen "bình thường" đang hủy hoại não bộ của bạn by Hieu Being (processed)
 - [[2026-06-16_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cách nhanh nhất nộp hồ sơ bảo hiểm thất nghiệp by the1ight (processed)

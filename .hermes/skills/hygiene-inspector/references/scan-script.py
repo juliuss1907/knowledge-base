@@ -24,6 +24,36 @@ SLUG_CHARS = "a-z0-9\u00e0-\u1ef9-"
 RE_LOWER_HYPHEN = re.compile("^[" + SLUG_CHARS + "]+$")
 TEMP_SUFFIXES = (".tmp", ".bak", ".swp", "~")
 
+# ── Proven regex patterns for full-tree scans ──
+# These were validated on a 17K-path KB run (2026-06-27).
+# Copy them verbatim into the production script.
+
+# Raw content: YYYY-MM-DD_<slug>.md
+RE_RAW_CONTENT = re.compile(r"^\d{4}-\d{2}-\d{2}_([" + SLUG_CHARS + r"]+)\.md$")
+
+# Papers use YYYY-MM-DD_<author>_<title>.md (underscore between author and title)
+# This is distinct from the standard raw content pattern above.
+RE_RAW_PAPERS = re.compile(
+    r"^\d{4}-\d{2}-\d{2}_([" + SLUG_CHARS + r"]+)_([" + SLUG_CHARS + r"]+)\.md$"
+)
+
+# Review reports in active zone: YYYY-MM-DD_<type>-report.md
+RE_REVIEW_REPORT = re.compile(
+    r"^\d{4}-\d{2}-\d{2}_(output|format|hygiene|spot-check)-report\.md$"
+)
+
+# Archived reports: wiki/reviews/archive/YYYY-MM/YYYY-MM-DD_<type>-report.md
+# PITFALL: Do NOT use ^archive/ — relative paths from os.walk start at repo root,
+# so the full prefix wiki/reviews/archive/ is required.
+RE_REVIEW_ARCHIVE = re.compile(
+    r"^wiki/reviews/archive/\d{4}-\d{2}/\d{4}-\d{2}-\d{2}_(output|format|hygiene|spot-check)-report\.md$"
+)
+
+# PITFALL: context/ has USER.md which is explicitly whitelisted with uppercase.
+# Do NOT apply the lowercase-hyphen naming check to files that appear by name
+# in the explicit whitelist (CONTEXT_FILES, WIKI_META_FILES, etc.).
+# Only check naming for content files (concepts, sources, tags, topics, drafts).
+
 issues = []
 seen = set()
 

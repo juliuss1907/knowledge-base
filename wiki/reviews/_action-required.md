@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-27 23:16
+**Last updated:** 2026-06-27 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-26 đã được approve: Output (23:01), Format (23:15), Hygiene (23:30).
 
@@ -20,6 +20,7 @@
 - ✅ Output Validator — 2026-06-26 (23:01): **APPROVED** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
 - 🆕 Output Validator — 2026-06-27 (23:09): **PENDING** (1 issue: 0 ERROR, 0 WARNING, 1 INFO)
 - 🆕 Format Validator — 2026-06-27 (23:16): **PENDING** (339 issues: 24 ERROR, 315 WARNING, 0 INFO)
+- 🆕 Hygiene Inspector — 2026-06-27 (23:30): **PENDING** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-26 (07:01): **APPROVED** (1 actionable issue: 1 ERROR, 0 WARNING, 0 INFO)
@@ -99,6 +100,37 @@
 - Escalation: `[SYSTEMATIC VIOLATION]` Index Agent cần update để include `level: 3` trong tag index generation
 
 **Report:** `wiki/reviews/2026-06-27_format-report.md`
+
+---
+
+### 🆕 Hygiene Inspection — 2026-06-27 (23:30)
+
+**File:** [2026-06-27_hygiene-report.md](2026-06-27_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-06-27 23:30:12 +07
+**Issues:** 1 (1 ERROR, 0 WARNING, 0 INFO)
+**Paths checked:** 17,526
+
+**Summary:**
+- 1 ERROR: `wiki/reviews/HEARTBEAT.md` leaked outside agent home — recurring issue flagged since 06-25, re-appeared after Fix Agent cleanup on 06-27 09:34
+- 0 WARNING: All active content zones (raw/, wiki/concepts/, wiki/sources/, wiki/tag/, wiki/topic/, wiki/drafts/, wiki/reviews/) fully compliant
+- 0 INFO: No old reports requiring archiving
+- KB structure is clean except for the single recurring HEARTBEAT leak
+
+**Delta from 2026-06-26 (APPROVED):**
+- `memory/` root folder: resolved
+- `state/` root folder: resolved  
+- `wiki/reviews/_approval-log.md`: resolved
+- `raw/papers/` naming: verified compliant
+- `wiki/drafts/` backup artifacts: resolved
+- `wiki/reviews/HEARTBEAT.md`: **recurring** — needs process-level fix, not file deletion
+
+**Actions:**
+- Review `wiki/reviews/2026-06-27_hygiene-report.md`
+- Nếu approve: identify which process writes HEARTBEAT.md to wiki/reviews/ and fix the output path to agent home
+- Không cần Fix Agent chạy lại (xóa file riêng lẻ sẽ không giải quyết root cause)
+
+**Report:** `wiki/reviews/2026-06-27_hygiene-report.md`
 
 ---
 

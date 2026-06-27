@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.5
-last_updated: 2026-06-26
+version: 1.6
+last_updated: 2026-06-27
 ---
 
 # Hygiene Inspector
@@ -518,6 +518,24 @@ Typical validation times (daily runs):
 
 ---
 
+## Full-tree scan pitfalls
+
+When building a production scan script from the template in `references/scan-script.py`, three false-positive sources must be handled:
+
+### 1. Archive regex prefix
+`RE_REVIEW_ARCHIVE` must match `^wiki/reviews/archive/` not `^archive/`. `os.walk` relative paths start from the repo root, so the bare `archive/` prefix will never match. The proven pattern is in `references/scan-script.py`.
+
+### 2. Papers naming convention
+`raw/papers/` uses `YYYY-MM-DD_<author>_<title>.md` — two slug segments separated by an underscore. The standard `RE_RAW_CONTENT` (`YYYY-MM-DD_<slug>.md`) will flag every paper. Must add `RE_RAW_PAPERS` and check it before the fallthrough to `RE_RAW_CONTENT`.
+
+### 3. Whitelist override for naming checks
+Files that are explicitly whitelisted by name (e.g., `context/USER.md`, `wiki/meta/index-spec.md`) should skip the generic lowercase-hyphen naming check. Only apply naming rules to content files (concepts, sources, tags, topics, drafts, raw content).
+
+### 4. Recurring HEARTBEAT leak
+`wiki/reviews/HEARTBEAT.md` is a known recurring issue — it has been flagged every run since 2026-06-25. Fix Agent removal is transient; the writing process recreates it. Flag it as ERROR each time it appears, but note in the report that it needs a process-level fix, not another file deletion. See `references/common-patterns.md` for details.
+
+---
+
 ## Relationship with other agents
 
 **OpenClaw agents** should follow folder-structure.md when creating files.
@@ -536,6 +554,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.6 | 2026-06-27 | Full-tree scan on 17,526-path KB uncovered three false-positive sources in the production script: (1) archive regex needed `^wiki/reviews/archive/` not `^archive/`, (2) papers use `YYYY-MM-DD_<author>_<title>.md` not standard `YYYY-MM-DD_<slug>.md`, (3) explicitly whitelisted files (e.g. `context/USER.md`) must skip generic naming checks. Added `RE_RAW_PAPERS`, fixed `RE_REVIEW_ARCHIVE`, and added `RE_REVIEW_REPORT` regex patterns to `references/scan-script.py`. Added "Full-tree scan pitfalls" section to SKILL.md. Documented recurring HEARTBEAT leak pattern in `references/common-patterns.md`. |
 | 1.5 | 2026-06-26 | Removed contradictory `MEMORY.md` logging step because the skill is report-only and write-restricted to `wiki/reviews/`. Added guidance for live workflow artifacts that are not yet whitelisted (report as `[SPEC CONFLICT]`, e.g. `wiki/reviews/_approval-log.md`). Added `references/full-tree-scan-notes.md` and restored `references/scan-script.py` so the SKILL.md links resolve. Clarified that `wiki/drafts/*.bak` and `.gitkeep` should be cleanup warnings, while backup subfolders remain path errors. |
 | 1.4 | 2026-06-23 | Fixed `references/scan-script.py`: changed docstring from `"""` to `r"""` to prevent `SyntaxError: unicodeescape` when the script is written via `write_file` (JSON `\u` processing + non-raw Python string parsing conflict). Changed `SLUG_CHARS` from raw string to non-raw with double-backslashes for consistency with the documented pitfall. Added docstring SyntaxError to failure modes table. |
 | 1.3 | 2026-06-22 | Fixed `references/scan-script.py`: replaced raw-string regex patterns with non-raw strings to correctly handle `\u` Unicode escapes (Vietnamese diacritics). Raw strings treat `\u` literally — caused 722 false WARNINGs across all naming checks. Added pitfall to cron section and failure modes. |

@@ -54,6 +54,33 @@ Agent heartbeat files that sometimes leak outside their home:
 - `raw/.last_heartbeat` — should be in `.hermes/` or `.openclaw/`, not `raw/`
 - `wiki/reviews/HEARTBEAT.md` — should be in `.hermes/` or root (if symlink), not `wiki/reviews/`
 
+**Recurring note (2026-06-27):** `wiki/reviews/HEARTBEAT.md` has been flagged every run since 06-25. Fix Agent deleted it 2026-06-27 09:34 but it reappeared by 23:30. This is a **process-level leak** — a runtime process writes HEARTBEAT.md to `wiki/reviews/` instead of the agent home. File deletion alone will not resolve it; the writing process must be identified and its output path corrected.
+
+---
+
+## Raw content naming — papers vs standard types
+
+`raw/papers/` uses a different naming convention from other raw types:
+
+| Type | Pattern | Example |
+|---|---|---|
+| Standard (`articles`, `posts`, etc.) | `YYYY-MM-DD_<slug>.md` | `2026-05-07_anthropic-claude-code.md` |
+| Papers | `YYYY-MM-DD_<author>_<title>.md` | `2026-05-22_ning-et-al_code-as-agent-harness.md` |
+
+**Pitfall:** A single `RE_RAW_CONTENT` regex that matches `YYYY-MM-DD_<slug>.md` will false-positive on papers. The scan script must check for `RE_RAW_PAPERS` before falling through to `RE_RAW_CONTENT` when processing `raw/papers/`.
+
+---
+
+## Scan script false-positive traps
+
+Three patterns that caused false positives in the 2026-06-27 run:
+
+1. **Archive regex prefix** — `RE_REVIEW_ARCHIVE` must use `^wiki/reviews/archive/` not `^archive/`. `os.walk` relative paths start from the repo root, so the full `wiki/reviews/archive/` prefix is needed.
+
+2. **Papers naming** — `raw/papers/` uses `YYYY-MM-DD_<author>_<title>.md` (two slug segments separated by underscore). A single `RE_RAW_CONTENT` will flag every paper as non-compliant. Must add `RE_RAW_PAPERS` and check it first.
+
+3. **Whitelisted files with uppercase** — `context/USER.md` is explicitly whitelisted by name but fails a generic lowercase-hyphen naming check. Skip the naming check for files that appear by name in an explicit whitelist (`CONTEXT_FILES`, `WIKI_META_FILES`). Only apply naming rules to content files (concepts, sources, tags, topics, drafts).
+
 ---
 
 ## Agent home content confusion

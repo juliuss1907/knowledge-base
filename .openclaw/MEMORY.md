@@ -37,3 +37,25 @@
 **Files modified:** 7 (3 concepts expanded, 1 source phrasing fix, 4 papers renamed)
 **Files deleted:** 15 (2 root folders, 1 approval log, 2 draft subfolders, .gitkeep, 10 .bak)
 **Reports archived:** 31 (3 Jun + 28 May)
+
+## 2026-06-27 11:58 — Compiled 3 raw files (manual run)
+
+**Files compiled:**
+- Raw: `raw/articles/2026-06-26_why-china-got-rich-and-india-didnt.md`
+  - Source note: `wiki/sources/src_why-china-got-rich-and-india-didnt.md`
+  - Concepts: state-capacity-theory, political-settlement, enablement-vs-control
+  - Tags: main=economic, sub=[geopolitics, opinion], topic=state-capacity-development
+
+- Raw: `raw/articles/2026-06-26_the-next-generation-of-trading-wont.md`
+  - Source note: `wiki/sources/src_the-next-generation-of-trading-wont.md`
+  - Concepts: timing-over-stock-picking, institutional-trading-cycle, positioning-before-price
+  - Tags: main=economic, sub=[opinion], topic=trading-timing
+
+- Raw: `raw/articles/2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md`
+  - Source note: `wiki/sources/src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md`
+  - Concepts: approach-avoidance-conflict, flow-cycle, clear-goals, challenge-skills-balance
+  - Tags: main=productivity, sub=[psychology, opinion], topic=procrastination-neuroscience
+
+**Skipped (duplicate):** `2026-06-26_next-gen-trading-about-timing-not-picking.md` — same URL/author as `the-next-generation-of-trading-wont`, identical content just different YAML format. Left as unprocessed, needs Julius to move/delete.
+
+**Stats:** 3 source notes, 10 concept files, 0 tag proposals

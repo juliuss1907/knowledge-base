@@ -4,7 +4,9 @@ source_type: article
 source_url: "https://davidoks.blog/p/why-china-got-rich-and-india-didnt"
 date_ingested: 2026-06-26
 tags: []
-status: unprocessed
+status: processed
+compiled_at: 2026-06-27
+compiled_to: "[[src_why-china-got-rich-and-india-didnt]]"
 ---
 
 # Why China Got Rich and India Didn't

@@ -5,7 +5,9 @@ url: https://glitchspx.substack.com/p/the-next-generation-of-trading-wont
 author: glitchspx
 date_published: 2026-06-26
 date_ingested: 2026-06-26
-status: unprocessed
+status: processed
+compiled_at: 2026-06-27
+compiled_to: "[[src_the-next-generation-of-trading-wont]]"
 source: glitchspx.substack.com
 ---
 

@@ -5,7 +5,9 @@ url: https://riansweetdoris.substack.com/p/give-me-14-minutes-and-ill-destroy
 author: Rian Sweet Doris
 date_published: 2026-06-26
 date_ingested: 2026-06-26
-status: unprocessed
+status: processed
+compiled_at: 2026-06-27
+compiled_to: "[[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]]"
 source: substack
 ---
 

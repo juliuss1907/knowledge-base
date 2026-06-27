@@ -68,6 +68,40 @@
 
 ---
 
+### 🆕 Format Validation — 2026-06-27 (23:16)
+
+**File:** [2026-06-27_format-report.md](2026-06-27_format-report.md)
+**Status:** pending
+**Created:** 2026-06-27 23:16:45 +0700
+**Issues:** 339 (24 ERROR, 315 WARNING, 0 INFO)
+**Files checked:** 623 (354 concepts + 110 sources + 33 indexes + 126 topics)
+**Scope:** Full KB run (expanded from concepts+sources only)
+
+**Summary:**
+- ✅ 8 code-block language-tag ERRORs từ 06-26 → **đã resolved hoàn toàn** (Fix Agent thành công)
+- 🔴 23 ERROR mới: `wiki/tag/*.md` — thiếu `level: 3` field (trước đây bị loại khỏi scoped run)
+- 🔴 1 ERROR mới: `src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md` — slug vượt 50 ký tự (63 chars)
+- ⚠️ ~310 WARNING: broken wikilinks / forward references (expected trong KB đang phát triển)
+- ⚠️ 4 WARNING: original raw-file wikilink không tìm thấy (carry-over từ 06-26)
+- 126 topic files pass light validation — không có issue mới
+
+**Delta từ 2026-06-26 approved:**
+- Positive: 8 code-block ERROR → 0 (resolved)
+- Negative: +23 tag-file ERROR (missing level, surfaced by full scope)
+- Negative: +1 naming ERROR (slug too long, file mới)
+- WARNING: +5 (net change in expanded scope)
+
+**Actions:**
+- Review `wiki/reviews/2026-06-27_format-report.md`
+- Nếu approve: giao Fix Agent (1) thêm `level: 3` vào 23 tag index files, (2) rename file slug quá dài
+- 8 code-block ERRORs đã resolved — không cần action
+- Broken wikilink backlog ổn định, không cần ưu tiên
+- Escalation: `[SYSTEMATIC VIOLATION]` Index Agent cần update để include `level: 3` trong tag index generation
+
+**Report:** `wiki/reviews/2026-06-27_format-report.md`
+
+---
+
 ### ✅ Format Validation — 2026-06-26 (23:15 Rerun)
 
 **File:** [2026-06-26_format-report.md](archive/2026-06/2026-06-26_format-report.md)

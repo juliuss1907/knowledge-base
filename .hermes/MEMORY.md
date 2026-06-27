@@ -10,6 +10,20 @@
 
 ---
 
+## 2026-06-27 23:16 — Format validation
+
+- **Files checked:** 623 (354 concepts + 110 sources + 33 indexes + 126 topics)
+- **Issues found:** 339 (24 ERROR, 315 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-27_format-report.md
+- **Top violations:**
+  - 23 ERROR: `wiki/tag/*.md` missing `level: 3` field (systematic — Index Agent)
+  - 1 ERROR: Slug exceeds 50 chars in `src_give-me-14-minutes...md`
+  - ~310 WARNING: Broken wikilinks / forward references (stable backlog)
+  - 4 WARNING: Original raw-file wikilinks not found (carry-over)
+  - ✅ Positive delta: 8 code-block ERRORs from 06-26 fully resolved
+  - Escalation: `[SYSTEMATIC VIOLATION]` Index Agent must include `level: 3` in tag indexes
+
+---
 ## 2026-06-23 23:30 — Hygiene inspection
 
 - **Paths checked:** 30

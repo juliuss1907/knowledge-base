@@ -245,11 +245,11 @@ After successful validation run:
    - Top violations: [violation types]
    ```
 
-5. **Update _approval-log.md:**
-   - Prepend a new entry at the top of `wiki/reviews/_approval-log.md`
+5. **Update _approval-log.md (if it exists):**
+   - `_approval-log.md` may not exist — `_action-required.md` (updated in step 2) already serves as the cross-machine approval contract
+   - If the file exists, prepend a new entry at the top
    - Include: timestamp, validator name, scope, report path, issue counts, key findings, escalations, and status (`PENDING approval`)
-   - Format matches existing entries — see prior entries for template
-   - This creates the cross-machine approval contract between VPS (validation) and main machine (Fix Agent)
+   - If the file does not exist, skip this step — it is optional and redundant with `_action-required.md`
 
 ## Delta tracking (compare against previous approved report)
 
@@ -369,6 +369,10 @@ Topic files under `wiki/topic/*.md` have `type: index` and `scope: topic` but NO
 `context/USER.md` is Julius's personal profile. It has no YAML frontmatter — this is intentional, not an error. The validator must skip this file. Same for `context/context.md` if it lacks frontmatter.
 
 **Detection:** Skip files listed in AGENTS.md §4.2 (Read-only zones) that are known to lack frontmatter. Currently: `context/USER.md`.
+
+### _approval-log.md is optional (do not fail if missing)
+
+Post-validation step 5 references `wiki/reviews/_approval-log.md`, but this file may not exist. `_action-required.md` already serves as the canonical cross-machine approval contract. If `_approval-log.md` is absent, skip step 5 gracefully — do not create it, do not error out. The approval contract lives in `_action-required.md`.
 
 ## Failure modes
 

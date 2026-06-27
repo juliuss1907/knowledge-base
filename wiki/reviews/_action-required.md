@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-27 23:09
+**Last updated:** 2026-06-27 23:16
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-26 đã được approve: Output (23:01), Format (23:15), Hygiene (23:30).
 
@@ -19,6 +19,7 @@
 - ✅ Format Validator — 2026-06-26 (23:15): **APPROVED** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-26 (23:01): **APPROVED** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
 - 🆕 Output Validator — 2026-06-27 (23:09): **PENDING** (1 issue: 0 ERROR, 0 WARNING, 1 INFO)
+- 🆕 Format Validator — 2026-06-27 (23:16): **PENDING** (339 issues: 24 ERROR, 315 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-26 (07:01): **APPROVED** (1 actionable issue: 1 ERROR, 0 WARNING, 0 INFO)

@@ -1,15 +1,13 @@
 model:
-  default: MiniMax-M3[1m]
-  provider: custom
-  base_url: https://api.ai-box.vn/v1
-  api_key: sk-aU9FLWGafr7njN3UzOiXonV2i1ANJ2GjpdT2oH4hbnPiqYJi
+  default: gpt-5.4
+  provider: openai-codex
+  base_url: https://chatgpt.com/backend-api/codex
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
 toolsets:
-  - hermes-cli
+- hermes-cli
 max_concurrent_sessions: null
-max_live_sessions: 16
 agent:
   max_turns: 150
   gateway_timeout: 1800
@@ -18,11 +16,9 @@ agent:
   service_tier: ''
   tool_use_enforcement: auto
   task_completion_guidance: true
-  parallel_tool_call_guidance: true
   environment_probe: true
   environment_hint: ''
   coding_context: auto
-  verify_on_stop: true
   gateway_timeout_warning: 900
   clarify_timeout: 600
   gateway_notify_interval: 600
@@ -38,12 +34,14 @@ agent:
     creative: You are a creative assistant. Think outside the box and offer innovative
       solutions.
     teacher: You are a patient teacher. Explain concepts clearly with examples.
-    kawaii: You are a kawaii assistant! Use cute expressions like (◕‿◕), ★, ♪, and
-      ~! Add sparkles and be super enthusiastic about everything! Every response should
-      feel warm and adorable desu~! ヽ(>∀<☆)ノ
-    catgirl: You are Neko-chan, an anime catgirl AI assistant, nya~! Add 'nya' and
-      cat-like expressions to your speech. Use kaomoji like (=^･ω･^=) and ฅ^•ﻌ•^ฅ.
-      Be playful and curious like a cat, nya~!
+    kawaii: "You are a kawaii assistant! Use cute expressions like (\u25D5\u203F\u25D5\
+      ), \u2605, \u266A, and ~! Add sparkles and be super enthusiastic about everything!\
+      \ Every response should feel warm and adorable desu~! \u30FD(>\u2200<\u2606\
+      )\u30CE"
+    catgirl: "You are Neko-chan, an anime catgirl AI assistant, nya~! Add 'nya' and\
+      \ cat-like expressions to your speech. Use kaomoji like (=^\uFF65\u03C9\uFF65\
+      ^=) and \u0E05^\u2022\uFECC\u2022^\u0E05. Be playful and curious like a cat,\
+      \ nya~!"
     pirate: 'Arrr! Ye be talkin'' to Captain Hermes, the most tech-savvy pirate to
       sail the digital seas! Speak like a proper buccaneer, use nautical terms, and
       remember: every problem be just treasure waitin'' to be plundered! Yo ho ho!'
@@ -51,9 +49,9 @@ agent:
       I shall respond in the eloquent manner of William Shakespeare, with flowery
       prose, dramatic flair, and perhaps a soliloquy or two. What light through yonder
       terminal breaks?
-    surfer: Duuude! You're chatting with the chillest AI on the web, bro! Everything's
-      gonna be totally rad. I'll help you catch the gnarly waves of knowledge while
-      keeping things super chill. Cowabunga! 🤙
+    surfer: "Duuude! You're chatting with the chillest AI on the web, bro! Everything's\
+      \ gonna be totally rad. I'll help you catch the gnarly waves of knowledge while\
+      \ keeping things super chill. Cowabunga! \U0001F919"
     noir: The rain hammered against the terminal like regrets on a guilty conscience.
       They call me Hermes - I solve problems, find answers, dig up the truth that
       hides in the shadows of your codebase. In this city of silicon and secrets,
@@ -65,17 +63,16 @@ agent:
       deeper meaning behind every query. Let us examine not just the 'how' but the
       'why' of your questions. Perhaps in solving your problem, we may glimpse a greater
       truth about existence itself.
-    hype: YOOO LET'S GOOOO!!! 🔥🔥🔥 I am SO PUMPED to help you today! Every question
-      is AMAZING and we're gonna CRUSH IT together! This is gonna be LEGENDARY! ARE
-      YOU READY?! LET'S DO THIS! 💪😤🚀
+    hype: "YOOO LET'S GOOOO!!! \U0001F525\U0001F525\U0001F525 I am SO PUMPED to help\
+      \ you today! Every question is AMAZING and we're gonna CRUSH IT together! This\
+      \ is gonna be LEGENDARY! ARE YOU READY?! LET'S DO THIS! \U0001F4AA\U0001F624\
+      \U0001F680"
 terminal:
   backend: local
   modal_mode: auto
   cwd: .
   timeout: 180
-  daemon_term_grace_seconds: 2.0
   env_passthrough: []
-  home_mode: auto
   shell_init_files: []
   auto_source_bashrc: true
   docker_image: nikolaik/python-nodejs:python3.11-nodejs20
@@ -125,9 +122,7 @@ checkpoints:
   retention_days: 7
   delete_orphans: true
   min_interval_hours: 24
-context_file_max_chars: null
 file_read_max_chars: 100000
-mcp_discovery_timeout: 1.5
 tool_output:
   max_bytes: 50000
   max_lines: 2000
@@ -152,19 +147,6 @@ compression:
   protect_first_n: 3
   abort_on_summary_failure: false
   codex_gpt55_autoraise: true
-  in_place: true
-kanban:
-  dispatch_in_gateway: true
-  dispatch_interval_seconds: 60
-  failure_limit: 2
-  worker_log_rotate_bytes: 2097152
-  worker_log_backup_count: 1
-  orchestrator_profile: ''
-  default_assignee: ''
-  max_in_progress_per_profile: null
-  auto_decompose: true
-  auto_decompose_per_tick: 3
-  dispatch_stale_timeout_seconds: 14400
 prompt_caching:
   cache_ttl: 5m
 openrouter:
@@ -233,7 +215,6 @@ auxiliary:
     api_key: ''
     timeout: 30
     extra_body: {}
-    language: ''
   tts_audio_tags:
     provider: auto
     model: ''
@@ -276,27 +257,6 @@ auxiliary:
     api_key: ''
     timeout: 60
     extra_body: {}
-  background_review:
-    provider: auto
-    model: ''
-    base_url: ''
-    api_key: ''
-    timeout: 120
-    extra_body: {}
-  moa_reference:
-    provider: auto
-    model: ''
-    base_url: ''
-    api_key: ''
-    timeout: 600
-    extra_body: {}
-  moa_aggregator:
-    provider: auto
-    model: ''
-    base_url: ''
-    api_key: ''
-    timeout: 600
-    extra_body: {}
   session_search:
     provider: auto
     model: ''
@@ -324,8 +284,6 @@ display:
   tui_agents_nudge: true
   bell_on_complete: false
   show_reasoning: false
-  reasoning_full: false
-  memory_notifications: 'on'
   streaming: true
   timestamps: false
   final_response_markdown: strip
@@ -340,7 +298,6 @@ display:
   skin: default
   language: en
   tui_status_indicator: kaomoji
-  cli_refresh_interval: 1.0
   user_message_preview:
     first_lines: 2
     last_lines: 2
@@ -348,8 +305,6 @@ display:
   tool_progress_command: false
   tool_progress_overrides: {}
   tool_preview_length: 0
-  tool_progress_grouping: accumulate
-  reasoning_style: code
   ephemeral_system_ttl: 0
   platforms:
     telegram:
@@ -359,16 +314,10 @@ display:
   runtime_footer:
     enabled: false
     fields:
-      - model
-      - context_pct
-      - cwd
+    - model
+    - context_pct
+    - cwd
   copy_shortcut: auto
-  pet:
-    enabled: false
-    slug: ''
-    render_mode: auto
-    scale: 0.33
-    unicode_cols: 0
   tool_progress: all
   background_process_notifications: all
 dashboard:
@@ -464,34 +413,16 @@ delegation:
   child_timeout_seconds: 600
   reasoning_effort: ''
   max_concurrent_children: 3
-  max_async_children: 3
   max_spawn_depth: 1
   orchestrator_enabled: true
   subagent_auto_approve: false
   default_toolsets:
-    - terminal
-    - file
-    - web
+  - terminal
+  - file
+  - web
 prefill_messages_file: ''
 goals:
   max_turns: 20
-moa:
-  default_preset: default
-  active_preset: ''
-  presets:
-    default:
-      reference_models:
-        - provider: openai-codex
-          model: gpt-5.5
-        - provider: openrouter
-          model: deepseek/deepseek-v4-pro
-      aggregator:
-        provider: openrouter
-        model: anthropic/claude-opus-4.8
-      reference_temperature: 0.6
-      aggregator_temperature: 0.4
-      max_tokens: 4096
-      enabled: true
 skills:
   external_dirs: []
   template_vars: true
@@ -506,7 +437,6 @@ curator:
   min_idle_hours: 2
   stale_after_days: 30
   archive_after_days: 90
-  consolidate: false
   prune_builtins: true
   backup:
     enabled: true
@@ -541,19 +471,16 @@ discord:
     speech_gain: 1.0
     ack_enabled: true
     ack_phrases:
-      - Let me look into that.
-      - One moment.
-      - Checking on that now.
-      - Give me a sec.
-      - On it.
+    - Let me look into that.
+    - One moment.
+    - Checking on that now.
+    - Give me a sec.
+    - On it.
 whatsapp: {}
 telegram:
   reactions: false
   channel_prompts: {}
   allowed_chats: ''
-  extra:
-    rich_messages: false
-    rich_drafts: false
 mattermost:
   require_mention: true
   free_response_channels: ''
@@ -570,10 +497,9 @@ approvals:
   mcp_reload_confirm: true
   destructive_slash_confirm: true
 command_allowlist:
-  - execute_code
-  - script execution via -e/-c flag
+- execute_code
+- script execution via -e/-c flag
 quick_commands: {}
-platform_hints: {}
 hooks: {}
 hooks_auto_accept: false
 personalities: {}
@@ -591,16 +517,20 @@ security:
   acked_advisories: []
   allow_lazy_installs: true
 cron:
-  provider: ''
-  chronos:
-    portal_url: https://portal.nousresearch.com
-    callback_url: ''
-    expected_audience: ''
-    nas_jwks_url: ''
   wrap_response: true
-  mirror_delivery: false
   max_parallel_jobs: null
-  output_retention: 50
+kanban:
+  dispatch_in_gateway: true
+  dispatch_interval_seconds: 60
+  failure_limit: 2
+  worker_log_rotate_bytes: 2097152
+  worker_log_backup_count: 1
+  orchestrator_profile: ''
+  default_assignee: ''
+  max_in_progress_per_profile: null
+  auto_decompose: true
+  auto_decompose_per_tick: 3
+  dispatch_stale_timeout_seconds: 14400
 code_execution:
   mode: project
   timeout: 300
@@ -626,23 +556,16 @@ model_catalog:
 network:
   force_ipv4: false
 gateway:
-  scale_to_zero:
-    idle_timeout_minutes: 5
-  message_timestamps:
-    enabled: false
-  max_inbound_media_bytes: 134217728
   strict: false
   media_delivery_allow_dirs: []
   trust_recent_files: true
   trust_recent_files_seconds: 600
-  api_server:
-    max_concurrent_runs: 10
 streaming:
   enabled: false
   transport: auto
   edit_interval: 0.8
   buffer_threshold: 24
-  cursor: ' ▉'
+  cursor: " \u2589"
   fresh_final_after_seconds: 60.0
 sessions:
   auto_prune: false
@@ -681,8 +604,6 @@ secrets:
 paste_collapse_threshold: 5
 paste_collapse_threshold_fallback: 5
 paste_collapse_char_threshold: 2000
-computer_use:
-  cua_telemetry: false
 _config_version: 29
 smart_model_routing:
   enabled: false
@@ -696,69 +617,65 @@ session_reset:
 group_sessions_per_user: true
 platform_toolsets:
   cli:
-    - browser
-    - clarify
-    - code_execution
-    - computer_use
-    - cronjob
-    - delegation
-    - file
-    - image_gen
-    - memory
-    - messaging
-    - session_search
-    - skills
-    - terminal
-    - todo
-    - tts
-    - vision
-    - web
+  - browser
+  - clarify
+  - code_execution
+  - computer_use
+  - cronjob
+  - delegation
+  - file
+  - image_gen
+  - memory
+  - messaging
+  - session_search
+  - skills
+  - terminal
+  - todo
+  - tts
+  - vision
+  - web
   telegram:
-    - browser
-    - clarify
-    - code_execution
-    - computer_use
-    - cronjob
-    - delegation
-    - file
-    - image_gen
-    - memory
-    - messaging
-    - session_search
-    - skills
-    - terminal
-    - todo
-    - tts
-    - vision
-    - web
+  - browser
+  - clarify
+  - code_execution
+  - computer_use
+  - cronjob
+  - delegation
+  - file
+  - image_gen
+  - memory
+  - messaging
+  - session_search
+  - skills
+  - terminal
+  - todo
+  - tts
+  - vision
+  - web
   discord:
-    - hermes-discord
+  - hermes-discord
   whatsapp:
-    - hermes-whatsapp
+  - hermes-whatsapp
   slack:
-    - hermes-slack
+  - hermes-slack
   signal:
-    - hermes-signal
+  - hermes-signal
   homeassistant:
-    - hermes-homeassistant
+  - hermes-homeassistant
   qqbot:
-    - hermes-qqbot
+  - hermes-qqbot
 custom_providers:
-  - name: minimax
-    base_url: https://api.minimax.io/anthropic
-    api_key: ''
-    api_mode: anthropic_messages
-  - name: Api.ai-box.vn
-    base_url: https://api.ai-box.vn/v1
-    api_key: sk-aU9FLWGafr7njN3UzOiXonV2i1ANJ2GjpdT2oH4hbnPiqYJi
-    model: MiniMax-M3[1m]
+- name: minimax
+  base_url: https://api.minimax.io/anthropic
+  api_key: ''
+  api_mode: anthropic_messages
 plugins:
   enabled: []
 known_plugin_toolsets:
   cli:
-    - spotify
+  - spotify
   telegram:
-    - spotify
+  - spotify
 
 # ── Fallback Model ────────────────────────────────────────────────────
 # Automatic provider failover when primary is unavailable.

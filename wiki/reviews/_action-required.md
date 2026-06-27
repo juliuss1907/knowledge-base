@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-27 00:21
+**Last updated:** 2026-06-27 23:09
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-26 đã được approve: Output (23:01), Format (23:15), Hygiene (23:30).
 
@@ -18,6 +18,7 @@
 - ✅ Hygiene Inspector — 2026-06-26 (23:30): **APPROVED** (39 findings total: 9 ERROR, 11 WARNING, 19 INFO; 20 issues expanded due daily cap)
 - ✅ Format Validator — 2026-06-26 (23:15): **APPROVED** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-26 (23:01): **APPROVED** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
+- 🆕 Output Validator — 2026-06-27 (23:09): **PENDING** (1 issue: 0 ERROR, 0 WARNING, 1 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-26 (07:01): **APPROVED** (1 actionable issue: 1 ERROR, 0 WARNING, 0 INFO)
@@ -41,6 +42,30 @@
 ---
 
 ## Pending Review
+
+### 🆕 Output Validation — 2026-06-27 (23:09)
+
+**File:** [2026-06-27_output-report.md](2026-06-27_output-report.md)
+**Status:** pending
+**Created:** 2026-06-27 23:09:26 +07
+**Issues:** 1 (0 ERROR, 0 WARNING, 1 INFO)
+**Files checked:** 464 (110 sources + 354 concepts)
+**New files today:** 24 (7 sources + 17 concepts)
+
+**Summary:**
+- Toàn bộ 24 file mới đạt chất lượng cao: không typo, không truncated, definition ≥2 câu, key ideas 5-7 ý
+- 1 INFO: `timing-over-stock-picking.md` đạt đúng ngưỡng tối thiểu ở Definition (2 câu) và Key ideas (5 ý) — borderline completeness
+- Các systemic pattern (352 one-sentence definitions, 81 few key points) không thay đổi so với hôm qua
+- Cluster interlinking chặt chẽ, không broken wikilink
+
+**Actions:**
+- Review `wiki/reviews/2026-06-27_output-report.md`
+- Nếu approve: có thể mở rộng `timing-over-stock-picking.md` thêm 1 câu Definition và 1 key idea (không bắt buộc)
+- Không cần chạy Fix Agent vì không có ERROR hoặc WARNING
+
+**Report:** `wiki/reviews/2026-06-27_output-report.md`
+
+---
 
 ### ✅ Format Validation — 2026-06-26 (23:15 Rerun)
 

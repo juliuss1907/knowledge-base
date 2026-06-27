@@ -437,3 +437,15 @@
   - WARNING: the same 3 concepts have only 3 key ideas each
   - INFO: `src_map-is-not-territory.md` contains 1 minor Vietnamese phrasing artifact
   - 2 updated sources passed this delta validation without actionable issues
+
+## 2026-06-27 23:09:26 — Output validation
+
+- **Files checked:** 464 (110 sources + 354 concepts)
+- **New files:** 24 (7 sources + 17 concepts)
+- **Issues found:** 1 (0 ERROR, 0 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-06-27_output-report.md
+- **Top issues:**
+  - INFO: `timing-over-stock-picking.md` — borderline completeness (2-sentence definition, 5 key ideas — minimum thresholds)
+  - No typos (ngưởi: 0, double-i: 0), no truncated files, all sections populated
+  - Systemic patterns unchanged: 352 one-sentence definitions, 81 few key points
+  - Overall quality: excellent batch

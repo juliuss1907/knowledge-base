@@ -44,9 +44,9 @@
 
 ### ✅ Format Validation — 2026-06-26 (23:15 Rerun)
 
-**File:** [2026-06-26_format-report.md](2026-06-26_format-report.md)
-**Status:** approved
-**Approved by:** Julius — 2026-06-27 00:20 +07
+**File:** [2026-06-26_format-report.md](archive/2026-06/2026-06-26_format-report.md)
+**Status:** applied
+**Applied by:** fix-agent — 2026-06-27 09:34 +07
 **Created:** 2026-06-26 23:15:57 +07
 **Previous approved run:** 2026-06-26 07:01 +07
 **Issues:** 314 in requested scope (4 ERROR, 310 WARNING, 0 INFO)
@@ -72,9 +72,9 @@
 
 ### ✅ Output Validation — 2026-06-26 (23:01 Update)
 
-**File:** [2026-06-26_output-report.md](2026-06-26_output-report.md)
-**Status:** approved
-**Approved by:** Julius — 2026-06-27 00:21 +07
+**File:** [2026-06-26_output-report.md](archive/2026-06/2026-06-26_output-report.md)
+**Status:** applied
+**Applied by:** fix-agent — 2026-06-27 09:34 +07
 **Created:** 2026-06-26 23:01 +07
 **Previous approved run:** 2026-06-26 07:01 +07
 **Issues:** 3 (0 ERROR, 2 WARNING, 1 INFO)
@@ -98,9 +98,9 @@
 
 ### ✅ Hygiene Inspection — 2026-06-26 (23:30 Full-tree rerun)
 
-**File:** [2026-06-26_hygiene-report.md](2026-06-26_hygiene-report.md)
-**Status:** approved
-**Approved by:** Julius — 2026-06-27 00:20 +07
+**File:** [2026-06-26_hygiene-report.md](archive/2026-06/2026-06-26_hygiene-report.md)
+**Status:** applied
+**Applied by:** fix-agent — 2026-06-27 09:34 +07
 **Created:** 2026-06-26 23:30:59 +07
 **Previous approved run:** 2026-06-26 07:01 +07
 **Issues:** 39 total (9 ERROR, 11 WARNING, 19 INFO)

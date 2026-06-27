@@ -1,8 +1,8 @@
 ---
 type: source
 original: "[[2026-06-25_everything-is-a-win-when-the-goal]]"
-main_tag: #productivity
-sub_tags: [#psychology, #opinion]
+main_tag: productivity
+sub_tags: [psychology, opinion]
 topic: experience-over-achievement
 date_compiled: 2026-06-26
 url: https://yearlyblues.substack.com/p/everything-is-a-win-when-the-goal

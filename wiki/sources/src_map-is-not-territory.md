@@ -21,7 +21,7 @@ author: Farnam Street (Shane Parrish)
 
 ## Summary
 
-The Map Is Not The Territory là một mental model nhắc nhở chúng ta rằng các mô hình mental models về thế giới không giống với chính thế giới đó. Ngay cả những bản đồ tốt nhất cũng không hoàn hảo — vì bản đồ là sự rút gọn của thực tế nó đại diện. Nếu bản đồ đại diện hoàn hảo cho lãnh thổ, nó sẽ không còn là sự rút gọn và vô dụng. Bản đồ cũng chỉ là snapshot từ một thời điểm, đại diện cho điều có thể không còn tồn tại. Jeff Bezos từng chỉ ra rằng khi dữ liệu (bản đồ) và câu chuyện (lãnh thổ) mâu thuẫn, câu chuyện thường đúng — ông đã gọi điện thoại dịch vụ khách hàng Amazon và phát hiện thời gian chờ hơn 10 phút, trong khi số liệu báo cáo dưới 60 giây.
+The Map Is Not The Territory là một mental model nhắc nhở chúng ta rằng các mô hình tinh thần về thế giới không giống với chính thế giới đó. Ngay cả những bản đồ tốt nhất cũng không hoàn hảo — vì bản đồ là sự rút gọn của thực tế nó đại diện. Nếu bản đồ đại diện hoàn hảo cho lãnh thổ, nó sẽ không còn là sự rút gọn và vô dụng. Bản đồ cũng chỉ là snapshot từ một thời điểm, đại diện cho điều có thể không còn tồn tại. Jeff Bezos từng chỉ ra rằng khi dữ liệu (bản đồ) và câu chuyện (lãnh thổ) mâu thuẫn, câu chuyện thường đúng — ông đã gọi điện thoại dịch vụ khách hàng Amazon và phát hiện thời gian chờ hơn 10 phút, trong khi số liệu báo cáo dưới 60 giây.
 
 ## Key points
 

@@ -18,3 +18,22 @@
 ## 2026-06-26 08:04 — Ingested
 - File: raw/articles/2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md
 - Source: https://riansweetdoris.substack.com/p/give-me-14-minutes-and-ill-destroy
+
+## 2026-06-27 09:34 — Applied fixes from 3 Hermes reports (2026-06-26 batch)
+
+**Reports applied:**
+- Format Validator — 2026-06-26 (23:15): 4 ERROR (YAML frontmatter #tags), 310 WARNING (broken wikilinks - deprioritized)
+- Output Validator — 2026-06-26 (23:01): 2 WARNING + 1 INFO (concept depth + phrasing)
+- Hygiene Inspector — 2026-06-26 (23:30): 9 ERROR + 11 WARNING + 19 INFO
+
+**Fixes applied:**
+- Format: Removed `#` prefix from tags in 4 files (experience-over-achievement batch)
+- Output: Expanded definitions (1→3 sentences) and key ideas (3→7 bullets) for 3 concepts; Fixed phrasing in src_map-is-not-territory.md
+- Hygiene: Deleted memory/ and state/ root folders; Deleted _approval-log.md; Removed 2 backup subfolders + .gitkeep + 10 .bak files from wiki/drafts/; Renamed 4 raw/papers/ to correct naming pattern
+- Archived 3 reports to archive/2026-06/; Archived 28 old May reports to archive/2026-05/
+- Julius decision: xóa hết (memory, state, _approval-log)
+- Julius decision: tăng model context lên 1M/256K + 32K output
+
+**Files modified:** 7 (3 concepts expanded, 1 source phrasing fix, 4 papers renamed)
+**Files deleted:** 15 (2 root folders, 1 approval log, 2 draft subfolders, .gitkeep, 10 .bak)
+**Reports archived:** 31 (3 Jun + 28 May)

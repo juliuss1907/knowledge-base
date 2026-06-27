@@ -137,6 +137,8 @@ Older reports and archived files may still contain literal `pending` in historic
 
    **⚠️ PITFALL — Complex updates:** When approving many reports at once (6+), `_action-required.md` requires changes to the Summary Status list, the Pending Reports section, AND the Applied Reports footer. Multiple `patch` calls risk fuzzy matching false positives (documented in output-validator's Production Lessons). **Prefer `write_file` with full reconstructed content** when 3+ sections need changes. Re-read the file fully first, reconstruct with all changes applied, then write once. This is safer than patching individual sections.
 
+   **⚠️ PITFALL — Multi-round approvals shift the file:** When Julius approves reports in multiple rounds (e.g., "approve format" then "approve output" 2 minutes later), the file has already been modified by round 1's patches. Round 2's old_string targets likely no longer match. **Always re-read `_action-required.md` before starting each approval round.** Do not rely on the in-memory content from a read that preceded another set of edits.
+
 4. **Do NOT archive reports yet** — Fix Agent archives after applying fixes
 
 ### Approval vs Applied

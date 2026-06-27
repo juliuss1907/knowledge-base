@@ -5,6 +5,40 @@
 
 ---
 
+## Entry: 2026-06-27 00:20 — Julius approves Format + Hygiene + Output
+
+**Approved at:** 2026-06-27 00:20–00:21 +07
+**Approved by:** Julius
+**Scope:** Format Validator (23:15) + Hygiene Inspector (23:30) + Output Validator (23:01) — tất cả 3 báo cáo 2026-06-26
+
+### ✅ Apply — Output Validator (0 ERROR, 2 WARNING, 1 INFO)
+
+- Report: `wiki/reviews/2026-06-26_output-report.md`
+- 3 new concepts (`experience-over-achievement`, `performative-existence`, `presence`) dùng Definition 1 câu + chỉ có 3 key ideas
+- 1 phrasing issue: `src_map-is-not-territory.md` có artifact "các mô hình mental models"
+- **Action for Fix Agent:** Mở rộng 3 concept mới, cleanup phrasing issue trong source
+
+### ✅ Apply — Format Validator (4 ERROR, 310 WARNING)
+
+- Report: `wiki/reviews/2026-06-26_format-report.md`
+- Requested scope: `wiki/concepts/` + `wiki/sources/` (436 files)
+- **ERROR (4):** YAML frontmatter parse failures trong batch `everything-is-a-win-when-the-goal` (4 files dùng hashtag-style tags thay vì YAML list format)
+- **WARNING (310):** Broken wikilinks / forward references — backlog systemic, không cần Fix Agent xử lý từng cái
+- **Delta:** Improved từ 322 → 314 (-8 issues). 8 code-block ERROR + 2 frontmatter warnings từ morning run đã resolved.
+- **Action for Fix Agent:** Sửa 4 YAML parse failures trong `experience-over-achievement`, `performative-existence`, `presence`, `src_everything-is-a-win-when-the-goal`. Không cần chase 310 broken wikilink warnings.
+
+### ✅ Apply — Hygiene Inspector (9 ERROR, 11 WARNING, 19 INFO)
+
+- Report: `wiki/reviews/2026-06-26_hygiene-report.md`
+- Full-tree scan: 920 paths checked
+- **ERROR (9):** Root drift (`memory/`, `state/`), review-zone drift (`_approval-log.md`), naming violations trong `raw/papers/` (4 files), draft backup subfolders (2)
+- **WARNING (11):** `.bak` temporary files trong `wiki/drafts/` (10 files), naming inconsistency
+- **INFO (19):** Old review reports >30 ngày cần archive
+- **Action for Fix Agent:** Cleanup root drift (xóa `memory/`, `state/` nếu empty), cleanup draft `.bak` files, sửa naming `raw/papers/`. Julius cần quyết định spec hay workflow sẽ đổi cho `_approval-log.md`.
+- **Spec decision needed:** `wiki/reviews/_approval-log.md` — Julius cần chọn: whitelist vào `folder-structure.md` hoặc di chuyển artifact này ra khỏi `wiki/reviews/`.
+
+---
+
 ## Entry: 2026-06-26 23:15 — Format Validator cron rerun
 
 **Created at:** 2026-06-26 23:15:57 +07

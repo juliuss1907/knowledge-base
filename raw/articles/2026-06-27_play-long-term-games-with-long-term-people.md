@@ -4,7 +4,9 @@ title: Play long-term games with long-term people
 url: https://navalsarchive.substack.com/p/play-long-term-games-with-long-term
 author: Naval Ravikant
 date_ingested: 2026-06-27
-status: unprocessed
+status: processed
+compiled_at: 2026-06-27
+compiled_to: "[[src_play-long-term-games-with-long-term-people]]"
 source: navalsarchive.substack.com
 ---
 

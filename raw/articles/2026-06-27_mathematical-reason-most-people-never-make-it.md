@@ -4,7 +4,9 @@ title: The Mathematical Reason Most People Never "Make It"
 url: https://kaguura.substack.com/p/the-mathematical-reason-most-people
 author: kaguura
 date_ingested: 2026-06-27
-status: unprocessed
+status: processed
+compiled_at: 2026-06-27
+compiled_to: "[[src_mathematical-reason-most-people-never-make-it]]"
 source: kaguura.substack.com
 ---
 

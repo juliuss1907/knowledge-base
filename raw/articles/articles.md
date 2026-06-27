@@ -24,7 +24,7 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Stats
 
 - Total: 84 files
-- By status: 82 processed, 2 unprocessed
+- By status: 84 processed, 0 unprocessed
 - By date: 12 this week, 74 this month
 - Last updated: 2026-06-27
 

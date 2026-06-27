@@ -4,7 +4,9 @@ title: Personal MBA Generator — Claude AI Skill
 url: https://github.com/aiskilloftheweek/claude-ai-skill-of-the-week/blob/main/skills/003-personal-mba-generator/SKILL.md
 author: aiskilloftheweek
 date_ingested: 2026-06-27
-status: unprocessed
+status: processed
+compiled_at: 2026-06-27
+compiled_to: "[[src_personal-mba-generator-skill]]"
 source: github.com
 ---
 

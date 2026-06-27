@@ -2262,3 +2262,29 @@
   - [INVALID TAG] wiki/sources/src_why-we-complicate-life-productive-peter.md: sub_tag=opinion
   - [INVALID TAG] wiki/sources/src_will-ai-replace-systems-thinking.md: sub_tag=opinion
   - [INVALID TAG] wiki/sources/src_will-ai-replace-systems-thinking.md: sub_tag=research
+
+## 2026-06-27 21:21 — Compiled 4 files (manual run)
+
+**Files compiled (articles):**
+- Raw: `raw/articles/2026-06-27_mathematical-reason-most-people-never-make-it.md`
+  - Source: `src_mathematical-reason-most-people-never-make-it.md`
+  - Concepts: prices-law, power-law-distribution, explore-exploit-tradeoff
+  - Tags: main=productivity, sub=[psychology, opinion], topic=prices-law
+
+- Raw: `raw/articles/2026-06-27_play-long-term-games-with-long-term-people.md`
+  - Source: `src_play-long-term-games-with-long-term-people.md`
+  - Concepts: long-term-thinking, compounding-relationships
+  - Tags: main=productivity, sub=[psychology, opinion], topic=long-term-thinking
+
+**Files compiled (repos):**
+- Raw: `raw/repos/2026-06-27_sop-writer-skill.md`
+  - Source: `src_sop-writer-skill.md`
+  - Concept: standard-operating-procedure
+  - Tags: main=productivity, sub=[tools, automation], topic=sop-writer
+
+- Raw: `raw/repos/2026-06-27_personal-mba-generator-skill.md`
+  - Source: `src_personal-mba-generator-skill.md`
+  - Concept: skill-acquisition-framework
+  - Tags: main=productivity, sub=[tools, psychology], topic=skill-acquisition
+
+**Stats:** 4 source notes, 7 concept files, 0 tag proposals, raw backlog = 0

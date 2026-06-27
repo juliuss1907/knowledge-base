@@ -4,7 +4,9 @@ title: SOP Writer — Claude AI Skill
 url: https://github.com/aiskilloftheweek/claude-ai-skill-of-the-week/blob/main/skills/008-sop-writer/SKILL.md
 author: aiskilloftheweek
 date_ingested: 2026-06-27
-status: unprocessed
+status: processed
+compiled_at: 2026-06-27
+compiled_to: "[[src_sop-writer-skill]]"
 source: github.com
 ---
 

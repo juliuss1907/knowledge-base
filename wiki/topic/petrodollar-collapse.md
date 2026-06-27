@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `petrodollar-collapse`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -13,4 +13,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_petrodollar-system-analysis]] — main: #economic, sub: [#research, #opinion]
+- [[petrodollar-system-analysis]] — main: #economic, sub: [#research, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `petrodollar-collapse`:

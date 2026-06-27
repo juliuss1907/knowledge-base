@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `generative-ai-search-optimization`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -11,4 +11,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_generative-ai-search-optimization]] — main: #ai, sub: [#research, #tools]
+- [[generative-ai-search-optimization]] — main: #ai, sub: [#research, #tools]
+
+## Related topics
+
+Topics that share concepts/sources with `generative-ai-search-optimization`:

@@ -19,6 +19,12 @@ last_updated: 2026-06-22
 Index of all tags used in the knowledge base, organized by Pool A (main-tags) and Pool B (sub-tags).
 
 ## Stats
+
+- Total tags: 9
+- Main tags: 9
+- Sub tags: 0
+- Most used: #productivity (173), #ai (132), #economic (81)
+- Last updated: 2026-06-27
 ## Items
 
 ### Main Tags (Pool A)

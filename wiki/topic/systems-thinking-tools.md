@@ -2,18 +2,22 @@
 
 Auto-generated index of all content with topic `systems-thinking-tools`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
 ## Concepts (5)
 
-- [[stakeholder-mapping]] — main: #productivity, sub: [#tools, #research, #tutorial]
-- [[problem-statement-redesign]] — main: #productivity, sub: [#tools, #research, #tutorial]
-- [[iceberg-model]] — main: #productivity, sub: [#tools, #research, #tutorial]
 - [[causal-loop-diagram]] — main: #productivity, sub: [#tools, #research, #tutorial]
+- [[iceberg-model]] — main: #productivity, sub: [#tools, #research, #tutorial]
+- [[problem-statement-redesign]] — main: #productivity, sub: [#tools, #research, #tutorial]
+- [[stakeholder-mapping]] — main: #productivity, sub: [#tools, #research, #tutorial]
 - [[systems-thinking]] — main: #productivity, sub: [#tools, #research, #tutorial]
 
 ## Sources (1)
 
-- [[src_systems-thinking-tools-deepdive]] — main: #productivity, sub: [#tools, #research, #tutorial]
+- [[systems-thinking-tools-deepdive]] — main: #productivity, sub: [#tools, #research, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `systems-thinking-tools`:

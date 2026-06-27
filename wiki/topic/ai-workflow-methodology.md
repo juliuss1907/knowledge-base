@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `ai-workflow-methodology`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -14,4 +14,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_dan-koe-workflow-analysis-markus]] — main: #productivity, sub: [#tutorial, #ai, #automation]
+- [[dan-koe-workflow-analysis-markus]] — main: #productivity, sub: [#tutorial, #ai, #automation]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-workflow-methodology`:

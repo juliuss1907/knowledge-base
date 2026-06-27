@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `job-evaluation-framework`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -12,4 +12,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_markus-job-scoring-framework]] — main: #productivity, sub: [#opinion]
+- [[markus-job-scoring-framework]] — main: #productivity, sub: [#opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `job-evaluation-framework`:

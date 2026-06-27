@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `code-as-agent-harness`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -14,4 +14,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding]
+- [[code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding]
+
+## Related topics
+
+Topics that share concepts/sources with `code-as-agent-harness`:

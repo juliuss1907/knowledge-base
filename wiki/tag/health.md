@@ -5,7 +5,7 @@ scope: tag
 parent: [[tag]]
 tag: health
 auto_generated: true
-last_updated: 2026-06-23
+last_updated: 2026-06-27
 ---
 
 # Tag: #health
@@ -19,10 +19,11 @@ last_updated: 2026-06-23
 - Total files: 12
 - Sources: 2
 - Concepts: 10
-- Last updated: 2026-06-23
+- Last updated: 2026-06-27
 
 ## Files with this tag
 
+- [[6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source)
 - [[brain-rot]] — Brain Rot (concept)
 - [[circadian-rhythm]] — Circadian Rhythm (concept)
 - [[cognitive-load-theory]] — Cognitive Load Theory (concept)
@@ -31,15 +32,11 @@ last_updated: 2026-06-23
 - [[glymphatic-system]] — Glymphatic System (concept)
 - [[hippocampal-replay]] — Hippocampal Replay (concept)
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
+- [[japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
 - [[meaning-through-work]] — Meaning Through Work (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
-- [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source)
-- [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
 
 ## Co-occurring tags
 
-- [[research]] — 7 co-occurrences
 - [[productivity]] — 7 co-occurrences
-- [[psychology]] — 5 co-occurrences
-- [[tutorial]] — 4 co-occurrences
 - [[ai]] — 2 co-occurrences

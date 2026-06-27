@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `loop-native-factory`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -11,4 +11,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_loop-native-factory]] — main: #ai, sub: [#tools, #vibecode, #research]
+- [[loop-native-factory]] — main: #ai, sub: [#tools, #vibecode, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `loop-native-factory`:

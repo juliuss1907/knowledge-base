@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `self-discovery-serendipity`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -14,4 +14,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_this-will-help-you-figure-out-what-you-want]] — main: #productivity, sub: [#psychology, #opinion]
+- [[this-will-help-you-figure-out-what-you-want]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `self-discovery-serendipity`:

@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `ai-first-business`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -14,4 +14,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_how-average-people-will-get-rich-with-ai]] — main: #economic, sub: [#tutorial, #ai, #tools]
+- [[how-average-people-will-get-rich-with-ai]] — main: #economic, sub: [#tutorial, #ai, #tools]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-first-business`:

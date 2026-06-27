@@ -2,17 +2,21 @@
 
 Auto-generated index of all content with topic `evolutionary-mismatch-modern-life`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
 ## Concepts (4)
 
-- [[hunter-gatherer-lifestyle]] — main: #productivity, sub: [#research, #health, #psychology]
 - [[default-mode-network]] — main: #ai, sub: [#research, #health]
-- [[evolutionary-mismatch]] — main: #productivity, sub: [#research, #opinion]
 - [[dunbar-number]] — main: #productivity, sub: [#research, #psychology]
+- [[evolutionary-mismatch]] — main: #productivity, sub: [#research, #opinion]
+- [[hunter-gatherer-lifestyle]] — main: #productivity, sub: [#research, #health, #psychology]
 
 ## Sources (1)
 
-- [[src_were-not-supposed-to-live-like-this]] — main: #productivity, sub: [#opinion, #research]
+- [[were-not-supposed-to-live-like-this]] — main: #productivity, sub: [#opinion, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `evolutionary-mismatch-modern-life`:

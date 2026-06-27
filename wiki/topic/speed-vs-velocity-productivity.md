@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `speed-vs-velocity-productivity`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -13,4 +13,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_speed-velocity]] — main: #productivity, sub: [#automation, #tutorial]
+- [[speed-velocity]] — main: #productivity, sub: [#automation, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `speed-vs-velocity-productivity`:

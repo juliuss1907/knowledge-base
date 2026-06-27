@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `ai-coding-context-handoff`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -11,9 +11,13 @@ Last updated: 2026-06-24 21:32:53
 - [[compact-vs-handoff]] — main: #ai, sub: [#tools, #automation]
 - [[context-window-management]] — main: #ai, sub: [#tools, #automation]
 - [[cross-agent-workflow]] — main: #ai, sub: [#tools, #automation]
-- [[session-separation]] — main: #ai, sub: [#tools, #automation]
 - [[handoff-skill]] — main: #ai, sub: [#tools, #automation, #coding]
+- [[session-separation]] — main: #ai, sub: [#tools, #automation]
 
 ## Sources (1)
 
-- [[src_handoff-skill-context-window-management]] — main: #ai, sub: [#tools, #automation, #coding]
+- [[handoff-skill-context-window-management]] — main: #ai, sub: [#tools, #automation, #coding]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-coding-context-handoff`:

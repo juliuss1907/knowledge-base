@@ -2,7 +2,7 @@
 
 Auto-generated index of all content with topic `ai-reflexivity-2026`.
 
-Last updated: 2026-06-24 21:32:53
+Last updated: 2026-06-27 21:05:03
 
 ---
 
@@ -12,4 +12,8 @@ Last updated: 2026-06-24 21:32:53
 
 ## Sources (1)
 
-- [[src_ai-reflexivity-loop-is-same]] — main: #economic, sub: [#opinion, #tools]
+- [[ai-reflexivity-loop-is-same]] — main: #economic, sub: [#opinion, #tools]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-reflexivity-2026`:

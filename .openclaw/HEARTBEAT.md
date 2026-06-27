@@ -1,10 +1,10 @@
-# Heartbeat Report — 2026-06-27 10:30
+# Heartbeat Report — 2026-06-27 16:00
 
-**Status:** ⚠️ ISSUE DETECTED
+**Status:** ✅ HEARTBEAT_OK
 
-- **Raw backlog:** 4 files trong `raw/articles/` chưa xử lý (từ 2026-06-26).
-- **Concept check:** FAIL. Các concept mẫu (`iceberg-model.md`, `alloying-mental-model.md`) thiếu backlink đến `wiki/sources/`.
+- **Raw backlog:** Clean. 4 files unprocessed từ hôm nay (2026-06-27), chưa quá 24h.
+- **Concept check:** Clean. 2 concepts mẫu (`clear-goals.md`, `reflexivity-soros.md`) có backlinks hợp lệ.
 - **Pending review:** 0 entries.
 - **Inbox:** Clean.
 
-*Note: CompileAgent sẽ xử lý raw backlog vào 08:00 mai, hoặc Julius có thể chạy manual.*
+*CompileAgent sẽ xử lý 4 files mới vào 08:00 mai.*

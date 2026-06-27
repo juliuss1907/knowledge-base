@@ -1,8 +1,7 @@
 model:
-  default: MiniMax-M3[1m]
-  provider: custom
+  default: deepseek-v4-pro[1m]
+  provider: custom:api.ai-box.vn
   base_url: https://api.ai-box.vn/v1
-  api_key: sk-aU9FLWGafr7njN3UzOiXonV2i1ANJ2GjpdT2oH4hbnPiqYJi
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}

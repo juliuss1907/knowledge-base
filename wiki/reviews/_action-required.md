@@ -4,19 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-26 23:30
+**Last updated:** 2026-06-27 00:20
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 1
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
-**Scope:** 3 pending reports — Hygiene Inspector full-tree rerun at 2026-06-26 23:30, Format Validator rerun at 2026-06-26 23:15, và Output Validator update at 2026-06-26 23:01
+**Scope:** 1 pending report — Output Validator update at 2026-06-26 23:01. Format (23:15) và Hygiene (23:30) đã được approve 2026-06-27.
 
 **Status:**
-- ⏳ Hygiene Inspector — 2026-06-26 (23:30): **PENDING** (39 findings total: 9 ERROR, 11 WARNING, 19 INFO; 20 issues expanded due daily cap)
-- ⏳ Format Validator — 2026-06-26 (23:15): **PENDING** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
+- ✅ Hygiene Inspector — 2026-06-26 (23:30): **APPROVED** (39 findings total: 9 ERROR, 11 WARNING, 19 INFO; 20 issues expanded due daily cap)
+- ✅ Format Validator — 2026-06-26 (23:15): **APPROVED** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
 - ⏳ Output Validator — 2026-06-26 (23:01): **PENDING** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
@@ -42,10 +42,11 @@
 
 ## Pending Review
 
-### ⏳ Format Validation — 2026-06-26 (23:15 Rerun)
+### ✅ Format Validation — 2026-06-26 (23:15 Rerun)
 
 **File:** [2026-06-26_format-report.md](2026-06-26_format-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-27 00:20 +07
 **Created:** 2026-06-26 23:15:57 +07
 **Previous approved run:** 2026-06-26 07:01 +07
 **Issues:** 314 in requested scope (4 ERROR, 310 WARNING, 0 INFO)
@@ -94,10 +95,11 @@
 
 ---
 
-### ⏳ Hygiene Inspection — 2026-06-26 (23:30 Full-tree rerun)
+### ✅ Hygiene Inspection — 2026-06-26 (23:30 Full-tree rerun)
 
 **File:** [2026-06-26_hygiene-report.md](2026-06-26_hygiene-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-27 00:20 +07
 **Created:** 2026-06-26 23:30:59 +07
 **Previous approved run:** 2026-06-26 07:01 +07
 **Issues:** 39 total (9 ERROR, 11 WARNING, 19 INFO)

@@ -25,7 +25,7 @@ The Map Is Not The Territory là một mental model nhắc nhở chúng ta rằn
 
 ## Key points
 
-- The Map Is Not The Territory nhắc nhở rằng mô hình mental models không giống với thế giới thực
+- The Map Is Not The Territory nhắc nhở rằng mô hình tinh thần không giống với thế giới thực
 - Ngay cả những bản đồ tốt nhất cũng không hoàn hảo — chúng là sự rút gọn của thực tế
 - Nếu bản đồ đại diện hoàn hảo cho lãnh thổ, nó sẽ không còn là sự rút gọn và trở nên vô dụng
 - Bản đồ là snapshot từ một thời điểm — có thể đại diện cho điều không còn tồn tại

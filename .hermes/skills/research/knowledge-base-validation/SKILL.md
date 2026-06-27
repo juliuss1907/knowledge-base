@@ -150,36 +150,15 @@ Older reports and archived files may still contain literal `pending` in historic
 | ✅ applied | Fix Agent applied fixes | Connor re-validates |
 | ✅ promote | No issues found | Archive report |
 
-## _approval-log.md — Cross-Machine Approval Contract
+## _approval-log.md — DEPRECATED ⚠️
 
-`_approval-log.md` (in `wiki/reviews/`) là ledger riêng biệt với `_action-required.md`. Nó tồn tại vì KB chạy trên 2 máy:
+`_approval-log.md` đã bị Julius xóa intentional (2026-06-27). Cross-machine approval contract không còn cần thiết vì mọi file giờ làm việc trên cùng 1 máy.
 
-- **VPS (nơi Connor chạy validation)** — phát hiện issues, viết report, gửi Telegram cho Julius.
-- **Máy chính (nơi Fix Agent chạy)** — apply fixes sau khi được approve.
+- **KHÔNG tạo lại file này.**
+- **KHÔNG flag `_approval-log.md` là missing trong bất kỳ validator nào.**
+- **KHÔNG ghi entry vào `_approval-log.md` khi Julius approve reports.**
 
-**`_action-required.md`** = dashboard tổng hợp (status ngắn gọn: pending/approved/applied).
-
-**`_approval-log.md`** = structured scope contract cho Fix Agent — ghi lại:
-1. ✅ **Apply** — issues nào được duyệt, kèm file paths
-2. ⏭️ **Excluded** — issues nào bị loại + lý do (ví dụ: "279 broken wikilinks = forward-reference, cần LLM compile không phải sửa cơ học")
-3. ⚠️ **Verify-first** — files cần check đã được fix ở batch trước chưa (ví dụ: 5 Setext header files trùng 100% với batch 14/06 đã applied)
-
-**Tại sao không gộp vào `_action-required.md`:** Vì gộp sẽ mất:
-- Lý do exclude (Fix Agent cần biết tại sao không touch)
-- Verify-first checklist (tránh re-fix files đã OK)
-- Per-file scope table (report gốc có thể 298 issues, nhưng approval chỉ cover 19)
-
-**Workflow khi Julius approve có điều kiện** (ví dụ: "apply tất cả ERROR + WARNING trừ 279 broken wikilinks"):
-1. Connor parse message → tạo entry mới trong `_approval-log.md` với 3 sections: Apply / Excluded / Verify-first
-2. `_action-required.md` cross-reference: `Scope: _approval-log.md entry YYYY-MM-DD HH:MM`
-3. Fix Agent trên máy chính pull file qua Git sync, đọc scope, apply đúng phần được duyệt
-4. Sau khi apply, Fix Agent update report status → `applied`, archive vào `wiki/reviews/archive/YYYY-MM/`
-
-**Rule cho Connor:** Khi Julius gửi message approve (kể cả điều kiện đơn giản như "approve all"), PHẢI ghi entry vào `_approval-log.md` ngay lập tức, không chỉ update `_action-required.md`. Nếu chỉ update dashboard mà quên ledger, Fix Agent sẽ không có scope ground-truth.
-
-**Template:** See `references/_approval-log-template.md` for the entry structure. Each entry has 3 sections: ✅ Apply, ⏭️ Excluded, ⚠️ Verify-first.
-
-**Khi Julius hỏi "tại sao cần file này":** Đây là câu hỏi architectural. Trả lời: ledger là hợp đồng phạm vi giữa 2 process, không phải output validation. Report là khách quan, approval log là chủ quan (quyết định của Julius) + exclusions có lý do.
+Fix Agent giờ chạy cùng máy, đọc trực tiếp `_action-required.md` và các report files. Không cần ledger riêng.
 
 ## _action-required.md Update Pattern
 
@@ -229,10 +208,9 @@ Checklist tối thiểu:
 
 Nguyên tắc: nếu task chỉ là cleanup lịch sử/trạng thái dashboard, **không tự ý normalize các report files gốc** trừ khi Julius yêu cầu rõ. Dashboard cleanup và report-status migration là hai scope khác nhau.
 
-## _approval-log.md — Cross-Machine Approval Contract
+## _approval-log.md — DEPRECATED ⚠️
 
-1. **Verify working directory**: `cd ~/knowledge-base` — NOT the hermes-agent repo. Check `ls wiki/concepts/ | head -3` to confirm.
-2. **Read TAGS.md** to get current Pool B (not hardcoded from skill memory).
+File này đã bị Julius xóa (2026-06-27). KHÔNG tạo lại. Xem section "Approval vs Applied" ở trên để biết chi tiết.
 3. **Run all 3 validators.** Use `terminal` with the reusable scripts directly — do NOT use `execute_code` for validation runs. `execute_code` may be blocked even in manual mode. Each validator's script is invoked via `terminal`:
    - Format: `cd ~/knowledge-base && python3 .hermes/skills/format-validator/scripts/validate.py 2>&1`
    - Output quick-scan: `cd ~/knowledge-base && bash .hermes/skills/output-validator/scripts/quick-scan.sh 2>&1`

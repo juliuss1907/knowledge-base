@@ -128,6 +128,13 @@ Clear summary to Julius:
 | `original` wikilink unfixed | Compile Agent wraps all paths | Fix in compile-agent SKILL.md |
 | Individual typos unfixed | Kara missed specific file | Manual fix by Julius or re-run |
 
+## Processing recheck reports
+
+When Julius sends a pre-existing recheck report (table format: Issue | Trước | Sau | Trạng thái), load `references/process-recheck-report.md` for the full workflow. Key rules:
+- ✅ Đã fix → confirm, no action
+- ❌ Chưa fix → fix directly if small (typo, phrasing)
+- ⚠️ Cần check (file disappeared) → check git history, ask Julius
+
 ## Multi-report verification
 
 When verifying fixes across multiple reports (Output + Format + Hygiene) simultaneously, use `execute_code` to batch all checks. Each validator type requires different methods:

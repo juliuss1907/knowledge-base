@@ -1,12 +1,14 @@
-# Heartbeat Report — 2026-06-27 23:30
+# Heartbeat Report — 2026-06-28 00:00
 
 **Status:** ⚠️ PENDING
 
 - **Inbox:** Clean.
-- **Raw backlog:** Clean. 4 files mới hôm nay (`raw/repos/2`, `raw/articles/2`), chưa quá 24h.
-- **Concept check:** Clean. 2 concepts mẫu (`ai-white-collar-automation.md`, `systems-thinking-training-roadmap.md`) — backlinks hợp lệ.
-- **Pending review:** 2 entries:
-  - 🆕 Output Validator — 2026-06-27 (23:09): 1 issue (0 ERROR, 0 WARNING, 1 INFO)
-  - 🆕 Format Validator — 2026-06-27 (23:16): 339 issues (24 ERROR, 315 WARNING, 0 INFO)
+- **Raw backlog:** Clean. Không có file `status: unprocessed` nào trong `raw/`.
+- **Concept check:** Clean. 2 concepts mẫu (`nice-syndrome.md`, `feedback-loop.md`) — backlinks hợp lệ, `## Sources` section khớp với frontmatter.
+- **Pending review:** 3 entries — tất cả từ 2026-06-27 (23:09–23:30):
+  - 🆕 Output Validator — 2026-06-27 (23:09): 1 INFO
+  - 🆕 Format Validator — 2026-06-27 (23:16): 24 ERROR, 315 WARNING
+  - 🆕 Hygiene Inspector — 2026-06-27 (23:30): 1 ERROR
 
-*Hai báo cáo Hermes chờ Julius review.*
+*3 báo cáo Hermes mới chờ Julius review.*
+*Note: `wiki/reviews/HEARTBEAT.md` tiếp tục bị leak — recurring issue, cần process-level fix.*

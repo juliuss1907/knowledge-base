@@ -23,13 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 83 files
-- By status: 82 processed, 1 unprocessed
-- By date: 11 this week, 73 this month
+- Total: 84 files
+- By status: 82 processed, 2 unprocessed
+- By date: 12 this week, 74 this month
 - Last updated: 2026-06-27
 
 ## Items
 
+- [[2026-06-27_play-long-term-games-with-long-term-people]] — Play long-term games with long-term people by Naval Ravikant (unprocessed)
 - [[2026-06-27_mathematical-reason-most-people-never-make-it]] — The Mathematical Reason Most People Never Make It by kaguura (unprocessed)
 
 - [[2026-06-22_this-will-help-you-figure-out-what-you-want]] — This will help you figure out what you want by Crystal Clear (unprocessed)

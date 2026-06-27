@@ -1,24 +1,33 @@
+---
+type: index
+scope: topic
+topic: post-systems-thinking
+auto_generated: true
+last_updated: 2026-06-27
+---
+
 # Topic: post-systems-thinking
 
 Auto-generated index of all content with topic `post-systems-thinking`.
 
-Last updated: 2026-06-27 21:05:03
+Last updated: 2026-06-27 22:19:04
 
 ---
 
 ## Concepts (6)
 
-- [[ashbys-law]] — main: #system, sub: [#research, #opinion]
-- [[complex-adaptive-systems]] — main: #system, sub: [#research, #opinion]
-- [[complicated-vs-complex]] — main: #system, sub: [#research, #opinion]
-- [[cynefin-framework]] — main: #system, sub: [#research, #opinion]
-- [[second-order-effects]] — main: #system, sub: [#research, #opinion]
-- [[systems-thinking-limitations]] — main: #system, sub: [#research, #opinion]
+- [[ashbys-law]] — main: #system, sub: [#opinion, #research]
+- [[complex-adaptive-systems]] — main: #system, sub: [#opinion, #research]
+- [[complicated-vs-complex]] — main: #system, sub: [#opinion, #research]
+- [[cynefin-framework]] — main: #system, sub: [#opinion, #research]
+- [[second-order-effects]] — main: #system, sub: [#opinion, #research]
+- [[systems-thinking-limitations]] — main: #system, sub: [#opinion, #research]
 
 ## Sources (1)
 
-- [[what-comes-after-systems-thinking]] — main: #system, sub: [#research, #opinion]
+- [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#opinion, #research]
 
 ## Related topics
 
 Topics that share concepts/sources with `post-systems-thinking`:
+

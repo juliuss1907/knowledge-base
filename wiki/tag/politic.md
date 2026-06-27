@@ -1,8 +1,6 @@
 ---
 type: index
-level: 3
 scope: tag
-parent: [[tag]]
 tag: politic
 auto_generated: true
 last_updated: 2026-06-27
@@ -10,40 +8,46 @@ last_updated: 2026-06-27
 
 # Tag: #politic
 
-## Parent
+Auto-generated index of all content tagged with `#politic`.
 
-- [[tag]]
+Last updated: 2026-06-27 22:19:04
 
-## Stats
+---
 
-- Total files: 21
-- Sources: 4
-- Concepts: 17
-- Last updated: 2026-06-27
+## Concepts (17)
 
-## Files with this tag
+- [[american-security-guarantee]] — main: #politic, sub: [#opinion, #research], topic: uae-opec-exit-geopolitics
+- [[chinese-culture-confucianism]] — main: #politic, sub: [#geopolitics], topic: tribute-system-world-order
+- [[counterinsurgency]] — main: #politic, sub: [#hack, #research], topic: counterinsurgency-warfare
+- [[four-layer-framework]] — main: #politic, sub: [#opinion, #research], topic: structural-competition
+- [[hearts-and-minds]] — main: #politic, sub: [#research], topic: counterinsurgency-warfare
+- [[hundred-years-humiliation]] — main: #politic, sub: [#geopolitics], topic: tribute-system-world-order
+- [[industrial-scale]] — main: #politic, sub: [#opinion, #research], topic: structural-competition
+- [[institutional-capacity]] — main: #politic, sub: [#opinion, #research], topic: structural-competition
+- [[kissinger-deal-1974]] — main: #politic, sub: [#opinion, #research], topic: us-saudi-relations
+- [[mutually-assured-destruction]] — main: #politic, sub: [#hack, #research], topic: nuclear-deterrence
+- [[oil-spot-strategy]] — main: #politic, sub: [#research], topic: counterinsurgency-warfare
+- [[saudi-pakistan-defense-agreement]] — main: #politic, sub: [#news, #opinion], topic: saudi-defense-diversification
+- [[strait-of-hormuz-geopolitics]] — main: #politic, sub: [#opinion, #research], topic: uae-opec-exit-geopolitics
+- [[structural-competition]] — main: #politic, sub: [#opinion, #research], topic: structural-competition
+- [[tribute-system]] — main: #politic, sub: [#geopolitics], topic: tribute-system-world-order
+- [[uae-saudi-rivalry]] — main: #politic, sub: [#opinion, #research], topic: uae-opec-exit-geopolitics
+- [[us-security-umbrella]] — main: #politic, sub: [#opinion, #research], topic: us-saudi-relations
 
-- [[american-security-guarantee]] — American Security Guarantee (concept)
-- [[chinese-culture-confucianism]] — Chinese Culture Confucianism (concept)
-- [[counterinsurgency]] — Counterinsurgency (concept)
-- [[counterinsurgency-fighting-back]] — Counterinsurgency Fighting Back (source)
-- [[four-layer-framework]] — Four Layer Framework (concept)
-- [[hearts-and-minds]] — Hearts And Minds (concept)
-- [[hundred-years-humiliation]] — Hundred Years Humiliation (concept)
-- [[industrial-scale]] — Industrial Scale (concept)
-- [[institutional-capacity]] — Institutional Capacity (concept)
-- [[kissinger-deal-1974]] — Kissinger Deal 1974 (concept)
-- [[mutually-assured-destruction]] — Mutually Assured Destruction (concept)
-- [[mutually-assured-destruction]] — Mutually Assured Destruction (source)
-- [[oil-spot-strategy]] — Oil Spot Strategy (concept)
-- [[saudi-pakistan-defense-agreement]] — Saudi Pakistan Defense Agreement (concept)
-- [[strait-of-hormuz-geopolitics]] — Strait Of Hormuz Geopolitics (concept)
-- [[structural-competition]] — Structural Competition (concept)
-- [[tribute-system]] — Tribute System (concept)
-- [[tribute-system-new-world-order]] — Tribute System New World Order (source)
-- [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
-- [[us-security-umbrella]] — Us Security Umbrella (concept)
-- [[why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)
+## Sources (4)
+
+- [[src_counterinsurgency-fighting-back]] — main: #politic, sub: [#hack, #research], topic: counterinsurgency-warfare
+- [[src_mutually-assured-destruction]] — main: #politic, sub: [#hack, #research], topic: nuclear-deterrence
+- [[src_tribute-system-new-world-order]] — main: #politic, sub: [#geopolitics, #opinion], topic: tribute-system-world-order
+- [[src_why-i-write-about-structural-competition]] — main: #politic, sub: [#opinion, #research], topic: structural-competition
 
 ## Co-occurring tags
+
+Tags that frequently appear with `#politic`:
+
+- `#research` (16 files)
+- `#opinion` (12 files)
+- `#hack` (4 files)
+- `#geospolitic` (4 files)
+- `#news` (1 files)
 

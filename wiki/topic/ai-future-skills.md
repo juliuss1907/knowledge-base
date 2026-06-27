@@ -1,8 +1,16 @@
+---
+type: index
+scope: topic
+topic: ai-future-skills
+auto_generated: true
+last_updated: 2026-06-27
+---
+
 # Topic: ai-future-skills
 
 Auto-generated index of all content with topic `ai-future-skills`.
 
-Last updated: 2026-06-27 21:05:03
+Last updated: 2026-06-27 22:19:04
 
 ---
 
@@ -14,8 +22,9 @@ Last updated: 2026-06-27 21:05:03
 
 ## Sources (1)
 
-- [[ai-future-skills]] — main: #ai, sub: [#opinion, #tools]
+- [[src_ai-future-skills]] — main: #ai, sub: [#opinion, #tools]
 
 ## Related topics
 
 Topics that share concepts/sources with `ai-future-skills`:
+

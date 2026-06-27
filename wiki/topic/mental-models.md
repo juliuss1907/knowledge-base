@@ -1,8 +1,16 @@
+---
+type: index
+scope: topic
+topic: mental-models
+auto_generated: true
+last_updated: 2026-06-27
+---
+
 # Topic: mental-models
 
 Auto-generated index of all content with topic `mental-models`.
 
-Last updated: 2026-06-27 21:05:03
+Last updated: 2026-06-27 22:19:04
 
 ---
 
@@ -25,20 +33,21 @@ Last updated: 2026-06-27 21:05:03
 
 ## Sources (13)
 
-- [[circle-of-competence]] — main: #productivity, sub: [#psychology]
-- [[first-principles-thinking]] — main: #productivity, sub: [#psychology, #tutorial]
-- [[fs-blog-mental-models]] — main: #productivity, sub: [#psychology]
-- [[galilean-relativity]] — main: #productivity, sub: [#psychology, #research]
-- [[hanlons-razor]] — main: #productivity, sub: [#psychology, #research]
-- [[inversion]] — main: #productivity, sub: [#psychology]
-- [[map-is-not-territory]] — main: #productivity, sub: [#psychology]
-- [[occams-razor]] — main: #productivity, sub: [#psychology, #research]
-- [[probabilistic-thinking]] — main: #productivity, sub: [#psychology]
-- [[reciprocity]] — main: #productivity, sub: [#psychology, #research]
-- [[second-order-thinking]] — main: #productivity, sub: [#psychology]
-- [[thermodynamics]] — main: #productivity, sub: [#psychology, #research]
-- [[thought-experiment]] — main: #productivity, sub: [#psychology]
+- [[src_circle-of-competence]] — main: #productivity, sub: [#psychology]
+- [[src_first-principles-thinking]] — main: #productivity, sub: [#psychology, #tutorial]
+- [[src_fs-blog-mental-models]] — main: #productivity, sub: [#psychology]
+- [[src_galilean-relativity]] — main: #productivity, sub: [#psychology, #research]
+- [[src_hanlons-razor]] — main: #productivity, sub: [#psychology, #research]
+- [[src_inversion]] — main: #productivity, sub: [#psychology]
+- [[src_map-is-not-territory]] — main: #productivity, sub: [#psychology]
+- [[src_occams-razor]] — main: #productivity, sub: [#psychology, #research]
+- [[src_probabilistic-thinking]] — main: #productivity, sub: [#psychology]
+- [[src_reciprocity]] — main: #productivity, sub: [#psychology, #research]
+- [[src_second-order-thinking]] — main: #productivity, sub: [#psychology]
+- [[src_thermodynamics]] — main: #productivity, sub: [#psychology, #research]
+- [[src_thought-experiment]] — main: #productivity, sub: [#psychology]
 
 ## Related topics
 
 Topics that share concepts/sources with `mental-models`:
+

@@ -1,8 +1,6 @@
 ---
 type: index
-level: 3
 scope: tag
-parent: [[tag]]
 tag: investment
 auto_generated: true
 last_updated: 2026-06-27
@@ -10,25 +8,29 @@ last_updated: 2026-06-27
 
 # Tag: #investment
 
-## Parent
+Auto-generated index of all content tagged with `#investment`.
 
-- [[tag]]
+Last updated: 2026-06-27 22:19:04
 
-## Stats
+---
 
-- Total files: 6
-- Sources: 2
-- Concepts: 4
-- Last updated: 2026-06-27
+## Concepts (4)
 
-## Files with this tag
+- [[diversification-strategy]] — main: #investment, sub: [#research], topic: investment-principles
+- [[five-big-forces]] — main: #investment, sub: [#research], topic: investment-principles
+- [[global-macro-investing]] — main: #investment, sub: [#tutorial], topic: global-macro-investing
+- [[holy-grail-investing]] — main: #investment, sub: [#research], topic: investment-principles
 
-- [[diversification-strategy]] — Diversification Strategy (concept)
-- [[five-big-forces]] — Five Big Forces (concept)
-- [[global-macro-investing]] — Global Macro Investing (concept)
-- [[global-macro-investing]] — Global Macro Investing (source)
-- [[holy-grail-investing]] — Holy Grail Investing (concept)
-- [[investment-principles-dalio]] — Investment Principles Dalio (source)
+## Sources (2)
+
+- [[src_global-macro-investing]] — main: #investment, sub: [#opinion, #tutorial], topic: global-macro-investing
+- [[src_investment-principles-dalio]] — main: #investment, sub: [#opinion, #research], topic: investment-principles
 
 ## Co-occurring tags
+
+Tags that frequently appear with `#investment`:
+
+- `#research` (4 files)
+- `#tutorial` (2 files)
+- `#opinion` (2 files)
 

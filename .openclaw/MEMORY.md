@@ -2288,3 +2288,11 @@
   - Tags: main=productivity, sub=[tools, psychology], topic=skill-acquisition
 
 **Stats:** 4 source notes, 7 concept files, 0 tag proposals, raw backlog = 0
+
+## 2026-06-27 22:18 — Index rebuilt (manual)
+
+- Scanned: 464 files (wiki/concepts/ + wiki/sources/)
+- Tags indexed: 23 (all from TAGS.md with content)
+- Topics indexed: 211
+- Orphans deleted: 0
+

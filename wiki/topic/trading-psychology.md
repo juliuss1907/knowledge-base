@@ -1,8 +1,16 @@
+---
+type: index
+scope: topic
+topic: trading-psychology
+auto_generated: true
+last_updated: 2026-06-27
+---
+
 # Topic: trading-psychology
 
 Auto-generated index of all content with topic `trading-psychology`.
 
-Last updated: 2026-06-27 21:05:03
+Last updated: 2026-06-27 22:19:04
 
 ---
 
@@ -15,12 +23,13 @@ Last updated: 2026-06-27 21:05:03
 - [[know-when-not-to-trade]] — main: #economic, sub: [#psychology]
 - [[outcome-worship-trap]] — main: #economic, sub: [#opinion, #psychology]
 - [[trading-addiction-cycle]] — main: #economic, sub: [#psychology]
-- [[trading-psychology]] — main: #economic, sub: [#psychology, #opinion]
+- [[trading-psychology]] — main: #economic, sub: [#opinion, #psychology]
 
 ## Sources (1)
 
-- [[trading-brain-chemistry-ferb]] — main: #economic, sub: [#opinion, #psychology]
+- [[src_trading-brain-chemistry-ferb]] — main: #economic, sub: [#opinion, #psychology]
 
 ## Related topics
 
 Topics that share concepts/sources with `trading-psychology`:
+

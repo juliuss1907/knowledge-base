@@ -1,8 +1,16 @@
+---
+type: index
+scope: topic
+topic: tribute-system-world-order
+auto_generated: true
+last_updated: 2026-06-27
+---
+
 # Topic: tribute-system-world-order
 
 Auto-generated index of all content with topic `tribute-system-world-order`.
 
-Last updated: 2026-06-27 21:05:03
+Last updated: 2026-06-27 22:19:04
 
 ---
 
@@ -14,8 +22,9 @@ Last updated: 2026-06-27 21:05:03
 
 ## Sources (1)
 
-- [[tribute-system-new-world-order]] — main: #politic, sub: [#geopolitics, #opinion]
+- [[src_tribute-system-new-world-order]] — main: #politic, sub: [#geopolitics, #opinion]
 
 ## Related topics
 
 Topics that share concepts/sources with `tribute-system-world-order`:
+

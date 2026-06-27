@@ -1,8 +1,16 @@
+---
+type: index
+scope: topic
+topic: trading-timing
+auto_generated: true
+last_updated: 2026-06-27
+---
+
 # Topic: trading-timing
 
 Auto-generated index of all content with topic `trading-timing`.
 
-Last updated: 2026-06-27 21:05:03
+Last updated: 2026-06-27 22:19:04
 
 ---
 
@@ -14,8 +22,9 @@ Last updated: 2026-06-27 21:05:03
 
 ## Sources (1)
 
-- [[the-next-generation-of-trading-wont]] — main: #economic, sub: [#opinion]
+- [[src_the-next-generation-of-trading-wont]] — main: #economic, sub: [#opinion]
 
 ## Related topics
 
 Topics that share concepts/sources with `trading-timing`:
+

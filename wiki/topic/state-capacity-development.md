@@ -1,8 +1,16 @@
+---
+type: index
+scope: topic
+topic: state-capacity-development
+auto_generated: true
+last_updated: 2026-06-27
+---
+
 # Topic: state-capacity-development
 
 Auto-generated index of all content with topic `state-capacity-development`.
 
-Last updated: 2026-06-27 21:05:03
+Last updated: 2026-06-27 22:19:04
 
 ---
 
@@ -14,8 +22,9 @@ Last updated: 2026-06-27 21:05:03
 
 ## Sources (1)
 
-- [[why-china-got-rich-and-india-didnt]] — main: #economic, sub: [#geopolitics, #opinion]
+- [[src_why-china-got-rich-and-india-didnt]] — main: #economic, sub: [#geopolitics, #opinion]
 
 ## Related topics
 
 Topics that share concepts/sources with `state-capacity-development`:
+

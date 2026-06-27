@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-05-28
+last_updated: 2026-06-27
 ---
 
 # Articles Index
@@ -18,14 +18,19 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 - [[raw]]
 
-## Stats
+
+
+
 ## Stats
 
-- Total: 80 files
-- By status: 79 processed, 1 unprocessed
-- By date: 10 this week, 73 this month
-- Last updated: 2026-06-26
+- Total: 83 files
+- By status: 82 processed, 1 unprocessed
+- By date: 11 this week, 73 this month
+- Last updated: 2026-06-27
+
 ## Items
+
+- [[2026-06-27_mathematical-reason-most-people-never-make-it]] — The Mathematical Reason Most People Never Make It by kaguura (unprocessed)
 
 - [[2026-06-22_this-will-help-you-figure-out-what-you-want]] — This will help you figure out what you want by Crystal Clear (unprocessed)
 - [[2026-06-20_most-high-income-skills-will-be-irrelevant-in-10-years]] — Most high-income skills will be irrelevant in 10 years (learn these 4 skills instead) by Hussain Ibarra (unprocessed)

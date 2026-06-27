@@ -59,3 +59,10 @@
 **Skipped (duplicate):** `2026-06-26_next-gen-trading-about-timing-not-picking.md` — same URL/author as `the-next-generation-of-trading-wont`, identical content just different YAML format. Left as unprocessed, needs Julius to move/delete.
 
 **Stats:** 3 source notes, 10 concept files, 0 tag proposals
+
+## 2026-06-27 14:01 — Ingested repo
+
+- Raw: `raw/repos/2026-06-27_sop-writer-skill.md`
+- Source: aiskilloftheweek/claude-ai-skill-of-the-week #008
+- URL: https://github.com/aiskilloftheweek/claude-ai-skill-of-the-week/blob/main/skills/008-sop-writer/SKILL.md
+- Type: repo (Claude AI skill definition)

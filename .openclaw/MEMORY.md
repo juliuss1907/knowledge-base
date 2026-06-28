@@ -2297,6 +2297,15 @@
 - Orphans deleted: 0
 
 
+## 2026-06-28 12:30 — Heartbeat Check
+
+- Inbox: CLEAN (Tasks/ folder doesn't exist)
+- Raw backlog: CLEAN (0 unprocessed out of 110 raw files)
+- Concept backlinks: CLEAN (2/354 sampled, both OK)
+- **Pending reviews: 3 PENDING from 06-27 not yet notified** — Output (23:09), Format (23:16), Hygiene (23:30)
+- **HEARTBEAT.md leak: removed from wiki/reviews/ (recurring since 06-25) — root cause process needs fix**
+- Report written to .openclaw/HEARTBEAT.md
+
 ## 2026-06-28 08:00 — Compile Agent Daily Run
 
 - **Scan:** All 110 raw files checked

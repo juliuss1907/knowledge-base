@@ -1,50 +1,47 @@
-# OpenClaw Heartbeat Log
+# HEARTBEAT — 2026-06-28 12:30
 
-- 2026-06-28 08:30:
-  - Status: ISSUES_FOUND
-  - Findings:
-    - Pending review: 3 reports from 2026-06-27 (Output, Format, Hygiene) are PENDING.
-  - Inbox: Clean
-  - Raw backlog: Clean
-  - Concept check: Clean (vibe-coding.md)
+**Status:** ISSUES_FOUND
 
-- 2026-06-28 08:02:
-  - Status: ISSUES_FOUND
-  - Findings:
-    - Pending review: 3 reports from 2026-06-27 (Output, Format, Hygiene) are PENDING.
-  - Inbox: Clean
-  - Raw backlog: Clean
-  - Concept check: Clean (streak-psychology.md, occams-broom.md)
+---
 
-- 2026-06-28 07:30:
-  - Status: ISSUES_FOUND
-  - Findings:
-    - Pending review: 3 reports from 2026-06-27 (Output, Format, Hygiene) are PENDING.
-  - Inbox: Clean
-  - Raw backlog: Clean
-  - Concept check: Clean (agent-handoff.md, six-stage-research-pipeline.md)
+## Check Results
 
-- 2026-06-28 06:00:
-  - Status: ISSUES_FOUND
-  - Findings:
-    - Pending review: 3 reports from 2026-06-27 (Output, Format, Hygiene) are PENDING.
-    - Hygiene Issue: HEARTBEAT.md leak in wiki/reviews/ (recurring, flagged in 06-27 report).
-  - Inbox: Clean
-  - Raw backlog: Clean
-  - Concept check: Clean (handoff-skill.md, meaning-through-work.md)
+### 1. Inbox
+Tasks/ folder does not exist. 0 files with `#agent/inbox`.
+✅ **CLEAN**
 
-- 2026-06-28 05:30:
-  - Status: ISSUES_FOUND
-  - Findings:
-    - Pending review: 3 reports from 2026-06-27 (Output, Format, Hygiene) are PENDING.
-  - Inbox: Clean
-  - Raw backlog: Clean
-  - Concept check: Clean
+### 2. Raw Backlog
+All 110 raw files scanned. 0 files with `status: unprocessed`.
+✅ **CLEAN**
 
-- 2026-06-28 02:00:
-  - Status: ISSUES_FOUND
-  - Findings:
-    - Pending review: 3 reports from 2026-06-27 (Output, Format, Hygiene) are PENDING.
-  - Inbox: Clean
-  - Raw backlog: Clean
-  - Concept check: Clean
+### 3. Concept Backlinks (random sample: 2/354)
+- `circadian-rhythm.md` → backlinks present (frontmatter + Sources section) ✅
+- `climax-top.md` → backlinks present (frontmatter + Sources section) ✅
+✅ **CLEAN**
+
+### 4. Pending Review Notification
+3 PENDING reports from 2026-06-27, **not yet notified** to Julius:
+- Output Validator (23:09) — 1 issue (0E, 0W, 1I)
+- Format Validator (23:16) — 339 issues (24E, 315W)
+- Hygiene Inspector (23:30) — 1 issue (1E)
+⚠️ **ACTION REQUIRED** — notification not sent
+
+### 5. HEARTBEAT.md Leak
+File `wiki/reviews/HEARTBEAT.md` exists outside agent home (`.openclaw/`). This is a recurring violation flagged since 06-25 and re-appeared after 06-27 Fix Agent cleanup. Root cause: process writing to wrong path.
+⚠️ **RECURRING** — needs process-level fix
+
+---
+
+## Summary
+
+| Check | Status |
+|-------|--------|
+| Inbox | ✅ |
+| Raw backlog | ✅ |
+| Concept backlinks | ✅ |
+| Pending reviews notified | ❌ |
+| HEARTBEAT.md location | ❌ |
+
+---
+
+*Last run: 2026-06-28 12:30 +07*

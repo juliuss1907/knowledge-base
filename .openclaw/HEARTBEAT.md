@@ -102,3 +102,59 @@ Không thay đổi. Sample files khác nhưng kết quả giữ nguyên.
 ---
 
 *Last run: 2026-06-28 16:30 +07*
+
+---
+
+# HEARTBEAT — 2026-06-28 17:00
+
+**Status:** ISSUE_FOUND — 3 pending reviews chưa notify.
+
+---
+
+## Check Results
+
+### 1. Inbox
+✅ **CLEAN**
+
+### 2. Raw Backlog
+1 file `status: unprocessed`: `raw/articles/2026-06-28_how-to-live-without-options.md` — ingested hôm nay, <24h.
+✅ **CLEAN** (không backlog)
+
+### 3. Concept Backlinks (random: 2/354)
+- `ai-legal-personhood.md` → `[[src_aaron-wright-ai-agents-legal-body]]` ✅
+- `tribute-system.md` → `[[src_tribute-system-new-world-order]]` ✅
+✅ **CLEAN**
+
+### 4. Pending Review Notification
+3 PENDING từ 2026-06-27, **chưa notify**:
+- Output Validator (23:09) — 1I
+- Format Validator (23:16) — 24E, 315W
+- Hygiene Inspector (23:30) — 1E
+⚠️ **PENDING**
+
+### 5. HEARTBEAT.md Leak
+`wiki/reviews/HEARTBEAT.md` — ABSENT.
+✅ **RESOLVED**
+
+---
+
+## Summary
+
+| Check | Status |
+|-------|--------|
+| Inbox | ✅ |
+| Raw backlog | ✅ |
+| Concept backlinks | ✅ |
+| Pending reviews notified | ❌ |
+| HEARTBEAT.md location | ✅ |
+
+---
+
+## Delta vs 2026-06-28 16:30
+
+Random sample files khác (`ai-legal-personhood.md`, `tribute-system.md` thay vì `power-law.md`, `cynefin-framework.md`) — cả 2 vẫn clean.
+Không có thay đổi nào khác. Toàn bộ chỉ số giữ nguyên.
+
+---
+
+*Last run: 2026-06-28 17:00 +07*

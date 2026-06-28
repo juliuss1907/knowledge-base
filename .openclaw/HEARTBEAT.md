@@ -215,3 +215,117 @@ Không có thay đổi nào khác. 3 pending review vẫn giữ nguyên, chưa n
 ---
 
 *Last run: 2026-06-28 18:30 +07*
+
+---
+
+# HEARTBEAT — 2026-06-28 19:30
+
+**Status:** ISSUE_FOUND — 3 pending reviews chưa notify.
+
+---
+
+## Check Results
+
+### 1. Inbox
+Tasks/ không tồn tại. 0 file với `#agent/inbox`.
+✅ **CLEAN**
+
+### 2. Raw Backlog
+1 file `status: unprocessed`: `raw/articles/2026-06-28_how-to-live-without-options.md` — ingested hôm nay, <24h.
+✅ **CLEAN** (không backlog)
+
+### 3. Concept Backlinks (random: 2/354)
+- `dunbar-number.md` → `[[src_were-not-supposed-to-live-like-this]]` ✅
+- `setting-mental-model.md` → `[[src_mental-models-of-art]]` ✅
+✅ **CLEAN**
+
+### 4. Pending Review Notification
+3 PENDING từ 2026-06-27, **chưa notify**:
+- Output Validator (23:09) — 1I
+- Format Validator (23:16) — 24E, 315W
+- Hygiene Inspector (23:30) — 1E
+⚠️ **PENDING**
+
+### 5. HEARTBEAT.md Leak
+`wiki/reviews/HEARTBEAT.md` — ABSENT.
+✅ **RESOLVED**
+
+---
+
+## Summary
+
+| Check | Status |
+|-------|--------|
+| Inbox | ✅ |
+| Raw backlog | ✅ |
+| Concept backlinks | ✅ |
+| Pending reviews notified | ❌ |
+| HEARTBEAT.md location | ✅ |
+
+---
+
+## Delta vs 2026-06-28 18:30
+
+Random sample files khác (`dunbar-number.md`, `setting-mental-model.md` thay vì `ai-vulnerability-discovery.md`, `opec-cartel-structure.md`) — cả 2 vẫn clean.
+Không có thay đổi nào khác. 3 pending review vẫn giữ nguyên, chưa notify.
+
+---
+
+*Last run: 2026-06-28 19:30 +07*
+
+---
+
+# HEARTBEAT — 2026-06-28 20:30
+
+**Status:** ISSUE_FOUND — 3 pending reviews chưa notify.
+
+---
+
+## Check Results
+
+### 1. Inbox
+Tasks/ không tồn tại. 0 file với `#agent/inbox`.
+✅ **CLEAN**
+
+### 2. Raw Backlog
+1 file `status: unprocessed`: `raw/articles/2026-06-28_how-to-live-without-options.md` — ingested hôm nay, <24h.
+✅ **CLEAN** (không backlog)
+
+### 3. Concept Backlinks (random: 2/354)
+- `cynefin-framework.md` → `[[src_what-comes-after-systems-thinking]]` ✅
+- `gated-delta-networks.md` → 2 `[[src_` links ✅
+✅ **CLEAN**
+
+### 4. Pending Review Notification
+3 PENDING từ 2026-06-27, **chưa notify**:
+- Output Validator (23:09) — 1I
+- Format Validator (23:16) — 24E, 315W
+- Hygiene Inspector (23:30) — 1E
+⚠️ **PENDING**
+
+### 5. HEARTBEAT.md Leak
+`wiki/reviews/HEARTBEAT.md` — ABSENT.
+✅ **RESOLVED**
+
+---
+
+## Summary
+
+| Check | Status |
+|-------|--------|
+| Inbox | ✅ |
+| Raw backlog | ✅ |
+| Concept backlinks | ✅ |
+| Pending reviews notified | ❌ |
+| HEARTBEAT.md location | ✅ |
+
+---
+
+## Delta vs 2026-06-28 19:30
+
+Random sample files khác (`cynefin-framework.md`, `gated-delta-networks.md` thay vì `dunbar-number.md`, `setting-mental-model.md`) — cả 2 vẫn clean.
+Không có thay đổi nào khác. 3 pending review vẫn giữ nguyên, chưa notify.
+
+---
+
+*Last run: 2026-06-28 20:30 +07*

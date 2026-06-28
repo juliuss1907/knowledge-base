@@ -1,5 +1,13 @@
 # OpenClaw Heartbeat Log
 
+- 2026-06-28 07:30:
+  - Status: ISSUES_FOUND
+  - Findings:
+    - Pending review: 3 reports from 2026-06-27 (Output, Format, Hygiene) are PENDING.
+  - Inbox: Clean
+  - Raw backlog: Clean
+  - Concept check: Clean (agent-handoff.md, six-stage-research-pipeline.md)
+
 - 2026-06-28 06:00:
   - Status: ISSUES_FOUND
   - Findings:

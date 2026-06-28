@@ -389,6 +389,63 @@ Không có thay đổi nào khác. 3 pending review vẫn giữ nguyên, chưa n
 
 ---
 
+# HEARTBEAT — 2026-06-28 22:00
+
+**Status:** ISSUE_FOUND — 3 pending reviews chưa notify.
+
+---
+
+## Check Results
+
+### 1. Inbox
+Tasks/ không tồn tại. 0 file với `#agent/inbox`.
+✅ **CLEAN**
+
+### 2. Raw Backlog
+1 file `status: unprocessed`: `raw/articles/2026-06-28_how-to-live-without-options.md` — ingested hôm nay, <24h.
+✅ **CLEAN** (không backlog)
+
+### 3. Concept Backlinks (random: 2/354)
+- `ecosystems-mental-model.md` → `[[src_farnam-street-mental-models-biology-series]]` ✅
+- `manifold-constrained-hyper-connections.md` → `[[src_deepseek-v4-architecture]]` ✅
+✅ **CLEAN**
+
+### 4. Pending Review Notification
+3 PENDING từ 2026-06-27, **chưa notify**:
+- Output Validator (23:09) — 1I
+- Format Validator (23:16) — 24E, 315W
+- Hygiene Inspector (23:30) — 1E
+⚠️ **PENDING**
+
+### 5. HEARTBEAT.md Leak
+`wiki/reviews/HEARTBEAT.md` — ABSENT.
+✅ **RESOLVED**
+
+---
+
+## Summary
+
+| Check | Status |
+|-------|--------|
+| Inbox | ✅ |
+| Raw backlog | ✅ |
+| Concept backlinks | ✅ |
+| Pending reviews notified | ❌ |
+| HEARTBEAT.md location | ✅ |
+
+---
+
+## Delta vs 2026-06-28 21:30
+
+Random sample files khác (`ecosystems-mental-model.md`, `manifold-constrained-hyper-connections.md` thay vì `agent-handoff.md`, `hundred-years-humiliation.md`) — cả 2 vẫn clean.
+Không có thay đổi nào khác. 3 pending review vẫn giữ nguyên, chưa notify.
+
+---
+
+*Last run: 2026-06-28 22:00 +07*
+
+---
+
 # HEARTBEAT — 2026-06-28 21:30
 
 **Status:** ISSUE_FOUND — 3 pending reviews chưa notify.

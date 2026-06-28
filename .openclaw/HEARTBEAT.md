@@ -557,3 +557,66 @@ Không có thay đổi nào khác. 3 pending review vẫn giữ nguyên, chưa n
 ---
 
 *Last run: 2026-06-28 21:30 +07*
+
+---
+
+# HEARTBEAT — 2026-06-29 01:00
+
+**Status:** ISSUE_FOUND — 6 pending reviews chưa notify (+3 mới từ 06-28).
+
+---
+
+## Check Results
+
+### 1. Inbox
+Tasks/ không tồn tại. 0 file với `#agent/inbox`.
+✅ **CLEAN**
+
+### 2. Raw Backlog
+1 file `status: unprocessed`: `raw/articles/2026-06-28_how-to-live-without-options.md` — ingested 06-28, vẫn unprocessed qua ngày mới (có thể sắp/dưới 24h tùy thời điểm ingest). CompileAgent 08:00 hôm nay sẽ xử lý.
+⚠️ **NOTE** — file từ hôm qua chưa compile
+
+### 3. Concept Backlinks (random: 2/354)
+- `bpe-algorithm.md` → `[[src_tokens-and-tokenization]]` ✅
+- `compact-vs-handoff.md` → `[[src_handoff-skill-context-window-management]]` ✅
+✅ **CLEAN**
+
+### 4. Pending Review Notification
+6 PENDING (3 từ 06-27 + 3 mới từ 06-28), **chưa notify**:
+- Output Validator 06-27 (23:09) — 1I
+- Format Validator 06-27 (23:16) — 24E, 315W
+- Hygiene Inspector 06-27 (23:30) — 1E
+- 🆕 Output Validator 06-28 (23:07) — 0 issues
+- 🆕 Format Validator 06-28 (23:15) — 127E, 315W
+- 🆕 Hygiene Inspector 06-28 (23:30) — 2W
+🔴 **CRITICAL** — backlog tăng từ 3 lên 6, 06-27 đã quá 24h chưa notify
+
+### 5. HEARTBEAT.md Leak
+`wiki/reviews/HEARTBEAT.md` — ABSENT.
+✅ **RESOLVED**
+
+---
+
+## Summary
+
+| Check | Status |
+|-------|--------|
+| Inbox | ✅ |
+| Raw backlog | ⚠️ |
+| Concept backlinks | ✅ |
+| Pending reviews notified | ❌ |
+| HEARTBEAT.md location | ✅ |
+
+---
+
+## Delta vs 2026-06-28 23:00
+
+- Raw backlog: file 06-28 vẫn unprocessed, sang ngày mới — có thể sắp quá 24h.
+- **Pending reviews tăng gấp đôi**: +3 reports mới từ 06-28 (Output, Format, Hygiene) — Hermes vừa chạy batch 23:00.
+- 3 reports 06-27 giờ đã 2 ngày chưa notify.
+- HEARTBEAT.md leak: vẫn resolved.
+- Random sample files khác (`bpe-algorithm.md`, `compact-vs-handoff.md` thay vì `prices-law.md`, `structural-competition.md`) — cả 2 vẫn clean.
+
+---
+
+*Last run: 2026-06-29 01:00 +07*

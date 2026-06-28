@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-28 23:07
+**Last updated:** 2026-06-28 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-26 đã được approve: Output (23:01), Format (23:15), Hygiene (23:30).
 
@@ -66,6 +66,36 @@
 - Có thể review để confirm không bỏ sót ngày
 
 **Report:** `wiki/reviews/2026-06-28_output-report.md`
+
+---
+
+### 🆕 Format Validation — 2026-06-28 (23:15)
+
+**File:** [2026-06-28_format-report.md](2026-06-28_format-report.md)
+**Status:** pending
+**Created:** 2026-06-28 23:15:44 +0700
+**Issues:** 442 (127 ERROR, 315 WARNING, 0 INFO)
+**Files checked:** 623 (354 concepts + 110 sources + 33 indexes + 126 topics)
+
+**Summary:**
+- 🔴 126 ERROR: All `wiki/topic/*.md` files missing YAML frontmatter — systematic Index Agent issue
+- 🔴 1 ERROR: `src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md` — slug exceeds 50 chars (63 chars)
+- ⚠️ 315 WARNING: 290 broken wikilinks (forward-references, expected in growing KB) + 4 original raw-file not found + ~20 field order mismatches
+- 194 unique broken wikilink targets; top targets: `game-theory` (10x), `confirmation-bias` (8x), `pareto-principle` (6x)
+
+**Delta from 2026-06-26 (APPROVED):**
+- Positive: 8 code-block ERROR → 0 (resolved)
+- Negative: +126 topic-file ERROR (missing frontmatter — surfaced by full-scope run with topic file validation)
+- Negative: +1 naming ERROR (slug too long — carry-over from prior reports, not yet fixed)
+- WARNING: +5 (net change in full scope)
+
+**Actions:**
+- Review `wiki/reviews/2026-06-28_format-report.md`
+- If approve: giao Fix Agent (1) thêm YAML frontmatter vào 126 topic files, (2) rename file slug quá dài
+- Hệ thống: escalate `[SYSTEMATIC VIOLATION]` Index Agent cần update để include frontmatter block trong topic file template
+- Broken wikilink backlog ổn định, không cần ưu tiên
+
+**Report:** `wiki/reviews/2026-06-28_format-report.md`
 
 ---
 

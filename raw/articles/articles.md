@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 ---
 
 # Articles Index
@@ -23,28 +23,29 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 84 files
-- By status: 84 processed, 0 unprocessed
-- By date: 12 this week, 74 this month
+- Total: 85 files
+- By status: 84 processed, 1 unprocessed
+- By date: 13 this week, 75 this month
 - Last updated: 2026-06-27
 
 ## Items
+- [[2026-06-28_how-to-live-without-options]] — How to Live Without Options by Joan Westenberg (unprocessed)
 
-- [[2026-06-27_play-long-term-games-with-long-term-people]] — Play long-term games with long-term people by Naval Ravikant (unprocessed)
-- [[2026-06-27_mathematical-reason-most-people-never-make-it]] — The Mathematical Reason Most People Never Make It by kaguura (unprocessed)
+- [[2026-06-27_play-long-term-games-with-long-term-people]] — Play long-term games with long-term people by Naval Ravikant (processed)
+- [[2026-06-27_mathematical-reason-most-people-never-make-it]] — The Mathematical Reason Most People Never Make It by kaguura (processed)
 
-- [[2026-06-22_this-will-help-you-figure-out-what-you-want]] — This will help you figure out what you want by Crystal Clear (unprocessed)
-- [[2026-06-20_most-high-income-skills-will-be-irrelevant-in-10-years]] — Most high-income skills will be irrelevant in 10 years (learn these 4 skills instead) by Hussain Ibarra (unprocessed)
-- [[2026-06-22_nha-bao-lam-gi]] — Nhà báo làm gì? by Trương Trí Vĩnh (unprocessed)
-- [[2026-06-20_3-brilliant-critical-thinking-tools-used-by-daniel-dennett]] — 3 brilliant critical thinking tools used by Daniel Dennett by Kevin Dickinson (unprocessed)
-- [[2026-06-19_the-tribute-system-the-new-world-order]] — The Tribute System: The New World Order by Ray Dalio (unprocessed)
-- [[2026-06-19_game-theory-will-change-your-life]] — Game Theory Will Change Your Life: The Invisible Rules Running Every Interaction by Ixcarus (unprocessed)
-- [[2026-06-19_why-i-recommend-being-a-global-macro]] — Why I Recommend Being a Global Macro Long-Short Investor by Ray Dalio (unprocessed)
-- [[2026-06-19_investment-principles-what-should-you-do]] — Investment Principles: What Should You Do Under Existing Conditions? by Ray Dalio (unprocessed)
+- [[2026-06-22_this-will-help-you-figure-out-what-you-want]] — This will help you figure out what you want by Crystal Clear (processed)
+- [[2026-06-20_most-high-income-skills-will-be-irrelevant-in-10-years]] — Most high-income skills will be irrelevant in 10 years (learn these 4 skills instead) by Hussain Ibarra (processed)
+- [[2026-06-22_nha-bao-lam-gi]] — Nhà báo làm gì? by Trương Trí Vĩnh (processed)
+- [[2026-06-20_3-brilliant-critical-thinking-tools-used-by-daniel-dennett]] — 3 brilliant critical thinking tools used by Daniel Dennett by Kevin Dickinson (processed)
+- [[2026-06-19_the-tribute-system-the-new-world-order]] — The Tribute System: The New World Order by Ray Dalio (processed)
+- [[2026-06-19_game-theory-will-change-your-life]] — Game Theory Will Change Your Life: The Invisible Rules Running Every Interaction by Ixcarus (processed)
+- [[2026-06-19_why-i-recommend-being-a-global-macro]] — Why I Recommend Being a Global Macro Long-Short Investor by Ray Dalio (processed)
+- [[2026-06-19_investment-principles-what-should-you-do]] — Investment Principles: What Should You Do Under Existing Conditions? by Ray Dalio (processed)
 - [[2026-06-18_how-the-market-warns-you-before-the-crash]] — How the Market Warns You Before the Crash (and When It's Safe to Get Back In) by Trading Momentum (processed)
 - [[2026-06-17_dan-koe-workflow-analysis-markus]] — Workflow 'Learn to Figure Anything Out with AI' — Chi tiết từng bước by Markus (Analysis) (processed)
 - [[2026-06-17_how-average-people-will-get-rich-with-ai]] — how average people will get rich with AI by Dan Koe (processed)
-- [[2026-06-26_next-gen-trading-about-timing-not-picking]] — The Next Generation of Trading Won't Be About Picking Stocks by glitchspx (unprocessed)
+- [[2026-06-26_next-gen-trading-about-timing-not-picking]] — The Next Generation of Trading Won't Be About Picking Stocks by glitchspx (processed)
 - [[2026-06-17_l1-blockchain-ai-lab-comparison]] — The L1 Blockchain <> AI Lab Comparison by Alok Vasudev (processed)
 - [[2026-06-16_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 thói quen "bình thường" đang hủy hoại não bộ của bạn by Hieu Being (processed)
 - [[2026-06-16_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cách nhanh nhất nộp hồ sơ bảo hiểm thất nghiệp by the1ight (processed)
@@ -53,8 +54,8 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 - [[2026-06-16_loop-native-factory]] — Loop Native Factory by bitsquarks (processed)
 - [[2026-06-16_the-cost-of-discretion]] — The Cost of Discretion by Kieran Duff (processed)
 - [[2026-06-02_after-the-heater-rule-keeps-you-alive]] — After The Heater: The Rule That Keeps You Alive by Glitch (processed)
-- [[2026-06-06_life-is-a-mind-game-heres-how-you]] — Life is a mind game, here's how you win by Dan Koe (unprocessed)
-- [[2026-06-06_dan-koe-mind-game-practical-application]] — Dan Koe: Mind Game Practical Application (unprocessed)
+- [[2026-06-06_life-is-a-mind-game-heres-how-you]] — Life is a mind game, here's how you win by Dan Koe (processed)
+- [[2026-06-06_dan-koe-mind-game-practical-application]] — Dan Koe: Mind Game Practical Application (processed)
 - [[2026-06-03_circle-of-competence]] — Circle of Competence by Farnam Street (processed)
 - [[2026-06-03_first-principles-thinking]] — First Principles Thinking by Farnam Street (processed)
 - [[2026-06-03_fs-blog-mental-models]] — Mental Models - The Best Way to Make Intelligent Decisions by Farnam Street (processed)
@@ -92,5 +93,5 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Notes
 
 <!-- Free space for Julius -->
-- [[2026-06-25_everything-is-a-win-when-the-goal]] — everything is a win when the goal is to experience (unprocessed)
-- [[2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]] — Give Me 14 Minutes And I'll Destroy Your Procrastination Forever (unprocessed)
+- [[2026-06-25_everything-is-a-win-when-the-goal]] — everything is a win when the goal is to experience (processed)
+- [[2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]] — Give Me 14 Minutes And I'll Destroy Your Procrastination Forever (processed)

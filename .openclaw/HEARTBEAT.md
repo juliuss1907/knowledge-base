@@ -1,6 +1,6 @@
-# HEARTBEAT — 2026-06-29 02:00
+# HEARTBEAT — 2026-06-29 03:00
 
-**Status:** ISSUE_FOUND — 6 pending reviews chưa notify + 2 concept thiếu backlink.
+**Status:** ISSUE_FOUND — 6 pending reviews chưa notify + 1 concept thiếu backlink.
 
 ---
 
@@ -11,26 +11,25 @@ Tasks/ không tồn tại. 0 file với `#agent/inbox`.
 ✅ **CLEAN**
 
 ### 2. Raw Backlog
-1 file `status: unprocessed`: `raw/articles/2026-06-28_how-to-live-without-options.md` — ingested hôm qua, chưa quá 24h.
-✅ **CLEAN** (no backlog)
+1 file `status: unprocessed`: `raw/articles/2026-06-28_how-to-live-without-options.md` — ingested 2026-06-28, chưa compile qua 2 chu kỳ.
+⚠️ **CẦN CHÚ Ý** — CompileAgent chưa xử lý sau 2 lần chạy (08:00 28/6 và 08:00 29/6 chưa tới)
 
-### 3. Concept Backlinks (random: 2/354)
-- `fast-weights.md` → thiếu link đến sources ❌
-- `agent-harness.md` → thiếu link đến sources ❌
-🔴 **ISSUE** — 2/2 sample thiếu backlink
+### 3. Concept Backlinks (random: 1/354)
+- `grok-hermes-integration.md` → thiếu link đến `wiki/sources/` ❌
+🔴 **ISSUE** — 1/1 sample thiếu backlink (pattern tiếp diễn từ 02:00)
 
 ### 4. Pending Review Notification
-6 PENDING (3 từ 06-27 + 3 từ 06-28), **chưa notify**:
-- Output Validator 06-27 (23:09) — 1I
-- Format Validator 06-27 (23:16) — 24E, 315W
-- Hygiene Inspector 06-27 (23:30) — 1E
-- Output Validator 06-28 (23:07) — 0 issues
-- Format Validator 06-28 (23:15) — 127E, 315W
-- Hygiene Inspector 06-28 (23:30) — 2W
-🔴 **CRITICAL** — 3 báo cáo 06-27 đã quá 24h chưa notify
+6 PENDING (3 từ 06-27 + 3 từ 06-28):
+- 🆕 Output Validator 06-27 (23:09) — 1 INFO — **quá 24h, chưa notify**
+- 🆕 Format Validator 06-27 (23:16) — 24 ERROR, 315 WARNING — **quá 24h, chưa notify**
+- 🆕 Hygiene Inspector 06-27 (23:30) — 1 ERROR — **quá 24h, chưa notify**
+- 🆕 Output Validator 06-28 (23:07) — 0 issues
+- 🆕 Format Validator 06-28 (23:15) — 127 ERROR, 315 WARNING
+- 🆕 Hygiene Inspector 06-28 (23:30) — 2 WARNING
+🔴 **CRITICAL** — 3 báo cáo 06-27 đã quá 24h chưa notify Julius
 
-### 5. HEARTBEAT.md Leak
-`wiki/reviews/HEARTBEAT.md` — ABSENT.
+### 5. HEARTBEAT.md Location
+Đúng vị trí `.openclaw/HEARTBEAT.md`.
 ✅ **RESOLVED**
 
 ---
@@ -40,20 +39,20 @@ Tasks/ không tồn tại. 0 file với `#agent/inbox`.
 | Check | Status |
 |-------|--------|
 | Inbox | ✅ |
-| Raw backlog | ✅ |
+| Raw backlog | ⚠️ |
 | Concept backlinks | ❌ |
 | Pending reviews notified | ❌ |
 | HEARTBEAT.md location | ✅ |
 
 ---
 
-## Delta vs 2026-06-29 01:00
+## Delta vs 2026-06-29 02:00
 
-- Concept backlinks: Phát hiện 2 file sample (`fast-weights.md`, `agent-harness.md`) thiếu backlink.
-- Pending reviews: Không thay đổi (6 reports).
-- Raw backlog: File 06-28 vẫn unprocessed nhưng chưa đủ 24h để tính là backlog nghiêm trọng.
-- HEARTBEAT.md leak: Vẫn resolved.
+- Raw backlog: Cùng 1 file `2026-06-28_how-to-live-without-options.md` — giờ đã qua đêm, CompileAgent sáng 29/6 (08:00) sẽ xử lý.
+- Concept backlinks: Sample mới `grok-hermes-integration.md` — tiếp tục pattern thiếu backlink (02:00 ghi nhận `fast-weights.md` và `agent-harness.md`).
+- Pending reviews: Không thay đổi. 6 báo cáo vẫn chưa notify.
+- HEARTBEAT.md: Ổn định.
 
 ---
 
-*Last run: 2026-06-29 02:00 +07*
+*Last run: 2026-06-29 03:00 +07*

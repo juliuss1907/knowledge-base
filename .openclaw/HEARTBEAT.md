@@ -1,4 +1,4 @@
-# HEARTBEAT — 2026-06-28 14:30
+# HEARTBEAT — 2026-06-28 15:00
 
 **Status:** ISSUE_FOUND — 3 pending reviews from 2026-06-27 not yet notified.
 
@@ -15,8 +15,8 @@ Tasks/ folder does not exist. 0 files with `#agent/inbox`.
 ✅ **CLEAN** (no backlog)
 
 ### 3. Concept Backlinks (random sample: 2/354)
-- `intent-driven-leadership.md` → backlinks present (frontmatter + Sources section) ✅
-- `false-reinforcement-loop.md` → backlinks present (frontmatter + Sources section) ✅
+- `alpaca-api.md` → backlinks present (frontmatter `sources` + `## Sources`) ✅
+- `dopamine-reward-loop.md` → backlinks present (frontmatter `sources` + `## Sources`) ✅
 ✅ **CLEAN**
 
 ### 4. Pending Review Notification
@@ -28,7 +28,7 @@ Tasks/ folder does not exist. 0 files with `#agent/inbox`.
 
 ### 5. HEARTBEAT.md Leak
 `wiki/reviews/HEARTBEAT.md` — ABSENT.
-✅ **RESOLVED** (was present at 06-27 23:30, last confirmed absent 06-28 14:30)
+✅ **RESOLVED** (leak absent since 06-28 14:30)
 
 ---
 
@@ -44,13 +44,10 @@ Tasks/ folder does not exist. 0 files with `#agent/inbox`.
 
 ---
 
-## Delta vs 2026-06-28 12:30
+## Delta vs 2026-06-28 14:30
 
-| Item | 12:30 | 14:30 |
-|------|-------|-------|
-| HEARTBEAT.md leak | ❌ EXISTS | ✅ RESOLVED |
-| Pending reviews notified | ❌ | ❌ (unchanged — same 3 reports) |
+Không có thay đổi. Toàn bộ 5 chỉ số giữ nguyên.
 
 ---
 
-*Last run: 2026-06-28 14:30 +07*
+*Last run: 2026-06-28 15:00 +07*

@@ -56,6 +56,8 @@ Agent heartbeat files that sometimes leak outside their home:
 
 **Recurring note (2026-06-27):** `wiki/reviews/HEARTBEAT.md` has been flagged every run since 06-25. Fix Agent deleted it 2026-06-27 09:34 but it reappeared by 23:30. This is a **process-level leak** — a runtime process writes HEARTBEAT.md to `wiki/reviews/` instead of the agent home. File deletion alone will not resolve it; the writing process must be identified and its output path corrected.
 
+**Resolution (2026-06-28):** The HEARTBEAT leak was resolved. The 2026-06-28 hygiene run (23:30) scanned 51,528 paths and found zero HEARTBEAT artifacts in `wiki/reviews/` or `raw/`. The root-level symlink `HEARTBEAT.md → .openclaw/HEARTBEAT.md` is correctly placed. If the leak recurs, flag as ERROR and escalate to process-level fix.
+
 ---
 
 ## Raw content naming — papers vs standard types

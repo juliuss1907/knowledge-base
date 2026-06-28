@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-28 23:15
+**Last updated:** 2026-06-28 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 5
+**Pending reports awaiting review:** 6
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-26 đã được approve: Output (23:01), Format (23:15), Hygiene (23:30).
 
@@ -23,6 +23,7 @@
 - 🆕 Output Validator — 2026-06-27 (23:09): **PENDING** (1 issue: 0 ERROR, 0 WARNING, 1 INFO)
 - 🆕 Format Validator — 2026-06-27 (23:16): **PENDING** (339 issues: 24 ERROR, 315 WARNING, 0 INFO)
 - 🆕 Hygiene Inspector — 2026-06-27 (23:30): **PENDING** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)
+- 🆕 Hygiene Inspector — 2026-06-28 (23:30): **PENDING** (2 issues: 0 ERROR, 2 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-26 (07:01): **APPROVED** (1 actionable issue: 1 ERROR, 0 WARNING, 0 INFO)
@@ -186,6 +187,34 @@
 - Không cần Fix Agent chạy lại (xóa file riêng lẻ sẽ không giải quyết root cause)
 
 **Report:** `wiki/reviews/2026-06-27_hygiene-report.md`
+
+---
+
+### 🆕 Hygiene Inspection — 2026-06-28 (23:30)
+
+**File:** [2026-06-28_hygiene-report.md](2026-06-28_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-06-28 23:30:00 +07
+**Issues:** 2 (0 ERROR, 2 WARNING, 0 INFO)
+**Paths checked:** 51,528
+
+**Summary:**
+- ⚠️ 2 WARNING: `raw/repos/2026-06-27_personal-mba-generator-skill.md` và `raw/repos/2026-06-27_sop-writer-skill.md` thiếu owner segment trong tên file
+- 0 ERROR: KB structure hoàn toàn clean — không root orphan, không file leak, không subfolder trái phép
+- ✅ `wiki/reviews/HEARTBEAT.md`: **đã resolved** — leak cố định từ 2026-06-25 đã được fix
+- Toàn bộ active zones (root, context, raw, wiki, agent homes) đều compliant với folder-structure.md
+
+**Delta from 2026-06-27 (pending):**
+- ✅ HEARTBEAT leak resolved — không còn trong wiki/reviews/
+- ✅ Tất cả prior issues từ 06-26 (memory/, state/, _approval-log.md, papers naming, drafts artifacts) vẫn resolved
+- ⚠️ NEW: 2 repos files ingested 06-27 có naming pattern sai (single slug thay vì owner_repo)
+
+**Actions:**
+- Review `wiki/reviews/2026-06-28_hygiene-report.md`
+- Nếu approve: rename 2 repos files thêm `aiskilloftheweek_` vào trước slug
+- KB structure hiện ở trạng thái tốt nhất từ trước đến nay
+
+**Report:** `wiki/reviews/2026-06-28_hygiene-report.md`
 
 ---
 

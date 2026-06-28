@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.6
-last_updated: 2026-06-27
+version: 1.7
+last_updated: 2026-06-28
 ---
 
 # Hygiene Inspector
@@ -391,8 +391,9 @@ Action: If intentional, update folder-structure.md
 ## Details
 
 For complete validation algorithm, folder rules, and error handling, see:
-- [references/scan-script.py](references/scan-script.py) — known-good scan template
-- [references/common-patterns.md](references/common-patterns.md) — recurring non-compliant patterns
+- [references/scan-script.py](references/scan-script.py) — production scan script with full KB classifiers (root, context, raw/all-types, wiki/all-zones, agent homes)
+- [references/common-patterns.md](references/common-patterns.md) — recurring non-compliant patterns and their resolutions
+- [scripts/verify.py](scripts/verify.py) — post-run verification of report, action file, and scan reproducibility
 - [workflow.md](workflow.md) — step-by-step validation process
 - [examples.md](examples.md) — sample hygiene issues and fixes
 - [wiki/meta/folder-structure.md](../../wiki/meta/folder-structure.md) — ground truth folder rules
@@ -554,6 +555,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.7 | 2026-06-28 | Replaced skeletal scan-script template with production version proven on 51K-path scan. Production script handles all KB zones: root whitelist, context/, raw/ (all 6 types including papers + repos patterns), wiki/ (all 7 subfolders including reviews archive), agent homes, scripts/, .tmp- folders. Added `scripts/verify.py` for post-run artifact verification. Updated `references/common-patterns.md` with HEARTBEAT leak resolution (fixed as of 2026-06-28). |
 | 1.6 | 2026-06-27 | Full-tree scan on 17,526-path KB uncovered three false-positive sources in the production script: (1) archive regex needed `^wiki/reviews/archive/` not `^archive/`, (2) papers use `YYYY-MM-DD_<author>_<title>.md` not standard `YYYY-MM-DD_<slug>.md`, (3) explicitly whitelisted files (e.g. `context/USER.md`) must skip generic naming checks. Added `RE_RAW_PAPERS`, fixed `RE_REVIEW_ARCHIVE`, and added `RE_REVIEW_REPORT` regex patterns to `references/scan-script.py`. Added "Full-tree scan pitfalls" section to SKILL.md. Documented recurring HEARTBEAT leak pattern in `references/common-patterns.md`. |
 | 1.5 | 2026-06-26 | Removed contradictory `MEMORY.md` logging step because the skill is report-only and write-restricted to `wiki/reviews/`. Added guidance for live workflow artifacts that are not yet whitelisted (report as `[SPEC CONFLICT]`, e.g. `wiki/reviews/_approval-log.md`). Added `references/full-tree-scan-notes.md` and restored `references/scan-script.py` so the SKILL.md links resolve. Clarified that `wiki/drafts/*.bak` and `.gitkeep` should be cleanup warnings, while backup subfolders remain path errors. |
 | 1.4 | 2026-06-23 | Fixed `references/scan-script.py`: changed docstring from `"""` to `r"""` to prevent `SyntaxError: unicodeescape` when the script is written via `write_file` (JSON `\u` processing + non-raw Python string parsing conflict). Changed `SLUG_CHARS` from raw string to non-raw with double-backslashes for consistency with the documented pitfall. Added docstring SyntaxError to failure modes table. |

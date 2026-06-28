@@ -194,6 +194,19 @@
     "use_count": 0,
     "view_count": 0
   },
+  "computer-use": {
+    "archived_at": null,
+    "created_at": "2026-06-28T04:17:48.174899+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "design-md": {
     "archived_at": null,
     "created_at": "2026-06-21T03:20:17.477154+00:00",
@@ -704,6 +717,19 @@
   "p5js": {
     "archived_at": null,
     "created_at": "2026-06-21T03:20:17.670598+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
+  "petdex": {
+    "archived_at": null,
+    "created_at": "2026-06-28T04:17:48.181518+00:00",
     "created_by": null,
     "last_patched_at": null,
     "last_used_at": null,

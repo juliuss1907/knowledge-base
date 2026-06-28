@@ -1,38 +1,39 @@
 ---
 type: index
+level: 3
 scope: tag
+parent: "[[tag]]"
 tag: geopolitics
 auto_generated: true
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 ---
 
 # Tag: #geopolitics
 
-Auto-generated index of all content tagged with `#geopolitics`.
+## Parent
 
-Last updated: 2026-06-27 22:19:04
+- [[tag]]
 
----
+## Stats
 
-## Concepts (6)
+- Total files: 8
+- Sources: 2
+- Concepts: 6
+- Last updated: 2026-06-28
 
-- [[chinese-culture-confucianism]] — main: #politic, sub: [#geopolitics], topic: tribute-system-world-order
-- [[enablement-vs-control]] — main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development
-- [[hundred-years-humiliation]] — main: #politic, sub: [#geopolitics], topic: tribute-system-world-order
-- [[political-settlement]] — main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development
-- [[state-capacity-theory]] — main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development
-- [[tribute-system]] — main: #politic, sub: [#geopolitics], topic: tribute-system-world-order
+## Files with this tag
 
-## Sources (2)
-
-- [[src_tribute-system-new-world-order]] — main: #politic, sub: [#geopolitics, #opinion], topic: tribute-system-world-order
-- [[src_why-china-got-rich-and-india-didnt]] — main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development
+- [[chinese-culture-confucianism]] — Chinese Culture Confucianism (concept)
+- [[enablement-vs-control]] — Enablement Vs Control (concept)
+- [[hundred-years-humiliation]] — Hundred Years Humiliation (concept)
+- [[political-settlement]] — Political Settlement (concept)
+- [[src_tribute-system-new-world-order]] — Src Tribute System New World Order (source)
+- [[src_why-china-got-rich-and-india-didnt]] — Src Why China Got Rich And India Didnt (source)
+- [[state-capacity-theory]] — State Capacity Theory (concept)
+- [[tribute-system]] — Tribute System (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#geopolitics`:
-
-- `#opinion` (5 files)
-- `#politic` (4 files)
-- `#economic` (4 files)
-
+- [[opinion]] — 5 co-occurrences
+- [[politic]] — 4 co-occurrences
+- [[economic]] — 4 co-occurrences

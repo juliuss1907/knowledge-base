@@ -1,16 +1,8 @@
----
-type: index
-scope: topic
-topic: ai-productivity
-auto_generated: true
-last_updated: 2026-06-27
----
-
 # Topic: ai-productivity
 
 Auto-generated index of all content with topic `ai-productivity`.
 
-Last updated: 2026-06-27 22:19:04
+Last updated: 2026-06-28 21:03:51
 
 ---
 
@@ -25,9 +17,4 @@ Last updated: 2026-06-27 22:19:04
 
 ## Sources (1)
 
-- [[src_how-ai-productivity-fails]] — main: #ai, sub: [#automation, #opinion, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `ai-productivity`:
-
+- [[src_how-ai-productivity-fails]] — main: #ai, sub: [#tools, #automation, #opinion]

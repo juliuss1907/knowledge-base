@@ -1,16 +1,8 @@
----
-type: index
-scope: topic
-topic: compounding-growth
-auto_generated: true
-last_updated: 2026-06-27
----
-
 # Topic: compounding-growth
 
 Auto-generated index of all content with topic `compounding-growth`.
 
-Last updated: 2026-06-27 22:19:04
+Last updated: 2026-06-28 21:03:51
 
 ---
 
@@ -18,7 +10,7 @@ Last updated: 2026-06-27 22:19:04
 
 - [[casino-culture]] — main: #productivity, sub: [#opinion, #opinion]
 - [[compounding-effect]] — main: #productivity, sub: [#opinion, #opinion]
-- [[discipline-system]] — main: #productivity, sub: [#psychology, #research]
+- [[discipline-system]] — main: #productivity, sub: [#research, #psychology]
 - [[environment-baseline]] — main: #productivity, sub: [#opinion, #research]
 - [[leading-indicators]] — main: #productivity, sub: [#opinion, #research]
 - [[negative-compounding]] — main: #productivity, sub: [#opinion, #research]
@@ -27,8 +19,3 @@ Last updated: 2026-06-27 22:19:04
 ## Sources (1)
 
 - [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `compounding-growth`:
-

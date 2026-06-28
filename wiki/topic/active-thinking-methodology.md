@@ -1,16 +1,8 @@
----
-type: index
-scope: topic
-topic: active-thinking-methodology
-auto_generated: true
-last_updated: 2026-06-27
----
-
 # Topic: active-thinking-methodology
 
 Auto-generated index of all content with topic `active-thinking-methodology`.
 
-Last updated: 2026-06-27 22:19:04
+Last updated: 2026-06-28 21:03:51
 
 ---
 
@@ -26,8 +18,3 @@ Last updated: 2026-06-27 22:19:04
 ## Sources (1)
 
 - [[src_active-vs-lazy-thinking]] — main: #productivity, sub: [#opinion, #research]
-
-## Related topics
-
-Topics that share concepts/sources with `active-thinking-methodology`:
-

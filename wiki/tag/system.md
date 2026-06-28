@@ -1,56 +1,57 @@
 ---
 type: index
+level: 3
 scope: tag
+parent: "[[tag]]"
 tag: system
 auto_generated: true
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 ---
 
 # Tag: #system
 
-Auto-generated index of all content tagged with `#system`.
+## Parent
 
-Last updated: 2026-06-27 22:19:04
+- [[tag]]
 
----
+## Stats
 
-## Concepts (21)
+- Total files: 24
+- Sources: 3
+- Concepts: 21
+- Last updated: 2026-06-28
 
-- [[alignment-engineering]] — main: #ai, sub: [#research, #system], topic: ai-engineering
-- [[ashbys-law]] — main: #system, sub: [#opinion, #research], topic: post-systems-thinking
-- [[catalysts]] — main: #system, sub: [#automation, #psychology], topic: activation-energy-mental-model
-- [[closed-loop-system]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[codified-taste]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[complex-adaptive-systems]] — main: #system, sub: [#opinion, #research], topic: post-systems-thinking
-- [[complicated-vs-complex]] — main: #system, sub: [#opinion, #research], topic: post-systems-thinking
-- [[critical-mass]] — main: #system, sub: [#psychology], topic: leverage-mental-model
-- [[cynefin-framework]] — main: #system, sub: [#opinion, #research], topic: post-systems-thinking
-- [[loop-native-factory]] — main: #ai, sub: [#system, #vibecode], topic: ai-engineering
-- [[loop-ownership]] — main: #system, sub: [#automation, #research], topic: ai-productivity
-- [[nash-equilibrium]] — main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking
-- [[prisoners-dilemma]] — main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking
-- [[repeated-games]] — main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking
-- [[second-order-effects]] — main: #system, sub: [#opinion, #research], topic: post-systems-thinking
-- [[seed-vs-machine-architecture]] — main: #ai, sub: [#system, #vibecode], topic: ai-architecture
-- [[shift-left-testing]] — main: #system, sub: [#automation, #tools], topic: ai-productivity
-- [[systems-thinking-limitations]] — main: #system, sub: [#opinion, #research], topic: post-systems-thinking
-- [[taste-holders]] — main: #system, sub: [#automation, #opinion], topic: ai-productivity
-- [[ultimatum-game]] — main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking
-- [[zero-sum-game]] — main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking
+## Files with this tag
 
-## Sources (3)
-
-- [[src_game-theory-will-change-your-life]] — main: #system, sub: [#psychology, #research, #tutorial], topic: game-theory-strategic-thinking
-- [[src_the-seed-and-the-machine]] — main: #ai, sub: [#research, #system, #vibecode], topic: seed-vs-machine-architecture
-- [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#opinion, #research], topic: post-systems-thinking
+- [[alignment-engineering]] — Alignment Engineering (concept)
+- [[ashbys-law]] — Ashbys Law (concept)
+- [[catalysts]] — Catalysts (concept)
+- [[closed-loop-system]] — Closed Loop System (concept)
+- [[codified-taste]] — Codified Taste (concept)
+- [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
+- [[complicated-vs-complex]] — Complicated Vs Complex (concept)
+- [[critical-mass]] — Critical Mass (concept)
+- [[cynefin-framework]] — Cynefin Framework (concept)
+- [[loop-native-factory]] — Loop Native Factory (concept)
+- [[loop-ownership]] — Loop Ownership (concept)
+- [[nash-equilibrium]] — Nash Equilibrium (concept)
+- [[prisoners-dilemma]] — Prisoners Dilemma (concept)
+- [[repeated-games]] — Repeated Games (concept)
+- [[second-order-effects]] — Second Order Effects (concept)
+- [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept)
+- [[shift-left-testing]] — Shift Left Testing (concept)
+- [[src_game-theory-will-change-your-life]] — Src Game Theory Will Change Your Life (source)
+- [[src_the-seed-and-the-machine]] — Src The Seed And The Machine (source)
+- [[src_what-comes-after-systems-thinking]] — Src What Comes After Systems Thinking (source)
+- [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
+- [[taste-holders]] — Taste Holders (concept)
+- [[ultimatum-game]] — Ultimatum Game (concept)
+- [[zero-sum-game]] — Zero Sum Game (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#system`:
-
-- `#research` (16 files)
-- `#psychology` (8 files)
-- `#opinion` (8 files)
-- `#automation` (6 files)
-- `#ai` (4 files)
-
+- [[research]] — 16 co-occurrences
+- [[opinion]] — 8 co-occurrences
+- [[psychology]] — 8 co-occurrences
+- [[automation]] — 6 co-occurrences
+- [[ai]] — 4 co-occurrences

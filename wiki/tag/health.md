@@ -1,44 +1,45 @@
 ---
 type: index
+level: 3
 scope: tag
+parent: "[[tag]]"
 tag: health
 auto_generated: true
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 ---
 
 # Tag: #health
 
-Auto-generated index of all content tagged with `#health`.
+## Parent
 
-Last updated: 2026-06-27 22:19:04
+- [[tag]]
 
----
+## Stats
 
-## Concepts (10)
+- Total files: 12
+- Sources: 2
+- Concepts: 10
+- Last updated: 2026-06-28
 
-- [[brain-rot]] — main: #health, sub: [#psychology, #research], topic: brain-health
-- [[circadian-rhythm]] — main: #productivity, sub: [#health, #tutorial], topic: sleep-hygiene
-- [[cognitive-load-theory]] — main: #health, sub: [#psychology, #research], topic: brain-health
-- [[default-mode-network]] — main: #ai, sub: [#health, #research], topic: evolutionary-mismatch-modern-life
-- [[evening-routine]] — main: #productivity, sub: [#health, #tutorial], topic: sleep-hygiene
-- [[glymphatic-system]] — main: #productivity, sub: [#health, #research], topic: simplicity-psychology
-- [[hippocampal-replay]] — main: #ai, sub: [#health, #research], topic: llm-memory-consolidation
-- [[hunter-gatherer-lifestyle]] — main: #productivity, sub: [#health, #psychology, #research], topic: evolutionary-mismatch-modern-life
-- [[meaning-through-work]] — main: #productivity, sub: [#health, #psychology], topic: ai-future-skills
-- [[sleep-hygiene]] — main: #productivity, sub: [#health, #tutorial], topic: sleep-hygiene
+## Files with this tag
 
-## Sources (2)
-
-- [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — main: #health, sub: [#psychology, #research], topic: brain-health-habits
-- [[src_japanese-evening-routine-fix-sleep]] — main: #productivity, sub: [#health, #tutorial], topic: sleep-hygiene
+- [[brain-rot]] — Brain Rot (concept)
+- [[circadian-rhythm]] — Circadian Rhythm (concept)
+- [[cognitive-load-theory]] — Cognitive Load Theory (concept)
+- [[default-mode-network]] — Default Mode Network (concept)
+- [[evening-routine]] — Evening Routine (concept)
+- [[glymphatic-system]] — Glymphatic System (concept)
+- [[hippocampal-replay]] — Hippocampal Replay (concept)
+- [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
+- [[meaning-through-work]] — Meaning Through Work (concept)
+- [[sleep-hygiene]] — Sleep Hygiene (concept)
+- [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — Src 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source)
+- [[src_japanese-evening-routine-fix-sleep]] — Src Japanese Evening Routine Fix Sleep (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#health`:
-
-- `#research` (7 files)
-- `#productivity` (7 files)
-- `#psychology` (5 files)
-- `#tutorial` (4 files)
-- `#ai` (2 files)
-
+- [[research]] — 7 co-occurrences
+- [[productivity]] — 7 co-occurrences
+- [[psychology]] — 5 co-occurrences
+- [[tutorial]] — 4 co-occurrences
+- [[ai]] — 2 co-occurrences

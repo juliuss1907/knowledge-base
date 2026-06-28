@@ -1,28 +1,15 @@
----
-type: index
-scope: topic
-topic: skill-acquisition
-auto_generated: true
-last_updated: 2026-06-27
----
-
 # Topic: skill-acquisition
 
 Auto-generated index of all content with topic `skill-acquisition`.
 
-Last updated: 2026-06-27 22:19:04
+Last updated: 2026-06-28 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[skill-acquisition-framework]] — main: #productivity, sub: [#psychology, #tools]
+- [[skill-acquisition-framework]] — main: #productivity, sub: [#tools, #psychology]
 
 ## Sources (1)
 
-- [[src_personal-mba-generator-skill]] — main: #productivity, sub: [#psychology, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `skill-acquisition`:
-
+- [[src_personal-mba-generator-skill]] — main: #productivity, sub: [#tools, #psychology]

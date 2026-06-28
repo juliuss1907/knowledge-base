@@ -1,16 +1,8 @@
----
-type: index
-scope: topic
-topic: deepseek-v4-architecture
-auto_generated: true
-last_updated: 2026-06-27
----
-
 # Topic: deepseek-v4-architecture
 
 Auto-generated index of all content with topic `deepseek-v4-architecture`.
 
-Last updated: 2026-06-27 22:19:04
+Last updated: 2026-06-28 21:03:51
 
 ---
 
@@ -25,8 +17,3 @@ Last updated: 2026-06-27 22:19:04
 ## Sources (1)
 
 - [[src_deepseek-v4-architecture]] — main: #ai, sub: [#research, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `deepseek-v4-architecture`:
-

@@ -2312,3 +2312,12 @@
 - **Unprocessed:** 0
 - **Action:** Nothing to compile — raw/ is clean
 - **Status:** COMPILE_CLEAN
+
+## 2026-06-28 21:03:51 — Indexed
+
+- **Scanned:** 354 concepts + 110 sources = 464 total files
+- **Tags indexed:** 23 (9 main-tags + 17 sub-tags)
+- **Topics indexed:** 126
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped due to invalid frontmatter

@@ -158,3 +158,60 @@ Không có thay đổi nào khác. Toàn bộ chỉ số giữ nguyên.
 ---
 
 *Last run: 2026-06-28 17:00 +07*
+
+---
+
+# HEARTBEAT — 2026-06-28 18:30
+
+**Status:** ISSUE_FOUND — 3 pending reviews chưa notify.
+
+---
+
+## Check Results
+
+### 1. Inbox
+Tasks/ không tồn tại. 0 file với `#agent/inbox`.
+✅ **CLEAN**
+
+### 2. Raw Backlog
+1 file `status: unprocessed`: `raw/articles/2026-06-28_how-to-live-without-options.md` — ingested hôm nay, <24h.
+✅ **CLEAN** (không backlog)
+
+### 3. Concept Backlinks (random: 2/354)
+- `ai-vulnerability-discovery.md` → `[[src_project-glasswing-update]]` ✅
+- `opec-cartel-structure.md` → `[[src_uae-opec-exit-end-of-era]]` ✅
+✅ **CLEAN**
+
+### 4. Pending Review Notification
+3 PENDING từ 2026-06-27, **chưa notify**:
+- Output Validator (23:09) — 1I
+- Format Validator (23:16) — 24E, 315W
+- Hygiene Inspector (23:30) — 1E
+⚠️ **PENDING**
+
+### 5. HEARTBEAT.md Leak
+`wiki/reviews/HEARTBEAT.md` — ABSENT.
+✅ **RESOLVED**
+
+---
+
+## Summary
+
+| Check | Status |
+|-------|--------|
+| Inbox | ✅ |
+| Raw backlog | ✅ |
+| Concept backlinks | ✅ |
+| Pending reviews notified | ❌ |
+| HEARTBEAT.md location | ✅ |
+
+---
+
+## Delta vs 2026-06-28 17:00
+
+Random sample files khác (`ai-vulnerability-discovery.md`, `opec-cartel-structure.md` thay vì `ai-legal-personhood.md`, `tribute-system.md`) — cả 2 vẫn clean.
+Không có thay đổi nào khác. 3 pending review vẫn giữ nguyên, chưa notify.
+
+---
+
+*Last run: 2026-06-28 18:30 +07*

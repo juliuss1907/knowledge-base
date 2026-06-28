@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-27 23:30
+**Last updated:** 2026-06-28 23:07
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-26 đã được approve: Output (23:01), Format (23:15), Hygiene (23:30).
 
@@ -18,6 +18,7 @@
 - ✅ Hygiene Inspector — 2026-06-26 (23:30): **APPROVED** (39 findings total: 9 ERROR, 11 WARNING, 19 INFO; 20 issues expanded due daily cap)
 - ✅ Format Validator — 2026-06-26 (23:15): **APPROVED** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-26 (23:01): **APPROVED** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
+- 🆕 Output Validator — 2026-06-28 (23:07): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - 🆕 Output Validator — 2026-06-27 (23:09): **PENDING** (1 issue: 0 ERROR, 0 WARNING, 1 INFO)
 - 🆕 Format Validator — 2026-06-27 (23:16): **PENDING** (339 issues: 24 ERROR, 315 WARNING, 0 INFO)
 - 🆕 Hygiene Inspector — 2026-06-27 (23:30): **PENDING** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)
@@ -44,6 +45,29 @@
 ---
 
 ## Pending Review
+
+### 🆕 Output Validation — 2026-06-28 (23:07)
+
+**File:** [2026-06-28_output-report.md](2026-06-28_output-report.md)
+**Status:** pending
+**Created:** 2026-06-28 23:07:51 +07
+**Issues:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+**Files checked:** 464 (110 sources + 354 concepts)
+**New files today:** 0
+
+**Summary:**
+- Không có file mới nào được compile hôm nay
+- Quick-scan sạch: không typo "ngưởi", không typo "ngườii/đờii..." (double-i), không truncated files
+- Tất cả systemic issues không thay đổi: 352 one-sentence definitions, 81 few key points, 9 empty Key ideas, 184 draft concepts
+- Không có ERROR, WARNING, hoặc INFO nào
+
+**Actions:**
+- Không cần action — không có file mới để validate
+- Có thể review để confirm không bỏ sót ngày
+
+**Report:** `wiki/reviews/2026-06-28_output-report.md`
+
+---
 
 ### 🆕 Output Validation — 2026-06-27 (23:09)
 

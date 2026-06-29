@@ -155,7 +155,7 @@ last_updated: 2026-06-28
 - [[src_first-principles-thinking]] — Src First Principles Thinking (source)
 - [[src_fs-blog-mental-models]] — Src Fs Blog Mental Models (source)
 - [[src_galilean-relativity]] — Src Galilean Relativity (source)
-- [[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]] — Src Give Me 14 Minutes And Ill Destroy Your Procrastination Forever (source)
+- [[src_give-me-14-minutes-destroy-procrastination]] — Src Give Me 14 Minutes Destroy Procrastination (source)
 - [[src_hanlons-razor]] — Src Hanlons Razor (source)
 - [[src_how-some-people-become-unrecognizable]] — Src How Some People Become Unrecognizable (source)
 - [[src_hypergamy]] — Src Hypergamy (source)

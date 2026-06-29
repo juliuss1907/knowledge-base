@@ -130,7 +130,7 @@ last_updated: 2026-06-28
 - [[src_ai-will-destroy-world-economy]] — Src Ai Will Destroy World Economy (source)
 - [[src_dont-sign-in-with-google]] — Src Dont Sign In With Google (source)
 - [[src_everything-is-a-win-when-the-goal]] — Src Everything Is A Win When The Goal (source)
-- [[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]] — Src Give Me 14 Minutes And Ill Destroy Your Procrastination Forever (source)
+- [[src_give-me-14-minutes-destroy-procrastination]] — Src Give Me 14 Minutes Destroy Procrastination (source)
 - [[src_global-macro-investing]] — Src Global Macro Investing (source)
 - [[src_hermes-200-30-skills-3-worth-it]] — Src Hermes 200 30 Skills 3 Worth It (source)
 - [[src_how-ai-productivity-fails]] — Src How Ai Productivity Fails (source)

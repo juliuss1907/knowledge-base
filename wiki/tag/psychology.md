@@ -130,7 +130,7 @@ last_updated: 2026-06-28
 - [[src_galilean-relativity]] — Src Galilean Relativity (source)
 - [[src_game-theory-will-change-your-life]] — Src Game Theory Will Change Your Life (source)
 - [[src_gamification-app-truth]] — Src Gamification App Truth (source)
-- [[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]] — Src Give Me 14 Minutes And Ill Destroy Your Procrastination Forever (source)
+- [[src_give-me-14-minutes-destroy-procrastination]] — Src Give Me 14 Minutes Destroy Procrastination (source)
 - [[src_hanlons-razor]] — Src Hanlons Razor (source)
 - [[src_hypergamy]] — Src Hypergamy (source)
 - [[src_incentives-hidden-forces]] — Src Incentives Hidden Forces (source)

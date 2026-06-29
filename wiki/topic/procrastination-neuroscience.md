@@ -15,4 +15,4 @@ Last updated: 2026-06-28 21:03:51
 
 ## Sources (1)
 
-- [[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_give-me-14-minutes-destroy-procrastination]] — main: #productivity, sub: [#psychology, #opinion]

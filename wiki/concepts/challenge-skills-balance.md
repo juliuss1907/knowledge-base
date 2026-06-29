@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [psychology, opinion]
 topic: procrastination-neuroscience
 sources:
-  - "[[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]]"
+  - "[[src_give-me-14-minutes-destroy-procrastination]]"
 last_updated: 2026-06-27
 ---
 
@@ -32,7 +32,7 @@ Mối quan hệ tối ưu giữa mức độ thử thách mà một nhiệm vụ
 
 ## Sources
 
-- [[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]]
+- [[src_give-me-14-minutes-destroy-procrastination]]
 
 ## Notes
 

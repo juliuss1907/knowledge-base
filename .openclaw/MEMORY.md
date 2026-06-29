@@ -2328,3 +2328,26 @@
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped due to invalid frontmatter
+
+## 2026-06-29 08:26 — Applied fixes from 6 Hermes reports (06-27 + 06-28 batch)
+
+**Reports applied:**
+- Output 06-28: 0 issues — nothing to fix
+- Format 06-28: 126 topic frontmatter (systematic, not fixed), 1 slug too long (fixed), 315 broken wikilinks (deprioritized)
+- Output 06-27: 1 INFO (borderline, not fixed)
+- Format 06-27: 23 tag files missing level:3 (fixed), 1 slug too long (fixed), 315 broken wikilinks (deprioritized)
+- Hygiene 06-27: 1 ERROR HEARTBEAT.md leak (process fix needed, not file-level)
+- Hygiene 06-28: 2 WARNING repos naming (fixed)
+
+**Fixes applied:**
+- Added `level: 3` to 23 tag index frontmatter files
+- Renamed `src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md` → `src_give-me-14-minutes-destroy-procrastination.md` (63→48 chars)
+- Updated all references to renamed source in concepts, raw files, and indexes
+- Renamed 2 repos files: added `aiskilloftheweek_` prefix
+- Archived 6 reports to archive/2026-06/
+
+**Not fixed (systematic/process):**
+- 126 topic files missing frontmatter — Index Agent needs template update
+- HEARTBEAT.md leak — recurring, needs output path fix in cron/process
+- 315 broken wikilinks — forward-reference backlog, deprioritized
+

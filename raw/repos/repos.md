@@ -28,8 +28,8 @@ GitHub repositories and code projects.
 ## Items
 
 <!-- Ingest Agent appends here, newest first -->
-- [[2026-06-27_personal-mba-generator-skill]] — Personal MBA Generator Claude AI Skill (processed)
-- [[2026-06-27_sop-writer-skill]] — SOP Writer Claude AI Skill (processed)
+- [[2026-06-27_aiskilloftheweek_personal-mba-generator-skill]] — Personal MBA Generator Claude AI Skill (processed)
+- [[2026-06-27_aiskilloftheweek_sop-writer-skill]] — SOP Writer Claude AI Skill (processed)
 
 ## Notes
 

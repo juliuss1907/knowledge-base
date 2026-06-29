@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [psychology, opinion]
 topic: procrastination-neuroscience
 sources:
-  - "[[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]]"
+  - "[[src_give-me-14-minutes-destroy-procrastination]]"
 last_updated: 2026-06-27
 ---
 
@@ -33,7 +33,7 @@ Xung đột thần kinh học giữa hai hệ thống đối lập trong não: *
 
 ## Sources
 
-- [[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]]
+- [[src_give-me-14-minutes-destroy-procrastination]]
 
 ## Notes
 

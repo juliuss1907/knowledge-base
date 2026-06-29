@@ -7,7 +7,7 @@ date_published: 2026-06-26
 date_ingested: 2026-06-26
 status: processed
 compiled_at: 2026-06-27
-compiled_to: "[[src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]]"
+compiled_to: "[[src_give-me-14-minutes-destroy-procrastination]]"
 source: substack
 ---
 

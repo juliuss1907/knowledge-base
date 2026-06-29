@@ -1,42 +1,39 @@
 ---
 type: index
-level: 3
 scope: tag
+level: 3
 parent: "[[tag]]"
 tag: coding
 auto_generated: true
-last_updated: 2026-06-28
+last_updated: 2026-06-29 21:10:54
 ---
 
 # Tag: #coding
 
-## Parent
+Auto-generated index of all content tagged with `#coding`.
 
-- [[tag]]
+---
 
-## Stats
+## Concepts (7)
 
-- Total files: 9
-- Sources: 2
-- Concepts: 7
-- Last updated: 2026-06-28
+- [[agent-harness]] — main: #ai, sub: [#automation, #tools, #coding], topic: code-as-agent-harness
+- [[bpe-algorithm]] — main: #ai, sub: [#research, #coding], topic: tokenization-llm
+- [[byte-level-bpe]] — main: #ai, sub: [#research, #coding], topic: tokenization-llm
+- [[code-as-substrate]] — main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness
+- [[handoff-skill]] — main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff
+- [[long-context-models]] — main: #ai, sub: [#research, #coding], topic: llm-capabilities
+- [[plan-execute-verify-loop]] — main: #ai, sub: [#automation, #research, #coding], topic: code-as-agent-harness
 
-## Files with this tag
+## Sources (2)
 
-- [[agent-harness]] — Agent Harness (concept)
-- [[bpe-algorithm]] — Bpe Algorithm (concept)
-- [[byte-level-bpe]] — Byte Level Bpe (concept)
-- [[code-as-substrate]] — Code As Substrate (concept)
-- [[handoff-skill]] — Handoff Skill (concept)
-- [[long-context-models]] — Long Context Models (concept)
-- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
-- [[src_code-as-agent-harness-arxiv-2605-18747]] — Src Code As Agent Harness Arxiv 2605 18747 (source)
-- [[src_handoff-skill-context-window-management]] — Src Handoff Skill Context Window Management (source)
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
+- [[src_handoff-skill-context-window-management]] — main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff
 
 ## Co-occurring tags
 
-- [[ai]] — 9 co-occurrences
-- [[research]] — 5 co-occurrences
-- [[automation]] — 4 co-occurrences
-- [[tools]] — 4 co-occurrences
-- [[vibecode]] — 1 co-occurrence
+Tags that frequently appear with `#coding`:
+- `#ai` (9 files)
+- `#research` (5 files)
+- `#automation` (4 files)
+- `#tools` (4 files)
+- `#vibecode` (1 files)

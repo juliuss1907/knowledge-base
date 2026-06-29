@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: generative-ai-seo
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: generative-ai-seo
 
 Auto-generated index of all content with topic `generative-ai-seo`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -18,3 +25,8 @@ Last updated: 2026-06-29 21:02:20
 ## Sources (1)
 
 - [[src_google-guide-optimizing-generative-ai-search]] — main: #tech, sub: [#tools, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `generative-ai-seo`:
+- (none)

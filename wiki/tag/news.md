@@ -1,43 +1,40 @@
 ---
 type: index
-level: 3
 scope: tag
+level: 3
 parent: "[[tag]]"
 tag: news
 auto_generated: true
-last_updated: 2026-06-28
+last_updated: 2026-06-29 21:10:54
 ---
 
 # Tag: #news
 
-## Parent
+Auto-generated index of all content tagged with `#news`.
 
-- [[tag]]
+---
 
-## Stats
+## Concepts (7)
 
-- Total files: 10
-- Sources: 3
-- Concepts: 7
-- Last updated: 2026-06-28
+- [[attention-economy-vs-knowledge-economy]] — main: #ai, sub: [#opinion, #news], topic: journalism-ai-era
+- [[google-ai-overviews]] — main: #tech, sub: [#tools, #news], topic: generative-ai-seo
+- [[grok-hermes-integration]] — main: #ai, sub: [#tools, #automation, #news], topic: hermes-xai-grok-integration
+- [[rot-economy]] — main: #economic, sub: [#opinion, #news], topic: ai-business-criticism
+- [[saudi-pakistan-defense-agreement]] — main: #politic, sub: [#news, #opinion], topic: saudi-defense-diversification
+- [[softbank-carry-trade]] — main: #economic, sub: [#news, #defi], topic: ai-funding-dynamics
+- [[team-pcp-hacker-group]] — main: #tech, sub: [#hack, #news], topic: github-supply-chain-attack-vs-code
 
-## Files with this tag
+## Sources (3)
 
-- [[attention-economy-vs-knowledge-economy]] — Attention Economy Vs Knowledge Economy (concept)
-- [[google-ai-overviews]] — Google Ai Overviews (concept)
-- [[grok-hermes-integration]] — Grok Hermes Integration (concept)
-- [[rot-economy]] — Rot Economy (concept)
-- [[saudi-pakistan-defense-agreement]] — Saudi Pakistan Defense Agreement (concept)
-- [[softbank-carry-trade]] — Softbank Carry Trade (concept)
-- [[src_11-minutes-hack-github]] — Src 11 Minutes Hack Github (source)
-- [[src_ai-will-destroy-world-economy]] — Src Ai Will Destroy World Economy (source)
-- [[src_nha-bao-lam-gi]] — Src Nha Bao Lam Gi (source)
-- [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)
+- [[src_11-minutes-hack-github]] — main: #tech, sub: [#hack, #tools, #news], topic: github-supply-chain-attack-vs-code
+- [[src_ai-will-destroy-world-economy]] — main: #ai, sub: [#news, #opinion], topic: ai-economic-disruption-white-collar
+- [[src_nha-bao-lam-gi]] — main: #ai, sub: [#opinion, #news], topic: journalism-ai-era
 
 ## Co-occurring tags
 
-- [[opinion]] — 5 co-occurrences
-- [[ai]] — 4 co-occurrences
-- [[tech]] — 3 co-occurrences
-- [[tools]] — 3 co-occurrences
-- [[economic]] — 2 co-occurrences
+Tags that frequently appear with `#news`:
+- `#opinion` (5 files)
+- `#ai` (4 files)
+- `#tools` (3 files)
+- `#tech` (3 files)
+- `#economic` (2 files)

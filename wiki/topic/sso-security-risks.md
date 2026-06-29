@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: sso-security-risks
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: sso-security-risks
 
 Auto-generated index of all content with topic `sso-security-risks`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -17,3 +24,8 @@ Last updated: 2026-06-29 21:02:20
 ## Sources (1)
 
 - [[src_dont-sign-in-with-google]] — main: #tech, sub: [#hack, #tools, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `sso-security-risks`:
+- (none)

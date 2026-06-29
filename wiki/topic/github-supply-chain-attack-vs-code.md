@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: github-supply-chain-attack-vs-code
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: github-supply-chain-attack-vs-code
 
 Auto-generated index of all content with topic `github-supply-chain-attack-vs-code`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -15,3 +22,8 @@ Last updated: 2026-06-29 21:02:20
 ## Sources (1)
 
 - [[src_11-minutes-hack-github]] — main: #tech, sub: [#hack, #tools, #news]
+
+## Related topics
+
+Topics that share concepts/sources with `github-supply-chain-attack-vs-code`:
+- (none)

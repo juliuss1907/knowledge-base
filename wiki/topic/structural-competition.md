@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: structural-competition
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: structural-competition
 
 Auto-generated index of all content with topic `structural-competition`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -16,3 +23,8 @@ Last updated: 2026-06-29 21:02:20
 ## Sources (1)
 
 - [[src_why-i-write-about-structural-competition]] — main: #politic, sub: [#opinion, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `structural-competition`:
+- (none)

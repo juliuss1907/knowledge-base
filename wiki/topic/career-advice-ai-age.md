@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: career-advice-ai-age
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: career-advice-ai-age
 
 Auto-generated index of all content with topic `career-advice-ai-age`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -15,3 +22,8 @@ Last updated: 2026-06-29 21:02:20
 ## Sources (1)
 
 - [[src_2026-advice]] — main: #productivity, sub: [#opinion, #psychology, #automation]
+
+## Related topics
+
+Topics that share concepts/sources with `career-advice-ai-age`:
+- (none)

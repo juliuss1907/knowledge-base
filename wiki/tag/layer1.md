@@ -1,35 +1,32 @@
 ---
 type: index
-level: 3
 scope: tag
+level: 3
 parent: "[[tag]]"
 tag: layer1
 auto_generated: true
-last_updated: 2026-06-28
+last_updated: 2026-06-29 21:10:54
 ---
 
 # Tag: #layer1
 
-## Parent
+Auto-generated index of all content tagged with `#layer1`.
 
-- [[tag]]
+---
 
-## Stats
+## Concepts (3)
 
-- Total files: 4
-- Sources: 1
-- Concepts: 3
-- Last updated: 2026-06-28
+- [[ai-lab-crypto-analogy]] — main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics
+- [[altcoin-frenzy-pattern]] — main: #economic, sub: [#layer1, #opinion], topic: market-cycles
+- [[infrastructure-capex-cycle]] — main: #economic, sub: [#layer1, #ai], topic: market-cycles
 
-## Files with this tag
+## Sources (1)
 
-- [[ai-lab-crypto-analogy]] — Ai Lab Crypto Analogy (concept)
-- [[altcoin-frenzy-pattern]] — Altcoin Frenzy Pattern (concept)
-- [[infrastructure-capex-cycle]] — Infrastructure Capex Cycle (concept)
-- [[src_l1-blockchain-ai-lab-comparison]] — Src L1 Blockchain Ai Lab Comparison (source)
+- [[src_l1-blockchain-ai-lab-comparison]] — main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics
 
 ## Co-occurring tags
 
-- [[ai]] — 3 co-occurrences
-- [[opinion]] — 3 co-occurrences
-- [[economic]] — 2 co-occurrences
+Tags that frequently appear with `#layer1`:
+- `#opinion` (3 files)
+- `#ai` (3 files)
+- `#economic` (2 files)

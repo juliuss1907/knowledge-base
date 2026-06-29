@@ -1,40 +1,37 @@
 ---
 type: index
-level: 3
 scope: tag
+level: 3
 parent: "[[tag]]"
 tag: vibecode
 auto_generated: true
-last_updated: 2026-06-28
+last_updated: 2026-06-29 21:10:54
 ---
 
 # Tag: #vibecode
 
-## Parent
+Auto-generated index of all content tagged with `#vibecode`.
 
-- [[tag]]
+---
 
-## Stats
+## Concepts (5)
 
-- Total files: 7
-- Sources: 2
-- Concepts: 5
-- Last updated: 2026-06-28
+- [[code-as-substrate]] — main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness
+- [[hermes-agent]] — main: #ai, sub: [#tools, #automation, #vibecode], topic: hermes-polymarket-trading-agent
+- [[loop-native-factory]] — main: #ai, sub: [#vibecode, #system], topic: ai-engineering
+- [[seed-vs-machine-architecture]] — main: #ai, sub: [#system, #vibecode], topic: ai-architecture
+- [[vibe-coding]] — main: #ai, sub: [#tools, #vibecode], topic: ai-future-skills
 
-## Files with this tag
+## Sources (2)
 
-- [[code-as-substrate]] — Code As Substrate (concept)
-- [[hermes-agent]] — Hermes Agent (concept)
-- [[loop-native-factory]] — Loop Native Factory (concept)
-- [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept)
-- [[src_loop-native-factory]] — Src Loop Native Factory (source)
-- [[src_the-seed-and-the-machine]] — Src The Seed And The Machine (source)
-- [[vibe-coding]] — Vibe Coding (concept)
+- [[src_loop-native-factory]] — main: #ai, sub: [#tools, #vibecode, #research], topic: loop-native-factory
+- [[src_the-seed-and-the-machine]] — main: #ai, sub: [#vibecode, #system, #research], topic: seed-vs-machine-architecture
 
 ## Co-occurring tags
 
-- [[ai]] — 7 co-occurrences
-- [[tools]] — 4 co-occurrences
-- [[system]] — 3 co-occurrences
-- [[research]] — 2 co-occurrences
-- [[coding]] — 1 co-occurrence
+Tags that frequently appear with `#vibecode`:
+- `#ai` (7 files)
+- `#tools` (4 files)
+- `#system` (3 files)
+- `#research` (2 files)
+- `#automation` (1 files)

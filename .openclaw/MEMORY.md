@@ -2351,3 +2351,9 @@
 - HEARTBEAT.md leak — recurring, needs output path fix in cron/process
 - 315 broken wikilinks — forward-reference backlog, deprioritized
 
+
+## 2026-06-29 21:05 — Index Agent (retry sau lỗi cron)
+- Scanned: 357 concepts + 111 sources = 468 files
+- Tags indexed: 23 (9 main-tags + 14 sub-tags có file)
+- Topics indexed: 127
+- Orphans deleted: 0 tags, 0 topics

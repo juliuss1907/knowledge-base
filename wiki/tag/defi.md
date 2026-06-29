@@ -1,36 +1,33 @@
 ---
 type: index
-level: 3
 scope: tag
+level: 3
 parent: "[[tag]]"
 tag: defi
 auto_generated: true
-last_updated: 2026-06-28
+last_updated: 2026-06-29 21:10:54
 ---
 
 # Tag: #defi
 
-## Parent
+Auto-generated index of all content tagged with `#defi`.
 
-- [[tag]]
+---
 
-## Stats
+## Concepts (4)
 
-- Total files: 4
-- Sources: 0
-- Concepts: 4
-- Last updated: 2026-06-28
+- [[cookie-fun-mcp]] — main: #crypto, sub: [#tools, #defi], topic: hermes-xai-grok-integration
+- [[polymarket]] — main: #crypto, sub: [#defi, #tools], topic: hermes-polymarket-trading-agent
+- [[prediction-market-dashboard]] — main: #crypto, sub: [#tools, #defi], topic: hermes-operator-builder-pattern
+- [[softbank-carry-trade]] — main: #economic, sub: [#news, #defi], topic: ai-funding-dynamics
 
-## Files with this tag
+## Sources (0)
 
-- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
-- [[polymarket]] — Polymarket (concept)
-- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
-- [[softbank-carry-trade]] — Softbank Carry Trade (concept)
 
 ## Co-occurring tags
 
-- [[crypto]] — 3 co-occurrences
-- [[tools]] — 3 co-occurrences
-- [[economic]] — 1 co-occurrence
-- [[news]] — 1 co-occurrence
+Tags that frequently appear with `#defi`:
+- `#crypto` (3 files)
+- `#tools` (3 files)
+- `#economic` (1 files)
+- `#news` (1 files)

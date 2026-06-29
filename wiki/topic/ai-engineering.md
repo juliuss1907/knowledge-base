@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: ai-engineering
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: ai-engineering
 
 Auto-generated index of all content with topic `ai-engineering`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -13,3 +20,8 @@ Last updated: 2026-06-29 21:02:20
 
 ## Sources (0)
 
+
+## Related topics
+
+Topics that share concepts/sources with `ai-engineering`:
+- (none)

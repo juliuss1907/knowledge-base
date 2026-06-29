@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: mental-models-systems
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: mental-models-systems
 
 Auto-generated index of all content with topic `mental-models-systems`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -16,3 +23,8 @@ Last updated: 2026-06-29 21:02:20
 ## Sources (1)
 
 - [[src_farnam-street-mental-models-systems-thinking]] — main: #productivity, sub: [#research]
+
+## Related topics
+
+Topics that share concepts/sources with `mental-models-systems`:
+- (none)

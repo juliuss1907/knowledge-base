@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: personal-systems
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: personal-systems
 
 Auto-generated index of all content with topic `personal-systems`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -13,3 +20,8 @@ Last updated: 2026-06-29 21:02:20
 ## Sources (1)
 
 - [[src_third-order-thinking-how-to-build]] — main: #productivity, sub: [#psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `personal-systems`:
+- (none)

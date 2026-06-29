@@ -1,8 +1,15 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: active-thinking
+auto_generated: true
+last_updated: 2026-06-29 21:10:54
+---
+
 # Topic: active-thinking
 
 Auto-generated index of all content with topic `active-thinking`.
-
-Last updated: 2026-06-29 21:02:20
 
 ---
 
@@ -12,3 +19,8 @@ Last updated: 2026-06-29 21:02:20
 
 ## Sources (0)
 
+
+## Related topics
+
+Topics that share concepts/sources with `active-thinking`:
+- (none)

@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 ---
 
 # Articles Index
@@ -24,12 +24,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Stats
 
 - Total: 85 files
-- By status: 84 processed, 1 unprocessed
+- By status: 85 processed, 0 unprocessed
 - By date: 13 this week, 75 this month
-- Last updated: 2026-06-27
+- Last updated: 2026-06-29
 
 ## Items
-- [[2026-06-28_how-to-live-without-options]] — How to Live Without Options by Joan Westenberg (unprocessed)
+- [[2026-06-28_how-to-live-without-options]] — How to Live Without Options by Joan Westenberg (processed)
 
 - [[2026-06-27_play-long-term-games-with-long-term-people]] — Play long-term games with long-term people by Naval Ravikant (processed)
 - [[2026-06-27_mathematical-reason-most-people-never-make-it]] — The Mathematical Reason Most People Never Make It by kaguura (processed)

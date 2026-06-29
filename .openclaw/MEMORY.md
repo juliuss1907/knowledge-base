@@ -1,3 +1,10 @@
+## 2026-06-29 08:00 — Compiled
+- Raw: raw/articles/2026-06-28_how-to-live-without-options.md
+- Source note: wiki/sources/src_how-to-live-without-options.md
+- Concepts: [reversibility-paradox, synthetic-happiness, real-options-theory]
+- Tags applied: main=#productivity, sub=[#psychology, #opinion, #research], topic=optionality-paradox
+- Action: created 3 concept files
+
 ## 2026-06-25 15:51 — Ingested
 - Raw: raw/articles/2026-06-25_everything-is-a-win-when-the-goal.md
 - Source URL: https://yearlyblues.substack.com/p/everything-is-a-win-when-the-goal

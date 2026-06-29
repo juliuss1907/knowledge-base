@@ -4,7 +4,9 @@ title: How to Live Without Options — and Why It's the Key to Happiness
 url: https://www.joanwestenberg.com/p/how-to-live-without-options-and-why
 author: Joan Westenberg
 date_ingested: 2026-06-28
-status: unprocessed
+status: processed
+compiled_at: 2026-06-29
+compiled_to: "[[src_how-to-live-without-options]]"
 source: joanwestenberg.substack.com
 ---
 

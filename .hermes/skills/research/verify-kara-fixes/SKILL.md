@@ -127,6 +127,33 @@ Clear summary to Julius:
 | `date_ingested` unfixed | Compile Agent still emits deprecated field | Fix in compile-agent SKILL.md |
 | `original` wikilink unfixed | Compile Agent wraps all paths | Fix in compile-agent SKILL.md |
 | Individual typos unfixed | Kara missed specific file | Manual fix by Julius or re-run |
+| **Primary file renamed, refs stale** | Fix Agent renamed the target file but forgot to update inbound references in tag files (`wiki/tag/*.md`) and topic files (`wiki/topic/*.md`). These references still point to the old slug → broken wikilinks. | Grep for old slug across all `wiki/` and `raw/` after rename. Update tag files, topic files, and any concept `## Sources` sections that reference the old slug. |
+
+## Reference-chain verification (slug rename / file rename)
+
+When verifying a file rename fix (e.g., slug shortened from 63→48 chars), check THREE things:
+
+1. **Primary target** — does the renamed file exist with the new name? ✅
+2. **Inbound references** — do tag files, topic files, and concept Sources sections still point to the old name? → grep old slug across `wiki/tag/`, `wiki/topic/`, `wiki/concepts/`
+3. **`original` field** — does the source's `original` field correctly point to the raw file (not the old source slug)? In format-spec v2.2, `original` = path to raw file, NOT source file's own name.
+
+**Example from 2026-06-29 recheck:**
+- Source renamed: `src_give-me-14-minutes...forever.md` → `src_give-me-14-minutes-destroy-procrastination.md` (63→42 chars) ✅
+- `original` field: `[[2026-06-26_give-me-14-minutes...forever]]` → correct, points to raw file ✅
+- Tag refs still stale: `opinion.md`, `productivity.md`, `psychology.md` still had `[[src_give-me-14-minutes...forever]]` ❌
+- Topic ref still stale: `procrastination-neuroscience.md` still had old slug ❌
+
+**Verification commands for reference chains:**
+```bash
+# 1. Find all references to old slug
+grep -rl 'OLD-SLUG-HERE' wiki/ raw/ | grep -v '.git/' | grep -v 'wiki/reviews/'
+
+# 2. Check tag files specifically
+grep -l 'OLD-SLUG-HERE' wiki/tag/*.md
+
+# 3. Check topic files
+grep -l 'OLD-SLUG-HERE' wiki/topic/*.md
+```
 
 ## Processing recheck reports
 

@@ -479,3 +479,11 @@
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 - **Report:** wiki/reviews/2026-06-29_output-report.md
 - **Summary:** 4 new files form tight `optionality-paradox` cluster: source by Joan Westenberg + 3 concepts (Real Options Theory, Reversibility Paradox, Synthetic Happiness, all based on Dan Gilbert research). All concepts have 3-sentence Definitions and 5–7 Key ideas. No typos, no truncated files, no broken wikilinks. Quick-scan clean. Systemic patterns: 355 one-sentence definitions, 81 few key points, 9 empty Key ideas, 187 draft concepts.
+
+## 2026-06-29 23:15:00 — Format validation
+
+- **Files checked:** 628 (357 concepts + 111 sources + 33 indexes + 127 topics)
+- **Issues found:** 386 (69 ERROR, 317 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-29_format-report.md
+- **Top violations:** 69 tag-section ERROR (23 wiki/tag/*.md files missing ## Parent, ## Stats, ## Files with this tag), 317 broken wikilinks (194 unique targets)
+- **Delta:** -58 ERROR (126 topic-file frontmatter + 1 slug resolved), +2 WARNING

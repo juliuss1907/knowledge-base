@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-29 23:00
+**Last updated:** 2026-06-29 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-26 đã được approve: Output (23:01), Format (23:15), Hygiene (23:30).
 
 **Status:**
+- 🔲 Format Validator — 2026-06-29 (23:15): **PENDING** (386 issues: 69 ERROR, 317 WARNING, 0 INFO)
 - 🔲 Output Validator — 2026-06-29 (23:00): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-26 (23:30): **APPROVED** (39 findings total: 9 ERROR, 11 WARNING, 19 INFO; 20 issues expanded due daily cap)
 - ✅ Format Validator — 2026-06-26 (23:15): **APPROVED** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
@@ -71,6 +72,31 @@
 - Có thể review để confirm
 
 **Report:** `wiki/reviews/2026-06-29_output-report.md`
+
+---
+
+### 🔲 Format Validation — 2026-06-29 (23:15)
+
+**File:** [2026-06-29_format-report.md](2026-06-29_format-report.md)
+**Status:** pending
+**Created:** 2026-06-29 23:15:00 +07
+**Issues:** 386 (69 ERROR, 317 WARNING, 0 INFO)
+**Files checked:** 628 (357 concepts + 111 sources + 33 indexes + 127 topics)
+
+**Summary:**
+- 🔴 69 ERROR: All 23 `wiki/tag/*.md` files missing three required sections (`## Parent`, `## Stats`, `## Files with this tag`) — systematic Index Agent template issue
+- ⚠️ 317 WARNING: 290 broken wikilinks (194 unique targets, stable backlog) + 6 original raw-file wikilinks not found + 21 forward-reference summary groups
+- ✅ Positive delta from 06-28: 126 topic-file frontmatter ERRORs resolved, 1 slug-too-long ERROR resolved, 8 code-block language-tag ERRORs remain resolved
+- Top broken targets: `game-theory` (10x), `confirmation-bias` (8x), `pareto-principle` (6x)
+
+**Actions:**
+- Review `wiki/reviews/2026-06-29_format-report.md`
+- Nếu approve: update `index-agent/SKILL.md` tag file template để include `## Parent`, `## Stats`, `## Files with this tag`
+- Sau khi template fix, chạy Fix Agent add 3 sections vào 23 tag files
+- Broken wikilink backlog ổn định (194 unique targets, same as 06-28), không cần ưu tiên
+- 6 original raw-file warnings: verify raw files exist under correct subdirectory
+
+**Report:** `wiki/reviews/2026-06-29_format-report.md`
 
 ---
 

@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-28 23:30
+**Last updated:** 2026-06-29 09:45
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 0
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-26 đã được approve: Output (23:01), Format (23:15), Hygiene (23:30).
 
@@ -18,12 +18,12 @@
 - ✅ Hygiene Inspector — 2026-06-26 (23:30): **APPROVED** (39 findings total: 9 ERROR, 11 WARNING, 19 INFO; 20 issues expanded due daily cap)
 - ✅ Format Validator — 2026-06-26 (23:15): **APPROVED** (314 in-scope issues: 4 ERROR, 310 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-26 (23:01): **APPROVED** (3 issues: 0 ERROR, 2 WARNING, 1 INFO)
-- 🆕 Output Validator — 2026-06-28 (23:07): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
-- 🆕 Format Validator — 2026-06-28 (23:15): **PENDING** (442 issues: 127 ERROR, 315 WARNING, 0 INFO)
-- 🆕 Output Validator — 2026-06-27 (23:09): **PENDING** (1 issue: 0 ERROR, 0 WARNING, 1 INFO)
-- 🆕 Format Validator — 2026-06-27 (23:16): **PENDING** (339 issues: 24 ERROR, 315 WARNING, 0 INFO)
-- 🆕 Hygiene Inspector — 2026-06-27 (23:30): **PENDING** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)
-- 🆕 Hygiene Inspector — 2026-06-28 (23:30): **PENDING** (2 issues: 0 ERROR, 2 WARNING, 0 INFO)
+- ✅ Output Validator — 2026-06-28 (23:07): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
+- ✅ Format Validator — 2026-06-28 (23:15): **APPROVED** (442 issues: 127 ERROR, 315 WARNING, 0 INFO)
+- ✅ Output Validator — 2026-06-27 (23:09): **APPROVED** (1 issue: 0 ERROR, 0 WARNING, 1 INFO)
+- ✅ Format Validator — 2026-06-27 (23:16): **APPROVED** (339 issues: 24 ERROR, 315 WARNING, 0 INFO)
+- ✅ Hygiene Inspector — 2026-06-27 (23:30): **APPROVED** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)
+- ✅ Hygiene Inspector — 2026-06-28 (23:30): **APPROVED** (2 issues: 0 ERROR, 2 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-26 (07:01): **APPROVED** (4 issues: 0 ERROR, 3 WARNING, 1 INFO)
 - ✅ Format Validator — 2026-06-26 (07:01): **APPROVED** (322 in-scope issues: 8 ERROR, 314 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-26 (07:01): **APPROVED** (1 actionable issue: 1 ERROR, 0 WARNING, 0 INFO)
@@ -46,12 +46,13 @@
 
 ---
 
-## Pending Review
+## Approved — 2026-06-27/28
 
-### 🆕 Output Validation — 2026-06-28 (23:07)
+### ✅ Output Validation — 2026-06-28 (23:07)
 
 **File:** [2026-06-28_output-report.md](2026-06-28_output-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-29
 **Created:** 2026-06-28 23:07:51 +07
 **Issues:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 **Files checked:** 464 (110 sources + 354 concepts)
@@ -71,10 +72,11 @@
 
 ---
 
-### 🆕 Format Validation — 2026-06-28 (23:15)
+### ✅ Format Validation — 2026-06-28 (23:15)
 
 **File:** [2026-06-28_format-report.md](2026-06-28_format-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-29
 **Created:** 2026-06-28 23:15:44 +0700
 **Issues:** 442 (127 ERROR, 315 WARNING, 0 INFO)
 **Files checked:** 623 (354 concepts + 110 sources + 33 indexes + 126 topics)
@@ -101,10 +103,11 @@
 
 ---
 
-### 🆕 Output Validation — 2026-06-27 (23:09)
+### ✅ Output Validation — 2026-06-27 (23:09)
 
 **File:** [2026-06-27_output-report.md](2026-06-27_output-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-29
 **Created:** 2026-06-27 23:09:26 +07
 **Issues:** 1 (0 ERROR, 0 WARNING, 1 INFO)
 **Files checked:** 464 (110 sources + 354 concepts)
@@ -125,10 +128,11 @@
 
 ---
 
-### 🆕 Format Validation — 2026-06-27 (23:16)
+### ✅ Format Validation — 2026-06-27 (23:16)
 
 **File:** [2026-06-27_format-report.md](2026-06-27_format-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-29
 **Created:** 2026-06-27 23:16:45 +0700
 **Issues:** 339 (24 ERROR, 315 WARNING, 0 INFO)
 **Files checked:** 623 (354 concepts + 110 sources + 33 indexes + 126 topics)
@@ -159,10 +163,11 @@
 
 ---
 
-### 🆕 Hygiene Inspection — 2026-06-27 (23:30)
+### ✅ Hygiene Inspection — 2026-06-27 (23:30)
 
 **File:** [2026-06-27_hygiene-report.md](2026-06-27_hygiene-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-29
 **Created:** 2026-06-27 23:30:12 +07
 **Issues:** 1 (1 ERROR, 0 WARNING, 0 INFO)
 **Paths checked:** 17,526
@@ -190,10 +195,11 @@
 
 ---
 
-### 🆕 Hygiene Inspection — 2026-06-28 (23:30)
+### ✅ Hygiene Inspection — 2026-06-28 (23:30)
 
 **File:** [2026-06-28_hygiene-report.md](2026-06-28_hygiene-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-06-29
 **Created:** 2026-06-28 23:30:00 +07
 **Issues:** 2 (0 ERROR, 2 WARNING, 0 INFO)
 **Paths checked:** 51,528
@@ -909,7 +915,12 @@ openclaw fix apply
 
 ## Recent Reports
 
-- [2026-06-26] Output Report (23:01 update) — **PENDING**
+- [2026-06-28] Hygiene Report — **APPROVED** (2026-06-29)
+- [2026-06-28] Format Report — **APPROVED** (2026-06-29)
+- [2026-06-28] Output Report — **APPROVED** (2026-06-29)
+- [2026-06-27] Hygiene Report — **APPROVED** (2026-06-29)
+- [2026-06-27] Format Report — **APPROVED** (2026-06-29)
+- [2026-06-27] Output Report — **APPROVED** (2026-06-29)
 - [2026-06-26] Hygiene Report — **APPROVED** (2026-06-26 07:12)
 - [2026-06-26] Format Report — **APPROVED** (2026-06-26 07:12)
 - [2026-06-26] Output Report — **APPROVED** (2026-06-26 07:12)

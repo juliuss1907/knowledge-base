@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 85 files
-- By status: 85 processed, 0 unprocessed
+- Total: 86 files
+- By status: 85 processed, 1 unprocessed
 - By date: 13 this week, 75 this month
 - Last updated: 2026-06-29
 
 ## Items
+- [[2026-06-29_loop-engineering-14-step-roadmap]] — Loop Engineering: The 14-Step Roadmap from Prompter to Loop Designer by Codez (@0xCodez) (unprocessed)
+
 - [[2026-06-28_how-to-live-without-options]] — How to Live Without Options by Joan Westenberg (processed)
 
 - [[2026-06-27_play-long-term-games-with-long-term-people]] — Play long-term games with long-term people by Naval Ravikant (processed)

@@ -1,15 +1,8 @@
----
-type: index
-scope: topic
-parent: "[[topic]]"
-topic: journalism-ai-era
-auto_generated: true
-last_updated: 2026-06-29 21:10:54
----
-
 # Topic: journalism-ai-era
 
 Auto-generated index of all content with topic `journalism-ai-era`.
+
+Last updated: 2026-06-30 21:04:19
 
 ---
 
@@ -22,8 +15,3 @@ Auto-generated index of all content with topic `journalism-ai-era`.
 ## Sources (1)
 
 - [[src_nha-bao-lam-gi]] — main: #ai, sub: [#opinion, #news]
-
-## Related topics
-
-Topics that share concepts/sources with `journalism-ai-era`:
-- (none)

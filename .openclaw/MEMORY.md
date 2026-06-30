@@ -2387,3 +2387,13 @@
 - 290 broken wikilinks — forward-reference backlog, deprioritized
 - Tag index template — systematic, needs Index Agent SKILL.md update
 
+
+## 2026-06-30 21:04:19 — Indexed (cron: daily 21:00)
+
+- **Scanned:** 361 concepts + 112 sources = 473 total files
+- **Tags indexed:** 23 (9 main-tags + 14 sub-tags)
+- **Topics indexed:** 128
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Warnings:** 0
+- **Errors:** 0

@@ -1,15 +1,8 @@
----
-type: index
-scope: topic
-parent: "[[topic]]"
-topic: leader-leader-leadership
-auto_generated: true
-last_updated: 2026-06-29 21:10:54
----
-
 # Topic: leader-leader-leadership
 
 Auto-generated index of all content with topic `leader-leader-leadership`.
+
+Last updated: 2026-06-30 21:04:19
 
 ---
 
@@ -25,8 +18,3 @@ Auto-generated index of all content with topic `leader-leader-leadership`.
 ## Sources (1)
 
 - [[src_shift-leader-follower-to-leader-leader]] — main: #productivity, sub: [#research, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `leader-leader-leadership`:
-- (none)

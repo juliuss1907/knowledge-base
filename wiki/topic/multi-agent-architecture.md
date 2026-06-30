@@ -1,15 +1,8 @@
----
-type: index
-scope: topic
-parent: "[[topic]]"
-topic: multi-agent-architecture
-auto_generated: true
-last_updated: 2026-06-29 21:10:54
----
-
 # Topic: multi-agent-architecture
 
 Auto-generated index of all content with topic `multi-agent-architecture`.
+
+Last updated: 2026-06-30 21:04:19
 
 ---
 
@@ -20,8 +13,3 @@ Auto-generated index of all content with topic `multi-agent-architecture`.
 
 ## Sources (0)
 
-
-## Related topics
-
-Topics that share concepts/sources with `multi-agent-architecture`:
-- (none)

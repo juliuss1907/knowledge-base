@@ -1,61 +1,47 @@
 ---
 type: index
-scope: tag
 level: 3
+scope: tag
 parent: "[[tag]]"
 tag: coding
 auto_generated: true
-last_updated: 2026-06-29 21:10:54
+last_updated: 2026-06-30
 ---
 
 # Tag: #coding
 
-Auto-generated index of all content tagged with `#coding`.
-
----
-
-## Concepts (7)
-
-- [[agent-harness]] — main: #ai, sub: [#automation, #tools, #coding], topic: code-as-agent-harness
-- [[bpe-algorithm]] — main: #ai, sub: [#research, #coding], topic: tokenization-llm
-- [[byte-level-bpe]] — main: #ai, sub: [#research, #coding], topic: tokenization-llm
-- [[code-as-substrate]] — main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness
-- [[handoff-skill]] — main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff
-- [[long-context-models]] — main: #ai, sub: [#research, #coding], topic: llm-capabilities
-- [[plan-execute-verify-loop]] — main: #ai, sub: [#automation, #research, #coding], topic: code-as-agent-harness
-
-## Sources (2)
-
-- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
-- [[src_handoff-skill-context-window-management]] — main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff
-
-
 ## Parent
 
-[[tag]]
+- [[tag]]
 
 ## Stats
 
-- **Files:** 9 (7 concepts + 2 sources)
-- **Last updated:** 2026-06-29
+- Total files: 14
+- Sources: 3
+- Concepts: 11
+- Last updated: 2026-06-30
 
 ## Files with this tag
 
-- [[agent-harness]] — main: #ai, sub: [#automation, #tools, #coding], topic: code-as-agent-harness
-- [[bpe-algorithm]] — main: #ai, sub: [#research, #coding], topic: tokenization-llm
-- [[byte-level-bpe]] — main: #ai, sub: [#research, #coding], topic: tokenization-llm
-- [[code-as-substrate]] — main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness
-- [[handoff-skill]] — main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff
-- [[long-context-models]] — main: #ai, sub: [#research, #coding], topic: llm-capabilities
-- [[plan-execute-verify-loop]] — main: #ai, sub: [#automation, #research, #coding], topic: code-as-agent-harness
-- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
-- [[src_handoff-skill-context-window-management]] — main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff
+- [[agent-harness]] — Agent Harness (concept)
+- [[bpe-algorithm]] — Bpe Algorithm (concept)
+- [[byte-level-bpe]] — Byte Level Bpe (concept)
+- [[code-as-substrate]] — Code As Substrate (concept)
+- [[cognitive-surrender]] — Cognitive Surrender (concept)
+- [[comprehension-debt]] — Comprehension Debt (concept)
+- [[handoff-skill]] — Handoff Skill (concept)
+- [[long-context-models]] — Long Context Models (concept)
+- [[loop-engineering]] — Loop Engineering (concept)
+- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
+- [[ralph-wiggum-loop]] — Ralph Wiggum Loop (concept)
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
+- [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)
+- [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#coding`:
-- `#ai` (9 files)
-- `#research` (5 files)
-- `#automation` (4 files)
-- `#tools` (4 files)
-- `#vibecode` (1 files)
+- [[ai]] — 14 co-occurrences
+- [[automation]] — 9 co-occurrences
+- [[research]] — 5 co-occurrences
+- [[tools]] — 4 co-occurrences
+- [[tutorial]] — 1 co-occurrence

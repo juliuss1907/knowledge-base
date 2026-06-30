@@ -1,15 +1,8 @@
----
-type: index
-scope: topic
-parent: "[[topic]]"
-topic: generative-search-results
-auto_generated: true
-last_updated: 2026-06-29 21:10:54
----
-
 # Topic: generative-search-results
 
 Auto-generated index of all content with topic `generative-search-results`.
+
+Last updated: 2026-06-30 21:04:19
 
 ---
 
@@ -19,8 +12,3 @@ Auto-generated index of all content with topic `generative-search-results`.
 
 ## Sources (0)
 
-
-## Related topics
-
-Topics that share concepts/sources with `generative-search-results`:
-- (none)

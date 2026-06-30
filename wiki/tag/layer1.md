@@ -1,49 +1,35 @@
 ---
 type: index
-scope: tag
 level: 3
+scope: tag
 parent: "[[tag]]"
 tag: layer1
 auto_generated: true
-last_updated: 2026-06-29 21:10:54
+last_updated: 2026-06-30
 ---
 
 # Tag: #layer1
 
-Auto-generated index of all content tagged with `#layer1`.
-
----
-
-## Concepts (3)
-
-- [[ai-lab-crypto-analogy]] — main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics
-- [[altcoin-frenzy-pattern]] — main: #economic, sub: [#layer1, #opinion], topic: market-cycles
-- [[infrastructure-capex-cycle]] — main: #economic, sub: [#layer1, #ai], topic: market-cycles
-
-## Sources (1)
-
-- [[src_l1-blockchain-ai-lab-comparison]] — main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics
-
-
 ## Parent
 
-[[tag]]
+- [[tag]]
 
 ## Stats
 
-- **Files:** 4 (3 concepts + 1 sources)
-- **Last updated:** 2026-06-29
+- Total files: 4
+- Sources: 1
+- Concepts: 3
+- Last updated: 2026-06-30
 
 ## Files with this tag
 
-- [[ai-lab-crypto-analogy]] — main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics
-- [[altcoin-frenzy-pattern]] — main: #economic, sub: [#layer1, #opinion], topic: market-cycles
-- [[infrastructure-capex-cycle]] — main: #economic, sub: [#layer1, #ai], topic: market-cycles
-- [[src_l1-blockchain-ai-lab-comparison]] — main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics
+- [[ai-lab-crypto-analogy]] — Ai Lab Crypto Analogy (concept)
+- [[altcoin-frenzy-pattern]] — Altcoin Frenzy Pattern (concept)
+- [[infrastructure-capex-cycle]] — Infrastructure Capex Cycle (concept)
+- [[src_l1-blockchain-ai-lab-comparison]] — L1 Blockchain Ai Lab Comparison (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#layer1`:
-- `#opinion` (3 files)
-- `#ai` (3 files)
-- `#economic` (2 files)
+- [[opinion]] — 3 co-occurrences
+- [[ai]] — 3 co-occurrences
+- [[economic]] — 2 co-occurrences

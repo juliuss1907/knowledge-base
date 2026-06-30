@@ -1,15 +1,8 @@
----
-type: index
-scope: topic
-parent: "[[topic]]"
-topic: compounding-growth
-auto_generated: true
-last_updated: 2026-06-29 21:10:54
----
-
 # Topic: compounding-growth
 
 Auto-generated index of all content with topic `compounding-growth`.
+
+Last updated: 2026-06-30 21:04:19
 
 ---
 
@@ -26,8 +19,3 @@ Auto-generated index of all content with topic `compounding-growth`.
 ## Sources (1)
 
 - [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `compounding-growth`:
-- (none)

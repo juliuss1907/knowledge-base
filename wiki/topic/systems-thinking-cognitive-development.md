@@ -1,15 +1,8 @@
----
-type: index
-scope: topic
-parent: "[[topic]]"
-topic: systems-thinking-cognitive-development
-auto_generated: true
-last_updated: 2026-06-29 21:10:54
----
-
 # Topic: systems-thinking-cognitive-development
 
 Auto-generated index of all content with topic `systems-thinking-cognitive-development`.
+
+Last updated: 2026-06-30 21:04:19
 
 ---
 
@@ -24,8 +17,3 @@ Auto-generated index of all content with topic `systems-thinking-cognitive-devel
 ## Sources (1)
 
 - [[src_systems-thinking-rabbit-hole]] — main: #productivity, sub: [#research, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `systems-thinking-cognitive-development`:
-- (none)

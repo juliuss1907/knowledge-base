@@ -23,12 +23,16 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 92 files
-- By status: 86 processed, 6 unprocessed
+- Total: 94 files
+- By status: 86 processed, 8 unprocessed
 - By date: 13 this week, 75 this month
 - Last updated: 2026-06-30
 
 ## Items
+- [[2026-06-30_output-vs-outcome-formula]] — Công Thức Xác Định Output vs Outcome by Incentivising (unprocessed)
+
+- [[2026-06-30_bai-toan-dung-la-gi-va-cach-giai]] — Bài Toán Đúng — Cách Xác Định và Giải Quyết by Incentivising (unprocessed)
+
 - [[2026-06-30_tao-ket-qua-dinh-luong-duoc]] — Tạo Kết Quả Định Lượng Được — Cách Thực Hiện Cụ Thể by Incentivising (unprocessed)
 
 - [[2026-06-30_the-laws-of-this-world]] — The Laws of this World (Game Theory) by Incentivising / Structuralist (unprocessed)

@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 86 files
+- Total: 87 files
 - By status: 86 processed, 0 unprocessed
 - By date: 13 this week, 75 this month
 - Last updated: 2026-06-30
 
 ## Items
+- [[2026-06-30_cach-thoat-khoi-prices-law]] — Cách Thoát Khỏi n-√n: Chiến Lược Vượt Price's Law by Markus (unprocessed)
+
 - [[2026-06-29_loop-engineering-14-step-roadmap]] — Loop Engineering: The 14-Step Roadmap from Prompter to Loop Designer by Codez (@0xCodez) (processed)
 
 - [[2026-06-28_how-to-live-without-options]] — How to Live Without Options by Joan Westenberg (processed)

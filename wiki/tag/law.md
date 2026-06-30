@@ -25,6 +25,24 @@ Auto-generated index of all content tagged with `#law`.
 - [[src_aaron-wright-ai-agents-legal-body]] — main: #ai, sub: [#law, #tools], topic: ai-legal-personhood
 - [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance
 
+
+## Parent
+
+[[tag]]
+
+## Stats
+
+- **Files:** 5 (3 concepts + 2 sources)
+- **Last updated:** 2026-06-29
+
+## Files with this tag
+
+- [[agency-law]] — main: #ai, sub: [#law, #research], topic: ai-legal-personhood
+- [[ai-legal-personhood]] — main: #ai, sub: [#law, #tools], topic: ai-legal-personhood
+- [[zero-member-llc]] — main: #ai, sub: [#law, #tools], topic: ai-legal-personhood
+- [[src_aaron-wright-ai-agents-legal-body]] — main: #ai, sub: [#law, #tools], topic: ai-legal-personhood
+- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance
+
 ## Co-occurring tags
 
 Tags that frequently appear with `#law`:

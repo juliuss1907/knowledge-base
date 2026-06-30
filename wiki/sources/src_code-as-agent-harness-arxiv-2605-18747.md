@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-05-22_code-as-agent-harness-arxiv-2605-18747]]"
+original: "[[2026-05-22_ning-et-al_code-as-agent-harness]]"
 main_tag: ai
 sub_tags: [research, coding]
 topic: code-as-agent-harness

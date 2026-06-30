@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-06-04_thermodynamics]]"
+original: "[[2026-06-04_unknown_thermodynamics]]"
 main_tag: productivity
 sub_tags: [psychology, research]
 topic: mental-models

@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-05-28_petrodollar-system-analysis]]"
+original: "[[2026-05-28_ashna-writes_petrodollar-system-analysis]]"
 main_tag: economic
 sub_tags: [research, opinion]
 topic: petrodollar-collapse

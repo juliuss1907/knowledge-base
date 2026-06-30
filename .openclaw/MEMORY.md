@@ -2364,3 +2364,26 @@
 - Tags indexed: 23 (9 main-tags + 14 sub-tags có file)
 - Topics indexed: 127
 - Orphans deleted: 0 tags, 0 topics
+
+## 2026-06-30 08:35 — Applied fixes from 3 Hermes reports (2026-06-29 batch)
+
+**Reports applied:**
+- Output 06-29: 0 issues — nothing to fix
+- Format 06-29: 69 ERROR + 317 WARNING
+- Hygiene 06-29: 0 issues — nothing to fix
+
+**Fixes applied:**
+- Added `## Parent`, `## Stats`, `## Files with this tag` sections to 23 tag index files (23 files × 3 sections = 69 ERROR resolved)
+- Fixed 6 source files with broken raw-file references:
+  - `src_code-as-agent-harness-arxiv-2605-18747.md` → `2026-05-22_ning-et-al_code-as-agent-harness`
+  - `src_llm-need-sleep-consolidation.md` → `2026-05-27_lee-et-al_llm-need-sleep-consolidation`
+  - `src_petrodollar-system-analysis.md` → `2026-05-28_ashna-writes_petrodollar-system-analysis`
+  - `src_personal-mba-generator-skill.md` → `2026-06-27_aiskilloftheweek_personal-mba-generator-skill`
+  - `src_sop-writer-skill.md` → `2026-06-27_aiskilloftheweek_sop-writer-skill`
+  - `src_thermodynamics.md` → `2026-06-04_unknown_thermodynamics`
+- Archived 3 reports to archive/2026-06/
+
+**Not fixed:**
+- 290 broken wikilinks — forward-reference backlog, deprioritized
+- Tag index template — systematic, needs Index Agent SKILL.md update
+

@@ -27,6 +27,26 @@ Auto-generated index of all content tagged with `#vibecode`.
 - [[src_loop-native-factory]] — main: #ai, sub: [#tools, #vibecode, #research], topic: loop-native-factory
 - [[src_the-seed-and-the-machine]] — main: #ai, sub: [#vibecode, #system, #research], topic: seed-vs-machine-architecture
 
+
+## Parent
+
+[[tag]]
+
+## Stats
+
+- **Files:** 7 (5 concepts + 2 sources)
+- **Last updated:** 2026-06-29
+
+## Files with this tag
+
+- [[code-as-substrate]] — main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness
+- [[hermes-agent]] — main: #ai, sub: [#tools, #automation, #vibecode], topic: hermes-polymarket-trading-agent
+- [[loop-native-factory]] — main: #ai, sub: [#vibecode, #system], topic: ai-engineering
+- [[seed-vs-machine-architecture]] — main: #ai, sub: [#system, #vibecode], topic: ai-architecture
+- [[vibe-coding]] — main: #ai, sub: [#tools, #vibecode], topic: ai-future-skills
+- [[src_loop-native-factory]] — main: #ai, sub: [#tools, #vibecode, #research], topic: loop-native-factory
+- [[src_the-seed-and-the-machine]] — main: #ai, sub: [#vibecode, #system, #research], topic: seed-vs-machine-architecture
+
 ## Co-occurring tags
 
 Tags that frequently appear with `#vibecode`:

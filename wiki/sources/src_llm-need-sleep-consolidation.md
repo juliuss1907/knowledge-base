@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-05-27_llm-need-sleep-consolidation]]"
+original: "[[2026-05-27_lee-et-al_llm-need-sleep-consolidation]]"
 main_tag: ai
 sub_tags: [research, tools]
 topic: llm-memory-consolidation

@@ -26,6 +26,25 @@ Auto-generated index of all content tagged with `#investment`.
 - [[src_global-macro-investing]] — main: #investment, sub: [#opinion, #tutorial], topic: global-macro-investing
 - [[src_investment-principles-dalio]] — main: #investment, sub: [#opinion, #research], topic: investment-principles
 
+
+## Parent
+
+[[tag]]
+
+## Stats
+
+- **Files:** 6 (4 concepts + 2 sources)
+- **Last updated:** 2026-06-29
+
+## Files with this tag
+
+- [[diversification-strategy]] — main: #investment, sub: [#research], topic: investment-principles
+- [[five-big-forces]] — main: #investment, sub: [#research], topic: investment-principles
+- [[global-macro-investing]] — main: #investment, sub: [#tutorial], topic: global-macro-investing
+- [[holy-grail-investing]] — main: #investment, sub: [#research], topic: investment-principles
+- [[src_global-macro-investing]] — main: #investment, sub: [#opinion, #tutorial], topic: global-macro-investing
+- [[src_investment-principles-dalio]] — main: #investment, sub: [#opinion, #research], topic: investment-principles
+
 ## Co-occurring tags
 
 Tags that frequently appear with `#investment`:

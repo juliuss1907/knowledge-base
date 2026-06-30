@@ -24,6 +24,23 @@ Auto-generated index of all content tagged with `#defi`.
 ## Sources (0)
 
 
+
+## Parent
+
+[[tag]]
+
+## Stats
+
+- **Files:** 4 (4 concepts + 0 sources)
+- **Last updated:** 2026-06-29
+
+## Files with this tag
+
+- [[cookie-fun-mcp]] — main: #crypto, sub: [#tools, #defi], topic: hermes-xai-grok-integration
+- [[polymarket]] — main: #crypto, sub: [#defi, #tools], topic: hermes-polymarket-trading-agent
+- [[prediction-market-dashboard]] — main: #crypto, sub: [#tools, #defi], topic: hermes-operator-builder-pattern
+- [[softbank-carry-trade]] — main: #economic, sub: [#news, #defi], topic: ai-funding-dynamics
+
 ## Co-occurring tags
 
 Tags that frequently appear with `#defi`:

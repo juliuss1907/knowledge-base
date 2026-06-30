@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-06-27_sop-writer-skill]]"
+original: "[[2026-06-27_aiskilloftheweek_sop-writer-skill]]"
 main_tag: productivity
 sub_tags: [tools, automation]
 topic: sop-writer

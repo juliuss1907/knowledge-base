@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-06-27_personal-mba-generator-skill]]"
+original: "[[2026-06-27_aiskilloftheweek_personal-mba-generator-skill]]"
 main_tag: productivity
 sub_tags: [tools, psychology]
 topic: skill-acquisition

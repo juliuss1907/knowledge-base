@@ -141,6 +141,27 @@ Older reports and archived files may still contain literal `pending` in historic
 
 4. **Do NOT archive reports yet** — Fix Agent archives after applying fixes
 
+5. **Verify all changes landed correctly** — After patching reports + `_action-required.md`, run a quick verification sweep. The system will flag edits as "unverified" until you provide evidence.
+
+   **Minimum verification checks:**
+   ```bash
+   # Check all report files have approved status
+   grep -c "Status.*approved" wiki/reviews/YYYY-MM-DD_*-report.md
+
+   # Check dashboard pending count is 0
+   grep "Pending reports" wiki/reviews/_action-required.md
+
+   # Check no residual 🔲 (pending) badges for the approved date
+   grep -c "🔲.*YYYY-MM-DD" wiki/reviews/_action-required.md
+
+   # Check section heading was renamed Pending → Approved
+   grep "^## Approved.*YYYY-MM-DD" wiki/reviews/_action-required.md
+   ```
+
+   **Or use the reusable script:** `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-approval.sh YYYY-MM-DD`
+
+   **⚠️ PITFALL — System demands in-turn evidence:** If verification ran in a previous turn, the system will re-flag edits as unverified even though checks already passed. Re-run the verification inline in the current turn with a simple `grep` one-liner to satisfy the gate. This is a platform behavior, not a task failure.
+
 ### Approval vs Applied
 
 | Status | Meaning | Next Action |

@@ -10,11 +10,12 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-29 đã được approve: Output (23:00), Format (23:15), Hygiene (23:30).
 
 **Status:**
+- 🔲 Output Validator — 2026-06-30 (23:06): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-29 (23:30): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Format Validator — 2026-06-29 (23:15): **APPROVED** (386 issues: 69 ERROR, 317 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-29 (23:00): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
@@ -46,6 +47,33 @@
 - ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+
+---
+
+## Pending — 2026-06-30
+
+### 🔲 Output Validation — 2026-06-30 (23:06)
+
+**File:** [2026-06-30_output-report.md](2026-06-30_output-report.md)
+**Status:** pending
+**Created:** 2026-06-30 23:06:51 +0700
+**Issues:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+**Files checked:** 473 (112 sources + 361 concepts)
+**New files:** 11 (5 compiled today — loop-engineering cluster + 6 carry-over from May-June)
+
+**Summary:**
+- 5 file mới hôm nay tạo cluster `loop-engineering`: 1 source + 4 concepts (loop-engineering, cognitive-surrender, ralph-wiggum-loop, comprehension-debt)
+- 4 concept liên kết chéo hoàn chỉnh, tất cả backlink resolve đúng
+- 6 source file được compile từ tháng 5-6 nay lần đầu validate — tất cả sạch
+- Tất cả concept có Definition 2-3 câu, Key ideas 5-8 ý
+- Không typo "ngưởi", không typo "ngườii/đờii..." (double-i), không truncated files
+- Systemic patterns carry-over: 359 one-sentence definitions, 81 few key points, 9 empty Key ideas, 191 draft concepts
+- Không có ERROR, WARNING, hoặc INFO nào — batch clean hoàn toàn
+
+**Actions:**
+- Không cần action
+
+**Report:** `wiki/reviews/2026-06-30_output-report.md`
 
 ---
 

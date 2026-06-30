@@ -182,6 +182,12 @@ For complete validation algorithm, scoring rubrics, and error handling, see:
 
 After successful validation run:
 
+0. **Verify structural integrity** (all 3 output files):
+   ```bash
+   bash .hermes/skills/output-validator/scripts/verify-output.sh
+   ```
+   This checks `_action-required.md` (pending count, status line, section uniqueness, no corruption), today's output report (exists + all 5 required sections), and `.hermes/MEMORY.md` (log entry present). Exit code 0 = all good.
+
 1. **Verify report written:**
    ```bash
    test -f "wiki/reviews/$(date +%Y-%m-%d)_output-report.md"

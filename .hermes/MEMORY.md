@@ -487,3 +487,11 @@
 - **Report:** wiki/reviews/2026-06-29_format-report.md
 - **Top violations:** 69 tag-section ERROR (23 wiki/tag/*.md files missing ## Parent, ## Stats, ## Files with this tag), 317 broken wikilinks (194 unique targets)
 - **Delta:** -58 ERROR (126 topic-file frontmatter + 1 slug resolved), +2 WARNING
+
+## 2026-06-30 23:06:51 — Output validation
+
+- **Files checked:** 473 (112 sources + 361 concepts)
+- **New files:** 11 (5 compiled today + 6 carry-over from May-June)
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-30_output-report.md
+- **Summary:** Batch clean hoàn toàn. 5 file mới tạo cluster `loop-engineering` chặt chẽ: 1 source (14-step roadmap by Codez) + 4 concepts (loop-engineering, cognitive-surrender, ralph-wiggum-loop, comprehension-debt). 6 source file cũ hơn (code-as-agent-harness, llm-need-sleep, thermodynamics, petrodollar, sop-writer, personal-mba-generator) lần đầu validate đều sạch. Tất cả concept có Definition 2-3 câu, Key ideas 5-8 ý. Không typo, không truncated. Systemic patterns: 359 one-sentence definitions, 81 few key points, 9 empty Key ideas, 191 draft concepts.

@@ -3,6 +3,13 @@
 - Source note: wiki/sources/src_how-to-live-without-options.md
 - Concepts: [reversibility-paradox, synthetic-happiness, real-options-theory]
 - Tags applied: main=#productivity, sub=[#psychology, #opinion, #research], topic=optionality-paradox
+
+## 2026-06-30 08:00 — Compiled
+- Raw: raw/articles/2026-06-29_loop-engineering-14-step-roadmap.md
+- Source note: wiki/sources/src_loop-engineering-14-step-roadmap.md
+- Concepts: [loop-engineering, ralph-wiggum-loop, comprehension-debt, cognitive-surrender]
+- Tags applied: main=#ai, sub=[#automation, #coding, #tutorial], topic=loop-engineering
+- Action: created 1 source note, created 4 concept files
 - Action: created 3 concept files
 
 ## 2026-06-25 15:51 — Ingested

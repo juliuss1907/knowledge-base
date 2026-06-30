@@ -7,8 +7,10 @@ author: Codez (@0xCodez)
 title: "Loop Engineering: The 14-Step Roadmap from Prompter to Loop Designer"
 date_ingested: 2026-06-29
 date_published: 2026-06-09
-tags: [ai, engineering, automation]
-status: unprocessed
+tags: [ai, automation, coding, tutorial]
+status: processed
+compiled_at: 2026-06-30
+compiled_to: "[[src_loop-engineering-14-step-roadmap]]"
 ---
 
 # Loop Engineering: The 14-Step Roadmap from Prompter to Loop Designer

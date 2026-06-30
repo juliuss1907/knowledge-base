@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 89 files
+- Total: 90 files
 - By status: 86 processed, 0 unprocessed
 - By date: 13 this week, 75 this month
 - Last updated: 2026-06-30
 
 ## Items
+- [[2026-06-30_youre-being-trained-for-a-world-that-no-longer-exists]] — You're Being Trained for a World That No Longer Exists by Hussain Ibarra (unprocessed)
+
 - [[2026-06-30_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone, At Any Time: The Art of Extroversion by Gabriel Reality (unprocessed)
 
 

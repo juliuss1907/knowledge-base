@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat
 
-**Last Check:** 2026-07-01 03:30 (Asia/Saigon)
+**Last Check:** 2026-07-01 04:30 (Asia/Saigon)
 **Status:** ISSUES_FOUND
 
 ## Issues
@@ -11,5 +11,5 @@
 ## Details
 - Inbox: Clean (Tasks/ không tồn tại)
 - Raw backlog: 8 files from 2026-06-30 (CompileAgent chạy 08:00)
-- Concept check: OK (`prices-law.md`, `approach-avoidance-conflict.md` — valid backlinks)
+- Concept check: OK (`structural-competition.md`, `probabilistic-thinking.md` — valid backlinks)
 - Pending reviews: 3 in `_action-required.md` (Output 23:06 clean, Format 23:17 — 128E/311W, Hygiene 23:30 clean)

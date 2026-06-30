@@ -256,6 +256,12 @@ After Julius approves reports and Fix Agent applies fixes, re-run all 3 validato
    - **Systemic — needs re-compile** — content quality issues (Summary 1-dòng, Key Points <3, Definition too short). Fix Agent cannot expand content.
 4. **Update `_action-required.md`** with v2 reports, prepending above v1 entries
 
+### Ad-Hoc Verification ("recheck")
+
+When Julius says **"recheck"** after summarizing work done (e.g., tag file updates, raw reference fixes, archive moves), this is an ad-hoc verification against the repo — NOT part of the formal validation pipeline. See `references/ad-hoc-verification.md` for the full workflow and verification scripts.
+
+Key pattern: use `git diff <commit-before>..<commit-after>` to verify claimed changes, compare claimed vs actual counts, and report discrepancies.
+
 ### Compile Agent Patching Pattern
 
 When systemic issues trace to Compile Agent config, patch these files (NOT individual wiki files):
@@ -360,6 +366,7 @@ Ingest Agent config lives at `.openclaw/skills/ingest-agent/`. Files to patch:
 ### Reference Files
 
 - `references/format_validator.py` — Complete standalone validation script (Python). Run with `python3 references/format_validator.py` from knowledge-base root. Writes report to `wiki/reviews/YYYY-MM-DD_format-report.md`.
+- `references/ad-hoc-verification.md` — Ad-hoc verification workflow when Julius says "recheck". Covers git diff verification, section counting, wikilink checking, and common pitfalls.
 
 ## Fix Agent Trust Issues
 

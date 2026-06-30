@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-06-30
+**Last updated:** 2026-06-30 23:17
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả 3 báo cáo 2026-06-29 đã được approve: Output (23:00), Format (23:15), Hygiene (23:30).
 
 **Status:**
+- 🔲 Format Validator — 2026-06-30 (23:17): **PENDING** (439 issues: 128 ERROR, 311 WARNING, 0 INFO)
 - 🔲 Output Validator — 2026-06-30 (23:06): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-29 (23:30): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Format Validator — 2026-06-29 (23:15): **APPROVED** (386 issues: 69 ERROR, 317 WARNING, 0 INFO)
@@ -74,6 +75,37 @@
 - Không cần action
 
 **Report:** `wiki/reviews/2026-06-30_output-report.md`
+
+---
+
+### 🔲 Format Validation — 2026-06-30 (23:17)
+
+**File:** [2026-06-30_format-report.md](2026-06-30_format-report.md)
+**Status:** pending
+**Created:** 2026-06-30 23:17:02 +0700
+**Issues:** 439 (128 ERROR, 311 WARNING, 0 INFO)
+**Files checked:** 634 (361 concepts + 112 sources + 33 indexes + 128 topics)
+
+**Summary:**
+- 🔴 128 ERROR: Tất cả `wiki/topic/*.md` files thiếu YAML frontmatter — **regression** từ fix 06-29 (topic files bị mất frontmatter, có thể do Index Agent regenerate)
+- ⚠️ 311 WARNING: 290 broken wikilinks (194 unique targets, ổn định) + 21 forward-reference summary groups
+- ✅ 69 tag-file section ERROR từ 06-29 → **resolved** (tất cả 23 tag files hiện có Parent, Stats, Files sections)
+- ✅ 8 code-block language-tag ERROR từ 06-26 → confirmed still resolved
+- Top broken targets: `game-theory` (10x), `confirmation-bias` (8x), `pareto-principle` (6x)
+
+**Delta from 2026-06-29 (APPROVED):**
+- Positive: 69 tag section ERROR → 0 (resolved)
+- Negative: +128 topic frontmatter ERROR (regression)
+- WARNING: −6 (311 vs 317)
+- +6 files in scope (634 vs 628)
+
+**Actions:**
+- Review `wiki/reviews/2026-06-30_format-report.md`
+- Nếu approve: escalate `[SYSTEMATIC VIOLATION]` — cần update `index-agent/SKILL.md` topic file template để include YAML frontmatter block (Fix Agent patch từng file không đủ vì Index Agent sẽ overwrite)
+- Sau khi template fix, chạy Index Agent regenerate toàn bộ 128 topic files
+- Broken wikilink backlog ổn định, không cần ưu tiên
+
+**Report:** `wiki/reviews/2026-06-30_format-report.md`
 
 ---
 

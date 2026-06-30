@@ -170,6 +170,18 @@
 <!-- Entries appear below in reverse chronological order (newest first) --> 
 <!-- Hermes appends new entries here -->
 
+## 2026-06-30 23:17:02 — Format validation
+
+- **Files checked:** 634 (361 concepts + 112 sources + 33 indexes + 128 topics)
+- **Issues found:** 439 (128 ERROR, 311 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-06-30_format-report.md
+- **Top violations:**
+  - 128 ERROR: `wiki/topic/*.md` — tất cả topic files thiếu YAML frontmatter (regression từ fix 06-29)
+  - ~311 WARNING: Broken wikilinks (290 individual + 21 forward-reference groups, 194 unique targets, ổn định)
+  - ✅ 69 tag-file section ERROR từ 06-29 → resolved (all 23 tag files now have Parent, Stats, Files sections)
+- **Delta from 2026-06-29 (APPROVED):** +59 ERROR (128 topic frontmatter regression), −6 WARNING (311 vs 317), +6 files
+- **Escalation:** `[SYSTEMATIC VIOLATION]` Topic frontmatter regression — Fix Agent patch không đủ, cần update Index Agent template
+
 ## 2026-05-26 22:00:00 — Output validation
 
 - **Validator:** output-validator

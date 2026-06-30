@@ -30,7 +30,7 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Items
 
-- [[2026-06-30_khi-nao-nen-doi-huong-pivot-vs-persist]] — Khi Nào Nên Đổi Hướng: Pivot vs Persist by Markus (unprocessed)
+- [[2026-06-30_pivot-vs-persist-framework]] — Khi Nào Nên Đổi Hướng: Pivot vs Persist by Markus (unprocessed)
 
 - [[2026-06-30_cach-thoat-khoi-prices-law]] — Cách Thoát Khỏi n-√n: Chiến Lược Vượt Price's Law by Markus (unprocessed)
 

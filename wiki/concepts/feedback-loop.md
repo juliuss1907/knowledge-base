@@ -6,7 +6,8 @@ sub_tags: [tools]
 topic: systems-thinking-training
 sources:
   - "[[src_markus-systems-thinking-roadmap]]"
-last_updated: 2026-06-09
+  - "[[src_cach-thoat-khoi-prices-law]]"
+last_updated: 2026-07-01
 ---
 
 # Feedback Loop
@@ -27,6 +28,7 @@ Các vòng lặp trong hệ thống nơi output của một phần trở thành 
   - Tạo exponential growth hoặc collapse
 - **Câu hỏi:** "Loop nào đang khuếch đại vấn đề? Loop nào đang kìm hãm?"
 - Tìm loops là cốt lõi của system map
+- **Feedback loops trong thực chiến:** rút ngắn feedback loop là một trong những cách hiệu quả nhất để thoát nhóm n-√n (Price's Law). Nhóm √n không giỏi hơn ở lần thử đầu — họ thử-sai-sửa nhanh hơn. Nguyên tắc: nếu feedback loop > 1 tuần, nó quá chậm
 
 ## Related concepts
 
@@ -37,5 +39,6 @@ Các vòng lặp trong hệ thống nơi output của một phần trở thành 
 ## Sources
 
 - [[src_markus-systems-thinking-roadmap]]
+- [[src_cach-thoat-khoi-prices-law]]
 
 ## Notes

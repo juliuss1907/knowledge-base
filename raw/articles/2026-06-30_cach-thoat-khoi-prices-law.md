@@ -7,7 +7,9 @@ title: "Cách Thoát Khỏi n-√n: Chiến Lược Vượt Price's Law"
 date_ingested: 2026-06-30
 date_published: 2026-06-30
 tags: [productivity, psychology, system]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-01
+compiled_to: "[[src_cach-thoat-khoi-prices-law]]"
 ---
 
 # Cách Thoát Khỏi n-√n: Chiến Lược Vượt Price's Law

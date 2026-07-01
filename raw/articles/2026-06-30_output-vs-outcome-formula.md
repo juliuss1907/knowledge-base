@@ -7,7 +7,9 @@ title: "Công Thức Xác Định Output vs Outcome"
 date_ingested: 2026-06-30
 date_published: 2026-06-30
 tags: [productivity, system]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-01
+compiled_to: "[[src_output-vs-outcome-formula]]"
 ---
 
 # Công Thức Xác Định Output vs Outcome

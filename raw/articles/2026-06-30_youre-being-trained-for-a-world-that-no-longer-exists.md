@@ -8,7 +8,9 @@ title: "You're Being Trained for a World That No Longer Exists (Learn These 5 Sk
 date_ingested: 2026-06-30
 date_published: 2026-06-30
 tags: [productivity, ai, psychology]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-01
+compiled_to: "[[src_youre-being-trained-for-a-world-that-no-longer-exists]]"
 ---
 
 # You're Being Trained for a World That No Longer Exists

@@ -6,7 +6,8 @@ sub_tags: [psychology, opinion]
 topic: prices-law
 sources:
   - "[[src_mathematical-reason-most-people-never-make-it]]"
-last_updated: 2026-06-27
+  - "[[src_cach-thoat-khoi-prices-law]]"
+last_updated: 2026-07-01
 ---
 
 # prices-law
@@ -23,15 +24,20 @@ Quy luật toán học do Derek J. de Solla Price phát hiện năm 1963: căn b
 - Hệ quả tâm lý kép: high-performers → imposter syndrome (cảm giác "mình chỉ may mắn"), phần còn lại → Dunning-Kruger ("tôi làm việc chăm chỉ, sao không thấy kết quả?").
 - Ứng dụng: (1) content — √n bài đăng tạo 50% kết quả, (2) kỹ năng — √n kỹ năng tạo 50% giá trị, double down, (3) thời gian — 6/40 giờ/tuần là high-leverage.
 - Quan trọng: không thể biết trước cái nào thuộc √n. Phải trải qua giai đoạn [[explore-exploit-tradeoff]]: explore đủ nhiều rồi mới exploit.
+- Chiến lược thoát khỏi n-√n: duration > intensity (ở lại đủ lâu để compounding kích hoạt), rút ngắn feedback loop, không sửa điểm yếu mà đổi game, stack 2-3 skill top 10% thành top 1% ([[talent-stack]]), dùng [[leverage]] thay vì thời gian.
 
 ## Related concepts
 
 - [[power-law-distribution]]
 - [[explore-exploit-tradeoff]]
+- [[talent-stack]]
+- [[compounding-effect]]
+- [[leverage]]
 
 ## Sources
 
 - [[src_mathematical-reason-most-people-never-make-it]]
+- [[src_cach-thoat-khoi-prices-law]]
 
 ## Notes
 

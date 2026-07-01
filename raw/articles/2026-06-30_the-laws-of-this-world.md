@@ -8,7 +8,9 @@ title: "The Laws of this World (Game Theory)"
 date_ingested: 2026-06-30
 date_published: 2026-06-30
 tags: [productivity, psychology, economic]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-01
+compiled_to: "[[src_the-laws-of-this-world]]"
 ---
 
 # The Laws of this World (Game Theory)

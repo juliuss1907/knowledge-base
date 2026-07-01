@@ -1,3 +1,54 @@
+## 2026-07-01 08:00 — Compiled (Batch Daily)
+- 8 files compiled, 0 failed, 0 unprocessed remaining
+
+### File 1: raw/articles/2026-06-30_bai-toan-dung-la-gi-va-cach-giai.md
+- Source note: src_bai-toan-dung-la-gi-va-cach-giai
+- Concepts: right-problem-framework (new)
+- Tags: main=#productivity, sub=[#psychology, #system], topic=right-problem-framework
+
+### File 2: raw/articles/2026-06-30_cach-thoat-khoi-prices-law.md
+- Source note: src_cach-thoat-khoi-prices-law
+- Concepts: talent-stack (new), prices-law (updated), feedback-loop (updated), leverage (updated)
+- Tags: main=#productivity, sub=[#psychology], topic=prices-law-strategies
+
+### File 3: raw/articles/2026-06-30_how-to-talk-to-anyone-at-any-time.md
+- Source note: src_how-to-talk-to-anyone-at-any-time
+- Concepts: extroversion-as-skill (new), brain-coupling (new), dopamine-reward-network (new)
+- Tags: main=#productivity, sub=[#psychology, #tutorial], topic=art-of-extroversion
+
+### File 4: raw/articles/2026-06-30_output-vs-outcome-formula.md
+- Source note: src_output-vs-outcome-formula
+- Concepts: output-vs-outcome (new)
+- Tags: main=#productivity, sub=[#system], topic=output-vs-outcome
+
+### File 5: raw/articles/2026-06-30_pivot-vs-persist-framework.md
+- Source note: src_pivot-vs-persist-framework
+- Concepts: pivot-vs-persist (new)
+- Tags: main=#productivity, sub=[#psychology], topic=pivot-vs-persist
+
+### File 6: raw/articles/2026-06-30_tao-ket-qua-dinh-luong-duoc.md
+- Source note: src_tao-ket-qua-dinh-luong-duoc
+- Concepts: costly-signal (new), measurable-outcomes (new), output-vs-outcome (updated)
+- Tags: main=#productivity, sub=[#system, #coding], topic=measurable-outcomes
+
+### File 7: raw/articles/2026-06-30_the-laws-of-this-world.md
+- Source note: src_the-laws-of-this-world
+- Concepts: laws-of-the-world (new), deliberate-practice (new), costly-signal (updated), output-vs-outcome (updated)
+- Tags: main=#productivity, sub=[#psychology, #opinion], topic=laws-of-the-world
+
+### File 8: raw/articles/2026-06-30_youre-being-trained-for-a-world-that-no-longer-exists.md
+- Source note: src_youre-being-trained-for-a-world-that-no-longer-exists
+- Concepts: creativity-as-skill (new), idea-economy (new), high-agency (updated)
+- Tags: main=#ai, sub=[#opinion, #tutorial, #coding], topic=future-proof-skills
+
+### Summary
+- Processed: 8/8
+- New concepts created: 13 (right-problem-framework, talent-stack, extroversion-as-skill, brain-coupling, dopamine-reward-network, output-vs-outcome, pivot-vs-persist, costly-signal, measurable-outcomes, laws-of-the-world, deliberate-practice, creativity-as-skill, idea-economy)
+- Existing concepts updated: 4 (prices-law, feedback-loop, leverage, high-agency)
+- New source notes: 8
+- Topics: right-problem-framework, prices-law-strategies, art-of-extroversion, output-vs-outcome, pivot-vs-persist, measurable-outcomes, laws-of-the-world, future-proof-skills
+- Tag proposals: 0
+- Failed: 0
 ## 2026-06-29 08:00 — Compiled
 - Raw: raw/articles/2026-06-28_how-to-live-without-options.md
 - Source note: wiki/sources/src_how-to-live-without-options.md

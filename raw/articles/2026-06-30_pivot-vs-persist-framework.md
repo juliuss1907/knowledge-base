@@ -7,7 +7,9 @@ title: "Khi Nào Nên Đổi Hướng: Pivot vs Persist"
 date_ingested: 2026-06-30
 date_published: 2026-06-30
 tags: [productivity, psychology]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-01
+compiled_to: "[[src_pivot-vs-persist-framework]]"
 ---
 
 # Khi Nào Nên Đổi Hướng: Pivot vs Persist

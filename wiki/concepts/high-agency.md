@@ -6,7 +6,8 @@ sub_tags: [psychology]
 topic: ai-future-skills
 sources:
   - "[[src_ai-future-skills]]"
-last_updated: 2026-06-22
+  - "[[src_youre-being-trained-for-a-world-that-no-longer-exists]]"
+last_updated: 2026-07-01
 ---
 
 # High Agency (Năng lực Chủ thể Cao)
@@ -24,7 +25,9 @@ High Agency là khả năng tự đặt mục tiêu và tìm cách đạt đư�
   - Elon Musk: Nói muốn làm xe điện phổ biến → xây dựng Tesla (mất gần 10 năm). Nói muốn đưa ngườilên sao Hỏa → xây dựng SpaceX
   - UAE/Dubai: Từ sa mạc không có công nghệ, tòa nhà, hay của cải đến một trong những điểm đến xa xỉ nhất thế giới trong 50 năm
 - **Ý chí vượt rào cản:** Sẵn sàng làm bất cứ điều gì cần thiết để đạt được mục tiêu, bất kể chướng ngại vật
-- **Trong thời đại AI:** Kỹ năng quý giá nhất vì bạn sẽ là ngườichỉ đạo AI giải quyết các vấn đề bạn quan tâm
+- **Trong thời đại AI:** Kỹ năng quý giá nhất vì bạn sẽ là người chỉ đạo AI giải quyết các vấn đề bạn quan tâm. Agency = AI không thể thay thế bạn — nó trở thành công cụ để accelerate bạn
+- **Ba thành phần cốt lõi:** (1) Learn to hunt — xác định vấn đề, (2) Learn to solve — dùng AI cho technical side, dành năng lượng cho big-picture thinking, (3) Learn to earn — build solutions cho người khác để đổi lấy tiền
+- **Delusion requirement:** Để high-agency cần slightly delusional trong mắt người khác — failing hàng tháng/năm trong khi mọi người bảo bạn quit
 - **Không thể dạy trong trường:** Phải phát triển qua tự học, tự thử nghiệm, và tự phản chiếu — không thể truyền đạt theo cách thông thường
 - **Liên quan đến chủ quyền:** Cá nhân chủ quyền (sovereign individual) là ngườicó agency cao, tự đặt mục tiêu và giải quyết vấn đề của mình
 
@@ -39,5 +42,6 @@ High Agency là khả năng tự đặt mục tiêu và tìm cách đạt đư�
 ## Sources
 
 - [[src_ai-future-skills]]
+- [[src_youre-being-trained-for-a-world-that-no-longer-exists]]
 
 ## Notes

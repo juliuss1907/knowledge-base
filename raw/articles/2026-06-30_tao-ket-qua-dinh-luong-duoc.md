@@ -7,7 +7,9 @@ title: "Tạo Kết Quả Định Lượng Được — Cách Thực Hiện Cụ
 date_ingested: 2026-06-30
 date_published: 2026-06-30
 tags: [productivity, system]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-01
+compiled_to: "[[src_tao-ket-qua-dinh-luong-duoc]]"
 ---
 
 # Tạo "Kết Quả Định Lượng Được" — Cách Thực Hiện Cụ Thể

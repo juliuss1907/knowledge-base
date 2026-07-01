@@ -7,7 +7,9 @@ title: "Bài Toán Đúng — Cách Xác Định và Giải Quyết"
 date_ingested: 2026-06-30
 date_published: 2026-06-30
 tags: [productivity, system]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-01
+compiled_to: "[[src_bai-toan-dung-la-gi-va-cach-giai]]"
 ---
 
 # "Bài Toán Đúng" Là Gì và Cách Giải

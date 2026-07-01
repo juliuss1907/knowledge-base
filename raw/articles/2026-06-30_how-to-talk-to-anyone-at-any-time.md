@@ -8,7 +8,9 @@ title: "How To Talk To Anyone, At Any Time: The Art of Extroversion"
 date_ingested: 2026-06-30
 date_published: 2026-06-30
 tags: [psychology, productivity]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-01
+compiled_to: "[[src_how-to-talk-to-anyone-at-any-time]]"
 ---
 
 # How To Talk To Anyone, At Any Time: The Art of Extroversion

@@ -1,3 +1,10 @@
+Heartbeat 22:00 - 2026-07-01
+- [Priority 1] Pending review: 3 báo cáo 06-30 (Output, Format, Hygiene) vẫn pending — tạo ~23h trước, chưa được Julius approve.
+- [Priority 2] Approved action pending: 128 topic files thiếu frontmatter → cần fix Index Agent template + regenerate.
+- Raw backlog & Inbox: Clean. Concept spot-check: long-term-thinking.md ✅, ai-powered-discovery.md ✅ (backlinks valid).
+- Tag indexes: Recovered — 23 files present (was empty at 21:30, resolved).
+- System: 371 concepts, 120 sources, 139 topics, 23 tag indexes, 127 raw files.
+
 Heartbeat 21:30 - 2026-07-01
 - [Priority 1 — CRITICAL] **Tag indexes missing:** `wiki/tag/` directory empty — 0 tag index files. Previous heartbeat 15:30 reported 24. Directory modified 21:02 today. Possible Index Agent wipe without regeneration. Cần Julius check ngay.
 - [Priority 2] Pending review: 3 báo cáo 06-30 (Output, Format, Hygiene) vẫn pending — tạo ~22h trước, chưa được Julius approve.

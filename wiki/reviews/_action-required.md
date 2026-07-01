@@ -15,7 +15,7 @@
 **Scope:** Tất cả 3 báo cáo 2026-06-29 đã được approve: Output (23:00), Format (23:15), Hygiene (23:30).
 
 **Status:**
-- 🔲 Format Validator — 2026-06-30 (23:17): **PENDING** (439 issues: 128 ERROR, 311 WARNING, 0 INFO)
+- ✅ Format Validator — 2026-06-30 (23:17): **APPROVED** (439 issues: 128 ERROR, 311 WARNING, 0 INFO) — 128 topic frontmatter → Kara fix Index Agent template + regenerate
 - 🔲 Output Validator — 2026-06-30 (23:06): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - 🔲 Hygiene Inspector — 2026-06-30 (23:30): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-29 (23:30): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)

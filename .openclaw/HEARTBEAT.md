@@ -1,3 +1,8 @@
+Heartbeat 16:00 - 2026-07-01
+- [Priority 1] Pending review inconsistency: _action-required.md Summary shows 06-30 reports APPROVED nhưng counter "3 pending" + detailed sections chưa sync approved-by date.
+- [Priority 2] Approved action pending: 128 topic files thiếu frontmatter → Index Agent template fix + regenerate (Format 06-30 APPROVED).
+- [Priority 3] Raw backlog & Inbox: Clean. Concept spot-check: fp4-lightning-indexer.md ✅, x-api-oauth2.md ✅.
+
 Heartbeat 15:30 - 2026-07-01
 - [Priority 1] _action-required.md inconsistency: Summary block shows all 3 reports APPROVED, nhưng counter vẫn ghi "3 pending" và detailed sections chưa cập nhật "approved by" date.
 - [Priority 2] Approved action pending: 128 topic files thiếu frontmatter → cần fix Index Agent template + regenerate (từ Format 06-30 APPROVED).

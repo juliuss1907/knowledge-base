@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: personal-finance-saving-rate
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: personal-finance-saving-rate
 
 Auto-generated index of all content with topic `personal-finance-saving-rate`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -21,3 +19,8 @@ Last updated: 2026-07-01 21:05:48
 ## Sources (1)
 
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — main: #economic, sub: [#tutorial, #psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `personal-finance-saving-rate`:
+- (none)

@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-systems-thinking-augmentation
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: ai-systems-thinking-augmentation
 
 Auto-generated index of all content with topic `ai-systems-thinking-augmentation`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -24,3 +22,8 @@ Last updated: 2026-07-01 21:05:48
 ## Sources (1)
 
 - [[src_will-ai-replace-systems-thinking]] — main: #ai, sub: [#opinion, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-systems-thinking-augmentation`:
+- (none)

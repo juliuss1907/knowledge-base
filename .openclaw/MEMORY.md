@@ -2491,3 +2491,10 @@
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 1448
 - **Errors:** 0 files skipped due to invalid frontmatter
+
+## 2026-07-01 21:37 — Index Agent retry (fix topic frontmatter template)
+- Scanned: 374 concepts + 120 sources = 494 files
+- Tags indexed: 23 (all with frontmatter + sections)
+- Topics indexed: 139 (all WITH YAML frontmatter — template fixed)
+- Orphans deleted: 0
+- Key fix: Topic file generation now includes full YAML frontmatter block, preventing Format regression

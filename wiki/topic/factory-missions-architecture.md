@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: factory-missions-architecture
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: factory-missions-architecture
 
 Auto-generated index of all content with topic `factory-missions-architecture`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -24,3 +22,8 @@ Last updated: 2026-07-01 21:05:48
 ## Sources (1)
 
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — main: #ai, sub: [#tools, #automation]
+
+## Related topics
+
+Topics that share concepts/sources with `factory-missions-architecture`:
+- (none)

@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: active-thinking
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: active-thinking
 
 Auto-generated index of all content with topic `active-thinking`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -21,3 +19,8 @@ Last updated: 2026-07-01 21:05:48
 
 ## Sources (0)
 
+
+## Related topics
+
+Topics that share concepts/sources with `active-thinking`:
+- (none)

@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 94 files
-- By status: 94 processed, 0 unprocessed
+- Total: 95 files
+- By status: 94 processed, 1 unprocessed
 - By date: 94 this week, 94 this month
 - Last updated: 2026-07-01
 
 ## Items
+- [[2026-07-01_money-is-the-easiest-way-to-measure-your-life]] — Money Is the Easiest Way To Measure Your Life. But It Is Not the Best by Mr. Stingy (unprocessed)
+
 - [[2026-06-30_output-vs-outcome-formula]] — Công Thức Xác Định Output vs Outcome by Incentivising (unprocessed)
 
 - [[2026-06-30_bai-toan-dung-la-gi-va-cach-giai]] — Bài Toán Đúng — Cách Xác Định và Giải Quyết by Incentivising (unprocessed)

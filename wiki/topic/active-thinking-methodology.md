@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: active-thinking-methodology
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: active-thinking-methodology
 
 Auto-generated index of all content with topic `active-thinking-methodology`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -27,3 +25,8 @@ Last updated: 2026-07-01 21:05:48
 ## Sources (1)
 
 - [[src_active-vs-lazy-thinking]] — main: #productivity, sub: [#opinion, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `active-thinking-methodology`:
+- (none)

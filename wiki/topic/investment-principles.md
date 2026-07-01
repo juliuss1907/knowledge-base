@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: investment-principles
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: investment-principles
 
 Auto-generated index of all content with topic `investment-principles`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -24,3 +22,8 @@ Last updated: 2026-07-01 21:05:48
 ## Sources (1)
 
 - [[src_investment-principles-dalio]] — main: #investment, sub: [#opinion, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `investment-principles`:
+- (none)

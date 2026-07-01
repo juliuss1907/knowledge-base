@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: game-theory-strategic-thinking
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: game-theory-strategic-thinking
 
 Auto-generated index of all content with topic `game-theory-strategic-thinking`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -26,3 +24,8 @@ Last updated: 2026-07-01 21:05:48
 ## Sources (1)
 
 - [[src_game-theory-will-change-your-life]] — main: #system, sub: [#psychology, #research, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `game-theory-strategic-thinking`:
+- (none)

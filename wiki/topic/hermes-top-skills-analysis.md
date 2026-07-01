@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-top-skills-analysis
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: hermes-top-skills-analysis
 
 Auto-generated index of all content with topic `hermes-top-skills-analysis`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -26,3 +24,8 @@ Last updated: 2026-07-01 21:05:48
 ## Sources (1)
 
 - [[src_hermes-200-30-skills-3-worth-it]] — main: #ai, sub: [#tools, #automation, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `hermes-top-skills-analysis`:
+- (none)

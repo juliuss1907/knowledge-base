@@ -4,14 +4,12 @@ scope: topic
 parent: "[[topic]]"
 topic: ikigai-unbundling
 auto_generated: true
-last_updated: 2026-07-01
+last_updated: 2026-07-01 21:38:45
 ---
 
 # Topic: ikigai-unbundling
 
 Auto-generated index of all content with topic `ikigai-unbundling`.
-
-Last updated: 2026-07-01 21:05:48
 
 ---
 
@@ -25,3 +23,8 @@ Last updated: 2026-07-01 21:05:48
 ## Sources (1)
 
 - [[src_split-the-ikigai]] — main: #productivity, sub: [#opinion, #psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `ikigai-unbundling`:
+- (none)

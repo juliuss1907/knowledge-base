@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-01 23:15
+**Last updated:** 2026-07-01 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả báo cáo 2026-06-30 đã được approve: Output (23:06), Format (23:17), Hygiene (23:30).
 
 **Status:**
+- ⏳ Hygiene Inspector — 2026-07-01 (23:30): **PENDING** (1 issue: 1 ERROR, 0 WARNING, 0 INFO) — index_wiki.py at root level
 - ⏳ Format Validator — 2026-07-01 (23:15): **PENDING** (312 issues: 1 ERROR, 311 WARNING, 0 INFO) — 1 new slug-too-long ERROR
 - ✅ Format Validator — 2026-06-30 (23:17): **APPROVED** (439 issues: 128 ERROR, 311 WARNING, 0 INFO) — 128 topic frontmatter → Kara fix Index Agent template + regenerate
 - ✅ Output Validator — 2026-06-30 (23:06): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
@@ -83,6 +84,33 @@
 - KB format health đạt 99.85% (1/665 files with ERROR)
 
 **Report:** `wiki/reviews/2026-07-01_format-report.md`
+
+---
+
+### ⏳ Hygiene Inspection — 2026-07-01 (23:30)
+
+**File:** [2026-07-01_hygiene-report.md](2026-07-01_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-07-01 23:30:00 +0700
+**Issues:** 1 (1 ERROR, 0 WARNING, 0 INFO)
+**Paths checked:** 51,607
+
+**Summary:**
+- 🔴 1 ERROR: `index_wiki.py` ở root level — Python utility script (13KB, last modified 2026-06-30) không có trong root whitelist
+- ✅ Tất cả zones (context/, raw/, wiki/, agent homes) đều 100% compliant
+- ✅ HEARTBEAT.md leak vẫn resolved (ổn định từ 06-28)
+- ✅ Không root orphan nào khác, không file leak, không subfolder trái phép
+- ✅ Tất cả naming conventions tuân thủ đúng spec
+
+**Delta from 2026-06-30 (0 issues):**
+- 🔴 NEW: `index_wiki.py` xuất hiện ở root — có thể được tạo 2026-06-30 nhưng chưa chuyển vào `scripts/`
+
+**Actions:**
+- Review `wiki/reviews/2026-07-01_hygiene-report.md`
+- Nếu approve: chuyển `index_wiki.py` vào `scripts/` hoặc xóa nếu không cần
+- KB structure health: 99.998% (1/51,607 paths with ERROR)
+
+**Report:** `wiki/reviews/2026-07-01_hygiene-report.md`
 
 ---
 

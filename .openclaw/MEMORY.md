@@ -2464,3 +2464,12 @@
 - Index Agent template needs `frontmatter` block in topic file generation — topic files lose frontmatter on every regenerate
 - 311 broken wikilinks — forward-reference backlog, deprioritized
 
+
+## 2026-07-01 21:02:34 — Indexed
+
+- **Scanned:** 374 concepts + 120 sources = 494 total files
+- **Tags indexed:** 0 (11 main-tags + -11 sub-tags)
+- **Topics indexed:** 139
+- **Orphans deleted:** 24 tag indexes + 0 topic indexes
+- **Invalid tags found:** 1448
+- **Errors:** 0 files skipped due to invalid frontmatter

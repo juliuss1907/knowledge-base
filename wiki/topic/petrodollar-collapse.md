@@ -11,7 +11,7 @@ last_updated: 2026-07-01
 
 Auto-generated index of all content with topic `petrodollar-collapse`.
 
-Last updated: 2026-06-30 21:04:19
+Last updated: 2026-07-01 21:02:34
 
 ---
 

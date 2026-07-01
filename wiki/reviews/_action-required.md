@@ -16,8 +16,8 @@
 
 **Status:**
 - ✅ Format Validator — 2026-06-30 (23:17): **APPROVED** (439 issues: 128 ERROR, 311 WARNING, 0 INFO) — 128 topic frontmatter → Kara fix Index Agent template + regenerate
-- 🔲 Output Validator — 2026-06-30 (23:06): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
-- 🔲 Hygiene Inspector — 2026-06-30 (23:30): **PENDING** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
+- ✅ Output Validator — 2026-06-30 (23:06): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
+- ✅ Hygiene Inspector — 2026-06-30 (23:30): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-29 (23:30): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Format Validator — 2026-06-29 (23:15): **APPROVED** (386 issues: 69 ERROR, 317 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-29 (23:00): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
@@ -54,7 +54,7 @@
 
 ## Pending — 2026-06-30
 
-### 🔲 Output Validation — 2026-06-30 (23:06)
+### ✅ Output Validation — 2026-06-30 (23:06)
 
 **File:** [2026-06-30_output-report.md](2026-06-30_output-report.md)
 **Status:** pending
@@ -79,7 +79,7 @@
 
 ---
 
-### 🔲 Format Validation — 2026-06-30 (23:17)
+### ✅ Format Validation — 2026-06-30 (23:17)
 
 **File:** [2026-06-30_format-report.md](2026-06-30_format-report.md)
 **Status:** pending
@@ -110,7 +110,7 @@
 
 ---
 
-### 🔲 Hygiene Inspection — 2026-06-30 (23:30)
+### ✅ Hygiene Inspection — 2026-06-30 (23:30)
 
 **File:** [2026-06-30_hygiene-report.md](2026-06-30_hygiene-report.md)
 **Status:** pending

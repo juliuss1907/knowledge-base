@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: game-theory-strategic-thinking
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: game-theory-strategic-thinking
 
 Auto-generated index of all content with topic `game-theory-strategic-thinking`.

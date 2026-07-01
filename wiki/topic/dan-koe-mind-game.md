@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: dan-koe-mind-game
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: dan-koe-mind-game
 
 Auto-generated index of all content with topic `dan-koe-mind-game`.

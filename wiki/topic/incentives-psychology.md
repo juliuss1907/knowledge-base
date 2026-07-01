@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: incentives-psychology
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: incentives-psychology
 
 Auto-generated index of all content with topic `incentives-psychology`.

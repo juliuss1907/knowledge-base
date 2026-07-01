@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: ai-engineering
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: ai-engineering
 
 Auto-generated index of all content with topic `ai-engineering`.

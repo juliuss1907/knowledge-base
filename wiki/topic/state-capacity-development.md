@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: state-capacity-development
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: state-capacity-development
 
 Auto-generated index of all content with topic `state-capacity-development`.

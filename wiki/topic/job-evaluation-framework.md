@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: job-evaluation-framework
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: job-evaluation-framework
 
 Auto-generated index of all content with topic `job-evaluation-framework`.

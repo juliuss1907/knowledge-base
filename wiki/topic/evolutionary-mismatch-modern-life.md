@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: evolutionary-mismatch-modern-life
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: evolutionary-mismatch-modern-life
 
 Auto-generated index of all content with topic `evolutionary-mismatch-modern-life`.

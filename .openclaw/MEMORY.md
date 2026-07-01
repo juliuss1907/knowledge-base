@@ -2448,3 +2448,19 @@
 - **Invalid tags found:** 0
 - **Warnings:** 0
 - **Errors:** 0
+
+## 2026-07-01 08:48 — Applied fixes from 3 Hermes reports (2026-06-30 batch)
+
+**Reports applied:**
+- Output 06-30: 0 issues — nothing to fix
+- Format 06-30: 128 ERROR + 311 WARNING
+- Hygiene 06-30: 0 issues — nothing to fix
+
+**Fixes applied:**
+- Added YAML frontmatter to 128 topic files (wiki/topic/*.md) — format regression from Index Agent regenerate
+- Archived 3 reports to archive/2026-06/
+
+**Not fixed (systematic):**
+- Index Agent template needs `frontmatter` block in topic file generation — topic files lose frontmatter on every regenerate
+- 311 broken wikilinks — forward-reference backlog, deprioritized
+

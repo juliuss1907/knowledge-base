@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: ai-trading-agent-claude-code
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: ai-trading-agent-claude-code
 
 Auto-generated index of all content with topic `ai-trading-agent-claude-code`.

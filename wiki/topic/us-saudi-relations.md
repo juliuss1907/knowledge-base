@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: us-saudi-relations
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: us-saudi-relations
 
 Auto-generated index of all content with topic `us-saudi-relations`.

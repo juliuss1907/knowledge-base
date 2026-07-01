@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: global-macro-investing
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: global-macro-investing
 
 Auto-generated index of all content with topic `global-macro-investing`.

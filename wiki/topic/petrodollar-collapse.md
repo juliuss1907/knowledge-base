@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: petrodollar-collapse
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: petrodollar-collapse
 
 Auto-generated index of all content with topic `petrodollar-collapse`.

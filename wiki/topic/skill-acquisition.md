@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: skill-acquisition
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: skill-acquisition
 
 Auto-generated index of all content with topic `skill-acquisition`.

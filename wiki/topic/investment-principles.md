@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: investment-principles
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: investment-principles
 
 Auto-generated index of all content with topic `investment-principles`.

@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: activation-energy-mental-model
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: activation-energy-mental-model
 
 Auto-generated index of all content with topic `activation-energy-mental-model`.

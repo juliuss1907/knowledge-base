@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: structural-competition
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: structural-competition
 
 Auto-generated index of all content with topic `structural-competition`.

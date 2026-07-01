@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: active-thinking-methodology
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: active-thinking-methodology
 
 Auto-generated index of all content with topic `active-thinking-methodology`.

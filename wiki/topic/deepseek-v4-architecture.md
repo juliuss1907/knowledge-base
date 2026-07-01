@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: deepseek-v4-architecture
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: deepseek-v4-architecture
 
 Auto-generated index of all content with topic `deepseek-v4-architecture`.

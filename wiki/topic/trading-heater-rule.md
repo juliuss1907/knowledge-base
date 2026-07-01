@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: trading-heater-rule
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: trading-heater-rule
 
 Auto-generated index of all content with topic `trading-heater-rule`.

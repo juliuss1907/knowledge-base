@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: google-ai-mode
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: google-ai-mode
 
 Auto-generated index of all content with topic `google-ai-mode`.

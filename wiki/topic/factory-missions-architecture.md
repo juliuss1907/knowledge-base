@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: factory-missions-architecture
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: factory-missions-architecture
 
 Auto-generated index of all content with topic `factory-missions-architecture`.

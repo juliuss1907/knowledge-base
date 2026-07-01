@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: job-worth-doing
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: job-worth-doing
 
 Auto-generated index of all content with topic `job-worth-doing`.

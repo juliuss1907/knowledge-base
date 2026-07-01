@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: agent-memory-systems
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: agent-memory-systems
 
 Auto-generated index of all content with topic `agent-memory-systems`.

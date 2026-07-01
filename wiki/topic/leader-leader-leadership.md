@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: leader-leader-leadership
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: leader-leader-leadership
 
 Auto-generated index of all content with topic `leader-leader-leadership`.

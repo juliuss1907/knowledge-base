@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: post-systems-thinking
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: post-systems-thinking
 
 Auto-generated index of all content with topic `post-systems-thinking`.

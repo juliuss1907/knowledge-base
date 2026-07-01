@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: generative-search-results
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: generative-search-results
 
 Auto-generated index of all content with topic `generative-search-results`.

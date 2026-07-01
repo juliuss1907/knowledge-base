@@ -1,3 +1,12 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: journalism-ai-era
+auto_generated: true
+last_updated: 2026-07-01
+---
+
 # Topic: journalism-ai-era
 
 Auto-generated index of all content with topic `journalism-ai-era`.

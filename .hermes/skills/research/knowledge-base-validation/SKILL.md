@@ -315,17 +315,21 @@ Fix list ready for Kara. Approved by Julius (via _action-required.md).
 
 ## Root Cause Tracing — Compile Agent Config
 
-When systemic issues are found across many files, the root cause is almost always in Compile Agent's config. Config files live at:
+When systemic issues are found across many files, the root cause is almost always in an upstream agent's config. Check ALL agents in the pipeline, not just Compile:
 
 ```
-.openclaw/skills/compile-agent/
-├── SKILL.md          — Main agent instructions, language policy, section specs
-├── workflow.md       — Step-by-step compile workflow with prompt templates
-├── tagging_rules.md  — Tag selection decision trees
-└── examples.md       — Input→output transformation examples
+Ingest Agent → raw/ → Compile Agent → wiki/ → Index Agent → wiki/tag/ + wiki/topic/
 ```
 
-**Pattern:** Validation finds systemic errors → trace to which compile-agent file/prompt caused it → patch that file. Do NOT fix individual wiki files — fix the agent config, then re-compile.
+| Agent | Config location | What it produces | Common regressions |
+|---|---|---|---|
+| Ingest Agent | `.openclaw/skills/ingest-agent/` | `raw/<type>/*.md` | 1-sentence summaries, wrong frontmatter |
+| Compile Agent | `.openclaw/skills/compile-agent/` | `wiki/sources/` + `wiki/concepts/` | Missing sub_tags, English content, stub status |
+| Index Agent | `.openclaw/skills/index-agent/` | `wiki/tag/` + `wiki/topic/` | Missing frontmatter (fixed 2026-07-01), invalid tag indexes |
+
+**⚠️ Index Agent runs AFTER Compile Agent and regenerates files from scratch.** It can overwrite manually-fixed topic/tag files, reintroducing regressions. When Format Validator shows broken wikilinks in topic files, check Index Agent config first.
+
+**Pattern:** Validation finds systemic errors → trace to which agent config caused it → patch that config file. Do NOT fix individual wiki files — fix the agent config, then let it regenerate.
 
 Recent fixes applied (2026-06-01):
 - Language policy: "keep original" → "compile bằng tiếng Việt" (SKILL.md L45-49)
@@ -396,6 +400,8 @@ Fix Agent failure modes observed (2026-06-01):
 **What NOT to scan (out of scope for format-spec.md):**
 - `raw/<type>/YYYY-MM-DD_*.md` — raw content files. These have `type: article` or `type: raw`, NOT `concept/source/index`. They follow Ingest Agent format spec, NOT format-spec.md.
 - `wiki/topic/*.md` — topic aggregator files. These are content side-channels, not navigation indexes. They have their own format (Index Agent skill). Skip them.
+
+**⚠️ 2026-07-01: Index Agent frontmatter regression FIXED.** Index Agent was regenerating topic files without YAML frontmatter, causing 311 broken wikilinks in every Format run. Root cause: `build_index.py` (and 4 duplicate scripts) wrote bare `# Topic:` headers with no `---` block. All 5 scripts + SKILL.md + workflow.md in `.openclaw/skills/index-agent/` now include proper frontmatter (`type: index`, `scope: topic`, `parent: "[[topic]]"`, `topic: <slug>`, `auto_generated: true`, `last_updated: YYYY-MM-DD`). See `references/index-agent-frontmatter-fix.md` for full details.
 
 **Why this matters:** Scanning raw content files produces hundreds of false-positive "Unknown type: article" errors. Scanning topic files produces "missing frontmatter" or "unknown type" errors. Exclude them.
 

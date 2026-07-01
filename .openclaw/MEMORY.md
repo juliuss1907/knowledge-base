@@ -2473,3 +2473,21 @@
 - **Orphans deleted:** 24 tag indexes + 0 topic indexes
 - **Invalid tags found:** 1448
 - **Errors:** 0 files skipped due to invalid frontmatter
+
+## 2026-07-01 21:05:13 — Indexed
+
+- **Scanned:** 374 concepts + 120 sources = 494 total files
+- **Tags indexed:** 0 (0 main-tags + 0 sub-tags)
+- **Topics indexed:** 139
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 1448
+- **Errors:** 0 files skipped due to invalid frontmatter
+
+## 2026-07-01 21:05:48 — Indexed
+
+- **Scanned:** 374 concepts + 120 sources = 494 total files
+- **Tags indexed:** 0 (0 main-tags + 0 sub-tags)
+- **Topics indexed:** 139
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 1448
+- **Errors:** 0 files skipped due to invalid frontmatter

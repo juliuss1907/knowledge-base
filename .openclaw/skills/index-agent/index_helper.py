@@ -241,7 +241,16 @@ last_updated: {today}
     # 8. Write Topic Indexes
     os.makedirs('wiki/topic', exist_ok=True)
     for topic, data in topic_index.items():
-        content = f"""# Topic: {topic}
+        content = f"""---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: {topic}
+auto_generated: true
+last_updated: {today}
+---
+
+# Topic: {topic}
 
 Auto-generated index of all content with topic `{topic}`.
 

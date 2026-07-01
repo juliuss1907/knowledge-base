@@ -205,7 +205,7 @@ def run_indexing():
     # Write Topic Indexes
     WIKI_TOPICS.mkdir(parents=True, exist_ok=True)
     for topic, data in topic_index.items():
-        content = f"# Topic: {topic}\n\nAuto-generated index of all content with topic `{topic}`.\n\nLast updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n---\n\n## Concepts ({len(data['concepts'])})\n\n"
+        content = f"---\ntype: index\nscope: topic\nparent: \"[[topic]]\"\ntopic: {topic}\nauto_generated: true\nlast_updated: {today}\n---\n\n# Topic: {topic}\n\nAuto-generated index of all content with topic `{topic}`.\n\nLast updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n---\n\n## Concepts ({len(data['concepts'])})\n\n"
         for f in data['concepts']:
             main = f['main_tag']
             subs = ', '.join([f"#{s}" for s in f['sub_tags']])

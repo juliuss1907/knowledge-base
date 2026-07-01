@@ -205,7 +205,18 @@ for tag in sorted(tag_index):
     sources = data["sources"]
     co_tags = tag_co_occur.get(tag, [])
 
+    today = NOW.split(" ")[0]
     lines = []
+    lines.append("---")
+    lines.append("type: index")
+    lines.append("level: 3")
+    lines.append("scope: tag")
+    lines.append('parent: "[[tag]]"')
+    lines.append(f"tag: {tag}")
+    lines.append("auto_generated: true")
+    lines.append(f"last_updated: {today}")
+    lines.append("---")
+    lines.append("")
     lines.append(f"# Tag: #{tag}")
     lines.append("")
     lines.append(f"Auto-generated index of all content tagged with `#{tag}`.")
@@ -260,7 +271,17 @@ for topic in sorted(topic_index):
     sources = data["sources"]
     related = topic_overlap.get(topic, [])
 
+    today = NOW.split(" ")[0]
     lines = []
+    lines.append("---")
+    lines.append("type: index")
+    lines.append("scope: topic")
+    lines.append('parent: "[[topic]]"')
+    lines.append(f"topic: {topic}")
+    lines.append("auto_generated: true")
+    lines.append(f"last_updated: {today}")
+    lines.append("---")
+    lines.append("")
     lines.append(f"# Topic: {topic}")
     lines.append("")
     lines.append(f"Auto-generated index of all content with topic `{topic}`.")

@@ -65,6 +65,16 @@ These indexes power Obsidian's graph view and enable tag-based navigation.
 ### Tag index (`wiki/tag/<tag>.md`)
 
 ```markdown
+---
+type: index
+level: 3
+scope: tag
+parent: "[[tag]]"
+tag: <tag>
+auto_generated: true
+last_updated: YYYY-MM-DD
+---
+
 # Tag: #<tag>
 
 Auto-generated index of all content tagged with `#<tag>`.
@@ -98,6 +108,15 @@ Tags that frequently appear with `#<tag>`:
 ### Topic index (`wiki/topic/<topic>.md`)
 
 ```markdown
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: <topic>
+auto_generated: true
+last_updated: YYYY-MM-DD
+---
+
 # Topic: <topic>
 
 Auto-generated index of all content with topic `<topic>`.

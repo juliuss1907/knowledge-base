@@ -246,7 +246,8 @@ last_updated: {today}
 
     os.makedirs(TOPIC_DIR, exist_ok=True)
     for topic, data in topic_index.items():
-        content = f"# Topic: {topic}\n\nAuto-generated index of all content with topic `{topic}`.\n\nLast updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n---\n\n## Concepts ({len(data['concepts'])})\n\n"
+        today_d = datetime.now().strftime('%Y-%m-%d')
+        content = f"---\ntype: index\nscope: topic\nparent: \"[[topic]]\"\ntopic: {topic}\nauto_generated: true\nlast_updated: {today_d}\n---\n\n# Topic: {topic}\n\nAuto-generated index of all content with topic `{topic}`.\n\nLast updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n---\n\n## Concepts ({len(data['concepts'])})\n\n"
         for f in data['concepts']:
             main = f['main_tag']
             subs = ', '.join([f"#{s}" for s in f['sub_tags']])

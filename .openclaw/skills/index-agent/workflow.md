@@ -425,7 +425,17 @@ For each topic in `topic_index`:
 
 ```python
 def generate_topic_index(topic, data, related):
-    content = f"""# Topic: {topic}
+    today = datetime.now().strftime('%Y-%m-%d')
+    content = f"""---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: {topic}
+auto_generated: true
+last_updated: {today}
+---
+
+# Topic: {topic}
 
 Auto-generated index of all content with topic `{topic}`.
 

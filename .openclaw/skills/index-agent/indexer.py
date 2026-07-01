@@ -199,7 +199,7 @@ def run_indexing():
     # 7. Write Topic Files
     os.makedirs(TOPICS_DIR, exist_ok=True)
     for topic, data in topic_index.items():
-        content = f"# Topic: {topic}\n\nAuto-generated index of all content with topic `{topic}`.\n\nLast updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n---\n\n## Concepts ({len(data['concepts'])})\n\n"
+        content = f"---\ntype: index\nscope: topic\nparent: \"[[topic]]\"\ntopic: {topic}\nauto_generated: true\nlast_updated: {today}\n---\n\n# Topic: {topic}\n\nAuto-generated index of all content with topic `{topic}`.\n\nLast updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n---\n\n## Concepts ({len(data['concepts'])})\n\n"
         for f in data['concepts']:
             subs = ', '.join([f"#{s}" for s in f['sub_tags']])
             content += f"- [[{f['slug']}]] — main: #{f['main_tag']}, sub: [{subs}]\n"

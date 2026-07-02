@@ -1,3 +1,12 @@
+## 2026-07-02 08:00 — Compiled (Batch Daily)
+- 1 file compiled, 0 failed, 0 unprocessed remaining
+
+### File: raw/articles/2026-07-01_money-is-the-easiest-way-to-measure-your-life.md
+- **Source note:** src_money-is-the-easiest-way-to-measure-your-life
+- **Concepts:** erg-theory (new), five-types-of-wealth (new)
+- **Tags:** main=#investment, sub=[#psychology, #opinion], topic=five-types-of-wealth
+- **Action:** created 1 source note, created 2 concept files
+
 ## 2026-07-01 08:00 — Compiled (Batch Daily)
 - 8 files compiled, 0 failed, 0 unprocessed remaining
 

@@ -277,13 +277,13 @@
     "created_at": "2026-06-14T16:15:24.111146+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-30T16:19:52.430579+00:00",
-    "last_used_at": "2026-07-01T16:15:38.844629+00:00",
-    "last_viewed_at": "2026-07-01T01:48:31.032616+00:00",
+    "last_used_at": "2026-07-02T01:06:18.539990+00:00",
+    "last_viewed_at": "2026-07-02T01:06:18.537021+00:00",
     "patch_count": 24,
     "pinned": false,
     "state": "active",
-    "use_count": 53,
-    "view_count": 35
+    "use_count": 54,
+    "view_count": 36
   },
   "gif-search": {
     "archived_at": null,
@@ -536,14 +536,14 @@
     "archived_at": null,
     "created_at": "2026-06-14T16:21:02.723839+00:00",
     "created_by": null,
-    "last_patched_at": "2026-07-01T02:09:41.275868+00:00",
-    "last_used_at": "2026-07-02T01:01:29.728293+00:00",
-    "last_viewed_at": "2026-07-02T01:01:29.724883+00:00",
-    "patch_count": 29,
+    "last_patched_at": "2026-07-02T01:06:39.691802+00:00",
+    "last_used_at": "2026-07-02T01:06:18.529281+00:00",
+    "last_viewed_at": "2026-07-02T01:06:18.525613+00:00",
+    "patch_count": 30,
     "pinned": false,
     "state": "active",
-    "use_count": 47,
-    "view_count": 47
+    "use_count": 48,
+    "view_count": 48
   },
   "llama-cpp": {
     "archived_at": null,

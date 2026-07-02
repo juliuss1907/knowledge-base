@@ -162,12 +162,30 @@ Older reports and archived files may still contain literal `pending` in historic
 
    **⚠️ PITFALL — System demands in-turn evidence:** If verification ran in a previous turn, the system will re-flag edits as unverified even though checks already passed. Re-run the verification inline in the current turn with a simple `grep` one-liner to satisfy the gate. This is a platform behavior, not a task failure.
 
+### Individual Issue Exception (Waive, Don't Fix)
+
+Khi Julius xem một issue cụ thể và nói "không cần sửa" / "ổn, không sao" — đây là **exception approval**, không phải bulk approve toàn bộ report.
+
+**Cách xử lý:**
+1. **Đổi status report** → `approved` (có annotation: `1 ERROR → approved/waived`)
+2. **Strike through action item** — dùng `~~strikethrough~~` trên action item gốc, thêm `**APPROVED by Julius. [lý do]**`
+3. **Giữ nguyên các issue khác** — exception chỉ áp dụng cho issue được Julius chỉ định. Các WARNING/ERROR khác vẫn cần Fix Agent xử lý nếu Julius approve sau.
+4. **Thêm dòng `**Approved:** YYYY-MM-DD — [mô tả exception]`** ngay dưới `**Created:**` trong report header.
+
+**Ví dụ thực tế (2026-07-02):**
+- Issue: slug `src_youre-being-trained-for-a-world-that-no-longer-exists` dài 53 chars (limit 50)
+- Julius: "format report ổn, không cần sửa"
+- Hành động: status → `approved`, issue → strikethrough + ghi chú exception, action item → "No action required"
+
+**⚠️ Đừng nhầm với bulk approve:** "approve format" = approve TOÀN BỘ pending format reports. "không cần sửa [issue X]" = waive riêng issue X, không ảnh hưởng các issue khác.
+
 ### Approval vs Applied
 
 | Status | Meaning | Next Action |
 |---|---|---|
 | ⏳ pending | New report, awaiting Julius review | Julius reviews and approves |
 | ✅ approved | Julius approved, ready for Fix Agent | Fix Agent applies fixes |
+| ✅ approved (exception) | Julius waived specific issue(s), others pending | Fix Agent applies remaining fixes |
 | ✅ applied | Fix Agent applied fixes | Connor re-validates |
 | ✅ promote | No issues found | Archive report |
 

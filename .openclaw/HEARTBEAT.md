@@ -1,14 +1,9 @@
 # Heartbeat Log
 
-**Last Check:** 2026-07-03 04:00 (Asia/Saigon)
-**Status:** ISSUES_FOUND
-
----
+**Last Check:** Friday, July 3rd, 2026 - 04:30 (Asia/Saigon)
+**Status:** ISSUE_FOUND
 
 ## Findings
-- [Priority 1] Pending review: 4 báo cáo từ 2026-07-02 chưa xử lý (Output, Format, Hygiene).
-- [Priority 2] Concept thiếu backlink: `wiki/concepts/operating-cash-flow.md`, `wiki/concepts/default-mode-network.md` không có link đến sources.
-- [Priority 3] Raw backlog: 0 files unprocessed.
-
----
-*Next check scheduled in 30 minutes.*
+- [Priority 1] Pending review: 3 báo cáo từ 2026-07-02 (Output, Format, Hygiene) đang chờ Julius approve.
+- [Priority 2] Raw backlog: Sạch.
+- [Priority 3] Concept check: OK (agent-handoff, systems-thinking đều có backlink).

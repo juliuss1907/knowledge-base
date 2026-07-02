@@ -55,6 +55,21 @@ for f in $NEW_FILES; do
     fi
 done
 
+# ─── 2c. Typo: "người" spacing merge (drops space before next word) ───
+# "người" merges into the next word — ngườitrong, ngườicó, ngườilên, ngườichỉ đạo, ngườitrở thành
+# Regex matches "người" + lowercase Vietnamese letter (NOT punctuation — "người," is valid)
+NGUOI_SPACE_PATTERN='người[a-zàáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]'
+NGUOI_SPACE_COUNT=$( (grep -rPl "$NGUOI_SPACE_PATTERN" wiki/sources/ wiki/concepts/ 2>/dev/null || true) | wc -l | tr -d ' ' )
+NGUOI_SPACE_INSTANCES=$( (grep -rPoh "$NGUOI_SPACE_PATTERN" wiki/sources/ wiki/concepts/ 2>/dev/null || true) | wc -l | tr -d ' ' )
+NGUOI_SPACE_FILES=$(grep -rPl "$NGUOI_SPACE_PATTERN" wiki/sources/ wiki/concepts/ 2>/dev/null || echo "")
+# Check if any of today's new files are affected
+NGUOI_SPACE_NEW_COUNT=0
+for f in $NEW_FILES; do
+    if grep -qP "$NGUOI_SPACE_PATTERN" "$f" 2>/dev/null; then
+        NGUOI_SPACE_NEW_COUNT=$((NGUOI_SPACE_NEW_COUNT + 1))
+    fi
+done
+
 # ─── 3. 1-sentence definitions (concepts only) ───────────
 ONE_SENT_DEF=""
 for f in $(file_list "wiki/concepts"); do
@@ -143,6 +158,9 @@ if $OUTPUT_JSON; then
   "typo_double_i_files": $DOUBLE_I_COUNT,
   "typo_double_i_instances": $DOUBLE_I_INSTANCES,
   "typo_double_i_new": $DOUBLE_I_NEW_COUNT,
+  "typo_nguoi_space_files": $NGUOI_SPACE_COUNT,
+  "typo_nguoi_space_instances": $NGUOI_SPACE_INSTANCES,
+  "typo_nguoi_space_new": $NGUOI_SPACE_NEW_COUNT,
   "one_sentence_defs": $ONE_SENT_COUNT,
   "few_key_points": $FEW_COUNT,
   "few_key_points_detail": $(echo "$FEW_POINTS" | jq -R -s -c 'split(" ") | map(select(length>0))'),
@@ -161,6 +179,7 @@ else
     echo ""
     echo "🔤 Typo 'ngưởi': $NGUOI_COUNT files (new: $(count_words_var "$NGUOI_NEW"))"
     echo "🔤 Typo 'ngườii/đờii/lờii...' (double-i): $DOUBLE_I_COUNT files, $DOUBLE_I_INSTANCES instances (new: $DOUBLE_I_NEW_COUNT)"
+    echo "🔤 Typo 'người' spacing merge: $NGUOI_SPACE_COUNT files, $NGUOI_SPACE_INSTANCES instances (new: $NGUOI_SPACE_NEW_COUNT)"
     echo "📝 1-sentence definitions: $ONE_SENT_COUNT concepts"
     echo "📊 Too few key points (<5): $FEW_COUNT"
     for fp in $FEW_POINTS; do echo "   $fp"; done

@@ -507,3 +507,11 @@
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 - **Report:** wiki/reviews/2026-06-30_output-report.md
 - **Summary:** Batch clean hoàn toàn. 5 file mới tạo cluster `loop-engineering` chặt chẽ: 1 source (14-step roadmap by Codez) + 4 concepts (loop-engineering, cognitive-surrender, ralph-wiggum-loop, comprehension-debt). 6 source file cũ hơn (code-as-agent-harness, llm-need-sleep, thermodynamics, petrodollar, sop-writer, personal-mba-generator) lần đầu validate đều sạch. Tất cả concept có Definition 2-3 câu, Key ideas 5-8 ý. Không typo, không truncated. Systemic patterns: 359 one-sentence definitions, 81 few key points, 9 empty Key ideas, 191 draft concepts.
+
+## 2026-07-02 23:05:00 — Output validation
+
+- **Files checked:** 497 (121 sources + 376 concepts)
+- **New files:** 28 (9 sources + 19 concepts — accumulated 07-01 + 07-02 since last run on 06-30)
+- **Issues found:** 4 (0 ERROR, 2 WARNING, 2 INFO)
+- **Report:** wiki/reviews/2026-07-02_output-report.md
+- **Summary:** 2 WARNING trong `high-agency.md` (7 instances Vietnamese spacing "người" merge + Definition run-on sentence). 2 INFO: English/Vietnamese mixing "trust cao" + 4 forward-reference backlinks. Quick-scan sạch: 0 typo "ngưởi", 0 typo "ngườii/đờii..." (double-i), 0 truncated. 07-01 batch (25 files) chất lượng cao, cross-linking chặt. Systemic patterns: 374 one-sentence definitions, 79 few key points, 9 empty Key ideas, 206 draft concepts.

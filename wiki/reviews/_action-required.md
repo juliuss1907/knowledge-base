@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-01 23:30
+**Last updated:** 2026-07-02 23:05
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả báo cáo 2026-06-30 đã được approve: Output (23:06), Format (23:17), Hygiene (23:30).
 
 **Status:**
+- ⏳ Output Validator — 2026-07-02 (23:05): **PENDING** (4 issues: 0 ERROR, 2 WARNING, 2 INFO) — Vietnamese spacing + run-on in high-agency.md
 - ⏳ Hygiene Inspector — 2026-07-01 (23:30): **PENDING** (1 issue: 1 ERROR, 0 WARNING, 0 INFO) — index_wiki.py at root level
 - ⏳ Format Validator — 2026-07-01 (23:15): **PENDING** (312 issues: 1 ERROR, 311 WARNING, 0 INFO) — 1 new slug-too-long ERROR
 - ✅ Format Validator — 2026-06-30 (23:17): **APPROVED** (439 issues: 128 ERROR, 311 WARNING, 0 INFO) — 128 topic frontmatter → Kara fix Index Agent template + regenerate
@@ -51,6 +52,40 @@
 - ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+
+---
+
+## Pending — 2026-07-02
+
+### ⏳ Output Validation — 2026-07-02 (23:05)
+
+**File:** [2026-07-02_output-report.md](2026-07-02_output-report.md)
+**Status:** pending
+**Created:** 2026-07-02 23:05:00 +0700
+**Issues:** 4 (0 ERROR, 2 WARNING, 2 INFO)
+**Files checked:** 497 (121 sources + 376 concepts)
+**New files:** 28 (9 sources + 19 concepts — accumulated 07-01 + 07-02 since last output validation on 06-30)
+
+**Summary:**
+- ⚠️ 2 WARNING: `high-agency.md` — Vietnamese spacing (7 instances "người" merge) + Definition run-on sentence
+- ℹ️ 2 INFO: English/Vietnamese mixing ("trust cao") in source + 4 forward-reference backlinks in high-agency.md
+- 🔤 Quick-scan sạch: 0 typo "ngưởi", 0 typo "ngườii/đờii..." (double-i), 0 truncated files
+- Tất cả 28 file mới có Definition ≥2 câu, Key ideas 5-10 ý
+- Cross-linking chặt chẽ: cluster five-types-of-wealth (3 files) + cluster productivity/laws-of-the-world (25 files)
+- Systemic patterns carry-over: 374 one-sentence definitions, 79 few key points, 9 empty Key ideas, 206 draft concepts
+
+**Delta from 2026-06-30 (APPROVED):**
+- +28 files in scope (497 vs 473) — files compiled 07-01 và 07-02
+- +4 issues (0 vs 4) — all in new files, no pre-existing issues resurfaced
+- Mechanical checks: all clean (typos, truncated, empty sections = 0)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-02_output-report.md`
+- Nếu approve: giao Fix Agent sửa spacing + run-on trong `high-agency.md`
+- 2 INFO không bắt buộc — có thể defer
+- Forward-reference backlinks sẽ tự resolve khi concepts được tạo
+
+**Report:** `wiki/reviews/2026-07-02_output-report.md`
 
 ---
 

@@ -319,6 +319,33 @@ sed -i 's/ngườii/người/g; s/đờii/đời/g; s/lờii/lời/g; s/rờii/r
 
 **Root cause:** Compile Agent's LLM prompt or tokenization adds an extra 'i' after words that combine the grave accent (`) with Vietnamese characters. When the original "ngưởi" typo was corrected in some files but not the underlying prompt, the error shifted form rather than being eliminated. The fix-agent should handle both variants; the compile-agent prompt should be reviewed to prevent recurrence.
 
+### "người" spacing merge typo variant (2026-07-02)
+
+A third manifestation of the same root cause: "người" merges with the following word — the space between words is dropped entirely. This produces run-on compound tokens that pass basic spell-check but break readability.
+
+**Patterns detected (7 instances in `high-agency.md`):**
+- `ngườitrong` → `người trong` (or `người. Trong` depending on sentence boundary)
+- `ngườitrở thành` → `người trở thành`
+- `ngườichỉ đạo` → `người chỉ đạo`
+- `ngườicó` → `người có`
+- `ngườilên` → `người lên`
+
+**Detection regex:**
+```bash
+grep -Pn 'người[a-zàáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]' <file>
+```
+This matches "người" followed immediately by a lowercase Vietnamese letter (not punctuation). Punctuation-adjacent "người," or "người." is valid and should NOT be flagged.
+
+**Fix command (sed):**
+```bash
+sed -i 's/ngườitrong/người trong/g; s/ngườitrở thành/người trở thành/g; s/ngườichỉ đạo/người chỉ đạo/g; s/ngườicó/người có/g; s/ngườilên/người lên/g' <file>
+```
+Note: the sed must be ordered longest-match-first to avoid partial replacements. After fixing spacing, manually verify sentence boundaries — some merges may have concealed missing periods (e.g., `ngườitrong` might need `người. Trong`).
+
+**Symptom to watch for:** The spacing merge often co-occurs with run-on sentences — when "người" merges into the next clause, it can conceal a missing sentence boundary. Always re-read the surrounding 1-2 sentences after fixing spacing.
+
+**Detection in quick-scan:** Not yet in `scripts/quick-scan.sh`. Add as a new section using the grep pattern above.
+
 ### False-positive content-depth flags (LLM hallucination)
 
 The LLM-based validator (glm-5.1 via opencode) can incorrectly flag files as having missing/inadequate content when the content is actually present and substantial. **Pattern (2026-06-19):** 7 files flagged as low-quality — but all had full Definitions (2+ câu), Key Ideas (5-6 items), and populated sections.
@@ -363,6 +390,25 @@ When the validator runs and finds `wiki/reviews/YYYY-MM-DD_output-report.md` alr
 When running as a scheduled cron job, the session working directory may be `$HOME` (e.g., `/home/julius`) rather than the knowledge-base directory. The `search_files` and `read_file` tools resolve relative paths from the session cwd, so `wiki/sources/` will fail.
 
 **Fix**: Always use absolute paths (`/home/julius/knowledge-base/wiki/sources/`) for `search_files`, `read_file`, and `terminal` calls. For `terminal`, either `cd` first or use the `workdir` parameter. The quick-scan script handles this internally via `KB_DIR` variable.
+
+### Archived prior report breaks `find -newer` (2026-07-02)
+
+When the previous output report was approved and archived to `wiki/reviews/archive/YYYY-MM/`, a `find -newer` against the expected path (`wiki/reviews/YYYY-MM-DD_output-report.md`) silently returns zero results because the file no longer exists at that location. This causes the validator to miss ALL files compiled since the last run.
+
+**Symptom:** `find -newer` returns 0, but `grep -rl 'date_compiled: YYYY-MM-DD'` on wiki/sources/ returns files. The quick-scan script may also report "New files today: N" while `find -newer` says 0.
+
+**Fix:** Do NOT rely solely on `find -newer` against the expected report path. Use TWO methods and cross-check:
+1. **Primary:** `grep -rl 'date_compiled: YYYY-MM-DD' wiki/sources/` and `grep -rl 'last_updated: YYYY-MM-DD' wiki/concepts/` for each day since the last validation run
+2. **Fallback:** `find -newer` against the archived report path if the active path doesn't exist:
+   ```bash
+   LAST_REPORT="wiki/reviews/YYYY-MM-DD_output-report.md"
+   if [ ! -f "$LAST_REPORT" ]; then
+     LAST_REPORT=$(find wiki/reviews/archive/ -name "YYYY-MM-DD_output-report.md" -type f 2>/dev/null | sort | tail -1)
+   fi
+   ```
+3. **Cross-check:** If `find -newer` returns 0 but frontmatter grep returns files, trust the frontmatter grep — some filesystems don't preserve meaningful modification times after git operations or cross-machine sync.
+
+**Pattern (2026-07-02):** Last output validation was 06-30, report archived to `archive/2026-06/`. `find -newer wiki/reviews/2026-06-30_output-report.md` returned 0. But 28 files (8 sources + 17 concepts on 07-01 + 3 on 07-02) had never been output-validated. The quick-scan script caught the 07-02 files via frontmatter date matching but did not flag the 07-01 gap.
 
 ### quick-scan.sh: bash integer comparison with grep -c in $()
 

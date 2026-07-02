@@ -80,6 +80,12 @@ ROOT_ORPHAN_MAP = {
     "MEMORY.md": ".hermes/ or .openclaw/",
 }
 
+# ── Known recurring root folders (not in whitelist, keep reappearing) ──
+ROOT_FOLDER_ORPHANS = {
+    "state": "Recurring empty directory — previously resolved 2026-06-27, recreated 2026-07-02. "
+             "Move inside .hermes/ or .openclaw/ if needed; otherwise rmdir.",
+}
+
 # ── Global state ──
 issues = []
 seen = set()
@@ -441,6 +447,21 @@ def main():
                 classify_wiki_entry(rel)
             else:
                 classify_generic_path(rel)
+
+        # ── Root folder whitelist check ──
+        # classify_root_folder was never called — root-level dirnames were only
+        # caught later by the empty-directory check (INFO), not the path-whitelist
+        # check (ERROR). This patch fixes that gap (2026-07-02).
+        if rel_dir == "":
+            for dirname in dirnames:
+                if dirname in ROOT_FOLDER_ORPHANS:
+                    add_issue(dirname, "ERROR", "Orphan",
+                              f"Recurring root folder not in whitelist: {dirname}/",
+                              dirname + "/",
+                              ROOT_FOLDER_ORPHANS[dirname],
+                              f"Remove directory: rmdir {dirname}/")
+                else:
+                    classify_root_folder(dirname, dirname)
 
     # ── Empty directory check ──
     for dirpath, dirnames, filenames in os.walk(ROOT):

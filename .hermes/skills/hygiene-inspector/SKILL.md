@@ -521,7 +521,7 @@ Typical validation times (daily runs):
 
 ## Full-tree scan pitfalls
 
-When building a production scan script from the template in `references/scan-script.py`, three false-positive sources must be handled:
+When building a production scan script from the template in `references/scan-script.py`, four false-positive sources must be handled:
 
 ### 1. Archive regex prefix
 `RE_REVIEW_ARCHIVE` must match `^wiki/reviews/archive/` not `^archive/`. `os.walk` relative paths start from the repo root, so the bare `archive/` prefix will never match. The proven pattern is in `references/scan-script.py`.
@@ -534,6 +534,9 @@ Files that are explicitly whitelisted by name (e.g., `context/USER.md`, `wiki/me
 
 ### 4. Recurring HEARTBEAT leak
 `wiki/reviews/HEARTBEAT.md` is a known recurring issue — it has been flagged every run since 2026-06-25. Fix Agent removal is transient; the writing process recreates it. Flag it as ERROR each time it appears, but note in the report that it needs a process-level fix, not another file deletion. See `references/common-patterns.md` for details.
+
+### 5. classify_root_folder never called (fixed 2026-07-02)
+`classify_root_folder()` was defined but never invoked from `main()`. Root-level folders outside the whitelist (e.g., `state/`) were only caught by the empty-directory check as INFO, not by the path-whitelist check as ERROR. Fixed by adding a root-folder classification loop inside `main()` when `rel_dir == ""`. Also added `ROOT_FOLDER_ORPHANS` dict for known recurring root folders.
 
 ---
 
@@ -555,6 +558,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.8 | 2026-07-02 | Fixed `classify_root_folder()` never called from `main()` — root-level folders outside whitelist (e.g. `state/`) were only caught as INFO (empty directory), never as ERROR (path whitelist). Added root-folder classification loop in `main()` at `rel_dir == ""`. Added `ROOT_FOLDER_ORPHANS` dict for known recurring root folders with process-level fix guidance. Added pitfall #5 to Full-tree scan pitfalls. |
 | 1.7 | 2026-06-28 | Replaced skeletal scan-script template with production version proven on 51K-path scan. Production script handles all KB zones: root whitelist, context/, raw/ (all 6 types including papers + repos patterns), wiki/ (all 7 subfolders including reviews archive), agent homes, scripts/, .tmp- folders. Added `scripts/verify.py` for post-run artifact verification. Updated `references/common-patterns.md` with HEARTBEAT leak resolution (fixed as of 2026-06-28). |
 | 1.6 | 2026-06-27 | Full-tree scan on 17,526-path KB uncovered three false-positive sources in the production script: (1) archive regex needed `^wiki/reviews/archive/` not `^archive/`, (2) papers use `YYYY-MM-DD_<author>_<title>.md` not standard `YYYY-MM-DD_<slug>.md`, (3) explicitly whitelisted files (e.g. `context/USER.md`) must skip generic naming checks. Added `RE_RAW_PAPERS`, fixed `RE_REVIEW_ARCHIVE`, and added `RE_REVIEW_REPORT` regex patterns to `references/scan-script.py`. Added "Full-tree scan pitfalls" section to SKILL.md. Documented recurring HEARTBEAT leak pattern in `references/common-patterns.md`. |
 | 1.5 | 2026-06-26 | Removed contradictory `MEMORY.md` logging step because the skill is report-only and write-restricted to `wiki/reviews/`. Added guidance for live workflow artifacts that are not yet whitelisted (report as `[SPEC CONFLICT]`, e.g. `wiki/reviews/_approval-log.md`). Added `references/full-tree-scan-notes.md` and restored `references/scan-script.py` so the SKILL.md links resolve. Clarified that `wiki/drafts/*.bak` and `.gitkeep` should be cleanup warnings, while backup subfolders remain path errors. |

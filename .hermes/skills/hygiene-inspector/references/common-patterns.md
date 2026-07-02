@@ -41,7 +41,7 @@ Files and folders that frequently appear at root but are not in the whitelist:
 - `RAW_BACKLOG.md` — leftover from manual tracking; should move to `wiki/drafts/` or `raw/articles/`
 - `MEMORY.md` — agent memory file that leaked from `.hermes/` or `.openclaw/`
 - `search/` — temporary search index; should be gitignored or removed
-- `state/` — runtime state folder; should be inside `.hermes/` or `.openclaw/`
+- `state/` — empty directory, **recurring** (flagged 06-25, resolved 06-27, recreated 07-02 10:28). Not in root whitelist. If needed, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.
 - `temp_content/` — scratch folder; should be removed after use
 - `memory/` — old folder migrated to `.openclaw/memory/` in v1.2; should be removed
 

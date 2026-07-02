@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: systematic-trading-transition
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: systematic-trading-transition
 
 Auto-generated index of all content with topic `systematic-trading-transition`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -19,8 +21,3 @@ Auto-generated index of all content with topic `systematic-trading-transition`.
 ## Sources (1)
 
 - [[src_the-cost-of-discretion]] — main: #economic, sub: [#opinion, #tutorial]
-
-## Related topics
-
-Topics that share concepts/sources with `systematic-trading-transition`:
-- (none)

@@ -2507,3 +2507,11 @@
 - Topics indexed: 139 (all WITH YAML frontmatter — template fixed)
 - Orphans deleted: 0
 - Key fix: Topic file generation now includes full YAML frontmatter block, preventing Format regression
+## 2026-07-02 21:03:22 — Indexed
+
+- **Scanned:** 497 total files
+- **Tags indexed:** 23 (9 main-tags + 14 sub-tags)
+- **Topics indexed:** 140
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped

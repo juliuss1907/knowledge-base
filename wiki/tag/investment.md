@@ -1,40 +1,41 @@
 ---
 type: index
-scope: tag
 level: 3
-parent: "[[tag]]"
+scope: tag
+parent: [[tag]]
 tag: investment
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Tag: #investment
 
-Auto-generated index of all content tagged with `#investment`.
-
----
-
 ## Parent
 
-[[tag]]
+- [[tag]]
 
 ## Stats
 
-- **Files:** 6 (4 concepts + 2 sources)
-- **Last updated:** 2026-07-01 21:38:45
+- Total files: 9
+- Sources: 3
+- Concepts: 6
+- Last updated: 2026-07-02
 
 ## Files with this tag
 
-- [[diversification-strategy]] — main: #investment, sub: [#research], topic: investment-principles
-- [[five-big-forces]] — main: #investment, sub: [#research], topic: investment-principles
-- [[global-macro-investing]] — main: #investment, sub: [#tutorial], topic: global-macro-investing
-- [[holy-grail-investing]] — main: #investment, sub: [#research], topic: investment-principles
-- [[src_global-macro-investing]] — main: #investment, sub: [#opinion, #tutorial], topic: global-macro-investing
-- [[src_investment-principles-dalio]] — main: #investment, sub: [#opinion, #research], topic: investment-principles
+- [[diversification-strategy]] — Diversification Strategy (concept)
+- [[erg-theory]] — Erg Theory (concept)
+- [[five-big-forces]] — Five Big Forces (concept)
+- [[five-types-of-wealth]] — Five Types Of Wealth (concept)
+- [[global-macro-investing]] — Global Macro Investing (concept)
+- [[holy-grail-investing]] — Holy Grail Investing (concept)
+- [[src_global-macro-investing]] — Global Macro Investing (source)
+- [[src_investment-principles-dalio]] — Investment Principles Dalio (source)
+- [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#investment`:
-- `#research` (4 files)
-- `#tutorial` (2 files)
-- `#opinion` (2 files)
+- [[opinion]] — 5 co-occurrences
+- [[research]] — 4 co-occurrences
+- [[psychology]] — 3 co-occurrences
+- [[tutorial]] — 2 co-occurrences

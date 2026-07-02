@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: meaning-life-purpose
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: meaning-life-purpose
 
 Auto-generated index of all content with topic `meaning-life-purpose`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -23,8 +25,3 @@ Auto-generated index of all content with topic `meaning-life-purpose`.
 ## Sources (1)
 
 - [[src_viktor-frankl-meaning-video]] — main: #productivity, sub: [#opinion, #psychology]
-
-## Related topics
-
-Topics that share concepts/sources with `meaning-life-purpose`:
-- (none)

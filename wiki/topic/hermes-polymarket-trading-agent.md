@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-polymarket-trading-agent
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: hermes-polymarket-trading-agent
 
 Auto-generated index of all content with topic `hermes-polymarket-trading-agent`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -22,8 +24,3 @@ Auto-generated index of all content with topic `hermes-polymarket-trading-agent`
 ## Sources (1)
 
 - [[src_hermes-polymarket-btc-trading-agent]] — main: #crypto, sub: [#automation, #tools, #tutorial]
-
-## Related topics
-
-Topics that share concepts/sources with `hermes-polymarket-trading-agent`:
-- (none)

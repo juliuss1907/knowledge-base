@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: market-structure-analysis
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: market-structure-analysis
 
 Auto-generated index of all content with topic `market-structure-analysis`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -26,8 +28,3 @@ Auto-generated index of all content with topic `market-structure-analysis`.
 ## Sources (1)
 
 - [[src_how-the-market-warns-you-before-the-crash]] — main: #economic, sub: [#research, #tools, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `market-structure-analysis`:
-- (none)

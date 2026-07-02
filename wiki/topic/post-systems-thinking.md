@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: post-systems-thinking
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: post-systems-thinking
 
 Auto-generated index of all content with topic `post-systems-thinking`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -25,8 +27,3 @@ Auto-generated index of all content with topic `post-systems-thinking`.
 ## Sources (1)
 
 - [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#research, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `post-systems-thinking`:
-- (none)

@@ -1,53 +1,50 @@
 ---
 type: index
-scope: tag
 level: 3
-parent: "[[tag]]"
+scope: tag
+parent: [[tag]]
 tag: coding
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Tag: #coding
 
-Auto-generated index of all content tagged with `#coding`.
-
----
-
 ## Parent
 
-[[tag]]
+- [[tag]]
 
 ## Stats
 
-- **Files:** 17 (12 concepts + 5 sources)
-- **Last updated:** 2026-07-01 21:38:45
+- Total files: 17
+- Sources: 5
+- Concepts: 12
+- Last updated: 2026-07-02
 
 ## Files with this tag
 
-- [[agent-harness]] — main: #ai, sub: [#automation, #tools, #coding], topic: code-as-agent-harness
-- [[bpe-algorithm]] — main: #ai, sub: [#research, #coding], topic: tokenization-llm
-- [[byte-level-bpe]] — main: #ai, sub: [#research, #coding], topic: tokenization-llm
-- [[code-as-substrate]] — main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness
-- [[cognitive-surrender]] — main: #ai, sub: [#automation, #coding, #psychology], topic: loop-engineering
-- [[comprehension-debt]] — main: #ai, sub: [#automation, #coding], topic: loop-engineering
-- [[handoff-skill]] — main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff
-- [[long-context-models]] — main: #ai, sub: [#research, #coding], topic: llm-capabilities
-- [[loop-engineering]] — main: #ai, sub: [#automation, #coding], topic: loop-engineering
-- [[measurable-outcomes]] — main: #productivity, sub: [#system, #coding], topic: measurable-outcomes
-- [[plan-execute-verify-loop]] — main: #ai, sub: [#automation, #research, #coding], topic: code-as-agent-harness
-- [[ralph-wiggum-loop]] — main: #ai, sub: [#automation, #coding], topic: loop-engineering
-- [[src_code-as-agent-harness-arxiv-2605-18747]] — main: #ai, sub: [#research, #coding], topic: code-as-agent-harness
-- [[src_handoff-skill-context-window-management]] — main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff
-- [[src_loop-engineering-14-step-roadmap]] — main: #ai, sub: [#automation, #coding, #tutorial], topic: loop-engineering
-- [[src_tao-ket-qua-dinh-luong-duoc]] — main: #productivity, sub: [#system, #coding], topic: measurable-outcomes
-- [[src_youre-being-trained-for-a-world-that-no-longer-exists]] — main: #ai, sub: [#opinion, #tutorial, #coding], topic: future-proof-skills
+- [[agent-harness]] — Agent Harness (concept)
+- [[bpe-algorithm]] — Bpe Algorithm (concept)
+- [[byte-level-bpe]] — Byte Level Bpe (concept)
+- [[code-as-substrate]] — Code As Substrate (concept)
+- [[cognitive-surrender]] — Cognitive Surrender (concept)
+- [[comprehension-debt]] — Comprehension Debt (concept)
+- [[handoff-skill]] — Handoff Skill (concept)
+- [[long-context-models]] — Long Context Models (concept)
+- [[loop-engineering]] — Loop Engineering (concept)
+- [[measurable-outcomes]] — Measurable Outcomes (concept)
+- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
+- [[ralph-wiggum-loop]] — Ralph Wiggum Loop (concept)
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
+- [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)
+- [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source)
+- [[src_tao-ket-qua-dinh-luong-duoc]] — Tao Ket Qua Dinh Luong Duoc (source)
+- [[src_youre-being-trained-for-a-world-that-no-longer-exists]] — Youre Being Trained For A World That No Longer Exists (source)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#coding`:
-- `#ai` (15 files)
-- `#automation` (9 files)
-- `#research` (5 files)
-- `#tools` (4 files)
-- `#system` (2 files)
+- [[ai]] — 15 co-occurrences
+- [[automation]] — 9 co-occurrences
+- [[research]] — 5 co-occurrences
+- [[tools]] — 4 co-occurrences
+- [[tutorial]] — 2 co-occurrences

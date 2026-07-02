@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: counterinsurgency-warfare
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: counterinsurgency-warfare
 
 Auto-generated index of all content with topic `counterinsurgency-warfare`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -22,8 +24,3 @@ Auto-generated index of all content with topic `counterinsurgency-warfare`.
 ## Sources (1)
 
 - [[src_counterinsurgency-fighting-back]] — main: #politic, sub: [#research, #hack]
-
-## Related topics
-
-Topics that share concepts/sources with `counterinsurgency-warfare`:
-- (none)

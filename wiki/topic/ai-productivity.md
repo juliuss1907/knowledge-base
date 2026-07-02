@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-productivity
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: ai-productivity
 
 Auto-generated index of all content with topic `ai-productivity`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -25,8 +27,3 @@ Auto-generated index of all content with topic `ai-productivity`.
 ## Sources (1)
 
 - [[src_how-ai-productivity-fails]] — main: #ai, sub: [#tools, #automation, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `ai-productivity`:
-- (none)

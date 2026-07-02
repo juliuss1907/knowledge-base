@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-latticework
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: mental-models-latticework
 
 Auto-generated index of all content with topic `mental-models-latticework`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -23,8 +25,3 @@ Auto-generated index of all content with topic `mental-models-latticework`.
 ## Sources (1)
 
 - [[src_building-latticework-mental-models]] — main: #economic, sub: [#research, #psychology]
-
-## Related topics
-
-Topics that share concepts/sources with `mental-models-latticework`:
-- (none)

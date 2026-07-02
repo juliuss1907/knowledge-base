@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: systems-thinking-training
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: systems-thinking-training
 
 Auto-generated index of all content with topic `systems-thinking-training`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -24,8 +26,3 @@ Auto-generated index of all content with topic `systems-thinking-training`.
 ## Sources (1)
 
 - [[src_markus-systems-thinking-roadmap]] — main: #productivity, sub: [#tutorial, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `systems-thinking-training`:
-- (none)

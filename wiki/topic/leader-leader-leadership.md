@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: leader-leader-leadership
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: leader-leader-leadership
 
 Auto-generated index of all content with topic `leader-leader-leadership`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -25,8 +27,3 @@ Auto-generated index of all content with topic `leader-leader-leadership`.
 ## Sources (1)
 
 - [[src_shift-leader-follower-to-leader-leader]] — main: #productivity, sub: [#research, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `leader-leader-leadership`:
-- (none)

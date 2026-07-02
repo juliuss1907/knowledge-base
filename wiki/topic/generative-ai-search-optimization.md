@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: generative-ai-search-optimization
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: generative-ai-search-optimization
 
 Auto-generated index of all content with topic `generative-ai-search-optimization`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -19,8 +21,3 @@ Auto-generated index of all content with topic `generative-ai-search-optimizatio
 ## Sources (1)
 
 - [[src_generative-ai-search-optimization]] — main: #ai, sub: [#research, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `generative-ai-search-optimization`:
-- (none)

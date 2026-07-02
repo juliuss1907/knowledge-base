@@ -4,12 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: systems-thinking-tools
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Topic: systems-thinking-tools
 
 Auto-generated index of all content with topic `systems-thinking-tools`.
+
+Last updated: 2026-07-02 21:02:26
 
 ---
 
@@ -24,8 +26,3 @@ Auto-generated index of all content with topic `systems-thinking-tools`.
 ## Sources (1)
 
 - [[src_systems-thinking-tools-deepdive]] — main: #productivity, sub: [#tools, #research, #tutorial]
-
-## Related topics
-
-Topics that share concepts/sources with `systems-thinking-tools`:
-- (none)

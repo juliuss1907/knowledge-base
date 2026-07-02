@@ -1,202 +1,202 @@
 ---
 type: index
-scope: tag
 level: 3
-parent: "[[tag]]"
+scope: tag
+parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-07-01 21:38:45
+last_updated: 2026-07-02
 ---
 
 # Tag: #opinion
 
-Auto-generated index of all content tagged with `#opinion`.
-
----
-
 ## Parent
 
-[[tag]]
+- [[tag]]
 
 ## Stats
 
-- **Files:** 166 (114 concepts + 52 sources)
-- **Last updated:** 2026-07-01 21:38:45
+- Total files: 169
+- Sources: 53
+- Concepts: 116
+- Last updated: 2026-07-02
 
 ## Files with this tag
 
-- [[abstraction-layer-fallacy]] — main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology
-- [[active-thinking]] — main: #productivity, sub: [#opinion, #research], topic: active-thinking
-- [[ai-agent-setup-mistakes]] — main: #ai, sub: [#tools, #tutorial, #opinion], topic: hermes-personal-analyst-setup
-- [[ai-augmented-systems-thinking]] — main: #ai, sub: [#opinion, #research], topic: ai-systems-thinking-augmentation
-- [[ai-impression-of-work]] — main: #ai, sub: [#opinion, #tools], topic: ai-business-criticism
-- [[ai-infrastructure-bubble]] — main: #economic, sub: [#tools, #opinion], topic: ai-reflexivity-2026
-- [[ai-lab-crypto-analogy]] — main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics
-- [[ai-powered-discovery]] — main: #ai, sub: [#research, #opinion], topic: ai-landing-page-discovery
-- [[ai-productivity]] — main: #ai, sub: [#tools, #opinion], topic: ai-systems-thinking-augmentation
-- [[ai-research-workflow]] — main: #ai, sub: [#automation, #tools, #opinion], topic: hermes-xai-grok-integration
-- [[ai-tool-role-separation]] — main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-operator-builder-pattern
-- [[ai-trading-agent]] — main: #ai, sub: [#automation, #tools, #opinion], topic: ai-trading-agent-claude-code
-- [[ai-white-collar-automation]] — main: #ai, sub: [#research, #opinion], topic: ai-economic-disruption-white-collar
-- [[altcoin-frenzy-pattern]] — main: #economic, sub: [#layer1, #opinion], topic: market-cycles
-- [[american-security-guarantee]] — main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics
-- [[approach-avoidance-conflict]] — main: #productivity, sub: [#psychology, #opinion], topic: procrastination-neuroscience
-- [[ashbys-law]] — main: #system, sub: [#research, #opinion], topic: post-systems-thinking
-- [[attention-economy-vs-knowledge-economy]] — main: #ai, sub: [#opinion, #news], topic: journalism-ai-era
-- [[autobiographical-memory-systems]] — main: #ai, sub: [#research, #opinion], topic: agent-memory-systems
-- [[business-idiot-archetype]] — main: #economic, sub: [#opinion, #tools], topic: ai-business-criticism
-- [[casino-culture]] — main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth
-- [[casino-culture]] — main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth
-- [[category-kings-dynamics]] — main: #economic, sub: [#opinion, #ai], topic: market-structure
-- [[challenge-skills-balance]] — main: #productivity, sub: [#psychology, #opinion], topic: procrastination-neuroscience
-- [[clear-goals]] — main: #productivity, sub: [#psychology, #opinion], topic: procrastination-neuroscience
-- [[climax-top]] — main: #economic, sub: [#research, #opinion], topic: market-structure-analysis
-- [[complex-adaptive-systems]] — main: #system, sub: [#research, #opinion], topic: post-systems-thinking
-- [[complicated-vs-complex]] — main: #system, sub: [#research, #opinion], topic: post-systems-thinking
-- [[compounding-effect]] — main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth
-- [[compounding-effect]] — main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth
-- [[compounding-relationships]] — main: #productivity, sub: [#psychology, #opinion], topic: long-term-thinking
-- [[creativity-as-skill]] — main: #ai, sub: [#opinion, #psychology], topic: future-proof-skills
-- [[cynefin-framework]] — main: #system, sub: [#research, #opinion], topic: post-systems-thinking
-- [[discipline-as-freedom]] — main: #productivity, sub: [#opinion, #psychology], topic: discipline-and-spontaneity
-- [[dollar-as-rent-payment]] — main: #economic, sub: [#research, #opinion], topic: petrodollar-collapse
-- [[dynamic-edge-trading]] — main: #economic, sub: [#research, #opinion], topic: market-dynamics
-- [[embodied-knowledge]] — main: #productivity, sub: [#psychology, #opinion], topic: embodied-knowledge
-- [[enablement-vs-control]] — main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development
-- [[environment-baseline]] — main: #productivity, sub: [#opinion, #research], topic: compounding-growth
-- [[evolutionary-mismatch]] — main: #productivity, sub: [#research, #opinion], topic: evolutionary-mismatch-modern-life
-- [[existential-vacuum]] — main: #productivity, sub: [#opinion, #psychology], topic: meaning-life-purpose
-- [[experience-over-achievement]] — main: #productivity, sub: [#psychology, #opinion], topic: experience-over-achievement
-- [[explore-exploit-tradeoff]] — main: #productivity, sub: [#psychology, #opinion], topic: prices-law
-- [[false-reinforcement-loop]] — main: #economic, sub: [#opinion, #psychology], topic: trading-psychology
-- [[flow-cycle]] — main: #productivity, sub: [#psychology, #opinion], topic: procrastination-neuroscience
-- [[four-layer-framework]] — main: #politic, sub: [#research, #opinion], topic: structural-competition
-- [[hedonic-treadmill]] — main: #productivity, sub: [#research, #opinion], topic: simplicity-psychology
-- [[hermes-token-management]] — main: #ai, sub: [#tools, #opinion], topic: hermes-top-skills-analysis
-- [[human-judgment-ai]] — main: #ai, sub: [#opinion, #research], topic: ai-systems-thinking-augmentation
-- [[human-premium]] — main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age
-- [[hypergamy]] — main: #productivity, sub: [#psychology, #opinion], topic: hypergamy-relationships
-- [[idea-economy]] — main: #ai, sub: [#opinion], topic: future-proof-skills
-- [[ikigai-unbundling]] — main: #productivity, sub: [#opinion, #psychology], topic: ikigai-unbundling
-- [[industrial-scale]] — main: #politic, sub: [#research, #opinion], topic: structural-competition
-- [[information-compression]] — main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology
-- [[institutional-capacity]] — main: #politic, sub: [#research, #opinion], topic: structural-competition
-- [[institutional-trading-cycle]] — main: #economic, sub: [#opinion], topic: trading-timing
-- [[job-scoring-framework]] — main: #productivity, sub: [#opinion], topic: job-evaluation-framework
-- [[job-worth-doing]] — main: #productivity, sub: [#opinion], topic: job-worth-doing
-- [[journalism-social-institution]] — main: #ai, sub: [#opinion], topic: journalism-ai-era
-- [[kinked-demand-curve]] — main: #economic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics
-- [[kissinger-deal-1974]] — main: #politic, sub: [#research, #opinion], topic: us-saudi-relations
-- [[knowledge-builder-journalist]] — main: #ai, sub: [#opinion], topic: journalism-ai-era
-- [[laws-of-the-world]] — main: #productivity, sub: [#psychology, #opinion], topic: laws-of-the-world
-- [[lazy-thinking]] — main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology
-- [[leading-indicators]] — main: #productivity, sub: [#opinion, #research], topic: compounding-growth
-- [[long-term-thinking]] — main: #productivity, sub: [#psychology, #opinion], topic: long-term-thinking
-- [[markus-four-thinking-types]] — main: #productivity, sub: [#opinion, #psychology], topic: systems-thinking-types
-- [[meaning-through-suffering]] — main: #productivity, sub: [#opinion, #psychology], topic: meaning-life-purpose
-- [[narrative-certainty-trap]] — main: #economic, sub: [#opinion, #psychology], topic: market-psychology
-- [[negative-compounding]] — main: #productivity, sub: [#opinion, #research], topic: compounding-growth
-- [[nice-syndrome]] — main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology
-- [[non-commodity-content]] — main: #productivity, sub: [#tutorial, #opinion], topic: generative-ai-seo
-- [[opec-cartel-structure]] — main: #economic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics
-- [[organizational-incrementalism]] — main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology
-- [[out-of-distribution-experience]] — main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age
-- [[outcome-worship-trap]] — main: #economic, sub: [#opinion, #psychology], topic: trading-psychology
-- [[paradox-of-effort]] — main: #productivity, sub: [#tutorial, #opinion], topic: simplicity-psychology
-- [[passion-economy-trap]] — main: #economic, sub: [#psychology, #opinion], topic: ikigai-unbundling
-- [[patience-vs-passivity]] — main: #productivity, sub: [#opinion, #research], topic: compounding-growth
-- [[performative-existence]] — main: #productivity, sub: [#psychology, #opinion], topic: experience-over-achievement
-- [[petrodollar-system]] — main: #economic, sub: [#research, #opinion], topic: petrodollar-collapse
-- [[philosopher-syndrome]] — main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology
-- [[political-settlement]] — main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development
-- [[positioning-before-price]] — main: #economic, sub: [#opinion], topic: trading-timing
-- [[power-law-distribution]] — main: #productivity, sub: [#psychology, #opinion], topic: prices-law
-- [[premature-analysis]] — main: #productivity, sub: [#opinion], topic: systems-thinking-cognitive-development
-- [[presence]] — main: #productivity, sub: [#psychology, #opinion], topic: experience-over-achievement
-- [[prices-law]] — main: #productivity, sub: [#psychology, #opinion], topic: prices-law
-- [[productivity-wage-gap]] — main: #economic, sub: [#research, #opinion], topic: ai-economic-disruption-white-collar
-- [[recognizing-life-signals]] — main: #productivity, sub: [#psychology, #opinion], topic: self-discovery-serendipity
-- [[reflexivity-soros]] — main: #economic, sub: [#research, #opinion], topic: market-dynamics
-- [[retail-trading-fantasy]] — main: #economic, sub: [#opinion, #psychology], topic: trading-education
-- [[rot-economy]] — main: #economic, sub: [#opinion, #news], topic: ai-business-criticism
-- [[saudi-pakistan-defense-agreement]] — main: #politic, sub: [#news, #opinion], topic: saudi-defense-diversification
-- [[second-order-effects]] — main: #system, sub: [#research, #opinion], topic: post-systems-thinking
-- [[skill-atrophy]] — main: #ai, sub: [#opinion, #tools], topic: ai-productivity
-- [[spare-production-capacity]] — main: #economic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics
-- [[spontaneity-within-structure]] — main: #productivity, sub: [#opinion, #psychology], topic: discipline-and-spontaneity
-- [[state-capacity-theory]] — main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development
-- [[state-conditioned-decisions]] — main: #economic, sub: [#research, #opinion], topic: trading-state-policy
-- [[static-website-blind-spot]] — main: #ai, sub: [#tools, #opinion], topic: ai-landing-page-discovery
-- [[stoic-control-dichotomy]] — main: #productivity, sub: [#tutorial, #opinion], topic: simplicity-psychology
-- [[strait-of-hormuz-geopolitics]] — main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics
-- [[structural-competition]] — main: #politic, sub: [#research, #opinion], topic: structural-competition
-- [[systems-thinking-limitations]] — main: #system, sub: [#research, #opinion], topic: post-systems-thinking
-- [[tacit-knowledge]] — main: #productivity, sub: [#psychology, #opinion], topic: tacit-knowledge
-- [[taste-holders]] — main: #system, sub: [#automation, #opinion], topic: ai-productivity
-- [[timing-over-stock-picking]] — main: #economic, sub: [#opinion], topic: trading-timing
-- [[tokenmaxxing]] — main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age
-- [[trading-psychology]] — main: #economic, sub: [#psychology, #opinion], topic: trading-psychology
-- [[tragic-optimism]] — main: #productivity, sub: [#opinion, #psychology], topic: meaning-life-purpose
-- [[uae-saudi-rivalry]] — main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics
-- [[us-security-umbrella]] — main: #politic, sub: [#research, #opinion], topic: us-saudi-relations
-- [[src_1-month-with-hermes-ive-been-using-wrong]] — main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-operator-builder-pattern
-- [[src_2026-advice]] — main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age
-- [[src_3-things-learnt-3-weeks-hermes-analyst]] — main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-personal-analyst-setup
-- [[src_active-vs-lazy-thinking]] — main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology
-- [[src_after-the-heater-rule-keeps-you-alive]] — main: #economic, sub: [#opinion, #tutorial], topic: trading-heater-rule
-- [[src_ai-future-skills]] — main: #ai, sub: [#opinion, #tools], topic: ai-future-skills
-- [[src_ai-reflexivity-loop-is-same]] — main: #economic, sub: [#opinion, #tools], topic: ai-reflexivity-2026
-- [[src_ai-trillion-dollar-blind-spot]] — main: #ai, sub: [#research, #opinion], topic: ai-landing-page-discovery
-- [[src_ai-will-destroy-world-economy]] — main: #ai, sub: [#news, #opinion], topic: ai-economic-disruption-white-collar
-- [[src_dont-sign-in-with-google]] — main: #tech, sub: [#hack, #tools, #opinion], topic: sso-security-risks
-- [[src_everything-is-a-win-when-the-goal]] — main: #productivity, sub: [#psychology, #opinion], topic: experience-over-achievement
-- [[src_give-me-14-minutes-destroy-procrastination]] — main: #productivity, sub: [#psychology, #opinion], topic: procrastination-neuroscience
-- [[src_global-macro-investing]] — main: #investment, sub: [#opinion, #tutorial], topic: global-macro-investing
-- [[src_hermes-200-30-skills-3-worth-it]] — main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-top-skills-analysis
-- [[src_how-ai-productivity-fails]] — main: #ai, sub: [#tools, #automation, #opinion], topic: ai-productivity
-- [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools], topic: compounding-growth
-- [[src_how-the-market-warns-you-before-the-crash]] — main: #economic, sub: [#research, #tools, #opinion], topic: market-structure-analysis
-- [[src_how-to-live-without-options]] — main: #productivity, sub: [#psychology, #opinion, #research], topic: optionality-paradox
-- [[src_hypergamy]] — main: #productivity, sub: [#psychology, #opinion], topic: hypergamy-relationships
-- [[src_investment-principles-dalio]] — main: #investment, sub: [#opinion, #research], topic: investment-principles
-- [[src_l1-blockchain-ai-lab-comparison]] — main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics
-- [[src_live-disciplined-life-spontaneously]] — main: #productivity, sub: [#opinion, #psychology], topic: discipline-and-spontaneity
-- [[src_markus-four-thinking-types]] — main: #productivity, sub: [#opinion, #psychology], topic: systems-thinking-types
-- [[src_markus-job-scoring-framework]] — main: #productivity, sub: [#opinion], topic: job-evaluation-framework
-- [[src_markus-job-worth-doing]] — main: #productivity, sub: [#opinion], topic: job-worth-doing
-- [[src_markus-systems-thinking-roadmap]] — main: #productivity, sub: [#tutorial, #opinion], topic: systems-thinking-training
-- [[src_mathematical-reason-most-people-never-make-it]] — main: #productivity, sub: [#psychology, #opinion], topic: prices-law
-- [[src_nha-bao-lam-gi]] — main: #ai, sub: [#opinion, #news], topic: journalism-ai-era
-- [[src_no-system-will-make-you-profitable]] — main: #economic, sub: [#opinion, #research], topic: trading-policy-implementation
-- [[src_petrodollar-system-analysis]] — main: #economic, sub: [#research, #opinion], topic: petrodollar-collapse
-- [[src_play-long-term-games-with-long-term-people]] — main: #productivity, sub: [#psychology, #opinion], topic: long-term-thinking
-- [[src_setup-is-not-an-edge]] — main: #economic, sub: [#opinion, #research], topic: trading-state-policy
-- [[src_shift-leader-follower-to-leader-leader]] — main: #productivity, sub: [#research, #opinion], topic: leader-leader-leadership
-- [[src_split-the-ikigai]] — main: #productivity, sub: [#opinion, #psychology], topic: ikigai-unbundling
-- [[src_systems-thinking-leadership]] — main: #productivity, sub: [#research, #opinion, #tutorial], topic: systems-thinking-leadership
-- [[src_systems-thinking-rabbit-hole]] — main: #productivity, sub: [#research, #opinion], topic: systems-thinking-cognitive-development
-- [[src_the-cost-of-discretion]] — main: #economic, sub: [#opinion, #tutorial], topic: systematic-trading-transition
-- [[src_the-laws-of-this-world]] — main: #productivity, sub: [#psychology, #opinion], topic: laws-of-the-world
-- [[src_the-next-generation-of-trading-wont]] — main: #economic, sub: [#opinion], topic: trading-timing
-- [[src_the-revenge-of-the-business-idiot]] — main: #ai, sub: [#opinion, #research], topic: ai-business-criticism
-- [[src_this-will-help-you-figure-out-what-you-want]] — main: #productivity, sub: [#psychology, #opinion], topic: self-discovery-serendipity
-- [[src_trading-brain-chemistry-ferb]] — main: #economic, sub: [#opinion, #psychology], topic: trading-psychology
-- [[src_tribute-system-new-world-order]] — main: #politic, sub: [#geopolitics, #opinion], topic: tribute-system-world-order
-- [[src_uae-opec-exit-end-of-era]] — main: #economic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics
-- [[src_viktor-frankl-meaning-video]] — main: #productivity, sub: [#opinion, #psychology], topic: meaning-life-purpose
-- [[src_were-not-supposed-to-live-like-this]] — main: #productivity, sub: [#opinion, #research], topic: evolutionary-mismatch-modern-life
-- [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#research, #opinion], topic: post-systems-thinking
-- [[src_why-china-got-rich-and-india-didnt]] — main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development
-- [[src_why-i-write-about-structural-competition]] — main: #politic, sub: [#opinion, #research], topic: structural-competition
-- [[src_why-we-complicate-life-productive-peter]] — main: #productivity, sub: [#tutorial, #opinion], topic: simplicity-psychology
-- [[src_will-ai-replace-systems-thinking]] — main: #ai, sub: [#opinion, #research], topic: ai-systems-thinking-augmentation
-- [[src_youre-being-trained-for-a-world-that-no-longer-exists]] — main: #ai, sub: [#opinion, #tutorial, #coding], topic: future-proof-skills
+- [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept)
+- [[active-thinking]] — Active Thinking (concept)
+- [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
+- [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
+- [[ai-impression-of-work]] — Ai Impression Of Work (concept)
+- [[ai-infrastructure-bubble]] — Ai Infrastructure Bubble (concept)
+- [[ai-lab-crypto-analogy]] — Ai Lab Crypto Analogy (concept)
+- [[ai-powered-discovery]] — Ai Powered Discovery (concept)
+- [[ai-productivity]] — Ai Productivity (concept)
+- [[ai-research-workflow]] — Ai Research Workflow (concept)
+- [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
+- [[ai-trading-agent]] — Ai Trading Agent (concept)
+- [[ai-white-collar-automation]] — Ai White Collar Automation (concept)
+- [[altcoin-frenzy-pattern]] — Altcoin Frenzy Pattern (concept)
+- [[american-security-guarantee]] — American Security Guarantee (concept)
+- [[approach-avoidance-conflict]] — Approach Avoidance Conflict (concept)
+- [[ashbys-law]] — Ashbys Law (concept)
+- [[attention-economy-vs-knowledge-economy]] — Attention Economy Vs Knowledge Economy (concept)
+- [[autobiographical-memory-systems]] — Autobiographical Memory Systems (concept)
+- [[business-idiot-archetype]] — Business Idiot Archetype (concept)
+- [[casino-culture]] — Casino Culture (concept)
+- [[casino-culture]] — Casino Culture (concept)
+- [[category-kings-dynamics]] — Category Kings Dynamics (concept)
+- [[challenge-skills-balance]] — Challenge Skills Balance (concept)
+- [[clear-goals]] — Clear Goals (concept)
+- [[climax-top]] — Climax Top (concept)
+- [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
+- [[complicated-vs-complex]] — Complicated Vs Complex (concept)
+- [[compounding-effect]] — Compounding Effect (concept)
+- [[compounding-effect]] — Compounding Effect (concept)
+- [[compounding-relationships]] — Compounding Relationships (concept)
+- [[creativity-as-skill]] — Creativity As Skill (concept)
+- [[cynefin-framework]] — Cynefin Framework (concept)
+- [[discipline-as-freedom]] — Discipline As Freedom (concept)
+- [[dollar-as-rent-payment]] — Dollar As Rent Payment (concept)
+- [[dynamic-edge-trading]] — Dynamic Edge Trading (concept)
+- [[embodied-knowledge]] — Embodied Knowledge (concept)
+- [[enablement-vs-control]] — Enablement Vs Control (concept)
+- [[environment-baseline]] — Environment Baseline (concept)
+- [[erg-theory]] — Erg Theory (concept)
+- [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
+- [[existential-vacuum]] — Existential Vacuum (concept)
+- [[experience-over-achievement]] — Experience Over Achievement (concept)
+- [[explore-exploit-tradeoff]] — Explore Exploit Tradeoff (concept)
+- [[false-reinforcement-loop]] — False Reinforcement Loop (concept)
+- [[five-types-of-wealth]] — Five Types Of Wealth (concept)
+- [[flow-cycle]] — Flow Cycle (concept)
+- [[four-layer-framework]] — Four Layer Framework (concept)
+- [[hedonic-treadmill]] — Hedonic Treadmill (concept)
+- [[hermes-token-management]] — Hermes Token Management (concept)
+- [[human-judgment-ai]] — Human Judgment Ai (concept)
+- [[human-premium]] — Human Premium (concept)
+- [[hypergamy]] — Hypergamy (concept)
+- [[idea-economy]] — Idea Economy (concept)
+- [[ikigai-unbundling]] — Ikigai Unbundling (concept)
+- [[industrial-scale]] — Industrial Scale (concept)
+- [[information-compression]] — Information Compression (concept)
+- [[institutional-capacity]] — Institutional Capacity (concept)
+- [[institutional-trading-cycle]] — Institutional Trading Cycle (concept)
+- [[job-scoring-framework]] — Job Scoring Framework (concept)
+- [[job-worth-doing]] — Job Worth Doing (concept)
+- [[journalism-social-institution]] — Journalism Social Institution (concept)
+- [[kinked-demand-curve]] — Kinked Demand Curve (concept)
+- [[kissinger-deal-1974]] — Kissinger Deal 1974 (concept)
+- [[knowledge-builder-journalist]] — Knowledge Builder Journalist (concept)
+- [[laws-of-the-world]] — Laws Of The World (concept)
+- [[lazy-thinking]] — Lazy Thinking (concept)
+- [[leading-indicators]] — Leading Indicators (concept)
+- [[long-term-thinking]] — Long Term Thinking (concept)
+- [[markus-four-thinking-types]] — Markus Four Thinking Types (concept)
+- [[meaning-through-suffering]] — Meaning Through Suffering (concept)
+- [[narrative-certainty-trap]] — Narrative Certainty Trap (concept)
+- [[negative-compounding]] — Negative Compounding (concept)
+- [[nice-syndrome]] — Nice Syndrome (concept)
+- [[non-commodity-content]] — Non Commodity Content (concept)
+- [[opec-cartel-structure]] — Opec Cartel Structure (concept)
+- [[organizational-incrementalism]] — Organizational Incrementalism (concept)
+- [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
+- [[outcome-worship-trap]] — Outcome Worship Trap (concept)
+- [[paradox-of-effort]] — Paradox Of Effort (concept)
+- [[passion-economy-trap]] — Passion Economy Trap (concept)
+- [[patience-vs-passivity]] — Patience Vs Passivity (concept)
+- [[performative-existence]] — Performative Existence (concept)
+- [[petrodollar-system]] — Petrodollar System (concept)
+- [[philosopher-syndrome]] — Philosopher Syndrome (concept)
+- [[political-settlement]] — Political Settlement (concept)
+- [[positioning-before-price]] — Positioning Before Price (concept)
+- [[power-law-distribution]] — Power Law Distribution (concept)
+- [[premature-analysis]] — Premature Analysis (concept)
+- [[presence]] — Presence (concept)
+- [[prices-law]] — Prices Law (concept)
+- [[productivity-wage-gap]] — Productivity Wage Gap (concept)
+- [[recognizing-life-signals]] — Recognizing Life Signals (concept)
+- [[reflexivity-soros]] — Reflexivity Soros (concept)
+- [[retail-trading-fantasy]] — Retail Trading Fantasy (concept)
+- [[rot-economy]] — Rot Economy (concept)
+- [[saudi-pakistan-defense-agreement]] — Saudi Pakistan Defense Agreement (concept)
+- [[second-order-effects]] — Second Order Effects (concept)
+- [[skill-atrophy]] — Skill Atrophy (concept)
+- [[spare-production-capacity]] — Spare Production Capacity (concept)
+- [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
+- [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
+- [[src_2026-advice]] — 2026 Advice (source)
+- [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
+- [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source)
+- [[src_after-the-heater-rule-keeps-you-alive]] — After The Heater Rule Keeps You Alive (source)
+- [[src_ai-future-skills]] — Ai Future Skills (source)
+- [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
+- [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source)
+- [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source)
+- [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
+- [[src_everything-is-a-win-when-the-goal]] — Everything Is A Win When The Goal (source)
+- [[src_give-me-14-minutes-destroy-procrastination]] — Give Me 14 Minutes Destroy Procrastination (source)
+- [[src_global-macro-investing]] — Global Macro Investing (source)
+- [[src_hermes-200-30-skills-3-worth-it]] — Hermes 200 30 Skills 3 Worth It (source)
+- [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
+- [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
+- [[src_how-the-market-warns-you-before-the-crash]] — How The Market Warns You Before The Crash (source)
+- [[src_how-to-live-without-options]] — How To Live Without Options (source)
+- [[src_hypergamy]] — Hypergamy (source)
+- [[src_investment-principles-dalio]] — Investment Principles Dalio (source)
+- [[src_l1-blockchain-ai-lab-comparison]] — L1 Blockchain Ai Lab Comparison (source)
+- [[src_live-disciplined-life-spontaneously]] — Live Disciplined Life Spontaneously (source)
+- [[src_markus-four-thinking-types]] — Markus Four Thinking Types (source)
+- [[src_markus-job-scoring-framework]] — Markus Job Scoring Framework (source)
+- [[src_markus-job-worth-doing]] — Markus Job Worth Doing (source)
+- [[src_markus-systems-thinking-roadmap]] — Markus Systems Thinking Roadmap (source)
+- [[src_mathematical-reason-most-people-never-make-it]] — Mathematical Reason Most People Never Make It (source)
+- [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
+- [[src_nha-bao-lam-gi]] — Nha Bao Lam Gi (source)
+- [[src_no-system-will-make-you-profitable]] — No System Will Make You Profitable (source)
+- [[src_petrodollar-system-analysis]] — Petrodollar System Analysis (source)
+- [[src_play-long-term-games-with-long-term-people]] — Play Long Term Games With Long Term People (source)
+- [[src_setup-is-not-an-edge]] — Setup Is Not An Edge (source)
+- [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source)
+- [[src_split-the-ikigai]] — Split The Ikigai (source)
+- [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source)
+- [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
+- [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
+- [[src_the-laws-of-this-world]] — The Laws Of This World (source)
+- [[src_the-next-generation-of-trading-wont]] — The Next Generation Of Trading Wont (source)
+- [[src_the-revenge-of-the-business-idiot]] — The Revenge Of The Business Idiot (source)
+- [[src_this-will-help-you-figure-out-what-you-want]] — This Will Help You Figure Out What You Want (source)
+- [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
+- [[src_tribute-system-new-world-order]] — Tribute System New World Order (source)
+- [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
+- [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
+- [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
+- [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
+- [[src_why-china-got-rich-and-india-didnt]] — Why China Got Rich And India Didnt (source)
+- [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)
+- [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
+- [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
+- [[src_youre-being-trained-for-a-world-that-no-longer-exists]] — Youre Being Trained For A World That No Longer Exists (source)
+- [[state-capacity-theory]] — State Capacity Theory (concept)
+- [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
+- [[static-website-blind-spot]] — Static Website Blind Spot (concept)
+- [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
+- [[strait-of-hormuz-geopolitics]] — Strait Of Hormuz Geopolitics (concept)
+- [[structural-competition]] — Structural Competition (concept)
+- [[systems-thinking-limitations]] — Systems Thinking Limitations (concept)
+- [[tacit-knowledge]] — Tacit Knowledge (concept)
+- [[taste-holders]] — Taste Holders (concept)
+- [[timing-over-stock-picking]] — Timing Over Stock Picking (concept)
+- [[tokenmaxxing]] — Tokenmaxxing (concept)
+- [[trading-psychology]] — Trading Psychology (concept)
+- [[tragic-optimism]] — Tragic Optimism (concept)
+- [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
+- [[us-security-umbrella]] — Us Security Umbrella (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#opinion`:
-- `#productivity` (71 files)
-- `#research` (60 files)
-- `#psychology` (48 files)
-- `#economic` (38 files)
-- `#ai` (33 files)
+- [[productivity]] — 71 co-occurrences
+- [[research]] — 60 co-occurrences
+- [[psychology]] — 51 co-occurrences
+- [[economic]] — 38 co-occurrences
+- [[ai]] — 33 co-occurrences

@@ -1,10 +1,14 @@
-# OpenClaw Heartbeat Log
+# Heartbeat Log
 
-**Last check:** 2026-07-03 03:00 (Asia/Saigon)
-**Status:** ISSUE
-
-## Findings
-- [Priority 1] Pending review: 4 reports (01-07 & 02-07) chưa được thông báo cho Julius.
+**Last Check:** 2026-07-03 04:00 (Asia/Saigon)
+**Status:** ISSUES_FOUND
 
 ---
-*Next scheduled check: 03:30*
+
+## Findings
+- [Priority 1] Pending review: 4 báo cáo từ 2026-07-02 chưa xử lý (Output, Format, Hygiene).
+- [Priority 2] Concept thiếu backlink: `wiki/concepts/operating-cash-flow.md`, `wiki/concepts/default-mode-network.md` không có link đến sources.
+- [Priority 3] Raw backlog: 0 files unprocessed.
+
+---
+*Next check scheduled in 30 minutes.*

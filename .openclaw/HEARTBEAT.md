@@ -1,9 +1,14 @@
 # OpenClaw Heartbeat Log
 
-Last Check: 2026-07-02 22:00 (Asia/Saigon)
-Status: ISSUES FOUND
+**Last Check:** 2026-07-03 00:00 (Asia/Saigon)
+**Status:** ISSUE_FOUND
 
-- [Priority 1] Pending review: 2 reports (Format & Hygiene) từ 2026-07-01 chưa xử lý.
-- Raw backlog: Clean.
-- Concept check: Clean (sampled `enablement-vs-control.md` & `evening-routine.md` — backlinks OK).
-- Inbox: Clean.
+## Findings
+- [Clean] Inbox: No tasks pending.
+- [Clean] Raw backlog: No unprocessed files.
+- [Clean] Concept check: Backlinks verified.
+- [Issue] Pending review: 4 reports awaiting Julius's approval in `wiki/reviews/_action-required.md`.
+  - 2026-07-02 Output Validation
+  - 2026-07-02 Format Validation
+  - 2026-07-02 Hygiene Inspection
+  - 2026-07-01 Hygiene Inspection

@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-02 23:05
+**Last updated:** 2026-07-02 23:15
 
 ---
 
@@ -15,9 +15,10 @@
 **Scope:** Tất cả báo cáo 2026-06-30 đã được approve: Output (23:06), Format (23:17), Hygiene (23:30).
 
 **Status:**
+- ⏳ Format Validator — 2026-07-02 (23:15): **PENDING** (340 issues: 6 ERROR, 334 WARNING, 0 INFO) — 5 new tag/tag.md ERRORs + 23 unquoted wikilink WARNINGs
 - ⏳ Output Validator — 2026-07-02 (23:05): **PENDING** (4 issues: 0 ERROR, 2 WARNING, 2 INFO) — Vietnamese spacing + run-on in high-agency.md
 - ⏳ Hygiene Inspector — 2026-07-01 (23:30): **PENDING** (1 issue: 1 ERROR, 0 WARNING, 0 INFO) — index_wiki.py at root level
-- ⏳ Format Validator — 2026-07-01 (23:15): **PENDING** (312 issues: 1 ERROR, 311 WARNING, 0 INFO) — 1 new slug-too-long ERROR
+- ✅ Format Validator — 2026-07-01 (23:15): **APPROVED** (312 issues: 1 ERROR, 311 WARNING, 0 INFO) — Julius approved slug exception
 - ✅ Format Validator — 2026-06-30 (23:17): **APPROVED** (439 issues: 128 ERROR, 311 WARNING, 0 INFO) — 128 topic frontmatter → Kara fix Index Agent template + regenerate
 - ✅ Output Validator — 2026-06-30 (23:06): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
 - ✅ Hygiene Inspector — 2026-06-30 (23:30): **APPROVED** (0 issues: 0 ERROR, 0 WARNING, 0 INFO)
@@ -89,12 +90,45 @@
 
 ---
 
+### ⏳ Format Validation — 2026-07-02 (23:15)
+
+**File:** [2026-07-02_format-report.md](2026-07-02_format-report.md)
+**Status:** pending
+**Created:** 2026-07-02 23:15:11 +0700
+**Issues:** 340 (6 ERROR, 334 WARNING, 0 INFO)
+**Files checked:** 670 (376 concepts + 121 sources + 33 indexes + 140 topics)
+
+**Summary:**
+- 🔴 6 ERROR: 5 on `wiki/tag/tag.md` (scope mismatch, auto_generated flag, 3 missing sections: Overview, Sub-indexes, Notes) + 1 pre-approved slug exception on `src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+- ⚠️ 334 WARNING: 290 broken wikilinks (stable from 07-01) + 21 forward-reference groups + 23 new unquoted wikilink warnings on `wiki/tag/*.md` files
+- ✅ Topic files clean — 140 files pass (stable since 07-01 resolution)
+- ✅ Tag section ERRORs — still resolved (confirmed stable through 3 runs)
+- Broken wikilink backlog: 194 unique targets unchanged
+
+**Delta from 2026-07-01 (APPROVED):**
+- +5 files in scope (670 vs 665)
+- +5 ERROR (6 vs 1) — 5 on tag/tag.md newly surfaced
+- +23 WARNING (334 vs 311) — unquoted wikilinks in tag file frontmatter
+- Broken wikilinks: 0 change (stable at 290 + 21 groups)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-02_format-report.md`
+- Nếu approve tag/tag.md: giao Fix Agent sửa frontmatter + thêm 3 sections
+- Nếu approve unquoted wikilinks: update index-spec.md examples → Fix Agent wrap quotes
+- Escalation: `[SPEC CONFLICT]` index-spec.md vs format-spec.md §9 về wikilink quoting
+- Slug exception đã Julius approved — không cần action
+
+**Report:** `wiki/reviews/2026-07-02_format-report.md`
+
+---
+
 ## Pending — 2026-07-01
 
-### ⏳ Format Validation — 2026-07-01 (23:15)
+### ✅ Format Validation — 2026-07-01 (23:15)
 
 **File:** [2026-07-01_format-report.md](2026-07-01_format-report.md)
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius — 2026-07-02 (slug exception)
 **Created:** 2026-07-01 23:15:00 +0700
 **Issues:** 312 (1 ERROR, 311 WARNING, 0 INFO)
 **Files checked:** 665 (374 concepts + 120 sources + 32 indexes + 139 topics)

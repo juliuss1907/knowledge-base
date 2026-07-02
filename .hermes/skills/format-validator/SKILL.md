@@ -227,8 +227,11 @@ After successful validation run:
    ```
 
 2. **Update _action-required.md:**
-   - Add entry to "Pending Reports" section
+   - **First, reconcile**: read the previous report's `**Status:**` header. If it says `approved` but `_action-required.md` still shows `⏳ PENDING`, update the status line and pending count before adding today's entry. See pitfall "_action-required.md may be stale".
+   - **Then, add entry**: insert today's report into the "Pending Reports" section with full details (Summary, Delta, Actions)
+   - Update the status list under `## Summary` with today's entry
    - Update "Last updated" timestamp
+   - Update "Pending reports awaiting review" count (accounting for any reconciled approvals)
 
 3. **Send Telegram notification:**
    ```
@@ -391,6 +394,18 @@ Topic files under `wiki/topic/*.md` have `type: index` and `scope: topic` but NO
 ### _approval-log.md is optional (do not fail if missing)
 
 Post-validation step 5 references `wiki/reviews/_approval-log.md`, but this file may not exist. `_action-required.md` already serves as the canonical cross-machine approval contract. If `_approval-log.md` is absent, skip step 5 gracefully — do not create it, do not error out. The approval contract lives in `_action-required.md`.
+
+### _action-required.md may be stale — reconcile before updating
+
+Julius can approve reports directly (e.g., via Telegram `approve format`) which updates the report's own `**Status:** approved` header, but `_action-required.md` is NOT auto-updated in tandem. When the validator runs the next day:
+
+1. **Read the previous report's Status header** — open the most recent `YYYY-MM-DD_format-report.md` and check its `**Status:**` field
+2. **Compare against _action-required.md** — if the report says `approved` but `_action-required.md` still shows `⏳ PENDING`, reconcile
+3. **Reconcile** — update the status line in `_action-required.md` from `⏳ PENDING` to `✅ APPROVED`, and add `Approved by:` attribution if known
+
+This prevents stale pending counts and ensures delta tracking uses the correct baseline.
+
+**Observed case (2026-07-02):** The 2026-07-01 format report header showed `**Status:** approved` (Julius approved slug exception), but `_action-required.md` still listed it as `⏳ PENDING`. Reconciliation on 07-02 updated the pending count and status line.
 
 ## Failure modes
 

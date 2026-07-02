@@ -512,6 +512,15 @@
 
 - **Files checked:** 497 (121 sources + 376 concepts)
 - **New files:** 28 (9 sources + 19 concepts — accumulated 07-01 + 07-02 since last run on 06-30)
+
+## 2026-07-02 23:15:11 — Format validation
+
+- **Files checked:** 670 (376 concepts + 121 sources + 33 indexes + 140 topics)
+- **Issues found:** 340 (6 ERROR, 334 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-02_format-report.md
+- **Top violations:** 5 ERROR on wiki/tag/tag.md (scope, auto_generated, 3 missing sections) + 1 pre-approved slug exception + 23 unquoted wikilink WARNINGs on tag files + 311 broken wikilinks (stable, 194 unique targets)
+- **Delta:** +5 ERROR (5 tag/tag.md newly surfaced), +23 WARNING (unquoted parent wikilinks), broken wikilinks 0 change
+- **Escalation:** [SPEC CONFLICT] index-spec.md vs format-spec.md §9 on wikilink quoting in YAML frontmatter
 - **Issues found:** 4 (0 ERROR, 2 WARNING, 2 INFO)
 - **Report:** wiki/reviews/2026-07-02_output-report.md
 - **Summary:** 2 WARNING trong `high-agency.md` (7 instances Vietnamese spacing "người" merge + Definition run-on sentence). 2 INFO: English/Vietnamese mixing "trust cao" + 4 forward-reference backlinks. Quick-scan sạch: 0 typo "ngưởi", 0 typo "ngườii/đờii..." (double-i), 0 truncated. 07-01 batch (25 files) chất lượng cao, cross-linking chặt. Systemic patterns: 374 one-sentence definitions, 79 few key points, 9 empty Key ideas, 206 draft concepts.

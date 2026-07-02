@@ -8,7 +8,9 @@ title: "Money Is the Easiest Way To Measure Your Life. But It Is Not the Best"
 date_ingested: 2026-07-01
 date_published: 2026-06-01
 tags: [productivity, psychology, investment]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-02
+compiled_to: "[[src_money-is-the-easiest-way-to-measure-your-life]]"
 ---
 
 # Money Is the Easiest Way To Measure Your Life. But It Is Not the Best

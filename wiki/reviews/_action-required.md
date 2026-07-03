@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-02 23:30
+**Last updated:** 2026-07-03 23:17
 
 ---
 
@@ -15,6 +15,7 @@
 **Scope:** Tất cả báo cáo 2026-06-30 đã được approve: Output (23:06), Format (23:17), Hygiene (23:30).
 
 **Status:**
+- ⏳ Format Validator — 2026-07-03 (23:17): **PENDING** (317 issues: 6 ERROR, 311 WARNING, 0 INFO) — tag/tag.md level-path contradiction + 23 unquoted wikilink WARNINGs resolved
 - ⏳ Format Validator — 2026-07-02 (23:15): **PENDING** (340 issues: 6 ERROR, 334 WARNING, 0 INFO) — 5 new tag/tag.md ERRORs + 23 unquoted wikilink WARNINGs
 - ⏳ Output Validator — 2026-07-02 (23:05): **PENDING** (4 issues: 0 ERROR, 2 WARNING, 2 INFO) — Vietnamese spacing + run-on in high-agency.md
 - ⏳ Hygiene Inspector — 2026-07-02 (23:30): **PENDING** (1 issue: 0 ERROR, 0 WARNING, 1 INFO) — state/ empty directory at root
@@ -54,6 +55,42 @@
 - ✅ Format Validator — 2026-06-19: **APPROVED** (380 issues: 121 ERROR, 259 WARNING, 0 INFO)
 - ✅ Output Validator — 2026-06-19: **APPROVED** (5 issues: 0 ERROR, 3 WARNING, 2 INFO)
 - ✅ Hygiene Inspector — 2026-06-19: **APPROVED** (4 issues: 0 ERROR, 4 WARNING, 0 INFO)
+
+---
+
+## Pending — 2026-07-03
+
+### ⏳ Format Validation — 2026-07-03 (23:17)
+
+**File:** [2026-07-03_format-report.md](2026-07-03_format-report.md)
+**Status:** pending
+**Created:** 2026-07-03 23:17:01 +0700
+**Issues:** 317 (6 ERROR, 311 WARNING, 0 INFO)
+**Files checked:** 670 (376 concepts + 121 sources + 33 indexes + 140 topics)
+
+**Summary:**
+- 🔴 6 ERROR: 5 trên `wiki/tag/tag.md` (level-path contradiction: `level: 1` nhưng filesystem path yêu cầu `level: 2`, auto_generated sai, thiếu items_managed_by, parent null, thiếu 4 section Overview/Parent/Items/Notes) + 1 pre-approved slug exception
+- ⚠️ 311 WARNING: 290 broken wikilinks + 21 forward-reference groups — stable, unchanged
+- ✅ 23 unquoted wikilink WARNINGs từ 07-02 → **resolved** (Index Agent regenerated tag files với `parent: "[[tag]]"` quoted)
+- ✅ Topic files clean — 140 files pass (stable since 07-01)
+- Broken wikilink backlog: 194 unique targets unchanged from 07-01
+
+**Delta from 2026-07-01 (APPROVED):**
+- +5 files in scope (670 vs 665)
+- +5 ERROR (6 vs 1) — all on tag/tag.md
+- WARNING: 0 (311 vs 311, net stable after resolving 23 unquoted warnings)
+- Positive: 23 unquoted wikilink WARNINGs → 0 (fully resolved)
+- Positive: 128 topic frontmatter ERROR → still resolved (stable 4 runs)
+
+**Correction for tag/tag.md:** Báo cáo này dùng path-derived tier (Tầng 2) thay vì declared `level: 1`. Expected values khác với báo cáo 07-02 — scope `tag` là hợp lệ cho Tầng 2, section thiếu là `## Parent` + `## Items` (không phải `## Sub-indexes`).
+
+**Actions:**
+- Review `wiki/reviews/2026-07-03_format-report.md`
+- Nếu approve: giao Fix Agent sửa tag/tag.md (level, auto_generated, items_managed_by, parent, sections)
+- Validator fix: update `validate.py` để cross-check level field với filesystem path trước khi dispatch
+- Slug exception đã approved — không cần action
+
+**Report:** `wiki/reviews/2026-07-03_format-report.md`
 
 ---
 

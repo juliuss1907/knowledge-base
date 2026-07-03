@@ -524,3 +524,12 @@
 - **Issues found:** 4 (0 ERROR, 2 WARNING, 2 INFO)
 - **Report:** wiki/reviews/2026-07-02_output-report.md
 - **Summary:** 2 WARNING trong `high-agency.md` (7 instances Vietnamese spacing "người" merge + Definition run-on sentence). 2 INFO: English/Vietnamese mixing "trust cao" + 4 forward-reference backlinks. Quick-scan sạch: 0 typo "ngưởi", 0 typo "ngườii/đờii..." (double-i), 0 truncated. 07-01 batch (25 files) chất lượng cao, cross-linking chặt. Systemic patterns: 374 one-sentence definitions, 79 few key points, 9 empty Key ideas, 206 draft concepts.
+
+## 2026-07-03 23:17:01 — Format validation
+- **Files checked:** 670 (376 concepts + 121 sources + 33 indexes + 140 topics)
+- **Issues found:** 317 (6 ERROR, 311 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-03_format-report.md
+- **Top violations:** 5 ERROR on wiki/tag/tag.md (level-path contradiction, auto_generated, missing items_managed_by, parent null, 4 missing sections) + 1 pre-approved slug exception + 311 broken wikilinks (stable, 194 unique targets)
+- **Delta:** +5 ERROR còn tồn đọng (tag/tag.md), -23 WARNING (unquoted wikilinks resolved by Index Agent regeneration), broken wikilinks 0 change
+- **Escalation:** [LEVEL-PATH CONTRADICTION] tag/tag.md level:1 but filesystem path → Tầng 2. Validator should cross-check level field against path before dispatching.
+- **KB format health:** 99.3% (excl. forward-ref broken wikilinks), ↑ from 99.1% on 07-02

@@ -23,12 +23,16 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 97 files
+- Total: 99 files
 - By status: 95 processed, 0 unprocessed
 - By date: 95 this week, 95 this month
 - Last updated: 2026-07-02
 
 ## Items
+- [[2026-07-03_get-in-shape-r3-notes]] — Get in Shape — Notes on R3's Framework by Julius (unprocessed)
+
+- [[2026-07-03_3-tang-skill-dang-hoc]] — 3 Tầng Skill Đáng Học by Julius (original) (unprocessed)
+
 - [[2026-07-03_3-indicators-your-building-the-right-future]] — 3 Indicators Your Building The Right Future by r3unseen (unprocessed)
 
 - [[2026-07-03_you-need-a-mindset-shift-on-priorities]] — You Need a Mindset Shift on Priorities by nqdonzo (unprocessed)

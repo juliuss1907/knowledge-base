@@ -2,54 +2,53 @@
 type: index
 level: 1
 scope: tag
+parent: null
 auto_generated: true
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
-# Tags
+# Tag Index
 
-Master index of all tags used in the Knowledge Base.
+Master index of all tags in the Knowledge Base.
+
+Last updated: 2026-07-03 21:02:00
+
+---
 
 ## Stats
 
-- Total tags: 23
-- Main tags: 9
-- Sub tags: 14
-- Most used: #research (225), #productivity (212), #psychology (175)
-- Last updated: 2026-07-02
+- Total tags in use: 23
+- Main tags (Pool A): 9
+- Sub tags (Pool B): 17
 
-## Items
+## Main Tags (Pool A)
 
-### Main Tags (Pool A)
+- [[ai]] — AI / ML / LLM, agents, models, training, inference (140 files)
+- [[crypto]] — Blockchain, DeFi, tokens, exchanges, on-chain activity (4 files)
+- [[economic]] — Macroeconomics, finance, markets, trading (81 files)
+- [[health]] — Physical health, sleep, exercise, nutrition, biohacking (12 files)
+- [[investment]] — Investment principles, portfolio management, asset allocation, risk management (9 files)
+- [[politic]] — Policy, regulation, geopolitics (21 files)
+- [[productivity]] — Workflows, methodologies, knowledge management, personal systems (206 files)
+- [[system]] — System design, architecture, automation pipelines (31 files)
+- [[tech]] — Software engineering, infrastructure, web, mobile, dev tooling (23 files)
 
-- [[ai]] — AI / ML / LLM, agents, models, training, inference
-- [[crypto]] — Blockchain, DeFi, tokens, exchanges, on-chain activity
-- [[tech]] — Software engineering, infrastructure, web, mobile, dev tooling
-- [[productivity]] — Workflows, methodologies, knowledge management, personal systems
-- [[system]] — System design, architecture, automation pipelines
-- [[economic]] — Macroeconomics, finance, markets, trading
-- [[politic]] — Policy, regulation, geopolitics
-- [[health]] — Physical health, sleep, exercise, nutrition, biohacking
-- [[investment]] — Investment principles, portfolio management, asset allocation, risk management
+## Sub Tags (Pool B)
 
-### Sub Tags (Pool B)
-
-- [[hack]] — Exploits, vulnerabilities, attacks, post-mortems
-- [[tools]] — Concrete software, products, services, libraries
-- [[automation]] — Bots, scripts, scheduled jobs, automated workflows
-- [[vibecode]] — Vibe coding, AI-assisted development style
-- [[research]] — Academic papers, deep analysis, primary sources
-- [[tutorial]] — How-to guides, walkthroughs, step-by-step instructions
-- [[opinion]] — Personal takes, editorials, commentary
-- [[news]] — Recent events, announcements, time-sensitive updates
-- [[defi]] — Decentralized finance protocols, AMMs, lending, yield
-- [[perpdex]] — Perpetual exchanges, derivatives DEXs
-- [[layer1]] — Base-layer blockchains
-- [[layer2]] — Scaling solutions, rollups, sidechains
-- [[law]] — Legal frameworks, contracts, regulations, compliance
-- [[coding]] — Programming, software development, code generation, dev practices
-- [[psychology]] — Cognitive science, behavioral psychology, mental models, biases
-- [[health]] — Physical health, sleep, exercise, nutrition, biohacking
-- [[ai]] — AI / ML / LLM, agents, models, training, inference (as attribute)
-- [[system]] — System design, architecture, automation pipelines (as attribute)
-- [[geopolitics]] — Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition
+- [[ai]] — AI / ML / LLM, agents, models, training, inference (as attribute) (140 files)
+- [[automation]] — Bots, scripts, scheduled jobs, automated workflows (86 files)
+- [[coding]] — Programming, software development, code generation, dev practices (17 files)
+- [[defi]] — Decentralized finance protocols, AMMs, lending, yield (4 files)
+- [[geopolitics]] — Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition (8 files)
+- [[hack]] — Exploits, vulnerabilities, attacks, post-mortems (18 files)
+- [[health]] — Physical health, sleep, exercise, nutrition, biohacking (as attribute) (12 files)
+- [[law]] — Legal frameworks, contracts, regulations, compliance (5 files)
+- [[layer1]] — Base-layer blockchains (4 files)
+- [[news]] — Recent events, announcements, time-sensitive updates (10 files)
+- [[opinion]] — Personal takes, editorials, commentary (169 files)
+- [[psychology]] — Cognitive science, behavioral psychology, mental models, biases (169 files)
+- [[research]] — Academic papers, deep analysis, primary sources (219 files)
+- [[system]] — System design, architecture, automation pipelines (as attribute) (31 files)
+- [[tools]] — Concrete software, products, services, libraries (150 files)
+- [[tutorial]] — How-to guides, walkthroughs, step-by-step instructions (64 files)
+- [[vibecode]] — Vibe coding, AI-assisted development style (7 files)

@@ -1,3 +1,11 @@
+## 2026-07-03 21:02 — Indexed (Daily)
+- **Scanned:** 376 concepts + 121 sources = 497 total files
+- **Tags indexed:** 23 (9 main-tags + 17 sub-tags)
+- **Topics indexed:** 140
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped
+
 ## 2026-07-03 08:00 — Compiled (Batch Daily)
 - 0 files to compile, all 121 raw files already processed
 - 0 failed, 0 unprocessed remaining

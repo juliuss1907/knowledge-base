@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: market-cycles
 auto_generated: true
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
 # Topic: market-cycles
 
 Auto-generated index of all content with topic `market-cycles`.
 
-Last updated: 2026-07-02 21:02:26
+Last updated: 2026-07-03 21:02:00
 
 ---
 
@@ -19,6 +19,3 @@ Last updated: 2026-07-02 21:02:26
 
 - [[altcoin-frenzy-pattern]] — main: #economic, sub: [#layer1, #opinion]
 - [[infrastructure-capex-cycle]] — main: #economic, sub: [#layer1, #ai]
-
-## Sources (0)
-

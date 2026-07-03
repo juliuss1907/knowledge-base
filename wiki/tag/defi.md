@@ -2,10 +2,10 @@
 type: index
 level: 3
 scope: tag
-parent: [[tag]]
+parent: "[[tag]]"
 tag: defi
 auto_generated: true
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
 # Tag: #defi
@@ -19,14 +19,14 @@ last_updated: 2026-07-02
 - Total files: 4
 - Sources: 0
 - Concepts: 4
-- Last updated: 2026-07-02
+- Last updated: 2026-07-03
 
 ## Files with this tag
 
-- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
+- [[cookie-fun-mcp]] — Cookie.fun MCP (concept)
 - [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
-- [[softbank-carry-trade]] — Softbank Carry Trade (concept)
+- [[softbank-carry-trade]] — SoftBank Carry Trade (concept)
 
 ## Co-occurring tags
 

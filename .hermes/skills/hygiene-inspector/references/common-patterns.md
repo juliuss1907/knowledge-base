@@ -1,7 +1,7 @@
 # Common Non-Compliant Patterns
 
 > Recurring hygiene violations observed in practice.
-> Updated: 2026-06-14
+> Updated: 2026-07-03
 
 ---
 
@@ -41,7 +41,7 @@ Files and folders that frequently appear at root but are not in the whitelist:
 - `RAW_BACKLOG.md` — leftover from manual tracking; should move to `wiki/drafts/` or `raw/articles/`
 - `MEMORY.md` — agent memory file that leaked from `.hermes/` or `.openclaw/`
 - `search/` — temporary search index; should be gitignored or removed
-- `state/` — empty directory, **recurring** (flagged 06-25, resolved 06-27, recreated 07-02 10:28). Not in root whitelist. If needed, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.
+- `state/` — empty directory, **recurring** (flagged 06-25, resolved 06-27, recreated 07-02 10:28, still present 07-03). Not in root whitelist. If needed, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.\n- `memory/` — old folder migrated to `.openclaw/memory/` in v1.2. **Recurring** — reappeared 2026-07-03 with a content file (`2026-07-03.md`) inside. The writing process is targeting `memory/` instead of `.openclaw/memory/`. Move file and rmdir; fix the process output path.
 - `temp_content/` — scratch folder; should be removed after use
 - `memory/` — old folder migrated to `.openclaw/memory/` in v1.2; should be removed
 

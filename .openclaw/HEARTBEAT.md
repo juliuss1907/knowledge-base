@@ -1,10 +1,10 @@
 # OpenClaw Heartbeat Log
 
-**Last check:** Friday, July 3rd, 2026 - 17:30 (Asia/Saigon)
+**Last check:** Friday, July 3rd, 2026 - 21:02 (Asia/Saigon)
 
-- [Priority 1] Pending review: 3 báo cáo từ 2026-07-02 (Output, Format, Hygiene) vẫn PENDING.
-- [Priority 2] Concept thiếu backlink: `wiki/concepts/taste-holders.md`, `wiki/concepts/first-principles-thinking.md`.
-- Raw backlog: 0 files > 24h (5 file mới hôm nay).
+- [Priority 1] Pending review: 4 báo cáo từ 2026-07-02 (Output, Format, Hygiene) vẫn PENDING.
+- Raw backlog: 0 files unprocessed > 24h (5 unprocessed < 24h).
+- Concept check: 2 files checked, cả 2 đều có backlink đến sources.
 - Inbox: OK.
 
 **Status:** ACTION_REQUIRED

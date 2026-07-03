@@ -412,8 +412,17 @@ After successful validation run:
 2. **Update _action-required.md:**
    - Add entry to "Pending Reports" section
    - Update "Last updated" timestamp
+   - Increment pending-report count if this run created a new pending review item
 
-3. **Send notification:**
+3. **Run verify.py (interactive sessions only):**
+   ```bash
+   python3 .hermes/skills/hygiene-inspector/scripts/verify.py
+   ```
+   Checks report content, _action-required.md update, and scan reproducibility.
+   **Skip under cron mode** — `execute_code` and subprocess are blocked; use ad-hoc
+   verification instead (see step 4 of cron fallback below).
+
+4. **Send notification:**
    - If interactive session: Telegram alert to Julius
    - If cron job: final response IS the notification (no `send_message` available)
    ```
@@ -425,11 +434,6 @@ After successful validation run:
    Review: wiki/reviews/_action-required.md
    Commands: 'approve hygiene' or 'show hygiene'
    ```
-
-4. **Update _action-required.md:**
-   - Add entry to "Pending Reports" section
-   - Update "Last updated" timestamp
-   - Increment pending-report count if this run created a new pending review item
 
 ---
 
@@ -537,6 +541,9 @@ Files that are explicitly whitelisted by name (e.g., `context/USER.md`, `wiki/me
 
 ### 5. classify_root_folder never called (fixed 2026-07-02)
 `classify_root_folder()` was defined but never invoked from `main()`. Root-level folders outside the whitelist (e.g., `state/`) were only caught by the empty-directory check as INFO, not by the path-whitelist check as ERROR. Fixed by adding a root-folder classification loop inside `main()` when `rel_dir == ""`. Also added `ROOT_FOLDER_ORPHANS` dict for known recurring root folders.
+
+### 6. paths_checked drift on re-run (expected, not a bug)
+Re-running the scan after writing the report file (or any other new file to the KB) will increase `paths_checked` by the number of new files. This is normal — the scan walks the live filesystem. When comparing reproducibility in `scripts/verify.py`, only compare issue counts and categories, not the exact `paths_checked` number. A ±1–3 drift from report/action-file writes is expected.
 
 ---
 

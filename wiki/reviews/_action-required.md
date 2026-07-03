@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-03 23:17
+**Last updated:** 2026-07-03 23:31
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả báo cáo 2026-06-30 đã được approve: Output (23:06), Format (23:17), Hygiene (23:30).
 
@@ -59,6 +59,37 @@
 ---
 
 ## Pending — 2026-07-03
+
+### ⏳ Hygiene Inspection — 2026-07-03 (23:31)
+
+**File:** [2026-07-03_hygiene-report.md](2026-07-03_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-07-03 23:31:41 +0700
+**Issues:** 4 (2 ERROR, 1 WARNING, 1 INFO)
+**Paths checked:** 51,630
+
+**Summary:**
+- 🔴 2 ERROR: `memory/` folder at root (không có trong whitelist) + `state/` recurring root folder
+- ⚠️ 1 WARNING: `memory/2026-07-03.md` — file bên trong folder `memory/` orphaned
+- ℹ️ 1 INFO: `state/` empty directory
+- ✅ Tất cả active zones (context/, raw/, wiki/) 100% compliant
+- ✅ HEARTBEAT.md leak resolved — 5 ngày ổn định
+
+**Delta from 2026-07-02 (PENDING):**
+- 🔴 NEW: `memory/` folder reappeared at root (đã migrate vào `.openclaw/memory/` từ v1.2) — chứa file `2026-07-03.md`
+- ⚠️ NEW: `memory/2026-07-03.md` — file được tạo hôm nay, nên ở `.openclaw/memory/`
+- 🔴 SAME: `state/` vẫn recurring (3 lần trong 7 ngày)
+- +12 paths (51,630 vs 51,618)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-03_hygiene-report.md`
+- Nếu approve: `mv memory/2026-07-03.md .openclaw/memory/` → `rmdir memory/` → `rmdir state/`
+- Điều tra: process nào tạo `memory/` folder + file hôm nay — có thể cron job hoặc agent ghi sai path
+- `state/` recurrence cần process-level fix
+
+**Report:** `wiki/reviews/2026-07-03_hygiene-report.md`
+
+---
 
 ### ⏳ Format Validation — 2026-07-03 (23:17)
 

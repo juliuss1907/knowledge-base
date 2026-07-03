@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 99 files
+- Total: 100 files
 - By status: 95 processed, 0 unprocessed
 - By date: 95 this week, 95 this month
 - Last updated: 2026-07-02
 
 ## Items
+- [[2026-07-03_compound-exercises-pareto-workouts]] — Compound Exercises — The Pareto Principle of Workouts by Julius (unprocessed)
+
 - [[2026-07-03_get-in-shape-r3-notes]] — Get in Shape — Notes on R3's Framework by Julius (unprocessed)
 
 - [[2026-07-03_3-tang-skill-dang-hoc]] — 3 Tầng Skill Đáng Học by Julius (original) (unprocessed)

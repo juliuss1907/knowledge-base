@@ -361,6 +361,22 @@ def validate_source(filepath, fm, raw_fm, content):
     
     return issues
 
+def get_path_level(rel):
+    """Derive expected index level from filesystem path. Returns None if path doesn't imply a specific level."""
+    if rel == 'wiki/tag/tag.md':
+        return 2
+    if rel.startswith('wiki/tag/'):
+        return 3
+    if rel in ('wiki/wiki.md', 'raw/raw.md', 'context/context.md'):
+        return 1
+    # raw/<subtype>/<subtype>.md → Tầng 2
+    parts = rel.split('/')
+    if len(parts) == 3 and parts[0] == 'raw':
+        fname = parts[2].replace('.md', '')
+        if fname == parts[1]:
+            return 2
+    return None
+
 def validate_index(filepath, fm, raw_fm, content):
     issues = []
     rel = str(filepath.relative_to(KB))
@@ -375,6 +391,13 @@ def validate_index(filepath, fm, raw_fm, content):
     except (TypeError, ValueError):
         issues.append(('ERROR', 'Frontmatter', rel, f'Invalid level value: {level}'))
         return issues
+    
+    # Cross-check level against filesystem path — path always wins
+    path_level = get_path_level(rel)
+    if path_level is not None and level_int != path_level:
+        issues.append(('ERROR', 'Frontmatter', rel,
+            f'level field ({level_int}) contradicts filesystem path (expected {path_level})'))
+        level_int = path_level  # Validate against path-derived tier, not declared level
     
     if level_int == 1:
         issues.extend(validate_index_l1(filepath, fm, content))

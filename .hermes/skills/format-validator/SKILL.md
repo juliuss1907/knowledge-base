@@ -411,19 +411,19 @@ This prevents stale pending counts and ensures delta tracking uses the correct b
 
 When a file's `level` field doesn't match its position in the index hierarchy (e.g., `wiki/tag/tag.md` declares `level: 1` but is actually a Tầng 2 file per index-spec.md §4.1), the validator dispatches to the wrong spec and produces partially incorrect expected values.
 
-**Example (2026-07-03):** `wiki/tag/tag.md` had `level: 1`. The validator applied Tầng 1 rules (§3), flagging:
-- `scope` should be `raw/wiki/context` → correct for Tầng 2 would be `tags`
-- Missing `## Sub-indexes` → correct for Tầng 2 would be `## Parent`
+**Example (2026-07-03):** `wiki/tag/tag.md` had `level: 1`. Before the script fix, the validator applied Tầng 1 rules (§3), flagging `scope` should be `raw/wiki/context` (correct for Tầng 2 would be `tags`) and missing `## Sub-indexes` (correct for Tầng 2 would be `## Parent`).
 
-The errors were real (file had wrong format), but the **expected values** in the report were partially wrong because they came from the wrong spec tier.
+**Script fix (2026-07-03):** `validate.py` now has a `get_path_level()` function that derives the correct tier from the filesystem path. `validate_index()` cross-checks the declared `level` against the path-derived level. When they disagree:
+1. A separate ERROR is issued: `level field (N) contradicts filesystem path (expected M)`
+2. The validator uses the **path-derived tier** for all subsequent checks
 
-**Correct handling:** Before dispatching by `level` field, cross-validate against the filesystem path:
+**Path → level mapping:**
 - `wiki/tag/tag.md` → always Tầng 2 regardless of `level` field value
 - `wiki/tag/<tag>.md` → always Tầng 3
 - `wiki/wiki.md`, `raw/raw.md`, `context/context.md` → always Tầng 1
 - `raw/<subtype>/<subtype>.md` → always Tầng 2
 
-If `level` field contradicts the path-derived tier, flag a separate ERROR: `level field (N) contradicts filesystem path (expected M)` and validate against the **path-derived tier**, not the declared level.
+If `get_path_level()` returns `None` (file not in a path that implies a specific tier), the declared `level` field is used as-is.
 
 ## Failure modes
 

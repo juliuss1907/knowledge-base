@@ -1,9 +1,8 @@
-# Heartbeat Log
+# Heartbeat Report
+**Time:** 2026-07-03 09:00 (Asia/Saigon)
+**Status:** ISSUE
 
-**Last Check:** Friday, July 3rd, 2026 - 07:30 (Asia/Saigon)
-**Status:** ISSUE_FOUND
-
-## Findings
-- [Priority 1] Pending review: 4 báo cáo chờ Julius approve (07-01, 07-02). Xem `wiki/reviews/_action-required.md`.
-- [Priority 2] Raw backlog: Sạch.
-- [Priority 3] Concept check: OK — `systems-thinking.md` → `src_systems-thinking-tools-deepdive`, `first-principles-thinking.md` → `src_first-principles-thinking`.
+- [Priority 1] Pending review: 3 báo cáo từ 2026-07-02 (Output, Format, Hygiene) chưa thông báo cho Julius.
+- Inbox: Clean.
+- Raw backlog: Clean.
+- Concept check: Clean.

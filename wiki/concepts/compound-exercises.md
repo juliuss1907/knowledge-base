@@ -6,6 +6,7 @@ sub_tags: [tutorial]
 topic: compound-exercises
 sources:
   - "[[src_compound-exercises-pareto-workouts]]"
+  - "[[src_get-in-shape-r3-notes]]"
 last_updated: 2026-07-04
 ---
 
@@ -25,6 +26,9 @@ Compound exercises (bài tập compound) là các động tác tập luyện kí
 - **Bodyweight alternatives:** Burpee (full body + cardio, 50 cái/ngày) và Push-up với variants (Diamond, Wide, Decline) — không cần gym
 - Compound exercises tạo ra hormone response toàn thân (testosterone, growth hormone) mà isolation exercises không thể
 - Compound exercises là lựa chọn tối ưu cho người có ít thời gian — hiệu quả cao nhất trên mỗi phút tập
+- **Trong R3 framework:** compound movements là core của chương trình tập — squat, deadlift, bench, pull-up, row + moderate cardio, không cần isolation
+- **Lý do sinh học:** Mỗi compound movement kích hoạt toàn bộ hệ thống — posterior chain, core, grip, hormone response — tạo ra hiệu ứng toàn thân mà isolation không có
+- Compound là nguyên tắc leverage trong fitness: 1 động tác, toàn thân được hưởng
 
 ## Related concepts
 
@@ -35,6 +39,7 @@ Compound exercises (bài tập compound) là các động tác tập luyện kí
 ## Sources
 
 - [[src_compound-exercises-pareto-workouts]]
+- [[src_get-in-shape-r3-notes]]
 
 ## Notes
 

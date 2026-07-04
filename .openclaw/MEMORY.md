@@ -1,3 +1,43 @@
+## 2026-07-04 08:00 — Compiled (Daily Batch)
+
+- **Processed:** 5/5 files
+- **Source notes created:** 5
+- **Concepts created:** 12 (productive-discomfort, internal-alignment, growth-and-relationships, meta-learning, taste-judgment, leverage-skills, compound-exercises, progressive-overload, pareto-principle, r3-framework, mind-body-connection, busywork-vs-deep-work)
+- **Concepts updated:** 3 (systems-thinking, compound-exercises, pareto-principle, output-vs-outcome)
+- **Tag proposals:** 0
+- **Errors:** 0
+
+### File 1: 3-indicators-your-building-the-right-future
+- Raw: raw/articles/2026-07-03_3-indicators-your-building-the-right-future.md
+- Source note: wiki/sources/src_3-indicators-your-building-the-right-future.md
+- Concepts: productive-discomfort, internal-alignment, growth-and-relationships
+- Tags: main=#productivity, sub=[#psychology, #opinion], topic=right-path-indicators
+
+### File 2: 3-tang-skill-dang-hoc
+- Raw: raw/articles/2026-07-03_3-tang-skill-dang-hoc.md
+- Source note: wiki/sources/src_3-tang-skill-dang-hoc.md
+- Concepts: meta-learning (new), systems-thinking (merged), taste-judgment (new), leverage-skills (new)
+- Tags: main=#productivity, sub=[#opinion, #psychology], topic=skill-tiers-framework
+
+### File 3: compound-exercises-pareto-workouts
+- Raw: raw/articles/2026-07-03_compound-exercises-pareto-workouts.md
+- Source note: wiki/sources/src_compound-exercises-pareto-workouts.md
+- Concepts: compound-exercises (new), progressive-overload (new), pareto-principle (new)
+- Tags: main=#health, sub=[#tutorial], topic=compound-exercises
+
+### File 4: get-in-shape-r3-notes
+- Raw: raw/articles/2026-07-03_get-in-shape-r3-notes.md
+- Source note: wiki/sources/src_get-in-shape-r3-notes.md
+- Concepts: r3-framework (new), mind-body-connection (new), compound-exercises (merged)
+- Tags: main=#health, sub=[#psychology, #system], topic=r3-get-in-shape
+
+### File 5: you-need-a-mindset-shift-on-priorities
+- Raw: raw/articles/2026-07-03_you-need-a-mindset-shift-on-priorities.md
+- Source note: wiki/sources/src_you-need-a-mindset-shift-on-priorities.md
+- Concepts: pareto-principle (merged), busywork-vs-deep-work (new), output-vs-outcome (merged)
+- Tags: main=#productivity, sub=[#psychology, #opinion], topic=pareto-principle-priorities
+
+
 ## 2026-07-03 21:02 — Indexed (Daily)
 - **Scanned:** 376 concepts + 121 sources = 497 total files
 - **Tags indexed:** 23 (9 main-tags + 17 sub-tags)

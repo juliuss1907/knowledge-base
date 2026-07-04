@@ -7,7 +7,9 @@ title: "3 Tầng Skill Đáng Học"
 date_ingested: 2026-07-03
 date_published: 2026-07-03
 tags: [productivity, psychology]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-04
+compiled_to: "[[src_3-tang-skill-dang-hoc]]"
 ---
 
 # 3 Tầng Skill Đáng Học

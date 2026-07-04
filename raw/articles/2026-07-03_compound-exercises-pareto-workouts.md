@@ -7,7 +7,9 @@ title: "Compound Exercises — The Pareto Principle of Workouts"
 date_ingested: 2026-07-03
 date_published: 2026-07-03
 tags: [health, productivity]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-04
+compiled_to: "[[src_compound-exercises-pareto-workouts]]"
 ---
 
 # Compound Exercises — The Pareto Principle of Workouts

@@ -7,7 +7,9 @@ title: "Get in Shape — Notes on R3's Framework"
 date_ingested: 2026-07-03
 date_published: 2026-07-03
 tags: [health, productivity]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-04
+compiled_to: "[[src_get-in-shape-r3-notes]]"
 ---
 
 # Get in Shape — R3

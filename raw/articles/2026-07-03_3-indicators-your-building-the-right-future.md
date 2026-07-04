@@ -8,7 +8,9 @@ title: "3 Indicators Your Building The Right Future"
 date_ingested: 2026-07-03
 date_published: 2026-07
 tags: [productivity, psychology]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-04
+compiled_to: "[[src_3-indicators-your-building-the-right-future]]"
 ---
 
 # 3 Indicators Your Building The Right Future

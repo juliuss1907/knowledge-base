@@ -8,7 +8,8 @@ sources:
   - "[[src_output-vs-outcome-formula]]"
   - "[[src_tao-ket-qua-dinh-luong-duoc]]"
   - "[[src_the-laws-of-this-world]]"
-last_updated: 2026-07-01
+  - "[[src_you-need-a-mindset-shift-on-priorities]]"
+last_updated: 2026-07-04
 ---
 
 # Output vs Outcome
@@ -27,6 +28,8 @@ Phân biệt cốt lõi giữa output (những gì bạn làm — đo được n
 - Institution reward output vì attributable và measurable; solo worker phải track outcome
 - Trước mọi việc hỏi: tạo outcome đo được gì? Ai xác nhận? Đo bằng con số nào?
 - Theo dõi định kỳ cả output + outcome + tỷ lệ chuyển đổi để phân biệt busy work và high-impact work
+- **Trong ngữ cảnh Pareto Principle:** 80% nỗ lực thường đi vào việc tạo output (đo được, cảm giác productive) nhưng không tạo outcome — knowledge without execution yields nothing
+- Cần phân biệt output/outcome với busywork: busywork thậm chí không phải output có giá trị, chỉ là hoạt động tiêu tốn thời gian
 
 ## Related concepts
 
@@ -34,12 +37,15 @@ Phân biệt cốt lõi giữa output (những gì bạn làm — đo được n
 - [[measurable-outcomes]]
 - [[right-problem-framework]]
 - [[laws-of-the-world]]
+- [[busywork-vs-deep-work]]
+- [[pareto-principle]]
 
 ## Sources
 
 - [[src_output-vs-outcome-formula]]
 - [[src_tao-ket-qua-dinh-luong-duoc]]
 - [[src_the-laws-of-this-world]]
+- [[src_you-need-a-mindset-shift-on-priorities]]
 
 ## Notes
 

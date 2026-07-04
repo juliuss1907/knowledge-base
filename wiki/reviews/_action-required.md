@@ -4,19 +4,21 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-04 23:16
+**Last updated:** 2026-07-04 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 7
+**Pending reports awaiting review:** 8
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả báo cáo 2026-06-30 đã được approve: Output (23:06), Format (23:17), Hygiene (23:30).
 
 **Status:**
 - ⏳ Output Validator — 2026-07-04 (23:09): **PENDING** (1 issue: 0 ERROR, 1 WARNING, 0 INFO) — all 19 new files clean, "người" spacing merge carry-over in 9 existing files
 - ⏳ Format Validator — 2026-07-04 (23:16): **PENDING** (331 issues: 3 ERROR, 328 WARNING, 0 INFO) — tag/tag.md section carry-over + 24 unquoted wikilink regression
+- ⏳ Hygiene Inspector — 2026-07-04 (23:30): **PENDING** (4 issues: 2 ERROR, 1 WARNING, 1 INFO) — memory/ + state/ recurring root folders
+- ⏳ Hygiene Inspector — 2026-07-03 (23:31): **PENDING** (4 issues: 2 ERROR, 1 WARNING, 1 INFO) — memory/ reappeared at root with content file
 - ⏳ Format Validator — 2026-07-03 (23:17): **PENDING** (317 issues: 6 ERROR, 311 WARNING, 0 INFO) — tag/tag.md level-path contradiction + 23 unquoted wikilink WARNINGs resolved
 - ⏳ Format Validator — 2026-07-02 (23:15): **PENDING** (340 issues: 6 ERROR, 334 WARNING, 0 INFO) — 5 new tag/tag.md ERRORs + 23 unquoted wikilink WARNINGs
 - ⏳ Output Validator — 2026-07-02 (23:05): **PENDING** (4 issues: 0 ERROR, 2 WARNING, 2 INFO) — Vietnamese spacing + run-on in high-agency.md
@@ -125,6 +127,39 @@
 - Slug exception đã approved — không cần action
 
 **Report:** `wiki/reviews/2026-07-04_format-report.md`
+
+---
+
+### ⏳ Hygiene Inspection — 2026-07-04 (23:30)
+
+**File:** [2026-07-04_hygiene-report.md](2026-07-04_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-07-04 23:30:00 +0700
+**Issues:** 4 (2 ERROR, 1 WARNING, 1 INFO)
+**Paths checked:** 51,661
+
+**Summary:**
+- 🔴 2 ERROR: `memory/` folder at root (not in whitelist) + `state/` recurring root folder
+- ⚠️ 1 WARNING: `memory/2026-07-03.md` — content file inside orphaned `memory/` folder
+- ℹ️ 1 INFO: `state/` empty directory
+- ✅ Tất cả active zones (context/, raw/, wiki/) 100% compliant
+- ✅ HEARTBEAT.md leak resolved — 6 ngày ổn định (từ 06-28)
+- ✅ Không có file leak mới trong các zone chính
+
+**Delta from 2026-07-03 (PENDING):**
+- 🔴 SAME: `state/` vẫn recurring (4 lần trong 8 ngày: 06-27, 07-02, 07-03, 07-04)
+- 🔴 SAME (worsening): `memory/` folder vẫn tồn tại — `memory/2026-07-03.md` từ hôm qua, folder vẫn chưa được move/rmdir. Process ghi vào `memory/` thay vì `.openclaw/memory/` vẫn đang chạy
+- +31 paths (51,661 vs 51,630)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-04_hygiene-report.md`
+- Nếu approve: `mv memory/2026-07-03.md .openclaw/memory/` → `rmdir memory/` → `rmdir state/`
+- 🚨 ESCALATION: Cả `memory/` và `state/` đã PENDING 2+ ngày — cần process-level fix
+- `state/` recurrence: 4 lần trong 8 ngày — điều tra process tạo thư mục này (lần gần nhất 07-02 10:28)
+- `memory/` recurrence: đã migrate vào `.openclaw/memory/` từ folder-structure.md v1.2 (05-17) nhưng process vẫn ghi vào path cũ — cần fix output path
+- KB structure health: 99.992% (4/51,661 paths with issues)
+
+**Report:** `wiki/reviews/2026-07-04_hygiene-report.md`
 
 ---
 

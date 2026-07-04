@@ -10,6 +10,22 @@
 
 ---
 
+## 2026-07-04 23:16 — Format validation
+
+- **Files checked:** 694 (388 concepts + 126 sources + 33 indexes + 147 topics)
+- **Issues found:** 331 (3 ERROR, 328 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-04_format-report.md
+- **Top violations:**
+  - 2 ERROR: `wiki/tag/tag.md` missing `## Overview` + `## Parent` sections (carry-over from 07-02, reduced from 5→2)
+  - 1 ERROR (approved exception): Slug 53 chars in `src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+  - 24 WARNING: Unquoted wikilink regression on `wiki/tag/*.md` — Index Agent regenerated with old format
+  - 283 WARNING: Individual broken wikilinks (down from 290 on 07-01)
+  - 21 forward-reference summary groups
+  - ✅ Positive delta: 7 individual broken wikilinks resolved, 3 tag/tag.md frontmatter ERRORs resolved
+  - 🔴 Regression: 24 unquoted wikilink warnings reappeared after 07-03 resolution
+  - Escalation: `[SYSTEMATIC VIOLATION]` Index Agent SKILL.md template fix needed for quoted wikilinks
+  - KB health: 99.71% ERROR-free (2/694 files with ERROR)
+
 ## 2026-06-27 23:16 — Format validation
 
 - **Files checked:** 623 (354 concepts + 110 sources + 33 indexes + 126 topics)

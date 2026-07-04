@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-04 23:09
+**Last updated:** 2026-07-04 23:16
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 **Previously applied:** 6 reports (Output + Format + Hygiene for 06-17 + 06-18) **APPLIED** 2026-06-19
 **Scope:** Tất cả báo cáo 2026-06-30 đã được approve: Output (23:06), Format (23:17), Hygiene (23:30).
 
 **Status:**
 - ⏳ Output Validator — 2026-07-04 (23:09): **PENDING** (1 issue: 0 ERROR, 1 WARNING, 0 INFO) — all 19 new files clean, "người" spacing merge carry-over in 9 existing files
+- ⏳ Format Validator — 2026-07-04 (23:16): **PENDING** (331 issues: 3 ERROR, 328 WARNING, 0 INFO) — tag/tag.md section carry-over + 24 unquoted wikilink regression
 - ⏳ Format Validator — 2026-07-03 (23:17): **PENDING** (317 issues: 6 ERROR, 311 WARNING, 0 INFO) — tag/tag.md level-path contradiction + 23 unquoted wikilink WARNINGs resolved
 - ⏳ Format Validator — 2026-07-02 (23:15): **PENDING** (340 issues: 6 ERROR, 334 WARNING, 0 INFO) — 5 new tag/tag.md ERRORs + 23 unquoted wikilink WARNINGs
 - ⏳ Output Validator — 2026-07-02 (23:05): **PENDING** (4 issues: 0 ERROR, 2 WARNING, 2 INFO) — Vietnamese spacing + run-on in high-agency.md
@@ -90,6 +91,40 @@
 - Systemic patterns (definitions, key points, drafts) không cần ưu tiên
 
 **Report:** `wiki/reviews/2026-07-04_output-report.md`
+
+---
+
+### ⏳ Format Validation — 2026-07-04 (23:16)
+
+**File:** [2026-07-04_format-report.md](2026-07-04_format-report.md)
+**Status:** pending
+**Created:** 2026-07-04 23:16:16 +0700
+**Issues:** 331 (3 ERROR, 328 WARNING, 0 INFO)
+**Files checked:** 694 (388 concepts + 126 sources + 33 indexes + 147 topics)
+
+**Summary:**
+- 🔴 3 ERROR: 2 trên `wiki/tag/tag.md` (thiếu `## Overview` + `## Parent` — carry-over từ 07-02/07-03, đã giảm từ 5 → 2) + 1 pre-approved slug exception
+- ⚠️ 328 WARNING: 283 individual broken wikilinks + 21 forward-reference groups + **24 unquoted wikilink regression**
+- 🔴 **REGRESSION**: 24 unquoted wikilink WARNINGs reappeared on `wiki/tag/*.md` — đã resolve 07-03 (Index Agent regenerated với quoted format), nay Index Agent regenerate lại với format cũ (unquoted)
+- ✅ 7 individual broken wikilinks resolved (283 vs 290 on 07-01)
+- ✅ Topic files clean — 147 files pass (stable since 07-01)
+- Broken wikilink backlog: 192 unique targets (down from 194)
+
+**Delta from 2026-07-01 (APPROVED):**
+- +29 files in scope (694 vs 665)
+- +2 ERROR (3 vs 1) — tag/tag.md sections
+- +17 WARNING (328 vs 311) — net = 24 unquoted regression − 7 resolved broken links
+- Positive: 3 tag/tag.md frontmatter ERRORs resolved (level, auto_generated, items_managed_by, parent)
+- Negative: 24 unquoted wikilink regression (Index Agent template still uses unquoted format)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-04_format-report.md`
+- Nếu approve tag/tag.md: giao Fix Agent thêm 2 section `## Overview` + `## Parent`
+- Nếu approve unquoted regression: update `index-agent/SKILL.md` tag file template → `parent: "[[tag]]"` (quoted) → Fix Agent wrap quotes cho 24 files
+- [SYSTEMATIC VIOLATION] escalation: Index Agent template fix required — nếu không, mỗi lần regenerate sẽ reintroduce
+- Slug exception đã approved — không cần action
+
+**Report:** `wiki/reviews/2026-07-04_format-report.md`
 
 ---
 

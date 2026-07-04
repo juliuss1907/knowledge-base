@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-engineering
 auto_generated: true
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Topic: ai-engineering
 
 Auto-generated index of all content with topic `ai-engineering`.
 
-Last updated: 2026-07-03 21:02:00
+Last updated: 2026-07-04 21:04:18
 
 ---
 
@@ -19,3 +19,6 @@ Last updated: 2026-07-03 21:02:00
 
 - [[alignment-engineering]] — main: #ai, sub: [#system, #research]
 - [[loop-native-factory]] — main: #ai, sub: [#vibecode, #system]
+
+## Sources (0)
+

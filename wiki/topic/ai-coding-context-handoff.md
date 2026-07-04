@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-coding-context-handoff
 auto_generated: true
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Topic: ai-coding-context-handoff
 
 Auto-generated index of all content with topic `ai-coding-context-handoff`.
 
-Last updated: 2026-07-03 21:02:00
+Last updated: 2026-07-04 21:04:18
 
 ---
 

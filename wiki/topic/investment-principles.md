@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: investment-principles
 auto_generated: true
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Topic: investment-principles
 
 Auto-generated index of all content with topic `investment-principles`.
 
-Last updated: 2026-07-03 21:02:00
+Last updated: 2026-07-04 21:04:18
 
 ---
 

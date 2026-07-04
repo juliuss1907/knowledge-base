@@ -2,10 +2,10 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: investment
 auto_generated: true
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Tag: #investment
@@ -19,19 +19,19 @@ last_updated: 2026-07-03
 - Total files: 9
 - Sources: 3
 - Concepts: 6
-- Last updated: 2026-07-03
+- Last updated: 2026-07-04
 
 ## Files with this tag
 
-- [[diversification-strategy]] — Diversification Strategy (Chiến lược Đa dạng hóa) (concept)
-- [[erg-theory]] — ERG Theory (concept)
-- [[five-big-forces]] — Five Big Forces (Năm Lực Lượng Lớn) (concept)
-- [[five-types-of-wealth]] — Five Types of Wealth (concept)
-- [[global-macro-investing]] — Global Macro Long-Short Investing (Đầu tư Vĩ mô Toàn cầu Long-Short) (concept)
-- [[holy-grail-investing]] — Holy Grail of Investing (Chén Thánh Đầu Tư) (concept)
-- [[src_global-macro-investing]] — Why I Recommend Being a Global Macro Long-Short Investor (source)
-- [[src_investment-principles-dalio]] — Investment Principles: What Should You Do Under Existing Conditions? (source)
-- [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is the Easiest Way To Measure Your Life. But It Is Not the Best (source)
+- [[diversification-strategy]] — Diversification Strategy (concept)
+- [[erg-theory]] — Erg Theory (concept)
+- [[five-big-forces]] — Five Big Forces (concept)
+- [[five-types-of-wealth]] — Five Types Of Wealth (concept)
+- [[global-macro-investing]] — Global Macro Investing (concept)
+- [[holy-grail-investing]] — Holy Grail Investing (concept)
+- [[src_global-macro-investing]] — Global Macro Investing (source)
+- [[src_investment-principles-dalio]] — Investment Principles Dalio (source)
+- [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
 
 ## Co-occurring tags
 

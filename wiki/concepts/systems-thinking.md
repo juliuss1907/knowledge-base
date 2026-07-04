@@ -6,7 +6,8 @@ sub_tags: [tools, research, tutorial]
 topic: systems-thinking-tools
 sources:
   - "[[src_systems-thinking-tools-deepdive]]"
-last_updated: 2026-06-14
+  - "[[src_3-tang-skill-dang-hoc]]"
+last_updated: 2026-07-04
 ---
 # Systems Thinking
 
@@ -23,16 +24,22 @@ Tư duy hệ thống (Systems Thinking) là một phương pháp luận phân t�
 - Đặc biệt hiệu quả trong thế giới VUCA (Biến động, Bất định, Phức tạp, Mơ hồ) để điều hướng sự phức tạp.
 - Tập trung vào việc thay đổi "điều kiện" (conditions) đang giữ cho một vấn đề tồn tại thay vì chỉ giải quyết kết quả.
 - Nhận diện các "tính chất trồi" (emergent properties) — những đặc điểm của toàn hệ thống mà không thể thấy được khi phân tích từng thành phần riêng lẻ.
+- Là một personal edge skill: người giỏi systems thinking không bị sa lầy vào chi tiết, luôn tìm được leverage point để thay đổi cả hệ thống chỉ bằng một can thiệp nhỏ — đây là kỹ năng khiến bạn không bị thay thế trong kỷ nguyên AI.
+- Trong skill framework, systems thinking nằm ở tầng Edge (khác biệt) — cùng với taste/judgment và quản lý năng lượng.
 
 ## Related concepts
 
 - [[iceberg-model]]
 - [[causal-loop-diagram]]
 - [[stakeholder-mapping]]
+- [[leverage-points]]
+- [[meta-learning]]
+- [[taste-judgment]]
 
 ## Sources
 
 - [[src_systems-thinking-tools-deepdive]]
+- [[src_3-tang-skill-dang-hoc]]
 
 ## Notes
 

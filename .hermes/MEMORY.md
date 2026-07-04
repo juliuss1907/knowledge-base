@@ -533,3 +533,10 @@
 - **Delta:** +5 ERROR còn tồn đọng (tag/tag.md), -23 WARNING (unquoted wikilinks resolved by Index Agent regeneration), broken wikilinks 0 change
 - **Escalation:** [LEVEL-PATH CONTRADICTION] tag/tag.md level:1 but filesystem path → Tầng 2. Validator should cross-check level field against path before dispatching.
 - **KB format health:** 99.3% (excl. forward-ref broken wikilinks), ↑ from 99.1% on 07-02
+
+## 2026-07-04 23:09:34 — Output validation
+- **Files checked:** 514 (126 sources + 388 concepts)
+- **New files:** 19 (5 sources + 14 concepts — compiled 2026-07-04)
+- **Issues found:** 1 (0 ERROR, 1 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-04_output-report.md
+- **Summary:** Tất cả 19 file mới sạch hoàn toàn trên 4 dimensions. 5 cluster cross-linking. 0 typo các loại, 0 MT artifacts. 1 WARNING carry-over: "người" spacing merge trong 9 file cũ (38 instances), trong đó high-agency.md đã flag từ 07-02 (PENDING), 8 file còn lại mới phát hiện nhờ detection pattern cải tiến. Systemic patterns: 386 one-sentence definitions, 79 few key points, 9 empty Key ideas, 218 drafts.

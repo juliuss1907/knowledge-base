@@ -8,7 +8,9 @@ title: "Vectors, what even are they? — Linear Algebra Chapter 1"
 date_ingested: 2026-07-04
 date_published: 2016-08-06
 tags: [ai, research]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-05
+compiled_to: "[[src_vectors-what-even-are-they-3b1b]]"
 ---
 
 # Vectors, what even are they? — Linear Algebra Chapter 1

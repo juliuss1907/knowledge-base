@@ -2575,3 +2575,11 @@
 - **Topics indexed:** 147
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Errors:** 0 files skipped
+
+## 2026-07-05 08:00 — Compiled (Daily Cron)
+
+- **Raw:** raw/articles/2026-07-04_vectors-what-even-are-they-3b1b.md
+- **Source note:** wiki/sources/src_vectors-what-even-are-they-3b1b.md
+- **Concepts:** [vectors, vector-addition, scalar-multiplication, coordinate-systems]
+- **Tags applied:** main=#ai, sub=[#tutorial, #research, #coding], topic=vectors-fundamentals
+- **Action:** created 1 source note, created 4 concept files

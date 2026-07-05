@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-06-30
+last_updated: 2026-07-05
 ---
 
 # Articles Index
@@ -23,13 +23,13 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 106 files
-- By status: 100 processed, 0 unprocessed
-- By date: 5 this week, 105 this month
-- Last updated: 2026-07-04
+- Total: 101 files
+- By status: 101 processed, 0 unprocessed
+- By date: 17 this week, 62 this month
+- Last updated: 2026-07-05
 
 ## Items
-- [[2026-07-04_vectors-what-even-are-they-3b1b]] — Vectors, what even are they? — Linear Algebra Ch.1 by 3Blue1Brown (unprocessed)
+- [[2026-07-04_vectors-what-even-are-they-3b1b]] — Vectors, what even are they? — Linear Algebra Ch.1 by 3Blue1Brown (processed)
 
 - [[2026-07-03_compound-exercises-pareto-workouts]] — Compound Exercises — The Pareto Principle of Workouts by Julius (processed)
 

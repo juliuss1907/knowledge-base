@@ -556,3 +556,10 @@
 - **Issues found:** 1 (0 ERROR, 1 WARNING, 0 INFO)
 - **Report:** wiki/reviews/2026-07-04_output-report.md
 - **Summary:** Tất cả 19 file mới sạch hoàn toàn trên 4 dimensions. 5 cluster cross-linking. 0 typo các loại, 0 MT artifacts. 1 WARNING carry-over: "người" spacing merge trong 9 file cũ (38 instances), trong đó high-agency.md đã flag từ 07-02 (PENDING), 8 file còn lại mới phát hiện nhờ detection pattern cải tiến. Systemic patterns: 386 one-sentence definitions, 79 few key points, 9 empty Key ideas, 218 drafts.
+
+## 2026-07-05 23:04:51 — Output validation
+- **Files checked:** 519 (127 sources + 392 concepts)
+- **New files:** 5 (1 source + 4 concepts — compiled 2026-07-05)
+- **Issues found:** 3 (0 ERROR, 1 WARNING, 2 INFO)
+- **Report:** wiki/reviews/2026-07-05_output-report.md
+- **Summary:** 5/5 file mới PASS — cluster vectors-fundamentals gọn gàng. 1 WARNING: 07-01 validation gap (24 files never validated). 2 INFO: "người" spacing merge carry-over (4 files/11 instances, new:0) + 9 concepts empty Key ideas (cần verify). 0 typo các loại trong new files. Systemic patterns carry-over: 390 one-sentence definitions, 79 few key points, 222 draft concepts.

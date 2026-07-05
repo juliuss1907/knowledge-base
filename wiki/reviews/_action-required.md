@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-05 09:40
+**Last updated:** 2026-07-05 23:04
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 10 reports (07-01 to 07-04) **APPLIED** 2026-07-05
 
 ---
@@ -316,6 +316,33 @@
 - KB structure health: 99.998% (1/51,618 paths with issue)
 
 **Report:** `wiki/reviews/2026-07-02_hygiene-report.md`
+
+---
+
+## Pending — 2026-07-05
+
+### 📋 Output Validation — 2026-07-05 (23:04)
+
+**File:** [2026-07-05_output-report.md](2026-07-05_output-report.md)
+**Status:** pending
+**Created:** 2026-07-05 23:04:51 +0700
+**Issues:** 3 (0 ERROR, 1 WARNING, 2 INFO)
+**Files checked:** 519 (127 sources + 392 concepts)
+**New files:** 5 (1 source + 4 concepts — compiled 2026-07-05)
+
+**Summary:**
+- ✅ 5/5 file mới PASS — chất lượng cao, cluster `vectors-fundamentals` gọn gàng, cross-links đầy đủ
+- ⚠️ 1 WARNING: 07-01 validation gap — 24 files (8 sources + 16 concepts) compiled 07-01 chưa từng được output-validate
+- ℹ️ 1 INFO carry-over: "người" spacing merge trong 4 file cũ (11 instances) — new:0, không có instance mới
+- ℹ️ 1 INFO: 9 concepts có Key ideas trống (quick-scan flag) — cần verify thủ công, có thể là false positive do subsection format
+- 0 typo "ngưởi", 0 typo "ngườii/đờii...", 0 spacing merge trong 5 file mới
+
+**Actions:**
+- Review `wiki/reviews/2026-07-05_output-report.md`
+- Quyết định có validate batch 07-01 (24 files) hay skip
+- Nếu approve: Fix Agent có thể xử lý carry-over spacing merge (không khẩn)
+
+**Report:** `wiki/reviews/2026-07-05_output-report.md`
 
 ---
 

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Tag: #automation
@@ -19,7 +19,7 @@ last_updated: 2026-07-04
 - Total files: 86
 - Sources: 18
 - Concepts: 68
-- Last updated: 2026-07-04
+- Last updated: 2026-07-05
 
 ## Files with this tag
 

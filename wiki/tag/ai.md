@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: ai
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Tag: #ai
@@ -16,10 +16,10 @@ last_updated: 2026-07-04
 
 ## Stats
 
-- Total files: 140
-- Sources: 31
-- Concepts: 109
-- Last updated: 2026-07-04
+- Total files: 145
+- Sources: 32
+- Concepts: 113
+- Last updated: 2026-07-05
 
 ## Files with this tag
 
@@ -61,6 +61,7 @@ last_updated: 2026-07-04
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[context-window-management]] — Context Window Management (concept)
 - [[conversational-website]] — Conversational Website (concept)
+- [[coordinate-systems]] — Coordinate Systems (concept)
 - [[coordinated-vulnerability-disclosure]] — Coordinated Vulnerability Disclosure (concept)
 - [[creativity-as-skill]] — Creativity As Skill (concept)
 - [[cross-agent-workflow]] — Cross Agent Workflow (concept)
@@ -116,6 +117,7 @@ last_updated: 2026-07-04
 - [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)
 - [[responsible-ai-security-research]] — Responsible Ai Security Research (concept)
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
+- [[scalar-multiplication]] — Scalar Multiplication (concept)
 - [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept)
 - [[session-separation]] — Session Separation (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
@@ -150,6 +152,7 @@ last_updated: 2026-07-04
 - [[src_the-revenge-of-the-business-idiot]] — The Revenge Of The Business Idiot (source)
 - [[src_the-seed-and-the-machine]] — The Seed And The Machine (source)
 - [[src_tokens-and-tokenization]] — Tokens And Tokenization (source)
+- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3b1b (source)
 - [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
 - [[src_youre-being-trained-for-a-world-that-no-longer-exists]] — Youre Being Trained For A World That No Longer Exists (source)
 - [[state-space-models-ssm]] — State Space Models Ssm (concept)
@@ -157,6 +160,8 @@ last_updated: 2026-07-04
 - [[tokenization]] — Tokenization (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
 - [[validation-contract]] — Validation Contract (concept)
+- [[vector-addition]] — Vector Addition (concept)
+- [[vectors]] — Vectors (concept)
 - [[vibe-coding]] — Vibe Coding (concept)
 - [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
 - [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
@@ -167,7 +172,7 @@ last_updated: 2026-07-04
 ## Co-occurring tags
 
 - [[tools]] — 92 co-occurrences
-- [[research]] — 57 co-occurrences
+- [[research]] — 62 co-occurrences
 - [[automation]] — 56 co-occurrences
 - [[opinion]] — 33 co-occurrences
-- [[tutorial]] — 18 co-occurrences
+- [[tutorial]] — 23 co-occurrences

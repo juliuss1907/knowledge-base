@@ -2607,3 +2607,12 @@
 
 **Archived:** 10 reports → `wiki/reviews/archive/2026-07/`
 **Pending reports:** 0
+
+## 2026-07-05 21:02:39 — Indexed
+
+- **Scanned:** 392 concepts + 127 sources = 519 total files
+- **Tags indexed:** 23 (9 main + 14 sub)
+- **Topics indexed:** 148
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped

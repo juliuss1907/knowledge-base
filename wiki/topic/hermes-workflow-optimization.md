@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-workflow-optimization
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Topic: hermes-workflow-optimization
 
 Auto-generated index of all content with topic `hermes-workflow-optimization`.
 
-Last updated: 2026-07-04 21:04:18
+Last updated: 2026-07-05 21:02:39
 
 ---
 

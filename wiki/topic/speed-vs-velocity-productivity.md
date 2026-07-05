@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: speed-vs-velocity-productivity
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Topic: speed-vs-velocity-productivity
 
 Auto-generated index of all content with topic `speed-vs-velocity-productivity`.
 
-Last updated: 2026-07-04 21:04:18
+Last updated: 2026-07-05 21:02:39
 
 ---
 

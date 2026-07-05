@@ -26,13 +26,11 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 
 ## Stats
 
-- Total tags in use: 26
-- Main tags (Pool A): 9
-- Sub tags (Pool B): 17
-- Most used: #research (219), #productivity (217), #psychology (183)
-- Last updated: 2026-07-04
-
-## Items
+- Total tags: 23
+- Main tags: 9
+- Sub tags: 14
+- Most used: #research (224), #productivity (217), #psychology (183)
+- Last updated: 2026-07-05## Items
 
 ### Main Tags (Pool A)
 

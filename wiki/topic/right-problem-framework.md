@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: right-problem-framework
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Topic: right-problem-framework
 
 Auto-generated index of all content with topic `right-problem-framework`.
 
-Last updated: 2026-07-04 21:04:18
+Last updated: 2026-07-05 21:02:39
 
 ---
 

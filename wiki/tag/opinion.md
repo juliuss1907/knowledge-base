@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Tag: #opinion
@@ -19,7 +19,7 @@ last_updated: 2026-07-04
 - Total files: 179
 - Sources: 56
 - Concepts: 123
-- Last updated: 2026-07-04
+- Last updated: 2026-07-05
 
 ## Files with this tag
 
@@ -205,7 +205,7 @@ last_updated: 2026-07-04
 
 ## Co-occurring tags
 
-- [[productivity]] — 83 co-occurrences
+- [[productivity]] — 81 co-occurrences
 - [[psychology]] — 61 co-occurrences
 - [[research]] — 60 co-occurrences
 - [[economic]] — 38 co-occurrences

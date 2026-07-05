@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: critical-thinking-tools
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Topic: critical-thinking-tools
 
 Auto-generated index of all content with topic `critical-thinking-tools`.
 
-Last updated: 2026-07-04 21:04:18
+Last updated: 2026-07-05 21:02:39
 
 ---
 

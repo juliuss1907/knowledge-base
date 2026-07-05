@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-07-04
 
 ## Stats
 
-- Total files: 67
-- Sources: 27
-- Concepts: 40
-- Last updated: 2026-07-04
+- Total files: 72
+- Sources: 28
+- Concepts: 44
+- Last updated: 2026-07-05
 
 ## Files with this tag
 
@@ -33,6 +33,7 @@ last_updated: 2026-07-04
 - [[claude-builder-role]] — Claude Builder Role (concept)
 - [[compound-exercises]] — Compound Exercises (concept)
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
+- [[coordinate-systems]] — Coordinate Systems (concept)
 - [[ebitda-trap]] — Ebitda Trap (concept)
 - [[evening-routine]] — Evening Routine (concept)
 - [[expert-knowledge-extraction]] — Expert Knowledge Extraction (concept)
@@ -52,6 +53,7 @@ last_updated: 2026-07-04
 - [[paradox-of-effort]] — Paradox Of Effort (concept)
 - [[problem-statement-redesign]] — Problem Statement Redesign (concept)
 - [[progressive-overload]] — Progressive Overload (concept)
+- [[scalar-multiplication]] — Scalar Multiplication (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
 - [[soul-md-configuration]] — Soul Md Configuration (concept)
@@ -81,6 +83,7 @@ last_updated: 2026-07-04
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
+- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3b1b (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[src_youre-being-trained-for-a-world-that-no-longer-exists]] — Youre Being Trained For A World That No Longer Exists (source)
 - [[stakeholder-mapping]] — Stakeholder Mapping (concept)
@@ -89,12 +92,14 @@ last_updated: 2026-07-04
 - [[systems-thinking]] — Systems Thinking (concept)
 - [[systems-thinking-training-roadmap]] — Systems Thinking Training Roadmap (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
+- [[vector-addition]] — Vector Addition (concept)
+- [[vectors]] — Vectors (concept)
 - [[x-api-oauth2]] — X Api Oauth2 (concept)
 
 ## Co-occurring tags
 
 - [[productivity]] — 28 co-occurrences
 - [[tools]] — 24 co-occurrences
-- [[ai]] — 18 co-occurrences
+- [[ai]] — 23 co-occurrences
+- [[research]] — 20 co-occurrences
 - [[economic]] — 16 co-occurrences
-- [[automation]] — 16 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: research
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Tag: #research
@@ -16,10 +16,10 @@ last_updated: 2026-07-04
 
 ## Stats
 
-- Total files: 219
-- Sources: 48
-- Concepts: 171
-- Last updated: 2026-07-04
+- Total files: 224
+- Sources: 49
+- Concepts: 175
+- Last updated: 2026-07-05
 
 ## Files with this tag
 
@@ -55,6 +55,7 @@ last_updated: 2026-07-04
 - [[complicated-vs-complex]] — Complicated Vs Complex (concept)
 - [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
+- [[coordinate-systems]] — Coordinate Systems (concept)
 - [[coordinated-vulnerability-disclosure]] — Coordinated Vulnerability Disclosure (concept)
 - [[counterinsurgency]] — Counterinsurgency (concept)
 - [[creative-destruction]] — Creative Destruction (concept)
@@ -168,6 +169,7 @@ last_updated: 2026-07-04
 - [[responsible-ai-security-research]] — Responsible Ai Security Research (concept)
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
 - [[reversibility-paradox]] — Reversibility Paradox (concept)
+- [[scalar-multiplication]] — Scalar Multiplication (concept)
 - [[second-order-effects]] — Second Order Effects (concept)
 - [[self-reinforcing-systems]] — Self Reinforcing Systems (concept)
 - [[self-reinforcing-systems]] — Self Reinforcing Systems (concept)
@@ -218,6 +220,7 @@ last_updated: 2026-07-04
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_tokens-and-tokenization]] — Tokens And Tokenization (source)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
+- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3b1b (source)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
 - [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)
@@ -239,6 +242,8 @@ last_updated: 2026-07-04
 - [[ultimatum-game]] — Ultimatum Game (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
 - [[variable-reward-systems]] — Variable Reward Systems (concept)
+- [[vector-addition]] — Vector Addition (concept)
+- [[vectors]] — Vectors (concept)
 - [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
@@ -246,7 +251,7 @@ last_updated: 2026-07-04
 ## Co-occurring tags
 
 - [[productivity]] — 80 co-occurrences
+- [[ai]] — 62 co-occurrences
 - [[opinion]] — 60 co-occurrences
-- [[ai]] — 57 co-occurrences
 - [[psychology]] — 54 co-occurrences
 - [[tools]] — 49 co-occurrences

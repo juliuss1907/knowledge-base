@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: investment
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Tag: #investment
@@ -19,7 +19,7 @@ last_updated: 2026-07-04
 - Total files: 9
 - Sources: 3
 - Concepts: 6
-- Last updated: 2026-07-04
+- Last updated: 2026-07-05
 
 ## Files with this tag
 

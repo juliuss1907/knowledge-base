@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Tag: #productivity
@@ -19,7 +19,7 @@ last_updated: 2026-07-04
 - Total files: 217
 - Sources: 62
 - Concepts: 155
-- Last updated: 2026-07-04
+- Last updated: 2026-07-05
 
 ## Files with this tag
 
@@ -244,7 +244,7 @@ last_updated: 2026-07-04
 ## Co-occurring tags
 
 - [[psychology]] — 140 co-occurrences
-- [[opinion]] — 83 co-occurrences
+- [[opinion]] — 81 co-occurrences
 - [[research]] — 80 co-occurrences
 - [[tutorial]] — 28 co-occurrences
 - [[automation]] — 21 co-occurrences

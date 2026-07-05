@@ -180,7 +180,7 @@ def run_indexing():
     today = datetime.now().strftime('%Y-%m-%d')
     WIKI_TAGS.mkdir(parents=True, exist_ok=True)
     for tag, data in tag_index.items():
-        content = f"---\ntype: index\nlevel: 3\nscope: tag\nparent: [[tag]]\ntag: {tag}\nauto_generated: true\nlast_updated: {today}\n---\n\n# Tag: #{tag}\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: {len(data['concepts']) + len(data['sources'])}\n- Sources: {len(data['sources'])}\n- Concepts: {len(data['concepts'])}\n- Last updated: {today}\n\n## Files with this tag\n\n"
+        content = f"---\ntype: index\nlevel: 3\nscope: tag\nparent: \"[[tag]]\"\ntag: {tag}\nauto_generated: true\nlast_updated: {today}\n---\n\n# Tag: #{tag}\n\n## Parent\n\n- [[tag]]\n\n## Stats\n\n- Total files: {len(data['concepts']) + len(data['sources'])}\n- Sources: {len(data['sources'])}\n- Concepts: {len(data['concepts'])}\n- Last updated: {today}\n\n## Files with this tag\n\n"
         
         all_items = []
         for f in data['concepts']:

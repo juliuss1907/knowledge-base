@@ -340,7 +340,7 @@ def generate_tag_index(tag, data, co_occur, all_files):
 type: index
 level: 3
 scope: tag
-parent: [[tag]]
+parent: "[[tag]]"
 tag: {tag}
 auto_generated: true
 last_updated: {today}

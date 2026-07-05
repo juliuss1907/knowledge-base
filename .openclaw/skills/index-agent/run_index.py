@@ -207,7 +207,7 @@ def main():
 type: index
 level: 3
 scope: tag
-parent: [[tag]]
+parent: "[[tag]]"
 tag: {tag}
 auto_generated: true
 last_updated: {today}

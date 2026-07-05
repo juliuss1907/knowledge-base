@@ -2,7 +2,7 @@
 type: index
 level: 3
 scope: tag
-parent: [[tag]]
+parent: "[[tag]]"
 tag: layer1
 auto_generated: true
 last_updated: 2026-07-04

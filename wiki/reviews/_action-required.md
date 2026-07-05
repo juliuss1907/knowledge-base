@@ -15,14 +15,14 @@
 **Scope:** Tất cả báo cáo 2026-06-30 đã được approve: Output (23:06), Format (23:17), Hygiene (23:30).
 
 **Status:**
-- ✅ Output Validator — 2026-07-04 (23:09): **PENDING** (1 issue: 0 ERROR, 1 WARNING, 0 INFO) — all 19 new files clean, "người" spacing merge carry-over in 9 existing files
-- ✅ Format Validator — 2026-07-04 (23:16): **PENDING** (331 issues: 3 ERROR, 328 WARNING, 0 INFO) — tag/tag.md section carry-over + 24 unquoted wikilink regression
-- ✅ Hygiene Inspector — 2026-07-04 (23:30): **PENDING** (4 issues: 2 ERROR, 1 WARNING, 1 INFO) — memory/ + state/ recurring root folders
-- ✅ Hygiene Inspector — 2026-07-03 (23:31): **PENDING** (4 issues: 2 ERROR, 1 WARNING, 1 INFO) — memory/ reappeared at root with content file
-- ✅ Format Validator — 2026-07-03 (23:17): **PENDING** (317 issues: 6 ERROR, 311 WARNING, 0 INFO) — tag/tag.md level-path contradiction + 23 unquoted wikilink WARNINGs resolved
-- ✅ Format Validator — 2026-07-02 (23:15): **PENDING** (340 issues: 6 ERROR, 334 WARNING, 0 INFO) — 5 new tag/tag.md ERRORs + 23 unquoted wikilink WARNINGs
-- ✅ Output Validator — 2026-07-02 (23:05): **PENDING** (4 issues: 0 ERROR, 2 WARNING, 2 INFO) — Vietnamese spacing + run-on in high-agency.md
-- ✅ Hygiene Inspector — 2026-07-02 (23:30): **PENDING** (1 issue: 0 ERROR, 0 WARNING, 1 INFO) — state/ empty directory at root
+- ✅ Output Validator — 2026-07-04 (23:09): **APPROVED** (1 issue: 0 ERROR, 1 WARNING, 0 INFO) — all 19 new files clean, "người" spacing merge carry-over in 9 existing files
+- ✅ Format Validator — 2026-07-04 (23:16): **APPROVED** (331 issues: 3 ERROR, 328 WARNING, 0 INFO) — tag/tag.md section carry-over + 24 unquoted wikilink regression
+- ✅ Hygiene Inspector — 2026-07-04 (23:30): **APPROVED** (4 issues: 2 ERROR, 1 WARNING, 1 INFO) — memory/ + state/ recurring root folders
+- ✅ Hygiene Inspector — 2026-07-03 (23:31): **APPROVED** (4 issues: 2 ERROR, 1 WARNING, 1 INFO) — memory/ reappeared at root with content file
+- ✅ Format Validator — 2026-07-03 (23:17): **APPROVED** (317 issues: 6 ERROR, 311 WARNING, 0 INFO) — tag/tag.md level-path contradiction + 23 unquoted wikilink WARNINGs resolved
+- ✅ Format Validator — 2026-07-02 (23:15): **APPROVED** (340 issues: 6 ERROR, 334 WARNING, 0 INFO) — 5 new tag/tag.md ERRORs + 23 unquoted wikilink WARNINGs
+- ✅ Output Validator — 2026-07-02 (23:05): **APPROVED** (4 issues: 0 ERROR, 2 WARNING, 2 INFO) — Vietnamese spacing + run-on in high-agency.md
+- ✅ Hygiene Inspector — 2026-07-02 (23:30): **APPROVED** (1 issue: 0 ERROR, 0 WARNING, 1 INFO) — state/ empty directory at root
 - ✅ Hygiene Inspector — 2026-07-01 (23:30): **APPROVED** (1 issue: 1 ERROR, 0 WARNING, 0 INFO)
 - ✅ Format Validator — 2026-07-01 (23:15): **APPROVED** (312 issues: 1 ERROR, 311 WARNING, 0 INFO) — Julius approved slug exception
 - ✅ Format Validator — 2026-06-30 (23:17): **APPROVED** (439 issues: 128 ERROR, 311 WARNING, 0 INFO) — 128 topic frontmatter → Kara fix Index Agent template + regenerate
@@ -359,7 +359,7 @@
 
 ---
 
-### ⏳ Hygiene Inspection — 2026-07-01 (23:30)
+### ✅ Hygiene Inspection — 2026-07-01 (23:30)
 
 **File:** [2026-07-01_hygiene-report.md](2026-07-01_hygiene-report.md)
 **Status:** approved

@@ -2583,3 +2583,27 @@
 - **Concepts:** [vectors, vector-addition, scalar-multiplication, coordinate-systems]
 - **Tags applied:** main=#ai, sub=[#tutorial, #research, #coding], topic=vectors-fundamentals
 - **Action:** created 1 source note, created 4 concept files
+
+## 2026-07-05 09:40 — Applied fixes from 10 Hermes reports (07-01 to 07-04 batch)
+
+**Reports applied:** 10 (all APPROVED)
+- 07-01 Format: Slug exception — no action. 311 WARNING de-prioritized.
+- 07-01 Hygiene: index_wiki.py — already resolved
+- 07-02 Output: high-agency.md "người" spacing merge (7 instances) + run-on sentence
+- 07-02 Format: tag/tag.md sections + 23 unquoted wikilinks
+- 07-02 Hygiene: state/ empty directory removed
+- 07-03 Format: tag/tag.md level, auto_generated, items_managed_by, parent, 4 sections
+- 07-03 Hygiene: memory/ folder moved to .openclaw/memory/, state/ removed
+- 07-04 Output: 9 files "người" spacing merge (38 instances total)
+- 07-04 Format: tag/tag.md Overview + Parent sections, 24 unquoted wikilinks fixed
+- 07-04 Hygiene: memory/ + state/ removed again
+
+**Fixes applied:**
+- `high-agency.md`: 7 "người" spacing merges + run-on sentence → all resolved
+- 9 files "người" spacing merge: 38 instances across concepts + sources → all resolved
+- `tag/tag.md`: Added ## Overview, ## Parent sections + frontmatter corrections
+- 24 tag files: `parent: [[x]]` → `parent: "[[x]]"` (quoted wikilinks)
+- `memory/2026-07-03.md` → `.openclaw/memory/`, removed `memory/` and `state/` from root
+
+**Archived:** 10 reports → `wiki/reviews/archive/2026-07/`
+**Pending reports:** 0

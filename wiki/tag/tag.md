@@ -2,7 +2,7 @@
 type: index
 level: 2
 scope: tags
-parent: [[wiki]]
+parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
 last_updated: 2026-07-04
@@ -15,6 +15,14 @@ Master index of all tags in the Knowledge Base.
 Last updated: 2026-07-04 21:04:18
 
 ---
+
+## Overview
+
+Auto-generated master index of all tags used in the Knowledge Base. Tracks statistics, files per tag, and co-occurrence relationships across both main-tags (Pool A) and sub-tags (Pool B).
+
+## Parent
+
+- [[wiki]]
 
 ## Stats
 

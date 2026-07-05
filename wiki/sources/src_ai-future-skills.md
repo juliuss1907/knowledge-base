@@ -28,7 +28,7 @@ Bài viết phân tích tác động của AI đối với thị trường lao �
 - Dario Amodei dự đoán AI sẽ thay thế 50% việc làm cổ áo trắng trong 2-5 năm tới
 - AI đã tiến bộ nhanh chóng: GPT-1 (2018) → GPT-5 IMO Gold Medal (2025) → ChatGPT 5.3 Codex tự tạo ra chính mình (2026)
 - Jensen Huang dự đoán: "Ngôn ngữ lập trình tương lai sẽ là ngôn ngữ mẹ đẻ của chúng ta"
-- Vibe Coding — ngườikhông biết code tạo sản phẩm bằng tiếng Anh thông thường — đang bùng nổ ($3B hiện tại, dự đoán $30B trong 6 năm)
+- Vibe Coding — người không biết code tạo sản phẩm bằng tiếng Anh thông thường — đang bùng nổ ($3B hiện tại, dự đoán $30B trong 6 năm)
 - Các công việc đang bị thay thế: CS/call center, nhập liệu, trợ lý pháp lý, phân tích tài chính, chẩn đoán y tế, copywriter
 - Lịch sử lặp lại: Máy in thay thế thầy tu sao chép, máy gặt cơ giới thay thế nông dân, máy móc thay thế công nhân — giờ đến lượt AI thay thế công việc trí óc
 - "Bạn sẽ không mất việc vì AI, bạn sẽ mất việc vì ngườisử dụng AI"

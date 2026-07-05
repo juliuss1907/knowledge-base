@@ -162,6 +162,12 @@ Older reports and archived files may still contain literal `pending` in historic
 
    **⚠️ PITFALL — System demands in-turn evidence:** If verification ran in a previous turn, the system will re-flag edits as unverified even though checks already passed. Re-run the verification inline in the current turn with a simple `grep` one-liner to satisfy the gate. This is a platform behavior, not a task failure.
 
+   **⚠️ PITFALL — Format reports double-match `Status.*approved`:** Format reports with slug exceptions contain inline text like `**Status:** Julius approved exception` in the body. The verification grep `grep -c "Status.*approved"` returns 2 matches instead of 1 — this is a false positive, not a report error. When a format report shows 2 matches, check if the second is an inline exception mention before flagging it.
+
+   **⚠️ PITFALL — Dashboard inconsistency between summary list and section headings:** During bulk approvals, some reports may be marked ✅ in the summary status list but still have `⏳` in their section heading (e.g., `### ⏳ Hygiene Inspection — 2026-07-01` while the summary says `✅ Hygiene Inspector`). This happens when a prior approval updated the summary line but missed the section heading. After bulk approval, grep for ALL `⏳` in the dashboard — not just those on the pending list — and fix any section headings that are out of sync.
+
+   **⚠️ PITFALL — Multi-date verification:** The reusable `verify-approval.sh` script takes a single `YYYY-MM-DD` argument. When approving 3+ dates at once, either run it once per date or write an ad-hoc `hermes-verify-` script that loops over all approved dates. The system's verification gate requires a `hermes-verify-` prefixed script — reusing `verify-approval.sh` alone won't satisfy it.
+
 ### Individual Issue Exception (Waive, Don't Fix)
 
 Khi Julius xem một issue cụ thể và nói "không cần sửa" / "ổn, không sao" — đây là **exception approval**, không phải bulk approve toàn bộ report.

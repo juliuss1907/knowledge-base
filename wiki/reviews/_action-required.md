@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-05 23:04
+**Last updated:** 2026-07-05 23:16
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 10 reports (07-01 to 07-04) **APPLIED** 2026-07-05
 
 ---
@@ -343,6 +343,41 @@
 - Nếu approve: Fix Agent có thể xử lý carry-over spacing merge (không khẩn)
 
 **Report:** `wiki/reviews/2026-07-05_output-report.md`
+
+---
+
+### 📋 Format Validation — 2026-07-05 (23:16)
+
+**File:** [2026-07-05_format-report.md](2026-07-05_format-report.md)
+**Status:** pending
+**Created:** 2026-07-05 23:16:05 +0700
+**Issues:** 306 (2 ERROR, 304 WARNING, 0 INFO)
+**Files checked:** 700 (392 concepts + 127 sources + 33 indexes + 148 topics)
+
+**Summary:**
+- 🔴 2 ERROR: `tag/tag.md` missing `## Items` (last remaining section) + `src_youre-being-trained...` slug exception (pre-approved)
+- ⚠️ 304 WARNING: 283 individual broken wikilinks + 21 forward-reference summary groups — unchanged from 07-04
+- ✅ Tag/tag.md progress: 5 ERRORs (07-03) → 2 (07-04) → 1 remaining (07-05) — only `## Items` still missing
+- ✅ 24 unquoted wikilink regression → **resolved** (Index Agent template fix confirmed stable)
+- ✅ 148 topic files: all clean (stable since 07-01)
+- ✅ 0 new issues — all metrics stable or improved
+- Broken wikilink backlog: 192 unique targets (unchanged)
+
+**Delta from 2026-07-04 (APPROVED):**
+- −1 ERROR (2 vs 3) — tag/tag.md section progress
+- −24 WARNING (304 vs 328) — unquoted wikilink regression resolved
+- +6 files in scope (700 vs 694) — +4 concepts, +1 source, +1 topic
+- Broken wikilinks: 0 change (stable at 283 + 21 groups)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-05_format-report.md`
+- Nếu approve tag/tag.md: giao Fix Agent thêm section `## Items` (section cuối cùng còn thiếu)
+- [ESCALATION] tag/tag.md section missing pattern: 4 runs liên tiếp (07-02 → 07-05) — cần template fix trong `index-agent/SKILL.md`
+- Slug exception: pre-approved, không cần action
+- Broken wikilink backlog: stable, không cần ưu tiên
+- KB format health: 99.71% (698/700 files ERROR-free)
+
+**Report:** `wiki/reviews/2026-07-05_format-report.md`
 
 ---
 

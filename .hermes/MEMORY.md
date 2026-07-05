@@ -10,6 +10,19 @@
 
 ---
 
+## 2026-07-05 23:16 — Format validation
+
+- **Files checked:** 700 (392 concepts + 127 sources + 33 indexes + 148 topics)
+- **Issues found:** 306 (2 ERROR, 304 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-05_format-report.md
+- **Top violations:**
+  - 1 ERROR: `wiki/tag/tag.md` missing `## Items` section (carry-over, reduced from 2→1)
+  - 1 ERROR (approved exception): Slug 53 chars in `src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+  - 283 individual broken wikilinks + 21 forward-reference groups (stable, unchanged from 07-04)
+  - 192 unique broken targets (unchanged)
+- **Deltas:** −25 issues (−1 ERROR, −24 WARNING) vs 07-04 approved
+- **Wins:** 24 unquoted wikilink regression resolved; tag/tag.md down to 1 section error
+
 ## 2026-07-04 23:16 — Format validation
 
 - **Files checked:** 694 (388 concepts + 126 sources + 33 indexes + 147 topics)

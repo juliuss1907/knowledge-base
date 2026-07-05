@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.9
-last_updated: 2026-07-03
+version: 1.10
+last_updated: 2026-07-05
 ---
 
 # Hygiene Inspector
@@ -420,7 +420,7 @@ After successful validation run:
    ```
    Checks report content, _action-required.md update, and scan reproducibility.
    **Skip under cron mode** — `execute_code` and subprocess are blocked; use ad-hoc
-   verification instead (see step 4 of cron fallback below).
+   verification instead (see step 4 of the "Running under cron" section below).
 
 4. **Send notification:**
    - If interactive session: Telegram alert to Julius
@@ -445,6 +445,8 @@ When invoked as a scheduled cron job, `execute_code` is blocked by `approvals.cr
 1. Write the scan script to a temp file via `write_file` (e.g., `/tmp/hygiene_scan.py`)
 2. Run it via `terminal` with `python3 /tmp/hygiene_scan.py`
 3. Parse the terminal output to build the report
+4. **Ad-hoc verification** (system flags unverified edits after file writes):
+   Write a verification script to `/tmp/hermes-verify-hygiene-<date>.py`, run it with `terminal`, and clean up. Minimal checks: report exists, `_action-required.md` updated, scan reproducible (issue counts only — `paths_checked` drifts from report write), previous-day issues resolved. The system will request this after any cron run that writes files; treat it as a standard post-validation step under cron.
 
 See `references/scan-script.py` for a known-good scan template and `references/full-tree-scan-notes.md` for pitfalls found in real KB runs.
 
@@ -565,6 +567,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.10 | 2026-07-05 | Added step 4 to cron workflow: ad-hoc verification pattern (write → run → check script at `/tmp/hermes-verify-hygiene-*.py`). Fixed broken cross-reference in post-validation step 3 — now points to "Running under cron" section instead of "cron fallback" (which had no step 4). |
 | 1.9 | 2026-07-03 | Cleaned up post-validation steps: removed duplicate "Update _action-required.md" entries, added explicit `scripts/verify.py` invocation as step 3 (skip under cron). Added pitfall #6: `paths_checked` drift on re-run is expected when report/action files are written between scans — compare only issue counts, not exact path counts. |
 | 1.8 | 2026-07-02 | Fixed `classify_root_folder()` never called from `main()` — root-level folders outside whitelist (e.g. `state/`) were only caught as INFO (empty directory), never as ERROR (path whitelist). Added root-folder classification loop in `main()` at `rel_dir == ""`. Added `ROOT_FOLDER_ORPHANS` dict for known recurring root folders with process-level fix guidance. Added pitfall #5 to Full-tree scan pitfalls. |
 | 1.7 | 2026-06-28 | Replaced skeletal scan-script template with production version proven on 51K-path scan. Production script handles all KB zones: root whitelist, context/, raw/ (all 6 types including papers + repos patterns), wiki/ (all 7 subfolders including reviews archive), agent homes, scripts/, .tmp- folders. Added `scripts/verify.py` for post-run artifact verification. Updated `references/common-patterns.md` with HEARTBEAT leak resolution (fixed as of 2026-06-28). |

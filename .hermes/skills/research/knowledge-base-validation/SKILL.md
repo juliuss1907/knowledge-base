@@ -347,6 +347,21 @@ Ingest Agent → raw/ → Compile Agent → wiki/ → Index Agent → wiki/tag/ 
 
 **⚠️ Index Agent runs AFTER Compile Agent and regenerates files from scratch.** It can overwrite manually-fixed topic/tag files, reintroducing regressions. When Format Validator shows broken wikilinks in topic files, check Index Agent config first.
 
+**⚠️ Index Agent has 5+ duplicate Python scripts with the same logic.** When fixing regressions, check ALL copies — fixes applied to only some scripts will regress when a wrong script runs next. Verification:
+```bash
+cd .openclaw/skills/index-agent
+# Check for unquoted parent in tag templates
+grep -rnF 'parent: [[tag]]' *.py *.md | grep -vF 'parent: "[[tag]]"'
+# Should return 0 results
+```
+**PITFALL:** `grep` without `-F` treats `[[` as a regex character class, returning 0 matches even when `[[tag]]` exists literally. Always use `grep -F` for wikilink searches.
+
+**Fix pattern for Index Agent regressions:** Fix BOTH the scripts (root cause) AND the files on disk (symptoms). Disk-only fixes are temporary — the next Index Agent run will regress them. Disk fix one-liner for tag parent quoting:
+```bash
+cd ~/knowledge-base && for f in wiki/tag/*.md; do sed -i 's/^parent: \[\[tag\]\]$/parent: "[[tag]]"/' "$f"; done
+```
+Reusable verification script: `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-index-agent-quoting.sh`
+
 **Pattern:** Validation finds systemic errors → trace to which agent config caused it → patch that config file. Do NOT fix individual wiki files — fix the agent config, then let it regenerate.
 
 Recent fixes applied (2026-06-01):

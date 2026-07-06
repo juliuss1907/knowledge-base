@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 104 files
+- Total: 105 files
 - By status: 103 processed, 0 unprocessed
 - By date: 17 this week, 62 this month
 - Last updated: 2026-07-06
 
 ## Items
+- [[2026-07-06_field-guide-to-fable-finding-unknowns]] — A Field Guide to Fable: Finding Your Unknowns by Thariq (unprocessed)
+
 - [[2026-07-06_career-advice-age-of-ai-phil-chen]] — Career advice in the age of AI by Phil Chen (unprocessed)
 
 - [[2026-07-05_rag-is-dead-kuba-turbopuffer]] — RAG is Dead — Kuba @ Turbopuffer by Julius (processed)

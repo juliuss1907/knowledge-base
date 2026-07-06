@@ -64,6 +64,10 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - [[tutorial]] — How-to guides, walkthroughs, step-by-step instructions (67 files)
 - [[vibecode]] — Vibe coding, AI-assisted development style (7 files)
 
+## Items
+
+The Pool A and Pool B tags below serve as the items of this index, each linking to a sub-index in `wiki/tag/<tag>.md`.
+
 ## Notes
 
 <!-- Free space for Julius -->

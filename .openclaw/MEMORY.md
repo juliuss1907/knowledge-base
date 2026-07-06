@@ -2616,3 +2616,16 @@
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
+
+## 2026-07-06 13:50 — Applied fixes from 3 Hermes reports (2026-07-05)
+
+**Reports applied:**
+- Output 07-05: 1 WARNING (24 files 07-01 never validated — systemic, no fix needed), 2 INFO carry-over. No actionable.
+- Format 07-05: 1 ERROR — tag/tag.md missing ## Items section → added. 304 WARNING de-prioritized.
+- Hygiene 07-05: 0 issues — first fully clean run since monitoring began!
+
+**Fixes applied:**
+- `tag/tag.md`: Added ## Items section between Pool A/B lists and ## Notes
+
+**Archived:** 3 reports → `wiki/reviews/archive/2026-07/`
+**Pending reports:** 0

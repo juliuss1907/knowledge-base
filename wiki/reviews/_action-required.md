@@ -75,6 +75,36 @@
 
 ---
 
+### 🔍 Hygiene Inspection — 2026-07-06 (23:30)
+
+**File:** [2026-07-06_hygiene-report.md](2026-07-06_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-07-06 23:30:00 +0700
+**Issues:** 2 (1 ERROR, 1 WARNING, 0 INFO)
+**Paths checked:** 51,701
+
+**Summary:**
+- 🔴 1 ERROR: `memory/` folder at root level — recurring orphan (lần 3 trong 4 ngày: 07-03, 07-04, 07-06). Process compile đang tạo folder này với file mới `compilation-log.md`
+- ⚠️ 1 WARNING: `memory/compilation-log.md` — compilation log bị ghi vào `memory/` thay vì `.openclaw/memory/`
+- ✅ Tất cả active content zones (context/, raw/, wiki/) 100% compliant — 0 issue
+- ✅ HEARTBEAT.md leak resolved — 8 ngày ổn định (từ 06-28)
+- ✅ `state/` resolved — không còn xuất hiện
+- ✅ KB structure health: 99.996% (2/51,701 paths with issues)
+
+**Delta from 2026-07-05 (APPROVED: 0 issues → KB 100% clean):**
+- 🔴 NEW: `memory/` folder tái xuất hiện — chứa file `compilation-log.md` mới (khác với `2026-07-03.md` trước đây)
+- +80 paths (51,701 vs 51,621)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-06_hygiene-report.md`
+- Nếu approve: `mv memory/compilation-log.md .openclaw/memory/` → `rmdir memory/`
+- 🚨 [ESCALATION] `memory/` recurrence (3 lần trong 4 ngày): process compile/agent đang ghi vào `memory/` thay vì `.openclaw/memory/` — cần fix process output path, không chỉ xóa file
+- KB structure health: 99.996%
+
+**Report:** `wiki/reviews/2026-07-06_hygiene-report.md`
+
+---
+
 ## Applied Reports
 
 - ✅ Output Validator — 2026-07-05 (23:04): **APPROVED** (3 issues: 0 ERROR, 1 WARNING, 2 INFO)

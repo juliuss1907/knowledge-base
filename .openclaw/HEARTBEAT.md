@@ -1,18 +1,46 @@
-# OpenClaw Heartbeat Log
+# OpenClaw Heartbeat
 
-**Last Check:** Tuesday, July 7th, 2026 - 00:00 (Asia/Saigon)
-**Status:** ISSUES_FOUND
+**Timestamp:** 2026-07-07 02:00 +07
+**Status:** HEARTBEAT_OK
 
-**Details:**
-- Inbox: Clean (Tasks/ not found)
-- Raw backlog: Clean (3 files unprocessed from 2026-07-06, CompileAgent scheduled at 08:00)
-- Concept check: Clean (agent-harness.md, systems-thinking.md verified — backlinks OK)
-- Pending review: **3 reports pending** (Output 23:05, Format 23:16, Hygiene 23:30 — all from 2026-07-06)
+---
 
-## Findings
-- [Priority 1] 3 Hermes reports pending from 2026-07-06 batch — chưa được Julius review
-  - Output (23:05): 2 INFO, batch sạch, 7 file mới PASS
-  - Format (23:16): 1 ERROR (pre-approved slug) + 304 WARNING (broken wikilinks)
-  - Hygiene (23:30): 1 ERROR (`memory/` folder recurrence) + 1 WARNING
-- [Priority 2] No critical backlog — 3 raw files unprocessed <24h, CompileAgent xử lý lúc 08:00
-- [Priority 3] Concept backlinks verified OK (sample: 2/2 clean)
+## Check Results
+
+### Inbox
+Không có `Tasks/` directory — N/A.
+
+### Raw Backlog
+3 files unprocessed từ 2026-07-06 (<24h):
+- `raw/articles/2026-07-06_field-guide-to-fable-finding-unknowns.md`
+- `raw/articles/2026-07-06_career-advice-age-of-ai-phil-chen.md`
+- `raw/articles/2026-07-06_most-profitable-skill-human-nature-dan-koe.md`
+
+Chưa quá 24h — không vi phạm. CompileAgent sẽ xử lý lúc 08:00.
+
+### Concept Health
+Checks: 2 files spot-checked.
+- `ai-productivity.md` — reviewed ✅, source backlinks ✅, concept backlinks ✅
+- `systems-thinking.md` — draft ⚠️, source backlinks ✅, concept backlinks ✅
+
+### Pending Reviews
+3 báo cáo từ 2026-07-06 đang chờ Julius:
+- Output — 2 INFO, batch clean
+- Format — 1 ERROR (pre-approved slug), 304 WARNING (broken wikilinks, stable)
+- Hygiene — 1 ERROR (`memory/` recurrence) + 1 WARNING (compilation-log.md)
+
+### Known Issues
+- `memory/` folder tại root level — recurrence (3 lần trong 4 ngày). Process compile/agent ghi sai output path. Cần fix process-level, không chỉ xóa file.
+- 3 pending reviews từ hôm qua — Julius chưa action.
+
+---
+
+## KB Stats
+- **raw/articles/**: 91 files (3 unprocessed)
+- **wiki/concepts/**: 397 files
+- **wiki/sources/**: 129 files
+- **Reviews pending**: 3 (output, format, hygiene)
+
+---
+
+*Last heartbeat: 2026-07-07 02:00 +07*

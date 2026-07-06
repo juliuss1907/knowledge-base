@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-06
+**Last updated:** 2026-07-06 23:16
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 2 reports (07-05 Output + Format) **APPROVED** 2026-07-06
 
 ---
@@ -39,6 +39,39 @@
 - Có thể gom spacing merge carry-over vào Fix Agent nếu muốn cleanup
 
 **Report:** `wiki/reviews/2026-07-06_output-report.md`
+
+---
+
+### 🔍 Format Validation — 2026-07-06 (23:16)
+
+**File:** [2026-07-06_format-report.md](2026-07-06_format-report.md)
+**Status:** pending
+**Created:** 2026-07-06 23:16:24 +0700
+**Issues:** 305 (1 ERROR, 304 WARNING, 0 INFO)
+**Files checked:** 709 (397 concepts + 129 sources + 33 indexes + 150 topics)
+
+**Summary:**
+- 🔴 1 ERROR: `src_youre-being-trained-for-a-world-that-no-longer-exists.md` — slug exceeds 50 chars (53 chars). Pre-approved by Julius 2026-07-02, carry-over from 07-01.
+- ⚠️ 304 WARNING: 283 individual broken wikilinks + 21 forward-reference groups — all forward-references to uncompiled concepts
+- ✅ tag/tag.md now 100% compliant! `## Items` section added — 5-run resolution (07-02: 5 ERROR → 07-05: 1 ERROR → 07-06: 0)
+- ✅ 150 topic files: all clean (stable since 07-01)
+- ✅ 33 index files: all clean
+- ✅ 0 new issues introduced in this batch
+- Broken wikilink backlog: 192 unique targets (unchanged)
+
+**Delta from 2026-07-05 (APPROVED):**
+- −1 ERROR (1 vs 2) — tag/tag.md fully resolved
+- 0 change in WARNING (304 vs 304)
+- +9 files in scope (709 vs 700)
+- KB format health: 99.86% (708/709 files ERROR-free)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-06_format-report.md`
+- Slug exception: pre-approved — no action needed
+- Broken wikilinks: forward-reference backlog — no immediate action, will auto-resolve as concepts are compiled
+- KB format health improving: ERROR rate 0.14% (down from 0.29% on 07-05)
+
+**Report:** `wiki/reviews/2026-07-06_format-report.md`
 
 ---
 

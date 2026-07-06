@@ -450,6 +450,44 @@ check "thing" grep -q "pattern" file  # grep exits 1 inside if-test, script cont
 check "thing" 'grep -q "pattern" file || true'
 ```
 
+### Cron post-edit verification script requirement (2026-07-06)
+
+After writing the output report and updating `_action-required.md` + `.hermes/MEMORY.md`, the cron system requires ad-hoc verification evidence. Create a focused script under `/tmp` with a `hermes-verify-` filename prefix:
+
+```bash
+cat > /tmp/hermes-verify-output-YYYYMMDD.sh << 'VERIFY_EOF'
+#!/bin/bash
+# Checks structural integrity of all 3 output files
+# Use check() helper: check "desc" grep -q "pattern" file
+# Always wrap with set -euo pipefail but put grep -q inside if-test (not eval)
+VERIFY_EOF
+bash /tmp/hermes-verify-output-YYYYMMDD.sh
+```
+
+**Key checks to include:**
+1. Output report: status=pending, issues/created/validator fields, required sections present
+2. `_action-required.md`: pending count, section uniqueness (no duplicate headers), entry date
+3. `.hermes/MEMORY.md`: log entry present, appended after previous entry
+4. Cross-file consistency: all files agree on counts (new files, issues, severity)
+
+**Pitfall — grep patterns for `_action-required.md`:** The pending count line uses markdown bold: `**Pending reports awaiting review:** 1`, NOT plain `Pending reports awaiting review: 1`. Grep patterns must include `\*\*` markers:
+```bash
+# CORRECT:
+grep -q '\*\*Pending reports awaiting review:\*\* 1' "$A"
+# WRONG (will miss):
+grep -q 'Pending reports awaiting review: 1' "$A"
+```
+
+**Pitfall — duplicate entry detection:** A well-formed `_action-required.md` entry references the report filename 3 times (heading link, actions section, report line). Do NOT use `grep -c '<filename>'` as a duplicate check — it always returns 3. Use heading count instead:
+```bash
+# CORRECT — heading appears exactly once:
+grep -c '### 🔍 Output Validation — YYYY-MM-DD' "$A"  # must be 1
+# WRONG — filename referenced 3 times in one entry:
+grep -c 'YYYY-MM-DD_output-report.md' "$A"  # returns 3, not a duplicate signal
+```
+
+**Pitfall — verification script cleanup:** `rm /tmp/hermes-verify-*` may trigger "delete in root path" approval. Accept the block — `/tmp` files are cleaned by the OS eventually.
+
 ### quick-scan.sh: bash integer comparison with grep -c in $()
 
 When `grep -c` is used inside `$()` in bash, the output captures a trailing newline. When the pipeline produces no input (empty sed output), `grep -c` may exit 1, triggering `|| echo 0`, resulting in a two-line value like `"0\n0"`. Using this in `[ "$var" -eq N ]` causes:

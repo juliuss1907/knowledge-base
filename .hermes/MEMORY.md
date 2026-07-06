@@ -583,3 +583,9 @@
 - **Issues found:** 2 (0 ERROR, 0 WARNING, 2 INFO)
 - **Report:** wiki/reviews/2026-07-06_output-report.md
 - **Summary:** ALL CLEAN — 7/7 file mới PASS tất cả 4 dimensions. 2 cluster: retrieval-agentic-search (4 files cross-linked chặt chẽ) + steve-jobs-stanford (3 files bidirectional). 0 typo "ngưởi", 0 typo "ngườii/đờii...", 0 spacing merge trong new files. 5/5 concept mới có Definition ≥2 câu (3/5 có 2 câu, 2/5 có 3 câu). Systemic patterns carry-over unchanged: 395 one-sentence definitions, 79 few key points, 9 empty Key ideas, 227 drafts. "người" spacing merge carry-over: 4 files cũ / 11 instances (0 new).
+
+## 2026-07-06 23:16:24 — Format validation
+- **Files checked:** 709 (397 concepts + 129 sources + 33 indexes + 150 topics)
+- **Issues found:** 305 (1 ERROR, 304 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-06_format-report.md
+- **Summary:** 1 ERROR: pre-approved slug exception on src_youre-being-trained... (53 chars, carry-over from 07-01). 304 WARNING: all broken wikilinks (283 individual + 21 forward-reference groups) — 192 unique targets, unchanged. ✅ Positive: tag/tag.md now 100% compliant after 5-run resolution (## Items section added). 150 topic files clean. KB format health: 99.86% (708/709 ERROR-free). Delta from 07-05: −1 ERROR, 0 change in WARNING, +9 files in scope.

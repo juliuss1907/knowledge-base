@@ -8,7 +8,10 @@ title: "RAG is Dead — Kuba @ Turbopuffer (Tóm tắt)"
 date_ingested: 2026-07-05
 date_published: 2026-07
 tags: [ai, tech, research]
-status: unprocessed
+processed_date: 2026-07-06
+status: processed
+compiled_at: 2026-07-06
+compiled_to: "[[src_rag-is-dead-kuba-turbopuffer]]"
 ---
 
 # RAG is Dead — Kuba @ Turbopuffer

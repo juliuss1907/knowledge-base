@@ -8,7 +8,10 @@ title: "Steve Jobs Stanford Commencement 2005 — Tóm tắt"
 date_ingested: 2026-07-05
 date_published: 2005-06-12
 tags: [productivity, psychology]
-status: unprocessed
+processed_date: 2026-07-06
+status: processed
+compiled_at: 2026-07-06
+compiled_to: "[[src_steve-jobs-stanford-2005-commencement]]"
 ---
 
 # Steve Jobs — Stanford Commencement 2005

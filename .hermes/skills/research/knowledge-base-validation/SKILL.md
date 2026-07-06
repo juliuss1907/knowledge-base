@@ -166,6 +166,14 @@ Older reports and archived files may still contain literal `pending` in historic
 
    **⚠️ PITFALL — Dashboard inconsistency between summary list and section headings:** During bulk approvals, some reports may be marked ✅ in the summary status list but still have `⏳` in their section heading (e.g., `### ⏳ Hygiene Inspection — 2026-07-01` while the summary says `✅ Hygiene Inspector`). This happens when a prior approval updated the summary line but missed the section heading. After bulk approval, grep for ALL `⏳` in the dashboard — not just those on the pending list — and fix any section headings that are out of sync.
 
+   **⚠️ PITFALL — Stale 'Pending —' headers across multiple dates:** After mass approval (especially when approving reports that span multiple date groups), older date sections may still have `## Pending — YYYY-MM-DD` headers even though all their individual reports are marked `Status: approved`. This happens when earlier approval rounds updated report statuses but forgot to rename the section heading. **After any approval round, scan the ENTIRE `_action-required.md` for residual `## Pending —` headers**, not just the date being approved:
+
+   ```bash
+   grep "^## Pending —" wiki/reviews/_action-required.md
+   ```
+
+   If any are found, rename them to `## Approved —` immediately. Leaving stale headers creates confusion when the dashboard says `pending=0` but section headers say `Pending —`. Run `scripts/verify-all-approved.sh` after mass approvals to catch this automatically.
+
    **⚠️ PITFALL — Multi-date verification:** The reusable `verify-approval.sh` script takes a single `YYYY-MM-DD` argument. When approving 3+ dates at once, either run it once per date or write an ad-hoc `hermes-verify-` script that loops over all approved dates. The system's verification gate requires a `hermes-verify-` prefixed script — reusing `verify-approval.sh` alone won't satisfy it.
 
 ### Individual Issue Exception (Waive, Don't Fix)

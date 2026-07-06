@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: research
 auto_generated: true
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Tag: #research
@@ -16,10 +16,10 @@ last_updated: 2026-07-05
 
 ## Stats
 
-- Total files: 224
-- Sources: 49
-- Concepts: 175
-- Last updated: 2026-07-05
+- Total files: 228
+- Sources: 50
+- Concepts: 178
+- Last updated: 2026-07-06
 
 ## Files with this tag
 
@@ -28,6 +28,7 @@ last_updated: 2026-07-05
 - [[active-thinking]] — Active Thinking (concept)
 - [[agency-law]] — Agency Law (concept)
 - [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
+- [[agentic-retrieval]] — Agentic Retrieval (concept)
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-overviews]] — Ai Overviews (concept)
 - [[ai-powered-discovery]] — Ai Powered Discovery (concept)
@@ -44,6 +45,7 @@ last_updated: 2026-07-05
 - [[brain-coupling]] — Brain Coupling (concept)
 - [[brain-rot]] — Brain Rot (concept)
 - [[byte-level-bpe]] — Byte Level Bpe (concept)
+- [[cached-compute-retrieval]] — Cached Compute Retrieval (concept)
 - [[cash-flow-statement]] — Cash Flow Statement (concept)
 - [[catalysts-mental-model]] — Catalysts Mental Model (concept)
 - [[causal-loop-diagram]] — Causal Loop Diagram (concept)
@@ -106,6 +108,7 @@ last_updated: 2026-07-05
 - [[holy-grail-investing]] — Holy Grail Investing (concept)
 - [[human-judgment-ai]] — Human Judgment Ai (concept)
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
+- [[hybrid-retrieval]] — Hybrid Retrieval (concept)
 - [[iceberg-model]] — Iceberg Model (concept)
 - [[incentives-mental-model]] — Incentives Mental Model (concept)
 - [[industrial-scale]] — Industrial Scale (concept)
@@ -209,6 +212,7 @@ last_updated: 2026-07-05
 - [[src_occams-razor]] — Occams Razor (source)
 - [[src_petrodollar-system-analysis]] — Petrodollar System Analysis (source)
 - [[src_project-glasswing-update]] — Project Glasswing Update (source)
+- [[src_rag-is-dead-kuba-turbopuffer]] — Rag Is Dead Kuba Turbopuffer (source)
 - [[src_reciprocity]] — Reciprocity (source)
 - [[src_setup-is-not-an-edge]] — Setup Is Not An Edge (source)
 - [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source)
@@ -251,7 +255,7 @@ last_updated: 2026-07-05
 ## Co-occurring tags
 
 - [[productivity]] — 80 co-occurrences
-- [[ai]] — 62 co-occurrences
+- [[ai]] — 66 co-occurrences
 - [[opinion]] — 60 co-occurrences
 - [[psychology]] — 54 co-occurrences
-- [[tools]] — 49 co-occurrences
+- [[tools]] — 53 co-occurrences

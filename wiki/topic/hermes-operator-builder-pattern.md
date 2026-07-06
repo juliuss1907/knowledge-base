@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-operator-builder-pattern
 auto_generated: true
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Topic: hermes-operator-builder-pattern
 
 Auto-generated index of all content with topic `hermes-operator-builder-pattern`.
 
-Last updated: 2026-07-05 21:02:39
+Last updated: 2026-07-06 21:02:42
 
 ---
 

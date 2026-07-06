@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-07-05
 
 ## Stats
 
-- Total files: 150
-- Sources: 32
-- Concepts: 118
-- Last updated: 2026-07-05
+- Total files: 154
+- Sources: 33
+- Concepts: 121
+- Last updated: 2026-07-06
 
 ## Files with this tag
 
@@ -30,6 +30,7 @@ last_updated: 2026-07-05
 - [[agent-memory-taxonomy]] — Agent Memory Taxonomy (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
 - [[agentic-commerce]] — Agentic Commerce (concept)
+- [[agentic-retrieval]] — Agentic Retrieval (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
 - [[ai-first-business-model]] — Ai First Business Model (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
@@ -44,6 +45,7 @@ last_updated: 2026-07-05
 - [[atomic-mac-agent]] — Atomic Mac Agent (concept)
 - [[browser-harness-tool]] — Browser Harness Tool (concept)
 - [[business-idiot-archetype]] — Business Idiot Archetype (concept)
+- [[cached-compute-retrieval]] — Cached Compute Retrieval (concept)
 - [[causal-loop-diagram]] — Causal Loop Diagram (concept)
 - [[character-change-signal]] — Character Change Signal (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
@@ -84,6 +86,7 @@ last_updated: 2026-07-05
 - [[hermes-three-layers]] — Hermes Three Layers (concept)
 - [[hermes-token-management]] — Hermes Token Management (concept)
 - [[hindsight-skill]] — Hindsight Skill (concept)
+- [[hybrid-retrieval]] — Hybrid Retrieval (concept)
 - [[iceberg-model]] — Iceberg Model (concept)
 - [[kv-cache-eviction]] — Kv Cache Eviction (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
@@ -147,6 +150,7 @@ last_updated: 2026-07-05
 - [[src_loop-native-factory]] — Loop Native Factory (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
 - [[src_personal-mba-generator-skill]] — Personal Mba Generator Skill (source)
+- [[src_rag-is-dead-kuba-turbopuffer]] — Rag Is Dead Kuba Turbopuffer (source)
 - [[src_sop-writer-skill]] — Sop Writer Skill (source)
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
 - [[src_tokens-and-tokenization]] — Tokens And Tokenization (source)
@@ -176,8 +180,8 @@ last_updated: 2026-07-05
 
 ## Co-occurring tags
 
-- [[ai]] — 92 co-occurrences
+- [[ai]] — 96 co-occurrences
 - [[automation]] — 54 co-occurrences
-- [[research]] — 49 co-occurrences
+- [[research]] — 53 co-occurrences
 - [[tutorial]] — 24 co-occurrences
 - [[opinion]] — 20 co-occurrences

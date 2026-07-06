@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-07-05
 
 ## Stats
 
-- Total files: 217
-- Sources: 62
-- Concepts: 155
-- Last updated: 2026-07-05
+- Total files: 220
+- Sources: 63
+- Concepts: 157
+- Last updated: 2026-07-06
 
 ## Files with this tag
 
@@ -44,6 +44,7 @@ last_updated: 2026-07-05
 - [[collaborative-thinking]] — Collaborative Thinking (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
 - [[compounding-relationships]] — Compounding Relationships (concept)
+- [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept)
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
 - [[costly-signal]] — Costly Signal (concept)
@@ -209,6 +210,7 @@ last_updated: 2026-07-05
 - [[src_sop-writer-skill]] — Sop Writer Skill (source)
 - [[src_speed-velocity]] — Speed Velocity (source)
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
+- [[src_steve-jobs-stanford-2005-commencement]] — Steve Jobs Stanford 2005 Commencement (source)
 - [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source)
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
@@ -224,6 +226,7 @@ last_updated: 2026-07-05
 - [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source)
 - [[stakeholder-mapping]] — Stakeholder Mapping (concept)
 - [[standard-operating-procedure]] — Standard Operating Procedure (concept)
+- [[stay-hungry-stay-foolish]] — Stay Hungry Stay Foolish (concept)
 - [[stock-and-flow]] — Stock And Flow (concept)
 - [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
 - [[success-trap]] — Success Trap (concept)
@@ -243,8 +246,8 @@ last_updated: 2026-07-05
 
 ## Co-occurring tags
 
-- [[psychology]] — 140 co-occurrences
-- [[opinion]] — 81 co-occurrences
+- [[psychology]] — 143 co-occurrences
+- [[opinion]] — 84 co-occurrences
 - [[research]] — 80 co-occurrences
 - [[tutorial]] — 28 co-occurrences
 - [[automation]] — 21 co-occurrences

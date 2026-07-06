@@ -29,8 +29,9 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - Total tags: 23
 - Main tags: 9
 - Sub tags: 14
-- Most used: #research (224), #productivity (217), #psychology (183)
-- Last updated: 2026-07-05## Items
+- Most used: #research (228), #productivity (220), #psychology (186)
+- Last updated: 2026-07-06
+## Items
 
 ### Main Tags (Pool A)
 

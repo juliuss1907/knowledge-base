@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-07-05
 
 ## Stats
 
-- Total files: 179
-- Sources: 56
-- Concepts: 123
-- Last updated: 2026-07-05
+- Total files: 182
+- Sources: 57
+- Concepts: 125
+- Last updated: 2026-07-06
 
 ## Files with this tag
 
@@ -55,6 +55,7 @@ last_updated: 2026-07-05
 - [[compounding-effect]] — Compounding Effect (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
 - [[compounding-relationships]] — Compounding Relationships (concept)
+- [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept)
 - [[creativity-as-skill]] — Creativity As Skill (concept)
 - [[cynefin-framework]] — Cynefin Framework (concept)
 - [[discipline-as-freedom]] — Discipline As Freedom (concept)
@@ -167,6 +168,7 @@ last_updated: 2026-07-05
 - [[src_setup-is-not-an-edge]] — Setup Is Not An Edge (source)
 - [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source)
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
+- [[src_steve-jobs-stanford-2005-commencement]] — Steve Jobs Stanford 2005 Commencement (source)
 - [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source)
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
@@ -189,6 +191,7 @@ last_updated: 2026-07-05
 - [[state-capacity-theory]] — State Capacity Theory (concept)
 - [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
 - [[static-website-blind-spot]] — Static Website Blind Spot (concept)
+- [[stay-hungry-stay-foolish]] — Stay Hungry Stay Foolish (concept)
 - [[stoic-control-dichotomy]] — Stoic Control Dichotomy (concept)
 - [[strait-of-hormuz-geopolitics]] — Strait Of Hormuz Geopolitics (concept)
 - [[structural-competition]] — Structural Competition (concept)
@@ -205,8 +208,8 @@ last_updated: 2026-07-05
 
 ## Co-occurring tags
 
-- [[productivity]] — 81 co-occurrences
-- [[psychology]] — 61 co-occurrences
+- [[productivity]] — 84 co-occurrences
+- [[psychology]] — 64 co-occurrences
 - [[research]] — 60 co-occurrences
 - [[economic]] — 38 co-occurrences
 - [[ai]] — 33 co-occurrences

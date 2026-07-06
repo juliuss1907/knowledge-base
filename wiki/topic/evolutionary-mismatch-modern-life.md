@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: evolutionary-mismatch-modern-life
 auto_generated: true
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Topic: evolutionary-mismatch-modern-life
 
 Auto-generated index of all content with topic `evolutionary-mismatch-modern-life`.
 
-Last updated: 2026-07-05 21:02:39
+Last updated: 2026-07-06 21:02:42
 
 ---
 

@@ -1,199 +1,174 @@
 import os
-import yaml
 import re
+import yaml
 from datetime import datetime
 from collections import defaultdict
 
-# --- Configuration ---
-RAW_DIRS = ['wiki/sources', 'wiki/concepts']
-TAG_DIR = 'wiki/tag'
-TOPIC_DIR = 'wiki/topic'
+# --- CONFIG ---
+WIKI_SOURCES = 'wiki/sources/'
+WIKI_CONCEPTS = 'wiki/concepts/'
+TAG_DIR = 'wiki/tag/'
+TOPIC_DIR = 'wiki/topic/'
 TAGS_FILE = 'TAGS.md'
 MASTER_TAG_FILE = 'wiki/tag/tag.md'
 MEMORY_FILE = '.openclaw/MEMORY.md'
 
-def load_taxonomy():
-    with open(TAGS_FILE, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    pool_a = set()
-    pool_b = set()
-    
-    # Extract Pool A
-    section_a = re.search(r'## 2\. Pool A — Main-tags.*?\| Tag \| Description\n\|---|---\|\n(.*?)\n\n', content, re.S)
-    if section_a:
-        for line in section_a.group(1).split('\n'):
-            if line.startswith('|'):
-                tag = line.split('|')[1].strip().replace('#', '').replace('`', '')
-                pool_a.add(tag)
-                
-    # Extract Pool B
-    section_b = re.search(r'## 3\. Pool B — Sub-tags.*?\| Tag \| Description\n\|---|---\|\n(.*?)\n\n', content, re.S)
-    if section_b:
-        for line in section_b.group(1).split('\n'):
-            if line.startswith('|'):
-                tag = line.split('|')[1].strip().replace('#', '').replace('`', '')
-                pool_b.add(tag)
-                
-    return pool_a, pool_b
-
-def extract_slug(path):
-    filename = os.path.basename(path)
-    slug = filename.replace('.md', '')
-    if slug.startswith('src_'):
-        slug = slug[4:]
-    return slug
+# Pools derived from TAGS.md
+POOL_A = {'ai', 'crypto', 'tech', 'productivity', 'system', 'economic', 'politic', 'health', 'investment'}
+POOL_B = {'hack', 'tools', 'automation', 'vibecode', 'research', 'tutorial', 'opinion', 'news', 'defi', 'perpdex', 'layer1', 'layer2', 'law', 'coding', 'psychology', 'health', 'ai', 'system', 'geopolitics'}
 
 def derive_title(slug):
+    # Convert slug to human-readable title
+    # Remove src_ prefix if present
+    slug = slug.replace('src_', '')
     return ' '.join(word.capitalize() for word in slug.split('-'))
 
-def parse_frontmatter(path):
-    with open(path, 'r', encoding='utf-8') as f:
-        content = f.read()
-    
-    match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.S)
+def parse_frontmatter(content):
+    # Extract frontmatter between first two ---
+    match = re.match(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
     if not match:
-        return None, "No frontmatter found"
-    
+        return None
     try:
-        data = yaml.safe_load(match.group(1))
-        if not data:
-            return None, "Empty frontmatter"
-        
-        required = ['type', 'main_tag', 'sub_tags', 'topic']
-        for field in required:
-            if field not in data:
-                return None, f"Missing field: {field}"
-        
-        return data, None
-    except Exception as e:
-        return None, f"YAML parse error: {str(e)}"
+        return yaml.safe_load(match.group(1))
+    except Exception:
+        return None
 
 def main():
-    pool_a, pool_b = load_taxonomy()
+    today = datetime.now().strftime('%Y-%m-%d')
+    now_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
+    # 1. Scan Files
     wiki_files = []
-    invalid_tags_log = []
-    errors_log = []
+    errors = 0
+    warnings = 0
+    invalid_tags_count = 0
     
-    all_paths = []
-    for d in RAW_DIRS:
-        if os.path.exists(d):
-            for root, _, files in os.walk(d):
-                for f in files:
-                    if f.endswith('.md'):
-                        all_paths.append(os.path.join(root, f))
-    
-    all_paths.sort()
-    
-    for path in all_paths:
-        data, err = parse_frontmatter(path)
-        if err:
-            errors_log.append(f"[FRONTMATTER ERROR] {path}: {err}")
+    for folder in [WIKI_SOURCES, WIKI_CONCEPTS]:
+        if not os.path.exists(folder):
             continue
-            
-        slug = extract_slug(path)
-        main_tag = data['main_tag']
-        sub_tags = data['sub_tags']
-        if isinstance(sub_tags, str):
-            sub_tags = [sub_tags]
-            
-        if main_tag not in pool_a:
-            invalid_tags_log.append(f"[INVALID TAG] {path}: main_tag={main_tag}")
-            valid_main = None
-        else:
-            valid_main = main_tag
-            
-        valid_subs = []
-        for st in sub_tags:
-            if st not in pool_b:
-                invalid_tags_log.append(f"[INVALID TAG] {path}: sub_tag={st}")
-            else:
-                valid_subs.append(st)
-        
-        wiki_files.append({
-            'path': path,
-            'type': data['type'],
-            'main_tag': main_tag,
-            'valid_main': valid_main,
-            'sub_tags': sub_tags,
-            'valid_subs': valid_subs,
-            'topic': data['topic'],
-            'slug': slug
-        })
+        for filename in sorted(os.listdir(folder)):
+            if filename.endswith('.md'):
+                path = os.path.join(folder, filename)
+                with open(path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    fm = parse_frontmatter(content)
+                    if not fm:
+                        print(f"[WARNING] {path}: No valid frontmatter found")
+                        warnings += 1
+                        continue
+                    
+                    # Validation
+                    valid = True
+                    main_tag = fm.get('main_tag')
+                    sub_tags = fm.get('sub_tags', [])
+                    topic = fm.get('topic')
+                    
+                    if not main_tag or not topic:
+                        print(f"[ERROR] {path}: Missing main_tag or topic")
+                        errors += 1
+                        continue
+                    
+                    if not isinstance(sub_tags, list):
+                        sub_tags = []
+                    
+                    # Check Pool A
+                    if main_tag not in POOL_A:
+                        print(f"[INVALID TAG] {path}: main_tag={main_tag} not in Pool A")
+                        invalid_tags_count += 1
+                        # We still index it but might flag it
+                    
+                    # Check Pool B
+                    invalid_subs = [t for t in sub_tags if t not in POOL_B]
+                    if invalid_subs:
+                        print(f"[INVALID TAG] {path}: sub_tags={invalid_subs} not in Pool B")
+                        invalid_tags_count += 1
 
+                    wiki_files.append({
+                        'path': path,
+                        'slug': filename[:-3],
+                        'type': 'concept' if 'concepts' in path else 'source',
+                        'main_tag': main_tag,
+                        'sub_tags': sub_tags,
+                        'topic': topic,
+                        'invalid_main': main_tag not in POOL_A,
+                        'invalid_subs': invalid_subs
+                    })
+
+    # 2. Group by Tag
     tag_index = defaultdict(lambda: {'concepts': [], 'sources': []})
     for f in wiki_files:
-        if f['valid_main']:
-            tag = f['valid_main']
-            if f['type'] == 'concept':
-                tag_index[tag]['concepts'].append(f)
-            else:
-                tag_index[tag]['sources'].append(f)
+        # Main tag
+        if not f['invalid_main']:
+            tag = f['main_tag']
+            key = 'concepts' if f['type'] == 'concept' else 'sources'
+            tag_index[tag][key].append(f)
         
-        for st in f['valid_subs']:
-            if f['type'] == 'concept':
-                tag_index[st]['concepts'].append(f)
-            else:
-                tag_index[st]['sources'].append(f)
-    
+        # Sub tags
+        for tag in f['sub_tags']:
+            if tag not in f['invalid_subs']:
+                key = 'concepts' if f['type'] == 'concept' else 'sources'
+                tag_index[tag][key].append(f)
+
+    # Sort lists
     for tag in tag_index:
         tag_index[tag]['concepts'].sort(key=lambda x: x['slug'])
         tag_index[tag]['sources'].sort(key=lambda x: x['slug'])
 
+    # 3. Co-occurrence
     co_occurrence = defaultdict(int)
     for f in wiki_files:
-        all_tags = []
-        if f['valid_main']: all_tags.append(f['valid_main'])
-        all_tags.extend(f['valid_subs'])
+        all_tags = [f['main_tag']] + f['sub_tags']
         all_tags = sorted(list(set(all_tags)))
         for i in range(len(all_tags)):
             for j in range(i + 1, len(all_tags)):
                 pair = tuple(sorted([all_tags[i], all_tags[j]]))
                 co_occurrence[pair] += 1
-    
+
     tag_co_occur = {}
     for tag in tag_index:
         pairs = []
         for (t1, t2), count in co_occurrence.items():
             if tag == t1: pairs.append((t2, count))
             elif tag == t2: pairs.append((t1, count))
+        
         pairs.sort(key=lambda x: -x[1])
         tag_co_occur[tag] = pairs[:5]
 
+    # 4. Group by Topic
     topic_index = defaultdict(lambda: {'concepts': [], 'sources': []})
     for f in wiki_files:
         topic = f['topic']
-        if f['type'] == 'concept':
-            topic_index[topic]['concepts'].append(f)
-        else:
-            topic_index[topic]['sources'].append(f)
-            
+        key = 'concepts' if f['type'] == 'concept' else 'sources'
+        topic_index[topic][key].append(f)
+    
     for topic in topic_index:
         topic_index[topic]['concepts'].sort(key=lambda x: x['slug'])
         topic_index[topic]['sources'].sort(key=lambda x: x['slug'])
 
+    # 5. Topic Overlap
     topic_overlap = defaultdict(int)
-    topic_list = list(topic_index.keys())
-    for i in range(len(topic_list)):
-        t1 = topic_list[i]
-        files1 = set([f['path'] for f in topic_index[t1]['concepts'] + topic_index[t1]['sources']])
-        for j in range(i + 1, len(topic_list)):
-            t2 = topic_list[j]
-            files2 = set([f['path'] for f in topic_index[t2]['concepts'] + topic_index[t2]['sources']])
+    topics = list(topic_index.keys())
+    for i in range(len(topics)):
+        t1 = topics[i]
+        files1 = {f['path'] for f in topic_index[t1]['concepts'] + topic_index[t1]['sources']}
+        for j in range(i + 1, len(topics)):
+            t2 = topics[j]
+            files2 = {f['path'] for f in topic_index[t2]['concepts'] + topic_index[t2]['sources']}
             shared = len(files1 & files2)
             if shared > 0:
                 topic_overlap[tuple(sorted([t1, t2]))] = shared
-                
+
     topic_related = {}
     for topic in topic_index:
         pairs = []
         for (t1, t2), count in topic_overlap.items():
             if topic == t1: pairs.append((t2, count))
             elif topic == t2: pairs.append((t1, count))
+        
         pairs.sort(key=lambda x: -x[1])
         topic_related[topic] = pairs[:5]
 
-    today = datetime.now().strftime('%Y-%m-%d')
+    # 6. Write Tag Indexes
     os.makedirs(TAG_DIR, exist_ok=True)
     for tag, data in tag_index.items():
         all_items = []
@@ -203,7 +178,15 @@ def main():
             all_items.append((f['slug'], derive_title(f['slug']), 'source'))
         all_items.sort(key=lambda x: x[0])
         
-        header = f"""---
+        co_occur_list = tag_co_occur.get(tag, [])
+        co_occur_text = ""
+        if co_occur_list:
+            co_occur_text = "\n## Co-occurring tags\n\n"
+            for other, count in co_occur_list:
+                unit = "co-occurrence" if count == 1 else "co-occurrences"
+                co_occur_text += f"- [[{other}]] — {count} {unit}\n"
+        
+        content = f'''---
 type: index
 level: 3
 scope: tag
@@ -228,114 +211,144 @@ last_updated: {today}
 
 ## Files with this tag
 
-"""
-        body = ""
+'''
         for slug, title, ftype in all_items:
-            body += f"- [[{slug}]] — {title} ({ftype})\n"
-            
-        footer = ""
-        if tag in tag_co_occur:
-            footer += "\n## Co-occurring tags\n\n"
-            for other_tag, count in tag_co_occur[tag]:
-                unit = "co-occurrence" if count == 1 else "co-occurrences"
-                footer += f"- [[{other_tag}]] — {count} {unit}\n"
-                
-        content = header + body + footer
+            content += f"- [[{slug}]] — {title} ({ftype})\n"
+        
+        content += co_occur_text
+        
         with open(os.path.join(TAG_DIR, f"{tag}.md"), 'w', encoding='utf-8') as f:
             f.write(content)
 
+    # 7. Write Topic Indexes
     os.makedirs(TOPIC_DIR, exist_ok=True)
     for topic, data in topic_index.items():
-        today_d = datetime.now().strftime('%Y-%m-%d')
-        content = f"---\ntype: index\nscope: topic\nparent: \"[[topic]]\"\ntopic: {topic}\nauto_generated: true\nlast_updated: {today_d}\n---\n\n# Topic: {topic}\n\nAuto-generated index of all content with topic `{topic}`.\n\nLast updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n---\n\n## Concepts ({len(data['concepts'])})\n\n"
+        content = f'''---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: {topic}
+auto_generated: true
+last_updated: {today}
+---
+
+# Topic: {topic}
+
+Auto-generated index of all content with topic `{topic}`.
+
+Last updated: {now_str}
+
+---
+
+## Concepts ({len(data['concepts'])})
+
+'''
         for f in data['concepts']:
-            main = f['main_tag']
             subs = ', '.join([f"#{s}" for s in f['sub_tags']])
-            content += f"- [[{f['slug']}]] — main: #{main}, sub: [{subs}]\n"
+            content += f"- [[{f['slug']}]] — main: #{f['main_tag']}, sub: [{subs}]\n"
         
         content += f"\n## Sources ({len(data['sources'])})\n\n"
         for f in data['sources']:
-            main = f['main_tag']
             subs = ', '.join([f"#{s}" for s in f['sub_tags']])
-            content += f"- [[{f['slug']}]] — main: #{main}, sub: [{subs}]\n"
-            
-        if topic in topic_related:
+            content += f"- [[{f['slug']}]] — main: #{f['main_tag']}, sub: [{subs}]\n"
+        
+        related = topic_related.get(topic, [])
+        if related:
             content += "\n## Related topics\n\n"
             content += f"Topics that share concepts/sources with `{topic}`:\n"
-            for other_topic, count in topic_related[topic]:
-                content += f"- `{other_topic}` ({count} shared files)\n"
-                
+            for other, count in related:
+                content += f"- `{other}` ({count} shared files)\n"
+        
         with open(os.path.join(TOPIC_DIR, f"{topic}.md"), 'w', encoding='utf-8') as f:
             f.write(content)
 
+    # 8. Update Master Tag Index (wiki/tag/tag.md)
     if os.path.exists(MASTER_TAG_FILE):
         with open(MASTER_TAG_FILE, 'r', encoding='utf-8') as f:
             master_content = f.read()
         
+        # Update items
+        tags_found = set(tag_index.keys())
+        
+        # Simple way: find Pool A and Pool B sections and rebuild them
+        # Or use the workflow's logic of appending. Let's use a more robust rebuild for Stats.
+        
+        # Get descriptions from TAGS.md
+        descriptions = {}
+        with open(TAGS_FILE, 'r', encoding='utf-8') as f:
+            for line in f:
+                if '| `# ' in line or '| `' in line:
+                    # Very crude table parsing
+                    parts = line.split('|')
+                    if len(parts) >= 3:
+                        tag_raw = parts[1].strip().replace('#', '').replace('`', '')
+                        desc = parts[2].strip()
+                        descriptions[tag_raw] = desc
+
+        # Rebuild Stats
+        total_tags = len(tags_found)
+        main_count = len(tags_found & POOL_A)
+        sub_count = total_tags - main_count
+        
         tag_counts = {}
-        for tag in tag_index:
-            tag_counts[tag] = len(tag_index[tag]['concepts']) + len(tag_index[tag]['sources'])
+        for tag in tags_found:
+            count = len(tag_index[tag]['concepts']) + len(tag_index[tag]['sources'])
+            tag_counts[tag] = count
         
         top_3 = sorted(tag_counts.items(), key=lambda x: -x[1])[:3]
         most_used = ', '.join([f"#{t} ({c})" for t, c in top_3])
         
-        total_tags = len(tag_index)
-        main_tags_count = len(pool_a)
-        sub_tags_count = total_tags - main_tags_count
-        
-        stats_section = f"## Stats\n\n- Total tags: {total_tags}\n- Main tags: {main_tags_count}\n- Sub tags: {sub_tags_count}\n- Most used: {most_used}\n- Last updated: {today}\n"
-        
-        if '## Stats' in master_content:
+        stats_block = f'''## Stats
+
+- Total tags: {total_tags}
+- Main tags: {main_count}
+- Sub tags: {sub_count}
+- Most used: {most_used}
+- Last updated: {today}
+'''
+        # Replace stats section
+        if '## Stats' in master_content and '## Items' in master_content:
             start = master_content.find('## Stats')
             end = master_content.find('## Items')
-            if end != -1:
-                master_content = master_content[:start] + stats_section + master_content[end:]
-            else:
-                master_content = master_content[:start] + stats_section
+            master_content = master_content[:start] + stats_block + master_content[end:]
         
+        # Update items
+        # We'll just ensure all currently active tags are listed.
+        # Since the workflow says "append new tags", we check existence.
+        for tag in tags_found:
+            if f"- [[{tag}]]" not in master_content:
+                pool = "Main Tags (Pool A)" if tag in POOL_A else "Sub Tags (Pool B)"
+                desc = descriptions.get(tag, "[description]")
+                entry = f"- [[{tag}]] — {desc}"
+                
+                # Insert after the pool header
+                pattern = f"### {pool}"
+                if pattern in master_content:
+                    idx = master_content.find(pattern) + len(pattern)
+                    master_content = master_content[:idx] + "\n" + entry + master_content[idx:]
+
         with open(MASTER_TAG_FILE, 'w', encoding='utf-8') as f:
             f.write(master_content)
 
-    deleted_tags = []
-    if os.path.exists(TAG_DIR):
-        for f in os.listdir(TAG_DIR):
-            if f.endswith('.md'):
-                tag = f.replace('.md', '')
-                if tag != 'tag' and tag not in tag_index:
-                    os.remove(os.path.join(TAG_DIR, f))
-                    deleted_tags.append(tag)
-                    
-    deleted_topics = []
-    if os.path.exists(TOPIC_DIR):
-        for f in os.listdir(TOPIC_DIR):
-            if f.endswith('.md'):
-                topic = f.replace('.md', '')
-                if topic not in topic_index:
-                    os.remove(os.path.join(TOPIC_DIR, f))
-                    deleted_topics.append(topic)
+    # 9. Orphan Cleanup
+    orphaned_tags = []
+    for filename in os.listdir(TAG_DIR):
+        if filename == 'tag.md' or not filename.endswith('.md'): continue
+        tag = filename[:-3]
+        if tag not in tag_index:
+            orphaned_tags.append(tag)
+            os.remove(os.path.join(TAG_DIR, filename))
+            
+    orphaned_topics = []
+    for filename in os.listdir(TOPIC_DIR):
+        if not filename.endswith('.md'): continue
+        topic = filename[:-3]
+        if topic not in topic_index:
+            orphaned_topics.append(topic)
+            os.remove(os.path.join(TOPIC_DIR, filename))
 
-    log_entry = f"\n## {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} — Indexed\n\n"
-    log_entry += f"- **Scanned:** {len(wiki_files)} files ({len([f for f in wiki_files if f['type'] == 'concept'])} concepts + {len([f for f in wiki_files if f['type'] == 'source'])} sources)\n"
-    log_entry += f"- **Tags indexed:** {len(tag_index)} ({len(pool_a)} main-tags + {len(tag_index) - len(pool_a)} sub-tags)\n"
-    log_entry += f"- **Topics indexed:** {len(topic_index)}\n"
-    log_entry += f"- **Orphans deleted:** {len(deleted_tags)} tag indexes + {len(deleted_topics)} topic indexes\n"
-    if invalid_tags_log:
-        log_entry += f"- **Invalid tags found:** {len(invalid_tags_log)} (see details below)\n"
-        for line in invalid_tags_log:
-            log_entry += f"  - {line}\n"
-    if errors_log:
-        log_entry += f"- **Errors:** {len(errors_log)} files skipped due to invalid frontmatter\n"
-        for line in errors_log:
-            log_entry += f"  - {line}\n"
-
-    with open(MEMORY_FILE, 'a', encoding='utf-8') as f:
-        f.write(log_entry)
-        
-    print(f"SUCCESS: Scanned {len(wiki_files)} files. Tags: {len(tag_index)}, Topics: {len(topic_index)}. Orphans deleted: {len(deleted_tags)} tags, {len(deleted_topics)} topics.")
-    if invalid_tags_log:
-        print(f"WARNING: Found {len(invalid_tags_log)} invalid tags.")
-    if errors_log:
-        print(f"ERROR: {len(errors_log)} files had frontmatter errors.")
+    # Final Summary for output
+    print(f"SUMMARY|{len(wiki_files)}|{len(tag_index)}|{len(topic_index)}|{len(orphaned_tags)}|{len(orphaned_topics)}|{invalid_tags_count}|{errors}")
 
 if __name__ == '__main__':
     main()

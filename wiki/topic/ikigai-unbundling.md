@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ikigai-unbundling
 auto_generated: true
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Topic: ikigai-unbundling
 
 Auto-generated index of all content with topic `ikigai-unbundling`.
 
-Last updated: 2026-07-05 21:02:39
+Last updated: 2026-07-06 21:02:42
 
 ---
 

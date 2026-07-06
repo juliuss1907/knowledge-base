@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-07-05
 
 ## Stats
 
-- Total files: 183
-- Sources: 51
-- Concepts: 132
-- Last updated: 2026-07-05
+- Total files: 186
+- Sources: 52
+- Concepts: 134
+- Last updated: 2026-07-06
 
 ## Files with this tag
 
@@ -38,6 +38,7 @@ last_updated: 2026-07-05
 - [[collaborative-thinking]] — Collaborative Thinking (concept)
 - [[completion-motivation]] — Completion Motivation (concept)
 - [[compounding-relationships]] — Compounding Relationships (concept)
+- [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
 - [[cortisol-management]] — Cortisol Management (concept)
 - [[costly-signal]] — Costly Signal (concept)
@@ -181,6 +182,7 @@ last_updated: 2026-07-05
 - [[src_reciprocity]] — Reciprocity (source)
 - [[src_second-order-thinking]] — Second Order Thinking (source)
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
+- [[src_steve-jobs-stanford-2005-commencement]] — Steve Jobs Stanford 2005 Commencement (source)
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
@@ -190,6 +192,7 @@ last_updated: 2026-07-05
 - [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source)
+- [[stay-hungry-stay-foolish]] — Stay Hungry Stay Foolish (concept)
 - [[streak-psychology]] — Streak Psychology (concept)
 - [[success-trap]] — Success Trap (concept)
 - [[synthetic-happiness]] — Synthetic Happiness (concept)
@@ -209,8 +212,8 @@ last_updated: 2026-07-05
 
 ## Co-occurring tags
 
-- [[productivity]] — 140 co-occurrences
-- [[opinion]] — 61 co-occurrences
+- [[productivity]] — 143 co-occurrences
+- [[opinion]] — 64 co-occurrences
 - [[research]] — 54 co-occurrences
 - [[economic]] — 19 co-occurrences
 - [[system]] — 15 co-occurrences

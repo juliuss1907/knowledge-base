@@ -576,3 +576,10 @@
 - **Issues found:** 3 (0 ERROR, 1 WARNING, 2 INFO)
 - **Report:** wiki/reviews/2026-07-05_output-report.md
 - **Summary:** 5/5 file mới PASS — cluster vectors-fundamentals gọn gàng. 1 WARNING: 07-01 validation gap (24 files never validated). 2 INFO: "người" spacing merge carry-over (4 files/11 instances, new:0) + 9 concepts empty Key ideas (cần verify). 0 typo các loại trong new files. Systemic patterns carry-over: 390 one-sentence definitions, 79 few key points, 222 draft concepts.
+
+## 2026-07-06 23:05:53 — Output validation
+- **Files checked:** 526 (129 sources + 397 concepts)
+- **New files:** 7 (2 sources + 5 concepts — compiled 2026-07-06)
+- **Issues found:** 2 (0 ERROR, 0 WARNING, 2 INFO)
+- **Report:** wiki/reviews/2026-07-06_output-report.md
+- **Summary:** ALL CLEAN — 7/7 file mới PASS tất cả 4 dimensions. 2 cluster: retrieval-agentic-search (4 files cross-linked chặt chẽ) + steve-jobs-stanford (3 files bidirectional). 0 typo "ngưởi", 0 typo "ngườii/đờii...", 0 spacing merge trong new files. 5/5 concept mới có Definition ≥2 câu (3/5 có 2 câu, 2/5 có 3 câu). Systemic patterns carry-over unchanged: 395 one-sentence definitions, 79 few key points, 9 empty Key ideas, 227 drafts. "người" spacing merge carry-over: 4 files cũ / 11 instances (0 new).

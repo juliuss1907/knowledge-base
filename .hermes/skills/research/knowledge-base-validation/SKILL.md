@@ -158,7 +158,9 @@ Older reports and archived files may still contain literal `pending` in historic
    grep "^## Approved.*YYYY-MM-DD" wiki/reviews/_action-required.md
    ```
 
-   **Or use the reusable script:** `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-approval.sh YYYY-MM-DD`
+   **Or use the reusable scripts:**
+   - `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-approval.sh YYYY-MM-DD` — date-specific check
+   - `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-all-approved.sh` — global sweep for stale headers + pending count + 📋 markers
 
    **⚠️ PITFALL — System demands in-turn evidence:** If verification ran in a previous turn, the system will re-flag edits as unverified even though checks already passed. Re-run the verification inline in the current turn with a simple `grep` one-liner to satisfy the gate. This is a platform behavior, not a task failure.
 

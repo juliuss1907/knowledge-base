@@ -1,3 +1,16 @@
+## 2026-07-07 08:00 — Compiled (Daily Batch)
+
+- **Processed:** 3/3 files
+- **Source notes created:** 3
+- **Concepts created:** 5 (agentic-coding, problem-selection, last-mile-execution, persuasion-psychology, levels-of-awareness)
+- **Concepts updated:** 2 (map-is-not-territory, human-premium)
+
+| # | Raw File | Source Note | Concepts | Tags |
+|---|----------|-------------|----------|------|
+| 1 | raw/articles/2026-07-06_field-guide-to-fable-finding-unknowns.md | src_field-guide-to-fable-finding-unknowns.md | agentic-coding (new), map-is-not-territory (updated) | main=#ai, sub=[#coding, #tools], topic=fable-finding-unknowns |
+| 2 | raw/articles/2026-07-06_career-advice-age-of-ai-phil-chen.md | src_career-advice-age-of-ai-phil-chen.md | problem-selection (new), last-mile-execution (new), human-premium (updated) | main=#productivity, sub=[#ai, #opinion], topic=career-advice-ai-age |
+| 3 | raw/articles/2026-07-06_most-profitable-skill-human-nature-dan-koe.md | src_most-profitable-skill-human-nature-dan-koe.md | persuasion-psychology (new), levels-of-awareness (new) | main=#productivity, sub=[#psychology, #opinion], topic=human-nature-meta-skill |
+
 ## 2026-07-04 08:00 — Compiled (Daily Batch)
 
 - **Processed:** 5/5 files

@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat
 
-**Timestamp:** 2026-07-07 12:00 +07
+**Timestamp:** 2026-07-07 13:30 +07
 **Status:** PENDING_REVIEW
 
 ---
@@ -8,15 +8,15 @@
 ## Check Results
 
 ### Inbox
-✅ **Clean.** Không có file tagged `#agent/inbox` trong `Tasks/`.
+✅ **Clean.** `Tasks/` folder không tồn tại — không có inbox items.
 
 ### Raw Backlog
-✅ **Clean.** 0 file unprocessed trong `raw/`.
+✅ **Clean.** 0 file unprocessed >24h trong `raw/`.
 
 ### Concept Health
 2 files spot-checked:
-- `orchestrator-worker-validator.md` — backlinks ✅ (`src_luke-alvoeiro-multi-agent-architecture-factory`)
-- `ai-tool-role-separation.md` — backlinks ✅ (`src_1-month-with-hermes-ive-been-using-wrong`)
+- `right-problem-framework.md` — backlinks ✅ (4 `[[src_*]]`)
+- `technical-competence-paradox.md` — backlinks ✅ (2 `[[src_*]]`)
 
 ### Pending Reviews
 3 báo cáo từ 2026-07-06 vẫn PENDING — Julius chưa action:
@@ -24,7 +24,7 @@
 - Format — 1 ERROR (pre-approved slug) + 304 WARNING (broken wikilinks, stable)
 - Hygiene — 1 ERROR (`memory/` recurrence) + 1 WARNING (compilation-log.md sai path)
 
-Không có thay đổi từ heartbeat 11:00.
+Không có thay đổi từ heartbeat 12:00.
 
 ### Known Issues
 - 🔴 `memory/` folder tại root level — recurrence (tồn tại từ 07-06 08:16, chứa `compilation-log.md`). PENDING Julius approval để di chuyển vào `.openclaw/memory/`.
@@ -42,4 +42,4 @@ Không có thay đổi từ heartbeat 11:00.
 
 ---
 
-*Last heartbeat: 2026-07-07 11:00 +07*
+*Last heartbeat: 2026-07-07 12:00 +07*

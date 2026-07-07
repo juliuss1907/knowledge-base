@@ -8,7 +8,9 @@ title: "A Field Guide to Fable: Finding Your Unknowns"
 date_ingested: 2026-07-06
 date_published: 2026-07-03
 tags: [ai, productivity, coding]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-07
+compiled_to: "[[src_field-guide-to-fable-finding-unknowns]]"
 ---
 
 # A Field Guide to Fable: Finding Your Unknowns

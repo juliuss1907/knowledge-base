@@ -6,7 +6,8 @@ sub_tags: [psychology]
 topic: mental-models
 sources:
   - "[[src_map-is-not-territory]]"
-last_updated: 2026-06-04
+  - "[[src_field-guide-to-fable-finding-unknowns]]"
+last_updated: 2026-07-07
 ---
 
 # The Map Is Not The Territory

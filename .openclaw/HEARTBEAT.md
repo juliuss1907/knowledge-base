@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat
 
-**Timestamp:** 2026-07-07 18:30 +07
+**Timestamp:** 2026-07-08 01:00 +07
 **Status:** PENDING_REVIEW
 
 ---
@@ -11,24 +11,29 @@
 ✅ **Clean.** `Tasks/` folder không tồn tại.
 
 ### Raw Backlog
-✅ **Clean.** 0 file unprocessed >24h trong `raw/`.
+✅ **Clean.** 0 file `status: unprocessed` trong `raw/`.
 
 ### Concept Health
 2 files spot-checked:
-- `system-map.md` — backlinks ✅ (`[[src_markus-systems-thinking-roadmap]]`)
-- `skill-atrophy.md` — backlinks ✅ (`[[src_how-ai-productivity-fails]]`)
+- `tacit-knowledge.md` — backlinks ✅ (`[[src_2026-advice]]`)
+- `ralph-wiggum-loop.md` — backlinks ✅ (`[[src_loop-engineering-14-step-roadmap]]`)
 
 ### Pending Reviews
-3 báo cáo từ 2026-07-06 vẫn PENDING — Julius chưa action:
-- Output — 2 INFO, batch 7 file clean
-- Format — 1 ERROR (pre-approved slug) + 304 WARNING (broken wikilinks, stable)
-- Hygiene — 1 ERROR (`memory/` recurrence) + 1 WARNING (compilation-log.md sai path)
+🚨 **6 báo cáo PENDING — tăng từ 3 ở heartbeat 18:30.**
 
-Không có thay đổi từ heartbeat 17:00.
+**Mới từ 2026-07-07 (Hermes chạy 23:08-23:30):**
+- Output — 8 issues (0 ERROR, 3 WARNING, 5 INFO). `human-premium.md` cần sửa definition + key ideas + missing source.
+- Format — 306 issues (1 ERROR pre-approved slug + 305 WARNING broken wikilinks, stable). KB format health 99.86%.
+- Hygiene — 2 issues (1 ERROR `memory/` recurrence + 1 WARNING `compilation-log.md` sai path). KB structure health 99.996%.
+
+**Từ 2026-07-06 (2 ngày, chưa action):**
+- Output — 2 INFO, batch 7 file clean.
+- Format — 1 ERROR (pre-approved slug) + 304 WARNING (broken wikilinks, stable).
+- Hygiene — 1 ERROR (`memory/` recurrence) + 1 WARNING (`compilation-log.md` sai path).
 
 ### Known Issues
-- 🔴 `memory/` folder tại root level — recurrence. PENDING Julius approval.
-- 3 pending reviews từ 2026-07-06 — Julius chưa action.
+- 🔴 `memory/` folder tại root level — recurrence lần 4 trong 5 ngày. PENDING Julius approval.
+- 6 pending reviews trong `_action-required.md` — backlog đang tăng.
 
 ---
 
@@ -38,11 +43,11 @@ Không có thay đổi từ heartbeat 17:00.
 - **wiki/sources/**: 132 files
 - **wiki/tag/**: 24 files
 - **wiki/topic/**: 150 files
-- **Reviews pending**: 3 (output, format, hygiene)
+- **Reviews pending**: 6 (output×2, format×2, hygiene×2)
 
 ---
 
-*Last heartbeat: 2026-07-07 17:00 +07*
+*Last heartbeat: 2026-07-07 18:30 +07*
 
 ---
 

@@ -8,7 +8,9 @@ title: "Career advice in the age of AI"
 date_ingested: 2026-07-06
 date_published: 2026-07-02
 tags: [ai, productivity, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-07
+compiled_to: "[[src_career-advice-age-of-ai-phil-chen]]"
 ---
 
 # Career advice in the age of AI

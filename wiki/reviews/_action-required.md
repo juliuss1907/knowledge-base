@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-07 23:08
+**Last updated:** 2026-07-07 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Last batch applied:** 2 reports (07-05 Output + Format) **APPROVED** 2026-07-06
 
 ---
@@ -43,6 +43,39 @@
 - Systemic carry-over: ổn định, không cần action
 
 **Report:** `wiki/reviews/2026-07-07_output-report.md`
+
+---
+
+### 🔍 Format Validation — 2026-07-07 (23:15)
+
+**File:** [2026-07-07_format-report.md](2026-07-07_format-report.md)
+**Status:** pending
+**Created:** 2026-07-07 23:15:00 +0700
+**Issues:** 306 (1 ERROR, 305 WARNING, 0 INFO)
+**Files checked:** 717 (402 concepts + 132 sources + 33 indexes + 150 topics)
+
+**Summary:**
+- 🔴 1 ERROR: `src_youre-being-trained...` slug 53 chars — pre-approved by Julius 2026-07-02, carry-over
+- ⚠️ 305 WARNING: 284 individual broken wikilinks + 21 forward-reference groups — all forward-references to uncompiled concepts
+- ✅ tag/tag.md fully resolved after 5-run saga — 0 ERROR (07-02: 5 → 07-05: 1 → 07-07: 0)
+- ✅ 150 topic files: all clean (stable 6+ runs)
+- ✅ 33 index files: all clean
+- ✅ 10 new files (7 concepts + 3 sources) — all frontmatter + sections compliant
+- Broken wikilink backlog: 193 unique targets (+1 from 192)
+
+**Delta from 2026-07-05 (APPROVED):**
+- −1 ERROR (1 vs 2) — tag/tag.md fully resolved
+- +1 WARNING (305 vs 304) — net +1 broken wikilink from new concepts
+- +17 files in scope (717 vs 700)
+- KB format health: 99.86% (716/717 files ERROR-free, up from 99.71%)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-07_format-report.md`
+- Slug exception: pre-approved — no action needed
+- Broken wikilinks: forward-reference backlog — no immediate action, auto-resolve as concepts are compiled
+- KB format health improving: ERROR rate 0.14% (stable from 07-06), 0 net new issues
+
+**Report:** `wiki/reviews/2026-07-07_format-report.md`
 
 ---
 

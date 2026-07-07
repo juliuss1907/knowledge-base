@@ -596,3 +596,9 @@
 - **Issues found:** 8 (0 ERROR, 3 WARNING, 5 INFO)
 - **Report:** wiki/reviews/2026-07-07_output-report.md
 - **Summary:** 9/10 file mới PASS hoàn toàn. 3 WARNING trên human-premium.md (definition 1 câu, key ideas 4/5, Sources section thiếu 1 source). 1 INFO: map-is-not-territory definition redundancy. 3 INFO: forward-reference wikilinks (cognitive-biases, confirmation-bias, maslow-hierarchy). 1 INFO systemic carry-over unchanged: 400 one-sentence definitions, 79 few key points, 9 empty Key ideas, 232 drafts. Quick-scan sạch: 0 typo các loại, 0 truncated, 0 spacing merge trong 10 file mới. 3 cluster cross-linking: fable-finding-unknowns, human-nature-meta-skill, career-advice-ai-age.
+
+## 2026-07-07 23:15:00 — Format validation
+- **Files checked:** 717 (402 concepts + 132 sources + 33 indexes + 150 topics)
+- **Issues found:** 306 (1 ERROR, 305 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-07_format-report.md
+- **Summary:** 1 ERROR: pre-approved slug exception on src_youre-being-trained... (53 chars, carry-over since 07-01). 305 WARNING: 284 individual broken wikilinks + 21 forward-reference groups — 193 unique targets (+1 from 192). ✅ tag/tag.md fully resolved after 5-run saga — 0 ERROR. 150 topic files clean (stable 6+ runs). 33 index files clean. 10 new files (7 concepts + 3 sources) all frontmatter + sections compliant. KB health: 99.86% (716/717 ERROR-free). Delta from 07-05: −1 ERROR, +1 WARNING, +17 files, +1 unique broken target.

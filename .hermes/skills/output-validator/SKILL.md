@@ -488,6 +488,37 @@ grep -c 'YYYY-MM-DD_output-report.md' "$A"  # returns 3, not a duplicate signal
 
 **Pitfall — verification script cleanup:** `rm /tmp/hermes-verify-*` may trigger "delete in root path" approval. Accept the block — `/tmp` files are cleaned by the OS eventually.
 
+**Pitfall — grep literal strings with regex metacharacters (2026-07-07):** When searching for text containing special regex characters like parentheses `()` in dates or timestamps, use `grep -F` (fixed string). Otherwise grep interprets them as regex groups:
+
+```bash
+# BROKEN — parentheses treated as regex capture groups:
+grep '2026-07-07 (23:08)' "$A"
+# CORRECT:
+grep -F '2026-07-07 (23:08)' "$A"
+```
+
+**Pitfall — grep -A context depth for _action-required.md entries (2026-07-07):** When piping `grep -A N` output to check for the Status line in a `_action-required.md` entry, remember the entry structure: heading → blank line → File line → Status line. That's 3 lines of context needed:
+
+```bash
+# BROKEN — -A 2 only reaches the File line, misses Status:
+grep -F -A 2 '2026-07-07 (23:08)' "$A" | grep 'pending'
+# CORRECT — -A 3 reaches the Status line:
+grep -F -A 3 '2026-07-07 (23:08)' "$A" | grep 'pending'
+```
+
+**Pitfall — markdown bold `**` wrapping breaks plain-text grep in MEMORY.md (2026-07-07):** MEMORY.md log lines use markdown bold formatting: `- **Files checked:** 534 (...)` — the `**` sits between the colon and the value. Plain-text grep like `grep -F 'Files checked: 534'` won't match because the actual substring is `Files checked:** 534`. Use regex patterns instead:
+
+```bash
+# BROKEN — 'Files checked: 534' doesn't account for ** wrapping:
+grep -q 'Files checked: 534' "$M"
+# CORRECT — use regex .* to span the ** markers:
+grep -q 'Files checked.*534' "$M"
+```
+
+**Pitfall — issue grouping makes standalone issue-number grep miss (2026-07-07):** When the report groups multiple issues under one header (e.g., `## Issue 5-7: Forward-reference wikilinks`), `grep "Issue 6"` and `grep "Issue 7"` won't match as standalone terms. Verify grouped issues by checking:
+1. The grouped header exists (e.g., `grep -q '^## Issue 5-7:' "$R"`)
+2. Cross-file consistency confirms the total issue count (all 3 files agree on N issues)
+
 ### quick-scan.sh: bash integer comparison with grep -c in $()
 
 When `grep -c` is used inside `$()` in bash, the output captures a trailing newline. When the pipeline produces no input (empty sed output), `grep -c` may exit 1, triggering `|| echo 0`, resulting in a two-line value like `"0\n0"`. Using this in `[ "$var" -eq N ]` causes:

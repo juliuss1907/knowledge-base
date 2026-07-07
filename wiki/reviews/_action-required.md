@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-07 23:15
+**Last updated:** 2026-07-07 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 5
+**Pending reports awaiting review:** 6
 **Last batch applied:** 2 reports (07-05 Output + Format) **APPROVED** 2026-07-06
 
 ---
@@ -76,6 +76,37 @@
 - KB format health improving: ERROR rate 0.14% (stable from 07-06), 0 net new issues
 
 **Report:** `wiki/reviews/2026-07-07_format-report.md`
+
+---
+
+### 🔍 Hygiene Inspection — 2026-07-07 (23:30)
+
+**File:** [2026-07-07_hygiene-report.md](2026-07-07_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-07-07 23:30:00 +0700
+**Issues:** 2 (1 ERROR, 1 WARNING, 0 INFO)
+**Paths checked:** 51,715
+
+**Summary:**
+- 🔴 1 ERROR: `memory/` folder at root level — recurring orphan (lần 4 trong 5 ngày: 07-03, 07-04, 07-06, 07-07)
+- ⚠️ 1 WARNING: `memory/compilation-log.md` — compilation log bị ghi vào `memory/` thay vì `.openclaw/memory/`
+- ✅ Tất cả active content zones (context/, raw/, wiki/) 100% compliant — 0 issue
+- ✅ HEARTBEAT.md leak resolved — 9 ngày ổn định (từ 06-28)
+- ✅ `state/` resolved — không còn xuất hiện
+- ✅ KB structure health: 99.996% (2/51,715 paths with issues)
+
+**Delta from 2026-07-06 (PENDING: 2 issues — same pattern):**
+- 🔴 SAME: `memory/` folder — unchanged from yesterday. PENDING từ 07-06 chưa được Julius review
+- ⚠️ SAME: `memory/compilation-log.md` — same file (last modified Jul 6 08:16), no new content
+- +14 paths (51,715 vs 51,701)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-07_hygiene-report.md`
+- Nếu approve: `mv memory/compilation-log.md .openclaw/memory/` → `rmdir memory/`
+- 🚨 [ESCALATION — 4th occurrence] `memory/` recurrence (4 lần trong 5 ngày): compile process đang ghi vào `memory/` thay vì `.openclaw/memory/` — cần fix process output path, không chỉ xóa file
+- KB structure health: 99.996%
+
+**Report:** `wiki/reviews/2026-07-07_hygiene-report.md`
 
 ---
 

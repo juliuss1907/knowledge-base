@@ -8,7 +8,9 @@ title: "The most profitable skill of the 21st century (not AI)"
 date_ingested: 2026-07-06
 date_published: 2026-07-04
 tags: [psychology, productivity, writing]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-07
+compiled_to: "[[src_most-profitable-skill-human-nature-dan-koe]]"
 ---
 
 # The most profitable skill of the 21st century (not AI)

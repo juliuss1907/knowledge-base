@@ -55,10 +55,12 @@ The Map Is Not The Territory (Bản đồ không phải là lãnh thổ) là m�
 - [[feedback-loops]]
 - [[cognitive-biases]]
 - [[confirmation-bias]]
+- [[agentic-coding]]
 
 ## Sources
 
 - [[src_map-is-not-territory]]
+- [[src_field-guide-to-fable-finding-unknowns]]
 
 ## Notes
 

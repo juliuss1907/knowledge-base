@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 106 files
+- Total: 107 files
 - By status: 106 processed, 0 unprocessed
 - By date: 20 this week, 106 this month
 - Last updated: 2026-07-07
 
 ## Items
+- [[2026-07-08_why-people-fail-at-learning-languages]] — Why people fail at learning languages by Colin Gorrie (unprocessed, partial)
+
 - [[2026-07-06_most-profitable-skill-human-nature-dan-koe]] — The most profitable skill of the 21st century (not AI) by Dan Koe (processed)
 
 - [[2026-07-06_field-guide-to-fable-finding-unknowns]] — A Field Guide to Fable: Finding Your Unknowns by Thariq (processed)

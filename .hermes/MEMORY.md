@@ -602,3 +602,16 @@
 - **Issues found:** 306 (1 ERROR, 305 WARNING, 0 INFO)
 - **Report:** wiki/reviews/2026-07-07_format-report.md
 - **Summary:** 1 ERROR: pre-approved slug exception on src_youre-being-trained... (53 chars, carry-over since 07-01). 305 WARNING: 284 individual broken wikilinks + 21 forward-reference groups — 193 unique targets (+1 from 192). ✅ tag/tag.md fully resolved after 5-run saga — 0 ERROR. 150 topic files clean (stable 6+ runs). 33 index files clean. 10 new files (7 concepts + 3 sources) all frontmatter + sections compliant. KB health: 99.86% (716/717 ERROR-free). Delta from 07-05: −1 ERROR, +1 WARNING, +17 files, +1 unique broken target.
+
+## 2026-07-08 23:11:25 — Output validation
+- **Files checked:** 534 (132 sources + 402 concepts)
+- **New files:** 0 (0 sources + 0 concepts — không có compilation hôm nay)
+- **Issues found:** 1 (0 ERROR, 0 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-07-08_output-report.md
+- **Summary:** Clean run — 0 file mới, không có gì để validate sâu. Systemic patterns carry-over unchanged: 400 one-sentence defs, 79 few key points, 9 empty Key ideas, 232 drafts. "người" spacing merge carry-over: 4 files cũ / 11 instances (0 new). Quick-scan sạch: 0 typo ngưởi, 0 typo ngườii/đờii..., 0 spacing merge mới, 0 truncated.
+
+## 2026-07-08 23:15:00 — Format validation
+- **Files checked:** 717 (402 concepts + 132 sources + 33 indexes + 150 topics)
+- **Issues found:** 306 (1 ERROR, 305 WARNING, 0 INFO) — identical to 07-07
+- **Report:** Not written (no delta from 07-07 — [SILENT])
+- **Summary:** Stable — 0 change from 07-07. 1 ERROR: pre-approved slug exception (carry-over since 07-01). 305 WARNING: 284 individual broken wikilinks + 21 forward-reference groups — 193 unique targets (unchanged). 0 new files compiled today. KB health: 99.86% (716/717 ERROR-free). All counts identical to previous run.

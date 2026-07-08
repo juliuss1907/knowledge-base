@@ -4,18 +4,43 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-07 23:30
+**Last updated:** 2026-07-08 23:11
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 **Last batch applied:** 2 reports (07-05 Output + Format) **APPROVED** 2026-07-06
 
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-07-08 (23:11)
+
+**File:** [2026-07-08_output-report.md](2026-07-08_output-report.md)
+**Status:** pending
+**Created:** 2026-07-08 23:11:25 +0700
+**Issues:** 1 (0 ERROR, 0 WARNING, 1 INFO)
+**Files checked:** 534 (132 sources + 402 concepts)
+**New files:** 0 (0 sources + 0 concepts — không có compilation hôm nay)
+
+**Summary:**
+- 🟢 0 file mới — run sạch hoàn toàn, không có gì để validate sâu
+- ✅ 0 ERROR, 0 WARNING — clean run
+- ℹ️ 1 INFO — systemic carry-over patterns unchanged (400 one-sentence defs, 79 few key points, 9 empty Key ideas, 232 drafts)
+- 🔤 Quick-scan sạch: 0 typo ngưởi, 0 typo ngườii/đờii..., 0 spacing merge mới, 0 truncated
+- "người" spacing merge carry-over: 4 files cũ / 11 instances (0 new — không thay đổi từ 07-06)
+
+**Actions:**
+- Không cần action — không có file mới, không có issue mới
+- Systemic patterns carry-over: ổn định, có thể defer
+- "người" spacing merge 4 files cũ: có thể gom cleanup khi Fix Agent có batch lớn hơn
+
+**Report:** `wiki/reviews/2026-07-08_output-report.md`
+
+---
 
 ### 🔍 Output Validation — 2026-07-07 (23:08)
 

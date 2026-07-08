@@ -488,6 +488,8 @@ grep -c 'YYYY-MM-DD_output-report.md' "$A"  # returns 3, not a duplicate signal
 
 **Pitfall — verification script cleanup:** `rm /tmp/hermes-verify-*` may trigger "delete in root path" approval. Accept the block — `/tmp` files are cleaned by the OS eventually.
 
+**Pitfall — emoji/unicode in heredoc triggers security scanner (2026-07-08):** When creating verification scripts via `cat > /tmp/hermes-verify-*.sh << 'VERIFY_EOF'`, emoji characters (✓, ❌, ⚠️, 🟢, 🔴) inside the heredoc body trigger the security scanner: "Variation selector characters detected". The terminal command is blocked pending approval. **Fix:** Use plain ASCII markers instead — `[OK]`, `[FAIL]`, `[INFO]`, `[WARN]`. No emoji anywhere in the heredoc body. The `check()` helper's echo statements and the grep patterns must all be emoji-free.
+
 **Pitfall — grep literal strings with regex metacharacters (2026-07-07):** When searching for text containing special regex characters like parentheses `()` in dates or timestamps, use `grep -F` (fixed string). Otherwise grep interprets them as regex groups:
 
 ```bash

@@ -4,18 +4,51 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-08 23:11
+**Last updated:** 2026-07-08 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 7
+**Pending reports awaiting review:** 8
 **Last batch applied:** 2 reports (07-05 Output + Format) **APPROVED** 2026-07-06
 
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-07-08 (23:30)
+
+**File:** [2026-07-08_hygiene-report.md](2026-07-08_hygiene-report.md)
+**Status:** pending
+**Created:** 2026-07-08 23:30:00 +0700
+**Issues:** 3 (1 ERROR, 2 WARNING, 0 INFO)
+**Paths checked:** 51,724
+
+**Summary:**
+- 🔴 1 ERROR: `memory/` folder at root level — recurring orphan (lần 5 trong 6 ngày: 07-03, 07-04, 07-06, 07-07, 07-08)
+- ⚠️ 2 WARNING: `memory/2026-07-08.md` (new daily memory file, today's date) + `memory/compilation-log.md` (carry-over từ 07-06, unchanged)
+- ✅ Tất cả active content zones (context/, raw/, wiki/) 100% compliant — 0 issue
+- ✅ HEARTBEAT.md leak resolved — 10 ngày ổn định (từ 06-28)
+- ✅ `state/` resolved — không còn xuất hiện
+- ✅ KB structure health: 99.994% (3/51,724 paths with issues)
+
+**Delta from 2026-07-07 (PENDING: 2 issues — same root cause):**
+- 🔴 SAME: `memory/` folder — unchanged. PENDING từ 07-06 chưa được Julius review
+- ⚠️ SAME: `memory/compilation-log.md` — same file (last modified Jul 6 08:16)
+- ⚠️ NEW: `memory/2026-07-08.md` — new daily memory dump dated today, proving the writing process is still active
+- +9 paths (51,724 vs 51,715)
+
+**Actions:**
+- Review `wiki/reviews/2026-07-08_hygiene-report.md`
+- Nếu approve: `mv memory/2026-07-08.md .openclaw/memory/` → `mv memory/compilation-log.md .openclaw/memory/` → `rmdir memory/`
+- 🚨 [ESCALATION — 5th occurrence] `memory/` recurrence (5 lần trong 6 ngày): process(es) vẫn đang ghi vào `memory/` thay vì `.openclaw/memory/` — mỗi ngày có thêm file mới chứng minh process chưa được fix
+- Cần Julius can thiệp process-level: xác định và sửa output path của compile agent + memory logging
+- KB structure health: 99.994% (↓ từ 99.996% do +1 file mới trong memory/)
+
+**Report:** `wiki/reviews/2026-07-08_hygiene-report.md`
+
+---
 
 ### 🔍 Output Validation — 2026-07-08 (23:11)
 

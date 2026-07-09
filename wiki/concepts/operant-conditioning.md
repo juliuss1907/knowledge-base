@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [research, psychology]
 topic: incentives-psychology
 sources:
-  - "[[src_the-power-of-incentives-hidden-forces-shape-behavior]]"
+  - "[[src_incentives-hidden-forces]]"
 last_updated: 2026-06-10
 ---
 

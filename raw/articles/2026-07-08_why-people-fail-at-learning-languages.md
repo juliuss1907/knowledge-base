@@ -8,7 +8,9 @@ title: "Why people fail at learning languages"
 date_ingested: 2026-07-08
 date_published: 2026-01-03
 tags: [productivity, psychology, learning]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-09
+compiled_to: "[[src_why-people-fail-at-learning-languages]]"
 ---
 
 # Why people fail at learning languages

@@ -7,7 +7,8 @@ topic: dan-koe-mind-game
 sources:
   - "[[src_dan-koe-mind-game-practical-application]]"
   - "[[src_life-is-a-mind-game-heres-how-you]]"
-last_updated: 2026-06-07
+  - "[[src_thiet-ke-quy-tac-bao-ve-su-chu-y]]"
+last_updated: 2026-07-09
 ---
 
 # Environment Design for Habits
@@ -29,15 +30,22 @@ Chiến lược thay đổi bối cảnh xung quanh (vật lý, số và xã h�
   1. Nhận diện tác nhân nuôi con người cũ.
   2. Phác thảo môi trường của phiên bản mới.
   3. Thực hiện "Quick Wins" (những thay đổi nhỏ nhưng có đòn bẩy cao).
+- **Friction vs ease cho attention protection:** Tạo ma sát cho thói quen xấu (để điện thoại ở phòng khác qua đêm, sạc ở bếp thay vì cạnh giường, chuyển app gây nghiện vào thư mục màn hình thứ hai) và tạo thuận lợi cho thói quen tốt (để sẵn sách ở đầu giường, ưu tiên số điện thoại bạn bè để dễ kết nối thực).
+- **App-level countermeasures:** Pull-to-refresh = máy đánh bạc dopamine — cần app timer, greyscale toàn màn hình, tắt mọi thông báo trừ bạn bè/gia đình. "Nếu bạn không thể sử dụng app trong giới hạn đã đặt, app đang sở hữu bạn."
+- **Khung giờ buồn chán (boredom time):** Dành ít nhất 30 phút/ngày không input — tái thiết lập dopamine baseline bị các app social media đánh cắp. Xem thêm [[boredom-as-dopamine-reset]].
 
 ## Related concepts
 
 - [[habit-automation]]
 - [[discipline-system]]
+- [[dopamine-wanting-vs-liking]]
+- [[boredom-as-dopamine-reset]]
+- [[brain-rot]]
 
 ## Sources
 
 - [[src_dan-koe-mind-game-practical-application]]
+- [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]]
 
 ## Notes
 

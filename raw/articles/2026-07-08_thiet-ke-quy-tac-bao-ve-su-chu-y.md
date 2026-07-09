@@ -8,7 +8,9 @@ title: "Thiết kế quy tắc bảo vệ sự chú ý thay vì dựa vào ý ch
 date_ingested: 2026-07-08
 date_published: 2026-07-08
 tags: [psychology, productivity, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-09
+compiled_to: "[[src_thiet-ke-quy-tac-bao-ve-su-chu-y]]"
 ---
 
 # Thiết kế quy tắc bảo vệ sự chú ý thay vì dựa vào ý chí

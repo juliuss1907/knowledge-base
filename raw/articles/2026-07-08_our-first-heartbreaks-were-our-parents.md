@@ -8,7 +8,9 @@ title: "Our first heartbreaks were our parents"
 date_ingested: 2026-07-08
 date_published: 2026-05-25
 tags: [psychology, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-09
+compiled_to: "[[src_our-first-heartbreaks-were-our-parents]]"
 ---
 
 # Our first heartbreaks were our parents

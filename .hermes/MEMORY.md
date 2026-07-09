@@ -621,4 +621,9 @@
 - **New files:** 11 (3 sources + 8 concepts)
 - **Issues found:** 1 (0 ERROR, 1 WARNING, 0 INFO)
 - **Report:** wiki/reviews/2026-07-09_output-report.md
-- **Summary:** Clean batch — 11/11 files structurally sound, all backlinks resolve, Vietnamese quality clean, no typos. 1 WARNING: environment-design-for-habits.md definition 1 câu (cần 2-3). Systemic carry-over unchanged: "người" spacing merge 4 files/11 instances (0 new), 78 few key points, 9 empty Key ideas, 407 one-sentence defs. New topics: childhood-emotional-wounds (2 concepts), attention-protection-rules (3 concepts), language-acquisition-method (3 concepts).
+
+## 2026-07-09 23:16:26 — Format validation
+- Files checked: 709 (409 concepts + 135 sources + 10 indexes + 155 topics)
+- Issues found: 307 (2 ERROR, 305 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-07-09_format-report.md
+- Top violations: Forward-ref wikilinks (193 unique broken targets), slug length (1), missing section (1)

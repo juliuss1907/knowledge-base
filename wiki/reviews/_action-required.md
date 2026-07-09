@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-09 22:00
+**Last updated:** 2026-07-09 23:16
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 8 reports (07-06 to 07-08 all validators) **APPLIED** 2026-07-09 by Fix Agent
 
 ---
@@ -25,6 +25,18 @@
 - **Actions:**
   - Mở rộng definition `environment-design-for-habits.md` từ 1→2-3 câu, bổ sung khía cạnh attention protection
 - **Report:** wiki/reviews/2026-07-09_output-report.md
+
+---
+
+### 📐 Format Validation — 2026-07-09
+
+- **Status:** pending
+- **File:** [wiki/reviews/2026-07-09_format-report.md](wiki/reviews/2026-07-09_format-report.md)
+- **Summary:** 709 files checked (409 concepts + 135 sources + 10 indexes + 155 topics). 307 issues: 2 ERROR + 305 WARNING + 0 INFO. 2 ERRORs cần fix: slug dài 53 chars (src_youre-being-trained-for-a-world-that-no-longer-exists.md) + tag.md thiếu ## Notes section. 305 WARNINGs là forward-ref wikilinks — không cần action (tự resolve khi compile concept liên quan). Delta vs 06-23 baseline: -156 total (-132 ERROR, -14 WARNING).
+- **Actions:**
+  - Rút gọn slug `src_youre-being-trained-for-a-world-that-no-longer-exists` → ≤50 chars
+  - Thêm `## Notes` vào `wiki/tag/tag.md`
+- **Report:** wiki/reviews/2026-07-09_format-report.md
 
 ---
 

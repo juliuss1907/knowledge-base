@@ -2673,3 +2673,12 @@
 
 **Files modified:** 3 (human-premium.md, map-is-not-territory.md, memory/ → .openclaw/memory/)
 **Reports archived:** wiki/reviews/archive/2026-07/
+
+## 2026-07-09 21:03:11 — Indexed
+
+- **Scanned:** 409 concepts + 135 sources = 544 total files
+- **Tags indexed:** 0 (0 main-tags + 0 sub-tags)
+- **Topics indexed:** 155
+- **Orphans deleted:** 23 tag indexes + 0 topic indexes
+- **Invalid tags found:** 1598 (main #ai in src_1-month-with-hermes-ive-been-using-wrong, sub #tools in src_1-month-with-hermes-ive-been-using-wrong, sub #automation in src_1-month-with-hermes-ive-been-using-wrong...)
+- **Errors:** 0 files skipped

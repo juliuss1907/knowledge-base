@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: laws-of-the-world
 auto_generated: true
-last_updated: 2026-07-06
+last_updated: 2026-07-09
 ---
 
 # Topic: laws-of-the-world
 
 Auto-generated index of all content with topic `laws-of-the-world`.
 
-Last updated: 2026-07-06 21:02:42
+Last updated: 2026-07-09 21:03:11
 
 ---
 

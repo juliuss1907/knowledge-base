@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: future-proof-skills
 auto_generated: true
-last_updated: 2026-07-06
+last_updated: 2026-07-09
 ---
 
 # Topic: future-proof-skills
 
 Auto-generated index of all content with topic `future-proof-skills`.
 
-Last updated: 2026-07-06 21:02:42
+Last updated: 2026-07-09 21:03:11
 
 ---
 

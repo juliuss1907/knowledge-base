@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: brain-health-habits
 auto_generated: true
-last_updated: 2026-07-06
+last_updated: 2026-07-09
 ---
 
 # Topic: brain-health-habits
 
 Auto-generated index of all content with topic `brain-health-habits`.
 
-Last updated: 2026-07-06 21:02:42
+Last updated: 2026-07-09 21:03:11
 
 ---
 

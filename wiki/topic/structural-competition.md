@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: structural-competition
 auto_generated: true
-last_updated: 2026-07-06
+last_updated: 2026-07-09
 ---
 
 # Topic: structural-competition
 
 Auto-generated index of all content with topic `structural-competition`.
 
-Last updated: 2026-07-06 21:02:42
+Last updated: 2026-07-09 21:03:11
 
 ---
 

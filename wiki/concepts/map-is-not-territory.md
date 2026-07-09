@@ -14,7 +14,7 @@ last_updated: 2026-07-07
 
 ## Definition
 
-The Map Is Not The Territory (Bản đồ không phải là lãnh thổ) là một mental model nhắc nhở chúng ta rằng các mô hình mental models, bản đồ, và sự trừu tượng hóa của thế giới không giống với chính thế giới đó. Ngay cả những bản đồ tốt nhất cũng là sự rút gọn không hoàn hảo của thực tế. Nếu bản đồ đại diện hoàn hảo cho lãnh thổ, nó sẽ không còn là sự rút gọn và trở nên vô dụng. Mental model này cảnh báo chúng ta không nhầm lẫn các trừu tượng và biểu diễn với thực tế phức tạp, luôn thay đổi mà chúng nhằm mô tả.
+The Map Is Not The Territory (Bản đồ không phải là lãnh thổ) là một mental model nhắc nhở chúng ta rằng các mô hình tư duy, bản đồ, và sự trừu tượng hóa của thế giới không giống với chính thế giới đó. Ngay cả những bản đồ tốt nhất cũng là sự rút gọn không hoàn hảo của thực tế. Nếu bản đồ đại diện hoàn hảo cho lãnh thổ, nó sẽ không còn là sự rút gọn và trở nên vô dụng. Mental model này cảnh báo chúng ta không nhầm lẫn các trừu tượng và biểu diễn với thực tế phức tạp, luôn thay đổi mà chúng nhằm mô tả.
 
 ## Key ideas
 

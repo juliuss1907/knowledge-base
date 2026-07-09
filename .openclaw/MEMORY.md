@@ -2662,3 +2662,14 @@
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
+
+
+## 2026-07-09 21:00 — Fix Agent: Applied 07-06 → 07-08 Hermes batch
+
+**8 reports applied:**
+- Output 07-06/07-07/07-08: human-premium.md fixes (definition + key ideas + source), map-is-not-territory.md redundancy
+- Format 07-06/07-07: pre-approved slug exception + forward-ref wikilinks (no action)
+- Hygiene 07-06/07-07/07-08: memory/ folder moved to .openclaw/memory/, root folder removed
+
+**Files modified:** 3 (human-premium.md, map-is-not-territory.md, memory/ → .openclaw/memory/)
+**Reports archived:** wiki/reviews/archive/2026-07/

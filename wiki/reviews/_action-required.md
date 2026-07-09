@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-09 23:16
+**Last updated:** 2026-07-09 23:30
 
 ---
 
@@ -37,6 +37,16 @@
   - Rút gọn slug `src_youre-being-trained-for-a-world-that-no-longer-exists` → ≤50 chars
   - Thêm `## Notes` vào `wiki/tag/tag.md`
 - **Report:** wiki/reviews/2026-07-09_format-report.md
+
+---
+
+### 🧹 Hygiene Inspection — 2026-07-09
+
+- **Status:** clean ✅
+- **File:** [wiki/reviews/2026-07-09_hygiene-report.md](wiki/reviews/2026-07-09_hygiene-report.md)
+- **Summary:** 51,724 paths checked. 0 issues — KB hoàn toàn sạch. Không có ERROR, WARNING, hay INFO. Không HEARTBEAT leak, không root orphan, không empty directory ngoài archive.
+- **Actions:** None required
+- **Report:** wiki/reviews/2026-07-09_hygiene-report.md
 
 ---
 

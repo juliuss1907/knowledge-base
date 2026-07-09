@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 110 files
+- Total: 111 files
 - By status: 109 processed, 0 unprocessed
 - By date: 14 this week, 109 this month
 - Last updated: 2026-07-09
 
 ## Items
+- [[2026-07-09_you-escape-competition-by-figuring-out-who-you-are]] — You escape competition by figuring out who you are by Erifili (unprocessed)
+
 - [[2026-07-09_living-beyond-the-labels]] — Living Beyond the Labels by Gabriel Reality (unprocessed)
 
 - [[2026-07-08_our-first-heartbreaks-were-our-parents]] — Our first heartbreaks were our parents by Lethabo Dipudi (processed)

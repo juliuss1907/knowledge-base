@@ -1,3 +1,14 @@
+## 2026-07-09 08:00 — Compiled (Daily Batch)
+
+- **Processed:** 3/3 files
+- **Source notes created:** 3
+- **Concepts created:** 7 (mental-representation-language, comprehensible-input, decoding-messages-language, emotional-inheritance, childhood-abandonment-patterns, dopamine-wanting-vs-liking, boredom-as-dopamine-reset)
+- **Concepts updated:** 1 (environment-design-for-habits — merged attention protection tactics)
+- **Details:**
+  - [[raw/articles/2026-07-08_why-people-fail-at-learning-languages.md]] → [[src_why-people-fail-at-learning-languages]] (#productivity, #psychology, #opinion)
+  - [[raw/articles/2026-07-08_our-first-heartbreaks-were-our-parents.md]] → [[src_our-first-heartbreaks-were-our-parents]] (#health, #psychology, #opinion)
+  - [[raw/articles/2026-07-08_thiet-ke-quy-tac-bao-ve-su-chu-y.md]] → [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] (#productivity, #psychology, #opinion)
+
 ## 2026-07-07 08:00 — Compiled (Daily Batch)
 
 - **Processed:** 3/3 files

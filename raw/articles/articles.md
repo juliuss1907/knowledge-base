@@ -24,16 +24,16 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Stats
 
 - Total: 109 files
-- By status: 106 processed, 3 unprocessed
-- By date: 20 this week, 106 this month
-- Last updated: 2026-07-07
+- By status: 109 processed, 0 unprocessed
+- By date: 14 this week, 109 this month
+- Last updated: 2026-07-09
 
 ## Items
-- [[2026-07-08_our-first-heartbreaks-were-our-parents]] — Our first heartbreaks were our parents by Lethabo Dipudi (unprocessed)
+- [[2026-07-08_our-first-heartbreaks-were-our-parents]] — Our first heartbreaks were our parents by Lethabo Dipudi (processed)
 
-- [[2026-07-08_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiết kế quy tắc bảo vệ sự chú ý — Julius's notes (unprocessed)
+- [[2026-07-08_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiết kế quy tắc bảo vệ sự chú ý — Julius's notes (processed)
 
-- [[2026-07-08_why-people-fail-at-learning-languages]] — Why people fail at learning languages by Colin Gorrie (unprocessed)
+- [[2026-07-08_why-people-fail-at-learning-languages]] — Why people fail at learning languages by Colin Gorrie (processed)
 
 - [[2026-07-06_most-profitable-skill-human-nature-dan-koe]] — The most profitable skill of the 21st century (not AI) by Dan Koe (processed)
 

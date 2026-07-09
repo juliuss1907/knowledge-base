@@ -615,3 +615,10 @@
 - **Issues found:** 306 (1 ERROR, 305 WARNING, 0 INFO) — identical to 07-07
 - **Report:** Not written (no delta from 07-07 — [SILENT])
 - **Summary:** Stable — 0 change from 07-07. 1 ERROR: pre-approved slug exception (carry-over since 07-01). 305 WARNING: 284 individual broken wikilinks + 21 forward-reference groups — 193 unique targets (unchanged). 0 new files compiled today. KB health: 99.86% (716/717 ERROR-free). All counts identical to previous run.
+
+## 2026-07-09 22:00:00 — Output validation
+- **Files checked:** 544 (135 sources + 409 concepts)
+- **New files:** 11 (3 sources + 8 concepts)
+- **Issues found:** 1 (0 ERROR, 1 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-09_output-report.md
+- **Summary:** Clean batch — 11/11 files structurally sound, all backlinks resolve, Vietnamese quality clean, no typos. 1 WARNING: environment-design-for-habits.md definition 1 câu (cần 2-3). Systemic carry-over unchanged: "người" spacing merge 4 files/11 instances (0 new), 78 few key points, 9 empty Key ideas, 407 one-sentence defs. New topics: childhood-emotional-wounds (2 concepts), attention-protection-rules (3 concepts), language-acquisition-method (3 concepts).

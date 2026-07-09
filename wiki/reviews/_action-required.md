@@ -4,20 +4,27 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-09 21:00
+**Last updated:** 2026-07-09 22:00
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 8 reports (07-06 to 07-08 all validators) **APPLIED** 2026-07-09 by Fix Agent
 
 ---
 
 ## Pending Reports
 
-Không có report nào đang chờ xử lý. Tất cả batch 07-06 đến 07-08 đã được applied.
+### 🔍 Output Validation — 2026-07-09
+
+- **Status:** pending
+- **File:** [wiki/reviews/2026-07-09_output-report.md](wiki/reviews/2026-07-09_output-report.md)
+- **Summary:** 1 WARNING (environment-design-for-habits definition 1 câu → cần 2-3). 11 files: 3 sources + 8 concepts. 0 ERROR. Toàn bộ batch sạch — chỉ 1 issue nhỏ về completeness. Các vấn đề systemic (người spacing merge, <5 key ideas, empty key ideas) đều là carry-over từ file cũ.
+- **Actions:**
+  - Mở rộng definition `environment-design-for-habits.md` từ 1→2-3 câu, bổ sung khía cạnh attention protection
+- **Report:** wiki/reviews/2026-07-09_output-report.md
 
 ---
 

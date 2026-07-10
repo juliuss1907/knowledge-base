@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-09 23:30
+**Last updated:** 2026-07-10 22:00
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 8 reports (07-06 to 07-08 all validators) **APPLIED** 2026-07-09 by Fix Agent
 
 ---
@@ -25,6 +25,19 @@
 - **Actions:**
   - Mở rộng definition `environment-design-for-habits.md` từ 1→2-3 câu, bổ sung khía cạnh attention protection
 - **Report:** wiki/reviews/2026-07-09_output-report.md
+
+---
+
+### 🔍 Output Validation — 2026-07-10
+
+- **Status:** pending
+- **File:** [wiki/reviews/2026-07-10_output-report.md](wiki/reviews/2026-07-10_output-report.md)
+- **Summary:** 1 ERROR + 2 WARNING. 8 files: 2 sources + 6 concepts. 1 ERROR: broken wikilink `[[confirmation-bias]]` trong `label-cognitive-shortcut.md` (forward-reference). 2 WARNING: definition 1 câu trong `self-knowledge-practice.md` và `social-media-comparison-trap.md` — cần tách thành 2-3 câu. 5/8 files pass hoàn toàn. Các vấn đề systemic (người spacing merge, <5 key ideas, empty key ideas) đều là carry-over từ file cũ.
+- **Actions:**
+  - Compile `confirmation-bias` concept hoặc thay thế wikilink trong `label-cognitive-shortcut.md`
+  - Tách definition `self-knowledge-practice.md` thành 2 câu
+  - Tách definition `social-media-comparison-trap.md` thành 2 câu
+- **Report:** wiki/reviews/2026-07-10_output-report.md
 
 ---
 

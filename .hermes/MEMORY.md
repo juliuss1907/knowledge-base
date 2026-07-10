@@ -627,3 +627,9 @@
 - Issues found: 307 (2 ERROR, 305 WARNING, 0 INFO)
 - Report: wiki/reviews/2026-07-09_format-report.md
 - Top violations: Forward-ref wikilinks (193 unique broken targets), slug length (1), missing section (1)
+
+## 2026-07-10 23:10:40 — Output validation
+- **Files checked:** 552 (137 sources + 415 concepts)
+- **New files:** 8 (2 sources + 6 concepts)
+- **Issues found:** 3 (1 ERROR, 2 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-10_output-report.md

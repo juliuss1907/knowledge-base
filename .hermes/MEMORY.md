@@ -10,6 +10,18 @@
 
 ---
 
+## 2026-07-10 23:15 — Format validation
+
+- **Files checked:** 719 (415 concepts + 137 sources + 10 indexes + 157 topics)
+- **Issues found:** 308 (2 ERROR, 306 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-10_format-report.md
+- **Top violations:**
+  - 2 ERROR (carry-over 7 ngày): slug 53 chars + tag.md thiếu ## Notes
+  - 285 individual broken wikilinks + 21 forward-reference groups
+  - 193 unique broken targets (unchanged vs 07-09)
+- **Deltas vs 07-09:** +10 files (+1 WARNING, same 2 ERRORs)
+- **Wins:** No new ERRORs; topic files 100% clean; concept/source frontmatter compliant
+
 ## 2026-07-05 23:16 — Format validation
 
 - **Files checked:** 700 (392 concepts + 127 sources + 33 indexes + 148 topics)

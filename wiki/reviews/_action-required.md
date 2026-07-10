@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-10 22:00
+**Last updated:** 2026-07-10 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 8 reports (07-06 to 07-08 all validators) **APPLIED** 2026-07-09 by Fix Agent
 
 ---
@@ -50,6 +50,19 @@
   - Rút gọn slug `src_youre-being-trained-for-a-world-that-no-longer-exists` → ≤50 chars
   - Thêm `## Notes` vào `wiki/tag/tag.md`
 - **Report:** wiki/reviews/2026-07-09_format-report.md
+
+---
+
+### 📐 Format Validation — 2026-07-10
+
+- **Status:** pending
+- **File:** [wiki/reviews/2026-07-10_format-report.md](wiki/reviews/2026-07-10_format-report.md)
+- **Summary:** 719 files checked (415 concepts + 137 sources + 10 indexes + 157 topics). 308 issues: 2 ERROR + 306 WARNING + 0 INFO. 2 ERRORs: slug dài 53 chars (src_youre-being-trained-for-a-world-that-no-longer-exists.md, carry-over 7 ngày) + tag.md thiếu ## Notes (carry-over 7 ngày). 306 WARNINGs là forward-ref wikilinks — không cần action. Delta vs 07-09: +10 files, +1 WARNING, same 2 ERRORs persist.
+- **Actions:**
+  - Rút gọn slug `src_youre-being-trained-for-a-world-that-no-longer-exists` → ≤50 chars
+  - Thêm `## Notes` vào `wiki/tag/tag.md`
+  - ⚠️ Cả 2 ERRORs đã carry-over 7 ngày liên tục — strongly recommend include vào batch Fix Agent tiếp theo
+- **Report:** wiki/reviews/2026-07-10_format-report.md
 
 ---
 

@@ -2682,3 +2682,21 @@
 - **Orphans deleted:** 23 tag indexes + 0 topic indexes
 - **Invalid tags found:** 1598 (main #ai in src_1-month-with-hermes-ive-been-using-wrong, sub #tools in src_1-month-with-hermes-ive-been-using-wrong, sub #automation in src_1-month-with-hermes-ive-been-using-wrong...)
 - **Errors:** 0 files skipped
+
+## 2026-07-10 08:00 — Compiled (Daily Batch)
+
+- **Processed:** 2/2 files
+- **Source notes created:** 2
+- **Concepts created:** 6 (authenticity-creative-expression, social-media-comparison-trap, self-knowledge-practice, label-cognitive-shortcut, internal-foundation-identity, identity-threat-neuroscience)
+
+### File 1
+- **Raw:** raw/articles/2026-07-09_you-escape-competition-by-figuring-out-who-you-are.md
+- **Source note:** wiki/sources/src_you-escape-competition-by-figuring-out-who-you-are.md
+- **Concepts:** authenticity-creative-expression, social-media-comparison-trap, self-knowledge-practice
+- **Tags:** main=#productivity, sub=[#psychology, #opinion], topic=authenticity-competition
+
+### File 2
+- **Raw:** raw/articles/2026-07-09_living-beyond-the-labels.md
+- **Source note:** wiki/sources/src_living-beyond-the-labels.md
+- **Concepts:** label-cognitive-shortcut, internal-foundation-identity, identity-threat-neuroscience
+- **Tags:** main=#productivity, sub=[#psychology, #opinion], topic=labels-identity-perception

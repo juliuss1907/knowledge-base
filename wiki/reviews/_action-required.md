@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-10 23:15
+**Last updated:** 2026-07-10 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Last batch applied:** 8 reports (07-06 to 07-08 all validators) **APPLIED** 2026-07-09 by Fix Agent
 
 ---
@@ -73,6 +73,17 @@
 - **Summary:** 51,724 paths checked. 0 issues — KB hoàn toàn sạch. Không có ERROR, WARNING, hay INFO. Không HEARTBEAT leak, không root orphan, không empty directory ngoài archive.
 - **Actions:** None required
 - **Report:** wiki/reviews/2026-07-09_hygiene-report.md
+
+---
+
+### 🧹 Hygiene Inspection — 2026-07-10
+
+- **Status:** pending
+- **File:** [wiki/reviews/2026-07-10_hygiene-report.md](wiki/reviews/2026-07-10_hygiene-report.md)
+- **Summary:** 51,741 paths checked. 1 ERROR: `index_kb.py` tại root level — file Python 280 dòng, tạo bởi vault backup lúc 21:03 hôm nay. Không thuộc root whitelist.
+- **Actions:**
+  - Chuyển `index_kb.py` vào `scripts/` (nếu là tool KB) hoặc `.hermes/` (nếu là agent script)
+- **Report:** wiki/reviews/2026-07-10_hygiene-report.md
 
 ---
 

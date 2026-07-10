@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: systems-thinking-training
 auto_generated: true
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 # Topic: systems-thinking-training
 
 Auto-generated index of all content with topic `systems-thinking-training`.
 
-Last updated: 2026-07-09 21:03:11
+Last updated: 2026-07-10 21:03:28
 
 ---
 

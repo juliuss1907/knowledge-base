@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: experience-over-achievement
 auto_generated: true
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 # Topic: experience-over-achievement
 
 Auto-generated index of all content with topic `experience-over-achievement`.
 
-Last updated: 2026-07-09 21:03:11
+Last updated: 2026-07-10 21:03:28
 
 ---
 

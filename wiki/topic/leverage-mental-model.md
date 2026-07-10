@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: leverage-mental-model
 auto_generated: true
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 # Topic: leverage-mental-model
 
 Auto-generated index of all content with topic `leverage-mental-model`.
 
-Last updated: 2026-07-09 21:03:11
+Last updated: 2026-07-10 21:03:28
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: output-vs-outcome
 auto_generated: true
-last_updated: 2026-07-09
+last_updated: 2026-07-10
 ---
 
 # Topic: output-vs-outcome
 
 Auto-generated index of all content with topic `output-vs-outcome`.
 
-Last updated: 2026-07-09 21:03:11
+Last updated: 2026-07-10 21:03:28
 
 ---
 

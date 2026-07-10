@@ -8,7 +8,9 @@ title: "Living Beyond the Labels: When Perception By Others Doesn't Define You"
 date_ingested: 2026-07-09
 date_published: 2026-07-04
 tags: [psychology, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-10
+compiled_to: "[[src_living-beyond-the-labels]]"
 ---
 
 # Living Beyond the Labels: When Perception By Others Doesn't Define You

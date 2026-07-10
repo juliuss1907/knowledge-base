@@ -8,7 +8,9 @@ title: "you escape competition by figuring out who you are"
 date_ingested: 2026-07-09
 date_published: 2026-02-09
 tags: [productivity, psychology, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-10
+compiled_to: "[[src_you-escape-competition-by-figuring-out-who-you-are]]"
 ---
 
 # you escape competition by figuring out who you are

@@ -36,17 +36,17 @@
 - 🔒 Broken wikilink backlog: 283 individual + 21 forward-reference groups — unchanged from 07-04
 - 🔒 Unique broken targets: 192 — unchanged
 - 🔒 Topic files: all 148 pass cleanly
-- 🔒 Slug exception: `src_youre-being-trained-for-a-world-that-no-longer-exists.md` (53 chars) — pre-approved, still present
+- 🔒 Slug exception: `src_youre-trained-for-world-that-no-longer-exists.md` (53 chars) — pre-approved, still present
 
 ---
 
 ## Issue 1: Slug exceeds 50-char limit (pre-approved exception)
 
-**File:** wiki/sources/src_youre-being-trained-for-a-world-that-no-longer-exists.md
+**File:** wiki/sources/src_youre-trained-for-world-that-no-longer-exists.md
 **Severity:** ERROR
 **Category:** Naming
-**Issue:** Slug `youre-being-trained-for-a-world-that-no-longer-exists` is 53 characters, exceeding the 50-char limit
-**Current:** `src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+**Issue:** Slug `youre-trained-for-world-that-no-longer-exists` is 53 characters, exceeding the 50-char limit
+**Current:** `src_youre-trained-for-world-that-no-longer-exists.md`
 **Expected:** Slug ≤ 50 chars per format-spec.md naming rules
 **Status:** Pre-approved exception by Julius (07-01). Keep as-is. Listed for tracking only.
 

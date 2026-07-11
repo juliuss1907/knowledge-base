@@ -69,7 +69,7 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 - [[2026-06-30_the-laws-of-this-world]] — The Laws of this World (Game Theory) by Incentivising / Structuralist (unprocessed)
 
-- [[2026-06-30_youre-being-trained-for-a-world-that-no-longer-exists]] — You're Being Trained for a World That No Longer Exists by Hussain Ibarra (unprocessed)
+- [[2026-06-30_youre-trained-for-world-that-no-longer-exists]] — You're Being Trained for a World That No Longer Exists by Hussain Ibarra (unprocessed)
 
 - [[2026-06-30_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone, At Any Time: The Art of Extroversion by Gabriel Reality (unprocessed)
 

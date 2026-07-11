@@ -23,7 +23,7 @@
 - ✅ **Tag-file section ERRORs → still resolved** — 69 tag-file section ERRORs from 06-29 remain resolved (confirmed stable since 06-30).
 
 **Negative delta (new/regression):**
-- 🔴 **+1 new naming ERROR**: `src_youre-being-trained-for-a-world-that-no-longer-exists.md` — slug exceeds 50 chars (53 chars). This is a different file from the 06-28 slug-too-long issue (`src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md`, 63 chars), which has since been resolved/renamed.
+- 🔴 **+1 new naming ERROR**: `src_youre-trained-for-world-that-no-longer-exists.md` — slug exceeds 50 chars (53 chars). This is a different file from the 06-28 slug-too-long issue (`src_give-me-14-minutes-and-ill-destroy-your-procrastination-forever.md`, 63 chars), which has since been resolved/renamed.
 
 **WARNING delta:**
 - ⚠️ **Stable at 311 WARNING**: broken wikilinks unchanged (290 individual + 21 forward-reference summary groups)
@@ -42,11 +42,11 @@ Tình hình format compliance cải thiện đáng kể: 127 ERROR từ 06-30 đ
 
 ## Issue 1: Slug exceeds 50-character limit
 
-**File:** `wiki/sources/src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+**File:** `wiki/sources/src_youre-trained-for-world-that-no-longer-exists.md`
 **Severity:** ERROR
 **Category:** Naming
 **Issue:** Source file slug is 53 characters, exceeding the 50-character limit defined in `format-spec.md`.
-**Current:** `src_youre-being-trained-for-a-world-that-no-longer-exists` (53 chars)
+**Current:** `src_youre-trained-for-world-that-no-longer-exists` (53 chars)
 **Expected:** Slug ≤ 50 characters
 **Suggested fix:** Shorten slug, e.g. `src_youre-trained-for-world-that-no-longer-exists` (44 chars) or `src_trained-for-a-world-that-no-longer-exists` (42 chars). Rename both the file and update the `original` frontmatter field.
 
@@ -144,7 +144,7 @@ These files have multiple broken wikilinks grouped into a single summary warning
 
 ## Actions Required
 
-1. **Slug rename (1 file):** ~~Rename `src_youre-being-trained-for-a-world-that-no-longer-exists.md`~~ → **APPROVED by Julius. 53-char slug accepted as exception.** No action required.
+1. **Slug rename (1 file):** ~~Rename `src_youre-trained-for-world-that-no-longer-exists.md`~~ → **APPROVED by Julius. 53-char slug accepted as exception.** No action required.
 
 2. **Broken wikilink backlog (194 targets, 311 occurrences):** No action needed — these are expected forward references in a growing KB. Will resolve naturally as concepts get compiled.
 

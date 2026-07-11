@@ -37,11 +37,11 @@
 
 ## Issue 1: Pre-approved slug exception
 
-**File:** `wiki/sources/src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+**File:** `wiki/sources/src_youre-trained-for-world-that-no-longer-exists.md`
 **Severity:** ERROR
 **Category:** Naming
 **Issue:** Slug exceeds 50 chars (53 chars)
-**Current:** `src_youre-being-trained-for-a-world-that-no-longer-exists` (53 chars)
+**Current:** `src_youre-trained-for-world-that-no-longer-exists` (53 chars)
 **Expected:** Slug ≤ 50 chars per format-spec.md
 **Suggested fix:** None — pre-approved by Julius (2026-07-02). Carry-over from 07-01 through 07-06.
 

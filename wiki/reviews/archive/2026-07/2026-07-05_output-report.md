@@ -41,7 +41,7 @@
 **Issue:** 24 files compiled ngày 2026-07-01 (8 sources + 16 concepts) chưa từng được output-validate. Last output report là 2026-06-30 (archived). Không có report nào cho 07-01 trong archive hoặc _action-required.md.
 
 **Files affected (8 sources):**
-- `src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+- `src_youre-trained-for-world-that-no-longer-exists.md`
 - `src_the-laws-of-this-world.md`
 - `src_output-vs-outcome-formula.md`
 - `src_bai-toan-dung-la-gi-va-cach-giai.md`

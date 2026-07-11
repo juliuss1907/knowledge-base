@@ -22,4 +22,4 @@ Last updated: 2026-07-10 21:03:28
 
 ## Sources (1)
 
-- [[src_youre-being-trained-for-a-world-that-no-longer-exists]] — main: #ai, sub: [#opinion, #tutorial, #coding]
+- [[src_youre-trained-for-world-that-no-longer-exists]] — main: #ai, sub: [#opinion, #tutorial, #coding]

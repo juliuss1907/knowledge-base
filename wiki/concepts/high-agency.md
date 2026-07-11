@@ -6,7 +6,7 @@ sub_tags: [psychology]
 topic: ai-future-skills
 sources:
   - "[[src_ai-future-skills]]"
-  - "[[src_youre-being-trained-for-a-world-that-no-longer-exists]]"
+  - "[[src_youre-trained-for-world-that-no-longer-exists]]"
 last_updated: 2026-07-01
 ---
 
@@ -42,6 +42,6 @@ High Agency là khả năng tự đặt mục tiêu và tìm cách đạt đư�
 ## Sources
 
 - [[src_ai-future-skills]]
-- [[src_youre-being-trained-for-a-world-that-no-longer-exists]]
+- [[src_youre-trained-for-world-that-no-longer-exists]]
 
 ## Notes

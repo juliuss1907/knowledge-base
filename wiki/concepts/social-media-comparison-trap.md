@@ -13,7 +13,7 @@ last_updated: 2026-07-10
 
 ## Definition
 
-Social media comparison trap là hiện tượng scrolling mạng xã hội ngụy trang thành "cảm hứng" nhưng thực chất là vòng xoáy so sánh và lo âu, liên tục kéo con người ra khỏi chính mình và đẩy vào trạng thái tập trung vào những gì người khác đang làm thay vì phát triển sự độc đáo của bản thân.
+Social media comparison trap là hiện tượng scrolling mạng xã hội ngụy trang thành "cảm hứng" nhưng thực chất là vòng xoáy so sánh và lo âu liên tục. Hậu quả là nó kéo con người ra khỏi chính mình, cản trở việc phát triển sự độc đáo cá nhân, và biến thời gian lẽ ra dành cho sáng tạo thành thời gian tiêu thụ thành công của người khác.
 
 ## Key ideas
 

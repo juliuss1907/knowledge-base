@@ -27,7 +27,7 @@
 **Negative delta (new/regression):**
 - 🔴 **+2 ERROR trên `wiki/tag/tag.md`** — 2 section vẫn thiếu: `## Overview` và `## Parent`. Từ 5 ERROR (07-02/07-03) → còn 2 ERROR. 3 ERROR kia (level, auto_generated, items_managed_by, parent) đã được fix.
 - 🔴 **24 unquoted wikilink WARNINGs REAPPEARED** — Regression. Đã resolve 07-03 (Index Agent regenerated với quoted format), nhưng hôm nay (07-04) Index Agent regenerate lại với format cũ. 24 file `wiki/tag/*.md` hiện có `parent: [[tag]]` (unquoted).
-- 🔴 **Pre-approved exception**: `src_youre-being-trained-for-a-world-that-no-longer-exists.md` — slug 53 chars. Julius approved exception on 2026-07-02. Carried over.
+- 🔴 **Pre-approved exception**: `src_youre-trained-for-world-that-no-longer-exists.md` — slug 53 chars. Julius approved exception on 2026-07-02. Carried over.
 
 **WARNING delta (07-01 → 07-04):**
 - ⚠️ **+17 WARNING**: Net increase = 24 unquoted wikilink (regression) − 7 broken wikilinks resolved = +17
@@ -78,11 +78,11 @@ Broken wikilinks giảm nhẹ: 283 individual (từ 290) + 21 groups. 192 unique
 
 ## Issue 3: Slug exceeds 50-character limit (PRE-APPROVED EXCEPTION)
 
-**File:** `wiki/sources/src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+**File:** `wiki/sources/src_youre-trained-for-world-that-no-longer-exists.md`
 **Severity:** ~~ERROR~~ → **APPROVED EXCEPTION**
 **Category:** Naming
 **Issue:** Source file slug is 53 characters, exceeding the 50-character limit
-**Current:** `src_youre-being-trained-for-a-world-that-no-longer-exists` (53 chars)
+**Current:** `src_youre-trained-for-world-that-no-longer-exists` (53 chars)
 **Expected:** Slug ≤ 50 characters
 **Status:** Julius approved exception on 2026-07-02. No action needed.
 **Suggested fix:** None — exception approved

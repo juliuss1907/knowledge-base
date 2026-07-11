@@ -10,7 +10,7 @@ date_published: 2026-06-30
 tags: [productivity, ai, psychology]
 status: processed
 compiled_at: 2026-07-01
-compiled_to: "[[src_youre-being-trained-for-a-world-that-no-longer-exists]]"
+compiled_to: "[[src_youre-trained-for-world-that-no-longer-exists]]"
 ---
 
 # You're Being Trained for a World That No Longer Exists

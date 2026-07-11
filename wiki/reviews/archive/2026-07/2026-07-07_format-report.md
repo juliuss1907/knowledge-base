@@ -34,11 +34,11 @@
 
 ## Issue 1: Slug exceeds 50 characters
 
-**File:** `wiki/sources/src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+**File:** `wiki/sources/src_youre-trained-for-world-that-no-longer-exists.md`
 **Severity:** ERROR
 **Category:** Naming
 **Issue:** Source slug is 53 characters, exceeding the 50-char limit defined in format-spec.md §3.1
-**Current:** `src_youre-being-trained-for-a-world-that-no-longer-exists` (53 chars)
+**Current:** `src_youre-trained-for-world-that-no-longer-exists` (53 chars)
 **Expected:** Slug ≤ 50 characters
 **Suggested fix:** Pre-approved exception by Julius on 2026-07-02. No action required. Carry-over from 07-01.
 

@@ -24,7 +24,7 @@
 
 **Negative delta (new/regression):**
 - 🔴 **+5 new ERRORs on `wiki/tag/tag.md`**: scope mismatch, auto_generated flag, missing 3 required sections (## Overview, ## Sub-indexes, ## Notes). These were not flagged in 07-01 — possible validator scope expansion or file modification.
-- 🔴 **Pre-approved exception**: `src_youre-being-trained-for-a-world-that-no-longer-exists.md` — slug 53 chars. Julius approved this exception on 2026-07-02.
+- 🔴 **Pre-approved exception**: `src_youre-trained-for-world-that-no-longer-exists.md` — slug 53 chars. Julius approved this exception on 2026-07-02.
 
 **WARNING delta:**
 - ⚠️ **+23 WARNING**: parent unquoted wikilinks in `wiki/tag/*.md` frontmatter — YAML parses `parent: [[tag]]` as nested list instead of string. This is a known cross-spec conflict (index-spec.md shows unquoted, format-spec.md §9 requires quoted). Previously filtered out as known pattern — now surfaced as warnings.
@@ -86,11 +86,11 @@ Broken wikilinks — 290 forward references ổn định, không thay đổi t�
 
 ## Issue 4: Slug exceeds 50-character limit (PRE-APPROVED EXCEPTION)
 
-**File:** `wiki/sources/src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+**File:** `wiki/sources/src_youre-trained-for-world-that-no-longer-exists.md`
 **Severity:** ~~ERROR~~ → **APPROVED EXCEPTION**
 **Category:** Naming
 **Issue:** Source file slug is 53 characters, exceeding the 50-character limit
-**Current:** `src_youre-being-trained-for-a-world-that-no-longer-exists` (53 chars)
+**Current:** `src_youre-trained-for-world-that-no-longer-exists` (53 chars)
 **Expected:** Slug ≤ 50 characters
 **Status:** Julius approved exception on 2026-07-02 — no action needed. Carried over from 07-01 report.
 

@@ -1,6 +1,6 @@
 # Format Validation — 2026-07-09
 
-**Status:** approved
+**Status: applied
 **Approved by:** Julius
 **Issues found:** 307
 **Created:** 2026-07-09 23:16
@@ -32,11 +32,11 @@
 
 ### Issue 1: Slug exceeds 50-character limit
 
-**File:** `wiki/sources/src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+**File:** `wiki/sources/src_youre-trained-for-world-that-no-longer-exists.md`
 **Severity:** ERROR
 **Category:** Naming
 **Issue:** Slug is 53 characters, exceeding the 50-character maximum
-**Current:** `src_youre-being-trained-for-a-world-that-no-longer-exists` (53 chars)
+**Current:** `src_youre-trained-for-world-that-no-longer-exists` (53 chars)
 **Expected:** Slug ≤ 50 characters
 **Suggested fix:** Shorten slug, e.g. `src_youre-trained-for-world-no-longer-exists` (45 chars). Update all backlinks after rename.
 

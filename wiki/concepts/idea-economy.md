@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [opinion]
 topic: future-proof-skills
 sources:
-  - "[[src_youre-being-trained-for-a-world-that-no-longer-exists]]"
+  - "[[src_youre-trained-for-world-that-no-longer-exists]]"
 last_updated: 2026-07-01
 ---
 
@@ -35,7 +35,7 @@ Mô hình kinh tế mới nơi người có ý tưởng tốt nhất sẽ thắn
 
 ## Sources
 
-- [[src_youre-being-trained-for-a-world-that-no-longer-exists]]
+- [[src_youre-trained-for-world-that-no-longer-exists]]
 
 ## Notes
 

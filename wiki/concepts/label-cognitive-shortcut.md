@@ -27,7 +27,6 @@ Label (nhãn dán) là cơ chế cognitive efficiency của bộ não: khi gặp
 
 ## Related concepts
 
-- [[confirmation-bias]]
 - [[narrative-certainty-trap]]
 - [[false-reinforcement-loop]]
 - [[default-mode-network]]

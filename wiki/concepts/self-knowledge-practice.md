@@ -13,7 +13,7 @@ last_updated: 2026-07-10
 
 ## Definition
 
-Self-knowledge practice là tập hợp các thực hành có chủ đích — journaling, mindfulness, thời gian một mình, guided practice như The Artist's Way — nhằm phát triển sự hiểu biết về bản thân, khám phá các phần chưa được tiếp cận của chính mình, và từ đó nuôi dưỡng authentic creative expression.
+Self-knowledge practice là tập hợp các thực hành có chủ đích — journaling, mindfulness, thời gian một mình, guided practice như The Artist's Way — nhằm phát triển sự hiểu biết về bản thân và khám phá các phần chưa được tiếp cận của chính mình. Mục đích cuối cùng không phải là self-improvement theo hướng cạnh tranh mà là nuôi dưỡng authentic creative expression: càng hiểu bản thân, càng dễ thể hiện bản thân chân thực và càng được người khác hiểu.
 
 ## Key ideas
 

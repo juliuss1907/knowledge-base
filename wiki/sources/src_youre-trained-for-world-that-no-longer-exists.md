@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-06-30_youre-being-trained-for-a-world-that-no-longer-exists]]"
+original: "[[2026-06-30_youre-trained-for-world-that-no-longer-exists]]"
 main_tag: ai
 sub_tags: [opinion, tutorial, coding]
 topic: future-proof-skills

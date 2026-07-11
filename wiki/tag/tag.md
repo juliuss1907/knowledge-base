@@ -40,3 +40,7 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 
 ### Sub Tags (Pool B)
 
+## Notes
+
+<!-- Auto-managed by index-agent. Manual notes below this line. -->
+

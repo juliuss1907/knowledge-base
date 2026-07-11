@@ -121,8 +121,8 @@
 - Concepts: laws-of-the-world (new), deliberate-practice (new), costly-signal (updated), output-vs-outcome (updated)
 - Tags: main=#productivity, sub=[#psychology, #opinion], topic=laws-of-the-world
 
-### File 8: raw/articles/2026-06-30_youre-being-trained-for-a-world-that-no-longer-exists.md
-- Source note: src_youre-being-trained-for-a-world-that-no-longer-exists
+### File 8: raw/articles/2026-06-30_youre-trained-for-world-that-no-longer-exists.md
+- Source note: src_youre-trained-for-world-that-no-longer-exists
 - Concepts: creativity-as-skill (new), idea-economy (new), high-agency (updated)
 - Tags: main=#ai, sub=[#opinion, #tutorial, #coding], topic=future-proof-skills
 

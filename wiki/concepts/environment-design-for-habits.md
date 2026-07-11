@@ -15,7 +15,7 @@ last_updated: 2026-07-09
 
 ## Definition
 
-Chiến lược thay đổi bối cảnh xung quanh (vật lý, số và xã hội) để làm cho những thói quen tốt trở nên dễ dàng hơn và những thói quen xấu trở nên khó khăn hơn, thay vì dựa dẫm vào ý chí cá nhân.
+Chiến lược thay đổi bối cảnh xung quanh (vật lý, số và xã hội) để làm cho những thói quen tốt trở nên dễ dàng hơn và những thói quen xấu trở nên khó khăn hơn, thay vì dựa dẫm vào ý chí cá nhân. Trong bối cảnh attention economy, environment design còn là tuyến phòng thủ chính chống lại dopamine hijacking của social media — tạo ma sát cho các trigger gây nghiện (pull-to-refresh, notification) và thiết kế không gian buồn chán có chủ đích để tái thiết lập dopamine baseline bị đánh cắp bởi các app.
 
 ## Key ideas
 

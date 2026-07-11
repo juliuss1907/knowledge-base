@@ -1,6 +1,6 @@
 # Format Validation — 2026-07-10
 
-**Status:** approved
+**Status: applied
 **Approved by:** Julius
 **Issues found:** 308
 **Created:** 2026-07-10 23:15
@@ -26,7 +26,7 @@
 | INFO | 0 | 0 | 0 |
 
 **Key changes:**
-- ⚠️ **Same 2 ERRORs persist** — slug length (src_youre-being-trained-for-a-world-that-no-longer-exists) and missing `## Notes` in `tag.md` still unfixed
+- ⚠️ **Same 2 ERRORs persist** — slug length (src_youre-trained-for-world-that-no-longer-exists) and missing `## Notes` in `tag.md` still unfixed
 - 📈 **+10 files since yesterday** — 6 new concepts, 2 new sources, 2 new topics
 - ⚠️ **+1 WARNING** — one new broken wikilink (marginal, expected growth)
 
@@ -36,11 +36,11 @@
 
 ### Issue 1: Slug exceeds 50-character limit
 
-**File:** `wiki/sources/src_youre-being-trained-for-a-world-that-no-longer-exists.md`
+**File:** `wiki/sources/src_youre-trained-for-world-that-no-longer-exists.md`
 **Severity:** ERROR
 **Category:** Naming
 **Issue:** Slug body is 53 characters, exceeding the 50-character maximum
-**Current:** `src_youre-being-trained-for-a-world-that-no-longer-exists` (53 chars after `src_` prefix)
+**Current:** `src_youre-trained-for-world-that-no-longer-exists` (53 chars after `src_` prefix)
 **Expected:** Slug body ≤ 50 characters per format-spec.md §3
 **Suggested fix:** Shorten slug, e.g. `src_youre-trained-for-world-no-longer-exists` (45 chars). Update all backlinks after rename.
 **Carry-over from:** 2026-07-09, 2026-07-07, 2026-07-06, 2026-07-05, 2026-07-04, 2026-07-03, 2026-07-02 ⚠️
@@ -143,7 +143,7 @@ These WARNINGs will auto-resolve as referenced concepts are compiled. **No actio
 
 The same 2 ERRORs have now been flagged across **7 consecutive format reports** (07-02 through 07-10). Both are low-complexity fixes:
 
-1. **Slug rename** — `src_youre-being-trained-for-a-world-that-no-longer-exists.md` → shorter name, update backlinks
+1. **Slug rename** — `src_youre-trained-for-world-that-no-longer-exists.md` → shorter name, update backlinks
 2. **Add section** — `## Notes` to `wiki/tag/tag.md`
 
 Neither has been addressed in any Fix Agent run. Recommend Julius explicitly include these in the next approval batch.

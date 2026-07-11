@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [opinion, psychology]
 topic: future-proof-skills
 sources:
-  - "[[src_youre-being-trained-for-a-world-that-no-longer-exists]]"
+  - "[[src_youre-trained-for-world-that-no-longer-exists]]"
 last_updated: 2026-07-01
 ---
 
@@ -33,7 +33,7 @@ Creativity không phải tài năng bẩm sinh mà là cơ bắp — càng dùng
 
 ## Sources
 
-- [[src_youre-being-trained-for-a-world-that-no-longer-exists]]
+- [[src_youre-trained-for-world-that-no-longer-exists]]
 
 ## Notes
 

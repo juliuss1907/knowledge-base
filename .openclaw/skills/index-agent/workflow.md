@@ -6,12 +6,81 @@ Detailed step-by-step process for maintaining tag and topic indexes.
 
 ## Overview
 
-This workflow scans all wiki files, extracts tags and topics, and generates index files:
-- **Input:** All files in `wiki/sources/` + `wiki/concepts/`
+This workflow supports two modes:
+
+### Mode 1: Incremental (default for daily cron)
+- Check `.openclaw/last-index-success.txt` for last successful timestamp
+- Find only files modified since that timestamp
+- If 0 or very few changes → fast skip or targeted update
+- If 20+ changes → fall back to full rebuild
+- Dramatically reduces context/token usage
+
+### Mode 2: Full rebuild (fallback)
+- Scan all wiki files, extract tags and topics, regenerate all index files
+- Used on first run or after incremental detects too many changes
+
+**Input:** All files in `wiki/sources/` + `wiki/concepts/` (full) or only recently modified files (incremental)
 - **Output:** Index files in `wiki/tag/` + `wiki/topic/`
 - **Side effect:** Delete orphaned index files
 
 Total time: 5-60 seconds depending on wiki size (100-1000 files).
+
+---
+
+## Step 0: Determine Mode (Incremental vs Full)
+
+### 0.1 Check last success timestamp
+
+```bash
+if [ -f .openclaw/last-index-success.txt ]; then
+    LAST_SUCCESS=$(cat .openclaw/last-index-success.txt)
+    echo "Last successful index: $LAST_SUCCESS"
+else
+    echo "No previous success record → full rebuild"
+    MODE="full"
+fi
+```
+
+### 0.2 Find changed files (incremental mode)
+
+```bash
+if [ "$MODE" != "full" ]; then
+    CHANGED_FILES=$(find wiki/sources/ wiki/concepts/ -name "*.md" -newer .openclaw/last-index-success.txt -type f 2>/dev/null)
+    CHANGED_COUNT=$(echo "$CHANGED_FILES" | grep -c "\.md$" 2>/dev/null || echo 0)
+    
+    if [ "$CHANGED_COUNT" -eq 0 ]; then
+        echo "No files changed since last index. Skipping."
+        exit 0
+    elif [ "$CHANGED_COUNT" -ge 20 ]; then
+        echo "$CHANGED_COUNT files changed → falling back to full rebuild"
+        MODE="full"
+    else
+        echo "$CHANGED_COUNT files changed → incremental update"
+        MODE="incremental"
+    fi
+fi
+```
+
+### 0.3 Scan appropriate scope
+
+- **Full mode:** `find wiki/sources/ wiki/concepts/ -name "*.md"` → all files
+- **Incremental mode:** only the `$CHANGED_FILES` from step 0.2
+
+### 0.4 In incremental mode: merge with existing indexes
+
+For incremental mode, read existing index files to build current state, then:
+1. Extract frontmatter only from changed files
+2. Add/update entries for changed files in relevant tag/topic indexes
+3. Remove old entries for files that were re-tagged
+4. Recalculate co-occurrence (full recompute — it's cheap compared to I/O)
+5. Rewrite only affected index files
+
+### 0.5 Write success timestamp
+
+After successful run (full or incremental):
+```bash
+date -Iseconds > .openclaw/last-index-success.txt
+```
 
 ---
 

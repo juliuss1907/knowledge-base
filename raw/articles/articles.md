@@ -22,11 +22,15 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 112 files
-- By status: 111 processed, 1 unprocessed
+- Total: 114 files
+- By status: 111 processed, 3 unprocessed
 - By date: 16 this week, 111 this month
 - Last updated: 2026-07-11
 ## Items
+- [[2026-07-11_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — Giải thích sâu phương pháp học Charlie Munger — Notes của Julius (unprocessed)
+
+- [[2026-07-11_learn-anything-like-charlie-munger]] — The Learning Method Charlie Munger Never Wrote Down by Flo / Undiscovered Compounders (unprocessed)
+
 - [[2026-07-11_the-new-comms-playbook-show-dont]] — The new comms playbook: show, don't promise by a16z crypto (unprocessed)
 
 - [[2026-07-09_you-escape-competition-by-figuring-out-who-you-are]] — you escape competition by figuring out who you are by Erifili (processed)

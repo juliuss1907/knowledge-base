@@ -521,6 +521,40 @@ grep -q 'Files checked.*534' "$M"
 1. The grouped header exists (e.g., `grep -q '^## Issue 5-7:' "$R"`)
 2. Cross-file consistency confirms the total issue count (all 3 files agree on N issues)
 
+**Pitfall — silent-run verification (no report generated) (2026-07-11):** When the validator produces a silent result (0 new files, no output report written), the standard `verify-output.sh` script can't run because the expected report file doesn't exist. But the cron system still demands ad-hoc verification evidence. Instead, create a focused script targeting only MEMORY.md:
+
+```bash
+cat > /tmp/hermes-verify-memory-YYYYMMDD.sh << 'VERIFY_EOF'
+#!/bin/bash
+M="/home/julius/knowledge-base/.hermes/MEMORY.md"
+# Check: entry exists, new files=0, issues=0, SILENT marker, append order, file integrity
+VERIFY_EOF
+bash /tmp/hermes-verify-memory-YYYYMMDD.sh
+```
+
+**Silent-run MEMORY.md entry structure (line depth):** The entry spans 5 lines:
+```
+## YYYY-MM-DD HH:MM:SS — Output validation         ← line 0 (heading)
+- **Files checked:** ...                              ← line 1
+- **New files:** 0 — ...                              ← line 2
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)   ← line 3
+- **Result:** [SILENT] — nothing new to validate      ← line 4
+```
+
+To reach the `[SILENT]` marker or `Issues found` line, use `grep -F -A 5` (not `-A 3`). The existing `_action-required.md` pitfall about `-A` depth uses 3 lines for that file's different structure — MEMORY.md needs 5.
+
+**Key checks for silent-run verification:**
+1. Entry exists at correct timestamp (`grep -qF 'YYYY-MM-DD HH:MM:SS' "$M"`)
+2. `New files: 0` (`grep -F -A 5 '...' "$M" | grep -q 'New files.*0'`)
+3. `Issues found: 0` (`grep -F -A 5 '...' "$M" | grep -q 'Issues found.*0'`)
+4. `[SILENT]` marker present (`grep -F -A 5 '...' "$M" | grep -q 'SILENT'`)
+5. Append-only order (07-11 line number > 07-10 line number)
+6. File ends with SILENT entry (`tail -1 "$M" | grep -qF 'SILENT'`)
+
+**Pattern (2026-07-11):** Quick-scan confirmed 0 new files. No report generated. Ad-hoc verification script initially failed because `grep -A 3` missed the SILENT marker on line 5 — fixed by using `-A 5`. All 6 checks passed after correction.
+
+**Reusable template:** `templates/verify-silent-memory.sh` — copy, replace the two timestamps, and run. Covers all 6 silent-run checks above.
+
 ### quick-scan.sh: bash integer comparison with grep -c in $()
 
 When `grep -c` is used inside `$()` in bash, the output captures a trailing newline. When the pipeline produces no input (empty sed output), `grep -c` may exit 1, triggering `|| echo 0`, resulting in a two-line value like `"0\n0"`. Using this in `[ "$var" -eq N ]` causes:

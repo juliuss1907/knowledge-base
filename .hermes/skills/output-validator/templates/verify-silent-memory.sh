@@ -1,0 +1,72 @@
+#!/bin/bash
+# Template: Verify MEMORY.md append for silent output-validator runs
+# Usage: replace YYYYMMDD, HH:MM:SS, and previous-run timestamp below
+# Run: bash /tmp/hermes-verify-memory-YYYYMMDD.sh
+set -euo pipefail
+
+M="/home/julius/knowledge-base/.hermes/MEMORY.md"
+TS="YYYY-MM-DD HH:MM:SS"        # today's timestamp
+PREV_TS="YYYY-MM-DD HH:MM"       # previous run's timestamp (for append-order check)
+
+echo "=== Verification: MEMORY.md output-validator silent run ==="
+fails=0
+
+# 1. Entry exists
+if grep -qF "$TS" "$M"; then
+  echo "[OK] Entry exists"
+else
+  echo "[FAIL] Entry not found"
+  ((fails++))
+fi
+
+# 2. New files: 0 (need -A 5 because SILENT marker is on line 5)
+if grep -F -A 5 "$TS" "$M" | grep -q 'New files.*0'; then
+  echo "[OK] New files: 0"
+else
+  echo "[FAIL] New files count wrong"
+  ((fails++))
+fi
+
+# 3. Issues found: 0
+if grep -F -A 5 "$TS" "$M" | grep -q 'Issues found.*0'; then
+  echo "[OK] Issues found: 0"
+else
+  echo "[FAIL] Issues count wrong"
+  ((fails++))
+fi
+
+# 4. SILENT marker (line 5 after heading)
+if grep -F -A 5 "$TS" "$M" | grep -q 'SILENT'; then
+  echo "[OK] SILENT marker present"
+else
+  echo "[FAIL] SILENT marker missing"
+  ((fails++))
+fi
+
+# 5. Append-only order
+PREV_LINE=$(grep -n "$PREV_TS" "$M" | tail -1 | cut -d: -f1)
+THIS_LINE=$(grep -n "$TS" "$M" | head -1 | cut -d: -f1)
+if [ "$THIS_LINE" -gt "$PREV_LINE" ] 2>/dev/null; then
+  echo "[OK] Entry after previous (append-only, line $THIS_LINE > $PREV_LINE)"
+else
+  echo "[FAIL] Entry order wrong ($THIS_LINE <= $PREV_LINE)"
+  ((fails++))
+fi
+
+# 6. File integrity: last line contains SILENT
+ACTUAL_TAIL=$(tail -1 "$M")
+if echo "$ACTUAL_TAIL" | grep -qF 'SILENT'; then
+  echo "[OK] File ends with SILENT entry (append successful)"
+else
+  echo "[FAIL] File tail unexpected: $ACTUAL_TAIL"
+  ((fails++))
+fi
+
+echo ""
+if [ "$fails" -eq 0 ]; then
+  echo "=== All 6 checks passed ==="
+  exit 0
+else
+  echo "=== $fails check(s) FAILED ==="
+  exit 1
+fi

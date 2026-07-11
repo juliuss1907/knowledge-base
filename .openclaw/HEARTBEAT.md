@@ -1,7 +1,7 @@
-Heartbeat 06:00 — ⚠️
+Heartbeat 16:00 — ✅ HEARTBEAT_OK
 - Inbox: clean.
-- Raw: 2 files (07-09) unprocessed, <24h old.
-- Concept spot-check (fp4-lightning-indexer, costly-signal): backlinks OK.
-- Pending reviews: 2 reports (2026-07-09) pending. Chi tiết: `wiki/reviews/_action-required.md`
-- KB: 409 concepts, 135 sources, 1 tag index, 155 topics, 144 raw files.
+- Raw: 1 file (07-11) unprocessed, <24h — expected.
+- Concept spot-check (four-layer-framework, atomic-mac-agent): backlinks OK.
+- Pending reviews: 0 pending — all batches applied.
+- KB: 415 concepts (170 reviewed, 245 draft), 137 sources, 1 tag index, 157 topics, 144 raw files.
 - Root structure: clean.

@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-07-05
+last_updated: 2026-07-11
 ---
 
 # Articles Index
@@ -22,24 +22,26 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 111 files
-- By status: 111 processed, 0 unprocessed
+- Total: 112 files
+- By status: 111 processed, 1 unprocessed
 - By date: 16 this week, 111 this month
-- Last updated: 2026-07-10
+- Last updated: 2026-07-11
 ## Items
-- [[2026-07-09_you-escape-competition-by-figuring-out-who-you-are]] — You escape competition by figuring out who you are by Erifili (unprocessed)
+- [[2026-07-11_the-new-comms-playbook-show-dont]] — The new comms playbook: show, don't promise by a16z crypto (unprocessed)
 
-- [[2026-07-09_living-beyond-the-labels]] — Living Beyond the Labels by Gabriel Reality (unprocessed)
+- [[2026-07-09_you-escape-competition-by-figuring-out-who-you-are]] — you escape competition by figuring out who you are by Erifili (processed)
 
-- [[2026-07-08_our-first-heartbreaks-were-our-parents]] — Our first heartbreaks were our parents by Lethabo Dipudi (processed)
+- [[2026-07-09_living-beyond-the-labels]] — Living Beyond the Labels by Gabriel Reality (processed)
 
-- [[2026-07-08_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiết kế quy tắc bảo vệ sự chú ý — Julius's notes (processed)
+- [[2026-07-08_our-first-heartbreaks-were-our-parents]] — Our First Heartbreaks Were Our Parents by Lethabo Dipudi (processed)
+
+- [[2026-07-08_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiết Kế Quy Tắc Bảo Vệ Sự Chú Ý by Julius (original) (processed)
 
 - [[2026-07-08_why-people-fail-at-learning-languages]] — Why people fail at learning languages by Colin Gorrie (processed)
 
-- [[2026-07-06_most-profitable-skill-human-nature-dan-koe]] — The most profitable skill of the 21st century (not AI) by Dan Koe (processed)
+- [[2026-07-06_most-profitable-skill-human-nature-dan-koe]] — The Most Profitable Skill to Learn In Life by Dan Koe (processed)
 
-- [[2026-07-06_field-guide-to-fable-finding-unknowns]] — A Field Guide to Fable: Finding Your Unknowns by Thariq (processed)
+- [[2026-07-06_field-guide-to-fable-finding-unknowns]] — A Field Guide to Fable: Finding the Unknowns by Thariq (@trq212) (processed)
 
 - [[2026-07-06_career-advice-age-of-ai-phil-chen]] — Career advice in the age of AI by Phil Chen (processed)
 

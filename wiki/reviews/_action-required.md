@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-11 23:15
+**Last updated:** 2026-07-11 23:45
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 
 | Report | Status |
 |---|---|
 | Format 2026-07-11 | ⏳ PENDING |
+| Hygiene 2026-07-11 | ⏳ PENDING |
 
 **Last batch applied:** 5 reports (07-09 to 07-10) **APPLIED** 2026-07-11 by Fix Agent
 **Next batch awaiting:** Format 07-11 — clean run, no fixes needed (305 forward-ref WARNINGs only)
@@ -22,6 +23,15 @@
 ---
 
 ## Pending Reports
+
+### Hygiene 2026-07-11
+
+- **Report:** `wiki/reviews/2026-07-11_hygiene-report.md`
+- **Summary:** 2 ERROR, 1 WARNING, 0 INFO
+- **Delta vs 06-25:** +3 issues — `memory/` recurring root folder + `random_concepts.txt` new root file
+- **Actions needed:** 
+  1. Move `memory/` contents to `.openclaw/memory/`, `rmdir memory/` — **process fix needed** (memory/ keeps reappearing)
+  2. Move or delete `random_concepts.txt` (loose root file)
 
 ### Format 2026-07-11
 

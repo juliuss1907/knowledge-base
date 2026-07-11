@@ -84,6 +84,9 @@ ROOT_ORPHAN_MAP = {
 ROOT_FOLDER_ORPHANS = {
     "state": "Recurring empty directory — previously resolved 2026-06-27, recreated 2026-07-02. "
              "Move inside .hermes/ or .openclaw/ if needed; otherwise rmdir.",
+    "memory": "Recurring root folder — old folder migrated to .openclaw/memory/ in v1.2. "
+              "Flagged 07-03, 07-06, 07-07, 07-08, 07-11. A process writes to 'memory/' instead of "
+              "'.openclaw/memory/'. Move contents and rmdir; fix the writing process output path.",
 }
 
 # ── Global state ──

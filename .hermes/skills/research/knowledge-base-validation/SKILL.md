@@ -161,6 +161,7 @@ Older reports and archived files may still contain literal `pending` in historic
    **Or use the reusable scripts:**
    - `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-approval.sh YYYY-MM-DD` — date-specific check
    - `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-all-approved.sh` — global sweep for stale headers + pending count + 📋 markers
+   - `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-approval-batch.sh [YYYY-MM-DD ...]` — batch approval verification (no `set -e`, handles markdown bold, satisfies `hermes-verify-` gate). Pass dates as args or omit for all approved reports.
 
    **⚠️ PITFALL — System demands in-turn evidence:** If verification ran in a previous turn, the system will re-flag edits as unverified even though checks already passed. Re-run the verification inline in the current turn with a simple `grep` one-liner to satisfy the gate. This is a platform behavior, not a task failure.
 

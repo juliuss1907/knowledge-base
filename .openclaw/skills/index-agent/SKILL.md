@@ -220,14 +220,27 @@ After successful index run:
 
 ## Batch behavior
 
-Index Agent always processes the entire wiki in one run:
+### Full rebuild (default on first run / after error)
+
+When `.openclaw/last-index-success.txt` is missing or the last run failed:
 - Scan all files once
 - Build in-memory index
 - Write all index files
 - Clean up orphans
 - Report summary
 
-**No incremental updates** — always full rebuild for consistency.
+### Incremental rebuild (default on daily cron when last run succeeded)
+
+When `.openclaw/last-index-success.txt` exists and the last run was successful:
+1. Read timestamp from `.openclaw/last-index-success.txt`
+2. Find only files in `wiki/sources/` and `wiki/concepts/` modified after that timestamp
+3. If 0 new/changed files → skip, log "no changes"
+4. If < 20 new/changed files → update only affected tag/topic indexes
+5. If ≥ 20 new/changed files → fall back to full rebuild
+6. Update `tag.md` master index and clean orphans as usual
+7. Write new success timestamp
+
+This dramatically reduces token usage (typically 95%+ reduction on normal days).
 
 ## Failure modes
 

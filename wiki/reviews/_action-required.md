@@ -4,15 +4,31 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-11 12:10
+**Last updated:** 2026-07-11 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
+
+| Report | Status |
+|---|---|
+| Format 2026-07-11 | ⏳ PENDING |
+
 **Last batch applied:** 5 reports (07-09 to 07-10) **APPLIED** 2026-07-11 by Fix Agent
-**Next batch awaiting:** Chưa có — chờ Hermes chạy tiếp
+**Next batch awaiting:** Format 07-11 — clean run, no fixes needed (305 forward-ref WARNINGs only)
+
+---
+
+## Pending Reports
+
+### Format 2026-07-11
+
+- **Report:** `wiki/reviews/2026-07-11_format-report.md`
+- **Summary:** 0 ERROR, 305 WARNING, 0 INFO
+- **Delta vs 07-10:** -3 issues (-2 ERRORs fixed by Fix Agent, -1 WARNING)
+- **Actions needed:** None — zero format violations across all 719 files. First clean run since 07-02. Two long-standing ERRORs (slug length + missing Notes section) finally resolved by Fix Agent on 07-11. All 305 WARNINGs are forward-reference wikilinks (193 unique targets).
 
 ---
 

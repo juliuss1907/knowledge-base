@@ -651,3 +651,11 @@
 - **New files:** 0 — không có file nào được compile hôm nay
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 - **Result:** [SILENT] — nothing new to validate
+
+## 2026-07-11 23:15:00 — Format validation
+- **Files checked:** 719 (137 sources + 415 concepts + 10 indexes + 157 topics)
+- **New files:** 0 — KB size stable
+- **Issues found:** 305 (0 ERROR, 305 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-11_format-report.md
+- **Top violations:** All 305 WARNINGs are forward-reference wikilinks (193 unique broken targets)
+- **Note:** First clean run since 07-02 — ZERO format compliance ERRORs. Two long-standing ERRORs (slug length + missing Notes section) solved by Fix Agent 07-11.

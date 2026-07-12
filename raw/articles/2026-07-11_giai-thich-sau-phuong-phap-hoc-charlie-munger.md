@@ -8,7 +8,9 @@ title: "Giải thích sâu phương pháp học Charlie Munger — Notes của J
 date_ingested: 2026-07-11
 date_published: 2026-07-11
 tags: [productivity, psychology]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-12
+compiled_to: "[[src_giai-thich-sau-phuong-phap-hoc-charlie-munger]]"
 ---
 
 # Giải thích sâu phương pháp học Charlie Munger — Notes của Julius

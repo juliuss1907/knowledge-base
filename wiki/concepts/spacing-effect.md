@@ -6,6 +6,7 @@ sub_tags: [psychology, research]
 topic: learning-methods
 sources:
   - "[[src_giai-thich-sau-phuong-phap-hoc-charlie-munger]]"
+  - "[[src_learn-anything-like-charlie-munger]]"
 last_updated: 2026-07-12
 ---
 

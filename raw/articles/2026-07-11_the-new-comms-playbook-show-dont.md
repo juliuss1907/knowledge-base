@@ -8,7 +8,9 @@ title: "The new comms playbook: show, don't promise"
 date_ingested: 2026-07-11
 date_published: 2026-06-20
 tags: [crypto, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-12
+compiled_to: "[[src_the-new-comms-playbook-show-dont]]"
 ---
 
 # The new comms playbook: show, don't promise

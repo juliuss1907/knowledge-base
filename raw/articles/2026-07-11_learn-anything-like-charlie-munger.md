@@ -8,7 +8,9 @@ title: "The Learning Method Charlie Munger Never Wrote Down (But Lived By)"
 date_ingested: 2026-07-11
 date_published: 2026-01-26
 tags: [productivity, psychology]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-12
+compiled_to: "[[src_learn-anything-like-charlie-munger]]"
 ---
 
 # The Learning Method Charlie Munger Never Wrote Down (But Lived By)

@@ -23,9 +23,9 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 - Total: 114 files
-- By status: 111 processed, 3 unprocessed
-- By date: 16 this week, 111 this month
-- Last updated: 2026-07-11
+- By status: 114 processed, 0 unprocessed
+- By date: 19 this week, 114 this month
+- Last updated: 2026-07-12
 ## Items
 - [[2026-07-11_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — Giải thích sâu phương pháp học Charlie Munger — Notes của Julius (unprocessed)
 

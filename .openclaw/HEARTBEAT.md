@@ -1,7 +1,7 @@
-Heartbeat 16:00 — ✅ HEARTBEAT_OK
+Heartbeat 13:30 — ✅ HEARTBEAT_OK
 - Inbox: clean.
-- Raw: 1 file (07-11) unprocessed, <24h — expected.
-- Concept spot-check (four-layer-framework, atomic-mac-agent): backlinks OK.
+- Raw: 1 file (2026-07-12) unprocessed, <24h — expected.
+- Concept spot-check (softbank-carry-trade, prospective-memory-gap): backlinks OK (wikilinks in frontmatter).
 - Pending reviews: 0 pending — all batches applied.
-- KB: 415 concepts (170 reviewed, 245 draft), 137 sources, 1 tag index, 157 topics, 144 raw files.
+- KB: 422 concepts (170 reviewed, 252 draft), 140 sources, 1 tag index, 157 topics, 147 raw files.
 - Root structure: clean.

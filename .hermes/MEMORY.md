@@ -659,3 +659,14 @@
 - **Report:** wiki/reviews/2026-07-11_format-report.md
 - **Top violations:** All 305 WARNINGs are forward-reference wikilinks (193 unique broken targets)
 - **Note:** First clean run since 07-02 — ZERO format compliance ERRORs. Two long-standing ERRORs (slug length + missing Notes section) solved by Fix Agent 07-11.
+
+## 2026-07-12 23:10:48 — Output validation
+- **Files checked:** 563 (140 sources + 422 concepts + 1 action file)
+- **New files:** 10 (3 sources + 7 concepts) — skip 07-11 (0 files), baseline 07-10
+- **Issues found:** 4 (1 ERROR, 2 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-07-12_output-report.md
+- **Top violations:**
+  - 1 ERROR: Broken wikilink — `forgetting-curve` concept referenced but file missing
+  - 2 WARNING: 14 pre-existing concepts missing backlinks to new sources (systemic, aggregated)
+  - 1 INFO: All 7 new concepts have single-sentence definitions (Compile Agent style, 420 concepts total)
+- **New file quality:** ALL CLEAN — zero typos, zero truncation, complete sections, clean Vietnamese

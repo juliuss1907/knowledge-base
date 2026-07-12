@@ -4,15 +4,35 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-12 08:40
+**Last updated:** 2026-07-12 23:10
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 2 reports (07-11) **APPLIED** 2026-07-12 by Fix Agent
-**Next batch awaiting:** Chưa có — chờ Hermes chạy tiếp
+**Next batch awaiting:** Output 07-12 — 4 issues (1 ERROR, 2 WARNING, 1 INFO)
+
+---
+
+## Pending Reports
+
+### 🔍 Output Validation — 2026-07-12 (23:10)
+
+**File:** `wiki/reviews/2026-07-12_output-report.md`
+**Status:** pending
+**Summary:** 10 new files validated. 4 issues found:
+- 1 ERROR: Missing concept `forgetting-curve` (broken wikilink in `spacing-effect.md`)
+- 2 WARNING: 14 pre-existing concepts missing backlinks to new sources (systemic, aggregated)
+- 1 INFO: All 7 new concepts have single-sentence definitions (Compile Agent style, known pattern)
+- New files themselves: ALL CLEAN — no typos, no truncation, complete sections, clean Vietnamese
+
+**Actions:**
+- [P1] Fix Agent: Create `forgetting-curve.md` or remove broken wikilink from `spacing-effect.md`
+- [P2] Fix Agent: Add source backlinks to 14 pre-existing concepts (see report Issues 2-15)
+- [P3] Review: Compile Agent single-sentence definition style (420 concepts affected systemically)
+- Report: `wiki/reviews/2026-07-12_output-report.md`
 
 ---
 

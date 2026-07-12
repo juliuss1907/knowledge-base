@@ -4,19 +4,33 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-12 23:10
+**Last updated:** 2026-07-12 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 2 reports (07-11) **APPLIED** 2026-07-12 by Fix Agent
 **Next batch awaiting:** Output 07-12 — 4 issues (1 ERROR, 2 WARNING, 1 INFO)
 
 ---
 
 ## Pending Reports
+
+### 📐 Format Validation — 2026-07-12 (23:15)
+
+**File:** `wiki/reviews/2026-07-12_format-report.md`
+**Status:** pending
+**Summary:** 758 files checked. 307 issues:
+- 0 ERRORs — third consecutive clean run
+- 307 WARNINGs — all broken wikilinks (forward-refs, systemic)
+- 0 INFOs
+
+**Actions:**
+- No Fix Agent action needed — all WARNINGs are forward-reference wikilinks
+- 195 unique missing targets, top: `game-theory` (10), `confirmation-bias` (8)
+- Report: `wiki/reviews/2026-07-12_format-report.md`
 
 ### 🔍 Output Validation — 2026-07-12 (23:10)
 

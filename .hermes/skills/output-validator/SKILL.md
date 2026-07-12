@@ -186,7 +186,7 @@ After successful validation run:
    ```bash
    bash .hermes/skills/output-validator/scripts/verify-output.sh
    ```
-   This checks `_action-required.md` (pending count, status line, section uniqueness, no corruption), today's output report (exists + all 5 required sections), and `.hermes/MEMORY.md` (log entry present). Exit code 0 = all good.
+   Checks `_action-required.md` (pending count, Output Validation entry, Pending Reports section uniqueness, Applied Reports intact), today's output report (exists + non-empty + all required fields), and `.hermes/MEMORY.md` (today's log entry + report reference). Exit code 0 = all good. If the script reports failures due to format drift, fall back to the manual checks documented in Production Lessons.
 
 1. **Verify report written:**
    ```bash
@@ -410,13 +410,15 @@ When the previous output report was approved and archived to `wiki/reviews/archi
 
 **Pattern (2026-07-02):** Last output validation was 06-30, report archived to `archive/2026-06/`. `find -newer wiki/reviews/2026-06-30_output-report.md` returned 0. But 28 files (8 sources + 17 concepts on 07-01 + 3 on 07-02) had never been output-validated. The quick-scan script caught the 07-02 files via frontmatter date matching but did not flag the 07-01 gap.
 
-### verify-output.sh section naming false positives (2026-07-04)
+### verify-output.sh section naming false positives (2026-07-04, RESOLVED 2026-07-12)
 
-The `scripts/verify-output.sh` script checks for specific section headers like "Output Validator Report", "New files validated", "Systemic issues", and "Actions" in the output report. However, the actual report format uses section headers like "New file deep validation: ALL CLEAN" and "Systemic patterns (INFO — carry-over, không phải issues mới)" which don't match the script's exact string expectations.
+**Original issue:** The `scripts/verify-output.sh` script checked for section headers matching an older `_action-required.md` format (e.g., `## Pending — YYYY-MM-DD`, `### 🔲 Output Validation — YYYY-MM-DD`, `## Approved — 2026-06-29`) that no longer existed after the file was restructured to use `## Pending Reports`, `### 🔍 Output Validation — YYYY-MM-DD (HH:MM)`, and `## Applied Reports`.
 
-**Symptom:** verify-output.sh reports 4-5 failures with section names like `❌ Section 'Output Validator Report' present` and `❌ Section 'Actions' present` — even when the report is structurally complete.
+**Resolution (2026-07-12):** Script updated to match the current format. Checks now target `## Pending Reports`, `Output Validation — ${TODAY}`, `## Applied Reports`, and `**Pending reports awaiting review:** N`. The section uniqueness check now counts `## Pending Reports` headers instead of per-date sections.
 
-**Mitigation:** Treat verify-output.sh results as advisory, not authoritative. The script's structural checks (pending count, status line, section uniqueness, no corruption) are reliable. Its section-name checks are rigid — if those fail but the report has all required content (status, issues, evidence, suggested fixes, summary), the report is valid. Check manually:
+**Symptom of stale script:** verify-output.sh reports 4-5 failures like `❌ Section 'Output Validator Report' present` and `❌ Section 'Actions' present` — even when the report is structurally complete.
+
+**Mitigation (if script gets stale again):** Treat verify-output.sh results as advisory, not authoritative. The script's structural checks (pending count, status line, section uniqueness, no corruption) are reliable. Its section-name checks are rigid — if those fail but the report has all required content (status, issues, evidence, suggested fixes, summary), the report is valid. Check manually:
 ```bash
 # These are the reliable checks:
 grep -q "^\*\*Status:\*\* pending" wiki/reviews/YYYY-MM-DD_output-report.md
@@ -424,8 +426,6 @@ grep -q "^\*\*Issues found:\*\*" wiki/reviews/YYYY-MM-DD_output-report.md
 grep -q "^\*\*Created:\*\*" wiki/reviews/YYYY-MM-DD_output-report.md
 grep -c "^## Issue [0-9]" wiki/reviews/YYYY-MM-DD_output-report.md  # should match reported count
 ```
-
-**When this matters:** The verify script exit code (1) should not be treated as a hard failure blocking the validation run. If the reliable checks above pass, the post-validation step is complete regardless of section-name mismatches.
 
 ### Ad-hoc verification script: `set -euo pipefail` + `grep -q` in eval context
 

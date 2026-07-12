@@ -10,6 +10,14 @@
 
 ---
 
+## 2026-07-12 23:15 — Format validation
+
+- Files checked: 758 (422 concepts + 140 sources + 33 indexes + 163 topics)
+- Issues found: 307 (0 ERROR, 307 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-07-12_format-report.md
+- Top violations: All 307 WARNINGs are broken wikilinks (forward-refs). 195 unique missing targets. Top: game-theory (10x), confirmation-bias (8x), ai-coding-agents (5x)
+- Delta vs 07-11: +2 WARNINGs, 0 ERRORs. Third consecutive clean run.
+
 ## 2026-07-10 23:15 — Format validation
 
 - **Files checked:** 719 (415 concepts + 137 sources + 10 indexes + 157 topics)

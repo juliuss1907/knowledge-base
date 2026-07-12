@@ -36,23 +36,19 @@ ACT="$KB_DIR/wiki/reviews/_action-required.md"
 [ -f "$ACT" ] || { echo "  ❌ _action-required.md not found"; exit 1; }
 
 check "Pending count = 1" \
-  grep -qF 'Pending reports awaiting review:** 1' "$ACT"
+  grep -q '\*\*Pending reports awaiting review:\*\* 1' "$ACT"
 
-check "Status line for today present" \
-  grep -qF "Output Validator — ${TODAY}" "$ACT"
+check "Output Validation entry for today present" \
+  grep -qF "Output Validation — ${TODAY}" "$ACT"
 
-check "Pending section header exists" \
-  grep -qF "## Pending — ${TODAY}" "$ACT"
+check "Pending Reports section header exists" \
+  grep -qF "## Pending Reports" "$ACT"
 
-check "Output Validation entry exists" \
-  grep -qF "### 🔲 Output Validation — ${TODAY}" "$ACT"
+check "Applied Reports section intact" \
+  grep -qF "## Applied Reports" "$ACT"
 
-# Check no approved sections were corrupted
-check "Approved 06-29 section intact" \
-  grep -qF '## Approved — 2026-06-29' "$ACT"
-
-# Check Pending section is unique (not duplicated)
-PC=$(grep -cF "## Pending — ${TODAY}" "$ACT" || echo 0)
+# Check Pending Reports section is unique (not duplicated)
+PC=$(grep -cF "## Pending Reports" "$ACT" || echo 0)
 PC=$(echo "$PC" | tr -d '[:space:]')
 [ "$PC" = "1" ] && { echo "  ✅ Pending section unique ($PC)"; PASS=$((PASS+1)); } \
   || { echo "  ❌ Pending section appears $PC times (expected 1)"; FAIL=$((FAIL+1)); }

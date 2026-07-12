@@ -94,6 +94,7 @@ These files may be added to but never have entries removed or rewritten:
 ### 4.4 Forbidden actions
 
 - ❌ No agent may create new top-level folders
+- ❌ No agent may create `memory/` at KB root — memory logs go to `.openclaw/memory/` only
 - ❌ No agent may delete files in `raw/`
 - ❌ No agent may move files between `wiki/concepts/` and `wiki/sources/`
 - ❌ No agent may use nested tag syntax (`#ai/tools`) — flat tags only

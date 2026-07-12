@@ -1,2 +1,0 @@
-sleep-hygiene.md
-pattern-recognition.md

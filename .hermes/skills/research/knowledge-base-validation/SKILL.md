@@ -75,7 +75,19 @@ Valid status values: `draft` | `reviewed` | `needs-revision`
 ### 3. Hygiene Inspector
 Checks: folder structure, no orphan files, no .bak/.tmp files.
 
-**Root-level items (memory/, search/, RAW_BACKLOG.md, venv/) = OUTSIDE Kara scope — belong to Julius. DO NOT flag these as hygiene issues.** Kara only cleans wiki/, sources/, concepts/.
+**Root-level items — tiered treatment:**
+
+| Item | Flag? | Why | Fix |
+|---|---|---|---|
+| `memory/` at root | ✅ FLAG (ERROR) | Agent-created out-of-zone — Kara hoặc OpenClaw agent tạo nhầm. Recurring issue. | Move to `.openclaw/memory/`, `rmdir memory/`, add rule to AGENTS.md §4.4 |
+| `random_concepts.txt`, `index_kb.py` | ✅ FLAG (ERROR) | Agent artifacts leaked to root | Move to appropriate dir or delete |
+| `search/`, `venv/` | ❌ DO NOT FLAG | Human-owned, intentional | Julius manages these |
+
+**AGENTS.md is the permanent fix layer:** When a root-level hygiene issue recurs (e.g., `memory/` reappears after being moved 3+ times), the root cause is an agent creating files outside its write-zone. The permanent fix is adding a rule to `AGENTS.md` §4.4 (Forbidden actions), not just moving files. Patch pattern: `AGENTS.md` §4.4 + `.openclaw/skills/<agent>/SKILL.md`.
+
+**Hygiene fixes during approval — Connor CAN handle root-level items:** Unlike wiki content edits (strictly Kara's territory), root-level hygiene fixes (moving `memory/`, deleting `random_concepts.txt`) are safe for Connor to apply immediately during approval. These don't touch `wiki/concepts/` or `wiki/sources/`. In the dashboard, mark status as `approved (applied)` to indicate fixes were done inline.
+
+**Kara scope:** Only cleans wiki/, sources/, concepts/. Root-level issues belong to Julius or are handled inline during Connor's approval.
 
 **Orphan detection nuance (2026-06-14):**
 - Orphan **concepts** (no source links): Check for `[[src_*]]` anywhere in concept body. In 282 concepts, 0 orphans found — all concepts link to at least one source.
@@ -546,7 +558,7 @@ Per format-spec.md §3.2, source files do NOT have a `status` field. Only concep
 | Wikilinks frontmatter | `"[[slug]]"` (quoted for Obsidian) |
 | Wikilinks body | `[[slug]]` (bare) |
 | Source original field | `[[YYYY-MM-DD_slug]]` (NO `.md` extension) |
-| Hygiene scope | wiki/, sources/, concepts/ only — NOT root-level folders |
+| Hygiene scope | wiki/, sources/, concepts/ — plus root-level agent artifacts (memory/, leaked scripts). Tiered: see §3 Hygiene Inspector |
 | Duplicate YAML | `sub_tags` must NOT appear as both inline array AND block list |
 | Pool B as main_tag | `psychology` as main_tag = invalid (Pool B only) |
 | Source slug max length | 50 characters (ERROR if exceeded) |

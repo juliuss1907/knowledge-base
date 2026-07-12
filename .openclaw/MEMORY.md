@@ -2700,3 +2700,25 @@
 - **Source note:** wiki/sources/src_living-beyond-the-labels.md
 - **Concepts:** label-cognitive-shortcut, internal-foundation-identity, identity-threat-neuroscience
 - **Tags:** main=#productivity, sub=[#psychology, #opinion], topic=labels-identity-perception
+
+## 2026-07-12 08:00 — Compile Agent Batch (3 files)
+
+### Raw: articles/2026-07-11_giai-thich-sau-phuong-phap-hoc-charlie-munger.md
+- **Source note:** wiki/sources/src_giai-thich-sau-phuong-phap-hoc-charlie-munger.md
+- **Concepts:** fluency-illusion, retrieval-practice, spacing-effect, chauffeur-knowledge
+- **Tags:** main=#productivity, sub=[#psychology, #research], topic=charlie-munger-learning-method
+- **Action:** created 4 concept files
+
+### Raw: articles/2026-07-11_learn-anything-like-charlie-munger.md
+- **Source note:** wiki/sources/src_learn-anything-like-charlie-munger.md
+- **Concepts:** merged into existing fluency-illusion, retrieval-practice, spacing-effect, chauffeur-knowledge
+- **Tags:** main=#productivity, sub=[#psychology, #research], topic=charlie-munger-learning-method
+- **Action:** merged into 4 existing concept files
+
+### Raw: articles/2026-07-11_the-new-comms-playbook-show-dont.md
+- **Source note:** wiki/sources/src_the-new-comms-playbook-show-dont.md
+- **Concepts:** show-me-era, proof-stack, two-track-communications
+- **Tags:** main=#crypto, sub=[#opinion, #news], topic=crypto-communications-playbook
+- **Action:** created 3 concept files
+
+**Summary:** Processed 3/3 files. 7 concepts created, 4 concepts updated. 0 tag proposals. 0 errors.

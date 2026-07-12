@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: game-theory-strategic-thinking
 auto_generated: true
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 # Topic: game-theory-strategic-thinking
 
 Auto-generated index of all content with topic `game-theory-strategic-thinking`.
 
-Last updated: 2026-07-10 21:03:28
+Last updated: 2026-07-12 21:04:44
 
 ---
 

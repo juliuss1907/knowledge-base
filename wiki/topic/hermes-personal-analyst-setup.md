@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-personal-analyst-setup
 auto_generated: true
-last_updated: 2026-07-10
+last_updated: 2026-07-12
 ---
 
 # Topic: hermes-personal-analyst-setup
 
 Auto-generated index of all content with topic `hermes-personal-analyst-setup`.
 
-Last updated: 2026-07-10 21:03:28
+Last updated: 2026-07-12 21:04:44
 
 ---
 

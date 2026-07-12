@@ -2722,3 +2722,14 @@
 - **Action:** created 3 concept files
 
 **Summary:** Processed 3/3 files. 7 concepts created, 4 concepts updated. 0 tag proposals. 0 errors.
+
+## 2026-07-12 21:04:44 — Indexed (incremental cron)
+
+- **Mode:** incremental (18 changed files, threshold 20)
+- **Scanned:** 562 wiki files (concepts + sources)
+- **Tags indexed:** 23 (9 main-tags + 17 sub-tags — 3 sub-tags unused)
+- **Topics indexed:** 163
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0
+- **tag.md updated:** Items + Stats sections

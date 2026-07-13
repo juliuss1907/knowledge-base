@@ -4,19 +4,34 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-12 23:30
+**Last updated:** 2026-07-13 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 5
 **Last batch applied:** 2 reports (07-11) **APPLIED** 2026-07-12 by Fix Agent
-**Next batch awaiting:** Output 07-12 — 4 issues (1 ERROR, 2 WARNING, 1 INFO)
+**Next batch awaiting:** Format 07-13 — 315 WARNINGs (all broken wikilinks, 0 ERRORs)
 
 ---
 
 ## Pending Reports
+
+### 📐 Format Validation — 2026-07-13 (23:15)
+
+**File:** `wiki/reviews/2026-07-13_format-report.md`
+**Status:** pending
+**Summary:** 769 files checked. 315 issues:
+- 0 ERRORs — fourth consecutive clean run
+- 315 WARNINGs — all broken wikilinks (forward-refs, systemic)
+- 0 INFOs
+
+**Actions:**
+- No Fix Agent action needed — all WARNINGs are forward-reference wikilinks
+- 198 unique missing targets, top: `game-theory` (10), `confirmation-bias` (8)
+- Delta vs 07-12: +11 files, +8 WARNINGs
+- Report: `wiki/reviews/2026-07-13_format-report.md`
 
 ### 📐 Format Validation — 2026-07-12 (23:15)
 
@@ -60,6 +75,22 @@
 **Actions:**
 - Move `selected_concepts.txt` to appropriate subfolder or delete
 - Report: `wiki/reviews/2026-07-12_hygiene-report.md`
+
+### 🔍 Output Validation — 2026-07-13 (23:08)
+
+**File:** `wiki/reviews/2026-07-13_output-report.md`
+**Status:** pending
+**Summary:** 10 new files validated (3 sources + 7 concepts). 5 issues found:
+- 1 ERROR: 3 missing wikilink targets (`delayed-gratification`, `onchain-loyalty-programs`, `utility-tokens`) — aggregated
+- 2 WARNING: 6 pre-existing concepts missing source backlinks + English-Vietnamese mixing in `deliberate-practice.md`
+- 2 INFO: All 7 concepts single-sentence definitions (systemic, now 425 total) + empty Notes sections
+
+**Actions:**
+- [P1] Create 3 missing concepts or remove wikilinks from referencing files
+- [P2] Add source backlinks to 6 pre-existing concepts (persuasion-psychology, circle-of-competence, lazy-thinking, first-principles-thinking, discipline-as-freedom, dopamine-reward-loop)
+- [P3] Clean English fragments in `deliberate-practice.md` Key ideas section (5 occurrences)
+- [P4] Review Compile Agent definition style — 425 concepts affected systemically
+- Report: `wiki/reviews/2026-07-13_output-report.md`
 
 ---
 

@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 213
-- Sources: 60
-- Concepts: 153
-- Last updated: 2026-07-12
+- Total files: 218
+- Sources: 62
+- Concepts: 156
+- Last updated: 2026-07-13
 
 ## Files with this tag
 
@@ -75,7 +75,9 @@ last_updated: 2026-07-12
 - [[framing-mental-model]] — Framing Mental Model (concept)
 - [[galilean-relativity]] — Galilean Relativity (concept)
 - [[gamification-design-patterns]] — Gamification Design Patterns (concept)
+- [[goal-announcement-trap]] — Goal Announcement Trap (concept)
 - [[growth-and-relationships]] — Growth And Relationships (concept)
+- [[outsourced-thinking]] — Outsourced Thinking (concept)
 - [[habit-automation]] — Habit Automation (concept)
 - [[hanlons-razor]] — Hanlons Razor (concept)
 - [[high-agency]] — High Agency (concept)
@@ -91,7 +93,8 @@ last_updated: 2026-07-12
 - [[interdisciplinary-thinking]] — Interdisciplinary Thinking (concept)
 - [[internal-alignment]] — Internal Alignment (concept)
 - [[internal-foundation-identity]] — Internal Foundation Identity (concept)
-- [[intrinsic-motivation]] — Intrinsic Motivation (
+- [[intrinsic-motivation]] — Intrinsic Motivation (concept)
+- [[investment-conviction]] — Investment Conviction (concept)
 - [[know-when-not-to-trade]] — Know When Not To Trade (concept)
 - [[label-cognitive-shortcut]] — Label Cognitive Shortcut (concept)
 - [[latticework-of-mental-models]] — Latticework Of Mental Models (concept)
@@ -240,8 +243,9 @@ last_updated: 2026-07-12
 
 ## Co-occurring tags
 
-- [[productivity]] — 167 co-occurrences
-- [[opinion]] — 78 co-occurrences
+- [[productivity]] — 172 co-occurrences
+- [[opinion]] — 84 co-occurrences
 - [[research]] — 59 co-occurrences
+- [[investment]] — 6 co-occurrences
 - [[economic]] — 19 co-occurrences
 - [[system]] — 15 co-occurrences

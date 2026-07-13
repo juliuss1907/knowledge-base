@@ -1,3 +1,13 @@
+## 2026-07-13 21:00 — Indexed (Incremental)
+
+- **Mode:** Incremental
+- **Changed files:** 10
+- **Tag indexes updated:** 8 (investment, crypto, productivity, opinion, psychology, defi, tools, research)
+- **Topic indexes created:** 3 (independent-investment-research, arcade-tokens, art-of-being-overlooked)
+- **Topic indexes updated:** 2 (deliberate-practice, ikigai-unbundling)
+- **Orphans deleted:** 0
+- **Errors:** 0
+
 ## 2026-07-09 08:00 — Compiled (Daily Batch)
 
 - **Processed:** 3/3 files

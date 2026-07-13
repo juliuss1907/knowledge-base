@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-13 23:15
+**Last updated:** 2026-07-13 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 5
+**Pending reports awaiting review:** 6
 **Last batch applied:** 2 reports (07-11) **APPLIED** 2026-07-12 by Fix Agent
 **Next batch awaiting:** Format 07-13 — 315 WARNINGs (all broken wikilinks, 0 ERRORs)
 
@@ -62,6 +62,20 @@
 - [P2] Fix Agent: Add source backlinks to 14 pre-existing concepts (see report Issues 2-15)
 - [P3] Review: Compile Agent single-sentence definition style (420 concepts affected systemically)
 - Report: `wiki/reviews/2026-07-12_output-report.md`
+
+### 📁 Hygiene Inspection — 2026-07-13 (23:30)
+
+**File:** `wiki/reviews/2026-07-13_hygiene-report.md`
+**Status:** pending
+**Summary:** 51,825 paths checked. 1 issue:
+- 1 ERROR: `selected_concepts.txt` at KB root — not in root whitelist (recurring — also flagged 07-12)
+- 0 WARNINGs
+- 0 INFOs
+
+**Actions:**
+- Move `selected_concepts.txt` to appropriate subfolder (`wiki/drafts/`, `raw/`, or `scripts/`), delete, or whitelist in folder-structure.md
+- Report: `wiki/reviews/2026-07-13_hygiene-report.md`
+- **Note:** Same issue as 07-12 — unresolved. Recurring.
 
 ### 📁 Hygiene Inspection — 2026-07-12 (23:30)
 

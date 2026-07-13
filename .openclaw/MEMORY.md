@@ -9,6 +9,17 @@
   - [[raw/articles/2026-07-08_our-first-heartbreaks-were-our-parents.md]] → [[src_our-first-heartbreaks-were-our-parents]] (#health, #psychology, #opinion)
   - [[raw/articles/2026-07-08_thiet-ke-quy-tac-bao-ve-su-chu-y.md]] → [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] (#productivity, #psychology, #opinion)
 
+## 2026-07-13 08:00 — Compiled (Daily Batch)
+
+- **Processed:** 3/3 files
+- **Source notes created:** 3
+- **Concepts created:** 5 (outsourced-thinking, investment-conviction, goal-announcement-trap, arcade-tokens, token-economic-mechanics)
+- **Concepts updated:** 2 (intrinsic-motivation, deliberate-practice)
+- **Details:**
+  - [[raw/articles/2026-07-12_an-all-too-common-investment-story.md]] → [[src_an-all-too-common-investment-story]] (#investment, #opinion, #psychology)
+  - [[raw/articles/2026-07-12_the-art-of-being-overlooked-stay-silent.md]] → [[src_the-art-of-being-overlooked-stay-silent]] (#productivity, #psychology, #opinion)
+  - [[raw/articles/2026-07-12_the-most-underrated-token-type.md]] → [[src_the-most-underrated-token-type]] (#crypto, #defi, #tools)
+
 ## 2026-07-07 08:00 — Compiled (Daily Batch)
 
 - **Processed:** 3/3 files

@@ -8,7 +8,9 @@ title: "The most underrated token type"
 date_ingested: 2026-07-12
 date_published: 2026-07-11
 tags: [crypto, defi, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-13
+compiled_to: "[[src_the-most-underrated-token-type]]"
 ---
 
 # The most underrated token type

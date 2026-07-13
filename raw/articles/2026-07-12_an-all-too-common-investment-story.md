@@ -8,7 +8,9 @@ title: "An all too common investment story"
 date_ingested: 2026-07-12
 date_published: 2026-07-12
 tags: [crypto, opinion, productivity]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-13
+compiled_to: "[[src_an-all-too-common-investment-story]]"
 ---
 
 # An all too common investment story

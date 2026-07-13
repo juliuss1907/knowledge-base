@@ -6,7 +6,8 @@ sub_tags: [psychology, research]
 topic: deliberate-practice
 sources:
   - "[[src_the-laws-of-this-world]]"
-last_updated: 2026-07-01
+  - "[[src_the-art-of-being-overlooked-stay-silent]]"
+last_updated: 2026-07-13
 ---
 
 # Deliberate Practice
@@ -23,6 +24,9 @@ Khái niệm từ Ericsson, Krampe, & Tesch-Römer (1993): nỗ lực không có
 - Mastering the wrong problem is worse than failure — nó rút cạn năng lượng như thể bạn đang làm việc quan trọng
 - Đối với entrepreneur: không cạnh tranh trong không gian bão hòa với platitudes. Chọn 5 giá trị bạn actively wage war against
 - Câu hỏi: "Liệu nỗ lực của tôi có compound thành thứ thị trường cần không?" — nếu không, deliberate practice chỉ là busy work có tổ chức
+- Myelin: mỗi lần fire một neural circuit, não bọc pathway đó trong myelin (lớp béo). Càng nhiều myelin = tín hiệu càng nhanh, càng sạch. Myelin hình thành qua reps — không có shortcut
+- "A river cuts through rock not because of its power but its persistence" — James Watkins. Slow, boring, consistent reps thắng trong dài hạn
+- Tài năng bẩm sinh cho lợi thế ban đầu nhưng nếu ngừng cải thiện trong khi người khác tiếp tục luyện tập, lợi thế đó biến mất — slow wrapping wins
 
 ## Related concepts
 
@@ -30,10 +34,13 @@ Khái niệm từ Ericsson, Krampe, & Tesch-Römer (1993): nỗ lực không có
 - [[feedback-loop]]
 - [[laws-of-the-world]]
 - [[skill-acquisition-framework]]
+- [[intrinsic-motivation]]
+- [[goal-announcement-trap]]
 
 ## Sources
 
 - [[src_the-laws-of-this-world]]
+- [[src_the-art-of-being-overlooked-stay-silent]]
 
 ## Notes
 

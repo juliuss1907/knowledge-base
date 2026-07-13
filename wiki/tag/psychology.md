@@ -91,8 +91,7 @@ last_updated: 2026-07-12
 - [[interdisciplinary-thinking]] — Interdisciplinary Thinking (concept)
 - [[internal-alignment]] — Internal Alignment (concept)
 - [[internal-foundation-identity]] — Internal Foundation Identity (concept)
-- [[intrinsic-motivation]] — Intrinsic Motivation (concept)
-- [[inversion]] — Inversion (concept)
+- [[intrinsic-motivation]] — Intrinsic Motivation (
 - [[know-when-not-to-trade]] — Know When Not To Trade (concept)
 - [[label-cognitive-shortcut]] — Label Cognitive Shortcut (concept)
 - [[latticework-of-mental-models]] — Latticework Of Mental Models (concept)
@@ -208,6 +207,8 @@ last_updated: 2026-07-12
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
 - [[src_steve-jobs-stanford-2005-commencement]] — Steve Jobs Stanford 2005 Commencement (source)
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
+- [[src_an-all-too-common-investment-story]] — An All Too Common Investment Story (source)
+- [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiet Ke Quy Tac Bao Ve Su Chu Y (source)

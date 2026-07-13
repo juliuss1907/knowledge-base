@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 203
-- Sources: 65
-- Concepts: 138
-- Last updated: 2026-07-12
+- Total files: 209
+- Sources: 68
+- Concepts: 141
+- Last updated: 2026-07-13
 
 ## Files with this tag
 
@@ -74,6 +74,9 @@ last_updated: 2026-07-12
 - [[five-types-of-wealth]] — Five Types Of Wealth (concept)
 - [[flow-cycle]] — Flow Cycle (concept)
 - [[four-layer-framework]] — Four Layer Framework (concept)
+- [[goal-announcement-trap]] — Goal Announcement Trap (concept)
+- [[investment-conviction]] — Investment Conviction (concept)
+- [[outsourced-thinking]] — Outsourced Thinking (concept)
 - [[growth-and-relationships]] — Growth And Relationships (concept)
 - [[hedonic-treadmill]] — Hedonic Treadmill (concept)
 - [[hermes-token-management]] — Hermes Token Management (concept)
@@ -188,6 +191,8 @@ last_updated: 2026-07-12
 - [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source)
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
+- [[src_an-all-too-common-investment-story]] — An All Too Common Investment Story (source)
+- [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source)
 - [[src_the-new-comms-playbook-show-dont]] — The New Comms Playbook Show Dont (source)
 - [[src_the-next-generation-of-trading-wont]] — The Next Generation Of Trading Wont (source)
@@ -229,8 +234,9 @@ last_updated: 2026-07-12
 
 ## Co-occurring tags
 
-- [[productivity]] — 100 co-occurrences
-- [[psychology]] — 78 co-occurrences
+- [[productivity]] — 103 co-occurrences
+- [[psychology]] — 84 co-occurrences
 - [[research]] — 60 co-occurrences
+- [[investment]] — 8 co-occurrences
 - [[economic]] — 38 co-occurrences
 - [[ai]] — 36 co-occurrences

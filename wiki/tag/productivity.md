@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 247
-- Sources: 71
-- Concepts: 176
-- Last updated: 2026-07-12
+- Total files: 252
+- Sources: 72
+- Concepts: 179
+- Last updated: 2026-07-13
 
 ## Files with this tag
 
@@ -55,6 +55,8 @@ last_updated: 2026-07-12
 - [[cultural-memetics]] — Cultural Memetics (concept)
 - [[decoding-messages-language]] — Decoding Messages Language (concept)
 - [[deliberate-practice]] — Deliberate Practice (concept)
+- [[goal-announcement-trap]] — Goal Announcement Trap (concept)
+- [[intrinsic-motivation]] — Intrinsic Motivation (concept)
 - [[diminishing-returns-mental-model]] — Diminishing Returns Mental Model (concept)
 - [[discipline-as-freedom]] — Discipline As Freedom (concept)
 - [[discipline-system]] — Discipline System (concept)
@@ -239,6 +241,7 @@ last_updated: 2026-07-12
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source)
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
 - [[src_tao-ket-qua-dinh-luong-duoc]] — Tao Ket Qua Dinh Luong Duoc (source)
+- [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiet Ke Quy Tac Bao Ve Su Chu Y (source)
@@ -273,8 +276,8 @@ last_updated: 2026-07-12
 
 ## Co-occurring tags
 
-- [[psychology]] — 167 co-occurrences
-- [[opinion]] — 100 co-occurrences
-- [[research]] — 85 co-occurrences
+- [[psychology]] — 172 co-occurrences
+- [[opinion]] — 103 co-occurrences
+- [[research]] — 86 co-occurrences
 - [[tutorial]] — 28 co-occurrences
 - [[automation]] — 21 co-occurrences

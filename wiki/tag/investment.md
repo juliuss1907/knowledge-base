@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 9
-- Sources: 3
-- Concepts: 6
-- Last updated: 2026-07-12
+- Total files: 12
+- Sources: 4
+- Concepts: 8
+- Last updated: 2026-07-13
 
 ## Files with this tag
 
@@ -29,13 +29,16 @@ last_updated: 2026-07-12
 - [[five-types-of-wealth]] — Five Types Of Wealth (concept)
 - [[global-macro-investing]] — Global Macro Investing (concept)
 - [[holy-grail-investing]] — Holy Grail Investing (concept)
+- [[investment-conviction]] — Investment Conviction (concept)
+- [[outsourced-thinking]] — Outsourced Thinking (concept)
+- [[src_an-all-too-common-investment-story]] — An All Too Common Investment Story (source)
 - [[src_global-macro-investing]] — Global Macro Investing (source)
 - [[src_investment-principles-dalio]] — Investment Principles Dalio (source)
 - [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
 
 ## Co-occurring tags
 
-- [[opinion]] — 5 co-occurrences
+- [[opinion]] — 8 co-occurrences
+- [[psychology]] — 6 co-occurrences
 - [[research]] — 4 co-occurrences
-- [[psychology]] — 3 co-occurrences
 - [[tutorial]] — 2 co-occurrences

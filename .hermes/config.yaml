@@ -1,7 +1,7 @@
 model:
-  default: deepseek-v4-pro[1m]
-  provider: custom:api.ai-box.vn
-  base_url: https://api.ai-box.vn/v1
+  default: deepseek-v4-pro
+  provider: opencode-go
+  base_url: https://opencode.ai/zen/go/v1
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}

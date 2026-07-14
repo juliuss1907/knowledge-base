@@ -29,7 +29,6 @@ Hiện tượng tâm lý: khi bạn công bố một mục tiêu lớn và nhậ
 ## Related concepts
 
 - [[intrinsic-motivation]]
-- [[delayed-gratification]]
 - [[dopamine-reward-loop]]
 - [[discipline-as-freedom]]
 - [[deliberate-practice]]

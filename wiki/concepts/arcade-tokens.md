@@ -31,8 +31,6 @@ Một loại token trong taxonomy của a16z crypto, được thiết kế để
 ## Related concepts
 
 - [[token-economic-mechanics]]
-- [[onchain-loyalty-programs]]
-- [[utility-tokens]]
 
 ## Sources
 

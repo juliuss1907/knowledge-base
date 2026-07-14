@@ -42,4 +42,3 @@ Khác với network tokens hay security tokens được mua để đầu tư, ar
 
 - [[arcade-tokens]]
 - [[token-economic-mechanics]]
-- [[onchain-loyalty-programs]]

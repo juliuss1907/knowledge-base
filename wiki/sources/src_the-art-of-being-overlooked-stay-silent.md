@@ -45,6 +45,5 @@ Một điểm quan trọng khác: công bố mục tiêu trước khi hoàn thà
 - [[intrinsic-motivation]]
 - [[goal-announcement-trap]]
 - [[deliberate-practice]]
-- [[delayed-gratification]]
 - [[discipline-as-freedom]]
 - [[dopamine-reward-loop]]

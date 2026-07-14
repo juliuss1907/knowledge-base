@@ -30,7 +30,6 @@ Spacing effect (hiệu ứng giãn cách), còn gọi là distributed practice, 
 - [[retrieval-practice]]
 - [[fluency-illusion]]
 - [[deliberate-practice]]
-- [[forgetting-curve]]
 - [[memory-consolidation-offline]]
 
 ## Sources

@@ -34,7 +34,6 @@ last_updated: 2026-07-13
 - [[sacred-art]]
 - [[passion-economy-trap]]
 - [[goal-announcement-trap]]
-- [[delayed-gratification]]
 - [[dopamine-reward-loop]]
 
 ## Sources

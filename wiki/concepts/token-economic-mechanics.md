@@ -31,8 +31,6 @@ Các cơ chế kinh tế mà issuer của arcade token (hoặc token nói chung)
 ## Related concepts
 
 - [[arcade-tokens]]
-- [[onchain-loyalty-programs]]
-- [[utility-tokens]]
 
 ## Sources
 

@@ -4,15 +4,15 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-13 23:30
+**Last updated:** 2026-07-14
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 4
+**Approved, awaiting Fix Agent:** 2 reports (Output 07-12 + 07-13)
 **Last batch applied:** 2 reports (07-11) **APPLIED** 2026-07-12 by Fix Agent
-**Next batch awaiting:** Format 07-13 — 315 WARNINGs (all broken wikilinks, 0 ERRORs)
 
 ---
 
@@ -47,22 +47,6 @@
 - 195 unique missing targets, top: `game-theory` (10), `confirmation-bias` (8)
 - Report: `wiki/reviews/2026-07-12_format-report.md`
 
-### 🔍 Output Validation — 2026-07-12 (23:10)
-
-**File:** `wiki/reviews/2026-07-12_output-report.md`
-**Status:** pending
-**Summary:** 10 new files validated. 4 issues found:
-- 1 ERROR: Missing concept `forgetting-curve` (broken wikilink in `spacing-effect.md`)
-- 2 WARNING: 14 pre-existing concepts missing backlinks to new sources (systemic, aggregated)
-- 1 INFO: All 7 new concepts have single-sentence definitions (Compile Agent style, known pattern)
-- New files themselves: ALL CLEAN — no typos, no truncation, complete sections, clean Vietnamese
-
-**Actions:**
-- [P1] Fix Agent: Create `forgetting-curve.md` or remove broken wikilink from `spacing-effect.md`
-- [P2] Fix Agent: Add source backlinks to 14 pre-existing concepts (see report Issues 2-15)
-- [P3] Review: Compile Agent single-sentence definition style (420 concepts affected systemically)
-- Report: `wiki/reviews/2026-07-12_output-report.md`
-
 ### 📁 Hygiene Inspection — 2026-07-13 (23:30)
 
 **File:** `wiki/reviews/2026-07-13_hygiene-report.md`
@@ -90,21 +74,41 @@
 - Move `selected_concepts.txt` to appropriate subfolder or delete
 - Report: `wiki/reviews/2026-07-12_hygiene-report.md`
 
+---
+
+## Approved Reports (Awaiting Fix Agent)
+
 ### 🔍 Output Validation — 2026-07-13 (23:08)
 
 **File:** `wiki/reviews/2026-07-13_output-report.md`
-**Status:** pending
+**Status:** approved ✅
+**Approved by:** Julius — 2026-07-14
 **Summary:** 10 new files validated (3 sources + 7 concepts). 5 issues found:
 - 1 ERROR: 3 missing wikilink targets (`delayed-gratification`, `onchain-loyalty-programs`, `utility-tokens`) — aggregated
 - 2 WARNING: 6 pre-existing concepts missing source backlinks + English-Vietnamese mixing in `deliberate-practice.md`
 - 2 INFO: All 7 concepts single-sentence definitions (systemic, now 425 total) + empty Notes sections
 
-**Actions:**
+**Actions for Fix Agent:**
 - [P1] Create 3 missing concepts or remove wikilinks from referencing files
 - [P2] Add source backlinks to 6 pre-existing concepts (persuasion-psychology, circle-of-competence, lazy-thinking, first-principles-thinking, discipline-as-freedom, dopamine-reward-loop)
 - [P3] Clean English fragments in `deliberate-practice.md` Key ideas section (5 occurrences)
-- [P4] Review Compile Agent definition style — 425 concepts affected systemically
-- Report: `wiki/reviews/2026-07-13_output-report.md`
+- [P4] Low priority: Review Compile Agent definition style — 425 concepts affected systemically
+
+### 🔍 Output Validation — 2026-07-12 (23:10)
+
+**File:** `wiki/reviews/2026-07-12_output-report.md`
+**Status:** approved ✅
+**Approved by:** Julius — 2026-07-14
+**Summary:** 10 new files validated. 4 issues found:
+- 1 ERROR: Missing concept `forgetting-curve` (broken wikilink in `spacing-effect.md`)
+- 2 WARNING: 14 pre-existing concepts missing backlinks to new sources (systemic, aggregated)
+- 1 INFO: All 7 new concepts have single-sentence definitions (Compile Agent style, known pattern)
+- New files themselves: ALL CLEAN — no typos, no truncation, complete sections, clean Vietnamese
+
+**Actions for Fix Agent:**
+- [P1] Create `forgetting-curve.md` or remove broken wikilink from `spacing-effect.md`
+- [P2] Add source backlinks to 14 pre-existing concepts (see report Issues 2-15)
+- [P3] Low priority: Compile Agent single-sentence definition style (420 concepts affected systemically)
 
 ---
 

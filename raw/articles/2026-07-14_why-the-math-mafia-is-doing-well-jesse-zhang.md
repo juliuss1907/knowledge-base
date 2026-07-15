@@ -8,7 +8,9 @@ title: "Why the 'Math Mafia' is doing well"
 date_ingested: 2026-07-14
 date_published: 2026-07-13
 tags: [crypto, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-15
+compiled_to: "[[src_why-the-math-mafia-is-doing-well-jesse-zhang.md]]"
 ---
 
 # Why the "Math Mafia" is doing well

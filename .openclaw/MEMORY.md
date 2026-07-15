@@ -1,3 +1,19 @@
+## 2026-07-15 08:00 — Compiled (Daily Batch)
+
+- **Processed:** 1/1 files
+- **Source notes created:** 1
+- **Concepts created:** 3 (math-mafia, olympiad-to-founder-pipeline, quant-finance-culture)
+- **Concepts updated:** 0
+- **Tag proposals:** 0
+- **Errors:** 0
+
+### File: why-the-math-mafia-is-doing-well-jesse-zhang
+- **Raw:** [[raw/articles/2026-07-14_why-the-math-mafia-is-doing-well-jesse-zhang.md]]
+- **Source note:** [[wiki/sources/src_why-the-math-mafia-is-doing-well-jesse-zhang.md]]
+- **Concepts:** [[math-mafia]], [[olympiad-to-founder-pipeline]], [[quant-finance-culture]]
+- **Tags:** main=#tech, sub=[#opinion, #psychology], topic=math-mafia-olympiad-founders
+- **Action:** created 1 source note, created 3 concept files
+
 ## 2026-07-14 21:00 — Indexed (Incremental)
 
 - **Mode:** Incremental

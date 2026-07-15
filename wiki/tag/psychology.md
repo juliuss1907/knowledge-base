@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-15
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 218
-- Sources: 62
-- Concepts: 156
-- Last updated: 2026-07-13
+- Total files: 222
+- Sources: 63
+- Concepts: 159
+- Last updated: 2026-07-15
 
 ## Files with this tag
 
@@ -107,6 +107,7 @@ last_updated: 2026-07-12
 - [[long-term-thinking]] — Long Term Thinking (concept)
 - [[map-is-not-territory]] — Map Is Not Territory (concept)
 - [[markus-four-thinking-types]] — Markus Four Thinking Types (concept)
+- [[math-mafia]] — Math Mafia (concept)
 - [[meaning-through-suffering]] — Meaning Through Suffering (concept)
 - [[meaning-through-work]] — Meaning Through Work (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
@@ -120,6 +121,7 @@ last_updated: 2026-07-12
 - [[negotiation]] — Negotiation (concept)
 - [[occams-broom]] — Occams Broom (concept)
 - [[occams-razor]] — Occams Razor (concept)
+- [[olympiad-to-founder-pipeline]] — Olympiad To Founder Pipeline (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
@@ -140,6 +142,7 @@ last_updated: 2026-07-12
 - [[probabilistic-thinking]] — Probabilistic Thinking (concept)
 - [[productive-discomfort]] — Productive Discomfort (concept)
 - [[psychological-survival]] — Psychological Survival (concept)
+- [[quant-finance-culture]] — Quant Finance Culture (concept)
 - [[r3-framework]] — R3 Framework (concept)
 - [[real-options-theory]] — Real Options Theory (concept)
 - [[reciprocity]] — Reciprocity (concept)
@@ -197,6 +200,7 @@ last_updated: 2026-07-12
 - [[src_markus-four-thinking-types]] — Markus Four Thinking Types (source)
 - [[src_mathematical-reason-most-people-never-make-it]] — Mathematical Reason Most People Never Make It (source)
 - [[src_mental-models-of-art]] — Mental Models Of Art (source)
+- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
 - [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
 - [[src_most-profitable-skill-human-nature-dan-koe]] — Most Profitable Skill Human Nature Dan Koe (source)
 - [[src_occams-razor]] — Occams Razor (source)

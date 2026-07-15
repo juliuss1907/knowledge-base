@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tech
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-15
 ---
 
 # Tag: #tech
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 23
-- Sources: 5
-- Concepts: 18
-- Last updated: 2026-07-12
+- Total files: 27
+- Sources: 6
+- Concepts: 21
+- Last updated: 2026-07-15
 
 ## Files with this tag
 
@@ -29,16 +29,20 @@ last_updated: 2026-07-12
 - [[consent-phishing]] — Consent Phishing (concept)
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
 - [[gamification-design-patterns]] — Gamification Design Patterns (concept)
+- [[math-mafia]] — Math Mafia (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
 - [[google-ai-overviews]] — Google Ai Overviews (concept)
 - [[oauth-security-risks]] — Oauth Security Risks (concept)
+- [[olympiad-to-founder-pipeline]] — Olympiad To Founder Pipeline (concept)
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_gamification-app-truth]] — Gamification App Truth (source)
 - [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
+- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
 - [[streak-psychology]] — Streak Psychology (concept)
+- [[quant-finance-culture]] — Quant Finance Culture (concept)
 - [[supply-chain-attack]] — Supply Chain Attack (concept)
 - [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)

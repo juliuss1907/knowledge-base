@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-15
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 209
-- Sources: 68
-- Concepts: 141
-- Last updated: 2026-07-13
+- Total files: 213
+- Sources: 69
+- Concepts: 144
+- Last updated: 2026-07-15
 
 ## Files with this tag
 
@@ -107,6 +107,7 @@ last_updated: 2026-07-12
 - [[leverage-skills]] — Leverage Skills (concept)
 - [[long-term-thinking]] — Long Term Thinking (concept)
 - [[markus-four-thinking-types]] — Markus Four Thinking Types (concept)
+- [[math-mafia]] — Math Mafia (concept)
 - [[meaning-through-suffering]] — Meaning Through Suffering (concept)
 - [[meta-learning]] — Meta Learning (concept)
 - [[narrative-certainty-trap]] — Narrative Certainty Trap (concept)
@@ -114,6 +115,7 @@ last_updated: 2026-07-12
 - [[nice-syndrome]] — Nice Syndrome (concept)
 - [[non-commodity-content]] — Non Commodity Content (concept)
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
+- [[olympiad-to-founder-pipeline]] — Olympiad To Founder Pipeline (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
@@ -136,6 +138,7 @@ last_updated: 2026-07-12
 - [[proof-stack]] — Proof Stack (concept)
 - [[recognizing-life-signals]] — Recognizing Life Signals (concept)
 - [[reflexivity-soros]] — Reflexivity Soros (concept)
+- [[quant-finance-culture]] — Quant Finance Culture (concept)
 - [[retail-trading-fantasy]] — Retail Trading Fantasy (concept)
 - [[rot-economy]] — Rot Economy (concept)
 - [[saudi-pakistan-defense-agreement]] — Saudi Pakistan Defense Agreement (concept)
@@ -208,6 +211,7 @@ last_updated: 2026-07-12
 - [[src_why-china-got-rich-and-india-didnt]] — Why China Got Rich And India Didnt (source)
 - [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)
 - [[src_why-people-fail-at-learning-languages]] — Why People Fail At Learning Languages (source)
+- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
 - [[src_you-escape-competition-by-figuring-out-who-you-are]] — You Escape Competition By Figuring Out Who You Are (source)

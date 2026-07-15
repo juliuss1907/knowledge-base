@@ -216,15 +216,18 @@ For complete validation algorithm, format rules, and error handling, see:
 - [code-fence-and-raw-link-regressions.md](references/code-fence-and-raw-link-regressions.md) — validator regressions around fenced code blocks and raw-file wikilink resolution
 - [validate.py](scripts/validate.py) — reusable validation script (run from KB root)
 - [parse_issues.py](scripts/parse_issues.py) — parses pipe-delimited output: broken target counts, top-N lists, ERROR breakdown
+- [verify_integrity.py](scripts/verify_integrity.py) — cross-file consistency check: report, _action-required.md, MEMORY.md all agree on counts
 
 ## Post-validation
 
 After successful validation run:
 
-1. **Verify report written:**
+1. **Verify report written and cross-file integrity:**
    ```bash
-   test -f "wiki/reviews/$(date +%Y-%m-%d)_format-report.md"
+   cd /home/julius/knowledge-base
+   python3 .hermes/skills/format-validator/scripts/verify_integrity.py
    ```
+   This checks: report file exists with correct fields, _action-required.md has today's entry with matching counts, MEMORY.md has today's entry prepended with matching counts, and all three files are cross-consistent.
 
 2. **Update _action-required.md:**
    - **First, reconcile**: read the previous report's `**Status:**` header. If it says `approved` but `_action-required.md` still shows `⏳ PENDING`, update the status line and pending count before adding today's entry. See pitfall "_action-required.md may be stale".

@@ -368,6 +368,8 @@ Note: the sed must be ordered longest-match-first to avoid partial replacements.
 
 **Detection in quick-scan:** Now active in `scripts/quick-scan.sh` (added 2026-07-02). The script reports both the total files/instances and the "new" count (instances in files compiled today vs existing files). When the "new" count is 0, all instances are in older files — these are carry-over issues from prior batches, not problems introduced today.
 
+**Regex overlap with double-i check (2026-07-15):** The spacing-merge regex `người[a-zàá...]` also matches `ngườii` (double-i typo), because `người` is a substring of `ngườii` and the trailing `i` matches `[a-z]`. When both double-i typos and spacing merges exist in the same batch, the spacing-merge "new" count will be inflated by double-i instances. Cross-check: if all spacing-merge hits are in files that also have double-i typos, the "spacing merge" flags are likely false positives from the regex overlap.
+
 ### False-positive content-depth flags (LLM hallucination)
 
 The LLM-based validator (glm-5.1 via opencode) can incorrectly flag files as having missing/inadequate content when the content is actually present and substantial. **Pattern (2026-06-19):** 7 files flagged as low-quality — but all had full Definitions (2+ câu), Key Ideas (5-6 items), and populated sections.
@@ -539,14 +541,34 @@ grep '2026-07-07 (23:08)' "$A"
 grep -F '2026-07-07 (23:08)' "$A"
 ```
 
-**Pitfall — grep -A context depth for _action-required.md entries (2026-07-07):** When piping `grep -A N` output to check for the Status line in a `_action-required.md` entry, remember the entry structure: heading → blank line → File line → Status line. That's 3 lines of context needed:
+**Pitfall — grep -A context depth for _action-required.md entries (2026-07-07, updated 2026-07-15):** When piping `grep -A N` output to check for the Status line in a `_action-required.md` entry, the required context depth depends on the entry structure. **The format evolved** from a short 3-line entry (07-07) to a richer 6-line entry (current):
+
+**Current format (since mid-July 2026) — needs `-A 6`:**
+```
+### 🔍 Output Validation — YYYY-MM-DD (HH:MM)       ← line 0 (heading)
+                                                     ← line 1 (blank)
+- **Report:** `wiki/reviews/...`                     ← line 2
+- **Summary:** ...                                    ← line 3
+- **Actions needed:** ...                             ← line 4
+- **Status:** pending                                 ← line 5
+```
+
+**Old format (pre-July 2026) — needs `-A 3`:**
+```
+### 🔲 Output Validation — YYYY-MM-DD (HH:MM)       ← line 0 (heading)
+                                                     ← line 1 (blank)
+- **File:** wiki/reviews/...                          ← line 2
+- **Status:** pending                                 ← line 3
+```
 
 ```bash
-# BROKEN — -A 2 only reaches the File line, misses Status:
-grep -F -A 2 '2026-07-07 (23:08)' "$A" | grep 'pending'
-# CORRECT — -A 3 reaches the Status line:
-grep -F -A 3 '2026-07-07 (23:08)' "$A" | grep 'pending'
+# CORRECT for current format:
+grep -F -A 6 'Output Validation — 2026-07-15 (23:10)' "$A" | grep -q 'pending'
+# CORRECT for old format:
+grep -F -A 3 '2026-07-07 (23:08)' "$A" | grep -q 'pending'
 ```
+
+**Rule of thumb:** Count the lines from the heading to the Status line in the actual entry before choosing `-A N`. When in doubt, use `-A 10` and let grep find the match — overshooting is harmless, undershooting is a silent false negative.
 
 **Pitfall — markdown bold `**` wrapping breaks plain-text grep in MEMORY.md (2026-07-07):** MEMORY.md log lines use markdown bold formatting: `- **Files checked:** 534 (...)` — the `**` sits between the colon and the value. Plain-text grep like `grep -F 'Files checked: 534'` won't match because the actual substring is `Files checked:** 534`. Use regex patterns instead:
 

@@ -1,32 +1,29 @@
-# HEARTBEAT.md — OpenClaw System Status
+# HEARTBEAT — 2026-07-15 21:03
 
-**Last check:** 2026-07-15 17:30 (Asia/Saigon)  
-**Next check:** 2026-07-15 18:00
-
----
-
-## Status: HEARTBEAT_OK
-
-All systems operating normally.
+**Status:** ✅ CLEAN
 
 ---
 
-## Check Results
+## Quick Check
 
-| Check | Status | Details |
-|-------|--------|---------|
-| **Inbox** | ✅ Clean | No files tagged `#agent/inbox` in Tasks/ |
-| **Raw backlog** | ✅ Clean | 1 unprocessed file (`2026-07-15_a16z_article`) — ingested today, <24h old |
-| **Concept backlinks** | ✅ Clean | 2 random samples checked: both have proper source links |
-| **Pending reviews** | ✅ Clean | No new reports awaiting notification |
-
----
-
-## Notes
-
-- Raw file from today will be processed by CompileAgent at 08:00 tomorrow.
-- Last Hermes review (07-14) fully resolved — Format report approved, Hygiene clean.
+| Check | Result |
+|---|---|
+| Inbox | Empty — no files tagged `#agent/inbox` |
+| Raw backlog | 1 unprocessed file (ingested today 07-15) |
+| Pending reviews | 0 — all reports approved/clean |
+| Concept backlinks | Checked 2 files — all have proper links |
 
 ---
 
-*Kara · AX400 · Keeping things running properly*
+## System Stats
+
+| Metric | Value |
+|---|---|
+| Raw unprocessed | 1 file (2026-07-15_you-just-hired-a-million-bad-employees-a16z.md) |
+| Pending Hermes reviews | 0 |
+| Last compile | Awaiting next run (08:00 tomorrow) |
+| Index updated | 2026-07-14 21:00 |
+
+---
+
+*Next heartbeat: 21:30*

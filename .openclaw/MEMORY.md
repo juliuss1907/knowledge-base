@@ -14,6 +14,25 @@
 - **Tags:** main=#tech, sub=[#opinion, #psychology], topic=math-mafia-olympiad-founders
 - **Action:** created 1 source note, created 3 concept files
 
+## 2026-07-15 21:00 — Indexed (Incremental)
+
+- **Mode:** Incremental
+- **Changed files:** 4 (scanned since 2026-07-14T21:00:00+07:00)
+- **Files processed:**
+  - wiki/concepts/math-mafia.md
+  - wiki/concepts/olympiad-to-founder-pipeline.md
+  - wiki/concepts/quant-finance-culture.md
+  - wiki/sources/src_why-the-math-mafia-is-doing-well-jesse-zhang.md
+- **Tags updated:** 3 (#tech, #opinion, #psychology)
+- **Tag indexes updated:** 3
+  - tech: +3 concepts, +1 source (27 total)
+  - opinion: +3 concepts, +1 source (213 total)
+  - psychology: +3 concepts, +1 source (222 total)
+- **Topic indexes created:** 1 (math-mafia-olympiad-founders)
+- **Topic indexes updated:** 0
+- **Orphans deleted:** 0
+- **Errors:** 0
+
 ## 2026-07-14 21:00 — Indexed (Incremental)
 
 - **Mode:** Incremental

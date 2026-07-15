@@ -714,3 +714,14 @@
 - **New files:** 0 — no files compiled today (2026-07-14)
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 - **Result:** [SILENT] — nothing new to validate since 2026-07-13 report
+
+## 2026-07-15 23:10:33 — Output validation
+- **Files checked:** 574 (144 sources + 430 concepts)
+- **New files:** 4 (1 source + 3 concepts) — all compiled 2026-07-15
+- **Issues found:** 4 (0 ERROR, 3 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-07-15_output-report.md
+- **Top violations:**
+  - 3 WARNING: Systemic double-i typos (ngườii/lờii/thờii/tớii) — 11 instances across all 4 new files (same root cause as 06-23 pattern)
+  - 1 INFO: math-mafia.md has only 4 key ideas (below 5-10 threshold)
+- **New file quality:** Vietnamese content is natural and well-structured. All sections present. 3 broken forward-reference wikilinks (paypal-mafia, competitive-programming, high-frequency-trading) — expected pattern, will resolve when concepts are compiled.
+- **Cross-ref:** 07-15 first batch after 07-13 report (07-14 was silent). Double-i typo pattern persists — Compile Agent prompt still generates these. Hook-above variant "đồng thởi" also present (2 instances in source file).

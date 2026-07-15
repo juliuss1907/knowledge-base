@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-15 00:05
+**Last updated:** 2026-07-15 23:10
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
@@ -18,6 +18,7 @@
 |---|---|---|---|---|
 | ✅ APPROVED | 07-14 | Format | 306W | Broken wikilinks (forward-refs). 0 ERRORs. Cleanest run ever. Approved 2026-07-15. |
 | ✅ CLEAN | 07-14 | Hygiene | 0 | No violations. 51,831 paths scanned. All previous recurring issues resolved. |
+| 🔍 PENDING | 07-15 | Output | 4 (3W+1I) | 4 new files. Double-i typos (11 instances). 3 fwd-ref wikilinks. 1 low key-ideas. |
 
 ---
 
@@ -35,6 +36,13 @@
 - **Report:** `wiki/reviews/2026-07-14_hygiene-report.md`
 - **Summary:** 0 issues across 51,831 paths. KB structure fully compliant with folder-structure.md v1.2. All previously recurring issues (HEARTBEAT leak, state/, memory/, selected_concepts.txt) resolved.
 - **Actions needed:** None. Report is informational only.
+
+### 🔍 Output Validation — 2026-07-15 (23:10)
+
+- **Report:** `wiki/reviews/2026-07-15_output-report.md`
+- **Summary:** 4 issues (0 ERROR, 3 WARNING, 1 INFO). 4 new files (1 source + 3 concepts). Systemic double-i typos across all 4 files (11 instances). 3 broken forward-reference wikilinks. 1 file with only 4 key ideas.
+- **Actions needed:** Fix Agent should run sed for double-i + hook-above typos. Forward-ref wikilinks are expected — no action unless concepts won't be compiled.
+- **Status:** pending
 
 ---
 

@@ -4,20 +4,21 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-15 23:15
+**Last updated:** 2026-07-15 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
 | Status | Date | Report | Issues | Summary |
 |---|---|---|---|---|
 | ✅ APPROVED | 07-14 | Format | 306W | Broken wikilinks (forward-refs). 0 ERRORs. Cleanest run ever. Approved 2026-07-15. |
-| ✅ CLEAN | 07-14 | Hygiene | 0 | No violations. 51,831 paths scanned. All previous recurring issues resolved. |
+| ✅ CLEAN | 07-14 | Hygiene | 0 | No violations. 51,831 paths. All recurring issues resolved. |
+| 🔍 PENDING | 07-15 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Regression from clean 07-14. |
 | 🔍 PENDING | 07-15 | Format | 313W | Broken wikilinks (forward-refs). 0 ERRORs. Clean streak continues. |
 | 🔍 PENDING | 07-15 | Output | 4 (3W+1I) | 4 new files. Double-i typos (11 instances). 3 fwd-ref wikilinks. 1 low key-ideas. |
 
@@ -51,6 +52,18 @@
 - **Report:** `wiki/reviews/2026-07-15_output-report.md`
 - **Summary:** 4 issues (0 ERROR, 3 WARNING, 1 INFO). 4 new files (1 source + 3 concepts). Systemic double-i typos across all 4 files (11 instances). 3 broken forward-reference wikilinks. 1 file with only 4 key ideas.
 - **Actions needed:** Fix Agent should run sed for double-i + hook-above typos. Forward-ref wikilinks are expected — no action unless concepts won't be compiled.
+- **Status:** pending
+
+### 🔍 Hygiene Validation — 2026-07-15 (23:30)
+
+- **Report:** `wiki/reviews/2026-07-15_hygiene-report.md`
+- **Summary:** 4 issues (2 ERROR, 1 WARNING, 1 INFO) across 51,845 paths. Regression from clean 07-14 baseline.
+  - **`memory/` at root** (ERROR): Recurring root folder — 7th occurrence since 07-03. Contains `2026-07-15.md`. Process-level leak: a writer targets `memory/` instead of `.openclaw/memory/`.
+  - **`state/` at root** (ERROR): Recurring empty directory — 3rd recurrence since original 06-25 resolution. Process recreates an empty `state/` at KB root.
+  - **`memory/2026-07-15.md`** (WARNING): Orphan file inside non-whitelisted root folder. Should be in `.openclaw/memory/`.
+  - **Empty `state/`** (INFO): Redundant with ERROR above.
+- **Delta vs 07-14:** +4 issues (07-14 was clean at 0 issues)
+- **Actions needed:** Move `memory/2026-07-15.md` to `.openclaw/memory/`, then `rmdir memory/ state/`. Identify and fix the process(es) creating these root folders — file deletions are transient without process fixes.
 - **Status:** pending
 
 ---

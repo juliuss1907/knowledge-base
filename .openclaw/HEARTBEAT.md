@@ -1,4 +1,4 @@
-# HEARTBEAT — 2026-07-16 01:00
+# HEARTBEAT — 2026-07-16 18:00
 
 **Status:** ⚠️ ATTENTION NEEDED
 
@@ -8,10 +8,10 @@
 
 | Check | Result |
 |---|---|
-| Inbox | Empty — no files tagged `#agent/inbox` |
-| Raw backlog | **1 file unprocessed >24h** — needs compile |
+| Inbox | ✅ Clean — no files tagged `#agent/inbox` |
+| Raw backlog | ✅ Normal — 1 file unprocessed (~8h old, within 24h window) |
 | Pending reviews | **3 reports pending** — awaiting Julius approval |
-| Concept backlinks | Checked 2 files — all have proper source links |
+| Concept backlinks | ✅ Checked 1 file — has proper source links |
 
 ---
 
@@ -19,8 +19,9 @@
 
 | Metric | Value |
 |---|---|
-| Raw unprocessed | 1 file (>24h old) |
+| Raw unprocessed | 1 file (~8h old) |
 | Pending Hermes reviews | **3 reports** awaiting approval |
+| Concepts total | 434 files in `wiki/concepts/` |
 | Last compile | 2026-07-15 08:00 |
 | Index updated | 2026-07-15 21:00 |
 
@@ -28,9 +29,9 @@
 
 ## Issues Detected
 
-1. **Raw backlog:** `raw/articles/2026-07-15_you-just-hired-a-million-bad-employees-a16z.md` — status `unprocessed`, ingested 2026-07-15 (>24h ago)
-2. **Pending reviews:** 3 Hermes reports need Julius approval — see `_action-required.md`
-3. **Hygiene regression:** `memory/` and `state/` folders reappeared at root (7th occurrence)
+1. **Pending reviews:** 3 Hermes reports from 07-15 need Julius approval — see `_action-required.md`
+2. **Hygiene regression:** `memory/` and `state/` folders persist at root (from 07-15 report)
+3. **Raw file:** 1 file unprocessed but within normal window — CompileAgent runs at 08:00
 
 ---
 
@@ -50,8 +51,8 @@
 
 - [ ] **Julius:** Review 3 pending Hermes reports
 - [ ] **Fix Agent:** Apply approved fixes (hygiene + output typos)
-- [ ] **Compile Agent:** Process raw backlog (can run manually or wait for 08:00 schedule)
+- [ ] **Compile Agent:** Process raw backlog at 08:00 tomorrow
 
 ---
 
-*Next heartbeat: 01:30*
+*Next heartbeat: 18:30*

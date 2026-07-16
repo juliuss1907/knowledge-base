@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-16 23:15
+**Last updated:** 2026-07-16 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 5
+**Pending reports awaiting review:** 6
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
@@ -23,6 +23,7 @@
 | 🔍 PENDING | 07-15 | Output | 4 (3W+1I) | 4 new files. Double-i typos (11 instances). 3 fwd-ref wikilinks. 1 low key-ideas. |
 | 🔍 PENDING | 07-16 | Output | 1 (1W) | 6 new files. New "ngườI" capital-I typo variant (5 instances). All files well-formed. |
 | 🔍 PENDING | 07-16 | Format | 319W | Broken wikilinks (forward-refs). 0 ERRORs. Three-day clean streak. +11 files. |
+| 🔍 PENDING | 07-16 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Identical to 07-15. |
 
 ---
 
@@ -72,6 +73,18 @@
   - **`memory/2026-07-15.md`** (WARNING): Orphan file inside non-whitelisted root folder. Should be in `.openclaw/memory/`.
   - **Empty `state/`** (INFO): Redundant with ERROR above.
 - **Delta vs 07-14:** +4 issues (07-14 was clean at 0 issues)
+- **Actions needed:** Move `memory/2026-07-15.md` to `.openclaw/memory/`, then `rmdir memory/ state/`. Identify and fix the process(es) creating these root folders — file deletions are transient without process fixes.
+- **Status:** pending
+
+### 🔍 Hygiene Validation — 2026-07-16 (23:30)
+
+- **Report:** `wiki/reviews/2026-07-16_hygiene-report.md`
+- **Summary:** 4 issues (2 ERROR, 1 WARNING, 1 INFO) across 51,861 paths. Identical to 07-15 baseline — no new violations, no regressions, no resolutions.
+  - **`memory/` at root** (ERROR): Recurring root folder — 8th occurrence since 07-03. Contains `2026-07-15.md`. Process-level leak: a writer targets `memory/` instead of `.openclaw/memory/`.
+  - **`state/` at root** (ERROR): Recurring empty directory — 4th recurrence since original 06-25 resolution. Process recreates an empty `state/` at KB root.
+  - **`memory/2026-07-15.md`** (WARNING): Orphan file inside non-whitelisted root folder. Should be in `.openclaw/memory/`.
+  - **Empty `state/`** (INFO): Redundant with ERROR above.
+- **Delta vs 07-15:** 0 change (same 4 issues, paths_checked +16 from report file writes).
 - **Actions needed:** Move `memory/2026-07-15.md` to `.openclaw/memory/`, then `rmdir memory/ state/`. Identify and fix the process(es) creating these root folders — file deletions are transient without process fixes.
 - **Status:** pending
 

@@ -44,7 +44,7 @@ else:
         ("Validator field", '**Validator:** format-validator'),
         ("ERRORs line present", '**ERRORs**'),
         ("WARNINGs line present", '**WARNINGS**'),
-        ("Delta section present", 'Δ from' in content or 'Delta' in content),
+        ("Delta section present", 'Δ from'),
         ("Files checked table", 'Files checked |'),
         ("Escalations section", '## Escalations'),
         ("Verification section", '## Verification'),

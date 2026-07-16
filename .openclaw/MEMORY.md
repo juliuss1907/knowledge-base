@@ -1,3 +1,19 @@
+## 2026-07-16 08:00 — Compiled (Daily Batch)
+
+- **Processed:** 1/1 files
+- **Source notes created:** 1
+- **Concepts created:** 5 (100x-token, ai-evals, token-looping, ai-transformation, tokenmaxxing)
+- **Concepts updated:** 0
+- **Tag proposals:** 0
+- **Errors:** 0
+
+### File: you-just-hired-a-million-bad-employees-a16z
+- **Raw:** [[raw/articles/2026-07-15_you-just-hired-a-million-bad-employees-a16z.md]]
+- **Source note:** [[wiki/sources/src_you-just-hired-a-million-bad-employees-a16z.md]]
+- **Concepts:** [[100x-token]], [[ai-evals]], [[token-looping]], [[ai-transformation]], [[tokenmaxxing]]
+- **Tags:** main=#ai, sub=[#opinion, #tools, #system], topic=ai-token-workforce
+- **Action:** created 1 source note, created 5 concept files
+
 ## 2026-07-15 08:00 — Compiled (Daily Batch)
 
 - **Processed:** 1/1 files

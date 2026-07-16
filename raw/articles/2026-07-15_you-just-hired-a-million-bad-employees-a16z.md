@@ -8,7 +8,9 @@ title: "You just hired a million bad employees."
 date_ingested: 2026-07-15
 date_published: 2026-07-14
 tags: [ai, tech, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-16
+compiled_to: "[[src_you-just-hired-a-million-bad-employees-a16z.md]]"
 ---
 
 # You just hired a million bad employees.

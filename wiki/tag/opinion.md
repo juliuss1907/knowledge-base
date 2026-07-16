@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-07-15
 
 ## Stats
 
-- Total files: 213
-- Sources: 69
+- Total files: 214
+- Sources: 70
 - Concepts: 144
-- Last updated: 2026-07-15
+- Last updated: 2026-07-16
 
 ## Files with this tag
 
@@ -235,6 +235,7 @@ last_updated: 2026-07-15
 - [[two-track-communications]] — Two Track Communications (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
+- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source)
 
 ## Co-occurring tags
 

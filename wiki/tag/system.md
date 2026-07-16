@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: system
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-16
 ---
 
 # Tag: #system
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 35
-- Sources: 7
+- Total files: 36
+- Sources: 8
 - Concepts: 28
-- Last updated: 2026-07-12
+- Last updated: 2026-07-16
 
 ## Files with this tag
 
@@ -58,6 +58,7 @@ last_updated: 2026-07-12
 - [[taste-holders]] — Taste Holders (concept)
 - [[ultimatum-game]] — Ultimatum Game (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
+- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source)
 
 ## Co-occurring tags
 

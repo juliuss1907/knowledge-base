@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-16
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 159
-- Sources: 35
+- Total files: 160
+- Sources: 36
 - Concepts: 124
-- Last updated: 2026-07-13
+- Last updated: 2026-07-16
 
 ## Files with this tag
 
@@ -182,6 +182,7 @@ last_updated: 2026-07-12
 - [[x-search-tool]] — X Search Tool (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
 - [[zero-member-llc]] — Zero Member Llc (concept)
+- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source)
 
 ## Co-occurring tags
 

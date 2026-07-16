@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: ai
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-16
 ---
 
 # Tag: #ai
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 154
-- Sources: 35
+- Total files: 155
+- Sources: 36
 - Concepts: 119
-- Last updated: 2026-07-12
+- Last updated: 2026-07-16
 
 ## Files with this tag
 
@@ -177,6 +177,7 @@ last_updated: 2026-07-12
 - [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
 - [[x-search-tool]] — X Search Tool (concept)
 - [[zero-member-llc]] — Zero Member Llc (concept)
+- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source)
 
 ## Co-occurring tags
 

@@ -4,24 +4,25 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-16 23:10
+**Last updated:** 2026-07-16 23:15
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
 | Status | Date | Report | Issues | Summary |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | ✅ APPROVED | 07-14 | Format | 306W | Broken wikilinks (forward-refs). 0 ERRORs. Cleanest run ever. Approved 2026-07-15. |
 | ✅ CLEAN | 07-14 | Hygiene | 0 | No violations. 51,831 paths. All recurring issues resolved. |
 | 🔍 PENDING | 07-15 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Regression from clean 07-14. |
 | 🔍 PENDING | 07-15 | Format | 313W | Broken wikilinks (forward-refs). 0 ERRORs. Clean streak continues. |
 | 🔍 PENDING | 07-15 | Output | 4 (3W+1I) | 4 new files. Double-i typos (11 instances). 3 fwd-ref wikilinks. 1 low key-ideas. |
 | 🔍 PENDING | 07-16 | Output | 1 (1W) | 6 new files. New "ngườI" capital-I typo variant (5 instances). All files well-formed. |
+| 🔍 PENDING | 07-16 | Format | 319W | Broken wikilinks (forward-refs). 0 ERRORs. Three-day clean streak. +11 files. |
 
 ---
 
@@ -72,6 +73,14 @@
   - **Empty `state/`** (INFO): Redundant with ERROR above.
 - **Delta vs 07-14:** +4 issues (07-14 was clean at 0 issues)
 - **Actions needed:** Move `memory/2026-07-15.md` to `.openclaw/memory/`, then `rmdir memory/ state/`. Identify and fix the process(es) creating these root folders — file deletions are transient without process fixes.
+- **Status:** pending
+
+### 🔍 Format Validation — 2026-07-16 (23:15)
+
+- **Report:** `wiki/reviews/2026-07-16_format-report.md`
+- **Summary:** 319 WARNINGs (all broken wikilinks — forward-references). 0 ERRORs, 0 INFOs across 780 files. Three-day clean streak with zero structural format violations. 199 unique broken targets across 296 individual + 21 summary-group WARNINGs. 2 raw-file original link issues persist from 07-15.
+- **Delta vs 07-14 (approved):** +13 WARNINGs, +11 files (+7 concepts, +2 sources, +2 topics). Same forward-ref pattern.
+- **Actions needed:** None — all wikilinks are expected forward-references. Raw-file links are transient ingest timing issues.
 - **Status:** pending
 
 ---

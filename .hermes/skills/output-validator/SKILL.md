@@ -370,6 +370,34 @@ Note: the sed must be ordered longest-match-first to avoid partial replacements.
 
 **Regex overlap with double-i check (2026-07-15):** The spacing-merge regex `người[a-zàá...]` also matches `ngườii` (double-i typo), because `người` is a substring of `ngườii` and the trailing `i` matches `[a-z]`. When both double-i typos and spacing merges exist in the same batch, the spacing-merge "new" count will be inflated by double-i instances. Cross-check: if all spacing-merge hits are in files that also have double-i typos, the "spacing merge" flags are likely false positives from the regex overlap.
 
+### "ngườI" capital-I typo variant (2026-07-16)
+
+A fourth manifestation of the same root cause: Compile Agent uses capital I (U+0049) instead of lowercase i (U+0069) after the Vietnamese grave-accented character "ờ". This produces "ngườI" instead of "người" — visually similar in some fonts but technically wrong (capital letter mid-word).
+
+**Patterns detected (5 instances in 2 files on 2026-07-16):**
+- `ngườI` → `người` (x5 — all instances match this exact pattern)
+
+**Detection in quick-scan:**
+```bash
+grep -rP 'ngườI' wiki/sources/ wiki/concepts/
+```
+Note: uses literal capital 'I' (U+0049). This does NOT match valid "người" (lowercase 'i').
+
+**Fix command (sed):**
+```bash
+sed -i 's/ngườI/người/g' <file>
+```
+
+**Root cause (shared across all four variants):** Compile Agent's LLM prompt or tokenization mishandles the character following Vietnamese grave-accented "ờ" (U+1EDD). Four variants observed so far:
+1. "ngưởi" (hook-above 'ỉ' instead of grave 'ời') — original variant
+2. "ngườii" (doubled lowercase 'i') — second variant (2026-06-23)
+3. "ngườitrong" etc. (spacing merge, space dropped) — third variant (2026-07-02)
+4. "ngườI" (capital 'I' instead of lowercase 'i') — fourth variant (2026-07-16)
+
+All four are fixable with sed but the underlying prompt should be reviewed to prevent new variants from emerging.
+
+**Symptom to watch for:** Unlike the double-i variant, the capital-I variant passes basic spell-check (the letter 'I' is valid ASCII) but breaks Vietnamese readability because capital letters don't appear mid-word in Vietnamese. The capital 'I' is visually close to lowercase 'i' in monospace/code fonts, making it easy to miss in code review.
+
 ### False-positive content-depth flags (LLM hallucination)
 
 The LLM-based validator (glm-5.1 via opencode) can incorrectly flag files as having missing/inadequate content when the content is actually present and substantial. **Pattern (2026-06-19):** 7 files flagged as low-quality — but all had full Definitions (2+ câu), Key Ideas (5-6 items), and populated sections.

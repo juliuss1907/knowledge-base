@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-15 23:30
+**Last updated:** 2026-07-16 23:10
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
@@ -21,6 +21,7 @@
 | 🔍 PENDING | 07-15 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Regression from clean 07-14. |
 | 🔍 PENDING | 07-15 | Format | 313W | Broken wikilinks (forward-refs). 0 ERRORs. Clean streak continues. |
 | 🔍 PENDING | 07-15 | Output | 4 (3W+1I) | 4 new files. Double-i typos (11 instances). 3 fwd-ref wikilinks. 1 low key-ideas. |
+| 🔍 PENDING | 07-16 | Output | 1 (1W) | 6 new files. New "ngườI" capital-I typo variant (5 instances). All files well-formed. |
 
 ---
 
@@ -52,6 +53,13 @@
 - **Report:** `wiki/reviews/2026-07-15_output-report.md`
 - **Summary:** 4 issues (0 ERROR, 3 WARNING, 1 INFO). 4 new files (1 source + 3 concepts). Systemic double-i typos across all 4 files (11 instances). 3 broken forward-reference wikilinks. 1 file with only 4 key ideas.
 - **Actions needed:** Fix Agent should run sed for double-i + hook-above typos. Forward-ref wikilinks are expected — no action unless concepts won't be compiled.
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-07-16 (23:10)
+
+- **Report:** `wiki/reviews/2026-07-16_output-report.md`
+- **Summary:** 1 issue (0 ERROR, 1 WARNING, 0 INFO). 6 new files (1 source + 5 concepts). New typo variant: "ngườI" with capital I instead of lowercase i after "ờ" — 5 instances across 2 files. Third variant of the same Compile Agent root cause (after double-i and spacing merge). All 6 files structurally complete with adequate definitions and key ideas.
+- **Actions needed:** Run sed to fix "ngườI" → "người" in 2 files. Recommend reviewing Compile Agent prompt to fix root cause of systematic diacritic errors.
 - **Status:** pending
 
 ### 🔍 Hygiene Validation — 2026-07-15 (23:30)

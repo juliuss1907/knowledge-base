@@ -734,3 +734,13 @@
   - 1 INFO: math-mafia.md has only 4 key ideas (below 5-10 threshold)
 - **New file quality:** Vietnamese content is natural and well-structured. All sections present. 3 broken forward-reference wikilinks (paypal-mafia, competitive-programming, high-frequency-trading) — expected pattern, will resolve when concepts are compiled.
 - **Cross-ref:** 07-15 first batch after 07-13 report (07-14 was silent). Double-i typo pattern persists — Compile Agent prompt still generates these. Hook-above variant "đồng thởi" also present (2 instances in source file).
+
+## 2026-07-16 23:10:53 — Output validation
+- **Files checked:** 579 (145 sources + 434 concepts)
+- **New files:** 6 (1 source + 5 concepts) — all compiled 2026-07-16
+- **Issues found:** 1 (0 ERROR, 1 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-07-16_output-report.md
+- **Top violations:**
+  - 1 WARNING: New typo variant "ngườI" (capital I after "ờ") — 5 instances across 2 of 6 new files. Third systematic variant from Compile Agent (after double-i "ngườii" and spacing merge "ngườitrong"). Only in today's files — not present in existing KB.
+- **New file quality:** Excellent batch. All 6 files structurally complete. Definitions 3 câu, key ideas 5-8 mục. No truncated files. No broken wikilinks. 4 of 6 files completely typo-free. Only source file + 100x-token.md affected by capital-I typo.
+- **Cross-ref:** 07-16 batch after 07-15 report (4 files yesterday, 6 today). Compile Agent's systematic diacritic issue continues to evolve — now producing capital-I instead of double-i. Root cause remains the same: prompt/tokenizer mishandles characters after Vietnamese grave-accented "ờ". Recommend prompt-level fix.

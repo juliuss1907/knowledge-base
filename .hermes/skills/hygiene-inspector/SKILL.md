@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.11
-last_updated: 2026-07-11
+version: 1.12
+last_updated: 2026-07-17
 ---
 
 # Hygiene Inspector
@@ -413,6 +413,10 @@ After successful validation run:
    - Add entry to "Pending Reports" section
    - Update "Last updated" timestamp
    - Increment pending-report count if this run created a new pending review item
+   - Add a new row to the Summary table AND a new subsection under "Pending Reports"
+   - **⚠️ Pitfall: Markdown table patching.** When adding a row to the Summary table via `patch`, do NOT include the trailing `|` of the previous row in `old_string` while also including the leading `|` of the new row in `new_string` — this produces `||` (double pipe). Instead, end `old_string` mid-cell on the previous row, and start `new_string` with the full new row including its leading `|`. The combined result will have the correct single-pipe boundary.
+     - ✅ Good: `old_string` = `"| 🔍 PENDING | 07-17 | Format | 324..."`, `new_string` = `"| 🔍 PENDING | 07-17 | Format | 324... |\n| 🔍 PENDING | 07-17 | Hygiene | 4... |"` — both have leading `|`, neither has trailing `|` at boundary.
+     - ❌ Bad: `old_string` ends with `|` AND `new_string` starts with `|` → produces `||`.
 
 3. **Run verify.py (interactive sessions only):**
    ```bash
@@ -567,6 +571,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.12 | 2026-07-17 | Added pitfall to post-validation step 2: markdown table patching with `patch` tool — avoid `||` boundary when extending Summary table rows. Updated `common-patterns.md`: `memory/` recurrence history through 07-17 (9th occurrence). |
 | 1.11 | 2026-07-11 | Added `memory/` to `ROOT_FOLDER_ORPHANS` in scan script (recurring root folder — flagged 5 times since 07-03). Updated `common-patterns.md`: expanded `memory/` recurrence history through 07-11, removed duplicate one-liner entry. |
 | 1.10 | 2026-07-05 | Added step 4 to cron workflow: ad-hoc verification pattern (write → run → check script at `/tmp/hermes-verify-hygiene-*.py`). Fixed broken cross-reference in post-validation step 3 — now points to "Running under cron" section instead of "cron fallback" (which had no step 4). |
 | 1.9 | 2026-07-03 | Cleaned up post-validation steps: removed duplicate "Update _action-required.md" entries, added explicit `scripts/verify.py` invocation as step 3 (skip under cron). Added pitfall #6: `paths_checked` drift on re-run is expected when report/action files are written between scans — compare only issue counts, not exact path counts. |

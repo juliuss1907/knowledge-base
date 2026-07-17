@@ -1,7 +1,7 @@
 # Common Non-Compliant Patterns
 
 > Recurring hygiene violations observed in practice.
-> Updated: 2026-07-11
+> Updated: 2026-07-17
 
 ---
 
@@ -41,7 +41,7 @@ Files and folders that frequently appear at root but are not in the whitelist:
 - `RAW_BACKLOG.md` — leftover from manual tracking; should move to `wiki/drafts/` or `raw/articles/`
 - `MEMORY.md` — agent memory file that leaked from `.hermes/` or `.openclaw/`
 - `search/` — temporary search index; should be gitignored or removed
-- `state/` — empty directory, **recurring** (flagged 06-25, resolved 06-27, recreated 07-02 10:28, still present 07-03). Not in root whitelist. If needed, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.\n- `memory/` — old folder migrated to `.openclaw/memory/` in v1.2. **Recurring** — reappeared 2026-07-03, 2026-07-06, 2026-07-07, 2026-07-08, and 2026-07-11. Each recurrence contains a new `YYYY-MM-DD.md` content file. The writing process is targeting `memory/` instead of `.openclaw/memory/`. Move contents and rmdir; fix the process output path. Now tracked in `ROOT_FOLDER_ORPHANS` in scan script (v1.10+).
+- `state/` — empty directory, **recurring** (flagged 06-25, resolved 06-27, recreated 07-02, still present 07-03, 07-15, 07-16, 07-17 — 5th recurrence since original resolution). Not in root whitelist. If needed, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.\n- `memory/` — old folder migrated to `.openclaw/memory/` in v1.2. **Recurring** — reappeared 2026-07-03, 2026-07-06, 2026-07-07, 2026-07-08, 2026-07-11, 2026-07-15, 2026-07-16, and 2026-07-17 (9th occurrence). Contains `2026-07-15.md` (same file persisted across the last 3 runs). The writing process is targeting `memory/` instead of `.openclaw/memory/`. Move contents and rmdir; fix the process output path. Now tracked in `ROOT_FOLDER_ORPHANS` in scan script (v1.10+).
 - `temp_content/` — scratch folder; should be removed after use
 
 ---

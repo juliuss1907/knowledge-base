@@ -8,7 +8,9 @@ title: "The 5 Laws Of People Who Never Chase And Always Attract"
 date_ingested: 2026-07-16
 date_published: 2026-07-14
 tags: [psychology, opinion, productivity]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-17
+compiled_to: "[[src_the-5-laws-of-people-who-never-chase-gabriel-reality]]"
 ---
 
 # The 5 Laws Of People Who Never Chase And Always Attract

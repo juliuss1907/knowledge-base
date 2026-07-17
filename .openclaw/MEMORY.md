@@ -1,3 +1,33 @@
+## 2026-07-17 08:00 — Compiled (Daily Batch)
+
+- **Processed:** 3/3 files
+- **Source notes created:** 3
+- **Concepts created:** 11
+- **Concepts updated:** 0
+- **Tag proposals:** 0
+- **Errors:** 0
+
+### File 1: happiness-is-a-skill-hussain-ibarra
+- **Raw:** [[raw/articles/2026-07-16_happiness-is-a-skill-hussain-ibarra.md]]
+- **Source note:** [[wiki/sources/src_happiness-is-a-skill-hussain-ibarra.md]]
+- **Concepts:** [[flow-state]], [[psychic-entropy]], [[hedonic-adaptation]], [[psychic-energy]]
+- **Tags:** main=#health, sub=[#psychology, #opinion], topic=happiness-flow-state
+- **Action:** created 1 source note, created 4 concept files
+
+### File 2: is-there-anything-left-to-build-in-crypto-wintermute
+- **Raw:** [[raw/articles/2026-07-16_is-there-anything-left-to-build-in-crypto-wintermute.md]]
+- **Source note:** [[wiki/sources/src_is-there-anything-left-to-build-in-crypto-wintermute.md]]
+- **Concepts:** [[machine-economy]], [[agentic-commerce]], [[autonomous-agents]]
+- **Tags:** main=#crypto, sub=[#ai, #opinion, #tools], topic=machine-economy-crypto
+- **Action:** created 1 source note, created 3 concept files
+
+### File 3: the-5-laws-of-people-who-never-chase-gabriel-reality
+- **Raw:** [[raw/articles/2026-07-16_the-5-laws-of-people-who-never-chase-gabriel-reality.md]]
+- **Source note:** [[wiki/sources/src_the-5-laws-of-people-who-never-chase-gabriel-reality.md]]
+- **Concepts:** [[dopamine-prediction-gap]], [[outcome-independence]], [[social-attraction]], [[destination-vs-vehicle]]
+- **Tags:** main=#health, sub=[#psychology, #opinion], topic=social-attraction-dynamics
+- **Action:** created 1 source note, created 4 concept files
+
 ## 2026-07-16 21:00 — Indexed (Incremental)
 
 - **Mode:** incremental

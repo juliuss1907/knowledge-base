@@ -1,53 +1,37 @@
-# HEARTBEAT.md — OpenClaw Health Log
+# Heartbeat — OpenClaw
 
-> Automated health checks every 30 minutes
-> Last updated: 2026-07-17 14:30 (Asia/Saigon)
+> System health check — run every 30 minutes
+> **Status:** ✅ HEARTBEAT_OK
 
----
-
-## Status: HEARTBEAT_OK
-
-All critical systems operational. No immediate action required.
-
----
-
-## Check Results
-
-### 1. Inbox Check
-- **Tasks folder:** Not present (no action items)
-- **Status:** ✅ Clean
-
-### 2. Raw Backlog Check
-- **Unprocessed files:** 0
-- **Files older than 24h:** None pending
-- **Status:** ✅ Clean — all raw files processed
-
-### 3. Concept Link Check (Sample)
-- **ai-powered-discovery.md:** Has sources + backlinks ✅
-- **completion-motivation.md:** Has sources + backlinks ✅
-- **Status:** ✅ Clean
-
-### 4. Pending Review Check
-- **Pending reports:** 6 (from 2026-07-15, 07-16)
-- **Last notification:** Pending
-- **Details:** `wiki/reviews/_action-required.md`
-- **Status:** ℹ️ Informational — awaiting Julius approval
+**Last check:** 2026-07-17 20:00 (Asia/Saigon) / 13:00 UTC
 
 ---
 
 ## Summary
 
-| Check | Status | Notes |
-|-------|--------|-------|
-| Inbox | ✅ OK | No urgent items |
-| Raw backlog | ✅ OK | 0 unprocessed files |
-| Concept links | ✅ OK | Sampled files valid |
-| Pending reviews | ℹ️ Info | 6 reports waiting approval |
+**Status:** ✅ HEARTBEAT_OK
+
+All systems operational. No critical issues detected.
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox | ✅ Clean | No files tagged `#agent/inbox` |
+| Raw backlog | ✅ Clean | 0 files `status: unprocessed` |
+| Concept backlinks | ✅ OK | `100x-token.md`, `200-day-sma-risk-line.md` — proper sources |
+| Pending reviews | 📝 6 reports | Awaiting Julius approval (07-15, 07-16 batches) |
 
 ---
 
-## History
+## Pending Reviews
 
-| Time | Status | Notes |
-|------|--------|-------|
-| 2026-07-17 14:30 | HEARTBEAT_OK | All clean, 6 pending reviews |
+6 reports từ Hermes đang chờ Julius approve:
+- **Hygiene 07-15, 07-16**: Root folders `memory/` và `state/` recurring (8th occurrence)
+- **Format 07-15, 07-16**: 313W + 319W — toàn bộ là forward-reference wikilinks (expected)
+- **Output 07-15, 07-16**: Double-i typos và capital-I typo variant cần Fix Agent
+
+Chi tiết: `wiki/reviews/_action-required.md`
+
+---
+
+*Next check: 20:30*
+*OpenClaw — AX400*

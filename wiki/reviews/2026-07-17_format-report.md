@@ -2,10 +2,17 @@
 
 **Status:** pending
 **Issues found:** 324
+**ERRORs:** 5
+**WARNINGS**: 319
+**INFOS:** 0
 **Created:** 2026-07-17 23:16
 **Validator:** format-validator
+**Files checked:** 796
+**Total issues**: 324
+Files checked: 796
+Total issues: 324
 
-> **Context:** Evening run. Previous approved baseline: 2026-07-14 (306 WARNINGs, 0 ERRORs across 769 files). The three-day clean streak (0 ERRORs: 07-14, 07-15, 07-16) is broken today — 5 structural/naming ERRORs detected. Source: 3 concept files missing required sections, 2 source files exceeding slug length limit.
+> **Δ from 07-14 (approved):** 306 WARNINGs, 0 ERRORs → 324 issues, 5 ERRORs, 319 WARNINGs across 796 files. The three-day clean streak (0 ERRORs: 07-14, 07-15, 07-16) is broken today — 5 structural/naming ERRORs detected. Source: 3 concept files missing required sections, 2 source files exceeding slug length limit.
 
 ---
 
@@ -201,3 +208,13 @@ Pattern: 3 concept files missing required sections (2x Key ideas, 1x Sources)
 Likely cause: Compile Agent skipping sections for certain concept types or source materials
 Recommendation: Review compile-agent SKILL.md section requirements — ensure ## Key ideas and ## Sources are mandatory
 ```
+
+---
+
+## Verification
+
+- [x] validate.py ran successfully on 796 files
+- [x] 5 ERRORs confirmed (3 missing sections + 2 slug > 50)
+- [x] 319 WARNINGs confirmed (all forward-reference broken wikilinks)
+- [x] _action-required.md updated with today's entry
+- [x] Report written to `wiki/reviews/2026-07-17_format-report.md`

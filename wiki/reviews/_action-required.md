@@ -10,7 +10,7 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
@@ -24,6 +24,7 @@
 | 🔍 PENDING | 07-16 | Output | 1 (1W) | 6 new files. New "ngườI" capital-I typo variant (5 instances). All files well-formed. |
 | 🔍 PENDING | 07-16 | Format | 319W | Broken wikilinks (forward-refs). 0 ERRORs. Three-day clean streak. +11 files. |
 | 🔍 PENDING | 07-16 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Identical to 07-15. |
+| 🔍 PENDING | 07-17 | Format | 324 (5E+319W) | 5 ERRORs: 3 missing sections, 2 slug > 50. Clean streak broken. |
 
 ---
 
@@ -94,6 +95,18 @@
 - **Summary:** 319 WARNINGs (all broken wikilinks — forward-references). 0 ERRORs, 0 INFOs across 780 files. Three-day clean streak with zero structural format violations. 199 unique broken targets across 296 individual + 21 summary-group WARNINGs. 2 raw-file original link issues persist from 07-15.
 - **Delta vs 07-14 (approved):** +13 WARNINGs, +11 files (+7 concepts, +2 sources, +2 topics). Same forward-ref pattern.
 - **Actions needed:** None — all wikilinks are expected forward-references. Raw-file links are transient ingest timing issues.
+- **Status:** pending
+
+### 🔍 Format Validation — 2026-07-17 (23:15)
+
+- **Report:** `wiki/reviews/2026-07-17_format-report.md`
+- **Summary:** 324 issues (5 ERROR, 319 WARNING, 0 INFO) across 796 files. **Clean streak broken.** 3 concepts missing required sections (2× Key ideas, 1× Sources). 2 source slugs exceed 50-char limit. 319 forward-ref wikilinks (expected, no action). 2 raw-file original link issues persist.
+- **Delta vs 07-14 (approved):** +5 ERROR, +13 WARNING, +27 files (+17 concepts, +5 sources, +5 topics).
+- **Actions needed:** 
+  - 🔴 Add `## Key ideas` to `destination-vs-vehicle.md` and `social-attraction.md`
+  - 🔴 Add `## Sources` to `psychic-energy.md`
+  - 🟡 Shorten 2 source slugs (`src_is-there-anything-left-to-build-in-crypto-wintermute.md` → 52 chars, `src_the-5-laws-of-people-who-never-chase-gabriel-reality.md` → 52 chars)
+  - 🟢 Forward-ref wikilinks — no action
 - **Status:** pending
 
 ---

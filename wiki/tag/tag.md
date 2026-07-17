@@ -26,11 +26,11 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 
 ## Stats
 
-- Total tags: 23
+- Total tags: 24
 - Main tags: 9
-- Sub tags: 14
-- Most used: #productivity (252), #research (233), #psychology (222)
-- Last updated: 2026-07-16
+- Sub tags: 15
+- Most used: #productivity (252), #research (233), #psychology (235)
+- Last updated: 2026-07-17
 
 ## Items
 
@@ -58,7 +58,7 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - [[law]] — Legal frameworks, contracts, regulations, compliance
 - [[layer1]] — Base-layer blockchains
 - [[news]] — Recent events, announcements, time-sensitive updates
-- [[opinion]] — Personal takes, editorials, commentary
+- [[opinion]] — Personal takes, editorials, commentary (87 files)
 - [[psychology]] — Cognitive science, behavioral psychology, mental models, biases
 - [[research]] — Academic papers, deep analysis, primary sources
 - [[system]] — System design, architecture, automation pipelines (as attribute)

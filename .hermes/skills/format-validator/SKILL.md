@@ -410,6 +410,43 @@ This prevents stale pending counts and ensures delta tracking uses the correct b
 
 **Observed case (2026-07-02):** The 2026-07-01 format report header showed `**Status:** approved` (Julius approved slug exception), but `_action-required.md` still listed it as `⏳ PENDING`. Reconciliation on 07-02 updated the pending count and status line.
 
+### verify_integrity.py has strict regex expectations — report frontmatter must match
+
+`verify_integrity.py` (run post-validation) validates cross-file consistency by parsing the report with specific regex patterns. These patterns are fragile and require exact formatting:
+
+**Required frontmatter fields (must appear literally):**
+- `**Status:** pending`
+- `**Issues found:** N`
+- `**ERRORs:** N` (lowercase 's')
+- `**WARNINGS**: N` — **critical**: space BEFORE colon so `**WARNINGS**` (bold WARNINGS) appears as a substring. Writing `**WARNINGS:**` (colon immediately after asterisks) fails because there's no `**WARNINGS**` substring — only `**WARNINGS:`.
+- `**INFOS:** 0`
+- `**Validator:** format-validator`
+- `**Files checked:** N` (bold form for display)
+- `**Total issues**: N` — same space-before-colon rule as WARNINGS
+- `Files checked: N` — **plain text** (not bold). Required because regex `Files checked[\s:]+(\d+)` hits on the asterisks in `**Files checked:** N` and fails to match the number. The plain-text line on its own line after the bold form ensures regex match.
+- `Total issues: N` — plain text (not bold). Same reason: regex `\*\*Total issues\*\*[\s:]+(\d+)` needs `**Total issues**` followed by `[\s:]+` then digits. `**Total issues:** N` puts a colon inside the `**` which breaks the pattern. `**Total issues**: N` (space between `**` and colon) works.
+
+**Required sections:**
+- `## Verification` section (with checklist of steps taken)
+- `## Escalations` section (even if empty)
+- `Δ from` in the context block (Greek Delta symbol U+0394 followed by space and `from`)
+
+**Observed case (2026-07-17):** 4 iterations of reformatting were needed to satisfy verify_integrity.py. The space-before-colon pattern is non-obvious and easy to miss.
+
+### verify_integrity.py cross-check regex can't handle mixed ERROR+WARNING reports
+
+The `_action-required.md` cross-check in verify_integrity.py uses regex `(\d+)W` to extract the WARNING count from the Summary table row. This only works when reports have 0 ERRORs (pure WARNING-only rows like `| 306W |`). 
+
+When a report has both ERRORs and WARNINGs and the table row uses a format like `| 324 (5E+319W) |`, the regex doesn't match. This is a **known limitation** — the verify script was designed during the 0-ERROR clean streak period (07-14 through 07-16) and was never updated to handle mixed counts.
+
+**Workaround:** Accept this single verify failure when ERRORs are present. The core checks (report exists, MEMORY.md entry prepended, _action-required.md entry present) will still pass.
+
+### _action-required.md patch tool failures due to non-unique table rows
+
+The Summary table in `_action-required.md` has repeated patterns across rows (e.g., `| 🔍 PENDING |` appears in every pending row). When using `patch` to add a new table row, short `old_string` patterns will match multiple rows and fail.
+
+**Workaround:** Use `write_file` to rewrite the entire file when making structural changes. For simple edits (like updating timestamps), `patch` with unique context (e.g., `**Last updated:** OLD_DATE`) is fine. For adding table rows or section entries, prefer `write_file` after reading the full file.
+
 ### Level field contradicts filesystem path → wrong spec routing
 
 When a file's `level` field doesn't match its position in the index hierarchy (e.g., `wiki/tag/tag.md` declares `level: 1` but is actually a Tầng 2 file per index-spec.md §4.1), the validator dispatches to the wrong spec and produces partially incorrect expected values.

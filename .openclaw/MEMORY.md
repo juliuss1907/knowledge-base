@@ -1,3 +1,48 @@
+## 2026-07-17 21:00 — Indexed (Incremental)
+
+- **Mode:** incremental
+- **Files changed:** 13 (10 concepts + 3 sources)
+- **Tags updated:** 6 (health, crypto, ai, tools, psychology, opinion)
+- **Topics created:** 3 (machine-economy-crypto, social-attraction-dynamics, happiness-flow-state)
+- **Orphans deleted:** 0
+- **Invalid tags found:** 0
+- **Errors:** 0
+
+### Changed files processed
+
+**Health + Psychology (8 concepts, 2 sources):**
+- [[destination-vs-vehicle]] — concept, tags: #health [#psychology]
+- [[dopamine-prediction-gap]] — concept, tags: #health [#psychology]
+- [[flow-state]] — concept, tags: #health [#psychology]
+- [[hedonic-adaptation]] — concept, tags: #health [#psychology]
+- [[outcome-independence]] — concept, tags: #health [#psychology]
+- [[psychic-energy]] — concept, tags: #health [#psychology]
+- [[psychic-entropy]] — concept, tags: #health [#psychology]
+- [[social-attraction]] — concept, tags: #health [#psychology]
+- [[src_happiness-is-a-skill-hussain-ibarra]] — source, tags: #health [#psychology, #opinion]
+- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — source, tags: #health [#psychology, #opinion]
+
+**Crypto + AI + Tools (3 concepts, 1 source):**
+- [[agentic-commerce]] — concept, tags: #crypto [#ai, #tools]
+- [[autonomous-agents]] — concept, tags: #crypto [#ai, #tools]
+- [[machine-economy]] — concept, tags: #crypto [#ai, #tools]
+- [[src_is-there-anything-left-to-build-in-crypto-wintermute]] — source, tags: #crypto [#ai, #opinion, #tools]
+
+### Actions taken
+- Updated tag index: [[health]] (33 files, +12)
+- Updated tag index: [[crypto]] (15 files, +4)
+- Updated tag index: [[ai]] (159 files, +4)
+- Updated tag index: [[tools]] (164 files, +4)
+- Updated tag index: [[psychology]] (235 files, +13)
+- Created tag index: [[opinion]] (new, 87 files)
+- Created topic index: [[machine-economy-crypto]]
+- Created topic index: [[social-attraction-dynamics]]
+- Created topic index: [[happiness-flow-state]]
+- Updated master index: [[tag]]
+- Wrote timestamp: .openclaw/last-index-success.txt
+
+---
+
 ## 2026-07-17 08:00 — Compiled (Daily Batch)
 
 - **Processed:** 3/3 files

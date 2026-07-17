@@ -8,7 +8,9 @@ title: "Is there anything left to build in crypto?"
 date_ingested: 2026-07-16
 date_published: 2026-07-15
 tags: [crypto, ai, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-17
+compiled_to: "[[src_is-there-anything-left-to-build-in-crypto-wintermute]]"
 ---
 
 # Is there anything left to build in crypto?

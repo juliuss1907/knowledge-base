@@ -8,7 +8,9 @@ title: "Happiness is a skill (here's how you can master it)"
 date_ingested: 2026-07-16
 date_published: 2026-07-16
 tags: [psychology, productivity, opinion]
-status: unprocessed
+status: processed
+compiled_at: 2026-07-17
+compiled_to: "[[src_happiness-is-a-skill-hussain-ibarra]]"
 ---
 
 # Happiness is a skill (here's how you can master it)

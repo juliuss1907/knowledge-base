@@ -1,72 +1,67 @@
 ---
 type: concept
-status: reviewed
-main_tag: ai
-sub_tags: [tools, automation]
-topic: ai-legal-personhood
+status: draft
+main_tag: crypto
+sub_tags: [ai, tools]
+topic: machine-economy-crypto
 sources:
-  - "[[src_aaron-wright-ai-agents-legal-body]]"
-last_updated: 2026-05-19
+  - "[[src_is-there-anything-left-to-build-in-crypto-wintermute]]"
+last_updated: 2026-07-17
 ---
 
 # Agentic Commerce
 
 ## Definition
 
-Thương mại được thực hiện bởi AI agents độc lập — từ research, đàm phán, ký hợp đồng, thanh toán, đến customer service — mà không cần sự can thiệp liên tục của con người. Đây là sự chuyển đổi từ AI như công cụ sang AI như agent tự chủ trong môi trường kinh doanh. Agentic commerce bao gồm các hoạt động như đặt vé máy bay, đàm phán giá, quản lý portfolio, và triển khai code một cách tự động. Văn bản pháp lý cũng trở nên machine-readable, cho phép compliance kiểm tra real-time và contract analysis tự động. Đây là xu hướng mới nổi trong AI applications cho business automation.
+Agentic commerce (giao thương tác nhân) là hình thức giao dịch và thương mạI diễn ra giữa các autonomous agents — các tác nhân AI hoặc robotic có khả năng tự chủ trong việc đàm phán, thanh toán, và thực thI hợp đồng mà không cần sự can thiệp của con ngườI trong vòng lặp.
 
 ## Key ideas
 
-### Hai dịch chuyển lớn
+- **The Hard Part:** Không phảI agent có thể thanh toán hay không, mà là:
+  - Who holds authority when the agent is wrong
+  - Who carries the fraud risk
+  - How this reaches merchants without rebuilding checkout
+- **Shape đang được định hình:** Authorization layers, agent identity, neutral routing between rails, markets where agents buy their own compute, data, and access
+- **Business model:** Better teams charge cho authorization và risk reduction thay vì cut của payment value — làm business viable trước khi agent volume thực sự lớn
 
-1. **AI từ công cụ → agent**
-   - Đặt vé máy bay
-   - Đàm phán giá
-   - Quản lý portfolio
-   - Triển khai code
+## Challenges
 
-2. **Văn bản pháp lý trở nên machine-readable**
-   - Compliance kiểm tra real-time
-   - Contract analysis tự động
-   - Risk assessment liên tục
+### Security
+- Agent wallets đã là live attack surface
+- **May 2026:** Attacker dùng Morse-code prompt injection để Grok output transfer instruction, automated trading agent execute on-chain → mất ~$150K-$200K trước khi recovery (SlowMist)
 
-### Nút thắt cổ chai
+### Liability
+- Vấn đề chưa được giảI quyết: who is responsible when AI-touched system fails
+- **Feb 2026:** AI-assisted smart contract code có oracle bug gây $1.78M bad debt event trên Moonwell — nothing in review chain caught it
 
-- AI có thể đọc hợp đồng tốt hơn luật sư
-- **Nhưng:** Không thể ký — mọi giao dịch cần con người
-- **Giải pháp:** Legal structures như zero-member LLC
+## Building Blocks
 
-### Thực tế 2026
+### Economic Layer for Agents
+- Authorization layers — xác thực agent có quyền gì
+- Agent identity — định danh tác nhân tự chủ
+- Neutral routing between rails — không phụ thuộc vào một provider
+- Markets cho compute, data, access — nơI agents tự mua resources
 
-**Wyoming DAO LLC với AI manager:**
-- Research market opportunities
-- Execute trades
-- Manage treasury
-- Hire contractors
-- Respond to legal requests
-- **Zero human signatures**
+### Physical AI Integration
+- Robots cần wallets để:
+  - Fund their own compute
+  - Pay for charging và maintenance
+  - Get paid for work they do
+- **"The wallet is missing, not the hands"**
 
-### Lớp quan trọng nhất
+## Opportunity
 
-> Không chỉ là software — là **tổ chức và pháp lý**:
-- Operating agreements
-- Governance procedures
-- Theories of authority
-- Jurisdiction selection
+Phần lớn hoạt động hiện tạI nằm ở components: foundation models, robot hardware, stablecoins, exchanges. Các markets này đã crowded.
 
-### Tương lai
-
-- "Radical at the level of software"
-- "Begins in the least glamorous place: an LLC agreement"
-- Private ordering + careful drafting
+**Opportunity nằm ở what connects them** — rails cho transaction, coordination, và trust giữa machines.
 
 ## Related concepts
 
-- [[ai-legal-personhood]]
-- [[zero-member-llc]]
-- [[agency-law]]
-- [[autonomous-agents]]
+- [[machine-economy]] — nền kinh tế máy móc rộng hơn
+- [[autonomous-agents]] — các tác nhân thực hiện commerce
 
 ## Sources
 
-- [[src_aaron-wright-ai-agents-legal-body]]
+- [[src_is-there-anything-left-to-build-in-crypto-wintermute]] — bàI viết của Wintermute
+
+## Notes

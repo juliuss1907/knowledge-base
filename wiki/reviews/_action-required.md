@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-18 23:16
+**Last updated:** 2026-07-18 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 10
+**Pending reports awaiting review:** 11
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
@@ -28,6 +28,7 @@
 | 🔍 PENDING | 07-17 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Identical to 07-15/07-16. |
 | 🔍 PENDING | 07-18 | Output | 5 (1E+4W+0I) | 14 new files. Capital-I typo exploded (237+ instances). 1 truncated concept. 1 broken wikilink. |
 | 🔍 PENDING | 07-18 | Format | 324 (5E+319W) | Identical to 07-17. 0 change. Same 5 ERRORs persist. |
+| 🔍 PENDING | 07-18 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Fourth identical run. |
 
 ---
 
@@ -146,6 +147,20 @@
   - 🔴 Add `## Sources` to `psychic-energy.md` (also flagged as truncated in Output 07-18)
   - 🟡 Shorten 2 source slugs exceeding 50-char limit
   - 🟢 Forward-ref wikilinks — no action
+- **Status:** pending
+
+---
+
+### 🔍 Hygiene Validation — 2026-07-18 (23:30)
+
+- **Report:** `wiki/reviews/2026-07-18_hygiene-report.md`
+- **Summary:** 4 issues (2 ERROR, 1 WARNING, 1 INFO) across 51,889 paths. Identical to 07-15, 07-16, and 07-17 baseline — fourth consecutive run with the same 4 issues.
+  - **`memory/` at root** (ERROR): Recurring root folder — 10th occurrence since 07-03. Contains `2026-07-15.md`. Process-level leak: a writer targets `memory/` instead of `.openclaw/memory/`.
+  - **`state/` at root** (ERROR): Recurring empty directory — 6th recurrence since original 06-25 resolution. Process recreates an empty `state/` at KB root.
+  - **`memory/2026-07-15.md`** (WARNING): Orphan file inside non-whitelisted root folder. Should be in `.openclaw/memory/`.
+  - **Empty `state/`** (INFO): Redundant with ERROR above.
+- **Delta vs 07-17:** 0 change (same 4 issues, paths_checked +6 from report/action file writes).
+- **Actions needed:** Move `memory/2026-07-15.md` to `.openclaw/memory/`, then `rmdir memory/ state/`. Identify and fix the process(es) creating these root folders — file deletions are transient without process fixes. **Fourth consecutive identical run — root cause is process-level, not file-level.**
 - **Status:** pending
 
 ---

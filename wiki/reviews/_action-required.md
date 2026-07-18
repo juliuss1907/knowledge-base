@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-18 23:09
+**Last updated:** 2026-07-18 23:16
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 9
+**Pending reports awaiting review:** 10
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
@@ -27,6 +27,7 @@
 | 🔍 PENDING | 07-17 | Format | 324 (5E+319W) | 5 ERRORs: 3 missing sections, 2 slug > 50. Clean streak broken. |
 | 🔍 PENDING | 07-17 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Identical to 07-15/07-16. |
 | 🔍 PENDING | 07-18 | Output | 5 (1E+4W+0I) | 14 new files. Capital-I typo exploded (237+ instances). 1 truncated concept. 1 broken wikilink. |
+| 🔍 PENDING | 07-18 | Format | 324 (5E+319W) | Identical to 07-17. 0 change. Same 5 ERRORs persist. |
 
 ---
 
@@ -132,6 +133,19 @@
   - 🔴 Fix hoặc remove broken wikilink `[[crypto-ai-stacking]]` trong `src_is-there-anything-left-to-build-in-crypto-wintermute.md`
   - 🟡 Chạy sed script mở rộng để fix 237+ capital-I instances trên toàn bộ 14 file (script trong report)
   - 🟡 Escalate Compile Agent prompt — root cause của capital-I đang ngày càng nghiêm trọng, ảnh hưởng đến tất cả batch mới
+- **Status:** pending
+
+### 🔍 Format Validation — 2026-07-18 (23:16)
+
+- **Report:** `wiki/reviews/2026-07-18_format-report.md`
+- **Summary:** 324 issues (5 ERROR, 319 WARNING, 0 INFO) across 796 files. **Identical to 07-17 — 0 change.** No files added or removed since yesterday. Same 5 ERRORs persist unfixed (3 missing sections, 2 slug > 50). 319 forward-ref wikilinks (same targets). 2 raw-file original link issues persist. This is a stable plateau — the KB hasn't changed, so the issues haven't changed.
+- **Delta vs 07-17 (previous):** 0 — fully identical results.
+- **Delta vs 07-14 (approved):** +5 ERROR, +13 WARNING, +27 files (+17 concepts, +5 sources, +5 topics).
+- **Actions needed:**
+  - 🔴 Add `## Key ideas` to `destination-vs-vehicle.md` and `social-attraction.md`
+  - 🔴 Add `## Sources` to `psychic-energy.md` (also flagged as truncated in Output 07-18)
+  - 🟡 Shorten 2 source slugs exceeding 50-char limit
+  - 🟢 Forward-ref wikilinks — no action
 - **Status:** pending
 
 ---

@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-17 23:30
+**Last updated:** 2026-07-18 23:09
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 8
+**Pending reports awaiting review:** 9
 **Last batch applied:** 6 reports (07-12 + 07-13) **APPLIED** 2026-07-14 by Fix Agent
 **Latest approved:** Format 07-14 — approved 2026-07-15 (306W forward-ref wikilinks, 0 ERRORs)
 
@@ -26,6 +26,7 @@
 | 🔍 PENDING | 07-16 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Identical to 07-15. |
 | 🔍 PENDING | 07-17 | Format | 324 (5E+319W) | 5 ERRORs: 3 missing sections, 2 slug > 50. Clean streak broken. |
 | 🔍 PENDING | 07-17 | Hygiene | 4 (2E+1W+1I) | Recurring root folders: memory/ and state/. Identical to 07-15/07-16. |
+| 🔍 PENDING | 07-18 | Output | 5 (1E+4W+0I) | 14 new files. Capital-I typo exploded (237+ instances). 1 truncated concept. 1 broken wikilink. |
 
 ---
 
@@ -120,6 +121,17 @@
   - **Empty `state/`** (INFO): Redundant with ERROR above.
 - **Delta vs 07-16:** 0 change (same 4 issues, paths_checked +22 from report/action file writes).
 - **Actions needed:** Move `memory/2026-07-15.md` to `.openclaw/memory/`, then `rmdir memory/ state/`. Identify and fix the process(es) creating these root folders — file deletions are transient without process fixes.
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-07-18 (23:09)
+
+- **Report:** `wiki/reviews/2026-07-18_output-report.md`
+- **Summary:** 5 issues (1 ERROR, 4 WARNING, 0 INFO) across 592 files. 14 new files from 2026-07-17 batch (3 sources + 11 concepts). Capital-I typo mở rộng nghiêm trọng — 237+ instances trên toàn bộ 14 file mới, không chỉ giới hạn ở "ngườI" như báo cáo 07-16 mà ảnh hưởng đến MỌI từ tiếng Việt kết thúc bằng lowercase-i sau nguyên âm. 1 ERROR: `psychic-energy.md` truncated — thiếu Sources và Notes. 1 broken wikilink: `[[crypto-ai-stacking]]` không tồn tại. Tất cả file có cấu trúc sections đầy đủ.
+- **Actions needed:**
+  - 🔴 Re-compile `psychic-energy.md` (truncated)
+  - 🔴 Fix hoặc remove broken wikilink `[[crypto-ai-stacking]]` trong `src_is-there-anything-left-to-build-in-crypto-wintermute.md`
+  - 🟡 Chạy sed script mở rộng để fix 237+ capital-I instances trên toàn bộ 14 file (script trong report)
+  - 🟡 Escalate Compile Agent prompt — root cause của capital-I đang ngày càng nghiêm trọng, ảnh hưởng đến tất cả batch mới
 - **Status:** pending
 
 ---

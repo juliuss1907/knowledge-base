@@ -1,0 +1,233 @@
+{
+  "jobs": [
+    {
+      "id": "d48e30a9a963",
+      "name": "Output Validator",
+      "prompt": "cd /home/julius/knowledge-base && Ch\u1ea1y Output Validator: \u0111\u1ecdc to\u00e0n b\u1ed9 wiki/sources/*.md v\u00e0 wiki/concepts/*.md, validate content quality (factual accuracy, completeness, coherence, Vietnamese quality), ghi report v\u00e0o wiki/reviews/YYYY-MM-DD_output-report.md, update wiki/reviews/_action-required.md, g\u1eedi Telegram notification.",
+      "skills": [
+        "output-validator"
+      ],
+      "skill": "output-validator",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 23 * * *",
+        "display": "0 23 * * *"
+      },
+      "schedule_display": "0 23 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 45
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-14T16:10:27.286282+07:00",
+      "next_run_at": "2026-07-19T23:00:00+07:00",
+      "last_run_at": "2026-07-18T23:14:21.912978+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "fire_claim": null
+    },
+    {
+      "id": "d14687442111",
+      "name": "Format Validator",
+      "prompt": "cd /home/julius/knowledge-base && Ch\u1ea1y Format Validator: \u0111\u1ecdc wiki/meta/format-spec.md (ground truth), \u0111\u1ecdc to\u00e0n b\u1ed9 wiki/sources/*.md + wiki/concepts/*.md, validate format compliance (frontmatter, sections, naming, markdown, wikilinks), ghi report v\u00e0o wiki/reviews/YYYY-MM-DD_format-report.md, update wiki/reviews/_action-required.md, g\u1eedi Telegram notification.",
+      "skills": [
+        "format-validator"
+      ],
+      "skill": "format-validator",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 23 * * *",
+        "display": "15 23 * * *"
+      },
+      "schedule_display": "15 23 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 43
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-14T16:11:13.837401+07:00",
+      "next_run_at": "2026-07-19T23:15:00+07:00",
+      "last_run_at": "2026-07-18T23:19:28.204133+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "fire_claim": null
+    },
+    {
+      "id": "f1ff44c008e2",
+      "name": "Hygiene Inspector",
+      "prompt": "cd /home/julius/knowledge-base && Ch\u1ea1y Hygiene Inspector: \u0111\u1ecdc wiki/meta/folder-structure.md (ground truth), scan to\u00e0n b\u1ed9 c\u00e2y th\u01b0 m\u1ee5c knowledge base, ki\u1ec3m tra path whitelist, naming conventions, orphan detection, ghi report v\u00e0o wiki/reviews/YYYY-MM-DD_hygiene-report.md, update wiki/reviews/_action-required.md, g\u1eedi Telegram notification.",
+      "skills": [
+        "hygiene-inspector"
+      ],
+      "skill": "hygiene-inspector",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 23 * * *",
+        "display": "30 23 * * *"
+      },
+      "schedule_display": "30 23 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 43
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-14T16:11:23.785428+07:00",
+      "next_run_at": "2026-07-19T23:30:00+07:00",
+      "last_run_at": "2026-07-18T23:34:24.122845+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "fire_claim": null
+    },
+    {
+      "id": "d34704e0987e",
+      "name": "X News \u2014 Morning",
+      "prompt": "Ch\u1ea1y X News Brief phi\u00ean s\u00e1ng \u2600\ufe0f. Playwright \u2192 thefeed.today \u2192 extract Crypto + Tech \u2192 filter m\u1edbi \u2192 prioritize 3-tier \u2192 brief \u2192 Telegram. State: .hermes/skills/x-news-brief/.state/",
+      "skills": [
+        "x-news-brief"
+      ],
+      "skill": "x-news-brief",
+      "model": "deepseek-v4-pro",
+      "provider": "ollama-cloud",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "display": "0 7 * * *"
+      },
+      "schedule_display": "0 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 4
+      },
+      "enabled": false,
+      "state": "completed",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-20T10:33:11.710742+07:00",
+      "next_run_at": null,
+      "last_run_at": "2026-05-23T07:25:45.768987+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "daf863d0046a",
+      "name": "X News \u2014 Midday",
+      "prompt": "Ch\u1ea1y X News Brief phi\u00ean tr\u01b0a \ud83c\udf24. Playwright \u2192 thefeed.today \u2192 extract Crypto + Tech \u2192 filter m\u1edbi \u2192 prioritize 3-tier \u2192 brief \u2192 Telegram. State: .hermes/skills/x-news-brief/.state/",
+      "skills": [
+        "x-news-brief"
+      ],
+      "skill": "x-news-brief",
+      "model": "deepseek-v4-pro",
+      "provider": "ollama-cloud",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13 * * *",
+        "display": "0 13 * * *"
+      },
+      "schedule_display": "0 13 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": false,
+      "state": "completed",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-20T10:33:18.764383+07:00",
+      "next_run_at": null,
+      "last_run_at": "2026-05-23T13:10:11.937887+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "7844efdc25ca",
+      "name": "X News \u2014 Evening",
+      "prompt": "Ch\u1ea1y X News Brief phi\u00ean t\u1ed1i \ud83c\udf19. Playwright \u2192 thefeed.today \u2192 extract Crypto + Tech \u2192 filter m\u1edbi \u2192 prioritize 3-tier \u2192 brief \u2192 Telegram. State: .hermes/skills/x-news-brief/.state/",
+      "skills": [
+        "x-news-brief"
+      ],
+      "skill": "x-news-brief",
+      "model": "deepseek-v4-pro",
+      "provider": "ollama-cloud",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21 * * *",
+        "display": "0 21 * * *"
+      },
+      "schedule_display": "0 21 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 9
+      },
+      "enabled": false,
+      "state": "completed",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-20T10:33:24.634689+07:00",
+      "next_run_at": null,
+      "last_run_at": "2026-05-23T21:15:24.775716+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-07-18T23:34:24.123850+07:00"
+}

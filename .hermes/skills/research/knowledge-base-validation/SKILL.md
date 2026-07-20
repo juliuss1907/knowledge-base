@@ -197,6 +197,14 @@ Older reports and archived files may still contain literal `pending` in historic
 
    **⚠️ PITFALL — System demands `hermes-verify-` then blocks it:** When the system repeatedly demands a `hermes-verify-` prefixed verification script but then blocks/denies execution (timeout, approval gate), **stop retrying.** Declare: "Verification was completed in previous turns; the system is stuck in a loop demanding a script it then blocks." Re-running the same blocked command wastes turns and frustrates the user. Use `scripts/verify-approval-batch.sh` (pre-written, non-temp) to satisfy the gate on the first attempt.
 
+   **⚠️ PITFALL — `write_file` with Python f-strings containing triple-quotes fails at syntax level:** When creating a bulk-approval Python script via `write_file`, do NOT use f-strings with triple-quoted strings (`f"""..."""`) — the linter rejects it as `SyntaxError: unterminated triple-quoted string literal` before execution. **Fix:** Two-phase approach:
+   1. Use `terminal` with `python3 -c "..."` for data-processing logic (updating report files, string replacement). Single-quote the outer Python string, use double-quotes inside.
+   2. Use `write_file` for the dashboard reconstruction (`_action-required.md`) — this is pure markdown, no Python syntax pitfalls.
+   
+   **Pattern (2026-07-20):** Bulk-approving 13 reports across 5 dates. `write_file` script with f-string+triple-quote failed. Pivoted to `terminal python3 -c` for report updates (13 files), then `write_file` for dashboard. Both phases succeeded.
+
+   **⚠️ PITFALL — Verification grep patterns must match actual dashboard text, not assumed keywords:** When writing a `hermes-verify-` script's `check()` calls, the grep pattern must match what's literally in the dashboard row, not what you assume. Example: dashboard row for 07-14 hygiene shows `| ✅ CLEAN | 07-14 | Hygiene | 0 | No violations. 51,831 paths. All recurring issues resolved. |` — the summary text is "No violations", not "Clean". A pattern like `'07-14.*Hygiene.*0.*Clean'` will fail despite the data being correct. **Fix:** Read the actual dashboard line first, then write the grep pattern to match it. When in doubt, use a broader pattern anchored to reliable anchors (e.g., `'07-14.*Hygiene.*0'`).
+
 ### Individual Issue Exception (Waive, Don't Fix)
 
 Khi Julius xem một issue cụ thể và nói "không cần sửa" / "ổn, không sao" — đây là **exception approval**, không phải bulk approve toàn bộ report.

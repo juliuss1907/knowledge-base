@@ -21,13 +21,13 @@ author: a16z
 
 ## Summary
 
-Bài viết của a16z đưa ra luận điểm gây sốc: "Con ngườI hiện đã rẻ hơn phần mềm" trong kỷ nguyên AI. Tác giả vẽ song song giữa việc quản lý workforce con ngườI và quản lý AI tokens - cả hai đều gặp vấn đề looping, political resistance, và cần evals để đo lường hiệu quả. Điểm then chốt là 100X token (những context tokens có leverage cao) sẽ là yếu tố quyết định competitive advantage, và các công ty cung cấp "AI transformation" sẽ thành công hơn neofirms vì họ nắm giữ proprietary processes và distribution channels.
+Bài viết của a16z đưa ra luận điểm gây sốc: "Con người hiện đã rẻ hơn phần mềm" trong kỷ nguyên AI. Tác giả vẽ song song giữa việc quản lý workforce con người và quản lý AI tokens - cả hai đều gặp vấn đề looping, political resistance, và cần evals để đo lường hiệu quả. Điểm then chốt là 100X token (những context tokens có leverage cao) sẽ là yếu tố quyết định competitive advantage, và các công ty cung cấp "AI transformation" sẽ thành công hơn neofirms vì họ nắm giữ proprietary processes và distribution channels.
 
 ## Key points
 
-- Lần đầu tiên trong lịch sử, con ngườI rẻ hơn software - chi phí token per employee tăng vọt, AI tạo ra nhiều việc làm hơn là loại bỏ
+- Lần đầu tiên trong lịch sử, con người rẻ hơn software - chi phí token per employee tăng vọt, AI tạo ra nhiều việc làm hơn là loại bỏ
 - So sánh với ngành đường sắt năm 1841: khi complexity tăng, cần managers và hierarchies để điều phối - AI cũng vậy
-- Tokenmaxxing hype cycle kết thúc trong 1 tháng vì ngườI dùng không biết cách sử dụng tokens hiệu quả
+- Tokenmaxxing hype cycle kết thúc trong 1 tháng vì người dùng không biết cách sử dụng tokens hiệu quả
 - 80% tokens hiện nay không tạo ra giá trị - giống như 80% nhân viên trong các công ty mismanaged
 - AI phá vỡ promise của software: không còn predictable, cần supervision, và scales dysfunction instantly
 - 10X engineer xây dựng era trước, 100X token sẽ xây dựng era tiếp theo

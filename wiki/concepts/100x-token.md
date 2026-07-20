@@ -19,7 +19,7 @@ last_updated: 2026-07-16
 
 - 100X tokens là yếu tố then chốt để chuyển đổi AI từ cost center thành value generator
 - Tồn tại sự chênh lệch lớn giữa "good tokens" và "bad tokens" - không phải tất cả tokens đều như nhau
-- NgườI nắm giữ 100X tokens có động lực thấp nhất để chia sẻ (tribal knowledge = job security)
+- Người nắm giữ 100X tokens có động lực thấp nhất để chia sẻ (tribal knowledge = job security)
 - Management trong AI era là quá trình chuyển đổi tokens thường thành 100X tokens
 - Token minimization và optimization là core competency của firms AI-native
 - 100X tokens có thể giảm retries, loops, và waste trong AI workflows

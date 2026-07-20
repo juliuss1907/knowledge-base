@@ -17,9 +17,9 @@ last_updated: 2026-07-15
 
 ## Key ideas
 
-- Những ngườI từng đạt thành tích cao trong các kỳ thi olympiad toán và khoa học đang tạo nên tỷ lệ bất thường trong số các founder thành công hiện nay
+- Những người từng đạt thành tích cao trong các kỳ thi olympiad toán và khoa học đang tạo nên tỷ lệ bất thường trong số các founder thành công hiện nay
 - Các công ty nổi bật do "Math Mafia" sáng lập bao gồm: Hyperliquid (Jeff Yan), Cognition (Scott Wu, Steven Hao, Walden Yan), Scale (Alexandr Wang), DecagonAI (Jesse Zhang), Perplexity (Johnny Ho), Pika (Demi Guo), Cartesia (Albert Gu)
-- Nhiều ngườI trong nhóm này từng làm việc tại các công ty tài chính quant (Hudson River Trading, Citadel, Jane Street, D.E. Shaw) trước khi khởi nghiệp
+- Nhiều người trong nhóm này từng làm việc tại các công ty tài chính quant (Hudson River Trading, Citadel, Jane Street, D.E. Shaw) trước khi khởi nghiệp
 - Hiệu ứng mạng lưới mạnh mẽ: các thành viên quen biết từ trại hè olympiad, internship, và cộng đồng quant giúp họ chia sẻ kinh nghiệm và cơ hội
 
 ## Related concepts

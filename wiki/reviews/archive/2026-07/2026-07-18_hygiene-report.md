@@ -1,6 +1,6 @@
 # Hygiene Inspection — 2026-07-18
 
-**Status:** approved
+**Status:** applied
 **Issues found:** 4
 **Created:** 2026-07-18 23:30:00
 **Approved by:** Julius

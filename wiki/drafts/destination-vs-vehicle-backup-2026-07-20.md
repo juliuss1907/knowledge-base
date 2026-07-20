@@ -13,12 +13,12 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Destination vs Vehicle (đích đến vs phương tiện) là framework phân biệt hai cách positioning bản thân trong relationships và social dynamics. NgườI theo đuổI vô thức biến mình thành vehicle — phương tiện cho trảI nghiệm của ngườI khác. NgườI thu hút là destination — đích đến có thế giớI nộI tại riêng, worth reaching.
+Destination vs Vehicle (đích đến vs phương tiện) là framework phân biệt hai cách positioning bản thân trong relationships và social dynamics. Người theo đuổi vô thức biến mình thành vehicle — phương tiện cho trải nghiệm của người khác. Người thu hút là destination — đích đến có thế giới nội tại riêng, worth reaching.
 
-## Vehicle (NgườI theo đuổI)
+## Vehicle (Người theo đuổi)
 
 Vô thức positioning như:
-- **Vehicle for someone else's comfort:** Luôn làm ngườI khác thoảI máI
+- **Vehicle for someone else's comfort:** Luôn làm người khác thoải mái
 - **Vehicle for their validation:** Seek approval
 - **Vehicle for their entertainment:** Luôn entertaining
 - **Vehicle for their goals:** Adjust để phù hợp goals của họ
@@ -27,12 +27,12 @@ Vô thức positioning như:
 
 > **"Because they positioned themselves as a means rather than an end."**
 
-## Destination (NgườI thu hút)
+## Destination (Người thu hút)
 
-- **Has a world:** Thế giớI nộI tại vớI actual texture
-- **Opinions that aren't negotiable:** Quan điểm không thay đổI theo gió
+- **Has a world:** Thế giới nội tại với actual texture
+- **Opinions that aren't negotiable:** Quan điểm không thay đổi theo gió
 - **Preferences that don't shift:** Sở thích ổn định
-- **Sense of direction:** Direction tồn tạI trước khi bạn đến và tiếp tục sau khi bạn đi
+- **Sense of direction:** Direction tồn tại trước khi bạn đến và tiếp tục sau khi bạn đi
 
 **Kết quả:** Being around them means entering something already exists and is already moving.
 
@@ -50,7 +50,7 @@ Brain đánh giá target dựa trên:
 2. **Scarcity signals:** Thứ này có hiếm không?
 
 **Destination:**
-- Value: Có thế giớI nộI tại, opinions, direction
+- Value: Có thế giới nội tại, opinions, direction
 - Scarcity: Availability limited vì genuinely occupied
 
 **Vehicle:**
@@ -59,7 +59,7 @@ Brain đánh giá target dựa trên:
 
 ## Becoming a Destination
 
-Không phảI bằng cách làm mình khó reach (hard to reach), mà bằng cách:
+Không phải bằng cách làm mình khó reach (hard to reach), mà bằng cách:
 
 1. **Making yourself worth reaching:**
    - Build interior life
@@ -67,7 +67,7 @@ Không phảI bằng cách làm mình khó reach (hard to reach), mà bằng cá
    - Have standards reflecting genuine understanding của what you want
 
 2. **Being genuinely occupied:**
-   - Occupied vớI becoming what you're trying to become
+   - Occupied với becoming what you're trying to become
    - Availability resolves itself naturally
    - Không cần tính toán
 
@@ -90,6 +90,6 @@ Không phảI bằng cách làm mình khó reach (hard to reach), mà bằng cá
 
 ## Sources
 
-- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — bàI viết của Gabriel Reality
+- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — bài viết của Gabriel Reality
 
 ## Notes

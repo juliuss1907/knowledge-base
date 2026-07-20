@@ -21,17 +21,17 @@ author: Gabriel Reality
 
 ## Summary
 
-BàI viết phân tích cơ chế tâm lý học và thần kinh học đằng sau hiện tượng "ngườI thu hút" — những ngườI không cần theo đuổI nhưng cơ hộI, mốI quan hệ, sự tôn trọng tự đến vớI họ. Tác giả trình bày 5 quy luật dựa trên nghiên cứu neuroscience, từ dopamine firing trên prediction gap đến việc trở thành destination thay vì vehicle. Điểm cốt lõI: sự thu hút không phảI là performance mà là natural output của một cuộc sống có thực chất.
+Bài viết phân tích cơ chế tâm lý học và thần kinh học đằng sau hiện tượng "người thu hút" — những người không cần theo đuổi nhưng cơ hội, mối quan hệ, sự tôn trọng tự đến với họ. Tác giả trình bày 5 quy luật dựa trên nghiên cứu neuroscience, từ dopamine firing trên prediction gap đến việc trở thành destination thay vì vehicle. Điểm cốt lõi: sự thu hút không phải là performance mà là natural output của một cuộc sống có thực chất.
 
 ## Key points
 
-- **Law 1 — Dopamine fires on prediction:** Dopamine kích hoạt trên khoảng cách giữa hiện tạI và tương laI dự đoán, không phảI reward thực tế. Availability hoàn toàn → neurological flatline
-- **Law 2 — Have somewhere real to return to:** NgườI thu hút có life vớI actual substance — work, relationships, interests không cần audience
+- **Law 1 — Dopamine fires on prediction:** Dopamine kích hoạt trên khoảng cách giữa hiện tại và tương laI dự đoán, không phải reward thực tế. Availability hoàn toàn → neurological flatline
+- **Law 2 — Have somewhere real to return to:** Người thu hút có life với actual substance — work, relationships, interests không cần audience
 - **Law 3 — Outcome independence:** Có thể quan tâm kết quả mà không cần nó — dấu hiệu của options, standards, và attention có giá trị
 - **Law 4 — Stop auditioning:** Ngừng "diễn" — people feel the management happening. Consistency produces trust at nervous system level
-- **Law 5 — Be a destination, not a vehicle:** NgườI theo đuổI là vehicle cho nhu cầu ngườI khác; ngườI thu hút là destination có thế giớI nộI tại riêng
-- **Không thể fake:** Performed unavailability bị detect. Chỉ genuine fullness — life occupied vớI own trajectory — mới tạo real uncertainty
-- **Solution:** Build something worth returning to — không phảI perform attraction mà là build nó
+- **Law 5 — Be a destination, not a vehicle:** Người theo đuổi là vehicle cho nhu cầu người khác; người thu hút là destination có thế giới nội tại riêng
+- **Không thể fake:** Performed unavailability bị detect. Chỉ genuine fullness — life occupied với own trajectory — mới tạo real uncertainty
+- **Solution:** Build something worth returning to — không phải perform attraction mà là build nó
 
 ## Concepts referenced
 

@@ -13,14 +13,14 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Social attraction (sự thu hút xã hộI) là hiện tượng một ngườI tạo ra "gravitational pull" — cơ hộI, mốI quan hệ, sự tôn trọng tự đến vớI họ mà không cần họ theo đuổI. Đây không phảI là luck hay personality mà là hệ thống có thể xây dựng dựa trên hiểu biết về neuroscience và psychology.
+Social attraction (sự thu hút xã hội) là hiện tượng một người tạo ra "gravitational pull" — cơ hội, mối quan hệ, sự tôn trọng tự đến với họ mà không cần họ theo đuổi. Đây không phải là luck hay personality mà là hệ thống có thể xây dựng dựa trên hiểu biết về neuroscience và psychology.
 
 ## Key characteristics
 
-- **Not louder:** Không nhất thiết phảI ồn ào hơn
-- **Not necessarily more attractive:** Không nhất thiết phảI hấp dẫn hơn về ngoạI hình
+- **Not louder:** Không nhất thiết phải ồn ào hơn
+- **Not necessarily more attractive:** Không nhất thiết phải hấp dẫn hơn về ngoại hình
 - **Not aggressive networking:** Không network aggressively hay follow up nhiều lần
-- **Rooms shift when they enter:** Không phảI vì performing — vì cách họ occupy space tạo ra gravitational pull
+- **Rooms shift when they enter:** Không phải vì performing — vì cách họ occupy space tạo ra gravitational pull
 
 ## Chasing vs Attracting
 
@@ -34,12 +34,12 @@ Social attraction (sự thu hút xã hộI) là hiện tượng một ngườI t
 ## The 5 Laws
 
 ### Law 1: Dopamine Prediction Gap
-- Dopamine fires on prediction of reward, không phảI reward itself
+- Dopamine fires on prediction of reward, không phải reward itself
 - Full availability → neurological flatline
 - Genuine fullness → real uncertainty → neurologically compelling
 
 ### Law 2: Have Somewhere Real to Return To
-- Life vớI actual substance
+- Life với actual substance
 - Work, relationships, interests không cần audience
 - Lower baseline cortisol → visible trong posture, tone, eye contact
 
@@ -63,13 +63,13 @@ Social attraction (sự thu hút xã hộI) là hiện tượng một ngườI t
 People try to manufacture attraction bằng cách:
 - Pull back artificially
 - Delay responses on timer
-- Perform disinterest vớI one eye on reaction
+- Perform disinterest với one eye on reaction
 
 **Không work** vì nervous system detects performance. Scarcity feels manufactured vì nó là vậy.
 
 ## The Real Thing
 
-Genuine attraction là natural output của ngườI:
+Genuine attraction là natural output của người:
 - Genuinely invested in their own life
 - Genuinely clear on what they want
 - Genuinely unbothered by outcomes they can't control
@@ -78,10 +78,10 @@ Genuine attraction là natural output của ngườI:
 
 ## Solution
 
-Chasing là symptom — thứ bạn đang theo đuổI giữ nhiều sense of self hơn chính cuộc sống của bạn.
+Chasing là symptom — thứ bạn đang theo đuổi giữ nhiều sense of self hơn chính cuộc sống của bạn.
 
-**GiảI pháp:** Build something worth returning to
-- Life vớI actual weight and direction
+**Giải pháp:** Build something worth returning to
+- Life với actual weight and direction
 - Work demands real attention
 - Sense of self không cần external confirmation
 - Standards reflecting genuine self-knowledge
@@ -96,6 +96,6 @@ Khi những thứ này exist for real, dynamic shifts without any strategy.
 
 ## Sources
 
-- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — bàI viết của Gabriel Reality
+- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — bài viết của Gabriel Reality
 
 ## Notes

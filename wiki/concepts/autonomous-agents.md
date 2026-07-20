@@ -13,13 +13,13 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Autonomous agents (tác nhân tự chủ) là các hệ thống AI hoặc robotic có khả năng hoạt động độc lập trong thờI gian dàI — giữ context, đưa ra quyết định, thực thI hành động, và tự quản lý resources mà không cần sự giám sát liên tục của con ngườI.
+Autonomous agents (tác nhân tự chủ) là các hệ thống AI hoặc robotic có khả năng hoạt động độc lập trong thời gian dài — giữ context, đưa ra quyết định, thực thI hành động, và tự quản lý resources mà không cần sự giám sát liên tục của con người.
 
 ## Key ideas
 
-- **Continuous operation:** Khác vớI narrow tools, agents giữ context và làm việc unattended qua thờI gian
+- **Continuous operation:** Khác với narrow tools, agents giữ context và làm việc unattended qua thời gian
 - **Decision making:** Có thể đưa ra quyết định dựa trên context và goals
-- **Transaction capability:** Có thể thực hiện giao dịch tàI chính
+- **Transaction capability:** Có thể thực hiện giao dịch tài chính
 - **Self-management:** Quản lý resources của chính mình (compute, charging, maintenance)
 
 ## Distinction: Tool vs Agent
@@ -38,7 +38,7 @@ Autonomous agents (tác nhân tự chủ) là các hệ thống AI hoặc roboti
 - Book flights, đàm phán giá, thanh toán, xử lý refunds
 - Research và tổng hợp thông tin
 - Trade và quản lý portfolio
-- Tương tác vớI other agents
+- Tương tác với other agents
 
 ### Physical Agents (Robots)
 - Nhận tasks và execute
@@ -56,9 +56,9 @@ Autonomous agents (tác nhân tự chủ) là các hệ thống AI hoặc roboti
 
 ## Economic Impact
 
-- **Cost of digital work collapsing:** Làm tasks viable mà trước đây không đáng thờI gian ngườI
+- **Cost of digital work collapsing:** Làm tasks viable mà trước đây không đáng thời gian người
 - **Changes automation economics:** Volume of activity systems must absorb tăng đáng kể
-- **New coordination patterns:** Agents coordinate vớI nhau không cần human intermediaries
+- **New coordination patterns:** Agents coordinate với nhau không cần human intermediaries
 
 ## Infrastructure Needs
 
@@ -88,6 +88,6 @@ Autonomous agents (tác nhân tự chủ) là các hệ thống AI hoặc roboti
 
 ## Sources
 
-- [[src_is-there-anything-left-build-crypto-wintermute]] — bàI viết của Wintermute
+- [[src_is-there-anything-left-build-crypto-wintermute]] — bài viết của Wintermute
 
 ## Notes

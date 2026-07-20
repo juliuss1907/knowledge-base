@@ -21,7 +21,7 @@ author: Wintermute (@wintermute_t)
 
 ## Summary
 
-BàI viết của Wintermute trình bày thesis mớI về tương laI crypto: thay vì hỏI "crypto có thể làm gì", câu hỏI đúng là "thế giớI cần crypto để làm gì?". Câu trả lờI ngày càng rõ ràng: **machine economy** — nền kinh tế nơI máy móc là các tác nhân kinh tế (economic actors), không chỉ là công cụ. VớI sự phát triển của AI agents và robotics, hạ tầng tàI chính hiện tạI được xây dựng cho con ngườI không còn phù hợp. Crypto rails — mở, programmable, permissionless, settled in seconds — phù hợp hơn cho các tác nhân tự chủ.
+Bài viết của Wintermute trình bày thesis mới về tương laI crypto: thay vì hỏi "crypto có thể làm gì", câu hỏi đúng là "thế giới cần crypto để làm gì?". Câu trả lời ngày càng rõ ràng: **machine economy** — nền kinh tế nơI máy móc là các tác nhân kinh tế (economic actors), không chỉ là công cụ. Với sự phát triển của AI agents và robotics, hạ tầng tài chính hiện tại được xây dựng cho con người không còn phù hợp. Crypto rails — mở, programmable, permissionless, settled in seconds — phù hợp hơn cho các tác nhân tự chủ.
 
 ## Key points
 

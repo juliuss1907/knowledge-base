@@ -1,6 +1,6 @@
 # Format Validation — 2026-07-19
 
-**Status:** approved
+**Status:** applied
 **Issues found:** 324
 **ERRORs:** 5
 **WARNINGS**: 319

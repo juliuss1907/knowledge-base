@@ -18,7 +18,7 @@ Quant Finance Culture là văn hóa làm việc đặc trưng tại các công t
 ## Key ideas
 
 - **Thi đua dưới dạng "kỳ thi toán thực tế":** Các công ty quant coi thị trường tài chính như là các bài toán phức tạp cần giải, nơi năng lực phân tích và quyết định nhanh được thưởng trực tiếp bằng lợi nhuận
-- **Tuyển dụng từ cộng đồng olympiad:** Các công ty này tích cực tuyển dụng những ngườI đạt huy chương olympiad quốc tế, thậm chí tổ chức các kỳ thi toán trực tiếp cho thực tập sinh (Citadel tổ chức live math contest)
+- **Tuyển dụng từ cộng đồng olympiad:** Các công ty này tích cực tuyển dụng những người đạt huy chương olympiad quốc tế, thậm chí tổ chức các kỳ thi toán trực tiếp cho thực tập sinh (Citadel tổ chức live math contest)
 - **Là bước đệm cho khởi nghiệp:** Nhiều founder nổi tiếng (Jeff Yan, Scott Wu, Alexandr Wang, Jesse Zhang) từng làm việc tại các công ty quant trước khi khởi nghiệp
 - **Văn hóa làm việc dựa trên meritocracy:** Thưởng dựa trên năng lực và kết quả, ít chính trị nội bộ, phù hợp với tư duy của thí sinh olympiad quen với đánh giá khách quan
 - **Mạng lưới và cộng đồng:** Các intern class tại các công ty quant tạo thành nhóm gắn kết, sau này thường cùng nhau khởi nghiệp hoặc đầu tư lẫn nhau

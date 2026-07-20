@@ -13,11 +13,11 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Agentic commerce (giao thương tác nhân) là hình thức giao dịch và thương mạI diễn ra giữa các autonomous agents — các tác nhân AI hoặc robotic có khả năng tự chủ trong việc đàm phán, thanh toán, và thực thI hợp đồng mà không cần sự can thiệp của con ngườI trong vòng lặp.
+Agentic commerce (giao thương tác nhân) là hình thức giao dịch và thương mại diễn ra giữa các autonomous agents — các tác nhân AI hoặc robotic có khả năng tự chủ trong việc đàm phán, thanh toán, và thực thI hợp đồng mà không cần sự can thiệp của con người trong vòng lặp.
 
 ## Key ideas
 
-- **The Hard Part:** Không phảI agent có thể thanh toán hay không, mà là:
+- **The Hard Part:** Không phải agent có thể thanh toán hay không, mà là:
   - Who holds authority when the agent is wrong
   - Who carries the fraud risk
   - How this reaches merchants without rebuilding checkout
@@ -31,7 +31,7 @@ Agentic commerce (giao thương tác nhân) là hình thức giao dịch và th�
 - **May 2026:** Attacker dùng Morse-code prompt injection để Grok output transfer instruction, automated trading agent execute on-chain → mất ~$150K-$200K trước khi recovery (SlowMist)
 
 ### Liability
-- Vấn đề chưa được giảI quyết: who is responsible when AI-touched system fails
+- Vấn đề chưa được giải quyết: who is responsible when AI-touched system fails
 - **Feb 2026:** AI-assisted smart contract code có oracle bug gây $1.78M bad debt event trên Moonwell — nothing in review chain caught it
 
 ## Building Blocks
@@ -51,7 +51,7 @@ Agentic commerce (giao thương tác nhân) là hình thức giao dịch và th�
 
 ## Opportunity
 
-Phần lớn hoạt động hiện tạI nằm ở components: foundation models, robot hardware, stablecoins, exchanges. Các markets này đã crowded.
+Phần lớn hoạt động hiện tại nằm ở components: foundation models, robot hardware, stablecoins, exchanges. Các markets này đã crowded.
 
 **Opportunity nằm ở what connects them** — rails cho transaction, coordination, và trust giữa machines.
 
@@ -62,6 +62,6 @@ Phần lớn hoạt động hiện tạI nằm ở components: foundation models
 
 ## Sources
 
-- [[src_is-there-anything-left-build-crypto-wintermute]] — bàI viết của Wintermute
+- [[src_is-there-anything-left-build-crypto-wintermute]] — bài viết của Wintermute
 
 ## Notes

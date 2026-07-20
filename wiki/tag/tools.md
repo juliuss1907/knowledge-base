@@ -150,7 +150,7 @@ last_updated: 2026-07-17
 - [[src_how-average-people-will-get-rich-with-ai]] — How Average People Will Get Rich With Ai (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 - [[src_how-the-market-warns-you-before-the-crash]] — How The Market Warns You Before The Crash (source)
-- [[src_is-there-anything-left-to-build-in-crypto-wintermute]] — Is There Anything Left to Build in Crypto Wintermute (source)
+- [[src_is-there-anything-left-build-crypto-wintermute]] — Is There Anything Left to Build in Crypto Wintermute (source)
 - [[src_leverage]] — Leverage (source)
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
 - [[src_loop-native-factory]] — Loop Native Factory (source)

@@ -5,7 +5,7 @@ main_tag: crypto
 sub_tags: [ai, tools]
 topic: machine-economy-crypto
 sources:
-  - "[[src_is-there-anything-left-to-build-in-crypto-wintermute]]"
+  - "[[src_is-there-anything-left-build-crypto-wintermute]]"
 last_updated: 2026-07-17
 ---
 
@@ -62,6 +62,6 @@ Phần lớn hoạt động hiện tạI nằm ở components: foundation models
 
 ## Sources
 
-- [[src_is-there-anything-left-to-build-in-crypto-wintermute]] — bàI viết của Wintermute
+- [[src_is-there-anything-left-build-crypto-wintermute]] — bàI viết của Wintermute
 
 ## Notes

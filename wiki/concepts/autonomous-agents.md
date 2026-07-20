@@ -5,7 +5,7 @@ main_tag: crypto
 sub_tags: [ai, tools]
 topic: machine-economy-crypto
 sources:
-  - "[[src_is-there-anything-left-to-build-in-crypto-wintermute]]"
+  - "[[src_is-there-anything-left-build-crypto-wintermute]]"
 last_updated: 2026-07-17
 ---
 
@@ -88,6 +88,6 @@ Autonomous agents (tác nhân tự chủ) là các hệ thống AI hoặc roboti
 
 ## Sources
 
-- [[src_is-there-anything-left-to-build-in-crypto-wintermute]] — bàI viết của Wintermute
+- [[src_is-there-anything-left-build-crypto-wintermute]] — bàI viết của Wintermute
 
 ## Notes

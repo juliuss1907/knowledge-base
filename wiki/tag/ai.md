@@ -151,7 +151,7 @@ last_updated: 2026-07-17
 - [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_how-average-people-will-get-rich-with-ai]] — How Average People Will Get Rich With Ai (source)
-- [[src_is-there-anything-left-to-build-in-crypto-wintermute]] — Is There Anything Left to Build in Crypto Wintermute (source)
+- [[src_is-there-anything-left-build-crypto-wintermute]] — Is There Anything Left to Build in Crypto Wintermute (source)
 - [[src_l1-blockchain-ai-lab-comparison]] — L1 Blockchain Ai Lab Comparison (source)
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
 - [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source)

@@ -5,7 +5,7 @@ main_tag: health
 sub_tags: [psychology]
 topic: social-attraction-dynamics
 sources:
-  - "[[src_the-5-laws-of-people-who-never-chase-gabriel-reality]]"
+  - "[[src_the-5-laws-of-people-who-never-chase]]"
 last_updated: 2026-07-17
 ---
 
@@ -52,6 +52,6 @@ Dopamine prediction gap (khoảng cách dự đoán dopamine) là hiện tượn
 
 ## Sources
 
-- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — bàI viết của Gabriel Reality
+- [[src_the-5-laws-of-people-who-never-chase]] — bàI viết của Gabriel Reality
 
 ## Notes

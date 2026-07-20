@@ -5,7 +5,7 @@ main_tag: health
 sub_tags: [psychology]
 topic: social-attraction-dynamics
 sources:
-  - "[[src_the-5-laws-of-people-who-never-chase]]"
+  - "[[src_the-5-laws-of-people-who-never-chase-gabriel-reality]]"
 last_updated: 2026-07-17
 ---
 
@@ -71,15 +71,6 @@ Không phảI bằng cách làm mình khó reach (hard to reach), mà bằng cá
    - Availability resolves itself naturally
    - Không cần tính toán
 
-## Key ideas
-
-- **Destination vs Vehicle framework:** Phân biệt positioning bản thân — là đích đến có giá trị riêng hay chỉ là phương tiện phục vụ ngườI khác
-- **Incentive salience:** Brain đánh giá target dựa trên value signals và scarcity signals — destination có cả hai, vehicle không có gì
-- **Vehicle behavior:** Luôn accommodating, adjust theo ngườI khác, seek validation, available anytime → trở thành "furniture" trong relationship
-- **Destination behavior:** Có thế giớI nộI tại, opinions không thay đổI, has boundaries, availability limited by real occupation
-- **Không phảI hard to reach:** Destination không phảI là làm khó ngườI khác, mà là build interior life và be genuinely occupied
-- **Neurological basis:** Dopamine system responds to incentive salience — genuine fullness tạo ra real uncertainty và gravitational pull
-
 ## Ví dụ khác biệt
 
 | Vehicle Behavior | Destination Behavior |
@@ -99,6 +90,6 @@ Không phảI bằng cách làm mình khó reach (hard to reach), mà bằng cá
 
 ## Sources
 
-- [[src_the-5-laws-of-people-who-never-chase]] — bàI viết của Gabriel Reality
+- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — bàI viết của Gabriel Reality
 
 ## Notes

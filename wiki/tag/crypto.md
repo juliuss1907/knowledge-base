@@ -33,7 +33,7 @@ last_updated: 2026-07-17
 - [[proof-stack]] — Proof Stack (concept)
 - [[show-me-era]] — Show Me Era (concept)
 - [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
-- [[src_is-there-anything-left-to-build-in-crypto-wintermute]] — Is There Anything Left to Build in Crypto Wintermute (source)
+- [[src_is-there-anything-left-build-crypto-wintermute]] — Is There Anything Left to Build in Crypto Wintermute (source)
 - [[src_the-most-underrated-token-type]] — The Most Underrated Token Type (source)
 - [[src_the-new-comms-playbook-show-dont]] — The New Comms Playbook Show Dont (source)
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept)

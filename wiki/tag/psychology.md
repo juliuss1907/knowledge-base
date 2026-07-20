@@ -223,7 +223,7 @@ last_updated: 2026-07-17
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
 - [[src_steve-jobs-stanford-2005-commencement]] — Steve Jobs Stanford 2005 Commencement (source)
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
-- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — The 5 Laws Of People Who Never Chase Gabriel Reality (source)
+- [[src_the-5-laws-of-people-who-never-chase]] — The 5 Laws Of People Who Never Chase Gabriel Reality (source)
 - [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source)
 - [[src_thermodynamics]] — Thermodynamics (source)

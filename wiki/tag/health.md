@@ -53,7 +53,7 @@ last_updated: 2026-07-17
 - [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness is a Skill Hussain Ibarra (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
 - [[src_our-first-heartbreaks-were-our-parents]] — Our First Heartbreaks Were Our Parents (source)
-- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — The 5 Laws Of People Who Never Chase Gabriel Reality (source)
+- [[src_the-5-laws-of-people-who-never-chase]] — The 5 Laws Of People Who Never Chase Gabriel Reality (source)
 
 ## Co-occurring tags
 

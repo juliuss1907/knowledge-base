@@ -23,7 +23,7 @@ Last updated: 2026-07-17 21:00:00
 
 ## Sources (1)
 
-- [[src_is-there-anything-left-to-build-in-crypto-wintermute]] — main: #crypto, sub: [#ai, #opinion, #tools]
+- [[src_is-there-anything-left-build-crypto-wintermute]] — main: #crypto, sub: [#ai, #opinion, #tools]
 
 ## Related topics
 

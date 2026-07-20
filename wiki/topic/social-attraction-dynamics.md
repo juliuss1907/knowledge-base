@@ -24,7 +24,7 @@ Last updated: 2026-07-17 21:00:00
 
 ## Sources (1)
 
-- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — main: #health, sub: [#psychology, #opinion]
+- [[src_the-5-laws-of-people-who-never-chase]] — main: #health, sub: [#psychology, #opinion]
 
 ## Related topics
 

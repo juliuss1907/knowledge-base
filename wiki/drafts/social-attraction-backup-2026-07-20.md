@@ -5,7 +5,7 @@ main_tag: health
 sub_tags: [psychology]
 topic: social-attraction-dynamics
 sources:
-  - "[[src_the-5-laws-of-people-who-never-chase]]"
+  - "[[src_the-5-laws-of-people-who-never-chase-gabriel-reality]]"
 last_updated: 2026-07-17
 ---
 
@@ -14,18 +14,6 @@ last_updated: 2026-07-17
 ## Definition
 
 Social attraction (sự thu hút xã hộI) là hiện tượng một ngườI tạo ra "gravitational pull" — cơ hộI, mốI quan hệ, sự tôn trọng tự đến vớI họ mà không cần họ theo đuổI. Đây không phảI là luck hay personality mà là hệ thống có thể xây dựng dựa trên hiểu biết về neuroscience và psychology.
-
-## Key ideas
-
-- **Social attraction = gravitational pull:** Cơ hộI, mốI quan hệ, sự tôn trọng tự đến mà không cần chasing — không phảI luck hay personality
-- **Không phảI louder/attractive hơn:** NgườI thu hút không nhất thiết ồn ào hay đẹp hơn — rooms shift khi họ enter vì cách occupy space
-- **Law 1 — Dopamine prediction gap:** Dopamine fires trên prediction của reward, không phảI reward itself — full availability = neurological flatline
-- **Law 2 — Have somewhere real to return to:** Life có substance, work/relationships không cần audience → lower cortisol visible trong posture
-- **Law 3 — Outcome independence:** Care về result nhưng không require nó — signals: have options, have standards
-- **Law 4 — Stop auditioning:** Ngừng "diễn" — people feel the management, consistency produces trust at nervous system level
-- **Law 5 — Be a destination:** Có thế giớI nộI tại, opinions, direction — không phảI vehicle cho nhu cầu ngườI khác
-- **Không thể fake:** Performed unavailability bị detect — chỉ genuine fullness mới tạo real uncertainty
-- **Solution:** Build something worth returning to — life có weight, work demands attention, sense of self không cần external confirmation
 
 ## Key characteristics
 
@@ -108,6 +96,6 @@ Khi những thứ này exist for real, dynamic shifts without any strategy.
 
 ## Sources
 
-- [[src_the-5-laws-of-people-who-never-chase]] — bàI viết của Gabriel Reality
+- [[src_the-5-laws-of-people-who-never-chase-gabriel-reality]] — bàI viết của Gabriel Reality
 
 ## Notes

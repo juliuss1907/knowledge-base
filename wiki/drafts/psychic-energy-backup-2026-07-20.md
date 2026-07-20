@@ -45,12 +45,4 @@ Psychic energy (năng lượng tâm linh) là khái niệm mô tả attention (s
 
 ## Related concepts
 
-- [[flow-state]] — yêu cầu psychic energy để đạt trạng thái tập trung sâu
-- [[psychic-entropy]] — hỗn loạn tâm trí đối lập với trật tự từ psychic energy
-- [[hedonic-adaptation]] — pleasure có thể trảI nghiệm mà không cần psychic investment
-
-## Sources
-
-- [[src_happiness-is-a-skill-hussain-ibarra]] — bàI viết của Hussain Ibarra về happiness như một kỹ năng, bao gồm khái niệm psychic energy từ Mihaly Csikszentmihalyi
-
-## Notes
+- [[flow-state]] — yêu cầu psychic

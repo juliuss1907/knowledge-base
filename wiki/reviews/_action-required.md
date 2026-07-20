@@ -10,8 +10,30 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 13 reports (07-15 through 07-19) **APPLIED** 2026-07-20 by Fix Agent
+
+| Status | Date | Type | Issues | Action |
+|---|---|---|---|---|
+| 🔍 PENDING | 07-20 | Format | 318W | Review [wiki/reviews/2026-07-20_format-report.md](2026-07-20_format-report.md) |
+
+---
+
+## Pending Reports
+
+### 🔍 Format Validation — 2026-07-20
+
+**Report:** [2026-07-20_format-report.md](2026-07-20_format-report.md)
+**Status:** ⏳ PENDING
+**Issues:** 318 (0 ERROR, 318 WARNING, 0 INFO)
+**Files checked:** 796 (444 concepts + 148 sources + 33 indexes + 171 topics)
+
+**Summary:** Zero structure violations. All 318 WARNINGs are broken wikilinks — forward references to concepts not yet compiled. 5 ERRORs from prior reports (07-17 through 07-19) resolved. 2 false-positive raw file references (raw files exist).
+
+**Delta from 07-19:** -6 total (-5 ERROR, -1 WARNING). Fix Agent resolved 3 missing sections + 2 long slugs.
+**Delta from 07-14 (approved):** +12 WARNING, +27 files.
+
+**Actions needed:** None required. All WARNINGs are expected forward references. Julius can approve as-is.
 
 ---
 
@@ -71,7 +93,7 @@ All 13 reports moved to wiki/reviews/archive/2026-07/:
 
 ---
 
-## Applied Reports History
+## ✅ APPROVED — Applied Reports History
 
 ### Batch 2026-07-15 through 2026-07-19 (APPLIED 2026-07-20)
 

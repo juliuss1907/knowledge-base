@@ -375,7 +375,9 @@ Source files often mention the raw file again inside `## Metadata` or body conte
 - accept direct matches like `raw/<subdir>/<target>.md`
 - accept glob matches like `raw/<subdir>/*_<target>.md`
 
-**Observed case:** `src_dan-koe-workflow-analysis-markus.md` was incorrectly flagged until raw-subdir lookup was added to source-body wikilink validation.
+**Same issue affects `original` field validation:** The `original` frontmatter field (e.g., `original: "[[2026-07-14_why-the-math-mafia-is-doing-well-jesse-zhang.md]]"`) also needs raw-subdir resolution. The validator currently flags these as "raw file not found" even when the file exists under `raw/articles/`. This produces false-positive WARNINGs. Fix: apply the same subdir search logic to `check_original_wikilink()`.
+
+**Observed case:** `src_dan-koe-workflow-analysis-markus.md` was incorrectly flagged until raw-subdir lookup was added to source-body wikilink validation. Same false-positive pattern observed 2026-07-20 for `src_you-just-hired-a-million-bad-employees-a16z.md` and `src_why-the-math-mafia-is-doing-well-jesse-zhang.md` — both `original` fields point to raw files that exist under `raw/articles/`.
 
 
 "Report limit: 20 issues per day" means **focus the written report on the most actionable issues**, not that the validator stops at 20. The report should still show all ERRORs and top WARNINGs. For daily runs, the full issue count goes in `_action-required.md` summary.
@@ -440,6 +442,28 @@ The `_action-required.md` cross-check in verify_integrity.py uses regex `(\d+)W`
 When a report has both ERRORs and WARNINGs and the table row uses a format like `| 324 (5E+319W) |`, the regex doesn't match. This is a **known limitation** — the verify script was designed during the 0-ERROR clean streak period (07-14 through 07-16) and was never updated to handle mixed counts.
 
 **Workaround:** Accept this single verify failure when ERRORs are present. The core checks (report exists, MEMORY.md entry prepended, _action-required.md entry present) will still pass.
+
+### _action-required.md must match verify_integrity.py expectations exactly
+
+`verify_integrity.py` parses `_action-required.md` with specific regex patterns and substring checks. The following format requirements MUST be met:
+
+**Table format (Summary section):**
+- Column order: `| Status | Date | Type | Issues | Action |`
+- Row regex: `\|\s*🔍\s*PENDING\s*\|\s*MM-DD\s*\|\s*Format\s*\|\s*(\d+)W\s*\|`
+- Example valid row: `| 🔍 PENDING | 07-20 | Format | 318W | Review [wiki/reviews/2026-07-20_format-report.md](2026-07-20_format-report.md) |`
+
+**Section header (Pending Reports):**
+- Must be: `### 🔍 Format Validation — YYYY-MM-DD` (full date, not MM-DD)
+
+**Report link:**
+- Must include full path: `wiki/reviews/YYYY-MM-DD_format-report.md` (not just filename)
+- Check is literal substring: `f"wiki/reviews/{today}_format-report.md" in ar`
+
+**Required markers:**
+- `✅ APPROVED` must appear somewhere in the file (check is: `'✅ APPROVED' in ar`)
+- `**Last updated:** YYYY-MM-DD` must be today's date
+
+**Observed failures (2026-07-20):** Wrong column order, missing path prefix, missing `✅ APPROVED` text — 3 iterations needed to satisfy all checks.
 
 ### _action-required.md patch tool failures due to non-unique table rows
 

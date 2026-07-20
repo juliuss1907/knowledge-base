@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-20
+**Last updated:** 2026-07-20 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 13 reports (07-15 through 07-19) **APPLIED** 2026-07-20 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 07-20 | Format | 318W | Review [wiki/reviews/2026-07-20_format-report.md](2026-07-20_format-report.md) |
+| 🔍 PENDING | 07-20 | Format | 318W | Review [wiki/reviews/2026-07-20_format-report.md](2026-07-20_format-report.md)
+| 🔍 PENDING | 07-20 | Hygiene | 3 (1E+2W) | Review [wiki/reviews/2026-07-20_hygiene-report.md](2026-07-20_hygiene-report.md) |
 
 ---
 
@@ -34,6 +35,21 @@
 **Delta from 07-14 (approved):** +12 WARNING, +27 files.
 
 **Actions needed:** None required. All WARNINGs are expected forward references. Julius can approve as-is.
+
+---
+
+### 🔍 Hygiene Inspection — 2026-07-20
+
+**Report:** [2026-07-20_hygiene-report.md](2026-07-20_hygiene-report.md)
+**Status:** ⏳ PENDING
+**Issues:** 3 (1 ERROR, 2 WARNING, 0 INFO)
+**Paths checked:** 51912
+
+**Summary:** 3 issues across 51,912 paths (0.006% issue rate). 1 ERROR: `memory/` root folder (11th recurrence — recreated today at 10:49 after bulk Fix Agent removal, with active file write at 21:42 confirming process leak). 2 WARNINGs: orphan file `memory/2026-07-20.md` (artifact of root folder leak), draft backup file with underscores in filename.
+
+**Delta from 07-19:** −1 issue. `state/` folder resolved by Fix Agent. `memory/` folder persists — needs process-level fix.
+
+**Actions needed:** Move `memory/2026-07-20.md` to `.openclaw/memory/`, remove `memory/` directory. Identify and fix the process writing to `memory/` instead of `.openclaw/memory/`.
 
 ---
 

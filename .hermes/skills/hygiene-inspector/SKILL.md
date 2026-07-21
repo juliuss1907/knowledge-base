@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.13
-last_updated: 2026-07-18
+version: 1.14
+last_updated: 2026-07-21
 ---
 
 # Hygiene Inspector
@@ -580,7 +580,8 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
-| 1.13 | 2026-07-18 | Fixed broken pitfall example in post-validation step 2: the v1.12 "✅ Good" example (`old_string` without `\|` + `new_string` rows with `\|`) actually produces `\|\|` on the last row — the file's unconsumed `\|` is appended after the entire new_string. Replaced with two proven approaches (A: include `\|` in old_string, B: exclude `\|` from all new_string rows). Confirmed on a live run that produced `\| \|` on the new row before the fix. |
+| 1.14 | 2026-07-21 | Updated `references/common-patterns.md`: added resolution note for `state/` and `memory/` root folders — both absent from 07-21 hygiene run after Fix Agent bulk apply. First clean run since 07-02. |
+| 1.13 | 2026-07-18 | "✅ Good" example (`old_string` without `\|` + `new_string` rows with `\|`) actually produces `\|\|` on the last row — the file's unconsumed `\|` is appended after the entire new_string. Replaced with two proven approaches (A: include `\|` in old_string, B: exclude `\|` from all new_string rows). Confirmed on a live run that produced `\| \|` on the new row before the fix. |
 | 1.11 | 2026-07-11 | Added `memory/` to `ROOT_FOLDER_ORPHANS` in scan script (recurring root folder — flagged 5 times since 07-03). Updated `common-patterns.md`: expanded `memory/` recurrence history through 07-11, removed duplicate one-liner entry. |
 | 1.10 | 2026-07-05 | Added step 4 to cron workflow: ad-hoc verification pattern (write → run → check script at `/tmp/hermes-verify-hygiene-*.py`). Fixed broken cross-reference in post-validation step 3 — now points to "Running under cron" section instead of "cron fallback" (which had no step 4). |
 | 1.9 | 2026-07-03 | Cleaned up post-validation steps: removed duplicate "Update _action-required.md" entries, added explicit `scripts/verify.py` invocation as step 3 (skip under cron). Added pitfall #6: `paths_checked` drift on re-run is expected when report/action files are written between scans — compare only issue counts, not exact path counts. |

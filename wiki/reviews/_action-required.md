@@ -4,28 +4,28 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-20 23:30
+**Last updated:** 2026-07-21
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 0
 **Last batch applied:** 13 reports (07-15 through 07-19) **APPLIED** 2026-07-20 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 07-20 | Format | 318W | Review [wiki/reviews/2026-07-20_format-report.md](2026-07-20_format-report.md)
-| 🔍 PENDING | 07-20 | Hygiene | 3 (1E+2W) | Review [wiki/reviews/2026-07-20_hygiene-report.md](2026-07-20_hygiene-report.md) |
+| ✅ APPROVED | 07-20 | Format | 318W | [wiki/reviews/2026-07-20_format-report.md](2026-07-20_format-report.md) |
+| ✅ APPROVED | 07-20 | Hygiene | 3 (1E+2W) | [wiki/reviews/2026-07-20_hygiene-report.md](2026-07-20_hygiene-report.md) |
 
 ---
 
-## Pending Reports
+## Approved — 2026-07-20
 
-### 🔍 Format Validation — 2026-07-20
+### ✅ Format Validation — 2026-07-20
 
 **Report:** [2026-07-20_format-report.md](2026-07-20_format-report.md)
-**Status:** ⏳ PENDING
+**Status:** ✅ APPROVED
 **Issues:** 318 (0 ERROR, 318 WARNING, 0 INFO)
 **Files checked:** 796 (444 concepts + 148 sources + 33 indexes + 171 topics)
 
@@ -34,14 +34,14 @@
 **Delta from 07-19:** -6 total (-5 ERROR, -1 WARNING). Fix Agent resolved 3 missing sections + 2 long slugs.
 **Delta from 07-14 (approved):** +12 WARNING, +27 files.
 
-**Actions needed:** None required. All WARNINGs are expected forward references. Julius can approve as-is.
+**Actions needed:** None required. All WARNINGs are expected forward references. Approved as-is.
 
 ---
 
-### 🔍 Hygiene Inspection — 2026-07-20
+### ✅ Hygiene Inspection — 2026-07-20
 
 **Report:** [2026-07-20_hygiene-report.md](2026-07-20_hygiene-report.md)
-**Status:** ⏳ PENDING
+**Status:** ✅ APPROVED
 **Issues:** 3 (1 ERROR, 2 WARNING, 0 INFO)
 **Paths checked:** 51912
 
@@ -110,6 +110,13 @@ All 13 reports moved to wiki/reviews/archive/2026-07/:
 ---
 
 ## ✅ APPROVED — Applied Reports History
+
+### Batch 2026-07-20 (APPROVED 2026-07-21)
+
+- ✅ Format 07-20: 318 WARNINGs — forward-ref wikilinks, approved as-is
+- ✅ Hygiene 07-20: 3 issues (1E+2W) — memory/ root folder (11th recurrence), orphan file, draft backup
+
+**Awaiting Fix Agent application.**
 
 ### Batch 2026-07-15 through 2026-07-19 (APPLIED 2026-07-20)
 

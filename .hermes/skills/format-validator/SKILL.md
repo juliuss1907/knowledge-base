@@ -465,6 +465,19 @@ When a report has both ERRORs and WARNINGs and the table row uses a format like 
 
 **Observed failures (2026-07-20):** Wrong column order, missing path prefix, missing `✅ APPROVED` text — 3 iterations needed to satisfy all checks.
 
+### MEMORY.md format — verify_integrity.py requires plain-text Files checked line
+
+`verify_integrity.py` checks MEMORY.md with `f"Files checked: {files_checked}" in mem` — a **plain-text substring match** across the entire file. Writing `**Files checked:** 815` (inside bold markers) fails because the `**` between `:` and `815` breaks the substring. The fix is to add a plain-text `Files checked: N` line after the bold display line:
+
+```
+- **Files checked:** 815 (457 concepts + 151 sources + 33 indexes + 174 topics)
+Files checked: 815
+```
+
+This mirrors the dual-format pattern already required in the report (bold for display + plain-text for regex extraction).
+
+**Observed case (2026-07-21):** verify_integrity.py returned `MEMORY.md: file count mismatch — expected 815` because only `**Files checked:** 815` was present. Adding the plain-text line resolved it.
+
 ### _action-required.md patch tool failures due to non-unique table rows
 
 The Summary table in `_action-required.md` has repeated patterns across rows (e.g., `| 🔍 PENDING |` appears in every pending row). When using `patch` to add a new table row, short `old_string` patterns will match multiple rows and fail.

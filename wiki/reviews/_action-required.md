@@ -10,12 +10,27 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
+
+| Status | Date | Type | Issues | Action |
+|---|---|---|---|---|
+| 🔍 PENDING | 07-21 | Format | 318W | Review [wiki/reviews/2026-07-21_format-report.md](2026-07-21_format-report.md) |
+| 🔍 PENDING | 07-21 | Output | 5 (1E+2W+2I) | Review [wiki/reviews/2026-07-21_output-report.md](2026-07-21_output-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-07-21
+
+- **Report:** `wiki/reviews/2026-07-21_format-report.md`
+- **Summary:** 318 issues (0 ERROR, 318 WARNING, 0 INFO). Zero structure violations — all WARNINGs are broken wikilinks: forward references to uncompiled concepts/sources. 295 individual links + 21 forward-reference groups + 2 raw file `original` false positives (files confirmed to exist).
+- **Delta from 07-20:** 0 net change (318→318). +19 files (+13 concepts, +3 sources, +3 topics). Clean streak day 8 (0 ERRORs since 07-14 baseline).
+- **Actions needed:** None required. All WARNINGs are expected forward references. 2 false positives are known validator limitation.
+- **Status:** pending
+
+---
 
 ### 🔍 Output Validation — 2026-07-21 (23:06)
 

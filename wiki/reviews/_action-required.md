@@ -11,12 +11,9 @@
 ## Summary
 
 **Pending reports awaiting review:** 0
-**Last batch applied:** 13 reports (07-15 through 07-19) **APPLIED** 2026-07-20 by Fix Agent
+**Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
 
-| Status | Date | Type | Issues | Action |
-|---|---|---|---|---|
-| ✅ APPROVED | 07-20 | Format | 318W | [wiki/reviews/2026-07-20_format-report.md](2026-07-20_format-report.md) |
-| ✅ APPROVED | 07-20 | Hygiene | 3 (1E+2W) | [wiki/reviews/2026-07-20_hygiene-report.md](2026-07-20_hygiene-report.md) |
+All reports up to date. No pending actions.
 
 ---
 
@@ -24,8 +21,8 @@
 
 ### ✅ Format Validation — 2026-07-20
 
-**Report:** [2026-07-20_format-report.md](2026-07-20_format-report.md)
-**Status:** ✅ APPROVED
+**Report:** [archive/2026-07/2026-07-20_format-report.md](archive/2026-07/2026-07-20_format-report.md)
+**Status:** ✅ APPLIED 2026-07-21
 **Issues:** 318 (0 ERROR, 318 WARNING, 0 INFO)
 **Files checked:** 796 (444 concepts + 148 sources + 33 indexes + 171 topics)
 
@@ -40,8 +37,8 @@
 
 ### ✅ Hygiene Inspection — 2026-07-20
 
-**Report:** [2026-07-20_hygiene-report.md](2026-07-20_hygiene-report.md)
-**Status:** ✅ APPROVED
+**Report:** [archive/2026-07/2026-07-20_hygiene-report.md](archive/2026-07/2026-07-20_hygiene-report.md)
+**Status:** ✅ APPLIED 2026-07-21
 **Issues:** 3 (1 ERROR, 2 WARNING, 0 INFO)
 **Paths checked:** 51912
 
@@ -116,7 +113,10 @@ All 13 reports moved to wiki/reviews/archive/2026-07/:
 - ✅ Format 07-20: 318 WARNINGs — forward-ref wikilinks, approved as-is
 - ✅ Hygiene 07-20: 3 issues (1E+2W) — memory/ root folder (11th recurrence), orphan file, draft backup
 
-**Awaiting Fix Agent application.**
+**Fixes applied:**
+- Moved `memory/2026-07-20.md` → `.openclaw/memory/2026-07-20.md`
+- Removed empty `memory/` directory
+- Draft backup file with underscores: left as-is (backup file, WARNING-level only)
 
 ### Batch 2026-07-15 through 2026-07-19 (APPLIED 2026-07-20)
 

@@ -1,3 +1,44 @@
+## 2026-07-21 08:40 — Applied Fixes (Batch 07-20)
+
+- **Task:** Apply fixes from 2 approved Hermes reports (2026-07-20 Format + Hygiene)
+- **Reports processed:** 2
+
+### Fixes Applied
+
+**Hygiene Report:**
+1. ✅ Moved `memory/2026-07-20.md` → `.openclaw/memory/2026-07-20.md`
+2. ✅ Removed empty `memory/` directory
+3. ⏭️ Draft backup file with underscores: skipped (WARNING-level, backup file)
+
+**Format Report:**
+- No action needed — 318 WARNINGs are all forward-reference wikilinks (expected)
+
+### Files Modified
+
+| File | Action |
+|------|--------|
+| `memory/2026-07-20.md` | Moved to `.openclaw/memory/` |
+| `memory/` | Removed (empty directory) |
+| `wiki/reviews/2026-07-20_format-report.md` | Marked applied, archived |
+| `wiki/reviews/2026-07-20_hygiene-report.md` | Marked applied, archived |
+| `wiki/reviews/_action-required.md` | Updated pending list |
+
+### Archives
+
+- `wiki/reviews/archive/2026-07/2026-07-20_format-report.md`
+- `wiki/reviews/archive/2026-07/2026-07-20_hygiene-report.md`
+
+### Errors Encountered
+
+0 errors.
+
+### Notes
+
+- `memory/` root folder issue is a **process-level leak** — some process is still writing to `memory/` instead of `.openclaw/memory/`. This is the 11th recurrence. Needs root cause fix.
+- Draft backup file `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` uses underscores but is a backup — left intact.
+
+---
+
 ## 2026-07-21 08:00 — Compiled (Daily Batch)
 
 - **Task:** Compile Agent Daily Run

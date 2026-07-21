@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-07-17
+last_updated: 2026-07-21
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-07-17
 
 ## Stats
 
-- Total files: 235
-- Sources: 65
-- Concepts: 170
-- Last updated: 2026-07-17
+- Total files: 247
+- Sources: 67
+- Concepts: 180
+- Last updated: 2026-07-21
 
 ## Files with this tag
 
@@ -253,6 +253,19 @@ last_updated: 2026-07-17
 - [[ultimatum-game]] — Ultimatum Game (concept)
 - [[variable-reward-systems]] — Variable Reward Systems (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
+- [[cheap-dopamine]] — Cheap Dopamine (concept)
+- [[delusional-optimism]] — Delusional Optimism (concept)
+- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
+- [[forced-linearity-writing]] — Forced Linearity Writing (concept)
+- [[internal-locus-of-control]] — Internal Locus Of Control (concept)
+- [[law-of-assumption]] — Law Of Assumption (concept)
+- [[learned-helplessness]] — Learned Helplessness (concept)
+- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
+- [[protoge-effect]] — Protoge Effect (concept)
+- [[psycho-cybernetics]] — Psycho Cybernetics (concept)
+- [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
+- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
+- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 
 ## Co-occurring tags
 

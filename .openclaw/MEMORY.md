@@ -1,3 +1,56 @@
+## 2026-07-21 21:00 — Indexed (Incremental)
+
+- **Mode:** Incremental (16 files changed since 2026-07-20)
+- **Scanned:** 16 files (3 sources + 13 concepts)
+- **Tags indexed:** 7 (productivity, psychology, tutorial, opinion, tools, economic, automation)
+- **Topics indexed:** 3 (learning-elaboration-technique, personal-excellence-mindset, writing-content-system)
+- **Topic indexes created:** 3 (new)
+- **Orphans deleted:** 0
+- **Invalid tags found:** 0
+- **Errors:** 0
+
+### Files Changed
+
+**Sources:**
+- src_the-art-of-elaboration
+- src_ill-make-you-believe-you-can-achieve
+- src_the-writing-habit-that-saved-my-brain
+
+**Concepts:**
+- learning-through-retrieval
+- psycho-cybernetics
+- note-taking-systems
+- content-repurposing-system
+- law-of-assumption
+- cheap-dopamine
+- elaboration-learning-technique
+- delusional-optimism
+- learned-helplessness
+- protoge-effect
+- internal-locus-of-control
+- new-leverage-digital-assets
+- forced-linearity-writing
+
+### Tag Stats Updated
+
+| Tag | Old Count | New Count |
+|-----|-----------|-----------|
+| #productivity | 252 | 267 |
+| #psychology | 235 | 247 |
+| #tutorial | 72 | 77 |
+| #opinion | 87 | 90 |
+| #tools | 164 | 167 |
+| #economic | 81 | 82 |
+| #automation | 86 | 87 |
+
+### New Topic Indexes
+
+- wiki/topic/learning-elaboration-technique.md
+- wiki/topic/personal-excellence-mindset.md
+- wiki/topic/writing-content-system.md
+
+---
+
 ## 2026-07-21 08:40 — Applied Fixes (Batch 07-20)
 
 - **Task:** Apply fixes from 2 approved Hermes reports (2026-07-20 Format + Hygiene)

@@ -5,7 +5,7 @@ scope: tags
 parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
-last_updated: 2026-07-20
+last_updated: 2026-07-21
 ---
 
 # Tag Index
@@ -29,8 +29,8 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - Total tags: 24
 - Main tags: 9
 - Sub tags: 15
-- Most used: #productivity (252), #research (233), #psychology (235)
-- Last updated: 2026-07-20
+- Most used: #productivity (267), #psychology (247), #research (233)
+- Last updated: 2026-07-21
 
 ## Items
 

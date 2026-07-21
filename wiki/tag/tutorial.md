@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-21
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 72
-- Sources: 28
-- Concepts: 44
-- Last updated: 2026-07-12
+- Total files: 77
+- Sources: 30
+- Concepts: 47
+- Last updated: 2026-07-21
 
 ## Files with this tag
 
@@ -95,6 +95,11 @@ last_updated: 2026-07-12
 - [[vector-addition]] — Vector Addition (concept)
 - [[vectors]] — Vectors (concept)
 - [[x-api-oauth2]] — X Api Oauth2 (concept)
+- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
+- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
+- [[protoge-effect]] — Protoge Effect (concept)
+- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
+- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 
 ## Co-occurring tags
 

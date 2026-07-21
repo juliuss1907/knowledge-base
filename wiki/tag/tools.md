@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-07-17
+last_updated: 2026-07-21
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-07-17
 
 ## Stats
 
-- Total files: 164
-- Sources: 37
-- Concepts: 127
-- Last updated: 2026-07-17
+- Total files: 167
+- Sources: 38
+- Concepts: 129
+- Last updated: 2026-07-21
 
 ## Files with this tag
 
@@ -186,6 +186,10 @@ last_updated: 2026-07-17
 - [[xurl-cli]] — Xurl Cli (concept)
 - [[zero-member-llc]] — Zero Member Llc (concept)
 - [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source)
+- [[content-repurposing-system]] — Content Repurposing System (concept)
+- [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
+- [[note-taking-systems]] — Note Taking Systems (concept)
+- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 
 ## Co-occurring tags
 

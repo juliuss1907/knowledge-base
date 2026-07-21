@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-21
 ---
 
 # Tag: #automation
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 86
+- Total files: 87
 - Sources: 18
-- Concepts: 68
-- Last updated: 2026-07-12
+- Concepts: 69
+- Last updated: 2026-07-21
 
 ## Files with this tag
 
@@ -109,6 +109,7 @@ last_updated: 2026-07-12
 - [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
 - [[x-search-tool]] — X Search Tool (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
+- [[content-repurposing-system]] — Content Repurposing System (concept)
 
 ## Co-occurring tags
 

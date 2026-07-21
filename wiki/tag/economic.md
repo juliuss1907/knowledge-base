@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: economic
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-21
 ---
 
 # Tag: #economic
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 81
+- Total files: 82
 - Sources: 17
-- Concepts: 64
-- Last updated: 2026-07-12
+- Concepts: 65
+- Last updated: 2026-07-21
 
 ## Files with this tag
 
@@ -104,6 +104,7 @@ last_updated: 2026-07-12
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
+- [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
 
 ## Co-occurring tags
 

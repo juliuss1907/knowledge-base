@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-21
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 252
-- Sources: 72
-- Concepts: 179
-- Last updated: 2026-07-13
+- Total files: 267
+- Sources: 75
+- Concepts: 192
+- Last updated: 2026-07-21
 
 ## Files with this tag
 
@@ -273,6 +273,22 @@ last_updated: 2026-07-12
 - [[thought-experiment]] — Thought Experiment (concept)
 - [[tokenmaxxing]] — Tokenmaxxing (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
+- [[cheap-dopamine]] — Cheap Dopamine (concept)
+- [[content-repurposing-system]] — Content Repurposing System (concept)
+- [[delusional-optimism]] — Delusional Optimism (concept)
+- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
+- [[forced-linearity-writing]] — Forced Linearity Writing (concept)
+- [[internal-locus-of-control]] — Internal Locus Of Control (concept)
+- [[law-of-assumption]] — Law Of Assumption (concept)
+- [[learned-helplessness]] — Learned Helplessness (concept)
+- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
+- [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
+- [[note-taking-systems]] — Note Taking Systems (concept)
+- [[protoge-effect]] — Protoge Effect (concept)
+- [[psycho-cybernetics]] — Psycho Cybernetics (concept)
+- [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
+- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
+- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 
 ## Co-occurring tags
 

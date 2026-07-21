@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-07-17
+last_updated: 2026-07-21
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-07-17
 
 ## Stats
 
-- Total files: 87
-- Sources: 25
-- Concepts: 62
-- Last updated: 2026-07-17
+- Total files: 90
+- Sources: 26
+- Concepts: 64
+- Last updated: 2026-07-21
 
 ## Files with this tag
 
@@ -70,6 +70,9 @@ last_updated: 2026-07-17
 - [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source)
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept)
 - [[two-track-communications]] — Two Track Communications (concept)
+- [[delusional-optimism]] — Delusional Optimism (concept)
+- [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
+- [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
 
 ## Co-occurring tags
 

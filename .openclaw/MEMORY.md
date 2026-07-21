@@ -1,3 +1,37 @@
+## 2026-07-21 08:00 — Compiled (Daily Batch)
+
+- **Task:** Compile Agent Daily Run
+- **Files processed:** 3
+- **Sources created:** 3
+- **Concepts created:** 14
+
+### Files Compiled
+
+1. **raw/articles/2026-07-20_ill-make-you-believe-you-can-achieve.md**
+   - Source: [[src_ill-make-you-believe-you-can-achieve]]
+   - Concepts: [[learned-helplessness]], [[internal-locus-of-control]], [[law-of-assumption]], [[cheap-dopamine]], [[delusional-optimism]]
+   - Tags: main=#productivity, sub=[#psychology, #opinion], topic=personal-excellence-mindset
+
+2. **raw/articles/2026-07-20_the-art-of-elaboration.md**
+   - Source: [[src_the-art-of-elaboration]]
+   - Concepts: [[elaboration-learning-technique]], [[protoge-effect]], [[learning-through-retrieval]], [[note-taking-systems]]
+   - Tags: main=#productivity, sub=[#tutorial, #psychology], topic=learning-elaboration-technique
+
+3. **raw/articles/2026-07-20_the-writing-habit-that-saved-my-brain.md**
+   - Source: [[src_the-writing-habit-that-saved-my-brain]]
+   - Concepts: [[new-leverage-digital-assets]], [[psycho-cybernetics]], [[content-repurposing-system]], [[forced-linearity-writing]] (protoge-effect merged with existing)
+   - Tags: main=#productivity, sub=[#tutorial, #tools], topic=writing-content-system
+
+### Stats Updated
+
+- raw/articles/articles.md: 125 total, 125 processed, 0 unprocessed
+
+### Status
+
+✅ All files compiled successfully. Index Agent will update tag/topic indexes at 21:00.
+
+---
+
 ## 2026-07-20 21:00 — Index Agent Incremental Run
 
 - **Mode:** Incremental (18 files changed since 2026-07-17)

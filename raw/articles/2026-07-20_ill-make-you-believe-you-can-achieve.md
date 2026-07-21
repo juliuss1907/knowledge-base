@@ -5,7 +5,9 @@ url: https://nqdonzo.substack.com/p/ill-make-you-believe-you-can-achieve
 author: nqdonzo
 date_published: 2026-07-20
 date_ingested: 2026-07-20
-status: unprocessed
+status: processed
+compiled_at: 2026-07-21
+compiled_to: "[[src_ill-make-you-believe-you-can-achieve]]"
 source: Substack (nqdonzo)
 ---
 

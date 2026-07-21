@@ -5,7 +5,9 @@ url: https://learningtolearnwell.substack.com/p/the-art-of-elaboration
 author: Learning to Learn Well
 date_published: 2026-07-20
 date_ingested: 2026-07-20
-status: unprocessed
+status: processed
+compiled_at: 2026-07-21
+compiled_to: "[[src_the-art-of-elaboration]]"
 source: Substack (learningtolearnwell)
 ---
 

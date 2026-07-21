@@ -22,12 +22,15 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 122 files
-- By status: 121 processed, 0 unprocessed
-- By date: 20 this week, 115 this month
-- Last updated: 2026-07-17
+- Total: 125 files
+- By status: 125 processed, 0 unprocessed
+- By date: 8 this week, 125 this month
+- Last updated: 2026-07-21
 ## Items
-- [[2026-07-11_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — Giải thích sâu phương pháp học Charlie Munger — Notes của Julius (unprocessed)
+- [[2026-07-20_the-writing-habit-that-saved-my-brain]] — The writing habit that saved my brain (and my future) by Dan Koe (processed)
+- [[2026-07-20_the-art-of-elaboration]] — The Art of Elaboration by Learning to Learn Well (processed)
+- [[2026-07-20_ill-make-you-believe-you-can-achieve]] — I'll Make You Believe You Can Achieve Anything after Reading This by nqdonzo (processed)
+- [[2026-07-11_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — Giải thích sâu phương pháp học Charlie Munger — Notes của Julius (processed)
 
 - [[2026-07-11_learn-anything-like-charlie-munger]] — The Learning Method Charlie Munger Never Wrote Down by Flo / Undiscovered Compounders (unprocessed)
 

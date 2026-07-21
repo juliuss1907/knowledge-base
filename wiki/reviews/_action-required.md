@@ -10,10 +10,19 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
 
-All reports up to date. No pending actions.
+---
+
+## Pending Reports
+
+### 🔍 Output Validation — 2026-07-21 (23:06)
+
+- **Report:** `wiki/reviews/2026-07-21_output-report.md`
+- **Summary:** 5 issues (1 ERROR, 2 WARNING, 2 INFO). Fifth variant typo: dropped trailing 'i' after 'ờ' — ~35 instances across 13/16 new files. 3 concepts with <5 key ideas. All 13 concepts in draft.
+- **Actions needed:** Fix dropped-i typo across 13 files (systemic Compile Agent defect). Expand key ideas for 3 concepts. Promote drafts after fixes.
+- **Status:** pending
 
 ---
 

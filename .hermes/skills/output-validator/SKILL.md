@@ -421,7 +421,7 @@ done
 ```
 This covers all 42 diacritic+vowel combinations. No need to enumerate specific words — the sed is character-level.
 
-**Root cause (shared across all four variants):** Compile Agent's LLM prompt or tokenization mishandles the character following Vietnamese characters with diacritics. Four variants observed so far:
+**Root cause (shared across all five variants):** Compile Agent's LLM prompt or tokenization mishandles the character following Vietnamese characters with diacritics. Five variants observed so far:
 1. "ngưởi" (hook-above 'ỉ' instead of grave 'ời') — original variant
 2. "ngườii" (doubled lowercase 'i') — second variant (2026-06-23)
 3. "ngườitrong" etc. (spacing merge, space dropped) — third variant (2026-07-02)
@@ -430,6 +430,75 @@ This covers all 42 diacritic+vowel combinations. No need to enumerate specific w
 **Escalation threshold (2026-07-18):** When a single batch contains 237+ instances across 14/14 files, this is no longer a "patch each batch" problem — it's a Compile Agent prompt defect. Escalate with `[SYSTEMATIC ISSUE]` tag and recommend prompt review. The validator should check: if capital-I appears in >50% of new files AND >50 total instances, escalate rather than listing individually.
 
 **Symptom to watch for:** Unlike the double-i variant, the capital-I variant passes basic spell-check (the letter 'I' is valid ASCII) but breaks Vietnamese readability because capital letters don't appear mid-word in Vietnamese. The capital 'I' is visually close to lowercase 'i' in monospace/code fonts, making it easy to miss in code review.
+
+### "ngườ/thờ/lờ" dropped-i-after-ờ typo variant (2026-07-21)
+
+A fifth manifestation of the same root cause: Compile Agent drops the trailing 'i' entirely from Vietnamese words that should end in "ời". This is the most destructive variant yet — the resulting tokens ("ngườ", "thờ", "lờ") are valid Vietnamese morphemes with completely different meanings, making them invisible to spell-checkers.
+
+**First observed:** 2026-07-21 batch — 16 new files (3 sources + 13 concepts), ~35 instances across 13/16 files (81% affected).
+
+**Three sub-patterns detected:**
+
+| Pattern | Should be | Context clues | Instances | Files |
+|---|---|---|---|---|
+| `ngườ` (e.g. "ngườ ta", "ngườ gác cửa") | `người` | Followed by space, comma, period, or function word | ~22 | 13/16 |
+| `thờ` (e.g. "thờ đại", "thờ gian", "đồng thờ") | `thời` | "thờ" alone is valid Vietnamese (worship); only flag when followed by "đại", "gian", "hiện", "điểm", "kỳ" or in "đồng thờ" | ~8 | 3/16 |
+| `lờ` (e.g. "chính lờ") | `lời` | "lờ" alone is valid (indistinct); flag in phrase "chính lờ" or "bằng lờ" | ~5 | 3/16 |
+
+**Why this variant is particularly dangerous:**
+- "ngườ" is NOT a valid Vietnamese word — but it passes all existing quick-scan checks (none of the 4 prior variant regexes match it)
+- "thờ" and "lờ" ARE valid Vietnamese words with different meanings — context is essential to distinguish typos from legitimate usage
+- Unlike variants 1-4 which affect surface characters (diacritic shape, duplication, spacing, case), variant 5 is a **deletion** — the grapheme is simply gone
+
+**Detection regexes (NOT yet in quick-scan.sh as of 2026-07-21):**
+```bash
+# Sub-pattern 1: "ngườ" followed by space/punctuation/function word (NOT followed by 'i', 'I', 'e', 'ẻ' etc.)
+grep -rPn 'ngườ[ ,.\t;:!?)]|ngườ$' wiki/sources/ wiki/concepts/
+
+# Sub-pattern 2: "thờ" in compounds that demand "thời"
+grep -rPn 'thờ (đại|gian|hiện|điểm|kỳ|buổi|trẻ|gian)|đồng thờ[^i]' wiki/sources/ wiki/concepts/
+
+# Sub-pattern 3: "lờ" in compounds that demand "lời"
+grep -rPn 'chính lờ[^i]|bằng lờ[^i]|lờ nói|lờ khuyên|lờ hứa' wiki/sources/ wiki/concepts/
+```
+
+**Fix command (sed — context-aware, shortest-match-first to avoid partial replacements):**
+```bash
+for f in <affected-files>; do
+  sed -i 's/ngườ ta/người ta/g; s/ngườ gác/người gác/g; s/ngườ đó/người đó/g
+          s/ngườ khác/người khác/g; s/ngườ thành/người thành/g
+          s/ngườ vĩ/người vĩ/g; s/ngườ giàu/người giàu/g
+          s/con ngườ/con người/g; s/mọi ngườ/mọi người/g
+          s/những ngườ/những người/g; s/một ngườ/một người/g
+          s/của ngườ/của người/g; s/cho ngườ/cho người/g
+          s/khiến ngườ/khiến người/g; s/đưa một ngườ/đưa một người/g
+          s/hàng triệu ngườ/hàng triệu người/g
+          s/thờ đại/thời đại/g; s/thờ gian/thời gian/g
+          s/đồng thờ /đồng thời /g; s/đồng thờ\./đồng thời./g
+          s/chính lờ /chính lời /g; s/chính lờ\./chính lời./g
+          s/bằng lờ /bằng lời /g' "$f"
+done
+```
+Note: the sed is necessarily word-specific (not character-level) because "ngườ" is a substring of valid words that still contain "người" correctly spelled elsewhere in the same file. A naive `s/ngườ/người/g` would break "người" → "ngườii". The sed above targets only known collocations from observed batches. For new collocations, add them as they appear.
+
+**Detection gap in quick-scan.sh:** As of 2026-07-21, the script does NOT scan for this variant. The existing checks cover:
+1. `ngưởi` (hook-above variant, section 2)
+2. `ngườii|đờii|lờii|...` (double-i, section 2b)
+3. `người` spacing merge (spacing merge, section added 2026-07-02)
+4. `ngườI` (capital-I, section added 2026-07-16)
+
+Adding variant 5 detection to quick-scan.sh requires careful context-awareness (to avoid false positives on valid "thờ" and "lờ"), making it more complex than prior additions. Until quick-scan.sh is updated, the validator MUST run the 3 grep commands above as a manual supplement when processing today's files.
+
+**Escalation threshold:** Same as variant 4 — when >50% of new files are affected AND >30 total instances, escalate as `[SYSTEMATIC ISSUE]` and recommend Compile Agent prompt review. The 2026-07-21 batch (81% affected, ~35 instances) meets both criteria.
+
+**Root cause consolidation:** All five variants share the same origin: Compile Agent's LLM mishandles the 'i' character after Vietnamese 'ờ' (and other diacritic+vowel combinations). The progression shows the error shifting form rather than being fixed:
+1. Wrong diacritic on 'i' (hook-above instead of grave) → "ngưởi"
+2. Duplicated 'i' → "ngườii"
+3. Space dropped after "người" → "ngườitrong"
+4. 'i' uppercased → "ngườI"
+5. 'i' deleted entirely → "ngườ"
+
+Each "fix" to the Compile Agent prompt appears to shift the error rather than eliminate it. The underlying tokenization boundary between the diacritic character and the following 'i' remains unstable.
 
 ### False-positive content-depth flags (LLM hallucination)
 
@@ -588,6 +657,20 @@ check "Files checked 570" bash -c "echo \"\$1\" | grep -q 'Files checked.*570'" 
 **Symptom:** Some checks produce no `[OK]` or `[FAIL]` output but the final pass/fail count still looks correct. This is because the orphaned `| grep -q` runs but its exit code doesn't reach `check()` — the function always sees the first command's exit code. The check is effectively a no-op.
 
 **Detection:** Count the expected number of check lines in the script vs the actual `[OK]`/`[FAIL]` output. A mismatch means some checks silently dropped.
+
+**Pitfall — `bash -c` positional arg indexing inside `check()` (2026-07-21):** When using `bash -c "..." _ "$arg1" "$arg2"` as the command passed to `check()`, the `_` placeholder consumes `$0` inside bash -c. This shifts positional args: your first real argument is `$1`, second is `$2`. A reference to `\$3` will be empty/undefined.
+
+```bash
+# BROKEN — \$3 is undefined (only 2 user args passed):
+check "cross-file" bash -c "grep -q '...' \"\$1\" && grep -q '...' \"\$3\"" _ "$FILE1" "$FILE2"
+
+# CORRECT — use \$1 and \$2:
+check "cross-file" bash -c "grep -q '...' \"\$1\" && grep -q '...' \"\$2\"" _ "$FILE1" "$FILE2"
+```
+
+**Symptom:** Cross-file consistency checks fail even though manual verification confirms the files agree. The `bash -c` child process receives the wrong (empty) variable for `\$3` and grep can't match.
+
+**Prevention:** When writing a `bash -c` wrapper with `N` user args after `_`, reference them as `\$1` through `\$N` (not `\$1` through `\$N+1`). Count the positional parameters you pass after `_` and ensure your `\$N` references match.
 
 **Pitfall — verification script cleanup:** `rm /tmp/hermes-verify-*` may trigger "delete in root path" approval. Accept the block — `/tmp` files are cleaned by the OS eventually.
 

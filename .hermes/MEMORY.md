@@ -20,6 +20,13 @@ Files checked: 815
 - **Issues found:** 5 (1 ERROR, 2 WARNING, 2 INFO)
 - **Report:** wiki/reviews/2026-07-21_output-report.md
 
+## 2026-07-22 23:05:39 — Output validation
+
+- **Files checked:** 608 (457 concepts + 151 sources)
+- **New files:** 0 — no new content today
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — nothing new to validate
+
 ## 2026-07-20 23:16 — Format validation
 
 - **Files checked:** 796 (444 concepts + 148 sources + 33 indexes + 171 topics)

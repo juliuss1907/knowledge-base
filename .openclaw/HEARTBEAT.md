@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-07-22 18:30 (Asia/Saigon)
+> Last updated: 2026-07-23 06:00 (Asia/Saigon)
 
 ## Status
 
@@ -11,19 +11,21 @@
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Folder không tồn tại — không có file nào cần xử lý |
-| Raw backlog | ✅ Clean | 1 file `unprocessed` (2026-07-22_iatrogenics-farnam-street.md), mới ingest lúc 08:38, chưa quá 24h |
-| Concept backlinks | ✅ Clean | 2 files kiểm tra ngẫu nhiên (x-api-oauth2.md, job-worth-doing.md) đều có backlinks đầy đủ |
-| Pending reviews | ℹ️ Info | 3 reports từ 07-21 đang chờ Julius review — không khẩn cấp |
+| Raw backlog | ✅ Clean | 2 files `unprocessed` từ 2026-07-22 (chưa quá 24h, CompileAgent sẽ xử lý lúc 08:00) |
+| Concept backlinks | ✅ Clean | Kiểm tra ngẫu nhiên: feedback-loop.md có backlinks đầy đủ |
+| Pending reviews | ℹ️ Info | 5 reports đang chờ Julius review (2 từ 07-22, 3 từ 07-21) — không khẩn cấp |
 
 ## System State
 
-- **raw/**: 1 file unprocessed (mới, chưa đến giờ compile)
+- **raw/**: 2 files unprocessed (bình thường, chờ compile hôm nay)
+  - `raw/articles/2026-07-22_iatrogenics-farnam-street.md`
+  - `raw/articles/2026-07-22_never-enough-ronacher.md`
 - **wiki/concepts/**: ~450+ files, backlinks đầy đủ
-- **Pending reports**: 3 (Format, Output, Hygiene — từ 07-21)
+- **Pending reports**: 5 reports (Format 07-22, Format 07-21, Output 07-21, Hygiene 07-21, Hygiene 07-22)
 
 ## Next Scheduled Actions
 
-- CompileAgent: 08:00 tomorrow (2026-07-23)
+- CompileAgent: 08:00 today (2026-07-23) — sẽ xử lý 2 files raw mới
 - Index update: 21:00 today
 
 ---

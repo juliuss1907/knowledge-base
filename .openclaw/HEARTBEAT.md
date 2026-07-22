@@ -3,7 +3,7 @@
 ## Latest Check
 
 **Status:** ⚠️ ATTENTION REQUIRED  
-**Time:** 2026-07-22 07:30 (Asia/Saigon) / 00:30 UTC  
+**Time:** 2026-07-22 10:00 (Asia/Saigon) / 03:00 UTC  
 **Trigger:** cron:3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ---
@@ -13,8 +13,8 @@
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox | ✅ Clean | Tasks/ folder không tồn tại — không có file #agent/inbox |
-| Raw backlog | ✅ Clean | 0 file unprocessed trong raw/ (158 files total, tất cả đã processed) |
-| Concept backlinks | ✅ Pass | 2/2 files checked: flow-cycle.md, margin-of-safety-mental-model.md — đều có sources đầy đủ |
+| Raw backlog | ℹ️ 1 file | `raw/articles/2026-07-22_iatrogenics-farnam-street.md` — unprocessed, ingested today. CompileAgent chạy 08:00 |
+| Concept backlinks | ✅ Pass | 2/2 files checked: trading-addiction-cycle.md, chauffeur-knowledge.md — đều có sources đầy đủ |
 | Pending reviews | ⚠️ 3 reports | Format (318W), Output (1E+2W+2I), Hygiene (1W) — chờ Julius review |
 
 ---
@@ -29,14 +29,16 @@
 
 **Action:** Julius cần review `wiki/reviews/_action-required.md` để approve/reject fixes.
 
+**Raw backlog:** 1 file mới ingest hôm nay — CompileAgent sẽ xử lý tự động lúc 08:00.
+
 ---
 
 ## System State
 
-- **raw/:** 158 files, 0 unprocessed
+- **raw/:** 159 files, 1 unprocessed (mới ingest hôm nay)
 - **wiki/concepts/:** Backlinks đầy đủ
 - **wiki/reviews/:** 3 reports pending (last batch applied 2026-07-21)
-- **Next compile:** 08:00 today
+- **Next compile:** 08:00 today (sẽ xử lý file mới)
 
 ---
 
@@ -44,6 +46,7 @@
 
 | Timestamp | Status | Notes |
 |-----------|--------|-------|
+| 2026-07-22 10:00 | ⚠️ ATTENTION | 1 raw unprocessed (normal), 3 pending reviews |
 | 2026-07-22 07:30 | ⚠️ ATTENTION | 3 pending reviews from 07-21 |
 | 2026-07-21 21:03 | HEARTBEAT_OK | All systems operational |
 | 2026-07-21 20:00 | HEARTBEAT_OK | All systems operational |

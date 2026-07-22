@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-21
+**Last updated:** 2026-07-22
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 07-22 | Format | 318W | Review [wiki/reviews/2026-07-22_format-report.md](2026-07-22_format-report.md) |
 | 🔍 PENDING | 07-21 | Format | 318W | Review [wiki/reviews/2026-07-21_format-report.md](2026-07-21_format-report.md) |
 | 🔍 PENDING | 07-21 | Output | 5 (1E+2W+2I) | Review [wiki/reviews/2026-07-21_output-report.md](2026-07-21_output-report.md) |
 | 🔍 PENDING | 07-21 | Hygiene | 1W | Review [wiki/reviews/2026-07-21_hygiene-report.md](2026-07-21_hygiene-report.md) |
@@ -22,6 +23,16 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-07-22
+
+- **Report:** `wiki/reviews/2026-07-22_format-report.md`
+- **Summary:** 318 issues (0 ERROR, 318 WARNING, 0 INFO). Zero structure violations — all WARNINGs are broken wikilinks: forward references to uncompiled concepts/sources. 295 individual links + 21 forward-reference groups + 2 raw file `original` false positives (files confirmed to exist).
+- **Delta from 07-21:** 0 net change (815→815, 318→318). No KB changes on 07-22 — file counts identical across all categories. Clean streak day 9 (0 ERRORs since 07-14 baseline).
+- **Actions needed:** None required. All WARNINGs are expected forward references. 2 false positives are known validator limitation. Identical to 07-21 report.
+- **Status:** pending
+
+---
 
 ### 🔍 Format Validation — 2026-07-21
 

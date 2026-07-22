@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-07-22 15:30 (Asia/Saigon)
+> Last updated: 2026-07-22 18:30 (Asia/Saigon)
 
 ## Status
 
@@ -11,14 +11,14 @@
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Folder không tồn tại — không có file nào cần xử lý |
-| Raw backlog | ✅ Clean | 1 file `unprocessed` nhưng mới ingest hôm nay (2026-07-22), chưa quá 24h |
-| Concept backlinks | ✅ Clean | 2 files kiểm tra ngẫu nhiên đều có backlinks đầy đủ |
-| Pending reviews | ℹ️ Info | 3 reports từ 07-21 đang chờ Julius review (không khẩn cấp) |
+| Raw backlog | ✅ Clean | 1 file `unprocessed` (2026-07-22_iatrogenics-farnam-street.md), mới ingest lúc 08:38, chưa quá 24h |
+| Concept backlinks | ✅ Clean | 2 files kiểm tra ngẫu nhiên (x-api-oauth2.md, job-worth-doing.md) đều có backlinks đầy đủ |
+| Pending reviews | ℹ️ Info | 3 reports từ 07-21 đang chờ Julius review — không khẩn cấp |
 
 ## System State
 
 - **raw/**: 1 file unprocessed (mới, chưa đến giờ compile)
-- **wiki/concepts/**: ~450+ files, 2 files sample có backlinks đầy đủ
+- **wiki/concepts/**: ~450+ files, backlinks đầy đủ
 - **Pending reports**: 3 (Format, Output, Hygiene — từ 07-21)
 
 ## Next Scheduled Actions

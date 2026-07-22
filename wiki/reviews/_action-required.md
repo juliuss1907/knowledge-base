@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-22
+**Last updated:** 2026-07-22 (hygiene 23:35)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -19,6 +19,7 @@
 | 🔍 PENDING | 07-21 | Format | 318W | Review [wiki/reviews/2026-07-21_format-report.md](2026-07-21_format-report.md) |
 | 🔍 PENDING | 07-21 | Output | 5 (1E+2W+2I) | Review [wiki/reviews/2026-07-21_output-report.md](2026-07-21_output-report.md) |
 | 🔍 PENDING | 07-21 | Hygiene | 1W | Review [wiki/reviews/2026-07-21_hygiene-report.md](2026-07-21_hygiene-report.md) |
+| 🔍 PENDING | 07-22 | Hygiene | 1W | Review [wiki/reviews/2026-07-22_hygiene-report.md](2026-07-22_hygiene-report.md) |
 
 ---
 
@@ -58,6 +59,15 @@
 - **Report:** `wiki/reviews/2026-07-21_hygiene-report.md`
 - **Summary:** 1 issue (0 ERROR, 1 WARNING, 0 INFO). 51,937 paths scanned (0.002% issue rate). Zero structural violations. Single WARNING: draft backup file `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` uses underscores in filename — cosmetic naming issue from Fix Agent bulk apply. Same category as 07-20 draft backup WARNING.
 - **Actions needed:** Optional rename to hyphens-only, or leave as-is (WARNING-level, backup file).
+- **Status:** pending
+
+---
+
+### 🔍 Hygiene Inspection — 2026-07-22 (23:35)
+
+- **Report:** `wiki/reviews/2026-07-22_hygiene-report.md`
+- **Summary:** 1 issue (0 ERROR, 1 WARNING, 0 INFO). 51,944 paths scanned (0.002% issue rate). Zero structural violations. Single WARNING: same draft backup file from 07-21 — `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` uses `src_` prefix + underscore in filename. `memory/` and `state/` root folders remain absent — resolution appears permanent.
+- **Actions needed:** Optional rename of backup file (cosmetic WARNING-level). No structural issues.
 - **Status:** pending
 
 ---

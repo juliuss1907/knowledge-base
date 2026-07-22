@@ -1,7 +1,7 @@
 # Common Non-Compliant Patterns
 
 > Recurring hygiene violations observed in practice.
-> Updated: 2026-07-21
+> Updated: 2026-07-22
 
 ---
 
@@ -41,10 +41,10 @@ Files and folders that frequently appear at root but are not in the whitelist:
 - `RAW_BACKLOG.md` — leftover from manual tracking; should move to `wiki/drafts/` or `raw/articles/`
 - `MEMORY.md` — agent memory file that leaked from `.hermes/` or `.openclaw/`
 - `search/` — temporary search index; should be gitignored or removed
-- `state/` — empty directory, **recurring** (flagged 06-25, resolved 06-27, recreated 07-02, still present 07-03, 07-15, 07-16, 07-17, 07-18 — 6th recurrence since original resolution). Not in root whitelist. If needed, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.\n- `memory/` — old folder migrated to `.openclaw/memory/` in v1.2. **Recurring** — reappeared 2026-07-03, 2026-07-06, 2026-07-07, 2026-07-08, 2026-07-11, 2026-07-15, 2026-07-16, 2026-07-17, and 2026-07-18 (10th occurrence). Contains `2026-07-15.md` (same file persisted across the last 4 runs). The writing process is targeting `memory/` instead of `.openclaw/memory/`. Move contents and rmdir; fix the process output path. Now tracked in `ROOT_FOLDER_ORPHANS` in scan script (v1.10+).
+- `state/` — empty directory, **resolved since 07-20** (absent 07-20 through 07-22). Was recurring since 06-25. If it reappears, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.\n- `memory/` — old folder migrated to `.openclaw/memory/` in v1.2. **Resolved since 07-21** — absent 07-21 and 07-22 after Fix Agent bulk apply removed the folder and moved contents. Previously recurred 10 times (07-03 through 07-20). If it reappears, the writing process targets `memory/` instead of `.openclaw/memory/` — fix the process output path.
 - `temp_content/` — scratch folder; should be removed after use
 
-**Update 2026-07-21 — `state/` and `memory/` resolved:** After the 07-21 Fix Agent bulk apply (moved `memory/2026-07-20.md` → `.openclaw/memory/`, removed empty `memory/` and `state/` dirs), the 2026-07-21 hygiene run (51,937 paths) found zero root orphans. First clean run for these two folders since 07-02. If they reappear, the write process output path needs correction — not another file deletion.
+**Update 2026-07-22 — `memory/` and `state/` resolution confirmed:** Second consecutive clean run (51,944 paths) with zero root orphans. Both folders absent from 07-21 and 07-22 hygiene runs. Resolution appears permanent after Fix Agent bulk apply (07-20). If either reappears, escalate to process-level fix — do not treat as another file deletion.
 
 ---
 

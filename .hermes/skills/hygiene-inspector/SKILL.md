@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.14
-last_updated: 2026-07-21
+version: 1.15
+last_updated: 2026-07-22
 ---
 
 # Hygiene Inspector
@@ -461,6 +461,13 @@ When invoked as a scheduled cron job, `execute_code` is blocked by `approvals.cr
 4. **Ad-hoc verification** (system flags unverified edits after file writes):
    Write a verification script to `/tmp/hermes-verify-hygiene-<date>.py`, run it with `terminal`, and clean up. Minimal checks: report exists, `_action-required.md` updated, scan reproducible (issue counts only — `paths_checked` drifts from report write), previous-day issues resolved. The system will request this after any cron run that writes files; treat it as a standard post-validation step under cron.
 
+**⚠️ Pitfall: Bold markers in `_action-required.md` string matching.** The pending count line is formatted as `**Pending reports awaiting review:** N` — Markdown bold wraps the label, so `**` sits between `:` and the number. A naive `"Pending reports awaiting review: N" in content` check will fail. Use a regex with optional `*` markers:
+```python
+import re
+m = re.search(r'Pending reports awaiting review:\*{0,2}\s*(\d+)', content)
+count = int(m.group(1)) if m else None
+```
+
 See `references/scan-script.py` for a known-good scan template and `references/full-tree-scan-notes.md` for pitfalls found in real KB runs.
 
 **⚠️ Pitfall:** The scan script handles Vietnamese diacritics via `\u` Unicode escapes. Do NOT use Python raw strings (`r'...'`) for regex patterns containing `\u` — raw strings treat `\u` literally, causing all naming checks to return false positives (hundreds of spurious WARNINGs). The corrected template in `references/scan-script.py` uses a non-raw `SLUG_CHARS` variable with single `\u` escapes, interpolated into regex patterns that use double-backslash escapes (`\\d`, `\\.`).
@@ -580,7 +587,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
-| 1.14 | 2026-07-21 | Updated `references/common-patterns.md`: added resolution note for `state/` and `memory/` root folders — both absent from 07-21 hygiene run after Fix Agent bulk apply. First clean run since 07-02. |
+| 1.15 | 2026-07-22 | Added pitfall to cron verification step: `_action-required.md` uses Markdown bold markers (`**`) around the pending count label, so `**Pending reports awaiting review:** N` — a naive `in` check for `Pending reports awaiting review: N` misses the `**` between `:` and `N`. Use regex with `\*{0,2}`. Updated `references/common-patterns.md`: `memory/` and `state/` root folders confirmed resolved — absent two consecutive runs (07-21, 07-22). |
 | 1.13 | 2026-07-18 | "✅ Good" example (`old_string` without `\|` + `new_string` rows with `\|`) actually produces `\|\|` on the last row — the file's unconsumed `\|` is appended after the entire new_string. Replaced with two proven approaches (A: include `\|` in old_string, B: exclude `\|` from all new_string rows). Confirmed on a live run that produced `\| \|` on the new row before the fix. |
 | 1.11 | 2026-07-11 | Added `memory/` to `ROOT_FOLDER_ORPHANS` in scan script (recurring root folder — flagged 5 times since 07-03). Updated `common-patterns.md`: expanded `memory/` recurrence history through 07-11, removed duplicate one-liner entry. |
 | 1.10 | 2026-07-05 | Added step 4 to cron workflow: ad-hoc verification pattern (write → run → check script at `/tmp/hermes-verify-hygiene-*.py`). Fixed broken cross-reference in post-validation step 3 — now points to "Running under cron" section instead of "cron fallback" (which had no step 4). |

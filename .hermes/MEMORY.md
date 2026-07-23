@@ -844,3 +844,10 @@ Files checked: 815
 - **New files:** 0 — no new content since last validation (2026-07-18 23:09)
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 - **Result:** [SILENT] — nothing new to validate
+
+## 2026-07-23 23:13:01 — Output validation
+
+- **Files checked:** 619 (153 sources + 466 concepts)
+- **New files:** 13 (2 sources + 11 concepts, compiled 2026-07-23)
+- **Issues found:** 4 (1 ERROR, 2 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-07-23_output-report.md

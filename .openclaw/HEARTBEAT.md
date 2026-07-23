@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-07-23 23:00 (Asia/Saigon)
+> Last updated: 2026-07-24 02:00 (Asia/Saigon)
 
 ## Status
 
@@ -10,16 +10,16 @@
 
 | Check | Status | Details |
 |-------|--------|---------|
-| Inbox (`Tasks/`) | ✅ Clean | Folder không tồn tại — không có file nào cần xử lý |
+| Inbox (`Tasks/`) | ✅ Clean | 0 file #agent/inbox cần xử lý |
 | Raw backlog | ✅ Clean | 0 file `unprocessed` quá 24h trong `raw/` |
-| Concept backlinks | ✅ Clean | Kiểm tra ngẫu nhiên: `discipline-as-freedom.md` và `static-website-blind-spot.md` đều có backlinks đầy đủ |
-| Pending reviews | ℹ️ Info | 5 reports đang chờ Julius review (Format 07-22, Format 07-21, Output 07-21, Hygiene 07-21, Hygiene 07-22) — không khẩn cấp |
+| Concept backlinks | ✅ Clean | `alpaca-api.md` (5), `outcome-worship-trap.md` (7) |
+| Pending reviews | ℹ️ Info | 8 reports chờ review (07-21 → 07-23) — không khẩn cấp |
 
 ## System State
 
 - **raw/**: 0 files unprocessed quá 24h
-- **wiki/concepts/**: ~450+ files, backlinks đầy đủ
-- **Pending reports**: 5 reports chờ review (không có ERROR, toàn bộ là WARNING/INFO)
+- **wiki/concepts/**: ~460+ files, backlinks đầy đủ
+- **Pending reports**: 8 reports chờ review (1 ERROR, còn lại WARNING/INFO)
 
 ## Next Scheduled Actions
 

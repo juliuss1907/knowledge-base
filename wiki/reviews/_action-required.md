@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-23 (format 23:15)
+**Last updated:** 2026-07-23 (hygiene 23:35)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 7
+**Pending reports awaiting review:** 8
 **Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -21,7 +21,8 @@
 | 🔍 PENDING | 07-21 | Output | 5 (1E+2W+2I) | Review [wiki/reviews/2026-07-21_output-report.md](2026-07-21_output-report.md) |
 | 🔍 PENDING | 07-21 | Hygiene | 1W | Review [wiki/reviews/2026-07-21_hygiene-report.md](2026-07-21_hygiene-report.md) |
 | 🔍 PENDING | 07-22 | Hygiene | 1W | Review [wiki/reviews/2026-07-22_hygiene-report.md](2026-07-22_hygiene-report.md) |
-| 🔍 PENDING | 07-23 | Output | 4 (1E+2W+1I) | Review [wiki/reviews/2026-07-23_output-report.md](2026-07-23_output-report.md) |
+| 🔍 PENDING | 07-23 | Output | 4 (1E+2W+1I) | Review [wiki/reviews/2026-07-23_output-report.md](2026-07-23_output-report.md)
+| 🔍 PENDING | 07-23 | Hygiene | 1W | Review [wiki/reviews/2026-07-23_hygiene-report.md](2026-07-23_hygiene-report.md) |
 
 ---
 
@@ -90,6 +91,15 @@
 - **Summary:** 4 issues (1 ERROR, 2 WARNING, 1 INFO). 13 new files (2 sources + 11 concepts). Systemic double-i typo (ngườii/thờii) in 11/13 files — 66 instances, same Compile Agent prompt defect. Forward-reference wikilinks in 10 concepts. second-order-thinking.md: 23 key ideas exceeds 5-10 range. presence.md: lowercase title.
 - **Actions needed:** Fix double-i typos across 11 files (Fix Agent). Review compile-agent prompt for recurrence. Consolidate key ideas in second-order-thinking.md. Fix title casing in presence.md.
 - **Status:** pending
+
+---
+
+### 🔍 Hygiene Inspection — 2026-07-23 (23:35)
+
+- **Report:** `wiki/reviews/2026-07-23_hygiene-report.md`
+- **Summary:** 1 issue (0 ERROR, 1 WARNING, 0 INFO). 51,963 paths scanned (0.002% issue rate). Zero structural violations. Single WARNING: same draft backup file `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` uses underscores in filename — unchanged from 07-21 and 07-22. `memory/` and `state/` root folders remain absent for third consecutive day — resolution appears permanent.
+- **Delta from 07-22:** +19 paths (compilation activity). 0 net issue change.
+- **Actions needed:** Optional rename of backup file (cosmetic WARNING-level). No structural issues.
 
 ---
 

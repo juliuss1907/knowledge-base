@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: ai
 auto_generated: true
-last_updated: 2026-07-17
+last_updated: 2026-07-23
 ---
 
 # Tag: #ai
@@ -16,10 +16,10 @@ last_updated: 2026-07-17
 
 ## Stats
 
-- Total files: 159
+- Total files: 160
 - Sources: 37
-- Concepts: 122
-- Last updated: 2026-07-17
+- Concepts: 123
+- Last updated: 2026-07-23
 
 ## Files with this tag
 
@@ -35,6 +35,7 @@ last_updated: 2026-07-17
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept)
 - [[ai-coach-prompting]] — Ai Coach Prompting (concept)
+- [[ai-dependency]] — Ai Dependency (concept)
 - [[ai-first-business-model]] — Ai First Business Model (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
 - [[ai-lab-crypto-analogy]] — Ai Lab Crypto Analogy (concept)

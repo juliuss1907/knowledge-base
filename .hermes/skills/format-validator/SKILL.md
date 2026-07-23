@@ -419,7 +419,7 @@ This prevents stale pending counts and ensures delta tracking uses the correct b
 **Required frontmatter fields (must appear literally):**
 - `**Status:** pending`
 - `**Issues found:** N`
-- `**ERRORs:** N` (lowercase 's')
+- `**ERRORs**: N` (lowercase 's') — **critical**: space BEFORE colon, same rule as WARNINGS. The verify script checks for `**ERRORs**` substring via `'**ERRORs**' in content`. Writing `**ERRORs:**` (colon immediately after `s`) fails because the `:` breaks the bold-span substring — `**ERRORs**` is no longer present. Use `**ERRORs**: N` (space between `s` and `:`).
 - `**WARNINGS**: N` — **critical**: space BEFORE colon so `**WARNINGS**` (bold WARNINGS) appears as a substring. Writing `**WARNINGS:**` (colon immediately after asterisks) fails because there's no `**WARNINGS**` substring — only `**WARNINGS:`.
 - `**INFOS:** 0`
 - `**Validator:** format-validator`

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-07-21
+last_updated: 2026-07-23
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-07-21
 
 ## Stats
 
-- Total files: 267
+- Total files: 269
 - Sources: 75
-- Concepts: 192
-- Last updated: 2026-07-21
+- Concepts: 194
+- Last updated: 2026-07-23
 
 ## Files with this tag
 
@@ -51,8 +51,6 @@ last_updated: 2026-07-21
 - [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept)
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
-- [[costly-signal]] — Costly Signal (concept)
-- [[cultural-memetics]] — Cultural Memetics (concept)
 - [[decoding-messages-language]] — Decoding Messages Language (concept)
 - [[deliberate-practice]] — Deliberate Practice (concept)
 - [[goal-announcement-trap]] — Goal Announcement Trap (concept)
@@ -292,7 +290,7 @@ last_updated: 2026-07-21
 
 ## Co-occurring tags
 
-- [[psychology]] — 172 co-occurrences
+- [[psychology]] — 174 co-occurrences
 - [[opinion]] — 103 co-occurrences
 - [[research]] — 86 co-occurrences
 - [[tutorial]] — 28 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-07-21
+last_updated: 2026-07-23
 ---
 
 # Tag: #psychology
@@ -16,14 +16,15 @@ last_updated: 2026-07-21
 
 ## Stats
 
-- Total files: 247
-- Sources: 67
-- Concepts: 180
-- Last updated: 2026-07-21
+- Total files: 260
+- Sources: 69
+- Concepts: 191
+- Last updated: 2026-07-23
 
 ## Files with this tag
 
 - [[activation-energy]] — Activation Energy (concept)
+- [[ai-dependency]] — Ai Dependency (concept)
 - [[approach-avoidance-conflict]] — Approach Avoidance Conflict (concept)
 - [[authenticity-creative-expression]] — Authenticity Creative Expression (concept)
 - [[boredom-as-dopamine-reset]] — Boredom As Dopamine Reset (concept)
@@ -40,6 +41,7 @@ last_updated: 2026-07-21
 - [[cognitive-load-theory]] — Cognitive Load Theory (concept)
 - [[cognitive-surrender]] — Cognitive Surrender (concept)
 - [[collaborative-thinking]] — Collaborative Thinking (concept)
+- [[comparison-trap]] — Comparison Trap (concept)
 - [[completion-motivation]] — Completion Motivation (concept)
 - [[compounding-relationships]] — Compounding Relationships (concept)
 - [[comprehensible-input]] — Comprehensible Input (concept)
@@ -62,6 +64,7 @@ last_updated: 2026-07-21
 - [[dunbar-number]] — Dunbar Number (concept)
 - [[embodied-knowledge]] — Embodied Knowledge (concept)
 - [[emotional-inheritance]] — Emotional Inheritance (concept)
+- [[enough]] — Enough (concept)
 - [[entropy]] — Entropy (concept)
 - [[environment-design-for-habits]] — Environment Design For Habits (concept)
 - [[erg-theory]] — Erg Theory (concept)
@@ -89,6 +92,7 @@ last_updated: 2026-07-21
 - [[human-premium]] — Human Premium (concept)
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept)
 - [[hypergamy]] — Hypergamy (concept)
+- [[iatrogenics]] — Iatrogenics (concept)
 - [[identity-threat-neuroscience]] — Identity Threat Neuroscience (concept)
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept)
 - [[impulse-response-gap]] — Impulse Response Gap (concept)
@@ -119,10 +123,12 @@ last_updated: 2026-07-21
 - [[mental-representation-language]] — Mental Representation Language (concept)
 - [[meta-learning]] — Meta Learning (concept)
 - [[mind-body-connection]] — Mind Body Connection (concept)
+- [[naive-interventionism]] — Naive Interventionism (concept)
 - [[narrative-certainty-trap]] — Narrative Certainty Trap (concept)
 - [[nash-equilibrium]] — Nash Equilibrium (concept)
 - [[negative-future-projection]] — Negative Future Projection (concept)
 - [[negotiation]] — Negotiation (concept)
+- [[never-enough-culture]] — Never Enough Culture (concept)
 - [[occams-broom]] — Occams Broom (concept)
 - [[occams-razor]] — Occams Razor (concept)
 - [[olympiad-to-founder-pipeline]] — Olympiad To Founder Pipeline (concept)
@@ -143,6 +149,7 @@ last_updated: 2026-07-21
 - [[power-law-distribution]] — Power Law Distribution (concept)
 - [[presence]] — Presence (concept)
 - [[prices-law]] — Prices Law (concept)
+- [[primum-non-nocere]] — Primum Non Nocere (concept)
 - [[prisoners-dilemma]] — Prisoners Dilemma (concept)
 - [[probabilistic-thinking]] — Probabilistic Thinking (concept)
 - [[productive-discomfort]] — Productive Discomfort (concept)
@@ -168,6 +175,7 @@ last_updated: 2026-07-21
 - [[self-knowledge-practice]] — Self Knowledge Practice (concept)
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[skill-acquisition-framework]] — Skill Acquisition Framework (concept)
+- [[skin-in-the-game]] — Skin In The Game (concept)
 - [[social-attraction]] — Social Attraction (concept)
 - [[social-media-comparison-trap]] — Social Media Comparison Trap (concept)
 - [[spacing-effect]] — Spacing Effect (concept)
@@ -198,79 +206,17 @@ last_updated: 2026-07-21
 - [[src_how-to-live-without-options]] — How To Live Without Options (source)
 - [[src_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone At Any Time (source)
 - [[src_hypergamy]] — Hypergamy (source)
+- [[src_iatrogenics-farnam-street]] — Iatrogenics Farnam Street (source)
 - [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
 - [[src_inversion]] — Inversion (source)
 - [[src_learn-anything-like-charlie-munger]] — Learn Anything Like Charlie Munger (source)
 - [[src_leverage]] — Leverage (source)
 - [[src_life-is-a-mind-game-heres-how-you]] — Life Is A Mind Game Heres How You (source)
-- [[src_live-disciplined-life-spontaneously]] — Live Disciplined Life Spontaneously (source)
-- [[src_living-beyond-the-labels]] — Living Beyond The Labels (source)
 - [[src_map-is-not-territory]] — Map Is Not Territory (source)
 - [[src_markus-four-thinking-types]] — Markus Four Thinking Types (source)
 - [[src_mathematical-reason-most-people-never-make-it]] — Mathematical Reason Most People Never Make It (source)
 - [[src_mental-models-of-art]] — Mental Models Of Art (source)
+- [[src_never-enough-ronacher]] — Never Enough Ronacher (source)
 - [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
 - [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
-- [[src_most-profitable-skill-human-nature-dan-koe]] — Most Profitable Skill Human Nature Dan Koe (source)
-- [[src_occams-razor]] — Occams Razor (source)
-- [[src_our-first-heartbreaks-were-our-parents]] — Our First Heartbreaks Were Our Parents (source)
-- [[src_personal-mba-generator-skill]] — Personal Mba Generator Skill (source)
-- [[src_pivot-vs-persist-framework]] — Pivot Vs Persist Framework (source)
-- [[src_play-long-term-games-with-long-term-people]] — Play Long Term Games With Long Term People (source)
-- [[src_probabilistic-thinking]] — Probabilistic Thinking (source)
-- [[src_reciprocity]] — Reciprocity (source)
-- [[src_second-order-thinking]] — Second Order Thinking (source)
-- [[src_split-the-ikigai]] — Split The Ikigai (source)
-- [[src_steve-jobs-stanford-2005-commencement]] — Steve Jobs Stanford 2005 Commencement (source)
-- [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
-- [[src_the-5-laws-of-people-who-never-chase]] — The 5 Laws Of People Who Never Chase Gabriel Reality (source)
-- [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
-- [[src_the-laws-of-this-world]] — The Laws Of This World (source)
-- [[src_thermodynamics]] — Thermodynamics (source)
-- [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiet Ke Quy Tac Bao Ve Su Chu Y (source)
-- [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
-- [[src_this-will-help-you-figure-out-what-you-want]] — This Will Help You Figure Out What You Want (source)
-- [[src_thought-experiment]] — Thought Experiment (source)
-- [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
-- [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
-- [[src_why-people-fail-at-learning-languages]] — Why People Fail At Learning Languages (source)
-- [[src_you-escape-competition-by-figuring-out-who-you-are]] — You Escape Competition By Figuring Out Who You Are (source)
-- [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source)
-- [[stay-hungry-stay-foolish]] — Stay Hungry Stay Foolish (concept)
-- [[streak-psychology]] — Streak Psychology (concept)
-- [[success-trap]] — Success Trap (concept)
-- [[synthetic-happiness]] — Synthetic Happiness (concept)
-- [[tacit-knowledge]] — Tacit Knowledge (concept)
-- [[talent-stack]] — Talent Stack (concept)
-- [[taste-judgment]] — Taste Judgment (concept)
-- [[thermodynamics]] — Thermodynamics (concept)
-- [[third-order-thinking]] — Third Order Thinking (concept)
-- [[thought-experiment]] — Thought Experiment (concept)
-- [[tokenmaxxing]] — Tokenmaxxing (concept)
-- [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
-- [[trading-psychology]] — Trading Psychology (concept)
-- [[tragic-optimism]] — Tragic Optimism (concept)
-- [[ultimatum-game]] — Ultimatum Game (concept)
-- [[variable-reward-systems]] — Variable Reward Systems (concept)
-- [[zero-sum-game]] — Zero Sum Game (concept)
-- [[cheap-dopamine]] — Cheap Dopamine (concept)
-- [[delusional-optimism]] — Delusional Optimism (concept)
-- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
-- [[forced-linearity-writing]] — Forced Linearity Writing (concept)
-- [[internal-locus-of-control]] — Internal Locus Of Control (concept)
-- [[law-of-assumption]] — Law Of Assumption (concept)
-- [[learned-helplessness]] — Learned Helplessness (concept)
-- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
-- [[protoge-effect]] — Protoge Effect (concept)
-- [[psycho-cybernetics]] — Psycho Cybernetics (concept)
-- [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
-- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
-- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
-
-## Co-occurring tags
-
-- [[productivity]] — 172 co-occurrences
-- [[opinion]] — 86 co-occurrences
-- [[research]] — 59 co-occurrences
-- [[health]] — 13 co-occurrences
-- [[investment]] — 6 co-occurrences
+- [[src_most-profitable-skill-human-nature-dan-koe]] — Most Profitable Skill Human Nature Dan Koe (

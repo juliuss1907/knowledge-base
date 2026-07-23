@@ -22,11 +22,13 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 125 files
-- By status: 125 processed, 0 unprocessed
-- By date: 8 this week, 125 this month
-- Last updated: 2026-07-21
+- Total: 127 files
+- By status: 127 processed, 0 unprocessed
+- By date: 8 this week, 127 this month
+- Last updated: 2026-07-23
 ## Items
+- [[2026-07-22_never-enough-ronacher]] — Never Enough by Armin Ronacher (processed)
+- [[2026-07-22_iatrogenics-farnam-street]] — Iatrogenics: Why Intervention Often Leads to Worse Outcomes by Farnam Street (processed)
 - [[2026-07-20_the-writing-habit-that-saved-my-brain]] — The writing habit that saved my brain (and my future) by Dan Koe (processed)
 - [[2026-07-20_the-art-of-elaboration]] — The Art of Elaboration by Learning to Learn Well (processed)
 - [[2026-07-20_ill-make-you-believe-you-can-achieve]] — I'll Make You Believe You Can Achieve Anything after Reading This by nqdonzo (processed)

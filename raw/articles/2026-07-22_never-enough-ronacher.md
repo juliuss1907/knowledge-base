@@ -5,7 +5,9 @@ url: https://dark.ronacher.eu/2026/7/21/never-enough/
 author: Armin Ronacher
 date_published: 2026-07-21
 date_ingested: 2026-07-22
-status: unprocessed
+status: processed
+compiled_at: 2026-07-23
+compiled_to: "[[src_never-enough-ronacher]]"
 source: dark.ronacher.eu
 ---
 

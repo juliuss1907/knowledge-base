@@ -5,7 +5,9 @@ url: https://fs.blog/iatrogenics/
 author: Farnam Street
 date_published: 2026-07-22
 date_ingested: 2026-07-22
-status: unprocessed
+status: processed
+compiled_at: 2026-07-23
+compiled_to: "[[src_iatrogenics-farnam-street]]"
 source: fs.blog (Farnam Street)
 ---
 

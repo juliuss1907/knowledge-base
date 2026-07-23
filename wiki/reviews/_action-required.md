@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-23 (output 23:13)
+**Last updated:** 2026-07-23 (format 23:15)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 **Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 07-23 | Format | 337 (1E+336W) | Review [wiki/reviews/2026-07-23_format-report.md](2026-07-23_format-report.md) |
 | 🔍 PENDING | 07-22 | Format | 318W | Review [wiki/reviews/2026-07-22_format-report.md](2026-07-22_format-report.md) |
 | 🔍 PENDING | 07-21 | Format | 318W | Review [wiki/reviews/2026-07-21_format-report.md](2026-07-21_format-report.md) |
 | 🔍 PENDING | 07-21 | Output | 5 (1E+2W+2I) | Review [wiki/reviews/2026-07-21_output-report.md](2026-07-21_output-report.md) |
@@ -25,6 +26,16 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-07-23
+
+- **Report:** `wiki/reviews/2026-07-23_format-report.md`
+- **Summary:** 337 issues (1 ERROR, 336 WARNING, 0 INFO). 1 ERROR: `wiki/tag/psychology.md` missing `## Co-occurring tags` — first structural ERROR since 07-14 clean streak. 336 WARNINGs: 313 individual broken wikilinks + 21 forward-reference groups + 2 raw file `original` false positives.
+- **Delta from 07-22:** +13 files (+9 concepts, +2 sources, +2 topics), +19 issues (+1 ERROR, +18 WARNING). Compilation activity on 07-23.
+- **Actions needed:** Fix Agent should add `## Co-occurring tags` to `wiki/tag/psychology.md`. All WARNINGs are expected forward references.
+- **Status:** pending
+
+---
 
 ### 🔍 Format Validation — 2026-07-22
 

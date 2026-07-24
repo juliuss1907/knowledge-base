@@ -4,29 +4,40 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-23 (hygiene 23:35)
+**Last updated:** 2026-07-24 (format 23:15)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 8
+**Pending reports awaiting review:** 9
 **Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 07-24 | Format | 337 (1E+336W) | Review [wiki/reviews/2026-07-24_format-report.md](2026-07-24_format-report.md) |
 | 🔍 PENDING | 07-23 | Format | 337 (1E+336W) | Review [wiki/reviews/2026-07-23_format-report.md](2026-07-23_format-report.md) |
 | 🔍 PENDING | 07-22 | Format | 318W | Review [wiki/reviews/2026-07-22_format-report.md](2026-07-22_format-report.md) |
 | 🔍 PENDING | 07-21 | Format | 318W | Review [wiki/reviews/2026-07-21_format-report.md](2026-07-21_format-report.md) |
 | 🔍 PENDING | 07-21 | Output | 5 (1E+2W+2I) | Review [wiki/reviews/2026-07-21_output-report.md](2026-07-21_output-report.md) |
 | 🔍 PENDING | 07-21 | Hygiene | 1W | Review [wiki/reviews/2026-07-21_hygiene-report.md](2026-07-21_hygiene-report.md) |
 | 🔍 PENDING | 07-22 | Hygiene | 1W | Review [wiki/reviews/2026-07-22_hygiene-report.md](2026-07-22_hygiene-report.md) |
-| 🔍 PENDING | 07-23 | Output | 4 (1E+2W+1I) | Review [wiki/reviews/2026-07-23_output-report.md](2026-07-23_output-report.md)
+| 🔍 PENDING | 07-23 | Output | 4 (1E+2W+1I) | Review [wiki/reviews/2026-07-23_output-report.md](2026-07-23_output-report.md) |
 | 🔍 PENDING | 07-23 | Hygiene | 1W | Review [wiki/reviews/2026-07-23_hygiene-report.md](2026-07-23_hygiene-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-07-24
+
+- **Report:** `wiki/reviews/2026-07-24_format-report.md`
+- **Summary:** 337 issues (1 ERROR, 336 WARNING, 0 INFO). Identical to 07-23 — 0 net change. 1 ERROR: `wiki/tag/psychology.md` missing `## Co-occurring tags` (persists from 07-23, day 2). 336 WARNINGs: 313 individual broken wikilinks + 21 forward-reference groups + 2 raw file `original` false positives.
+- **Delta from 07-23:** 0 net change (828→828, 337→337). No KB activity on 07-24.
+- **Actions needed:** Fix Agent should add `## Co-occurring tags` to `wiki/tag/psychology.md`. All WARNINGs are expected forward references.
+- **Status:** pending
+
+---
 
 ### 🔍 Format Validation — 2026-07-23
 

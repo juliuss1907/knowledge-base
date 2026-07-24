@@ -85,7 +85,10 @@ for label, ok in ar_checks:
 # Cross-check: does _action-required mention the right issue count?
 if total_issues is not None:
     short_date = today[5:]  # MM-DD
-    pat = re.compile(rf'\|\s*🔍\s*PENDING\s*\|\s*{re.escape(short_date)}\s*\|\s*Format\s*\|\s*(\d+)W\s*\|')
+    # Capture the first number in the Issues column — works for both
+    # WARNING-only format (e.g. "318W") and mixed ERROR+WARNING format
+    # (e.g. "337 (1E+336W)"), where the first number is total issues.
+    pat = re.compile(rf'\|\s*🔍\s*PENDING\s*\|\s*{re.escape(short_date)}\s*\|\s*Format\s*\|\s*(\d+)')
     m = pat.search(ar)
     if m:
         ar_count = int(m.group(1))

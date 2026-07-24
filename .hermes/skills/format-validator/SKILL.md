@@ -435,13 +435,13 @@ This prevents stale pending counts and ensures delta tracking uses the correct b
 
 **Observed case (2026-07-17):** 4 iterations of reformatting were needed to satisfy verify_integrity.py. The space-before-colon pattern is non-obvious and easy to miss.
 
-### verify_integrity.py cross-check regex can't handle mixed ERROR+WARNING reports
+### verify_integrity.py cross-check regex handles mixed ERROR+WARNING reports
 
-The `_action-required.md` cross-check in verify_integrity.py uses regex `(\d+)W` to extract the WARNING count from the Summary table row. This only works when reports have 0 ERRORs (pure WARNING-only rows like `| 306W |`). 
+The `_action-required.md` cross-check in verify_integrity.py uses regex `(\d+)` to extract the first number in the Issues column (the total issue count). This works for both:
+- WARNING-only rows like `| 318W |` → captures 318
+- Mixed ERROR+WARNING rows like `| 337 (1E+336W) |` → captures 337
 
-When a report has both ERRORs and WARNINGs and the table row uses a format like `| 324 (5E+319W) |`, the regex doesn't match. This is a **known limitation** — the verify script was designed during the 0-ERROR clean streak period (07-14 through 07-16) and was never updated to handle mixed counts.
-
-**Workaround:** Accept this single verify failure when ERRORs are present. The core checks (report exists, MEMORY.md entry prepended, _action-required.md entry present) will still pass.
+**Fix applied 2026-07-24:** Changed regex from `(\d+)W\s*\|` (which required a `W` suffix and failed on parenthesized mixed-format rows) to `(\d+)` (which captures the first number in the cell regardless of format). The old regex was designed during the 0-ERROR clean streak period (07-14 through 07-16) and was never updated to handle mixed counts.
 
 ### _action-required.md must match verify_integrity.py expectations exactly
 

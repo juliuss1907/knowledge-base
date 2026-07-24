@@ -449,8 +449,9 @@ The `_action-required.md` cross-check in verify_integrity.py uses regex `(\d+)` 
 
 **Table format (Summary section):**
 - Column order: `| Status | Date | Type | Issues | Action |`
-- Row regex: `\|\s*🔍\s*PENDING\s*\|\s*MM-DD\s*\|\s*Format\s*\|\s*(\d+)W\s*\|`
+- Row regex: `\|\s*🔍\s*PENDING\s*\|\s*MM-DD\s*\|\s*Format\s*\|\s*(\d+)`
 - Example valid row: `| 🔍 PENDING | 07-20 | Format | 318W | Review [wiki/reviews/2026-07-20_format-report.md](2026-07-20_format-report.md) |`
+- Also valid (mixed ERROR+WARNING): `| 🔍 PENDING | 07-24 | Format | 337 (1E+336W) | Review [...] |`
 
 **Section header (Pending Reports):**
 - Must be: `### 🔍 Format Validation — YYYY-MM-DD` (full date, not MM-DD)

@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-07-24 06:00 (Asia/Saigon)
+> Last updated: 2026-07-24 17:30 (Asia/Saigon)
 
 ## Status
 
@@ -10,9 +10,9 @@
 
 | Check | Status | Details |
 |-------|--------|---------|
-| Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks/ — 0 file #agent/inbox |
+| Inbox (`Tasks/`) | ✅ Clean | Không có file #agent/inbox |
 | Raw backlog | ✅ Clean | 0 file `status: unprocessed` trong `raw/` |
-| Concept backlinks | ✅ Clean | `flow-state.md`, `systems-thinking.md` — backlinks đầy đủ |
+| Concept backlinks | ✅ Clean | `learning-through-retrieval.md`, `ai-vulnerability-discovery.md` — backlinks đầy đủ |
 | Pending reviews | ℹ️ Info | 8 reports chờ review từ 07-21 → 07-23 |
 
 ## System State
@@ -23,7 +23,7 @@
 
 ## Next Scheduled Actions
 
-- CompileAgent: 08:00 today (2026-07-24)
+- CompileAgent: 08:00 tomorrow (2026-07-25)
 - Index update: 21:00 today
 
 ---

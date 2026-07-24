@@ -5,14 +5,14 @@
 set -euo pipefail
 
 M="/home/julius/knowledge-base/.hermes/MEMORY.md"
-TS="YYYY-MM-DD HH:MM:SS"        # today's timestamp
-PREV_TS="YYYY-MM-DD HH:MM"       # previous run's timestamp (for append-order check)
+TS_HEADING="## YYYY-MM-DD HH:MM:SS"   # today's heading prefix (include ## for unique match)
+PREV_HEADING="## YYYY-MM-DD HH:MM"    # previous run's heading prefix
 
 echo "=== Verification: MEMORY.md output-validator silent run ==="
 fails=0
 
 # 1. Entry exists
-if grep -qF "$TS" "$M"; then
+if grep -qF "$TS_HEADING" "$M"; then
   echo "[OK] Entry exists"
 else
   echo "[FAIL] Entry not found"
@@ -20,7 +20,7 @@ else
 fi
 
 # 2. New files: 0 (need -A 5 because SILENT marker is on line 5)
-if grep -F -A 5 "$TS" "$M" | grep -q 'New files.*0'; then
+if grep -F -A 5 "$TS_HEADING" "$M" | grep -q 'New files.*0'; then
   echo "[OK] New files: 0"
 else
   echo "[FAIL] New files count wrong"
@@ -28,7 +28,7 @@ else
 fi
 
 # 3. Issues found: 0
-if grep -F -A 5 "$TS" "$M" | grep -q 'Issues found.*0'; then
+if grep -F -A 5 "$TS_HEADING" "$M" | grep -q 'Issues found.*0'; then
   echo "[OK] Issues found: 0"
 else
   echo "[FAIL] Issues count wrong"
@@ -36,16 +36,19 @@ else
 fi
 
 # 4. SILENT marker (line 5 after heading)
-if grep -F -A 5 "$TS" "$M" | grep -q 'SILENT'; then
+if grep -F -A 5 "$TS_HEADING" "$M" | grep -q 'SILENT'; then
   echo "[OK] SILENT marker present"
 else
   echo "[FAIL] SILENT marker missing"
   ((fails++))
 fi
 
-# 5. Append-only order
-PREV_LINE=$(grep -n "$PREV_TS" "$M" | tail -1 | cut -d: -f1)
-THIS_LINE=$(grep -n "$TS" "$M" | head -1 | cut -d: -f1)
+# 5. Append-only order — use ## heading prefix, NOT bare timestamp.
+#    Bare timestamps also match self-references in body text (e.g. "since last
+#    validation (2026-07-23 23:13)"), which can appear AFTER today's heading
+#    and cause a false FAIL. The ## prefix matches only the heading line.
+PREV_LINE=$(grep -nF "$PREV_HEADING" "$M" | head -1 | cut -d: -f1)
+THIS_LINE=$(grep -nF "$TS_HEADING" "$M" | head -1 | cut -d: -f1)
 if [ "$THIS_LINE" -gt "$PREV_LINE" ] 2>/dev/null; then
   echo "[OK] Entry after previous (append-only, line $THIS_LINE > $PREV_LINE)"
 else

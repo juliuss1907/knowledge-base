@@ -313,6 +313,17 @@ Similarly, `rm` commands targeting `/tmp/` may be blocked (pattern: "delete in r
 
 **Note:** POOL_A and POOL_B tag sets are hardcoded in the script. When TAGS.md changes, update the `POOL_A` and `POOL_B` sets in `scripts/validate.py`.
 
+**Note:** Raw type subdirectories (`articles`, `posts`, `videos`, `papers`, `websites`, `repos`, `tools`) are hardcoded in 5 locations in `scripts/validate.py`:
+- Line ~215: raw-dir wikilink resolution loop
+- Line ~277: `original` field validation loop
+- Line ~349: source-body wikilink check loop
+- Line ~452: `valid_scopes` list for index level-2 validation
+- Line ~564: index file scan loop
+
+When Ingest Agent adds a new raw content type, all 5 locations must be updated, plus the ingest-agent's own files (SKILL.md, workflow.md, reference.md, examples.md). Use `replace_all=true` with `patch` on the repeated list pattern to update all occurrences at once.
+
+**Last sync:** 2026-07-25 — `tools` added. Current list: `['articles', 'posts', 'videos', 'papers', 'websites', 'repos', 'tools']`.
+
 ### Unquoted wikilinks in YAML frontmatter → parsed as nested list
 
 When `index-spec.md` shows `parent: [[tag]]` (unquoted), YAML's parser interprets the leading `[` as the start of a flow sequence. `yaml.safe_load('parent: [[tag]]')` produces `{'parent': [['tag']]}` — a **nested list**, not the string `'[[tag]]'`.

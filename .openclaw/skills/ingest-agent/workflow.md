@@ -12,7 +12,7 @@ This workflow covers the complete ingestion process from content identification 
 
 ## Step 1: Identify Content Type
 
-Determine which of the 6 content types applies:
+Determine which of the 7 content types applies:
 
 | Type | Indicators |
 |---|---|
@@ -22,6 +22,7 @@ Determine which of the 6 content types applies:
 | `paper` | Academic paper, arXiv, research publication |
 | `repo` | GitHub, GitLab repository |
 | `website` | Tool landing page, product page, documentation site |
+| `tool` | Software tool, CLI, library, or utility |
 
 **Decision logic:**
 - URL contains `youtube.com`, `vimeo.com` → `video`
@@ -237,7 +238,7 @@ tags: [productivity, ...]    # raw files don't use tags
 ```
 
 **Validation before writing:**
-- [ ] `type` is one of 6 allowed values
+- [ ] `type` is one of 7 allowed values
 - [ ] `title` is non-empty string
 - [ ] `date_ingested` is today's date in YYYY-MM-DD format
 - [ ] `status` is exactly `unprocessed`
@@ -254,7 +255,7 @@ raw/<type>/YYYY-MM-DD_<slug>.md
 ```
 
 Where:
-- `<type>` is one of: `articles`, `posts`, `videos`, `papers`, `repos`, `websites`
+- `<type>` is one of: `articles`, `posts`, `videos`, `papers`, `repos`, `tools`, `websites`
 - `YYYY-MM-DD` is `date_published` if known, else `date_ingested`
 - `<slug>` is generated from title (max 50 chars)
 

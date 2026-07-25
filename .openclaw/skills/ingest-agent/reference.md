@@ -26,7 +26,7 @@ type: video
 ```
 
 **Validation:**
-- Must be exactly one of the 6 allowed values
+- Must be exactly one of the 7 allowed values
 - Case-sensitive (lowercase only)
 - No plurals (use `article` not `articles`)
 
@@ -513,7 +513,7 @@ Before writing any raw file, verify:
 | Check | Rule |
 |---|---|
 | Required fields | `type`, `title`, `date_ingested`, `status` present |
-| Type value | One of 6 allowed types |
+| Type value | One of 7 allowed types |
 | Status value | Exactly `unprocessed` |
 | Date format | All dates are `YYYY-MM-DD` |
 | Date validity | No future dates, valid calendar dates |

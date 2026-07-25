@@ -1,6 +1,6 @@
 # Ingest Agent — Example Raw Files
 
-Sample outputs for each of the 6 content types. Use these as reference when ingesting new content.
+Sample outputs for each of the 7 content types. Use these as reference when ingesting new content.
 
 ---
 

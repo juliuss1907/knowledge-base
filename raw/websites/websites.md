@@ -20,13 +20,14 @@ Website content and documentation pages.
 
 ## Stats
 
-- Total: 3 files
-- By status: 3 processed, 0 unprocessed
-- By date: 3 this week, 3 this month
-- Last updated: 2026-05-28
+- Total: 4 files
+- By status: 3 processed, 1 unprocessed
+- By date: 1 this week, 1 this month
+- Last updated: 2026-07-25
 
 ## Items
 
+- [[2026-07-25_monid-ai-agent-tool-platform]] — Monid — Connect your agent to every tool it needs (unprocessed)
 - [[2026-05-23_optimize-content-generative-ai-search-sagepath]] — How to Optimize Content for Generative AI Search (processed)
 - [[2026-05-23_project-glasswing-anthropic-initial-update]] — Project Glasswing — Anthropic Initial Update (processed)
 - [[2026-05-23_google-publishes-generative-ai-search-guide-semrush]] — Google Publishes Generative AI Search Guide (processed)

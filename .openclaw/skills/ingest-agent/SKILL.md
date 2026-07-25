@@ -1,6 +1,6 @@
 ---
 name: ingest-agent
-description: Ingests external content into raw/ layer. Use when user says "ingest this article", "save this post", "add this to KB", "ingest [URL]", or provides content to store. Handles articles, posts, videos, papers, repos, and websites. Creates properly formatted raw/<type>/YYYY-MM-DD_<slug>.md files with frontmatter.
+description: Ingests external content into raw/ layer. Use when user says "ingest this article", "save this post", "add this to KB", "ingest [URL]", or provides content to store. Handles articles, posts, videos, papers, repos, tools, and websites. Creates properly formatted raw/<type>/YYYY-MM-DD_<slug>.md files with frontmatter.
 when_to_use: Daily monitoring of sources, on-demand when user shares links or content, or when Julius says "ingest" followed by a URL or content description.
 disable-model-invocation: false
 user-invocable: true
@@ -13,7 +13,7 @@ Receives external content and stores it in the `raw/` layer with proper structur
 
 ## Role
 
-Transform external content (articles, social posts, videos, papers, repos, websites) into structured markdown files in `raw/<type>/` with complete frontmatter. This is the entry point for all knowledge into the KB.
+Transform external content (articles, social posts, videos, papers, repos, tools, websites) into structured markdown files in `raw/<type>/` with complete frontmatter. This is the entry point for all knowledge into the KB.
 
 ## When to use
 
@@ -55,7 +55,7 @@ source: <domain or platform name>
 **⚠️ WRONG FORMATS (common mistakes):**
 ```yaml
 # ❌ WRONG — do NOT use these formats:
-type: raw                  # must be one of 6 types: article|post|video|paper|repo|website
+type: raw                  # must be one of 7 types: article|post|video|paper|repo|website|tool
 source_type: article       # wrong field name — use `type`
 tags: [productivity, ...]  # raw/ does not use tags — Compile Agent assigns tags later
 ```
@@ -138,7 +138,7 @@ Examples:
 
 ### Validation
 Before writing, check:
-- [ ] Content type matches one of 6 allowed types
+- [ ] Content type matches one of 7 allowed types
 - [ ] Slug is unique (no duplicate filename in target folder)
 - [ ] Frontmatter includes all required fields
 - [ ] Date format is YYYY-MM-DD
@@ -153,7 +153,7 @@ Before writing, check:
 ## Escalation
 
 Ask Julius when:
-- Content doesn't fit any of the 6 types
+- Content doesn't fit any of the 7 types
 - URL requires authentication or paywall bypass
 - Content is in a language other than English/Vietnamese
 - Metadata is ambiguous (e.g., multiple authors, unclear date)

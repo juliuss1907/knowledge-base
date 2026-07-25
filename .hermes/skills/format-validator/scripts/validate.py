@@ -212,7 +212,7 @@ def validate_concept(filepath, fm, raw_fm, content):
             if (KB / d / f'{target}.md').exists():
                 found = True; break
         if not found:
-            for rd in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos']:
+            for rd in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos', 'tools']:
                 rdir = KB / 'raw' / rd
                 if rdir.exists() and ((rdir / f'{target}.md').exists() or list(rdir.glob(f'*_{target}.md'))):
                     found = True; break
@@ -274,7 +274,7 @@ def validate_source(filepath, fm, raw_fm, content):
         if isinstance(orig, str) and orig.startswith('[['):
             target = orig[2:-2].strip()
             found = False
-            for d in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos']:
+            for d in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos', 'tools']:
                 rdir = KB / 'raw' / d
                 if rdir.exists():
                     if (rdir / f'{target}.md').exists() or list(rdir.glob(f'*_{target}.md')):
@@ -346,7 +346,7 @@ def validate_source(filepath, fm, raw_fm, content):
             if (KB / d / f'{target}.md').exists():
                 found = True; break
         if not found:
-            for rd in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos']:
+            for rd in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos', 'tools']:
                 rdir = KB / 'raw' / rd
                 if rdir.exists() and ((rdir / f'{target}.md').exists() or list(rdir.glob(f'*_{target}.md'))):
                     found = True; break
@@ -449,7 +449,7 @@ def validate_index_l2(filepath, fm, content):
     if fm.get('level') != 2:
         issues.append(('ERROR', 'Frontmatter', rel, f'level should be 2, got {fm.get("level")}'))
     
-    valid_scopes = ['articles', 'posts', 'websites', 'videos', 'papers', 'repos', 'tags']
+    valid_scopes = ['articles', 'posts', 'websites', 'videos', 'papers', 'repos', 'tools', 'tags']
     if fm.get('scope') not in valid_scopes:
         issues.append(('ERROR', 'Frontmatter', rel, f'scope should be one of {valid_scopes}, got "{fm.get("scope")}"'))
     
@@ -561,7 +561,7 @@ def main():
         if p.exists():
             files_to_check.append(p)
     
-    for rd in ['articles', 'posts', 'websites', 'videos', 'papers', 'repos']:
+    for rd in ['articles', 'posts', 'websites', 'videos', 'papers', 'repos', 'tools']:
         idx = KB / 'raw' / rd / f'{rd}.md'
         if idx.exists():
             files_to_check.append(idx)

@@ -121,3 +121,23 @@ All 10 reports moved to `wiki/reviews/archive/2026-07/`:
 - **Concepts:** 466 (all with ## Sources)
 - **Clean streak:** Restored (0 ERRORs)
 
+
+---
+
+## 2026-07-25 16:27 — Ingest: Monid AI Agent Tool Platform
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Ingested website https://monid.ai/  
+**File:** `raw/websites/2026-07-25_monid-ai-agent-tool-platform.md`
+
+### Content Summary
+Monid là platform cho phép AI agents kết nối với 1300+ tools khác nhau thông qua một balance chung, với mô hình pay-per-call thay vì subscription. Hỗ trợ các tools như Semrush, Apollo, ElevenLabs, Exa, các scraping tools cho social media (X, LinkedIn, TikTok, etc.), và nhiều hơn nữa.
+
+### Key Features
+- 1300+ tools across 13+ providers
+- Pay per call ($0.0013 per call)
+- One balance for all tools
+- No sign-up required for agent usage
+- Discovery API: monid.discover()
+- Run API: monid.run()
+

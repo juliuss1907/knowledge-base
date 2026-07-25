@@ -141,3 +141,63 @@ Monid là platform cho phép AI agents kết nối với 1300+ tools khác nhau 
 - Discovery API: monid.discover()
 - Run API: monid.run()
 
+
+---
+
+## 2026-07-25 16:29 — Ingest: Introducing BackSearch (GR.inc)
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Ingested article https://www.gr.inc/releases/introducing-backsearch  
+**File:** `raw/articles/2026-07-25_introducing-backsearch-gr-inc.md`
+
+### Content Summary
+BackSearch là API cho phép AI agents search và fetch web content tại một thởii điểm cụ thể trong quá khứ (point-in-time web search). Giải quyết vấn đề "backtesting" cho agents — tương tự như backtesting trong quantitative finance nhưng áp dụng cho web content.
+
+### Key Features
+- Search và fetch web content as_of một ngày cụ thể
+- Trả về chỉ documents được crawl on or before as_of date
+- Corpus "frozen" — same query + same as_of = same results forever
+- News domains only (preview): December 2025 to July 2026
+- Pricing: $10 per 1,000 searches, $2 per 1,000 fetches
+- API endpoint: https://search.openreward.ai
+
+### Use Cases
+- **Forecasting:** Score models on questions with known answers, evidence pinned before resolution
+- **Quant Finance:** Backtest research-and-trade loops with historical news
+- **RL Environments:** Stable, replayable web for agentic RL training
+
+### Integration
+- Available through OpenReward environments
+- Python SDK: Backsearch và Backfetch classes
+- Authentication: OpenReward API key (x-api-key header)
+
+
+---
+
+## 2026-07-25 16:30 — Moved: Monid from websites/ to tools/
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Moved file from raw/websites/ to raw/tools/  
+**Reason:** Monid is a tool platform, not a general website
+
+### Changes
+- **From:** raw/websites/2026-07-25_monid-ai-agent-tool-platform.md
+- **To:** raw/tools/2026-07-25_monid-ai-agent-tool-platform.md
+- **Updated:** raw/websites/websites.md (removed item, stats -1)
+- **Updated:** raw/tools/tools.md (added item, stats +1)
+
+
+---
+
+## 2026-07-25 16:33 — Moved: BackSearch from articles/ to tools/
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Moved file from raw/articles/ to raw/tools/  
+**Reason:** BackSearch is a tool/API platform, not a general article
+
+### Changes
+- **From:** raw/articles/2026-07-25_introducing-backsearch-gr-inc.md
+- **To:** raw/tools/2026-07-25_introducing-backsearch-gr-inc.md
+- **Updated:** raw/articles/articles.md (removed item, stats -1)
+- **Updated:** raw/tools/tools.md (added item, stats +1)
+

@@ -20,6 +20,7 @@ Ingested source material before compilation. Files đến từ external sources 
 - [[videos]] — Video content (YouTube, podcasts)
 - [[papers]] — Academic papers, research
 - [[repos]] — GitHub repositories, code projects
+- [[tools]] — Công cụ, phần mềm, quy trình
 
 ## Notes
 

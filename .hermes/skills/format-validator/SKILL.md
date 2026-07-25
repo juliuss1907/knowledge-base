@@ -444,7 +444,18 @@ This prevents stale pending counts and ensures delta tracking uses the correct b
 - `## Escalations` section (even if empty)
 - `Δ from` in the context block (Greek Delta symbol U+0394 followed by space and `from`)
 
+**Required tables:**
+- **`Files checked |` table** — the report must contain a markdown table with `Files checked` as a column header. The script checks for the literal substring `'Files checked |'`. The table should appear in the report body (after the frontmatter and delta block), typically showing the file breakdown by category. Example:
+  ```markdown
+  | Files checked | Concepts | Sources | Indexes | Topics |
+  |---|---|---|---|---|
+  | 829 | 466 | 153 | 34 | 176 |
+  ```
+  Without this table, verify_integrity.py fails with: `REPORT: Files checked table — missing 'Files checked |'`.
+
 **Observed case (2026-07-17):** 4 iterations of reformatting were needed to satisfy verify_integrity.py. The space-before-colon pattern is non-obvious and easy to miss.
+
+**Observed case (2026-07-25):** verify_integrity.py failed on first run because the `Files checked |` table was omitted from the report. Adding the table resolved the check.
 
 ### verify_integrity.py cross-check regex handles mixed ERROR+WARNING reports
 
@@ -472,7 +483,7 @@ The `_action-required.md` cross-check in verify_integrity.py uses regex `(\d+)` 
 - Check is literal substring: `f"wiki/reviews/{today}_format-report.md" in ar`
 
 **Required markers:**
-- `✅ APPROVED` must appear somewhere in the file (check is: `'✅ APPROVED' in ar`)
+- `✅ APPROVED` must appear somewhere in the file (check is: `'✅ APPROVED' in ar`). **Even when all previous reports show `✅ APPLIED`**, this marker is still required — add it to the system status footer or a history note. E.g.: `Previous reports (07-21 through 07-24) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.`
 - `**Last updated:** YYYY-MM-DD` must be today's date
 
 **Observed failures (2026-07-20):** Wrong column order, missing path prefix, missing `✅ APPROVED` text — 3 iterations needed to satisfy all checks.

@@ -58,7 +58,7 @@ ROOT_FOLDERS = {
 CONTEXT_FILES = {"context.md", "USER.md"}
 
 # ── raw/ subfolders ──
-RAW_SUBFOLDERS = {"articles", "posts", "websites", "videos", "papers", "repos"}
+RAW_SUBFOLDERS = {"articles", "posts", "websites", "videos", "papers", "repos", "tools"}
 RAW_INDEX_FILES = {f"{t}.md" for t in RAW_SUBFOLDERS} | {"raw.md"}
 
 # ── wiki/ subfolders ──

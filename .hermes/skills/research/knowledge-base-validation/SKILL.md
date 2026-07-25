@@ -470,7 +470,7 @@ Fix Agent failure modes observed (2026-06-01):
 - `wiki/sources/*.md` — source files (type: source)
 - `wiki/tag/*.md` — tag index files (type: index, level: 3)
 - `wiki/wiki.md`, `raw/raw.md`, `context/context.md` — root indexes (type: index, level: 1)
-- `raw/articles/articles.md`, `raw/posts/posts.md`, `raw/videos/videos.md`, `raw/papers/papers.md`, `raw/repos/repos.md`, `raw/websites/websites.md` — sub indexes (type: index, level: 2)
+- `raw/articles/articles.md`, `raw/posts/posts.md`, `raw/videos/videos.md`, `raw/papers/papers.md`, `raw/repos/repos.md`, `raw/websites/websites.md`, `raw/tools/tools.md` — sub indexes (type: index, level: 2)
 - `wiki/tag/tag.md` — tag sub-index (type: index, level: 2)
 
 **What NOT to scan (out of scope for format-spec.md):**

@@ -392,6 +392,7 @@ Action: If intentional, update folder-structure.md
 
 For complete validation algorithm, folder rules, and error handling, see:
 - [references/scan-script.py](references/scan-script.py) — production scan script with full KB classifiers (root, context, raw/all-types, wiki/all-zones, agent homes)
+- [references/raw-subindex-conventions.md](references/raw-subindex-conventions.md) — how to add a new raw/ sub-index correctly (folder, index file, frontmatter, parent update, scan-script update)
 - [references/common-patterns.md](references/common-patterns.md) — recurring non-compliant patterns and their resolutions
 - [scripts/verify.py](scripts/verify.py) — post-run verification of report, action file, and scan reproducibility
 - [workflow.md](workflow.md) — step-by-step validation process

@@ -6,7 +6,11 @@
 # Reusable across sessions. Satisfies the hermes-verify- gate.
 # NO set -e (avoid ((var++)) exit-on-zero pitfall).
 
-cd "$(dirname "$0")/../../.." || exit 1  # cd to knowledge-base root
+# Resolve to absolute knowledge-base root regardless of how script is invoked.
+# Script lives at: .hermes/skills/research/knowledge-base-validation/scripts/verify-approval-batch.sh
+# So we need 5 levels up from scripts/ to reach the root.
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$SCRIPT_DIR/../../../../.." || exit 1  # cd to knowledge-base root
 
 pass=0
 fail=0

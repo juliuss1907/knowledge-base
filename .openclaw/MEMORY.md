@@ -1,5 +1,28 @@
 ---
 
+## 2026-07-25 23:30 — Heartbeat Check
+
+**Check ID:** 3e70fe54-de76-4781-9342-c1ab2a73ebd4
+
+### Status
+✅ HEARTBEAT_OK
+
+### Results
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox | ✓ Clean | 0 items #agent/inbox |
+| Raw backlog | ✓ Clean | 0 files >24h unprocessed |
+| Unprocessed | ✓ OK | 2 files từ hôm nay (chờ compile 08:00 mai) |
+| Concepts | ✓ Healthy | 466 files — stable |
+| Pending reviews | ⚠️ Notice | 1 report (07-25 Format), 0 ERRORs |
+
+### Stats
+- Raw total: 163 files (+1 since 23:00)
+- Wiki total: 985 files
+- No urgent issues
+
+---
+
 ## 2026-07-23 21:00 — Indexed
 
 **Batch:** KB Index Daily (cron:5de7b598-808b-4182-abfb-6bdeed920af4)

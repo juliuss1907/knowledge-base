@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-25 23:15
+**Last updated:** 2026-07-25 23:30
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 07-25 | Format | 336 (0E+336W) | Review [wiki/reviews/2026-07-25_format-report.md](2026-07-25_format-report.md) |
+| 🔍 PENDING | 07-25 | Format | 336 (0E+336W) | Review [wiki/reviews/2026-07-25_format-report.md](2026-07-25_format-report.md)
+| 🔍 PENDING | 07-25 | Hygiene | 3 (1E+2W) | Review [wiki/reviews/2026-07-25_hygiene-report.md](2026-07-25_hygiene-report.md) |
 | ✅ APPLIED | 07-24 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-23 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-22 | Format | 318W | Applied by Fix Agent 2026-07-25 |
@@ -42,6 +43,17 @@
 - All WARNINGs are broken wikilinks (forward-references); resolution depends on Compile Agent backlog
 - 2 false-positive WARNINGs (`original` field raw-subdir resolution) — known validator limitation
 - [ ] Julius: approve or reject → `approve format` or `reject format`
+
+---
+
+### 🔍 Hygiene Inspection — 2026-07-25
+
+**Summary:** 1 ERROR + 2 WARNINGs. ERROR is the recurring `memory/` root folder (7th flag — process-level fix needed: OpenClaw writes memory logs to `memory/` instead of `.openclaw/memory/`). 1 WARNING for orphan file inside `memory/`, 1 WARNING for draft naming (`src_` prefix in drafts).
+
+**Actions:**
+- [ ] ERROR — Move `memory/2026-07-25.md` to `.openclaw/memory/`, then `rmdir memory/`. Fix OpenClaw output path targeting root `memory/` instead of `.openclaw/memory/`.
+- [ ] WARNING — Rename `wiki/drafts/src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` → drop `src_` prefix, convert underscores to hyphens.
+- [ ] Julius: approve or reject → `approve hygiene` or `reject hygiene`
 
 ---
 
@@ -73,4 +85,4 @@ All reports from 07-21 through 07-24 have been applied. See archive at `wiki/rev
 
 ---
 
-*System status: 1 report pending review (07-25 Format). Previous reports (07-21 through 07-24) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*
+*System status: 2 reports pending review (07-25 Format, 07-25 Hygiene). Previous reports (07-21 through 07-24) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*

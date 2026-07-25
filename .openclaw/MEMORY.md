@@ -201,3 +201,12 @@ BackSearch là API cho phép AI agents search và fetch web content tại một 
 - **Updated:** raw/articles/articles.md (removed item, stats -1)
 - **Updated:** raw/tools/tools.md (added item, stats +1)
 
+
+## 2026-07-25 21:02:20 — Indexed
+
+- **Scanned:** 466 concepts + 153 sources = 619 total files
+- **Tags indexed:** 23 (7 main-tags + 16 sub-tags)
+- **Topics indexed:** 176
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped

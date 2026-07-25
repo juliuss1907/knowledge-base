@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: leader-leader-leadership
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-25
 ---
 
 # Topic: leader-leader-leadership
 
 Auto-generated index of all content with topic `leader-leader-leadership`.
 
-Last updated: 2026-07-12 21:04:44
+Last updated: 2026-07-25 21:02:20
 
 ---
 

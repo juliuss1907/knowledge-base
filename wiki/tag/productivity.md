@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-07-23
+last_updated: 2026-07-25
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-07-23
 
 ## Stats
 
-- Total files: 269
+- Total files: 263
 - Sources: 75
-- Concepts: 194
-- Last updated: 2026-07-23
+- Concepts: 188
+- Last updated: 2026-07-25
 
 ## Files with this tag
 
@@ -41,6 +41,7 @@ last_updated: 2026-07-23
 - [[causal-reasoning]] — Causal Reasoning (concept)
 - [[challenge-skills-balance]] — Challenge Skills Balance (concept)
 - [[chauffeur-knowledge]] — Chauffeur Knowledge (concept)
+- [[cheap-dopamine]] — Cheap Dopamine (concept)
 - [[circadian-rhythm]] — Circadian Rhythm (concept)
 - [[circle-of-competence]] — Circle Of Competence (concept)
 - [[clear-goals]] — Clear Goals (concept)
@@ -50,11 +51,13 @@ last_updated: 2026-07-23
 - [[comprehensible-input]] — Comprehensible Input (concept)
 - [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept)
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
+- [[content-repurposing-system]] — Content Repurposing System (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
+- [[costly-signal]] — Costly Signal (concept)
+- [[cultural-memetics]] — Cultural Memetics (concept)
 - [[decoding-messages-language]] — Decoding Messages Language (concept)
 - [[deliberate-practice]] — Deliberate Practice (concept)
-- [[goal-announcement-trap]] — Goal Announcement Trap (concept)
-- [[intrinsic-motivation]] — Intrinsic Motivation (concept)
+- [[delusional-optimism]] — Delusional Optimism (concept)
 - [[diminishing-returns-mental-model]] — Diminishing Returns Mental Model (concept)
 - [[discipline-as-freedom]] — Discipline As Freedom (concept)
 - [[discipline-system]] — Discipline System (concept)
@@ -62,6 +65,7 @@ last_updated: 2026-07-23
 - [[dopamine-wanting-vs-liking]] — Dopamine Wanting Vs Liking (concept)
 - [[dunbar-number]] — Dunbar Number (concept)
 - [[ecosystems-mental-model]] — Ecosystems Mental Model (concept)
+- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
 - [[embodied-knowledge]] — Embodied Knowledge (concept)
 - [[entropy]] — Entropy (concept)
 - [[environment-baseline]] — Environment Baseline (concept)
@@ -80,9 +84,11 @@ last_updated: 2026-07-23
 - [[flow-cycle]] — Flow Cycle (concept)
 - [[fluency-illusion]] — Fluency Illusion (concept)
 - [[focus]] — Focus (concept)
+- [[forced-linearity-writing]] — Forced Linearity Writing (concept)
 - [[framing-mental-model]] — Framing Mental Model (concept)
 - [[galilean-relativity]] — Galilean Relativity (concept)
 - [[glymphatic-system]] — Glymphatic System (concept)
+- [[goal-announcement-trap]] — Goal Announcement Trap (concept)
 - [[google-project-oxygen]] — Google Project Oxygen (concept)
 - [[growth-and-relationships]] — Growth And Relationships (concept)
 - [[habit-automation]] — Habit Automation (concept)
@@ -103,16 +109,20 @@ last_updated: 2026-07-23
 - [[intent-driven-leadership]] — Intent Driven Leadership (concept)
 - [[internal-alignment]] — Internal Alignment (concept)
 - [[internal-foundation-identity]] — Internal Foundation Identity (concept)
+- [[internal-locus-of-control]] — Internal Locus Of Control (concept)
 - [[intrinsic-motivation]] — Intrinsic Motivation (concept)
 - [[inversion]] — Inversion (concept)
 - [[job-scoring-framework]] — Job Scoring Framework (concept)
 - [[job-worth-doing]] — Job Worth Doing (concept)
 - [[label-cognitive-shortcut]] — Label Cognitive Shortcut (concept)
 - [[last-mile-execution]] — Last Mile Execution (concept)
+- [[law-of-assumption]] — Law Of Assumption (concept)
 - [[laws-of-the-world]] — Laws Of The World (concept)
 - [[lazy-thinking]] — Lazy Thinking (concept)
 - [[leader-leader-model]] — Leader Leader Model (concept)
 - [[leading-indicators]] — Leading Indicators (concept)
+- [[learned-helplessness]] — Learned Helplessness (concept)
+- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
 - [[levels-of-awareness]] — Levels Of Awareness (concept)
 - [[leverage]] — Leverage (concept)
 - [[leverage-points]] — Leverage Points (concept)
@@ -135,6 +145,7 @@ last_updated: 2026-07-23
 - [[newtons-third-law]] — Newtons Third Law (concept)
 - [[nice-syndrome]] — Nice Syndrome (concept)
 - [[non-commodity-content]] — Non Commodity Content (concept)
+- [[note-taking-systems]] — Note Taking Systems (concept)
 - [[occams-broom]] — Occams Broom (concept)
 - [[occams-razor]] — Occams Razor (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
@@ -159,6 +170,8 @@ last_updated: 2026-07-23
 - [[problem-selection]] — Problem Selection (concept)
 - [[problem-statement-redesign]] — Problem Statement Redesign (concept)
 - [[productive-discomfort]] — Productive Discomfort (concept)
+- [[protoge-effect]] — Protoge Effect (concept)
+- [[psycho-cybernetics]] — Psycho Cybernetics (concept)
 - [[psychological-survival]] — Psychological Survival (concept)
 - [[real-options-theory]] — Real Options Theory (concept)
 - [[reciprocity]] — Reciprocity (concept)
@@ -206,6 +219,7 @@ last_updated: 2026-07-23
 - [[src_how-to-live-without-options]] — How To Live Without Options (source)
 - [[src_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone At Any Time (source)
 - [[src_hypergamy]] — Hypergamy (source)
+- [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
 - [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
 - [[src_inversion]] — Inversion (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
@@ -240,7 +254,9 @@ last_updated: 2026-07-23
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
 - [[src_tao-ket-qua-dinh-luong-duoc]] — Tao Ket Qua Dinh Luong Duoc (source)
 - [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
+- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source)
+- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiet Ke Quy Tac Bao Ve Su Chu Y (source)
 - [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
@@ -269,29 +285,12 @@ last_updated: 2026-07-23
 - [[thermodynamics]] — Thermodynamics (concept)
 - [[third-order-thinking]] — Third Order Thinking (concept)
 - [[thought-experiment]] — Thought Experiment (concept)
-- [[tokenmaxxing]] — Tokenmaxxing (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
-- [[cheap-dopamine]] — Cheap Dopamine (concept)
-- [[content-repurposing-system]] — Content Repurposing System (concept)
-- [[delusional-optimism]] — Delusional Optimism (concept)
-- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
-- [[forced-linearity-writing]] — Forced Linearity Writing (concept)
-- [[internal-locus-of-control]] — Internal Locus Of Control (concept)
-- [[law-of-assumption]] — Law Of Assumption (concept)
-- [[learned-helplessness]] — Learned Helplessness (concept)
-- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
-- [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
-- [[note-taking-systems]] — Note Taking Systems (concept)
-- [[protoge-effect]] — Protoge Effect (concept)
-- [[psycho-cybernetics]] — Psycho Cybernetics (concept)
-- [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
-- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
-- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 
 ## Co-occurring tags
 
-- [[psychology]] — 174 co-occurrences
-- [[opinion]] — 103 co-occurrences
-- [[research]] — 86 co-occurrences
-- [[tutorial]] — 28 co-occurrences
+- [[psychology]] — 180 co-occurrences
+- [[opinion]] — 105 co-occurrences
+- [[research]] — 85 co-occurrences
+- [[tutorial]] — 33 co-occurrences
 - [[automation]] — 21 co-occurrences

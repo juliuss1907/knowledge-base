@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: economic
 auto_generated: true
-last_updated: 2026-07-21
+last_updated: 2026-07-25
 ---
 
 # Tag: #economic
@@ -19,7 +19,7 @@ last_updated: 2026-07-21
 - Total files: 82
 - Sources: 17
 - Concepts: 65
-- Last updated: 2026-07-21
+- Last updated: 2026-07-25
 
 ## Files with this tag
 
@@ -57,6 +57,7 @@ last_updated: 2026-07-21
 - [[margin-of-safety]] — Margin Of Safety (concept)
 - [[market-structure-blueprint]] — Market Structure Blueprint (concept)
 - [[narrative-certainty-trap]] — Narrative Certainty Trap (concept)
+- [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
 - [[operating-cash-flow]] — Operating Cash Flow (concept)
 - [[opportunity-cost]] — Opportunity Cost (concept)
@@ -104,12 +105,11 @@ last_updated: 2026-07-21
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
-- [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
 
 ## Co-occurring tags
 
-- [[research]] — 40 co-occurrences
-- [[opinion]] — 38 co-occurrences
+- [[research]] — 42 co-occurrences
+- [[opinion]] — 39 co-occurrences
+- [[tools]] — 19 co-occurrences
 - [[psychology]] — 19 co-occurrences
-- [[tools]] — 18 co-occurrences
 - [[tutorial]] — 16 co-occurrences

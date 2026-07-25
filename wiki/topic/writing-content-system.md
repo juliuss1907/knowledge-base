@@ -1,15 +1,17 @@
 ---
-type: topic
+type: index
+scope: topic
+parent: "[[topic]]"
 topic: writing-content-system
 auto_generated: true
-last_updated: 2026-07-21
+last_updated: 2026-07-25
 ---
 
 # Topic: writing-content-system
 
 Auto-generated index of all content with topic `writing-content-system`.
 
-Last updated: 2026-07-21 21:00:00
+Last updated: 2026-07-25 21:02:20
 
 ---
 

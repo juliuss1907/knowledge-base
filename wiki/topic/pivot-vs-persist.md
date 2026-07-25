@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: pivot-vs-persist
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-25
 ---
 
 # Topic: pivot-vs-persist
 
 Auto-generated index of all content with topic `pivot-vs-persist`.
 
-Last updated: 2026-07-12 21:04:44
+Last updated: 2026-07-25 21:02:20
 
 ---
 

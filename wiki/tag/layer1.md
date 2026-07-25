@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: layer1
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-25
 ---
 
 # Tag: #layer1
@@ -19,7 +19,7 @@ last_updated: 2026-07-12
 - Total files: 4
 - Sources: 1
 - Concepts: 3
-- Last updated: 2026-07-12
+- Last updated: 2026-07-25
 
 ## Files with this tag
 
@@ -30,6 +30,6 @@ last_updated: 2026-07-12
 
 ## Co-occurring tags
 
-- [[opinion]] — 3 co-occurrences
 - [[ai]] — 3 co-occurrences
+- [[opinion]] — 3 co-occurrences
 - [[economic]] — 2 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-07-21
+last_updated: 2026-07-25
 ---
 
 # Tag: #automation
@@ -16,10 +16,10 @@ last_updated: 2026-07-21
 
 ## Stats
 
-- Total files: 87
+- Total files: 85
 - Sources: 18
-- Concepts: 69
-- Last updated: 2026-07-21
+- Concepts: 67
+- Last updated: 2026-07-25
 
 ## Files with this tag
 
@@ -28,7 +28,6 @@ last_updated: 2026-07-21
 - [[agent-harness]] — Agent Harness (concept)
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
-- [[agentic-commerce]] — Agentic Commerce (concept)
 - [[ai-coach-prompting]] — Ai Coach Prompting (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
@@ -45,6 +44,7 @@ last_updated: 2026-07-21
 - [[comprehension-debt]] — Comprehension Debt (concept)
 - [[consolidation-offline-processing]] — Consolidation Offline Processing (concept)
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
+- [[content-repurposing-system]] — Content Repurposing System (concept)
 - [[context-window-management]] — Context Window Management (concept)
 - [[conversational-website]] — Conversational Website (concept)
 - [[cross-agent-workflow]] — Cross Agent Workflow (concept)
@@ -103,18 +103,16 @@ last_updated: 2026-07-21
 - [[success-trap]] — Success Trap (concept)
 - [[systematic-trading]] — Systematic Trading (concept)
 - [[taste-holders]] — Taste Holders (concept)
-- [[tokenmaxxing]] — Tokenmaxxing (concept)
 - [[validation-contract]] — Validation Contract (concept)
 - [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
 - [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
 - [[x-search-tool]] — X Search Tool (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
-- [[content-repurposing-system]] — Content Repurposing System (concept)
 
 ## Co-occurring tags
 
-- [[ai]] — 56 co-occurrences
+- [[ai]] — 55 co-occurrences
 - [[tools]] — 54 co-occurrences
 - [[productivity]] — 21 co-occurrences
 - [[tutorial]] — 16 co-occurrences
-- [[psychology]] — 14 co-occurrences
+- [[psychology]] — 13 co-occurrences

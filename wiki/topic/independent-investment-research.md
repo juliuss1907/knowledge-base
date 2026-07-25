@@ -4,18 +4,18 @@ scope: topic
 parent: "[[topic]]"
 topic: independent-investment-research
 auto_generated: true
-last_updated: 2026-07-13
+last_updated: 2026-07-25
 ---
 
 # Topic: independent-investment-research
 
 Auto-generated index of all content with topic `independent-investment-research`.
 
-Last updated: 2026-07-13 21:00:00
+Last updated: 2026-07-25 21:02:20
 
 ---
 
-## Concepts (3)
+## Concepts (2)
 
 - [[investment-conviction]] — main: #investment, sub: [#psychology, #opinion]
 - [[outsourced-thinking]] — main: #investment, sub: [#psychology, #opinion]
@@ -23,8 +23,3 @@ Last updated: 2026-07-13 21:00:00
 ## Sources (1)
 
 - [[src_an-all-too-common-investment-story]] — main: #investment, sub: [#opinion, #psychology]
-
-## Related topics
-
-Topics that share concepts/sources with `independent-investment-research`:
-- `art-of-being-overlooked` (1 shared files)

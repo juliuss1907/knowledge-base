@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-latticework
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-25
 ---
 
 # Topic: mental-models-latticework
 
 Auto-generated index of all content with topic `mental-models-latticework`.
 
-Last updated: 2026-07-12 21:04:44
+Last updated: 2026-07-25 21:02:20
 
 ---
 

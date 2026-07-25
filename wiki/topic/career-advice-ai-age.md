@@ -4,24 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: career-advice-ai-age
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-25
 ---
 
 # Topic: career-advice-ai-age
 
 Auto-generated index of all content with topic `career-advice-ai-age`.
 
-Last updated: 2026-07-12 21:04:44
+Last updated: 2026-07-25 21:02:20
 
 ---
 
-## Concepts (5)
+## Concepts (4)
 
 - [[human-premium]] — main: #productivity, sub: [#opinion, #psychology, #automation]
 - [[last-mile-execution]] — main: #productivity, sub: [#ai, #opinion]
 - [[out-of-distribution-experience]] — main: #productivity, sub: [#opinion, #psychology, #automation]
 - [[problem-selection]] — main: #productivity, sub: [#ai, #opinion]
-- [[tokenmaxxing]] — main: #productivity, sub: [#opinion, #psychology, #automation]
 
 ## Sources (2)
 

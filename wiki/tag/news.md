@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: news
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-25
 ---
 
 # Tag: #news
@@ -16,10 +16,10 @@ last_updated: 2026-07-12
 
 ## Stats
 
-- Total files: 11
+- Total files: 12
 - Sources: 4
-- Concepts: 7
-- Last updated: 2026-07-12
+- Concepts: 8
+- Last updated: 2026-07-25
 
 ## Files with this tag
 
@@ -34,11 +34,12 @@ last_updated: 2026-07-12
 - [[src_nha-bao-lam-gi]] — Nha Bao Lam Gi (source)
 - [[src_the-new-comms-playbook-show-dont]] — The New Comms Playbook Show Dont (source)
 - [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)
+- [[tokenmaxxing]] — Tokenmaxxing (concept)
 
 ## Co-occurring tags
 
-- [[opinion]] — 6 co-occurrences
-- [[ai]] — 4 co-occurrences
-- [[tools]] — 3 co-occurrences
+- [[opinion]] — 7 co-occurrences
+- [[ai]] — 5 co-occurrences
 - [[tech]] — 3 co-occurrences
-- [[economic]] — 2 co-occurrences
+- [[tools]] — 3 co-occurrences
+- [[hack]] — 2 co-occurrences

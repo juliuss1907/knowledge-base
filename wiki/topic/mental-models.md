@@ -4,18 +4,18 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models
 auto_generated: true
-last_updated: 2026-07-23
+last_updated: 2026-07-25
 ---
 
 # Topic: mental-models
 
 Auto-generated index of all content with topic `mental-models`.
 
-Last updated: 2026-07-23 21:00:00
+Last updated: 2026-07-25 21:02:20
 
 ---
 
-## Concepts (15)
+## Concepts (14)
 
 - [[circle-of-competence]] — main: #productivity, sub: [#psychology]
 - [[entropy]] — main: #productivity, sub: [#psychology, #research]
@@ -47,8 +47,3 @@ Last updated: 2026-07-23 21:00:00
 - [[src_second-order-thinking]] — main: #productivity, sub: [#psychology]
 - [[src_thermodynamics]] — main: #productivity, sub: [#psychology, #research]
 - [[src_thought-experiment]] — main: #productivity, sub: [#psychology]
-
-## Related topics
-
-Topics that share concepts/sources with `mental-models`:
-- `iatrogenics-naive-interventionism` (1 shared files)

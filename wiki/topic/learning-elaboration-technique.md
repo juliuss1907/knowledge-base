@@ -1,15 +1,17 @@
 ---
-type: topic
+type: index
+scope: topic
+parent: "[[topic]]"
 topic: learning-elaboration-technique
 auto_generated: true
-last_updated: 2026-07-21
+last_updated: 2026-07-25
 ---
 
 # Topic: learning-elaboration-technique
 
 Auto-generated index of all content with topic `learning-elaboration-technique`.
 
-Last updated: 2026-07-21 21:00:00
+Last updated: 2026-07-25 21:02:20
 
 ---
 

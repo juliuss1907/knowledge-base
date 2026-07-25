@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: health
 auto_generated: true
-last_updated: 2026-07-23
+last_updated: 2026-07-25
 ---
 
 # Tag: #health
@@ -16,10 +16,10 @@ last_updated: 2026-07-23
 
 ## Stats
 
-- Total files: 39
-- Sources: 7
-- Concepts: 32
-- Last updated: 2026-07-23
+- Total files: 37
+- Sources: 8
+- Concepts: 29
+- Last updated: 2026-07-25
 
 ## Files with this tag
 
@@ -31,7 +31,7 @@ last_updated: 2026-07-23
 - [[comparison-trap]] — Comparison Trap (concept)
 - [[compound-exercises]] — Compound Exercises (concept)
 - [[default-mode-network]] — Default Mode Network (concept)
-- [[destination-vs-vehicle]] — Destination vs Vehicle (concept)
+- [[destination-vs-vehicle]] — Destination Vs Vehicle (concept)
 - [[dopamine-prediction-gap]] — Dopamine Prediction Gap (concept)
 - [[emotional-inheritance]] — Emotional Inheritance (concept)
 - [[enough]] — Enough (concept)
@@ -54,17 +54,17 @@ last_updated: 2026-07-23
 - [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source)
 - [[src_compound-exercises-pareto-workouts]] — Compound Exercises Pareto Workouts (source)
 - [[src_get-in-shape-r3-notes]] — Get In Shape R3 Notes (source)
-- [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness is a Skill Hussain Ibarra (source)
+- [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness Is A Skill Hussain Ibarra (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
 - [[src_never-enough-ronacher]] — Never Enough Ronacher (source)
 - [[src_our-first-heartbreaks-were-our-parents]] — Our First Heartbreaks Were Our Parents (source)
-- [[src_the-5-laws-of-people-who-never-chase]] — The 5 Laws Of People Who Never Chase Gabriel Reality (source)
+- [[src_the-5-laws-of-people-who-never-chase]] — The 5 Laws Of People Who Never Chase (source)
 - [[work-life-balance]] — Work Life Balance (concept)
 
 ## Co-occurring tags
 
-- [[psychology]] — 19 co-occurrences
-- [[opinion]] — 11 co-occurrences
+- [[psychology]] — 27 co-occurrences
+- [[opinion]] — 8 co-occurrences
 - [[research]] — 7 co-occurrences
+- [[tutorial]] — 7 co-occurrences
 - [[productivity]] — 7 co-occurrences
-- [[ai]] — 1 co-occurrence

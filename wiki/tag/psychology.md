@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-07-23
+last_updated: 2026-07-25
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-07-23
 
 ## Stats
 
-- Total files: 260
+- Total files: 254
 - Sources: 69
-- Concepts: 191
-- Last updated: 2026-07-23
+- Concepts: 185
+- Last updated: 2026-07-25
 
 ## Files with this tag
 
@@ -35,6 +35,7 @@ last_updated: 2026-07-23
 - [[causal-reasoning]] — Causal Reasoning (concept)
 - [[challenge-skills-balance]] — Challenge Skills Balance (concept)
 - [[chauffeur-knowledge]] — Chauffeur Knowledge (concept)
+- [[cheap-dopamine]] — Cheap Dopamine (concept)
 - [[childhood-abandonment-patterns]] — Childhood Abandonment Patterns (concept)
 - [[circle-of-competence]] — Circle Of Competence (concept)
 - [[clear-goals]] — Clear Goals (concept)
@@ -54,7 +55,8 @@ last_updated: 2026-07-23
 - [[cultural-memetics]] — Cultural Memetics (concept)
 - [[decoding-messages-language]] — Decoding Messages Language (concept)
 - [[deliberate-practice]] — Deliberate Practice (concept)
-- [[destination-vs-vehicle]] — Destination vs Vehicle (concept)
+- [[delusional-optimism]] — Delusional Optimism (concept)
+- [[destination-vs-vehicle]] — Destination Vs Vehicle (concept)
 - [[discipline-as-freedom]] — Discipline As Freedom (concept)
 - [[discipline-system]] — Discipline System (concept)
 - [[dopamine-prediction-gap]] — Dopamine Prediction Gap (concept)
@@ -62,6 +64,7 @@ last_updated: 2026-07-23
 - [[dopamine-reward-network]] — Dopamine Reward Network (concept)
 - [[dopamine-wanting-vs-liking]] — Dopamine Wanting Vs Liking (concept)
 - [[dunbar-number]] — Dunbar Number (concept)
+- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
 - [[embodied-knowledge]] — Embodied Knowledge (concept)
 - [[emotional-inheritance]] — Emotional Inheritance (concept)
 - [[enough]] — Enough (concept)
@@ -78,15 +81,15 @@ last_updated: 2026-07-23
 - [[flow-cycle]] — Flow Cycle (concept)
 - [[flow-state]] — Flow State (concept)
 - [[fluency-illusion]] — Fluency Illusion (concept)
+- [[forced-linearity-writing]] — Forced Linearity Writing (concept)
 - [[framing-mental-model]] — Framing Mental Model (concept)
 - [[galilean-relativity]] — Galilean Relativity (concept)
 - [[gamification-design-patterns]] — Gamification Design Patterns (concept)
 - [[goal-announcement-trap]] — Goal Announcement Trap (concept)
 - [[growth-and-relationships]] — Growth And Relationships (concept)
-- [[hedonic-adaptation]] — Hedonic Adaptation (concept)
-- [[outsourced-thinking]] — Outsourced Thinking (concept)
 - [[habit-automation]] — Habit Automation (concept)
 - [[hanlons-razor]] — Hanlons Razor (concept)
+- [[hedonic-adaptation]] — Hedonic Adaptation (concept)
 - [[high-agency]] — High Agency (concept)
 - [[holistic-thinking]] — Holistic Thinking (concept)
 - [[human-premium]] — Human Premium (concept)
@@ -101,12 +104,17 @@ last_updated: 2026-07-23
 - [[interdisciplinary-thinking]] — Interdisciplinary Thinking (concept)
 - [[internal-alignment]] — Internal Alignment (concept)
 - [[internal-foundation-identity]] — Internal Foundation Identity (concept)
+- [[internal-locus-of-control]] — Internal Locus Of Control (concept)
 - [[intrinsic-motivation]] — Intrinsic Motivation (concept)
+- [[inversion]] — Inversion (concept)
 - [[investment-conviction]] — Investment Conviction (concept)
 - [[know-when-not-to-trade]] — Know When Not To Trade (concept)
 - [[label-cognitive-shortcut]] — Label Cognitive Shortcut (concept)
 - [[latticework-of-mental-models]] — Latticework Of Mental Models (concept)
+- [[law-of-assumption]] — Law Of Assumption (concept)
 - [[laws-of-the-world]] — Laws Of The World (concept)
+- [[learned-helplessness]] — Learned Helplessness (concept)
+- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
 - [[levels-of-awareness]] — Levels Of Awareness (concept)
 - [[leverage]] — Leverage (concept)
 - [[leverage-skills]] — Leverage Skills (concept)
@@ -133,9 +141,10 @@ last_updated: 2026-07-23
 - [[occams-razor]] — Occams Razor (concept)
 - [[olympiad-to-founder-pipeline]] — Olympiad To Founder Pipeline (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
-- [[outcome-independence]] — Outcome Independence (concept)
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
+- [[outcome-independence]] — Outcome Independence (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
+- [[outsourced-thinking]] — Outsourced Thinking (concept)
 - [[pareto-principle]] — Pareto Principle (concept)
 - [[passion-economy-trap]] — Passion Economy Trap (concept)
 - [[pattern-recognition]] — Pattern Recognition (concept)
@@ -153,8 +162,10 @@ last_updated: 2026-07-23
 - [[prisoners-dilemma]] — Prisoners Dilemma (concept)
 - [[probabilistic-thinking]] — Probabilistic Thinking (concept)
 - [[productive-discomfort]] — Productive Discomfort (concept)
+- [[protoge-effect]] — Protoge Effect (concept)
 - [[psychic-energy]] — Psychic Energy (concept)
 - [[psychic-entropy]] — Psychic Entropy (concept)
+- [[psycho-cybernetics]] — Psycho Cybernetics (concept)
 - [[psychological-survival]] — Psychological Survival (concept)
 - [[quant-finance-culture]] — Quant Finance Culture (concept)
 - [[r3-framework]] — R3 Framework (concept)
@@ -185,6 +196,7 @@ last_updated: 2026-07-23
 - [[src_3-tang-skill-dang-hoc]] — 3 Tang Skill Dang Hoc (source)
 - [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source)
 - [[src_activation-energy]] — Activation Energy (source)
+- [[src_an-all-too-common-investment-story]] — An All Too Common Investment Story (source)
 - [[src_bai-toan-dung-la-gi-va-cach-giai]] — Bai Toan Dung La Gi Va Cach Giai (source)
 - [[src_building-latticework-mental-models]] — Building Latticework Mental Models (source)
 - [[src_cach-thoat-khoi-prices-law]] — Cach Thoat Khoi Prices Law (source)
@@ -202,28 +214,74 @@ last_updated: 2026-07-23
 - [[src_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — Giai Thich Sau Phuong Phap Hoc Charlie Munger (source)
 - [[src_give-me-14-minutes-destroy-procrastination]] — Give Me 14 Minutes Destroy Procrastination (source)
 - [[src_hanlons-razor]] — Hanlons Razor (source)
-- [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness is a Skill Hussain Ibarra (source)
+- [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness Is A Skill Hussain Ibarra (source)
 - [[src_how-to-live-without-options]] — How To Live Without Options (source)
 - [[src_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone At Any Time (source)
 - [[src_hypergamy]] — Hypergamy (source)
 - [[src_iatrogenics-farnam-street]] — Iatrogenics Farnam Street (source)
+- [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
 - [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
 - [[src_inversion]] — Inversion (source)
 - [[src_learn-anything-like-charlie-munger]] — Learn Anything Like Charlie Munger (source)
 - [[src_leverage]] — Leverage (source)
 - [[src_life-is-a-mind-game-heres-how-you]] — Life Is A Mind Game Heres How You (source)
+- [[src_live-disciplined-life-spontaneously]] — Live Disciplined Life Spontaneously (source)
+- [[src_living-beyond-the-labels]] — Living Beyond The Labels (source)
 - [[src_map-is-not-territory]] — Map Is Not Territory (source)
 - [[src_markus-four-thinking-types]] — Markus Four Thinking Types (source)
 - [[src_mathematical-reason-most-people-never-make-it]] — Mathematical Reason Most People Never Make It (source)
 - [[src_mental-models-of-art]] — Mental Models Of Art (source)
-- [[src_never-enough-ronacher]] — Never Enough Ronacher (source)
-- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
 - [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
-- [[src_most-profitable-skill-human-nature-dan-koe]] — Most Profitable Skill Human Nature Dan Koe (
+- [[src_most-profitable-skill-human-nature-dan-koe]] — Most Profitable Skill Human Nature Dan Koe (source)
+- [[src_never-enough-ronacher]] — Never Enough Ronacher (source)
+- [[src_occams-razor]] — Occams Razor (source)
+- [[src_our-first-heartbreaks-were-our-parents]] — Our First Heartbreaks Were Our Parents (source)
+- [[src_personal-mba-generator-skill]] — Personal Mba Generator Skill (source)
+- [[src_pivot-vs-persist-framework]] — Pivot Vs Persist Framework (source)
+- [[src_play-long-term-games-with-long-term-people]] — Play Long Term Games With Long Term People (source)
+- [[src_probabilistic-thinking]] — Probabilistic Thinking (source)
+- [[src_reciprocity]] — Reciprocity (source)
+- [[src_second-order-thinking]] — Second Order Thinking (source)
+- [[src_split-the-ikigai]] — Split The Ikigai (source)
+- [[src_steve-jobs-stanford-2005-commencement]] — Steve Jobs Stanford 2005 Commencement (source)
+- [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
+- [[src_the-5-laws-of-people-who-never-chase]] — The 5 Laws Of People Who Never Chase (source)
+- [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
+- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
+- [[src_the-laws-of-this-world]] — The Laws Of This World (source)
+- [[src_thermodynamics]] — Thermodynamics (source)
+- [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiet Ke Quy Tac Bao Ve Su Chu Y (source)
+- [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
+- [[src_this-will-help-you-figure-out-what-you-want]] — This Will Help You Figure Out What You Want (source)
+- [[src_thought-experiment]] — Thought Experiment (source)
+- [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
+- [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
+- [[src_why-people-fail-at-learning-languages]] — Why People Fail At Learning Languages (source)
+- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
+- [[src_you-escape-competition-by-figuring-out-who-you-are]] — You Escape Competition By Figuring Out Who You Are (source)
+- [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source)
+- [[stay-hungry-stay-foolish]] — Stay Hungry Stay Foolish (concept)
+- [[streak-psychology]] — Streak Psychology (concept)
+- [[success-trap]] — Success Trap (concept)
+- [[synthetic-happiness]] — Synthetic Happiness (concept)
+- [[tacit-knowledge]] — Tacit Knowledge (concept)
+- [[talent-stack]] — Talent Stack (concept)
+- [[taste-judgment]] — Taste Judgment (concept)
+- [[thermodynamics]] — Thermodynamics (concept)
+- [[third-order-thinking]] — Third Order Thinking (concept)
+- [[thought-experiment]] — Thought Experiment (concept)
+- [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
+- [[trading-psychology]] — Trading Psychology (concept)
+- [[tragic-optimism]] — Tragic Optimism (concept)
+- [[ultimatum-game]] — Ultimatum Game (concept)
+- [[variable-reward-systems]] — Variable Reward Systems (concept)
+- [[work-life-balance]] — Work Life Balance (concept)
+- [[zero-sum-game]] — Zero Sum Game (concept)
 
 ## Co-occurring tags
 
-- [[health]] — 65 co-occurrences
-- [[productivity]] — 45 co-occurrences
-- [[decision-making]] — 38 co-occurrences
-- [[mental-models]] — 32 co-occurrences
+- [[productivity]] — 180 co-occurrences
+- [[opinion]] — 100 co-occurrences
+- [[research]] — 59 co-occurrences
+- [[health]] — 27 co-occurrences
+- [[system]] — 20 co-occurrences

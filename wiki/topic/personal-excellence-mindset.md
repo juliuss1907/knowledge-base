@@ -1,19 +1,21 @@
 ---
-type: topic
+type: index
+scope: topic
+parent: "[[topic]]"
 topic: personal-excellence-mindset
 auto_generated: true
-last_updated: 2026-07-21
+last_updated: 2026-07-25
 ---
 
 # Topic: personal-excellence-mindset
 
 Auto-generated index of all content with topic `personal-excellence-mindset`.
 
-Last updated: 2026-07-21 21:00:00
+Last updated: 2026-07-25 21:02:20
 
 ---
 
-## Concepts (6)
+## Concepts (5)
 
 - [[cheap-dopamine]] — main: #productivity, sub: [#psychology]
 - [[delusional-optimism]] — main: #productivity, sub: [#psychology, #opinion]

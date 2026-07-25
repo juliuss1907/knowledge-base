@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-07-21
+last_updated: 2026-07-25
 ---
 
 # Tag: #tutorial
@@ -19,7 +19,7 @@ last_updated: 2026-07-21
 - Total files: 77
 - Sources: 30
 - Concepts: 47
-- Last updated: 2026-07-21
+- Last updated: 2026-07-25
 
 ## Files with this tag
 
@@ -35,6 +35,7 @@ last_updated: 2026-07-21
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[coordinate-systems]] — Coordinate Systems (concept)
 - [[ebitda-trap]] — Ebitda Trap (concept)
+- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
 - [[evening-routine]] — Evening Routine (concept)
 - [[expert-knowledge-extraction]] — Expert Knowledge Extraction (concept)
 - [[extroversion-as-skill]] — Extroversion As Skill (concept)
@@ -46,6 +47,7 @@ last_updated: 2026-07-21
 - [[heater-rule]] — Heater Rule (concept)
 - [[hermes-three-layers]] — Hermes Three Layers (concept)
 - [[iceberg-model]] — Iceberg Model (concept)
+- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
 - [[lifestyle-inflation]] — Lifestyle Inflation (concept)
 - [[non-commodity-content]] — Non Commodity Content (concept)
 - [[operating-cash-flow]] — Operating Cash Flow (concept)
@@ -53,6 +55,7 @@ last_updated: 2026-07-21
 - [[paradox-of-effort]] — Paradox Of Effort (concept)
 - [[problem-statement-redesign]] — Problem Statement Redesign (concept)
 - [[progressive-overload]] — Progressive Overload (concept)
+- [[protoge-effect]] — Protoge Effect (concept)
 - [[scalar-multiplication]] — Scalar Multiplication (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
@@ -82,7 +85,9 @@ last_updated: 2026-07-21
 - [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source)
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source)
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — Tai Chinh Ca Nhan 9 Ban Co Ang Thuc (source)
+- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
+- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 - [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3b1b (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source)
@@ -95,16 +100,11 @@ last_updated: 2026-07-21
 - [[vector-addition]] — Vector Addition (concept)
 - [[vectors]] — Vectors (concept)
 - [[x-api-oauth2]] — X Api Oauth2 (concept)
-- [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
-- [[learning-through-retrieval]] — Learning Through Retrieval (concept)
-- [[protoge-effect]] — Protoge Effect (concept)
-- [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
-- [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 
 ## Co-occurring tags
 
-- [[productivity]] — 28 co-occurrences
-- [[tools]] — 24 co-occurrences
+- [[productivity]] — 33 co-occurrences
+- [[tools]] — 25 co-occurrences
 - [[ai]] — 23 co-occurrences
 - [[research]] — 20 co-occurrences
-- [[automation]] — 16 co-occurrences
+- [[economic]] — 16 co-occurrences

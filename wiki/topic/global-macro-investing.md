@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: global-macro-investing
 auto_generated: true
-last_updated: 2026-07-12
+last_updated: 2026-07-25
 ---
 
 # Topic: global-macro-investing
 
 Auto-generated index of all content with topic `global-macro-investing`.
 
-Last updated: 2026-07-12 21:04:44
+Last updated: 2026-07-25 21:02:20
 
 ---
 

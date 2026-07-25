@@ -18,7 +18,7 @@ Note taking systems (hệ thống ghi chú) là các phương pháp tổ chức 
 ## Key ideas
 
 - Mục đích của hệ thống ghi chú mạnh không phải là lưu mọi thứ mà là lưu ý tưởng có thể phát triển
-- Elaboration đóng vai trò như ngườ gác cửa - nếu có thể elaboration thì đáng giữ, nếu không thì để yên
+- Elaboration đóng vai trò như người gác cửa - nếu có thể elaboration thì đáng giữ, nếu không thì để yên
 - Trang trắng không nên là điểm bắt đầu của quá trình suy nghĩ mà là nơi suy nghĩ trước đó bắt đầu định hình
 - Elaboration thường xuyên xây dựng ngân hàng ý tưởng để sử dụng sau này
 - Template chỉ quan trọng nếu giúp bạn suy nghĩ

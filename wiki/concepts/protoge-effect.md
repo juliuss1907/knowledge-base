@@ -14,13 +14,13 @@ last_updated: 2026-07-21
 
 ## Definition
 
-Protégé effect (hiệu ứng môn đệ) là hiện tượng trong khoa học học tập cho thấy học sinh dạy material cho ngườ khác ghi nhớ tốt hơn học sinh chỉ học material. Viết là một hình thức dạy - bạn đang dạy độc giả của mình.
+Protégé effect (hiệu ứng môn đệ) là hiện tượng trong khoa học học tập cho thấy học sinh dạy material cho người khác ghi nhớ tốt hơn học sinh chỉ học material. Viết là một hình thức dạy - bạn đang dạy độc giả của mình.
 
 ## Key ideas
 
-- Cognitive load cần thiết để tìm cách giải thích điều gì đó cho ngườ khác buộc phải xử lý sâu hơn, tổ chức tốt hơn và nhận diện gaps trong kiến thức
+- Cognitive load cần thiết để tìm cách giải thích điều gì đó cho người khác buộc phải xử lý sâu hơn, tổ chức tốt hơn và nhận diện gaps trong kiến thức
 - Viết vừa là hình thức dạy vừa là hình thức hiểu
-- Kết hợp với elaboration - viết bằng chính lờ giúp củng cố hiểu biết
+- Kết hợp với elaboration - viết bằng chính lời giúp củng cố hiểu biết
 - Dan Koe: "I learned more in my first 6 months of writing online than I ever did in school"
 
 ## Related concepts

@@ -21,15 +21,15 @@ author: Learning to Learn Well
 
 ## Summary
 
-Bài viết phân tích lỗi phổ biến trong học tập: nhầm lẫn giữa việc nhận ra ý tưởng với việc thực sự hiểu nó. Elaboration là kỹ thuật mở rộng ý tưởng bằng chính lờ của mình, giải thích ý nghĩa, tầm quan trọng, kết nối với kiến thức hiện có và nơi có thể áp dụng. Bài viết cung cấp framework 5 câu hỏi để biến ghi chú thô thành ghi chú suy nghĩ: ý chính là gì, tại sao quan trọng, kết nối với gì, trông như thế nào trong thực tế, và còn thiếu gì.
+Bài viết phân tích lỗi phổ biến trong học tập: nhầm lẫn giữa việc nhận ra ý tưởng với việc thực sự hiểu nó. Elaboration là kỹ thuật mở rộng ý tưởng bằng chính lời của mình, giải thích ý nghĩa, tầm quan trọng, kết nối với kiến thức hiện có và nơi có thể áp dụng. Bài viết cung cấp framework 5 câu hỏi để biến ghi chú thô thành ghi chú suy nghĩ: ý chính là gì, tại sao quan trọng, kết nối với gì, trông như thế nào trong thực tế, và còn thiếu gì.
 
 ## Key points
 
 - Nhận ra ý tưởng khác với hiểu ý tưởng - copying không phải là understanding
 - Elaboration là nơi đọc trở thành suy nghĩ, suy nghĩ trở thành viết, dạy, tạo hoặc hành động
-- Viết bằng chính lờ buộc phải chậm lại, quyết định ý tưởng thực sự có nghĩa gì
+- Viết bằng chính lời buộc phải chậm lại, quyết định ý tưởng thực sự có nghĩa gì
 - Ghi chú sao chép chỉ bảo tồn thông tin, ghi chú elaboration xây dựng hiểu biết
-- Elaboration đóng vai trò như ngườ gác cửa - chỉ những ý tưởng có thể elaboration mới đáng phát triển
+- Elaboration đóng vai trò như người gác cửa - chỉ những ý tưởng có thể elaboration mới đáng phát triển
 - Framework 5 câu hỏi: ý chính, tại sao quan trọng, kết nối với gì, trông như thế nào trong thực tế, còn thiếu gì
 - Kết nối ý tưởng với kiến thức hiện có giúp ý tưởng trở thành của bạn
 - Ví dụ làm ý tưởng có thể sử dụng được - đưa ý tưởng từ trừu tượng vào thực tế

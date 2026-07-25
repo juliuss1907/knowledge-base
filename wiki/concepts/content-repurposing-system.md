@@ -21,7 +21,7 @@ Content repurposing system (hệ thống tái sử dụng nội dung) là quy tr
 - Cả tuần xoay quanh chủ đề đó - khi đọc sách, xem video, ý tưởng phù hợp sẽ nổi bật
 - Ý tưởng trở thành research cho chủ đề đang viết
 - Sử dụng công cụ như Eden để lưu ý tưởng, bài viết, video, sách PDF và chat với chúng
-- Không cần niche down - con ngườ có khả năng thích nghi, chỉ cần nói về điều mình thấy quan trọng
+- Không cần niche down - con người có khả năng thích nghi, chỉ cần nói về điều mình thấy quan trọng
 - Packaging ideas quan trọng như content itself - cần học cách viết hook, title thu hút
 - Nghiên cứu những gì đang hoạt động trên social media để hiểu thị trường muốn gì
 

@@ -13,7 +13,7 @@ last_updated: 2026-07-21
 
 ## Definition
 
-Delusional optimism (lạc quan ảo tưởng) là trạng thái giữ khái niệm bản thân ở mức cao hơn những gì khách quan đúng. Là tin rằng mọi thứ sẽ diễn ra theo cách có lợi cho mình, ngay cả khi chưa có bằng chứng vật lý trước đó. Đây là "cheat code" của những ngườ thành công.
+Delusional optimism (lạc quan ảo tưởng) là trạng thái giữ khái niệm bản thân ở mức cao hơn những gì khách quan đúng. Là tin rằng mọi thứ sẽ diễn ra theo cách có lợi cho mình, ngay cả khi chưa có bằng chứng vật lý trước đó. Đây là "cheat code" của những người thành công.
 
 ## Key ideas
 

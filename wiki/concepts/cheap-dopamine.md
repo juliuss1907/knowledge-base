@@ -21,7 +21,7 @@ Cheap dopamine (dopamine rẻ tiền) là thuật ngữ chỉ nguồn dopamine d
 - Đặt DoorDash thay vì tự nấu ăn/săn bắn
 - Xem núi trên điện thoại thay vì leo núi thực sự
 - Lối sống hiện đại làm cơ thể đông cứng, linh hồn thiếu ý nghĩa, tâm trí quá kích thích
-- Cuộc cạnh tranh đã trở nên yếu hơn vì đa số ngườ ta đã sa vào bẫy modernity
+- Cuộc cạnh tranh đã trở nên yếu hơn vì đa số người ta đã sa vào bẫy modernity
 - Giải pháp: từ chối lối sống hiện đại là hình thức nổi loạn lớn nhất
 
 ## Related concepts

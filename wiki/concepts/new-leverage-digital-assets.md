@@ -13,7 +13,7 @@ last_updated: 2026-07-21
 
 ## Definition
 
-New leverage (đòn bẩy mới) là khái niệm từ Dan Koe chỉ sự chuyển đổi từ leverage cũ dựa trên tài sản vật chất sang leverage mới dựa trên tài sản số. Trong thờ đại AI, đòn bẩy lớn nhất không còn là vốn mà là enterprise - khả năng xây dựng doanh nghiệp và personal brand.
+New leverage (đòn bẩy mới) là khái niệm từ Dan Koe chỉ sự chuyển đổi từ leverage cũ dựa trên tài sản vật chất sang leverage mới dựa trên tài sản số. Trong thời đại AI, đòn bẩy lớn nhất không còn là vốn mà là enterprise - khả năng xây dựng doanh nghiệp và personal brand.
 
 ## Key ideas
 
@@ -21,7 +21,7 @@ New leverage (đòn bẩy mới) là khái niệm từ Dan Koe chỉ sự chuy�
 - New leverage: tài sản số (audience, personal brand, IP, content, data, software) - rẻ để xây dựng, scale được, khó đánh thuế
 - Physical assets sẽ là thứ đầu tiên chính phủ tìm thấy, đánh thuế và tịch thu nếu wages sụp đổ
 - Digital assets như email list, thư viện content, sách bán chạy ít bị chính phủ tịch thu hơn
-- Media, data, và code là đòn bẩy của ngườ giàu mới - content viết một lần có thể được xem bởi hàng triệu ngườ
+- Media, data, và code là đòn bẩy của người giàu mới - content viết một lần có thể được xem bởi hàng triệu ngườ
 - Chỉ cần 5,000-10,000 followers có thể thay thế thu nhập nếu thực sự nghiêm túc
 
 ## Related concepts

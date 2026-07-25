@@ -20,8 +20,8 @@ Internal locus of control (điểm kiểm soát nội tại) là niềm tin tâm
 - Đặt bản thân vào vị trí chịu trách nhiệm về hành động
 - Tin rằng vận mệnh hoàn toàn thuận lợi cho mình
 - Cung cấp sự xác thực nội tại không ai có thể cướp đi
-- Tạo ra mức độ agency được bảo tồn khiến ngườ đó trở nên không thể lay chuyển
-- Những ngườ vĩ đại trong lịch sử (Alexander Đại đế, Julius Caesar, Napoleon, Thành Cát Tư Hãn) đều có locus of control nội tại mạnh mẽ
+- Tạo ra mức độ agency được bảo tồn khiến người đó trở nên không thể lay chuyển
+- Những người vĩ đại trong lịch sử (Alexander Đại đế, Julius Caesar, Napoleon, Thành Cát Tư Hãn) đều có locus of control nội tại mạnh mẽ
 
 ## Related concepts
 

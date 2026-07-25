@@ -878,3 +878,10 @@ Files checked: 815
 - **New files:** 0 — no new content since last validation (2026-07-23 23:13)
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 - **Result:** [SILENT] — nothing new to validate
+
+## 2026-07-25 23:08:50 — Output validation
+
+- **Files checked:** 619 (153 sources + 466 concepts)
+- **New files:** 0 — no new content since last validation (2026-07-24 23:10)
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — nothing new to validate

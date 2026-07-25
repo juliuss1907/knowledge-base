@@ -4,123 +4,135 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-24 (hygiene 23:35)
+**Last updated:** 2026-07-25 (bulk approval)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 10
-**Last batch applied:** 2 reports (07-20) **APPLIED** 2026-07-21 by Fix Agent
+**Pending reports awaiting review:** 0
+**Last batch applied:** 10 reports (07-21 through 07-24) **APPROVED** 2026-07-25 by Julius
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 07-24 | Format | 337 (1E+336W) | Review [wiki/reviews/2026-07-24_format-report.md](2026-07-24_format-report.md) |
-| 🔍 PENDING | 07-23 | Format | 337 (1E+336W) | Review [wiki/reviews/2026-07-23_format-report.md](2026-07-23_format-report.md) |
-| 🔍 PENDING | 07-22 | Format | 318W | Review [wiki/reviews/2026-07-22_format-report.md](2026-07-22_format-report.md) |
-| 🔍 PENDING | 07-21 | Format | 318W | Review [wiki/reviews/2026-07-21_format-report.md](2026-07-21_format-report.md) |
-| 🔍 PENDING | 07-21 | Output | 5 (1E+2W+2I) | Review [wiki/reviews/2026-07-21_output-report.md](2026-07-21_output-report.md) |
-| 🔍 PENDING | 07-21 | Hygiene | 1W | Review [wiki/reviews/2026-07-21_hygiene-report.md](2026-07-21_hygiene-report.md) |
-| 🔍 PENDING | 07-22 | Hygiene | 1W | Review [wiki/reviews/2026-07-22_hygiene-report.md](2026-07-22_hygiene-report.md) |
-| 🔍 PENDING | 07-23 | Output | 4 (1E+2W+1I) | Review [wiki/reviews/2026-07-23_output-report.md](2026-07-23_output-report.md) |
-| 🔍 PENDING | 07-23 | Hygiene | 1W | Review [wiki/reviews/2026-07-23_hygiene-report.md](2026-07-23_hygiene-report.md) |
-| 🔍 PENDING | 07-24 | Hygiene | 1W | Review [wiki/reviews/2026-07-24_hygiene-report.md](2026-07-24_hygiene-report.md) |
+| ✅ APPROVED | 07-24 | Format | 337 (1E+336W) | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-23 | Format | 337 (1E+336W) | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-22 | Format | 318W | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-21 | Format | 318W | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-21 | Output | 5 (1E+2W+2I) | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-21 | Hygiene | 1W | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-22 | Hygiene | 1W | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-23 | Output | 4 (1E+2W+1I) | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-23 | Hygiene | 1W | Approved by Julius 2026-07-25 |
+| ✅ APPROVED | 07-24 | Hygiene | 1W | Approved by Julius 2026-07-25 |
 
 ---
 
-## Pending Reports
+## Approved — 2026-07-21 through 2026-07-24
 
-### 🔍 Format Validation — 2026-07-24
+### ✅ Format Validation — 2026-07-24
 
 - **Report:** `wiki/reviews/2026-07-24_format-report.md`
 - **Summary:** 337 issues (1 ERROR, 336 WARNING, 0 INFO). Identical to 07-23 — 0 net change. 1 ERROR: `wiki/tag/psychology.md` missing `## Co-occurring tags` (persists from 07-23, day 2). 336 WARNINGs: 313 individual broken wikilinks + 21 forward-reference groups + 2 raw file `original` false positives.
 - **Delta from 07-23:** 0 net change (828→828, 337→337). No KB activity on 07-24.
 - **Actions needed:** Fix Agent should add `## Co-occurring tags` to `wiki/tag/psychology.md`. All WARNINGs are expected forward references.
-- **Status:** pending
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Format Validation — 2026-07-23
+### ✅ Format Validation — 2026-07-23
 
 - **Report:** `wiki/reviews/2026-07-23_format-report.md`
 - **Summary:** 337 issues (1 ERROR, 336 WARNING, 0 INFO). 1 ERROR: `wiki/tag/psychology.md` missing `## Co-occurring tags` — first structural ERROR since 07-14 clean streak. 336 WARNINGs: 313 individual broken wikilinks + 21 forward-reference groups + 2 raw file `original` false positives.
 - **Delta from 07-22:** +13 files (+9 concepts, +2 sources, +2 topics), +19 issues (+1 ERROR, +18 WARNING). Compilation activity on 07-23.
 - **Actions needed:** Fix Agent should add `## Co-occurring tags` to `wiki/tag/psychology.md`. All WARNINGs are expected forward references.
-- **Status:** pending
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Format Validation — 2026-07-22
+### ✅ Format Validation — 2026-07-22
 
 - **Report:** `wiki/reviews/2026-07-22_format-report.md`
 - **Summary:** 318 issues (0 ERROR, 318 WARNING, 0 INFO). Zero structure violations — all WARNINGs are broken wikilinks: forward references to uncompiled concepts/sources. 295 individual links + 21 forward-reference groups + 2 raw file `original` false positives (files confirmed to exist).
 - **Delta from 07-21:** 0 net change (815→815, 318→318). No KB changes on 07-22 — file counts identical across all categories. Clean streak day 9 (0 ERRORs since 07-14 baseline).
 - **Actions needed:** None required. All WARNINGs are expected forward references. 2 false positives are known validator limitation. Identical to 07-21 report.
-- **Status:** pending
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Format Validation — 2026-07-21
+### ✅ Format Validation — 2026-07-21
 
 - **Report:** `wiki/reviews/2026-07-21_format-report.md`
 - **Summary:** 318 issues (0 ERROR, 318 WARNING, 0 INFO). Zero structure violations — all WARNINGs are broken wikilinks: forward references to uncompiled concepts/sources. 295 individual links + 21 forward-reference groups + 2 raw file `original` false positives (files confirmed to exist).
 - **Delta from 07-20:** 0 net change (318→318). +19 files (+13 concepts, +3 sources, +3 topics). Clean streak day 8 (0 ERRORs since 07-14 baseline).
 - **Actions needed:** None required. All WARNINGs are expected forward references. 2 false positives are known validator limitation.
-- **Status:** pending
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Output Validation — 2026-07-21 (23:06)
+### ✅ Output Validation — 2026-07-21 (23:06)
 
 - **Report:** `wiki/reviews/2026-07-21_output-report.md`
 - **Summary:** 5 issues (1 ERROR, 2 WARNING, 2 INFO). Fifth variant typo: dropped trailing 'i' after 'ờ' — ~35 instances across 13/16 new files. 3 concepts with <5 key ideas. All 13 concepts in draft.
 - **Actions needed:** Fix dropped-i typo across 13 files (systemic Compile Agent defect). Expand key ideas for 3 concepts. Promote drafts after fixes.
-- **Status:** pending
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Hygiene Inspection — 2026-07-21 (23:32)
+### ✅ Hygiene Inspection — 2026-07-21 (23:32)
 
 - **Report:** `wiki/reviews/2026-07-21_hygiene-report.md`
 - **Summary:** 1 issue (0 ERROR, 1 WARNING, 0 INFO). 51,937 paths scanned (0.002% issue rate). Zero structural violations. Single WARNING: draft backup file `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` uses underscores in filename — cosmetic naming issue from Fix Agent bulk apply. Same category as 07-20 draft backup WARNING.
 - **Actions needed:** Optional rename to hyphens-only, or leave as-is (WARNING-level, backup file).
-- **Status:** pending
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Hygiene Inspection — 2026-07-22 (23:35)
+### ✅ Hygiene Inspection — 2026-07-22 (23:35)
 
 - **Report:** `wiki/reviews/2026-07-22_hygiene-report.md`
 - **Summary:** 1 issue (0 ERROR, 1 WARNING, 0 INFO). 51,944 paths scanned (0.002% issue rate). Zero structural violations. Single WARNING: same draft backup file from 07-21 — `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` uses `src_` prefix + underscore in filename. `memory/` and `state/` root folders remain absent — resolution appears permanent.
 - **Actions needed:** Optional rename of backup file (cosmetic WARNING-level). No structural issues.
-- **Status:** pending
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Output Validation — 2026-07-23 (23:13)
+### ✅ Output Validation — 2026-07-23 (23:13)
 
 - **Report:** `wiki/reviews/2026-07-23_output-report.md`
 - **Summary:** 4 issues (1 ERROR, 2 WARNING, 1 INFO). 13 new files (2 sources + 11 concepts). Systemic double-i typo (ngườii/thờii) in 11/13 files — 66 instances, same Compile Agent prompt defect. Forward-reference wikilinks in 10 concepts. second-order-thinking.md: 23 key ideas exceeds 5-10 range. presence.md: lowercase title.
 - **Actions needed:** Fix double-i typos across 11 files (Fix Agent). Review compile-agent prompt for recurrence. Consolidate key ideas in second-order-thinking.md. Fix title casing in presence.md.
-- **Status:** pending
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Hygiene Inspection — 2026-07-23 (23:35)
+### ✅ Hygiene Inspection — 2026-07-23 (23:35)
 
 - **Report:** `wiki/reviews/2026-07-23_hygiene-report.md`
 - **Summary:** 1 issue (0 ERROR, 1 WARNING, 0 INFO). 51,963 paths scanned (0.002% issue rate). Zero structural violations. Single WARNING: same draft backup file `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` uses underscores in filename — unchanged from 07-21 and 07-22. `memory/` and `state/` root folders remain absent for third consecutive day — resolution appears permanent.
 - **Delta from 07-22:** +19 paths (compilation activity). 0 net issue change.
 - **Actions needed:** Optional rename of backup file (cosmetic WARNING-level). No structural issues.
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
-### 🔍 Hygiene Inspection — 2026-07-24 (23:35)
+### ✅ Hygiene Inspection — 2026-07-24 (23:35)
 
 - **Report:** `wiki/reviews/2026-07-24_hygiene-report.md`
 - **Summary:** 1 issue (0 ERROR, 1 WARNING, 0 INFO). 51,968 paths scanned (0.002% issue rate). Zero structural violations. Single WARNING: same draft backup file `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` uses underscores in filename — unchanged across 4 consecutive days (07-21 through 07-24). `memory/` and `state/` root folders remain absent — resolution appears permanent.
 - **Delta from 07-23:** +5 paths. 0 net issue change.
 - **Actions needed:** Optional rename of backup file (cosmetic WARNING-level). No structural issues.
+- **Status:** approved
+- **Approved by:** Julius 2026-07-25
 
 ---
 
@@ -214,6 +226,28 @@ All 13 reports moved to wiki/reviews/archive/2026-07/:
 ---
 
 ## ✅ APPROVED — Applied Reports History
+
+### Batch 2026-07-21 through 2026-07-24 (APPROVED 2026-07-25)
+
+- ✅ Format 07-24: 337 issues (1E+336W) — psychology.md missing ## Co-occurring tags, forward-ref wikilinks
+- ✅ Format 07-23: 337 issues (1E+336W) — psychology.md missing ## Co-occurring tags, forward-ref wikilinks
+- ✅ Format 07-22: 318 WARNINGs — forward-ref wikilinks, no action needed
+- ✅ Format 07-21: 318 WARNINGs — forward-ref wikilinks, no action needed
+- ✅ Output 07-21: 5 issues (1E+2W+2I) — dropped-i typos, <5 key ideas, draft concepts
+- ✅ Hygiene 07-21: 1 WARNING — draft backup file underscores (cosmetic)
+- ✅ Hygiene 07-22: 1 WARNING — draft backup file underscores (cosmetic)
+- ✅ Output 07-23: 4 issues (1E+2W+1I) — double-i typos, forward-refs, key ideas count, title casing
+- ✅ Hygiene 07-23: 1 WARNING — draft backup file underscores (cosmetic)
+- ✅ Hygiene 07-24: 1 WARNING — draft backup file underscores (cosmetic)
+
+**Actions needed by Fix Agent:**
+- Add `## Co-occurring tags` to `wiki/tag/psychology.md`
+- Fix dropped-i typo across 13 files (output 07-21)
+- Fix double-i typos across 11 files (output 07-23)
+- Expand key ideas for 3 concepts (output 07-21)
+- Consolidate key ideas in second-order-thinking.md (output 07-23)
+- Fix title casing in presence.md (output 07-23)
+- Promote drafts after fixes
 
 ### Batch 2026-07-20 (APPROVED 2026-07-21)
 

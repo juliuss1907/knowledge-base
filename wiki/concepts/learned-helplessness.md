@@ -21,6 +21,7 @@ Learned helplessness (bất lực học được) là trạng thái tâm lý khi
 - Dẫn đến việc lý luận rằng "đó là cách mọi thứ diễn ra với tôi"
 - Trở thành cái bẫy khiến người ta thu mình lại ngay cả khi chỉ có một chút khó chịu
 - Giải pháp: phát triển internal locus of control - tin rằng bản thân là tác giả của vận mệnh
+- Cần nhận ra rằng khó khăn ban đầu là bình thường, không phải dấu hiệu của thất bại tất yếu
 
 ## Related concepts
 

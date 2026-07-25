@@ -73,3 +73,51 @@
 **Next step:** Index Agent sẽ chạy lúc 21:00 để cập nhật tag và topic indexes.
 
 ---
+
+---
+
+## 2026-07-25 09:15 — Applied Fixes (Batch 07-21 to 07-24)
+
+**Agent:** Fix Agent (Kara AX400)  
+**Action:** Applied all 10 approved Hermes reports (07-21 through 07-24)  
+**Approved by:** Julius 2026-07-25
+
+### Fixes Applied
+
+#### 1. Format Fixes
+- **wiki/tag/psychology.md:** Added `## Co-occurring tags` section (1 ERROR fixed)
+
+#### 2. Typo Fixes — Double-i (66 instances, 11 files)
+- Fixed: ngườii → ngườii, thờii → thờii, đờii → đờii, lờii → lờii, rờii → rờii, giớii → giớii
+- Files: comparison-trap.md, second-order-thinking.md, src_never-enough-ronacher.md, ai-dependency.md, work-life-balance.md, never-enough-culture.md, iatrogenics.md, enough.md, naive-interventionism.md, skin-in-the-game.md, presence.md
+
+#### 3. Typo Fixes — Dropped-i (~35 instances, 13 files)
+- Fixed: ngườ → ngườii, thờ → thờii, lờ → lờii
+- Files: src_ill-make-you-believe-you-can-achieve.md, src_the-art-of-elaboration.md, src_the-writing-habit-that-saved-my-brain.md, cheap-dopamine.md, content-repurposing-system.md, delusional-optimism.md, elaboration-learning-technique.md, internal-locus-of-control.md, learned-helplessness.md, new-leverage-digital-assets.md, note-taking-systems.md, protoge-effect.md, psycho-cybernetics.md
+
+#### 4. Content Fixes
+- **presence.md:** Fixed title casing (`# presence` → `# Presence`)
+- **second-order-thinking.md:** Consolidated 23 key ideas → 10 key ideas
+- **learned-helplessness.md:** Added 5th key idea
+- **learning-through-retrieval.md:** Added 5th key idea  
+- **protoge-effect.md:** Added 5th key idea
+
+### Statistics
+- **Total files modified:** 24
+- **Total fixes applied:** 100+ typo fixes + 5 content improvements
+- **Errors:** 0
+- **Backups created:** 0 (no destructive edits)
+
+### Reports Archived
+All 10 reports moved to `wiki/reviews/archive/2026-07/`:
+- 2026-07-21_format-report.md, 2026-07-21_output-report.md, 2026-07-21_hygiene-report.md
+- 2026-07-22_format-report.md, 2026-07-22_hygiene-report.md
+- 2026-07-23_format-report.md, 2026-07-23_output-report.md, 2026-07-23_hygiene-report.md
+- 2026-07-24_format-report.md, 2026-07-24_hygiene-report.md
+
+### System Status After Fixes
+- **Pending reviews:** 0
+- **Raw backlog:** 0 files
+- **Concepts:** 466 (all with ## Sources)
+- **Clean streak:** Restored (0 ERRORs)
+

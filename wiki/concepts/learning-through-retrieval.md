@@ -21,6 +21,7 @@ Learning through retrieval (học thông qua việc gọi lại) là kỹ thuậ
 - Gọi lại từ trí nhớ khó hơn nhưng hiệu quả hơn passive rereading
 - Elaboration là hình thức retrieval practice - bạn phải gọi lại và diễn đạt lại ý tưởng
 - Kết hợp với viết để củng cố việc gọi lại và xây dựng hiểu biết sâu sắc
+- Việc gọi lại tạo ra nhiều kết nối neural hơn so với việc đọc lại thụ động
 
 ## Related concepts
 

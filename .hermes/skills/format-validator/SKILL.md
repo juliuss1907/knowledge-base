@@ -386,7 +386,9 @@ Source files often mention the raw file again inside `## Metadata` or body conte
 - accept direct matches like `raw/<subdir>/<target>.md`
 - accept glob matches like `raw/<subdir>/*_<target>.md`
 
-**Same issue affects `original` field validation:** The `original` frontmatter field (e.g., `original: "[[2026-07-14_why-the-math-mafia-is-doing-well-jesse-zhang.md]]"`) also needs raw-subdir resolution. The validator currently flags these as "raw file not found" even when the file exists under `raw/articles/`. This produces false-positive WARNINGs. Fix: apply the same subdir search logic to `check_original_wikilink()`.
+**Same issue affects `original` field validation:** The `original` frontmatter field (e.g., `original: "[[2026-07-14_why-the-math-mafia-is-doing-well-jesse-zhang.md]]"`) also needs raw-subdir resolution. The validator currently flags these as "raw file not found" even when the file exists under `raw/articles/`. This produces false-positive WARNINGs.
+
+**Fix applied 2026-07-26:** `scripts/validate.py` now strips `.md` from wikilink targets before globbing, and separates direct-match (`{target}.md`) from date-prefix match (`*_{target}.md`) for clarity. The root cause was that Compile Agent writes wikilinks with `.md` extension (e.g., `[[2026-07-14_file.md]]`) but the validator appended another `.md`, searching for `file.md.md`.
 
 **Observed case:** `src_dan-koe-workflow-analysis-markus.md` was incorrectly flagged until raw-subdir lookup was added to source-body wikilink validation. Same false-positive pattern observed 2026-07-20 for `src_you-just-hired-a-million-bad-employees-a16z.md` and `src_why-the-math-mafia-is-doing-well-jesse-zhang.md` — both `original` fields point to raw files that exist under `raw/articles/`.
 

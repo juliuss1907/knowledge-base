@@ -273,11 +273,18 @@ def validate_source(filepath, fm, raw_fm, content):
         orig = fm['original']
         if isinstance(orig, str) and orig.startswith('[['):
             target = orig[2:-2].strip()
+            # Strip .md extension if present — wikilinks often include it
+            if target.endswith('.md'):
+                target = target[:-3]
             found = False
             for d in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos', 'tools']:
                 rdir = KB / 'raw' / d
                 if rdir.exists():
-                    if (rdir / f'{target}.md').exists() or list(rdir.glob(f'*_{target}.md')):
+                    # Direct match: raw/<d>/<target>.md
+                    if (rdir / f'{target}.md').exists():
+                        found = True; break
+                    # Date-prefix match: raw/<d>/YYYY-MM-DD_<target>.md
+                    if list(rdir.glob(f'*_{target}.md')):
                         found = True; break
             if not found:
                 issues.append(('WARNING', 'Frontmatter', rel, f'original wikilink [[{target}]] — raw file not found'))

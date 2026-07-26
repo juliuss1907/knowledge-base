@@ -31,7 +31,7 @@ Monid là một nền tảng cung cấp hơn 1,300+ công cụ cho AI agents th�
 - Các loại tool bao gồm: web scraping (Reddit, X, LinkedIn, TikTok, Amazon...), AI services (ElevenLabs, MiniMax, Seedance), business intelligence (Semrush, Apollo), và on-chain data (BlockRun)
 - Ba cách kết nối: skill.md cho agents, SDK, hoặc direct API calls
 - Nền tảng cũng cho phép tool providers list APIs của họ để nhận revenue share
-- Free credit $1 cho ngườ dùng mới để bắt đầu
+- Free credit $1 cho người dùng mới để bắt đầu
 
 ## Concepts referenced
 

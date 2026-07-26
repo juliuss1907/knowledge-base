@@ -21,12 +21,12 @@ author: General Reasoning (GR.inc)
 
 ## Summary
 
-BackSearch là giải pháp cho phép backtest AI agents trên web archive đóng băng tại một thờ điểm cụ thể. Thay vì sử dụng live search APIs có thể gây data leakage (kết quả được rank với hindsight knowledge), BackSearch cung cấp hai endpoints — search và fetch — đều yêu cầu `as_of` date parameter. Corpus được đóng băng, đảm bảo reproducibility: cùng một query với cùng `as_of` sẽ trả về kết quả giống hệt mãi mãi. Hiện tại hỗ trợ news domains từ December 2025 đến July 2026.
+BackSearch là giải pháp cho phép backtest AI agents trên web archive đóng băng tại một thời điểm cụ thể. Thay vì sử dụng live search APIs có thể gây data leakage (kết quả được rank với hindsight knowledge), BackSearch cung cấp hai endpoints — search và fetch — đều yêu cầu `as_of` date parameter. Corpus được đóng băng, đảm bảo reproducibility: cùng một query với cùng `as_of` sẽ trả về kết quả giống hệt mãi mãi. Hiện tại hỗ trợ news domains từ December 2025 đến July 2026.
 
 ## Key points
 
 - BackSearch giải quyết vấn đề "data leakage" trong agent evaluation khi dùng live search APIs
-- Hai endpoints chính: `/v1/search` (tìm kiếm với as_of filter) và `/v1/fetch` (lấy content tại thờ điểm cụ thể)
+- Hai endpoints chính: `/v1/search` (tìm kiếm với as_of filter) và `/v1/fetch` (lấy content tại thời điểm cụ thể)
 - `as_of` gates trên `crawl_date`, không phải article's published date — điều này đảm bảo không có content nào post-cutoff leaked vào
 - Use cases chính: forecasting evaluation, quantitative finance backtesting, RL environment training
 - Pricing: $10 per 1,000 searches, $2 per 1,000 fetches — pay-as-you-go, chỉ tính tiền successful requests

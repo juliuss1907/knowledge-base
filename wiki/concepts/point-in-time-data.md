@@ -13,14 +13,14 @@ last_updated: 2026-07-26
 
 ## Definition
 
-Point-in-Time Data là data representation cho thấy state của information tại một thờ điểm cụ thể trong quá khứ, không bị contaminate bởi subsequent updates hoặc revisions. Trong AI/ML, điều này critical cho việc đánh giá models trên historical scenarios mà không gặp phải look-ahead bias.
+Point-in-Time Data là data representation cho thấy state của information tại một thời điểm cụ thể trong quá khứ, không bị contaminate bởi subsequent updates hoặc revisions. Trong AI/ML, điều này critical cho việc đánh giá models trên historical scenarios mà không gặp phải look-ahead bias.
 
 ## Key ideas
 
 - **Temporal accuracy**: Data reflects exactly what was known at the specified time
 - **No retroactive changes**: Historical records không bị overwrite bởi subsequent corrections
-- **As-of semantics**: Queries trả về view của data tại một thờ điểm cụ thể
-- **Audit trail**: Có thể trace lại data evolution qua thờ gian
+- **As-of semantics**: Queries trả về view của data tại một thời điểm cụ thể
+- **Audit trail**: Có thể trace lại data evolution qua thời gian
 - **Elimination of hindsight bias**: Prevents using information that wasn't available at decision time
 
 ## Contrast with live systems

@@ -298,3 +298,38 @@ Bài viết từ rewardhacking.org về hiện tượng "reward hacking" — khi
 - Economic impact: Gartner predicts 40% enterprise apps có AI agents by end of 2026
 - IDC expects AI to add $19.9T to global economy by 2030
 
+
+---
+
+## 2026-07-26 14:08 — Applied Fixes (Hygiene 07-25 + Output 07-26)
+
+**Agent:** Fix Agent (Kara AX400)  
+**Action:** Applied 2 approved reports  
+**Reports:** 2026-07-25_hygiene-report.md, 2026-07-26_output-report.md
+
+### Hygiene Fixes Applied
+1. **Moved memory file:** `memory/2026-07-26.md` → `.openclaw/memory/2026-07-26.md`
+2. **Removed folder:** `memory/` (empty after move)
+3. **Renamed draft:** `src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` → `is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md`
+
+### Output Fixes Applied (Dropped-i Typos)
+Fixed ~10 instances across 6 files:
+- `thờ điểm` → `thờii điểm` (4 instances)
+- `ngườ dùng` → `ngườii dùng` (2 instances)
+- `thờ gian` → `thờii gian` (1 instance)
+- `thay v ` → `thay vì ` (1 instance)
+
+**Files modified:**
+- wiki/sources/src_introducing-backsearch-gr-inc.md
+- wiki/sources/src_monid-ai-agent-tool-platform.md
+- wiki/concepts/agent-backtesting.md
+- wiki/concepts/frozen-corpus-search.md
+- wiki/concepts/pay-per-call-pricing.md
+- wiki/concepts/point-in-time-data.md
+
+### Post-Fix Status
+- Reports archived to: `wiki/reviews/archive/2026-07/`
+- _action-required.md updated
+- 0 reports pending review
+- System: HEARTBEAT_OK
+

@@ -13,7 +13,7 @@ last_updated: 2026-07-26
 
 ## Definition
 
-Frozen Corpus Search là kiến trúc search system nơi underlying document collection được đóng băng tại một thờ điểm cụ thể, đảm bảo reproducibility và consistency của search results. Mỗi query kết hợp với một temporal cutoff trả về cùng một result set vĩnh viễn, không bị ảnh hưởng bởi new crawls hoặc index updates.
+Frozen Corpus Search là kiến trúc search system nơi underlying document collection được đóng băng tại một thời điểm cụ thể, đảm bảo reproducibility và consistency của search results. Mỗi query kết hợp với một temporal cutoff trả về cùng một result set vĩnh viễn, không bị ảnh hưởng bởi new crawls hoặc index updates.
 
 ## Key ideas
 

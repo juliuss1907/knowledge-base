@@ -13,7 +13,7 @@ last_updated: 2026-07-26
 
 ## Definition
 
-Pay-per-call Pricing là mô hình định giá dịch vụ theo đó ngườ dùng chỉ trả tiền cho mỗi lần thực sự gọi API hoặc sử dụng service, thay v thanh toán subscription fee cố định hàng tháng. Mô hình này đặc biệt phù hợp cho AI agents và automated workflows có usage pattern thất thường.
+Pay-per-call Pricing là mô hình định giá dịch vụ theo đó người dùng chỉ trả tiền cho mỗi lần thực sự gọi API hoặc sử dụng service, thay vì thanh toán subscription fee cố định hàng tháng. Mô hình này đặc biệt phù hợp cho AI agents và automated workflows có usage pattern thất thường.
 
 ## Key ideas
 

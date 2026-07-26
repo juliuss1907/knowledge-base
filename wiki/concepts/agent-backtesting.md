@@ -27,7 +27,7 @@ Agent Backtesting là phương pháp đánh giá performance của AI agents b�
 ## Challenges
 
 - **Data leakage prevention**: Đảm bảo agent không access information from the "future"
-- **Look-ahead bias**: Tránh situations nơi strategy dùng information không available tại thờ điểm quyết định
+- **Look-ahead bias**: Tránh situations nơi strategy dùng information không available tại thời điểm quyết định
 - **Overfitting**: Agent optimize quá mức cho historical data mà không generalize cho future
 - **Changing market regimes**: Historical performance không guarantee future results
 

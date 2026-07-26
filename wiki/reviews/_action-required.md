@@ -4,19 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-25 23:30
+**Last updated:** 2026-07-26 11:31
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 07-25 | Format | 336 (0E+336W) | Review [wiki/reviews/2026-07-25_format-report.md](2026-07-25_format-report.md)
 | 🔍 PENDING | 07-25 | Hygiene | 3 (1E+2W) | Review [wiki/reviews/2026-07-25_hygiene-report.md](2026-07-25_hygiene-report.md) |
+| 🔍 PENDING | 07-26 | Output | 2 (1E+1I) | Review [wiki/reviews/2026-07-26_output-report.md](2026-07-26_output-report.md) |
 | ✅ APPLIED | 07-24 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-23 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-22 | Format | 318W | Applied by Fix Agent 2026-07-25 |
@@ -54,6 +55,17 @@
 - [ ] ERROR — Move `memory/2026-07-25.md` to `.openclaw/memory/`, then `rmdir memory/`. Fix OpenClaw output path targeting root `memory/` instead of `.openclaw/memory/`.
 - [ ] WARNING — Rename `wiki/drafts/src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` → drop `src_` prefix, convert underscores to hyphens.
 - [ ] Julius: approve or reject → `approve hygiene` or `reject hygiene`
+
+---
+
+### 🔍 Output Validation — 2026-07-26 (11:31)
+
+**Summary:** 1 ERROR + 1 INFO. ERROR is dropped-i typos (variant 5) in 6/8 new files (~10 instances, 75% affected). This is the 5th manifestation of Compile Agent's "ời→ờ" tokenization defect. 1 INFO for "thay v" word fragment. All 8 new files structurally clean (Definitions 2 câu, Key ideas 5-7 items, Sources populated).
+
+**Actions:**
+- [ ] ERROR — Fix dropped-i typos in 6 files via sed (see report for exact commands). Mark as applied.
+- [ ] INFO — Fix "thay v" → "thay vì" in pay-per-call-pricing.md.
+- [ ] Julius: approve or reject → `approve output` or `reject output`
 
 ---
 

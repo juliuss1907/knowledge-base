@@ -32,13 +32,24 @@ Read all wiki files (`wiki/sources/*.md` + `wiki/concepts/*.md`), validate conte
 
 ## Quick start
 
-1. **Scan wiki files** — read all `wiki/sources/*.md` + `wiki/concepts/*.md`
-2. **Validate each file** — run 4 quality checks (factual, completeness, coherence, Vietnamese)
-3. **Score issues** — assign severity (ERROR/WARNING/INFO)
-4. **Generate report** — write to `wiki/reviews/YYYY-MM-DD_output-report.md`
-5. **Update action file** — add entry to `wiki/reviews/_action-required.md`
-6. **Send notification** — Telegram alert to Julius
-7. **Log** to `.hermes/MEMORY.md`
+1. **Run quick-scan** — `bash .hermes/skills/output-validator/scripts/quick-scan.sh` for mechanical checks
+2. **⚠️ Run dropped-i (variant 5) grep MANUALLY** — quick-scan does NOT detect this variant. This is mandatory, not optional. Run the 3 grep commands below on today's new files BEFORE trusting quick-scan's "no new typos" result:
+   ```bash
+   # Sub-pattern 1: "ngườ" followed by space/punctuation (NOT followed by 'i')
+   grep -rPn 'ngườ[ ,.\t;:!?)]|ngườ$' wiki/sources/ wiki/concepts/
+   # Sub-pattern 2: "thờ" in compounds demanding "thời"  
+   grep -rPn 'thờ (đại|gian|hiện|điểm|kỳ|buổi|trẻ)|đồng thờ[^i]' wiki/sources/ wiki/concepts/
+   # Sub-pattern 3: "thay v " word fragment (often co-occurs with dropped-i)
+   grep -rPn 'thay v ' wiki/sources/ wiki/concepts/
+   ```
+   **Escalation:** If >50% of new files affected AND >10 total instances, flag as `[SYSTEMATIC ISSUE]` — this is the 5th Compile Agent tokenization defect manifestation. See Production Lessons for full context.
+3. **Read new files in detail** — read all `wiki/sources/*.md` + `wiki/concepts/*.md` compiled today
+4. **Validate each file** — run 4 quality checks (factual, completeness, coherence, Vietnamese)
+5. **Score issues** — assign severity (ERROR/WARNING/INFO)
+6. **Generate report** — write to `wiki/reviews/YYYY-MM-DD_output-report.md`
+7. **Update action file** — add entry to `wiki/reviews/_action-required.md`
+8. **Send notification** — Telegram alert to Julius
+9. **Log** to `.hermes/MEMORY.md`
 
 ## Critical rules
 

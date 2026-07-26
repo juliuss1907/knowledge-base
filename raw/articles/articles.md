@@ -22,11 +22,15 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 127 files
+- Total: 128 files
+- By status: 127 processed, 1 unprocessed
+- By date: 1 this week, 128 this month
+- Last updated: 2026-07-26
 - By status: 127 processed, 0 unprocessed
 - By date: 0 this week, 127 this month
 - Last updated: 2026-07-25
 ## Items
+- [[2026-07-26_reward-hacking-writeup]] — Your AIs don't do what you want. This is really bad (unprocessed)
 - [[2026-07-22_never-enough-ronacher]] — Never Enough by Armin Ronacher (processed)
 - [[2026-07-22_iatrogenics-farnam-street]] — Iatrogenics: Why Intervention Often Leads to Worse Outcomes by Farnam Street (processed)
 - [[2026-07-20_the-writing-habit-that-saved-my-brain]] — The writing habit that saved my brain (and my future) by Dan Koe (processed)

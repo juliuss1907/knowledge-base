@@ -4,18 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-26 (Julius approved all 3 pending reports)
+**Last updated:** 2026-07-26 23:15 (Format Validator)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 2
 **Fix queue:** 0 (all applied)
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 07-26 | Format | 357 (0E+357W) | Review [wiki/reviews/2026-07-26_format-report.md](2026-07-26_format-report.md) |
+| 🔍 PENDING | 07-26 | Output | 5 (1E+2W+1I+forward) | Review [wiki/reviews/2026-07-26_output-report.md](2026-07-26_output-report.md) |
 | ✅ APPROVED | 07-25 | Format | 336 (0E+336W) | Approved by Julius 26/07/2026 — all WARNINGs are forward-reference broken wikilinks (content gap, not structural errors). No fixes needed. |
 | ✅ APPLIED | 07-25 | Hygiene | 3 (1E+2W) | Applied by Fix Agent 2026-07-26 — moved memory/, renamed draft file | 
 | ✅ APPLIED | 07-26 | Output | 2 (1E+1I) | Applied by Fix Agent 2026-07-26 — fixed dropped-i typos in 6 files |
@@ -29,6 +31,27 @@
 | ✅ APPLIED | 07-23 | Output | 4 (1E+2W+1I) | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-23 | Hygiene | 1W | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-24 | Hygiene | 1W | Applied by Fix Agent 2026-07-25 |
+
+---
+
+## Pending Reports
+
+### 🔍 Format Validation — 2026-07-26
+
+- **Report:** `wiki/reviews/2026-07-26_format-report.md`
+- **Summary:** 357 WARNINGs (353 forward-reference broken wikilinks + 4 false-positive original-field warnings), 0 ERRORs. +10 files vs 07-25 (839 total), +21 WARNINGs (336→357). Clean structural quality — no frontmatter, section, naming, or code block issues. 0 ERROR streak: 07-22 through 07-26.
+- **Delta from 07-25 (approved):** +10 files, +21 issues. +6 concepts, +2 sources, +2 topics.
+- **Actions needed:** None — all WARNINGs are forward-references (content gaps) or validator false positives. Recommend APPROVE.
+- **Status:** pending
+
+---
+
+### 🔍 Output Validation — 2026-07-26 (23:14)
+
+- **Report:** `wiki/reviews/2026-07-26_output-report.md`
+- **Summary:** 5 issues (1 ERROR system-level + 2 WARNING + 1 INFO, plus a systemic forward-reference wikilinks issue covering 13 instances). Rerun after morning report (11:31) already applied. Net-new findings: forward-reference wikilinks in 6/6 concept files, code-switching in 2 concepts, short summary in 1 source.
+- **Actions needed:** Review forward-reference wikilink policy. Fix 2 WARNINGs (Vietnamese quality) + 1 INFO (summary length).
+- **Status:** pending
 
 ---
 
@@ -112,6 +135,8 @@ See `.openclaw/MEMORY.md` entry: 2026-07-25 09:15 — Applied Fixes (Batch 07-21
 
 All reports from 07-21 through 07-24 have been applied. See archive at `wiki/reviews/archive/2026-07/` for original report files.
 
+Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.
+
 ---
 
-*System status: 0 reports pending. All reports ✅ APPLIED.*
+*System status: 2 reports pending — Format (07-26) and Output (07-26). All prior reports ✅ APPLIED.*

@@ -1,12 +1,23 @@
-# Output Validation — 2026-07-26
+# Output Validator Report — 2026-07-26 (23:14 Update)
 
 **Status:** pending
 **Issues found:** 5
 **Created:** 2026-07-26 23:14:05
 **Validator:** output-validator
+**Previous run:** 2026-07-26 11:31 (APPROVED & APPLIED by Fix Agent — fixed dropped-i typos in 6 files)
 **Files checked:** 627 (155 sources + 472 concepts)
 **New files:** 8 (2 sources + 6 concepts)
 **Quick-scan:** Clean — 0 new mechanical typos (ngưởi, double-i, spacing-merge, capital-I, variant-5 dropped-i)
+
+---
+
+## Previous approved run context
+
+Morning run at 11:31 found 2 issues (1 ERROR + 1 INFO):
+- **ERROR:** Dropped-i typos (variant 5) in 6/8 new files (~10 instances): `thờ điểm`, `ngườ dùng`, `thờ gian`, `thay v`
+- **INFO:** "thay v" word fragment in 2 files
+
+Fix Agent applied corrections 2026-07-26. All 6 affected files now clean. This rerun validates post-fix state — the 5 issues below are net-new findings not present in the morning report.
 
 ---
 

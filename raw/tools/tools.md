@@ -21,14 +21,14 @@ Danh sách các công cụ, phần mềm, và quy trình sử dụng trong knowl
 ## Stats
 
 - Total: 2 files
-- By status: 0 processed, 2 unprocessed
+- By status: 2 processed, 0 unprocessed
 - By date: 2 this week, 2 this month
-- Last updated: 2026-07-25
+- Last updated: 2026-07-26
 
 ## Items
 
-- [[2026-07-25_introducing-backsearch-gr-inc]] — Introducing BackSearch by General Reasoning (unprocessed)
-- [[2026-07-25_monid-ai-agent-tool-platform]] — Monid — Connect your agent to every tool it needs (unprocessed)
+- [[2026-07-25_introducing-backsearch-gr-inc]] — Introducing BackSearch by General Reasoning (processed)
+- [[2026-07-25_monid-ai-agent-tool-platform]] — Monid — Connect your agent to every tool it needs (processed)
 
 ## Notes
 

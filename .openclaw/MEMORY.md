@@ -1,5 +1,41 @@
 ---
 
+## 2026-07-26 08:00 — Compiled
+
+**Batch:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+1. **raw/tools/2026-07-25_monid-ai-agent-tool-platform.md**
+   - **Source note:** [[wiki/sources/src_monid-ai-agent-tool-platform.md]]
+   - **Concepts created:** 3 mới
+     - [[ai-agent-tool-orchestration]] ✨
+     - [[unified-api-gateway]] ✨
+     - [[pay-per-call-pricing]] ✨
+   - **Tags:** main=#ai, sub=[tools, automation], topic=ai-agent-tool-platform
+
+2. **raw/tools/2026-07-25_introducing-backsearch-gr-inc.md**
+   - **Source note:** [[wiki/sources/src_introducing-backsearch-gr-inc.md]]
+   - **Concepts created:** 3 mới
+     - [[agent-backtesting]] ✨
+     - [[frozen-corpus-search]] ✨
+     - [[point-in-time-data]] ✨
+   - **Tags:** main=#ai, sub=[tools, research], topic=agent-backtesting
+
+### Summary
+
+- **Raw files processed:** 2/2
+- **Source notes created:** 2
+- **Concepts created:** 6 mới
+- **Concepts updated:** 0
+- **Tags applied:** 2 combinations
+- **Raw status updated:** processed (2 files)
+- **Index updated:** raw/tools/tools.md
+
+**Next step:** Index Agent sẽ chạy lúc 21:00 để cập nhật tag và topic indexes.
+
+---
+
 ## 2026-07-25 23:30 — Heartbeat Check
 
 **Check ID:** 3e70fe54-de76-4781-9342-c1ab2a73ebd4

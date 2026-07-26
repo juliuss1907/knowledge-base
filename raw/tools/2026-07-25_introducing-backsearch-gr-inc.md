@@ -5,7 +5,9 @@ source_url: https://www.gr.inc/releases/introducing-backsearch
 author: General Reasoning (GR.inc)
 date_published: 2026-07-24
 date_ingested: 2026-07-25
-status: unprocessed
+status: processed
+compiled_at: 2026-07-26
+compiled_to: "[[src_introducing-backsearch-gr-inc.md]]"
 tags: []
 ---
 

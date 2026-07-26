@@ -20,20 +20,21 @@
       "schedule_display": "0 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 17
+        "completed": 52
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:10:27.286282+07:00",
-      "next_run_at": "2026-06-21T23:00:00+07:00",
-      "last_run_at": "2026-06-20T23:04:18.726239+07:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: HTTP 429: Weekly usage limit reached. Resets in 1 day. To continue using this model now, enable usage from your available balance: https://opencode.ai/workspace/wrk_01KTRTEWRQH9CPC9NDA3SE51QJ/go",
+      "next_run_at": "2026-07-26T23:00:00+07:00",
+      "last_run_at": "2026-07-25T23:12:33.799159+07:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
-      "origin": null
+      "origin": null,
+      "fire_claim": null
     },
     {
       "id": "d14687442111",
@@ -55,20 +56,21 @@
       "schedule_display": "15 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 15
+        "completed": 50
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:11:13.837401+07:00",
-      "next_run_at": "2026-06-21T23:15:00+07:00",
-      "last_run_at": "2026-06-20T23:19:17.985454+07:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: HTTP 429: Weekly usage limit reached. Resets in 1 day. To continue using this model now, enable usage from your available balance: https://opencode.ai/workspace/wrk_01KTRTEWRQH9CPC9NDA3SE51QJ/go",
+      "next_run_at": "2026-07-26T23:15:00+07:00",
+      "last_run_at": "2026-07-25T23:18:40.566844+07:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
-      "origin": null
+      "origin": null,
+      "fire_claim": null
     },
     {
       "id": "f1ff44c008e2",
@@ -90,20 +92,21 @@
       "schedule_display": "30 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 15
+        "completed": 50
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:11:23.785428+07:00",
-      "next_run_at": "2026-06-21T23:30:00+07:00",
-      "last_run_at": "2026-06-20T23:34:18.399509+07:00",
-      "last_status": "error",
-      "last_error": "RuntimeError: HTTP 429: Weekly usage limit reached. Resets in 1 day. To continue using this model now, enable usage from your available balance: https://opencode.ai/workspace/wrk_01KTRTEWRQH9CPC9NDA3SE51QJ/go",
+      "next_run_at": "2026-07-26T23:30:00+07:00",
+      "last_run_at": "2026-07-25T23:33:09.852453+07:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "deliver": "origin",
-      "origin": null
+      "origin": null,
+      "fire_claim": null
     },
     {
       "id": "d34704e0987e",
@@ -226,5 +229,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-06-20T23:34:18.400112+07:00"
+  "updated_at": "2026-07-25T23:33:09.853261+07:00"
 }

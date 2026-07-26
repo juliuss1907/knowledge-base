@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 164
-- Sources: 37
-- Concepts: 127
-- Last updated: 2026-07-25
+- Total files: 168
+- Sources: 39
+- Concepts: 129
+- Last updated: 2026-07-26
 
 ## Files with this tag
 
@@ -187,11 +187,15 @@ last_updated: 2026-07-25
 - [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
 - [[x-search-tool]] — X Search Tool (concept)
 - [[zero-member-llc]] — Zero Member Llc (concept)
+- [[agent-backtesting]] — Agent Backtesting (concept)
+- [[ai-agent-tool-orchestration]] — Ai Agent Tool Orchestration (concept)
+- [[src_introducing-backsearch-gr-inc]] — Introducing Backsearch Gr Inc (source)
+- [[src_monid-ai-agent-tool-platform]] — Monid Ai Agent Tool Platform (source)
 
 ## Co-occurring tags
 
-- [[tools]] — 105 co-occurrences
-- [[research]] — 66 co-occurrences
-- [[automation]] — 55 co-occurrences
+- [[tools]] — 110 co-occurrences
+- [[research]] — 68 co-occurrences
+- [[automation]] — 57 co-occurrences
 - [[opinion]] — 40 co-occurrences
 - [[coding]] — 26 co-occurrences

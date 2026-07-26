@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 233
-- Sources: 52
-- Concepts: 181
-- Last updated: 2026-07-25
+- Total files: 237
+- Sources: 53
+- Concepts: 184
+- Last updated: 2026-07-26
 
 ## Files with this tag
 
@@ -256,6 +256,10 @@ last_updated: 2026-07-25
 - [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
+- [[agent-backtesting]] — Agent Backtesting (concept)
+- [[frozen-corpus-search]] — Frozen Corpus Search (concept)
+- [[point-in-time-data]] — Point In Time Data (concept)
+- [[src_introducing-backsearch-gr-inc]] — Introducing Backsearch Gr Inc (source)
 
 ## Co-occurring tags
 

@@ -333,3 +333,39 @@ Fixed ~10 instances across 6 files:
 - 0 reports pending review
 - System: HEARTBEAT_OK
 
+
+## 2026-07-26 21:00 — Indexed
+
+**Batch:** KB Index Daily (cron:5de7b598-808b-4182-abfb-6bdeed920af4)
+**Mode:** Incremental (8 files changed)
+
+### Files Scanned
+- wiki/sources/src_introducing-backsearch-gr-inc.md
+- wiki/sources/src_monid-ai-agent-tool-platform.md
+- wiki/concepts/frozen-corpus-search.md
+- wiki/concepts/agent-backtesting.md
+- wiki/concepts/ai-agent-tool-orchestration.md
+- wiki/concepts/unified-api-gateway.md
+- wiki/concepts/point-in-time-data.md
+- wiki/concepts/pay-per-call-pricing.md
+
+### Tag Indexes Updated
+- [[ai]] — 168 files (+4)
+- [[system]] — 48 files (+3)
+- [[economic]] — 83 files (+1)
+- [[tools]] — 178 files (+8)
+- [[research]] — 237 files (+4)
+- [[automation]] — 89 files (+4)
+
+### Topic Indexes Created
+- [[agent-backtesting]] — 3 concepts + 1 source
+- [[ai-agent-tool-platform]] — 3 concepts + 1 source
+
+### Summary
+- **Scanned:** 2 sources + 6 concepts = 8 total files
+- **Tags indexed:** 6 (3 main-tags + 3 sub-tags)
+- **Topics indexed:** 2
+- **Orphans deleted:** 0
+- **Errors:** 0
+
+**Next run:** 2026-07-27 21:00

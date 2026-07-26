@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 82
+- Total files: 83
 - Sources: 17
-- Concepts: 65
-- Last updated: 2026-07-25
+- Concepts: 66
+- Last updated: 2026-07-26
 
 ## Files with this tag
 
@@ -105,6 +105,7 @@ last_updated: 2026-07-25
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
+- [[pay-per-call-pricing]] — Pay Per Call Pricing (concept)
 
 ## Co-occurring tags
 

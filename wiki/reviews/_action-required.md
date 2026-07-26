@@ -4,20 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-26 11:31
+**Last updated:** 2026-07-26 (Julius approved all 3 pending reports)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 0
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 07-25 | Format | 336 (0E+336W) | Review [wiki/reviews/2026-07-25_format-report.md](2026-07-25_format-report.md)
-| 🔍 PENDING | 07-25 | Hygiene | 3 (1E+2W) | Review [wiki/reviews/2026-07-25_hygiene-report.md](2026-07-25_hygiene-report.md) |
-| 🔍 PENDING | 07-26 | Output | 2 (1E+1I) | Review [wiki/reviews/2026-07-26_output-report.md](2026-07-26_output-report.md) |
+| ✅ APPROVED | 07-25 | Format | 336 (0E+336W) | Approved by Julius 26/07/2026 — all WARNINGs are forward-reference broken wikilinks (content gap, not structural errors). No fixes needed. |
+| ✅ APPROVED | 07-25 | Hygiene | 3 (1E+2W) | Approved by Julius 26/07/2026 — Fix Agent to apply fixes | 
+| ✅ APPROVED | 07-26 | Output | 2 (1E+1I) | Approved by Julius 26/07/2026 — Fix Agent to apply fixes |
 | ✅ APPLIED | 07-24 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-23 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-22 | Format | 318W | Applied by Fix Agent 2026-07-25 |
@@ -31,41 +31,31 @@
 
 ---
 
-## 🔍 Pending Reports
+## ✅ Approved — 2026-07-25 / 2026-07-26 (Julius)
 
-### 🔍 Format Validation — 2026-07-25
+### ✅ Format Validation — 2026-07-25
 
 **Summary:** 336 WARNINGs (all broken wikilinks), 0 ERRORs. +1 file (829 total), -1 issue vs 07-24. The 07-24 ERROR (psychology.md Co-occurring tags) resolved by Fix Agent batch.
 
-**Delta:** -1 issue (337→336), -1 ERROR (1→0, fixed), +1 file. WARNING count unchanged at 336 — all forward-references.
-
-**Actions:**
-- No required fixes — 0 ERRORs, 0 structural issues
-- All WARNINGs are broken wikilinks (forward-references); resolution depends on Compile Agent backlog
-- 2 false-positive WARNINGs (`original` field raw-subdir resolution) — known validator limitation
-- [ ] Julius: approve or reject → `approve format` or `reject format`
+**Verdict:** APPROVED. All WARNINGs are forward-references — content gap, not structural errors. No format fixes required.
 
 ---
 
-### 🔍 Hygiene Inspection — 2026-07-25
+### ✅ Hygiene Inspection — 2026-07-25
 
 **Summary:** 1 ERROR + 2 WARNINGs. ERROR is the recurring `memory/` root folder (7th flag — process-level fix needed: OpenClaw writes memory logs to `memory/` instead of `.openclaw/memory/`). 1 WARNING for orphan file inside `memory/`, 1 WARNING for draft naming (`src_` prefix in drafts).
 
-**Actions:**
-- [ ] ERROR — Move `memory/2026-07-25.md` to `.openclaw/memory/`, then `rmdir memory/`. Fix OpenClaw output path targeting root `memory/` instead of `.openclaw/memory/`.
-- [ ] WARNING — Rename `wiki/drafts/src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` → drop `src_` prefix, convert underscores to hyphens.
-- [ ] Julius: approve or reject → `approve hygiene` or `reject hygiene`
+**Verdict:** APPROVED. Fix Agent to apply:
+- ERROR — Move `memory/2026-07-25.md` to `.openclaw/memory/`, then `rmdir memory/`
+- WARNING — Rename draft file to drop `src_` prefix
 
 ---
 
-### 🔍 Output Validation — 2026-07-26 (11:31)
+### ✅ Output Validation — 2026-07-26
 
-**Summary:** 1 ERROR + 1 INFO. ERROR is dropped-i typos (variant 5) in 6/8 new files (~10 instances, 75% affected). This is the 5th manifestation of Compile Agent's "ời→ờ" tokenization defect. 1 INFO for "thay v" word fragment. All 8 new files structurally clean (Definitions 2 câu, Key ideas 5-7 items, Sources populated).
+**Summary:** 1 ERROR + 1 INFO. ERROR is dropped-i typos (variant 5) in 6/8 new files (~10 instances). INFO for "thay v" word fragment.
 
-**Actions:**
-- [ ] ERROR — Fix dropped-i typos in 6 files via sed (see report for exact commands). Mark as applied.
-- [ ] INFO — Fix "thay v" → "thay vì" in pay-per-call-pricing.md.
-- [ ] Julius: approve or reject → `approve output` or `reject output`
+**Verdict:** APPROVED. Fix Agent to apply typo fixes.
 
 ---
 
@@ -97,4 +87,4 @@ All reports from 07-21 through 07-24 have been applied. See archive at `wiki/rev
 
 ---
 
-*System status: 2 reports pending review (07-25 Format, 07-25 Hygiene). Previous reports (07-21 through 07-24) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*
+*System status: 0 reports pending. All 3 reports (07-25 Format, 07-25 Hygiene, 07-26 Output) ✅ APPROVED by Julius. Awaiting Fix Agent to apply fixes for Hygiene and Output.*

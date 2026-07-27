@@ -22,11 +22,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 128 files
-- By status: 128 processed, 0 unprocessed
-- By date: 6 this week, 128 this month
+- Total: 129 files
+- By status: 128 processed, 1 unprocessed
+- By date: 1 this week, 129 this month
 - Last updated: 2026-07-27
 ## Items
+- [[2026-07-27_agent-memory-7-types-substack]] — Agent Memory — the 7 types you should know before you ship to production (unprocessed)
 - [[2026-07-26_reward-hacking-writeup]] — Your AIs don't do what you want. This is really bad (processed)
 - [[2026-07-22_never-enough-ronacher]] — Never Enough by Armin Ronacher (processed)
 - [[2026-07-22_iatrogenics-farnam-street]] — Iatrogenics: Why Intervention Often Leads to Worse Outcomes by Farnam Street (processed)

@@ -304,3 +304,33 @@
 
 *OpenClaw MEMORY.md — Append-only log*
 *Last updated: 2026-07-27 08:00*
+
+---
+
+## 2026-07-27 09:19 — Ingest: Agent Memory — 7 Types (Substack)
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Ingested article https://jamwithai.substack.com/p/agent-memory-the-7-types-you-should  
+**File:** `raw/articles/2026-07-27_agent-memory-7-types-substack.md`
+
+### Content Summary
+Bài viết từ jamwithai (Substack) phân tích 7 loại memory trong AI agents — framework để thiết kế agent memory trước khi deploy production.
+
+### The 7 Types of Agent Memory
+1. **In-context / working memory** — What the model can see right now in the prompt
+2. **Semantic memory** — Long-term facts and concepts
+3. **Episodic memory** — Specific experiences and events
+4. **Procedural memory** — How to perform tasks (skills)
+5. **External / retrieval memory** — Data fetched from outside
+6. **Parametric memory** — Knowledge encoded in model weights
+7. **Prospective memory** — Remembering to do things in the future
+
+### Key Insights
+- "More memory is not a better agent. A better agent forgets on purpose."
+- Distinction: stored vs active, what vs where
+- Based on CoALA: Cognitive Architectures for Language Agents (Sumers et al., 2023)
+- Common pitfall: "just add a vector DB" — fails when mixing what/where axes
+
+### Status
+- Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
+

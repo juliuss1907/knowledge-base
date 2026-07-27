@@ -334,3 +334,35 @@ Bài viết từ jamwithai (Substack) phân tích 7 loại memory trong AI agent
 ### Status
 - Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
 
+
+---
+
+## 2026-07-27 10:19 — Ingest: The "Let Them" Theory (Gabriel Reality)
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Ingested article https://gabrielrealityofficial.substack.com/p/the-let-them-theory-will-change-your  
+**File:** `raw/articles/2026-07-27_the-let-them-theory-gabriel-reality.md`
+
+### Content Summary
+Bài viết từ Gabriel Reality (Substack) về "Let Them" theory — cách tiếp cận relationships khi đối phó với ngườii có behavior inconsistent.
+
+### Core Concept
+- Đừng cố giải thích hay thay đổi ngườii có behavior inconsistent
+- Hãy "let them" — chấp nhận họ đúng là những gì họ đang thể hiện
+- Update behavior của mình thay vì cố fix họ
+
+### Key Insights
+- Brain's intolerance of uncertainty response — anterior cingulate cortex fires khi gặp unpredictable behavior
+- "The confusion is the answer" — inconsistency là thông tin về who they are
+- Control trap: Staying feels like loyalty, explaining feels like honesty, trying harder feels like commitment
+- Letting them là chọn finite discomfort (grief, clarity) thay vì indefinite discomfort (the chase loop)
+
+### Quotes
+- Jane Goodall: "You cannot get through a single day without having an impact..."
+- Epictetus: "People are disturbed not by things, but by the views which they take of things."
+- Coco Chanel: "The most courageous act is still to think for yourself. Aloud."
+- Abraham Joshua Heschel: "Self-respect is the root of discipline..."
+
+### Status
+- Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
+

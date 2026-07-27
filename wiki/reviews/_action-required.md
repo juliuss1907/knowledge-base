@@ -4,20 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-26 23:30 (Hygiene Inspector)
+**Last updated:** 2026-07-27 (Julius — approved Output 07-26)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 2
 **Fix queue:** 0 (all applied)
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 07-26 | Format | 357 (0E+357W) | Review [wiki/reviews/2026-07-26_format-report.md](2026-07-26_format-report.md) |
-| 🔍 PENDING | 07-26 | Output | 5 (1E+2W+1I+forward) | Review [wiki/reviews/2026-07-26_output-report.md](2026-07-26_output-report.md) |
+| ✅ APPROVED | 07-26 | Output | 5 (1E+2W+1I+forward) | Approved by Julius 27/07/2026 — tự sửa. |
 | 🔍 PENDING | 07-26 | Hygiene | 0 (clean) | Review [wiki/reviews/2026-07-26_hygiene-report.md](2026-07-26_hygiene-report.md) |
 | ✅ APPROVED | 07-25 | Format | 336 (0E+336W) | Approved by Julius 26/07/2026 — all WARNINGs are forward-reference broken wikilinks (content gap, not structural errors). No fixes needed. |
 | ✅ APPLIED | 07-25 | Hygiene | 3 (1E+2W) | Applied by Fix Agent 2026-07-26 — moved memory/, renamed draft file | 
@@ -47,12 +47,12 @@
 
 ---
 
-### 🔍 Output Validation — 2026-07-26 (23:14)
+### ✅ Output Validation — 2026-07-26 (23:14) — APPROVED
 
 - **Report:** `wiki/reviews/2026-07-26_output-report.md`
 - **Summary:** 5 issues (1 ERROR system-level + 2 WARNING + 1 INFO, plus a systemic forward-reference wikilinks issue covering 13 instances). Rerun after morning report (11:31) already applied. Net-new findings: forward-reference wikilinks in 6/6 concept files, code-switching in 2 concepts, short summary in 1 source.
-- **Actions needed:** Review forward-reference wikilink policy. Fix 2 WARNINGs (Vietnamese quality) + 1 INFO (summary length).
-- **Status:** pending
+- **Actions needed:** Julius sẽ tự sửa.
+- **Status:** approved
 
 ---
 
@@ -149,4 +149,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 3 reports pending — Format (07-26), Output (07-26), Hygiene (07-26, clean). All prior reports ✅ APPLIED.*
+*System status: 2 reports pending — Format (07-26), Hygiene (07-26, clean). Output 07-26 ✅ APPROVED. All prior reports ✅ APPLIED.*

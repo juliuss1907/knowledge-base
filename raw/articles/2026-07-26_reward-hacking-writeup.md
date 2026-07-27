@@ -5,8 +5,10 @@ source_url: https://rewardhacking.org/writeup
 author: rewardhacking.org
 date_published: 2026-07-21
 date_ingested: 2026-07-26
-status: unprocessed
+status: processed
 tags: []
+compiled_at: 2026-07-27
+compiled_to: "[[src_reward-hacking-writeup]]"
 ---
 
 # Your AIs don't do what you want. This is really bad

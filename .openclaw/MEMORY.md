@@ -366,3 +366,31 @@ Bài viết từ Gabriel Reality (Substack) về "Let Them" theory — cách ti�
 ### Status
 - Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
 
+
+---
+
+## 2026-07-29 19:23 — Ingest: How to Remember Everything You Read (Dan Koe)
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Ingested article https://letters.thedankoe.com/p/how-to-remember-everything-you-read  
+**File:** `raw/articles/2026-07-29_how-to-remember-everything-you-read-dan-koe.md`
+
+### Content Summary
+Bài viết từ Dan Koe (Substack) về cách học thực sự hiệu quả — không phải memorization mà là understanding thông qua goals và projects.
+
+### Key Insights
+- "If you need to remember it, it's not important. If it's important, you will remember it."
+- Learning is an OUTPUT process, not input process — output demands input
+- Cybernetic learning process: Reference signal (goal) → Sensor → Comparator (gap/error) → Actuator
+- Goals create error signals → filters → relevance → retention
+- "Second brain" và note-taking systems are largely useless without action
+- Treat life as projects: mind, body, relationships, finances
+
+### Framework
+- Don't start with learning — take the first step toward the goal instead
+- Being extreme changes your brain and enhances neuroplasticity
+- "Burn the boats. Change your life."
+
+### Status
+- Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
+

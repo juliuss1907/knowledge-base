@@ -22,11 +22,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 130 files
-- By status: 128 processed, 2 unprocessed
-- By date: 2 this week, 130 this month
-- Last updated: 2026-07-27
+- Total: 131 files
+- By status: 128 processed, 3 unprocessed
+- By date: 1 this week, 131 this month
+- Last updated: 2026-07-29
 ## Items
+- [[2026-07-29_how-to-remember-everything-you-read-dan-koe]] — How to remember everything you read by Dan Koe (unprocessed)
 - [[2026-07-27_the-let-them-theory-gabriel-reality]] — The "Let Them" Theory Will Change Your Life And Your Romantical / Friendship Choices Forever (unprocessed)
 - [[2026-07-27_agent-memory-7-types-substack]] — Agent Memory — the 7 types you should know before you ship to production (unprocessed)
 - [[2026-07-26_reward-hacking-writeup]] — Your AIs don't do what you want. This is really bad (processed)

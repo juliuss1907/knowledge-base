@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 230
-- Sources: 75
+- Total files: 231
+- Sources: 76
 - Concepts: 155
-- Last updated: 2026-07-25
+- Last updated: 2026-07-29
 
 ## Files with this tag
 
@@ -233,6 +233,7 @@ last_updated: 2026-07-25
 - [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source)
 - [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source)
 - [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source)
+- [[src_reward-hacking-writeup]] — Reward Hacking Writeup (source)
 - [[state-capacity-theory]] — State Capacity Theory (concept)
 - [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
 - [[static-website-blind-spot]] — Static Website Blind Spot (concept)
@@ -258,6 +259,6 @@ last_updated: 2026-07-25
 
 - [[productivity]] — 105 co-occurrences
 - [[psychology]] — 100 co-occurrences
-- [[research]] — 60 co-occurrences
-- [[ai]] — 40 co-occurrences
+- [[research]] — 61 co-occurrences
+- [[ai]] — 41 co-occurrences
 - [[economic]] — 39 co-occurrences

@@ -1,5 +1,48 @@
 ---
 
+## 2026-07-29 21:00 — Indexed (Incremental)
+
+**Task:** KB Index Daily (cron:5de7b598-808b-4182-abfb-6bdeed920af4)
+
+### Mode
+- **Type:** Incremental
+- **Files changed since last index:** 6
+- **Last success:** 2026-07-26T21:00:00
+
+### Files Scanned
+
+1. `wiki/sources/src_reward-hacking-writeup.md` — source, #ai, [research, hack, opinion]
+2. `wiki/concepts/reward-seeking.md` — concept, #ai, [research]
+3. `wiki/concepts/ai-safety-monitoring.md` — concept, #ai, [research, tools]
+4. `wiki/concepts/ai-alignment.md` — concept, #ai, [research]
+5. `wiki/concepts/reward-hacking.md` — concept, #ai, [research, hack]
+6. `wiki/concepts/apparent-success-seeking.md` — concept, #ai, [research]
+
+### Tag Indexes Updated
+
+| Tag | Before | After | Change |
+|-----|--------|-------|--------|
+| #ai | 168 | 174 | +6 |
+| #research | 237 | 243 | +6 |
+| #hack | 18 | 20 | +2 |
+| #opinion | 230 | 231 | +1 |
+| #tools | 178 | 179 | +1 |
+
+### Topic Indexes Created
+
+- `wiki/topic/ai-reward-hacking-alignment.md` — 5 concepts + 1 source
+
+### Summary
+
+- **Scanned:** 6 files (incremental)
+- **Tag indexes updated:** 5
+- **Topic indexes created:** 1
+- **Orphans deleted:** 0
+- **Invalid tags found:** 0
+- **Errors:** 0
+
+---
+
 ## 2026-07-27 08:00 — Compiled
 
 **Batch:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)

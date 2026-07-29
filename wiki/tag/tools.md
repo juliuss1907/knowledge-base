@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 178
+- Total files: 179
 - Sources: 40
-- Concepts: 138
-- Last updated: 2026-07-26
+- Concepts: 139
+- Last updated: 2026-07-29
 
 ## Files with this tag
 
@@ -199,13 +199,14 @@ last_updated: 2026-07-25
 - [[pay-per-call-pricing]] — Pay Per Call Pricing (concept)
 - [[point-in-time-data]] — Point In Time Data (concept)
 - [[unified-api-gateway]] — Unified Api Gateway (concept)
+- [[ai-safety-monitoring]] — Ai Safety Monitoring (concept)
 - [[src_introducing-backsearch-gr-inc]] — Introducing Backsearch Gr Inc (source)
 - [[src_monid-ai-agent-tool-platform]] — Monid Ai Agent Tool Platform (source)
 
 ## Co-occurring tags
 
-- [[ai]] — 105 co-occurrences
+- [[ai]] — 106 co-occurrences
 - [[automation]] — 54 co-occurrences
-- [[research]] — 53 co-occurrences
+- [[research]] — 54 co-occurrences
 - [[tutorial]] — 25 co-occurrences
 - [[opinion]] — 23 co-occurrences

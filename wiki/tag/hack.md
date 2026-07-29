@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 18
-- Sources: 5
-- Concepts: 13
-- Last updated: 2026-07-25
+- Total files: 20
+- Sources: 6
+- Concepts: 14
+- Last updated: 2026-07-29
 
 ## Files with this tag
 
@@ -36,16 +36,18 @@ last_updated: 2026-07-25
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_mutually-assured-destruction]] — Mutually Assured Destruction (source)
 - [[src_project-glasswing-update]] — Project Glasswing Update (source)
+- [[src_reward-hacking-writeup]] — Reward Hacking Writeup (source)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
 - [[supply-chain-attack]] — Supply Chain Attack (concept)
 - [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
 - [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)
+- [[reward-hacking]] — Reward Hacking (concept)
 
 ## Co-occurring tags
 
 - [[tech]] — 10 co-occurrences
 - [[tools]] — 9 co-occurrences
-- [[research]] — 8 co-occurrences
+- [[research]] — 10 co-occurrences
+- [[ai]] — 6 co-occurrences
 - [[politic]] — 4 co-occurrences
-- [[ai]] — 4 co-occurrences

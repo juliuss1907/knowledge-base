@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 237
-- Sources: 53
-- Concepts: 184
-- Last updated: 2026-07-26
+- Total files: 243
+- Sources: 54
+- Concepts: 189
+- Last updated: 2026-07-29
 
 ## Files with this tag
 
@@ -234,6 +234,7 @@ last_updated: 2026-07-25
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
 - [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)
 - [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
+- [[src_reward-hacking-writeup]] — Reward Hacking Writeup (source)
 - [[stakeholder-mapping]] — Stakeholder Mapping (concept)
 - [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
 - [[state-space-models-ssm]] — State Space Models Ssm (concept)
@@ -257,14 +258,19 @@ last_updated: 2026-07-25
 - [[volume-confirmation]] — Volume Confirmation (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
 - [[agent-backtesting]] — Agent Backtesting (concept)
+- [[ai-alignment]] — Ai Alignment (concept)
+- [[ai-safety-monitoring]] — Ai Safety Monitoring (concept)
+- [[apparent-success-seeking]] — Apparent Success Seeking (concept)
 - [[frozen-corpus-search]] — Frozen Corpus Search (concept)
 - [[point-in-time-data]] — Point In Time Data (concept)
+- [[reward-hacking]] — Reward Hacking (concept)
+- [[reward-seeking]] — Reward Seeking (concept)
 - [[src_introducing-backsearch-gr-inc]] — Introducing Backsearch Gr Inc (source)
 
 ## Co-occurring tags
 
 - [[productivity]] — 85 co-occurrences
-- [[ai]] — 66 co-occurrences
-- [[opinion]] — 60 co-occurrences
+- [[ai]] — 72 co-occurrences
+- [[opinion]] — 61 co-occurrences
 - [[psychology]] — 59 co-occurrences
-- [[tools]] — 53 co-occurrences
+- [[tools]] — 54 co-occurrences

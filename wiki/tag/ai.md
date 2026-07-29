@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 168
-- Sources: 39
-- Concepts: 129
-- Last updated: 2026-07-26
+- Total files: 174
+- Sources: 40
+- Concepts: 134
+- Last updated: 2026-07-29
 
 ## Files with this tag
 
@@ -189,13 +189,19 @@ last_updated: 2026-07-25
 - [[zero-member-llc]] — Zero Member Llc (concept)
 - [[agent-backtesting]] — Agent Backtesting (concept)
 - [[ai-agent-tool-orchestration]] — Ai Agent Tool Orchestration (concept)
+- [[ai-alignment]] — Ai Alignment (concept)
+- [[ai-safety-monitoring]] — Ai Safety Monitoring (concept)
+- [[apparent-success-seeking]] — Apparent Success Seeking (concept)
+- [[reward-hacking]] — Reward Hacking (concept)
+- [[reward-seeking]] — Reward Seeking (concept)
 - [[src_introducing-backsearch-gr-inc]] — Introducing Backsearch Gr Inc (source)
 - [[src_monid-ai-agent-tool-platform]] — Monid Ai Agent Tool Platform (source)
+- [[src_reward-hacking-writeup]] — Reward Hacking Writeup (source)
 
 ## Co-occurring tags
 
-- [[tools]] — 110 co-occurrences
-- [[research]] — 68 co-occurrences
+- [[tools]] — 111 co-occurrences
+- [[research]] — 74 co-occurrences
 - [[automation]] — 57 co-occurrences
-- [[opinion]] — 40 co-occurrences
+- [[opinion]] — 41 co-occurrences
 - [[coding]] — 26 co-occurrences

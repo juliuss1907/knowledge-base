@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Tag: #psychology
@@ -16,15 +16,16 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 254
-- Sources: 69
-- Concepts: 185
-- Last updated: 2026-07-25
+- Total files: 266
+- Sources: 71
+- Concepts: 195
+- Last updated: 2026-07-30
 
 ## Files with this tag
 
 - [[activation-energy]] — Activation Energy (concept)
 - [[ai-dependency]] — Ai Dependency (concept)
+- [[anterior-cingulate-cortex]] — Anterior Cingulate Cortex (concept)
 - [[approach-avoidance-conflict]] — Approach Avoidance Conflict (concept)
 - [[authenticity-creative-expression]] — Authenticity Creative Expression (concept)
 - [[boredom-as-dopamine-reset]] — Boredom As Dopamine Reset (concept)
@@ -47,12 +48,14 @@ last_updated: 2026-07-25
 - [[compounding-relationships]] — Compounding Relationships (concept)
 - [[comprehensible-input]] — Comprehensible Input (concept)
 - [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept)
+- [[control-trap]] — Control Trap (concept)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
 - [[cortisol-management]] — Cortisol Management (concept)
 - [[costly-signal]] — Costly Signal (concept)
 - [[creativity-as-skill]] — Creativity As Skill (concept)
 - [[critical-mass]] — Critical Mass (concept)
 - [[cultural-memetics]] — Cultural Memetics (concept)
+- [[cybernetics-learning-model]] — Cybernetics Learning Model (concept)
 - [[decoding-messages-language]] — Decoding Messages Language (concept)
 - [[deliberate-practice]] — Deliberate Practice (concept)
 - [[delusional-optimism]] — Delusional Optimism (concept)
@@ -71,6 +74,7 @@ last_updated: 2026-07-25
 - [[entropy]] — Entropy (concept)
 - [[environment-design-for-habits]] — Environment Design For Habits (concept)
 - [[erg-theory]] — Erg Theory (concept)
+- [[error-signal-learning]] — Error Signal Learning (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
 - [[experience-over-achievement]] — Experience Over Achievement (concept)
 - [[explore-exploit-tradeoff]] — Explore Exploit Tradeoff (concept)
@@ -86,6 +90,7 @@ last_updated: 2026-07-25
 - [[galilean-relativity]] — Galilean Relativity (concept)
 - [[gamification-design-patterns]] — Gamification Design Patterns (concept)
 - [[goal-announcement-trap]] — Goal Announcement Trap (concept)
+- [[goal-directed-learning]] — Goal Directed Learning (concept)
 - [[growth-and-relationships]] — Growth And Relationships (concept)
 - [[habit-automation]] — Habit Automation (concept)
 - [[hanlons-razor]] — Hanlons Razor (concept)
@@ -105,6 +110,7 @@ last_updated: 2026-07-25
 - [[internal-alignment]] — Internal Alignment (concept)
 - [[internal-foundation-identity]] — Internal Foundation Identity (concept)
 - [[internal-locus-of-control]] — Internal Locus Of Control (concept)
+- [[intolerance-of-uncertainty]] — Intolerance Of Uncertainty (concept)
 - [[intrinsic-motivation]] — Intrinsic Motivation (concept)
 - [[inversion]] — Inversion (concept)
 - [[investment-conviction]] — Investment Conviction (concept)
@@ -114,7 +120,9 @@ last_updated: 2026-07-25
 - [[law-of-assumption]] — Law Of Assumption (concept)
 - [[laws-of-the-world]] — Laws Of The World (concept)
 - [[learned-helplessness]] — Learned Helplessness (concept)
+- [[learning-filter]] — Learning Filter (concept)
 - [[learning-through-retrieval]] — Learning Through Retrieval (concept)
+- [[let-them-theory]] — Let Them Theory (concept)
 - [[levels-of-awareness]] — Levels Of Awareness (concept)
 - [[leverage]] — Leverage (concept)
 - [[leverage-skills]] — Leverage Skills (concept)
@@ -144,6 +152,7 @@ last_updated: 2026-07-25
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
 - [[outcome-independence]] — Outcome Independence (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
+- [[output-based-learning]] — Output Based Learning (concept)
 - [[outsourced-thinking]] — Outsourced Thinking (concept)
 - [[pareto-principle]] — Pareto Principle (concept)
 - [[passion-economy-trap]] — Passion Economy Trap (concept)
@@ -216,6 +225,7 @@ last_updated: 2026-07-25
 - [[src_hanlons-razor]] — Hanlons Razor (source)
 - [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness Is A Skill Hussain Ibarra (source)
 - [[src_how-to-live-without-options]] — How To Live Without Options (source)
+- [[src_how-to-remember-everything-you-read-dan-koe]] — How To Remember Everything You Read Dan Koe (source)
 - [[src_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone At Any Time (source)
 - [[src_hypergamy]] — Hypergamy (source)
 - [[src_iatrogenics-farnam-street]] — Iatrogenics Farnam Street (source)
@@ -249,6 +259,7 @@ last_updated: 2026-07-25
 - [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
 - [[src_the-art-of-elaboration]] — The Art Of Elaboration (source)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source)
+- [[src_the-let-them-theory-gabriel-reality]] — The Let Them Theory Gabriel Reality (source)
 - [[src_thermodynamics]] — Thermodynamics (source)
 - [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] — Thiet Ke Quy Tac Bao Ve Su Chu Y (source)
 - [[src_third-order-thinking-how-to-build]] — Third Order Thinking How To Build (source)
@@ -261,6 +272,7 @@ last_updated: 2026-07-25
 - [[src_you-escape-competition-by-figuring-out-who-you-are]] — You Escape Competition By Figuring Out Who You Are (source)
 - [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source)
 - [[stay-hungry-stay-foolish]] — Stay Hungry Stay Foolish (concept)
+- [[stoic-dichotomy-of-control]] — Stoic Dichotomy Of Control (concept)
 - [[streak-psychology]] — Streak Psychology (concept)
 - [[success-trap]] — Success Trap (concept)
 - [[synthetic-happiness]] — Synthetic Happiness (concept)
@@ -280,8 +292,8 @@ last_updated: 2026-07-25
 
 ## Co-occurring tags
 
-- [[productivity]] — 180 co-occurrences
-- [[opinion]] — 100 co-occurrences
+- [[productivity]] — 186 co-occurrences
+- [[opinion]] — 102 co-occurrences
 - [[research]] — 59 co-occurrences
-- [[health]] — 27 co-occurrences
+- [[health]] — 33 co-occurrences
 - [[system]] — 20 co-occurrences

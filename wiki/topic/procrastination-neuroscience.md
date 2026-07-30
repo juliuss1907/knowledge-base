@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: procrastination-neuroscience
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Topic: procrastination-neuroscience
 
 Auto-generated index of all content with topic `procrastination-neuroscience`.
 
-Last updated: 2026-07-25 21:02:20
+Last updated: 2026-07-30 14:03:37
 
 ---
 

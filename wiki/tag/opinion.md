@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 231
-- Sources: 76
-- Concepts: 155
-- Last updated: 2026-07-29
+- Total files: 233
+- Sources: 77
+- Concepts: 156
+- Last updated: 2026-07-30
 
 ## Files with this tag
 
@@ -106,6 +106,7 @@ last_updated: 2026-07-25
 - [[laws-of-the-world]] — Laws Of The World (concept)
 - [[lazy-thinking]] — Lazy Thinking (concept)
 - [[leading-indicators]] — Leading Indicators (concept)
+- [[let-them-theory]] — Let Them Theory (concept)
 - [[levels-of-awareness]] — Levels Of Awareness (concept)
 - [[leverage-skills]] — Leverage Skills (concept)
 - [[long-term-thinking]] — Long Term Thinking (concept)
@@ -202,6 +203,7 @@ last_updated: 2026-07-25
 - [[src_our-first-heartbreaks-were-our-parents]] — Our First Heartbreaks Were Our Parents (source)
 - [[src_petrodollar-system-analysis]] — Petrodollar System Analysis (source)
 - [[src_play-long-term-games-with-long-term-people]] — Play Long Term Games With Long Term People (source)
+- [[src_reward-hacking-writeup]] — Reward Hacking Writeup (source)
 - [[src_setup-is-not-an-edge]] — Setup Is Not An Edge (source)
 - [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source)
 - [[src_split-the-ikigai]] — Split The Ikigai (source)
@@ -212,6 +214,7 @@ last_updated: 2026-07-25
 - [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source)
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source)
+- [[src_the-let-them-theory-gabriel-reality]] — The Let Them Theory Gabriel Reality (source)
 - [[src_the-new-comms-playbook-show-dont]] — The New Comms Playbook Show Dont (source)
 - [[src_the-next-generation-of-trading-wont]] — The Next Generation Of Trading Wont (source)
 - [[src_the-revenge-of-the-business-idiot]] — The Revenge Of The Business Idiot (source)
@@ -233,7 +236,6 @@ last_updated: 2026-07-25
 - [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source)
 - [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source)
 - [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source)
-- [[src_reward-hacking-writeup]] — Reward Hacking Writeup (source)
 - [[state-capacity-theory]] — State Capacity Theory (concept)
 - [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
 - [[static-website-blind-spot]] — Static Website Blind Spot (concept)
@@ -258,7 +260,7 @@ last_updated: 2026-07-25
 ## Co-occurring tags
 
 - [[productivity]] — 105 co-occurrences
-- [[psychology]] — 100 co-occurrences
+- [[psychology]] — 102 co-occurrences
 - [[research]] — 61 co-occurrences
 - [[ai]] — 41 co-occurrences
 - [[economic]] — 39 co-occurrences

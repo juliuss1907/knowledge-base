@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Tag: #tools
@@ -16,15 +16,16 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 179
-- Sources: 40
-- Concepts: 139
-- Last updated: 2026-07-29
+- Total files: 187
+- Sources: 41
+- Concepts: 146
+- Last updated: 2026-07-30
 
 ## Files with this tag
 
 - [[100x-token]] — 100x Token (concept)
 - [[200-day-sma-risk-line]] — 200 Day Sma Risk Line (concept)
+- [[agent-backtesting]] — Agent Backtesting (concept)
 - [[agent-handoff]] — Agent Handoff (concept)
 - [[agent-harness]] — Agent Harness (concept)
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
@@ -34,6 +35,7 @@ last_updated: 2026-07-25
 - [[agentic-commerce]] — Agentic Commerce (concept)
 - [[agentic-retrieval]] — Agentic Retrieval (concept)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept)
+- [[ai-agent-tool-orchestration]] — Ai Agent Tool Orchestration (concept)
 - [[ai-evals]] — Ai Evals (concept)
 - [[ai-first-business-model]] — Ai First Business Model (concept)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept)
@@ -42,6 +44,7 @@ last_updated: 2026-07-25
 - [[ai-overviews]] — Ai Overviews (concept)
 - [[ai-productivity]] — Ai Productivity (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
+- [[ai-safety-monitoring]] — Ai Safety Monitoring (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
 - [[ai-trading-agent]] — Ai Trading Agent (concept)
 - [[ai-transformation]] — Ai Transformation (concept)
@@ -71,12 +74,15 @@ last_updated: 2026-07-25
 - [[deepseek-v4-flash-vs-pro]] — Deepseek V4 Flash Vs Pro (concept)
 - [[digital-product-flywheel]] — Digital Product Flywheel (concept)
 - [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
+- [[episodic-memory]] — Episodic Memory (concept)
 - [[external-memory-providers]] — External Memory Providers (concept)
+- [[external-retrieval-memory]] — External Retrieval Memory (concept)
 - [[factory-missions]] — Factory Missions (concept)
 - [[fast-weights]] — Fast Weights (concept)
 - [[feedback-loop]] — Feedback Loop (concept)
 - [[four-stages-market-cycle]] — Four Stages Market Cycle (concept)
 - [[fp4-lightning-indexer]] — Fp4 Lightning Indexer (concept)
+- [[frozen-corpus-search]] — Frozen Corpus Search (concept)
 - [[gamification-design-patterns]] — Gamification Design Patterns (concept)
 - [[gated-delta-networks]] — Gated Delta Networks (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
@@ -95,6 +101,7 @@ last_updated: 2026-07-25
 - [[hindsight-skill]] — Hindsight Skill (concept)
 - [[hybrid-retrieval]] — Hybrid Retrieval (concept)
 - [[iceberg-model]] — Iceberg Model (concept)
+- [[in-context-memory]] — In Context Memory (concept)
 - [[kv-cache-eviction]] — Kv Cache Eviction (concept)
 - [[last30days-skill]] — Last30days Skill (concept)
 - [[leverage]] — Leverage (concept)
@@ -112,18 +119,24 @@ last_updated: 2026-07-25
 - [[oauth-security-risks]] — Oauth Security Risks (concept)
 - [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
 - [[paper-trading]] — Paper Trading (concept)
+- [[parametric-memory]] — Parametric Memory (concept)
+- [[pay-per-call-pricing]] — Pay Per Call Pricing (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
 - [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
 - [[personal-branding-ai]] — Personal Branding Ai (concept)
+- [[point-in-time-data]] — Point In Time Data (concept)
 - [[policy-review-framework]] — Policy Review Framework (concept)
 - [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
 - [[problem-statement-redesign]] — Problem Statement Redesign (concept)
+- [[procedural-memory]] — Procedural Memory (concept)
+- [[prospective-memory]] — Prospective Memory (concept)
 - [[query-fan-out]] — Query Fan Out (concept)
 - [[rag-retrieval-augmented-generation]] — Rag Retrieval Augmented Generation (concept)
 - [[reflect-skill-hindsight]] — Reflect Skill Hindsight (concept)
 - [[relative-strength-leadership]] — Relative Strength Leadership (concept)
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
+- [[semantic-memory]] — Semantic Memory (concept)
 - [[session-separation]] — Session Separation (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
@@ -135,6 +148,7 @@ last_updated: 2026-07-25
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source)
+- [[src_agent-memory-7-types-substack]] — Agent Memory 7 Types Substack (source)
 - [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source)
 - [[src_ai-future-skills]] — Ai Future Skills (source)
 - [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
@@ -156,11 +170,13 @@ last_updated: 2026-07-25
 - [[src_how-average-people-will-get-rich-with-ai]] — How Average People Will Get Rich With Ai (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 - [[src_how-the-market-warns-you-before-the-crash]] — How The Market Warns You Before The Crash (source)
+- [[src_introducing-backsearch-gr-inc]] — Introducing Backsearch Gr Inc (source)
 - [[src_is-there-anything-left-build-crypto-wintermute]] — Is There Anything Left Build Crypto Wintermute (source)
 - [[src_leverage]] — Leverage (source)
 - [[src_llm-need-sleep-consolidation]] — Llm Need Sleep Consolidation (source)
 - [[src_loop-native-factory]] — Loop Native Factory (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
+- [[src_monid-ai-agent-tool-platform]] — Monid Ai Agent Tool Platform (source)
 - [[src_personal-mba-generator-skill]] — Personal Mba Generator Skill (source)
 - [[src_rag-is-dead-kuba-turbopuffer]] — Rag Is Dead Kuba Turbopuffer (source)
 - [[src_sop-writer-skill]] — Sop Writer Skill (source)
@@ -181,6 +197,7 @@ last_updated: 2026-07-25
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
 - [[tokenization]] — Tokenization (concept)
+- [[unified-api-gateway]] — Unified Api Gateway (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
 - [[validation-contract]] — Validation Contract (concept)
 - [[vibe-coding]] — Vibe Coding (concept)
@@ -193,20 +210,11 @@ last_updated: 2026-07-25
 - [[x-search-tool]] — X Search Tool (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
 - [[zero-member-llc]] — Zero Member Llc (concept)
-- [[agent-backtesting]] — Agent Backtesting (concept)
-- [[ai-agent-tool-orchestration]] — Ai Agent Tool Orchestration (concept)
-- [[frozen-corpus-search]] — Frozen Corpus Search (concept)
-- [[pay-per-call-pricing]] — Pay Per Call Pricing (concept)
-- [[point-in-time-data]] — Point In Time Data (concept)
-- [[unified-api-gateway]] — Unified Api Gateway (concept)
-- [[ai-safety-monitoring]] — Ai Safety Monitoring (concept)
-- [[src_introducing-backsearch-gr-inc]] — Introducing Backsearch Gr Inc (source)
-- [[src_monid-ai-agent-tool-platform]] — Monid Ai Agent Tool Platform (source)
 
 ## Co-occurring tags
 
-- [[ai]] — 106 co-occurrences
-- [[automation]] — 54 co-occurrences
-- [[research]] — 54 co-occurrences
+- [[ai]] — 118 co-occurrences
+- [[research]] — 66 co-occurrences
+- [[automation]] — 58 co-occurrences
 - [[tutorial]] — 25 co-occurrences
 - [[opinion]] — 23 co-occurrences

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: agent-backtesting
 auto_generated: true
-last_updated: 2026-07-26
+last_updated: 2026-07-30
 ---
 
 # Topic: agent-backtesting
 
 Auto-generated index of all content with topic `agent-backtesting`.
 
-Last updated: 2026-07-26 21:00
+Last updated: 2026-07-30 14:03:37
 
 ---
 
@@ -24,7 +24,3 @@ Last updated: 2026-07-26 21:00
 ## Sources (1)
 
 - [[src_introducing-backsearch-gr-inc]] — main: #ai, sub: [#tools, #research]
-
-## Related topics
-
-- `ai-agent-tool-platform` (0 shared files)

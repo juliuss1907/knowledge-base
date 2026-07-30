@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-top-skills-analysis
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Topic: hermes-top-skills-analysis
 
 Auto-generated index of all content with topic `hermes-top-skills-analysis`.
 
-Last updated: 2026-07-25 21:02:20
+Last updated: 2026-07-30 14:03:37
 
 ---
 

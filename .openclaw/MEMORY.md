@@ -547,3 +547,12 @@ Bài viết từ thankvn (Substack) về cách ra quyết định trong điều 
 ### Status
 - Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
 
+
+## 2026-07-30 21:03:37 — Indexed
+
+- **Scanned:** 495 concepts + 159 sources = 654 total files
+- **Tags indexed:** 23 (9 main-tags + 14 sub-tags)
+- **Topics indexed:** 181
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped

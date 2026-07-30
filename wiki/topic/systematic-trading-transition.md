@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: systematic-trading-transition
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Topic: systematic-trading-transition
 
 Auto-generated index of all content with topic `systematic-trading-transition`.
 
-Last updated: 2026-07-25 21:02:20
+Last updated: 2026-07-30 14:03:37
 
 ---
 

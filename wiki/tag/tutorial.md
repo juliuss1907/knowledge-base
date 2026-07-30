@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 77
-- Sources: 30
-- Concepts: 47
-- Last updated: 2026-07-25
+- Total files: 81
+- Sources: 31
+- Concepts: 50
+- Last updated: 2026-07-30
 
 ## Files with this tag
 
@@ -34,6 +34,7 @@ last_updated: 2026-07-25
 - [[compound-exercises]] — Compound Exercises (concept)
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[coordinate-systems]] — Coordinate Systems (concept)
+- [[cybernetics-learning-model]] — Cybernetics Learning Model (concept)
 - [[ebitda-trap]] — Ebitda Trap (concept)
 - [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
 - [[evening-routine]] — Evening Routine (concept)
@@ -44,6 +45,7 @@ last_updated: 2026-07-25
 - [[free-cash-flow]] — Free Cash Flow (concept)
 - [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
 - [[global-macro-investing]] — Global Macro Investing (concept)
+- [[goal-directed-learning]] — Goal Directed Learning (concept)
 - [[heater-rule]] — Heater Rule (concept)
 - [[hermes-three-layers]] — Hermes Three Layers (concept)
 - [[iceberg-model]] — Iceberg Model (concept)
@@ -51,6 +53,7 @@ last_updated: 2026-07-25
 - [[lifestyle-inflation]] — Lifestyle Inflation (concept)
 - [[non-commodity-content]] — Non Commodity Content (concept)
 - [[operating-cash-flow]] — Operating Cash Flow (concept)
+- [[output-based-learning]] — Output Based Learning (concept)
 - [[paper-trading]] — Paper Trading (concept)
 - [[paradox-of-effort]] — Paradox Of Effort (concept)
 - [[problem-statement-redesign]] — Problem Statement Redesign (concept)
@@ -77,6 +80,7 @@ last_updated: 2026-07-25
 - [[src_hermes-xurl-skill-guide]] — Hermes Xurl Skill Guide (source)
 - [[src_how-average-people-will-get-rich-with-ai]] — How Average People Will Get Rich With Ai (source)
 - [[src_how-to-read-cash-flow-statement]] — How To Read Cash Flow Statement (source)
+- [[src_how-to-remember-everything-you-read-dan-koe]] — How To Remember Everything You Read Dan Koe (source)
 - [[src_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone At Any Time (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
 - [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source)
@@ -103,8 +107,8 @@ last_updated: 2026-07-25
 
 ## Co-occurring tags
 
-- [[productivity]] — 33 co-occurrences
+- [[productivity]] — 37 co-occurrences
 - [[tools]] — 25 co-occurrences
 - [[ai]] — 23 co-occurrences
 - [[research]] — 20 co-occurrences
-- [[economic]] — 16 co-occurrences
+- [[automation]] — 16 co-occurrences

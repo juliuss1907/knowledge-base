@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Tag: #automation
@@ -19,7 +19,7 @@ last_updated: 2026-07-25
 - Total files: 89
 - Sources: 19
 - Concepts: 70
-- Last updated: 2026-07-26
+- Last updated: 2026-07-30
 
 ## Files with this tag
 
@@ -28,6 +28,7 @@ last_updated: 2026-07-25
 - [[agent-harness]] — Agent Harness (concept)
 - [[agent-journal-pattern]] — Agent Journal Pattern (concept)
 - [[agent-skill-management]] — Agent Skill Management (concept)
+- [[ai-agent-tool-orchestration]] — Ai Agent Tool Orchestration (concept)
 - [[ai-coach-prompting]] — Ai Coach Prompting (concept)
 - [[ai-research-workflow]] — Ai Research Workflow (concept)
 - [[ai-tool-role-separation]] — Ai Tool Role Separation (concept)
@@ -71,6 +72,7 @@ last_updated: 2026-07-25
 - [[negative-future-projection]] — Negative Future Projection (concept)
 - [[orchestrator-worker-validator]] — Orchestrator Worker Validator (concept)
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
+- [[pay-per-call-pricing]] — Pay Per Call Pricing (concept)
 - [[persistent-memory-ai]] — Persistent Memory Ai (concept)
 - [[personal-analyst-workflow]] — Personal Analyst Workflow (concept)
 - [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
@@ -97,26 +99,24 @@ last_updated: 2026-07-25
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source)
 - [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source)
 - [[src_luke-alvoeiro-multi-agent-architecture-factory]] — Luke Alvoeiro Multi Agent Architecture Factory (source)
+- [[src_monid-ai-agent-tool-platform]] — Monid Ai Agent Tool Platform (source)
 - [[src_sop-writer-skill]] — Sop Writer Skill (source)
 - [[src_speed-velocity]] — Speed Velocity (source)
 - [[standard-operating-procedure]] — Standard Operating Procedure (concept)
 - [[success-trap]] — Success Trap (concept)
 - [[systematic-trading]] — Systematic Trading (concept)
 - [[taste-holders]] — Taste Holders (concept)
+- [[unified-api-gateway]] — Unified Api Gateway (concept)
 - [[validation-contract]] — Validation Contract (concept)
 - [[x-account-tracking-skill]] — X Account Tracking Skill (concept)
 - [[x-bookmark-prioritization]] — X Bookmark Prioritization (concept)
 - [[x-search-tool]] — X Search Tool (concept)
 - [[xurl-cli]] — Xurl Cli (concept)
-- [[ai-agent-tool-orchestration]] — Ai Agent Tool Orchestration (concept)
-- [[pay-per-call-pricing]] — Pay Per Call Pricing (concept)
-- [[unified-api-gateway]] — Unified Api Gateway (concept)
-- [[src_monid-ai-agent-tool-platform]] — Monid Ai Agent Tool Platform (source)
 
 ## Co-occurring tags
 
-- [[ai]] — 55 co-occurrences
-- [[tools]] — 54 co-occurrences
+- [[tools]] — 58 co-occurrences
+- [[ai]] — 57 co-occurrences
 - [[productivity]] — 21 co-occurrences
 - [[tutorial]] — 16 co-occurrences
 - [[psychology]] — 13 co-occurrences

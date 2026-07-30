@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: system
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Tag: #system
@@ -19,7 +19,7 @@ last_updated: 2026-07-25
 - Total files: 48
 - Sources: 9
 - Concepts: 39
-- Last updated: 2026-07-26
+- Last updated: 2026-07-30
 
 ## Files with this tag
 
@@ -36,6 +36,7 @@ last_updated: 2026-07-25
 - [[costly-signal]] — Costly Signal (concept)
 - [[critical-mass]] — Critical Mass (concept)
 - [[cynefin-framework]] — Cynefin Framework (concept)
+- [[frozen-corpus-search]] — Frozen Corpus Search (concept)
 - [[iatrogenics]] — Iatrogenics (concept)
 - [[loop-native-factory]] — Loop Native Factory (concept)
 - [[loop-ownership]] — Loop Ownership (concept)
@@ -45,6 +46,7 @@ last_updated: 2026-07-25
 - [[nash-equilibrium]] — Nash Equilibrium (concept)
 - [[output-vs-outcome]] — Output Vs Outcome (concept)
 - [[pareto-principle]] — Pareto Principle (concept)
+- [[point-in-time-data]] — Point In Time Data (concept)
 - [[primum-non-nocere]] — Primum Non Nocere (concept)
 - [[prisoners-dilemma]] — Prisoners Dilemma (concept)
 - [[r3-framework]] — R3 Framework (concept)
@@ -67,15 +69,13 @@ last_updated: 2026-07-25
 - [[taste-holders]] — Taste Holders (concept)
 - [[token-looping]] — Token Looping (concept)
 - [[ultimatum-game]] — Ultimatum Game (concept)
-- [[zero-sum-game]] — Zero Sum Game (concept)
-- [[frozen-corpus-search]] — Frozen Corpus Search (concept)
-- [[point-in-time-data]] — Point In Time Data (concept)
 - [[unified-api-gateway]] — Unified Api Gateway (concept)
+- [[zero-sum-game]] — Zero Sum Game (concept)
 
 ## Co-occurring tags
 
 - [[psychology]] — 20 co-occurrences
-- [[research]] — 16 co-occurrences
+- [[research]] — 18 co-occurrences
 - [[opinion]] — 15 co-occurrences
+- [[tools]] — 10 co-occurrences
 - [[ai]] — 9 co-occurrences
-- [[productivity]] — 8 co-occurrences

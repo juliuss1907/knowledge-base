@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: economic
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Tag: #economic
@@ -19,7 +19,7 @@ last_updated: 2026-07-25
 - Total files: 83
 - Sources: 17
 - Concepts: 66
-- Last updated: 2026-07-26
+- Last updated: 2026-07-30
 
 ## Files with this tag
 
@@ -64,6 +64,7 @@ last_updated: 2026-07-25
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
 - [[paper-trading]] — Paper Trading (concept)
 - [[passion-economy-trap]] — Passion Economy Trap (concept)
+- [[pay-per-call-pricing]] — Pay Per Call Pricing (concept)
 - [[personal-branding-ai]] — Personal Branding Ai (concept)
 - [[petrodollar-system]] — Petrodollar System (concept)
 - [[physics-envy]] — Physics Envy (concept)
@@ -105,12 +106,11 @@ last_updated: 2026-07-25
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
-- [[pay-per-call-pricing]] — Pay Per Call Pricing (concept)
 
 ## Co-occurring tags
 
 - [[research]] — 42 co-occurrences
 - [[opinion]] — 39 co-occurrences
-- [[tools]] — 19 co-occurrences
+- [[tools]] — 20 co-occurrences
 - [[psychology]] — 19 co-occurrences
 - [[tutorial]] — 16 co-occurrences

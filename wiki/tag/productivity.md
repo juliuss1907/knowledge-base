@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-07-25
+last_updated: 2026-07-30
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-07-25
 
 ## Stats
 
-- Total files: 263
-- Sources: 75
-- Concepts: 188
-- Last updated: 2026-07-25
+- Total files: 269
+- Sources: 76
+- Concepts: 193
+- Last updated: 2026-07-30
 
 ## Files with this tag
 
@@ -55,6 +55,7 @@ last_updated: 2026-07-25
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept)
 - [[costly-signal]] — Costly Signal (concept)
 - [[cultural-memetics]] — Cultural Memetics (concept)
+- [[cybernetics-learning-model]] — Cybernetics Learning Model (concept)
 - [[decoding-messages-language]] — Decoding Messages Language (concept)
 - [[deliberate-practice]] — Deliberate Practice (concept)
 - [[delusional-optimism]] — Delusional Optimism (concept)
@@ -71,6 +72,7 @@ last_updated: 2026-07-25
 - [[environment-baseline]] — Environment Baseline (concept)
 - [[environment-design-for-habits]] — Environment Design For Habits (concept)
 - [[equilibrium-mental-model]] — Equilibrium Mental Model (concept)
+- [[error-signal-learning]] — Error Signal Learning (concept)
 - [[evening-routine]] — Evening Routine (concept)
 - [[evolutionary-mismatch]] — Evolutionary Mismatch (concept)
 - [[existential-vacuum]] — Existential Vacuum (concept)
@@ -89,6 +91,7 @@ last_updated: 2026-07-25
 - [[galilean-relativity]] — Galilean Relativity (concept)
 - [[glymphatic-system]] — Glymphatic System (concept)
 - [[goal-announcement-trap]] — Goal Announcement Trap (concept)
+- [[goal-directed-learning]] — Goal Directed Learning (concept)
 - [[google-project-oxygen]] — Google Project Oxygen (concept)
 - [[growth-and-relationships]] — Growth And Relationships (concept)
 - [[habit-automation]] — Habit Automation (concept)
@@ -122,6 +125,7 @@ last_updated: 2026-07-25
 - [[leader-leader-model]] — Leader Leader Model (concept)
 - [[leading-indicators]] — Leading Indicators (concept)
 - [[learned-helplessness]] — Learned Helplessness (concept)
+- [[learning-filter]] — Learning Filter (concept)
 - [[learning-through-retrieval]] — Learning Through Retrieval (concept)
 - [[levels-of-awareness]] — Levels Of Awareness (concept)
 - [[leverage]] — Leverage (concept)
@@ -152,6 +156,7 @@ last_updated: 2026-07-25
 - [[organizational-clarity]] — Organizational Clarity (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
+- [[output-based-learning]] — Output Based Learning (concept)
 - [[output-vs-outcome]] — Output Vs Outcome (concept)
 - [[paradox-of-effort]] — Paradox Of Effort (concept)
 - [[pareto-principle]] — Pareto Principle (concept)
@@ -217,6 +222,7 @@ last_updated: 2026-07-25
 - [[src_hanlons-razor]] — Hanlons Razor (source)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source)
 - [[src_how-to-live-without-options]] — How To Live Without Options (source)
+- [[src_how-to-remember-everything-you-read-dan-koe]] — How To Remember Everything You Read Dan Koe (source)
 - [[src_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone At Any Time (source)
 - [[src_hypergamy]] — Hypergamy (source)
 - [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
@@ -289,8 +295,8 @@ last_updated: 2026-07-25
 
 ## Co-occurring tags
 
-- [[psychology]] — 180 co-occurrences
+- [[psychology]] — 186 co-occurrences
 - [[opinion]] — 105 co-occurrences
 - [[research]] — 85 co-occurrences
-- [[tutorial]] — 33 co-occurrences
+- [[tutorial]] — 37 co-occurrences
 - [[automation]] — 21 co-occurrences

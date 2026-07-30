@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-reward-hacking-alignment
 auto_generated: true
-last_updated: 2026-07-29
+last_updated: 2026-07-30
 ---
 
 # Topic: ai-reward-hacking-alignment
 
 Auto-generated index of all content with topic `ai-reward-hacking-alignment`.
 
-Last updated: 2026-07-29 21:00:00
+Last updated: 2026-07-30 14:03:37
 
 ---
 
@@ -26,7 +26,3 @@ Last updated: 2026-07-29 21:00:00
 ## Sources (1)
 
 - [[src_reward-hacking-writeup]] — main: #ai, sub: [#research, #hack, #opinion]
-
-## Related topics
-
-*No related topics yet (topic overlap will be calculated on next full rebuild)*

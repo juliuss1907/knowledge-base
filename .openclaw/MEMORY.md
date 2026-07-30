@@ -486,3 +486,32 @@ Bài viết từ Dan Koe (Substack) về cách học thực sự hiệu quả �
 ### Status
 - Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
 
+
+---
+
+## 2026-07-30 09:45 — Applied Fixes (Format 07-26 + Hygiene 07-26)
+
+**Agent:** Fix Agent (Kara AX400)  
+**Action:** Applied 2 approved reports  
+**Reports:** 2026-07-26_format-report.md, 2026-07-26_hygiene-report.md
+
+### Format Fixes Applied
+- **No fixes required** — All 357 WARNINGs were forward-reference broken wikilinks (content gaps, not format defects) or validator false positives (4 instances).
+- 0 ERRORs — structural format quality clean across all 839 files.
+- Report recommendation: APPROVE without fixes.
+
+### Hygiene Fixes Applied
+- **No fixes required** — Clean run with 0 issues across 51,997 paths.
+- All validation dimensions passed (path whitelist, naming conventions, orphan detection).
+- Prior recurring issues resolved: `memory/` folder absent third consecutive run.
+
+### Actions Taken
+- Updated report status: `approved` → `applied`
+- Archived reports to: `wiki/reviews/archive/2026-07/`
+- Updated `_action-required.md`
+
+### Post-Fix Status
+- 0 reports pending review
+- 0 approved reports waiting for Fix Agent
+- System: HEARTBEAT_OK
+

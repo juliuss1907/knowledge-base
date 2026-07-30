@@ -1,6 +1,8 @@
 # Format Validation — 2026-07-26
 
-**Status:** approved
+**Status:** applied
+**Applied by:** fix-agent
+**Applied date:** 2026-07-30
 **Approved by:** Julius
 **Approved date:** 2026-07-30
 **Issues found:** 357

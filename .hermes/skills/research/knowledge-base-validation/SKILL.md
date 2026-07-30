@@ -66,6 +66,9 @@ Compile Agent produces frontmatter where `sub_tags` is defined twice: once as in
 **RECURRING ISSUE — Source original field with .md extension:**
 Source files sometimes have `original: "[[YYYY-MM-DD_slug.md]]"` (with `.md` extension). Fix: remove `.md` from wikilink.
 
+**RECURRING ISSUE — Body wikilinks to sources with .md extension (NEW 2026-07-30):**
+Compile Agent sometimes generates body wikilinks to sources WITH `.md` extension, e.g. `[[src_agent-memory-7-types-substack.md]]` instead of `[[src_agent-memory-7-types-substack]]`. First observed in the memory-theory batch (18 concepts from 3 sources). ~11 instances across 7 concept files. These are broken wikilinks (target doesn't exist with `.md`) AND semantically wrong (wikilinks should never include file extensions). Pattern: `\[\[(src_[\w\-]+)\.md\]\]` — strip the `.md` suffix. This is a Compile Agent regression — prompt template should explicitly forbid file extensions in wikilinks.
+
 ### 2. Output Validator
 Checks: summary sentences (3+), section content depth, sources section populated, status value valid.
 
@@ -80,6 +83,7 @@ Checks: folder structure, no orphan files, no .bak/.tmp files.
 | Item | Flag? | Why | Fix |
 |---|---|---|---|
 | `memory/` at root | ✅ FLAG (ERROR) | Agent-created out-of-zone — Kara hoặc OpenClaw agent tạo nhầm. Recurring issue. | Move to `.openclaw/memory/`, `rmdir memory/`, add rule to AGENTS.md §4.4 |
+| `state/` at root | ✅ FLAG (ERROR) | Recurring empty directory — previously resolved 2026-06-27, recreated. Unknown root cause. | `rmdir state/`. If it re-appears, trace root cause process. |
 | `random_concepts.txt`, `index_kb.py` | ✅ FLAG (ERROR) | Agent artifacts leaked to root | Move to appropriate dir or delete |
 | `search/`, `venv/` | ❌ DO NOT FLAG | Human-owned, intentional | Julius manages these |
 
@@ -505,6 +509,45 @@ The spec says max 50 characters. In practice, source slugs derived from long art
 
 ### Markdown links for internal content
 Source files occasionally use `[text](url)` for internal wiki links instead of wikilinks `[[slug]]`. This is an ERROR per format-spec.md §6.1. Example: `[X Developers](https://x.com/...)` in a source file where the concept is `[[x-developers]]`.
+
+## Manual Re-run After Cron Failure
+
+When all 3 cron jobs report `last_status: error` and no reports were generated for the target date:
+
+1. **Check cron status:** `cronjob(action='list')` — verify `last_status` is `error`
+2. **Run all 3 validators in parallel** via `terminal` (NOT `execute_code` — may be blocked):
+   ```bash
+   # Format
+   cd ~/knowledge-base && python3 .hermes/skills/format-validator/scripts/validate.py 2>&1
+   # Output
+   cd ~/knowledge-base && bash .hermes/skills/output-validator/scripts/quick-scan.sh 2>&1
+   # Hygiene
+   cd ~/knowledge-base && python3 .hermes/skills/hygiene-inspector/references/scan-script.py 2>&1
+   ```
+3. **Write 3 report files** to `wiki/reviews/YYYY-MM-DD_{format,output,hygiene}-report.md`
+4. **Update `_action-required.md`** — add all new reports to pending queue, increment count
+5. **Report summary** to Julius with a table: validator | files | ERROR | WARNING | verdict
+
+**Pattern (2026-07-30):** All 3 jobs (d48e, d146, f1ff) errored for 07-29. Manual re-run succeeded in <30s — likely a transient model-unavailability or timeout issue, not a code bug.
+
+### Verification After Manual Re-run
+
+**⚠️ PITFALL — `verify-approval-batch.sh` only works for APPROVED reports:** This script (`scripts/verify-approval-batch.sh`) checks that reports have `**Status:** approved` and `**Approved by:** Julius`. Running it against newly created PENDING reports produces 100% false failures (6/6 reported as "NOT approved"). **Only use this script AFTER Julius has approved the reports**, not after writing them.
+
+For verifying newly written PENDING reports, use inline grep checks:
+```bash
+# Verify reports exist with pending status
+grep -c "Status.*pending" wiki/reviews/2026-07-30_*-report.md
+# Verify dashboard pending count
+grep "Pending reports.*5" wiki/reviews/_action-required.md
+# Verify dashboard last updated
+grep "Last updated.*2026-07-30" wiki/reviews/_action-required.md
+```
+
+**⚠️ PITFALL — Markdown bold `**` breaks Python substring checks:** When writing Python verification scripts, `"Issues found: 411" in content` fails because the actual text is `**Issues found:** 411` (wrapped in markdown bold). Use either:
+- `"Issues found" in content` (match the label only, not the value)
+- `re.search(r'Issues found.*411', content)` (regex with `.*` to skip bold markers)
+- Or use `grep` from `terminal` instead: `grep -c "Issues found.*411" file.md`
 
 ## Cron Execution — Tool Selection
 

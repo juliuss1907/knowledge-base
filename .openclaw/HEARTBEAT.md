@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-07-26 21:03 (Asia/Saigon)
+> Last updated: 2026-07-30 11:00 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
@@ -11,38 +11,33 @@
 
 | Check | Status | Details |
 |-------|--------|---------|
-| Inbox (`Tasks/`) | ✅ Clean | Không có file #agent/inbox |
-| Raw backlog | ✅ Clean | 1 file `status: unprocessed` trong `raw/` (mới từ hôm nay) |
-| Concept backlinks | ✅ Clean | Concept notes có backlink đầy đủ |
-| Pending reviews | ✅ Clean | 0 reports chờ review — tất cả đã apply |
+| Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file #agent/inbox |
+| Raw backlog | ✅ Clean | 0 file `status: unprocessed` trong `raw/` |
+| Concept backlinks | ✅ Clean | 495 concept notes — hệ thống stable |
+| Pending reviews | ✅ Clean | 0 reports chờ review — tất cả đã approved/applied |
 
 ## System State
 
 | Metric | Count | Status |
 |--------|-------|--------|
-| **raw/** unprocessed | 1 | ✅ File mới, sẽ compile lúc 08:00 |
-| **wiki/sources/** | 155 | ✅ Ổn định |
-| **wiki/concepts/** | 472 | ✅ +3 từ lần check trước |
-| **wiki/reviews/** pending | 0 | ✅ Fix Agent đã apply tất cả |
+| **raw/** unprocessed | 0 | ✅ Không có backlog |
+| **wiki/sources/** | 159 | ✅ Ổn định (+4 từ lần check trước) |
+| **wiki/concepts/** | 495 | ✅ Ổn định (+23 từ lần check trước) |
+| **wiki/reviews/** pending | 0 | ✅ Tất cả reports đã xử lý |
 
-## New Files (Unprocessed)
+## Recent Actions (07-30)
 
-| File | Type | Date |
-|------|------|------|
-| `raw/articles/2026-07-26_reward-hacking-writeup.md` | article | 2026-07-26 |
+**✅ Fix Agent Applied — 2026-07-30**
+- Format: 411 WARNINGs — toàn bộ là forward-reference (content gaps), không cần fix
+- Output: Sửa dropped-i typos trong 5 files mới
+- Hygiene: Xóa folder `state/` orphan
 
-*Sẽ được xử lý bởi CompileAgent lúc 08:00 ngày mai.*
-
-## Recent Actions (Hôm nay)
-
-**✅ Fix Agent Applied — 2026-07-26**
-- Hygiene fix: Di chuyển `memory/` → `.openclaw/memory/`, đổi tên draft file
-- Output fix: Sửa ~10 typo (dropped-i) trong 6 files
-- Xem chi tiết: `wiki/reviews/_action-required.md`
+**✅ Julius Approved — 2026-07-30**
+- 3 reports mới từ Hermes (Format, Output, Hygiene) — đã approve
 
 ## Next Scheduled Actions
 
-- CompileAgent: 08:00 ngày mai (2026-07-27)
+- CompileAgent: 08:00 ngày mai (2026-07-31) — nếu có file mới
 - Index update: 21:00 tối nay
 
 ---

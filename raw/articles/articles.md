@@ -22,11 +22,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 131 files
-- By status: 131 processed, 0 unprocessed
-- By date: 3 this week, 131 this month
+- Total: 132 files
+- By status: 131 processed, 1 unprocessed
+- By date: 1 this week, 132 this month
 - Last updated: 2026-07-30
 ## Items
+- [[2026-07-30_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — Làm thế nào để ra quyết định khi còn mơ hồ by thankvn (unprocessed)
 - [[2026-07-29_how-to-remember-everything-you-read-dan-koe]] — How to remember everything you read by Dan Koe (unprocessed)
 - [[2026-07-27_the-let-them-theory-gabriel-reality]] — The "Let Them" Theory Will Change Your Life And Your Romantical / Friendship Choices Forever (unprocessed)
 - [[2026-07-27_agent-memory-7-types-substack]] — Agent Memory — the 7 types you should know before you ship to production (unprocessed)

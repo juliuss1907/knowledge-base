@@ -515,3 +515,35 @@ Bài viết từ Dan Koe (Substack) về cách học thực sự hiệu quả �
 - 0 approved reports waiting for Fix Agent
 - System: HEARTBEAT_OK
 
+
+---
+
+## 2026-07-30 19:10 — Ingest: Làm thế nào để ra quyết định khi còn mơ hồ (thankvn)
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Ingested article https://thankvn.substack.com/p/lam-the-nao-e-ra-quyet-inh-khi-con  
+**File:** `raw/articles/2026-07-30_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn.md`
+
+### Content Summary
+Bài viết từ thankvn (Substack) về cách ra quyết định trong điều kiện mơ hồ, thiếu thông tin.
+
+### Key Concepts
+- Sự mơ hồ là điều kiện mặc định của mọi quyết định đáng giá
+- Hai loại quyết định: Cửa hai chiều (Type 2) vs Cửa một chiều (Type 1)
+- Quy tắc 40-70% của Colin Powell: Quyết định khi có 40-70% thông tin
+- Phần thông tin cuối cùng luôn đắt nhất và ít giá trị nhất
+- Thiết kế quyết định sao cho sai thì rẻ
+
+### Techniques
+- Thu nhỏ đơn vị cược (small bets)
+- Đặt điểm thoát trước khi vào (pre-commitment)
+- Chọn phương án giữ nhiều cửa nhất (optionality)
+
+### Three Questions When Uncertain
+1. "Điều tôi thực sự chưa biết là gì?"
+2. "Chi phí của việc không quyết là gì?"
+3. "Sáu tháng nữa nhìn lại, tôi tiếc điều gì hơn?" (regret minimization)
+
+### Status
+- Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
+

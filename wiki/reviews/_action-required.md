@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-30 (Julius — approved all 5 pending reports)
+**Last updated:** 2026-07-30 23:32 (hygiene re-run — new findings: raw/tools/ unlisted)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Fix queue:** 0 (all applied)
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
@@ -18,7 +18,7 @@
 |---|---|---|---|---|
 | ✅ APPROVED | 07-30 | Format | 411 (0E+411W) | Review [wiki/reviews/2026-07-30_format-report.md](2026-07-30_format-report.md) |
 | ✅ APPROVED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Review [wiki/reviews/2026-07-30_output-report.md](2026-07-30_output-report.md) |
-| ✅ APPROVED | 07-30 | Hygiene | 2 (1E+1I) | Review [wiki/reviews/2026-07-30_hygiene-report.md](2026-07-30_hygiene-report.md) |
+| 🔍 PENDING | 07-30 | Hygiene | 3 (3E) | Review [wiki/reviews/2026-07-30_hygiene-report.md](2026-07-30_hygiene-report.md) |
 | ✅ APPLIED | 07-26 | Format | 357 (0E+357W) | Applied by Fix Agent 2026-07-30 — no fixes needed (forward-refs only) |
 | ✅ APPROVED | 07-26 | Output | 5 (1E+2W+1I+forward) | Approved by Julius 27/07/2026 — tự sửa. |
 | ✅ APPLIED | 07-26 | Hygiene | 0 (clean) | Applied by Fix Agent 2026-07-30 — no fixes needed (clean run) |
@@ -52,11 +52,14 @@
 - **Actions needed:** Fix Agent sửa dropped-i typos (5 files). Compile Agent cần update prompt cho Definition ≥2 câu, Key ideas ≥5.
 - **Status:** approved
 
-### ✅ Hygiene Inspection — 2026-07-30
+### 🔍 Hygiene Inspection — 2026-07-30 (23:30 re-run)
+
 - **Report:** `wiki/reviews/2026-07-30_hygiene-report.md`
-- **Summary:** 1 ERROR + 1 INFO. `state/` directory at root — recurring orphan folder. Empty directory. `rmdir state/` là đủ.
-- **Actions needed:** `rmdir state/`. Trace root cause nếu tái tạo.
-- **Status:** approved
+- **Summary:** 3 ERRORs — `raw/tools/` is an unlisted raw subfolder with 3 files (tools.md index + 2 content files). Naming is correct; the folder just isn't in folder-structure.md v1.2 whitelist (which lists only 6 raw subfolders). Previous ERROR (`state/` root folder) has been resolved — absent from this scan.
+- **Delta from earlier 07-30 run:** `state/` ✅ resolved. `raw/tools/` 🔍 newly surfaced (was hidden by permissive scan script template that included `tools` in `RAW_SUBFOLDERS`).
+- **Type:** [SPEC CONFLICT] — folder exists with valid compiled content but whitelist was never updated.
+- **Actions needed:** Julius decides: (A) update `folder-structure.md` §6 to add `tools/` as raw subfolder #7, or (B) move files to an existing approved subfolder.
+- **Status:** pending
 
 ---
 

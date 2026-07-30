@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.15
-last_updated: 2026-07-22
+version: 1.16
+last_updated: 2026-07-30
 ---
 
 # Hygiene Inspector
@@ -567,6 +567,9 @@ Files that are explicitly whitelisted by name (e.g., `context/USER.md`, `wiki/me
 
 ### 6. paths_checked drift on re-run (expected, not a bug)
 Re-running the scan after writing the report file (or any other new file to the KB) will increase `paths_checked` by the number of new files. This is normal — the scan walks the live filesystem. When comparing reproducibility in `scripts/verify.py`, only compare issue counts and categories, not the exact `paths_checked` number. A ±1–3 drift from report/action-file writes is expected.
+
+### 7. Whitelist dictionaries must stay in sync with folder-structure.md
+The scan script's `RAW_SUBFOLDERS`, `ROOT_FILES`, `ROOT_FOLDERS`, `WIKI_SUBFOLDERS`, and `WIKI_META_FILES` dictionaries duplicate rules from `folder-structure.md`. When `folder-structure.md` is updated (e.g., a new raw subfolder is added), the scan script's corresponding dictionary must be updated to match. **Out-of-sync whitelists silently suppress violations.** Proven 2026-07-30: `tools` was in `RAW_SUBFOLDERS` but not in folder-structure.md v1.2 — the `raw/tools/` folder passed every scan for weeks until the script was aligned with the spec. When folder-structure.md changes, patch BOTH the spec AND the scan script's dictionaries in the same commit.
 
 ---
 

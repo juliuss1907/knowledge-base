@@ -418,6 +418,7 @@ tts:
     device: cpu
   piper:
     voice: en_US-lessac-medium
+  use_gateway: false
 stt:
   enabled: true
   provider: local

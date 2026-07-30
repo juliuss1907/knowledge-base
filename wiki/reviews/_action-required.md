@@ -4,23 +4,26 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-27 (Julius — approved Output 07-26)
+**Last updated:** 2026-07-30 (Connor — manual re-run after cron errors 07-29)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 5
 **Fix queue:** 0 (all applied)
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 07-30 | Format | 411 (0E+411W) | Review [wiki/reviews/2026-07-30_format-report.md](2026-07-30_format-report.md) |
+| 🔍 PENDING | 07-30 | Output | 5+ (1E+2W+3 systemic) | Review [wiki/reviews/2026-07-30_output-report.md](2026-07-30_output-report.md) |
+| 🔍 PENDING | 07-30 | Hygiene | 2 (1E+1I) | Review [wiki/reviews/2026-07-30_hygiene-report.md](2026-07-30_hygiene-report.md) |
 | 🔍 PENDING | 07-26 | Format | 357 (0E+357W) | Review [wiki/reviews/2026-07-26_format-report.md](2026-07-26_format-report.md) |
 | ✅ APPROVED | 07-26 | Output | 5 (1E+2W+1I+forward) | Approved by Julius 27/07/2026 — tự sửa. |
 | 🔍 PENDING | 07-26 | Hygiene | 0 (clean) | Review [wiki/reviews/2026-07-26_hygiene-report.md](2026-07-26_hygiene-report.md) |
 | ✅ APPROVED | 07-25 | Format | 336 (0E+336W) | Approved by Julius 26/07/2026 — all WARNINGs are forward-reference broken wikilinks (content gap, not structural errors). No fixes needed. |
-| ✅ APPLIED | 07-25 | Hygiene | 3 (1E+2W) | Applied by Fix Agent 2026-07-26 — moved memory/, renamed draft file | 
+| ✅ APPLIED | 07-25 | Hygiene | 3 (1E+2W) | Applied by Fix Agent 2026-07-26 — moved memory/, renamed draft file |
 | ✅ APPLIED | 07-26 | Output | 2 (1E+1I) | Applied by Fix Agent 2026-07-26 — fixed dropped-i typos in 6 files |
 | ✅ APPLIED | 07-24 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
 | ✅ APPLIED | 07-23 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
@@ -36,6 +39,26 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-07-30
+- **Report:** `wiki/reviews/2026-07-30_format-report.md`
+- **Summary:** 411 WARNINGs (all broken wikilinks — forward-references), 0 ERRORs. +28 files vs 07-26 (867 total). 0 ERROR streak: 9 consecutive days. New batch (memory theory) introduces `.md` suffix in source wikilinks (~11 instances). Clean structural quality.
+- **Actions needed:** None — all WARNINGs are content gaps. Recommend APPROVE.
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-07-30
+- **Report:** `wiki/reviews/2026-07-30_output-report.md`
+- **Summary:** 5+ issues: 1 ERROR (dropped-i typos lần 6 — 5 new files), 2 WARNING (1-sentence definitions: 493/495, <5 key points: 86), 3 systemic patterns (ngưởi recurrence, 1-sentence defs, draft ratio 66%).
+- **Actions needed:** Fix Agent sửa dropped-i typos (5 files). Compile Agent cần update prompt cho Definition ≥2 câu, Key ideas ≥5.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-07-30
+- **Report:** `wiki/reviews/2026-07-30_hygiene-report.md`
+- **Summary:** 1 ERROR + 1 INFO. `state/` directory at root — recurring orphan folder. Empty directory. `rmdir state/` là đủ.
+- **Actions needed:** `rmdir state/`. Trace root cause nếu tái tạo.
+- **Status:** pending
+
+---
 
 ### 🔍 Format Validation — 2026-07-26
 
@@ -149,4 +172,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 2 reports pending — Format (07-26), Hygiene (07-26, clean). Output 07-26 ✅ APPROVED. All prior reports ✅ APPLIED.*
+*System status: 5 reports pending — Format (07-26, 07-30), Output (07-30), Hygiene (07-26, 07-30). Output 07-26 ✅ APPROVED. All prior reports ✅ APPLIED.*

@@ -5,7 +5,9 @@ source_url: https://gabrielrealityofficial.substack.com/p/the-let-them-theory-wi
 author: Gabriel Reality (Substack)
 date_published: 2026-07-27
 date_ingested: 2026-07-27
-status: unprocessed
+status: processed
+compiled_at: 2026-07-30
+compiled_to: "[[src_the-let-them-theory-gabriel-reality.md]]"
 tags: []
 ---
 

@@ -5,7 +5,9 @@ source_url: https://jamwithai.substack.com/p/agent-memory-the-7-types-you-should
 author: jamwithai (Substack)
 date_published: 2026-07-27
 date_ingested: 2026-07-27
-status: unprocessed
+status: processed
+compiled_at: 2026-07-30
+compiled_to: "[[src_agent-memory-7-types-substack.md]]"
 tags: []
 ---
 

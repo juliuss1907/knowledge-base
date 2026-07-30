@@ -1,6 +1,8 @@
 # Hygiene Inspector Report — 2026-07-30
 
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius
+**Approved date:** 2026-07-30
 **Issues found:** 2
 **Created:** 2026-07-30
 **Validator:** hygiene-inspector

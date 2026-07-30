@@ -5,7 +5,9 @@ source_url: https://letters.thedankoe.com/p/how-to-remember-everything-you-read
 author: Dan Koe
 date_published: 2026-07-29
 date_ingested: 2026-07-29
-status: unprocessed
+status: processed
+compiled_at: 2026-07-30
+compiled_to: "[[src_how-to-remember-everything-you-read-dan-koe.md]]"
 tags: []
 ---
 

@@ -1,5 +1,54 @@
 ---
 
+## 2026-07-30 08:00 — Compiled
+
+**Batch:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| File | Type | Concepts | Tags |
+|------|------|----------|------|
+| 2026-07-27_agent-memory-7-types-substack.md | article | 8 | #ai, [tools, research] |
+| 2026-07-27_the-let-them-theory-gabriel-reality.md | article | 5 | #health, [psychology, opinion] |
+| 2026-07-29_how-to-remember-everything-you-read-dan-koe.md | article | 5 | #productivity, [tutorial, psychology] |
+
+### Concepts Created
+
+**From Agent Memory article:**
+- [[in-context-memory]] — Working memory trong LLM agents
+- [[semantic-memory]] — Facts và general knowledge storage
+- [[episodic-memory]] — Specific experiences và user history
+- [[procedural-memory]] — Skills và workflows
+- [[external-retrieval-memory]] — On-demand retrieval từ external sources
+- [[parametric-memory]] — Knowledge encoded trong model weights
+- [[prospective-memory]] — Future tasks và scheduling
+- [[coal-framework]] — Cognitive Architectures for Language Agents
+
+**From Let Them Theory article:**
+- [[let-them-theory]] — Chấp nhận ngưởi khác đúng như họ là
+- [[intolerance-of-uncertainty]] — Neurological response to ambiguity
+- [[control-trap]] — Belief effort sẽ change ngưởi không muốn change
+- [[anterior-cingulate-cortex]] — Brain region monitors errors
+- [[stoic-dichotomy-of-control]] — Phân biệt trong/ngoài tầm kiểm soát
+
+**From Dan Koe Learning article:**
+- [[cybernetics-learning-model]] — Learning như feedback system
+- [[output-based-learning]] — Learning through output, not input
+- [[goal-directed-learning]] — Goals tạo filter cho relevance
+- [[error-signal-learning]] — Gap giữa current và target drives learning
+- [[learning-filter]] — Cognitive mechanism determines retention
+
+### Summary
+
+- **Processed:** 3/3 files
+- **Failed:** 0
+- **Source notes created:** 3
+- **Concepts created:** 18
+- **Concepts updated:** 0
+- **Tag proposals:** 0
+
+---
+
 ## 2026-07-29 21:00 — Indexed (Incremental)
 
 **Task:** KB Index Daily (cron:5de7b598-808b-4182-abfb-6bdeed920af4)

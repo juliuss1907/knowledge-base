@@ -23,9 +23,9 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 - Total: 131 files
-- By status: 128 processed, 3 unprocessed
-- By date: 1 this week, 131 this month
-- Last updated: 2026-07-29
+- By status: 131 processed, 0 unprocessed
+- By date: 3 this week, 131 this month
+- Last updated: 2026-07-30
 ## Items
 - [[2026-07-29_how-to-remember-everything-you-read-dan-koe]] — How to remember everything you read by Dan Koe (unprocessed)
 - [[2026-07-27_the-let-them-theory-gabriel-reality]] — The "Let Them" Theory Will Change Your Life And Your Romantical / Friendship Choices Forever (unprocessed)

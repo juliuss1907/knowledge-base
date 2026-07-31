@@ -5,7 +5,9 @@ source_url: https://thankvn.substack.com/p/lam-the-nao-e-ra-quyet-inh-khi-con
 author: thankvn (Substack)
 date_published: 2026-07-30
 date_ingested: 2026-07-30
-status: unprocessed
+status: processed
+compiled_at: 2026-07-31
+compiled_to: "[[src_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]]"
 tags: []
 ---
 

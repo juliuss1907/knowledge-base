@@ -1,5 +1,35 @@
 ---
 
+## 2026-07-31 08:00 — Compiled
+
+**Batch:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)
+
+### Files Processed
+
+| File | Type | Concepts | Tags |
+|------|------|----------|------|
+| 2026-07-30_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn.md | article | 5 | #productivity, [psychology, tutorial] |
+
+### Concepts Created
+
+**From Decision Making Under Uncertainty article:**
+- [[type-1-vs-type-2-decisions]] — Framework phân loại quyết định của Jeff Bezos
+- [[colin-powell-40-70-rule]] — Nguyên tắc quyết định khi có 40-70% thông tin
+- [[decision-cost-analysis]] — Phân tích chi phí quyết định sai
+- [[optionality-principle]] — Ưu tiên lựa chọn giữ nhiều cửa mở
+- [[small-bets-strategy]] — Chiến lược cược nhỏ để thu thập thông tin
+
+### Summary
+
+- **Processed:** 1/1 files
+- **Failed:** 0
+- **Source notes created:** 1
+- **Concepts created:** 5
+- **Concepts updated:** 0
+- **Tag proposals:** 0
+
+---
+
 ## 2026-07-30 08:00 — Compiled
 
 **Batch:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)

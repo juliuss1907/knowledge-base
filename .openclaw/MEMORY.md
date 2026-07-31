@@ -586,3 +586,31 @@ Bài viết từ thankvn (Substack) về cách ra quyết định trong điều 
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
+
+---
+
+## 2026-07-31 20:03 — Ingest: Cuộc đua xem ai không đi lùi (curiositypocket)
+
+**Agent:** Ingest Agent (Kara AX400)  
+**Action:** Ingested article https://curiositypocket.substack.com/p/cuoc-ua-xem-ai-khong-i-lui  
+**File:** `raw/articles/2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md`
+
+### Content Summary
+Bài viết từ curiositypocket (Substack) so sánh cuộc sống hiện đại với máy bay bay ngược hướng quay của Trái Đất — không phải để tiến nhanh, mà để không bị cuốn đi.
+
+### Key Concepts
+- **Máy bay bay về phía tây:** Vẫn đang bay về phía đông (theo Trái Đất), chỉ là chậm hơn
+- **Cuộc chơi đã đổi hướng:** Từ "ai nhanh hơn" sang "ai trụ lâu hơn"
+- **Ngành bán dẫn:** Cuộc đua sinh tử — 30 công ty (2001) → chỉ còn TSMC (2025)
+- **Định luật Moore xã hội:** Ngưỡng sống sót liên tục bị nâng lên
+- **Công nghệ làm suy yếu năng lực con ngườii:** Giao việc cho máy → quên cách làm
+
+### Key Stories
+- **GlobalFoundries (2018):** Dừng phát triển 7nm vì chi phí vượt khả năng thu hồi vốn
+- **Intel (2018-2020):** Trì hoãn liên tục 10nm và 7nm
+- **Samsung (2021):** Vấp ở tiến trình 4nm, mất đơn hàng Qualcomm sang TSMC
+- **TSMC (2025):** Gần như độc quyền sản xuất chip 3nm và 5nm
+
+### Status
+- Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
+

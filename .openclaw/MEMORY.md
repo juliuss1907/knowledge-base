@@ -1,5 +1,36 @@
 ---
 
+## 2026-07-31 20:30 — Heartbeat Check
+
+**Check ID:** 3e70fe54-de76-4781-9342-c1ab2a73ebd4
+
+### Status
+✅ **HEARTBEAT_OK**
+
+### Results
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox | ✓ Clean | 0 items #agent/inbox |
+| Raw backlog | ✓ Clean | 1 file unprocessed (mới ingest hôm nay) |
+| Pending reviews | ⚠️ Attention | 1 report pending — Hygiene 07-30 (raw/tools/) |
+
+### Stats
+- Raw files: 169 total
+- Wiki concepts: 500
+- Wiki sources: 160
+- Tag indexes: 24
+- Topic indexes: 181
+- Unprocessed: 1 file (2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md)
+
+### Context
+- File mới ingest lúc 20:03 từ curiositypocket (Substack)
+- CompileAgent sẽ xử lý vào 08:00 ngày mai
+- 1 pending hygiene report (raw/tools/ folder) chờ Julius quyết định
+
+**Action:** Không cần hành động khẩn cấp. Hệ thống ổn định.
+
+---
+
 ## 2026-07-31 08:00 — Compiled
 
 **Batch:** KB Compile Daily (cron:b91792a8-9b52-4856-b608-ca6a0f8f6f16)

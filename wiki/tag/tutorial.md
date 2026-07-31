@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-07-31
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 81
-- Sources: 31
-- Concepts: 50
-- Last updated: 2026-07-30
+- Total files: 84
+- Sources: 32
+- Concepts: 52
+- Last updated: 2026-07-31
 
 ## Files with this tag
 
@@ -35,6 +35,7 @@ last_updated: 2026-07-30
 - [[content-generation-workflow]] — Content Generation Workflow (concept)
 - [[coordinate-systems]] — Coordinate Systems (concept)
 - [[cybernetics-learning-model]] — Cybernetics Learning Model (concept)
+- [[decision-cost-analysis]] — Decision Cost Analysis (concept)
 - [[ebitda-trap]] — Ebitda Trap (concept)
 - [[elaboration-learning-technique]] — Elaboration Learning Technique (concept)
 - [[evening-routine]] — Evening Routine (concept)
@@ -83,6 +84,7 @@ last_updated: 2026-07-30
 - [[src_how-to-remember-everything-you-read-dan-koe]] — How To Remember Everything You Read Dan Koe (source)
 - [[src_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone At Any Time (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
+- [[src_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — Lam The Nao E Ra Quyet Inh Khi Con Thankvn (source)
 - [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source)
 - [[src_markus-systems-thinking-roadmap]] — Markus Systems Thinking Roadmap (source)
 - [[src_speed-velocity]] — Speed Velocity (source)
@@ -100,6 +102,7 @@ last_updated: 2026-07-30
 - [[systematic-trading]] — Systematic Trading (concept)
 - [[systems-thinking]] — Systems Thinking (concept)
 - [[systems-thinking-training-roadmap]] — Systems Thinking Training Roadmap (concept)
+- [[type-1-vs-type-2-decisions]] — Type 1 Vs Type 2 Decisions (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
 - [[vector-addition]] — Vector Addition (concept)
 - [[vectors]] — Vectors (concept)
@@ -107,7 +110,7 @@ last_updated: 2026-07-30
 
 ## Co-occurring tags
 
-- [[productivity]] — 37 co-occurrences
+- [[productivity]] — 39 co-occurrences
 - [[tools]] — 25 co-occurrences
 - [[ai]] — 23 co-occurrences
 - [[research]] — 20 co-occurrences

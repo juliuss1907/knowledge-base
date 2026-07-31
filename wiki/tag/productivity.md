@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-07-31
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 269
-- Sources: 76
-- Concepts: 193
-- Last updated: 2026-07-30
+- Total files: 275
+- Sources: 77
+- Concepts: 198
+- Last updated: 2026-07-31
 
 ## Files with this tag
 
@@ -46,6 +46,7 @@ last_updated: 2026-07-30
 - [[circle-of-competence]] — Circle Of Competence (concept)
 - [[clear-goals]] — Clear Goals (concept)
 - [[collaborative-thinking]] — Collaborative Thinking (concept)
+- [[colin-powell-40-70-rule]] — Colin Powell 40 70 Rule (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
 - [[compounding-relationships]] — Compounding Relationships (concept)
 - [[comprehensible-input]] — Comprehensible Input (concept)
@@ -56,6 +57,7 @@ last_updated: 2026-07-30
 - [[costly-signal]] — Costly Signal (concept)
 - [[cultural-memetics]] — Cultural Memetics (concept)
 - [[cybernetics-learning-model]] — Cybernetics Learning Model (concept)
+- [[decision-cost-analysis]] — Decision Cost Analysis (concept)
 - [[decoding-messages-language]] — Decoding Messages Language (concept)
 - [[deliberate-practice]] — Deliberate Practice (concept)
 - [[delusional-optimism]] — Delusional Optimism (concept)
@@ -153,6 +155,7 @@ last_updated: 2026-07-30
 - [[occams-broom]] — Occams Broom (concept)
 - [[occams-razor]] — Occams Razor (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
+- [[optionality-principle]] — Optionality Principle (concept)
 - [[organizational-clarity]] — Organizational Clarity (concept)
 - [[organizational-incrementalism]] — Organizational Incrementalism (concept)
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
@@ -194,6 +197,7 @@ last_updated: 2026-07-30
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[skill-acquisition-framework]] — Skill Acquisition Framework (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
+- [[small-bets-strategy]] — Small Bets Strategy (concept)
 - [[social-media-comparison-trap]] — Social Media Comparison Trap (concept)
 - [[spacing-effect]] — Spacing Effect (concept)
 - [[speed-vs-velocity]] — Speed Vs Velocity (concept)
@@ -229,6 +233,7 @@ last_updated: 2026-07-30
 - [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
 - [[src_inversion]] — Inversion (source)
 - [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source)
+- [[src_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — Lam The Nao E Ra Quyet Inh Khi Con Thankvn (source)
 - [[src_learn-anything-like-charlie-munger]] — Learn Anything Like Charlie Munger (source)
 - [[src_leverage]] — Leverage (source)
 - [[src_life-is-a-mind-game-heres-how-you]] — Life Is A Mind Game Heres How You (source)
@@ -292,11 +297,12 @@ last_updated: 2026-07-30
 - [[third-order-thinking]] — Third Order Thinking (concept)
 - [[thought-experiment]] — Thought Experiment (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
+- [[type-1-vs-type-2-decisions]] — Type 1 Vs Type 2 Decisions (concept)
 
 ## Co-occurring tags
 
-- [[psychology]] — 186 co-occurrences
+- [[psychology]] — 192 co-occurrences
 - [[opinion]] — 105 co-occurrences
 - [[research]] — 85 co-occurrences
-- [[tutorial]] — 37 co-occurrences
+- [[tutorial]] — 39 co-occurrences
 - [[automation]] — 21 co-occurrences

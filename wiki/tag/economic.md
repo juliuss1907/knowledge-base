@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: economic
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-07-31
 ---
 
 # Tag: #economic
@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 83
+- Total files: 84
 - Sources: 17
-- Concepts: 66
-- Last updated: 2026-07-30
+- Concepts: 67
+- Last updated: 2026-07-31
 
 ## Files with this tag
 
@@ -61,6 +61,7 @@ last_updated: 2026-07-30
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
 - [[operating-cash-flow]] — Operating Cash Flow (concept)
 - [[opportunity-cost]] — Opportunity Cost (concept)
+- [[optionality-principle]] — Optionality Principle (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
 - [[paper-trading]] — Paper Trading (concept)
 - [[passion-economy-trap]] — Passion Economy Trap (concept)
@@ -112,5 +113,5 @@ last_updated: 2026-07-30
 - [[research]] — 42 co-occurrences
 - [[opinion]] — 39 co-occurrences
 - [[tools]] — 20 co-occurrences
-- [[psychology]] — 19 co-occurrences
+- [[psychology]] — 20 co-occurrences
 - [[tutorial]] — 16 co-occurrences

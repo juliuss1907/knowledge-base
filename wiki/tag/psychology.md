@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-07-31
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 266
-- Sources: 71
-- Concepts: 195
-- Last updated: 2026-07-30
+- Total files: 272
+- Sources: 72
+- Concepts: 200
+- Last updated: 2026-07-31
 
 ## Files with this tag
 
@@ -43,6 +43,7 @@ last_updated: 2026-07-30
 - [[cognitive-load-theory]] — Cognitive Load Theory (concept)
 - [[cognitive-surrender]] — Cognitive Surrender (concept)
 - [[collaborative-thinking]] — Collaborative Thinking (concept)
+- [[colin-powell-40-70-rule]] — Colin Powell 40 70 Rule (concept)
 - [[comparison-trap]] — Comparison Trap (concept)
 - [[completion-motivation]] — Completion Motivation (concept)
 - [[compounding-relationships]] — Compounding Relationships (concept)
@@ -56,6 +57,7 @@ last_updated: 2026-07-30
 - [[critical-mass]] — Critical Mass (concept)
 - [[cultural-memetics]] — Cultural Memetics (concept)
 - [[cybernetics-learning-model]] — Cybernetics Learning Model (concept)
+- [[decision-cost-analysis]] — Decision Cost Analysis (concept)
 - [[decoding-messages-language]] — Decoding Messages Language (concept)
 - [[deliberate-practice]] — Deliberate Practice (concept)
 - [[delusional-optimism]] — Delusional Optimism (concept)
@@ -149,6 +151,7 @@ last_updated: 2026-07-30
 - [[occams-razor]] — Occams Razor (concept)
 - [[olympiad-to-founder-pipeline]] — Olympiad To Founder Pipeline (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
+- [[optionality-principle]] — Optionality Principle (concept)
 - [[out-of-distribution-experience]] — Out Of Distribution Experience (concept)
 - [[outcome-independence]] — Outcome Independence (concept)
 - [[outcome-worship-trap]] — Outcome Worship Trap (concept)
@@ -196,6 +199,7 @@ last_updated: 2026-07-30
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[skill-acquisition-framework]] — Skill Acquisition Framework (concept)
 - [[skin-in-the-game]] — Skin In The Game (concept)
+- [[small-bets-strategy]] — Small Bets Strategy (concept)
 - [[social-attraction]] — Social Attraction (concept)
 - [[social-media-comparison-trap]] — Social Media Comparison Trap (concept)
 - [[spacing-effect]] — Spacing Effect (concept)
@@ -232,6 +236,7 @@ last_updated: 2026-07-30
 - [[src_ill-make-you-believe-you-can-achieve]] — Ill Make You Believe You Can Achieve (source)
 - [[src_incentives-hidden-forces]] — Incentives Hidden Forces (source)
 - [[src_inversion]] — Inversion (source)
+- [[src_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — Lam The Nao E Ra Quyet Inh Khi Con Thankvn (source)
 - [[src_learn-anything-like-charlie-munger]] — Learn Anything Like Charlie Munger (source)
 - [[src_leverage]] — Leverage (source)
 - [[src_life-is-a-mind-game-heres-how-you]] — Life Is A Mind Game Heres How You (source)
@@ -285,6 +290,7 @@ last_updated: 2026-07-30
 - [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
+- [[type-1-vs-type-2-decisions]] — Type 1 Vs Type 2 Decisions (concept)
 - [[ultimatum-game]] — Ultimatum Game (concept)
 - [[variable-reward-systems]] — Variable Reward Systems (concept)
 - [[work-life-balance]] — Work Life Balance (concept)
@@ -292,7 +298,7 @@ last_updated: 2026-07-30
 
 ## Co-occurring tags
 
-- [[productivity]] — 186 co-occurrences
+- [[productivity]] — 192 co-occurrences
 - [[opinion]] — 102 co-occurrences
 - [[research]] — 59 co-occurrences
 - [[health]] — 33 co-occurrences

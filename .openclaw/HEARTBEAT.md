@@ -1,43 +1,51 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-07-30 11:00 (Asia/Saigon)
+> Last updated: 2026-08-02 06:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_OK**
+**HEARTBEAT_ATTENTION** — 2 reports đang chờ Julius review.
 
 ## Checks Performed
 
 | Check | Status | Details |
 |-------|--------|---------|
-| Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file #agent/inbox |
+| Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file `#agent/inbox` |
 | Raw backlog | ✅ Clean | 0 file `status: unprocessed` trong `raw/` |
-| Concept backlinks | ✅ Clean | 495 concept notes — hệ thống stable |
-| Pending reviews | ✅ Clean | 0 reports chờ review — tất cả đã approved/applied |
+| Concept backlinks | ✅ Clean | 504 concept notes — tất cả có frontmatter `sources` wikilink |
+| Pending reviews | ⚠️ Attention | 2 reports PENDING từ Hermes (08-01) chưa xử lý |
 
 ## System State
 
-| Metric | Count | Status |
-|--------|-------|--------|
-| **raw/** unprocessed | 0 | ✅ Không có backlog |
-| **wiki/sources/** | 159 | ✅ Ổn định (+4 từ lần check trước) |
-| **wiki/concepts/** | 495 | ✅ Ổn định (+23 từ lần check trước) |
-| **wiki/reviews/** pending | 0 | ✅ Tất cả reports đã xử lý |
+| Metric | Count | Δ since last | Status |
+|--------|-------|--------------|--------|
+| **raw/** total | 168 | +9 | ✅ Archive growing |
+| **raw/** unprocessed | 0 | 0 | ✅ Không có backlog |
+| **wiki/sources/** | 161 | +2 | ✅ Ổn định |
+| **wiki/concepts/** | 504 | +9 | ✅ Ổn định |
+| **wiki/tag/** | 24 | 0 | ✅ Ổn định |
+| **wiki/topic/** | 187 | 0 | ✅ Ổn định |
+| **wiki/reviews/** pending | 2 | +2 | ⚠️ Cần review |
 
-## Recent Actions (07-30)
+## Pending Reviews (⚠️)
 
-**✅ Fix Agent Applied — 2026-07-30**
-- Format: 411 WARNINGs — toàn bộ là forward-reference (content gaps), không cần fix
-- Output: Sửa dropped-i typos trong 5 files mới
-- Hygiene: Xóa folder `state/` orphan
+| Date | Type | Issues | File |
+|------|------|--------|------|
+| 08-01 | Format | 433 (3E + 430W) | `wiki/reviews/2026-08-01_format-report.md` |
+| 08-01 | Hygiene | 1 (0E + 1W) | `wiki/reviews/2026-08-01_hygiene-report.md` |
 
-**✅ Julius Approved — 2026-07-30**
-- 3 reports mới từ Hermes (Format, Output, Hygiene) — đã approve
+→ Julius xem tại `wiki/reviews/_action-required.md` để approve/reject.
+
+## Recent Actions (since 07-30)
+
+**✅ Fix Agent Applied — 2026-08-01**
+- 6 reports đã apply: 07-30 (Format/Output/Hygiene) + 08-01 (Format/Output/Hygiene)
+- Fixed: Pool A tags, extra frontmatter fields, double-i typos, spacing merge, raw/tools/ → websites/
 
 ## Next Scheduled Actions
 
-- CompileAgent: 08:00 ngày mai (2026-07-31) — nếu có file mới
+- CompileAgent: 08:00 hôm nay (Chủ Nhật) — nếu có file mới
 - Index update: 21:00 tối nay
 
 ---

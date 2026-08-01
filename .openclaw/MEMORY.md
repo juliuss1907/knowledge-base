@@ -1,5 +1,15 @@
 ---
 
+## 2026-08-01 08:00 — Compiled
+
+- **Raw:** [[raw/articles/2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]
+- **Source note:** [[wiki/sources/src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]
+- **Concepts:** [cuoc-dua-khong-di-lui, semiconductor-industry-consolidation, moores-law-economics, technology-driven-dependence]
+- **Tags applied:** main=#economic, sub=[#opinion, #tech], topic=cuoc-dua-khong-di-lui
+- **Action:** created 4 concept files
+
+---
+
 ## 2026-07-31 20:30 — Heartbeat Check
 
 **Check ID:** 3e70fe54-de76-4781-9342-c1ab2a73ebd4

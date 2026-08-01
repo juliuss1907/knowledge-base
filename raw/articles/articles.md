@@ -23,11 +23,11 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 - Total: 133 files
-- By status: 132 processed, 1 unprocessed
+- By status: 133 processed, 0 unprocessed
 - By date: 1 this week, 133 this month
-- Last updated: 2026-07-31
+- Last updated: 2026-08-01
 ## Items
-- [[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuộc đua xem ai không đi lùi by curiositypocket (unprocessed)
+- [[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuộc đua xem ai không đi lùi by curiositypocket (processed)
 - [[2026-07-30_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — Làm thế nào để ra quyết định khi còn mơ hồ by thankvn (processed)
 - [[2026-07-29_how-to-remember-everything-you-read-dan-koe]] — How to remember everything you read by Dan Koe (unprocessed)
 - [[2026-07-27_the-let-them-theory-gabriel-reality]] — The "Let Them" Theory Will Change Your Life And Your Romantical / Friendship Choices Forever (unprocessed)

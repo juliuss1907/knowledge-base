@@ -5,8 +5,10 @@ source_url: https://curiositypocket.substack.com/p/cuoc-ua-xem-ai-khong-i-lui
 author: curiositypocket (Substack)
 date_published: 2026-07-31
 date_ingested: 2026-07-31
-status: unprocessed
+status: processed
 tags: []
+compiled_at: 2026-08-01
+compiled_to: "[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]"
 ---
 
 # Cuộc đua xem ai không đi lùi

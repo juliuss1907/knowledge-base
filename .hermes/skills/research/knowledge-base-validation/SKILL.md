@@ -75,6 +75,12 @@ Checks: summary sentences (3+), section content depth, sources section populated
 Valid status values: `draft` | `reviewed` | `needs-revision`
 **INVALID: `stub`** — 17+ files kept using `stub` after being flagged
 
+**⚠️ PITFALL — Output quick-scan shows counts but not filenames for some typo variants:** The quick-scan script reports summary lines like `🔤 Typo 'ngưởi': 5 files (new: 0)` but does NOT list which 5 files. When writing the output report, you'll need the actual filenames to tell Fix Agent which files to fix — not just a count. **Fix:** After the quick-scan, run a targeted grep to find the actual files:
+```bash
+grep -rln 'ngưởi' wiki/concepts/ wiki/sources/
+```
+This gives you the file list to include in the report. Without it, the report says "Cần xác định chính xác file" which is unactionable for Fix Agent. Same applies for double-i, spacing-merge, and capital-I variants — the quick-scan gives counts, grep gives filenames.
+
 ### 3. Hygiene Inspector
 Checks: folder structure, no orphan files, no .bak/.tmp files.
 
@@ -178,6 +184,7 @@ Older reports and archived files may still contain literal `pending` in historic
    - `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-approval.sh YYYY-MM-DD` — date-specific check
    - `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-all-approved.sh` — global sweep for stale headers + pending count + 📋 markers
    - `bash .hermes/skills/research/knowledge-base-validation/scripts/verify-approval-batch.sh [YYYY-MM-DD ...]` — batch approval verification (no `set -e`, handles markdown bold, satisfies `hermes-verify-` gate). Pass dates as args or omit for all approved reports.
+   - See `references/python-verify-template.md` — reusable Python template for generic pending-report verification (handles markdown bold `**`, dirty reads, and clean reports correctly).
 
    **⚠️ PITFALL — System demands in-turn evidence:** If verification ran in a previous turn, the system will re-flag edits as unverified even though checks already passed. Re-run the verification inline in the current turn with a simple `grep` one-liner to satisfy the gate. This is a platform behavior, not a task failure.
 
@@ -207,7 +214,11 @@ Older reports and archived files may still contain literal `pending` in historic
    
    **Pattern (2026-07-20):** Bulk-approving 13 reports across 5 dates. `write_file` script with f-string+triple-quote failed. Pivoted to `terminal python3 -c` for report updates (13 files), then `write_file` for dashboard. Both phases succeeded.
 
-   **⚠️ PITFALL — Verification grep patterns must match actual dashboard text, not assumed keywords:** When writing a `hermes-verify-` script's `check()` calls, the grep pattern must match what's literally in the dashboard row, not what you assume. Example: dashboard row for 07-14 hygiene shows `| ✅ CLEAN | 07-14 | Hygiene | 0 | No violations. 51,831 paths. All recurring issues resolved. |` — the summary text is "No violations", not "Clean". A pattern like `'07-14.*Hygiene.*0.*Clean'` will fail despite the data being correct. **Fix:** Read the actual dashboard line first, then write the grep pattern to match it. When in doubt, use a broader pattern anchored to reliable anchors (e.g., `'07-14.*Hygiene.*0'`).
+   **⚠️ PITFALL — Dashboard can change between reads due to concurrent processes:** Other processes (cron re-runs, Fix Agent, manual triggers) may modify `_action-required.md` between your read and write. Observed 2026-07-30: dashboard was modified by a 23:32 hygiene re-run that added `raw/tools/` findings, changing pending count and report details. **Fix:** Always re-read `_action-required.md` immediately before writing to it. Never cache dashboard content across turns — the file may have been modified by another process (cron, agent, Julius). When in doubt, `git diff` the file before and after to see what changed underneath you.
+
+**⚠️ PITFALL — Verification grep patterns must match actual dashboard text, not assumed keywords:** When writing a `hermes-verify-` script's `check()` calls, the grep pattern must match what's literally in the dashboard row, not what you assume. Example: dashboard row for 07-14 hygiene shows `| ✅ CLEAN | 07-14 | Hygiene | 0 | No violations. 51,831 paths. All recurring issues resolved. |` — the summary text is "No violations", not "Clean". A pattern like `'07-14.*Hygiene.*0.*Clean'` will fail despite the data being correct. **Fix:** Read the actual dashboard line first, then write the grep pattern to match it. When in doubt, use a broader pattern anchored to reliable anchors (e.g., `'07-14.*Hygiene.*0'`).
+
+**⚠️ PITFALL — Clean reports (`Status: clean`) need different approval handling:** Some reports (e.g., hygiene clean runs with 0 issues) use `**Status:** clean` instead of `**Status:** pending`. The approval step's `replace('pending', 'approved')` won't touch them. **Fix:** Check for `clean` status before bulk-approving. For clean reports, add approval note WITHOUT changing the status keyword: `**Status:** clean (approved)` + `**Approved by:** Julius`. Clean reports mean "nothing to fix" — the approval just confirms Julius has reviewed the clean run.
 
 ### Individual Issue Exception (Waive, Don't Fix)
 

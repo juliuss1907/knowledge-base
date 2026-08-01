@@ -16,10 +16,10 @@ last_updated: 2026-07-31
 
 ## Stats
 
-- Total files: 84
-- Sources: 17
-- Concepts: 67
-- Last updated: 2026-07-31
+- Total files: 89
+- Sources: 18
+- Concepts: 71
+- Last updated: 2026-08-01
 
 ## Files with this tag
 
@@ -98,6 +98,7 @@ last_updated: 2026-07-31
 - [[src_the-next-generation-of-trading-wont]] — The Next Generation Of Trading Wont (source)
 - [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
+- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuoc Ua Xem Ai Khong I Lui Curiositypocket (source)
 - [[src_why-china-got-rich-and-india-didnt]] — Why China Got Rich And India Didnt (source)
 - [[state-capacity-theory]] — State Capacity Theory (concept)
 - [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
@@ -106,6 +107,10 @@ last_updated: 2026-07-31
 - [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
+- [[cuoc-dua-khong-di-lui]] — Cuoc Dua Khong Di Lui (concept)
+- [[moores-law-economics]] — Moores Law Economics (concept)
+- [[semiconductor-industry-consolidation]] — Semiconductor Industry Consolidation (concept)
+- [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
 
 ## Co-occurring tags

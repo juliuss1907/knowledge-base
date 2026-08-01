@@ -16,10 +16,10 @@ last_updated: 2026-07-31
 
 ## Stats
 
-- Total files: 84
+- Total files: 85
 - Sources: 32
-- Concepts: 52
-- Last updated: 2026-07-31
+- Concepts: 53
+- Last updated: 2026-08-01
 
 ## Files with this tag
 
@@ -102,6 +102,7 @@ last_updated: 2026-07-31
 - [[systematic-trading]] — Systematic Trading (concept)
 - [[systems-thinking]] — Systems Thinking (concept)
 - [[systems-thinking-training-roadmap]] — Systems Thinking Training Roadmap (concept)
+- [[type-1-vs-type-2-decisions]] — Type 1 Vs Type 2 Decisions (concept)
 - [[type-1-vs-type-2-decisions]] — Type 1 Vs Type 2 Decisions (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
 - [[vector-addition]] — Vector Addition (concept)

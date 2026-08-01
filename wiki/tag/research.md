@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 252
+- Total files: 253
 - Sources: 55
-- Concepts: 197
-- Last updated: 2026-07-30
+- Concepts: 198
+- Last updated: 2026-08-01
 
 ## Files with this tag
 
@@ -274,9 +274,8 @@ last_updated: 2026-07-30
 - [[vectors]] — Vectors (concept)
 - [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
+- [[moores-law-economics]] — Moores Law Economics (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
-
-## Co-occurring tags
 
 - [[productivity]] — 85 co-occurrences
 - [[ai]] — 83 co-occurrences

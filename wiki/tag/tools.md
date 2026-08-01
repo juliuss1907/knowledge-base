@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 187
-- Sources: 41
-- Concepts: 146
-- Last updated: 2026-07-30
+- Total files: 189
+- Sources: 42
+- Concepts: 147
+- Last updated: 2026-08-01
 
 ## Files with this tag
 
@@ -196,6 +196,7 @@ last_updated: 2026-07-30
 - [[systems-thinking]] — Systems Thinking (concept)
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
+- [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[tokenization]] — Tokenization (concept)
 - [[unified-api-gateway]] — Unified Api Gateway (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)

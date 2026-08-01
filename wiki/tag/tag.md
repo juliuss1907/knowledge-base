@@ -26,11 +26,11 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 
 ## Stats
 
-- Total tags: 23
+- Total tags: 24
 - Main tags: 9
-- Sub tags: 14
-- Most used: #productivity (269), #psychology (266), #research (252)
-- Last updated: 2026-07-30
+- Sub tags: 15
+- Most used: #productivity (276), #psychology (273), #research (253)
+- Last updated: 2026-08-01
 
 ## Items
 
@@ -50,6 +50,8 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 
 - [[ai]] — AI / ML / LLM, agents, models, training, inference (as attribute)
 - [[automation]] — Bots, scripts, scheduled jobs, automated workflows
+- [[career]] — Career development, professional growth, job decisions
+- [[career]] — Career development, professional growth, job decisions
 - [[coding]] — Programming, software development, code generation, dev practices
 - [[defi]] — Decentralized finance protocols, AMMs, lending, yield
 - [[geopolitics]] — Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition

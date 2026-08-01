@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]"
 main_tag: economic
-sub_tags: [opinion, tech]
+sub_tags: [opinion, tools]
 topic: cuoc-dua-khong-i-lui
 date_compiled: 2026-08-01
 url: https://curiositypocket.substack.com/p/cuoc-ua-xem-ai-khong-i-lui
@@ -21,7 +21,7 @@ author: curiositypocket (Substack)
 
 ## Summary
 
-Bài viết sử dụng phép ẩn dụ về máy bay bay ngược hướng Trái Đất quay để mô tả sự thay đổi trong bản chất cạnh tranh của xã hội hiện đại. Trước đây, cuộc chơi là đua tốc độ - ai bay nhanh hơn thì đến đích trước. Ngày nay, cuộc chơi đã đổi hướng: ngườii chiến thắng không cần bay nhanh nhất, mà chỉ cần tạo ra đủ lực để không bị cuốn đi cùng phần còn lại của thế giớii, trụ lại đủ lâu cho đến khi đích đến tự tiến về phía mình. Tác giả minh họa qua ngành bán dẫn, nơi từ 30 công ty năm 2001 chỉ còn lại TSMC gần như độc quyền ở tiến trình tiên tiến năm 2025. Cuối cùng, tác giả áp dụng vào cuộc sống cá nhân: khi công nghệ gánh thay ngày càng nhiều phần việc, con ngườii đang dần suy yếu các năng lực cốt lõi.
+Bài viết sử dụng phép ẩn dụ về máy bay bay ngược hướng Trái Đất quay để mô tả sự thay đổi trong bản chất cạnh tranh của xã hội hiện đại. Trước đây, cuộc chơi là đua tốc độ - ai bay nhanh hơn thì đến đích trước. Ngày nay, cuộc chơi đã đổi hướng: ngườii chiến thắng không cần bay nhanh nhất, mà chỉ cần tạo ra đủ lực để không bị cuốn đi cùng phần còn lại của thế giới, trụ lại đủ lâu cho đến khi đích đến tự tiến về phía mình. Tác giả minh họa qua ngành bán dẫn, nơi từ 30 công ty năm 2001 chỉ còn lại TSMC gần như độc quyền ở tiến trình tiên tiến năm 2025. Cuối cùng, tác giả áp dụng vào cuộc sống cá nhân: khi công nghệ gánh thay ngày càng nhiều phần việc, con ngườii đang dần suy yếu các năng lực cốt lõi.
 
 ## Key points
 
@@ -50,6 +50,6 @@ Bài viết sử dụng phép ẩn dụ về máy bay bay ngược hướng Trá
 
 > "Trong ngành này, ngườii ta mặc định ai tham gia cũng sẽ chết. Chỉ khác là bạn chết sau đối thủ bao lâu."
 
-> "TSMC như thần Atlas của thế giớii hiện đạii vậy."
+> "TSMC như thần Atlas của thế giới hiện đại vậy."
 
-> "Thứ làm thay đổi bản chất cuộc chơi, khiến mục tiêu không còn là vươn lên dẫn đầu mà chỉ là không bị bỏ lạii phía sau, trớ trêu thay, lạii chính là những công nghệ tiên tiến đang phục vụ chúng ta mỗi ngày."
+> "Thứ làm thay đổi bản chất cuộc chơi, khiến mục tiêu không còn là vươn lên dẫn đầu mà chỉ là không bị bỏ lại phía sau, trớ trêu thay, lại chính là những công nghệ tiên tiến đang phục vụ chúng ta mỗi ngày."

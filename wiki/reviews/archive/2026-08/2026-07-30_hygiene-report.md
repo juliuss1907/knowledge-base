@@ -1,6 +1,8 @@
 # Hygiene Inspection — 2026-07-30 (23:30)
 
-**Status:** approved
+**Status:** applied
+**Applied by:** Fix Agent
+**Applied at:** 2026-08-01
 **Approved by:** Julius
 **Approved date:** 2026-08-01
 **Issues found:** 3 (3 ERROR)

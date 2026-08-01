@@ -1,6 +1,8 @@
 # Hygiene Inspector Report — 2026-08-01
 
-**Status:** approved
+**Status:** applied
+**Applied by:** Fix Agent
+**Applied at:** 2026-08-01
 **Approved by:** Julius
 **Approved date:** 2026-08-01
 **Issues found:** 5

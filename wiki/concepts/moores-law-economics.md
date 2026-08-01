@@ -2,9 +2,8 @@
 type: concept
 status: draft
 main_tag: economic
-sub_tags: [tech, research]
+sub_tags: [tools, research]
 topic: moores-law
-field: semiconductor_economics
 sources:
   - "[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]"
 last_updated: 2026-08-01
@@ -18,7 +17,7 @@ Phân tích kinh tế về định luật Moore - không chỉ là quy luật k�
 
 ## Key ideas
 
-- **Áp lực R&D cấp số nhân**: Mỗi thế hệ tiến trình mớii đòi hỏi đầu tư nghiên cứu và phát triển tăng theo cấp số nhân, không tuyến tính
+- **Áp lực R&D cấp số nhân**: Mỗi thế hệ tiến trình mới đòi hỏi đầu tư nghiên cứu và phát triển tăng theo cấp số nhân, không tuyến tính
 - **Ngưỡng sinh tồn liên tục dịch chuyển**: Các công ty phải đốt hàng núi tiền chỉ để duy trì khả năng cạnh tranh, không phải để dẫn đầu
 - **Chi phí cơ hội của việc tụt hậu**: Một lần trì hoãn (như Intel ở 10nm và 7nm) có thể mất vĩnh viễn vị thế dẫn đầu
 - **Yield là yếu tố quyết định**: Lỗi năng suất (yield) không kiểm soát được có thể làm chậm cả thế hệ sản phẩm (Intel 10nm), trong khi đối thủ (TSMC) đã đi vào sản xuất đại trà

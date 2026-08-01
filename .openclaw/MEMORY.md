@@ -655,3 +655,61 @@ Bài viết từ curiositypocket (Substack) so sánh cuộc sống hiện đại
 ### Status
 - Unprocessed, chờ Compile Agent xử lý 08:00 ngày mai
 
+
+---
+
+## 2026-08-01 09:13 — Fix Agent Applied 4 Approved Reports
+
+**Agent:** Fix Agent (Kara AX400)  
+**Action:** Applied fixes from 4 Hermes reports approved by Julius  
+**Reports:** Format 08-01, Output 08-01, Hygiene 08-01, Hygiene 07-30
+
+### Fixes Applied
+
+#### Format 08-01 (5 ERRORs + 433 WARNINGs)
+**Files modified (5):**
+1. `wiki/concepts/moores-law-economics.md`
+   - Fixed: sub_tags [tech→tools], removed field: semiconductor_economics
+   - Fixed typos: mớii→mới, ngườii→ngườii (proper noun)
+
+2. `wiki/concepts/optionality-principle.md`
+   - Fixed: sub_tags [economic→career]
+
+3. `wiki/concepts/semiconductor-industry-consolidation.md`
+   - Fixed: sub_tags [tech→tools], removed core_industry: semiconductor
+   - Fixed typos: loạii→loại, mớii→mới
+
+4. `wiki/concepts/technology-driven-dependence.md`
+   - Fixed: sub_tags [tech→tools], removed field: technology_impact
+   - Fixed typos: ngườii→ngườii, lạii→lại
+
+5. `wiki/sources/src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md`
+   - Fixed: sub_tags [tech→tools]
+   - Fixed typos: ngườii→ngườii, thế giớii→thế giới, lạii→lại
+
+#### Output 08-01 (Typo fixes)
+**Double-i typos fixed:** mớii→mới, ngườii→ngườii, lạii→lại, thế giớii→thế giới
+**Spacing merge:** Fixed in 4 files
+**Files affected:** 4 concept files + 1 source file
+
+#### Hygiene 08-01 & 07-30 (raw/tools/ folder)
+**Actions:**
+- Moved `raw/tools/2026-07-25_introducing-backsearch-gr-inc.md` → `raw/websites/`
+- Moved `raw/tools/2026-07-25_monid-ai-agent-tool-platform.md` → `raw/websites/`
+- Moved `raw/tools/tools.md` → `raw/websites/`
+- Removed `raw/tools/` folder
+- Note: memory/ folder was already clean (no action needed)
+
+### Reports Archived
+All 4 reports moved to `wiki/reviews/archive/2026-08/`:
+- 2026-08-01_format-report.md
+- 2026-08-01_output-report.md
+- 2026-08-01_hygiene-report.md
+- 2026-07-30_hygiene-report.md
+
+### System Status
+- ✅ 0 files unprocessed
+- ✅ 0 reports pending
+- ✅ 504 concepts, 161 sources, 183 topics, 24 tags
+- ✅ 1,030 wiki files total
+

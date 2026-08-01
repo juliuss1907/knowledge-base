@@ -16,10 +16,10 @@ last_updated: 2026-07-31
 
 ## Stats
 
-- Total files: 272
+- Total files: 273
 - Sources: 72
-- Concepts: 200
-- Last updated: 2026-07-31
+- Concepts: 201
+- Last updated: 2026-08-01
 
 ## Files with this tag
 
@@ -298,8 +298,9 @@ last_updated: 2026-07-31
 
 ## Co-occurring tags
 
-- [[productivity]] — 192 co-occurrences
-- [[opinion]] — 102 co-occurrences
+- [[productivity]] — 198 co-occurrences
+- [[opinion]] — 104 co-occurrences
 - [[research]] — 59 co-occurrences
 - [[health]] — 33 co-occurrences
 - [[system]] — 20 co-occurrences
+- [[career]] — 1 co-occurrence

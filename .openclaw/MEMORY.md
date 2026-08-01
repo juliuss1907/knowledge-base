@@ -1,5 +1,17 @@
 ---
 
+## 2026-08-01 21:00 — Indexed
+
+- **Mode:** incremental (11 files changed since 2026-07-30)
+- **Scanned:** 9 concepts + 2 sources
+- **Tags indexed:** 8 (2 cập nhật: #economic, #tools, #opinion, #research, #tutorial; 1 tạo mới: #career)
+- **Topics indexed:** 6 (4 tạo mới: semiconductor-industry, moores-law, cuoc-dua-khong-di-lui, technology-society)
+- **Orphans deleted:** 0
+- **Invalid tags found:** 0
+- **Errors:** 0
+
+---
+
 ## 2026-08-01 08:00 — Compiled
 
 - **Raw:** [[raw/articles/2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]

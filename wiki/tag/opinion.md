@@ -260,8 +260,9 @@ last_updated: 2026-07-30
 - [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[work-life-balance]] — Work Life Balance (concept)
 
-- [[productivity]] — 105 co-occurrences
-- [[psychology]] — 102 co-occurrences
+- [[productivity]] — 107 co-occurrences
+- [[psychology]] — 104 co-occurrences
 - [[research]] — 61 co-occurrences
 - [[ai]] — 41 co-occurrences
-- [[economic]] — 39 co-occurrences
+- [[economic]] — 41 co-occurrences
+- [[tools]] — 25 co-occurrences

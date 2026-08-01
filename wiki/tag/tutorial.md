@@ -111,7 +111,7 @@ last_updated: 2026-07-31
 
 ## Co-occurring tags
 
-- [[productivity]] — 39 co-occurrences
+- [[productivity]] — 40 co-occurrences
 - [[tools]] — 25 co-occurrences
 - [[ai]] — 23 co-occurrences
 - [[research]] — 20 co-occurrences

@@ -215,7 +215,8 @@ last_updated: 2026-07-30
 ## Co-occurring tags
 
 - [[ai]] — 118 co-occurrences
-- [[research]] — 66 co-occurrences
+- [[research]] — 67 co-occurrences
 - [[automation]] — 58 co-occurrences
 - [[tutorial]] — 25 co-occurrences
-- [[opinion]] — 23 co-occurrences
+- [[opinion]] — 25 co-occurrences
+- [[economic]] — 22 co-occurrences

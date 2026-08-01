@@ -115,8 +115,8 @@ last_updated: 2026-07-31
 
 ## Co-occurring tags
 
-- [[research]] — 42 co-occurrences
-- [[opinion]] — 39 co-occurrences
-- [[tools]] — 20 co-occurrences
+- [[research]] — 43 co-occurrences
+- [[opinion]] — 41 co-occurrences
+- [[tools]] — 22 co-occurrences
 - [[psychology]] — 20 co-occurrences
 - [[tutorial]] — 16 co-occurrences

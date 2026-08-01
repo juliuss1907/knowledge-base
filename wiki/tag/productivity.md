@@ -16,10 +16,10 @@ last_updated: 2026-07-31
 
 ## Stats
 
-- Total files: 275
+- Total files: 276
 - Sources: 77
-- Concepts: 198
-- Last updated: 2026-07-31
+- Concepts: 199
+- Last updated: 2026-08-01
 
 ## Files with this tag
 
@@ -301,8 +301,9 @@ last_updated: 2026-07-31
 
 ## Co-occurring tags
 
-- [[psychology]] — 192 co-occurrences
-- [[opinion]] — 105 co-occurrences
+- [[psychology]] — 198 co-occurrences
+- [[opinion]] — 107 co-occurrences
 - [[research]] — 85 co-occurrences
-- [[tutorial]] — 39 co-occurrences
+- [[tutorial]] — 40 co-occurrences
 - [[automation]] — 21 co-occurrences
+- [[career]] — 1 co-occurrence

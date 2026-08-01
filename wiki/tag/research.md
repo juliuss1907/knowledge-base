@@ -279,6 +279,7 @@ last_updated: 2026-07-30
 
 - [[productivity]] — 85 co-occurrences
 - [[ai]] — 83 co-occurrences
-- [[tools]] — 66 co-occurrences
+- [[tools]] — 67 co-occurrences
 - [[opinion]] — 61 co-occurrences
 - [[psychology]] — 59 co-occurrences
+- [[economic]] — 43 co-occurrences

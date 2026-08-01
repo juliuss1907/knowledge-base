@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-01 (Connor — validation run, 3 new reports)
+**Last updated:** 2026-08-01 (Julius — approved all 4 pending reports)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 0
 **Fix queue:** 0 (all applied)
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
@@ -18,10 +18,10 @@
 |---|---|---|---|---|
 | ✅ APPROVED | 07-30 | Format | 411 (0E+411W) | Review [wiki/reviews/2026-07-30_format-report.md](2026-07-30_format-report.md) |
 | ✅ APPROVED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Review [wiki/reviews/2026-07-30_output-report.md](2026-07-30_output-report.md) |
-| 🔍 PENDING | 08-01 | Format | 438 (5E+433W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
-| 🔍 PENDING | 08-01 | Output | 4+ (0E+2W+3 systemic) | Review [wiki/reviews/2026-08-01_output-report.md](2026-08-01_output-report.md) |
-| 🔍 PENDING | 08-01 | Hygiene | 5 (4E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md) |
-| 🔍 PENDING | 07-30 | Hygiene | 3 (3E) | Review [wiki/reviews/2026-07-30_hygiene-report.md](2026-07-30_hygiene-report.md) |
+| ✅ APPROVED | 08-01 | Format | 438 (5E+433W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
+| ✅ APPROVED | 08-01 | Output | 4+ (0E+2W+3 systemic) | Review [wiki/reviews/2026-08-01_output-report.md](2026-08-01_output-report.md) |
+| ✅ APPROVED | 08-01 | Hygiene | 5 (4E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md) |
+| ✅ APPROVED | 07-30 | Hygiene | 3 (3E) | Review [wiki/reviews/2026-07-30_hygiene-report.md](2026-07-30_hygiene-report.md) |
 | ✅ APPLIED | 07-26 | Format | 357 (0E+357W) | Applied by Fix Agent 2026-07-30 — no fixes needed (forward-refs only) |
 | ✅ APPROVED | 07-26 | Output | 5 (1E+2W+1I+forward) | Approved by Julius 27/07/2026 — tự sửa. |
 | ✅ APPLIED | 07-26 | Hygiene | 0 (clean) | Applied by Fix Agent 2026-07-30 — no fixes needed (clean run) |
@@ -55,26 +55,26 @@
 - **Actions needed:** Fix Agent sửa dropped-i typos (5 files). Compile Agent cần update prompt cho Definition ≥2 câu, Key ideas ≥5.
 - **Status:** approved
 
-### 🔍 Format Validation — 2026-08-01
+### ✅ Format Validation — 2026-08-01
 
 - **Report:** 
 - **Summary:** 5 ERRORs + 433 WARNINGs. ⚠️ 0-ERROR streak BROKEN (was 9 days). 5 ERRORs are Pool A tags (tech, economic) used as sub_tags — Compile Agent regression. 3 WARNINGs for extra frontmatter fields (field, core_industry). New semiconductor batch with 9 concepts.
 - **Actions needed:** Fix Agent sửa sub_tags (tech/economic → Pool B), remove extra fields. Compile Agent kiểm tra workflow.md.
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Output Validation — 2026-08-01
+### ✅ Output Validation — 2026-08-01
 
 - **Report:** 
 - **Summary:** 2 WARNING + systemic. Double-i typos có 5 instances MỚI từ batch semiconductor. Người spacing merge có 4 instances mới. Dropped-i tồn đọng từ 07-30 chưa được Fix Agent sửa. 502/504 concepts definition 1 câu.
 - **Actions needed:** Fix Agent sửa double-i + spacing-merge mới + dropped-i tồn đọng.
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Hygiene Inspection — 2026-08-01
+### ✅ Hygiene Inspection — 2026-08-01
 
 - **Report:** 
 - **Summary:** 4 ERRORs + 1 WARNING.  QUAY LẠI (lần 8) sau 3 run sạch — chứa memory/2026-07-31.md.  vẫn chưa được resolve từ 07-30 re-run. 3 ERRORs cho raw/tools/.
 - **Actions needed:** Julius quyết định raw/tools/. Move memory/ → .openclaw/memory/. Trace root cause.
-- **Status:** pending
+- **Status:** approved
 
 ---
 
@@ -85,7 +85,7 @@
 - **Delta from earlier 07-30 run:** `state/` ✅ resolved. `raw/tools/` 🔍 newly surfaced (was hidden by permissive scan script template that included `tools` in `RAW_SUBFOLDERS`).
 - **Type:** [SPEC CONFLICT] — folder exists with valid compiled content but whitelist was never updated.
 - **Actions needed:** Julius decides: (A) update `folder-structure.md` §6 to add `tools/` as raw subfolder #7, or (B) move files to an existing approved subfolder.
-- **Status:** pending
+- **Status:** approved
 
 ---
 
@@ -213,4 +213,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 4 reports pending — Format (08-01), Output (08-01), Hygiene (07-30, 08-01). All prior reports ✅ APPLIED.*
+*System status: All reports ✅ APPROVED. Fix Agent can pick up Format 08-01 + Output 08-01. Hygiene 07-30/08-01 requires Julius decision on raw/tools/.*

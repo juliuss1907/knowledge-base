@@ -4,19 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-01 23:15 (Format Validator)
+**Last updated:** 2026-08-01 23:30 (Hygiene Inspector)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Fix queue:** 1 (double-i typos in 5 new semiconductor files) + 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
 **Last batch applied:** 4 reports (07-30 Hygiene, 08-01 Format/Output/Hygiene) **APPLIED** 2026-08-01 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
+| 🔍 PENDING | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md)
+| 🔍 PENDING | 08-01 | Hygiene | 1 (0E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md) |
 | ✅ APPLIED | 07-30 | Format | 411 (0E+411W) | Applied by Fix Agent 2026-08-01 — no fixes needed (forward-refs only) |
 | ✅ APPLIED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Applied by Fix Agent 2026-08-01 — fixed typos |
 | ✅ APPLIED | 08-01 | Format | 438 (5E+433W) | Applied by Fix Agent 2026-08-01 — fixed Pool A tags, removed extra fields |
@@ -43,6 +44,15 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-08-01 (23:30)
+
+- **Report:** `wiki/reviews/2026-08-01_hygiene-report.md`
+- **Summary:** 1 WARNING. Near-clean run. `raw/websites/tools.md` — leftover index file from `raw/tools/` migration by Fix Agent (morning 08-01 batch). The old `tools.md` index was moved along with content files but does not follow `YYYY-MM-DD_<slug>.md` naming convention. Its 2 items are already tracked in `raw/websites/websites.md`. No root orphans, no HEARTBEAT leaks, no structural errors.
+- **Actions needed:**
+  1. Fix Agent: Merge any unique items into `raw/websites/websites.md`, then delete `raw/websites/tools.md`
+  2. Fix Agent: Update migration procedure — when removing a raw subfolder, also handle the leftover index file
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-01
 
@@ -233,4 +243,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 2 reports pending (Output 08-01 22:00, Format 08-01 23:15). All other reports ✅ APPLIED or APPROVED.*
+*System status: 3 reports pending (Output 08-01 22:00, Format 08-01 23:15, Hygiene 08-01 23:30). All other reports ✅ APPLIED or APPROVED.*

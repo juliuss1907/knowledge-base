@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-07-30 23:32 (hygiene re-run — new findings: raw/tools/ unlisted)
+**Last updated:** 2026-08-01 (Connor — validation run, 3 new reports)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 4
 **Fix queue:** 0 (all applied)
 **Last batch applied:** 10 reports (07-21 through 07-24) **APPLIED** 2026-07-25 by Fix Agent
 
@@ -18,6 +18,9 @@
 |---|---|---|---|---|
 | ✅ APPROVED | 07-30 | Format | 411 (0E+411W) | Review [wiki/reviews/2026-07-30_format-report.md](2026-07-30_format-report.md) |
 | ✅ APPROVED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Review [wiki/reviews/2026-07-30_output-report.md](2026-07-30_output-report.md) |
+| 🔍 PENDING | 08-01 | Format | 438 (5E+433W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
+| 🔍 PENDING | 08-01 | Output | 4+ (0E+2W+3 systemic) | Review [wiki/reviews/2026-08-01_output-report.md](2026-08-01_output-report.md) |
+| 🔍 PENDING | 08-01 | Hygiene | 5 (4E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md) |
 | 🔍 PENDING | 07-30 | Hygiene | 3 (3E) | Review [wiki/reviews/2026-07-30_hygiene-report.md](2026-07-30_hygiene-report.md) |
 | ✅ APPLIED | 07-26 | Format | 357 (0E+357W) | Applied by Fix Agent 2026-07-30 — no fixes needed (forward-refs only) |
 | ✅ APPROVED | 07-26 | Output | 5 (1E+2W+1I+forward) | Approved by Julius 27/07/2026 — tự sửa. |
@@ -51,6 +54,29 @@
 - **Summary:** 5+ issues: 1 ERROR (dropped-i typos lần 6 — 5 new files), 2 WARNING (1-sentence definitions: 493/495, <5 key points: 86), 3 systemic patterns (ngưởi recurrence, 1-sentence defs, draft ratio 66%).
 - **Actions needed:** Fix Agent sửa dropped-i typos (5 files). Compile Agent cần update prompt cho Definition ≥2 câu, Key ideas ≥5.
 - **Status:** approved
+
+### 🔍 Format Validation — 2026-08-01
+
+- **Report:** 
+- **Summary:** 5 ERRORs + 433 WARNINGs. ⚠️ 0-ERROR streak BROKEN (was 9 days). 5 ERRORs are Pool A tags (tech, economic) used as sub_tags — Compile Agent regression. 3 WARNINGs for extra frontmatter fields (field, core_industry). New semiconductor batch with 9 concepts.
+- **Actions needed:** Fix Agent sửa sub_tags (tech/economic → Pool B), remove extra fields. Compile Agent kiểm tra workflow.md.
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-08-01
+
+- **Report:** 
+- **Summary:** 2 WARNING + systemic. Double-i typos có 5 instances MỚI từ batch semiconductor. Người spacing merge có 4 instances mới. Dropped-i tồn đọng từ 07-30 chưa được Fix Agent sửa. 502/504 concepts definition 1 câu.
+- **Actions needed:** Fix Agent sửa double-i + spacing-merge mới + dropped-i tồn đọng.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-01
+
+- **Report:** 
+- **Summary:** 4 ERRORs + 1 WARNING.  QUAY LẠI (lần 8) sau 3 run sạch — chứa memory/2026-07-31.md.  vẫn chưa được resolve từ 07-30 re-run. 3 ERRORs cho raw/tools/.
+- **Actions needed:** Julius quyết định raw/tools/. Move memory/ → .openclaw/memory/. Trace root cause.
+- **Status:** pending
+
+---
 
 ### 🔍 Hygiene Inspection — 2026-07-30 (23:30 re-run)
 
@@ -187,4 +213,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: All reports ✅ APPLIED. 0 pending reports. 0 approved reports waiting for Fix Agent.*
+*System status: 4 reports pending — Format (08-01), Output (08-01), Hygiene (07-30, 08-01). All prior reports ✅ APPLIED.*

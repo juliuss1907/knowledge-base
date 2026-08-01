@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-01 (Fix Agent — applied 4 approved reports)
+**Last updated:** 2026-08-01 23:15 (Format Validator)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
-**Fix queue:** 0 (all applied)
+**Pending reports awaiting review:** 2
+**Fix queue:** 1 (double-i typos in 5 new semiconductor files) + 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
 **Last batch applied:** 4 reports (07-30 Hygiene, 08-01 Format/Output/Hygiene) **APPLIED** 2026-08-01 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
 | ✅ APPLIED | 07-30 | Format | 411 (0E+411W) | Applied by Fix Agent 2026-08-01 — no fixes needed (forward-refs only) |
 | ✅ APPLIED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Applied by Fix Agent 2026-08-01 — fixed typos |
 | ✅ APPLIED | 08-01 | Format | 438 (5E+433W) | Applied by Fix Agent 2026-08-01 — fixed Pool A tags, removed extra fields |
@@ -43,6 +44,16 @@
 
 ## Pending Reports
 
+### 🔍 Format Validation — 2026-08-01
+
+- **Report:** `wiki/reviews/2026-08-01_format-report.md`
+- **Summary:** 433 issues (3 ERRORs + 430 WARNINGs). ⚠️ 0-ERROR streak BROKEN after 9 days (07-22 → 07-30). 3 ERRORs: 1 invalid sub_tag "career" not in TAGS.md (optionality-principle.md), 2 missing `## Co-occurring tags` sections (opinion.md, research.md). 430 WARNINGs are broken wikilinks (forward-references — 278 unique targets). +19 files vs 07-30 (886 total: +9 concepts, +2 sources, +8 topics).
+- **Actions needed:** 
+  1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
+  2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
+  3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
+- **Status:** pending
+
 ### ✅ Format Validation — 2026-07-30
 - **Report:** `wiki/reviews/2026-07-30_format-report.md`
 - **Summary:** 411 WARNINGs (all broken wikilinks — forward-references), 0 ERRORs. +28 files vs 07-26 (867 total). 0 ERROR streak: 9 consecutive days. New batch (memory theory) introduces `.md` suffix in source wikilinks (~11 instances). Clean structural quality.
@@ -62,12 +73,21 @@
 - **Actions taken:** ✅ Fixed sub_tags (tech→tools, economic→career), removed extra fields (field, core_industry) from 3 files.
 - **Status:** ✅ APPLIED by Fix Agent 2026-08-01
 
-### ✅ Output Validation — 2026-08-01
+### ✅ Output Validation — 2026-08-01 (morning)
 
-- **Report:** 
+- **Report:** (archived after Fix Agent application)
 - **Summary:** 2 WARNING + systemic. Double-i typos có 5 instances MỚI từ batch semiconductor. Người spacing merge có 4 instances mới. Dropped-i tồn đọng từ 07-30 chưa được Fix Agent sửa. 502/504 concepts definition 1 câu.
 - **Actions needed:** Fix Agent sửa double-i + spacing-merge mới + dropped-i tồn đọng.
 - **Status:** ✅ APPLIED by Fix Agent 2026-08-01
+
+---
+
+### 🔍 Output Validation — 2026-08-01 (22:00 re-run)
+
+- **Report:** `wiki/reviews/2026-08-01_output-report.md`
+- **Summary:** 3+ issues: 1 ERROR systemic (double-i typos lần 6 — 22 instances, 5/5 new files), 1 WARNING (10 forward-reference wikilinks), 1 INFO (empty Notes section). Same 5 semiconductor files from morning run — Fix Agent either missed them or they were re-compiled. Systemic patterns: 502/504 1-sentence defs, 86 <5 key points.
+- **Actions needed:** Fix Agent sửa 22 double-i instances trong 5 files. Compile Agent prompt review cho double-i defect (lần thứ 6).
+- **Status:** pending
 
 ### ✅ Hygiene Inspection — 2026-08-01
 
@@ -213,4 +233,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: All reports ✅ APPROVED. Fix Agent can pick up Format 08-01 + Output 08-01. Hygiene 07-30/08-01 requires Julius decision on raw/tools/.*
+*System status: 2 reports pending (Output 08-01 22:00, Format 08-01 23:15). All other reports ✅ APPLIED or APPROVED.*

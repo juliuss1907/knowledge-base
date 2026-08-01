@@ -683,6 +683,33 @@ check "cross-file" bash -c "grep -q '...' \"\$1\" && grep -q '...' \"\$2\"" _ "$
 
 **Prevention:** When writing a `bash -c` wrapper with `N` user args after `_`, reference them as `\$1` through `\$N` (not `\$1` through `\$N+1`). Count the positional parameters you pass after `_` and ensure your `\$N` references match.
 
+**Pitfall — `### 🔍` icon is not a reliable "pending" indicator (2026-08-01):** The `### 🔍` heading prefix is used for ALL re-run entries regardless of their actual status. The 2026-07-30 Hygiene re-run entry uses `### 🔍` even though its `**Status:**` is `✅ APPLIED by Fix Agent 2026-08-01`. Counting `grep -c '### 🔍'` to determine how many entries are pending will overcount — it catches APPLIED re-runs too. **Fix:** Count entries with `**Status:** pending` instead:
+
+```bash
+# BROKEN — counts all re-runs including APPLIED ones:
+PENDING_COUNT=$(sed -n '/^## Pending Reports/,/^## ✅ Approved/p' "$A" | grep -c '### 🔍')
+
+# CORRECT — counts only entries whose Status line says "pending":
+PENDING_COUNT=$(sed -n '/^## Pending Reports/,/^## ✅ Approved/p' "$A" | grep -c '\*\*Status:\*\* pending' || echo 0)
+```
+
+**Symptom:** verify script reports `[FAIL] Exactly 1 pending entry in Pending Reports` when the count is 2 — one entry is genuinely pending and the other is an APPLIED re-run from a prior date. The summary `**Pending reports awaiting review:** 1` is correct but the `🔍`-based count says 2.
+
+**Pitfall — pre-compute computed values outside `check()` to avoid pipe/redirect issues (2026-08-01):** When you need to compare computed values (line numbers, counts, file paths) inside a `check()` call, do NOT try to compute them inside the check. The `check()` function's `"$@"` passing interacts poorly with `$()` command substitution, pipes, and redirects — output can go to the wrong place or variables can capture unexpected content.
+
+```bash
+# BROKEN — redirection captures check()'s output, not the inner command:
+check "Entry appended" bash -c "grep -n '## 2026-07-25' \"\$1\" | head -1 | cut -d: -f1" _ "$M" > /tmp/line.txt
+JUL25_LINE=$(cat /tmp/line.txt)  # contains "[OK] Entry appended" not the line number!
+
+# CORRECT — pre-compute, then pass as literal args:
+JUL25_LINE=$(grep -n '## 2026-07-25 23:08:50' "$M" | head -1 | cut -d: -f1)
+AUG01_LINE=$(grep -n '## 2026-08-01 22:00' "$M" | head -1 | cut -d: -f1)
+check "08-01 entry after 07-25 (line $AUG01_LINE > $JUL25_LINE)" test "$AUG01_LINE" -gt "$JUL25_LINE"
+```
+
+**Symptom:** The check description string shows garbled output (e.g., `line 927 > [OK] Entry appended`) because variable expansion captured function output instead of the computed value. The `test` comparison may fail even when the ordering is correct because the variables hold wrong data.
+
 **Pitfall — verification script cleanup:** `rm /tmp/hermes-verify-*` may trigger "delete in root path" approval. Accept the block — `/tmp` files are cleaned by the OS eventually.
 
 **Pitfall — `cat` heredoc blocked by security scanner (2026-07-18):** The `cat > /tmp/...sh << 'VERIFY_EOF'` pattern can be blocked by the security scanner even when the heredoc body contains zero emoji. The scanner flags the entire shell command pattern, not just its content. **Workaround:** Use `write_file` to create the verification script at `/tmp/hermes-verify-*.sh`, then execute with `bash /tmp/hermes-verify-*.sh`. This bypasses the scanner entirely and produces identical results. If `write_file` is also blocked, try shorter paths or simpler content first to isolate the trigger.

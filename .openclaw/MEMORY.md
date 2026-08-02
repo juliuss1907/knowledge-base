@@ -1,5 +1,17 @@
 ---
 
+## 2026-08-02 08:00 — Compiled
+
+- **Mode:** daily cron (Compile Agent)
+- **Raw scanned:** 148 files across all types
+- **Unprocessed found:** 0
+- **Compiled:** 0
+- **Concepts created/updated:** 0
+- **Tag proposals:** 0
+- **Note:** All raw files already processed. CompileAgent idle.
+
+---
+
 ## 2026-08-01 21:00 — Indexed
 
 - **Mode:** incremental (11 files changed since 2026-07-30)

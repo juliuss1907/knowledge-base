@@ -1,11 +1,11 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-03 20:30 (Asia/Saigon)
+> Last updated: 2026-08-04 00:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_ATTENTION** — 3 reports đang chờ Julius review.
+**HEARTBEAT_ATTENTION** — 5 reports đang chờ Julius review (2 mới từ 08-03).
 
 ## Checks Performed
 
@@ -13,36 +13,43 @@
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file `#agent/inbox` |
 | Raw backlog | ✅ Clean | 0 file `status: unprocessed` trong `raw/` |
-| Concept backlinks | ✅ Clean | Sample 3 files có backlinks đầy đủ |
-| Pending reviews | ⚠️ Attention | 3 reports PENDING từ Hermes (08-01) chưa xử lý |
+| Concept backlinks | ✅ Clean | Sample 2 files có backlinks đầy đủ |
+| Pending reviews | ⚠️ Attention | 5 reports PENDING từ Hermes (08-01 ×3, 08-03 ×2) chưa xử lý |
 
 ## System State
 
 | Metric | Count | Δ since last | Status |
 |--------|-------|--------------|--------|
-| **raw/** total | 168 | 0 | ✅ Archive stable |
+| **raw/** total | 169 | +1 | ✅ Archive stable |
 | **raw/** unprocessed | 0 | 0 | ✅ Không có backlog |
 | **wiki/sources/** | 161 | 0 | ✅ Ổn định |
 | **wiki/concepts/** | 504 | 0 | ✅ Ổn định |
-| **wiki/tag/** | 25 | +1 | ✅ Ổn định |
+| **wiki/tag/** | 25 | 0 | ✅ Ổn định |
 | **wiki/topic/** | 187 | 0 | ✅ Ổn định |
-| **wiki/reviews/** pending | 3 | +1 | ⚠️ Cần review |
+| **wiki/reviews/** pending | 5 | +2 | ⚠️ Cần review |
 
 ## Pending Reviews (⚠️)
 
 | Date | Type | Issues | File |
 |------|------|--------|------|
-| 08-01 22:00 | Output | 3+ (double-i typos 22 instances) | `wiki/reviews/2026-08-01_output-report.md` |
+| 08-03 | Format | 433 (3E + 430W) | `wiki/reviews/2026-08-03_format-report.md` |
+| 08-03 | Hygiene | 3 (1E + 1W + 1I) | `wiki/reviews/2026-08-03_hygiene-report.md` |
 | 08-01 | Format | 433 (3E + 430W) | `wiki/reviews/2026-08-01_format-report.md` |
-| 08-01 23:30 | Hygiene | 1 (0E + 1W) | `wiki/reviews/2026-08-01_hygiene-report.md` |
+| 08-01 | Hygiene | 1 (0E + 1W) | `wiki/reviews/2026-08-01_hygiene-report.md` |
+| 08-01 22:00 | Output | 3+ (double-i typos 22 instances) | `wiki/reviews/2026-08-01_output-report.md` |
 
 → Julius xem tại `wiki/reviews/_action-required.md` để approve/reject.
 
-## Recent Actions (since 08-01)
+**Fix queue:** 2 items
+1. Replace `career` sub_tag in `optionality-principle.md` with valid Pool B tag
+2. Regenerate `opinion.md` và `research.md` với `## Co-occurring tags`
 
-**✅ Fix Agent Applied — 2026-08-01 (batch 2)**
-- 3 reports pending mới: Output 08-01 22:00, Format 08-01, Hygiene 08-01 23:30
-- Các batch trước đã applied: 07-30 (Format/Output/Hygiene) + 08-01 morning (Format/Output/Hygiene)
+## Recent Actions (since 08-03 20:30)
+
+**🆕 Hermes Review — 2026-08-03 23:30**
+- 2 reports mới: Format 08-03 + Hygiene 08-03
+- Format 08-03: 433 issues, Δ từ 08-01 không đổi (KB static)
+- Hygiene 08-03: 3 issues — `state/` root folder regression (empty, recreated 08-02)
 
 ## Next Scheduled Actions
 

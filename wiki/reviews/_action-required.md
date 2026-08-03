@@ -4,19 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-01 23:30 (Hygiene Inspector)
+**Last updated:** 2026-08-03 23:15 (Format Validator)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
-**Fix queue:** 1 (double-i typos in 5 new semiconductor files) + 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
+**Pending reports awaiting review:** 4
+**Fix queue:** 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
 **Last batch applied:** 4 reports (07-30 Hygiene, 08-01 Format/Output/Hygiene) **APPLIED** 2026-08-01 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md)
+| 🔍 PENDING | 08-03 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-03_format-report.md](2026-08-03_format-report.md) |
+| 🔍 PENDING | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
 | 🔍 PENDING | 08-01 | Hygiene | 1 (0E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md) |
 | ✅ APPLIED | 07-30 | Format | 411 (0E+411W) | Applied by Fix Agent 2026-08-01 — no fixes needed (forward-refs only) |
 | ✅ APPLIED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Applied by Fix Agent 2026-08-01 — fixed typos |
@@ -44,6 +45,16 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-03
+
+- **Report:** `wiki/reviews/2026-08-03_format-report.md`
+- **Summary:** 433 issues (3 ERRORs + 430 WARNINGs). Δ from 08-01: **no change** — identical results. KB static since 08-01. Same 3 ERRORs: career sub_tag not in TAGS.md (optionality-principle.md), 2 missing `## Co-occurring tags` (opinion.md, research.md). 430 WARNINGs all broken wikilinks (278 unique targets). 0 files added/changed.
+- **Actions needed:** Same as 08-01:
+  1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
+  2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
+  3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-08-01 (23:30)
 
@@ -243,4 +254,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 3 reports pending (Output 08-01 22:00, Format 08-01 23:15, Hygiene 08-01 23:30). All other reports ✅ APPLIED or APPROVED.*
+*System status: 4 reports pending (Format 08-03, Format 08-01, Output 08-01 22:00, Hygiene 08-01 23:30). All other reports ✅ APPLIED or APPROVED.*

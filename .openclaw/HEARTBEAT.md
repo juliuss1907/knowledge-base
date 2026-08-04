@@ -1,11 +1,11 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-04 09:30 (Asia/Saigon)
+> Last updated: 2026-08-05 02:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_ATTENTION** — 5 reports đang chờ Julius review. Không có thay đổi từ 09:00.
+**HEARTBEAT_ATTENTION** — 7 reports đang chờ Julius review. Không có thay đổi từ lần check trước.
 
 ## Checks Performed
 
@@ -13,8 +13,8 @@
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file `#agent/inbox` |
 | Raw backlog | ✅ Clean | 0 file `status: unprocessed` trong `raw/` |
-| Concept backlinks | ✅ Clean | Sample 2 files có backlinks đầy đủ |
-| Pending reviews | ⚠️ Attention | 5 reports PENDING từ Hermes (08-01 ×3, 08-03 ×2) chưa xử lý |
+| Concept backlinks | ✅ Clean | Sample 2 files ([[ai-powered-discovery]], [[operant-conditioning]]) có backlinks đầy đủ |
+| Pending reviews | ⚠️ Attention | 7 reports PENDING từ Hermes chưa xử lý |
 
 ## System State
 
@@ -26,18 +26,20 @@
 | **wiki/concepts/** | 504 | 0 | ✅ Ổn định |
 | **wiki/tag/** | 25 | 0 | ✅ Ổn định |
 | **wiki/topic/** | 187 | 0 | ✅ Ổn định |
-| **wiki/reviews/** pending | 5 | 0 | ⚠️ Cần review |
+| **wiki/reviews/** pending | 7 | +2 | ⚠️ Cần review |
 
 ## Issues (priority order)
 
-1. **`state/` root folder regression** — ERROR. Folder empty vẫn tồn tại (recreated 08-02). Cần `rmdir state/` + điều tra process nào tái tạo.
-2. **5 pending reviews** — Format 08-03, Hygiene 08-03, Format 08-01, Output 08-01, Hygiene 08-01. Chi tiết: `wiki/reviews/_action-required.md`.
-3. **`raw/websites/tools.md` orphan** — WARNING. File leftover từ migration `raw/tools/` → `raw/websites/`. Cần merge items vào `websites.md` rồi xóa.
+1. **`state/` root folder regression** — ERROR. Folder empty vẫn tồn tại (recreated 08-02, đã 3 ngày). Cần `rmdir state/` + điều tra process nào tái tạo ~monthly.
+2. **7 pending reviews** — 2 reports mới từ 08-04 (Format, Hygiene). Tổng cộng: Format 08-04/08-03/08-01, Hygiene 08-04/08-03/08-01, Output 08-01. Chi tiết: `wiki/reviews/_action-required.md`.
+3. **`raw/websites/tools.md` orphan** — WARNING. File leftover từ migration `raw/tools/` → `raw/websites/` (đã 3 lần scan). Cần merge items vào `websites.md` rồi xóa.
 
 ## Pending Reviews (⚠️)
 
 | Date | Type | Issues | File |
 |------|------|--------|------|
+| 08-04 | Format | 433 (3E + 430W) | `wiki/reviews/2026-08-04_format-report.md` |
+| 08-04 | Hygiene | 3 (1E + 1W + 1I) | `wiki/reviews/2026-08-04_hygiene-report.md` |
 | 08-03 | Format | 433 (3E + 430W) | `wiki/reviews/2026-08-03_format-report.md` |
 | 08-03 | Hygiene | 3 (1E + 1W + 1I) | `wiki/reviews/2026-08-03_hygiene-report.md` |
 | 08-01 | Format | 433 (3E + 430W) | `wiki/reviews/2026-08-01_format-report.md` |
@@ -50,13 +52,13 @@
 1. Replace `career` sub_tag in `optionality-principle.md` with valid Pool B tag
 2. Regenerate `opinion.md` và `research.md` với `## Co-occurring tags`
 
-## Recent Actions (since 09:00)
+## Recent Actions (since 09:00 08-04)
 
 - Không có action mới. Hệ thống static.
 
 ## Next Scheduled Actions
 
-- CompileAgent: 08:00 ngày mai — nếu có file mới
+- CompileAgent: 08:00 hôm nay — nếu có file mới
 - Index update: 21:00 tối nay
 
 ---

@@ -1,11 +1,11 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-04 01:00 (Asia/Saigon)
+> Last updated: 2026-08-04 09:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_ATTENTION** — 5 reports đang chờ Julius review. Không có thay đổi từ 00:30.
+**HEARTBEAT_ATTENTION** — 5 reports đang chờ Julius review. Không có thay đổi từ 09:00.
 
 ## Checks Performed
 
@@ -20,13 +20,19 @@
 
 | Metric | Count | Δ since last | Status |
 |--------|-------|--------------|--------|
-| **raw/** total | 169 | +1 | ✅ Archive stable |
+| **raw/** total | 169 | 0 | ✅ Archive stable |
 | **raw/** unprocessed | 0 | 0 | ✅ Không có backlog |
 | **wiki/sources/** | 161 | 0 | ✅ Ổn định |
 | **wiki/concepts/** | 504 | 0 | ✅ Ổn định |
 | **wiki/tag/** | 25 | 0 | ✅ Ổn định |
 | **wiki/topic/** | 187 | 0 | ✅ Ổn định |
-| **wiki/reviews/** pending | 5 | +2 | ⚠️ Cần review |
+| **wiki/reviews/** pending | 5 | 0 | ⚠️ Cần review |
+
+## Issues (priority order)
+
+1. **`state/` root folder regression** — ERROR. Folder empty vẫn tồn tại (recreated 08-02). Cần `rmdir state/` + điều tra process nào tái tạo.
+2. **5 pending reviews** — Format 08-03, Hygiene 08-03, Format 08-01, Output 08-01, Hygiene 08-01. Chi tiết: `wiki/reviews/_action-required.md`.
+3. **`raw/websites/tools.md` orphan** — WARNING. File leftover từ migration `raw/tools/` → `raw/websites/`. Cần merge items vào `websites.md` rồi xóa.
 
 ## Pending Reviews (⚠️)
 
@@ -44,16 +50,13 @@
 1. Replace `career` sub_tag in `optionality-principle.md` with valid Pool B tag
 2. Regenerate `opinion.md` và `research.md` với `## Co-occurring tags`
 
-## Recent Actions (since 08-03 20:30)
+## Recent Actions (since 09:00)
 
-**🆕 Hermes Review — 2026-08-03 23:30**
-- 2 reports mới: Format 08-03 + Hygiene 08-03
-- Format 08-03: 433 issues, Δ từ 08-01 không đổi (KB static)
-- Hygiene 08-03: 3 issues — `state/` root folder regression (empty, recreated 08-02)
+- Không có action mới. Hệ thống static.
 
 ## Next Scheduled Actions
 
-- CompileAgent: 08:00 ngày mai (Thứ Ba) — nếu có file mới
+- CompileAgent: 08:00 ngày mai — nếu có file mới
 - Index update: 21:00 tối nay
 
 ---

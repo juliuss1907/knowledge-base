@@ -4,22 +4,24 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-03 23:30 (Hygiene Inspector)
+**Last updated:** 2026-08-04 23:30 (Format Validator)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 5
+**Pending reports awaiting review:** 6
 **Fix queue:** 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
 **Last batch applied:** 4 reports (07-30 Hygiene, 08-01 Format/Output/Hygiene) **APPLIED** 2026-08-01 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-04 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-04_format-report.md](2026-08-04_format-report.md) |
 | 🔍 PENDING | 08-03 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-03_format-report.md](2026-08-03_format-report.md) |
 | 🔍 PENDING | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
 | 🔍 PENDING | 08-01 | Hygiene | 1 (0E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md)
 | 🔍 PENDING | 08-03 | Hygiene | 3 (1E+1W+1I) | Review [wiki/reviews/2026-08-03_hygiene-report.md](2026-08-03_hygiene-report.md) |
+| 🔍 PENDING | 08-01 | Output | 4+ (0E+2W+3 systemic) | Review [wiki/reviews/2026-08-01_output-report.md](2026-08-01_output-report.md) |
 | ✅ APPLIED | 07-30 | Format | 411 (0E+411W) | Applied by Fix Agent 2026-08-01 — no fixes needed (forward-refs only) |
 | ✅ APPLIED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Applied by Fix Agent 2026-08-01 — fixed typos |
 | ✅ APPLIED | 08-01 | Format | 438 (5E+433W) | Applied by Fix Agent 2026-08-01 — fixed Pool A tags, removed extra fields |
@@ -46,6 +48,17 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-04
+
+- **Report:** `wiki/reviews/2026-08-04_format-report.md`
+- **Summary:** 433 issues (3 ERRORs + 430 WARNINGs). Δ from 08-03: **no change** — identical results. 3rd consecutive run with identical output (08-01, 08-03, 08-04). KB is static — 0 files added/changed since 08-01. Same 3 ERRORs: career sub_tag not in TAGS.md (optionality-principle.md), 2 missing `## Co-occurring tags` (opinion.md, research.md). 430 WARNINGs all broken wikilinks (278 unique targets).
+- **Delta from 07-30 (approved):** +19 files (+9 concepts, +2 sources, +8 topics), +22 issues (0→3 ERRORs, +19 WARNINGs). 0-ERROR streak broken after 9 days.
+- **Actions needed:** Same as 08-01/08-03:
+  1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
+  2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
+  3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-03
 
@@ -85,6 +98,13 @@
   1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
   2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
   3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-08-01 (22:00 re-run)
+
+- **Report:** `wiki/reviews/2026-08-01_output-report.md`
+- **Summary:** 4+ issues: 0 ERROR + 2 WARNING + 3 systemic patterns. Double-i typos (22 instances in 5 new files), short summaries (<2 sentences: 10/161 sources), systemic patterns (1-sentence defs: 502/504, <5 key points: 86, draft ratio 66%). Same 5 semiconductor files from morning run.
+- **Actions needed:** Fix Agent sửa 22 double-i instances trong 5 files. Compile Agent prompt review cho double-i defect (lần thứ 6).
 - **Status:** pending
 
 ### ✅ Format Validation — 2026-07-30
@@ -266,4 +286,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 5 reports pending (Format 08-03, Hygiene 08-03, Format 08-01, Output 08-01 22:00, Hygiene 08-01 23:30). All other reports ✅ APPLIED or APPROVED.*
+*System status: 6 reports pending (Format 08-04/08-03/08-01, Hygiene 08-03/08-01, Output 08-01 22:00). All other reports ✅ APPLIED or APPROVED.*

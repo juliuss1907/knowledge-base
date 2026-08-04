@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-04 23:30 (Format Validator)
+**Last updated:** 2026-08-04 23:35 (Hygiene Inspector)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 **Fix queue:** 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
 **Last batch applied:** 4 reports (07-30 Hygiene, 08-01 Format/Output/Hygiene) **APPLIED** 2026-08-01 by Fix Agent
 
@@ -20,7 +20,8 @@
 | 🔍 PENDING | 08-03 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-03_format-report.md](2026-08-03_format-report.md) |
 | 🔍 PENDING | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
 | 🔍 PENDING | 08-01 | Hygiene | 1 (0E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md)
-| 🔍 PENDING | 08-03 | Hygiene | 3 (1E+1W+1I) | Review [wiki/reviews/2026-08-03_hygiene-report.md](2026-08-03_hygiene-report.md) |
+| 🔍 PENDING | 08-03 | Hygiene | 3 (1E+1W+1I) | Review [wiki/reviews/2026-08-03_hygiene-report.md](2026-08-03_hygiene-report.md)
+| 🔍 PENDING | 08-04 | Hygiene | 3 (1E+1W+1I) | Review [wiki/reviews/2026-08-04_hygiene-report.md](2026-08-04_hygiene-report.md) |
 | 🔍 PENDING | 08-01 | Output | 4+ (0E+2W+3 systemic) | Review [wiki/reviews/2026-08-01_output-report.md](2026-08-01_output-report.md) |
 | ✅ APPLIED | 07-30 | Format | 411 (0E+411W) | Applied by Fix Agent 2026-08-01 — no fixes needed (forward-refs only) |
 | ✅ APPLIED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Applied by Fix Agent 2026-08-01 — fixed typos |
@@ -88,6 +89,17 @@
   1. Julius: `rmdir state/` + investigate what process recreated it on 08-02
   2. Fix Agent: Delete `raw/websites/tools.md` (verify items are in `websites.md` first)
   3. Fix Agent: Update migration procedure to handle leftover index files
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-04 (23:30)
+
+- **Report:** `wiki/reviews/2026-08-04_hygiene-report.md`
+- **Summary:** 3 issues (1 ERROR + 1 WARNING + 1 INFO). Δ = 0 from 08-03 — identical results. Same issues: `state/` root folder recurrence (empty dir, recreated 08-02), `raw/websites/tools.md` naming (3rd consecutive run). KB is static — no new files or folders since 08-03.
+- **Delta from 08-03:** 0. KB unchanged.
+- **Actions needed:**
+  1. Julius: `rmdir state/` + identify the process recreating it ~monthly
+  2. Fix Agent: Delete `raw/websites/tools.md` (3rd run — verify items are in `websites.md` first)
+  3. Fix Agent: Update migration procedure to handle leftover index files from subfolder moves
 - **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-01
@@ -286,4 +298,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 6 reports pending (Format 08-04/08-03/08-01, Hygiene 08-03/08-01, Output 08-01 22:00). All other reports ✅ APPLIED or APPROVED.*
+*System status: 7 reports pending (Format 08-04/08-03/08-01, Hygiene 08-04/08-03/08-01, Output 08-01 22:00). All other reports ✅ APPLIED or APPROVED.*

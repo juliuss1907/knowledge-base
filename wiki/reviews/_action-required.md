@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-04 23:35 (Hygiene Inspector)
+**Last updated:** 2026-08-05 23:15 (Format Validator)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 7
+**Pending reports awaiting review:** 8
 **Fix queue:** 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
 **Last batch applied:** 4 reports (07-30 Hygiene, 08-01 Format/Output/Hygiene) **APPLIED** 2026-08-01 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-05 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-05_format-report.md](2026-08-05_format-report.md) |
 | 🔍 PENDING | 08-04 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-04_format-report.md](2026-08-04_format-report.md) |
 | 🔍 PENDING | 08-03 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-03_format-report.md](2026-08-03_format-report.md) |
 | 🔍 PENDING | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
@@ -49,6 +50,16 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-05
+
+- **Report:** `wiki/reviews/2026-08-05_format-report.md`
+- **Summary:** 433 issues (3 ERRORs + 430 WARNINGs). Δ from 08-04: **no change** — 4th consecutive identical run (08-01, 08-03, 08-04, 08-05). KB static since 08-01 — 0 files added/changed. Same 3 ERRORs: career sub_tag not in TAGS.md (optionality-principle.md), 2 missing `## Co-occurring tags` (opinion.md, research.md). 430 WARNINGs all broken wikilinks (278 unique targets).
+- **Actions needed:** Same as 08-01/08-03/08-04:
+  1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
+  2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
+  3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-04
 
@@ -298,4 +309,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 7 reports pending (Format 08-04/08-03/08-01, Hygiene 08-04/08-03/08-01, Output 08-01 22:00). All other reports ✅ APPLIED or APPROVED.*
+*System status: 8 reports pending (Format 08-05/08-04/08-03/08-01, Hygiene 08-04/08-03/08-01, Output 08-01 22:00). All other reports ✅ APPLIED or APPROVED.*

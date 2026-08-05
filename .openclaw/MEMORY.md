@@ -771,3 +771,4 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - ✅ 504 concepts, 161 sources, 183 topics, 24 tags
 - ✅ 1,030 wiki files total
 
+- 2026-08-05 08:35: Ingested: raw/articles/2026-08-05_why-time-felt-slower-when-we-were-kids.md — "why time felt slower when we were kids" (Contemplation Station, Substack)

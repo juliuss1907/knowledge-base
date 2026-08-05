@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-05 23:15 (Format Validator)
+**Last updated:** 2026-08-05 23:30 (Hygiene Inspector)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 8
+**Pending reports awaiting review:** 9
 **Fix queue:** 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
 **Last batch applied:** 4 reports (07-30 Hygiene, 08-01 Format/Output/Hygiene) **APPLIED** 2026-08-01 by Fix Agent
 
@@ -23,6 +23,7 @@
 | 🔍 PENDING | 08-01 | Hygiene | 1 (0E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md)
 | 🔍 PENDING | 08-03 | Hygiene | 3 (1E+1W+1I) | Review [wiki/reviews/2026-08-03_hygiene-report.md](2026-08-03_hygiene-report.md)
 | 🔍 PENDING | 08-04 | Hygiene | 3 (1E+1W+1I) | Review [wiki/reviews/2026-08-04_hygiene-report.md](2026-08-04_hygiene-report.md) |
+| 🔍 PENDING | 08-05 | Hygiene | 5 (2E+2W+1I) | Review [wiki/reviews/2026-08-05_hygiene-report.md](2026-08-05_hygiene-report.md) |
 | 🔍 PENDING | 08-01 | Output | 4+ (0E+2W+3 systemic) | Review [wiki/reviews/2026-08-01_output-report.md](2026-08-01_output-report.md) |
 | ✅ APPLIED | 07-30 | Format | 411 (0E+411W) | Applied by Fix Agent 2026-08-01 — no fixes needed (forward-refs only) |
 | ✅ APPLIED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Applied by Fix Agent 2026-08-01 — fixed typos |
@@ -111,6 +112,19 @@
   1. Julius: `rmdir state/` + identify the process recreating it ~monthly
   2. Fix Agent: Delete `raw/websites/tools.md` (3rd run — verify items are in `websites.md` first)
   3. Fix Agent: Update migration procedure to handle leftover index files from subfolder moves
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-05 (23:30)
+
+- **Report:** `wiki/reviews/2026-08-05_hygiene-report.md`
+- **Summary:** 5 issues (2 ERROR + 2 WARNING + 1 INFO). ⚠️ REGRESSION: `memory/` root folder RETURNED after being absent on 08-03/08-04 — contains `memory/2026-08-05.md` (2.6KB, written 08:35 today). Same process-level root cause as flagged since 07-03. `state/` root folder persists (3rd consecutive run, empty). `raw/websites/tools.md` persists (4th consecutive run, leftover from migration). KB otherwise clean — 53,487 paths scanned, no HEARTBEAT leaks, no naming drift elsewhere.
+- **Delta from 08-04 (3 issues):** +2 issues. `memory/` root folder + contained file are new regressions. `state/` and `tools.md` unchanged.
+- **Actions needed:**
+  1. Julius: Move `memory/2026-08-05.md` → `.openclaw/memory/`, then `rmdir memory/`
+  2. Julius: Fix the process writing memory logs to `memory/` instead of `.openclaw/memory/` (process-level fix needed — file deletion is transient)
+  3. Julius: `rmdir state/` + identify process recreating it ~monthly
+  4. Fix Agent: Delete `raw/websites/tools.md` (verify items are in `websites.md` first; 4th run)
+  5. Fix Agent: Update migration procedure to handle leftover index files
 - **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-01
@@ -309,4 +323,4 @@ Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by
 
 ---
 
-*System status: 8 reports pending (Format 08-05/08-04/08-03/08-01, Hygiene 08-04/08-03/08-01, Output 08-01 22:00). All other reports ✅ APPLIED or APPROVED.*
+*System status: 9 reports pending (Format 08-05/08-04/08-03/08-01, Hygiene 08-05/08-04/08-03/08-01, Output 08-01 22:00). All other reports ✅ APPLIED or APPROVED.*

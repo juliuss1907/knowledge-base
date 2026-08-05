@@ -1,5 +1,17 @@
 ---
 
+## 2026-08-05 08:00 — Compiled
+
+- **Mode:** daily cron (Compile Agent)
+- **Raw scanned:** 161 files across all types
+- **Unprocessed found:** 0
+- **Compiled:** 0
+- **Concepts created/updated:** 0
+- **Tag proposals:** 0
+- **Note:** Tất cả file đã được xử lý. Raw backlog sạch.
+
+---
+
 ## 2026-08-04 21:00 — Indexed (Skip)
 
 - **Mode:** incremental check

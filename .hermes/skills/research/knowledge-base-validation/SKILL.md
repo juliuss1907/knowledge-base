@@ -65,7 +65,7 @@ Compile Agent produces frontmatter where `sub_tags` is defined twice: once as in
 **RECURRING ISSUE — Source original field with .md extension:**
 Source files sometimes have `original: "[[YYYY-MM-DD_slug.md]]"` (with `.md` extension). Fix: remove `.md` from wikilink.
 
-**RECURRING ISSUE — Body wikilinks to sources with .md extension (NEW 2026-07-30):**
+**⚠️ PITFALL — Adding a tag to TAGS.md requires syncing validate.py POOL_B:** The format validator script (`.hermes/skills/format-validator/scripts/validate.py`) has a hardcoded `POOL_B` set at lines 24-26. The comment says "update when TAGS.md changes" but this is easily missed. When Julius approves a new Pool B tag, the validator will still flag it as invalid until BOTH files are updated:\n1. `TAGS.md` — add tag to Pool B table, update total count, update version, add changelog entry\n2. `.hermes/skills/format-validator/scripts/validate.py` — add tag string to `POOL_B` set\n3. `.hermes/skills/research/knowledge-base-validation/SKILL.md` — update hardcoded Pool B reference (count + list)\n\n**Pattern (2026-08-06):** Julius approved `#strategy` → Pool B. TAGS.md updated to v1.4. Validator still flagged `strategy` as invalid because validate.py POOL_B wasn't synced. Required 3-file coordinated update to fix.\n\n**RECURRING ISSUE — Body wikilinks to sources with .md extension (NEW 2026-07-30):**
 Compile Agent sometimes generates body wikilinks to sources WITH `.md` extension, e.g. `[[src_agent-memory-7-types-substack.md]]` instead of `[[src_agent-memory-7-types-substack]]`. First observed in the memory-theory batch (18 concepts from 3 sources). ~11 instances across 7 concept files. These are broken wikilinks (target doesn't exist with `.md`) AND semantically wrong (wikilinks should never include file extensions). Pattern: `\[\[(src_[\w\-]+)\.md\]\]` — strip the `.md` suffix. This is a Compile Agent regression — prompt template should explicitly forbid file extensions in wikilinks.
 
 ### 2. Output Validator
@@ -471,6 +471,8 @@ Fix Agent failure modes observed (2026-06-01):
 - Claimed "0 empty sub_tags" but actual: 6 files (unchanged from start)
 - Claimed "36 files fixed" but actual: 27 files (9 overstated)
 
+**⚠️ PITFALL — Fix Agent tag cycling (2026-08-06):** When Fix Agent replaces an invalid sub_tag, it may choose another invalid tag. `optionality-principle.md` went through `economic` → `career` → `strategy` across 3 fix attempts — `career` and `strategy` were BOTH not in Pool B at the time. Fix Agent does NOT validate replacement tags against TAGS.md before writing. **Countermeasure:** After Fix Agent reports sub_tag fixes, re-run format validator to confirm tags are actually valid. If a replacement tag is also invalid, flag the specific file + tag so Julius can assign an explicit valid target.
+
 **Process after Fix Agent runs:**
 1. Run full format validator scan immediately
 2. Compare Fix Agent's claimed fixes vs actual scan
@@ -611,7 +613,7 @@ Per format-spec.md §3.2, source files do NOT have a `status` field. Only concep
 | Check | Spec Rule |
 |-------|-----------|
 | sub_tags count | 1-3 per file (Pool B tags only) |
-| Valid Pool B tags | **ALWAYS read TAGS.md.** Current Pool B (2026-06-19): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding, psychology, health, ai, system, geopolitics |
+| Valid Pool B tags | **ALWAYS read TAGS.md.** Current Pool B (2026-08-06, 20 tags): hack, tools, automation, vibecode, research, tutorial, opinion, news, defi, perpdex, layer1, layer2, law, coding, psychology, health, ai, system, geopolitics, strategy |
 | Invalid tags (recurring) | main_tags used as sub_tags: `economic`, `productivity`, `systems`, `ai`, `politic`, `tech`, `crypto` → remove, these are Pool A only |
 | Status valid values | `draft` \| `reviewed` \| `needs-revision` (NOT `stub`) |
 | Summary min length | 3-5 sentences required. 1-sentence summary = systemic compile-agent prompt failure |

@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: productivity
-sub_tags: [psychology, career]
+sub_tags: [psychology, strategy]
 topic: decision-making-frameworks
 sources:
   - "[[src_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]]"

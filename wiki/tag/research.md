@@ -277,6 +277,8 @@ last_updated: 2026-07-30
 - [[moores-law-economics]] — Moores Law Economics (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
 
+## Co-occurring tags
+
 - [[productivity]] — 85 co-occurrences
 - [[ai]] — 83 co-occurrences
 - [[tools]] — 67 co-occurrences

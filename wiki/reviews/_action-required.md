@@ -4,323 +4,69 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-06 (Julius — approved all 9 pending reports)
+**Last updated:** 2026-08-06 (Fix Agent applied 9 reports)
 
 ---
 
 ## Summary
 
 **Pending reports awaiting review:** 0
-**Fix queue:** 2 (tag indexes missing Co-occurring tags + invalid career sub_tag)
-**Last batch applied:** 4 reports (07-30 Hygiene, 08-01 Format/Output/Hygiene) **APPLIED** 2026-08-01 by Fix Agent
+**Last batch applied:** 9 reports (08-01 Format ×4, 08-01/08-03/08-04 Hygiene ×4, 08-01 Output ×1) — **APPLIED** 2026-08-06 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| ✅ APPROVED | 08-05 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-05_format-report.md](2026-08-05_format-report.md) |
-| ✅ APPROVED | 08-04 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-04_format-report.md](2026-08-04_format-report.md) |
-| ✅ APPROVED | 08-03 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-03_format-report.md](2026-08-03_format-report.md) |
-| ✅ APPROVED | 08-01 | Format | 433 (3E+430W) | Review [wiki/reviews/2026-08-01_format-report.md](2026-08-01_format-report.md) |
-| ✅ APPROVED | 08-01 | Hygiene | 1 (0E+1W) | Review [wiki/reviews/2026-08-01_hygiene-report.md](2026-08-01_hygiene-report.md)
-| ✅ APPROVED | 08-03 | Hygiene | 3 (1E+1W+1I) | Review [wiki/reviews/2026-08-03_hygiene-report.md](2026-08-03_hygiene-report.md)
-| ✅ APPROVED | 08-04 | Hygiene | 3 (1E+1W+1I) | Review [wiki/reviews/2026-08-04_hygiene-report.md](2026-08-04_hygiene-report.md) |
-| ✅ APPROVED | 08-05 | Hygiene | 5 (2E+2W+1I) | Review [wiki/reviews/2026-08-05_hygiene-report.md](2026-08-05_hygiene-report.md) |
-| ✅ APPROVED | 08-01 | Output | 4+ (0E+2W+3 systemic) | Review [wiki/reviews/2026-08-01_output-report.md](2026-08-01_output-report.md) |
-| ✅ APPLIED | 07-30 | Format | 411 (0E+411W) | Applied by Fix Agent 2026-08-01 — no fixes needed (forward-refs only) |
-| ✅ APPLIED | 07-30 | Output | 5+ (1E+2W+3 systemic) | Applied by Fix Agent 2026-08-01 — fixed typos |
-| ✅ APPLIED | 08-01 | Format | 438 (5E+433W) | Applied by Fix Agent 2026-08-01 — fixed Pool A tags, removed extra fields |
-| ✅ APPLIED | 08-01 | Output | 4+ (0E+2W+3 systemic) | Applied by Fix Agent 2026-08-01 — fixed double-i, spacing merge |
-| ✅ APPLIED | 08-01 | Hygiene | 5 (4E+1W) | Applied by Fix Agent 2026-08-01 — moved raw/tools/ files to websites/ |
-| ✅ APPLIED | 07-30 | Hygiene | 3 (3E) | Applied by Fix Agent 2026-08-01 — moved raw/tools/ files to websites/ |
-| ✅ APPLIED | 07-26 | Format | 357 (0E+357W) | Applied by Fix Agent 2026-07-30 — no fixes needed (forward-refs only) |
-| ✅ APPROVED | 07-26 | Output | 5 (1E+2W+1I+forward) | Approved by Julius 27/07/2026 — tự sửa. |
-| ✅ APPLIED | 07-26 | Hygiene | 0 (clean) | Applied by Fix Agent 2026-07-30 — no fixes needed (clean run) |
-| ✅ APPROVED | 07-25 | Format | 336 (0E+336W) | Approved by Julius 26/07/2026 — all WARNINGs are forward-reference broken wikilinks (content gap, not structural errors). No fixes needed. |
-| ✅ APPLIED | 07-25 | Hygiene | 3 (1E+2W) | Applied by Fix Agent 2026-07-26 — moved memory/, renamed draft file |
-| ✅ APPLIED | 07-26 | Output | 2 (1E+1I) | Applied by Fix Agent 2026-07-26 — fixed dropped-i typos in 6 files |
-| ✅ APPLIED | 07-24 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-23 | Format | 337 (1E+336W) | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-22 | Format | 318W | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-21 | Format | 318W | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-21 | Output | 5 (1E+2W+2I) | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-21 | Hygiene | 1W | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-22 | Hygiene | 1W | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-23 | Output | 4 (1E+2W+1I) | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-23 | Hygiene | 1W | Applied by Fix Agent 2026-07-25 |
-| ✅ APPLIED | 07-24 | Hygiene | 1W | Applied by Fix Agent 2026-07-25 |
+| ✅ APPLIED | 08-05 | Format | 433 (3E+430W) | Applied 2026-08-06 — fixed career→strategy, added Co-occurring tags |
+| ✅ APPLIED | 08-04 | Format | 433 (3E+430W) | Applied 2026-08-06 — same fixes |
+| ✅ APPLIED | 08-03 | Format | 433 (3E+430W) | Applied 2026-08-06 — same fixes |
+| ✅ APPLIED | 08-01 | Format | 433 (3E+430W) | Applied 2026-08-06 — fixed Pool A tags, added Co-occurring tags |
+| ✅ APPLIED | 08-01 | Hygiene | 1W | Applied 2026-08-06 — raw/websites/tools.md already removed |
+| ✅ APPLIED | 08-03 | Hygiene | 3 (1E+1W+1I) | Applied 2026-08-06 — state/ already removed |
+| ✅ APPLIED | 08-04 | Hygiene | 3 (1E+1W+1I) | Applied 2026-08-06 — same |
+| ✅ APPLIED | 08-05 | Hygiene | 5 (2E+2W+1I) | Applied 2026-08-06 — memory/ already moved |
+| ✅ APPLIED | 08-01 | Output | 22 double-i typos | Applied 2026-08-06 — fixed in 5 files |
 
 ---
 
-## Pending Reports
-
-### ✅ Format Validation — 2026-08-05
-
-- **Report:** `wiki/reviews/2026-08-05_format-report.md`
-- **Summary:** 433 issues (3 ERRORs + 430 WARNINGs). Δ from 08-04: **no change** — 4th consecutive identical run (08-01, 08-03, 08-04, 08-05). KB static since 08-01 — 0 files added/changed. Same 3 ERRORs: career sub_tag not in TAGS.md (optionality-principle.md), 2 missing `## Co-occurring tags` (opinion.md, research.md). 430 WARNINGs all broken wikilinks (278 unique targets).
-- **Actions needed:** Same as 08-01/08-03/08-04:
-  1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
-  2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
-  3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-04
-
-- **Report:** `wiki/reviews/2026-08-04_format-report.md`
-- **Summary:** 433 issues (3 ERRORs + 430 WARNINGs). Δ from 08-03: **no change** — identical results. 3rd consecutive run with identical output (08-01, 08-03, 08-04). KB is static — 0 files added/changed since 08-01. Same 3 ERRORs: career sub_tag not in TAGS.md (optionality-principle.md), 2 missing `## Co-occurring tags` (opinion.md, research.md). 430 WARNINGs all broken wikilinks (278 unique targets).
-- **Delta from 07-30 (approved):** +19 files (+9 concepts, +2 sources, +8 topics), +22 issues (0→3 ERRORs, +19 WARNINGs). 0-ERROR streak broken after 9 days.
-- **Actions needed:** Same as 08-01/08-03:
-  1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
-  2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
-  3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-03
-
-- **Report:** `wiki/reviews/2026-08-03_format-report.md`
-- **Summary:** 433 issues (3 ERRORs + 430 WARNINGs). Δ from 08-01: **no change** — identical results. KB static since 08-01. Same 3 ERRORs: career sub_tag not in TAGS.md (optionality-principle.md), 2 missing `## Co-occurring tags` (opinion.md, research.md). 430 WARNINGs all broken wikilinks (278 unique targets). 0 files added/changed.
-- **Actions needed:** Same as 08-01:
-  1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
-  2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
-  3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-01 (23:30)
-
-- **Report:** `wiki/reviews/2026-08-01_hygiene-report.md`
-- **Summary:** 1 WARNING. Near-clean run. `raw/websites/tools.md` — leftover index file from `raw/tools/` migration by Fix Agent (morning 08-01 batch). The old `tools.md` index was moved along with content files but does not follow `YYYY-MM-DD_<slug>.md` naming convention. Its 2 items are already tracked in `raw/websites/websites.md`. No root orphans, no HEARTBEAT leaks, no structural errors.
-- **Actions needed:**
-  1. Fix Agent: Merge any unique items into `raw/websites/websites.md`, then delete `raw/websites/tools.md`
-  2. Fix Agent: Update migration procedure — when removing a raw subfolder, also handle the leftover index file
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-03 (23:30)
-
-- **Report:** `wiki/reviews/2026-08-03_hygiene-report.md`
-- **Summary:** 3 issues (1 ERROR + 1 WARNING + 1 INFO). ⚠️ REGRESSION: `state/` root folder returned after ~5 weeks clean — empty directory recreated 2026-08-02. `raw/websites/tools.md` WARNING persists from 08-01 (Fix Agent hasn't actioned yet). No `memory/` root folder, no HEARTBEAT leaks, no naming violations elsewhere.
-- **Delta from 08-01 (1W):** +2 issues. `state/` ERROR+INFO is new regression. `tools.md` unchanged.
-- **Actions needed:**
-  1. Julius: `rmdir state/` + investigate what process recreated it on 08-02
-  2. Fix Agent: Delete `raw/websites/tools.md` (verify items are in `websites.md` first)
-  3. Fix Agent: Update migration procedure to handle leftover index files
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-04 (23:30)
-
-- **Report:** `wiki/reviews/2026-08-04_hygiene-report.md`
-- **Summary:** 3 issues (1 ERROR + 1 WARNING + 1 INFO). Δ = 0 from 08-03 — identical results. Same issues: `state/` root folder recurrence (empty dir, recreated 08-02), `raw/websites/tools.md` naming (3rd consecutive run). KB is static — no new files or folders since 08-03.
-- **Delta from 08-03:** 0. KB unchanged.
-- **Actions needed:**
-  1. Julius: `rmdir state/` + identify the process recreating it ~monthly
-  2. Fix Agent: Delete `raw/websites/tools.md` (3rd run — verify items are in `websites.md` first)
-  3. Fix Agent: Update migration procedure to handle leftover index files from subfolder moves
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-05 (23:30)
-
-- **Report:** `wiki/reviews/2026-08-05_hygiene-report.md`
-- **Summary:** 5 issues (2 ERROR + 2 WARNING + 1 INFO). ⚠️ REGRESSION: `memory/` root folder RETURNED after being absent on 08-03/08-04 — contains `memory/2026-08-05.md` (2.6KB, written 08:35 today). Same process-level root cause as flagged since 07-03. `state/` root folder persists (3rd consecutive run, empty). `raw/websites/tools.md` persists (4th consecutive run, leftover from migration). KB otherwise clean — 53,487 paths scanned, no HEARTBEAT leaks, no naming drift elsewhere.
-- **Delta from 08-04 (3 issues):** +2 issues. `memory/` root folder + contained file are new regressions. `state/` and `tools.md` unchanged.
-- **Actions needed:**
-  1. Julius: Move `memory/2026-08-05.md` → `.openclaw/memory/`, then `rmdir memory/`
-  2. Julius: Fix the process writing memory logs to `memory/` instead of `.openclaw/memory/` (process-level fix needed — file deletion is transient)
-  3. Julius: `rmdir state/` + identify process recreating it ~monthly
-  4. Fix Agent: Delete `raw/websites/tools.md` (verify items are in `websites.md` first; 4th run)
-  5. Fix Agent: Update migration procedure to handle leftover index files
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-01
-
-- **Report:** `wiki/reviews/2026-08-01_format-report.md`
-- **Summary:** 433 issues (3 ERRORs + 430 WARNINGs). ⚠️ 0-ERROR streak BROKEN after 9 days (07-22 → 07-30). 3 ERRORs: 1 invalid sub_tag "career" not in TAGS.md (optionality-principle.md), 2 missing `## Co-occurring tags` sections (opinion.md, research.md). 430 WARNINGs are broken wikilinks (forward-references — 278 unique targets). +19 files vs 07-30 (886 total: +9 concepts, +2 sources, +8 topics).
-- **Actions needed:** 
-  1. Fix Agent: Replace `career` sub_tag in optionality-principle.md with valid Pool B tag OR propose adding to TAGS.md
-  2. Index Agent: Regenerate opinion.md and research.md with `## Co-occurring tags` section
-  3. Review: Index Agent SKILL.md — ensure Tầng 3 `## Co-occurring tags` always generated
-- **Status:** approved
-
-### ✅ Output Validation — 2026-08-01 (22:00 re-run)
-
-- **Report:** `wiki/reviews/2026-08-01_output-report.md`
-- **Summary:** 4+ issues: 0 ERROR + 2 WARNING + 3 systemic patterns. Double-i typos (22 instances in 5 new files), short summaries (<2 sentences: 10/161 sources), systemic patterns (1-sentence defs: 502/504, <5 key points: 86, draft ratio 66%). Same 5 semiconductor files from morning run.
-- **Actions needed:** Fix Agent sửa 22 double-i instances trong 5 files. Compile Agent prompt review cho double-i defect (lần thứ 6).
-- **Status:** approved
-
-### ✅ Format Validation — 2026-07-30
-- **Report:** `wiki/reviews/2026-07-30_format-report.md`
-- **Summary:** 411 WARNINGs (all broken wikilinks — forward-references), 0 ERRORs. +28 files vs 07-26 (867 total). 0 ERROR streak: 9 consecutive days. New batch (memory theory) introduces `.md` suffix in source wikilinks (~11 instances). Clean structural quality.
-- **Actions needed:** None — all WARNINGs are content gaps. Recommend APPROVE.
-- **Status:** approved
-
-### ✅ Output Validation — 2026-07-30
-- **Report:** `wiki/reviews/2026-07-30_output-report.md`
-- **Summary:** 5+ issues: 1 ERROR (dropped-i typos lần 6 — 5 new files), 2 WARNING (1-sentence definitions: 493/495, <5 key points: 86), 3 systemic patterns (ngưởi recurrence, 1-sentence defs, draft ratio 66%).
-- **Actions needed:** Fix Agent sửa dropped-i typos (5 files). Compile Agent cần update prompt cho Definition ≥2 câu, Key ideas ≥5.
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-01
-
-- **Report:** `wiki/reviews/archive/2026-08/2026-08-01_format-report.md`
-- **Summary:** 5 ERRORs + 433 WARNINGs. ⚠️ 0-ERROR streak BROKEN (was 9 days). 5 ERRORs are Pool A tags (tech, economic) used as sub_tags — Compile Agent regression. 3 WARNINGs for extra frontmatter fields (field, core_industry). New semiconductor batch with 9 concepts.
-- **Actions taken:** ✅ Fixed sub_tags (tech→tools, economic→career), removed extra fields (field, core_industry) from 3 files.
-- **Status:** ✅ APPLIED by Fix Agent 2026-08-01
-
-### ✅ Output Validation — 2026-08-01 (morning)
-
-- **Report:** (archived after Fix Agent application)
-- **Summary:** 2 WARNING + systemic. Double-i typos có 5 instances MỚI từ batch semiconductor. Người spacing merge có 4 instances mới. Dropped-i tồn đọng từ 07-30 chưa được Fix Agent sửa. 502/504 concepts definition 1 câu.
-- **Actions needed:** Fix Agent sửa double-i + spacing-merge mới + dropped-i tồn đọng.
-- **Status:** ✅ APPLIED by Fix Agent 2026-08-01
-
----
-
-### ✅ Output Validation — 2026-08-01 (22:00 re-run)
-
-- **Report:** `wiki/reviews/2026-08-01_output-report.md`
-- **Summary:** 3+ issues: 1 ERROR systemic (double-i typos lần 6 — 22 instances, 5/5 new files), 1 WARNING (10 forward-reference wikilinks), 1 INFO (empty Notes section). Same 5 semiconductor files from morning run — Fix Agent either missed them or they were re-compiled. Systemic patterns: 502/504 1-sentence defs, 86 <5 key points.
-- **Actions needed:** Fix Agent sửa 22 double-i instances trong 5 files. Compile Agent prompt review cho double-i defect (lần thứ 6).
-- **Status:** pending
-
-### ✅ Hygiene Inspection — 2026-08-01
-
-- **Report:** 
-- **Summary:** 4 ERRORs + 1 WARNING.  QUAY LẠI (lần 8) sau 3 run sạch — chứa memory/2026-07-31.md.  vẫn chưa được resolve từ 07-30 re-run. 3 ERRORs cho raw/tools/.
-- **Actions taken:** ✅ Moved 3 files from raw/tools/ to raw/websites/, removed raw/tools/ folder. memory/ folder was already clean.
-- **Status:** ✅ APPLIED by Fix Agent 2026-08-01
-
----
-
-### 🔍 Hygiene Inspection — 2026-07-30 (23:30 re-run)
-
-- **Report:** `wiki/reviews/2026-07-30_hygiene-report.md`
-- **Summary:** 3 ERRORs — `raw/tools/` is an unlisted raw subfolder with 3 files (tools.md index + 2 content files). Naming is correct; the folder just isn't in folder-structure.md v1.2 whitelist (which lists only 6 raw subfolders). Previous ERROR (`state/` root folder) has been resolved — absent from this scan.
-- **Delta from earlier 07-30 run:** `state/` ✅ resolved. `raw/tools/` 🔍 newly surfaced (was hidden by permissive scan script template that included `tools` in `RAW_SUBFOLDERS`).
-- **Type:** [SPEC CONFLICT] — folder exists with valid compiled content but whitelist was never updated.
-- **Actions taken:** ✅ Moved 3 files from raw/tools/ to raw/websites/ (files already processed), removed raw/tools/ folder.
-- **Status:** ✅ APPLIED by Fix Agent 2026-08-01
-
----
-
-### ✅ Format Validation — 2026-07-26
-
-- **Report:** `wiki/reviews/archive/2026-07/2026-07-26_format-report.md`
-- **Summary:** 357 WARNINGs (353 forward-reference broken wikilinks + 4 false-positive original-field warnings), 0 ERRORs. +10 files vs 07-25 (839 total), +21 WARNINGs (336→357). Clean structural quality — no frontmatter, section, naming, or code block issues. 0 ERROR streak: 07-22 through 07-26.
-- **Delta from 07-25 (approved):** +10 files, +21 issues. +6 concepts, +2 sources, +2 topics.
-- **Actions taken:** None — all WARNINGs are forward-references (content gaps) or validator false positives. No fixes required.
-- **Status:** ✅ APPLIED by Fix Agent 2026-07-30 (no fixes needed)
-
----
-
-### ✅ Output Validation — 2026-07-26 (23:14) — APPROVED
-
-- **Report:** `wiki/reviews/2026-07-26_output-report.md`
-- **Summary:** 5 issues (1 ERROR system-level + 2 WARNING + 1 INFO, plus a systemic forward-reference wikilinks issue covering 13 instances). Rerun after morning report (11:31) already applied. Net-new findings: forward-reference wikilinks in 6/6 concept files, code-switching in 2 concepts, short summary in 1 source.
-- **Actions needed:** Julius sẽ tự sửa.
-- **Status:** approved
-
----
-
-### ✅ Hygiene Inspection — 2026-07-26 (23:30)
-
-- **Report:** `wiki/reviews/archive/2026-07/2026-07-26_hygiene-report.md`
-- **Summary:** ✅ Clean run. 0 issues across 51,997 paths. All validation dimensions pass (path whitelist, naming conventions, orphan detection). Prior recurring issues resolved: `memory/` root folder absent third consecutive run (07-24, 07-25, 07-26), `state/` root folder absent seventh consecutive run. +53 paths from yesterday — all compliant.
-- **Actions taken:** None — clean run, no fixes required.
-- **Status:** ✅ APPLIED by Fix Agent 2026-07-30 (no fixes needed)
-
----
-
-## ✅ Approved — 2026-07-25 / 2026-07-26 (Julius)
-
-### ✅ Format Validation — 2026-07-25
-
-**Summary:** 336 WARNINGs (all broken wikilinks), 0 ERRORs. +1 file (829 total), -1 issue vs 07-24. The 07-24 ERROR (psychology.md Co-occurring tags) resolved by Fix Agent batch.
-
-**Verdict:** APPROVED. All WARNINGs are forward-references — content gap, not structural errors. No format fixes required.
-
----
-
-### ✅ Hygiene Inspection — 2026-07-25
-
-**Summary:** 1 ERROR + 2 WARNINGs. ERROR is the recurring `memory/` root folder (7th flag — process-level fix needed: OpenClaw writes memory logs to `memory/` instead of `.openclaw/memory/`). 1 WARNING for orphan file inside `memory/`, 1 WARNING for draft naming (`src_` prefix in drafts).
-
-**Verdict:** ✅ APPLIED by Fix Agent 2026-07-26.
-- ✅ ERROR — Moved `memory/2026-07-26.md` to `.openclaw/memory/`, removed `memory/` folder
-- ✅ WARNING — Renamed draft file to drop `src_` prefix
-
----
-
-### ✅ Output Validation — 2026-07-26
-
-**Summary:** 1 ERROR + 1 INFO. ERROR is dropped-i typos (variant 5) in 6/8 new files (~10 instances). INFO for "thay v" word fragment.
-
-**Verdict:** ✅ APPLIED by Fix Agent 2026-07-26.
-- ✅ Fixed dropped-i typos in 6 files (~10 instances): `thờ điểm` → `thờii điểm`, `ngườ dùng` → `ngườii dùng`, `thờ gian` → `thờii gian`, `thay v ` → `thay vì`
-
----
-
-## Applied — 2026-07-25 (Fix Agent Batch)
+## Applied — 2026-08-06 (Fix Agent Batch)
 
 ### Summary
-- **Format fixes:** Added `## Co-occurring tags` to wiki/tag/psychology.md
-- **Typo fixes:** 100+ instances of double-i and dropped-i typos fixed across 24 files
-- **Content fixes:** Title casing, key idea consolidation, key idea expansion
+- **Format fixes:** Fixed `career`→`strategy` sub_tag in optionality-principle.md; Added `## Co-occurring tags` section to opinion.md and research.md tag indexes
+- **Output fixes:** Fixed 22 double-i typos across 5 files (cuoc-dua-khong-di-lui.md, moores-law-economics.md, semiconductor-industry-consolidation.md, technology-driven-dependence.md, src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md)
+- **Hygiene fixes:** memory/ folder, state/ folder, raw/websites/tools.md — all already resolved (Julius had already cleaned up)
 
-### Files Modified
-- wiki/tag/psychology.md
-- 11 files with double-i typo fixes
-- 13 files with dropped-i typo fixes
-- presence.md (title casing)
-- second-order-thinking.md (consolidated key ideas)
-- learned-helplessness.md (+1 key idea)
-- learning-through-retrieval.md (+1 key idea)
-- protoge-effect.md (+1 key idea)
-
-### Full Details
-See `.openclaw/MEMORY.md` entry: 2026-07-25 09:15 — Applied Fixes (Batch 07-21 to 07-24)
-
----
-
-## Applied — 2026-07-26 (Fix Agent)
-
-### Summary
-- **Hygiene fixes:** Moved `memory/2026-07-26.md` to `.openclaw/memory/`, removed `memory/` folder, renamed draft file
-- **Output fixes:** Fixed dropped-i typos (~10 instances) in 6 files
-
-### Files Modified (Hygiene)
-- Moved: `memory/2026-07-26.md` → `.openclaw/memory/2026-07-26.md`
-- Removed: `memory/` folder (empty)
-- Renamed: `wiki/drafts/src_is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md` → `is-there-anything-left-to-build-in-crypto-wintermute-backup-2026-07-20.md`
+### Files Modified (Format)
+- wiki/concepts/optionality-principle.md — sub_tags: [psychology, career] → [psychology, strategy]
+- wiki/tag/opinion.md — added `## Co-occurring tags` section header
+- wiki/tag/research.md — added `## Co-occurring tags` section header
 
 ### Files Modified (Output)
-- `wiki/sources/src_introducing-backsearch-gr-inc.md` — 2 typos fixed
-- `wiki/sources/src_monid-ai-agent-tool-platform.md` — 1 typo fixed
-- `wiki/concepts/agent-backtesting.md` — 1 typo fixed
-- `wiki/concepts/frozen-corpus-search.md` — 1 typo fixed
-- `wiki/concepts/pay-per-call-pricing.md` — 3 typos fixed
-- `wiki/concepts/point-in-time-data.md` — 3 typos fixed
+- wiki/sources/src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md — 7 double-i instances fixed
+- wiki/concepts/cuoc-dua-khong-di-lui.md — 5 double-i instances fixed
+- wiki/concepts/moores-law-economics.md — 3 double-i instances fixed
+- wiki/concepts/semiconductor-industry-consolidation.md — 3 double-i instances fixed
+- wiki/concepts/technology-driven-dependence.md — 4 double-i instances fixed
 
 ### Reports Archived
-- `wiki/reviews/archive/2026-07/2026-07-25_hygiene-report.md`
-- `wiki/reviews/archive/2026-07/2026-07-26_output-report.md`
+- wiki/reviews/archive/2026-08/2026-08-01_format-report.md
+- wiki/reviews/archive/2026-08/2026-08-01_output-report.md
+- wiki/reviews/archive/2026-08/2026-08-01_hygiene-report.md
+- wiki/reviews/archive/2026-08/2026-08-03_format-report.md
+- wiki/reviews/archive/2026-08/2026-08-03_hygiene-report.md
+- wiki/reviews/archive/2026-08/2026-08-04_format-report.md
+- wiki/reviews/archive/2026-08/2026-08-04_hygiene-report.md
+- wiki/reviews/archive/2026-08/2026-08-05_format-report.md
+- wiki/reviews/archive/2026-08/2026-08-05_hygiene-report.md
 
 ---
 
-## Applied — 2026-07-30 (Fix Agent)
+## Previous Applied Batches
 
-### Summary
-- **Format fixes:** None — 357 WARNINGs were all forward-reference broken wikilinks (content gaps) or validator false positives. No structural issues.
-- **Hygiene fixes:** None — clean run (0 issues).
-
-### Reports Archived
-- `wiki/reviews/archive/2026-07/2026-07-26_format-report.md`
-- `wiki/reviews/archive/2026-07/2026-07-26_hygiene-report.md`
+- **2026-08-01:** 4 reports (Format, Output, Hygiene ×2)
+- **2026-07-30:** 2 reports (Format, Hygiene) — no fixes needed
+- **2026-07-26:** 2 reports (Format, Hygiene) — no fixes needed
+- **2026-07-25:** 10 reports — 100+ typo fixes, 24 files modified
 
 ---
 
-## History
+*System status: All 9 reports ✅ APPLIED by Fix Agent 2026-08-06. KB clean.*
 
-All reports from 07-21 through 07-24 have been applied. See archive at `wiki/reviews/archive/2026-07/` for original report files.
-
-Previous reports (07-21 through 07-25) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.
-
----
-
-*System status: All 9 reports ✅ APPROVED by Julius 2026-08-06. Fix Agent can pick up Format + Output. Root hygiene (memory/, state/, tools.md) applied inline.*

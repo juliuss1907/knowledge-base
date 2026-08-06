@@ -1,76 +1,36 @@
-# Hygiene Inspector Report — 2026-08-01
+# Hygiene Inspection — 2026-08-01
 
-**Status:** applied
-**Applied by:** Fix Agent
-**Applied at:** 2026-08-01
+**Status:** approved
 **Approved by:** Julius
-**Approved date:** 2026-08-01
-**Issues found:** 5
-**Created:** 2026-08-01
+**Approved date:** 2026-08-05
+**Issues found:** 1
+**Created:** 2026-08-01 23:30
 **Validator:** hygiene-inspector
-**Paths checked:** 53,461
-**Delta from 07-30:** +25 paths
+
+**Paths checked:** 53,472
 
 ---
 
-## Issues Found
+## Issue 1: Leftover index file in raw/websites/ from tools/ migration
 
-| # | Severity | Category | Path | Issue |
-|---|---|---|---|---|
-| 1 | **ERROR** | Orphan | `memory/` | Recurring root folder — **đã quay lại** sau 3 run sạch |
-| 2 | **ERROR** | Path | `raw/tools/` | Unknown raw subfolder 'tools' |
-| 3 | **ERROR** | Path | `raw/tools/2026-07-25_introducing-backsearch-gr-inc.md` | File in unknown subfolder |
-| 4 | **ERROR** | Path | `raw/tools/2026-07-25_monid-ai-agent-tool-platform.md` | File in unknown subfolder |
-| 5 | **WARNING** | Path | `memory/2026-07-31.md` | Orphan file in wrong location |
-
----
-
-## Detail
-
-### 1. ERROR — `memory/` quay lại (lần thứ 8)
-
-Sau 3 run sạch liên tiếp (07-24, 07-25, 07-26), `memory/` đã tái xuất với file `memory/2026-07-31.md`. OpenClaw agent vẫn ghi memory logs vào `memory/` thay vì `.openclaw/memory/`.
-
-**Suggested fix:** Move `memory/2026-07-31.md` → `.openclaw/memory/`, rmdir `memory/`. Root cause: cần update AGENTS.md §4.4 hoặc fix process-level.
-
-### 2-4. ERROR — `raw/tools/` subfolder mới
-
-Thư mục `raw/tools/` không nằm trong whitelist (`articles, papers, posts, repos, videos, websites`).
-
-Chứa 2 file:
-- `raw/tools/2026-07-25_introducing-backsearch-gr-inc.md`
-- `raw/tools/2026-07-25_monid-ai-agent-tool-platform.md`
-- `raw/tools/tools.md` (sub-index)
-
-**Suggested fix:** Nếu Julius muốn thêm `tools` vào raw subfolders → cần update `wiki/meta/folder-structure.md` và `raw/raw.md`. Nếu không → move files vào `raw/articles/` hoặc subfolder phù hợp.
+**Path:** raw/websites/tools.md
+**Severity:** WARNING
+**Category:** Naming
+**Issue:** Leftover index file from `raw/tools/` migration. Fix Agent moved the old `raw/tools/tools.md` index to `raw/websites/` during the 08-01 morning fix batch (07-30 + 08-01 hygiene reports), but this file is the level-2 index for the now-removed `raw/tools/` subfolder. It does not follow the `YYYY-MM-DD_<slug>.md` naming convention required for raw content files.
+**Current:** `raw/websites/tools.md` — a level-2 index file with YAML frontmatter (`type: index`, `scope: tools`), listing 2 items that are already tracked in `raw/websites/websites.md`
+**Expected:** Raw content files must follow `YYYY-MM-DD_<slug>.md` convention. Index files belong in their own subfolder; this one's subfolder no longer exists.
+**Suggested fix:** Merge any unique items into `raw/websites/websites.md` (if any), then delete `raw/websites/tools.md`. Fix Agent should update its migration procedure to handle leftover index files when removing a raw subfolder.
 
 ---
 
-## ✅ Passing
+## Summary
 
-- ✅ No `state/` — đã xóa 07-30, không tái tạo
-- ✅ All wiki/ paths compliant
-- ✅ No .bak/.tmp/.swp files
-- ✅ No leaked agent artifacts at root
-- ✅ `.openclaw/`, `.hermes/` clean
+| Dimension | Status |
+|---|---|
+| Path whitelist | ✅ Clean |
+| Naming conventions | ⚠️ 1 WARNING |
+| Orphan detection | ✅ Clean |
 
----
-
-## Recurring Issues Tracker
-
-| Issue | First Seen | Last Clean | Status |
-|---|---|---|---|
-| `memory/` at root | 06-19 | 07-26 (3 runs) | ❌ **Quay lại 01/08** |
-| `state/` at root | Pre-06-27 | 07-30 | ✅ Resolved |
-| `raw/tools/` | 01/08 | — | 🆕 New |
+**Result:** Near-clean run. 1 WARNING is a Fix Agent migration leftover — not a structural defect. The `memory/` and `state/` root folders remain resolved (absent since 07-21). No HEARTBEAT leaks detected.
 
 ---
-
-## Verdict
-
-**REVISE** — 4 ERRORs (memory/ tái diễn + raw/tools/ mới).
-
-### Action items:
-1. **Julius:** Quyết định về `raw/tools/` — thêm vào whitelist hay move files?
-2. **Connor/Julis:** `rmdir memory/` sau khi move file → `.openclaw/memory/`
-3. **Root cause:** Trace process tạo `memory/` — đây là lần thứ 8

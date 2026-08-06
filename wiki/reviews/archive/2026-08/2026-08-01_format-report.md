@@ -1,111 +1,174 @@
-# Format Validator Report — 2026-08-01
+# Format Validation — 2026-08-01
 
-**Status:** applied
-**Applied by:** Fix Agent
-**Applied at:** 2026-08-01
+**Status:** approved
 **Approved by:** Julius
-**Approved date:** 2026-08-01
-**Issues found:** 438
-**Created:** 2026-08-01
+**Approved date:** 2026-08-05
+**Issues found:** 433
+**Created:** 2026-08-01 23:15
 **Validator:** format-validator
-**Files checked:** 882 (504 concepts + 161 sources + 34 indexes + 183 topics)
-**Delta from 07-30:** +15 files (+9 concepts, +2 sources, +4 topics), +27 issues (411→438)
+**Files checked:** 886 (504 concepts + 161 sources + 34 indexes + 187 topics)
+
+**Δ from 2026-07-30 (last approved):** +19 files (+9 concepts, +2 sources, +0 indexes, +8 topics), +22 issues (411→433). **0-ERROR streak BROKEN** (was 9 days: 07-22 through 07-30) — 3 ERRORs surfaced.
 
 ---
 
-## Issues Found: 438
+## Issues Found: 433
+
+| Files checked | Concepts | Sources | Indexes | Topics |
+|---|---|---|---|---|
+| 886 | 504 | 161 | 34 | 187 |
 
 | Severity | Count | Category |
 |---|---|---|
-| ERROR | **5** | Pool A tags in sub_tags (4) + source sub_tags (1) |
-| WARNING | **433** | Broken wikilinks (forward-refs) + field order (3) |
-| INFO | 0 | — |
+| **ERRORs**: 3 | 1 | Invalid sub_tag not in TAGS.md |
+| | 2 | Missing required section in tag indexes |
+| **WARNINGS**: 430 | 410 | Individual broken wikilinks (forward-references) |
+| | 20 | Forward-reference summary groups |
+| **INFOS:** 0 | — | — |
 
-**⚠️ 0-ERROR streak BROKEN.** 9 consecutive clean days (07-22 through 07-30) ended.
+**0-ERROR streak:** 9 days (07-22 → 07-30) BROKEN today. 3 ERRORs detected.
 
 ---
 
-## CRITICAL — Pool A tags used as sub_tags
+## ERROR 1: Invalid sub_tag — not in TAGS.md
 
-Compile Agent regression: `tech` and `economic` (Pool A main-tags) are being used as sub_tags again. This was supposed to be fixed in workflow.md.
+**File:** `wiki/concepts/optionality-principle.md`
+**Severity:** ERROR
+**Category:** Frontmatter
+**Issue:** `sub_tags` contains `"career"` — not in TAGS.md Pool A or Pool B
+**Current:** `sub_tags: [psychology, career]`
+**Expected:** All sub_tags must be in TAGS.md Pool B (or Pool A tags that are also in Pool B)
+**Suggested fix:** Replace `career` with a valid Pool B tag, or propose adding `career` to TAGS.md Pool B. Pool A tag candidates: `productivity` (current main_tag). Valid Pool B sub-tags for this concept: `psychology`, `opinion`, `research`, `tutorial`
 
-### Affected files (5):
+---
 
-| # | File | Invalid sub_tags |
+## ERROR 2: Missing required section — ## Co-occurring tags
+
+**File:** `wiki/tag/opinion.md`
+**Severity:** ERROR
+**Category:** Sections
+**Issue:** Missing required section `## Co-occurring tags` (required by index-spec.md §5.3 for Tầng 3 tag files)
+**Current:** Section absent from file
+**Expected:** `## Co-occurring tags` section with top 5 co-occurring tags ranked by frequency
+**Suggested fix:** Index Agent should regenerate `wiki/tag/opinion.md` with all required sections including `## Co-occurring tags`
+
+---
+
+## ERROR 3: Missing required section — ## Co-occurring tags
+
+**File:** `wiki/tag/research.md`
+**Severity:** ERROR
+**Category:** Sections
+**Issue:** Missing required section `## Co-occurring tags` (required by index-spec.md §5.3 for Tầng 3 tag files)
+**Current:** Section absent from file
+**Expected:** `## Co-occurring tags` section with top 5 co-occurring tags ranked by frequency
+**Suggested fix:** Index Agent should regenerate `wiki/tag/research.md` with all required sections including `## Co-occurring tags`
+
+---
+
+## WARNINGs: Broken Wikilinks (Forward-References) — 430 total
+
+All 430 WARNINGs are **broken wikilinks** — concepts and sources linking to target concepts that have not yet been compiled. This is a forward-reference pattern, not a structural format error.
+
+### Breakdown
+
+| Category | Count |
+|---|---|
+| Individual broken wikilinks (≤5 per file) | 410 |
+| Forward-reference summary groups (>5 per file) | 20 |
+| **Unique broken targets** | **278** |
+
+### Top 20 Broken Link Targets
+
+| Target | Occurrences | Category |
 |---|---|---|
-| 1 | `wiki/concepts/moores-law-economics.md` | `tech` (Pool A) |
-| 2 | `wiki/concepts/optionality-principle.md` | `economic` (Pool A) |
-| 3 | `wiki/concepts/semiconductor-industry-consolidation.md` | `tech` (Pool A) |
-| 4 | `wiki/concepts/technology-driven-dependence.md` | `tech` (Pool A) |
-| 5 | `wiki/sources/src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md` | `tech` (Pool A) |
+| `[[game-theory]]` | 10x | Social science / economics |
+| `[[src_agent-memory-7-types-substack.md]]` | 8x | Source wikilink (has `.md` suffix) |
+| `[[confirmation-bias]]` | 8x | Psychology / cognitive science |
+| `[[src_you-just-hired-a-million-bad-employees-a16z.md]]` | 5x | Source wikilink (has `.md` suffix) |
+| `[[src_the-let-them-theory-gabriel-reality.md]]` | 5x | Source wikilink (has `.md` suffix) |
+| `[[ai-coding-agents]]` | 5x | AI / tech |
+| `[[src_how-to-remember-everything-you-read-dan-koe.md]]` | 5x | Source wikilink (has `.md` suffix) |
+| `[[career-design]]` | 5x | Career / productivity |
+| `[[decision-making]]` | 5x | Psychology |
+| `[[deep-work]]` | 4x | Productivity |
+| `[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]` | 4x | Source wikilink (has `.md` suffix) |
+| `[[src_introducing-backsearch-gr-inc.md]]` | 3x | Source wikilink (has `.md` suffix) |
+| `[[src_monid-ai-agent-tool-platform.md]]` | 3x | Source wikilink (has `.md` suffix) |
+| `[[attention-economy]]` | 3x | Economics / media |
+| `[[ai-hype-vs-reality]]` | 3x | AI / tech |
+| `[[economic-inequality]]` | 3x | Economics |
+| `[[critical-thinking]]` | 3x | Psychology / education |
+| `[[naval-ravikant]]` | 3x | Person / philosophy |
+| `[[risk-parity]]` | 3x | Finance / investment |
+| `[[second-law-of-thermodynamics]]` | 3x | Physics |
 
-**Fix:** Replace `tech` → appropriate Pool B tag (e.g. `tools`, `automation`, `vibecode`, `research`). Replace `economic` → appropriate Pool B tag.
+### Top 10 Files by Warning Count
 
----
+| File | WARNINGS |
+|---|---|
+| `wiki/concepts/collaborative-thinking.md` | 5 |
+| `wiki/concepts/probabilistic-thinking.md` | 5 |
+| `wiki/concepts/feedback-loops.md` | 4 |
+| `wiki/concepts/hanlons-razor.md` | 4 |
+| `wiki/concepts/meaning-through-work.md` | 4 |
+| `wiki/concepts/occams-broom.md` | 4 |
+| `wiki/concepts/occams-razor.md` | 4 |
+| `wiki/concepts/parametric-memory.md` | 4 |
+| `wiki/concepts/pay-per-call-pricing.md` | 4 |
+| `wiki/concepts/prospective-memory.md` | 4 |
 
-## WARNING — Extra frontmatter fields
+### Source Wikilinks with `.md` Suffix (~11 instances)
 
-3 files have non-standard frontmatter fields causing field order warnings:
+Source wikilinks in concept bodies use `.md` suffix (e.g., `[[src_agent-memory-7-types-substack.md]]`) instead of bare slugs (`[[src_agent-memory-7-types-substack]]`). This is a pattern introduced by the new memory theory batch. While Obsidian resolves both forms, it deviates from format-spec.md convention (bare slugs preferred).
 
-| # | File | Extra field |
-|---|---|---|
-| 1 | `wiki/concepts/moores-law-economics.md` | `field` |
-| 2 | `wiki/concepts/semiconductor-industry-consolidation.md` | `core_industry` |
-| 3 | `wiki/concepts/technology-driven-dependence.md` | `field` |
-
-These are harmless but non-standard. Compile Agent template may be injecting them.
-
----
-
-## WARNING — Broken wikilinks
-
-433 forward-reference broken wikilinks — same pattern as before. +22 WARNINGs vs 07-30.
-
-### New batch: semiconductor-themed concepts
-
-New concepts from `src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket` (source):
-- `cuoc-dua-khong-di-lui.md` — link đến `barriers-to-entry-innovation`, `market-consolidation-dynamics`
-- `moores-law-economics.md` — link đến `economies-of-scale-semiconductor`, `process-technology-race`
-- `semiconductor-industry-consolidation.md` — link đến `foundry-business-model`, `technological-moats`, `tsmc-dominance`
-- `technology-driven-dependence.md` — link đến `automation-paradox`, `human-capital-erosion`, `skill-atrophy-technology`
-
----
-
-## ✅ Passing
-
-- ✅ All YAML sections parse correctly
-- ✅ sub_tags count within range (1-3) — but contents wrong
-- ✅ All tags exist in TAGS.md — but wrong pool
-- ✅ Section order valid
-- ✅ No duplicate YAML keys
-- ✅ File naming conventions followed
-- ✅ Wikilink format correct
+**Pattern note:** First observed 07-30 (~11 instances). These targets are flagged as broken because the validator strip-and-glob logic may not handle the `.md` suffix correctly in all cases. Some of these source files do exist under `wiki/sources/` — the broken-wikilink flag is likely a false positive from the `.md` suffix pattern.
 
 ---
 
-## New Files Since 07-30
+## [SYSTEMATIC VIOLATION]
 
-**Concepts (9 new):**
-- `colin-powell-40-70-rule.md`
-- `cuoc-dua-khong-di-lui.md`
-- `decision-cost-analysis.md`
-- `moores-law-economics.md`
-- `optionality-principle.md` *(re-compiled?)*
-- `semiconductor-industry-consolidation.md`
-- `small-bets-strategy.md`
-- `technology-driven-dependence.md`
-
-**Sources (2 new):**
-- `src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md`
+**Pattern:** `## Co-occurring tags` section missing from 2 tag index files (`opinion.md`, `research.md`)  
+**Likely cause:** Index Agent not regenerating these files with full required sections after tag reclassification or tag addition  
+**Recommendation:** Review Index Agent SKILL.md — ensure Tầng 3 tag file regeneration always includes `## Co-occurring tags` section
 
 ---
 
-## Verdict
+## [FORMAT UNCERTAINTY]
 
-**REVISE** — 5 ERRORs (Pool A tags in sub_tags) + 3 WARNINGs (extra fields). Fix Agent can handle all.
+**Issue:** `sub_tags` contains `"career"` — not in TAGS.md  
+**File:** `wiki/concepts/optionality-principle.md`  
+**Question:** Should `career` be added to TAGS.md Pool B, or should this concept use an existing Pool B tag?  
+**Context:** `career` was previously flagged in the 08-01 morning run as a Pool A tag that is not also in Pool B. This may indicate compile-agent using a tag that doesn't exist in either pool.
 
-### Action items:
-1. **Fix Agent:** Replace `tech` in sub_tags → valid Pool B tag (4 files concept + 1 source)
-2. **Fix Agent:** Replace `economic` → valid Pool B tag (1 file)
-3. **Fix Agent:** Remove extra `field`/`core_industry` frontmatter fields (3 files)
-4. **Compile Agent:** Re-check workflow.md — Pool A leakage into sub_tags đã tái diễn
+---
+
+## Verification
+
+- [x] All 886 files scanned (504 concepts + 161 sources + 34 indexes + 187 topics)
+- [x] Validation script output parsed: 3 ERROR + 430 WARNING + 0 INFO
+- [x] Code fence regression check: no false-positive language-tag errors (line-by-line validation)
+- [x] Raw-subdir wikilink resolution: `original` field validation uses 7 raw subdirectories
+- [x] Source-body wikilinks: validated against raw/ subdirectories (not just wiki/concepts + wiki/sources)
+- [x] Topic files (187): dispatched to light topic validation (no false `level` field ERRORs)
+- [x] `context/USER.md`: skipped (read-only, no frontmatter expected)
+- [x] Index files with path-level override: `wiki/tag/tag.md` correctly routed as Tầng 2
+- [x] Unquoted wikilinks in YAML: handled as WARNING (not false ERROR)
+- [x] YAML date parsing: `datetime.date` objects accepted alongside string dates
+
+Files checked: 886
+Total issues: 433
+
+---
+
+**Total issues**: 433
+
+## Escalations
+
+1. **[SYSTEMATIC VIOLATION]** — 2 tag files (`opinion.md`, `research.md`) missing `## Co-occurring tags`. Likely Index Agent defect. Recommend reviewing index-agent SKILL.md.
+
+2. **[FORMAT UNCERTAINTY]** — `career` tag used in `optionality-principle.md` sub_tags but not in TAGS.md. Julius decides: add to Pool B or replace with existing tag.
+
+---
+
+*End of report.*

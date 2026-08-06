@@ -21,7 +21,7 @@ author: curiositypocket (Substack)
 
 ## Summary
 
-Bài viết sử dụng phép ẩn dụ về máy bay bay ngược hướng Trái Đất quay để mô tả sự thay đổi trong bản chất cạnh tranh của xã hội hiện đại. Trước đây, cuộc chơi là đua tốc độ - ai bay nhanh hơn thì đến đích trước. Ngày nay, cuộc chơi đã đổi hướng: ngườii chiến thắng không cần bay nhanh nhất, mà chỉ cần tạo ra đủ lực để không bị cuốn đi cùng phần còn lại của thế giới, trụ lại đủ lâu cho đến khi đích đến tự tiến về phía mình. Tác giả minh họa qua ngành bán dẫn, nơi từ 30 công ty năm 2001 chỉ còn lại TSMC gần như độc quyền ở tiến trình tiên tiến năm 2025. Cuối cùng, tác giả áp dụng vào cuộc sống cá nhân: khi công nghệ gánh thay ngày càng nhiều phần việc, con ngườii đang dần suy yếu các năng lực cốt lõi.
+Bài viết sử dụng phép ẩn dụ về máy bay bay ngược hướng Trái Đất quay để mô tả sự thay đổi trong bản chất cạnh tranh của xã hội hiện đại. Trước đây, cuộc chơi là đua tốc độ - ai bay nhanh hơn thì đến đích trước. Ngày nay, cuộc chơi đã đổi hướng: người chiến thắng không cần bay nhanh nhất, mà chỉ cần tạo ra đủ lực để không bị cuốn đi cùng phần còn lại của thế giới, trụ lại đủ lâu cho đến khi đích đến tự tiến về phía mình. Tác giả minh họa qua ngành bán dẫn, nơi từ 30 công ty năm 2001 chỉ còn lại TSMC gần như độc quyền ở tiến trình tiên tiến năm 2025. Cuối cùng, tác giả áp dụng vào cuộc sống cá nhân: khi công nghệ gánh thay ngày càng nhiều phần việc, con người đang dần suy yếu các năng lực cốt lõi.
 
 ## Key points
 
@@ -32,10 +32,10 @@ Bài viết sử dụng phép ẩn dụ về máy bay bay ngược hướng Trá
 - GlobalFoundries dừng phát triển 7nm năm 2018 vì chi phí vượt quá khả năng thu hồi vốn
 - Intel trì hoãn nhiều lần ở tiến trình 10nm và 7nm do lỗi năng suất
 - Samsung gặp vấn đề năng suất ở tiến trình 4nm (2021), để mất đơn hàng sang TSMC
-- TSMC trở thành "Atlas của thế giớii hiện đạii" khi gần như độc quyền sản xuất chip tiên tiến cho toàn bộ ngành công nghệ
-- Xã hội vận hành theo "định luật Moore": ngưỡng sống sót liên tục bị nâng lên, mục tiêu là không bị bỏ lạii phía sau
-- Công nghệ tiên tiến vốn được tạo ra để cuộc sống dễ dàng hơn, nhưng lạii khiến con ngườii suy yếu năng lực cốt lõi vì không còn được sử dụng
-- Con ngườii dần giao phó công việc cho máy móc cho đến khi quên mất cách làm toàn bộ mọi việc
+- TSMC trở thành "Atlas của thế giới hiện đại" khi gần như độc quyền sản xuất chip tiên tiến cho toàn bộ ngành công nghệ
+- Xã hội vận hành theo "định luật Moore": ngưỡng sống sót liên tục bị nâng lên, mục tiêu là không bị bỏ lại phía sau
+- Công nghệ tiên tiến vốn được tạo ra để cuộc sống dễ dàng hơn, nhưng lại khiến con người suy yếu năng lực cốt lõi vì không còn được sử dụng
+- Con người dần giao phó công việc cho máy móc cho đến khi quên mất cách làm toàn bộ mọi việc
 
 ## Concepts referenced
 
@@ -46,9 +46,9 @@ Bài viết sử dụng phép ẩn dụ về máy bay bay ngược hướng Trá
 
 ## Original excerpts
 
-> "Đây không còn là cuộc đua tốc độ. Đây là trò chơi của ngườii cuối cùng còn đứng được."
+> "Đây không còn là cuộc đua tốc độ. Đây là trò chơi của người cuối cùng còn đứng được."
 
-> "Trong ngành này, ngườii ta mặc định ai tham gia cũng sẽ chết. Chỉ khác là bạn chết sau đối thủ bao lâu."
+> "Trong ngành này, người ta mặc định ai tham gia cũng sẽ chết. Chỉ khác là bạn chết sau đối thủ bao lâu."
 
 > "TSMC như thần Atlas của thế giới hiện đại vậy."
 

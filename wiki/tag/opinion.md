@@ -260,6 +260,8 @@ last_updated: 2026-07-30
 - [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[work-life-balance]] — Work Life Balance (concept)
 
+## Co-occurring tags
+
 - [[productivity]] — 107 co-occurrences
 - [[psychology]] — 104 co-occurrences
 - [[research]] — 61 co-occurrences

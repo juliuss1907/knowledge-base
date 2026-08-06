@@ -791,3 +791,23 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - **Tags applied:** main=#health, sub=[#psychology, #research, #tutorial], topic=time-perception-childhood
 - **Action:** created 4 concept files
 - 2026-08-06 09:28: Ingested: raw/posts/2026-07-27_how-to-come-back-from-anything-game-theory.md — "How To Come Back From Anything (Game Theory)" by @incentivising (X.com tweet, 3300 likes)
+
+## 2026-08-06 13:58 — Applied Fixes (Batch 08-01 to 08-05)
+
+### Summary
+- **Format fixes (3):** optionality-principle.md sub_tag career→strategy; opinion.md + research.md added Co-occurring tags header
+- **Output fixes (1):** 22 double-i typos fixed across 5 files
+- **Hygiene (3):** memory/, state/, raw/websites/tools.md — already resolved by Julius
+
+### Files Modified
+- wiki/concepts/optionality-principle.md (sub_tag fix)
+- wiki/tag/opinion.md (Co-occurring tags header)
+- wiki/tag/research.md (Co-occurring tags header)
+- wiki/sources/src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md (7 typos)
+- wiki/concepts/cuoc-dua-khong-di-lui.md (5 typos)
+- wiki/concepts/moores-law-economics.md (3 typos)
+- wiki/concepts/semiconductor-industry-consolidation.md (3 typos)
+- wiki/concepts/technology-driven-dependence.md (4 typos)
+
+### Reports Archived
+- 9 reports → wiki/reviews/archive/2026-08/

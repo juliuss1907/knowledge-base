@@ -4,8 +4,8 @@
 > Tags are flat, not nested. Connections emerge via co-occurrence in files.
 > **Append-only.** Index Agent proposes new tags → Julius approves → entry added here.
 
-**Version:** 1.3
-**Last updated:** 2026-06-19
+**Version:** 1.4
+**Last updated:** 2026-08-06
 
 ---
 
@@ -72,8 +72,9 @@ Sub-tags are independent of main-tags. Any sub-tag may co-occur with any main-ta
 | `#ai` | AI / ML / LLM, agents, models, training, inference (as attribute) |
 | `#system` | System design, architecture, automation pipelines (as attribute) |
 | `#geopolitics` | Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition |
+| `#strategy` | Strategic thinking, decision frameworks, competitive positioning, game theory |
 
-**Total:** 19 sub-tags.
+**Total:** 20 sub-tags.
 
 ---
 
@@ -171,3 +172,4 @@ When the Compile or Index Agent encounters content that doesn't fit any existing
 | 2026-06-17 | Approved: #health → Pool A, #ai/#system → Pool B (Julius) | Kara |
 | 2026-06-19 | Approved: #investment → Pool A (Julius) | Kara |
 | 2026-06-19 | Approved: #geopolitics → Pool B (Julius) — includes empire cycles, tribute systems, great power competition | Kara |
+| 2026-08-06 | Approved: #strategy → Pool B (Julius) — strategic thinking, decision frameworks, competitive positioning, game theory | Connor |

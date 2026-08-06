@@ -21,9 +21,9 @@ if not (KB / 'wiki').exists() or not (KB / 'TAGS.md').exists():
 # Pool A tags (from TAGS.md v1.3 — update when TAGS.md changes)
 POOL_A = {'ai', 'crypto', 'tech', 'productivity', 'system', 'economic', 'politic', 'health', 'investment'}
 
-# Pool B tags (from TAGS.md v1.3 — update when TAGS.md changes)
+# Pool B tags (from TAGS.md v1.4 — update when TAGS.md changes)
 POOL_B = {'hack', 'tools', 'automation', 'vibecode', 'research', 'tutorial', 'opinion', 'news',
-          'defi', 'perpdex', 'layer1', 'layer2', 'law', 'coding', 'psychology', 'health', 'ai', 'system', 'geopolitics'}
+          'defi', 'perpdex', 'layer1', 'layer2', 'law', 'coding', 'psychology', 'health', 'ai', 'system', 'geopolitics', 'strategy'}
 
 VALID_STATUSES = {'draft', 'reviewed', 'needs-revision'}
 SKIP_FILES = {'context/USER.md', 'wiki/reviews/_action-required.md'}

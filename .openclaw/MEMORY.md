@@ -790,3 +790,4 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - **Concepts:** [oddball-effect, proportional-theory-time-perception, predictability-trap, mindfulness-presence]
 - **Tags applied:** main=#health, sub=[#psychology, #research, #tutorial], topic=time-perception-childhood
 - **Action:** created 4 concept files
+- 2026-08-06 09:28: Ingested: raw/posts/2026-07-27_how-to-come-back-from-anything-game-theory.md — "How To Come Back From Anything (Game Theory)" by @incentivising (X.com tweet, 3300 likes)

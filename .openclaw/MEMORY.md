@@ -782,3 +782,11 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - ✅ 1,030 wiki files total
 
 - 2026-08-05 08:35: Ingested: raw/articles/2026-08-05_why-time-felt-slower-when-we-were-kids.md — "why time felt slower when we were kids" (Contemplation Station, Substack)
+
+## 2026-08-06 08:00:00 — Compiled
+
+- **Raw:** [[raw/articles/2026-08-05_why-time-felt-slower-when-we-were-kids.md]]
+- **Source note:** [[wiki/sources/src_why-time-felt-slower-when-we-were-kids.md]]
+- **Concepts:** [oddball-effect, proportional-theory-time-perception, predictability-trap, mindfulness-presence]
+- **Tags applied:** main=#health, sub=[#psychology, #research, #tutorial], topic=time-perception-childhood
+- **Action:** created 4 concept files

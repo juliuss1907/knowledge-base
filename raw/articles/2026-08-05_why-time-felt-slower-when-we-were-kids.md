@@ -5,7 +5,9 @@ url: https://contemplationstation.substack.com/p/why-time-felt-slower-when-we-we
 author: Contemplation Station
 date_published: unknown
 date_ingested: 2026-08-05
-status: unprocessed
+status: processed
+compiled_at: 2026-08-06
+compiled_to: "[[src_why-time-felt-slower-when-we-were-kids]]"
 source: contemplationstation.substack.com
 ---
 

@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-07 23:15 (Format Validator)
+**Last updated:** 2026-08-07 23:31 (Hygiene Inspector)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 9 reports (08-01 Format ×4, 08-01/08-03/08-04 Hygiene ×4, 08-01 Output ×1) — **APPLIED** 2026-08-06 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -26,6 +26,7 @@
 | ✅ APPLIED | 08-01 | Output | 22 double-i typos | Applied 2026-08-06 — fixed in 5 files |
 | 🔍 PENDING | 08-07 | Output | 0 new + 1 carry-over | Pending review — 5 new files, all clean |
 | 🔍 PENDING | 08-07 | Format | 430W | Review [wiki/reviews/2026-08-07_format-report.md](2026-08-07_format-report.md) |
+| 🔍 PENDING | 08-07 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-07_hygiene-report.md](2026-08-07_hygiene-report.md) |
 
 ---
 
@@ -45,6 +46,13 @@
 - **Delta from 2026-07-30 (approved):** +24 files (+13 concepts, +3 sources, +8 topics), +19 WARNINGs (411→430)
 - **Delta from 2026-08-05 (last run):** +5 files (+4 concepts, +1 source), -3 ERRORs, WARNINGs unchanged (430)
 - **Actions needed:** Review and approve. No structural fixes needed — all WARNINGs are forward-references that resolve when concepts are compiled.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-07 (23:31)
+
+- **Report:** `wiki/reviews/2026-08-07_hygiene-report.md`
+- **Summary:** 53,499 paths checked. 3 issues: state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — new leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs.
+- **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and fix the process that writes it to `wiki/` root.
 - **Status:** pending
 
 ---

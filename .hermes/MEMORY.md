@@ -988,3 +988,13 @@ Files checked: 815
 - **Result:** [SILENT] — nothing new to validate
 - **Note:** 08-01 report still pending (double-i typos, 22 instances). Quick-scan confirmed carry-over typos only (no new instances). 1 dropped-i variant-5 instance in new-leverage-digital-assets.md pre-existing.
 
+## 2026-08-07 23:02:33 — Output validation
+
+- **Files checked:** 670 (162 sources + 508 concepts)
+- **New files:** 5 (1 source + 4 concepts, compiled 2026-08-06)
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-08-07_output-report.md
+- **Carry-over noted:** 1 dropped-i typo in new-leverage-digital-assets.md (pre-existing). Quick-scan: ngưởi (5 files), double-i (8 files, 13 instances), spacing merge (9 files, 16 instances), capital-I (6 files, 9 instances) — all carry-over from prior batches.
+- **Systemic patterns:** 508/508 concepts have 1-sentence definitions, 86 have <5 key points, 339 drafts (67%). Same as prior runs.
+- **Result:** All 5 new files passed all 4 quality dimensions. Clean batch.
+

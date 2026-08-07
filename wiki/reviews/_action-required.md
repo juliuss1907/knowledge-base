@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-06 (Fix Agent applied 9 reports)
+**Last updated:** 2026-08-07 23:02 (Output Validator)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 9 reports (08-01 Format ×4, 08-01/08-03/08-04 Hygiene ×4, 08-01 Output ×1) — **APPLIED** 2026-08-06 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -24,6 +24,18 @@
 | ✅ APPLIED | 08-04 | Hygiene | 3 (1E+1W+1I) | Applied 2026-08-06 — same |
 | ✅ APPLIED | 08-05 | Hygiene | 5 (2E+2W+1I) | Applied 2026-08-06 — memory/ already moved |
 | ✅ APPLIED | 08-01 | Output | 22 double-i typos | Applied 2026-08-06 — fixed in 5 files |
+| 🔍 PENDING | 08-07 | Output | 0 new + 1 carry-over | Pending review — 5 new files, all clean |
+
+---
+
+## Pending Reports
+
+### 🔍 Output Validation — 2026-08-07 (23:02)
+
+- **Report:** `wiki/reviews/2026-08-07_output-report.md`
+- **Summary:** 5 new files (1 source + 4 concepts) — all passed quality checks. 0 new issues. 1 carry-over dropped-i typo in pre-existing file noted.
+- **Actions needed:** Review and approve/reject; apply carry-over dropped-i fix if desired
+- **Status:** pending
 
 ---
 

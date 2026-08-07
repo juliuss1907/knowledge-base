@@ -1,8 +1,8 @@
 model:
-  default: deepseek-v4-pro
-  provider: opencode-go
-  base_url: https://opencode.ai/zen/go/v1
-  api_mode: chat_completions
+  default: deepseek-v4-pro[1m]
+  provider: custom
+  base_url: https://api.ai-box.vn/v1
+  api_key: sk-aU9FLWGafr7njN3UzOiXonV2i1ANJ2GjpdT2oH4hbnPiqYJi
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -754,7 +754,7 @@ custom_providers:
   - name: Api.ai-box.vn
     base_url: https://api.ai-box.vn/v1
     api_key: sk-aU9FLWGafr7njN3UzOiXonV2i1ANJ2GjpdT2oH4hbnPiqYJi
-    model: MiniMax-M3[1m]
+    model: deepseek-v4-pro[1m]
 plugins:
   enabled: []
 known_plugin_toolsets:

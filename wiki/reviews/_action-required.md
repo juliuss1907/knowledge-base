@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-08 23:20 (Format Validator)
+**Last updated:** 2026-08-08 23:30 (Hygiene Inspector)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Last batch applied:** 9 reports (08-01 Format ×4, 08-01/08-03/08-04 Hygiene ×4, 08-01 Output ×1) — **APPLIED** 2026-08-06 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -28,6 +28,7 @@
 | 🔍 PENDING | 08-07 | Format | 430W | Review [wiki/reviews/2026-08-07_format-report.md](2026-08-07_format-report.md) |
 | 🔍 PENDING | 08-07 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-07_hygiene-report.md](2026-08-07_hygiene-report.md) |
 | 🔍 PENDING | 08-08 | Format | 430W | Review [wiki/reviews/2026-08-08_format-report.md](2026-08-08_format-report.md) |
+| 🔍 PENDING | 08-08 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-08_hygiene-report.md](2026-08-08_hygiene-report.md) |
 
 ---
 
@@ -56,6 +57,13 @@
 - **Delta from 2026-07-30 (approved):** +24 files (+13 concepts, +3 sources, +8 topics), +19 WARNINGs (411→430)
 - **Delta from 2026-08-07 (previous):** 0 files, 0 ERRORs, 0 WARNINGs — identical run
 - **Actions needed:** Review and approve. No structural fixes needed. All WARNINGs are forward-references.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-08 (23:30)
+
+- **Report:** `wiki/reviews/2026-08-08_hygiene-report.md`
+- **Summary:** 53,502 paths checked. 3 issues (2 ERROR + 1 INFO): state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — new leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs. `memory/` root folder absent this run — may finally be resolved.
+- **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and fix the process writing it to `wiki/` root.
 - **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-08-07 (23:31)

@@ -1009,3 +1009,11 @@ Files checked: 815
 - **Systemic patterns:** 508/508 concepts have 1-sentence definitions, 86 have <5 key points, 339 drafts (67%). Same as prior runs.
 - **Result:** All 5 new files passed all 4 quality dimensions. Clean batch.
 
+## 2026-08-08 23:00:45 — Output validation
+
+- **Files checked:** 670 (162 sources + 508 concepts)
+- **New files:** 0 — nothing new since 2026-08-07 validation
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — nothing new to validate
+- **Carry-over:** Same as 2026-08-07 report — 1 dropped-i (new-leverage-digital-assets.md), ngưởi (5 files), double-i (8 files, 13 instances), spacing merge (9 files, 16 instances), capital-I (6 files, 9 instances). All pre-existing.
+

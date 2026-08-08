@@ -763,6 +763,17 @@ grep -q 'Files checked: 534' "$M"
 grep -q 'Files checked.*534' "$M"
 ```
 
+**Sub-pitfall — case sensitivity after `**` bold marker (2026-08-08):** When `**` wraps a label, the first character after `**` is typically capitalized (e.g., `**Carry-over:**`), but grep patterns often use lowercase. Case-sensitive `grep -q` silently fails:
+
+```bash
+# BROKEN — 'carry-over' won't match '**Carry-over:**':
+grep -F -A 6 "$HEADING" "$M" | grep -q 'carry-over'
+# CORRECT — use -i for case-insensitive match:
+grep -F -A 6 "$HEADING" "$M" | grep -qi 'carry-over'
+```
+
+This affects verification scripts that check for specific labels in MEMORY.md entries. When in doubt, use `-i` for any label that might be capitalized after `**`.
+
 **Pitfall — issue grouping makes standalone issue-number grep miss (2026-07-07):** When the report groups multiple issues under one header (e.g., `## Issue 5-7: Forward-reference wikilinks`), `grep "Issue 6"` and `grep "Issue 7"` won't match as standalone terms. Verify grouped issues by checking:
 1. The grouped header exists (e.g., `grep -q '^## Issue 5-7:' "$R"`)
 2. Cross-file consistency confirms the total issue count (all 3 files agree on N issues)

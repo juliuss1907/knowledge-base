@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-08 23:30 (Hygiene Inspector)
+**Last updated:** 2026-08-09 23:15 (Format Validator)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 5
+**Pending reports awaiting review:** 6
 **Last batch applied:** 9 reports (08-01 Format ×4, 08-01/08-03/08-04 Hygiene ×4, 08-01 Output ×1) — **APPLIED** 2026-08-06 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -29,6 +29,7 @@
 | 🔍 PENDING | 08-07 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-07_hygiene-report.md](2026-08-07_hygiene-report.md) |
 | 🔍 PENDING | 08-08 | Format | 430W | Review [wiki/reviews/2026-08-08_format-report.md](2026-08-08_format-report.md) |
 | 🔍 PENDING | 08-08 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-08_hygiene-report.md](2026-08-08_hygiene-report.md) |
+| 🔍 PENDING | 08-09 | Format | 430W | Review [wiki/reviews/2026-08-09_format-report.md](2026-08-09_format-report.md) |
 
 ---
 
@@ -44,25 +45,33 @@
 ### 🔍 Format Validation — 2026-08-07
 
 - **Report:** `wiki/reviews/2026-08-07_format-report.md`
-- **Summary:** 891 files checked (508 concepts + 162 sources + 34 indexes + 187 topics). 430 WARNINGs (all broken wikilinks — forward-references to uncompiled concepts). 0 ERRORs — 0-ERROR streak restored. 3 ERRORs from 08-01 through 08-05 resolved by Fix Agent 08-06 batch (career→strategy sub_tag, 2 Co-occurring tags sections).
+- **Summary:** 891 files checked (508 concepts + 162 sources + 34 indexes + 187 topics). 430 WARNINGs (all broken wikilinks — forward-references to uncompiled concepts). 0 ERRORs — 0-ERROR streak restored. 3 ERRORs from 08-01 through 08-05 resolved by Fix Agent 08-06 batch.
 - **Delta from 2026-07-30 (approved):** +24 files (+13 concepts, +3 sources, +8 topics), +19 WARNINGs (411→430)
-- **Delta from 2026-08-05 (last run):** +5 files (+4 concepts, +1 source), -3 ERRORs, WARNINGs unchanged (430)
-- **Actions needed:** Review and approve. No structural fixes needed — all WARNINGs are forward-references that resolve when concepts are compiled.
+- **Actions needed:** Review and approve. No structural fixes needed — all WARNINGs are forward-references.
 - **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-08
 
 - **Report:** `wiki/reviews/2026-08-08_format-report.md`
-- **Summary:** 891 files checked (508 concepts + 162 sources + 34 indexes + 187 topics). 430 WARNINGs (all broken wikilinks — forward-references to uncompiled concepts). 0 ERRORs — 2nd consecutive clean run. Results identical to 2026-08-07: no new files, no new issues.
-- **Delta from 2026-07-30 (approved):** +24 files (+13 concepts, +3 sources, +8 topics), +19 WARNINGs (411→430)
+- **Summary:** 891 files checked. 430 WARNINGs (all broken wikilinks). 0 ERRORs — 2nd consecutive clean run. Results identical to 2026-08-07: no new files, no new issues.
+- **Delta from 2026-07-30 (approved):** +24 files, +19 WARNINGs (411→430)
 - **Delta from 2026-08-07 (previous):** 0 files, 0 ERRORs, 0 WARNINGs — identical run
-- **Actions needed:** Review and approve. No structural fixes needed. All WARNINGs are forward-references.
+- **Actions needed:** Review and approve. No structural fixes needed.
+- **Status:** pending
+
+### 🔍 Format Validation — 2026-08-09
+
+- **Report:** `wiki/reviews/2026-08-09_format-report.md`
+- **Summary:** 891 files checked (508 concepts + 162 sources + 34 indexes + 187 topics). 430 WARNINGs (all broken wikilinks — forward-references to uncompiled concepts). 0 ERRORs — 3rd consecutive clean run. Results identical to 2026-08-08 and 2026-08-07: no new files, no new issues.
+- **Delta from 2026-07-30 (approved):** +24 files (+13 concepts, +3 sources, +8 topics), +19 WARNINGs (411→430)
+- **Delta from 2026-08-08 (previous):** 0 files, 0 ERRORs, 0 WARNINGs — identical run (3rd consecutive)
+- **Actions needed:** Review and approve. No structural fixes needed. All WARNINGs are forward-references that resolve when Compile Agent creates the missing concept files.
 - **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-08-08 (23:30)
 
 - **Report:** `wiki/reviews/2026-08-08_hygiene-report.md`
-- **Summary:** 53,502 paths checked. 3 issues (2 ERROR + 1 INFO): state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — new leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs. `memory/` root folder absent this run — may finally be resolved.
+- **Summary:** 53,502 paths checked. 3 issues (2 ERROR + 1 INFO): state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — new leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs.
 - **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and fix the process writing it to `wiki/` root.
 - **Status:** pending
 
@@ -79,8 +88,8 @@
 
 ### Summary
 - **Format fixes:** Fixed `career`→`strategy` sub_tag in optionality-principle.md; Added `## Co-occurring tags` section to opinion.md and research.md tag indexes
-- **Output fixes:** Fixed 22 double-i typos across 5 files (cuoc-dua-khong-di-lui.md, moores-law-economics.md, semiconductor-industry-consolidation.md, technology-driven-dependence.md, src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md)
-- **Hygiene fixes:** memory/ folder, state/ folder, raw/websites/tools.md — all already resolved (Julius had already cleaned up)
+- **Output fixes:** Fixed 22 double-i typos across 5 files
+- **Hygiene fixes:** memory/ folder, state/ folder, raw/websites/tools.md — all already resolved
 
 ### Files Modified (Format)
 - wiki/concepts/optionality-principle.md — sub_tags: [psychology, career] → [psychology, strategy]
@@ -116,4 +125,4 @@
 
 ---
 
-*System status: All 9 reports ✅ APPLIED by Fix Agent 2026-08-06. Previous reports (07-25 through 08-05) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent. 3 pending reports (08-07 Output + Format + Hygiene). 1 pending report (08-08 Format). KB clean — 0 ERRORs.*
+*System status: All 9 reports ✅ APPLIED by Fix Agent 2026-08-06. Previous reports (07-25 through 08-05) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent. 6 pending reports (08-07 Output + Format + Hygiene, 08-08 Format + Hygiene, 08-09 Format). KB clean — 0 ERRORs, 3rd consecutive 0-ERROR format run.*

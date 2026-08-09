@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-09 23:15 (Format Validator)
+**Last updated:** 2026-08-09 23:31 (Hygiene Inspector)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 **Last batch applied:** 9 reports (08-01 Format ×4, 08-01/08-03/08-04 Hygiene ×4, 08-01 Output ×1) — **APPLIED** 2026-08-06 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -29,7 +29,8 @@
 | 🔍 PENDING | 08-07 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-07_hygiene-report.md](2026-08-07_hygiene-report.md) |
 | 🔍 PENDING | 08-08 | Format | 430W | Review [wiki/reviews/2026-08-08_format-report.md](2026-08-08_format-report.md) |
 | 🔍 PENDING | 08-08 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-08_hygiene-report.md](2026-08-08_hygiene-report.md) |
-| 🔍 PENDING | 08-09 | Format | 430W | Review [wiki/reviews/2026-08-09_format-report.md](2026-08-09_format-report.md) |
+| 🔍 PENDING | 08-09 | Format | 430W | Review [wiki/reviews/2026-08-09_format-report.md](2026-08-09_format-report.md)
+| 🔍 PENDING | 08-09 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-09_hygiene-report.md](2026-08-09_hygiene-report.md) |
 
 ---
 
@@ -73,6 +74,14 @@
 - **Report:** `wiki/reviews/2026-08-08_hygiene-report.md`
 - **Summary:** 53,502 paths checked. 3 issues (2 ERROR + 1 INFO): state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — new leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs.
 - **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and fix the process writing it to `wiki/` root.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-09 (23:31)
+
+- **Report:** `wiki/reviews/2026-08-09_hygiene-report.md`
+- **Summary:** 53,507 paths checked. 3 issues (2 ERROR + 1 INFO): state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs. 3rd consecutive identical scan.
+- **Delta from 2026-08-08:** 0 new issues, 0 resolved issues — identical results.
+- **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and identify/fix the process writing it to `wiki/` root.
 - **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-08-07 (23:31)

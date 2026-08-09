@@ -1,5 +1,16 @@
 ---
 
+## 2026-08-09 08:58 — Ingested
+
+- **File:** `raw/articles/2026-08-09_what-is-a-product.md`
+- **Source:** https://roge.onwrite.app/what-is-a-product
+- **Type:** article
+- **Author:** [unknown]
+- **Status:** unprocessed
+- **Note:** Julius gửi link 3 lần (07/08, 09/08) trước khi xử lý được. Đã fetch full content thành công.
+
+---
+
 ## 2026-08-05 21:00 — Indexed (Skip)
 
 - **Mode:** incremental check

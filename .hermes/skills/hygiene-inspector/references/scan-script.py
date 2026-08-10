@@ -9,7 +9,7 @@ Proven on 51K-path scans. Handles all documented pitfalls:
 - Whitelisted files (USER.md, index-spec.md, etc.) skip generic naming checks
 - Agent homes (.hermes/, .openclaw/) skipped at depth > 1
 - .tmp- prefixed folders → WARNING not ERROR
-- HEARTBEAT leaks in wiki/reviews/ and raw/ flagged as ERROR
+- HEARTBEAT leaks in wiki/, wiki/reviews/, and raw/ flagged as ERROR
 - .bak/.tmp/.swp/~ files flagged as WARNING (cleanup)
 - Deduplication by (path, severity, category, issue) tuple
 - Report limit: 20 issues max
@@ -71,6 +71,7 @@ WIKI_REVIEWS_WHITELIST = {"_action-required.md", "_approval-log.md"}
 # ── Known leak patterns ──
 HEARTBEAT_LEAK_PATHS = {
     "raw/.last_heartbeat",
+    "wiki/HEARTBEAT.md",
     "wiki/reviews/HEARTBEAT.md",
 }
 
@@ -262,6 +263,15 @@ def classify_wiki_entry(rel_path):
 
     if len(parts) == 2:  # wiki/<file>
         if name == "wiki.md":
+            return
+        if rel_path in HEARTBEAT_LEAK_PATHS:
+            add_issue(rel_path, "ERROR", "Orphan",
+                      "HEARTBEAT.md leaked into wiki/ root (new variant — recurring process leak)",
+                      rel_path,
+                      "HEARTBEAT.md belongs in .hermes/ or .openclaw/; "
+                      "file deletion is transient — the writing process must be fixed",
+                      "Identify and fix the process writing HEARTBEAT.md to wiki/; "
+                      "then delete this file")
             return
         add_issue(rel_path, "ERROR", "Path",
                   "File at wiki/ root level",

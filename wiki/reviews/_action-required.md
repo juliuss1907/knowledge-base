@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-10 23:15 (Format Validator)
+**Last updated:** 2026-08-10 23:30 (Hygiene Inspector)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 8
+**Pending reports awaiting review:** 9
 **Last batch applied:** 9 reports (08-01 Format ×4, 08-01/08-03/08-04 Hygiene ×4, 08-01 Output ×1) — **APPLIED** 2026-08-06 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -32,6 +32,7 @@
 | 🔍 PENDING | 08-09 | Format | 430W | Review [wiki/reviews/2026-08-09_format-report.md](2026-08-09_format-report.md)
 | 🔍 PENDING | 08-09 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-09_hygiene-report.md](2026-08-09_hygiene-report.md) |
 | 🔍 PENDING | 08-10 | Format | 432 (2E+430W) | Review [wiki/reviews/2026-08-10_format-report.md](2026-08-10_format-report.md) |
+| 🔍 PENDING | 08-10 | Hygiene | 5 (3E+1W+1I) | Review [wiki/reviews/2026-08-10_hygiene-report.md](2026-08-10_hygiene-report.md) |
 
 ---
 
@@ -84,6 +85,15 @@
 - **Report:** `wiki/reviews/2026-08-08_hygiene-report.md`
 - **Summary:** 53,502 paths checked. 3 issues (2 ERROR + 1 INFO): state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — new leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs.
 - **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and fix the process writing it to `wiki/` root.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-10 (23:30)
+
+- **Report:** `wiki/reviews/2026-08-10_hygiene-report.md`
+- **Summary:** 53,518 paths checked. 5 issues (3 ERROR + 1 WARNING + 1 INFO): memory/ (ERROR — recurring root folder, reappeared after 2-run absence with new session log), state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — heartbeat leak at wiki/ root level, new variant), memory/2026-08-10-1258.md (WARNING — session log inside orphaned memory/), state/ (INFO — empty directory).
+- **Delta from 2026-08-09:** +2 issues (3→5). `memory/` reappeared with fresh content written today at 19:58 ICT. `state/` and `wiki/HEARTBEAT.md` continue from previous runs.
+- **New in this run:** `memory/` root folder and its contents — a process wrote a session log to `memory/` at 19:58 ICT, recreating the folder after it was resolved on 08-06.
+- **Actions needed:** `rmdir state/`; move `memory/2026-08-10-1258.md` to `.openclaw/memory/` then `rmdir memory/`; delete `wiki/HEARTBEAT.md` and fix the process writing it to `wiki/` root.
 - **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-08-09 (23:31)

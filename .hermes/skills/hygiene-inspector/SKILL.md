@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.16
-last_updated: 2026-07-30
+version: 1.17
+last_updated: 2026-08-10
 ---
 
 # Hygiene Inspector
@@ -484,7 +484,7 @@ See `references/scan-script.py` for a known-good scan template and `references/f
 - **Skip** `.hermes/` and `.openclaw/` at depth > 1 entirely for orphan checks
 - **Only check** first level inside agent homes for clearly misplaced user content (e.g., a `src_*` file or `YYYY-MM-DD_*.md` sitting at `.openclaw/memory/`)
 - **Do not flag** cron output, skill docs, runtime logs, or agent config files as orphans
-- **Do flag** heartbeat artifacts that leaked outside their agent home (e.g., `wiki/reviews/HEARTBEAT.md`, `raw/.last_heartbeat`)
+- **Do flag** heartbeat artifacts that leaked outside their agent home (e.g., `wiki/HEARTBEAT.md`, `wiki/reviews/HEARTBEAT.md`, `raw/.last_heartbeat`)
 
 ---
 
@@ -591,6 +591,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.17 | 2026-08-10 | Added `wiki/HEARTBEAT.md` to `HEARTBEAT_LEAK_PATHS` in scan script — new HEARTBEAT leak variant at wiki/ root level (distinct from `wiki/reviews/HEARTBEAT.md`). Added HEARTBEAT check in `classify_wiki_entry` `len(parts)==2` branch before the generic "File at wiki/ root level" error. Updated `common-patterns.md` and SKILL.md Agent home scanning rule to document the new variant. Flagged 4th consecutive run (08-07 through 08-10). |
 | 1.15 | 2026-07-22 | Added pitfall to cron verification step: `_action-required.md` uses Markdown bold markers (`**`) around the pending count label, so `**Pending reports awaiting review:** N` — a naive `in` check for `Pending reports awaiting review: N` misses the `**` between `:` and `N`. Use regex with `\*{0,2}`. Updated `references/common-patterns.md`: `memory/` and `state/` root folders confirmed resolved — absent two consecutive runs (07-21, 07-22). |
 | 1.13 | 2026-07-18 | "✅ Good" example (`old_string` without `\|` + `new_string` rows with `\|`) actually produces `\|\|` on the last row — the file's unconsumed `\|` is appended after the entire new_string. Replaced with two proven approaches (A: include `\|` in old_string, B: exclude `\|` from all new_string rows). Confirmed on a live run that produced `\| \|` on the new row before the fix. |
 | 1.11 | 2026-07-11 | Added `memory/` to `ROOT_FOLDER_ORPHANS` in scan script (recurring root folder — flagged 5 times since 07-03). Updated `common-patterns.md`: expanded `memory/` recurrence history through 07-11, removed duplicate one-liner entry. |

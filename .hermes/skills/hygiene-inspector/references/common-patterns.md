@@ -53,7 +53,10 @@ Files and folders that frequently appear at root but are not in the whitelist:
 Agent heartbeat files that sometimes leak outside their home:
 
 - `raw/.last_heartbeat` — should be in `.hermes/` or `.openclaw/`, not `raw/`
+- `wiki/HEARTBEAT.md` — **new variant (2026-08-10):** leaked to wiki/ root level, distinct from the wiki/reviews/ leak. Caught by wiki-root-level check before 08-10; now has dedicated HEARTBEAT_LEAK_PATHS classification.
 - `wiki/reviews/HEARTBEAT.md` — should be in `.hermes/` or root (if symlink), not `wiki/reviews/`
+
+**Recurring note (2026-08-10):** `wiki/HEARTBEAT.md` has been flagged every run since 08-07 (4th consecutive). This is a **process-level leak** — a runtime process writes HEARTBEAT.md to `wiki/` root instead of the agent home. The scan script now detects this specifically (added to `HEARTBEAT_LEAK_PATHS` 2026-08-10).
 
 **Recurring note (2026-06-27):** `wiki/reviews/HEARTBEAT.md` has been flagged every run since 06-25. Fix Agent deleted it 2026-06-27 09:34 but it reappeared by 23:30. This is a **process-level leak** — a runtime process writes HEARTBEAT.md to `wiki/reviews/` instead of the agent home. File deletion alone will not resolve it; the writing process must be identified and its output path corrected.
 

@@ -1,5 +1,16 @@
 ---
 
+## 2026-08-10 08:50 — Ingested
+
+- **File:** `raw/posts/2026-08-10_faith-and-fear-are-the-exact-same-thing.md`
+- **Source:** https://x.com/jlowetransforms/status/2085766731654418669
+- **Type:** post
+- **Author:** Jlowe (@jlowetransforms)
+- **Status:** unprocessed
+- **Note:** Fear/faith reframe + journaling protocol để trung hòa năng lượng sợ hãi. Julius gửi qua Telegram.
+
+---
+
 ## 2026-08-10 08:45 — Ingested
 
 - **File:** `raw/posts/2026-08-10_long-range-career-advice.md`

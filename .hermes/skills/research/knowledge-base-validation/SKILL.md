@@ -21,6 +21,8 @@ Connor (Hermes-RK800) validates wiki files against format-spec.md v2.2. Read-onl
 | Validation | Connor (Hermes-VPS) | format-validator, output-validator, hygiene-inspector | wiki/reviews/*-report-YYYY-MM-DD.md |
 | Fix (post-approval) | Kara (Fix Agent) | fix-agent/SKILL.md | Updates files listed in approved reports |
 
+**Kara troubleshooting:** When Kara's agents stall (Compile/Index/Fix stop producing output), see `references/openclaw-troubleshooting.md` for diagnosis workflow, config location, and context-limit fixes.
+
 ## Core Rule — READ ONLY
 
 **Connor KHÔNG tự sửa file trong wiki/concepts/ hoặc wiki/sources/. Chỉ validate + report.** Kara fix sau khi Julius approve.

@@ -20,13 +20,14 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 9 files
-- By status: 7 processed, 2 unprocessed
-- By date: 1 this week, 9 this month
-- Last updated: 2026-06-22
+- Total: 10 files
+- By status: 7 processed, 3 unprocessed
+- By date: 1 this week, 10 this month
+- Last updated: 2026-08-10
 
 ## Items
 
+- [[2026-08-10_long-range-career-advice]] — Long range career advice by Slava Akhmechet (@spakhm) (unprocessed)
 - [[2026-07-27_how-to-come-back-from-anything-game-theory]] — How To Come Back From Anything (Game Theory) by @incentivising (unprocessed)
 - [[2026-06-22_gamification-app-truth]] — Gamification trong thiết kế sản phẩm: Những cú lừa và sự thật (unprocessed)
 - [[2026-06-01_trading-brain-chemistry-ferb]] — nobody talks about what trading does to your brain by ferb (@ferbsol) (processed)

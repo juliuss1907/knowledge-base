@@ -1,5 +1,16 @@
 ---
 
+## 2026-08-10 08:45 — Ingested
+
+- **File:** `raw/posts/2026-08-10_long-range-career-advice.md`
+- **Source:** https://x.com/spakhm/status/2085049411332087891
+- **Type:** post
+- **Author:** Slava Akhmechet (@spakhm)
+- **Status:** unprocessed
+- **Note:** Career compounding framework — main loop + background loop + failure modes. Julius gửi qua Telegram.
+
+---
+
 ## 2026-08-09 08:58 — Ingested
 
 - **File:** `raw/articles/2026-08-09_what-is-a-product.md`

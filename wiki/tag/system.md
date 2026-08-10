@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: system
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-10
 ---
 
 # Tag: #system
@@ -19,7 +19,7 @@ last_updated: 2026-07-30
 - Total files: 48
 - Sources: 9
 - Concepts: 39
-- Last updated: 2026-07-30
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -79,3 +79,8 @@ last_updated: 2026-07-30
 - [[opinion]] — 15 co-occurrences
 - [[tools]] — 10 co-occurrences
 - [[ai]] — 9 co-occurrences
+- [[productivity]] — 8 co-occurrences
+- [[automation]] — 7 co-occurrences
+- [[health]] — 3 co-occurrences
+- [[vibecode]] — 3 co-occurrences
+- [[coding]] — 2 co-occurrences

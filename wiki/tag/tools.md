@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-10
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 189
+- Total files: 191
 - Sources: 42
-- Concepts: 147
-- Last updated: 2026-08-01
+- Concepts: 149
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -113,6 +113,7 @@ last_updated: 2026-07-30
 - [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
 - [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
+- [[moores-law-economics]] — Moores Law Economics (concept)
 - [[multi-agent-risk-review]] — Multi Agent Risk Review (concept)
 - [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
 - [[note-taking-systems]] — Note Taking Systems (concept)
@@ -137,6 +138,7 @@ last_updated: 2026-07-30
 - [[relative-strength-leadership]] — Relative Strength Leadership (concept)
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
 - [[semantic-memory]] — Semantic Memory (concept)
+- [[semiconductor-industry-consolidation]] — Semiconductor Industry Consolidation (concept)
 - [[session-separation]] — Session Separation (concept)
 - [[shift-left-testing]] — Shift Left Testing (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
@@ -153,6 +155,7 @@ last_updated: 2026-07-30
 - [[src_ai-future-skills]] — Ai Future Skills (source)
 - [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuoc Ua Xem Ai Khong I Lui Curiositypocket (source)
 - [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_field-guide-to-fable-finding-unknowns]] — Field Guide To Fable Finding Unknowns (source)
@@ -194,9 +197,9 @@ last_updated: 2026-07-30
 - [[supply-chain-attack]] — Supply Chain Attack (concept)
 - [[system-map]] — System Map (concept)
 - [[systems-thinking]] — Systems Thinking (concept)
+- [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept)
 - [[token-theft-attack]] — Token Theft Attack (concept)
-- [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[tokenization]] — Tokenization (concept)
 - [[unified-api-gateway]] — Unified Api Gateway (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
@@ -217,6 +220,10 @@ last_updated: 2026-07-30
 - [[ai]] — 118 co-occurrences
 - [[research]] — 67 co-occurrences
 - [[automation]] — 58 co-occurrences
-- [[tutorial]] — 25 co-occurrences
 - [[opinion]] — 25 co-occurrences
-- [[economic]] — 22 co-occurrences
+- [[tutorial]] — 25 co-occurrences
+- [[economic]] — 24 co-occurrences
+- [[productivity]] — 20 co-occurrences
+- [[tech]] — 20 co-occurrences
+- [[crypto]] — 11 co-occurrences
+- [[coding]] — 10 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: ai
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-10
 ---
 
 # Tag: #ai
@@ -19,7 +19,7 @@ last_updated: 2026-07-30
 - Total files: 183
 - Sources: 41
 - Concepts: 142
-- Last updated: 2026-07-30
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -214,3 +214,8 @@ last_updated: 2026-07-30
 - [[automation]] — 57 co-occurrences
 - [[opinion]] — 41 co-occurrences
 - [[coding]] — 26 co-occurrences
+- [[tutorial]] — 23 co-occurrences
+- [[system]] — 9 co-occurrences
+- [[productivity]] — 7 co-occurrences
+- [[vibecode]] — 7 co-occurrences
+- [[economic]] — 6 co-occurrences

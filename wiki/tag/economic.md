@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: economic
 auto_generated: true
-last_updated: 2026-07-31
+last_updated: 2026-08-10
 ---
 
 # Tag: #economic
@@ -19,7 +19,7 @@ last_updated: 2026-07-31
 - Total files: 89
 - Sources: 18
 - Concepts: 71
-- Last updated: 2026-08-01
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -35,6 +35,7 @@ last_updated: 2026-07-31
 - [[climax-top]] — Climax Top (concept)
 - [[cortisol-management]] — Cortisol Management (concept)
 - [[creative-destruction]] — Creative Destruction (concept)
+- [[cuoc-dua-khong-di-lui]] — Cuoc Dua Khong Di Lui (concept)
 - [[digital-product-flywheel]] — Digital Product Flywheel (concept)
 - [[dollar-as-rent-payment]] — Dollar As Rent Payment (concept)
 - [[dopamine-reward-loop]] — Dopamine Reward Loop (concept)
@@ -56,6 +57,7 @@ last_updated: 2026-07-31
 - [[lifestyle-inflation]] — Lifestyle Inflation (concept)
 - [[margin-of-safety]] — Margin Of Safety (concept)
 - [[market-structure-blueprint]] — Market Structure Blueprint (concept)
+- [[moores-law-economics]] — Moores Law Economics (concept)
 - [[narrative-certainty-trap]] — Narrative Certainty Trap (concept)
 - [[new-leverage-digital-assets]] — New Leverage Digital Assets (concept)
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
@@ -79,6 +81,7 @@ last_updated: 2026-07-31
 - [[retail-trading-fantasy]] — Retail Trading Fantasy (concept)
 - [[rot-economy]] — Rot Economy (concept)
 - [[self-reinforcing-systems]] — Self Reinforcing Systems (concept)
+- [[semiconductor-industry-consolidation]] — Semiconductor Industry Consolidation (concept)
 - [[sizing-policy-trading]] — Sizing Policy Trading (concept)
 - [[softbank-carry-trade]] — Softbank Carry Trade (concept)
 - [[spare-production-capacity]] — Spare Production Capacity (concept)
@@ -86,6 +89,7 @@ last_updated: 2026-07-31
 - [[src_ai-reflexivity-loop-is-same]] — Ai Reflexivity Loop Is Same (source)
 - [[src_building-latticework-mental-models]] — Building Latticework Mental Models (source)
 - [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cach Nhanh Nhat Nop Ho So Bao Hiem That Nghiep (source)
+- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuoc Ua Xem Ai Khong I Lui Curiositypocket (source)
 - [[src_how-average-people-will-get-rich-with-ai]] — How Average People Will Get Rich With Ai (source)
 - [[src_how-the-market-warns-you-before-the-crash]] — How The Market Warns You Before The Crash (source)
 - [[src_how-to-read-cash-flow-statement]] — How To Read Cash Flow Statement (source)
@@ -98,25 +102,26 @@ last_updated: 2026-07-31
 - [[src_the-next-generation-of-trading-wont]] — The Next Generation Of Trading Wont (source)
 - [[src_trading-brain-chemistry-ferb]] — Trading Brain Chemistry Ferb (source)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source)
-- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuoc Ua Xem Ai Khong I Lui Curiositypocket (source)
 - [[src_why-china-got-rich-and-india-didnt]] — Why China Got Rich And India Didnt (source)
 - [[state-capacity-theory]] — State Capacity Theory (concept)
 - [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
 - [[systematic-trading]] — Systematic Trading (concept)
+- [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[timing-over-stock-picking]] — Timing Over Stock Picking (concept)
 - [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
-- [[cuoc-dua-khong-di-lui]] — Cuoc Dua Khong Di Lui (concept)
-- [[moores-law-economics]] — Moores Law Economics (concept)
-- [[semiconductor-industry-consolidation]] — Semiconductor Industry Consolidation (concept)
-- [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
 
 ## Co-occurring tags
 
-- [[research]] — 43 co-occurrences
-- [[opinion]] — 41 co-occurrences
-- [[tools]] — 22 co-occurrences
+- [[opinion]] — 42 co-occurrences
+- [[research]] — 41 co-occurrences
+- [[tools]] — 24 co-occurrences
 - [[psychology]] — 20 co-occurrences
 - [[tutorial]] — 16 co-occurrences
+- [[ai]] — 6 co-occurrences
+- [[automation]] — 4 co-occurrences
+- [[geopolitics]] — 4 co-occurrences
+- [[layer1]] — 2 co-occurrences
+- [[news]] — 2 co-occurrences

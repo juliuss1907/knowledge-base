@@ -5,14 +5,14 @@ scope: tags
 parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
-last_updated: 2026-07-29
+last_updated: 2026-08-10
 ---
 
 # Tag Index
 
 Master index of all tags in the Knowledge Base.
 
-Last updated: 2026-07-29 21:00:00
+Last updated: 2026-08-10 22:45:28
 
 ---
 
@@ -29,8 +29,8 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - Total tags: 24
 - Main tags: 9
 - Sub tags: 15
-- Most used: #productivity (276), #psychology (273), #research (253)
-- Last updated: 2026-08-01
+- Most used: #psychology (277), #productivity (275), #research (258)
+- Last updated: 2026-08-10
 
 ## Items
 
@@ -50,8 +50,6 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 
 - [[ai]] — AI / ML / LLM, agents, models, training, inference (as attribute)
 - [[automation]] — Bots, scripts, scheduled jobs, automated workflows
-- [[career]] — Career development, professional growth, job decisions
-- [[career]] — Career development, professional growth, job decisions
 - [[coding]] — Programming, software development, code generation, dev practices
 - [[defi]] — Decentralized finance protocols, AMMs, lending, yield
 - [[geopolitics]] — Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition
@@ -59,10 +57,13 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - [[health]] — Physical health, sleep, exercise, nutrition, biohacking
 - [[law]] — Legal frameworks, contracts, regulations, compliance
 - [[layer1]] — Base-layer blockchains
+- [[layer2]] — Scaling solutions, rollups, sidechains
 - [[news]] — Recent events, announcements, time-sensitive updates
-- [[opinion]] — Personal takes, editorials, commentary (102 files)
+- [[opinion]] — Personal takes, editorials, commentary
+- [[perpdex]] — Perpetual exchanges, derivatives DEXs
 - [[psychology]] — Cognitive science, behavioral psychology, mental models, biases
 - [[research]] — Academic papers, deep analysis, primary sources
+- [[strategy]] — Strategic thinking, decision frameworks, competitive positioning, game theory
 - [[system]] — System design, architecture, automation pipelines (as attribute)
 - [[tools]] — Concrete software, products, services, libraries
 - [[tutorial]] — How-to guides, walkthroughs, step-by-step instructions

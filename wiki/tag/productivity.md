@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-07-31
+last_updated: 2026-08-10
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-07-31
 
 ## Stats
 
-- Total files: 276
+- Total files: 275
 - Sources: 77
-- Concepts: 199
-- Last updated: 2026-08-01
+- Concepts: 198
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -45,8 +45,8 @@ last_updated: 2026-07-31
 - [[circadian-rhythm]] — Circadian Rhythm (concept)
 - [[circle-of-competence]] — Circle Of Competence (concept)
 - [[clear-goals]] — Clear Goals (concept)
-- [[collaborative-thinking]] — Collaborative Thinking (concept)
 - [[colin-powell-40-70-rule]] — Colin Powell 40 70 Rule (concept)
+- [[collaborative-thinking]] — Collaborative Thinking (concept)
 - [[compounding-effect]] — Compounding Effect (concept)
 - [[compounding-relationships]] — Compounding Relationships (concept)
 - [[comprehensible-input]] — Comprehensible Input (concept)
@@ -301,9 +301,13 @@ last_updated: 2026-07-31
 
 ## Co-occurring tags
 
-- [[psychology]] — 198 co-occurrences
-- [[opinion]] — 107 co-occurrences
+- [[psychology]] — 192 co-occurrences
+- [[opinion]] — 103 co-occurrences
 - [[research]] — 85 co-occurrences
 - [[tutorial]] — 40 co-occurrences
 - [[automation]] — 21 co-occurrences
-- [[career]] — 1 co-occurrence
+- [[tools]] — 20 co-occurrences
+- [[system]] — 8 co-occurrences
+- [[ai]] — 7 co-occurrences
+- [[health]] — 7 co-occurrences
+- [[coding]] — 2 co-occurrences

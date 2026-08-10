@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: research
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-10
 ---
 
 # Tag: #research
@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 253
-- Sources: 55
-- Concepts: 198
-- Last updated: 2026-08-01
+- Total files: 258
+- Sources: 56
+- Concepts: 202
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -144,7 +144,9 @@ last_updated: 2026-07-30
 - [[memory-consolidation-offline]] — Memory Consolidation Offline (concept)
 - [[memory-extraction-timing]] — Memory Extraction Timing (concept)
 - [[memory-reconstruction]] — Memory Reconstruction (concept)
+- [[mindfulness-presence]] — Mindfulness Presence (concept)
 - [[mixture-of-experts-moe]] — Mixture Of Experts Moe (concept)
+- [[moores-law-economics]] — Moores Law Economics (concept)
 - [[multi-agent-taxonomy]] — Multi Agent Taxonomy (concept)
 - [[mutually-assured-destruction]] — Mutually Assured Destruction (concept)
 - [[nash-equilibrium]] — Nash Equilibrium (concept)
@@ -153,6 +155,7 @@ last_updated: 2026-07-30
 - [[nice-syndrome]] — Nice Syndrome (concept)
 - [[occams-broom]] — Occams Broom (concept)
 - [[occams-razor]] — Occams Razor (concept)
+- [[oddball-effect]] — Oddball Effect (concept)
 - [[oil-spot-strategy]] — Oil Spot Strategy (concept)
 - [[opec-cartel-structure]] — Opec Cartel Structure (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
@@ -168,10 +171,12 @@ last_updated: 2026-07-30
 - [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
 - [[point-in-time-data]] — Point In Time Data (concept)
 - [[policy-review-framework]] — Policy Review Framework (concept)
+- [[predictability-trap]] — Predictability Trap (concept)
 - [[prisoners-dilemma]] — Prisoners Dilemma (concept)
 - [[problem-statement-redesign]] — Problem Statement Redesign (concept)
 - [[procedural-memory]] — Procedural Memory (concept)
 - [[productivity-wage-gap]] — Productivity Wage Gap (concept)
+- [[proportional-theory-time-perception]] — Proportional Theory Time Perception (concept)
 - [[prospective-memory]] — Prospective Memory (concept)
 - [[prospective-memory-gap]] — Prospective Memory Gap (concept)
 - [[psychological-survival]] — Psychological Survival (concept)
@@ -252,6 +257,7 @@ last_updated: 2026-07-30
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source)
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source)
 - [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)
+- [[src_why-time-felt-slower-when-we-were-kids]] — Why Time Felt Slower When We Were Kids (source)
 - [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
 - [[stakeholder-mapping]] — Stakeholder Mapping (concept)
 - [[state-conditioned-decisions]] — State Conditioned Decisions (concept)
@@ -274,7 +280,6 @@ last_updated: 2026-07-30
 - [[vectors]] — Vectors (concept)
 - [[vocabulary-size-tradeoff]] — Vocabulary Size Tradeoff (concept)
 - [[volume-confirmation]] — Volume Confirmation (concept)
-- [[moores-law-economics]] — Moores Law Economics (concept)
 - [[zero-sum-game]] — Zero Sum Game (concept)
 
 ## Co-occurring tags
@@ -282,6 +287,10 @@ last_updated: 2026-07-30
 - [[productivity]] — 85 co-occurrences
 - [[ai]] — 83 co-occurrences
 - [[tools]] — 67 co-occurrences
+- [[psychology]] — 64 co-occurrences
 - [[opinion]] — 61 co-occurrences
-- [[psychology]] — 59 co-occurrences
-- [[economic]] — 43 co-occurrences
+- [[economic]] — 41 co-occurrences
+- [[tutorial]] — 22 co-occurrences
+- [[system]] — 18 co-occurrences
+- [[politic]] — 16 co-occurrences
+- [[coding]] — 14 co-occurrences

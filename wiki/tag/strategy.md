@@ -3,12 +3,12 @@ type: index
 level: 3
 scope: tag
 parent: "[[tag]]"
-tag: career
+tag: strategy
 auto_generated: true
-last_updated: 2026-08-01
+last_updated: 2026-08-10
 ---
 
-# Tag: #career
+# Tag: #strategy
 
 ## Parent
 
@@ -19,7 +19,7 @@ last_updated: 2026-08-01
 - Total files: 1
 - Sources: 0
 - Concepts: 1
-- Last updated: 2026-08-01
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -27,5 +27,6 @@ last_updated: 2026-08-01
 
 ## Co-occurring tags
 
+- [[economic]] — 1 co-occurrence
 - [[productivity]] — 1 co-occurrence
 - [[psychology]] — 1 co-occurrence

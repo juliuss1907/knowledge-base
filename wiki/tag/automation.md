@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-10
 ---
 
 # Tag: #automation
@@ -19,7 +19,7 @@ last_updated: 2026-07-30
 - Total files: 89
 - Sources: 19
 - Concepts: 70
-- Last updated: 2026-07-30
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -120,3 +120,8 @@ last_updated: 2026-07-30
 - [[productivity]] — 21 co-occurrences
 - [[tutorial]] — 16 co-occurrences
 - [[psychology]] — 13 co-occurrences
+- [[opinion]] — 11 co-occurrences
+- [[coding]] — 9 co-occurrences
+- [[system]] — 7 co-occurrences
+- [[research]] — 6 co-occurrences
+- [[economic]] — 4 co-occurrences

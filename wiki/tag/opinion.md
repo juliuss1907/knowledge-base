@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-10
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 237
+- Total files: 236
 - Sources: 78
 - Concepts: 158
-- Last updated: 2026-08-01
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -59,6 +59,7 @@ last_updated: 2026-07-30
 - [[compounding-relationships]] — Compounding Relationships (concept)
 - [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept)
 - [[creativity-as-skill]] — Creativity As Skill (concept)
+- [[cuoc-dua-khong-di-lui]] — Cuoc Dua Khong Di Lui (concept)
 - [[cynefin-framework]] — Cynefin Framework (concept)
 - [[delusional-optimism]] — Delusional Optimism (concept)
 - [[discipline-as-freedom]] — Discipline As Freedom (concept)
@@ -172,6 +173,7 @@ last_updated: 2026-07-30
 - [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source)
 - [[src_an-all-too-common-investment-story]] — An All Too Common Investment Story (source)
 - [[src_career-advice-age-of-ai-phil-chen]] — Career Advice Age Of Ai Phil Chen (source)
+- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuoc Ua Xem Ai Khong I Lui Curiositypocket (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
 - [[src_everything-is-a-win-when-the-goal]] — Everything Is A Win When The Goal (source)
 - [[src_give-me-14-minutes-destroy-procrastination]] — Give Me 14 Minutes Destroy Procrastination (source)
@@ -230,7 +232,6 @@ last_updated: 2026-07-30
 - [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source)
 - [[src_why-people-fail-at-learning-languages]] — Why People Fail At Learning Languages (source)
 - [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
-- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuoc Ua Xem Ai Khong I Lui Curiositypocket (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source)
 - [[src_you-escape-competition-by-figuring-out-who-you-are]] — You Escape Competition By Figuring Out Who You Are (source)
@@ -248,6 +249,7 @@ last_updated: 2026-07-30
 - [[tacit-knowledge]] — Tacit Knowledge (concept)
 - [[taste-holders]] — Taste Holders (concept)
 - [[taste-judgment]] — Taste Judgment (concept)
+- [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[timing-over-stock-picking]] — Timing Over Stock Picking (concept)
 - [[token-looping]] — Token Looping (concept)
 - [[tokenmaxxing]] — Tokenmaxxing (concept)
@@ -256,15 +258,17 @@ last_updated: 2026-07-30
 - [[two-track-communications]] — Two Track Communications (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[us-security-umbrella]] — Us Security Umbrella (concept)
-- [[cuoc-dua-khong-di-lui]] — Cuoc Dua Khong Di Lui (concept)
-- [[technology-driven-dependence]] — Technology Driven Dependence (concept)
 - [[work-life-balance]] — Work Life Balance (concept)
 
 ## Co-occurring tags
 
-- [[productivity]] — 107 co-occurrences
-- [[psychology]] — 104 co-occurrences
+- [[productivity]] — 103 co-occurrences
+- [[psychology]] — 102 co-occurrences
 - [[research]] — 61 co-occurrences
+- [[economic]] — 42 co-occurrences
 - [[ai]] — 41 co-occurrences
-- [[economic]] — 41 co-occurrences
 - [[tools]] — 25 co-occurrences
+- [[system]] — 15 co-occurrences
+- [[politic]] — 12 co-occurrences
+- [[automation]] — 11 co-occurrences
+- [[tutorial]] — 11 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: layer1
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-10
 ---
 
 # Tag: #layer1
@@ -19,7 +19,7 @@ last_updated: 2026-07-30
 - Total files: 4
 - Sources: 1
 - Concepts: 3
-- Last updated: 2026-07-30
+- Last updated: 2026-08-10
 
 ## Files with this tag
 

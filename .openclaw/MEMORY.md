@@ -1,5 +1,15 @@
 ---
 
+## 2026-08-10 22:45 — Indexed (incremental)
+
+- **Scanned:** 11 files changed (2 sources + 9 concepts)
+- **Tags indexed:** 26 regenerated (co-occurrence updated)
+- **Topics indexed:** 6 updated (time-perception-childhood new, 5 existing updated)
+- **Orphans deleted:** 1 (career — not in TAGS.md taxonomy)
+- **Invalid tags found:** 0
+- **Errors:** 0
+- **New tag index created:** strategy (Pool B)
+
 ## 2026-08-10 08:50 — Ingested
 
 - **File:** `raw/posts/2026-08-10_faith-and-fear-are-the-exact-same-thing.md`

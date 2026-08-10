@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: health
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-10
 ---
 
 # Tag: #health
@@ -16,10 +16,10 @@ last_updated: 2026-07-30
 
 ## Stats
 
-- Total files: 43
-- Sources: 9
-- Concepts: 34
-- Last updated: 2026-07-30
+- Total files: 48
+- Sources: 10
+- Concepts: 38
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -47,9 +47,13 @@ last_updated: 2026-07-30
 - [[let-them-theory]] — Let Them Theory (concept)
 - [[meaning-through-work]] — Meaning Through Work (concept)
 - [[mind-body-connection]] — Mind Body Connection (concept)
+- [[mindfulness-presence]] — Mindfulness Presence (concept)
 - [[never-enough-culture]] — Never Enough Culture (concept)
+- [[oddball-effect]] — Oddball Effect (concept)
 - [[outcome-independence]] — Outcome Independence (concept)
+- [[predictability-trap]] — Predictability Trap (concept)
 - [[progressive-overload]] — Progressive Overload (concept)
+- [[proportional-theory-time-perception]] — Proportional Theory Time Perception (concept)
 - [[psychic-energy]] — Psychic Energy (concept)
 - [[psychic-entropy]] — Psychic Entropy (concept)
 - [[r3-framework]] — R3 Framework (concept)
@@ -64,13 +68,16 @@ last_updated: 2026-07-30
 - [[src_our-first-heartbreaks-were-our-parents]] — Our First Heartbreaks Were Our Parents (source)
 - [[src_the-5-laws-of-people-who-never-chase]] — The 5 Laws Of People Who Never Chase (source)
 - [[src_the-let-them-theory-gabriel-reality]] — The Let Them Theory Gabriel Reality (source)
+- [[src_why-time-felt-slower-when-we-were-kids]] — Why Time Felt Slower When We Were Kids (source)
 - [[stoic-dichotomy-of-control]] — Stoic Dichotomy Of Control (concept)
 - [[work-life-balance]] — Work Life Balance (concept)
 
 ## Co-occurring tags
 
-- [[psychology]] — 33 co-occurrences
+- [[psychology]] — 38 co-occurrences
+- [[research]] — 12 co-occurrences
 - [[opinion]] — 10 co-occurrences
-- [[research]] — 7 co-occurrences
+- [[tutorial]] — 9 co-occurrences
 - [[productivity]] — 7 co-occurrences
-- [[tutorial]] — 7 co-occurrences
+- [[ai]] — 3 co-occurrences
+- [[system]] — 3 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-07-31
+last_updated: 2026-08-10
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-07-31
 
 ## Stats
 
-- Total files: 273
-- Sources: 72
-- Concepts: 201
-- Last updated: 2026-08-01
+- Total files: 277
+- Sources: 73
+- Concepts: 204
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -42,8 +42,8 @@ last_updated: 2026-07-31
 - [[clear-goals]] — Clear Goals (concept)
 - [[cognitive-load-theory]] — Cognitive Load Theory (concept)
 - [[cognitive-surrender]] — Cognitive Surrender (concept)
-- [[collaborative-thinking]] — Collaborative Thinking (concept)
 - [[colin-powell-40-70-rule]] — Colin Powell 40 70 Rule (concept)
+- [[collaborative-thinking]] — Collaborative Thinking (concept)
 - [[comparison-trap]] — Comparison Trap (concept)
 - [[completion-motivation]] — Completion Motivation (concept)
 - [[compounding-relationships]] — Compounding Relationships (concept)
@@ -141,6 +141,7 @@ last_updated: 2026-07-31
 - [[mental-representation-language]] — Mental Representation Language (concept)
 - [[meta-learning]] — Meta Learning (concept)
 - [[mind-body-connection]] — Mind Body Connection (concept)
+- [[mindfulness-presence]] — Mindfulness Presence (concept)
 - [[naive-interventionism]] — Naive Interventionism (concept)
 - [[narrative-certainty-trap]] — Narrative Certainty Trap (concept)
 - [[nash-equilibrium]] — Nash Equilibrium (concept)
@@ -149,6 +150,7 @@ last_updated: 2026-07-31
 - [[never-enough-culture]] — Never Enough Culture (concept)
 - [[occams-broom]] — Occams Broom (concept)
 - [[occams-razor]] — Occams Razor (concept)
+- [[oddball-effect]] — Oddball Effect (concept)
 - [[olympiad-to-founder-pipeline]] — Olympiad To Founder Pipeline (concept)
 - [[operant-conditioning]] — Operant Conditioning (concept)
 - [[optionality-principle]] — Optionality Principle (concept)
@@ -168,12 +170,14 @@ last_updated: 2026-07-31
 - [[pivot-vs-persist]] — Pivot Vs Persist (concept)
 - [[power-law]] — Power Law (concept)
 - [[power-law-distribution]] — Power Law Distribution (concept)
+- [[predictability-trap]] — Predictability Trap (concept)
 - [[presence]] — Presence (concept)
 - [[prices-law]] — Prices Law (concept)
 - [[primum-non-nocere]] — Primum Non Nocere (concept)
 - [[prisoners-dilemma]] — Prisoners Dilemma (concept)
 - [[probabilistic-thinking]] — Probabilistic Thinking (concept)
 - [[productive-discomfort]] — Productive Discomfort (concept)
+- [[proportional-theory-time-perception]] — Proportional Theory Time Perception (concept)
 - [[protoge-effect]] — Protoge Effect (concept)
 - [[psychic-energy]] — Psychic Energy (concept)
 - [[psychic-entropy]] — Psychic Entropy (concept)
@@ -274,6 +278,7 @@ last_updated: 2026-07-31
 - [[src_viktor-frankl-meaning-video]] — Viktor Frankl Meaning Video (source)
 - [[src_why-people-fail-at-learning-languages]] — Why People Fail At Learning Languages (source)
 - [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
+- [[src_why-time-felt-slower-when-we-were-kids]] — Why Time Felt Slower When We Were Kids (source)
 - [[src_you-escape-competition-by-figuring-out-who-you-are]] — You Escape Competition By Figuring Out Who You Are (source)
 - [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source)
 - [[stay-hungry-stay-foolish]] — Stay Hungry Stay Foolish (concept)
@@ -298,9 +303,13 @@ last_updated: 2026-07-31
 
 ## Co-occurring tags
 
-- [[productivity]] — 198 co-occurrences
-- [[opinion]] — 104 co-occurrences
-- [[research]] — 59 co-occurrences
-- [[health]] — 33 co-occurrences
+- [[productivity]] — 192 co-occurrences
+- [[opinion]] — 102 co-occurrences
+- [[research]] — 64 co-occurrences
+- [[health]] — 38 co-occurrences
+- [[tutorial]] — 21 co-occurrences
+- [[economic]] — 20 co-occurrences
 - [[system]] — 20 co-occurrences
-- [[career]] — 1 co-occurrence
+- [[automation]] — 13 co-occurrences
+- [[tech]] — 9 co-occurrences
+- [[tools]] — 8 co-occurrences

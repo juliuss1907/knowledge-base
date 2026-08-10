@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-07-31
+last_updated: 2026-08-10
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-07-31
 
 ## Stats
 
-- Total files: 85
-- Sources: 32
-- Concepts: 53
-- Last updated: 2026-08-01
+- Total files: 87
+- Sources: 33
+- Concepts: 54
+- Last updated: 2026-08-10
 
 ## Files with this tag
 
@@ -52,6 +52,7 @@ last_updated: 2026-07-31
 - [[iceberg-model]] — Iceberg Model (concept)
 - [[learning-through-retrieval]] — Learning Through Retrieval (concept)
 - [[lifestyle-inflation]] — Lifestyle Inflation (concept)
+- [[mindfulness-presence]] — Mindfulness Presence (concept)
 - [[non-commodity-content]] — Non Commodity Content (concept)
 - [[operating-cash-flow]] — Operating Cash Flow (concept)
 - [[output-based-learning]] — Output Based Learning (concept)
@@ -95,6 +96,7 @@ last_updated: 2026-07-31
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source)
 - [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source)
 - [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3b1b (source)
+- [[src_why-time-felt-slower-when-we-were-kids]] — Why Time Felt Slower When We Were Kids (source)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source)
 - [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source)
 - [[stakeholder-mapping]] — Stakeholder Mapping (concept)
@@ -114,5 +116,10 @@ last_updated: 2026-07-31
 - [[productivity]] — 40 co-occurrences
 - [[tools]] — 25 co-occurrences
 - [[ai]] — 23 co-occurrences
-- [[research]] — 20 co-occurrences
+- [[research]] — 22 co-occurrences
+- [[psychology]] — 21 co-occurrences
 - [[automation]] — 16 co-occurrences
+- [[economic]] — 16 co-occurrences
+- [[opinion]] — 11 co-occurrences
+- [[health]] — 9 co-occurrences
+- [[coding]] — 7 co-occurrences

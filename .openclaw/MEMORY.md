@@ -844,3 +844,11 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 
 ### Reports Archived
 - 9 reports → wiki/reviews/archive/2026-08/
+
+## 2026-08-10 21:48 — Ingest
+- File: raw/posts/2026-08-09_how-to-get-maximum-results-with-minimum-effort-game-theory.md
+- Source: https://x.com/incentivising/status/2086512889595072685
+- Type: post (X/Twitter article)
+- Author: Incentivising (@incentivising)
+- Title: How to Get Maximum Results with Minimum Effort (Game Theory)
+- Status: unprocessed

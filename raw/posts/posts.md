@@ -20,13 +20,15 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 11 files
-- By status: 7 processed, 4 unprocessed
-- By date: 2 this week, 11 this month
+- Total: 13 files
+- By status: 8 processed, 5 unprocessed
+- By date: 2 this week, 5 this month
 - Last updated: 2026-08-10
 
 ## Items
 
+- [[2026-08-09_how-to-get-maximum-results-with-minimum-effort-game-theory]] — How to Get Maximum Results with Minimum Effort (Game Theory) by @incentivising (unprocessed)
+- [[2026-08-09_just-let-go-cipheron]] — Just Let Go by Cipheron (@cipheron) (unprocessed)
 - [[2026-08-10_faith-and-fear-are-the-exact-same-thing]] — Faith and fear are the exact same thing by Jlowe (@jlowetransforms) (unprocessed)
 - [[2026-08-10_long-range-career-advice]] — Long range career advice by Slava Akhmechet (@spakhm) (unprocessed)
 - [[2026-07-27_how-to-come-back-from-anything-game-theory]] — How To Come Back From Anything (Game Theory) by @incentivising (unprocessed)

@@ -1047,3 +1047,11 @@ Files checked: 815
 - **Result:** [SILENT] — nothing new to validate
 - **Carry-over:** Same as 2026-08-07 report — 1 dropped-i (new-leverage-digital-assets.md), ngưởi (5 files), double-i (8 files, 13 instances), spacing merge (9 files, 16 instances), capital-I (6 files, 9 instances). All pre-existing.
 
+## 2026-08-10 23:01:53 — Output validation
+
+- **Files checked:** 670 (162 sources + 508 concepts)
+- **New files:** 0 — nothing new since last validation
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — nothing new to validate
+- **Carry-over:** Same as 2026-08-07 report — 1 dropped-i (new-leverage-digital-assets.md), ngưởi (5 files), double-i (8 files, 13 instances), spacing merge (9 files, 16 instances), capital-I (6 files, 9 instances). All pre-existing.
+

@@ -710,6 +710,25 @@ check "08-01 entry after 07-25 (line $AUG01_LINE > $JUL25_LINE)" test "$AUG01_LI
 
 **Symptom:** The check description string shows garbled output (e.g., `line 927 > [OK] Entry appended`) because variable expansion captured function output instead of the computed value. The `test` comparison may fail even when the ordering is correct because the variables hold wrong data.
 
+**Pitfall — em dash (`—`) vs regular dash (`-`) in grep patterns (2026-08-11):** The `_action-required.md` and `MEMORY.md` files use em dashes (U+2014, `—`) in date headers and section titles (e.g., `## Applied — 2026-08-11`, `## 2026-08-11 22:00:00 — Output validation`). When writing verification scripts, `grep -F` with a regular dash (`-`) will silently fail to match because the characters are visually similar but different bytes. Grep patterns that look correct in the script source will produce false negatives.
+
+```bash
+# BROKEN — regular dash won't match em dash in the file:
+grep -qF 'Output Validation - 2026-08-11' "$A"     # silently fails
+grep -qF '2026-08-11 22:00:00 - Output' "$M"       # silently fails
+
+# CORRECT — use regex .* to span the dash, or match a substring:
+grep -q 'Output Validation.*2026-08-11' "$A"        # regex spans any dash
+grep -q '2026-08-11 22:00' "$M"                     # match before the dash
+```
+
+**Symptom:** Verification script reports `[FAIL]` for checks like "Output entry present" and "MEMORY entry present" even though manual inspection confirms the entries exist. The `grep -F` matched the wrong dash character.
+
+**Prevention:** When writing verification scripts that grep for date headers in `_action-required.md` or `MEMORY.md`, either:
+1. Use substring matching that stops before the em dash (e.g., `grep -q '2026-08-11 22:00'` instead of the full header)
+2. Use regex `.*` to span the dash character (e.g., `grep -q 'Output Validation.*2026-08-11'`)
+3. Copy-paste the actual em dash character from the target file into the grep pattern
+
 **Pitfall — verification script cleanup:** `rm /tmp/hermes-verify-*` may trigger "delete in root path" approval. Accept the block — `/tmp` files are cleaned by the OS eventually.
 
 **Pitfall — `cat` heredoc blocked by security scanner (2026-07-18):** The `cat > /tmp/...sh << 'VERIFY_EOF'` pattern can be blocked by the security scanner even when the heredoc body contains zero emoji. The scanner flags the entire shell command pattern, not just its content. **Workaround:** Use `write_file` to create the verification script at `/tmp/hermes-verify-*.sh`, then execute with `bash /tmp/hermes-verify-*.sh`. This bypasses the scanner entirely and produces identical results. If `write_file` is also blocked, try shorter paths or simpler content first to isolate the trigger.

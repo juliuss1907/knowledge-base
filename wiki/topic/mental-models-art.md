@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-art
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-11
 ---
 
 # Topic: mental-models-art
 
 Auto-generated index of all content with topic `mental-models-art`.
 
-Last updated: 2026-07-30 14:03:37
+Last updated: 2026-08-11 14:01:27
 
 ---
 

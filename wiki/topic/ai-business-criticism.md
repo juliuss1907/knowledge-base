@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-business-criticism
 auto_generated: true
-last_updated: 2026-07-30
+last_updated: 2026-08-11
 ---
 
 # Topic: ai-business-criticism
 
 Auto-generated index of all content with topic `ai-business-criticism`.
 
-Last updated: 2026-07-30 14:03:37
+Last updated: 2026-08-11 14:01:27
 
 ---
 

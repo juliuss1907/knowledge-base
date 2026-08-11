@@ -950,3 +950,13 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - Author: Incentivising (@incentivising)
 - Title: How to Get Maximum Results with Minimum Effort (Game Theory)
 - Status: unprocessed
+
+## 2026-08-11T14:01:27.409091+00:00 — Indexed (full rebuild)
+
+- **Scanned:** 524 concepts + 168 sources = 692 total files
+- **Tags indexed:** 24 (9 main-tags + 15 sub-tags)
+- **Topics indexed:** 195
+- **Orphans deleted:** 2 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped due to invalid frontmatter
+- **Mode:** full (28 files changed since last run, ≥20 threshold)

@@ -5,37 +5,45 @@ scope: tag
 parent: "[[tag]]"
 tag: vibecode
 auto_generated: true
-last_updated: 2026-08-10
+last_updated: 2026-08-11
 ---
 
 # Tag: #vibecode
 
-## Parent
+Auto-generated index of all content tagged with `#vibecode`.
 
-- [[tag]]
+Last updated: 2026-08-11 14:01:27
+
+---
 
 ## Stats
 
-- Total files: 7
-- Sources: 2
-- Concepts: 5
-- Last updated: 2026-08-10
+- Total files: 9
+- Sources: 3
+- Concepts: 6
+- Last updated: 2026-08-11
 
-## Files with this tag
+## Concepts (6)
 
-- [[code-as-substrate]] — Code As Substrate (concept)
-- [[hermes-agent]] — Hermes Agent (concept)
-- [[loop-native-factory]] — Loop Native Factory (concept)
-- [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept)
-- [[src_loop-native-factory]] — Loop Native Factory (source)
-- [[src_the-seed-and-the-machine]] — The Seed And The Machine (source)
-- [[vibe-coding]] — Vibe Coding (concept)
+- [[code-as-substrate]] — Code As Substrate (concept, main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness)
+- [[hermes-agent]] — Hermes Agent (concept, main: #ai, sub: [#tools, #automation, #vibecode], topic: hermes-polymarket-trading-agent)
+- [[loop-native-factory]] — Loop Native Factory (concept, main: #ai, sub: [#vibecode, #system], topic: ai-engineering)
+- [[product-vs-prototype]] — Product Vs Prototype (concept, main: #ai, sub: [#opinion, #vibecode], topic: product-vs-prototype)
+- [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept, main: #ai, sub: [#system, #vibecode], topic: ai-architecture)
+- [[vibe-coding]] — Vibe Coding (concept, main: #ai, sub: [#tools, #vibecode], topic: ai-future-skills)
+
+## Sources (3)
+
+- [[src_loop-native-factory]] — Loop Native Factory (source, main: #ai, sub: [#tools, #vibecode, #research], topic: loop-native-factory)
+- [[src_the-seed-and-the-machine]] — The Seed And The Machine (source, main: #ai, sub: [#vibecode, #system, #research], topic: seed-vs-machine-architecture)
+- [[src_what-is-a-product]] — What Is A Product (source, main: #ai, sub: [#opinion, #vibecode], topic: product-vs-prototype)
 
 ## Co-occurring tags
 
-- [[ai]] — 7 co-occurrences
+Tags that frequently appear with `#vibecode`:
+
+- [[ai]] — 9 co-occurrences
 - [[tools]] — 4 co-occurrences
 - [[system]] — 3 co-occurrences
 - [[research]] — 2 co-occurrences
-- [[automation]] — 1 co-occurrence
-- [[coding]] — 1 co-occurrence
+- [[opinion]] — 2 co-occurrences

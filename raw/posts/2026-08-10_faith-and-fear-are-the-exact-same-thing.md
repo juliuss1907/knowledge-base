@@ -5,7 +5,9 @@ url: https://x.com/jlowetransforms/status/2085766731654418669
 author: Jlowe (@jlowetransforms)
 date_published: 2026-08-10
 date_ingested: 2026-08-10
-status: unprocessed
+status: processed
+compiled_at: 2026-08-11
+compiled_to: "[[src_faith-and-fear-are-the-exact-same-thing]]"
 source: x.com
 ---
 

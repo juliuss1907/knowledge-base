@@ -5,7 +5,9 @@ url: https://roge.onwrite.app/what-is-a-product
 author: [unknown]
 date_published: [unknown]
 date_ingested: 2026-08-09
-status: unprocessed
+status: processed
+compiled_at: 2026-08-11
+compiled_to: "[[src_what-is-a-product]]"
 source: roge.onwrite.app
 ---
 

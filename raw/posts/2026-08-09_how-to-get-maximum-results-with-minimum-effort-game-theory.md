@@ -5,7 +5,9 @@ url: https://x.com/incentivising/status/2086512889595072685
 author: Incentivising (@incentivising)
 date_published: 2026-08-09
 date_ingested: 2026-08-10
-status: unprocessed
+status: processed
+compiled_at: 2026-08-11
+compiled_to: "[[src_how-to-get-maximum-results-with-minimum-effort-game-theory]]"
 source: x.com/incentivising
 platform: twitter
 metrics:

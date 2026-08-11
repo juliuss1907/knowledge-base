@@ -4,14 +4,14 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-10 (Julius — approved all 9 pending reports)
+**Last updated:** 2026-08-11 (Fix Agent — applied all 9 approved reports)
 
 ---
 
 ## Summary
 
 **Pending reports awaiting review:** 0
-**Last batch applied:** 9 reports (08-01 Format ×4, 08-01/08-03/08-04 Hygiene ×4, 08-01 Output ×1) — **APPLIED** 2026-08-06 by Fix Agent
+**Last batch applied:** 9 reports (08-07 through 08-10) — **APPLIED** 2026-08-11 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
@@ -24,129 +24,49 @@
 | ✅ APPLIED | 08-04 | Hygiene | 3 (1E+1W+1I) | Applied 2026-08-06 — same |
 | ✅ APPLIED | 08-05 | Hygiene | 5 (2E+2W+1I) | Applied 2026-08-06 — memory/ already moved |
 | ✅ APPLIED | 08-01 | Output | 22 double-i typos | Applied 2026-08-06 — fixed in 5 files |
-| ✅ APPROVED | 08-07 | Output | 0 new + 1 carry-over | Pending review — 5 new files, all clean |
-| ✅ APPROVED | 08-07 | Format | 430W | Review [wiki/reviews/2026-08-07_format-report.md](2026-08-07_format-report.md) |
-| ✅ APPROVED | 08-07 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-07_hygiene-report.md](2026-08-07_hygiene-report.md) |
-| ✅ APPROVED | 08-08 | Format | 430W | Review [wiki/reviews/2026-08-08_format-report.md](2026-08-08_format-report.md) |
-| ✅ APPROVED | 08-08 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-08_hygiene-report.md](2026-08-08_hygiene-report.md) |
-| ✅ APPROVED | 08-09 | Format | 430W | Review [wiki/reviews/2026-08-09_format-report.md](2026-08-09_format-report.md)
-| ✅ APPROVED | 08-09 | Hygiene | 3 (2E+1I) | Review [wiki/reviews/2026-08-09_hygiene-report.md](2026-08-09_hygiene-report.md) |
-| ✅ APPROVED | 08-10 | Format | 432 (2E+430W) | Review [wiki/reviews/2026-08-10_format-report.md](2026-08-10_format-report.md) |
-| ✅ APPROVED | 08-10 | Hygiene | 5 (3E+1W+1I) | Review [wiki/reviews/2026-08-10_hygiene-report.md](2026-08-10_hygiene-report.md) |
+| ✅ APPLIED | 08-07 | Output | 0 new + 1 carry-over | Applied 2026-08-11 — fixed dropped-i typo in new-leverage-digital-assets.md |
+| ✅ APPLIED | 08-07 | Format | 430W | Applied 2026-08-11 — 430 forward-reference WARNINGs, no structural fixes needed |
+| ✅ APPLIED | 08-07 | Hygiene | 3 (2E+1I) | Applied 2026-08-11 — state/ and wiki/HEARTBEAT.md already absent |
+| ✅ APPLIED | 08-08 | Format | 430W | Applied 2026-08-11 — 430 forward-reference WARNINGs, no structural fixes needed |
+| ✅ APPLIED | 08-08 | Hygiene | 3 (2E+1I) | Applied 2026-08-11 — state/ and wiki/HEARTBEAT.md already absent |
+| ✅ APPLIED | 08-09 | Format | 430W | Applied 2026-08-11 — 430 forward-reference WARNINGs, no structural fixes needed |
+| ✅ APPLIED | 08-09 | Hygiene | 3 (2E+1I) | Applied 2026-08-11 — state/ and wiki/HEARTBEAT.md already absent |
+| ✅ APPLIED | 08-10 | Format | 432 (2E+430W) | Applied 2026-08-11 — added Co-occurring tags to layer2.md and perpdex.md |
+| ✅ APPLIED | 08-10 | Hygiene | 5 (3E+1W+1I) | Applied 2026-08-11 — state/, wiki/HEARTBEAT.md, memory/ already absent |
 
 ---
 
-## Pending Reports
-
-### ✅ Output Validation — 2026-08-07 (23:02)
-
-- **Report:** `wiki/reviews/2026-08-07_output-report.md`
-- **Summary:** 5 new files (1 source + 4 concepts) — all passed quality checks. 0 new issues. 1 carry-over dropped-i typo in pre-existing file noted.
-- **Actions needed:** Review and approve/reject; apply carry-over dropped-i fix if desired
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-07
-
-- **Report:** `wiki/reviews/2026-08-07_format-report.md`
-- **Summary:** 891 files checked (508 concepts + 162 sources + 34 indexes + 187 topics). 430 WARNINGs (all broken wikilinks — forward-references to uncompiled concepts). 0 ERRORs — 0-ERROR streak restored. 3 ERRORs from 08-01 through 08-05 resolved by Fix Agent 08-06 batch.
-- **Delta from 2026-07-30 (approved):** +24 files (+13 concepts, +3 sources, +8 topics), +19 WARNINGs (411→430)
-- **Actions needed:** Review and approve. No structural fixes needed — all WARNINGs are forward-references.
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-08
-
-- **Report:** `wiki/reviews/2026-08-08_format-report.md`
-- **Summary:** 891 files checked. 430 WARNINGs (all broken wikilinks). 0 ERRORs — 2nd consecutive clean run. Results identical to 2026-08-07: no new files, no new issues.
-- **Delta from 2026-07-30 (approved):** +24 files, +19 WARNINGs (411→430)
-- **Delta from 2026-08-07 (previous):** 0 files, 0 ERRORs, 0 WARNINGs — identical run
-- **Actions needed:** Review and approve. No structural fixes needed.
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-09
-
-- **Report:** `wiki/reviews/2026-08-09_format-report.md`
-- **Summary:** 891 files checked (508 concepts + 162 sources + 34 indexes + 187 topics). 430 WARNINGs (all broken wikilinks — forward-references to uncompiled concepts). 0 ERRORs — 3rd consecutive clean run. Results identical to 2026-08-08 and 2026-08-07: no new files, no new issues.
-- **Delta from 2026-07-30 (approved):** +24 files (+13 concepts, +3 sources, +8 topics), +19 WARNINGs (411→430)
-- **Delta from 2026-08-08 (previous):** 0 files, 0 ERRORs, 0 WARNINGs — identical run (3rd consecutive)
-- **Actions needed:** Review and approve. No structural fixes needed. All WARNINGs are forward-references that resolve when Compile Agent creates the missing concept files.
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-10
-
-- **Report:** `wiki/reviews/2026-08-10_format-report.md`
-- **Summary:** 894 files checked (508 concepts + 162 sources + 36 indexes + 188 topics). 432 total issues: 2 ERRORs + 430 WARNINGs. ERROR streak broken after 3 clean runs — 2 new tag indexes (layer2.md, perpdex.md) missing `## Co-occurring tags` section. Same pattern as opinion.md and research.md fixed on 2026-08-06. All 430 WARNINGs are broken wikilinks (forward-references).
-- **Delta from 2026-08-09 (previous):** +3 files (+2 indexes, +1 topic), +2 ERRORs (0→2), +0 WARNINGs (430→430)
-- **Delta from 2026-07-30 (approved):** +27 files, +21 total issues (411→432)
-- **Actions needed:** Review and approve. Fix Agent should add `## Co-occurring tags` to layer2.md and perpdex.md (same as opinion.md/research.md fix on 08-06). All WARNINGs are forward-references — no action needed.
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-08 (23:30)
-
-- **Report:** `wiki/reviews/2026-08-08_hygiene-report.md`
-- **Summary:** 53,502 paths checked. 3 issues (2 ERROR + 1 INFO): state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — new leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs.
-- **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and fix the process writing it to `wiki/` root.
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-10 (23:30)
-
-- **Report:** `wiki/reviews/2026-08-10_hygiene-report.md`
-- **Summary:** 53,518 paths checked. 5 issues (3 ERROR + 1 WARNING + 1 INFO): memory/ (ERROR — recurring root folder, reappeared after 2-run absence with new session log), state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — heartbeat leak at wiki/ root level, new variant), memory/2026-08-10-1258.md (WARNING — session log inside orphaned memory/), state/ (INFO — empty directory).
-- **Delta from 2026-08-09:** +2 issues (3→5). `memory/` reappeared with fresh content written today at 19:58 ICT. `state/` and `wiki/HEARTBEAT.md` continue from previous runs.
-- **New in this run:** `memory/` root folder and its contents — a process wrote a session log to `memory/` at 19:58 ICT, recreating the folder after it was resolved on 08-06.
-- **Actions needed:** `rmdir state/`; move `memory/2026-08-10-1258.md` to `.openclaw/memory/` then `rmdir memory/`; delete `wiki/HEARTBEAT.md` and fix the process writing it to `wiki/` root.
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-09 (23:31)
-
-- **Report:** `wiki/reviews/2026-08-09_hygiene-report.md`
-- **Summary:** 53,507 paths checked. 3 issues (2 ERROR + 1 INFO): state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs. 3rd consecutive identical scan.
-- **Delta from 2026-08-08:** 0 new issues, 0 resolved issues — identical results.
-- **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and identify/fix the process writing it to `wiki/` root.
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-07 (23:31)
-
-- **Report:** `wiki/reviews/2026-08-07_hygiene-report.md`
-- **Summary:** 53,499 paths checked. 3 issues: state/ (ERROR — recurring root folder, empty), wiki/HEARTBEAT.md (ERROR — new leak at wiki/ root level), state/ (INFO — empty directory). No WARNINGs.
-- **Actions needed:** `rmdir state/`; delete `wiki/HEARTBEAT.md` and fix the process that writes it to `wiki/` root.
-- **Status:** approved
-
----
-
-## Applied — 2026-08-06 (Fix Agent Batch)
+## Applied — 2026-08-11 (Fix Agent Batch)
 
 ### Summary
-- **Format fixes:** Fixed `career`→`strategy` sub_tag in optionality-principle.md; Added `## Co-occurring tags` section to opinion.md and research.md tag indexes
-- **Output fixes:** Fixed 22 double-i typos across 5 files
-- **Hygiene fixes:** memory/ folder, state/ folder, raw/websites/tools.md — all already resolved
-
-### Files Modified (Format)
-- wiki/concepts/optionality-principle.md — sub_tags: [psychology, career] → [psychology, strategy]
-- wiki/tag/opinion.md — added `## Co-occurring tags` section header
-- wiki/tag/research.md — added `## Co-occurring tags` section header
+- **Output fixes:** Fixed 1 dropped-i typo in new-leverage-digital-assets.md ("hàng triệu ngườ" → "hàng triệu người")
+- **Format fixes:** Added `## Co-occurring tags` section to layer2.md and perpdex.md tag indexes
+- **Format 08-07/08-08/08-09:** 430 WARNINGs each — all forward-reference broken wikilinks, no structural fixes needed
+- **Hygiene fixes:** state/, wiki/HEARTBEAT.md, memory/ — all already absent at time of apply
 
 ### Files Modified (Output)
-- wiki/sources/src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md — 7 double-i instances fixed
-- wiki/concepts/cuoc-dua-khong-di-lui.md — 5 double-i instances fixed
-- wiki/concepts/moores-law-economics.md — 3 double-i instances fixed
-- wiki/concepts/semiconductor-industry-consolidation.md — 3 double-i instances fixed
-- wiki/concepts/technology-driven-dependence.md — 4 double-i instances fixed
+- wiki/concepts/new-leverage-digital-assets.md — fixed 1 dropped-i typo (line 24)
 
-### Reports Archived
-- wiki/reviews/archive/2026-08/2026-08-01_format-report.md
-- wiki/reviews/archive/2026-08/2026-08-01_output-report.md
-- wiki/reviews/archive/2026-08/2026-08-01_hygiene-report.md
-- wiki/reviews/archive/2026-08/2026-08-03_format-report.md
-- wiki/reviews/archive/2026-08/2026-08-03_hygiene-report.md
-- wiki/reviews/archive/2026-08/2026-08-04_format-report.md
-- wiki/reviews/archive/2026-08/2026-08-04_hygiene-report.md
-- wiki/reviews/archive/2026-08/2026-08-05_format-report.md
-- wiki/reviews/archive/2026-08/2026-08-05_hygiene-report.md
+### Files Modified (Format)
+- wiki/tag/layer2.md — added `## Co-occurring tags` section
+- wiki/tag/perpdex.md — added `## Co-occurring tags` section
+
+### Reports Applied
+1. 2026-08-07_output-report.md — 1 carry-over typo fixed
+2. 2026-08-07_format-report.md — 430W forward-references, no structural action
+3. 2026-08-07_hygiene-report.md — state/ + wiki/HEARTBEAT.md already absent
+4. 2026-08-08_format-report.md — 430W forward-references, no structural action
+5. 2026-08-08_hygiene-report.md — state/ + wiki/HEARTBEAT.md already absent
+6. 2026-08-09_format-report.md — 430W forward-references, no structural action
+7. 2026-08-09_hygiene-report.md — state/ + wiki/HEARTBEAT.md already absent
+8. 2026-08-10_format-report.md — 2 ERRORs fixed (Co-occurring tags)
+9. 2026-08-10_hygiene-report.md — state/ + wiki/HEARTBEAT.md + memory/ already absent
 
 ---
 
 ## Previous Applied Batches
 
+- **2026-08-06:** 9 reports (Format ×4, Output ×1, Hygiene ×4) — career→strategy, Co-occurring tags, 22 double-i typos
 - **2026-08-01:** 4 reports (Format, Output, Hygiene ×2)
 - **2026-07-30:** 2 reports (Format, Hygiene) — no fixes needed
 - **2026-07-26:** 2 reports (Format, Hygiene) — no fixes needed
@@ -154,4 +74,4 @@
 
 ---
 
-*System status: All 9 reports ✅ APPROVED by Julius 2026-08-10. Root hygiene (memory/, state/, wiki/HEARTBEAT.md) applied inline. Fix Agent can pick up Format 08-10 (2E) + Output.*
+*System status: All 9 reports ✅ APPLIED by Fix Agent 2026-08-11. state/, wiki/HEARTBEAT.md, and memory/ were already absent — root cause processes may have been fixed. KB is clean with 0 pending reports.*

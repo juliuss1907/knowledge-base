@@ -21,5 +21,9 @@ last_updated: 2026-08-10
 - Concepts: 0
 - Last updated: 2026-08-10
 
+## Co-occurring tags
+
+_No co-occurring tags yet — this tag has 0 files._
+
 ## Files with this tag
 

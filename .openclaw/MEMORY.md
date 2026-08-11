@@ -1,5 +1,31 @@
 ---
 
+---
+
+## 2026-08-11 09:18 — Fix Agent: Applied 9 approved Hermes reports (08-07 through 08-10)
+
+### Reports applied:
+1. **08-07 Output** — Fixed 1 carry-over dropped-i typo: "hàng triệu ngườ" → "hàng triệu người" in wiki/concepts/new-leverage-digital-assets.md
+2. **08-07 Format** — 430W forward-references, no structural fixes needed
+3. **08-07 Hygiene** — state/ and wiki/HEARTBEAT.md already absent
+4. **08-08 Format** — 430W forward-references, no structural fixes needed
+5. **08-08 Hygiene** — state/ and wiki/HEARTBEAT.md already absent
+6. **08-09 Format** — 430W forward-references, no structural fixes needed
+7. **08-09 Hygiene** — state/ and wiki/HEARTBEAT.md already absent
+8. **08-10 Format** — Added `## Co-occurring tags` to wiki/tag/layer2.md and wiki/tag/perpdex.md (same pattern as opinion.md/research.md fixed on 08-06)
+9. **08-10 Hygiene** — state/, wiki/HEARTBEAT.md, memory/ already absent
+
+### Files modified:
+- wiki/concepts/new-leverage-digital-assets.md — 1 typo fix
+- wiki/tag/layer2.md — added `## Co-occurring tags` section
+- wiki/tag/perpdex.md — added `## Co-occurring tags` section
+- wiki/reviews/_action-required.md — all 9 reports marked APPLIED
+
+### Notes:
+- state/, wiki/HEARTBEAT.md, and memory/ were all already absent from the filesystem at time of apply — likely cleaned by a previous process
+- 3 Format reports (08-07/08-08/08-09) had 430W each — all forward-reference broken wikilinks, expected in growing KB
+- 08-10 Format ERRORs matched the opinion.md/research.md pattern from 08-06 — Index Agent should be updated to always include `## Co-occurring tags` section
+
 ## 2026-08-11 08:40 — Compiled (daily cron)
 
 - **Batch:** 6 raw files processed (0 failed)

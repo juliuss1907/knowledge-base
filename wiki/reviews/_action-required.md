@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-11 (Fix Agent — applied all 9 approved reports)
+**Last updated:** 2026-08-11 (Output Validator — 22:00)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 9 reports (08-07 through 08-10) — **APPLIED** 2026-08-11 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -33,6 +33,17 @@
 | ✅ APPLIED | 08-09 | Hygiene | 3 (2E+1I) | Applied 2026-08-11 — state/ and wiki/HEARTBEAT.md already absent |
 | ✅ APPLIED | 08-10 | Format | 432 (2E+430W) | Applied 2026-08-11 — added Co-occurring tags to layer2.md and perpdex.md |
 | ✅ APPLIED | 08-10 | Hygiene | 5 (3E+1W+1I) | Applied 2026-08-11 — state/, wiki/HEARTBEAT.md, memory/ already absent |
+
+---
+
+## Pending Reports
+
+### 🔍 Output Validation — 2026-08-11 (22:00)
+
+- **Report:** `wiki/reviews/2026-08-11_output-report.md`
+- **Summary:** 27 files checked (6 sources + 21 concepts). 3 issues: 2 WARNING (empty Related concepts in fear-alchemy.md and product-vs-prototype.md) + 1 INFO (psychological-survival.md has only 3 key ideas). No typos, no truncated files, all Vietnamese clean.
+- **Actions needed:** Add cross-references to Related concepts in fear-alchemy.md and product-vs-prototype.md; consider expanding psychological-survival.md key ideas.
+- **Status:** pending
 
 ---
 

@@ -3,41 +3,64 @@
 ## 2026-08-11 08:40 — Compiled (daily cron)
 
 - **Batch:** 6 raw files processed (0 failed)
-- **Source notes:** 6 created
-- **Concepts:** 11 created (1 merged into existing)
+- **Source notes:** 3 created (files 4-6), 3 already existed (files 1-3)
+- **Concepts:** 7 new + 5 existing updated + 4 cross-referenced from prior partial run
 - **Raw backlog:** 0 unprocessed remaining
 
 ### Per-file details:
 
-1. **raw/articles/2026-08-09_what-is-a-product.md**
-   - Source: wiki/sources/src_what-is-a-product.md
-   - Concepts: [product-vs-prototype] (new)
+1. **raw/articles/2026-08-09_what-is-a-product.md** (pre-existing source + concept)
+   - Source: wiki/sources/src_what-is-a-product.md (đã có)
+   - Concepts: [product-vs-prototype] (đã có)
    - Tags: main=#ai, sub=[#opinion, #vibecode], topic=product-vs-prototype
+   - Action: raw file → processed (was unprocessed despite source/concept existing)
 
-2. **raw/posts/2026-08-10_faith-and-fear-are-the-exact-same-thing.md**
-   - Source: wiki/sources/src_faith-and-fear-are-the-exact-same-thing.md
-   - Concepts: [fear-alchemy] (new)
+2. **raw/posts/2026-08-10_faith-and-fear-are-the-exact-same-thing.md** (pre-existing source + concept)
+   - Source: wiki/sources/src_faith-and-fear-are-the-exact-same-thing.md (đã có)
+   - Concepts: [fear-alchemy] (đã có)
    - Tags: main=#productivity, sub=[#psychology, #opinion], topic=fear-alchemy
+   - Action: raw file → processed
 
-3. **raw/posts/2026-08-09_how-to-get-maximum-results-with-minimum-effort-game-theory.md**
-   - Source: wiki/sources/src_how-to-get-maximum-results-with-minimum-effort-game-theory.md
-   - Concepts: [asymmetric-positions, game-selection, information-asymmetry] (new)
+3. **raw/posts/2026-08-09_how-to-get-maximum-results-with-minimum-effort-game-theory.md** (pre-existing source + concept)
+   - Source: wiki/sources/src_how-to-get-maximum-results-with-minimum-effort-game-theory.md (đã có)
+   - Concepts: [asymmetric-positions, game-selection, information-asymmetry] (đã có)
    - Tags: main=#productivity, sub=[#strategy, #opinion], topic=game-theory-productivity
+   - Action: raw file → processed
 
 4. **raw/posts/2026-07-27_how-to-come-back-from-anything-game-theory.md**
    - Source: wiki/sources/src_how-to-come-back-from-anything-game-theory.md
-   - Concepts: [iterated-game-theory, costly-signaling, sunk-cost-fallacy] (new)
-   - Tags: main=#productivity, sub=[#strategy, #psychology, #opinion], topic=game-theory-comeback
+   - Concepts mới: [comeback-strategy, survival-first, variance-in-loss, sunk-cost-fallacy]
+   - Concepts cập nhật: [costly-signal, repeated-games] (thêm source + related concepts)
+   - Concepts cross-ref: [iterated-game-theory, costly-signaling] (từ prior run 08:40)
+   - Tags: main=#productivity, sub=[#strategy, #psychology, #research], topic=game-theory-comeback
 
 5. **raw/posts/2026-08-09_just-let-go-cipheron.md**
    - Source: wiki/sources/src_just-let-go-cipheron.md
-   - Concepts: [identity-detachment, role-playing-self] (new)
-   - Tags: main=#productivity, sub=[#psychology, #opinion], topic=identity-transformation
+   - Concepts mới: [identity-transformation, letting-go]
+   - Concepts cập nhật: [internal-foundation-identity, psychological-survival] (thêm source + related concepts)
+   - Concepts cross-ref: [identity-detachment, role-playing-self] (từ prior run 08:40)
+   - Tags: main=#health, sub=[#psychology, #opinion], topic=identity-transformation
 
 6. **raw/posts/2026-08-10_long-range-career-advice.md**
    - Source: wiki/sources/src_long-range-career-advice.md
-   - Concepts: [career-compounding] (new), [asymmetric-positions] (merged — added source + 2 key ideas)
-   - Tags: main=#productivity, sub=[#strategy, #opinion], topic=career-compounding
+   - Concepts mới: [career-compounding]
+   - Concepts cập nhật: [leverage] (thêm source + related concepts)
+   - Tags: main=#productivity, sub=[#strategy, #opinion], topic=career-strategy
+
+### Cross-reference cleanup
+
+Do có prior compile run lúc 08:40 tạo 4 concepts (iterated-game-theory, costly-signaling, identity-detachment, role-playing-self) mà không cập nhật raw files, lần compile này đã:
+- Tạo cross-references 2 chiều giữa concepts mới và concepts từ prior run
+- Không xóa concept files nào — giữ lại để preserve nội dung và tránh broken links
+- duplicated line cleanup: 4 raw files có duplicate compiled_at/compiled_to đã được fix
+
+### File inventory
+
+- **Source notes mới:** 3 (src_how-to-come-back, src_just-let-go, src_long-range-career)
+- **Concepts mới:** 7 (comeback-strategy, survival-first, variance-in-loss, sunk-cost-fallacy, identity-transformation, letting-go, career-compounding)
+- **Concepts updated:** 5 (costly-signal, repeated-games, internal-foundation-identity, psychological-survival, leverage)
+- **Concepts cross-ref:** 4 (iterated-game-theory, costly-signaling, identity-detachment, role-playing-self)
+- **Raw files updated:** 6/6 → status: processed
 
 ## 2026-08-10 22:45 — Indexed (incremental)
 

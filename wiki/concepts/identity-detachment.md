@@ -31,6 +31,9 @@ Identity detachment (buông bỏ bản ngã) là quá trình từ bỏ phiên b�
 
 - [[role-playing-self]]
 - [[fear-alchemy]]
+- [[identity-transformation]]
+- [[letting-go]]
+- [[internal-foundation-identity]]
 
 ## Sources
 

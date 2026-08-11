@@ -29,6 +29,8 @@ Costly signaling là cơ chế trong đó một tín hiệu (signal) chỉ đán
 
 - [[iterated-game-theory]]
 - [[sunk-cost-fallacy]]
+- [[costly-signal]]
+- [[comeback-strategy]]
 
 ## Sources
 

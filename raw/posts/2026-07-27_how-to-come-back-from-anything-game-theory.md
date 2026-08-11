@@ -5,7 +5,9 @@ url: https://x.com/incentivising/status/2081674449925931467
 author: Incentivising (@incentivising)
 date_published: 2026-07-27
 date_ingested: 2026-08-06
-status: unprocessed
+status: processed
+compiled_at: 2026-08-11
+compiled_to: "[[src_how-to-come-back-from-anything-game-theory]]"
 source: x.com/incentivising
 platform: twitter
 metrics:

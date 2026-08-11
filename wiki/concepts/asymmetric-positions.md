@@ -6,6 +6,7 @@ sub_tags: [strategy, opinion]
 topic: game-theory-productivity
 sources:
   - "[[src_how-to-get-maximum-results-with-minimum-effort-game-theory]]"
+  - "[[src_long-range-career-advice]]"
 last_updated: 2026-08-11
 ---
 
@@ -25,6 +26,8 @@ Vị trí bất đối xứng (asymmetric positions) là những vị trí làm 
 - Ví dụ: công ty trả tiền quảng cáo (trade money for positioning) thay vì chỉ dựa vào kênh tự nhiên (tốn effort)
 - Asymmetric position đòi hỏi upfront sacrifice để có easier time afterward
 - Người chơi advanced có thể "lười" vì họ đã có solid supporting structure từ asymmetric positions
+- Trong career: asymmetric opportunities là startup để join/found, project để hack, angel investment — jump khi heart sings dù sẽ fail nhiều
+- Knowledge và relationships với competent people là hai thứ tạo ra asymmetric opportunities trong sự nghiệp
 
 ## Related concepts
 
@@ -34,5 +37,6 @@ Vị trí bất đối xứng (asymmetric positions) là những vị trí làm 
 ## Sources
 
 - [[src_how-to-get-maximum-results-with-minimum-effort-game-theory]]
+- [[src_long-range-career-advice]]
 
 ## Notes

@@ -6,7 +6,8 @@ sub_tags: [psychology, research]
 topic: dan-koe-mind-game
 sources:
   - "[[src_life-is-a-mind-game-heres-how-you]]"
-last_updated: 2026-06-07
+  - "[[src_just-let-go-cipheron]]"
+last_updated: 2026-08-11
 ---
 
 # Psychological Survival
@@ -27,10 +28,13 @@ Cơ chế vận hành của tâm trí con người, trong đó mọi suy nghĩ, 
 
 - [[cultural-memetics]]
 - [[impulse-response-gap]]
+- [[identity-transformation]]
+- [[letting-go]]
 
 ## Sources
 
 - [[src_life-is-a-mind-game-heres-how-you]]
+- [[src_just-let-go-cipheron]]
 
 ## Notes
 

@@ -6,7 +6,8 @@ sub_tags: [psychology, research]
 topic: game-theory-strategic-thinking
 sources:
   - "[[src_game-theory-will-change-your-life]]"
-last_updated: 2026-06-22
+  - "[[src_how-to-come-back-from-anything-game-theory]]"
+last_updated: 2026-08-11
 ---
 
 # Repeated Games and Reputation
@@ -31,9 +32,13 @@ Repeated Games là các tình huống trong lý thuyết trò chơi nơi ngườ
 - [[game-theory]]
 - [[nash-equilibrium]]
 - [[reputation-economics]]
+- [[survival-first]]
+- [[comeback-strategy]]
+- [[iterated-game-theory]]
 
 ## Sources
 
 - [[src_game-theory-will-change-your-life]]
+- [[src_how-to-come-back-from-anything-game-theory]]
 
 ## Notes

@@ -7,7 +7,8 @@ topic: costly-signal
 sources:
   - "[[src_tao-ket-qua-dinh-luong-duoc]]"
   - "[[src_the-laws-of-this-world]]"
-last_updated: 2026-07-01
+  - "[[src_how-to-come-back-from-anything-game-theory]]"
+last_updated: 2026-08-11
 ---
 
 # Costly Signal
@@ -32,11 +33,15 @@ Lý thuyết từ Michael Spence (1973, Job Market Signaling): một hành độ
 - [[measurable-outcomes]]
 - [[laws-of-the-world]]
 - [[right-problem-framework]]
+- [[comeback-strategy]]
+- [[sunk-cost-fallacy]]
+- [[costly-signaling]]
 
 ## Sources
 
 - [[src_tao-ket-qua-dinh-luong-duoc]]
 - [[src_the-laws-of-this-world]]
+- [[src_how-to-come-back-from-anything-game-theory]]
 
 ## Notes
 

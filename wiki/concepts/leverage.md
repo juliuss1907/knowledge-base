@@ -8,7 +8,8 @@ sources:
   - "[[src_leverage]]"
   - "[[src_cach-thoat-khoi-prices-law]]"
   - "[[src_the-laws-of-this-world]]"
-last_updated: 2026-07-01
+  - "[[src_long-range-career-advice]]"
+last_updated: 2026-08-11
 ---
 
 # Leverage
@@ -34,12 +35,14 @@ Leverage (đòn bẩy) là mental model chỉ cách tạo ra kết quả không 
 - [[activation-energy]]
 - [[prices-law]]
 - [[talent-stack]]
+- [[career-compounding]]
 
 ## Sources
 
 - [[src_leverage]] — Farnam Street
 - [[src_cach-thoat-khoi-prices-law]] — Markus
 - [[src_the-laws-of-this-world]] — Incentivising
+- [[src_long-range-career-advice]] — Slava Akhmechet
 
 ## Notes
 

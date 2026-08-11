@@ -22,10 +22,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 
 ## Stats
-- Total: 134 files
-- By status: 133 processed, 1 unprocessed
-- By date: 1 this week, 134 this month
-- Last updated: 2026-08-09
+
+- Total: 135 files
+- By status: 135 processed, 0 unprocessed
+- By date: 2 this week, 21 this month
+- Last updated: 2026-08-11
+
 ## Items
 - [[2026-08-09_what-is-a-product]] — What is a product? by roge (unprocessed)
 - [[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuộc đua xem ai không đi lùi by curiositypocket (processed)

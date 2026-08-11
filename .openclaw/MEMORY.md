@@ -1,5 +1,44 @@
 ---
 
+## 2026-08-11 08:40 — Compiled (daily cron)
+
+- **Batch:** 6 raw files processed (0 failed)
+- **Source notes:** 6 created
+- **Concepts:** 11 created (1 merged into existing)
+- **Raw backlog:** 0 unprocessed remaining
+
+### Per-file details:
+
+1. **raw/articles/2026-08-09_what-is-a-product.md**
+   - Source: wiki/sources/src_what-is-a-product.md
+   - Concepts: [product-vs-prototype] (new)
+   - Tags: main=#ai, sub=[#opinion, #vibecode], topic=product-vs-prototype
+
+2. **raw/posts/2026-08-10_faith-and-fear-are-the-exact-same-thing.md**
+   - Source: wiki/sources/src_faith-and-fear-are-the-exact-same-thing.md
+   - Concepts: [fear-alchemy] (new)
+   - Tags: main=#productivity, sub=[#psychology, #opinion], topic=fear-alchemy
+
+3. **raw/posts/2026-08-09_how-to-get-maximum-results-with-minimum-effort-game-theory.md**
+   - Source: wiki/sources/src_how-to-get-maximum-results-with-minimum-effort-game-theory.md
+   - Concepts: [asymmetric-positions, game-selection, information-asymmetry] (new)
+   - Tags: main=#productivity, sub=[#strategy, #opinion], topic=game-theory-productivity
+
+4. **raw/posts/2026-07-27_how-to-come-back-from-anything-game-theory.md**
+   - Source: wiki/sources/src_how-to-come-back-from-anything-game-theory.md
+   - Concepts: [iterated-game-theory, costly-signaling, sunk-cost-fallacy] (new)
+   - Tags: main=#productivity, sub=[#strategy, #psychology, #opinion], topic=game-theory-comeback
+
+5. **raw/posts/2026-08-09_just-let-go-cipheron.md**
+   - Source: wiki/sources/src_just-let-go-cipheron.md
+   - Concepts: [identity-detachment, role-playing-self] (new)
+   - Tags: main=#productivity, sub=[#psychology, #opinion], topic=identity-transformation
+
+6. **raw/posts/2026-08-10_long-range-career-advice.md**
+   - Source: wiki/sources/src_long-range-career-advice.md
+   - Concepts: [career-compounding] (new), [asymmetric-positions] (merged — added source + 2 key ideas)
+   - Tags: main=#productivity, sub=[#strategy, #opinion], topic=career-compounding
+
 ## 2026-08-10 22:45 — Indexed (incremental)
 
 - **Scanned:** 11 files changed (2 sources + 9 concepts)

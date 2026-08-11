@@ -6,7 +6,8 @@ sub_tags: [psychology, opinion]
 topic: labels-identity-perception
 sources:
   - "[[src_living-beyond-the-labels]]"
-last_updated: 2026-07-10
+  - "[[src_just-let-go-cipheron]]"
+last_updated: 2026-08-11
 ---
 
 # Internal Foundation (Identity)
@@ -31,9 +32,12 @@ Internal foundation là nền tảng nội tại được xây dựng từ nhữ
 - [[discipline-as-freedom]]
 - [[intrinsic-motivation]]
 - [[logotherapy-frankl]]
+- [[identity-transformation]]
+- [[letting-go]]
 
 ## Sources
 
 - [[src_living-beyond-the-labels]]
+- [[src_just-let-go-cipheron]]
 
 ## Notes

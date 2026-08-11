@@ -5,7 +5,9 @@ url: https://x.com/spakhm/status/2085049411332087891
 author: Slava Akhmechet (@spakhm)
 date_published: 2026-08-10
 date_ingested: 2026-08-10
-status: unprocessed
+status: processed
+compiled_at: 2026-08-11
+compiled_to: "[[src_long-range-career-advice]]"
 source: x.com
 ---
 

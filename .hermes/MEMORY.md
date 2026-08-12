@@ -1084,3 +1084,11 @@ Files checked: 815
 - **Report:** wiki/reviews/2026-08-11_output-report.md
 - **Details:** 2 WARNING — empty Related concepts in fear-alchemy.md and product-vs-prototype.md; 1 INFO — psychological-survival.md has only 3 top-level key ideas. No typos, no truncated files, all Vietnamese clean.
 
+## 2026-08-12 23:00:28 — Output validation
+
+- **Files checked:** 692 (168 sources + 524 concepts)
+- **New files:** 0 — no files compiled today
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — nothing new to validate
+- **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances) — all in pre-existing files, zero new instances
+

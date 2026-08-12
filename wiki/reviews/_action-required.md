@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-11 (Hygiene Inspector — 23:35)
+**Last updated:** 2026-08-12 (Format Validator — 23:15)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 9 reports (08-07 through 08-10) — **APPLIED** 2026-08-11 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -36,6 +36,7 @@
 | 🔍 PENDING | 08-11 | Output | 3 (0E+2W+1I) | Review [wiki/reviews/2026-08-11_output-report.md](2026-08-11_output-report.md) |
 | 🔍 PENDING | 08-11 | Format | 477 (50E+427W) | Review [wiki/reviews/2026-08-11_format-report.md](2026-08-11_format-report.md)
 | 🔍 PENDING | 08-11 | Hygiene | 0 | Review [wiki/reviews/2026-08-11_hygiene-report.md](2026-08-11_hygiene-report.md) |
+| 🔍 PENDING | 08-12 | Format | 477 (50E+427W) | Review [wiki/reviews/2026-08-12_format-report.md](2026-08-12_format-report.md) |
 
 ---
 
@@ -60,6 +61,13 @@
 - **Report:** `wiki/reviews/2026-08-11_hygiene-report.md`
 - **Summary:** 53,547 paths checked. 0 issues. Clean run — all previously recurring violations (state/, memory/, wiki/HEARTBEAT.md, wiki/reviews/HEARTBEAT.md, raw/.last_heartbeat) remain absent. No structural violations, no naming violations, no orphans.
 - **Actions needed:** None.
+- **Status:** pending
+
+### 🔍 Format Validation — 2026-08-12 (23:15)
+
+- **Report:** `wiki/reviews/2026-08-12_format-report.md`
+- **Summary:** 921 files checked (524 concepts + 168 sources + 34 indexes + 195 topics). 477 issues: 50 ERROR + 427 WARNING — identical counts to 08-11. **50 ERRORs:** same 49 tag file section omissions + 1 slug-too-long — unchanged from 08-11 (Fix Agent not yet applied). **427 WARNINGs:** 407 individual broken wikilinks + 20 forward-reference summary groups (276 unique targets). Δ from 08-10 (approved): +27 files, +45 total issues, +48 ERRORs, −3 WARNINGs. Δ from 08-11 (previous): 0 change.
+- **Actions needed:** Same as 08-11 — Fix Agent to add `## Parent` and `## Files with this tag` to 24 tag index files + `## Notes` to tag.md. Update Index Agent SKILL.md. Rename long slug. No new issues since 08-11.
 - **Status:** pending
 
 ---
@@ -102,4 +110,4 @@
 
 ---
 
-*System status: Previous reports (08-07 through 08-10) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent. 2 pending reports (Output + Format) for 08-11.*
+*System status: Previous reports (08-07 through 08-10) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent. 4 pending reports (08-11 Output + Format + Hygiene, 08-12 Format). 08-12 Format report is identical to 08-11 — Fix Agent has not yet applied the 08-11 fixes.*

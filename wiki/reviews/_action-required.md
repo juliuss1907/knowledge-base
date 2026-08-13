@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-13 (Fix Agent — applied all 5 pending reports)
+**Last updated:** 2026-08-13 22:00 — Output Validator
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -38,6 +38,17 @@
 | ✅ APPLIED | 08-11 | Hygiene | 0 | Applied 2026-08-13 — no issues, clean run |
 | ✅ APPLIED | 08-12 | Format | 477 (50E+427W) | Applied 2026-08-13 — same fixes as 08-11 (identical errors) |
 | ✅ APPLIED | 08-12 | Hygiene | 0 | Applied 2026-08-13 — no issues, clean run |
+
+---
+
+## Pending Reports
+
+### 🔍 Output Validation — 2026-08-13 (22:00)
+
+- **Report:** `wiki/reviews/2026-08-13_output-report.md`
+- **Summary:** 3 issues (0E+1W+2I) in 32 new files — 1 missing backlink, 2 near-duplicate concept pairs
+- **Actions needed:** Review `costly-signaling` vs `costly-signal` overlap, and `identity-detachment` vs `identity-transformation` overlap
+- **Status:** pending
 
 ---
 

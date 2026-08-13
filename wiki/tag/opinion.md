@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-08-11
+last_updated: 2026-08-13
 ---
 
 # Tag: #opinion
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-08-11 14:01:27
+Last updated: 2026-08-13 21:00:00
 
 ---
 

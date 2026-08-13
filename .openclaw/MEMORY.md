@@ -1,5 +1,16 @@
 ---
 
+## 2026-08-13 21:00:00 — Indexed (Incremental)
+
+- **Mode:** Incremental
+- **Scanned:** 6 changed files (all in wiki/concepts/)
+- **Tags indexed:** 7 affected (productivity, ai, strategy, opinion, psychology, vibecode, research)
+- **Topics indexed:** 4 affected (game-theory-productivity, fear-alchemy, product-vs-prototype, dan-koe-mind-game)
+- **Orphans deleted:** 0
+- **Invalid tags found:** 0
+- **Errors:** 0
+- **Summary:** All 6 files already in indexes. Tags unchanged. Updated timestamps only.
+
 ## 2026-08-13 08:49 — Fix Agent Batch Apply
 
 - **Batch:** 5 reports (08-11 through 08-12)

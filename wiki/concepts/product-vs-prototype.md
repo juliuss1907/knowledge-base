@@ -26,6 +26,10 @@ Phân biệt giữa prototype (bản demo, bản nháp) và product (sản phẩ
 
 ## Related concepts
 
+- [[ai-first-business-model]]
+- [[digital-product-flywheel]]
+- [[vibe-coding]]
+
 ## Sources
 
 - [[src_what-is-a-product]]

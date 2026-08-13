@@ -18,11 +18,11 @@ Cơ chế vận hành của tâm trí con người, trong đó mọi suy nghĩ, 
 
 ## Key ideas
 
-- **Hai loại sinh tồn:**
-  - **Sinh tồn vật lý:** Bảo tồn gene và cơ thể.
-  - **Sinh tồn tâm lý:** Bảo tồn ý thức, niềm tin và cách nhìn thế giới.
+- **Sinh tồn vật lý:** Bảo tồn gene và cơ thể — đây là bản năng nguyên thủy nhất, kích hoạt phản ứng fight-or-flight khi đối mặt với nguy hiểm thực tế.
+- **Sinh tồn tâm lý:** Bảo tồn ý thức, niềm tin và cách nhìn thế giới (worldview). Mọi suy nghĩ, cảm xúc và hành động đều hướng tới bảo tồn danh tính tâm lý (psychological identity).
 - **Phản ứng của Bản ngã (Ego):** Khi ta cố gắng theo đuổi một mục tiêu làm thay đổi căn bản con người mình, tâm trí coi đó là một "cuộc tấn công". Kết quả là sự xuất hiện của lo âu, sợ hãi và các hình thức phân tâm để kéo ta về trạng thái cũ.
 - **Vũ khí hóa sinh tồn:** Thay đổi điểm định danh sao cho việc "không đạt được mục tiêu" trở thành mối đe dọa sinh tồn, khiến hành động hướng tới thành công trở thành một nhu cầu tự nhiên thay vì cần kỷ luật thép.
+- **Cơ chế kháng cự thay đổi:** Tâm trí tự động kích hoạt các cơ chế phòng vệ (distraction, procrastination, self-sabotage) khi danh tính tâm lý bị đe dọa. Những cơ chế này không phải là dấu hiệu của sự yếu đuối mà là phản ứng sinh tồn tự nhiên.
 
 ## Related concepts
 

@@ -27,6 +27,11 @@ Fear alchemy (chuyển hóa nỗi sợ) là quá trình biến đổi năng lư�
 
 ## Related concepts
 
+- [[identity-detachment]]
+- [[identity-transformation]]
+- [[letting-go]]
+- [[role-playing-self]]
+
 ## Sources
 
 - [[src_faith-and-fear-are-the-exact-same-thing]]

@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 7
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 6
 - Last updated: 2026-08-11
 
-## Concepts (6)
+## Files with this tag
 
 - [[arcade-tokens]] — Arcade Tokens (concept, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
 - [[cookie-fun-mcp]] — Cookie Fun Mcp (concept, main: #crypto, sub: [#tools, #defi], topic: hermes-xai-grok-integration)
@@ -32,7 +36,7 @@ Last updated: 2026-08-11 14:01:27
 - [[softbank-carry-trade]] — Softbank Carry Trade (concept, main: #economic, sub: [#news, #defi], topic: ai-funding-dynamics)
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
 
-## Sources (1)
+### Sources
 
 - [[src_the-most-underrated-token-type]] — The Most Underrated Token Type (source, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
 

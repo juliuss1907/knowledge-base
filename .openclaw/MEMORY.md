@@ -1,5 +1,34 @@
 ---
 
+## 2026-08-13 08:49 — Fix Agent Batch Apply
+
+- **Batch:** 5 reports (08-11 through 08-12)
+- **Approved by:** Julius (2026-08-12)
+
+### Output fixes (08-11)
+- wiki/concepts/fear-alchemy.md — added 4 Related concepts: [[identity-detachment]], [[identity-transformation]], [[letting-go]], [[role-playing-self]]
+- wiki/concepts/product-vs-prototype.md — added 3 Related concepts: [[ai-first-business-model]], [[digital-product-flywheel]], [[vibe-coding]]
+- wiki/concepts/psychological-survival.md — expanded key ideas from 3→5 (split "Hai loại sinh tồn" into two, added "Cơ chế kháng cự thay đổi")
+
+### Format fixes (08-11 + 08-12)
+- 24 tag files: added `## Parent` and `## Files with this tag` sections (replaced `## Concepts` header)
+- wiki/tag/tag.md: added `## Notes` section
+- Renamed: src_how-to-get-maximum-results-with-minimum-effort-game-theory.md → src_max-results-minimum-effort-game-theory.md (58→41 chars)
+- Updated 7 references to new slug across wiki/
+- 427 WARNINGs (broken wikilinks): skipped per instructions (forward-references)
+
+### Hygiene (08-11 + 08-12)
+- 0 issues both days — clean runs, no action needed
+
+### Reports applied
+1. 2026-08-11_output-report.md
+2. 2026-08-11_format-report.md
+3. 2026-08-11_hygiene-report.md
+4. 2026-08-12_format-report.md
+5. 2026-08-12_hygiene-report.md
+
+---
+
 ## 2026-08-12 08:41 — Compile Agent Daily Run
 
 - **Result:** No unprocessed files found. All 169 raw files are `status: processed`.

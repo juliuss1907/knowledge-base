@@ -4,14 +4,14 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-12 (Julius — approved all 5 pending reports)
+**Last updated:** 2026-08-13 (Fix Agent — applied all 5 pending reports)
 
 ---
 
 ## Summary
 
 **Pending reports awaiting review:** 0
-**Last batch applied:** 9 reports (08-07 through 08-10) — **APPLIED** 2026-08-11 by Fix Agent
+**Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
@@ -33,50 +33,41 @@
 | ✅ APPLIED | 08-09 | Hygiene | 3 (2E+1I) | Applied 2026-08-11 — state/ and wiki/HEARTBEAT.md already absent |
 | ✅ APPLIED | 08-10 | Format | 432 (2E+430W) | Applied 2026-08-11 — added Co-occurring tags to layer2.md and perpdex.md |
 | ✅ APPLIED | 08-10 | Hygiene | 5 (3E+1W+1I) | Applied 2026-08-11 — state/, wiki/HEARTBEAT.md, memory/ already absent |
-| ✅ APPROVED | 08-11 | Output | 3 (0E+2W+1I) | Review [wiki/reviews/2026-08-11_output-report.md](2026-08-11_output-report.md) |
-| ✅ APPROVED | 08-11 | Format | 477 (50E+427W) | Review [wiki/reviews/2026-08-11_format-report.md](2026-08-11_format-report.md)
-| ✅ APPROVED | 08-11 | Hygiene | 0 | Review [wiki/reviews/2026-08-11_hygiene-report.md](2026-08-11_hygiene-report.md) |
-| ✅ APPROVED | 08-12 | Format | 477 (50E+427W) | Review [wiki/reviews/2026-08-12_format-report.md](2026-08-12_format-report.md) |
-| ✅ APPROVED | 08-12 | Hygiene | 0 | Review [wiki/reviews/2026-08-12_hygiene-report.md](2026-08-12_hygiene-report.md) |
+| ✅ APPLIED | 08-11 | Output | 3 (0E+2W+1I) | Applied 2026-08-13 — added Related concepts to fear-alchemy.md and product-vs-prototype.md, expanded psychological-survival.md key ideas from 3→5 |
+| ✅ APPLIED | 08-11 | Format | 477 (50E+427W) | Applied 2026-08-13 — added ## Parent and ## Files with this tag to 24 tag files, ## Notes to tag.md, renamed long slug |
+| ✅ APPLIED | 08-11 | Hygiene | 0 | Applied 2026-08-13 — no issues, clean run |
+| ✅ APPLIED | 08-12 | Format | 477 (50E+427W) | Applied 2026-08-13 — same fixes as 08-11 (identical errors) |
+| ✅ APPLIED | 08-12 | Hygiene | 0 | Applied 2026-08-13 — no issues, clean run |
 
 ---
 
-## Pending Reports
+## Applied — 2026-08-13 (Fix Agent Batch)
 
-### ✅ Output Validation — 2026-08-11 (22:00)
+### Summary
+- **Output fixes:** Added Related concepts to fear-alchemy.md (4 links) and product-vs-prototype.md (3 links), expanded psychological-survival.md key ideas from 3→5
+- **Format fixes:** Added `## Parent` and `## Files with this tag` to 24 tag index files, `## Notes` to tag.md, renamed long slug `src_how-to-get-maximum-results-with-minimum-effort-game-theory.md` → `src_max-results-minimum-effort-game-theory.md` (58→41 chars)
+- **Format 08-12:** Identical errors to 08-11 — resolved by same fixes
+- **Hygiene 08-11 & 08-12:** 0 issues — clean runs, no action needed
 
-- **Report:** `wiki/reviews/2026-08-11_output-report.md`
-- **Summary:** 27 files checked (6 sources + 21 concepts). 3 issues: 2 WARNING (empty Related concepts in fear-alchemy.md and product-vs-prototype.md) + 1 INFO (psychological-survival.md has only 3 key ideas). No typos, no truncated files, all Vietnamese clean.
-- **Actions needed:** Add cross-references to Related concepts in fear-alchemy.md and product-vs-prototype.md; consider expanding psychological-survival.md key ideas.
-- **Status:** approved
+### Files Modified (Output)
+- wiki/concepts/fear-alchemy.md — added 4 Related concepts
+- wiki/concepts/product-vs-prototype.md — added 3 Related concepts
+- wiki/concepts/psychological-survival.md — expanded key ideas from 3→5
 
-### ✅ Format Validation — 2026-08-11 (23:15)
+### Files Modified (Format)
+- wiki/tag/ai.md, wiki/tag/automation.md, wiki/tag/coding.md, wiki/tag/crypto.md, wiki/tag/defi.md, wiki/tag/economic.md, wiki/tag/geopolitics.md, wiki/tag/hack.md, wiki/tag/health.md, wiki/tag/investment.md, wiki/tag/law.md, wiki/tag/layer1.md, wiki/tag/news.md, wiki/tag/opinion.md, wiki/tag/politic.md, wiki/tag/productivity.md, wiki/tag/psychology.md, wiki/tag/research.md, wiki/tag/strategy.md, wiki/tag/system.md, wiki/tag/tech.md, wiki/tag/tools.md, wiki/tag/tutorial.md, wiki/tag/vibecode.md — added `## Parent` and `## Files with this tag` sections
+- wiki/tag/tag.md — added `## Notes` section
+- wiki/sources/src_max-results-minimum-effort-game-theory.md — renamed from long slug (58 chars)
+- wiki/concepts/asymmetric-positions.md, wiki/concepts/game-selection.md, wiki/concepts/information-asymmetry.md — updated wikilinks to new slug
+- wiki/tag/opinion.md, wiki/tag/productivity.md, wiki/tag/strategy.md — updated wikilinks to new slug
+- wiki/topic/game-theory-productivity.md — updated wikilinks to new slug
 
-- **Report:** `wiki/reviews/2026-08-11_format-report.md`
-- **Summary:** 921 files checked (524 concepts + 168 sources + 34 indexes + 195 topics). 477 issues: 50 ERROR + 427 WARNING. **50 ERRORs:** 49 from 24 tag files missing `## Parent` and `## Files with this tag` sections (Index Agent regenerated without these), plus 1 source slug exceeding 50 chars. **427 WARNINGs:** all broken wikilinks — 407 individual + 20 forward-reference summary groups (276 unique targets). Δ from 08-10: +27 files, +45 total issues, +48 ERRORs (clean streak broken), −3 WARNINGs.
-- **Actions needed:** Fix Agent to add `## Parent` and `## Files with this tag` to 24 tag index files + `## Notes` to tag.md. Update Index Agent SKILL.md to include these sections in regeneration template. Fix Agent to rename `src_how-to-get-maximum-results-with-minimum-effort-game-theory.md` (58 chars → ≤ 50).
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-11 (23:35)
-
-- **Report:** `wiki/reviews/2026-08-11_hygiene-report.md`
-- **Summary:** 53,547 paths checked. 0 issues. Clean run — all previously recurring violations (state/, memory/, wiki/HEARTBEAT.md, wiki/reviews/HEARTBEAT.md, raw/.last_heartbeat) remain absent. No structural violations, no naming violations, no orphans.
-- **Actions needed:** None.
-- **Status:** approved
-
-### ✅ Format Validation — 2026-08-12 (23:15)
-
-- **Report:** `wiki/reviews/2026-08-12_format-report.md`
-- **Summary:** 921 files checked (524 concepts + 168 sources + 34 indexes + 195 topics). 477 issues: 50 ERROR + 427 WARNING — identical counts to 08-11. **50 ERRORs:** same 49 tag file section omissions + 1 slug-too-long — unchanged from 08-11 (Fix Agent not yet applied). **427 WARNINGs:** 407 individual broken wikilinks + 20 forward-reference summary groups (276 unique targets). Δ from 08-10 (approved): +27 files, +45 total issues, +48 ERRORs, −3 WARNINGs. Δ from 08-11 (previous): 0 change.
-- **Actions needed:** Same as 08-11 — Fix Agent to add `## Parent` and `## Files with this tag` to 24 tag index files + `## Notes` to tag.md. Update Index Agent SKILL.md. Rename long slug. No new issues since 08-11.
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-12 (23:35)
-
-- **Report:** `wiki/reviews/2026-08-12_hygiene-report.md`
-- **Summary:** 53,549 paths checked. 0 issues. Clean run — all previously recurring violations (state/, memory/, wiki/HEARTBEAT.md, wiki/reviews/HEARTBEAT.md, raw/.last_heartbeat) remain absent. Second consecutive clean run after 08-11.
-- **Actions needed:** None.
-- **Status:** approved
+### Reports Applied
+1. 2026-08-11_output-report.md — 3 issues fixed (2W + 1I)
+2. 2026-08-11_format-report.md — 50 ERRORs fixed (49 tag sections + 1 slug)
+3. 2026-08-11_hygiene-report.md — 0 issues, clean run
+4. 2026-08-12_format-report.md — 50 ERRORs fixed (identical to 08-11)
+5. 2026-08-12_hygiene-report.md — 0 issues, clean run
 
 ---
 
@@ -118,4 +109,4 @@
 
 ---
 
-*System status: All 5 reports ✅ APPROVED by Julius 2026-08-12. Fix Agent cần sửa 48 tag files (thiếu sections) + 1 slug dài.*
+*System status: All 5 pending reports applied 2026-08-13. No pending reports remain.*

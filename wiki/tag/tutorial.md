@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 85
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 52
 - Last updated: 2026-08-11
 
-## Concepts (52)
+## Files with this tag
 
 - [[agent-skill-management]] — Agent Skill Management (concept, main: #ai, sub: [#automation, #tools, #tutorial], topic: hermes-workflow-optimization)
 - [[ai-agent-setup-mistakes]] — Ai Agent Setup Mistakes (concept, main: #ai, sub: [#tools, #tutorial, #opinion], topic: hermes-personal-analyst-setup)
@@ -78,7 +82,7 @@ Last updated: 2026-08-11 14:01:27
 - [[vectors]] — Vectors (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 - [[x-api-oauth2]] — X Api Oauth2 (concept, main: #tech, sub: [#tools, #tutorial], topic: hermes-xurl-x-api-integration)
 
-## Sources (33)
+### Sources
 
 - [[src_after-the-heater-rule-keeps-you-alive]] — After The Heater Rule Keeps You Alive (source, main: #economic, sub: [#opinion, #tutorial], topic: trading-heater-rule)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source, main: #tech, sub: [#tutorial, #automation, #tools], topic: ai-trading-agent-claude-code)

@@ -23,4 +23,4 @@ Last updated: 2026-08-11 14:01:27
 
 ## Sources (1)
 
-- [[src_how-to-get-maximum-results-with-minimum-effort-game-theory]] — main: #productivity, sub: [#strategy, #opinion]
+- [[src_max-results-minimum-effort-game-theory]] — main: #productivity, sub: [#strategy, #opinion]

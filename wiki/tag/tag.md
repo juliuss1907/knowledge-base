@@ -64,3 +64,7 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - [[system]]
 - [[geopolitics]]
 - [[strategy]]
+
+## Notes
+
+

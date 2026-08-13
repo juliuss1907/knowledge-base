@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 12
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 8
 - Last updated: 2026-08-11
 
-## Concepts (8)
+## Files with this tag
 
 - [[diversification-strategy]] — Diversification Strategy (concept, main: #investment, sub: [#research], topic: investment-principles)
 - [[erg-theory]] — Erg Theory (concept, main: #investment, sub: [#psychology, #opinion], topic: five-types-of-wealth)
@@ -34,7 +38,7 @@ Last updated: 2026-08-11 14:01:27
 - [[investment-conviction]] — Investment Conviction (concept, main: #investment, sub: [#psychology, #opinion], topic: independent-investment-research)
 - [[outsourced-thinking]] — Outsourced Thinking (concept, main: #investment, sub: [#psychology, #opinion], topic: independent-investment-research)
 
-## Sources (4)
+### Sources
 
 - [[src_an-all-too-common-investment-story]] — An All Too Common Investment Story (source, main: #investment, sub: [#opinion, #psychology], topic: independent-investment-research)
 - [[src_global-macro-investing]] — Global Macro Investing (source, main: #investment, sub: [#opinion, #tutorial], topic: global-macro-investing)

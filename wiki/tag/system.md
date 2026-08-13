@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 48
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 39
 - Last updated: 2026-08-11
 
-## Concepts (39)
+## Files with this tag
 
 - [[100x-token]] — 100x Token (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
 - [[ai-evals]] — Ai Evals (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
@@ -65,7 +69,7 @@ Last updated: 2026-08-11 14:01:27
 - [[unified-api-gateway]] — Unified Api Gateway (concept, main: #system, sub: [#tools, #automation], topic: ai-agent-tool-platform)
 - [[zero-sum-game]] — Zero Sum Game (concept, main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking)
 
-## Sources (9)
+### Sources
 
 - [[src_bai-toan-dung-la-gi-va-cach-giai]] — Bai Toan Dung La Gi Va Cach Giai (source, main: #productivity, sub: [#psychology, #system], topic: right-problem-framework)
 - [[src_game-theory-will-change-your-life]] — Game Theory Will Change Your Life (source, main: #system, sub: [#psychology, #research, #tutorial], topic: game-theory-strategic-thinking)

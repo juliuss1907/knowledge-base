@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [strategy, opinion]
 topic: game-theory-productivity
 sources:
-  - "[[src_how-to-get-maximum-results-with-minimum-effort-game-theory]]"
+  - "[[src_max-results-minimum-effort-game-theory]]"
   - "[[src_long-range-career-advice]]"
 last_updated: 2026-08-11
 ---
@@ -36,7 +36,7 @@ Vị trí bất đối xứng (asymmetric positions) là những vị trí làm 
 
 ## Sources
 
-- [[src_how-to-get-maximum-results-with-minimum-effort-game-theory]]
+- [[src_max-results-minimum-effort-game-theory]]
 - [[src_long-range-career-advice]]
 
 ## Notes

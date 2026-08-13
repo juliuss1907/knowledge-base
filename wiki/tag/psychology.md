@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 291
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 215
 - Last updated: 2026-08-11
 
-## Concepts (215)
+## Files with this tag
 
 - [[activation-energy]] — Activation Energy (concept, main: #productivity, sub: [#psychology, #automation], topic: activation-energy-mental-model)
 - [[ai-dependency]] — Ai Dependency (concept, main: #health, sub: [#psychology, #ai], topic: never-enough-culture)
@@ -241,7 +245,7 @@ Last updated: 2026-08-11 14:01:27
 - [[work-life-balance]] — Work Life Balance (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
 - [[zero-sum-game]] — Zero Sum Game (concept, main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking)
 
-## Sources (76)
+### Sources
 
 - [[src_2026-advice]] — 2026 Advice (source, main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age)
 - [[src_3-indicators-your-building-the-right-future]] — 3 Indicators Your Building The Right Future (source, main: #productivity, sub: [#psychology, #opinion], topic: right-path-indicators)

@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 28
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 20
 - Last updated: 2026-08-11
 
-## Concepts (20)
+## Files with this tag
 
 - [[agent-harness]] — Agent Harness (concept, main: #ai, sub: [#automation, #tools, #coding], topic: code-as-agent-harness)
 - [[agentic-coding]] — Agentic Coding (concept, main: #ai, sub: [#coding, #tools], topic: fable-finding-unknowns)
@@ -46,7 +50,7 @@ Last updated: 2026-08-11 14:01:27
 - [[vector-addition]] — Vector Addition (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 - [[vectors]] — Vectors (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 
-## Sources (8)
+### Sources
 
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source, main: #ai, sub: [#research, #coding], topic: code-as-agent-harness)
 - [[src_field-guide-to-fable-finding-unknowns]] — Field Guide To Fable Finding Unknowns (source, main: #ai, sub: [#coding, #tools], topic: fable-finding-unknowns)

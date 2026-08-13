@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 51
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 40
 - Last updated: 2026-08-11
 
-## Concepts (40)
+## Files with this tag
 
 - [[ai-dependency]] — Ai Dependency (concept, main: #health, sub: [#psychology, #ai], topic: never-enough-culture)
 - [[anterior-cingulate-cortex]] — Anterior Cingulate Cortex (concept, main: #health, sub: [#psychology], topic: let-them-theory-relationships)
@@ -66,7 +70,7 @@ Last updated: 2026-08-11 14:01:27
 - [[stoic-dichotomy-of-control]] — Stoic Dichotomy Of Control (concept, main: #health, sub: [#psychology], topic: let-them-theory-relationships)
 - [[work-life-balance]] — Work Life Balance (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
 
-## Sources (11)
+### Sources
 
 - [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source, main: #health, sub: [#psychology, #research], topic: brain-health-habits)
 - [[src_compound-exercises-pareto-workouts]] — Compound Exercises Pareto Workouts (source, main: #health, sub: [#tutorial], topic: compound-exercises)

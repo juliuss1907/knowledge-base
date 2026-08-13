@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 20
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 14
 - Last updated: 2026-08-11
 
-## Concepts (14)
+## Files with this tag
 
 - [[ai-vulnerability-discovery]] — Ai Vulnerability Discovery (concept, main: #ai, sub: [#hack, #research], topic: ai-vulnerability-discovery)
 - [[consent-phishing]] — Consent Phishing (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
@@ -40,7 +44,7 @@ Last updated: 2026-08-11 14:01:27
 - [[token-theft-attack]] — Token Theft Attack (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
 - [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept, main: #tech, sub: [#hack, #tools], topic: github-supply-chain-attack-vs-code)
 
-## Sources (6)
+### Sources
 
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source, main: #tech, sub: [#hack, #tools, #news], topic: github-supply-chain-attack-vs-code)
 - [[src_counterinsurgency-fighting-back]] — Counterinsurgency Fighting Back (source, main: #politic, sub: [#research, #hack], topic: counterinsurgency-warfare)

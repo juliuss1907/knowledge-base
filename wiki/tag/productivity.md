@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 292
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 211
 - Last updated: 2026-08-11
 
-## Concepts (211)
+## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept, main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology)
 - [[activation-energy]] — Activation Energy (concept, main: #productivity, sub: [#psychology, #automation], topic: activation-energy-mental-model)
@@ -237,7 +241,7 @@ Last updated: 2026-08-11 14:01:27
 - [[type-1-vs-type-2-decisions]] — Type 1 Vs Type 2 Decisions (concept, main: #productivity, sub: [#psychology], topic: decision-making-frameworks)
 - [[variance-in-loss]] — Variance In Loss (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
 
-## Sources (81)
+### Sources
 
 - [[src_2026-advice]] — 2026 Advice (source, main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age)
 - [[src_3-indicators-your-building-the-right-future]] — 3 Indicators Your Building The Right Future (source, main: #productivity, sub: [#psychology, #opinion], topic: right-path-indicators)
@@ -264,7 +268,7 @@ Last updated: 2026-08-11 14:01:27
 - [[src_hanlons-razor]] — Hanlons Razor (source, main: #productivity, sub: [#psychology, #research], topic: mental-models)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source, main: #productivity, sub: [#opinion, #tools], topic: compounding-growth)
 - [[src_how-to-come-back-from-anything-game-theory]] — How To Come Back From Anything Game Theory (source, main: #productivity, sub: [#strategy, #psychology, #research], topic: game-theory-comeback)
-- [[src_how-to-get-maximum-results-with-minimum-effort-game-theory]] — How To Get Maximum Results With Minimum Effort Game Theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
+- [[src_max-results-minimum-effort-game-theory]] — How To Get Maximum Results With Minimum Effort Game Theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
 - [[src_how-to-live-without-options]] — How To Live Without Options (source, main: #productivity, sub: [#psychology, #opinion, #research], topic: optionality-paradox)
 - [[src_how-to-remember-everything-you-read-dan-koe]] — How To Remember Everything You Read Dan Koe (source, main: #productivity, sub: [#tutorial, #psychology], topic: effective-learning-methods)
 - [[src_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone At Any Time (source, main: #productivity, sub: [#psychology, #tutorial], topic: art-of-extroversion)

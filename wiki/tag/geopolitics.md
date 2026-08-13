@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 8
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 6
 - Last updated: 2026-08-11
 
-## Concepts (6)
+## Files with this tag
 
 - [[chinese-culture-confucianism]] — Chinese Culture Confucianism (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
 - [[enablement-vs-control]] — Enablement Vs Control (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
@@ -32,7 +36,7 @@ Last updated: 2026-08-11 14:01:27
 - [[state-capacity-theory]] — State Capacity Theory (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
 - [[tribute-system]] — Tribute System (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
 
-## Sources (2)
+### Sources
 
 - [[src_tribute-system-new-world-order]] — Tribute System New World Order (source, main: #politic, sub: [#geopolitics, #opinion], topic: tribute-system-world-order)
 - [[src_why-china-got-rich-and-india-didnt]] — Why China Got Rich And India Didnt (source, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)

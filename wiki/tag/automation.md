@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 89
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 70
 - Last updated: 2026-08-11
 
-## Concepts (70)
+## Files with this tag
 
 - [[activation-energy]] — Activation Energy (concept, main: #productivity, sub: [#psychology, #automation], topic: activation-energy-mental-model)
 - [[agent-handoff]] — Agent Handoff (concept, main: #ai, sub: [#automation, #tools], topic: multi-agent-architecture)
@@ -96,7 +100,7 @@ Last updated: 2026-08-11 14:01:27
 - [[x-search-tool]] — X Search Tool (concept, main: #ai, sub: [#tools, #automation], topic: hermes-xai-grok-integration)
 - [[xurl-cli]] — Xurl Cli (concept, main: #tech, sub: [#tools, #automation], topic: hermes-xurl-x-api-integration)
 
-## Sources (19)
+### Sources
 
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source, main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-operator-builder-pattern)
 - [[src_2026-advice]] — 2026 Advice (source, main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age)

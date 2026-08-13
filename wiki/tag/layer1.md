@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 4
@@ -23,13 +27,13 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 3
 - Last updated: 2026-08-11
 
-## Concepts (3)
+## Files with this tag
 
 - [[ai-lab-crypto-analogy]] — Ai Lab Crypto Analogy (concept, main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics)
 - [[altcoin-frenzy-pattern]] — Altcoin Frenzy Pattern (concept, main: #economic, sub: [#layer1, #opinion], topic: market-cycles)
 - [[infrastructure-capex-cycle]] — Infrastructure Capex Cycle (concept, main: #economic, sub: [#layer1, #ai], topic: market-cycles)
 
-## Sources (1)
+### Sources
 
 - [[src_l1-blockchain-ai-lab-comparison]] — L1 Blockchain Ai Lab Comparison (source, main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics)
 

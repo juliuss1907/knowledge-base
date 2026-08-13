@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 15
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 11
 - Last updated: 2026-08-11
 
-## Concepts (11)
+## Files with this tag
 
 - [[agentic-commerce]] — Agentic Commerce (concept, main: #crypto, sub: [#ai, #tools], topic: machine-economy-crypto)
 - [[arcade-tokens]] — Arcade Tokens (concept, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
@@ -37,7 +41,7 @@ Last updated: 2026-08-11 14:01:27
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
 - [[two-track-communications]] — Two Track Communications (concept, main: #crypto, sub: [#opinion], topic: crypto-communications)
 
-## Sources (4)
+### Sources
 
 - [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source, main: #crypto, sub: [#automation, #tools, #tutorial], topic: hermes-polymarket-trading-agent)
 - [[src_is-there-anything-left-build-crypto-wintermute]] — Is There Anything Left Build Crypto Wintermute (source, main: #crypto, sub: [#ai, #opinion, #tools], topic: machine-economy-crypto)

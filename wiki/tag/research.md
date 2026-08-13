@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 259
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 202
 - Last updated: 2026-08-11
 
-## Concepts (202)
+## Files with this tag
 
 - [[200-day-sma-risk-line]] — 200 Day Sma Risk Line (concept, main: #economic, sub: [#tools, #research], topic: market-structure-analysis)
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept, main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology)
@@ -228,7 +232,7 @@ Last updated: 2026-08-11 14:01:27
 - [[volume-confirmation]] — Volume Confirmation (concept, main: #economic, sub: [#tools, #research], topic: market-structure-analysis)
 - [[zero-sum-game]] — Zero Sum Game (concept, main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking)
 
-## Sources (57)
+### Sources
 
 - [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source, main: #health, sub: [#psychology, #research], topic: brain-health-habits)
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source, main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology)

@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 5
@@ -23,13 +27,13 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 3
 - Last updated: 2026-08-11
 
-## Concepts (3)
+## Files with this tag
 
 - [[agency-law]] — Agency Law (concept, main: #ai, sub: [#law, #research], topic: ai-legal-personhood)
 - [[ai-legal-personhood]] — Ai Legal Personhood (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 - [[zero-member-llc]] — Zero Member Llc (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 
-## Sources (2)
+### Sources
 
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 - [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cach Nhanh Nhat Nop Ho So Bao Hiem That Nghiep (source, main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance)

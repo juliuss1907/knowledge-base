@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 14
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 11
 - Last updated: 2026-08-11
 
-## Concepts (11)
+## Files with this tag
 
 - [[asymmetric-positions]] — Asymmetric Positions (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
 - [[career-compounding]] — Career Compounding (concept, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
@@ -37,10 +41,10 @@ Last updated: 2026-08-11 14:01:27
 - [[survival-first]] — Survival First (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
 - [[variance-in-loss]] — Variance In Loss (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
 
-## Sources (3)
+### Sources
 
 - [[src_how-to-come-back-from-anything-game-theory]] — How To Come Back From Anything Game Theory (source, main: #productivity, sub: [#strategy, #psychology, #research], topic: game-theory-comeback)
-- [[src_how-to-get-maximum-results-with-minimum-effort-game-theory]] — How To Get Maximum Results With Minimum Effort Game Theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
+- [[src_max-results-minimum-effort-game-theory]] — How To Get Maximum Results With Minimum Effort Game Theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
 - [[src_long-range-career-advice]] — Long Range Career Advice (source, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
 
 ## Co-occurring tags

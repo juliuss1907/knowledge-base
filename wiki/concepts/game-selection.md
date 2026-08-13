@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [strategy, opinion]
 topic: game-theory-productivity
 sources:
-  - "[[src_how-to-get-maximum-results-with-minimum-effort-game-theory]]"
+  - "[[src_max-results-minimum-effort-game-theory]]"
 last_updated: 2026-08-11
 ---
 
@@ -33,6 +33,6 @@ Game selection là chiến lược chọn môi trường (game) trước khi đ�
 
 ## Sources
 
-- [[src_how-to-get-maximum-results-with-minimum-effort-game-theory]]
+- [[src_max-results-minimum-effort-game-theory]]
 
 ## Notes

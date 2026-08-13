@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 21
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 17
 - Last updated: 2026-08-11
 
-## Concepts (17)
+## Files with this tag
 
 - [[american-security-guarantee]] — American Security Guarantee (concept, main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
 - [[chinese-culture-confucianism]] — Chinese Culture Confucianism (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
@@ -43,7 +47,7 @@ Last updated: 2026-08-11 14:01:27
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept, main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
 - [[us-security-umbrella]] — Us Security Umbrella (concept, main: #politic, sub: [#research, #opinion], topic: us-saudi-relations)
 
-## Sources (4)
+### Sources
 
 - [[src_counterinsurgency-fighting-back]] — Counterinsurgency Fighting Back (source, main: #politic, sub: [#research, #hack], topic: counterinsurgency-warfare)
 - [[src_mutually-assured-destruction]] — Mutually Assured Destruction (source, main: #politic, sub: [#research, #hack], topic: nuclear-deterrence)

@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 253
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 170
 - Last updated: 2026-08-11
 
-## Concepts (170)
+## Files with this tag
 
 - [[abstraction-layer-fallacy]] — Abstraction Layer Fallacy (concept, main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology)
 - [[active-thinking]] — Active Thinking (concept, main: #productivity, sub: [#opinion, #research], topic: active-thinking)
@@ -196,7 +200,7 @@ Last updated: 2026-08-11 14:01:27
 - [[us-security-umbrella]] — Us Security Umbrella (concept, main: #politic, sub: [#research, #opinion], topic: us-saudi-relations)
 - [[work-life-balance]] — Work Life Balance (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
 
-## Sources (83)
+### Sources
 
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source, main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-operator-builder-pattern)
 - [[src_2026-advice]] — 2026 Advice (source, main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age)
@@ -222,7 +226,7 @@ Last updated: 2026-08-11 14:01:27
 - [[src_how-ai-productivity-fails]] — How Ai Productivity Fails (source, main: #ai, sub: [#tools, #automation, #opinion], topic: ai-productivity)
 - [[src_how-some-people-become-unrecognizable]] — How Some People Become Unrecognizable (source, main: #productivity, sub: [#opinion, #tools], topic: compounding-growth)
 - [[src_how-the-market-warns-you-before-the-crash]] — How The Market Warns You Before The Crash (source, main: #economic, sub: [#research, #tools, #opinion], topic: market-structure-analysis)
-- [[src_how-to-get-maximum-results-with-minimum-effort-game-theory]] — How To Get Maximum Results With Minimum Effort Game Theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
+- [[src_max-results-minimum-effort-game-theory]] — How To Get Maximum Results With Minimum Effort Game Theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
 - [[src_how-to-live-without-options]] — How To Live Without Options (source, main: #productivity, sub: [#psychology, #opinion, #research], topic: optionality-paradox)
 - [[src_hypergamy]] — Hypergamy (source, main: #productivity, sub: [#psychology, #opinion], topic: hypergamy-relationships)
 - [[src_iatrogenics-farnam-street]] — Iatrogenics Farnam Street (source, main: #system, sub: [#psychology, #opinion], topic: iatrogenics-naive-interventionism)

@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 27
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 21
 - Last updated: 2026-08-11
 
-## Concepts (21)
+## Files with this tag
 
 - [[atomic-mac-agent]] — Atomic Mac Agent (concept, main: #tech, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent)
 - [[claude-code-routines]] — Claude Code Routines (concept, main: #tech, sub: [#automation, #tools], topic: ai-trading-agent-claude-code)
@@ -47,7 +51,7 @@ Last updated: 2026-08-11 14:01:27
 - [[x-api-oauth2]] — X Api Oauth2 (concept, main: #tech, sub: [#tools, #tutorial], topic: hermes-xurl-x-api-integration)
 - [[xurl-cli]] — Xurl Cli (concept, main: #tech, sub: [#tools, #automation], topic: hermes-xurl-x-api-integration)
 
-## Sources (6)
+### Sources
 
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source, main: #tech, sub: [#hack, #tools, #news], topic: github-supply-chain-attack-vs-code)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source, main: #tech, sub: [#tutorial, #automation, #tools], topic: ai-trading-agent-claude-code)

@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 12
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 8
 - Last updated: 2026-08-11
 
-## Concepts (8)
+## Files with this tag
 
 - [[attention-economy-vs-knowledge-economy]] — Attention Economy Vs Knowledge Economy (concept, main: #ai, sub: [#opinion, #news], topic: journalism-ai-era)
 - [[google-ai-overviews]] — Google Ai Overviews (concept, main: #tech, sub: [#tools, #news], topic: generative-ai-seo)
@@ -34,7 +38,7 @@ Last updated: 2026-08-11 14:01:27
 - [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept, main: #tech, sub: [#hack, #news], topic: github-supply-chain-attack-vs-code)
 - [[tokenmaxxing]] — Tokenmaxxing (concept, main: #ai, sub: [#opinion, #news], topic: ai-token-workforce)
 
-## Sources (4)
+### Sources
 
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source, main: #tech, sub: [#hack, #tools, #news], topic: github-supply-chain-attack-vs-code)
 - [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source, main: #ai, sub: [#news, #opinion], topic: ai-economic-disruption-white-collar)

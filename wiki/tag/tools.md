@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 191
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 149
 - Last updated: 2026-08-11
 
-## Concepts (149)
+## Files with this tag
 
 - [[100x-token]] — 100x Token (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
 - [[200-day-sma-risk-line]] — 200 Day Sma Risk Line (concept, main: #economic, sub: [#tools, #research], topic: market-structure-analysis)
@@ -175,7 +179,7 @@ Last updated: 2026-08-11 14:01:27
 - [[xurl-cli]] — Xurl Cli (concept, main: #tech, sub: [#tools, #automation], topic: hermes-xurl-x-api-integration)
 - [[zero-member-llc]] — Zero Member Llc (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 
-## Sources (42)
+### Sources
 
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source, main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-operator-builder-pattern)
 - [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source, main: #tech, sub: [#hack, #tools, #news], topic: github-supply-chain-attack-vs-code)

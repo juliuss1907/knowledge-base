@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 9
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 6
 - Last updated: 2026-08-11
 
-## Concepts (6)
+## Files with this tag
 
 - [[code-as-substrate]] — Code As Substrate (concept, main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness)
 - [[hermes-agent]] — Hermes Agent (concept, main: #ai, sub: [#tools, #automation, #vibecode], topic: hermes-polymarket-trading-agent)
@@ -32,7 +36,7 @@ Last updated: 2026-08-11 14:01:27
 - [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept, main: #ai, sub: [#system, #vibecode], topic: ai-architecture)
 - [[vibe-coding]] — Vibe Coding (concept, main: #ai, sub: [#tools, #vibecode], topic: ai-future-skills)
 
-## Sources (3)
+### Sources
 
 - [[src_loop-native-factory]] — Loop Native Factory (source, main: #ai, sub: [#tools, #vibecode, #research], topic: loop-native-factory)
 - [[src_the-seed-and-the-machine]] — The Seed And The Machine (source, main: #ai, sub: [#vibecode, #system, #research], topic: seed-vs-machine-architecture)

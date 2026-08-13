@@ -16,6 +16,10 @@ Last updated: 2026-08-11 14:01:27
 
 ---
 
+## Parent
+
+- [[tag]]
+
 ## Stats
 
 - Total files: 185
@@ -23,7 +27,7 @@ Last updated: 2026-08-11 14:01:27
 - Concepts: 143
 - Last updated: 2026-08-11
 
-## Concepts (143)
+## Files with this tag
 
 - [[100x-token]] — 100x Token (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
 - [[agency-law]] — Agency Law (concept, main: #ai, sub: [#law, #research], topic: ai-legal-personhood)
@@ -169,7 +173,7 @@ Last updated: 2026-08-11 14:01:27
 - [[x-search-tool]] — X Search Tool (concept, main: #ai, sub: [#tools, #automation], topic: hermes-xai-grok-integration)
 - [[zero-member-llc]] — Zero Member Llc (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 
-## Sources (42)
+### Sources
 
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source, main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-operator-builder-pattern)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source, main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-personal-analyst-setup)

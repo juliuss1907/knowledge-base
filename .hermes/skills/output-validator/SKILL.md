@@ -301,6 +301,20 @@ The `patch` tool uses fuzzy matching. `_action-required.md` has repeated structu
 
 **Symptom to watch for**: The patch diff shows insertions in unexpected sections (e.g., new entries appearing in "Approved Reports" instead of "Pending Reports"). Immediately read back the file to verify correctness.
 
+**Pitfall — `||` table prefix causes extra pipe on patch (2026-08-13):** The `_action-required.md` summary table uses `||` (double pipe) as the markdown table prefix for every row. When patching between the last table row and the next section header, the `old_string` must use the `||` prefix to match the file's actual formatting. Using `|` (single pipe) will cause the fuzzy matcher to produce a partial match and insert an extra pipe (`|||`).
+
+```bash
+# BROKEN — single pipe prefix doesn't match the file's || format:
+old_string="| ✅ APPLIED | 08-12 | Hygiene | 0 | ..."
+# The patch tool fuzzy-matches but the replacement introduces ||| (3 pipes)
+
+# CORRECT — use the double-pipe prefix that matches the file:
+old_string="|| ✅ APPLIED | 08-12 | Hygiene | 0 | ..."
+new_string="|| ✅ APPLIED | 08-12 | Hygiene | 0 | ..."
+```
+
+**Symptom:** After patching, the table rows have `|||` (3 pipes) instead of `||` (2 pipes). The table renders incorrectly in markdown. Fix by re-patching the affected rows with the correct `||` prefix.
+
 ### Sibling validator race on _action-required.md (2026-07-13)
 
 When multiple Hermes validators (output, format, hygiene) run as sequential cron jobs around the same time, they share `_action-required.md`. A sibling validator can add its own pending entry between when you read the file and when you write it. If your patch hardcodes a specific pending count, it will be stale and undercount.

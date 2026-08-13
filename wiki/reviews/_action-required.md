@@ -120,4 +120,4 @@
 
 ---
 
-*System status: All 5 pending reports applied 2026-08-13. No pending reports remain.*
+*System status: 1 pending report (Output Validation 2026-08-13).*

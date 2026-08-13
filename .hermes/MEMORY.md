@@ -1103,3 +1103,12 @@ Files checked: 815
 - **Result:** [SILENT] — nothing new to validate
 - **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances) — all in pre-existing files, zero new instances
 
+## 2026-08-13 22:00:00 — Output validation
+
+- **Files checked:** 665 (168 sources + 524 concepts)
+- **New files:** 32 (7 sources + 25 concepts) — compiled 2026-08-06 to 2026-08-11, first validation since 08-01
+- **Issues found:** 3 (0 ERROR, 1 WARNING, 2 INFO)
+- **Report:** wiki/reviews/2026-08-13_output-report.md
+- **Details:** 1 WARNING — missing concept backlinks (game-theory, reputation-economics) in repeated-games.md; 2 INFO — near-duplicate concepts costly-signaling/costly-signal and identity-detachment/identity-transformation. No typos, no truncated files, Vietnamese quality clean. No dropped-i variant 5 detected.
+- **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances) — all in pre-existing files, zero new instances
+

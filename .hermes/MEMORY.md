@@ -1122,3 +1122,11 @@ Files checked: 815
 - **Details:** 1 WARNING — missing concept backlinks (game-theory, reputation-economics) in repeated-games.md; 2 INFO — near-duplicate concepts costly-signaling/costly-signal and identity-detachment/identity-transformation. No typos, no truncated files, Vietnamese quality clean. No dropped-i variant 5 detected.
 - **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances) — all in pre-existing files, zero new instances
 
+## 2026-08-14 23:00:50 — Output validation
+
+- **Files checked:** 692 (168 sources + 524 concepts)
+- **New files:** 0 — no files compiled today
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — nothing new to validate
+- **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances) — all in pre-existing files, zero new instances
+

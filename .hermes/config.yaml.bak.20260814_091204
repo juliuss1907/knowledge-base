@@ -1,5 +1,5 @@
 model:
-  default: deepseek-v4-flash[1m]
+  default: deepseek-v4-pro[1m]
   provider: custom
   base_url: https://api.ai-box.vn/v1
   api_key: sk-aU9FLWGafr7njN3UzOiXonV2i1ANJ2GjpdT2oH4hbnPiqYJi
@@ -754,7 +754,7 @@ custom_providers:
   - name: Api.ai-box.vn
     base_url: https://api.ai-box.vn/v1
     api_key: sk-aU9FLWGafr7njN3UzOiXonV2i1ANJ2GjpdT2oH4hbnPiqYJi
-    model: deepseek-v4-flash[1m]
+    model: deepseek-v4-pro[1m]
 plugins:
   enabled: []
 known_plugin_toolsets:

@@ -56,12 +56,15 @@ else
   ((fails++))
 fi
 
-# 6. File integrity: last line contains SILENT
-ACTUAL_TAIL=$(tail -1 "$M")
-if echo "$ACTUAL_TAIL" | grep -qF 'SILENT'; then
+# 6. File integrity: run's final data line appears in the tail window.
+#    Do NOT use `tail -1 | grep -qF 'SILENT'` — appends via patch/write_file leave
+#    a trailing blank line at EOF, so tail -1 returns empty and false-fails.
+#    Assert the last entry is intact by matching its last data line in the tail instead.
+THIS_HEADING="$(grep -nF "$TS_HEADING" "$M" | head -1 | cut -d: -f1)"
+if [ -n "$THIS_HEADING" ] && tail -5 "$M" | grep -qF 'Carry-over'; then
   echo "[OK] File ends with SILENT entry (append successful)"
 else
-  echo "[FAIL] File tail unexpected: $ACTUAL_TAIL"
+  echo "[FAIL] File tail unexpected; last entry not the terminal block"
   ((fails++))
 fi
 

@@ -843,7 +843,17 @@ To reach the `[SILENT]` marker or `Issues found` line, use `grep -F -A 5` (not `
 
 **Pattern (2026-07-11):** Quick-scan confirmed 0 new files. No report generated. Ad-hoc verification script initially failed because `grep -A 3` missed the SILENT marker on line 5 — fixed by using `-A 5`. All 6 checks passed after correction.
 
-**Reusable template:** `templates/verify-silent-memory.sh` — copy, replace the two timestamps, and run. Covers all 6 silent-run checks above.
+**Pitfall — check #6 (`tail -1` on MEMORY.md) false-fails on trailing blank line (2026-08-14):** Appending an entry via `patch`/`write_file` leaves a trailing newline at EOF, so `tail -1 "$M"` returns an EMPTY line. The strict `tail -1 | grep -qF 'SILENT'` check then reports `[FAIL] File ends with SILENT entry` even though the entry was appended correctly. **Fix:** don't assert on the literal very-last line. Verify the run's entry is the last substantive block by grepping the last few lines for the entry's final data line instead (e.g. `tail -5 "$M" | grep -q 'Carry-over'`), or grep that today's heading precedes EOF without another `## ` heading after it:
+
+```bash
+# BROKEN — false-fails when MEMORY.md ends with a trailing blank line:
+check "File ends with SILENT entry" bash -c "tail -1 \"\$1\" | grep -qF 'SILENT'" _ "$M"
+
+# CORRECT — assert the entry's last data line appears within the tail window:
+check "File ends with SILENT entry" bash -c "grep -F 'YYYY-MM-DD HH:MM:SS' \"\$1\" >/dev/null && tail -5 \"\$1\" | grep -q 'Carry-over'" _ "$M"
+```
+
+**Reusable template:** `templates/verify-silent-memory.sh` — copy, replace the two timestamps, and run. Covers all 6 silent-run checks above. (Check #6 in the template was patched 2026-08-14 to use the tail-window approach for the same reason.)
 
 ### quick-scan.sh: bash integer comparison with grep -c in $()
 

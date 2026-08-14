@@ -46,6 +46,8 @@ Files and folders that frequently appear at root but are not in the whitelist:
 
 **Update 2026-07-22 — `memory/` and `state/` resolution confirmed:** Second consecutive clean run (51,944 paths) with zero root orphans. Both folders absent from 07-21 and 07-22 hygiene runs. Resolution appears permanent after Fix Agent bulk apply (07-20). If either reappears, escalate to process-level fix — do not treat as another file deletion.
 
+**Update 2026-08-14 — `memory/` and `state/` RESURFACED after 4 clean runs (08-11 -> 08-13).** Hygiene 08-14 run (53,559 paths) found `memory/` (containing `memory/2026-08-14-0153.md`, an OpenClaw session log created 08:54) and an empty `state/`. The session-log file confirms the memory-log writer is emitting to KB root `memory/` instead of `.openclaw/memory/`. This is a process-level leak — file deletion is a stopgap; the writing process output path must be corrected. Escalated as [SYSTEMATIC VIOLATION] in the 08-14 report. 3-consecutive-clean streak broken.
+
 ---
 
 ## Heartbeat artifacts

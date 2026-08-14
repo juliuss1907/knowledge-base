@@ -527,6 +527,20 @@ When a file's `level` field doesn't match its position in the index hierarchy (e
 
 If `get_path_level()` returns `None` (file not in a path that implies a specific tier), the declared `level` field is used as-is.
 
+### Ad-hoc verification regexes must tolerate bold-wrapped labels
+
+When writing a throwaway verification script (or re-checking a report after edits), labels in `_action-required.md` and reports are frequently wrapped in `**` markers, e.g. `**Pending reports awaiting review:** 4`. A naive regex like `re.search(r"awaiting review:\s*(\d+)", content)` will hit the `**` that sits between the colon and the digit, fail to capture, and produce a **false FAIL** (or `None`).
+
+**Correct handling:** match a tolerant pattern that skips asterisks/whitespace between the label and the value:
+```python
+m = re.search(r"awaiting review:[/*\s]*(\d+)", ar)   # tolerates ** right after colon
+```
+The label itself may also be non-unique (e.g. "Files checked" appears in both bold and plain form on separate lines), so anchor on the most specific substring and strip `**` explicitly if needed.
+
+**Observed case (2026-08-14):** the ad-hoc verification script flagged `AR pending count = 4` as FAIL while the canonical `verify_integrity.py` passed 5/5 — the script's regex didn't account for the bold wrapper. The data was correct; the test was wrong. Verify script regexes against the actual file bytes, not the intended markdown rendering.
+
+---
+
 ## Failure modes
 
 | Issue | Action |

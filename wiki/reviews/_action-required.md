@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-13 23:30 — Hygiene Inspector
+**Last updated:** 2026-08-14 23:15 — Format Validator
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -40,6 +40,7 @@
 | ✅ APPLIED | 08-12 | Hygiene | 0 | Applied 2026-08-13 — no issues, clean run |
 | 🔍 PENDING | 08-13 | Format | 427W | Review [wiki/reviews/2026-08-13_format-report.md](2026-08-13_format-report.md) |
 | 🔍 PENDING | 08-13 | Hygiene | 0 | Review [wiki/reviews/2026-08-13_hygiene-report.md](2026-08-13_hygiene-report.md) |
+| 🔍 PENDING | 08-14 | Format | 427W | Review [wiki/reviews/2026-08-14_format-report.md](2026-08-14_format-report.md) |
 
 ---
 
@@ -65,6 +66,14 @@
 - **Report:** `wiki/reviews/2026-08-13_hygiene-report.md`
 - **Summary:** 0 issues — clean run. 53,552 paths checked. Third consecutive clean run. All previously recurring issues (state/, memory/, wiki/HEARTBEAT.md, wiki/reviews/HEARTBEAT.md) resolved for 4+ days.
 - **Actions needed:** None
+- **Status:** pending
+
+### 🔍 Format Validation — 2026-08-14 (23:15)
+
+- **Report:** `wiki/reviews/2026-08-14_format-report.md`
+- **Summary:** 427 WARNINGs (0E+427W+0I) — all broken wikilinks (forward-references to uncompiled concepts). 407 individual + 20 forward-reference groups. 276 unique broken targets. 0 ERRORs — third consecutive clean ERROR run.
+- **Delta from 08-12 (applied):** −50 → 50 ERRORs cleared (tag file sections fixed by Fix Agent 08-13). 427 WARNINGs unchanged (same broken wikilink pool). Identical to 08-13 (pending) — 0 net change.
+- **Actions needed:** None — all WARNINGs are forward-references that resolve naturally as Compile Agent processes more raw files. No structural or format violations.
 - **Status:** pending
 
 ---
@@ -137,4 +146,4 @@
 
 ---
 
-*System status: 3 pending reports (Output Validation 2026-08-13, Format Validation 2026-08-13, Hygiene Inspection 2026-08-13). Previous reports (08-01 through 08-12) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*
+*System status: 4 pending reports (Output Validation 2026-08-13, Format Validation 2026-08-13, Hygiene Inspection 2026-08-13, Format Validation 2026-08-14). Previous reports (08-01 through 08-12) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*

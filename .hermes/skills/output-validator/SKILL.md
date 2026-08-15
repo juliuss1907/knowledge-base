@@ -337,6 +337,11 @@ When multiple Hermes validators (output, format, hygiene) run as sequential cron
 
 **Symptom:** verify-output.sh reports `❌ Pending count = N` where N is 1 less than expected. grep shows the correct count in the file. This means the count was written correctly by a subsequent process, but the verification script was checking against your original expectation.
 
+**Pitfall — the sibling race also surfaces on `.hermes/MEMORY.md` appends (2026-08-15):** The same race applies when appending the Output validation entry to MEMORY.md. The `patch` tool may return a `_warning: "... was modified by sibling subagent ..."` banner even when your patch applies cleanly. Do NOT treat this as corruption or re-read-and-rewrite the whole file. Verify instead:
+1. Your entry appears exactly once (`grep -c '<timestamp> — Output validation' "$M"` must be 1 — sibling append is a separate entry).
+2. Append order is intact (your entry's line number > the previous run's line number).
+3. If both hold, the warning is benign — a sibling validator (format/hygiene) simply appended its own entry around the same time. Your patch landed in its own location and the verify script will confirm.
+
 ### Truncated file detection
 
 When a concept file is incomplete (truncated mid-generation by Compile Agent), two signals:

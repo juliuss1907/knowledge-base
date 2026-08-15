@@ -390,6 +390,8 @@ Source files often mention the raw file again inside `## Metadata` or body conte
 
 **Fix applied 2026-07-26:** `scripts/validate.py` now strips `.md` from wikilink targets before globbing, and separates direct-match (`{target}.md`) from date-prefix match (`*_{target}.md`) for clarity. The root cause was that Compile Agent writes wikilinks with `.md` extension (e.g., `[[2026-07-14_file.md]]`) but the validator appended another `.md`, searching for `file.md.md`.
 
+**Fix extended 2026-08-15:** The `.md`-strip was originally applied **only** to the `original` frontmatter field check (line ~276) and the source-body wikilink raw-resolve helpers — **not** to the concept-body (line ~207) or source-body (line ~347) broken-wikilink existence checks. Those two blocks still probed `[[src_foo.md]]` as `src_foo.md.md`, producing 36 false-positive "Broken wikilink: target not found" WARNINGs (8 unique `src_*.md` targets) on 2026-08-15. **All three broken-wikilink/`.md` sites now strip a trailing `.md` before probing** (`probe = target[:-3] if target.endswith('.md') else target`). If a report's WARNING count drops by a suspiciously round figure vs the previous day with zero Fix Agent action, suspect this bug in any field/body check that still does `f'{target}.md'.exists()` without stripping first.
+
 **Observed case:** `src_dan-koe-workflow-analysis-markus.md` was incorrectly flagged until raw-subdir lookup was added to source-body wikilink validation. Same false-positive pattern observed 2026-07-20 for `src_you-just-hired-a-million-bad-employees-a16z.md` and `src_why-the-math-mafia-is-doing-well-jesse-zhang.md` — both `original` fields point to raw files that exist under `raw/articles/`.
 
 

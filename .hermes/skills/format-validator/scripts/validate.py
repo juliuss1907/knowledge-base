@@ -207,14 +207,17 @@ def validate_concept(filepath, fm, raw_fm, content):
         target = target.strip()
         if '/' in target or target.startswith('..'):
             continue
+        # Normalize: strip .md extension — Compile Agent often writes .md inside wikilinks.
+        # Without this, '[[src_foo.md]]' is probed as 'src_foo.md.md' and falsely flagged broken.
+        probe = target[:-3] if target.endswith('.md') else target
         found = False
         for d in ['wiki/concepts', 'wiki/sources', 'wiki/tag', 'wiki/topic', 'raw']:
-            if (KB / d / f'{target}.md').exists():
+            if (KB / d / f'{probe}.md').exists():
                 found = True; break
         if not found:
             for rd in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos', 'tools']:
                 rdir = KB / 'raw' / rd
-                if rdir.exists() and ((rdir / f'{target}.md').exists() or list(rdir.glob(f'*_{target}.md'))):
+                if rdir.exists() and ((rdir / f'{probe}.md').exists() or list(rdir.glob(f'*_{probe}.md'))):
                     found = True; break
         if not found:
             broken.add(target)
@@ -348,14 +351,16 @@ def validate_source(filepath, fm, raw_fm, content):
         target = target.strip()
         if '/' in target:
             continue
+        # Normalize: strip .md extension — Compile Agent often writes .md inside wikilinks.
+        probe = target[:-3] if target.endswith('.md') else target
         found = False
         for d in ['wiki/concepts', 'wiki/sources', 'wiki/tag', 'wiki/topic', 'raw']:
-            if (KB / d / f'{target}.md').exists():
+            if (KB / d / f'{probe}.md').exists():
                 found = True; break
         if not found:
             for rd in ['articles', 'posts', 'videos', 'papers', 'websites', 'repos', 'tools']:
                 rdir = KB / 'raw' / rd
-                if rdir.exists() and ((rdir / f'{target}.md').exists() or list(rdir.glob(f'*_{target}.md'))):
+                if rdir.exists() and ((rdir / f'{probe}.md').exists() or list(rdir.glob(f'*_{probe}.md'))):
                     found = True; break
         if not found:
             broken.add(target)

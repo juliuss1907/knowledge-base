@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-14 (Julius — approved all 5 pending reports)
+**Last updated:** 2026-08-15 (format-validator — 1 new pending report)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -42,10 +42,20 @@
 | ✅ APPROVED | 08-13 | Hygiene | 0 | Review [wiki/reviews/2026-08-13_hygiene-report.md](2026-08-13_hygiene-report.md) |
 | ✅ APPROVED | 08-14 | Format | 427W | Review [wiki/reviews/2026-08-14_format-report.md](2026-08-14_format-report.md) |
 | ✅ APPROVED | 08-14 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-14_hygiene-report.md](2026-08-14_hygiene-report.md) |
+| 🔍 PENDING | 08-15 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-15_format-report.md](2026-08-15_format-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-15 (23:15)
+
+- **Report:** `wiki/reviews/2026-08-15_format-report.md`
+- **Summary:** 391 WARNINGs (0E+391W+0I) — all broken wikilinks (forward-references to uncompiled concepts). 371 individual + 20 forward-reference groups. 268 unique broken targets. 0 ERRORs — third consecutive clean ERROR run.
+- **Delta from 08-14 (approved):** −36 total issues (427→391), but **all 36 removed are validator corrections, not Fix Agent fixes** — the `.md.md` double-extension false positive was removed from `scripts/validate.py` (8 unique `src_*.md` targets). Genuine broken-wikilink pool unchanged (391 WARNINGs, 268 unique targets) — 0 real net change.
+- **Validator fix:** concept-body and source-body broken-wikilink checks now strip `.md` extension before existence checks (previously only the `original` field check did). Removed 36 false positives.
+- **Actions needed:** None — all WARNINGs are forward-references that resolve naturally as Compile Agent processes more raw files. No structural or format violations.
+- **Status:** pending
 
 ### ✅ Output Validation — 2026-08-13 (22:00)
 
@@ -154,4 +164,4 @@
 
 ---
 
-*System status: All 5 reports ✅ APPROVED by Julius 2026-08-14. Fix Agent xử lý Output 08-13. memory/state/ dọn inline.*
+*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Format 08-15 (391W) 🔍 PENDING, memory/state/ dọn inline. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*

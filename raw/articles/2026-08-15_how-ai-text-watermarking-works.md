@@ -2,14 +2,14 @@
 type: article
 title: How AI text watermarking works: a visual guide
 url: https://declaude.org/watermarking/
-author: James Padolsey (NOPE)
+author: James Padolsey
 date_published: [unknown]
 date_ingested: 2026-08-15
 status: unprocessed
 source: declaude.org
 ---
 
-How AI text watermarking works: a visual guide — by James Padolsey (NOPE), accompaniment to declaude
+How AI text watermarking works: a visual guide — by James Padolsey, accompaniment to declaude
 
 A watermark in plain text sounds impossible. Text has no pixels to hide data in, and no metadata survives copy-and-paste; every character is right there in front of you. Where could a mark possibly go?
 

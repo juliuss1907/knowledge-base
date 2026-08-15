@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-07-13
+last_updated: 2026-08-15
 ---
 
 # Articles Index
@@ -23,12 +23,13 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 135 files
-- By status: 135 processed, 0 unprocessed
-- By date: 2 this week, 21 this month
-- Last updated: 2026-08-11
+- Total: 136 files
+- By status: 135 processed, 1 unprocessed
+- By date: 2 this week, 22 this month
+- Last updated: 2026-08-15
 
 ## Items
+- [[2026-08-15_how-ai-text-watermarking-works]] — How AI text watermarking works: a visual guide by James Padolsey (unprocessed)
 - [[2026-08-09_what-is-a-product]] — What is a product? by roge (unprocessed)
 - [[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuộc đua xem ai không đi lùi by curiositypocket (processed)
 - [[2026-07-30_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — Làm thế nào để ra quyết định khi còn mơ hồ by thankvn (processed)

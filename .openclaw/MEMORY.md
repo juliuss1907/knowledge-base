@@ -1015,3 +1015,11 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped due to invalid frontmatter
 - **Mode:** full (28 files changed since last run, ≥20 threshold)
+
+## 2026-08-15T19:15:00+07:00 — Ingested
+
+- **File:** raw/articles/2026-08-15_how-ai-text-watermarking-works.md
+- **Source:** https://declaude.org/watermarking/
+- **Title:** How AI text watermarking works: a visual guide
+- **Author:** James Padolsey
+- **Status:** unprocessed

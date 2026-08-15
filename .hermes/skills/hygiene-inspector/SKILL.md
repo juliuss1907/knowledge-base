@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.18
-last_updated: 2026-08-14
+version: 1.19
+last_updated: 2026-08-15
 ---
 
 # Hygiene Inspector
@@ -464,6 +464,8 @@ When invoked as a scheduled cron job, `execute_code` is blocked by `approvals.cr
 
 **⚠️ Pitfall: Do NOT `rm` the temp scripts in cron mode.** `/tmp/hygiene_scan.py` and `/tmp/hermes-verify-hygiene-<date>.py` live under `/tmp`, which the OS clears automatically. Issuing `rm -f` on them under a cron job hits the approval guard (`delete in root path` pattern) and **stalls the whole run pending approval that never comes** (no user present). Leave the temp files in place — they are harmless, and the "clean up" wording above means only that you may remove them in an interactive session if you want, not that the run is incomplete without it. Confirmed 2026-08-14: `rm` stalled the run; skipping it was correct.
 
+**⚠️ Pitfall: Severity-count comparison in verify script — `Counter` omits zero-count keys.** The scan's JSON output uses `Counter`, so keys with zero occurrences are ABSENT from the dict, not present as `0`. When the ad-hoc verify script compares counts, an expected dict like `{"ERROR": 1, "WARNING": 0, "INFO": 1}` will spuriously FAIL because `"WARNING"` is missing entirely. Compare against only the keys that appear (`{"ERROR": 1, "INFO": 1}`), or use `.get("WARNING", 0)`. Confirmed 2026-08-15.
+
 **⚠️ Pitfall: Bold markers in `_action-required.md` string matching.** The pending count line is formatted as `**Pending reports awaiting review:** N` — Markdown bold wraps the label, so `**` sits between `:` and the number. A naive `"Pending reports awaiting review: N" in content` check will fail. Use a regex with optional `*` markers:
 ```python
 import re
@@ -593,6 +595,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.19 | 2026-08-15 | Added cron verify-script pitfall: `Counter` omits zero-count keys, so comparing severity counts against an expected dict that includes `XXX: 0` spuriously FAILs. Confirmed on live run — `{"ERROR":1,"WARNING":0,"INFO":1}` vs actual `{"ERROR":1,"INFO":1}`. Compare only keys that appear or use `.get(k, 0)`. `state/` orphan resurfaced for 2nd consecutive run; `memory/` absent (single-orphan regression after 08-14 dual). Updated `references/common-patterns.md` with 08-15 recurrence record. |
 | 1.18 | 2026-08-14 | `memory/` and `state/` root orphans RESURFACED after 4 clean runs (08-11→08-13) — broke the 3-consecutive-clean streak. Evidence: `memory/2026-08-14-0153.md` (OpenClaw session log, created 08:54) proves the memory-log writer emits to KB root `memory/` instead of `.openclaw/memory/` → process-level leak, escalated as [SYSTEMATIC VIOLATION]. Added cron pitfall: do NOT `rm` temp scan/verify scripts under cron — `/tmp` is OS-cleared and `rm` stalls on the approval guard. Updated `references/common-patterns.md` with the 08-14 recurrence record. |
 | 1.17 | 2026-08-10 | Added `wiki/HEARTBEAT.md` to `HEARTBEAT_LEAK_PATHS` in scan script — new HEARTBEAT leak variant at wiki/ root level (distinct from `wiki/reviews/HEARTBEAT.md`). Added HEARTBEAT check in `classify_wiki_entry` `len(parts)==2` branch before the generic "File at wiki/ root level" error. Updated `common-patterns.md` and SKILL.md Agent home scanning rule to document the new variant. Flagged 4th consecutive run (08-07 through 08-10). |
 | 1.15 | 2026-07-22 | Added pitfall to cron verification step: `_action-required.md` uses Markdown bold markers (`**`) around the pending count label, so `**Pending reports awaiting review:** N` — a naive `in` check for `Pending reports awaiting review: N` misses the `**` between `:` and `N`. Use regex with `\*{0,2}`. Updated `references/common-patterns.md`: `memory/` and `state/` root folders confirmed resolved — absent two consecutive runs (07-21, 07-22). |

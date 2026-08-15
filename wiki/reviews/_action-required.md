@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-15 (format-validator — 1 new pending report)
+**Last updated:** 2026-08-15 (hygiene-inspector — 1 new pending report)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -43,6 +43,7 @@
 | ✅ APPROVED | 08-14 | Format | 427W | Review [wiki/reviews/2026-08-14_format-report.md](2026-08-14_format-report.md) |
 | ✅ APPROVED | 08-14 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-14_hygiene-report.md](2026-08-14_hygiene-report.md) |
 | 🔍 PENDING | 08-15 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-15_format-report.md](2026-08-15_format-report.md) |
+| 🔍 PENDING | 08-15 | Hygiene | 2 (1E+1I) | Review [wiki/reviews/2026-08-15_hygiene-report.md](2026-08-15_hygiene-report.md) |
 
 ---
 
@@ -55,6 +56,13 @@
 - **Delta from 08-14 (approved):** −36 total issues (427→391), but **all 36 removed are validator corrections, not Fix Agent fixes** — the `.md.md` double-extension false positive was removed from `scripts/validate.py` (8 unique `src_*.md` targets). Genuine broken-wikilink pool unchanged (391 WARNINGs, 268 unique targets) — 0 real net change.
 - **Validator fix:** concept-body and source-body broken-wikilink checks now strip `.md` extension before existence checks (previously only the `original` field check did). Removed 36 false positives.
 - **Actions needed:** None — all WARNINGs are forward-references that resolve naturally as Compile Agent processes more raw files. No structural or format violations.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-15 (23:45)
+
+- **Report:** `wiki/reviews/2026-08-15_hygiene-report.md`
+- **Summary:** 2 issues (1E+0W+1I). 53,562 paths checked. Recurring `state/` root orphan resurfaced for the 2nd consecutive run (recreated 08-15 19:12). `memory/` is absent this run — the 08-14 memory-log leak file was cleaned, so only the empty `state/` directory remains.
+- **Actions needed:** `rmdir state/`. Escalated as [SYSTEMATIC VIOLATION] — the empty orphan folder keeps being recreated by a process writing to KB root; deletion is a stopgap.
 - **Status:** pending
 
 ### ✅ Output Validation — 2026-08-13 (22:00)
@@ -164,4 +172,4 @@
 
 ---
 
-*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Format 08-15 (391W) 🔍 PENDING, memory/state/ dọn inline. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*
+*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Format 08-15 (391W) + Hygiene 08-15 (state/ orphan, 1E+1I) 🔍 PENDING, review together. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*

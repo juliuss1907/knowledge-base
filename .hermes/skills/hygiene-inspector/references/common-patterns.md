@@ -1,7 +1,7 @@
 # Common Non-Compliant Patterns
 
 > Recurring hygiene violations observed in practice.
-> Updated: 2026-07-22
+> Updated: 2026-08-15
 
 ---
 
@@ -47,6 +47,8 @@ Files and folders that frequently appear at root but are not in the whitelist:
 **Update 2026-07-22 — `memory/` and `state/` resolution confirmed:** Second consecutive clean run (51,944 paths) with zero root orphans. Both folders absent from 07-21 and 07-22 hygiene runs. Resolution appears permanent after Fix Agent bulk apply (07-20). If either reappears, escalate to process-level fix — do not treat as another file deletion.
 
 **Update 2026-08-14 — `memory/` and `state/` RESURFACED after 4 clean runs (08-11 -> 08-13).** Hygiene 08-14 run (53,559 paths) found `memory/` (containing `memory/2026-08-14-0153.md`, an OpenClaw session log created 08:54) and an empty `state/`. The session-log file confirms the memory-log writer is emitting to KB root `memory/` instead of `.openclaw/memory/`. This is a process-level leak — file deletion is a stopgap; the writing process output path must be corrected. Escalated as [SYSTEMATIC VIOLATION] in the 08-14 report. 3-consecutive-clean streak broken.
+
+**Update 2026-08-15 — `state/` resurfaced alone for the 2nd consecutive run.** Hygiene 08-15 run (53,562 paths) found empty `state/` (recreated 08-15 19:12) as the only violation. `memory/` was ABSENT — its 08-14 session-log leak file had been cleaned up. Net: the `memory/` leak is intermittent (present 08-14, absent 08-15), while `state/` remains the persistent empty-directory recurrence. Both remain stopgap-deletable; the process emitting either to KB root must be identified. `rmdir state/` is the immediate corrective.
 
 ---
 

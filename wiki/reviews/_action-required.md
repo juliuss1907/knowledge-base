@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-14 23:31 — Hygiene Inspector
+**Last updated:** 2026-08-14 (Julius — approved all 5 pending reports)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 5
+**Pending reports awaiting review:** 0
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -38,51 +38,51 @@
 | ✅ APPLIED | 08-11 | Hygiene | 0 | Applied 2026-08-13 — no issues, clean run |
 | ✅ APPLIED | 08-12 | Format | 477 (50E+427W) | Applied 2026-08-13 — same fixes as 08-11 (identical errors) |
 | ✅ APPLIED | 08-12 | Hygiene | 0 | Applied 2026-08-13 — no issues, clean run |
-| 🔍 PENDING | 08-13 | Format | 427W | Review [wiki/reviews/2026-08-13_format-report.md](2026-08-13_format-report.md) |
-| 🔍 PENDING | 08-13 | Hygiene | 0 | Review [wiki/reviews/2026-08-13_hygiene-report.md](2026-08-13_hygiene-report.md) |
-| 🔍 PENDING | 08-14 | Format | 427W | Review [wiki/reviews/2026-08-14_format-report.md](2026-08-14_format-report.md) |
-| 🔍 PENDING | 08-14 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-14_hygiene-report.md](2026-08-14_hygiene-report.md) |
+| ✅ APPROVED | 08-13 | Format | 427W | Review [wiki/reviews/2026-08-13_format-report.md](2026-08-13_format-report.md) |
+| ✅ APPROVED | 08-13 | Hygiene | 0 | Review [wiki/reviews/2026-08-13_hygiene-report.md](2026-08-13_hygiene-report.md) |
+| ✅ APPROVED | 08-14 | Format | 427W | Review [wiki/reviews/2026-08-14_format-report.md](2026-08-14_format-report.md) |
+| ✅ APPROVED | 08-14 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-14_hygiene-report.md](2026-08-14_hygiene-report.md) |
 
 ---
 
 ## Pending Reports
 
-### 🔍 Output Validation — 2026-08-13 (22:00)
+### ✅ Output Validation — 2026-08-13 (22:00)
 
 - **Report:** `wiki/reviews/2026-08-13_output-report.md`
 - **Summary:** 3 issues (0E+1W+2I) in 32 new files — 1 missing backlink, 2 near-duplicate concept pairs
 - **Actions needed:** Review `costly-signaling` vs `costly-signal` overlap, and `identity-detachment` vs `identity-transformation` overlap
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Format Validation — 2026-08-13 (23:15)
+### ✅ Format Validation — 2026-08-13 (23:15)
 
 - **Report:** `wiki/reviews/2026-08-13_format-report.md`
 - **Summary:** 427 WARNINGs (0E+427W+0I) — all broken wikilinks (forward-references to uncompiled concepts). 407 individual + 20 forward-reference groups. 276 unique broken targets. 0 ERRORs.
 - **Delta from 08-12:** −50 → 50 ERRORs cleared (tag file sections fixed by Fix Agent). 427 WARNINGs unchanged (same broken wikilink pool).
 - **Actions needed:** None — all WARNINGs are forward-references that resolve naturally as Compile Agent processes more raw files. No structural or format violations.
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Hygiene Inspection — 2026-08-13 (23:30)
+### ✅ Hygiene Inspection — 2026-08-13 (23:30)
 
 - **Report:** `wiki/reviews/2026-08-13_hygiene-report.md`
 - **Summary:** 0 issues — clean run. 53,552 paths checked. Third consecutive clean run. All previously recurring issues (state/, memory/, wiki/HEARTBEAT.md, wiki/reviews/HEARTBEAT.md) resolved for 4+ days.
 - **Actions needed:** None
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Format Validation — 2026-08-14 (23:15)
+### ✅ Format Validation — 2026-08-14 (23:15)
 
 - **Report:** `wiki/reviews/2026-08-14_format-report.md`
 - **Summary:** 427 WARNINGs (0E+427W+0I) — all broken wikilinks (forward-references to uncompiled concepts). 407 individual + 20 forward-reference groups. 276 unique broken targets. 0 ERRORs — third consecutive clean ERROR run.
 - **Delta from 08-12 (applied):** −50 → 50 ERRORs cleared (tag file sections fixed by Fix Agent 08-13). 427 WARNINGs unchanged (same broken wikilink pool). Identical to 08-13 (pending) — 0 net change.
 - **Actions needed:** None — all WARNINGs are forward-references that resolve naturally as Compile Agent processes more raw files. No structural or format violations.
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Hygiene Inspection — 2026-08-14 (23:30)
+### ✅ Hygiene Inspection — 2026-08-14 (23:30)
 
 - **Report:** `wiki/reviews/2026-08-14_hygiene-report.md`
 - **Summary:** 4 issues (2E+1W+1I). 53,559 paths checked. 3-consecutive-clean streak broken — recurring root orphans `memory/` and `state/` resurfaced after 4 clean runs. `memory/2026-08-14-0153.md` (OpenClaw session log, created 08-14 08:54) proves the `memory/` writing-process leak is active.
 - **Actions needed:** Process-level fix — the memory-log writer targets KB root `memory/` instead of `.openclaw/memory/`. Deletion is a stopgap. `rmdir state/`. Escalated as [SYSTEMATIC VIOLATION].
-- **Status:** pending
+- **Status:** approved
 
 ---
 
@@ -154,4 +154,4 @@
 
 ---
 
-*System status: 4 pending reports (Output Validation 2026-08-13, Format Validation 2026-08-13, Hygiene Inspection 2026-08-13, Format Validation 2026-08-14). Previous reports (08-01 through 08-12) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*
+*System status: All 5 reports ✅ APPROVED by Julius 2026-08-14. Fix Agent xử lý Output 08-13. memory/state/ dọn inline.*

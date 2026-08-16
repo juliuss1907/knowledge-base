@@ -1,7 +1,7 @@
 # Common Non-Compliant Patterns
 
 > Recurring hygiene violations observed in practice.
-> Updated: 2026-08-15
+> Updated: 2026-08-16
 
 ---
 
@@ -41,14 +41,15 @@ Files and folders that frequently appear at root but are not in the whitelist:
 - `RAW_BACKLOG.md` — leftover from manual tracking; should move to `wiki/drafts/` or `raw/articles/`
 - `MEMORY.md` — agent memory file that leaked from `.hermes/` or `.openclaw/`
 - `search/` — temporary search index; should be gitignored or removed
-- `state/` — empty directory, **resolved since 07-20** (absent 07-20 through 07-22). Was recurring since 06-25. If it reappears, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.\n- `memory/` — old folder migrated to `.openclaw/memory/` in v1.2. **Resolved since 07-21** — absent 07-21 and 07-22 after Fix Agent bulk apply removed the folder and moved contents. Previously recurred 10 times (07-03 through 07-20). If it reappears, the writing process targets `memory/` instead of `.openclaw/memory/` — fix the process output path.
+- `state/` — empty directory, **resolved since 07-20** (absent 07-20 through 07-22). Was recurring since 06-25. If it reappears, move inside `.hermes/` or `.openclaw/`; otherwise `rmdir`.
+- `memory/` — old folder migrated to `.openclaw/memory/` in v1.2. **Resolved since 07-21** — absent 07-21 and 07-22 after Fix Agent bulk apply removed the folder and moved contents. Previously recurred 10 times (07-03 through 07-20). If it reappears, the writing process targets `memory/` instead of `.openclaw/memory/` — fix the process output path.
 - `temp_content/` — scratch folder; should be removed after use
 
 **Update 2026-07-22 — `memory/` and `state/` resolution confirmed:** Second consecutive clean run (51,944 paths) with zero root orphans. Both folders absent from 07-21 and 07-22 hygiene runs. Resolution appears permanent after Fix Agent bulk apply (07-20). If either reappears, escalate to process-level fix — do not treat as another file deletion.
 
 **Update 2026-08-14 — `memory/` and `state/` RESURFACED after 4 clean runs (08-11 -> 08-13).** Hygiene 08-14 run (53,559 paths) found `memory/` (containing `memory/2026-08-14-0153.md`, an OpenClaw session log created 08:54) and an empty `state/`. The session-log file confirms the memory-log writer is emitting to KB root `memory/` instead of `.openclaw/memory/`. This is a process-level leak — file deletion is a stopgap; the writing process output path must be corrected. Escalated as [SYSTEMATIC VIOLATION] in the 08-14 report. 3-consecutive-clean streak broken.
 
-**Update 2026-08-15 — `state/` resurfaced alone for the 2nd consecutive run.** Hygiene 08-15 run (53,562 paths) found empty `state/` (recreated 08-15 19:12) as the only violation. `memory/` was ABSENT — its 08-14 session-log leak file had been cleaned up. Net: the `memory/` leak is intermittent (present 08-14, absent 08-15), while `state/` remains the persistent empty-directory recurrence. Both remain stopgap-deletable; the process emitting either to KB root must be identified. `rmdir state/` is the immediate corrective.
+**Update 2026-08-16 — `memory/` AND `state/` both resurfaced (3rd consecutive run, 08-14→08-16).** Hygiene 08-16 run (53,570 paths) found `memory/` containing the git-tracked `2026-08-16-heartbeat-status.md` (created today 21:51) plus empty `state/`. The heartbeat-status file confirms the previous 08-14 pattern was NOT a one-off: a process (heartbeat/session-status writer) emits to KB root `memory/` instead of `.openclaw/memory/`. This is the active systemic leak — file deletion is a stopgap; the writer output path must be corrected. `state/` is a secondary persistent empty-directory phantom. Escalated as [SYSTEMATIC VIOLATION] in the 08-16 report. 08-11→08-13 clean streak broken (08-14, 08-15, 08-16).
 
 ---
 

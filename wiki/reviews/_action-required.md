@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-16 (format-validator — 1 new pending report)
+**Last updated:** 2026-08-16 (hygiene-inspector — 1 new pending report)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -46,10 +46,18 @@
 | 🔍 PENDING | 08-15 | Hygiene | 2 (1E+1I) | Review [wiki/reviews/2026-08-15_hygiene-report.md](2026-08-15_hygiene-report.md) |
 | 🔍 PENDING | 08-16 | Output | 3 (0E+1W+2I) | Review [wiki/reviews/2026-08-16_output-report.md](2026-08-16_output-report.md) |
 | 🔍 PENDING | 08-16 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-16_format-report.md](2026-08-16_format-report.md) |
+| 🔍 PENDING | 08-16 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-16_hygiene-report.md](2026-08-16_hygiene-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-08-16 (23:45)
+
+- **Report:** `wiki/reviews/2026-08-16_hygiene-report.md`
+- **Summary:** 4 issues (2E+1W+1I). 53,570 paths checked. Recurring root orphans `memory/` AND `state/` resurfaced for the 3rd consecutive run (08-14→08-16), breaking the 08-11→08-13 clean streak. `memory/` contains git-tracked `2026-08-16-heartbeat-status.md` (created today 21:51) — proof the heartbeat-status writer still emits to KB root `memory/` instead of `.openclaw/memory/`.
+- **Actions needed:** Process-level fix — redirect the writing process output path from `memory/` → `.openclaw/memory/`, then `rm -rf memory/` and commit the removal. `rmdir state/`. Escalated as [SYSTEMATIC VIOLATION].
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-16 (23:15)
 
@@ -189,4 +197,4 @@
 
 ---
 
-*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Output 08-16 (3 issues) + Format 08-16 (393W) + Format 08-15 (391W) + Hygiene 08-15 (state/ orphan, 1E+1I) 🔍 PENDING, review together. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*
+*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Output 08-16 (3 issues) + Format 08-16 (393W) + Format 08-15 (391W) + Hygiene 08-15 (state/ orphan, 1E+1I) + Hygiene 08-16 (memory/ + state/ orphans, 2E+1W+1I) 🔍 PENDING, review together. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*

@@ -449,7 +449,7 @@ This prevents stale pending counts and ensures delta tracking uses the correct b
 - `Δ from` in the context block (Greek Delta symbol U+0394 followed by space and `from`)
 
 **Required tables:**
-- **`Files checked |` table** — the report must contain a markdown table with `Files checked` as a column header. The script checks for the literal substring `'Files checked |'`. The table should appear in the report body (after the frontmatter and delta block), typically showing the file breakdown by category. Example:
+- **`Files checked |` table** — the report must contain a markdown table with `Files checked` as a column header. The script checks for the literal substring `'Files checked |'`. The table should appear in the report body (after the frontmatter and delta block), typically showing the file breakdown by category. The header cell must be **plain text** — do NOT bold-wrap it. Writing `**Files checked** | **Concepts** |...` puts `**` between `checked` and `|`, so the literal substring `Files checked |` is absent and the check fails (observed 2026-08-16: first report draft failed verify_integrity.py on exactly this; dropping the bold on the header cell fixed it). Example:
   ```markdown
   | Files checked | Concepts | Sources | Indexes | Topics |
   |---|---|---|---|---|

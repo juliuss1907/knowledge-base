@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-16 (output-validator — 1 new pending report)
+**Last updated:** 2026-08-16 (format-validator — 1 new pending report)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -45,10 +45,19 @@
 | 🔍 PENDING | 08-15 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-15_format-report.md](2026-08-15_format-report.md) |
 | 🔍 PENDING | 08-15 | Hygiene | 2 (1E+1I) | Review [wiki/reviews/2026-08-15_hygiene-report.md](2026-08-15_hygiene-report.md) |
 | 🔍 PENDING | 08-16 | Output | 3 (0E+1W+2I) | Review [wiki/reviews/2026-08-16_output-report.md](2026-08-16_output-report.md) |
+| 🔍 PENDING | 08-16 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-16_format-report.md](2026-08-16_format-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-16 (23:15)
+
+- **Report:** `wiki/reviews/2026-08-16_format-report.md`
+- **Summary:** 393 WARNINGs (0E+393W+0I) — all broken wikilinks (forward-references to uncompiled concepts). 373 individual + 20 forward-reference groups. 270 unique broken targets. 0 ERRORs — fourth consecutive clean ERROR run.
+- **Delta from 08-15 (pending):** +2 total issues (391→393), +2 unique targets (268→270) — genuine growth from +2 valid files (525 vs 524 concepts, 169 vs 168 sources). No regressions, no new structural violations.
+- **Actions needed:** None — all WARNINGs are forward-references that resolve naturally as Compile Agent processes more raw files. No structural or format violations.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-08-16 (23:00)
 
@@ -180,4 +189,4 @@
 
 ---
 
-*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Output 08-16 (3 issues) + Format 08-15 (391W) + Hygiene 08-15 (state/ orphan, 1E+1I) 🔍 PENDING, review together. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*
+*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Output 08-16 (3 issues) + Format 08-16 (393W) + Format 08-15 (391W) + Hygiene 08-15 (state/ orphan, 1E+1I) 🔍 PENDING, review together. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*

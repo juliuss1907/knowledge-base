@@ -1023,3 +1023,11 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - **Title:** How AI text watermarking works: a visual guide
 - **Author:** James Padolsey
 - **Status:** unprocessed
+
+## 2026-08-16T08:47:00+07:00 — Compiled
+
+- **File:** raw/articles/2026-08-15_how-ai-text-watermarking-works.md
+- **Source note:** wiki/sources/src_how-ai-text-watermarking-works.md
+- **Concept notes created:** wiki/concepts/ai-text-watermarking.md
+- **Tags:** main:ai / sub:research,tools,hack / topic:ai-text-watermarking
+- **Status:** processed

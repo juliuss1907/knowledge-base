@@ -5,7 +5,9 @@ url: https://declaude.org/watermarking/
 author: James Padolsey
 date_published: [unknown]
 date_ingested: 2026-08-15
-status: unprocessed
+status: processed
+compiled_at: 2026-08-16
+compiled_to: "[[src_how-ai-text-watermarking-works]]"
 source: declaude.org
 ---
 

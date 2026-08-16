@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-15 (hygiene-inspector — 1 new pending report)
+**Last updated:** 2026-08-16 (output-validator — 1 new pending report)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -44,10 +44,18 @@
 | ✅ APPROVED | 08-14 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-14_hygiene-report.md](2026-08-14_hygiene-report.md) |
 | 🔍 PENDING | 08-15 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-15_format-report.md](2026-08-15_format-report.md) |
 | 🔍 PENDING | 08-15 | Hygiene | 2 (1E+1I) | Review [wiki/reviews/2026-08-15_hygiene-report.md](2026-08-15_hygiene-report.md) |
+| 🔍 PENDING | 08-16 | Output | 3 (0E+1W+2I) | Review [wiki/reviews/2026-08-16_output-report.md](2026-08-16_output-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-08-16 (23:00)
+
+- **Report:** `wiki/reviews/2026-08-16_output-report.md`
+- **Summary:** 3 issues (0E+1W+2I) in 2 new files (1 source + 1 concept). 1 WARNING — Vietnamese typo `lực chọn` → `lựa chọn` in ai-text-watermarking.md. 2 INFO — forward-reference backlinks to uncompiled concepts, source metadata artifact + mangled English. No typos in the 5 known Compile Agent variants (dropped-i manual grep: 0 matches), no truncated files.
+- **Actions needed:** 1 typo fix on line 20 of wiki/concepts/ai-text-watermarking.md. 2 cosmetic INFO fixes optional.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-15 (23:15)
 
@@ -172,4 +180,4 @@
 
 ---
 
-*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Format 08-15 (391W) + Hygiene 08-15 (state/ orphan, 1E+1I) 🔍 PENDING, review together. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*
+*System status: All 5 reports (08-13 output/format/hygiene + 08-14 format/hygiene) ✅ APPROVED by Julius 2026-08-14. Output 08-16 (3 issues) + Format 08-15 (391W) + Hygiene 08-15 (state/ orphan, 1E+1I) 🔍 PENDING, review together. Previous format reports (08-07 through 08-14) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.*

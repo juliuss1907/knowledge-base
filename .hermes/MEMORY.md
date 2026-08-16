@@ -1158,3 +1158,11 @@ Files checked: 815
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 - **Result:** [SILENT] — no new files to validate
 - **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances) — all in pre-existing files, zero new instances
+
+## 2026-08-16 23:00:33 — Output validation
+- **Files checked:** 694 (169 sources + 525 concepts)
+- **New files:** 2 (1 source + 1 concept) — compiled today (ai-text-watermarking pair)
+- **Issues found:** 3 (0 ERROR, 1 WARNING, 2 INFO) — 1 Vietnamese typo `lực chọn`→`lựa chọn` in ai-text-watermarking.md; 2 forward-reference INFO (synthid, llm-output-detection backlinks; source metadata `(NOPE)` artifact + `key-l` mangled English)
+- **Report:** wiki/reviews/2026-08-16_output-report.md
+- **Details:** dropped-i variant-5 manual grep clean (3 sub-patterns, 0 matches). No truncated files, no double-i/spacing/capital-I new instances. Both new files otherwise accurate, complete, coherent, natural Vietnamese.
+- **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances) — all in pre-existing files, zero new instances

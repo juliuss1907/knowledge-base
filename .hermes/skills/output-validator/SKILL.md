@@ -812,6 +812,19 @@ grep -F -A 6 "$HEADING" "$M" | grep -qi 'carry-over'
 
 This affects verification scripts that check for specific labels in MEMORY.md entries. When in doubt, use `-i` for any label that might be capitalized after `**`.
 
+**Pitfall — output report fields are bold-wrapped on BOTH sides; a single `\*` in the pattern misses (2026-08-16):** The report file uses `**Status:** pending` and `**Issues found:** 3` — the `**` surrounds BOTH the label and the value (`**Status:**`), unlike `_action-required.md`/`MEMORY.md` where bold wraps only the label. A cross-file check pattern like `Status.\* pending` (single `\*` after the colon) silently fails because the actual bytes are `Status** pending`. You must match both asterisk pairs:
+
+```bash
+# BROKEN — single \* after Status: misses; there are two * before the space:
+check "Cross-file" bash -c "grep -q 'Status.\* pending' \"\$1\"" _ "$R"
+# CORRECT — match the full ** both sides:
+check "Cross-file" bash -c "grep -q 'Status:\*\* pending' \"\$1\"" _ "$R"
+```
+
+**Symptom:** The cross-file consistency check for the report `Status:`/`Issues found:` fields `[FAIL]`s even though `grep -i status file` confirms the value is present. This burned 3 patch iterations in the 2026-08-16 run. **Rule:** for report-file fields, always include `\*\*` in the pattern (both asterisks); for `_action-required.md` pending-count lines, `\*\*` precedes the value; they are NOT the same shape.
+
+**Pitfall — verify-output.sh's pending-count check HARDCODES the value 1 (2026-08-16):** The bundled `scripts/verify-output.sh` checks `grep -q '\*\*Pending reports awaiting review:\*\* 1' "$ACT"`. It literally expects exactly 1. On any day with 2+ pending reports (e.g. Output 08-16 + Format 08-15 + Hygiene 08-15 = 3 pending), it reports `❌ Pending count = 1` even though the file is correct. This is a script deficiency, not a file problem — treat it as advisory and confirm the count manually via `grep '\*\*Pending reports awaiting review:\*\*' "$ACT"`. (Also the same script still greps for `## Applied Reports` and old section names `Output Validator Report`/`Summary`/`New files validated`/`Systemic issues`/`Actions` that the current report format doesn't use — see the 2026-07-04 lesson. Its reliable checks are: report exists/non-empty, today's output entry present, `## Pending Reports` unique, MEMORY.md entry present with report ref.)
+
 **Pitfall — issue grouping makes standalone issue-number grep miss (2026-07-07):** When the report groups multiple issues under one header (e.g., `## Issue 5-7: Forward-reference wikilinks`), `grep "Issue 6"` and `grep "Issue 7"` won't match as standalone terms. Verify grouped issues by checking:
 1. The grouped header exists (e.g., `grep -q '^## Issue 5-7:' "$R"`)
 2. Cross-file consistency confirms the total issue count (all 3 files agree on N issues)

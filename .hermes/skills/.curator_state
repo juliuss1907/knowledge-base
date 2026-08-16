@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/home/julius/knowledge-base/.hermes/logs/curator/20260809-042617",
-  "last_run_at": "2026-08-09T04:26:17.759618+00:00",
-  "last_run_duration_seconds": 0.525085,
+  "last_report_path": "/home/julius/knowledge-base/.hermes/logs/curator/20260816-051234",
+  "last_run_at": "2026-08-16T05:12:34.384460+00:00",
+  "last_run_duration_seconds": 0.508906,
   "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
   "last_run_summary_shown_at": "2026-06-21T03:20:16.803962+00:00",
   "paused": false,
-  "run_count": 8
+  "run_count": 9
 }

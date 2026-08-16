@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.19
-last_updated: 2026-08-15
+version: 1.20
+last_updated: 2026-08-16
 ---
 
 # Hygiene Inspector
@@ -459,8 +459,8 @@ When invoked as a scheduled cron job, `execute_code` is blocked by `approvals.cr
 1. Write the scan script to a temp file via `write_file` (e.g., `/tmp/hygiene_scan.py`)
 2. Run it via `terminal` with `python3 /tmp/hygiene_scan.py`
 3. Parse the terminal output to build the report
-4. **Ad-hoc verification** (system flags unverified edits after file writes):
-   Write a verification script to `/tmp/hermes-verify-hygiene-<date>.py`, run it with `terminal`, and clean up. Minimal checks: report exists, `_action-required.md` updated, scan reproducible (issue counts only — `paths_checked` drifts from report write), previous-day issues resolved. The system will request this after any cron run that writes files; treat it as a standard post-validation step under cron.
+4. **Ad-hoc verification — run it LAST (after ALL writes)**:
+   The system flags edits as "verification stale" if you write any file after the check that confirms everything. So write the report AND `_action-required.md` AND any skill-reference updates (`common-patterns.md`) FIRST, then run verification once as the final step. Write a verification script to `/tmp/hermes-verify-hygiene-<date>.py`, run it with `terminal`. Minimal checks: report exists, `_action-required.md` updated, scan reproducible (issue counts only — `paths_checked` drifts from report write), previous-day issues resolved. If you must touch any file afterward, re-run a fresh (suffix-`b`) verify or re-verify. The system will request this after any cron run that writes files; treat it as a standard post-validation step under cron. Confirmed 2026-08-16: editing `common-patterns.md` after the first verify forced a stale-evidence flag and a second verify run.
 
 **⚠️ Pitfall: Do NOT `rm` the temp scripts in cron mode.** `/tmp/hygiene_scan.py` and `/tmp/hermes-verify-hygiene-<date>.py` live under `/tmp`, which the OS clears automatically. Issuing `rm -f` on them under a cron job hits the approval guard (`delete in root path` pattern) and **stalls the whole run pending approval that never comes** (no user present). Leave the temp files in place — they are harmless, and the "clean up" wording above means only that you may remove them in an interactive session if you want, not that the run is incomplete without it. Confirmed 2026-08-14: `rm` stalled the run; skipping it was correct.
 
@@ -572,7 +572,10 @@ Files that are explicitly whitelisted by name (e.g., `context/USER.md`, `wiki/me
 ### 6. paths_checked drift on re-run (expected, not a bug)
 Re-running the scan after writing the report file (or any other new file to the KB) will increase `paths_checked` by the number of new files. This is normal — the scan walks the live filesystem. When comparing reproducibility in `scripts/verify.py`, only compare issue counts and categories, not the exact `paths_checked` number. A ±1–3 drift from report/action-file writes is expected.
 
-### 7. Whitelist dictionaries must stay in sync with folder-structure.md
+### 7. Confirm recurring leaks are git-tracked before dismissing as transient
+When a recurring orphan file (e.g. `memory/*-heartbeat-status.md`, `memory/YYYY-MM-DD-*.md`) reappears, **check `git ls-files <path>` (or `git check-ignore <path>`)** before writing "deletion is the fix". If the file is git-tracked, it reaches commits (this KB auto-commits `vault backup` roughly every 10 minutes — see `git log`), so filesystem deletion only removes the working copy; the committed copy survives and reappears on the next checkout/sync. That confirms a *process-owned* leak, not a stray artifact. Proven 2026-08-16: `memory/2026-08-16-heartbeat-status.md` was git-tracked, hence the fix MUST be root-cause (redirect the writing process output path) plus a committable removal (`git rm` + commit), not just `rm -rf memory/`. Report it accordingly in the escalation block.
+
+### 8. Whitelist dictionaries must stay in sync with folder-structure.md
 The scan script's `RAW_SUBFOLDERS`, `ROOT_FILES`, `ROOT_FOLDERS`, `WIKI_SUBFOLDERS`, and `WIKI_META_FILES` dictionaries duplicate rules from `folder-structure.md`. When `folder-structure.md` is updated (e.g., a new raw subfolder is added), the scan script's corresponding dictionary must be updated to match. **Out-of-sync whitelists silently suppress violations.** Proven 2026-07-30: `tools` was in `RAW_SUBFOLDERS` but not in folder-structure.md v1.2 — the `raw/tools/` folder passed every scan for weeks until the script was aligned with the spec. When folder-structure.md changes, patch BOTH the spec AND the scan script's dictionaries in the same commit.
 
 ---
@@ -595,6 +598,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.20 | 2026-08-16 | Added pitfall #7 — confirm recurring root orphans are git-tracked (`git ls-files` / `git check-ignore`) before dismissing a leak as a stray file: `memory/2026-08-16-heartbeat-status.md` was git-tracked, so it persisted across the ~10-min `vault backup` commits and file deletion alone could not fix it — requires redirecting the writer output path + a committable removal. Clarified cron ad-hoc verification must run LAST (after ALL writes incl. `common-patterns.md`), else the system flags evidence stale and forces a re-verify (proof 08-16). `memory/`+`state/` both resurfaced 3rd consecutive run; updated `references/common-patterns.md` with 08-16 record and fixed a literal-`\n` formatting bug. |
 | 1.19 | 2026-08-15 | Added cron verify-script pitfall: `Counter` omits zero-count keys, so comparing severity counts against an expected dict that includes `XXX: 0` spuriously FAILs. Confirmed on live run — `{"ERROR":1,"WARNING":0,"INFO":1}` vs actual `{"ERROR":1,"INFO":1}`. Compare only keys that appear or use `.get(k, 0)`. `state/` orphan resurfaced for 2nd consecutive run; `memory/` absent (single-orphan regression after 08-14 dual). Updated `references/common-patterns.md` with 08-15 recurrence record. |
 | 1.18 | 2026-08-14 | `memory/` and `state/` root orphans RESURFACED after 4 clean runs (08-11→08-13) — broke the 3-consecutive-clean streak. Evidence: `memory/2026-08-14-0153.md` (OpenClaw session log, created 08:54) proves the memory-log writer emits to KB root `memory/` instead of `.openclaw/memory/` → process-level leak, escalated as [SYSTEMATIC VIOLATION]. Added cron pitfall: do NOT `rm` temp scan/verify scripts under cron — `/tmp` is OS-cleared and `rm` stalls on the approval guard. Updated `references/common-patterns.md` with the 08-14 recurrence record. |
 | 1.17 | 2026-08-10 | Added `wiki/HEARTBEAT.md` to `HEARTBEAT_LEAK_PATHS` in scan script — new HEARTBEAT leak variant at wiki/ root level (distinct from `wiki/reviews/HEARTBEAT.md`). Added HEARTBEAT check in `classify_wiki_entry` `len(parts)==2` branch before the generic "File at wiki/ root level" error. Updated `common-patterns.md` and SKILL.md Agent home scanning rule to document the new variant. Flagged 4th consecutive run (08-07 through 08-10). |

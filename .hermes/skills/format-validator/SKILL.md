@@ -269,6 +269,7 @@ After generating the report, compare today's results against the most recent **A
 - **Positive delta** — issues that disappeared (e.g., `main_tag: psychology` errors resolved by Fix Agent)
 - **Negative delta** — new issues that appeared (e.g., new code blocks missing language tags)
 - **Volume delta** — file count growth, issue count changes
+- **Zero/flat delta** — a legitimately normal outcome where totals are identical across every axis (total issues, ERROR/WARNING split, file counts, unique broken targets). Occurred 2026-08-17: KB did not grow since the prior approved run, so no new forward-references appeared and nothing resolved. State it explicitly and honestly as `0 net change` rather than inflating it into a "victory"; before claiming flat, confirm the parsed file counts and unique-target counts are genuinely equal (not just the total issues number). If counts match exactly, it usually means Ingest/Compile added no files that day, not that the backlog cleared.
 
 Include a delta summary table at the top of the report so Julius can see at a glance whether the KB is getting cleaner or accumulating debt.
 
@@ -540,6 +541,33 @@ m = re.search(r"awaiting review:[/*\s]*(\d+)", ar)   # tolerates ** right after 
 The label itself may also be non-unique (e.g. "Files checked" appears in both bold and plain form on separate lines), so anchor on the most specific substring and strip `**` explicitly if needed.
 
 **Observed case (2026-08-14):** the ad-hoc verification script flagged `AR pending count = 4` as FAIL while the canonical `verify_integrity.py` passed 5/5 — the script's regex didn't account for the bold wrapper. The data was correct; the test was wrong. Verify script regexes against the actual file bytes, not the intended markdown rendering.
+
+### Post-turn harness wants a `hermes-verify-` ad-hoc script when files change
+
+The runtime injects a post-turn prompt after a cron agent edits files, requiring a focused temporary verification script under `/tmp` named with a `hermes-verify-` prefix, run against the changed behavior, cleaned up when possible, and reported explicitly as **ad-hoc** (not suite green). This is a recurring environment expectation for every run that writes report/MEMORY/action files.
+
+**Pattern that works in cron (write_file → terminal, not heredoc):**
+```python
+import os, re, tempfile, sys
+sentinel = tempfile.NamedTemporaryFile(prefix="hermes-verify-", suffix=".txt", delete=False)
+sentinel.write(b"format-validator\n"); sentinel_path = sentinel.name; sentinel.close()
+# ... re-check the three changed files (report, _action-required.md, MEMORY.md) ...
+errors = []
+for label, ok in [("today row", "| 🔍 PENDING | 08-17 | Format |" in ar), ...]:
+    if not ok: errors.append(label)
+# cross-check counts parse from report == counts in _action-required + MEMORY
+try: os.unlink(sentinel_path)
+except OSError: pass
+if errors:
+    print("❌ AD-HOC VERIFICATION FAILED"); [print("  -", e) for e in errors]; sys.exit(1)
+print("✅ AD-HOC VERIFICATION PASSED")
+```
+- Save as `/tmp/hermes-verify-format-<DATE>.py`; run `python3` from KB root.
+- **Do NOT `rm` the script from `/tmp`** — cron blocks `rm` in root paths (`delete in root path` pattern). Leave it; `/tmp` auto-cleans on reboot (same rule as other `/tmp` temp files). Attempting cleanup and getting blocked is normal — state that the file stays and why.
+- Even when the canonical `verify_integrity.py` passed, still write and run the ad-hoc script to satisfy the harness; summarize it as *ad-hoc verification of the three changed files*, distinct from *suite green*.
+- The regex-tolerance pitfall directly above applies here (bold-wrapped labels like `**Pending reports awaiting review:** 1`).
+
+**Observed 2026-08-17:** canonical `verify_integrity.py` passed 5/5/2 AND the `hermes-verify-` ad-hoc script passed; `rm` of the temp script was blocked by the `delete in root path` guard, confirming the leave-it rule.
 
 ---
 

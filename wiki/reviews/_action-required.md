@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-16 (Julius — approved all 5 pending reports)
+**Last updated:** 2026-08-17
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -47,10 +47,19 @@
 | ✅ APPROVED | 08-16 | Output | 3 (0E+1W+2I) | Review [wiki/reviews/2026-08-16_output-report.md](2026-08-16_output-report.md) |
 | ✅ APPROVED | 08-16 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-16_format-report.md](2026-08-16_format-report.md) |
 | ✅ APPROVED | 08-16 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-16_hygiene-report.md](2026-08-16_hygiene-report.md) |
+| 🔍 PENDING | 08-17 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-17_format-report.md](2026-08-17_format-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-17 (23:15)
+
+- **Report:** `wiki/reviews/2026-08-17_format-report.md`
+- **Summary:** 393 WARNINGs (0E+393W+0I) — all broken wikilinks (forward-references to uncompiled concepts). 373 individual + 20 forward-reference groups. 270 unique broken targets. 0 ERRORs — fifth consecutive clean ERROR run.
+- **Delta from 08-16 (approved):** 0 net change — identical across all axes (393 total, 923 files, 270 unique targets). No KB growth since yesterday, so no new forward-references. No regressions, no new structural violations.
+- **Actions needed:** None — all WARNINGs are forward-references that resolve naturally as Compile Agent processes more raw files. No structural or format violations.
+- **Status:** pending
 
 ### ✅ Hygiene Inspection — 2026-08-16 (23:45)
 
@@ -197,4 +206,4 @@
 
 ---
 
-*System status: All 5 reports ✅ APPROVED by Julius 2026-08-16. Fix Agent xử lý Output 08-16. memory/state/ dọn inline.*
+*System status: 5 reports ✅ APPROVED by Julius 2026-08-16. 08-17 Format report 🔍 PENDING. Fix Agent xử lý Output 08-16. memory/state/ dọn inline.*

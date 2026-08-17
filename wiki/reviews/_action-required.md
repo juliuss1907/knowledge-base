@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-17
+**Last updated:** 2026-08-17 23:31
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -48,10 +48,18 @@
 | ✅ APPROVED | 08-16 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-16_format-report.md](2026-08-16_format-report.md) |
 | ✅ APPROVED | 08-16 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-16_hygiene-report.md](2026-08-16_hygiene-report.md) |
 | 🔍 PENDING | 08-17 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-17_format-report.md](2026-08-17_format-report.md) |
+| 🔍 PENDING | 08-17 | Hygiene | 9 (2E+6W+1I) | Review [wiki/reviews/2026-08-17_hygiene-report.md](2026-08-17_hygiene-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-08-17 (23:31)
+
+- **Report:** `wiki/reviews/2026-08-17_hygiene-report.md`
+- **Summary:** 9 issues (2E+6W+1I). 53,578 paths checked. Recurring root orphans `memory/` AND `state/` resurfaced for the **4th consecutive run** (08-14→08-17). `memory/` now holds 6 files all created today (3 OpenClaw session logs + heartbeat-ok + heartbeat-poll + fetch-status), all **git-tracked** (`git ls-files memory/`) — the writer runs multiple times daily and emits to KB root `memory/` instead of `.openclaw/memory/`. `state/` is an empty untracked phantom dir.
+- **Actions needed:** Root-cause fix — redirect the session/heartbeat/fetch writer output path from KB root `memory/` → `.openclaw/memory/`, then `git rm -r memory/` + commit (file deletion alone is futile — files are git-tracked and resurrected by auto `vault backup` commits). `rmdir state/`. Escalated as [SYSTEMATIC VIOLATION].
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-17 (23:15)
 
@@ -206,4 +214,4 @@
 
 ---
 
-*System status: 5 reports ✅ APPROVED by Julius 2026-08-16. 08-17 Format report 🔍 PENDING. Fix Agent xử lý Output 08-16. memory/state/ dọn inline.*
+*System status: 5 reports ✅ APPROVED by Julius 2026-08-16. 08-17 Format + Hygiene reports 🔍 PENDING. Fix Agent xử lý Output 08-16. memory/state/ dọn inline.*

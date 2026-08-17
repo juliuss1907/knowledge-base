@@ -1176,3 +1176,10 @@ Files checked: 815
 - **Report:** wiki/reviews/2026-08-16_output-report.md
 - **Details:** dropped-i variant-5 manual grep clean (3 sub-patterns, 0 matches). No truncated files, no double-i/spacing/capital-I new instances. Both new files otherwise accurate, complete, coherent, natural Vietnamese.
 - **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances) — all in pre-existing files, zero new instances
+
+## 2026-08-17 23:01:01 — Output validation
+- **Files checked:** 694 (169 sources + 525 concepts)
+- **New files:** 0 — nothing compiled today (last batch 08-16, already validated + approved)
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — no new files to validate
+- **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances), dropped-i variant-5 (0 instances) — all in pre-existing files, zero new instances

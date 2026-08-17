@@ -5,7 +5,7 @@ scope: posts
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-08-06
+last_updated: 2026-08-17
 ---
 
 # Posts Index
@@ -20,13 +20,14 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 17 files
-- By status: 17 processed, 0 unprocessed
-- By date: 5 this week, 5 this month
-- Last updated: 2026-08-11
+- Total: 18 files
+- By status: 17 processed, 1 unprocessed
+- By date: 6 this week, 6 this month
+- Last updated: 2026-08-17
 
 ## Items
 
+- [[2026-08-08_the-art-of-strategic-thinking]] — The Art Of Strategic Thinking (How To Become Wildly Successful) by DAN KOE (@thedankoe) (unprocessed)
 - [[2026-08-09_how-to-get-maximum-results-with-minimum-effort-game-theory]] — How to Get Maximum Results with Minimum Effort (Game Theory) by @incentivising (unprocessed)
 - [[2026-08-09_just-let-go-cipheron]] — Just Let Go by Cipheron (@cipheron) (unprocessed)
 - [[2026-08-10_faith-and-fear-are-the-exact-same-thing]] — Faith and fear are the exact same thing by Jlowe (@jlowetransforms) (unprocessed)

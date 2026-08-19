@@ -4,21 +4,22 @@ scope: topic
 parent: "[[topic]]"
 topic: job-worth-doing
 auto_generated: true
-last_updated: 2026-08-11
+last_updated: 2026-08-19
 ---
 
 # Topic: job-worth-doing
 
 Auto-generated index of all content with topic `job-worth-doing`.
 
-Last updated: 2026-08-11 14:01:27
+Last updated: 2026-08-19 22:18:24
 
 ---
 
 ## Concepts (1)
 
-- [[job-worth-doing]] — main: #productivity, sub: [#opinion]
+- [[job-worth-doing]] — main: #productivity — sub: [#opinion]
 
 ## Sources (1)
 
-- [[src_markus-job-worth-doing]] — main: #productivity, sub: [#opinion]
+- [[src_markus-job-worth-doing]] — main: #productivity — sub: [#opinion]
+

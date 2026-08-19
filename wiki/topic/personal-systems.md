@@ -4,21 +4,22 @@ scope: topic
 parent: "[[topic]]"
 topic: personal-systems
 auto_generated: true
-last_updated: 2026-08-11
+last_updated: 2026-08-19
 ---
 
 # Topic: personal-systems
 
 Auto-generated index of all content with topic `personal-systems`.
 
-Last updated: 2026-08-11 14:01:27
+Last updated: 2026-08-19 22:18:24
 
 ---
 
 ## Concepts (1)
 
-- [[third-order-thinking]] — main: #productivity, sub: [#psychology]
+- [[third-order-thinking]] — main: #productivity — sub: [#psychology]
 
 ## Sources (1)
 
-- [[src_third-order-thinking-how-to-build]] — main: #productivity, sub: [#psychology]
+- [[src_third-order-thinking-how-to-build]] — main: #productivity — sub: [#psychology]
+

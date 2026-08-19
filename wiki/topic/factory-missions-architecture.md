@@ -4,23 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: factory-missions-architecture
 auto_generated: true
-last_updated: 2026-08-11
+last_updated: 2026-08-19
 ---
 
 # Topic: factory-missions-architecture
 
 Auto-generated index of all content with topic `factory-missions-architecture`.
 
-Last updated: 2026-08-11 14:01:27
+Last updated: 2026-08-19 22:18:24
 
 ---
 
 ## Concepts (3)
 
-- [[factory-missions]] — main: #ai, sub: [#automation, #research, #tools]
-- [[multi-agent-taxonomy]] — main: #ai, sub: [#research, #automation]
-- [[validation-contract]] — main: #ai, sub: [#automation, #tools]
+- [[factory-missions]] — main: #ai — sub: [#automation, #research, #tools]
+- [[multi-agent-taxonomy]] — main: #ai — sub: [#research, #automation]
+- [[validation-contract]] — main: #ai — sub: [#automation, #tools]
 
 ## Sources (1)
 
-- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — main: #ai, sub: [#tools, #automation]
+- [[src_luke-alvoeiro-multi-agent-architecture-factory]] — main: #ai — sub: [#tools, #automation]
+

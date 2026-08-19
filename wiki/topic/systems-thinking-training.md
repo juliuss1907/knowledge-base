@@ -4,25 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: systems-thinking-training
 auto_generated: true
-last_updated: 2026-08-11
+last_updated: 2026-08-19
 ---
 
 # Topic: systems-thinking-training
 
 Auto-generated index of all content with topic `systems-thinking-training`.
 
-Last updated: 2026-08-11 14:01:27
+Last updated: 2026-08-19 22:18:24
 
 ---
 
 ## Concepts (5)
 
-- [[feedback-loop]] — main: #productivity, sub: [#tools]
-- [[leverage-points]] — main: #productivity, sub: [#tools]
-- [[stock-and-flow]] — main: #productivity, sub: [#tools]
-- [[system-map]] — main: #productivity, sub: [#tools]
-- [[systems-thinking-training-roadmap]] — main: #productivity, sub: [#tutorial]
+- [[feedback-loop]] — main: #productivity — sub: [#tools]
+- [[leverage-points]] — main: #productivity — sub: [#tools]
+- [[stock-and-flow]] — main: #productivity — sub: [#tools]
+- [[system-map]] — main: #productivity — sub: [#tools]
+- [[systems-thinking-training-roadmap]] — main: #productivity — sub: [#tutorial]
 
 ## Sources (1)
 
-- [[src_markus-systems-thinking-roadmap]] — main: #productivity, sub: [#tutorial, #opinion]
+- [[src_markus-systems-thinking-roadmap]] — main: #productivity — sub: [#tutorial, #opinion]
+

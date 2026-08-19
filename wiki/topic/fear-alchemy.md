@@ -4,21 +4,22 @@ scope: topic
 parent: "[[topic]]"
 topic: fear-alchemy
 auto_generated: true
-last_updated: 2026-08-13
+last_updated: 2026-08-19
 ---
 
 # Topic: fear-alchemy
 
 Auto-generated index of all content with topic `fear-alchemy`.
 
-Last updated: 2026-08-13 21:00:00
+Last updated: 2026-08-19 22:18:24
 
 ---
 
 ## Concepts (1)
 
-- [[fear-alchemy]] — main: #productivity, sub: [#psychology, #opinion]
+- [[fear-alchemy]] — main: #productivity — sub: [#psychology, #opinion]
 
 ## Sources (1)
 
-- [[src_faith-and-fear-are-the-exact-same-thing]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_faith-and-fear-are-the-exact-same-thing]] — main: #productivity — sub: [#psychology, #opinion]
+

@@ -4,23 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: game-theory-productivity
 auto_generated: true
-last_updated: 2026-08-13
+last_updated: 2026-08-19
 ---
 
 # Topic: game-theory-productivity
 
 Auto-generated index of all content with topic `game-theory-productivity`.
 
-Last updated: 2026-08-13 21:00:00
+Last updated: 2026-08-19 22:18:24
 
 ---
 
 ## Concepts (3)
 
-- [[asymmetric-positions]] — main: #productivity, sub: [#strategy, #opinion]
-- [[game-selection]] — main: #productivity, sub: [#strategy, #opinion]
-- [[information-asymmetry]] — main: #productivity, sub: [#strategy, #opinion]
+- [[asymmetric-positions]] — main: #productivity — sub: [#strategy, #opinion]
+- [[game-selection]] — main: #productivity — sub: [#strategy, #opinion]
+- [[information-asymmetry]] — main: #productivity — sub: [#strategy, #opinion]
 
 ## Sources (1)
 
-- [[src_max-results-minimum-effort-game-theory]] — main: #productivity, sub: [#strategy, #opinion]
+- [[src_max-results-minimum-effort-game-theory]] — main: #productivity — sub: [#strategy, #opinion]
+

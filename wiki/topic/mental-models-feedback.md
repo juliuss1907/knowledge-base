@@ -4,21 +4,22 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-feedback
 auto_generated: true
-last_updated: 2026-08-11
+last_updated: 2026-08-19
 ---
 
 # Topic: mental-models-feedback
 
 Auto-generated index of all content with topic `mental-models-feedback`.
 
-Last updated: 2026-08-11 14:01:27
+Last updated: 2026-08-19 22:18:24
 
 ---
 
 ## Concepts (1)
 
-- [[feedback-loops]] — main: #productivity, sub: [#research]
+- [[feedback-loops]] — main: #productivity — sub: [#research]
 
 ## Sources (1)
 
-- [[src_feedback-loops-mental-model]] — main: #productivity, sub: [#research]
+- [[src_feedback-loops-mental-model]] — main: #productivity — sub: [#research]
+

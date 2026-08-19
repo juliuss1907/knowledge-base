@@ -1031,3 +1031,10 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - **Concept notes created:** wiki/concepts/ai-text-watermarking.md
 - **Tags:** main:ai / sub:research,tools,hack / topic:ai-text-watermarking
 - **Status:** processed
+
+## 2026-08-19 22:17 (Asia/Saigon) — Indexed
+- Scanned: 525 concepts + 169 sources
+- Tags indexed: 24 (9 main-tags + 15 sub-tags)
+- Topics indexed: 196
+- Orphans deleted: 0
+- Errors: 0, skipped: 0

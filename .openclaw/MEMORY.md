@@ -1039,6 +1039,19 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - Orphans deleted: 0
 - Errors: 0, skipped: 0
 
+## 2026-08-19T23:30:00+07:00 — Heartbeat
+
+**Status:** Issues found
+
+**Checks:**
+1. ✅ Inbox — 0 files tagged #agent/inbox
+2. ⚠️ Raw backlog — 3 files unprocessed >24h:
+   - `raw/posts/2026-08-08_the-art-of-strategic-thinking.md` (11 days)
+   - `raw/posts/2026-08-15_the-principles-of-better-decisions.md` (4 days)
+   - `raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md` (2 days)
+3. ✅ Concept check — approach-avoidance-conflict.md, category-kings-dynamics.md: both have proper backlinks
+4. ⚠️ Pending review — 2 reports từ 08-17 (Format + Hygiene) vẫn chưa notified
+
 ## 2026-08-19T22:30:00+07:00 — Heartbeat
 
 **Status:** Issues found

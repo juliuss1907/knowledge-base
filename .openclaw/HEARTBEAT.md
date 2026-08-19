@@ -1,52 +1,53 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-20 00:00 (Asia/Saigon)
+> Last updated: 2026-08-20 01:00 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_ATTENTION** — 3 raw files unprocessed + 2 pending Hermes reviews + systematic `memory/` root violation.
+**HEARTBEAT_ATTENTION** — 3 raw files unprocessed (all >24h) + 2 pending Hermes reviews.
 
 ## Checks Performed
 
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file `#agent/inbox` |
-| Raw backlog | ⚠️ Attention | 3 files `status: unprocessed` trong `raw/posts/` |
-| Concept backlinks | ✅ Clean | Sample 2 files ([[margin-of-safety]], [[creativity-as-skill]]) có backlinks đầy đủ |
+| Raw backlog | ⚠️ Attention | 3 files `status: unprocessed` trong `raw/posts/`, tất cả >24h |
+| Concept backlinks | ✅ Clean | Sample 2 files ([[chauffeur-knowledge]], [[internal-alignment]]) có `## Sources` đầy đủ |
 | Pending reviews | ⚠️ Attention | 2 reports từ 08-17 vẫn PENDING: Format (393W) + Hygiene (9 issues) |
 
 ## System State
 
 | Metric | Count | Δ since last | Status |
 |--------|-------|--------------|--------|
-| **raw/** total | 173 | +2 | ✅ Archive stable |
-| **raw/** unprocessed | 3 | +2 | ⚠️ 3 files backlog |
-| **wiki/sources/** | 162 | 0 | ✅ Ổn định |
-| **wiki/concepts/** | 508 | 0 | ✅ Ổn định |
+| **raw/** total | 180 | +7 | ✅ Archive stable |
+| **raw/** unprocessed | 3 | 0 | ⚠️ 3 files backlog (all >24h) |
+| **wiki/sources/** | 169 | 0 | ✅ Ổn định |
+| **wiki/concepts/** | 525 | 0 | ✅ Ổn định |
 | **wiki/tag/** | 25 | 0 | ✅ Ổn định |
-| **wiki/topic/** | 187 | 0 | ✅ Ổn định |
+| **wiki/topic/** | 196 | 0 | ✅ Ổn định |
 | **wiki/reviews/** pending | 2 | 0 | ⚠️ Chờ Julius review từ 08-17 |
 
 ## Issues (priority order)
 
-1. **`memory/` folder tại KB root — SYSTEMATIC VIOLATION** — 13 files (git-tracked), reappears repeatedly. Writer output path vẫn ghi vào `memory/` thay vì `.openclaw/memory/`. Hermes đã flag 4 lần (08-14→08-17). Cần root-cause fix: redirect writer → `.openclaw/memory/`, sau đó `git rm -r memory/` + commit.
+1. **Raw backlog: 3 files unprocessed (all >24h)**
+   - `raw/posts/2026-08-08_the-art-of-strategic-thinking.md` — ingested 08-17, 3 ngày tuổi
+   - `raw/posts/2026-08-15_the-principles-of-better-decisions.md` — ingested 08-17, 3 ngày tuổi
+   - `raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md` — ingested 08-19, ~30h tuổi
+   CompileAgent chưa xử lý — sẽ chạy lúc 08:00 hôm nay.
 
-2. **Raw backlog: 3 files unprocessed**
-   - `raw/posts/2026-08-08_the-art-of-strategic-thinking.md` — ingested 08-17, cũ nhất
-   - `raw/posts/2026-08-15_the-principles-of-better-decisions.md` — ingested 08-17
-   - `raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md` — ingested 08-19
-   CompileAgent chưa xử lý — cần check config hoặc chạy manual.
-
-3. **Pending Hermes reviews (since 08-17)**
+2. **Pending Hermes reviews (since 08-17)**
    - Format: 393 WARNINGs (forward-references, 0 ERRORs) — low urgency
-   - Hygiene: 9 issues (2E+6W+1I) — includes the `memory/` systematic violation
+   - Hygiene: 9 issues (2E+6W+1I) — includes `memory/` systematic violation
+   Chưa được Julius approve.
 
-## Recent Actions (since 08-06)
+3. **`memory/` folder tại KB root — SYSTEMATIC VIOLATION (reminder)**
+   Hermes đã flag 4 lần (08-14→08-17). Writer vẫn ghi vào `memory/` thay vì `.openclaw/memory/`. Cần fix nguồn.
 
-- **2026-08-06 14:00** — Last heartbeat log update. 1 raw file unprocessed, 2 fix queue items.
-- CompileAgent đã xử lý 1 backlog file (`raw/posts/2026-07-27_how-to-come-back-from-anything-game-theory.md` → processed 08-06).
-- 2 Hermes reviews (08-17) vẫn chưa được Julius approve.
+## Recent Actions (since 00:00)
+
+- Raw files tăng từ 173 → 180 (+7 files mới ingest)
+- Không có thay đổi ở wiki/
 
 ## Next Scheduled Actions
 

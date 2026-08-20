@@ -1061,3 +1061,16 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 2. ⚠️ Raw backlog — 3 files unprocessed >24h (giống 04:01)
 3. ✅ Concept check — colin-powell-40-70-rule.md, responsible-ai-security-research.md: both have proper backlinks/sources
 4. ⚠️ Pending review — 2 reports 08-17 vẫn PENDING, chưa notify
+
+## 2026-08-21T01:00:00+07:00 — Heartbeat
+
+**Status:** Issues found (không thay đổi từ 06:00 ngày 20/08)
+
+**Checks:**
+1. ✅ Inbox — 0 files tagged #agent/inbox
+2. ⚠️ Raw backlog — 3 files unprocessed >24h:
+   - `raw/posts/2026-08-08_the-art-of-strategic-thinking.md` (13 days)
+   - `raw/posts/2026-08-15_the-principles-of-better-decisions.md` (6 days)
+   - `raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md` (4 days)
+3. ✅ Concept check — anterior-cingulate-cortex.md, hindsight-skill.md: both have proper backlinks to sources
+4. ⚠️ Pending review — 2 reports 08-17 vẫn PENDING, chưa được notify Julius

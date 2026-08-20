@@ -1,6 +1,6 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-20 01:00 (Asia/Saigon)
+> Last updated: 2026-08-21 00:10 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
@@ -13,14 +13,14 @@
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file `#agent/inbox` |
 | Raw backlog | ⚠️ Attention | 3 files `status: unprocessed` trong `raw/posts/`, tất cả >24h |
-| Concept backlinks | ✅ Clean | Sample 2 files ([[chauffeur-knowledge]], [[internal-alignment]]) có `## Sources` đầy đủ |
+| Concept backlinks | ✅ Clean | Sample 2 files ([[personal-branding-ai]], [[real-options-theory]]) có `## Sources` đầy đủ |
 | Pending reviews | ⚠️ Attention | 2 reports từ 08-17 vẫn PENDING: Format (393W) + Hygiene (9 issues) |
 
 ## System State
 
 | Metric | Count | Δ since last | Status |
 |--------|-------|--------------|--------|
-| **raw/** total | 180 | +7 | ✅ Archive stable |
+| **raw/** total | 180 | 0 | ✅ Archive stable |
 | **raw/** unprocessed | 3 | 0 | ⚠️ 3 files backlog (all >24h) |
 | **wiki/sources/** | 169 | 0 | ✅ Ổn định |
 | **wiki/concepts/** | 525 | 0 | ✅ Ổn định |
@@ -31,9 +31,9 @@
 ## Issues (priority order)
 
 1. **Raw backlog: 3 files unprocessed (all >24h)**
-   - `raw/posts/2026-08-08_the-art-of-strategic-thinking.md` — ingested 08-17, 3 ngày tuổi
-   - `raw/posts/2026-08-15_the-principles-of-better-decisions.md` — ingested 08-17, 3 ngày tuổi
-   - `raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md` — ingested 08-19, ~30h tuổi
+   - `raw/posts/2026-08-08_the-art-of-strategic-thinking.md` — 13 ngày tuổi
+   - `raw/posts/2026-08-15_the-principles-of-better-decisions.md` — 6 ngày tuổi
+   - `raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md` — 4 ngày tuổi
    CompileAgent chưa xử lý — sẽ chạy lúc 08:00 hôm nay.
 
 2. **Pending Hermes reviews (since 08-17)**
@@ -44,10 +44,10 @@
 3. **`memory/` folder tại KB root — SYSTEMATIC VIOLATION (reminder)**
    Hermes đã flag 4 lần (08-14→08-17). Writer vẫn ghi vào `memory/` thay vì `.openclaw/memory/`. Cần fix nguồn.
 
-## Recent Actions (since 00:00)
+## Recent Actions (since 14:14)
 
-- Raw files tăng từ 173 → 180 (+7 files mới ingest)
-- Không có thay đổi ở wiki/
+- Không có thay đổi đáng kể từ heartbeat cuối
+- Raw total giữ nguyên 180
 
 ## Next Scheduled Actions
 

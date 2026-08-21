@@ -1193,3 +1193,10 @@ Files checked: 815
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
 - **Result:** [SILENT] — no new files to validate
 - **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances), dropped-i variant-5 (0 instances) — all in pre-existing files, zero new instances
+
+## 2026-08-21 23:00:50 — Output validation
+- **Files checked:** 694 (169 sources + 525 concepts)
+- **New files:** 0 — nothing compiled today (last batch 2026-08-16, already validated + approved)
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — no new files to validate
+- **Carry-over:** ngưởi (5 files), double-i (8 files/13 instances), spacing merge (9 files/16 instances), capital-I (6 files/9 instances), dropped-i variant-5 (0 instances) — all in pre-existing files, zero new instances

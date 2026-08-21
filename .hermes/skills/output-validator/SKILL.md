@@ -188,6 +188,7 @@ For complete validation algorithm, scoring rubrics, and error handling, see:
 - [workflow.md](workflow.md) — step-by-step validation process
 - [validation-criteria.md](validation-criteria.md) — detailed quality rubrics
 - [examples.md](examples.md) — sample reports and issues
+- [references/silent-run-2026-08-21.md](references/silent-run-2026-08-21.md) — silent-run case (0 new files, carry-over typo inventory, mandatory dropped-i grep, SILENT verification)
 
 ## Post-validation
 

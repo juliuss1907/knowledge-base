@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-17 23:31
+**Last updated:** 2026-08-21
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -49,10 +49,19 @@
 | ✅ APPROVED | 08-16 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-16_hygiene-report.md](2026-08-16_hygiene-report.md) |
 | 🔍 PENDING | 08-17 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-17_format-report.md](2026-08-17_format-report.md) |
 | 🔍 PENDING | 08-17 | Hygiene | 9 (2E+6W+1I) | Review [wiki/reviews/2026-08-17_hygiene-report.md](2026-08-17_hygiene-report.md) |
+| 🔍 PENDING | 08-21 | Format | 466 (73E+393W) | Review [wiki/reviews/2026-08-21_format-report.md](2026-08-21_format-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-21 (23:20)
+
+- **Report:** `wiki/reviews/2026-08-21_format-report.md`
+- **Summary:** 466 issues (73E+393W+0I). 924 paths checked (525 concepts + 169 sources + 34 indexes + 196 topics). 72 ERRORs from 24 L3 tag files missing `## Parent`, `## Stats`, `## Files with this tag` (Index Agent regeneration 08-19 overwrote Fix Agent 08-13 corrections); 1 ERROR from `wiki/tag/tag.md` missing `level` field. 393 WARNINGs unchanged — all broken wikilinks (373 individual + 20 groups, 270 unique targets).
+- **Delta from 08-16 (approved):** +73 total issues (393→466), +73 ERRORs (0→73), +1 file (923→924, 195→196 topics), 0 WARNING change. Clean ERROR streak BROKEN — 5-day clean run (08-13 through 08-17) ended. Regression is systematic Index Agent output.
+- **Actions needed:** Fix Agent to regenerate 24 L3 tag files with all 4 required sections (`## Parent`, `## Stats`, `## Files with this tag`, `## Co-occurring tags`) plus patch `wiki/tag/tag.md` frontmatter (`level: 2`). Root-cause fix: update Index Agent SKILL.md template to emit all required L3 sections. Escalated as [SYSTEMATIC VIOLATION].
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-08-17 (23:31)
 
@@ -205,7 +214,6 @@
 ---
 
 ## Previous Applied Batches
-
 - **2026-08-06:** 9 reports (Format ×4, Output ×1, Hygiene ×4) — career→strategy, Co-occurring tags, 22 double-i typos
 - **2026-08-01:** 4 reports (Format, Output, Hygiene ×2)
 - **2026-07-30:** 2 reports (Format, Hygiene) — no fixes needed
@@ -214,4 +222,4 @@
 
 ---
 
-*System status: 5 reports ✅ APPROVED by Julius 2026-08-16. 08-17 Format + Hygiene reports 🔍 PENDING. Fix Agent xử lý Output 08-16. memory/state/ dọn inline.*
+*System status: 8 reports ✅ APPROVED by Julius 2026-08-16. 08-17 Format + Hygiene reports 🔍 PENDING. 08-21 Format report 🔍 PENDING — clean ERROR streak broken (0→73). Fix Agent cần regenerate tag indexes. memory/state/ dọn inline.*

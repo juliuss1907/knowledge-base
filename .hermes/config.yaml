@@ -1,5 +1,5 @@
 model:
-  default: ollama/kimi-k2.5
+  default: nvidia/z-ai/glm4.7
   provider: custom
   base_url: http://localhost:20128/v1
   api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
@@ -751,14 +751,6 @@ custom_providers:
     base_url: https://api.minimax.io/anthropic
     api_key: ''
     api_mode: anthropic_messages
-  - name: Api.ai-box.vn
-    base_url: https://api.ai-box.vn/v1
-    api_key: sk-aU9FLWGafr7njN3UzOiXonV2i1ANJ2GjpdT2oH4hbnPiqYJi
-    model: deepseek-v4-flash[1m]
-  - name: 9router
-    base_url: http://localhost:20128/v1
-    api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
-    model: ollama/kimi-k2.5
 plugins:
   enabled: []
 known_plugin_toolsets:

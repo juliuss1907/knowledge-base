@@ -8,7 +8,7 @@ Validation pipeline (cron VPS, 24h): Kara compile 08:00 → index 21:00 → Conn
 §
 Connor (Hermes) QUY TẮC CỨNG: KHÔNG tự sửa file trong wiki/concepts/. Chỉ validate + report. Việc sửa lỗi (compile lại, format, hygiene) thuộc về Kara (Compile Agent). Connor chỉ ghi verdict vào wiki/reviews/, không được patch/sửa bất kỳ concept file nào.
 §
-Empty `## Notes` section trong concept files là intentional — Julius đã thiết lập Compile Agent template như vậy. Output validator không nên flag empty Notes section.
+Empty `## Notes` intentional (Compile Agent template) — không flag.
 §
 Obsidian display quirk: frontmatter fields (original, sources, compiled_to) cần format `"[[wikilink]]"` (quotes) để Obsidian hiển thị đúng. Wikilinks trong body content dùng bare format `[[wikilink]]`. Đây là lý do format-spec và compile-agent cần quoted format.
 §
@@ -16,4 +16,4 @@ _approval-log.md đã bị xóa intentional (commit 9948ccc). Cross-machine appr
 §
 Raw sub-index convention: raw/<category>/<category>.md với frontmatter type:index level:2 scope:<category> parent:"[[raw]]". Phải update raw/raw.md (sub-indexes) + hygiene scan-script (RAW_SUBFOLDERS) + validator scope lists. Không tạo thư mục riêng ở root.
 §
-OpenClaw (Kara) config: ~/.openclaw/openclaw.json. `openclaw configure` wizard overwrites manual edits — set model/reserveTokensFloor qua wizard. Kara heartbeat/session writer tái tạo memory//state/ ở root KB thay vì .openclaw/memory/ — systemic (lần 3+).
+OpenClaw config: ~/.openclaw/openclaw.json. `openclaw configure` overwrites manual edits. Compile Daily: 9router/oc/mimo-v2.5-free 128k (16k→128k) fallback gpt-5.4/kimi, floor 50000. opencode 401 deprecated, ai-box [1m] 403. Heartbeat tái tạo memory//state/ root (systemic).

@@ -1,7 +1,9 @@
 model:
   default: Knowledge-base
-  provider: custom:9router
+  provider: custom
   base_url: http://localhost:20128/v1
+  api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
+  api_mode: chat_completions
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}

@@ -217,6 +217,7 @@ For complete validation algorithm, format rules, and error handling, see:
 - [validate.py](scripts/validate.py) — reusable validation script (run from KB root)
 - [parse_issues.py](scripts/parse_issues.py) — parses pipe-delimited output: broken target counts, top-N lists, ERROR breakdown
 - [verify_integrity.py](scripts/verify_integrity.py) — cross-file consistency check: report, _action-required.md, MEMORY.md all agree on counts
+- [cron-vs-interactive-delivery.md](references/cron-vs-interactive-delivery.md) — cron auto-delivers final response to home channel; don't `hermes send --to telegram` there (use different target or final response)
 
 ## Post-validation
 
@@ -570,6 +571,26 @@ print("✅ AD-HOC VERIFICATION PASSED")
 - The regex-tolerance pitfall directly above applies here (bold-wrapped labels like `**Pending reports awaiting review:** 1`).
 
 **Observed 2026-08-17:** canonical `verify_integrity.py` passed 5/5/2 AND the `hermes-verify-` ad-hoc script passed; `rm` of the temp script was blocked by the `delete in root path` guard, confirming the leave-it rule.
+
+### Telegram notification blocked in cron mode
+
+`hermes send --to telegram` to the home channel is a no-op in cron. The gateway harness re-routes it:
+
+```
+Skipped send_message to telegram:1370258715. This cron job will already
+auto-deliver its final response to that same target. Put the intended
+user-facing content in your final response instead.
+```
+
+`Post-validation` step 3 says "Send Telegram notification" unconditionally, which is correct for interactive runs but redundant in cron. The current cron contract is **final-response delivery** — your last assistant message is forwarded to Telegram by the runtime.
+
+**Correct handling:**
+- Check `HERMES_HOME/.env` / `hermes send --list` to confirm targets, but don't burn a tool call on a duplicate home-channel send in cron.
+- Embed the formatted notification (Issue count / Files checked / Report path / commands hint) in your final response instead.
+- Only use `hermes send` in cron when targeting a *different* channel than the job's destination.
+- See `references/cron-vs-interactive-delivery.md` for the full split-behavior recipe.
+
+**Observed 2026-08-21:** `HERMES_HOME=/home/julius/knowledge-base/.hermes hermes send --to telegram "Format validation complete..."` returned exit 0 but was skipped; switching to final-response delivery satisfied the requirement without changing the message body.
 
 ---
 

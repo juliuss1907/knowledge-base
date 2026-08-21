@@ -10,7 +10,7 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -50,10 +50,19 @@
 | 🔍 PENDING | 08-17 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-17_format-report.md](2026-08-17_format-report.md) |
 | 🔍 PENDING | 08-17 | Hygiene | 9 (2E+6W+1I) | Review [wiki/reviews/2026-08-17_hygiene-report.md](2026-08-17_hygiene-report.md) |
 | 🔍 PENDING | 08-21 | Format | 466 (73E+393W) | Review [wiki/reviews/2026-08-21_format-report.md](2026-08-21_format-report.md) |
+| 🔍 PENDING | 08-21 | Hygiene | 19 (2E+16W+1I) | Review [wiki/reviews/2026-08-21_hygiene-report.md](2026-08-21_hygiene-report.md) |
 
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-08-21 (23:30)
+
+- **Report:** `wiki/reviews/2026-08-21_hygiene-report.md`
+- **Summary:** 19 issues (2E+16W+1I). 53611 paths checked. Recurring root orphans `memory/` AND `state/` — **5th leak in 6 runs** (08-14, 08-16, 08-17, 08-21; 08-15 single-orphan regression). `memory/` grew 6→16 files (+10 WARNINGs) across 08-18/08-19/08-21, all **git-tracked** (`git ls-files memory/` 16 entries, `git check-ignore` → not ignored) — survives `vault backup` auto-commits (~every 5 min). `state/` still empty phantom (untracked).
+- **Delta from 08-17 (previous hygiene):** +10 issues (9→19), +33 paths (53578→53611) — entire delta is `memory/` accumulation, no new folder types or naming violations. `state/` unchanged.
+- **Actions needed:** Root-cause fix — redirect the session/heartbeat/fetch writer output path from KB root `memory/` → `.openclaw/memory/`, then `git rm -r memory/` + commit (deletion alone futile — git-tracked). `rmdir state/`. Escalated as [SYSTEMATIC VIOLATION].
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-21 (23:20)
 
@@ -222,4 +231,4 @@
 
 ---
 
-*System status: 8 reports ✅ APPROVED by Julius 2026-08-16. 08-17 Format + Hygiene reports 🔍 PENDING. 08-21 Format report 🔍 PENDING — clean ERROR streak broken (0→73). Fix Agent cần regenerate tag indexes. memory/state/ dọn inline.*
+*System status: 8 reports ✅ APPROVED by Julius 2026-08-16. 08-17 Format + Hygiene + 08-21 Format + Hygiene reports 🔍 PENDING (4 pending). Fix Agent cần regenerate tag indexes + redirect memory/ writer.*

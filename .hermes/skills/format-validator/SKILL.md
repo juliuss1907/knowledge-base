@@ -237,6 +237,7 @@ After successful validation run:
    - Update "Pending reports awaiting review" count (accounting for any reconciled approvals)
 
 3. **Send Telegram notification:**
+   - **Interactive / on-demand:** use `hermes send`:
    ```
    Format validation complete
    - Issues found: N (X ERROR, Y WARNING, Z INFO)
@@ -246,6 +247,7 @@ After successful validation run:
    Review: wiki/reviews/_action-required.md
    Commands: 'approve format' or 'show format'
    ```
+   - **Cron mode:** do NOT call `hermes send --to telegram` to the home channel — the cron runtime auto-delivers your final response to Telegram (`Skipped send_message to telegram:... This cron job will already auto-deliver its final response`). Put the notification text in your final response instead (observed 2026-08-21: `hermes send --to telegram` exited 0 but was skipped). Only use `hermes send` in cron if targeting a *different* channel. See pitfall "Telegram notification blocked in cron mode".
 
 4. **Log to MEMORY.md:**
    ```markdown

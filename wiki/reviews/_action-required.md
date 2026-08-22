@@ -4,14 +4,14 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-21
+**Last updated:** 2026-08-22
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
-**Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
+**Pending reports awaiting review:** 1
+**Last batch applied:** 14 reports (08-13 through 08-21) — **APPLIED** 2026-08-22 14:40 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
@@ -51,19 +51,35 @@
 | ✅ APPLIED | 08-17 | Hygiene | 9 (2E+6W+1I) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-17_hygiene-report.md` |
 | ✅ APPLIED | 08-21 | Format | 466 (73E+393W) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-21_format-report.md` |
 | ✅ APPLIED | 08-21 | Hygiene | 19 (2E+16W+1I) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-21_hygiene-report.md` |
+| 🔲 PENDING | 08-22 | Output | 8 (1E+4W+3I) | Awaiting Julius review — `wiki/reviews/2026-08-22_output-report.md` |
 
 ---
 
 ## Pending Reports
 
-_None — tất cả reports đã được apply và archive._
+**Pending reports awaiting review:** 1
 
-**Batch gần nhất:** 14 reports (08-13 → 08-21) — **APPLIED** 2026-08-22 14:40 by Fix Agent:
+### 🔍 Output Validation — 2026-08-22 (23:00)
+
+- **Report:** `wiki/reviews/2026-08-22_output-report.md`
+- **Summary:** 21 file mới (5 sources + 16 concepts). 8 issues: 1 ERROR — `incentives-mental-model.md` link sai slug `src_the-power-of-incentives-hidden-forces-shape-behavior` (file thật: `src_incentives-hidden-forces.md`, link không bao giờ resolve); 2 WARNING typo trong file mới mà quick-scan miss vì case-sensitive regex — "Ngườii" ×2 (`second-order-thinking.md` lines 30, 44) và "bậce" (`src_the-art-of-strategic-thinking.md` line 24); 2 WARNING systemic carry-over — double-i còn ~26 instances/18 file cũ + capital-I còn ~18 instances/14 file cũ từ batch trước 08-06; 3 INFO (17 forward-reference targets hợp lệ, duplicate sub_tag `[opinion, opinion]` trong compounding-effect.md, source paywalled đã disclose đúng).
+- **Actions needed:** (1) Fix ERROR: sửa 2 link thành `[[src_incentives-hidden-forces]]`; (2) sed "Ngườii"→"Người" và "bậce"→"bậc"; (3) quét sed carry-over double-i + capital-I trên 32 file cũ; (4) dedupe sub_tag compounding-effect.md
+- **Status:** pending
+
+### Batch gần nhất: 14 reports (08-13 → 08-21) — APPLIED 2026-08-22 14:40 by Fix Agent
+
 - Format 08-21: regen 24 L3 tag files theo index-spec §5.3 + viết lại `wiki/tag/tag.md` (L2 frontmatter đầy đủ) — 73 ERROR resolved
 - Hygiene 08-21: `memory/` dọn sạch + redirect root cause + `.gitignore` guard; `state/` removed — 19 issues resolved
 - Output 08-16: typo "lực chọn" → "lựa chọn" trong `ai-text-watermarking.md`
 - Index Agent template đã vá (SKILL.md + build_index.py) — 21:00 sẽ không re-break
 
-**Open decisions — RESOLVED 2026-08-22 15:35 (Julius approved merge):**
+### Open decisions — RESOLVED 2026-08-22 15:35 (Julius approved merge)
+
 - ✅ Merged `costly-signaling` → `costly-signal` (giữ tên 12 backlinks)
 - ✅ Merged `identity-detachment` → `identity-transformation` (giữ tên 9 backlinks)
+
+---
+
+## Applied Reports
+
+_Archive đầy đủ tại `wiki/reviews/archive/`. Bảng Summary phía trên là bản ghi chính thức của tất cả reports đã apply._

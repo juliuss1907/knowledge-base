@@ -1135,3 +1135,11 @@ Verify: 0 broken wikilink tới slug đã xóa; concepts 527 → 525.
 ## 2026-08-22T16:22:00+07:00 — Duplicate ingest denied
 
 Julius gửi lại link `https://x.com/0x_Ito/status/2089360096899760632` (yêu cầu dùng agent-reach). Đã ingest từ 2026-08-19 (`raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md`), compiled 2026-08-22 sáng (`src_3-ways-to-get-rich`). Fetch qua twitter-cli OK — articleText khớp 100% với file lưu. Không tạo duplicate.
+
+## 2026-08-22T16:30:00+07:00 — Ingest schedule-maxxing
+
+Julius gửi link `https://x.com/kimiabuilds/status/2089037097751699944` (yêu cầu dùng agent-reach).
+- Fetch qua twitter-cli: X article "'Schedule Maxxing': how to become ridiculously productive" — Kimia (@kimiabuilds), publish 16-08, part of 10-part series
+- Đã lưu `raw/posts/2026-08-16_schedule-maxxing.md`, status: unprocessed — nguyên văn đầy đủ (7 KB), frontmatter type: post
+- Cập nhật `raw/posts/posts.md`: item mới + stats (21 files, 20 processed / 1 unprocessed, by-date 7 tuần này)
+- CompileAgent xử lý lúc 08:00 mai hoặc on-demand

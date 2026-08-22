@@ -1,10 +1,11 @@
 # Format Validation — 2026-08-16
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius
 **Approved date:** 2026-08-16
 **Issues found:** 393
 **Created:** 2026-08-16 23:15
+**Applied:** 2026-08-22 14:40 by fix-agent (OpenClaw)
 **Validator:** format-validator
 **Files checked:** 923 (525 concepts + 169 sources + 34 indexes + 195 topics)
 **ERRORs**: 0

@@ -1,9 +1,10 @@
 # Hygiene Inspection — 2026-08-21
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius
 **Issues found:** 19
 **Created:** 2026-08-21 23:30:42
+**Applied:** 2026-08-22 14:40 by fix-agent (OpenClaw)
 **Validator:** hygiene-inspector
 
 **Paths checked:** 53611

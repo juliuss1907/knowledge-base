@@ -3,6 +3,7 @@
 **Status:** issues-found
 **Issues found:** 1 ERROR, 0 WARNING, 1 INFO
 **Created:** 2026-08-15 23:45:00
+**Applied:** 2026-08-22 14:40 by fix-agent (OpenClaw)
 **Validator:** hygiene-inspector
 
 **Paths checked:** 53,562

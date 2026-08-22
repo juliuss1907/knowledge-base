@@ -1,11 +1,11 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-22 10:30 (Asia/Saigon)
+> Last updated: 2026-08-22 14:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_OK** — mọi check sạch. Không có gì mới so với 10:00. 2 carry-over đã biết vẫn chờ Fix Agent.
+**HEARTBEAT_OK** — mọi check sạch. Sample backlinks đủ. Carry-over không đổi: Fix Agent vẫn chưa chạy, deadline trước 21:00 tối nay.
 
 ## Checks Performed
 
@@ -13,8 +13,8 @@
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file `#agent/inbox` |
 | Raw backlog | ✅ Clean | 0 files `status: unprocessed` |
-| Concept backlinks | ✅ Clean | Sample 2 files: [[memory-reconstruction]] (2 backlinks), [[prisoners-dilemma]] (5 backlinks) |
-| Pending reviews | ✅ Clean | 0 pending — Julius approve 12 reports ngày 08-21 |
+| Concept backlinks | ✅ Clean | Sample 2 files: [[repeated-games]] (Related + Sources đủ), [[200-day-sma-risk-line]] (Related + Sources đủ) |
+| Pending reviews | ✅ Clean | 0 pending — queue 08-21 đã approved, chờ Fix Agent chạy |
 
 ## System State
 
@@ -37,14 +37,14 @@
    - ⚠️ Deadline: Index update chạy 21:00 tối nay — nếu Fix Agent không sửa template SKILL.md trước đó, regen sẽ re-break
    - Không cần action mới từ Julius
 
-## Recent Actions (since 10:00)
+## Recent Actions (since 14:00)
 
-- Không có — hệ thống idle, sạch.
+- Không có — hệ thống idle, sạch. Compile 2 article sáng nay đã processed xong (09:39).
 
 ## Next Scheduled Actions
 
 - **Fix Agent: chạy approved fixes TRƯỚC 21:00** (24 L3 tag files + memory/ writer redirect) — ưu tiên cao nhất
-- Index update: 21:00 tối nay
+- Index update: 21:00 tối nay — ⚠️ Fix Agent phải sửa template trước đó nếu không regen re-break
 - Compile: 08:00 ngày mai
 
 ---

@@ -1,34 +1,33 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-22 18:00 (Asia/Saigon)
+> Last updated: 2026-08-22 19:00 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_OK** — 3/4 check sạch. 1 item mới ingest chiều nay, chờ compile sáng mai.
+**HEARTBEAT_OK** — 4/4 check sạch. Không có issue mới.
 
 ## Checks Performed
 
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
-| Raw backlog | ⚠️ 1 mới | `raw/posts/2026-08-16_schedule-maxxing.md` — ingest 16:31 hôm nay, status unprocessed. Chưa quá 24h → không phải backlog |
-| Concept backlinks | ✅ Clean | Sample 2 files: [[mental-representation-language]], [[decoding-messages-language]] — đều có src_ links |
-| Pending reviews | ✅ Clean | `_action-required.md`: 0 pending, toàn bộ 14 reports đã APPLIED + archived |
+| Raw backlog | ✅ Clean | 1 file unprocessed (`raw/posts/2026-08-16_schedule-maxxing.md`, ingest 16:31 hôm nay) — trong window 24h, không phải backlog. Các file cũ >24h đều `status: processed` |
+| Concept backlinks | ✅ Clean | Sample 2 files: [[mental-representation-language]], [[autobiographical-memory-systems]] — đều có src_ links |
+| Pending reviews | ✅ Clean | `_action-required.md`: 0 pending, toàn bộ reports đã APPLIED |
 
 ## System State
 
 | Metric | Count | Δ since last | Status |
 |--------|-------|--------------|--------|
-| **raw/** unprocessed | 1 | +1 | ✅ OK — file mới hôm nay, trong window |
-| **wiki/concepts/** | 525 | — | ổn định |
+| **raw/** unprocessed | 1 | 0 | ✅ OK — file mới hôm nay, chờ compile |
+| **wiki/concepts/** | 525 | 0 | ổn định |
+| **wiki/sources/** | 174 | 0 | ổn định |
 | Root orphans (`memory/`, `state/`) | 0 | 0 | vẫn sạch |
 
 ## Issues
 
 Không có issue nào cần escalate.
-
-- File mới `schedule-maxxing.md` nằm trong window 24h — CompileAgent xử lý lúc 08:00 mai.
 
 ## Next Scheduled Actions
 

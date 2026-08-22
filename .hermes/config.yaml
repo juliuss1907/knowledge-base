@@ -1,7 +1,9 @@
 model:
-  default: ox-alpha-free
-  provider: opencode-go
-  base_url: https://opencode.ai/zen/go/v1
+  default: oc-zen/ox-alpha-free
+  provider: custom
+  base_url: http://localhost:20128/v1
+  api_mode: chat_completions
+  api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -753,7 +755,7 @@ custom_providers:
   - name: 9router
     base_url: http://localhost:20128/v1
     api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
-    model: Knowledge-base
+    model: oc-zen/ox-alpha-free
     api_mode: chat_completions
 plugins:
   enabled: []

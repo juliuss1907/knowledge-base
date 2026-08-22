@@ -1097,3 +1097,23 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - Tags: main=productivity ×5; sub=[strategy/psychology/opinion/research]; topics: strategic-thinking, better-decisions, leverage-wealth, skill-acquisition ×2, neuroplasticity
 - Raw frontmatter: 5 file → status: processed, compiled_at: 2026-08-22
 - raw/ unprocessed còn lại: 0
+
+## 2026-08-22T14:40:00+07:00 — Applied fixes (Fix Agent)
+
+**Trigger:** Julius "H apply fix nhé" 14:24. Batch: 14 reports approved 08-13 → 08-21.
+
+| Report | Fixes applied |
+|---|---|
+| Format ×7 (08-13→08-21) | Regen 24 file `wiki/tag/*.md` L3 theo index-spec §5.3 (`## Parent`, `## Stats`, `## Files with this tag`, `## Co-occurring tags`; items merge main+sub alphabetically) — 73 ERROR resolved. `wiki/tag/tag.md` viết lại full L2 frontmatter (`level/scope/parent/auto_generated/items_managed_by`) + Overview/Parent/Stats/Items/Notes |
+| Hygiene ×5 (08-13→08-21) | `memory/` root orphan: dọn sạch (file cuối 2026-08-22-0015.md move sang `.openclaw/memory/`), thêm `.gitignore` guard `memory/` + `state/`. `state/` rmdir. Root cause xác định: OpenClaw runtime tự ghi session memory vào `<workspace>/memory/` (dist/cli.runtime: `path.join(workspaceDir, "memory")`) — gitignore là mitigation vững nhất hiện có |
+| Output 08-16 | Typo "lực chọn" → "lựa chọn" trong `wiki/concepts/ai-text-watermarking.md` |
+
+**Root-cause prevention:** Vá template Index Agent:
+- `.openclaw/skills/index-agent/SKILL.md` — template tag index đổi sang spec §5.3 kèm cảnh báo regression
+- `.openclaw/skills/index-agent/build_index.py` — writer emit đúng 4 section + merged list; py_compile OK
+
+**Archive:** 14 reports → `wiki/reviews/archive/2026-08/`, status: applied. `_action-required.md` reset — 0 pending.
+
+**Backup:** `wiki/drafts/fixagent-regen-tags.py` (script regen dùng cho batch này).
+
+**Open INFO (chờ Julius):** merge hay giữ `costly-signaling` vs `costly-signal`; `identity-detachment` vs `identity-transformation`.

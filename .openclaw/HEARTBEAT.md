@@ -1,50 +1,41 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-22 14:30 (Asia/Saigon)
+> Last updated: 2026-08-22 15:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_OK** — mọi check sạch. Sample backlinks đủ. Carry-over không đổi: Fix Agent vẫn chưa chạy, deadline trước 21:00 tối nay.
+**HEARTBEAT_OK** — mọi check sạch. Carry-over đã được giải quyết: Fix Agent đã chạy (~15:00–15:18), index regen xong, root orphans dọn sạch.
 
 ## Checks Performed
 
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file `#agent/inbox` |
-| Raw backlog | ✅ Clean | 0 files `status: unprocessed` |
-| Concept backlinks | ✅ Clean | Sample 2 files: [[repeated-games]] (Related + Sources đủ), [[200-day-sma-risk-line]] (Related + Sources đủ) |
-| Pending reviews | ✅ Clean | 0 pending — queue 08-21 đã approved, chờ Fix Agent chạy |
+| Raw backlog | ✅ Clean | 0 files `status: unprocessed` toàn raw/ |
+| Concept backlinks | ✅ Clean | Sample 2 files: [[memory-reconstruction]], [[autobiographical-memory-systems]] — đều có src_ links (2 mỗi file) |
+| Pending reviews | ✅ Clean | 0 pending trong `_action-required.md` |
 
 ## System State
 
 | Metric | Count | Δ since last | Status |
 |--------|-------|--------------|--------|
 | **raw/** unprocessed | 0 | 0 | ✅ Sạch |
-| **wiki/concepts/** | 527 | 0 | ✅ Ổn định |
-| **wiki/tag/** | 24 L3 files | 0 | ⚠️ Chờ Fix Agent regen (xem Issues) |
-| **wiki/reviews/** pending | 0 | 0 | ✅ Tất cả đã approved |
+| **wiki/tag/** L3 files có `## Parent` | 25/25 | +25 | ✅ Fix Agent đã áp dụng |
+| **wiki/tag/tag.md** `level` field | ✅ có (`level: 2`) | fixed | ✅ Regen 15:18 |
+| Root orphans | 0 | −2 | ✅ `memory/` và `state/` tại KB root đã bị xóa |
 
-## Issues (priority order — carry-over, không đổi)
+## Issues
 
-1. **`memory/` folder tại KB root — 1 file (`2026-08-22-0015.md`), không tăng mới**
-   - Không có file mới kể từ 00:15 → writer có vẻ đã ngừng ghi sai chỗ
-   - Fix Agent vẫn cần redirect writer + dọn file này
-   - Không cần action mới từ Julius
+Không có. Carry-over từ các nhịp trước đã đóng:
 
-2. **Index Agent template regression — đã approved 08-21, Fix Agent CHƯA chạy**
-   - Đã verify: 24 L3 tag files vẫn thiếu `## Parent` / `## Stats` / `## Files with this tag`; `wiki/tag/tag.md` vẫn thiếu `level`
-   - ⚠️ Deadline: Index update chạy 21:00 tối nay — nếu Fix Agent không sửa template SKILL.md trước đó, regen sẽ re-break
-   - Không cần action mới từ Julius
-
-## Recent Actions (since 14:00)
-
-- Không có — hệ thống idle, sạch. Compile 2 article sáng nay đã processed xong (09:39).
+1. ~~Fix Agent chưa chạy~~ → Đã chạy. 25/25 tag files có `## Parent`, `tag.md` có `level`. Index regen 15:18 dùng template mới.
+2. ~~`memory/` + `state/` tại KB root~~ → Cả hai đã biến mất.
+3. ~~Index regen re-break risk trước 21:00~~ → Đã gỡ mìn. Template SKILL.md + build_index.py sửa trước khi regen.
 
 ## Next Scheduled Actions
 
-- **Fix Agent: chạy approved fixes TRƯỚC 21:00** (24 L3 tag files + memory/ writer redirect) — ưu tiên cao nhất
-- Index update: 21:00 tối nay — ⚠️ Fix Agent phải sửa template trước đó nếu không regen re-break
+- Index update: 21:00 tối nay — an toàn, template đã fix
 - Compile: 08:00 ngày mai
 
 ---

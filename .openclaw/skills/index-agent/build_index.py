@@ -225,24 +225,39 @@ for tag in sorted(tag_index):
     lines.append("")
     lines.append("---")
     lines.append("")
+    lines.append("## Parent")
+    lines.append("")
+    lines.append("- [[tag]]")
+    lines.append("")
+    lines.append("## Stats")
+    lines.append("")
+    total_files = len(concepts) + len(sources)
+    lines.append(f"- Total files: {total_files}")
+    lines.append(f"- Sources: {len(sources)}")
+    lines.append(f"- Concepts: {len(concepts)}")
+    lines.append(f"- Last updated: {today}")
+    lines.append("")
+    lines.append("## Files with this tag")
+    lines.append("")
 
-    if concepts:
-        lines.append(f"## Concepts ({len(concepts)})")
-        lines.append("")
-        for fobj in concepts:
-            main = f"#{fobj['main_tag']}"
-            sub = ", ".join(f"#{s}" for s in fobj['sub_tags']) if fobj['sub_tags'] else "none"
-            lines.append(f"- [[{fobj['slug']}]] — main: {main}, sub: [{sub}], topic: {fobj['topic']}")
-        lines.append("")
-
-    if sources:
-        lines.append(f"## Sources ({len(sources)})")
-        lines.append("")
-        for fobj in sources:
-            main = f"#{fobj['main_tag']}"
-            sub = ", ".join(f"#{s}" for s in fobj['sub_tags']) if fobj['sub_tags'] else "none"
-            lines.append(f"- [[{fobj['slug']}]] — main: {main}, sub: [{sub}], topic: {fobj['topic']}")
-        lines.append("")
+    # Merged alphabetical list (concepts + sources) per index-spec.md §5.3/§5.4
+    merged = sorted(
+        [(fobj["slug"], fobj, "concept") for fobj in concepts]
+        + [(fobj["slug"], fobj, "source") for fobj in sources],
+        key=lambda x: x[0],
+    )
+    for slug, fobj, ftype in merged:
+        main = f"#{fobj['main_tag']}"
+        sub = ", ".join(f"#{s}" for s in fobj['sub_tags']) if fobj['sub_tags'] else None
+        topic = fobj.get("topic")
+        entry = f"- [[{slug}]] — {fobj.get('title', slug.replace('src_', '').replace('-', ' ').title())} ({ftype}, main: {main}"
+        if sub:
+            entry += f", sub: [{sub}]"
+        if topic:
+            entry += f", topic: {topic}"
+        entry += ")"
+        lines.append(entry)
+    lines.append("")
 
     if co_tags:
         lines.append("## Co-occurring tags")

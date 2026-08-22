@@ -83,17 +83,26 @@ Last updated: YYYY-MM-DD HH:MM:SS
 
 ---
 
-## Concepts (N)
+## Parent
 
-- [[concept-slug-1]] — main: #<main>, sub: [#<sub1>, #<sub2>], topic: <topic>
-- [[concept-slug-2]] — main: #<main>, sub: [#<sub1>], topic: <topic>
+- [[tag]]
+
+## Stats
+
+- Total files: N
+- Sources: X
+- Concepts: Y
+- Last updated: YYYY-MM-DD
+
+## Files with this tag
+
+⚠️ REQUIRED SECTION ORDER per index-spec.md §5.3: `## Parent` → `## Stats` → `## Files with this tag` → `## Co-occurring tags`. Do NOT emit `## Concepts` / `## Sources` headings in L3 tag files — Format Validator flags them as ERROR (regression 08-11, 08-19, fixed 08-22).
+
+- [[concept-slug-1]] — Concept Slug 1 (concept, main: #<main>, sub: [#<sub1>, #<sub2>], topic: <topic>)
+- [[src_slug-1]] — Src Slug 1 (source, main: #<main>, sub: [#<sub1>, #<sub2>], topic: <topic>)
 - ...
 
-## Sources (N)
-
-- [[src_slug-1]] — main: #<main>, sub: [#<sub1>, #<sub2>], topic: <topic>
-- [[src_slug-2]] — main: #<main>, sub: [#<sub1>], topic: <topic>
-- ...
+(All concepts + sources carrying this tag as main OR sub, merged alphabetically)
 
 ## Co-occurring tags
 

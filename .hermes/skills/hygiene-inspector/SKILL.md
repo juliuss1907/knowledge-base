@@ -472,6 +472,8 @@ import re
 m = re.search(r'Pending reports awaiting review:\*{0,2}\s*(\d+)', content)
 count = int(m.group(1)) if m else None
 ```
+**⚠️ Pitfall: Verify-script f-strings cannot contain backslashes (Python ≤3.11).** `f"got {field(r'\*\*Status')!r}"` → `SyntaxError: f-string expression part cannot include a backslash`. Compute the value into a variable first, then interpolate (`"got %r" % val` or plain f-string without escapes). Hit 2026-08-22 while writing the ad-hoc verify script.
+
 **⚠️ Pitfall: Bold markers also wrap the REPORT header fields, not just the action file.** The report front-matter is `**Issues found:** 9`, `**Paths checked:** 53578`, `**Status:** pending`, `**Created:** ...` — `**` sits between each label and its value. A naive `"Issues found: 9" in txt` or regex `Paths checked: (\d+)` will FAIL against the actual report (the `**` block the match). Always use the `\*{0,2}` regex form for ANY report field you assert on in the verify script, not only the action-file pending count. Proven 2026-08-17: ad-hoc cron verify initially returned VERIFY FAIL (issue-count + paths_checked checks) purely because the regex didn't allow the bold markers; content itself was correct.
 
 See `references/scan-script.py` for a known-good scan template and `references/full-tree-scan-notes.md` for pitfalls found in real KB runs.

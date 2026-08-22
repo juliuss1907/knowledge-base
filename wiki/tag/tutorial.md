@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#tutorial`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -101,7 +101,7 @@ Last updated: 2026-08-22 15:47:41
 - [[src_the-art-of-elaboration]] — The Art Of Elaboration (source, main: #productivity, sub: [#tutorial, #psychology], topic: learning-elaboration-technique)
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source, main: #economic, sub: [#opinion, #tutorial], topic: systematic-trading-transition)
 - [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source, main: #productivity, sub: [#tutorial, #tools], topic: writing-content-system)
-- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3b1b (source, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
+- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3B1B (source, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 - [[src_why-time-felt-slower-when-we-were-kids]] — Why Time Felt Slower When We Were Kids (source, main: #health, sub: [#psychology, #research, #tutorial], topic: time-perception-childhood)
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source, main: #productivity, sub: [#tutorial, #opinion], topic: simplicity-psychology)
 - [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source, main: #ai, sub: [#opinion, #tutorial, #coding], topic: future-proof-skills)
@@ -118,9 +118,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#tutorial`:
-
-- [[productivity]] — 39 co-occurrences
-- [[tools]] — 25 co-occurrences
-- [[ai]] — 23 co-occurrences
-- [[research]] — 22 co-occurrences
-- [[psychology]] — 20 co-occurrences
+- `#productivity` (39 files)
+- `#tools` (25 files)
+- `#ai` (23 files)
+- `#research` (22 files)
+- `#psychology` (20 files)

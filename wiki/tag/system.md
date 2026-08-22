@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#system`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -29,7 +29,7 @@ Last updated: 2026-08-22 15:47:41
 
 ## Files with this tag
 
-- [[100x-token]] — 100x Token (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
+- [[100x-token]] — 100X Token (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
 - [[ai-evals]] — Ai Evals (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
 - [[ai-transformation]] — Ai Transformation (concept, main: #ai, sub: [#system, #tools], topic: ai-token-workforce)
 - [[alignment-engineering]] — Alignment Engineering (concept, main: #ai, sub: [#system, #research], topic: ai-engineering)
@@ -70,7 +70,7 @@ Last updated: 2026-08-22 15:47:41
 - [[src_tao-ket-qua-dinh-luong-duoc]] — Tao Ket Qua Dinh Luong Duoc (source, main: #productivity, sub: [#system, #coding], topic: measurable-outcomes)
 - [[src_the-seed-and-the-machine]] — The Seed And The Machine (source, main: #ai, sub: [#vibecode, #system, #research], topic: seed-vs-machine-architecture)
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
-- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source, main: #ai, sub: [#opinion, #tools, #system], topic: ai-token-workforce)
+- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16Z (source, main: #ai, sub: [#opinion, #tools, #system], topic: ai-token-workforce)
 - [[systems-thinking-limitations]] — Systems Thinking Limitations (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[taste-holders]] — Taste Holders (concept, main: #system, sub: [#automation, #opinion], topic: ai-productivity)
 - [[token-looping]] — Token Looping (concept, main: #ai, sub: [#system, #opinion], topic: ai-token-workforce)
@@ -81,9 +81,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#system`:
-
-- [[psychology]] — 20 co-occurrences
-- [[research]] — 18 co-occurrences
-- [[opinion]] — 15 co-occurrences
-- [[tools]] — 10 co-occurrences
-- [[ai]] — 9 co-occurrences
+- `#psychology` (20 files)
+- `#research` (18 files)
+- `#opinion` (15 files)
+- `#tools` (10 files)
+- `#ai` (9 files)

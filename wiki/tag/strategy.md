@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#strategy`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -51,9 +51,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#strategy`:
-
-- [[productivity]] — 18 co-occurrences
-- [[psychology]] — 11 co-occurrences
-- [[opinion]] — 8 co-occurrences
-- [[system]] — 1 co-occurrence
-- [[research]] — 1 co-occurrence
+- `#productivity` (18 files)
+- `#psychology` (11 files)
+- `#opinion` (8 files)
+- `#research` (1 files)
+- `#system` (1 files)

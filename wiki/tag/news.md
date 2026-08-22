@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#news`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -45,9 +45,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#news`:
-
-- [[opinion]] — 7 co-occurrences
-- [[ai]] — 5 co-occurrences
-- [[tech]] — 3 co-occurrences
-- [[tools]] — 3 co-occurrences
-- [[economic]] — 2 co-occurrences
+- `#opinion` (7 files)
+- `#ai` (5 files)
+- `#tech` (3 files)
+- `#tools` (3 files)
+- `#hack` (2 files)

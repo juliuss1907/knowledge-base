@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#productivity`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -330,9 +330,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#productivity`:
-
-- [[psychology]] — 207 co-occurrences
-- [[opinion]] — 116 co-occurrences
-- [[research]] — 87 co-occurrences
-- [[tutorial]] — 39 co-occurrences
-- [[automation]] — 21 co-occurrences
+- `#psychology` (207 files)
+- `#opinion` (114 files)
+- `#research` (87 files)
+- `#tutorial` (39 files)
+- `#automation` (21 files)

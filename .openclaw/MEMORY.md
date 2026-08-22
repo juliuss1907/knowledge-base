@@ -1168,3 +1168,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Part 2 của series Skills Map — deep-dive skill #1: LLM foundations, grounding models with data, agentic systems, evaluation-driven development, operating in production, ML foundations
 - Lưu `raw/posts/2026-08-21_ai-skills-map-building-deploying-ai-apps.md`, status: unprocessed
 - Cập nhật `raw/posts/posts.md`: 23 files, 3 unprocessed
+
+## 2026-08-22 21:16:11 +07:00 — Indexed
+- Scanned: 525 concepts + 174 sources = 699 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 200
+- Orphans deleted: 1
+- Errors: 0
+- Invalid tags flagged: 0

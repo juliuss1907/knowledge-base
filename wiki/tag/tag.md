@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Master index of all tags in the Knowledge Base.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:19:34
 
 ---
 
@@ -29,7 +29,6 @@ Master index of all tags used in the Knowledge Base. Tracks statistics, files pe
 - Total tags: 24
 - Main tags: 9
 - Sub tags: 15
-- Most used: #productivity (297), #psychology (295), #research (262)
 - Last updated: 2026-08-22
 
 ## Items
@@ -67,3 +66,5 @@ Master index of all tags used in the Knowledge Base. Tracks statistics, files pe
 - [[vibecode]]
 
 ## Notes
+
+L2 master — không tự sinh lại nội dung Items; chỉ Index Agent bổ sung tag mới. `build_index.py` phải giữ nguyên file này (không xóa như orphan).

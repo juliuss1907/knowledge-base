@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#health`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -84,9 +84,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#health`:
-
-- [[psychology]] — 41 co-occurrences
-- [[opinion]] — 13 co-occurrences
-- [[research]] — 12 co-occurrences
-- [[tutorial]] — 9 co-occurrences
-- [[productivity]] — 7 co-occurrences
+- `#psychology` (41 files)
+- `#opinion` (13 files)
+- `#research` (12 files)
+- `#tutorial` (9 files)
+- `#productivity` (7 files)

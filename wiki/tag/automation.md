@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#automation`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -70,7 +70,7 @@ Last updated: 2026-08-22 15:47:41
 - [[hindsight-skill]] — Hindsight Skill (concept, main: #ai, sub: [#tools, #automation], topic: hermes-personal-analyst-setup)
 - [[human-premium]] — Human Premium (concept, main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age)
 - [[impulse-response-gap]] — Impulse Response Gap (concept, main: #productivity, sub: [#psychology, #automation], topic: dan-koe-mind-game)
-- [[last30days-skill]] — Last30days Skill (concept, main: #ai, sub: [#tools, #automation], topic: hermes-personal-analyst-setup)
+- [[last30days-skill]] — Last30Days Skill (concept, main: #ai, sub: [#tools, #automation], topic: hermes-personal-analyst-setup)
 - [[loop-engineering]] — Loop Engineering (concept, main: #ai, sub: [#automation, #coding], topic: loop-engineering)
 - [[loop-ownership]] — Loop Ownership (concept, main: #system, sub: [#automation, #research], topic: ai-productivity)
 - [[multi-agent-risk-review]] — Multi Agent Risk Review (concept, main: #ai, sub: [#automation, #tools], topic: ai-trading-agent-claude-code)
@@ -122,9 +122,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#automation`:
-
-- [[tools]] — 58 co-occurrences
-- [[ai]] — 57 co-occurrences
-- [[productivity]] — 21 co-occurrences
-- [[tutorial]] — 16 co-occurrences
-- [[psychology]] — 13 co-occurrences
+- `#tools` (58 files)
+- `#ai` (57 files)
+- `#productivity` (21 files)
+- `#tutorial` (16 files)
+- `#psychology` (13 files)

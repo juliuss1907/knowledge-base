@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#politic`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -54,9 +54,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#politic`:
-
-- [[research]] — 16 co-occurrences
-- [[opinion]] — 12 co-occurrences
-- [[geopolitics]] — 4 co-occurrences
-- [[hack]] — 4 co-occurrences
-- [[news]] — 1 co-occurrence
+- `#research` (16 files)
+- `#opinion` (12 files)
+- `#hack` (4 files)
+- `#geopolitics` (4 files)
+- `#news` (1 files)

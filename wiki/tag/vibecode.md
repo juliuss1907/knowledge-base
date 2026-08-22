@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#vibecode`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -42,9 +42,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#vibecode`:
-
-- [[ai]] — 9 co-occurrences
-- [[tools]] — 4 co-occurrences
-- [[system]] — 3 co-occurrences
-- [[opinion]] — 2 co-occurrences
-- [[research]] — 2 co-occurrences
+- `#ai` (9 files)
+- `#tools` (4 files)
+- `#system` (3 files)
+- `#research` (2 files)
+- `#opinion` (2 files)

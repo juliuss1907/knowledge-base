@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -257,7 +257,7 @@ Last updated: 2026-08-22 15:47:41
 - [[src_why-we-complicate-life-productive-peter]] — Why We Complicate Life Productive Peter (source, main: #productivity, sub: [#tutorial, #opinion], topic: simplicity-psychology)
 - [[src_will-ai-replace-systems-thinking]] — Will Ai Replace Systems Thinking (source, main: #ai, sub: [#opinion, #research], topic: ai-systems-thinking-augmentation)
 - [[src_you-escape-competition-by-figuring-out-who-you-are]] — You Escape Competition By Figuring Out Who You Are (source, main: #productivity, sub: [#psychology, #opinion], topic: authenticity-competition)
-- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source, main: #ai, sub: [#opinion, #tools, #system], topic: ai-token-workforce)
+- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16Z (source, main: #ai, sub: [#opinion, #tools, #system], topic: ai-token-workforce)
 - [[src_you-need-a-mindset-shift-on-priorities]] — You Need A Mindset Shift On Priorities (source, main: #productivity, sub: [#psychology, #opinion], topic: pareto-principle-priorities)
 - [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source, main: #ai, sub: [#opinion, #tutorial, #coding], topic: future-proof-skills)
 - [[state-capacity-theory]] — State Capacity Theory (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
@@ -285,9 +285,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#opinion`:
-
-- [[productivity]] — 116 co-occurrences
-- [[psychology]] — 109 co-occurrences
-- [[research]] — 61 co-occurrences
-- [[ai]] — 43 co-occurrences
-- [[economic]] — 42 co-occurrences
+- `#productivity` (114 files)
+- `#psychology` (109 files)
+- `#research` (61 files)
+- `#ai` (43 files)
+- `#economic` (42 files)

@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#geopolitics`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -41,7 +41,6 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#geopolitics`:
-
-- [[opinion]] — 5 co-occurrences
-- [[politic]] — 4 co-occurrences
-- [[economic]] — 4 co-occurrences
+- `#opinion` (5 files)
+- `#politic` (4 files)
+- `#economic` (4 files)

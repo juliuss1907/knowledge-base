@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: game-theory-comeback
 auto_generated: true
-last_updated: 2026-08-19
+last_updated: 2026-08-22
 ---
 
 # Topic: game-theory-comeback
 
 Auto-generated index of all content with topic `game-theory-comeback`.
 
-Last updated: 2026-08-19 22:18:24
+Last updated: 2026-08-22 21:16:11
 
 ---
 
-## Concepts (6)
+## Concepts (5)
 
-- [[comeback-strategy]] — main: #productivity — sub: [#strategy, #psychology]
-- [[iterated-game-theory]] — main: #productivity — sub: [#strategy, #psychology, #opinion]
-- [[sunk-cost-fallacy]] — main: #productivity — sub: [#psychology, #strategy]
-- [[survival-first]] — main: #productivity — sub: [#strategy, #psychology]
-- [[variance-in-loss]] — main: #productivity — sub: [#strategy, #psychology]
+- [[comeback-strategy]] — main: #productivity, sub: [#strategy, #psychology]
+- [[iterated-game-theory]] — main: #productivity, sub: [#strategy, #psychology, #opinion]
+- [[sunk-cost-fallacy]] — main: #productivity, sub: [#psychology, #strategy]
+- [[survival-first]] — main: #productivity, sub: [#strategy, #psychology]
+- [[variance-in-loss]] — main: #productivity, sub: [#strategy, #psychology]
 
 ## Sources (1)
 
-- [[src_how-to-come-back-from-anything-game-theory]] — main: #productivity — sub: [#strategy, #psychology, #research]
+- [[src_how-to-come-back-from-anything-game-theory]] — main: #productivity, sub: [#strategy, #psychology, #research]

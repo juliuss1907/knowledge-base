@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#crypto`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -48,9 +48,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#crypto`:
-
-- [[tools]] — 11 co-occurrences
-- [[defi]] — 6 co-occurrences
-- [[opinion]] — 5 co-occurrences
-- [[ai]] — 4 co-occurrences
-- [[tutorial]] — 1 co-occurrence
+- `#tools` (11 files)
+- `#defi` (6 files)
+- `#opinion` (5 files)
+- `#ai` (4 files)
+- `#automation` (1 files)

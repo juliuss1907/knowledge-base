@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#tools`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -29,7 +29,7 @@ Last updated: 2026-08-22 15:47:41
 
 ## Files with this tag
 
-- [[100x-token]] — 100x Token (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
+- [[100x-token]] — 100X Token (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
 - [[200-day-sma-risk-line]] — 200 Day Sma Risk Line (concept, main: #economic, sub: [#tools, #research], topic: market-structure-analysis)
 - [[agent-backtesting]] — Agent Backtesting (concept, main: #ai, sub: [#research, #tools], topic: agent-backtesting)
 - [[agent-handoff]] — Agent Handoff (concept, main: #ai, sub: [#automation, #tools], topic: multi-agent-architecture)
@@ -110,7 +110,7 @@ Last updated: 2026-08-22 15:47:41
 - [[iceberg-model]] — Iceberg Model (concept, main: #productivity, sub: [#tools, #research, #tutorial], topic: systems-thinking-tools)
 - [[in-context-memory]] — In Context Memory (concept, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
 - [[kv-cache-eviction]] — Kv Cache Eviction (concept, main: #ai, sub: [#research, #tools], topic: llm-memory-consolidation)
-- [[last30days-skill]] — Last30days Skill (concept, main: #ai, sub: [#tools, #automation], topic: hermes-personal-analyst-setup)
+- [[last30days-skill]] — Last30Days Skill (concept, main: #ai, sub: [#tools, #automation], topic: hermes-personal-analyst-setup)
 - [[leverage]] — Leverage (concept, main: #productivity, sub: [#psychology, #tools], topic: leverage-mental-model)
 - [[leverage-points]] — Leverage Points (concept, main: #productivity, sub: [#tools], topic: systems-thinking-training)
 - [[llm-sleep]] — Llm Sleep (concept, main: #ai, sub: [#research, #tools], topic: llm-memory-consolidation)
@@ -195,7 +195,7 @@ Last updated: 2026-08-22 15:47:41
 - [[src_the-most-underrated-token-type]] — The Most Underrated Token Type (source, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
 - [[src_the-writing-habit-that-saved-my-brain]] — The Writing Habit That Saved My Brain (source, main: #productivity, sub: [#tutorial, #tools], topic: writing-content-system)
 - [[src_tokens-and-tokenization]] — Tokens And Tokenization (source, main: #ai, sub: [#research, #tools], topic: tokenization-llm)
-- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16z (source, main: #ai, sub: [#opinion, #tools, #system], topic: ai-token-workforce)
+- [[src_you-just-hired-a-million-bad-employees-a16z]] — You Just Hired A Million Bad Employees A16Z (source, main: #ai, sub: [#opinion, #tools, #system], topic: ai-token-workforce)
 - [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
 - [[stakeholder-mapping]] — Stakeholder Mapping (concept, main: #productivity, sub: [#tools, #research, #tutorial], topic: systems-thinking-tools)
 - [[standard-operating-procedure]] — Standard Operating Procedure (concept, main: #productivity, sub: [#tools, #automation], topic: sop-writer)
@@ -226,9 +226,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#tools`:
-
-- [[ai]] — 120 co-occurrences
-- [[research]] — 69 co-occurrences
-- [[automation]] — 58 co-occurrences
-- [[tutorial]] — 25 co-occurrences
-- [[opinion]] — 25 co-occurrences
+- `#ai` (120 files)
+- `#research` (69 files)
+- `#automation` (58 files)
+- `#opinion` (25 files)
+- `#tutorial` (25 files)

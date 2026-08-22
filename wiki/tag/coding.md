@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#coding`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -53,7 +53,7 @@ Last updated: 2026-08-22 15:47:41
 - [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source, main: #ai, sub: [#automation, #coding, #tutorial], topic: loop-engineering)
 - [[src_rag-is-dead-kuba-turbopuffer]] — Rag Is Dead Kuba Turbopuffer (source, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
 - [[src_tao-ket-qua-dinh-luong-duoc]] — Tao Ket Qua Dinh Luong Duoc (source, main: #productivity, sub: [#system, #coding], topic: measurable-outcomes)
-- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3b1b (source, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
+- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3B1B (source, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 - [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source, main: #ai, sub: [#opinion, #tutorial, #coding], topic: future-proof-skills)
 - [[vector-addition]] — Vector Addition (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 - [[vectors]] — Vectors (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
@@ -61,9 +61,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#coding`:
-
-- [[ai]] — 26 co-occurrences
-- [[research]] — 14 co-occurrences
-- [[tools]] — 10 co-occurrences
-- [[automation]] — 9 co-occurrences
-- [[tutorial]] — 7 co-occurrences
+- `#ai` (26 files)
+- `#research` (14 files)
+- `#tools` (10 files)
+- `#automation` (9 files)
+- `#tutorial` (7 files)

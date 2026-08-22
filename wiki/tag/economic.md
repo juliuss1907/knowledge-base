@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#economic`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -121,9 +121,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#economic`:
-
-- [[research]] — 43 co-occurrences
-- [[opinion]] — 42 co-occurrences
-- [[tools]] — 24 co-occurrences
-- [[psychology]] — 19 co-occurrences
-- [[tutorial]] — 16 co-occurrences
+- `#opinion` (42 files)
+- `#research` (41 files)
+- `#tools` (24 files)
+- `#psychology` (19 files)
+- `#tutorial` (16 files)

@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#layer1`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -37,7 +37,6 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#layer1`:
-
-- [[opinion]] — 3 co-occurrences
-- [[ai]] — 3 co-occurrences
-- [[economic]] — 2 co-occurrences
+- `#ai` (3 files)
+- `#opinion` (3 files)
+- `#economic` (2 files)

@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#investment`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -45,8 +45,7 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#investment`:
-
-- [[opinion]] — 8 co-occurrences
-- [[psychology]] — 6 co-occurrences
-- [[research]] — 4 co-occurrences
-- [[tutorial]] — 2 co-occurrences
+- `#opinion` (8 files)
+- `#psychology` (6 files)
+- `#research` (4 files)
+- `#tutorial` (2 files)

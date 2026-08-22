@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#tech`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -60,9 +60,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#tech`:
-
-- [[tools]] — 20 co-occurrences
-- [[hack]] — 10 co-occurrences
-- [[psychology]] — 9 co-occurrences
-- [[opinion]] — 5 co-occurrences
-- [[tutorial]] — 4 co-occurrences
+- `#tools` (20 files)
+- `#hack` (10 files)
+- `#psychology` (9 files)
+- `#opinion` (5 files)
+- `#tutorial` (4 files)

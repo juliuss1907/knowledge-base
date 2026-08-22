@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#psychology`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -328,9 +328,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#psychology`:
-
-- [[productivity]] — 207 co-occurrences
-- [[opinion]] — 109 co-occurrences
-- [[research]] — 66 co-occurrences
-- [[health]] — 41 co-occurrences
-- [[system]] — 20 co-occurrences
+- `#productivity` (207 files)
+- `#opinion` (109 files)
+- `#research` (66 files)
+- `#health` (41 files)
+- `#system` (20 files)

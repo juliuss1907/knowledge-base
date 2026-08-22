@@ -4,27 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: leader-leader-leadership
 auto_generated: true
-last_updated: 2026-08-19
+last_updated: 2026-08-22
 ---
 
 # Topic: leader-leader-leadership
 
 Auto-generated index of all content with topic `leader-leader-leadership`.
 
-Last updated: 2026-08-19 22:18:24
+Last updated: 2026-08-22 21:16:11
 
 ---
 
 ## Concepts (6)
 
-- [[blameless-postmortems]] — main: #productivity — sub: [#research]
-- [[google-project-oxygen]] — main: #productivity — sub: [#research]
-- [[intent-driven-leadership]] — main: #productivity — sub: [#research]
-- [[leader-leader-model]] — main: #productivity — sub: [#research]
-- [[organizational-clarity]] — main: #productivity — sub: [#research]
-- [[technical-competence-paradox]] — main: #productivity — sub: [#research]
+- [[blameless-postmortems]] — main: #productivity, sub: [#research]
+- [[google-project-oxygen]] — main: #productivity, sub: [#research]
+- [[intent-driven-leadership]] — main: #productivity, sub: [#research]
+- [[leader-leader-model]] — main: #productivity, sub: [#research]
+- [[organizational-clarity]] — main: #productivity, sub: [#research]
+- [[technical-competence-paradox]] — main: #productivity, sub: [#research]
 
 ## Sources (1)
 
-- [[src_shift-leader-follower-to-leader-leader]] — main: #productivity — sub: [#research, #opinion]
-
+- [[src_shift-leader-follower-to-leader-leader]] — main: #productivity, sub: [#research, #opinion]

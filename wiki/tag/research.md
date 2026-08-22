@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#research`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -263,7 +263,7 @@ Last updated: 2026-08-22 15:47:41
 - [[src_thermodynamics]] — Thermodynamics (source, main: #productivity, sub: [#psychology, #research], topic: mental-models)
 - [[src_tokens-and-tokenization]] — Tokens And Tokenization (source, main: #ai, sub: [#research, #tools], topic: tokenization-llm)
 - [[src_uae-opec-exit-end-of-era]] — Uae Opec Exit End Of Era (source, main: #economic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
-- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3b1b (source, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
+- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3B1B (source, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 - [[src_were-not-supposed-to-live-like-this]] — Were Not Supposed To Live Like This (source, main: #productivity, sub: [#opinion, #research], topic: evolutionary-mismatch-modern-life)
 - [[src_what-comes-after-systems-thinking]] — What Comes After Systems Thinking (source, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source, main: #politic, sub: [#opinion, #research], topic: structural-competition)
@@ -295,9 +295,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#research`:
-
-- [[productivity]] — 87 co-occurrences
-- [[ai]] — 85 co-occurrences
-- [[tools]] — 69 co-occurrences
-- [[psychology]] — 66 co-occurrences
-- [[opinion]] — 61 co-occurrences
+- `#productivity` (87 files)
+- `#ai` (85 files)
+- `#tools` (69 files)
+- `#psychology` (66 files)
+- `#opinion` (61 files)

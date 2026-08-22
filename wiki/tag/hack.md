@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#hack`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -55,9 +55,8 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#hack`:
-
-- [[research]] — 12 co-occurrences
-- [[tools]] — 11 co-occurrences
-- [[tech]] — 10 co-occurrences
-- [[ai]] — 8 co-occurrences
-- [[politic]] — 4 co-occurrences
+- `#research` (12 files)
+- `#tools` (11 files)
+- `#tech` (10 files)
+- `#ai` (8 files)
+- `#politic` (4 files)

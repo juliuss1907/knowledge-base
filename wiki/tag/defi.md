@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#defi`.
 
-Last updated: 2026-08-22 15:47:41
+Last updated: 2026-08-22 21:16:11
 
 ---
 
@@ -40,8 +40,7 @@ Last updated: 2026-08-22 15:47:41
 ## Co-occurring tags
 
 Tags that frequently appear with `#defi`:
-
-- [[tools]] — 6 co-occurrences
-- [[crypto]] — 6 co-occurrences
-- [[economic]] — 1 co-occurrence
-- [[news]] — 1 co-occurrence
+- `#crypto` (6 files)
+- `#tools` (6 files)
+- `#economic` (1 files)
+- `#news` (1 files)

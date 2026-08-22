@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-08-15
+last_updated: 2026-08-22
 ---
 
 # Articles Index
@@ -23,12 +23,14 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 136 files
-- By status: 135 processed, 1 unprocessed
-- By date: 2 this week, 22 this month
-- Last updated: 2026-08-15
+- Total: 138 files
+- By status: 136 processed, 2 unprocessed
+- By date: 2 this week, 2 this month
+- Last updated: 2026-08-22
 
 ## Items
+- [[2026-08-22_once-you-understand-neuroplasticity]] — Once you understand neuroplasticity your life will never be the same again by Tim Denning (unprocessed)
+- [[2026-08-22_neuroscience-of-perfect-skill-acquisition]] — The Neuroscience Of Perfect Skill Acquisition by ixcarus (unprocessed)
 - [[2026-08-15_how-ai-text-watermarking-works]] — How AI text watermarking works: a visual guide by James Padolsey (unprocessed)
 - [[2026-08-09_what-is-a-product]] — What is a product? by roge (unprocessed)
 - [[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuộc đua xem ai không đi lùi by curiositypocket (processed)

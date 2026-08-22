@@ -17,7 +17,6 @@ Last updated: 2026-08-19 22:18:24
 
 ## Concepts (4)
 
-- [[identity-detachment]] — main: #productivity — sub: [#psychology, #opinion]
 - [[identity-transformation]] — main: #health — sub: [#psychology, #opinion]
 - [[letting-go]] — main: #health — sub: [#psychology, #opinion]
 - [[role-playing-self]] — main: #productivity — sub: [#psychology, #opinion]
@@ -25,4 +24,3 @@ Last updated: 2026-08-19 22:18:24
 ## Sources (1)
 
 - [[src_just-let-go-cipheron]] — main: #health — sub: [#psychology, #opinion]
-

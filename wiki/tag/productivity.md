@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#productivity`.
 
-Last updated: 2026-08-22 15:18:02
+Last updated: 2026-08-22 15:47:41
 
 ---
 
@@ -22,9 +22,9 @@ Last updated: 2026-08-22 15:18:02
 
 ## Stats
 
-- Total files: 299
+- Total files: 297
 - Sources: 86
-- Concepts: 213
+- Concepts: 211
 - Last updated: 2026-08-22
 
 ## Files with this tag
@@ -63,8 +63,7 @@ Last updated: 2026-08-22 15:18:02
 - [[content-generation-workflow]] — Content Generation Workflow (concept, main: #productivity, sub: [#ai, #automation, #tutorial], topic: ai-workflow-methodology)
 - [[content-repurposing-system]] — Content Repurposing System (concept, main: #productivity, sub: [#automation, #tools], topic: writing-content-system)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept, main: #productivity, sub: [#research, #psychology], topic: mental-models-biology)
-- [[costly-signal]] — Costly Signal (concept, main: #productivity, sub: [#psychology, #system], topic: costly-signal)
-- [[costly-signaling]] — Costly Signaling (concept, main: #productivity, sub: [#strategy, #psychology, #opinion], topic: game-theory-comeback)
+- [[costly-signal]] — Costly Signal (concept, main: #productivity, sub: [#psychology, #strategy, #system], topic: costly-signal)
 - [[cultural-memetics]] — Cultural Memetics (concept, main: #productivity, sub: [#psychology, #research], topic: dan-koe-mind-game)
 - [[cybernetics-learning-model]] — Cybernetics Learning Model (concept, main: #productivity, sub: [#tutorial, #psychology], topic: effective-learning-methods)
 - [[decision-cost-analysis]] — Decision Cost Analysis (concept, main: #productivity, sub: [#psychology, #tutorial], topic: decision-making-frameworks)
@@ -117,7 +116,6 @@ Last updated: 2026-08-22 15:18:02
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept, main: #productivity, sub: [#research, #health, #psychology], topic: evolutionary-mismatch-modern-life)
 - [[hypergamy]] — Hypergamy (concept, main: #productivity, sub: [#psychology, #opinion], topic: hypergamy-relationships)
 - [[iceberg-model]] — Iceberg Model (concept, main: #productivity, sub: [#tools, #research, #tutorial], topic: systems-thinking-tools)
-- [[identity-detachment]] — Identity Detachment (concept, main: #productivity, sub: [#psychology, #opinion], topic: identity-transformation)
 - [[identity-threat-neuroscience]] — Identity Threat Neuroscience (concept, main: #productivity, sub: [#psychology, #opinion], topic: labels-identity-perception)
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept, main: #productivity, sub: [#opinion, #psychology], topic: ikigai-unbundling)
 - [[impulse-response-gap]] — Impulse Response Gap (concept, main: #productivity, sub: [#psychology, #automation], topic: dan-koe-mind-game)
@@ -333,8 +331,8 @@ Last updated: 2026-08-22 15:18:02
 
 Tags that frequently appear with `#productivity`:
 
-- [[psychology]] — 209 co-occurrences
-- [[opinion]] — 118 co-occurrences
+- [[psychology]] — 207 co-occurrences
+- [[opinion]] — 116 co-occurrences
 - [[research]] — 87 co-occurrences
 - [[tutorial]] — 39 co-occurrences
 - [[automation]] — 21 co-occurrences

@@ -28,7 +28,7 @@ Iterated game theory (lý thuyết trò chơi lặp) là nhánh của game theor
 
 ## Related concepts
 
-- [[costly-signaling]]
+- [[costly-signal]]
 - [[sunk-cost-fallacy]]
 - [[repeated-games]]
 - [[survival-first]]

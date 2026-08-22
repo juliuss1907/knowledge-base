@@ -64,6 +64,6 @@ _None — tất cả reports đã được apply và archive._
 - Output 08-16: typo "lực chọn" → "lựa chọn" trong `ai-text-watermarking.md`
 - Index Agent template đã vá (SKILL.md + build_index.py) — 21:00 sẽ không re-break
 
-**Open decisions (INFO, chờ Julius):**
-- Merge hay giữ riêng: `costly-signaling` vs `costly-signal`
-- Merge hay giữ riêng: `identity-detachment` vs `identity-transformation`
+**Open decisions — RESOLVED 2026-08-22 15:35 (Julius approved merge):**
+- ✅ Merged `costly-signaling` → `costly-signal` (giữ tên 12 backlinks)
+- ✅ Merged `identity-detachment` → `identity-transformation` (giữ tên 9 backlinks)

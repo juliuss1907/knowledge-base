@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-08-22 15:18:02
+Last updated: 2026-08-22 15:47:41
 
 ---
 
@@ -22,9 +22,9 @@ Last updated: 2026-08-22 15:18:02
 
 ## Stats
 
-- Total files: 254
+- Total files: 252
 - Sources: 84
-- Concepts: 170
+- Concepts: 168
 - Last updated: 2026-08-22
 
 ## Files with this tag
@@ -66,7 +66,6 @@ Last updated: 2026-08-22 15:18:02
 - [[compounding-effect]] — Compounding Effect (concept, main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth)
 - [[compounding-relationships]] — Compounding Relationships (concept, main: #productivity, sub: [#psychology, #opinion], topic: long-term-thinking)
 - [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept, main: #productivity, sub: [#psychology, #opinion], topic: steve-jobs-stanford-connecting-dots)
-- [[costly-signaling]] — Costly Signaling (concept, main: #productivity, sub: [#strategy, #psychology, #opinion], topic: game-theory-comeback)
 - [[creativity-as-skill]] — Creativity As Skill (concept, main: #ai, sub: [#opinion, #psychology], topic: future-proof-skills)
 - [[cuoc-dua-khong-di-lui]] — Cuoc Dua Khong Di Lui (concept, main: #economic, sub: [#opinion], topic: cuoc-dua-khong-di-lui)
 - [[cynefin-framework]] — Cynefin Framework (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
@@ -98,7 +97,6 @@ Last updated: 2026-08-22 15:18:02
 - [[hypergamy]] — Hypergamy (concept, main: #productivity, sub: [#psychology, #opinion], topic: hypergamy-relationships)
 - [[iatrogenics]] — Iatrogenics (concept, main: #system, sub: [#psychology, #opinion], topic: iatrogenics-naive-interventionism)
 - [[idea-economy]] — Idea Economy (concept, main: #ai, sub: [#opinion], topic: future-proof-skills)
-- [[identity-detachment]] — Identity Detachment (concept, main: #productivity, sub: [#psychology, #opinion], topic: identity-transformation)
 - [[identity-threat-neuroscience]] — Identity Threat Neuroscience (concept, main: #productivity, sub: [#psychology, #opinion], topic: labels-identity-perception)
 - [[identity-transformation]] — Identity Transformation (concept, main: #health, sub: [#psychology, #opinion], topic: identity-transformation)
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept, main: #productivity, sub: [#opinion, #psychology], topic: ikigai-unbundling)
@@ -288,8 +286,8 @@ Last updated: 2026-08-22 15:18:02
 
 Tags that frequently appear with `#opinion`:
 
-- [[productivity]] — 118 co-occurrences
-- [[psychology]] — 111 co-occurrences
+- [[productivity]] — 116 co-occurrences
+- [[psychology]] — 109 co-occurrences
 - [[research]] — 61 co-occurrences
 - [[ai]] — 43 co-occurrences
 - [[economic]] — 42 co-occurrences

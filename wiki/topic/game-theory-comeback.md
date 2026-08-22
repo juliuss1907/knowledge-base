@@ -18,7 +18,6 @@ Last updated: 2026-08-19 22:18:24
 ## Concepts (6)
 
 - [[comeback-strategy]] — main: #productivity — sub: [#strategy, #psychology]
-- [[costly-signaling]] — main: #productivity — sub: [#strategy, #psychology, #opinion]
 - [[iterated-game-theory]] — main: #productivity — sub: [#strategy, #psychology, #opinion]
 - [[sunk-cost-fallacy]] — main: #productivity — sub: [#psychology, #strategy]
 - [[survival-first]] — main: #productivity — sub: [#strategy, #psychology]
@@ -27,4 +26,3 @@ Last updated: 2026-08-19 22:18:24
 ## Sources (1)
 
 - [[src_how-to-come-back-from-anything-game-theory]] — main: #productivity — sub: [#strategy, #psychology, #research]
-

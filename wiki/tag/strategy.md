@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#strategy`.
 
-Last updated: 2026-08-22 15:18:02
+Last updated: 2026-08-22 15:47:41
 
 ---
 
@@ -32,7 +32,7 @@ Last updated: 2026-08-22 15:18:02
 - [[asymmetric-positions]] — Asymmetric Positions (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
 - [[career-compounding]] — Career Compounding (concept, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
 - [[comeback-strategy]] — Comeback Strategy (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
-- [[costly-signaling]] — Costly Signaling (concept, main: #productivity, sub: [#strategy, #psychology, #opinion], topic: game-theory-comeback)
+- [[costly-signal]] — Costly Signal (concept, main: #productivity, sub: [#psychology, #strategy, #system], topic: costly-signal)
 - [[game-selection]] — Game Selection (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
 - [[information-asymmetry]] — Information Asymmetry (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
 - [[iterated-game-theory]] — Iterated Game Theory (concept, main: #productivity, sub: [#strategy, #psychology, #opinion], topic: game-theory-comeback)
@@ -54,5 +54,6 @@ Tags that frequently appear with `#strategy`:
 
 - [[productivity]] — 18 co-occurrences
 - [[psychology]] — 11 co-occurrences
-- [[opinion]] — 9 co-occurrences
+- [[opinion]] — 8 co-occurrences
+- [[system]] — 1 co-occurrence
 - [[research]] — 1 co-occurrence

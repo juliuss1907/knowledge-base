@@ -31,7 +31,6 @@ Letting go (buông bỏ) là hành động chủ động từ bỏ những thứ
 - [[internal-foundation-identity]]
 - [[psychological-survival]]
 - [[fear-alchemy]]
-- [[identity-detachment]]
 - [[role-playing-self]]
 
 ## Sources

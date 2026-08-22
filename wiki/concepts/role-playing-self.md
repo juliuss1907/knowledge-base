@@ -28,7 +28,6 @@ Role-playing self là phương pháp chuyển đổi bản thân bằng cách "�
 
 ## Related concepts
 
-- [[identity-detachment]]
 - [[fear-alchemy]]
 - [[identity-transformation]]
 - [[letting-go]]

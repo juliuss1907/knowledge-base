@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#psychology`.
 
-Last updated: 2026-08-22 15:18:02
+Last updated: 2026-08-22 15:47:41
 
 ---
 
@@ -22,9 +22,9 @@ Last updated: 2026-08-22 15:18:02
 
 ## Stats
 
-- Total files: 297
+- Total files: 295
 - Sources: 80
-- Concepts: 217
+- Concepts: 215
 - Last updated: 2026-08-22
 
 ## Files with this tag
@@ -59,8 +59,7 @@ Last updated: 2026-08-22 15:18:02
 - [[control-trap]] — Control Trap (concept, main: #health, sub: [#psychology], topic: let-them-theory-relationships)
 - [[cooperation-mental-model]] — Cooperation Mental Model (concept, main: #productivity, sub: [#research, #psychology], topic: mental-models-biology)
 - [[cortisol-management]] — Cortisol Management (concept, main: #economic, sub: [#psychology], topic: trading-psychology)
-- [[costly-signal]] — Costly Signal (concept, main: #productivity, sub: [#psychology, #system], topic: costly-signal)
-- [[costly-signaling]] — Costly Signaling (concept, main: #productivity, sub: [#strategy, #psychology, #opinion], topic: game-theory-comeback)
+- [[costly-signal]] — Costly Signal (concept, main: #productivity, sub: [#psychology, #strategy, #system], topic: costly-signal)
 - [[creativity-as-skill]] — Creativity As Skill (concept, main: #ai, sub: [#opinion, #psychology], topic: future-proof-skills)
 - [[critical-mass]] — Critical Mass (concept, main: #system, sub: [#psychology], topic: leverage-mental-model)
 - [[cultural-memetics]] — Cultural Memetics (concept, main: #productivity, sub: [#psychology, #research], topic: dan-koe-mind-game)
@@ -112,7 +111,6 @@ Last updated: 2026-08-22 15:18:02
 - [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept, main: #productivity, sub: [#research, #health, #psychology], topic: evolutionary-mismatch-modern-life)
 - [[hypergamy]] — Hypergamy (concept, main: #productivity, sub: [#psychology, #opinion], topic: hypergamy-relationships)
 - [[iatrogenics]] — Iatrogenics (concept, main: #system, sub: [#psychology, #opinion], topic: iatrogenics-naive-interventionism)
-- [[identity-detachment]] — Identity Detachment (concept, main: #productivity, sub: [#psychology, #opinion], topic: identity-transformation)
 - [[identity-threat-neuroscience]] — Identity Threat Neuroscience (concept, main: #productivity, sub: [#psychology, #opinion], topic: labels-identity-perception)
 - [[identity-transformation]] — Identity Transformation (concept, main: #health, sub: [#psychology, #opinion], topic: identity-transformation)
 - [[ikigai-unbundling]] — Ikigai Unbundling (concept, main: #productivity, sub: [#opinion, #psychology], topic: ikigai-unbundling)
@@ -331,8 +329,8 @@ Last updated: 2026-08-22 15:18:02
 
 Tags that frequently appear with `#psychology`:
 
-- [[productivity]] — 209 co-occurrences
-- [[opinion]] — 111 co-occurrences
+- [[productivity]] — 207 co-occurrences
+- [[opinion]] — 109 co-occurrences
 - [[research]] — 66 co-occurrences
 - [[health]] — 41 co-occurrences
 - [[system]] — 20 co-occurrences

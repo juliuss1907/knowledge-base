@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#system`.
 
-Last updated: 2026-08-22 15:18:02
+Last updated: 2026-08-22 15:47:41
 
 ---
 
@@ -39,7 +39,7 @@ Last updated: 2026-08-22 15:18:02
 - [[codified-taste]] — Codified Taste (concept, main: #system, sub: [#automation, #tools], topic: ai-productivity)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[complicated-vs-complex]] — Complicated Vs Complex (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
-- [[costly-signal]] — Costly Signal (concept, main: #productivity, sub: [#psychology, #system], topic: costly-signal)
+- [[costly-signal]] — Costly Signal (concept, main: #productivity, sub: [#psychology, #strategy, #system], topic: costly-signal)
 - [[critical-mass]] — Critical Mass (concept, main: #system, sub: [#psychology], topic: leverage-mental-model)
 - [[cynefin-framework]] — Cynefin Framework (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[frozen-corpus-search]] — Frozen Corpus Search (concept, main: #system, sub: [#tools, #research], topic: agent-backtesting)

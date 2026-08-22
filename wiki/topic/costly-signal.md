@@ -18,4 +18,3 @@ Last updated: 2026-08-19 22:18:24
 ## Concepts (1)
 
 - [[costly-signal]] — main: #productivity — sub: [#psychology, #system]
-

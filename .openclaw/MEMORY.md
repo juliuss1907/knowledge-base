@@ -1117,3 +1117,17 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 **Backup:** `wiki/drafts/fixagent-regen-tags.py` (script regen dùng cho batch này).
 
 **Open INFO (chờ Julius):** merge hay giữ `costly-signaling` vs `costly-signal`; `identity-detachment` vs `identity-transformation`.
+
+## 2026-08-22T15:35:00+07:00 — Concept merges (Julius approved)
+
+Merge 2 cặp concept trùng lặp (INFO từ output-report 08-13):
+- `costly-signaling.md` + `costly-signal.md` → **costly-signal.md** (giữ slug 12 backlinks; gộp key ideas time-as-signal/comeback + Crawford & Sobel 1982; sources hợp nhất 3 src; sub_tags [psychology, strategy, system])
+- `identity-detachment.md` + `identity-transformation.md` → **identity-transformation.md** (giữ slug 9 backlinks; cấu trúc mới: detachment = nửa đầu, transformation = nửa sau của cùng quá trình; main_tag health giữ nguyên theo survivor)
+
+Dọn dẹp kèm theo:
+- Xóa 2 file cũ; redirect `[[costly-signaling]]` trong iterated-game-theory → `[[costly-signal]]`
+- Bỏ link dup `[[identity-detachment]]` khỏi role-playing-self / fear-alchemy / letting-go
+- Regen 24 tag files + tag.md qua script đã patch (`wiki/drafts/fixagent-regen-tags.py`)
+- Cập nhật topic indexes (game-theory-comeback, costly-signal, identity-transformation) — bỏ entry chết, fix counts
+
+Verify: 0 broken wikilink tới slug đã xóa; concepts 527 → 525.

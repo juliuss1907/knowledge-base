@@ -1160,3 +1160,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2088302050706686198` (agent-re
 - Lưu `raw/posts/2026-08-14_ai-engineering-skills-map.md`, status: unprocessed — nguyên văn đầy đủ
 - Nội dung: 4 skills AI engineering quan trọng nhất (từ 10,000+ job postings + expert interviews): building/deploying AI apps, software engineering fundamentals, using coding agents, shaping the build
 - Cập nhật `raw/posts/posts.md`: 22 files, 2 unprocessed (cùng schedule-maxxing)
+
+## 2026-08-22T20:58:00+07:00 — Ingest ai-skills-map part 2
+
+Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-reach).
+- Fetch qua twitter-cli: X article "AI Engineering Skills Map: Building and Deploying AI Applications" — Andrew Ng, publish 21-08
+- Part 2 của series Skills Map — deep-dive skill #1: LLM foundations, grounding models with data, agentic systems, evaluation-driven development, operating in production, ML foundations
+- Lưu `raw/posts/2026-08-21_ai-skills-map-building-deploying-ai-apps.md`, status: unprocessed
+- Cập nhật `raw/posts/posts.md`: 23 files, 3 unprocessed

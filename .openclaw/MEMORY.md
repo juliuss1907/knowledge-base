@@ -1152,3 +1152,11 @@ Julius gửi link Substack Dan Koe (`thedankoe/p/strategy-vs-tactics-how-to-actu
 - "Strategy vs tactics: How to actually get ahead of 99% of people" — publish 2026-08-08
 - Cập nhật `raw/articles/articles.md`: item mới + stats (139 files, 138 processed / 1 unprocessed); sửa luôn stale labels của items cũ theo trạng thái file thật
 - Lưu ý: bài có chèn promo links (eden.so) giữ nguyên trong raw — compile sẽ lọc
+
+## 2026-08-22T20:50:00+07:00 — Ingest ai-engineering-skills-map
+
+Julius gửi link `https://x.com/AndrewYNg/status/2088302050706686198` (agent-reach).
+- Fetch qua twitter-cli: X article "The AI Engineering Skills Map" — Andrew Ng (@AndrewYNg), publish 14-08, 5.7M views
+- Lưu `raw/posts/2026-08-14_ai-engineering-skills-map.md`, status: unprocessed — nguyên văn đầy đủ
+- Nội dung: 4 skills AI engineering quan trọng nhất (từ 10,000+ job postings + expert interviews): building/deploying AI apps, software engineering fundamentals, using coding agents, shaping the build
+- Cập nhật `raw/posts/posts.md`: 22 files, 2 unprocessed (cùng schedule-maxxing)

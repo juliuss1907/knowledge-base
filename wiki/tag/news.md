@@ -5,42 +5,37 @@ scope: tag
 parent: "[[tag]]"
 tag: news
 auto_generated: true
-last_updated: 2026-08-19
+last_updated: 2026-08-22
 ---
 
 # Tag: #news
 
 Auto-generated index of all content tagged with `#news`.
 
-Last updated: 2026-08-19 22:18:24
+Last updated: 2026-08-22 15:06:00
 
 ---
 
-## Concepts (8)
+## Parent
 
-- [[attention-economy-vs-knowledge-economy]] — main: #ai — sub: [#opinion, #news] — topic: journalism-ai-era
-- [[google-ai-overviews]] — main: #tech — sub: [#tools, #news] — topic: generative-ai-seo
-- [[grok-hermes-integration]] — main: #ai — sub: [#tools, #automation, #news] — topic: hermes-xai-grok-integration
-- [[rot-economy]] — main: #economic — sub: [#opinion, #news] — topic: ai-business-criticism
-- [[saudi-pakistan-defense-agreement]] — main: #politic — sub: [#news, #opinion] — topic: saudi-defense-diversification
-- [[softbank-carry-trade]] — main: #economic — sub: [#news, #defi] — topic: ai-funding-dynamics
-- [[team-pcp-hacker-group]] — main: #tech — sub: [#hack, #news] — topic: github-supply-chain-attack-vs-code
-- [[tokenmaxxing]] — main: #ai — sub: [#opinion, #news] — topic: ai-token-workforce
+- [[tag]]
 
-## Sources (4)
+## Stats
 
-- [[src_11-minutes-hack-github]] — main: #tech — sub: [#hack, #tools, #news] — topic: github-supply-chain-attack-vs-code
-- [[src_ai-will-destroy-world-economy]] — main: #ai — sub: [#news, #opinion] — topic: ai-economic-disruption-white-collar
-- [[src_nha-bao-lam-gi]] — main: #ai — sub: [#opinion, #news] — topic: journalism-ai-era
-- [[src_the-new-comms-playbook-show-dont]] — main: #crypto — sub: [#opinion, #news] — topic: crypto-communications-playbook
+- Total files: 0
+- Sources: 0
+- Concepts: 0
+- Last updated: 2026-08-22
+
+## Files with this tag
+
 
 ## Co-occurring tags
 
 Tags that frequently appear with `#news`:
 
-- `#opinion` (7 files)
-- `#ai` (5 files)
-- `#tools` (3 files)
-- `#tech` (3 files)
-- `#economic` (2 files)
-
+- [[opinion]] — 7 co-occurrences
+- [[ai]] — 5 co-occurrences
+- [[tech]] — 3 co-occurrences
+- [[tools]] — 3 co-occurrences
+- [[economic]] — 2 co-occurrences

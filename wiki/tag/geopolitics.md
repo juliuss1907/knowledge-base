@@ -5,36 +5,35 @@ scope: tag
 parent: "[[tag]]"
 tag: geopolitics
 auto_generated: true
-last_updated: 2026-08-19
+last_updated: 2026-08-22
 ---
 
 # Tag: #geopolitics
 
 Auto-generated index of all content tagged with `#geopolitics`.
 
-Last updated: 2026-08-19 22:18:24
+Last updated: 2026-08-22 15:06:00
 
 ---
 
-## Concepts (6)
+## Parent
 
-- [[chinese-culture-confucianism]] — main: #politic — sub: [#geopolitics] — topic: tribute-system-world-order
-- [[enablement-vs-control]] — main: #economic — sub: [#geopolitics, #opinion] — topic: state-capacity-development
-- [[hundred-years-humiliation]] — main: #politic — sub: [#geopolitics] — topic: tribute-system-world-order
-- [[political-settlement]] — main: #economic — sub: [#geopolitics, #opinion] — topic: state-capacity-development
-- [[state-capacity-theory]] — main: #economic — sub: [#geopolitics, #opinion] — topic: state-capacity-development
-- [[tribute-system]] — main: #politic — sub: [#geopolitics] — topic: tribute-system-world-order
+- [[tag]]
 
-## Sources (2)
+## Stats
 
-- [[src_tribute-system-new-world-order]] — main: #politic — sub: [#geopolitics, #opinion] — topic: tribute-system-world-order
-- [[src_why-china-got-rich-and-india-didnt]] — main: #economic — sub: [#geopolitics, #opinion] — topic: state-capacity-development
+- Total files: 0
+- Sources: 0
+- Concepts: 0
+- Last updated: 2026-08-22
+
+## Files with this tag
+
 
 ## Co-occurring tags
 
 Tags that frequently appear with `#geopolitics`:
 
-- `#opinion` (5 files)
-- `#economic` (4 files)
-- `#politic` (4 files)
-
+- [[opinion]] — 5 co-occurrences
+- [[politic]] — 4 co-occurrences
+- [[economic]] — 4 co-occurrences

@@ -1,48 +1,69 @@
 ---
 type: index
-scope: tag
-auto_generated: true
-last_updated: 2026-08-19
+level: 2
+scope: tags
+parent: "[[wiki]]"
+auto_generated: false
+items_managed_by: index-agent
+last_updated: 2026-08-22
 ---
 
 # Tag Index
 
-Auto-generated master index of all tags in the knowledge base.
+Master index of all tags in the Knowledge Base.
 
-Last updated: 2026-08-19 22:18:35
+Last updated: 2026-08-22 15:06:00
 
 ---
 
-## Main-tags (Pool A)
+## Overview
 
-| Tag | Description |
-|---|---|
-| [[ai|#ai]] | AI / ML / LLM, agents, models, training, inference |
-| [[crypto|#crypto]] | Blockchain, DeFi, tokens, exchanges, on-chain activity |
-| [[economic|#economic]] | Macroeconomics, finance, markets, trading |
-| [[health|#health]] | Physical health, sleep, exercise, nutrition, biohacking |
-| [[investment|#investment]] | Investment principles, portfolio management, asset allocation, risk management |
-| [[politic|#politic]] | Policy, regulation, geopolitics |
-| [[productivity|#productivity]] | Workflows, methodologies, knowledge management, personal systems |
-| [[system|#system]] | System design, architecture, automation pipelines |
-| [[tech|#tech]] | Software engineering, infrastructure, web, mobile, dev tooling |
+Master index of all tags used in the Knowledge Base. Tracks statistics, files per tag, and co-occurrence relationships across both main-tags (Pool A) and sub-tags (Pool B).
 
-## Sub-tags (Pool B)
+## Parent
 
-| Tag | Description |
-|---|---|
-| [[automation|#automation]] | Bots, scripts, scheduled jobs, automated workflows |
-| [[coding|#coding]] | Programming, software development, code generation, dev practices |
-| [[defi|#defi]] | Decentralized finance protocols, AMMs, lending, yield |
-| [[geopolitics|#geopolitics]] | Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition |
-| [[hack|#hack]] | Exploits, vulnerabilities, attacks, post-mortems |
-| [[law|#law]] | Legal frameworks, contracts, regulations, compliance |
-| [[layer1|#layer1]] | Base-layer blockchains |
-| [[news|#news]] | Recent events, announcements, time-sensitive updates |
-| [[opinion|#opinion]] | Personal takes, editorials, commentary |
-| [[psychology|#psychology]] | Cognitive science, behavioral psychology, mental models, biases |
-| [[research|#research]] | Academic papers, deep analysis, primary sources |
-| [[strategy|#strategy]] | Strategic thinking, decision frameworks, competitive positioning, game theory |
-| [[tools|#tools]] | Concrete software, products, services, libraries |
-| [[tutorial|#tutorial]] | How-to guides, walkthroughs, step-by-step instructions |
-| [[vibecode|#vibecode]] | Vibe coding, AI-assisted development style |
+- [[wiki]]
+
+## Stats
+
+- Total tags: 24
+- Main tags: 9
+- Sub tags: 15
+- Most used: #productivity (299), #ai (169), #economic (88)
+- Last updated: 2026-08-22
+
+## Items
+
+### Main Tags (Pool A)
+
+- [[ai]]
+- [[crypto]]
+- [[economic]]
+- [[health]]
+- [[investment]]
+- [[politic]]
+- [[productivity]]
+- [[system]]
+- [[tech]]
+
+### Sub Tags (Pool B)
+
+- [[automation]]
+- [[coding]]
+- [[defi]]
+- [[geopolitics]]
+- [[hack]]
+- [[law]]
+- [[layer1]]
+- [[layer2]]
+- [[news]]
+- [[opinion]]
+- [[perpdex]]
+- [[psychology]]
+- [[research]]
+- [[strategy]]
+- [[tools]]
+- [[tutorial]]
+- [[vibecode]]
+
+## Notes

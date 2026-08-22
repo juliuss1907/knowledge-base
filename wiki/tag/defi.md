@@ -5,36 +5,36 @@ scope: tag
 parent: "[[tag]]"
 tag: defi
 auto_generated: true
-last_updated: 2026-08-19
+last_updated: 2026-08-22
 ---
 
 # Tag: #defi
 
 Auto-generated index of all content tagged with `#defi`.
 
-Last updated: 2026-08-19 22:18:24
+Last updated: 2026-08-22 15:06:00
 
 ---
 
-## Concepts (6)
+## Parent
 
-- [[arcade-tokens]] — main: #crypto — sub: [#defi, #tools] — topic: arcade-tokens
-- [[cookie-fun-mcp]] — main: #crypto — sub: [#tools, #defi] — topic: hermes-xai-grok-integration
-- [[polymarket]] — main: #crypto — sub: [#defi, #tools] — topic: hermes-polymarket-trading-agent
-- [[prediction-market-dashboard]] — main: #crypto — sub: [#tools, #defi] — topic: hermes-operator-builder-pattern
-- [[softbank-carry-trade]] — main: #economic — sub: [#news, #defi] — topic: ai-funding-dynamics
-- [[token-economic-mechanics]] — main: #crypto — sub: [#defi, #tools] — topic: arcade-tokens
+- [[tag]]
 
-## Sources (1)
+## Stats
 
-- [[src_the-most-underrated-token-type]] — main: #crypto — sub: [#defi, #tools] — topic: arcade-tokens
+- Total files: 0
+- Sources: 0
+- Concepts: 0
+- Last updated: 2026-08-22
+
+## Files with this tag
+
 
 ## Co-occurring tags
 
 Tags that frequently appear with `#defi`:
 
-- `#crypto` (6 files)
-- `#tools` (6 files)
-- `#economic` (1 files)
-- `#news` (1 files)
-
+- [[tools]] — 6 co-occurrences
+- [[crypto]] — 6 co-occurrences
+- [[economic]] — 1 co-occurrence
+- [[news]] — 1 co-occurrence

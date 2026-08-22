@@ -5,35 +5,37 @@ scope: tag
 parent: "[[tag]]"
 tag: law
 auto_generated: true
-last_updated: 2026-08-19
+last_updated: 2026-08-22
 ---
 
 # Tag: #law
 
 Auto-generated index of all content tagged with `#law`.
 
-Last updated: 2026-08-19 22:18:24
+Last updated: 2026-08-22 15:06:00
 
 ---
 
-## Concepts (3)
+## Parent
 
-- [[agency-law]] — main: #ai — sub: [#law, #research] — topic: ai-legal-personhood
-- [[ai-legal-personhood]] — main: #ai — sub: [#law, #tools] — topic: ai-legal-personhood
-- [[zero-member-llc]] — main: #ai — sub: [#law, #tools] — topic: ai-legal-personhood
+- [[tag]]
 
-## Sources (2)
+## Stats
 
-- [[src_aaron-wright-ai-agents-legal-body]] — main: #ai — sub: [#law, #tools] — topic: ai-legal-personhood
-- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — main: #economic — sub: [#tutorial, #law] — topic: vietnam-unemployment-insurance
+- Total files: 0
+- Sources: 0
+- Concepts: 0
+- Last updated: 2026-08-22
+
+## Files with this tag
+
 
 ## Co-occurring tags
 
 Tags that frequently appear with `#law`:
 
-- `#ai` (4 files)
-- `#tools` (3 files)
-- `#economic` (1 files)
-- `#tutorial` (1 files)
-- `#research` (1 files)
-
+- [[ai]] — 4 co-occurrences
+- [[tools]] — 3 co-occurrences
+- [[research]] — 1 co-occurrence
+- [[tutorial]] — 1 co-occurrence
+- [[economic]] — 1 co-occurrence

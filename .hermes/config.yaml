@@ -1,9 +1,7 @@
 model:
-  default: oc-zen/ox-alpha-free
-  provider: custom
+  default: Knowledge-base
+  provider: custom:9router
   base_url: http://localhost:20128/v1
-  api_mode: chat_completions
-  api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}

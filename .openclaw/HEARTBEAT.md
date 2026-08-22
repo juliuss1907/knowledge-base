@@ -1,56 +1,50 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-22 10:00 (Asia/Saigon)
+> Last updated: 2026-08-22 10:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_OK** — mọi check sạch. Raw backlog đã xử lý xong, 12 Hermes reports đã được Julius approve (08-21). 1 carry-over đã biết: `memory/` root leak chờ Fix Agent.
+**HEARTBEAT_OK** — mọi check sạch. Không có gì mới so với 10:00. 2 carry-over đã biết vẫn chờ Fix Agent.
 
 ## Checks Performed
 
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có folder Tasks, không có file `#agent/inbox` |
-| Raw backlog | ✅ Clean | 0 files `status: unprocessed` — backlog 3 files từ 08-21 đã được CompileAgent xử lý |
-| Concept backlinks | ✅ Clean | Sample 2 files ([[memory-reconstruction]], [[autobiographical-memory-systems]]) có `## Sources` đầy đủ |
+| Raw backlog | ✅ Clean | 0 files `status: unprocessed` |
+| Concept backlinks | ✅ Clean | Sample 2 files: [[memory-reconstruction]] (2 backlinks), [[prisoners-dilemma]] (5 backlinks) |
 | Pending reviews | ✅ Clean | 0 pending — Julius approve 12 reports ngày 08-21 |
 
 ## System State
 
 | Metric | Count | Δ since last | Status |
 |--------|-------|--------------|--------|
-| **raw/** total | 182 | +2 | ✅ Ổn định |
-| **raw/** unprocessed | 0 | -3 | ✅ Backlog đã clear |
-| **wiki/sources/** | 174 | +5 | ✅ Tăng từ compile |
-| **wiki/concepts/** | 527 | +2 | ✅ Tăng từ compile |
-| **wiki/tag/** | 25 | 0 | ⚠️ Chờ Fix Agent regen (xem Issues) |
-| **wiki/topic/** | 196 | 0 | ✅ Ổn định |
-| **wiki/reviews/** pending | 0 | -2 | ✅ Tất cả đã approved |
+| **raw/** unprocessed | 0 | 0 | ✅ Sạch |
+| **wiki/concepts/** | 527 | 0 | ✅ Ổn định |
+| **wiki/tag/** | 24 L3 files | 0 | ⚠️ Chờ Fix Agent regen (xem Issues) |
+| **wiki/reviews/** pending | 0 | 0 | ✅ Tất cả đã approved |
 
-## Issues (priority order)
+## Issues (priority order — carry-over, không đổi)
 
-1. **`memory/` folder tại KB root — carry-over, đã approved, chờ Fix Agent**
-   - Vẫn còn tồn tại: 1 file (`2026-08-22-0015.md`) — writer vẫn ghi vào root thay vì `.openclaw/memory/`
-   - Đã giảm so với 16 files lúc report 08-21 → còn 1
-   - Fix Agent có việc queued: regen 24 L3 tag files (Index Agent regression 08-19) + redirect memory/ writer
+1. **`memory/` folder tại KB root — 1 file (`2026-08-22-0015.md`), không tăng mới**
+   - Không có file mới kể từ 00:15 → writer có vẻ đã ngừng ghi sai chỗ
+   - Fix Agent vẫn cần redirect writer + dọn file này
    - Không cần action mới từ Julius
 
-2. **Index Agent template regression — đã approved 08-21, chờ Fix Agent chạy**
-   - 24 L3 tag files thiếu `## Parent`, `## Stats`, `## Files with this tag`; `wiki/tag/tag.md` thiếu `level`
-   - Root cause: SKILL.md của Index Agent cần update template trước khi regen, nếu không sẽ re-break mỗi lần chạy 21:00
+2. **Index Agent template regression — đã approved 08-21, Fix Agent CHƯA chạy**
+   - Đã verify: 24 L3 tag files vẫn thiếu `## Parent` / `## Stats` / `## Files with this tag`; `wiki/tag/tag.md` vẫn thiếu `level`
+   - ⚠️ Deadline: Index update chạy 21:00 tối nay — nếu Fix Agent không sửa template SKILL.md trước đó, regen sẽ re-break
    - Không cần action mới từ Julius
 
-## Recent Actions (since 00:10 hôm qua)
+## Recent Actions (since 10:00)
 
-- CompileAgent 08:00 hôm nay: xử lý xong 3 backlog files → +5 sources, +2 concepts
-- Julius approve toàn bộ 12 Hermes reports (08-05 → 08-21) ngày 08-21
-- `state/` phantom folder đã biến mất (trước đó là empty dir)
+- Không có — hệ thống idle, sạch.
 
 ## Next Scheduled Actions
 
-- Index update: 21:00 tối nay — ⚠️ sẽ re-break 24 L3 tag files nếu chạy trước khi Fix Agent sửa template
-- Fix Agent: chạy approved fixes (24 L3 tag files + memory/ writer redirect) — ưu tiên TRƯỚC 21:00
+- **Fix Agent: chạy approved fixes TRƯỚC 21:00** (24 L3 tag files + memory/ writer redirect) — ưu tiên cao nhất
+- Index update: 21:00 tối nay
 - Compile: 08:00 ngày mai
 
 ---

@@ -1143,3 +1143,12 @@ Julius gửi link `https://x.com/kimiabuilds/status/2089037097751699944` (yêu c
 - Đã lưu `raw/posts/2026-08-16_schedule-maxxing.md`, status: unprocessed — nguyên văn đầy đủ (7 KB), frontmatter type: post
 - Cập nhật `raw/posts/posts.md`: item mới + stats (21 files, 20 processed / 1 unprocessed, by-date 7 tuần này)
 - CompileAgent xử lý lúc 08:00 mai hoặc on-demand
+
+## 2026-08-22T20:35:00+07:00 — Ingest strategy-vs-tactics
+
+Julius gửi link Substack Dan Koe (`thedankoe/p/strategy-vs-tactics-how-to-actually`).
+- Direct fetch trả 404 (Substack block); qua r.jina.ai OK — full text 33 KB
+- Lưu `raw/articles/2026-08-08_strategy-vs-tactics-dan-koe.md`, status: unprocessed
+- "Strategy vs tactics: How to actually get ahead of 99% of people" — publish 2026-08-08
+- Cập nhật `raw/articles/articles.md`: item mới + stats (139 files, 138 processed / 1 unprocessed); sửa luôn stale labels của items cũ theo trạng thái file thật
+- Lưu ý: bài có chèn promo links (eden.so) giữ nguyên trong raw — compile sẽ lọc

@@ -23,21 +23,22 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 138 files
-- By status: 138 processed, 0 unprocessed
+- Total: 139 files
+- By status: 138 processed, 1 unprocessed
 - By date: 2 this week, 2 this month
 - Last updated: 2026-08-22
 
 ## Items
 - [[2026-08-22_once-you-understand-neuroplasticity]] — Once you understand neuroplasticity your life will never be the same again by Tim Denning (processed)
 - [[2026-08-22_neuroscience-of-perfect-skill-acquisition]] — The Neuroscience Of Perfect Skill Acquisition by ixcarus (processed)
-- [[2026-08-15_how-ai-text-watermarking-works]] — How AI text watermarking works: a visual guide by James Padolsey (unprocessed)
-- [[2026-08-09_what-is-a-product]] — What is a product? by roge (unprocessed)
+- [[2026-08-08_strategy-vs-tactics-dan-koe]] — Strategy vs tactics: How to actually get ahead of 99% of people by Dan Koe (unprocessed)
+- [[2026-08-15_how-ai-text-watermarking-works]] — How AI text watermarking works: a visual guide by James Padolsey (processed)
+- [[2026-08-09_what-is-a-product]] — What is a product? by roge (processed)
 - [[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuộc đua xem ai không đi lùi by curiositypocket (processed)
 - [[2026-07-30_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — Làm thế nào để ra quyết định khi còn mơ hồ by thankvn (processed)
-- [[2026-07-29_how-to-remember-everything-you-read-dan-koe]] — How to remember everything you read by Dan Koe (unprocessed)
-- [[2026-07-27_the-let-them-theory-gabriel-reality]] — The "Let Them" Theory Will Change Your Life And Your Romantical / Friendship Choices Forever (unprocessed)
-- [[2026-07-27_agent-memory-7-types-substack]] — Agent Memory — the 7 types you should know before you ship to production (unprocessed)
+- [[2026-07-29_how-to-remember-everything-you-read-dan-koe]] — How to remember everything you read by Dan Koe (processed)
+- [[2026-07-27_the-let-them-theory-gabriel-reality]] — The "Let Them" Theory Will Change Your Life And Your Romantical / Friendship Choices Forever (processed)
+- [[2026-07-27_agent-memory-7-types-substack]] — Agent Memory — the 7 types you should know before you ship to production (processed)
 - [[2026-07-26_reward-hacking-writeup]] — Your AIs don't do what you want. This is really bad (processed)
 - [[2026-07-22_never-enough-ronacher]] — Never Enough by Armin Ronacher (processed)
 - [[2026-07-22_iatrogenics-farnam-street]] — Iatrogenics: Why Intervention Often Leads to Worse Outcomes by Farnam Street (processed)
@@ -46,9 +47,9 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 - [[2026-07-20_ill-make-you-believe-you-can-achieve]] — I'll Make You Believe You Can Achieve Anything after Reading This by nqdonzo (processed)
 - [[2026-07-11_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — Giải thích sâu phương pháp học Charlie Munger — Notes của Julius (processed)
 
-- [[2026-07-11_learn-anything-like-charlie-munger]] — The Learning Method Charlie Munger Never Wrote Down by Flo / Undiscovered Compounders (unprocessed)
+- [[2026-07-11_learn-anything-like-charlie-munger]] — The Learning Method Charlie Munger Never Wrote Down by Flo / Undiscovered Compounders (processed)
 
-- [[2026-07-11_the-new-comms-playbook-show-dont]] — The new comms playbook: show, don't promise by a16z crypto (unprocessed)
+- [[2026-07-11_the-new-comms-playbook-show-dont]] — The new comms playbook: show, don't promise by a16z crypto (processed)
 
 - [[2026-07-09_you-escape-competition-by-figuring-out-who-you-are]] — you escape competition by figuring out who you are by Erifili (processed)
 
@@ -84,22 +85,22 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 - [[2026-07-01_money-is-the-easiest-way-to-measure-your-life]] — Money Is the Easiest Way To Measure Your Life. But It Is Not the Best by Mr. Stingy (processed)
 
-- [[2026-06-30_output-vs-outcome-formula]] — Công Thức Xác Định Output vs Outcome by Incentivising (unprocessed)
+- [[2026-06-30_output-vs-outcome-formula]] — Công Thức Xác Định Output vs Outcome by Incentivising (processed)
 
-- [[2026-06-30_bai-toan-dung-la-gi-va-cach-giai]] — Bài Toán Đúng — Cách Xác Định và Giải Quyết by Incentivising (unprocessed)
+- [[2026-06-30_bai-toan-dung-la-gi-va-cach-giai]] — Bài Toán Đúng — Cách Xác Định và Giải Quyết by Incentivising (processed)
 
-- [[2026-06-30_tao-ket-qua-dinh-luong-duoc]] — Tạo Kết Quả Định Lượng Được — Cách Thực Hiện Cụ Thể by Incentivising (unprocessed)
+- [[2026-06-30_tao-ket-qua-dinh-luong-duoc]] — Tạo Kết Quả Định Lượng Được — Cách Thực Hiện Cụ Thể by Incentivising (processed)
 
 - [[2026-06-30_the-laws-of-this-world]] — The Laws of this World (Game Theory) by Incentivising / Structuralist (unprocessed)
 
-- [[2026-06-30_youre-trained-for-world-that-no-longer-exists]] — You're Being Trained for a World That No Longer Exists by Hussain Ibarra (unprocessed)
+- [[2026-06-30_youre-trained-for-world-that-no-longer-exists]] — You're Being Trained for a World That No Longer Exists by Hussain Ibarra (processed)
 
-- [[2026-06-30_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone, At Any Time: The Art of Extroversion by Gabriel Reality (unprocessed)
+- [[2026-06-30_how-to-talk-to-anyone-at-any-time]] — How To Talk To Anyone, At Any Time: The Art of Extroversion by Gabriel Reality (processed)
 
 
-- [[2026-06-30_pivot-vs-persist-framework]] — Khi Nào Nên Đổi Hướng: Pivot vs Persist by Markus (unprocessed)
+- [[2026-06-30_pivot-vs-persist-framework]] — Khi Nào Nên Đổi Hướng: Pivot vs Persist by Markus (processed)
 
-- [[2026-06-30_cach-thoat-khoi-prices-law]] — Cách Thoát Khỏi n-√n: Chiến Lược Vượt Price's Law by Markus (unprocessed)
+- [[2026-06-30_cach-thoat-khoi-prices-law]] — Cách Thoát Khỏi n-√n: Chiến Lược Vượt Price's Law by Markus (processed)
 
 - [[2026-06-29_loop-engineering-14-step-roadmap]] — Loop Engineering: The 14-Step Roadmap from Prompter to Loop Designer by Codez (@0xCodez) (processed)
 

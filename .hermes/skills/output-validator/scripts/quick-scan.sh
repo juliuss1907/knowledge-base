@@ -43,14 +43,16 @@ done
 # ─── 2b. Typo: "ngườii/đờii/lờii/rờii/thờii" → double 'i' after 'ờ' ───
 # Compile Agent variant: doubles final 'i' after grave-accented 'ờ' in Vietnamese.
 # Patterns: ngườii→người, đờii→đời, lờii→lời, rờii→rời, thờii→thời, giớii→giới
-DOUBLE_I_PATTERNS='ngườii|đờii|lờii|rờii|thờii|giớii'
+# Case-insensitive (2026-08-22): "Ngườii" with capital N at sentence start passed
+# the case-sensitive regex — missed 2 instances in second-order-thinking.md.
+DOUBLE_I_PATTERNS='(?i)ngườii|đờii|lờii|rờii|thờii|giớii'
 DOUBLE_I_COUNT=$( (grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null || true) | wc -l | tr -d ' ' )
 DOUBLE_I_INSTANCES=$( (grep -rPoh "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null || true) | wc -l | tr -d ' ' )
 DOUBLE_I_FILES=$(grep -rPl "$DOUBLE_I_PATTERNS" wiki/sources/ wiki/concepts/ 2>/dev/null || echo "")
 # Check if any of today's new files are affected
 DOUBLE_I_NEW_COUNT=0
 for f in $NEW_FILES; do
-    if grep -qP "$DOUBLE_I_PATTERNS" "$f" 2>/dev/null; then
+    if grep -qiP "${DOUBLE_I_PATTERNS}" "$f" 2>/dev/null; then
         DOUBLE_I_NEW_COUNT=$((DOUBLE_I_NEW_COUNT + 1))
     fi
 done

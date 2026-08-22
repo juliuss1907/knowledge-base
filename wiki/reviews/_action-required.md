@@ -10,7 +10,7 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 1 (Output 08-22)
+**Pending reports awaiting review:** 2 (Format 08-22, Output 08-22)
 **Last batch applied:** 14 reports (08-13 through 08-21) — **APPLIED** 2026-08-22 14:40 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -52,12 +52,20 @@
 | ✅ APPLIED | 08-21 | Format | 466 (73E+393W) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-21_format-report.md` |
 | ✅ APPLIED | 08-21 | Hygiene | 19 (2E+16W+1I) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-21_hygiene-report.md` |
 | 🔲 PENDING | 08-22 | Output | 8 (1E+4W+3I) | Awaiting Julius review — `wiki/reviews/2026-08-22_output-report.md` |
+| 🔍 PENDING | 08-22 | Format | 392W | Review [wiki/reviews/2026-08-22_format-report.md](2026-08-22_format-report.md) |
 
 ---
 
 ## Pending Reports
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
+
+### 🔍 Format Validation — 2026-08-22 (23:15)
+
+- **Report:** `wiki/reviews/2026-08-22_format-report.md`
+- **Summary:** 933 files checked (525 concepts + 174 sources + 34 indexes + 200 topics). 392 issues: 0 ERROR, 392 WARNING — tất cả là broken wikilinks (372 individual + 20 forward-reference groups, 269 unique targets). Clean ERROR streak RESTORED: 73 ERRORs từ 08-21 đã được Fix Agent resolve cùng ngày (regen 24 L3 tag files + tag.md). KB grew +9 net files (+5 sources, +4 topics, +2 concepts, −2 merged); debt giảm nhẹ −1 WARNING vì 2 concepts mới resolve forward-references.
+- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-08-22 (23:00)
 
@@ -83,3 +91,5 @@
 ## Applied Reports
 
 _Archive đầy đủ tại `wiki/reviews/archive/`. Bảng Summary phía trên là bản ghi chính thức của tất cả reports đã apply._
+
+Previous reports (08-05 through 08-21) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.

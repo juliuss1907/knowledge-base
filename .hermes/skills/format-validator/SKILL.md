@@ -276,6 +276,8 @@ After generating the report, compare today's results against the most recent **A
 
 Include a delta summary table at the top of the report so Julius can see at a glance whether the KB is getting cleaner or accumulating debt.
 
+- **Reconcile file counts via git, not mtime.** `find -newermt "<prev run>"` over-counts when Fix Agent / Index Agent regenerate existing files the same day (mtime changes, file count doesn't). Use `git log --since="<prev run timestamp>" --diff-filter=A --name-only --pretty=format:"%h %ad %s" --date=iso` to list genuinely added files, then subtract merges — Julius-approved concept merges (e.g. 2026-08-22: `costly-signaling`→`costly-signal`, `identity-detachment`→`identity-transformation`) REMOVE files, so net delta = added − merged (924 + 11 − 2 = 933). State the merge subtraction explicitly in the delta line.
+
 ## Batch behavior
 
 Format Validator always processes entire wiki in one run:
@@ -430,6 +432,8 @@ Julius can approve reports directly (e.g., via Telegram `approve format`) which 
 This prevents stale pending counts and ensures delta tracking uses the correct baseline.
 
 **Observed case (2026-07-02):** The 2026-07-01 format report header showed `**Status:** approved` (Julius approved slug exception), but `_action-required.md` still listed it as `⏳ PENDING`. Reconciliation on 07-02 updated the pending count and status line.
+
+**Re-read _action-required.md immediately before rewriting it.** Another validator may have appended its own pending row between your read and your write — Output Validator runs at 23:00, Format at 23:15, so a stale in-memory copy silently DROPS that row on rewrite. Observed 2026-08-22: file was read at run start showing 0 pending, but by write time Output 08-22 had added a `🔲 PENDING` row; re-read before `write_file` caught it and both rows survived. Also: Output Validator uses `🔲 PENDING` while format-validator's verify_integrity.py regex requires `🔍 PENDING` for the Format row — keep the 🔍 emoji for Format rows.
 
 ### verify_integrity.py has strict regex expectations — report frontmatter must match
 

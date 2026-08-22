@@ -316,6 +316,16 @@ new_string="|| ✅ APPLIED | 08-12 | Hygiene | 0 | ..."
 
 **Symptom:** After patching, the table rows have `|||` (3 pipes) instead of `||` (2 pipes). The table renders incorrectly in markdown. Fix by re-patching the affected rows with the correct `||` prefix.
 
+### _action-required.md rewrite after fuzzy-match corruption (2026-08-22)
+
+Even a 4-line unique `old_string` (ending in "9 backlinks" merge line) got fuzzy-matched to the WRONG location — the patch deleted the "Batch gần nhất" block and left an orphan line, producing a duplicated entry. Recovery procedure that worked:
+
+1. Read the full file, reconstruct intended content (Summary + full APPLIED table + Pending Reports with the new entry + preserved Batch/Open-decisions blocks + Applied Reports footer).
+2. `write_file` the whole file fresh (allowed as documented fallback), keeping all pre-existing rows byte-identical.
+3. Verify: pending-count line, exactly 1 `**Status:** pending`, heading count = 1, no `|||`, preserved blocks present.
+
+Also: when the Summary section and Pending Reports section both carry a `**Pending reports awaiting review:**` line (current file format has both), scope verification greps with sed range `/^## Pending Reports/,$` or disambiguate the Summary line (e.g. append `(Output 08-22)`).
+
 ### Sibling validator race on _action-required.md (2026-07-13)
 
 When multiple Hermes validators (output, format, hygiene) run as sequential cron jobs around the same time, they share `_action-required.md`. A sibling validator can add its own pending entry between when you read the file and when you write it. If your patch hardcodes a specific pending count, it will be stale and undercount.
@@ -530,6 +540,10 @@ Adding variant 5 detection to quick-scan.sh requires careful context-awareness (
 5. 'i' deleted entirely → "ngườ"
 
 Each "fix" to the Compile Agent prompt appears to shift the error rather than eliminate it. The underlying tokenization boundary between the diacritic character and the following 'i' remains unstable.
+
+### quick-scan double-i regex is case-sensitive — "Ngườii" slips through (2026-08-22)
+
+`scripts/quick-scan.sh` section 2b pattern `'ngườii|đờii|...'` missed "Ngườii" with capital N at sentence start (2 instances in `second-order-thinking.md`, batch 08-22). Quick-scan reported "double-i (new: 0)" while the new file had 2 instances. **Fixed 2026-08-22:** pattern now `(?i)ngườii|đờii|...` + per-file check uses `-qiP`. Lesson: when a typo variant can start a sentence, the detection regex must be case-insensitive — Vietnamese sentence-initial capitals are normal.
 
 ### False-positive content-depth flags (LLM hallucination)
 

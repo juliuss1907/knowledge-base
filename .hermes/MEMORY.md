@@ -129,3 +129,13 @@ Files checked: 891
 - **Delta from 2026-08-05 (last run):** +5 files (+4 concepts, +1 source), -3 ERRORs (fixed), WARNINGs unchanged (430→430). KB growth resumed after 4-day static period.
 - **Delta from 2026-07-30 (approved):** +24 files (867→891), +19 WARNINGs (411→430). +13 concepts, +3 sources, +8 topics. 0-ERROR streak restored.
 - **Structural quality:** Clean — 0 frontmatter errors, 0 section structure errors, 0 naming violations, 0 code block issues. 430 forward-reference warnings (expected in growing KB, not structural).
+
+## 2026-08-22 23:00:29 — Output validation
+- **Files checked:** 699 (174 sources + 525 concepts)
+- **New files:** 21 (5 sources + 16 concepts) — compiled today; 1 file from 08-16 gap (src_how-ai-text-watermarking-works, đã có trong approved report 08-16)
+- **Issues found:** 8 (1 ERROR, 4 WARNING, 3 INFO)
+- **Report:** wiki/reviews/2026-08-22_output-report.md
+- **ERROR duy nhất:** incentives-mental-model.md trỏ source slug không tồn tại (`src_the-power-of-incentives-hidden-forces-shape-behavior` → file thật `src_incentives-hidden-forces.md`) — link sẽ không bao giờ resolve
+- **Quick-scan miss (new):** "Ngườii" ×2 trong second-order-thinking.md — regex quick-scan case-sensitive nên không match chữ N hoa. Cần thêm -i hoặc pattern "Ngườii" vào section 2b của scripts/quick-scan.sh
+- **Carry-over:** double-i ~26 instances/18 file cũ + capital-I ~18 instances/14 file cũ còn sót sau batch fix 08-06 — backlog Fix Agent
+- **False positive ghi nhận:** "Empty Key ideas: 9" của quick-scan là false positive (8/9 file dùng numbered list/table, script chỉ đếm `-` bullets); "1-sentence definitions: 523" đếm cả dòng đầu của multi-sentence definitions

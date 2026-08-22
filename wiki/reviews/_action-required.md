@@ -10,7 +10,7 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 1 (Output 08-22)
 **Last batch applied:** 14 reports (08-13 through 08-21) — **APPLIED** 2026-08-22 14:40 by Fix Agent
 
 | Status | Date | Type | Issues | Action |

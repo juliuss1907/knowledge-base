@@ -1,8 +1,7 @@
 model:
-  default: Knowledge-base
-  provider: custom
-  base_url: http://localhost:20128/v1
-  api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
+  default: x-preview-f-free
+  provider: opencode-zen
+  base_url: https://opencode.ai/zen/v1
   api_mode: chat_completions
 providers: {}
 fallback_providers: []

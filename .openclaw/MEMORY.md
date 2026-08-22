@@ -1131,3 +1131,7 @@ Dọn dẹp kèm theo:
 - Cập nhật topic indexes (game-theory-comeback, costly-signal, identity-transformation) — bỏ entry chết, fix counts
 
 Verify: 0 broken wikilink tới slug đã xóa; concepts 527 → 525.
+
+## 2026-08-22T16:22:00+07:00 — Duplicate ingest denied
+
+Julius gửi lại link `https://x.com/0x_Ito/status/2089360096899760632` (yêu cầu dùng agent-reach). Đã ingest từ 2026-08-19 (`raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md`), compiled 2026-08-22 sáng (`src_3-ways-to-get-rich`). Fetch qua twitter-cli OK — articleText khớp 100% với file lưu. Không tạo duplicate.

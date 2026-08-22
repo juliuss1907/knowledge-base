@@ -1074,3 +1074,10 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
    - `raw/posts/2026-08-17_there-are-3-ways-to-get-rich.md` (4 days)
 3. ✅ Concept check — anterior-cingulate-cortex.md, hindsight-skill.md: both have proper backlinks to sources
 4. ⚠️ Pending review — 2 reports 08-17 vẫn PENDING, chưa được notify Julius
+
+## 2026-08-22T09:25:00+07:00 — Ingest
+
+- **File:** `raw/articles/2026-08-22_once-you-understand-neuroplasticity.md`
+- **Source:** https://timdenning.substack.com/p/once-you-understand-neuroplasticity
+- **Author:** Tim Denning — status: unprocessed
+- **Note:** Julius gửi cùng link 3 lần (07:15, 08:18, 09:23) — chỉ ingest 1 lần, không duplicate. Hai lần đầu có vẻ bị miss do session reset.

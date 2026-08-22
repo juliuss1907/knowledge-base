@@ -10,7 +10,7 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 0
 **Last batch applied:** 5 reports (08-11 through 08-12) — **APPLIED** 2026-08-13 by Fix Agent
 
 | Status | Date | Type | Issues | Action |
@@ -47,45 +47,45 @@
 | ✅ APPROVED | 08-16 | Output | 3 (0E+1W+2I) | Review [wiki/reviews/2026-08-16_output-report.md](2026-08-16_output-report.md) |
 | ✅ APPROVED | 08-16 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-16_format-report.md](2026-08-16_format-report.md) |
 | ✅ APPROVED | 08-16 | Hygiene | 4 (2E+1W+1I) | Review [wiki/reviews/2026-08-16_hygiene-report.md](2026-08-16_hygiene-report.md) |
-| 🔍 PENDING | 08-17 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-17_format-report.md](2026-08-17_format-report.md) |
-| 🔍 PENDING | 08-17 | Hygiene | 9 (2E+6W+1I) | Review [wiki/reviews/2026-08-17_hygiene-report.md](2026-08-17_hygiene-report.md) |
-| 🔍 PENDING | 08-21 | Format | 466 (73E+393W) | Review [wiki/reviews/2026-08-21_format-report.md](2026-08-21_format-report.md) |
-| 🔍 PENDING | 08-21 | Hygiene | 19 (2E+16W+1I) | Review [wiki/reviews/2026-08-21_hygiene-report.md](2026-08-21_hygiene-report.md) |
+| ✅ APPROVED | 08-17 | Format | 393 (0E+393W) | Review [wiki/reviews/2026-08-17_format-report.md](2026-08-17_format-report.md) |
+| ✅ APPROVED | 08-17 | Hygiene | 9 (2E+6W+1I) | Review [wiki/reviews/2026-08-17_hygiene-report.md](2026-08-17_hygiene-report.md) |
+| ✅ APPROVED | 08-21 | Format | 466 (73E+393W) | Review [wiki/reviews/2026-08-21_format-report.md](2026-08-21_format-report.md) |
+| ✅ APPROVED | 08-21 | Hygiene | 19 (2E+16W+1I) | Review [wiki/reviews/2026-08-21_hygiene-report.md](2026-08-21_hygiene-report.md) |
 
 ---
 
 ## Pending Reports
 
-### 🔍 Hygiene Inspection — 2026-08-21 (23:30)
+### ✅ Hygiene Inspection — 2026-08-21 (23:30)
 
 - **Report:** `wiki/reviews/2026-08-21_hygiene-report.md`
 - **Summary:** 19 issues (2E+16W+1I). 53611 paths checked. Recurring root orphans `memory/` AND `state/` — **5th leak in 6 runs** (08-14, 08-16, 08-17, 08-21; 08-15 single-orphan regression). `memory/` grew 6→16 files (+10 WARNINGs) across 08-18/08-19/08-21, all **git-tracked** (`git ls-files memory/` 16 entries, `git check-ignore` → not ignored) — survives `vault backup` auto-commits (~every 5 min). `state/` still empty phantom (untracked).
 - **Delta from 08-17 (previous hygiene):** +10 issues (9→19), +33 paths (53578→53611) — entire delta is `memory/` accumulation, no new folder types or naming violations. `state/` unchanged.
 - **Actions needed:** Root-cause fix — redirect the session/heartbeat/fetch writer output path from KB root `memory/` → `.openclaw/memory/`, then `git rm -r memory/` + commit (deletion alone futile — git-tracked). `rmdir state/`. Escalated as [SYSTEMATIC VIOLATION].
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Format Validation — 2026-08-21 (23:20)
+### ✅ Format Validation — 2026-08-21 (23:20)
 
 - **Report:** `wiki/reviews/2026-08-21_format-report.md`
 - **Summary:** 466 issues (73E+393W+0I). 924 paths checked (525 concepts + 169 sources + 34 indexes + 196 topics). 72 ERRORs from 24 L3 tag files missing `## Parent`, `## Stats`, `## Files with this tag` (Index Agent regeneration 08-19 overwrote Fix Agent 08-13 corrections); 1 ERROR from `wiki/tag/tag.md` missing `level` field. 393 WARNINGs unchanged — all broken wikilinks (373 individual + 20 groups, 270 unique targets).
 - **Delta from 08-16 (approved):** +73 total issues (393→466), +73 ERRORs (0→73), +1 file (923→924, 195→196 topics), 0 WARNING change. Clean ERROR streak BROKEN — 5-day clean run (08-13 through 08-17) ended. Regression is systematic Index Agent output.
 - **Actions needed:** Fix Agent to regenerate 24 L3 tag files with all 4 required sections (`## Parent`, `## Stats`, `## Files with this tag`, `## Co-occurring tags`) plus patch `wiki/tag/tag.md` frontmatter (`level: 2`). Root-cause fix: update Index Agent SKILL.md template to emit all required L3 sections. Escalated as [SYSTEMATIC VIOLATION].
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Hygiene Inspection — 2026-08-17 (23:31)
+### ✅ Hygiene Inspection — 2026-08-17 (23:31)
 
 - **Report:** `wiki/reviews/2026-08-17_hygiene-report.md`
 - **Summary:** 9 issues (2E+6W+1I). 53,578 paths checked. Recurring root orphans `memory/` AND `state/` resurfaced for the **4th consecutive run** (08-14→08-17). `memory/` now holds 6 files all created today (3 OpenClaw session logs + heartbeat-ok + heartbeat-poll + fetch-status), all **git-tracked** (`git ls-files memory/`) — the writer runs multiple times daily and emits to KB root `memory/` instead of `.openclaw/memory/`. `state/` is an empty untracked phantom dir.
 - **Actions needed:** Root-cause fix — redirect the session/heartbeat/fetch writer output path from KB root `memory/` → `.openclaw/memory/`, then `git rm -r memory/` + commit (file deletion alone is futile — files are git-tracked and resurrected by auto `vault backup` commits). `rmdir state/`. Escalated as [SYSTEMATIC VIOLATION].
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Format Validation — 2026-08-17 (23:15)
+### ✅ Format Validation — 2026-08-17 (23:15)
 
 - **Report:** `wiki/reviews/2026-08-17_format-report.md`
 - **Summary:** 393 WARNINGs (0E+393W+0I) — all broken wikilinks (forward-references to uncompiled concepts). 373 individual + 20 forward-reference groups. 270 unique broken targets. 0 ERRORs — fifth consecutive clean ERROR run.
 - **Delta from 08-16 (approved):** 0 net change — identical across all axes (393 total, 923 files, 270 unique targets). No KB growth since yesterday, so no new forward-references. No regressions, no new structural violations.
 - **Actions needed:** None — all WARNINGs are forward-references that resolve naturally as Compile Agent processes more raw files. No structural or format violations.
-- **Status:** pending
+- **Status:** approved
 
 ### ✅ Hygiene Inspection — 2026-08-16 (23:45)
 
@@ -231,4 +231,4 @@
 
 ---
 
-*System status: 8 reports ✅ APPROVED by Julius 2026-08-16. 08-17 Format + Hygiene + 08-21 Format + Hygiene reports 🔍 PENDING (4 pending). Fix Agent cần regenerate tag indexes + redirect memory/ writer.*
+*System status: 12 reports ✅ APPROVED by Julius 2026-08-21. 0 pending. Fix Agent next: regenerate 24 L3 tag files (Index Agent regression) + redirect memory/ writer.*

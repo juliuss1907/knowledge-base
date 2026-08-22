@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Master index of all tags in the Knowledge Base.
 
-Last updated: 2026-08-22 15:06:00
+Last updated: 2026-08-22 15:18:02
 
 ---
 
@@ -29,7 +29,7 @@ Master index of all tags used in the Knowledge Base. Tracks statistics, files pe
 - Total tags: 24
 - Main tags: 9
 - Sub tags: 15
-- Most used: #productivity (299), #ai (169), #economic (88)
+- Most used: #productivity (299), #psychology (297), #research (262)
 - Last updated: 2026-08-22
 
 ## Items

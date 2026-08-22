@@ -12,7 +12,7 @@ last_updated: 2026-08-22
 
 Auto-generated index of all content tagged with `#health`.
 
-Last updated: 2026-08-22 15:06:00
+Last updated: 2026-08-22 15:18:02
 
 ---
 
@@ -22,9 +22,9 @@ Last updated: 2026-08-22 15:06:00
 
 ## Stats
 
-- Total files: 42
-- Sources: 10
-- Concepts: 32
+- Total files: 51
+- Sources: 11
+- Concepts: 40
 - Last updated: 2026-08-22
 
 ## Files with this tag
@@ -33,20 +33,27 @@ Last updated: 2026-08-22 15:06:00
 - [[anterior-cingulate-cortex]] — Anterior Cingulate Cortex (concept, main: #health, sub: [#psychology], topic: let-them-theory-relationships)
 - [[brain-rot]] — Brain Rot (concept, main: #health, sub: [#psychology, #research], topic: brain-health)
 - [[childhood-abandonment-patterns]] — Childhood Abandonment Patterns (concept, main: #health, sub: [#psychology], topic: childhood-emotional-wounds)
+- [[circadian-rhythm]] — Circadian Rhythm (concept, main: #productivity, sub: [#tutorial, #health], topic: sleep-hygiene)
 - [[cognitive-load-theory]] — Cognitive Load Theory (concept, main: #health, sub: [#psychology, #research], topic: brain-health)
 - [[comparison-trap]] — Comparison Trap (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
 - [[compound-exercises]] — Compound Exercises (concept, main: #health, sub: [#tutorial], topic: compound-exercises)
 - [[control-trap]] — Control Trap (concept, main: #health, sub: [#psychology], topic: let-them-theory-relationships)
+- [[default-mode-network]] — Default Mode Network (concept, main: #ai, sub: [#research, #health], topic: evolutionary-mismatch-modern-life)
 - [[destination-vs-vehicle]] — Destination Vs Vehicle (concept, main: #health, sub: [#psychology], topic: social-attraction-dynamics)
 - [[dopamine-prediction-gap]] — Dopamine Prediction Gap (concept, main: #health, sub: [#psychology], topic: social-attraction-dynamics)
 - [[emotional-inheritance]] — Emotional Inheritance (concept, main: #health, sub: [#psychology], topic: childhood-emotional-wounds)
 - [[enough]] — Enough (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
+- [[evening-routine]] — Evening Routine (concept, main: #productivity, sub: [#tutorial, #health], topic: sleep-hygiene)
 - [[flow-state]] — Flow State (concept, main: #health, sub: [#psychology], topic: happiness-flow-state)
+- [[glymphatic-system]] — Glymphatic System (concept, main: #productivity, sub: [#research, #health], topic: simplicity-psychology)
 - [[hedonic-adaptation]] — Hedonic Adaptation (concept, main: #health, sub: [#psychology], topic: happiness-flow-state)
+- [[hippocampal-replay]] — Hippocampal Replay (concept, main: #ai, sub: [#research, #health], topic: llm-memory-consolidation)
+- [[hunter-gatherer-lifestyle]] — Hunter Gatherer Lifestyle (concept, main: #productivity, sub: [#research, #health, #psychology], topic: evolutionary-mismatch-modern-life)
 - [[identity-transformation]] — Identity Transformation (concept, main: #health, sub: [#psychology, #opinion], topic: identity-transformation)
 - [[intolerance-of-uncertainty]] — Intolerance Of Uncertainty (concept, main: #health, sub: [#psychology], topic: let-them-theory-relationships)
 - [[let-them-theory]] — Let Them Theory (concept, main: #health, sub: [#psychology, #opinion], topic: let-them-theory-relationships)
 - [[letting-go]] — Letting Go (concept, main: #health, sub: [#psychology, #opinion], topic: identity-transformation)
+- [[meaning-through-work]] — Meaning Through Work (concept, main: #productivity, sub: [#health, #psychology], topic: ai-future-skills)
 - [[mind-body-connection]] — Mind Body Connection (concept, main: #health, sub: [#psychology, #system], topic: r3-get-in-shape)
 - [[mindfulness-presence]] — Mindfulness Presence (concept, main: #health, sub: [#psychology, #research, #tutorial], topic: time-perception-childhood)
 - [[never-enough-culture]] — Never Enough Culture (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
@@ -58,11 +65,13 @@ Last updated: 2026-08-22 15:06:00
 - [[psychic-energy]] — Psychic Energy (concept, main: #health, sub: [#psychology], topic: happiness-flow-state)
 - [[psychic-entropy]] — Psychic Entropy (concept, main: #health, sub: [#psychology], topic: happiness-flow-state)
 - [[r3-framework]] — R3 Framework (concept, main: #health, sub: [#psychology, #system], topic: r3-get-in-shape)
+- [[sleep-hygiene]] — Sleep Hygiene (concept, main: #productivity, sub: [#tutorial, #health], topic: sleep-hygiene)
 - [[social-attraction]] — Social Attraction (concept, main: #health, sub: [#psychology], topic: social-attraction-dynamics)
 - [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source, main: #health, sub: [#psychology, #research], topic: brain-health-habits)
 - [[src_compound-exercises-pareto-workouts]] — Compound Exercises Pareto Workouts (source, main: #health, sub: [#tutorial], topic: compound-exercises)
 - [[src_get-in-shape-r3-notes]] — Get In Shape R3 Notes (source, main: #health, sub: [#psychology, #system], topic: r3-get-in-shape)
 - [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness Is A Skill Hussain Ibarra (source, main: #health, sub: [#psychology, #opinion], topic: happiness-flow-state)
+- [[src_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine Fix Sleep (source, main: #productivity, sub: [#tutorial, #health], topic: sleep-hygiene)
 - [[src_just-let-go-cipheron]] — Just Let Go Cipheron (source, main: #health, sub: [#psychology, #opinion], topic: identity-transformation)
 - [[src_never-enough-ronacher]] — Never Enough Ronacher (source, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
 - [[src_our-first-heartbreaks-were-our-parents]] — Our First Heartbreaks Were Our Parents (source, main: #health, sub: [#psychology, #opinion], topic: childhood-emotional-wounds)

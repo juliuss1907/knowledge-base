@@ -27,6 +27,8 @@ for d, t in ((CON,'concept'), (SRC,'source')):
 idx = defaultdict(lambda:{'concepts':[],'sources':[]})
 for f in files:
     idx[f['main']][f['type']+'s'].append(f)
+    for st in f['subs']:
+        idx[st][f['type']+'s'].append(f)
 co = defaultdict(int)
 for f in files:
     ts = [f['main']] + f['subs']

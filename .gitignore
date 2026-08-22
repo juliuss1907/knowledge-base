@@ -83,3 +83,4 @@ MEMORY.md
 # Root memory leak prevention — agent writes go to .openclaw/memory/
 memory/
 state/
+memory/

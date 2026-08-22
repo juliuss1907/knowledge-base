@@ -5,7 +5,9 @@ url: https://ixcarus.substack.com/p/the-neuroscience-of-perfect-skill
 author: ixcarus
 date_published: 2026-03-17
 date_ingested: 2026-08-22
-status: unprocessed
+status: processed
+compiled_at: 2026-08-22
+compiled_to: "[[src_neuroscience-of-perfect-skill-acquisition]]"
 source: ixcarus.substack.com
 ---
 

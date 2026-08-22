@@ -6,7 +6,8 @@ sub_tags: [tools, psychology]
 topic: skill-acquisition
 sources:
   - "[[src_personal-mba-generator-skill]]"
-last_updated: 2026-06-27
+  - "[[src_neuroscience-of-perfect-skill-acquisition]]"
+last_updated: 2026-08-22
 ---
 
 # skill-acquisition-framework
@@ -24,14 +25,20 @@ Một phương pháp có cấu trúc để học bất kỳ kỹ năng nào mộ
 - Pitfall section là điểm khác biệt: dự đoán 3-5 obstacles phổ biến, mô tả relatable ("bạn cảm thấy stuck khi..."), kèm actionable solution.
 - Tone: coach, không phải professor — direct, energetic, encouraging. Adapt complexity theo level người học.
 - Áp dụng cho mọi loại kỹ năng: technical, soft, creative, ngôn ngữ, chuyên môn.
+- **Familiarity ≠ competence:** bỏ ra hàng giờ practice nhưng chỉ xây familiarity (quen mặt, cảm giác biết) rồi gọi nhầm là competence; chỉ competence thật — làm được dưới áp lực khi điều kiện thay đổi — mới transfer sang thế giới thực
+- **Bối cảnh thị trường:** credentials đang mất giá, skills đang lên giá nhanh nhất trong lịch sử — "the market doesn't care where you studied, it cares what you can do when conditions are difficult and something real is on the line"
+- Hours không tự chuyển thành performance: "we've been thinking about practice wrong" — time-consuming repetition thông thường không chịu được shift điều kiện
 
 ## Related concepts
 
 - [[standard-operating-procedure]]
+- [[deliberate-practice]]
+- [[career-compounding]]
 
 ## Sources
 
 - [[src_personal-mba-generator-skill]]
+- [[src_neuroscience-of-perfect-skill-acquisition]] — ixcarus: neuroscience của skill encoding, familiarity vs competence (paywalled, compile từ preview)
 
 ## Notes
 

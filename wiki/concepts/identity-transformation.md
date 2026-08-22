@@ -6,7 +6,8 @@ sub_tags: [psychology, opinion]
 topic: identity-transformation
 sources:
   - "[[src_just-let-go-cipheron]]"
-last_updated: 2026-08-11
+  - "[[src_once-you-understand-neuroplasticity]]"
+last_updated: 2026-08-22
 ---
 
 # Identity Transformation
@@ -27,6 +28,7 @@ Identity transformation (chuyển hóa danh tính) là quá trình buông bỏ p
 - Bạn không cần phải "trở thành" — chỉ cần "đóng vai" nó, và theo thời gian nó sẽ trở thành bạn
 - "It's only after we have lost everything that we are free to do anything" — buông bỏ hoàn toàn phiên bản cũ để giải phóng
 - Càng đè nén những suy nghĩ và nỗi sợ, chúng càng mạnh — cần đối mặt trực tiếp thay vì chạy trốn
+- **Cơ chế thần kinh của "đóng vai":** "Act first. Identity catches up later" — daily actions tạo neural pathways mới qua neuroplasticity, não dần coi behavior mới là normal, identity theo sau hành động chứ không dẫn đường; chờ cảm giác "mình đã đổi" rồi mới hành động là đặt xe ngựa trước ngựa
 
 ## Related concepts
 
@@ -35,9 +37,11 @@ Identity transformation (chuyển hóa danh tính) là quá trình buông bỏ p
 - [[psychological-survival]]
 - [[identity-detachment]]
 - [[role-playing-self]]
+- [[neuroplasticity]]
 
 ## Sources
 
 - [[src_just-let-go-cipheron]]
+- [[src_once-you-understand-neuroplasticity]] — Tim Denning: cơ chế neuroplasticity đằng sau act-first-identity-later
 
 ## Notes

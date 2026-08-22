@@ -1081,3 +1081,19 @@ All 4 reports moved to `wiki/reviews/archive/2026-08/`:
 - **Source:** https://timdenning.substack.com/p/once-you-understand-neuroplasticity
 - **Author:** Tim Denning — status: unprocessed
 - **Note:** Julius gửi cùng link 3 lần (07:15, 08:18, 09:23) — chỉ ingest 1 lần, không duplicate. Hai lần đầu có vẻ bị miss do session reset.
+
+## 2026-08-22T09:45:00+07:00 — Compiled (batch on-demand)
+
+**Trigger:** Julius approve compile lại sau khi job 08:00 báo "complete" giả. Batch: 5 files.
+
+| Raw | Source note | Concepts |
+|---|---|---|
+| posts/2026-08-08_the-art-of-strategic-thinking | src_the-art-of-strategic-thinking | +strategic-thinking (NEW), focus, inversion |
+| posts/2026-08-15_the-principles-of-better-decisions | src_principles-of-better-decisions | first-principles-thinking, opportunity-cost, second-order-thinking, compounding-effect, incentives-mental-model, probabilistic-thinking, inversion |
+| posts/2026-08-17_there-are-3-ways-to-get-rich | src_3-ways-to-get-rich | leverage |
+| articles/2026-08-22_neuroscience-of-perfect-skill-acquisition | src_neuroscience-of-perfect-skill-acquisition | skill-acquisition-framework, career-compounding (⚠️ paywalled — compile từ preview) |
+| articles/2026-08-22_once-you-understand-neuroplasticity | src_once-you-understand-neuroplasticity | +neuroplasticity (NEW), identity-transformation, deliberate-practice |
+
+- Tags: main=productivity ×5; sub=[strategy/psychology/opinion/research]; topics: strategic-thinking, better-decisions, leverage-wealth, skill-acquisition ×2, neuroplasticity
+- Raw frontmatter: 5 file → status: processed, compiled_at: 2026-08-22
+- raw/ unprocessed còn lại: 0

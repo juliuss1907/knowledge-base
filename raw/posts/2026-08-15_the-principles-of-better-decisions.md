@@ -5,7 +5,9 @@ url: https://x.com/i/status/2088562056580464764
 author: Hades (@0xHvdes)
 date_published: 2026-08-15
 date_ingested: 2026-08-17
-status: unprocessed
+status: processed
+compiled_at: 2026-08-22
+compiled_to: "[[src_principles-of-better-decisions]]"
 source: x.com
 ---
 

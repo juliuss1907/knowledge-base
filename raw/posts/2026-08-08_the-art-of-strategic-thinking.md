@@ -5,7 +5,9 @@ url: https://x.com/i/status/2086197754452377955
 author: DAN KOE (@thedankoe)
 date_published: 2026-08-08
 date_ingested: 2026-08-17
-status: unprocessed
+status: processed
+compiled_at: 2026-08-22
+compiled_to: "[[src_the-art-of-strategic-thinking]]"
 source: x.com
 ---
 

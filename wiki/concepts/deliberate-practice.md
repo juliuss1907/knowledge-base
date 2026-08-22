@@ -7,7 +7,8 @@ topic: deliberate-practice
 sources:
   - "[[src_the-laws-of-this-world]]"
   - "[[src_the-art-of-being-overlooked-stay-silent]]"
-last_updated: 2026-07-13
+  - "[[src_once-you-understand-neuroplasticity]]"
+last_updated: 2026-08-22
 ---
 
 # Deliberate Practice
@@ -27,6 +28,7 @@ Khái niệm từ Ericsson, Krampe, & Tesch-Römer (1993): nỗ lực không có
 - Myelin: mỗi lần fire một neural circuit, não bọc pathway đó trong myelin (lớp béo). Càng nhiều myelin = tín hiệu càng nhanh, càng sạch. Myelin hình thành qua reps — không có shortcut
 - "A river cuts through rock not because of its power but its persistence" — James Watkins. Slow, boring, consistent reps thắng trong dài hạn
 - Tài năng bẩm sinh cho lợi thế ban đầu nhưng nếu ngừng cải thiện trong khi người khác tiếp tục luyện tập, lợi thế đó biến mất — slow wrapping wins
+- **Errors là nguyên liệu:** "Errors are the basis for neuroplasticity and learning" (Andrew Huberman) — muốn rewire não phải dám mắc lỗi nhiều hơn; high performers thích mắc lỗi nên học được nhiều, người trung bình né lỗi nên không học được gì; luyện vùng sai sót chứ không lặp phần đã thành thạo
 
 ## Related concepts
 
@@ -36,11 +38,13 @@ Khái niệm từ Ericsson, Krampe, & Tesch-Römer (1993): nỗ lực không có
 - [[skill-acquisition-framework]]
 - [[intrinsic-motivation]]
 - [[goal-announcement-trap]]
+- [[neuroplasticity]]
 
 ## Sources
 
 - [[src_the-laws-of-this-world]]
 - [[src_the-art-of-being-overlooked-stay-silent]]
+- [[src_once-you-understand-neuroplasticity]] — Tim Denning: error-driven rewiring theo Huberman
 
 ## Notes
 

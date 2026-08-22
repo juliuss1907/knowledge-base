@@ -6,7 +6,8 @@ sub_tags: [strategy, opinion]
 topic: career-strategy
 sources:
   - "[[src_long-range-career-advice]]"
-last_updated: 2026-08-11
+  - "[[src_neuroscience-of-perfect-skill-acquisition]]"
+last_updated: 2026-08-22
 ---
 
 # Career Compounding
@@ -27,6 +28,8 @@ Career compounding (lãi kép sự nghiệp) là quá trình tích lũy knowledg
 - Luôn vui vẻ (cheerful) là một phần quan trọng không kém của việc "hữu ích" — đồng nghiệp sẽ nhớ bạn là người tuyệt vời để làm việc cùng
 - Nguyên tắc: "people who try hard to be useful wherever they are tend to do great, and people who don't, don't"
 - Cơ hội có thể đến từ bất kỳ đâu: khách hàng, quản lý, đồng nghiệp — đừng thiển cận về công việc hiện tại
+- **Skill stacking:** 1 skill làm bạn valuable, 2 skill complementary làm bạn genuinely rare, stack nhiều skill cao cấp khớp nhu cầu thị trường cụ thể → tự tạo category riêng cho mình; skills compound theo cách information không thể
+- **Skill là tài sản portable nhất:** không ai lấy được, không expire, không phụ thuộc CV hay quan hệ — nền tảng để career compounding chạy là competence thật (làm được dưới áp lực), không phải familiarity
 
 ## Related concepts
 
@@ -37,5 +40,6 @@ Career compounding (lãi kép sự nghiệp) là quá trình tích lũy knowledg
 ## Sources
 
 - [[src_long-range-career-advice]]
+- [[src_neuroscience-of-perfect-skill-acquisition]] — ixcarus: skill stacking tạo category riêng (paywalled, compile từ preview)
 
 ## Notes

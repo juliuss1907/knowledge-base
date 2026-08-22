@@ -5,7 +5,9 @@ url: https://x.com/0x_Ito/status/2089360096899760632
 author: 0x_Ito
 date_published: 2026-08-17
 date_ingested: 2026-08-19
-status: unprocessed
+status: processed
+compiled_at: 2026-08-22
+compiled_to: "[[src_3-ways-to-get-rich]]"
 source: x.com
 ---
 

@@ -4,7 +4,9 @@ title: "Once you understand neuroplasticity your life will never be the same aga
 url: https://timdenning.substack.com/p/once-you-understand-neuroplasticity
 author: Tim Denning
 date_ingested: 2026-08-22
-status: unprocessed
+status: processed
+compiled_at: 2026-08-22
+compiled_to: "[[src_once-you-understand-neuroplasticity]]"
 source: timdenning.substack.com
 ---
 

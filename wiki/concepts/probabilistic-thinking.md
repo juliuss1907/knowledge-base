@@ -6,7 +6,8 @@ sub_tags: [psychology]
 topic: mental-models
 sources:
   - "[[src_probabilistic-thinking]]"
-last_updated: 2026-06-04
+  - "[[src_principles-of-better-decisions]]"
+last_updated: 2026-08-22
 ---
 
 # Probabilistic Thinking
@@ -47,6 +48,8 @@ Probabilistic Thinking (Suy nghĩ theo xác suất) là nghệ thuật điều h
 - Probabilistic thinking giúp hành động với mức độ chắc chắn cao hơn trong tình huống phức tạp, không thể đoán trước
 - Cần xác định rough những gì quan trọng, đưa ra sense of the odds, kiểm tra giả định, rồi đưa ra quyết định
 - Không thể biết tương lai với độ chính xác tuyệt đối — probabilistic thinking là công cụ hữu ích để đánh giá thế giới sẽ trông như thế nào
+- Sai lầm lớn nhất là chờ đến 100% chắc chắn — khoảnh khắc đó gần như không bao giờ đến: investors không biết công ty có thành unicorn không, founders không biết startup sẽ sống hay chết, creators không biết bài nào viral; họ quyết định trong bất định như thường
+- Đổi câu hỏi từ "will this work?" sang "does this increase my probability of succeeding?" — personal brand/conference/gặp thêm một founder không guarantee gì, nhưng đều tăng xác suất; người thắng không phải người dự đoán đúng tương lai mà là người consistently đặt cược tốt hơn
 
 ## Related concepts
 
@@ -61,6 +64,7 @@ Probabilistic Thinking (Suy nghĩ theo xác suất) là nghệ thuật điều h
 ## Sources
 
 - [[src_probabilistic-thinking]]
+- [[src_principles-of-better-decisions]] — Hades: probabilistic thinking như principle #6 của better decisions
 
 ## Notes
 

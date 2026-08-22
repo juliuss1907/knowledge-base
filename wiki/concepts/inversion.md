@@ -6,7 +6,9 @@ sub_tags: [psychology]
 topic: mental-models
 sources:
   - "[[src_inversion]]"
-last_updated: 2026-06-04
+  - "[[src_principles-of-better-decisions]]"
+  - "[[src_the-art-of-strategic-thinking]]"
+last_updated: 2026-08-22
 ---
 
 # Inversion
@@ -31,11 +33,13 @@ Inversion (Suy nghĩ ngược) là một mental model giúp giải quyết vấn
 - Ứng dụng trong đầu tư: thay vì "Cổ phiếu nào sẽ tăng?", hỏi "Cổ phiếu nào chắc chắn mất tiền?" rồi tránh
 - Ứng dụng trong mối quan hệ: thay vì "Điều gì tạo nên hôn nhân tốt?", hỏi "Điều gì phá hủy hôn nhân?" rồi tránh các yếu tố đó
 - Ứng dụng trong sức khỏe: thay vì "Làm sao để khỏe mạnh?", hỏi "Làm sao để đảm bảo sức khỏe tệ?" rồi làm ngược lại
+- Danh sách failure modes của Hades: never publish, never talk to users, never take risks, never ask questions, never start — tránh đủ những cái đó đã vượt phần lớn người
 - Forward thinking có thể thất bại với các vấn đề phức tạp, bài toán đạo đức, "unknown unknowns"
 - Trong những trường hợp này, inversion cung cấp sự rõ ràng mà forward thinking tạo ra sự nhầm lẫn
 - Quy trình áp dụng inversion: (1) Bắt đầu với mục tiêu, (2) Inversion ngược lại, (3) Liệt kê failure modes cụ thể, (4) Tạo avoid-list, (5) Xem xét thường xuyên
 - Inversion mạnh mẽ về mặt toán học vì biến đổi vấn đề — nếu khó giải một hướng, có thể dễ hơn hướng ngược lại
 - Ví dụ cổ điển: bài toán người nông dân qua sông với cáo, gà, và ngô — inversion giúp tìm lời giải bằng cách xác định điều gì tạo ra thất bại
+- **Anti-vision + post-mortem:** để tạo vision rõ, bắt đầu từ phía ngược lại — viết ra chính xác điều bạn KHÔNG muốn outcome trở thành (anti-vision), rồi reverse-engineer vì sao nó đã xảy ra và tránh các sai lầm đó (post-mortem); dùng failure làm inversion mechanism để tìm ra điều mình thật sự muốn
 
 ## Related concepts
 
@@ -49,6 +53,8 @@ Inversion (Suy nghĩ ngược) là một mental model giúp giải quyết vấn
 ## Sources
 
 - [[src_inversion]] — Bài viết từ Farnam Street về mental model Inversion và ứng dụng của Charlie Munger.
+- [[src_principles-of-better-decisions]] — Hades: 7 principles tư duy quyết định, gồm Inversion
+- [[src_the-art-of-strategic-thinking]] — Dan Koe: anti-vision + post-mortem như bước khởi tạo vision
 
 ## Notes
 

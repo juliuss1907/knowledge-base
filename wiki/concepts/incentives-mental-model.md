@@ -6,7 +6,8 @@ sub_tags: [research, psychology]
 topic: incentives-psychology
 sources:
   - "[[src_the-power-of-incentives-hidden-forces-shape-behavior]]"
-last_updated: 2026-06-10
+  - "[[src_principles-of-better-decisions]]"
+last_updated: 2026-08-22
 ---
 
 # Incentives (Mental Model)
@@ -24,6 +25,8 @@ Incentives là các lực ẩn hình thành hành vi con người. Hiểu incent
 - "Punishment works best to prevent actions whereas incentives work best to encourage them"
 - Muốn thay đổi hành vi của ai đó, hãy nghĩ đến việc thay đổi incentives của họ
 - Incentive system bóp méo có thể khiến con người ngày càng hành động ngu ngốc hoặc tệ hơn
+- Muốn hiểu tại sao người ta làm gì đó, ngừng nghe chỉ lời họ nói — nhìn vào điều gì có lợi cho họ; influencer khen product, founder khuyên raise VC, công ty đòi ra office, YouTuber bảo nghỉ việc: mỗi ý kiến đều đi kèm incentives, không phải họ nói dối mà là mọi recommendation được định hình bởi goals/business model/worldview của người nói
+- Câu hỏi lọc thông tin: "What does this person gain if I believe them?" — bắt đầu hỏi câu này là ngừng copy advice mù quáng và hiểu được động cơ đằng sau nó
 
 ## Related concepts
 
@@ -35,6 +38,7 @@ Incentives là các lực ẩn hình thành hành vi con người. Hiểu incent
 ## Sources
 
 - [[src_the-power-of-incentives-hidden-forces-shape-behavior]]
+- [[src_principles-of-better-decisions]] — Hades: incentives như principle #5 của better decisions
 
 ## Notes
 

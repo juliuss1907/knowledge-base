@@ -7,7 +7,8 @@ topic: mental-models
 sources:
   - "[[src_second-order-thinking]]"
   - "[[src_iatrogenics-farnam-street]]"
-last_updated: 2026-07-23
+  - "[[src_principles-of-better-decisions]]"
+last_updated: 2026-08-22
 ---
 
 # Second-Order Thinking
@@ -41,6 +42,8 @@ Second-Order Thinking (Suy nghĩ cấp hai) là phương pháp tư duy vượt r
 - Second-order thinking đòi hỏi nhiều công sức — không dễ nghĩ theo hệ thống, tương tác và thời gian
 - Nhưng đây là cách khôn ngoan để tách biệt bản thân khỏi đám đông
 - Ngườii nghĩ ở cấp độ cao hơn chơi trò chơi dài hơn, nhìn xa hơn, chuẩn bị tốt hơn
+- Ví dụ bỏ hội nghị để tiết kiệm $500 (first-order): nhưng mất gặp founder thành client lớn nhất, investor dẫn tới co-founder tương lai, engineer trở thành đồng sáng lập; publishing một bài không đổi đời ngay, nhưng nó → một connection → một cơ hội → đổi quỹ đạo sự nghiệp
+- Những quyết định đổi đời thường KHÔNG trông đổi đời lúc đưa ra — chỉ nhìn lại mới thấy; best decisions thường không phải cái có phần thưởng tức thời lớn nhất mà là cái tạo nhiều opportunities nhất về sau
 
 ## Related concepts
 
@@ -58,5 +61,6 @@ Second-Order Thinking (Suy nghĩ cấp hai) là phương pháp tư duy vượt r
 
 - [[src_second-order-thinking]]
 - [[src_iatrogenics-farnam-street]]
+- [[src_principles-of-better-decisions]] — Hades: second-order thinking như principle #3 của better decisions
 
 ## Notes

@@ -6,7 +6,8 @@ sub_tags: [psychology, tutorial]
 topic: mental-models
 sources:
   - "[[src_first-principles-thinking]]"
-last_updated: 2026-06-04
+  - "[[src_principles-of-better-decisions]]"
+last_updated: 2026-08-22
 ---
 
 # First Principles Thinking
@@ -31,6 +32,7 @@ First Principles Thinking (Suy nghĩ từ nguyên tắc đầu tiên) là phươ
 - Tư duy theo nguyên tắc đầu tiên đòi hỏi sẵn sàng thử thách các giả định đã được chấp nhận hàng thập kỷ hoặc thế kỷ
 - Phần thưởng của tư duy này là phi tuyến tính — những người nắm vững có thể giải quyết vấn đề người khác cho là không thể giải quyết được
 - First principles thinking không dễ — đòi hỏi công sức và sẵn sàng trông ngốc khi theo đuổi sự thật
+- Câu hỏi khởi đầu đúng: thay vì "How does everyone else do this?", hỏi "What is fundamentally true?" — founder chưa chắc cần investor trước khi build startup (có thể chỉ cần first paying customers), chưa chắc cần office (có thể chỉ cần laptop + internet); khoảnh khắc ngừng copy assumptions và bắt đầu chất vấn chúng là lúc thấy được các solution đa số người không bao giờ cân nhắc
 
 ## Related concepts
 
@@ -44,6 +46,7 @@ First Principles Thinking (Suy nghĩ từ nguyên tắc đầu tiên) là phươ
 ## Sources
 
 - [[src_first-principles-thinking]]
+- [[src_principles-of-better-decisions]] — Hades: first principles như principle #1 của better decisions
 
 ## Notes
 

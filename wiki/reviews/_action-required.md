@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-22
+**Last updated:** 2026-08-23
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 17 reports (08-13 through 08-22) — 08-22 applied inline by Connor 2026-08-23
 
 | Status | Date | Type | Issues | Action |
@@ -56,6 +56,15 @@
 | ✅ APPROVED | 08-22 | Hygiene | 2 (1E+1W) | Approved + applied inline 2026-08-23 — root state json → ~/.openclaw/ (git rm), draft .py → scripts/ |
 
 ---
+
+## Pending Reports
+
+### 🔍 Output Validation — 2026-08-23 (23:05)
+
+- **Report:** `wiki/reviews/2026-08-23_output-report.md`
+- **Summary:** 705 file checked, 8 mới (4 sources + 4 concepts). 4 issues: 0 ERROR. 2 WARNING carry-over typo ở 9 file cũ (không phải file mới): "ngưởi" ×10/5 file + "người" spacing merge ×11/4 file (ngườita, ngườikhác, ngườilãnh đạo...). 1 WARNING coherence: agentic-coding.md trộn framework Fable (Thariq) và skills map Andrew Ng không phân tách — Key idea 1 nêu claim product-specific "Fable là model đầu tiên..." như general claim. 1 INFO: attribution Musashi 9 precepts không verify được online (Koe article crawler-wall), cross-check offline với Go Rin No Shō nhất quán. File mới sạch hoàn toàn: 0 typo mới, 23/23 wikilink resolve, structure đầy đủ.
+- **Actions needed:** (1) sed 's/ngưởi/người/g' trên 5 file: src_the-let-them-theory-gabriel-reality, intolerance-of-uncertainty, let-them-theory, control-trap, anterior-cingulate-cortex; (2) sed spacing merge longest-match-first trên 4 file: src_ai-future-skills, src_critical-thinking-dennett, src_tribute-system-new-world-order, occams-broom (ngườita→người ta, ngườikhác→người khác, ngườilãnh đạo→người lãnh đạo, ngườithường→người thường, ngườicần→người cần, ngườiphụ thuộc→người phụ thuộc, ngườitrị→người trị); (3) reword agentic-coding.md Key idea 1 scope claim về Thariq/Fable
+- **Status:** pending
 
 ## Approved Reports — 2026-08-22 (pending queue empty)
 

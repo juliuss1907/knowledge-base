@@ -150,3 +150,13 @@ Files checked: 891
 - **Carry-over:** double-i ~26 instances/18 file cũ + capital-I ~18 instances/14 file cũ còn sót sau batch fix 08-06 — backlog Fix Agent
 - **False positive ghi nhận:** "Empty Key ideas: 9" của quick-scan là false positive (8/9 file dùng numbered list/table, script chỉ đếm `-` bullets); "1-sentence definitions: 523" đếm cả dòng đầu của multi-sentence definitions
 - **Sibling race ghi nhận:** Format Validator 23:15 thêm entry Format 08-22 vào _action-required.md sau khi Output viết — pending count giờ là 2 (Format 08-22 + Output 08-22). Cả 2 entry đều nguyên vẹn, không corrupt. verify-output.sh fail "Pending count = 1" là hardcode deficiency đã document trong SKILL.md.
+
+## 2026-08-23 23:05:00 — Output validation
+- **Files checked:** 705 (178 sources + 527 concepts); 8 drafts skipped
+- **New files:** 8 (4 sources + 4 concepts) — Andrew Ng skills-map ×2 + schedule-maxxing + strategy-vs-tactics (sources); agentic-coding, ai-engineering-skills, schedule-maxxing, strategic-thinking (concepts)
+- **Issues found:** 4 (0 ERROR, 2 WARNING, 2 INFO)
+- **Report:** wiki/reviews/2026-08-23_output-report.md
+- **File mới sạch hoàn toàn:** 0 typo mới; dropped-i variant 5 grep = 0 match toàn KB; double-i/capital-I = 0 (fix 08-22 giữ vững); 23/23 wikilink resolve
+- **Carry-over:** "ngưởi" 10 instances/5 file + spacing merge 11 instances/4 file (ngườita, ngườikhác, ngườilãnh đạo...) — backlog nhỏ lại so với trước apply 08-22 (~45/32 file → ~21/9 file)
+- **Coherence WARNING:** agentic-coding.md trộn Fable framework (Thariq) và Ng skills map không tách bạch — Key idea 1 nêu claim product-specific như general claim
+- **INFO:** Musashi attribution không verify online được (Koe crawler-wall), cross-check offline Go Rin No Shō nhất quán

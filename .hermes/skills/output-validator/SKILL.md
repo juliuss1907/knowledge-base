@@ -221,6 +221,20 @@ After successful validation run:
    Commands: 'approve output' or 'show output'
    ```
 
+   **Invocation (confirmed working 2026-08-23).** Multi-line body MUST go via stdin — passing it as a positional arg fails with `hermes: error: unrecognized arguments:`. `--to` is required:
+   ```bash
+   hermes send --to telegram -f - <<'MSG'
+   📋 Output validation complete
+   - Issues found: N (X ERROR, Y WARNING, Z INFO)
+   - Files checked: M (K new since last run)
+   - Report: wiki/reviews/YYYY-MM-DD_output-report.md
+
+   Review: wiki/reviews/_action-required.md
+   Commands: 'approve output' or 'show output'
+   MSG
+   ```
+   **Cron note:** if the cron job's delivery target is the SAME Telegram chat, the gateway skips the send with "This cron job will already auto-deliver its final response to that same target" (exit 0). Do not retry or work around it — put the notification content directly in the validator's final response; delivery is automatic.
+
 4. **Log to MEMORY.md:**
    ```markdown
    ## YYYY-MM-DD HH:MM:SS — Output validation
@@ -887,6 +901,22 @@ check "File ends with SILENT entry" bash -c "grep -F 'YYYY-MM-DD HH:MM:SS' \"\$1
 ```
 
 **Reusable template:** `templates/verify-silent-memory.sh` — copy, replace the two timestamps, and run. Covers all 6 silent-run checks above. (Check #6 in the template was patched 2026-08-14 to use the tail-window approach for the same reason.)
+
+### _action-required.md may LACK a `## Pending Reports` section (2026-08-23)
+
+After the 08-22 batch was fully applied inline (pending queue empty), Julius/Connor restructured `_action-required.md`: the `## Pending Reports` section was REMOVED entirely and replaced by `## Approved Reports — <date> (pending queue empty)` containing per-report `### ✅` entries. The next validator run must RE-CREATE `## Pending Reports` before its entry.
+
+**Detection:** `grep -c '^## Pending Reports'` on the file — if 0, insert the full section header plus your new entry immediately BEFORE the first `## Approved Reports` / `## Applied Reports` heading:
+
+```markdown
+## Pending Reports
+
+### 🔍 Output Validation — YYYY-MM-DD (HH:MM)
+...entry...
+- **Status:** pending
+```
+
+Also: when re-creating the section, the stale heading `(pending queue empty)` becomes false — patch it in the same run (e.g., to `(batch cuối; pending queue: Output 08-23)`). verify-output.sh's uniqueness check (`## Pending Reports` count = 1) passes only after you add it back; a missing section is NOT corruption, do not "repair" by duplicating entries elsewhere. Related: sibling-race mitigation below counts pending entries with `\*\*Status:\*\* pending`, which still works when the section is absent (count = 0 before your insert).
 
 ### quick-scan.sh: bash integer comparison with grep -c in $()
 

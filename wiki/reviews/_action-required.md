@@ -66,7 +66,7 @@
 - **Actions needed:** (1) sed 's/ngưởi/người/g' trên 5 file: src_the-let-them-theory-gabriel-reality, intolerance-of-uncertainty, let-them-theory, control-trap, anterior-cingulate-cortex; (2) sed spacing merge longest-match-first trên 4 file: src_ai-future-skills, src_critical-thinking-dennett, src_tribute-system-new-world-order, occams-broom (ngườita→người ta, ngườikhác→người khác, ngườilãnh đạo→người lãnh đạo, ngườithường→người thường, ngườicần→người cần, ngườiphụ thuộc→người phụ thuộc, ngườitrị→người trị); (3) reword agentic-coding.md Key idea 1 scope claim về Thariq/Fable
 - **Status:** pending
 
-## Approved Reports — 2026-08-22 (pending queue empty)
+## Approved Reports — 2026-08-22 (batch cuối; pending queue: Output 08-23)
 
 ### ✅ Format Validation — 2026-08-22 (23:15)
 

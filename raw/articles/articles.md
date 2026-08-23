@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 139 files
-- By status: 139 processed, 0 unprocessed
-- By date: 4 this week, 12 this month
+- Total: 140 files
+- By status: 139 processed, 1 unprocessed
+- By date: 5 this week, 13 this month
 - Last updated: 2026-08-23
 ## Items
+- [[2026-08-20_the-golden-rule-for-becoming-a-better-writer]] — The Golden Rule for Becoming a Better Writer by T. R. Napper (unprocessed)
 - [[2026-08-22_once-you-understand-neuroplasticity]] — Once you understand neuroplasticity your life will never be the same again by Tim Denning (processed)
 - [[2026-08-22_neuroscience-of-perfect-skill-acquisition]] — The Neuroscience Of Perfect Skill Acquisition by ixcarus (processed)
 - [[2026-08-08_strategy-vs-tactics-dan-koe]] — Strategy vs tactics: How to actually get ahead of 99% of people by Dan Koe (unprocessed)

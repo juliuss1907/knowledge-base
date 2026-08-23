@@ -1200,3 +1200,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Tags applied:** main=productivity, sub=[psychology, health], topic=schedule-maxxing
 
 - **Action:** created 2 concept files, updated 3; Stats sections updated in raw/articles/articles.md + raw/posts/posts.md; no tag proposals; no errors
+
+## 2026-08-23 15:35 — Ingest (Telegram request)
+
+- **File:** raw/articles/2026-08-20_the-golden-rule-for-becoming-a-better-writer.md
+- **Source:** https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/
+- **Author:** T. R. Napper — published 2026-08-20
+- **Status:** unprocessed; articles.md Stats 140 total / 1 unprocessed

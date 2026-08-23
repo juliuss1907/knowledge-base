@@ -428,10 +428,16 @@ After successful validation run:
        ```
      - **❌ Broken (produces `||`):** `old_string` without trailing `|` + `new_string` where any row ends with `|` → the file's leftover `|` lands on the last row, creating `||` (proven 2026-07-18 on a real run).
 
+**⚠️ Pitfall: V4A multi-hunk patches need ≥1 change line per hunk.** An `@@` hunk containing only context lines (no `-`/`+`) fails the whole patch with `hunk (no hint) not found — old_string and new_string are identical`. To INSERT a new row/section without modifying any existing line, include one anchor line as a change: `-<existing line>` / `+<existing line>` followed by `+<new line(s)>`. Proven 2026-08-23 while inserting the Hygiene row into the Summary table of `_action-required.md`.
+
 3. **Run verify.py (interactive sessions only):**
    ```bash
    python3 .hermes/skills/hygiene-inspector/scripts/verify.py
    ```
+   **Skill file location:** this skill lives INSIDE the KB at
+   `/home/julius/knowledge-base/.hermes/skills/hygiene-inspector/`, NOT at
+   `~/.hermes/skills/` (proven 2026-08-23: reading `~/.hermes/...` fails; references/
+   edits must target the KB copy). All relative paths above resolve from KB root.
    Checks report content, _action-required.md update, and scan reproducibility.
    **Skip under cron mode** — `execute_code` and subprocess are blocked; use ad-hoc
    verification instead (see step 4 of the "Running under cron" section below).

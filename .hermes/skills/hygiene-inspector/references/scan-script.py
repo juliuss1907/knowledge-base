@@ -79,6 +79,13 @@ HEARTBEAT_LEAK_PATHS = {
 ROOT_ORPHAN_MAP = {
     "RAW_BACKLOG.md": "wiki/drafts/ or raw/articles/",
     "MEMORY.md": ".hermes/ or .openclaw/",
+    "openclaw-workspace-state.json":
+        "OpenClaw runtime state home (.openclaw/ or ~/.openclaw/) — "
+        "recurring since 2026-08-22 (2nd consecutive run 08-23); applied inline 08-23 "
+        "(git rm -> ~/.openclaw/) but runtime recreated same day and the ~10-min "
+        "'vault backup' auto-commit re-tracks it. Deletion alone proven ineffective "
+        "(recycle < 12h) — redirect the session/state writer output path, then "
+        "git rm + commit. See references/common-patterns.md.",
 }
 
 # ── Known recurring root folders (not in whitelist, keep reappearing) ──

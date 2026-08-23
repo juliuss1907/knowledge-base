@@ -4,19 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-23
+**Last updated:** 2026-08-23 (hygiene 23:32)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 17 reports (08-13 through 08-22) — 08-22 applied inline by Connor 2026-08-23
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 08-23 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-23_format-report.md](2026-08-23_format-report.md) |
 | 🔍 PENDING | 08-23 | Output | 4 (0E+2W+1W+1I) | Review [wiki/reviews/2026-08-23_output-report.md](2026-08-23_output-report.md) |
+| 🔍 PENDING | 08-23 | Hygiene | 1 (1E) | Review [wiki/reviews/2026-08-23_hygiene-report.md](2026-08-23_hygiene-report.md) |
 | ✅ APPLIED | 08-05 | Format | 433 (3E+430W) | Applied 2026-08-06 — fixed career→strategy, added Co-occurring tags |
 | ✅ APPLIED | 08-04 | Format | 433 (3E+430W) | Applied 2026-08-06 — same fixes |
 | ✅ APPLIED | 08-03 | Format | 433 (3E+430W) | Applied 2026-08-06 — same fixes |
@@ -60,6 +61,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-08-23 (23:32)
+
+- **Report:** `wiki/reviews/2026-08-23_hygiene-report.md`
+- **Summary:** 55832 paths checked (+23 vs 08-22). 1 issue: 1 ERROR — `openclaw-workspace-state.json` ở KB root, LẦN 2 LIÊN TIẾP. File đã được apply sáng nay (git rm → ~/.openclaw/) nhưng OpenClaw runtime recreate lúc 12:25 và git auto-commit re-track vào repo → deletion đơn thuần vô hiệu (recycle < 12h). Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 2 liên tiếp; WARNING 08-22 (`wiki/drafts/fixagent-regen-tags.py`) đã resolved; không HEARTBEAT leak; không naming violation.
+- **Actions needed:** [SYSTEMATIC VIOLATION] Root-cause bắt buộc: xác định process ghi workspace state vào KB root, redirect output về `.openclaw/` hoặc `~/.openclaw/`, sau đó `git rm openclaw-workspace-state.json` + commit. Nếu chỉ xóa file mà không fix process, sẽ tái diễn lần 3 ở run 08-24.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-23 (23:15)
 

@@ -38,6 +38,8 @@ Slugs must use lowercase and hyphens only. Underscores are the most common viola
 
 Files and folders that frequently appear at root but are not in the whitelist:
 
+- `openclaw-workspace-state.json` — **recurring since 2026-08-22 (2nd consecutive run 08-23).** OpenClaw runtime workspace state (`version 1, setupCompletedAt 2026-05-12`), 69 bytes. Applied inline 08-23 morning (git rm → ~/.openclaw/) but runtime RECREATED it same day 12:25 and ~10-min git auto-commit (`vault backup`) re-tracked it into the repo. File deletion proven ineffective (recycle < 12h). Fix MUST be root-cause: identify the session/runtime state writer and redirect output to the agent home (`.openclaw/` or `~/.openclaw/`), then committable removal (`git rm` + commit). Candidate for `ROOT_ORPHAN_MAP` in scan-script.py if it recurs a 3rd time.
+
 - `RAW_BACKLOG.md` — leftover from manual tracking; should move to `wiki/drafts/` or `raw/articles/`
 - `MEMORY.md` — agent memory file that leaked from `.hermes/` or `.openclaw/`
 - `search/` — temporary search index; should be gitignored or removed

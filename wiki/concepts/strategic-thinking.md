@@ -6,7 +6,8 @@ sub_tags: [strategy, psychology]
 topic: strategic-thinking
 sources:
   - "[[src_the-art-of-strategic-thinking]]"
-last_updated: 2026-08-22
+  - "[[src_strategy-vs-tactics-dan-koe]]"
+last_updated: 2026-08-23
 ---
 
 # Strategic Thinking
@@ -25,6 +26,10 @@ Strategic thinking là khả năng nhìn vị thế của bản thân (và đố
 - **7 principles của life strategy:** Vision (cụ thể, bắt đầu từ anti-vision + post-mortem), Research (intel về chính mình như tướng nghiên cứu địch), Preparation (resources/gaps, hedge risk), Focus (concentration of force vào decisive point — Pháp 1940 phân tán xe tăng vs Đức dồn toàn Panzer qua Ardennes), Execute (nhảy liên tục macro↔micro, reverse-engineer vision xuống 1 năm/90 ngày/tuần/ngày), Adapt (rigid strategy là losing strategy — vision giữ nguyên, tactics đổi), Study of Principles (học các hệ thống giải thích reality: cybernetics, systems theory, entropy, game theory, Taoism...)
 - **Tactical stress:** chủ động tạo áp lực (đặt tiền/việc lên bàn cược) để buộc não phải craft strategy thay vì sống trong false comfort
 - **Audit tính hữu ích:** "mindless way of life is a useless way of life" — audit thoughts và behavior theo tiêu chí useful/useless là lever xoay đời nhanh nhất
+- **Minimum Viable Vision (MVV):** vision khó có bằng cách hỏi "tôi muốn gì" — dùng anti-vision + post-mortem (reverse-engineer thất bại hoàn toàn sẽ đến từ đâu) làm inversion mechanism; MVV đủ cụ thể để đối chiếu mọi quyết định hằng ngày và lọc tactics từ social media
+- **Strategic mistakes phổ quát:** kết hôn sai thời điểm, không mastery nào, tin AI làm hết mọi việc, chạy tiền thay vì meaning, irresponsible debt, trèo ladder dẫn đến nowhere — đa số không nghĩ để giải quyết vấn đề mà chung sống với vấn đề
+- **Concentration of force (Pháp 1940):** Pháp nhiều xe tăng hơn nhưng phân tán dọc mặt trận; Đức dồn toàn Panzer qua Ardennes — dồn lực vào bottleneck duy nhất giải phóng resource cho vấn đề kế tiếp
+- **Rigid strategy = losing strategy:** environment đổi mỗi 3–6 tháng; vision giữ nguyên, tactics thí nghiệm liên tục; review–reflect–predict hằng tuần; tương lai thuộc strategist vì master thích nghi mà không cần reeducation
 
 ## Related concepts
 
@@ -38,5 +43,6 @@ Strategic thinking là khả năng nhìn vị thế của bản thân (và đố
 ## Sources
 
 - [[src_the-art-of-strategic-thinking]] — Dan Koe, X Article 2026-08-08
+- [[src_strategy-vs-tactics-dan-koe]] — Dan Koe, Substack 2026-08-08 (bản mở rộng cùng luận điểm: Musashi, 7 principles, MVV)
 
 ## Notes

@@ -6,7 +6,8 @@ sub_tags: [coding, tools]
 topic: fable-finding-unknowns
 sources:
   - "[[src_field-guide-to-fable-finding-unknowns]]"
-last_updated: 2026-07-07
+  - "[[src_ai-engineering-skills-map]]"
+last_updated: 2026-08-23
 ---
 
 # Agentic Coding
@@ -25,15 +26,19 @@ Agentic Coding là kỹ năng lập trình với AI agent — không chỉ đơn
 - **References qua source code:** Reference tốt nhất là chính source code — chỉ model vào folder/library và yêu cầu reimplement pattern tương tự
 - **Implementation Notes:** Giữ file tạm tracking tất cả decisions, edge cases, và deviations trong quá trình implementation — chọn conservative option khi gặp edge case
 - **Post-implementation quizzes:** Sau session dài, yêu cầu Claude quiz bạn về tất cả changes trước khi merge
+- **Steering agent là kỹ năng cốt lõi (Andrew Ng):** biết khi nào can thiệp khi nào buông, quản lý context của agent, cân bằng planning vs execution, cung cấp verifiers/evals để agent tự close loop, orchestrate multi-agent; developer thiếu software fundamentals sẽ không biết cung cấp đúng context → agent ra poor tradeoffs
+- **Spec-first shift:** khi agent giỏi deliver theo spec, giá trị engineer dịch chuyển sang shaping the build — quyết định cái gì nằm trong spec bằng product sense và business context
 
 ## Related concepts
 
 - [[vibe-coding]]
 - [[map-is-not-territory]]
 - [[ai-coach-prompting]]
+- [[ai-engineering-skills]]
 
 ## Sources
 
 - [[src_field-guide-to-fable-finding-unknowns]]
+- [[src_ai-engineering-skills-map]] — Andrew Ng 2026-08-14: using coding agents là 1/4 kỹ năng AI engineering cốt lõi
 
 ## Notes

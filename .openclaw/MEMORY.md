@@ -1176,3 +1176,27 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 1
 - Errors: 0
 - Invalid tags flagged: 0
+
+## 2026-08-23 08:15:00 +07:00 — Compiled (batch 4 files, catch-up cho cron 08:00 miss)
+
+- **Raw:** raw/articles/2026-08-08_strategy-vs-tactics-dan-koe.md
+- **Source note:** wiki/sources/src_strategy-vs-tactics-dan-koe.md
+- **Concepts:** [strategic-thinking (updated/merge)]
+- **Tags applied:** main=productivity, sub=[strategy, psychology], topic=strategic-thinking
+
+- **Raw:** raw/posts/2026-08-14_ai-engineering-skills-map.md
+- **Source note:** wiki/sources/src_ai-engineering-skills-map.md
+- **Concepts:** [ai-engineering-skills (created), agentic-coding (updated/merge)]
+- **Tags applied:** main=ai, sub=[coding, vibecode], topic=ai-engineering-skills
+
+- **Raw:** raw/posts/2026-08-21_ai-skills-map-building-deploying-ai-apps.md
+- **Source note:** wiki/sources/src_ai-skills-map-building-deploying-ai-apps.md
+- **Concepts:** [ai-engineering-skills (updated/merge)]
+- **Tags applied:** main=ai, sub=[coding, research], topic=ai-engineering-skills
+
+- **Raw:** raw/posts/2026-08-16_schedule-maxxing.md
+- **Source note:** wiki/sources/src_schedule-maxxing.md
+- **Concepts:** [schedule-maxxing (created)]
+- **Tags applied:** main=productivity, sub=[psychology, health], topic=schedule-maxxing
+
+- **Action:** created 2 concept files, updated 3; Stats sections updated in raw/articles/articles.md + raw/posts/posts.md; no tag proposals; no errors

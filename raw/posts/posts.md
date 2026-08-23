@@ -21,10 +21,9 @@ Short-form social media posts, threads, and micro-content.
 ## Stats
 
 - Total: 23 files
-- By status: 20 processed, 3 unprocessed
-- By date: 9 this week, 9 this month
-- Last updated: 2026-08-22
-
+- By status: 23 processed, 0 unprocessed
+- By date: 6 this week, 11 this month
+- Last updated: 2026-08-23
 ## Items
 
 - [[2026-08-21_ai-skills-map-building-deploying-ai-apps]] — AI Engineering Skills Map: Building and Deploying AI Applications by Andrew Ng (@AndrewYNg) (unprocessed)

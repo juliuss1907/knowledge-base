@@ -6,6 +6,7 @@ sub_tags: [coding, research]
 topic: ai-engineering-skills
 sources:
   - "[[src_ai-engineering-skills-map]]"
+  - "[[src_ai-skills-map-building-deploying-ai-apps]]"
 last_updated: 2026-08-23
 ---
 
@@ -25,6 +26,13 @@ AI Engineering Skills là bộ 4 kỹ năng cốt lõi Andrew Ng xác định qu
 - **Shaping the build:** agent giỏi deliver theo spec → giá trị engineer dịch chuyển sang định hình spec: product sense, business context, customer goals; biết khi nào MVP nhanh khi nào build chậm cho chắc
 - **Ownership & agency:** AI mở cơ hội tự nhận diện problem đáng làm và tự drive project — không chờ được giao design pixel-perfect để implement
 - **Continuous learning mindset:** best practices đổi liên tục, cần routines thử tool mới và evolve workflow
+- **Skill #1 tách thành 6 mảng (part 2):** LLM foundations · grounding models with data · building agentic systems · evaluation-driven development · operating in production · machine learning foundations
+- **Build AI = iterative process:** output model không đoán trước → không plan trọn gói được; engineer giỏi loop build → examine → decide next step từ intermediate results, tạo reliable systems trên unreliable components
+- **Evaluation-driven development quan trọng nhất:** disciplined evals/error analysis loop là trait phân biệt người giỏi nhất; chọn giữa deterministic code-based evals / LLM-as-a-judge / human-in-the-loop theo project + stage; phải evaluate chính evals
+- **Grounding vượt xa RAG vector search:** menu gồm vector index, knowledge graph, semantic layer over structured data; quyết định prompt-time context vs on-demand retrieval bằng tools; pipeline documents → LLM-ready inputs
+- **Agentic spectrum:** fixed workflow (chain LLM calls) ↔ agent harness (LLM tự quyết next step); quyết định tools (MCP/CLI/sandbox), memory architecture, context management session dài, single vs multi-agent; production cần guardrails + adversarial defense (prompt injection, data exfiltration) + governance
+- **Production ops:** observability, drift detection, statistical regression testing calibrate theo risk, tối ưu cost/latency bằng distillation/fine-tuning/workflow simplification
+- **ML foundations vẫn bắt buộc:** supervised + reinforcement learning là nền của LLM; bias/variance, error analysis, data engineering là frameworks điều hướng uncertainty
 
 ## Related concepts
 
@@ -36,5 +44,6 @@ AI Engineering Skills là bộ 4 kỹ năng cốt lõi Andrew Ng xác định qu
 ## Sources
 
 - [[src_ai-engineering-skills-map]] — Andrew Ng, X 2026-08-14 (part 1: 4 kỹ năng tổng quan)
+- [[src_ai-skills-map-building-deploying-ai-apps]] — Andrew Ng, X 2026-08-21 (part 2: chi tiết 6 mảng của skill #1)
 
 ## Notes

@@ -5,7 +5,9 @@ url: https://x.com/kimiabuilds/status/2089037097751699944
 author: kimiabuilds
 date_published: 2026-08-16
 date_ingested: 2026-08-22
-status: unprocessed
+status: processed
+compiled_at: 2026-08-23
+compiled_to: "[[src_schedule-maxxing]]"
 source: x.com
 ---
 

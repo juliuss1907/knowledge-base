@@ -5,7 +5,9 @@ url: https://x.com/AndrewYNg/status/2090840747738374568
 author: AndrewYNg
 date_published: 2026-08-21
 date_ingested: 2026-08-22
-status: unprocessed
+status: processed
+compiled_at: 2026-08-23
+compiled_to: "[[src_ai-skills-map-building-deploying-ai-apps]]"
 source: x.com
 series: "AI Engineering Skills Map (part 2/?)"
 ---

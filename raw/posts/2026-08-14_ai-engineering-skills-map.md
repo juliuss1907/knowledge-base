@@ -5,7 +5,9 @@ url: https://x.com/AndrewYNg/status/2088302050706686198
 author: AndrewYNg
 date_published: 2026-08-14
 date_ingested: 2026-08-22
-status: unprocessed
+status: processed
+compiled_at: 2026-08-23
+compiled_to: "[[src_ai-engineering-skills-map]]"
 source: x.com
 ---
 

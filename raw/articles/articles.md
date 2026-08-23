@@ -24,10 +24,9 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 ## Stats
 
 - Total: 139 files
-- By status: 138 processed, 1 unprocessed
-- By date: 2 this week, 2 this month
-- Last updated: 2026-08-22
-
+- By status: 139 processed, 0 unprocessed
+- By date: 4 this week, 12 this month
+- Last updated: 2026-08-23
 ## Items
 - [[2026-08-22_once-you-understand-neuroplasticity]] — Once you understand neuroplasticity your life will never be the same again by Tim Denning (processed)
 - [[2026-08-22_neuroscience-of-perfect-skill-acquisition]] — The Neuroscience Of Perfect Skill Acquisition by ixcarus (processed)

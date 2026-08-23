@@ -5,7 +5,9 @@ source_url: https://open.substack.com/pub/thedankoe/p/strategy-vs-tactics-how-to
 author: Dan Koe
 date_published: 2026-08-08
 date_ingested: 2026-08-22
-status: unprocessed
+status: processed
+compiled_at: 2026-08-23
+compiled_to: "[[src_strategy-vs-tactics-dan-koe]]"
 source: substack
 ---
 

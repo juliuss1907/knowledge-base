@@ -10,11 +10,13 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 17 reports (08-13 through 08-22) — 08-22 applied inline by Connor 2026-08-23
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-23 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-23_format-report.md](2026-08-23_format-report.md) |
+| 🔍 PENDING | 08-23 | Output | 4 (0E+2W+1W+1I) | Review [wiki/reviews/2026-08-23_output-report.md](2026-08-23_output-report.md) |
 | ✅ APPLIED | 08-05 | Format | 433 (3E+430W) | Applied 2026-08-06 — fixed career→strategy, added Co-occurring tags |
 | ✅ APPLIED | 08-04 | Format | 433 (3E+430W) | Applied 2026-08-06 — same fixes |
 | ✅ APPLIED | 08-03 | Format | 433 (3E+430W) | Applied 2026-08-06 — same fixes |
@@ -59,6 +61,13 @@
 
 ## Pending Reports
 
+### 🔍 Format Validation — 2026-08-23 (23:15)
+
+- **Report:** `wiki/reviews/2026-08-23_format-report.md`
+- **Summary:** 941 files checked (527 concepts + 178 sources + 34 indexes + 202 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (371 individual + 20 forward-reference groups, 269 unique targets — flat so với 08-22). Clean ERROR streak ngày thứ 7 liên tiếp. KB grew +8 net files qua git reconciliation (+2 concepts, +4 sources, +2 topics, 0 merge/delete); debt −1 WARNING. Top-20 broken-target list identical 08-22 — backlog composition unchanged. No structural violations.
+- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
+- **Status:** pending
+
 ### 🔍 Output Validation — 2026-08-23 (23:05)
 
 - **Report:** `wiki/reviews/2026-08-23_output-report.md`
@@ -66,7 +75,7 @@
 - **Actions needed:** (1) sed 's/ngưởi/người/g' trên 5 file: src_the-let-them-theory-gabriel-reality, intolerance-of-uncertainty, let-them-theory, control-trap, anterior-cingulate-cortex; (2) sed spacing merge longest-match-first trên 4 file: src_ai-future-skills, src_critical-thinking-dennett, src_tribute-system-new-world-order, occams-broom (ngườita→người ta, ngườikhác→người khác, ngườilãnh đạo→người lãnh đạo, ngườithường→người thường, ngườicần→người cần, ngườiphụ thuộc→người phụ thuộc, ngườitrị→người trị); (3) reword agentic-coding.md Key idea 1 scope claim về Thariq/Fable
 - **Status:** pending
 
-## Approved Reports — 2026-08-22 (batch cuối; pending queue: Output 08-23)
+## Approved Reports — 2026-08-22 (batch cuối; pending queue: Output + Format 08-23)
 
 ### ✅ Format Validation — 2026-08-22 (23:15)
 
@@ -107,4 +116,4 @@
 
 _Archive đầy đủ tại `wiki/reviews/archive/`. Bảng Summary phía trên là bản ghi chính thức của tất cả reports đã apply._
 
-Previous reports (08-05 through 08-21) ✅ APPROVED by Julius and ✅ APPLIED by Fix Agent.
+Previous reports (08-05 through 08-22) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.

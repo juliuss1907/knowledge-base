@@ -1,11 +1,37 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-23 12:30 (Asia/Saigon)
+> Last updated: 2026-08-23 14:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_OK** — 4/4 check sạch. Không có issue mới.
+**HEARTBEAT_OK** — 4/4 check sạch. 1 issue carry-over [Low]: `openclaw-workspace-state.json` vẫn tracked trong git, chờ Julius duyệt fix.
+
+## Checks Performed
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
+| Raw backlog | ✅ Clean | 0 files unprocessed |
+| Concept backlinks | ✅ Clean | Sample 2 files: [[mental-models]], [[authenticity-creative-expression]] — đều có src_ links |
+| Pending reviews | ✅ Clean | `_action-required.md`: 0 pending, toàn bộ reports đã APPLIED |
+
+## System State
+
+| Metric | Count | Δ since last | Status |
+|--------|-------|--------------|--------|
+| **raw/** unprocessed | 0 | 0 | ✅ sạch |
+| **wiki/concepts/** | 527 | 0 | ổn định |
+| **wiki/sources/** | 178 | 0 | ổn định |
+| Pending Hermes reports | 0 | 0 | ✅ sạch |
+
+## Issues
+
+- [Low] Carry-over: `openclaw-workspace-state.json` tracked trong git — cần Julius duyệt `git rm --cached` + `.gitignore` entry.
+
+## Next Scheduled Actions
+
+- Index: 21:00 Chủ Nhật
 
 ## Checks Performed
 

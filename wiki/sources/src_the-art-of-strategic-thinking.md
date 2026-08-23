@@ -21,7 +21,7 @@ author: DAN KOE (@thedankoe)
 
 ## Summary
 
-Dan Koe lập luận rằng phần lớn người theo đuổi thành công mắc kẹt ở việc thu thập tactics — những kiến thức ai cũng có thể tiếp cận — mà không có strategy để dùng chúng. Dùng ví dụ cờ vua, ông định nghĩa strategy là việc đưa bản thân vào vị thế vượt trội trong khi đẩy đối thủ vào vị thế yếu hơn, và trong cuộc đời, bạn đồng thời là cả người chơi lẫn đối thủ. Bài viết phân tích 9 precepts của Miyamoto Musashi về bậce chiến lược gia, phân biệt generalist – specialist – master/strategist, rồi đề xuất 7 nguyên tắc xây dựng life strategy: Vision, Research, Preparation, Focus, Execute, Adapt, và Study of Principles. Thông điệp cốt lõi: thiếu tư duy chiến lược thì mọi quyết định trở nên tùy hứng, và kết quả đời bạn là tích lũy của những quyết định đó.
+Dan Koe lập luận rằng phần lớn người theo đuổi thành công mắc kẹt ở việc thu thập tactics — những kiến thức ai cũng có thể tiếp cận — mà không có strategy để dùng chúng. Dùng ví dụ cờ vua, ông định nghĩa strategy là việc đưa bản thân vào vị thế vượt trội trong khi đẩy đối thủ vào vị thế yếu hơn, và trong cuộc đời, bạn đồng thời là cả người chơi lẫn đối thủ. Bài viết phân tích 9 precepts của Miyamoto Musashi về bậc chiến lược gia, phân biệt generalist – specialist – master/strategist, rồi đề xuất 7 nguyên tắc xây dựng life strategy: Vision, Research, Preparation, Focus, Execute, Adapt, và Study of Principles. Thông điệp cốt lõi: thiếu tư duy chiến lược thì mọi quyết định trở nên tùy hứng, và kết quả đời bạn là tích lũy của những quyết định đó.
 
 ## Key points
 

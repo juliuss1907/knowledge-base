@@ -20,8 +20,8 @@ Nguyên tắc ra quyết định do Colin Powell đề xuất: đưa ra quyết 
 - **Dưới 40%:** bạn đang đánh bạc, không phải quyết định có cơ sở
 - **40-70%:** vùng tối ưu để quyết định — đủ thông tin để phán đoán, không quá chậm để mất cơ hội
 - **Trên 70%:** bạn đã chậm — cơ hội đã dịch chuyển, đối thủ đã đi trước
-- Phần thông tin cuối cùng (từ 80% lên 95%) có thể mất ba tháng để thu thập, nhưng trong ba tháng đó thế giớii đã thay đổi đủ để 95% kia không còn đúng nữa
-- Chờ đủ thông tin không phải là thận trọng — nó là một quyết định trả giá bằng thờii gian để mua cảm giác an toàn
+- Phần thông tin cuối cùng (từ 80% lên 95%) có thể mất ba tháng để thu thập, nhưng trong ba tháng đó thế giới đã thay đổi đủ để 95% kia không còn đúng nữa
+- Chờ đủ thông tin không phải là thận trọng — nó là một quyết định trả giá bằng thời gian để mua cảm giác an toàn
 - Đi từ 0% lên 60% hiểu biết thường mất một tuần; đi từ 80% lên 95% có thể mất ba tháng
 
 ## Related concepts

@@ -18,7 +18,7 @@ Work-Life Balance (Cân bằng công việc và cuộc sống) là trạng thái
 ## Key ideas
 
 - Work-life balance bị phá vỡ trong văn hóa never enough — công việc không còn là một phần mà trở thành toàn bộ cuộc sống
-- Ví dụ cực đoan: Ngườii chồng yêu cầu vợ gánh gần như toàn bộ việc nuôi dạy con để anh ta dành ngày đêm trở thành top user AI
+- Ví dụ cực đoan: Người chồng yêu cầu vợ gánh gần như toàn bộ việc nuôi dạy con để anh ta dành ngày đêm trở thành top user AI
 - Không còn ranh giới giữa làm việc và cuộc sống — cả hai vợ chồng đều "làm việc" nhưng một người làm công việc trả lương, người kia làm công việc nuôi con không được công nhận
 - Hậu quả: Gia đình bị coi là rào cản cho sự nghiệp thay vì là mục đích của sự nghiệp
 - Mất đi khoảng thời gian "không làm gì cả" — không ghi âm, không có AI, chỉ đơn giản là có mặt

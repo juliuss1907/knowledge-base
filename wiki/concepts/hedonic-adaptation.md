@@ -27,7 +27,7 @@ Hedonic adaptation (thích ứng khoái cảm) là khả năng của tâm trí q
 | Pleasure | Enjoyment |
 |----------|-----------|
 | Dopamine hit tức thời | Đến từ novelty và accomplishment |
-| Xem show, ăn ngon, tiệc tùng, sex, du lịch | ChơI tennis kịch tính, hoàn thành level game khó, khởi nghiệp, học kỹ năng mới |
+| Xem show, ăn ngon, tiệc tùng, sex, du lịch | Chơi tennis kịch tính, hoàn thành level game khó, khởi nghiệp, học kỹ năng mới |
 | Fade về baseline nhanh | Tạo sự phát triển và growth |
 | Không cần psychic investment | Đòi hỏi đầu tư năng lượng tâm linh |
 

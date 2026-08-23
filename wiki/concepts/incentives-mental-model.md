@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [research, psychology]
 topic: incentives-psychology
 sources:
-  - "[[src_the-power-of-incentives-hidden-forces-shape-behavior]]"
+  - "[[src_incentives-hidden-forces]]"
   - "[[src_principles-of-better-decisions]]"
 last_updated: 2026-08-22
 ---
@@ -37,7 +37,7 @@ Incentives là các lực ẩn hình thành hành vi con người. Hiểu incent
 
 ## Sources
 
-- [[src_the-power-of-incentives-hidden-forces-shape-behavior]]
+- [[src_incentives-hidden-forces]]
 - [[src_principles-of-better-decisions]] — Hades: incentives như principle #5 của better decisions
 
 ## Notes

@@ -25,7 +25,7 @@ Bài viết phân tích tại sao sự mơ hồ là điều kiện mặc định
 
 ## Key points
 
-- Bộ não con ngườii được thiết kế để quyết định nhanh khi thiếu thông tin, đó là lý do tổ tiên chúng ta sống sót
+- Bộ não con người được thiết kế để quyết định nhanh khi thiếu thông tin, đó là lý do tổ tiên chúng ta sống sót
 - Sự mơ hồ là điều kiện mặc định của mọi quyết định đáng giá — nếu mọi thứ đã rõ ràng, đó là thủ tục, không còn là quyết định
 - Jeff Bezos chia quyết định thành: **Cửa hai chiều (Type 2)** — có thể đảo ngược; và **Cửa một chiều (Type 1)** — không thể quay đầu
 - Sai lầm phổ biến nhất là dùng quy trình cửa một chiều cho cửa hai chiều — chi phí chậm trễ thường lớn hơn chi phí quyết sai
@@ -47,8 +47,8 @@ Bài viết phân tích tại sao sự mơ hồ là điều kiện mặc định
 
 ## Original excerpts
 
-> "Chúng ta được dạy rằng quyết định tốt đến từ thông tin đầy đủ. Nhưng nếu điều đó đúng, thì mọi quyết định thực sự quan trọng trong đờii bạn đều là quyết định tồi — vì không có cái nào trong số đó được đưa ra khi bạn đã biết đủ."
+> "Chúng ta được dạy rằng quyết định tốt đến từ thông tin đầy đủ. Nhưng nếu điều đó đúng, thì mọi quyết định thực sự quan trọng trong đời bạn đều là quyết định tồi — vì không có cái nào trong số đó được đưa ra khi bạn đã biết đủ."
 
 > "Sự mơ hồ không phải là trạng thái bất thường cần loại bỏ trước khi quyết định. Nó là điều kiện mặc định của mọi quyết định đáng giá. Nếu mọi thứ đã rõ ràng, đó không còn là quyết định — đó là thủ tục."
 
-> "Chờ đủ thông tin không phải là thận trọng. Nó là một quyết định — quyết định trả giá bằng thờii gian để mua cảm giác an toàn."
+> "Chờ đủ thông tin không phải là thận trọng. Nó là một quyết định — quyết định trả giá bằng thời gian để mua cảm giác an toàn."

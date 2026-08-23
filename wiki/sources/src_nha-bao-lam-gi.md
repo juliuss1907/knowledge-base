@@ -34,7 +34,7 @@ Bài viết phân tích vai trò của nhà báo trong kỷ nguyên AI khi các 
 - Vai trò nhà báo đang dịch chuyển từ người đưa tin sang người kiến tạo tri thức (knowledge builder)
 - Ezra Klein: Không tập trung vào số liệu mà đuổi theo câu hỏi "vì sao" kết nối nhiều chủ đề tưởng như không liên quan
 - David Brooks: Lần theo những thay đổi kéo dài nhiều thập kỷ để lý giải các hiện tượng xã hội phức tạp
-- Ngườii sáng tạo nội dung = nền kinh tế chú ý (tối ưu tương tác); Báo chí = nền kinh tế tri thức (tối ưu nhận thức)
+- Người sáng tạo nội dung = nền kinh tế chú ý (tối ưu tương tác); Báo chí = nền kinh tế tri thức (tối ưu nhận thức)
 - Amartya Sen: Truyền thông là thiết chế xã hội mở rộng tự do thực chất và quyền tham gia lý luận công khai
 - Câu hỏi cho tòa soạn không còn là chạy đua tốc độ với AI, mà là đầu tư vào năng lực kết nối mảnh ghép thành cách hiểu mới
 

@@ -22,7 +22,7 @@ Protégé effect (hiệu ứng môn đệ) là hiện tượng trong khoa học 
 - Viết vừa là hình thức dạy vừa là hình thức hiểu
 - Kết hợp với elaboration - viết bằng chính lời giúp củng cố hiểu biết
 - Dan Koe: "I learned more in my first 6 months of writing online than I ever did in school"
-- Giải thích cho ngườii khác ép buộc bản thân phải tổ chức kiến thức một cách logic và đầy đủ hơn
+- Giải thích cho người khác ép buộc bản thân phải tổ chức kiến thức một cách logic và đầy đủ hơn
 
 ## Related concepts
 

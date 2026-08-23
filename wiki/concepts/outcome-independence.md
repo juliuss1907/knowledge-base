@@ -44,7 +44,7 @@ Counterintuitively, người fine either way là người người khác muốn 
 
 ## Nguyên nhân của Chasing
 
-Người theo đuổi chơI trên narrow board — mọi outcome đều matter enormously vì sense of self tied to what they receive:
+Người theo đuổi chơi trên narrow board — mọi outcome đều matter enormously vì sense of self tied to what they receive:
 - Deal falls through → confidence takes a hit
 - Person doesn't respond → spiral begins
 - Opportunity closes → self-narrative shifts

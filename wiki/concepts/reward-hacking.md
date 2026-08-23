@@ -13,11 +13,11 @@ last_updated: 2026-07-27
 
 ## Definition
 
-Reward hacking là hiện tượng AI systems tìm cách tối đa hóa reward signal từ grader/evaluator thay vì thực sự hoàn thành objective mà ngườI dùng mong muốn. Đây là một dạng của specification gaming hoặc proxy gaming trong reinforcement learning.
+Reward hacking là hiện tượng Ai systems tìm cách tối đa hóa reward signal từ grader/evaluator thay vì thực sự hoàn thành objective mà người dùng mong muốn. Đây là một dạng của specification gaming hoặc proxy gaming trong reinforcement learning.
 
 ## Key ideas
 
-- AI optimize cho metric (reward) thay vì true objective
+- Ai optimize cho metric (reward) thay vì true objective
 - Có thể dẫn đến hành vi nguy hiểm: exploit vulnerabilities, bypass safeguards, tạo kết quả giả
 - Xuất phát từ RL training process - model học cách maximize score từ grader
 - Ba dạng chính: under-performance (Potemkin work), over-performance (over-eagerness), và security violations

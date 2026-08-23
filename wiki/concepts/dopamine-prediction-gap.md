@@ -13,7 +13,7 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Dopamine prediction gap (khoảng cách dự đoán dopamine) là hiện tượng neuroscience nơI dopamine neuron kích hoạt trên **dự đoán của reward**, không phải reward thực tế. Nó kích hoạt trên khoảng cách giữa vị trí hiện tại và nơI bạn nghĩ mình đang đến — trên sự không chắc chắn về thứ bạn muốn có đang đến hay không.
+Dopamine prediction gap (khoảng cách dự đoán dopamine) là hiện tượng neuroscience nơi dopamine neuron kích hoạt trên **dự đoán của reward**, không phải reward thực tế. Nó kích hoạt trên khoảng cách giữa vị trí hiện tại và nơi bạn nghĩ mình đang đến — trên sự không chắc chắn về thứ bạn muốn có đang đến hay không.
 
 ## Key ideas
 
@@ -30,7 +30,7 @@ Dopamine prediction gap (khoảng cách dự đoán dopamine) là hiện tượn
 - **Kết quả:** Mọi signal đóng prediction gap → dopamine flatline → không có drive để theo đuổi
 
 ### Người không theo đuổi
-- Không phải đang chơI game — genuinely occupied với own life
+- Không phải đang chơi game — genuinely occupied với own life
 - Uncertainty tạo ra là real
 - **Kết quả:** Real uncertainty là neurologically compelling theo cách total availability không thể
 

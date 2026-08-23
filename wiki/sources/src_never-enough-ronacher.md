@@ -26,9 +26,9 @@ Bài viết phản ánh về văn hóa "Never Enough" (Không bao giờ đủ) �
 ## Key points
 
 - Silicon Valley đang chuyển từ văn hóa tôn vinh "những kẻ điên, kẻ lạc loài, kẻ nổi loạn" sang kiểu "điên" mới — không phải từ sự nổi loạn mà từ nỗi sợ tụt hậu.
-- Câu chuyện cặp vợ chồng thu nhập 550k$/năm vẫn cảm thấy behind: Ngườii chồng yêu cầu vợ gánh gần như toàn bộ việc nuôi con để anh ta dành ngày đêm trở thành top user AI tại công ty.
+- Câu chuyện cặp vợ chồng thu nhập 550k$/năm vẫn cảm thấy behind: Người chồng yêu cầu vợ gánh gần như toàn bộ việc nuôi con để anh ta dành ngày đêm trở thành top user AI tại công ty.
 - Câu chuyện founder dùng Claude review các buổi hẹn hò đầu tiên: Ghi âm mọi cuộc trò chuyện, hỏi AI về mức độ cuốn hút và đồng cảm — thay vì tin vào phán đoán bản thân hoặc trò chuyện với đối phương.
-- Nghịch lý: Ngườii ta sợ bị máy móc thay thế nên phản ứng bằng cách giao phó thêm phán đoán, sự chú ý và thời gian cho những cỗ máy đó.
+- Nghịch lý: Người ta sợ bị máy móc thay thế nên phản ứng bằng cách giao phó thêm phán đoán, sự chú ý và thời gian cho những cỗ máy đó.
 - Công nghệ đáng lẽ tạo không gian cho cuộc sống, nhưng ngày càng nhiều người đang sắp xếp cuộc sống xung quanh AI.
 - Mỗi giờ "tiết kiệm" được đều được đổ vào một cuộc đua không có vạch đích.
 - Câu hỏi đặt ra: Nếu Silicon Valley cho ta thấy ý nghĩa của việc sống trong tương lai, có lẽ tụt hậu không phải điều tồi tệ nhất.

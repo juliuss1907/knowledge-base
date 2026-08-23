@@ -17,7 +17,7 @@ Chiến lược ra quyết định bằng cách chia nhỏ các quyết định 
 
 ## Key ideas
 
-- Thay vì "có nên làm sản phẩm X không?" — câu hỏi không trả lờii được khi chưa có data
+- Thay vì "có nên làm sản phẩm X không?" — câu hỏi không trả lời được khi chưa có data
 - Hãy hỏi: "thí nghiệm nhỏ nhất nào cho tôi biết X có đáng làm không?"
 - Ví dụ: Một landing page trước khi code app. Một đơn hàng 100 sản phẩm trước khi nhập container
 - Bạn không cần biết trước tương lai; bạn cần mua thông tin về tương lai với giá rẻ nhất

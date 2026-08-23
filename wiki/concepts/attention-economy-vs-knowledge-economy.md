@@ -17,7 +17,7 @@ Phân biệt hai hệ thống truyền thông với chức năng và động l�
 
 ## Key ideas
 
-- **Ngườii sáng tạo nội dung (Content creators):** Hiện tượng của nền kinh tế chú ý, được thúc đẩy bởi sản lượng, tối ưu cho tương tác (engagement)
+- **Người sáng tạo nội dung (Content creators):** Hiện tượng của nền kinh tế chú ý, được thúc đẩy bởi sản lượng, tối ưu cho tương tác (engagement)
 - **Báo chí:** Thiết chế của nền kinh tế tri thức, được thúc đẩy bởi chiều sâu, tối ưu cho nhận thức (cognition)
 - Sự khác biệt không làm hai hệ thống trở thành đối thủ mà là phần thú vị của hệ sinh thái truyền thông hiện đại
 - AI đang đẩy nhanh cả hai xu hướng: tạo nội dung nhanh hơn cho nền kinh tế chú ý, nhưng cũng tạo nhu cầu lớn hơn cho nền kinh tế tri thức để xác minh và diễn giải

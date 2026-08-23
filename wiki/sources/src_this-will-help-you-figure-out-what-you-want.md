@@ -27,7 +27,7 @@ Bài viết chia sẻ quan điểm về cách tìm ra điều mình thực sự 
 
 - Cảm giác mất phương hướng và không thỏa mãn thường đến từ việc không biết mình thực sự muốn gì, không phải vì không có điều đó
 - Con người rất kém trong việc dự đoán tương lai xa, những cơ hội thay đổi cuộc đời thường đến từ những nơi không ngờ đến
-- Tăng "diện tích tiếp xúc" bằng cách gặp nhiều người, đồng ý nhiều lời mờii, xuất hiện ở nhiều nơi để tạo cơ hội cho sự tình cờ
+- Tăng "diện tích tiếp xúc" bằng cách gặp nhiều người, đồng ý nhiều lời mời, xuất hiện ở nhiều nơi để tạo cơ hội cho sự tình cờ
 - Lắng nghe câu chuyện và con đường sự nghiệp của người khác giúp ta học được nhiều điều về chính mình hơn mong đợi
 - Sự ghen tị là cảm xúc mạnh mẽ có thể chỉ ra điều ta thực sự muốn nhưng chưa nhận thức được
 - Những dấu hiệu muốn thay đổi thường xuất hiện dưới dạng mảnh vỡ nhỏ mỗi khi ta nhìn thấy người sống cuộc sống mình muốn

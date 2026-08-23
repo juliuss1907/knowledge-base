@@ -21,7 +21,7 @@ author: Wintermute (@wintermute_t)
 
 ## Summary
 
-Bài viết của Wintermute trình bày thesis mới về tương laI crypto: thay vì hỏi "crypto có thể làm gì", câu hỏi đúng là "thế giới cần crypto để làm gì?". Câu trả lời ngày càng rõ ràng: **machine economy** — nền kinh tế nơI máy móc là các tác nhân kinh tế (economic actors), không chỉ là công cụ. Với sự phát triển của AI agents và robotics, hạ tầng tài chính hiện tại được xây dựng cho con người không còn phù hợp. Crypto rails — mở, programmable, permissionless, settled in seconds — phù hợp hơn cho các tác nhân tự chủ.
+Bài viết của Wintermute trình bày thesis mới về tương lai crypto: thay vì hỏi "crypto có thể làm gì", câu hỏi đúng là "thế giới cần crypto để làm gì?". Câu trả lời ngày càng rõ ràng: **machine economy** — nền kinh tế nơi máy móc là các tác nhân kinh tế (economic actors), không chỉ là công cụ. Với sự phát triển của Ai agents và robotics, hạ tầng tài chính hiện tại được xây dựng cho con người không còn phù hợp. Crypto rails — mở, programmable, permissionless, settled in seconds — phù hợp hơn cho các tác nhân tự chủ.
 
 ## Key points
 
@@ -31,13 +31,13 @@ Bài viết của Wintermute trình bày thesis mới về tương laI crypto: t
   1. Models can act, not just answer — cost of digital work collapsing
   2. Open standards maturing — stablecoins, x402/MPP/AP2, faster networks
   3. Agents can run continuously — hold context and work unattended
-- **The Stacking Thesis:** Các công ty thú vị nhất sẽ stack crypto + AI, crypto + robotics, crypto + autonomous science
+- **The Stacking Thesis:** Các công ty thú vị nhất sẽ stack crypto + Ai, crypto + robotics, crypto + autonomous science
 - **Why crypto fits:** Legacy rails built around human accountability; crypto rails built around code you can audit — phù hợp hơn khi actor là autonomous
 - **Security risks:** Agent wallets là attack surface — ví dụ Morse-code prompt injection attack trên Grok gây mất ~$150K-$200K (May 2026)
-- **Liability unresolved:** AI-assisted smart contract bug gây $1.78M bad debt trên Moonwell (Feb 2026)
+- **Liability unresolved:** Ai-assisted smart contract bug gây $1.78M bad debt trên Moonwell (Feb 2026)
 - **Three opportunity areas:**
   1. Economic layer for agents — authorization, risk, neutral routing
-  2. Physical AI — robots cần wallets để fund compute, pay for charging
+  2. Physical Ai — robots cần wallets để fund compute, pay for charging
   3. Machine-led discovery — autonomous science, lab orchestration
 
 ## Concepts referenced

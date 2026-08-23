@@ -27,7 +27,7 @@ Second-Order Thinking (Suy nghĩ cấp hai) là phương pháp tư duy vượt r
 - Second-order thinking cố ý hơn — suy nghĩ về tương tác và thời gian, hiểu rằng can thiệp thường gây hại ([[iatrogenics]])
 - Mọi thứ trong cuộc sống xảy ra ở bậc thứ hai, thứ ba, hoặc thứ n — hầu hết mọi người không nhận ra các hậu quả bậc cao hơn tồn tại hoặc có thể vượt trội hơn lợi ích
 - Khi có độ trễ giữa hành động và hậu quả (feedback), ta dễ tự lừa dối và xác nhận niềm tin sai lầm (confirmation bias)
-- Ngườii nghĩ cấp hai hỏi: "Và sau đó thì sao?" (And then what?) — xem xét hậu quả kéo dài nhiều năm
+- Người nghĩ cấp hai hỏi: "Và sau đó thì sao?" (And then what?) — xem xét hậu quả kéo dài nhiều năm
 - Ví dụ địa chính trị: nước A tài trợ "phe nổi dậy ôn hòa" ở nước B → phe nổi dậy trở nên mạnh mẽ → gây chiến với nước A trong nhiều thập kỷ
 - Ray Dalio: "Không xem xét hậu quả cấp hai và ba là nguyên nhân của nhiều quyết định tồi tệ đau đớn"
 - Con đường đến việc suy nghĩ vượt trội không thể đến từ first-order thinking — phải đến từ second-order thinking
@@ -41,7 +41,7 @@ Second-Order Thinking (Suy nghĩ cấp hai) là phương pháp tư duy vượt r
 - Đa số chỉ nghĩ ở cấp độ một — nếu bạn nghĩ ở cấp độ hai, ba, bạn có lợi thế cạnh tranh
 - Second-order thinking đòi hỏi nhiều công sức — không dễ nghĩ theo hệ thống, tương tác và thời gian
 - Nhưng đây là cách khôn ngoan để tách biệt bản thân khỏi đám đông
-- Ngườii nghĩ ở cấp độ cao hơn chơi trò chơi dài hơn, nhìn xa hơn, chuẩn bị tốt hơn
+- Người nghĩ ở cấp độ cao hơn chơi trò chơi dài hơn, nhìn xa hơn, chuẩn bị tốt hơn
 - Ví dụ bỏ hội nghị để tiết kiệm $500 (first-order): nhưng mất gặp founder thành client lớn nhất, investor dẫn tới co-founder tương lai, engineer trở thành đồng sáng lập; publishing một bài không đổi đời ngay, nhưng nó → một connection → một cơ hội → đổi quỹ đạo sự nghiệp
 - Những quyết định đổi đời thường KHÔNG trông đổi đời lúc đưa ra — chỉ nhìn lại mới thấy; best decisions thường không phải cái có phần thưởng tức thời lớn nhất mà là cái tạo nhiều opportunities nhất về sau
 

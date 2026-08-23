@@ -20,7 +20,7 @@ Psychic entropy (entropy tâm linh) là trạng thái hỗn loạn, mất trật
 - **Entropy luôn tăng:** Không có khái niệm "giữ nguyên" — entropy luôn gia tăng trừ khi bạn chủ động can thiệp
 - **Chi phí cơ hội:** Năng lượng tâm linh càng dùng để cố giữ mọi thứ như cũ, càng ít còn lại cho mối quan hệ mới, kỹ năng mới, thăng tiến, sở thích
 - **Nguyên nhân:** Thông tin mâu thuẫn danh tính, phân tâm khỏi mục tiêu, suy nghĩ tiêu cực, lo lắng
-- **Hậu quả:** Nếu không bắt kịp và điều hướng lại chú ý, bạn rơI vào hỗn loạn — cảm giác trống rỗng, không động lực, brain fog
+- **Hậu quả:** Nếu không bắt kịp và điều hướng lại chú ý, bạn rơi vào hỗn loạn — cảm giác trống rỗng, không động lực, brain fog
 
 ## Mối liên hệ với Flow State
 

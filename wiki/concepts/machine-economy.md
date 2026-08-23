@@ -13,14 +13,14 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Machine economy (nền kinh tế máy móc) là khái niệm mô tả nền kinh tế nơI các máy móc không chỉ là công cụ chờ lệnh mà là các tác nhân kinh tế độc lập (economic actors). Đây là sự chuyển dịch từ machines as tools → machines as actors — các thực thể có thể giữ context, đưa ra quyết định, giao dịch và hành động tự chủ trong cả thế giới số lẫn vật lý.
+Machine economy (nền kinh tế máy móc) là khái niệm mô tả nền kinh tế nơi các máy móc không chỉ là công cụ chờ lệnh mà là các tác nhân kinh tế độc lập (economic actors). Đây là sự chuyển dịch từ machines as tools → machines as actors — các thực thể có thể giữ context, đưa ra quyết định, giao dịch và hành động tự chủ trong cả thế giới số lẫn vật lý.
 
 ## Key ideas
 
 - **Tool vs Actor:**
   - **Tool:** Chờ lệnh, thụ động, cần hướng dẫn
   - **Actor:** Giữ context, tự quyết định, tự giao dịch, hành động độc lập
-- **Enabling technologies:** AI models có khả năng hành động, robots học từ video con người, open standards cho agent payment và identity
+- **Enabling technologies:** Ai models có khả năng hành động, robots học từ video con người, open standards cho agent payment và identity
 - **Current state:** Most financial infrastructure assume human/business ở phía bên kia — someone you can identify and hold accountable
 - **The gap:** Assumption này sụp đổ khi actor là autonomous — rails cho payment, identity, authorization, dispute, settlement không được xây cho trường hợp này
 
@@ -39,7 +39,7 @@ Machine economy (nền kinh tế máy móc) là khái niệm mô tả nền kinh
 
 ### 1. Models Can Act, Not Just Answer
 - Models đủ tốt để hành động tự chủ và đủ rẻ để chạy unattended
-- Chi phí digital work đang sụp đổ, làm các task trước đây không đáng thời gian của con người trở nên khả thI
+- Chi phí digital work đang sụp đổ, làm các task trước đây không đáng thời gian của con người trở nên khả thi
 
 ### 2. Open Standards Maturing
 - Stablecoins là real settlement rails

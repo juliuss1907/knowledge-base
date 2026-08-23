@@ -35,7 +35,7 @@ Tóm tắt nghiên cứu của Tim Gabe (người từng thiết kế cho Spotif
 - **Giới hạn của gamification:** Nghiên cứu 2015 cho thấy tính năng trò chơi chỉ tăng tương tác đến một điểm nhất định — vượt quá sẽ gây quá tải nhận thức và tương tác giảm
 - Habitica thất bại khi biến mọi công việc thành nhiệm vụ sinh tồn — 100% người tham gia gặp tác dụng ngược vì tốn quá nhiều tâm trí quản lý trò chơi
 - **Cạm bẫy streak:** Chuỗi ngày càng dài càng biến động lực thành nghĩa vụ ép buộc
-- Ngườii dùng chuyển từ "tôi muốn làm" sang "tôi không thể bỏ lỡ ngày hôm nay"
+- Người dùng chuyển từ "tôi muốn làm" sang "tôi không thể bỏ lỡ ngày hôm nay"
 - Snapchat gây vấn đề tâm lý, FOMO và mất kiểm soát cho giới trẻ
 - Nhiều quốc gia đang đề xuất luật kiểm soát tính năng gây nghiện độc hại năm 2026
 - Streak chỉ tốt khi người dùng được tự chọn mục tiêu, mua quyền tạm dừng (như Duolingo)

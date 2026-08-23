@@ -13,7 +13,7 @@ last_updated: 2026-07-31
 
 ## Definition
 
-Nguyên tắc ra quyết định ưu tiên các lựa chọn giữ lại nhiều lựa chọn hơn về sau, ngay cả khi kỳ vọng ngắn hạn ngang nhau. Optionality là tài sản vô hình mà ngườii ra quyết định giỏii luôn tích lũy — khả năng đáp ứng với những kịch bản chưa lường trước được.
+Nguyên tắc ra quyết định ưu tiên các lựa chọn giữ lại nhiều lựa chọn hơn về sau, ngay cả khi kỳ vọng ngắn hạn ngang nhau. Optionality là tài sản vô hình mà người ra quyết định giỏi luôn tích lũy — khả năng đáp ứng với những kịch bản chưa lường trước được.
 
 ## Key ideas
 

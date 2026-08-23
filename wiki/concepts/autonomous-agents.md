@@ -13,7 +13,7 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Autonomous agents (tác nhân tự chủ) là các hệ thống AI hoặc robotic có khả năng hoạt động độc lập trong thời gian dài — giữ context, đưa ra quyết định, thực thI hành động, và tự quản lý resources mà không cần sự giám sát liên tục của con người.
+Autonomous agents (tác nhân tự chủ) là các hệ thống Ai hoặc robotic có khả năng hoạt động độc lập trong thời gian dài — giữ context, đưa ra quyết định, thực thi hành động, và tự quản lý resources mà không cần sự giám sát liên tục của con người.
 
 ## Key ideas
 
@@ -79,11 +79,11 @@ Autonomous agents (tác nhân tự chủ) là các hệ thống AI hoặc roboti
 
 - **Prompt injection attacks:** Morse-code attack trên Grok → $150K-$200K loss
 - **Authorization exploits:** Agent gaining permissions beyond scope
-- **Chain of trust:** AI-assisted code bugs gây $1.78M bad debt
+- **Chain of trust:** Ai-assisted code bugs gây $1.78M bad debt
 
 ## Related concepts
 
-- [[machine-economy]] — nền kinh tế nơI agents hoạt động
+- [[machine-economy]] — nền kinh tế nơi agents hoạt động
 - [[agentic-commerce]] — giao thương giữa agents
 
 ## Sources

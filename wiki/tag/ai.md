@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: ai
 auto_generated: true
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 ---
 
 # Tag: #ai
 
 Auto-generated index of all content tagged with `#ai`.
 
-Last updated: 2026-08-22 21:16:11
+Last updated: 2026-08-23 21:19:32
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-22 21:16:11
 
 ## Stats
 
-- Total files: 187
-- Sources: 43
-- Concepts: 144
-- Last updated: 2026-08-22
+- Total files: 190
+- Sources: 45
+- Concepts: 145
+- Last updated: 2026-08-23
 
 ## Files with this tag
 
@@ -46,6 +46,7 @@ Last updated: 2026-08-22 21:16:11
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept, main: #ai, sub: [#opinion, #research], topic: ai-systems-thinking-augmentation)
 - [[ai-coach-prompting]] — Ai Coach Prompting (concept, main: #productivity, sub: [#ai, #automation, #tutorial], topic: ai-workflow-methodology)
 - [[ai-dependency]] — Ai Dependency (concept, main: #health, sub: [#psychology, #ai], topic: never-enough-culture)
+- [[ai-engineering-skills]] — Ai Engineering Skills (concept, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
 - [[ai-evals]] — Ai Evals (concept, main: #ai, sub: [#tools, #system], topic: ai-token-workforce)
 - [[ai-first-business-model]] — Ai First Business Model (concept, main: #economic, sub: [#ai, #tools, #tutorial], topic: ai-first-business)
 - [[ai-impression-of-work]] — Ai Impression Of Work (concept, main: #ai, sub: [#opinion, #tools], topic: ai-business-criticism)
@@ -163,7 +164,9 @@ Last updated: 2026-08-22 21:16:11
 - [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 - [[src_agent-memory-7-types-substack]] — Agent Memory 7 Types Substack (source, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
 - [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source, main: #ai, sub: [#research, #tools], topic: agent-memory-systems)
+- [[src_ai-engineering-skills-map]] — Ai Engineering Skills Map (source, main: #ai, sub: [#coding, #vibecode], topic: ai-engineering-skills)
 - [[src_ai-future-skills]] — Ai Future Skills (source, main: #ai, sub: [#opinion, #tools], topic: ai-future-skills)
+- [[src_ai-skills-map-building-deploying-ai-apps]] — Ai Skills Map Building Deploying Ai Apps (source, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
 - [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source, main: #ai, sub: [#research, #opinion], topic: ai-landing-page-discovery)
 - [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source, main: #ai, sub: [#news, #opinion], topic: ai-economic-disruption-white-collar)
 - [[src_career-advice-age-of-ai-phil-chen]] — Career Advice Age Of Ai Phil Chen (source, main: #productivity, sub: [#ai, #opinion], topic: career-advice-ai-age)
@@ -221,7 +224,7 @@ Last updated: 2026-08-22 21:16:11
 
 Tags that frequently appear with `#ai`:
 - `#tools` (120 files)
-- `#research` (85 files)
+- `#research` (87 files)
 - `#automation` (57 files)
 - `#opinion` (43 files)
-- `#coding` (26 files)
+- `#coding` (29 files)

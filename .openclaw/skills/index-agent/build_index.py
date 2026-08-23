@@ -347,6 +347,8 @@ for fname in os.listdir(tag_dir):
     if not fname.endswith(".md"):
         continue
     tag = fname.replace(".md", "")
+    if tag == "tag":
+        continue  # L2 master index — managed separately, never auto-deleted
     if tag not in tag_index or tag not in all_valid_tags:
         os.remove(os.path.join(tag_dir, fname))
         print(f"[ORPHAN] Deleted orphaned tag index: wiki/tag/{fname}")

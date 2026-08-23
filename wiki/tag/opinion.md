@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 ---
 
 # Tag: #opinion
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-08-22 21:16:11
+Last updated: 2026-08-23 21:19:32
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-22 21:16:11
 
 ## Stats
 
-- Total files: 252
+- Total files: 251
 - Sources: 84
-- Concepts: 168
-- Last updated: 2026-08-22
+- Concepts: 167
+- Last updated: 2026-08-23
 
 ## Files with this tag
 
@@ -62,8 +62,7 @@ Last updated: 2026-08-22 21:16:11
 - [[comparison-trap]] — Comparison Trap (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[complicated-vs-complex]] — Complicated Vs Complex (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
-- [[compounding-effect]] — Compounding Effect (concept, main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth)
-- [[compounding-effect]] — Compounding Effect (concept, main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth)
+- [[compounding-effect]] — Compounding Effect (concept, main: #productivity, sub: [#opinion], topic: compounding-growth)
 - [[compounding-relationships]] — Compounding Relationships (concept, main: #productivity, sub: [#psychology, #opinion], topic: long-term-thinking)
 - [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept, main: #productivity, sub: [#psychology, #opinion], topic: steve-jobs-stanford-connecting-dots)
 - [[creativity-as-skill]] — Creativity As Skill (concept, main: #ai, sub: [#opinion, #psychology], topic: future-proof-skills)

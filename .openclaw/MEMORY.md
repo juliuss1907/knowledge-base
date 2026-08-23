@@ -1207,3 +1207,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Source:** https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/
 - **Author:** T. R. Napper — published 2026-08-20
 - **Status:** unprocessed; articles.md Stats 140 total / 1 unprocessed
+
+## 2026-08-23 21:19:32 +07:00 — Indexed
+- Scanned: 527 concepts + 178 sources = 705 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 202
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0

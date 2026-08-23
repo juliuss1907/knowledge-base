@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 ---
 
 # Tag: #productivity
 
 Auto-generated index of all content tagged with `#productivity`.
 
-Last updated: 2026-08-22 21:16:11
+Last updated: 2026-08-23 21:19:32
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-22 21:16:11
 
 ## Stats
 
-- Total files: 297
-- Sources: 86
-- Concepts: 211
-- Last updated: 2026-08-22
+- Total files: 300
+- Sources: 88
+- Concepts: 212
+- Last updated: 2026-08-23
 
 ## Files with this tag
 
@@ -56,7 +56,7 @@ Last updated: 2026-08-22 21:16:11
 - [[colin-powell-40-70-rule]] — Colin Powell 40 70 Rule (concept, main: #productivity, sub: [#psychology], topic: decision-making-frameworks)
 - [[collaborative-thinking]] — Collaborative Thinking (concept, main: #productivity, sub: [#psychology, #research], topic: critical-thinking-tools)
 - [[comeback-strategy]] — Comeback Strategy (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
-- [[compounding-effect]] — Compounding Effect (concept, main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth)
+- [[compounding-effect]] — Compounding Effect (concept, main: #productivity, sub: [#opinion], topic: compounding-growth)
 - [[compounding-relationships]] — Compounding Relationships (concept, main: #productivity, sub: [#psychology, #opinion], topic: long-term-thinking)
 - [[comprehensible-input]] — Comprehensible Input (concept, main: #productivity, sub: [#psychology], topic: language-acquisition-method)
 - [[connecting-the-dots-principle]] — Connecting The Dots Principle (concept, main: #productivity, sub: [#psychology, #opinion], topic: steve-jobs-stanford-connecting-dots)
@@ -206,6 +206,7 @@ Last updated: 2026-08-22 21:16:11
 - [[right-problem-framework]] — Right Problem Framework (concept, main: #productivity, sub: [#psychology, #system], topic: right-problem-framework)
 - [[role-playing-self]] — Role Playing Self (concept, main: #productivity, sub: [#psychology, #opinion], topic: identity-transformation)
 - [[sacred-art]] — Sacred Art (concept, main: #productivity, sub: [#psychology], topic: ikigai-unbundling)
+- [[schedule-maxxing]] — Schedule Maxxing (concept, main: #productivity, sub: [#psychology, #health], topic: schedule-maxxing)
 - [[second-order-thinking]] — Second Order Thinking (concept, main: #productivity, sub: [#psychology], topic: mental-models)
 - [[self-discovery-through-conversations]] — Self Discovery Through Conversations (concept, main: #productivity, sub: [#psychology], topic: self-discovery-serendipity)
 - [[self-knowledge-practice]] — Self Knowledge Practice (concept, main: #productivity, sub: [#psychology, #opinion], topic: authenticity-competition)
@@ -277,12 +278,14 @@ Last updated: 2026-08-22 21:16:11
 - [[src_principles-of-better-decisions]] — Principles Of Better Decisions (source, main: #productivity, sub: [#psychology, #strategy], topic: better-decisions)
 - [[src_probabilistic-thinking]] — Probabilistic Thinking (source, main: #productivity, sub: [#psychology], topic: mental-models)
 - [[src_reciprocity]] — Reciprocity (source, main: #productivity, sub: [#psychology, #research], topic: mental-models)
+- [[src_schedule-maxxing]] — Schedule Maxxing (source, main: #productivity, sub: [#psychology, #health], topic: schedule-maxxing)
 - [[src_second-order-thinking]] — Second Order Thinking (source, main: #productivity, sub: [#psychology], topic: mental-models)
 - [[src_shift-leader-follower-to-leader-leader]] — Shift Leader Follower To Leader Leader (source, main: #productivity, sub: [#research, #opinion], topic: leader-leader-leadership)
 - [[src_sop-writer-skill]] — Sop Writer Skill (source, main: #productivity, sub: [#tools, #automation], topic: sop-writer)
 - [[src_speed-velocity]] — Speed Velocity (source, main: #productivity, sub: [#automation, #tutorial], topic: speed-vs-velocity-productivity)
 - [[src_split-the-ikigai]] — Split The Ikigai (source, main: #productivity, sub: [#opinion, #psychology], topic: ikigai-unbundling)
 - [[src_steve-jobs-stanford-2005-commencement]] — Steve Jobs Stanford 2005 Commencement (source, main: #productivity, sub: [#psychology, #opinion], topic: steve-jobs-stanford-connecting-dots)
+- [[src_strategy-vs-tactics-dan-koe]] — Strategy Vs Tactics Dan Koe (source, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
 - [[src_systems-thinking-leadership]] — Systems Thinking Leadership (source, main: #productivity, sub: [#research, #opinion, #tutorial], topic: systems-thinking-leadership)
 - [[src_systems-thinking-rabbit-hole]] — Systems Thinking Rabbit Hole (source, main: #productivity, sub: [#research, #opinion], topic: systems-thinking-cognitive-development)
 - [[src_systems-thinking-tools-deepdive]] — Systems Thinking Tools Deepdive (source, main: #productivity, sub: [#tools, #research, #tutorial], topic: systems-thinking-tools)
@@ -330,7 +333,7 @@ Last updated: 2026-08-22 21:16:11
 ## Co-occurring tags
 
 Tags that frequently appear with `#productivity`:
-- `#psychology` (207 files)
+- `#psychology` (210 files)
 - `#opinion` (114 files)
 - `#research` (87 files)
 - `#tutorial` (39 files)

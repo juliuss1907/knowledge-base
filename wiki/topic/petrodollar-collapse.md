@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: petrodollar-collapse
 auto_generated: true
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 ---
 
 # Topic: petrodollar-collapse
 
 Auto-generated index of all content with topic `petrodollar-collapse`.
 
-Last updated: 2026-08-22 21:16:11
+Last updated: 2026-08-23 21:19:32
 
 ---
 

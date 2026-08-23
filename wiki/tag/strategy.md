@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: strategy
 auto_generated: true
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 ---
 
 # Tag: #strategy
 
 Auto-generated index of all content tagged with `#strategy`.
 
-Last updated: 2026-08-22 21:16:11
+Last updated: 2026-08-23 21:19:32
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-22 21:16:11
 
 ## Stats
 
-- Total files: 18
-- Sources: 6
+- Total files: 19
+- Sources: 7
 - Concepts: 12
-- Last updated: 2026-08-22
+- Last updated: 2026-08-23
 
 ## Files with this tag
 
@@ -42,6 +42,7 @@ Last updated: 2026-08-22 21:16:11
 - [[src_long-range-career-advice]] — Long Range Career Advice (source, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
 - [[src_max-results-minimum-effort-game-theory]] — Max Results Minimum Effort Game Theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
 - [[src_principles-of-better-decisions]] — Principles Of Better Decisions (source, main: #productivity, sub: [#psychology, #strategy], topic: better-decisions)
+- [[src_strategy-vs-tactics-dan-koe]] — Strategy Vs Tactics Dan Koe (source, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
 - [[src_the-art-of-strategic-thinking]] — The Art Of Strategic Thinking (source, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
 - [[strategic-thinking]] — Strategic Thinking (concept, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
 - [[sunk-cost-fallacy]] — Sunk Cost Fallacy (concept, main: #productivity, sub: [#psychology, #strategy], topic: game-theory-comeback)
@@ -51,8 +52,8 @@ Last updated: 2026-08-22 21:16:11
 ## Co-occurring tags
 
 Tags that frequently appear with `#strategy`:
-- `#productivity` (18 files)
-- `#psychology` (11 files)
+- `#productivity` (19 files)
+- `#psychology` (12 files)
 - `#opinion` (8 files)
 - `#research` (1 files)
 - `#system` (1 files)

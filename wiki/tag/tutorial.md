@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 ---
 
 # Tag: #tutorial
 
 Auto-generated index of all content tagged with `#tutorial`.
 
-Last updated: 2026-08-22 21:16:11
+Last updated: 2026-08-23 21:19:32
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-08-22 21:16:11
 - Total files: 85
 - Sources: 33
 - Concepts: 52
-- Last updated: 2026-08-22
+- Last updated: 2026-08-23
 
 ## Files with this tag
 

@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: research
 auto_generated: true
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 ---
 
 # Tag: #research
 
 Auto-generated index of all content tagged with `#research`.
 
-Last updated: 2026-08-22 21:16:11
+Last updated: 2026-08-23 21:19:32
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-22 21:16:11
 
 ## Stats
 
-- Total files: 262
-- Sources: 59
-- Concepts: 203
-- Last updated: 2026-08-22
+- Total files: 264
+- Sources: 60
+- Concepts: 204
+- Last updated: 2026-08-23
 
 ## Files with this tag
 
@@ -38,6 +38,7 @@ Last updated: 2026-08-22 21:16:11
 - [[agentic-retrieval]] — Agentic Retrieval (concept, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
 - [[ai-alignment]] — Ai Alignment (concept, main: #ai, sub: [#research], topic: ai-reward-hacking-alignment)
 - [[ai-augmented-systems-thinking]] — Ai Augmented Systems Thinking (concept, main: #ai, sub: [#opinion, #research], topic: ai-systems-thinking-augmentation)
+- [[ai-engineering-skills]] — Ai Engineering Skills (concept, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
 - [[ai-overviews]] — Ai Overviews (concept, main: #ai, sub: [#tools, #research], topic: ai-overviews)
 - [[ai-powered-discovery]] — Ai Powered Discovery (concept, main: #ai, sub: [#research, #opinion], topic: ai-landing-page-discovery)
 - [[ai-safety-monitoring]] — Ai Safety Monitoring (concept, main: #ai, sub: [#research, #tools], topic: ai-reward-hacking-alignment)
@@ -214,6 +215,7 @@ Last updated: 2026-08-22 21:16:11
 - [[src_active-vs-lazy-thinking]] — Active Vs Lazy Thinking (source, main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology)
 - [[src_agent-memory-7-types-substack]] — Agent Memory 7 Types Substack (source, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
 - [[src_agent-memory-anatomy]] — Agent Memory Anatomy (source, main: #ai, sub: [#research, #tools], topic: agent-memory-systems)
+- [[src_ai-skills-map-building-deploying-ai-apps]] — Ai Skills Map Building Deploying Ai Apps (source, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
 - [[src_ai-trillion-dollar-blind-spot]] — Ai Trillion Dollar Blind Spot (source, main: #ai, sub: [#research, #opinion], topic: ai-landing-page-discovery)
 - [[src_building-latticework-mental-models]] — Building Latticework Mental Models (source, main: #economic, sub: [#research, #psychology], topic: mental-models-latticework)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source, main: #ai, sub: [#research, #coding], topic: code-as-agent-harness)
@@ -296,7 +298,7 @@ Last updated: 2026-08-22 21:16:11
 
 Tags that frequently appear with `#research`:
 - `#productivity` (87 files)
-- `#ai` (85 files)
+- `#ai` (87 files)
 - `#tools` (69 files)
 - `#psychology` (66 files)
 - `#opinion` (61 files)

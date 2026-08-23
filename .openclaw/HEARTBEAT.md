@@ -1,11 +1,11 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-24 04:00 (Asia/Saigon)
+> Last updated: 2026-08-24 06:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_ISSUE** — 3/4 check sạch. 3 report Hermes 08-23 vẫn chờ Julius duyệt (không đổi từ 00:30).
+**HEARTBEAT_ISSUE** — 3/4 check sạch. 3 report Hermes 08-23 vẫn chờ Julius duyệt (không đổi từ 23:32 hôm qua).
 
 ## Checks Performed
 
@@ -13,7 +13,7 @@
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
 | Raw backlog | ✅ Clean | 1 file unprocessed — `raw/articles/2026-08-20_the-golden-rule-for-becoming-a-better-writer.md`, date_ingested 2026-08-23, trong window 24h |
-| Concept backlinks | ✅ Clean | Sample 2 files: [[galilean-relativity]] (6 links), [[google-project-oxygen]] (4 links) |
+| Concept backlinks | ✅ Clean | Sample 2 files: [[mental-models]] (5 links), [[authenticity-creative-expression]] (7 links) |
 | Pending reviews | ⚠️ Pending | `_action-required.md`: 3 PENDING — Format 391W + Output 4 issues + Hygiene 1E, batch 08-23 |
 
 ## System State
@@ -28,7 +28,7 @@
 ## Issues
 
 1. **[Medium] 3 reports PENDING** — Format (391W forward-ref), Output (4 issues), Hygiene (1E). Batch 08-23, cần Julius duyệt trước khi Fix Agent apply. Không đổi kể từ 23:32 hôm qua.
-2. **[Low] Carry-over lần 7** — `openclaw-workspace-state.json` vẫn ở KB root (mtime 12:25 23-08), git-tracked. Chờ Julius duyệt xử lý.
+2. **[Low] Carry-over lần 8** — `openclaw-workspace-state.json` vẫn ở KB root (mtime 12:25 23-08), git-tracked. Chờ Julius duyệt xử lý.
 
 ## Next Scheduled Actions
 

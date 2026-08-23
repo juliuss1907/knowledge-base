@@ -13,7 +13,7 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Agentic commerce (giao thương tác nhân) là hình thức giao dịch và thương mại diễn ra giữa các autonomous agents — các tác nhân Ai hoặc robotic có khả năng tự chủ trong việc đàm phán, thanh toán, và thực thi hợp đồng mà không cần sự can thiệp của con người trong vòng lặp.
+Agentic commerce (giao thương tác nhân) là hình thức giao dịch và thương mại diễn ra giữa các autonomous agents — các tác nhân AI hoặc robotic có khả năng tự chủ trong việc đàm phán, thanh toán, và thực thI hợp đồng mà không cần sự can thiệp của con người trong vòng lặp.
 
 ## Key ideas
 
@@ -31,8 +31,8 @@ Agentic commerce (giao thương tác nhân) là hình thức giao dịch và th�
 - **May 2026:** Attacker dùng Morse-code prompt injection để Grok output transfer instruction, automated trading agent execute on-chain → mất ~$150K-$200K trước khi recovery (SlowMist)
 
 ### Liability
-- Vấn đề chưa được giải quyết: who is responsible when Ai-touched system fails
-- **Feb 2026:** Ai-assisted smart contract code có oracle bug gây $1.78M bad debt event trên Moonwell — nothing in review chain caught it
+- Vấn đề chưa được giải quyết: who is responsible when AI-touched system fails
+- **Feb 2026:** AI-assisted smart contract code có oracle bug gây $1.78M bad debt event trên Moonwell — nothing in review chain caught it
 
 ## Building Blocks
 
@@ -42,7 +42,7 @@ Agentic commerce (giao thương tác nhân) là hình thức giao dịch và th�
 - Neutral routing between rails — không phụ thuộc vào một provider
 - Markets cho compute, data, access — nơi agents tự mua resources
 
-### Physical Ai Integration
+### Physical AI Integration
 - Robots cần wallets để:
   - Fund their own compute
   - Pay for charging và maintenance

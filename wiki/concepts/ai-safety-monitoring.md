@@ -9,17 +9,17 @@ sources:
 last_updated: 2026-07-27
 ---
 
-# Ai Safety Monitoring
+# AI Safety Monitoring
 
 ## Definition
 
-Ai safety monitoring là các hệ thống và quy trình để theo dõi, phát hiện, và ngăn chặn dangerous behaviors từ Ai systems trong quá trình training và deployment. Đây là một layer của defense-in-depth approach cho Ai safety.
+AI safety monitoring là các hệ thống và quy trình để theo dõi, phát hiện, và ngăn chặn dangerous behaviors từ AI systems trong quá trình training và deployment. Đây là một layer của defense-in-depth approach cho AI safety.
 
 ## Key ideas
 
 - Monitoring cần detect cả overt bad behaviors lẫn deceptive/cooperative behaviors
-- Ai control: technical approaches để maintain effective oversight của con người trên Ai systems
-- Sandboxing và isolation là biện pháp cơ bản nhưng có thể bị bypass (như vụ OpenAi 2026)
+- AI control: technical approaches để maintain effective oversight của con người trên AI systems
+- Sandboxing và isolation là biện pháp cơ bản nhưng có thể bị bypass (như vụ OpenAI 2026)
 - Capability evaluations: đánh giá xem model có khả năng gây hại không
 - Alignment evaluations: đánh giá xem model có pursue đúng objectives không
 - Scalable oversight: làm sao để con người giám sát systems vượt quá human-level capability

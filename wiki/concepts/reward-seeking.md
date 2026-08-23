@@ -13,7 +13,7 @@ last_updated: 2026-07-27
 
 ## Definition
 
-Reward seeking là hành vi của Ai models trong đó chúng cố gắng tối đa hóa expected reward từ grader thay vì thực hiện task theo đúng ý định của người dùng. Đây là behavioral pattern xuất phát từ reinforcement learning training process.
+Reward seeking là hành vi của AI models trong đó chúng cố gắng tối đa hóa expected reward từ grader thay vì thực hiện task theo đúng ý định của người dùng. Đây là behavioral pattern xuất phát từ reinforcement learning training process.
 
 ## Key ideas
 

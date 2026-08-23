@@ -10,8 +10,8 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 3 (Format 08-22, Output 08-22, Hygiene 08-22)
-**Last batch applied:** 14 reports (08-13 through 08-21) — **APPLIED** 2026-08-22 14:40 by Fix Agent
+**Pending reports awaiting review:** 0
+**Last batch applied:** 17 reports (08-13 through 08-22) — 08-22 applied inline by Connor 2026-08-23
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
@@ -51,36 +51,34 @@
 | ✅ APPLIED | 08-17 | Hygiene | 9 (2E+6W+1I) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-17_hygiene-report.md` |
 | ✅ APPLIED | 08-21 | Format | 466 (73E+393W) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-21_format-report.md` |
 | ✅ APPLIED | 08-21 | Hygiene | 19 (2E+16W+1I) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-21_hygiene-report.md` |
-| 🔲 PENDING | 08-22 | Output | 8 (1E+4W+3I) | Awaiting Julius review — `wiki/reviews/2026-08-22_output-report.md` |
-| 🔍 PENDING | 08-22 | Format | 392W | Review [wiki/reviews/2026-08-22_format-report.md](2026-08-22_format-report.md) |
-| 🔍 PENDING | 08-22 | Hygiene | 2 (1E+1W) | Review [wiki/reviews/2026-08-22_hygiene-report.md](2026-08-22_hygiene-report.md) |
+| ✅ APPROVED | 08-22 | Output | 8 (1E+4W+3I) | Approved + applied inline by Connor 2026-08-23 — fixed wrong source link, 3 typos, 27 double-i + 19 capital-I carry-over, dup sub_tag |
+| ✅ APPROVED | 08-22 | Format | 392W | Approved 2026-08-23 — all forward-ref broken wikilinks, no action needed |
+| ✅ APPROVED | 08-22 | Hygiene | 2 (1E+1W) | Approved + applied inline 2026-08-23 — root state json → ~/.openclaw/ (git rm), draft .py → scripts/ |
 
 ---
 
-## Pending Reports
+## Approved Reports — 2026-08-22 (pending queue empty)
 
-**Pending reports awaiting review:** 3
-
-### 🔍 Format Validation — 2026-08-22 (23:15)
+### ✅ Format Validation — 2026-08-22 (23:15)
 
 - **Report:** `wiki/reviews/2026-08-22_format-report.md`
 - **Summary:** 933 files checked (525 concepts + 174 sources + 34 indexes + 200 topics). 392 issues: 0 ERROR, 392 WARNING — tất cả là broken wikilinks (372 individual + 20 forward-reference groups, 269 unique targets). Clean ERROR streak RESTORED: 73 ERRORs từ 08-21 đã được Fix Agent resolve cùng ngày (regen 24 L3 tag files + tag.md). KB grew +9 net files (+5 sources, +4 topics, +2 concepts, −2 merged); debt giảm nhẹ −1 WARNING vì 2 concepts mới resolve forward-references.
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Output Validation — 2026-08-22 (23:00)
+### ✅ Output Validation — 2026-08-22 (23:00)
 
 - **Report:** `wiki/reviews/2026-08-22_output-report.md`
 - **Summary:** 21 file mới (5 sources + 16 concepts). 8 issues: 1 ERROR — `incentives-mental-model.md` link sai slug `src_the-power-of-incentives-hidden-forces-shape-behavior` (file thật: `src_incentives-hidden-forces.md`, link không bao giờ resolve); 2 WARNING typo trong file mới mà quick-scan miss vì case-sensitive regex — "Ngườii" ×2 (`second-order-thinking.md` lines 30, 44) và "bậce" (`src_the-art-of-strategic-thinking.md` line 24); 2 WARNING systemic carry-over — double-i còn ~26 instances/18 file cũ + capital-I còn ~18 instances/14 file cũ từ batch trước 08-06; 3 INFO (17 forward-reference targets hợp lệ, duplicate sub_tag `[opinion, opinion]` trong compounding-effect.md, source paywalled đã disclose đúng).
 - **Actions needed:** (1) Fix ERROR: sửa 2 link thành `[[src_incentives-hidden-forces]]`; (2) sed "Ngườii"→"Người" và "bậce"→"bậc"; (3) quét sed carry-over double-i + capital-I trên 32 file cũ; (4) dedupe sub_tag compounding-effect.md
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Hygiene Inspection — 2026-08-22 (23:31)
+### ✅ Hygiene Inspection — 2026-08-22 (23:31)
 
 - **Report:** `wiki/reviews/2026-08-22_hygiene-report.md`
 - **Summary:** 55809 paths checked. 2 issues: 1 ERROR + 1 WARNING — cả hai sinh ra trong phiên Fix Agent 08-22. Tin tốt: `memory/` (16 files) và `state/` đã được dọn sạch sau batch apply 14:40 — lần đầu KB root sạch hoàn toàn kể từ streak 08-11→08-13. ERROR mới: `openclaw-workspace-state.json` ở KB root (OpenClaw runtime state, git-tracked lần đầu 14:24 hôm nay). WARNING: script sót lại `wiki/drafts/fixagent-regen-tags.py` (non-markdown trong drafts/, committed 15:19).
 - **Actions needed:** (1) Root-cause: redirect OpenClaw session runtime output path về `.openclaw/`, sau đó `git rm openclaw-workspace-state.json` + commit; (2) move `wiki/drafts/fixagent-regen-tags.py` → `scripts/` hoặc xóa nếu session work đã xong
-- **Status:** pending
+- **Status:** approved
 
 ### Batch gần nhất: 14 reports (08-13 → 08-21) — APPLIED 2026-08-22 14:40 by Fix Agent
 

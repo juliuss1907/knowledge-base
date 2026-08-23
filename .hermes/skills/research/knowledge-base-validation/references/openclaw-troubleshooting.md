@@ -24,26 +24,61 @@ Key sections:
 ### Root Cause
 Kara's primary model has too small a context window. Observed 2026-08-10: `api-box/deepseek-v4-flash[1m]` had `contextWindow: 16000` and `maxTokens: 4096` — 16K is insufficient for compile/index tasks that process 10+ files.
 
-### Fix: Switch to larger context model
+### Fix: Match configured contextWindow to the model's REAL window
 
-In `~/.openclaw/openclaw.json`, change `agents.defaults.model.primary`:
+⚠️ Config drift (found 2026-08-21): `[1m]`-suffix models were configured with `contextWindow: 16000` although their real windows are 256K–1M. The framework trusts the config value, compacts prematurely, and dies with `FallbackSummaryError: All models failed` even though providers had plenty of room. Always set contextWindow to the true size.
 
-| Model | Context | Max Output | Suitable for |
-|---|---|---|---|
-| `api-box/deepseek-v4-flash[1m]` | 16K | 4K | Simple tasks only |
-| `custom-api-ai-box-vn/deepseek-v4-pro` | 256K | 32K | Compile, Fix |
-| `custom-api-ai-box-vn-2/deepseek-v4-pro[1m]` | 1M | 32K | All agents |
+Model status (verified 2026-08-22):
 
-**Recommended:** `custom-api-ai-box-vn-2/deepseek-v4-pro[1m]` — 1M context handles all pipeline stages.
+| Model | Real context | Status |
+|---|---|---|
+| `9router/oc/mimo-v2.5-free` | 128K | ✅ working free primary (occasional rate-limit cooldowns) |
+| `ollama/nemotron-3-nano:30b` | large | ✅ working free fallback |
+| `ollama/nemotron-3-super` | large | ✅ working free fallback |
+| `ollama/gpt-oss:120b` | large | ✅ working free |
+| `google/gemma-4-31b-it` | 128K | ✅ works, sometimes rate-limited |
+| `opencode/minimax-m2.5-free` | — | ❌ dead (HTTP 401 "model not supported") |
+| `ollama/kimi-k2.5:cloud` | — | ❌ retired 2026-07-31 |
+| `ollama/minimax-m2.7:cloud` / `kimi-k2.6:cloud` | — | ❌ 403 subscription required |
+| `openai-codex/gpt-5.4` | — | ⚠️ OAuth refresh expires — re-auth or drop |
+| `api-box/deepseek-v4-flash[1m]` / `-pro[1m]` | 256K / 1M | ⚠️ 403 "Token không có quyền truy cập" on current key |
 
-### Alternative: Add `reserveTokensFloor` equivalent
+**Recommended chain:** primary `9router/oc/mimo-v2.5-free` → fallbacks `ollama/nemotron-3-nano:30b` → `ollama/nemotron-3-super` → `google/gemma-4-31b-it`. Rate-limit cooldowns (1–15 min) are temporary — don't hammer retries during cooldown.
 
-If OpenClaw supports compaction settings (similar to Hermes), add under `agents.defaults`:
+### Compaction settings — CONFIRMED working
+
+`agents.defaults.compaction.reserveTokensFloor` exists and matters. Set **50000** (20000 is too low for raw/-scale scans):
+
 ```json
-"compaction": {
-  "reserveTokensFloor": 20000
-}
+"compaction": { "reserveTokensFloor": 50000 }
 ```
+
+⚠️ NEVER run `openclaw configure` — the wizard resets `reserveTokensFloor` to 20000 and strips custom `contextWindow` values. Edit `~/.openclaw/openclaw.json` by hand, then `systemctl --user restart openclaw-gateway.service`.
+
+## Gateway won't start after `openclaw update` (2026-08-22)
+
+The systemd unit `~/.config/systemd/user/openclaw-gateway.service` hardcodes an ExecStart node path. After an update, two failure modes appear:
+
+1. **Unit runs system node** (`/usr/bin/node`) which is older than the nvm node the package was upgraded for → gateway exits instantly, systemd hits `StartLimitBurst=5` and gives up silently ("Start request repeated too quickly").
+2. Unit runs nvm node but package now requires a newer node than installed.
+
+Fix pattern:
+```bash
+systemctl --user status openclaw-gateway.service   # confirm crash-loop / failed
+# point ExecStart at the nvm node matching the upgraded package:
+sed -i 's|^ExecStart=/usr/bin/node |ExecStart=/home/julius/.nvm/versions/node/v24.15.0/bin/node |' \
+  ~/.config/systemd/user/openclaw-gateway.service
+systemctl --user daemon-reload && systemctl --user restart openclaw-gateway.service
+ss -tlnp | grep 18789   # verify port listens; curl 127.0.0.1:18789
+```
+
+Related: `openclaw update` as user julius hits npm EACCES on `/usr/lib/node_modules/openclaw` (old root-owned global install). Fix: `sudo npm rm -g openclaw`, then update inside nvm prefix only.
+
+## Runtime artifacts leak into KB root (recurring, systematic)
+
+OpenClaw sessions write working files to CWD (= KB root) instead of agent home `.openclaw/`. Observed leaks: `memory/` (6+ times Jul–Aug), empty `state/` phantom dir, `openclaw-workspace-state.json`. All get git-tracked by the ~5-min `vault backup` auto-commit, so plain deletion resurrects them.
+
+Durable fix per artifact: redirect the writer's output path → `.openclaw/`, then `git rm <artifact>` + commit, and add a `.gitignore` guard line. Root-level cleanup is Connor-approved inline work (see approval workflow in SKILL.md).
 
 ## Pipeline Agent Health Check
 

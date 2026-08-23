@@ -221,6 +221,23 @@ Older reports and archived files may still contain literal `pending` in historic
 
 **⚠️ PITFALL — Clean reports (`Status: clean`) need different approval handling:** Some reports (e.g., hygiene clean runs with 0 issues) use `**Status:** clean` instead of `**Status:** pending`. The approval step's `replace('pending', 'approved')` won't touch them. **Fix:** Check for `clean` status before bulk-approving. For clean reports, add approval note WITHOUT changing the status keyword: `**Status:** clean (approved)` + `**Approved by:** Julius`. Clean reports mean "nothing to fix" — the approval just confirms Julius has reviewed the clean run.
 
+### Approval + inline apply in one pass (pattern 2026-08-23)
+
+When Julius says "approve all report" / "apply all report", the efficient flow is: approve pending reports (status → `approved` + `**Approved by:** Julius`) **and immediately apply the mechanical fixes inline** — typos, wrong slugs, duplicate sub_tags, root-level hygiene moves. This is sanctioned: root-level hygiene fixes are Connor's zone, and Julius has repeatedly approved direct typo fixes. Wiki content edits beyond mechanical fixes still go to Fix Agent.
+
+After approving, check whether reports were archived by Fix Agent before patching paths — `wiki/reviews/2026-08-21_*.md` may live in `wiki/reviews/archive/2026-08/` by the time you act. Re-read `_action-required.md` immediately before every write.
+
+### Bulk Vietnamese typo fixes — regex scope pitfall (2026-08-23)
+
+Fix Agent misses carry-over typo pools; Julius-approved bulk sed is the reliable path. Two hard rules:
+
+1. **Double-i variant** (`ờii`→`ời`, `thờii`, `giỏii`, `Ngườii`): pattern `([vowel+diacritic])ii\b` → `\1i` is safe — no legit Vietnamese word ends in doubled i.
+2. **Capital-I variant** (`tốI`, `thờI`, `ơI`): pattern MUST be restricted to Vietnamese diacritic vowels only. A broad `([A-Za-zÀ-ỹ])I\b` pattern silently rewrites the acronym **AI → Ai** (observed: 64 false fixes across 14 files, caught by post-check `grep -c "AI"`). Recovery: restore originals from `git show HEAD~1:<file>`, re-run with explicit diacritic-vowel character class, then verify per file: `AI` count preserved, `\bAi\b` count = 0, diacritic-I residue = 0.
+
+⚠️ Vault backup auto-commits every ~5 min — a mid-task `git diff` can show empty because your edits already landed in a backup commit. Verify against disk content + `git show`, not just working-tree diff.
+
+⚠️ Quick-scan typo regexes are case-sensitive and miss capitalized variants (`Ngườii` with capital N reported as "new: 0"). After any quick-scan, run a manual case-insensitive grep for known variants before declaring files clean.
+
 ### Individual Issue Exception (Waive, Don't Fix)
 
 Khi Julius xem một issue cụ thể và nói "không cần sửa" / "ổn, không sao" — đây là **exception approval**, không phải bulk approve toàn bộ report.

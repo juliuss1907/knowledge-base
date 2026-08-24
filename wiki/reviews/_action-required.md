@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-24 09:58 (Fix Agent: batch 08-23 applied + archived)
+**Last updated:** 2026-08-24 23:06 (Output Validator: 2026-08-24_output-report.md added, 3 issues)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| ⏳ PENDING | 08-24 | Output | 3 (0E+2W+1I) | Awaiting review — 2 WARNING là false positive quick-scan.sh (tooling, không sửa content); 1 INFO attribution |
 | ✅ APPLIED | 08-23 | Format | 391 (0E+391W) | Applied 2026-08-24 — forward-refs only, no action needed; archived |
 | ✅ APPLIED | 08-23 | Output | 4 (0E+2W+1W+1I) | Applied inline by Connor 09:48; verified + archived by Fix Agent 2026-08-24 — 21 typo instances (9 file), agentic-coding claim scoped |
 | ✅ APPLIED | 08-23 | Hygiene | 1 (1E) | Root json removed lần 3 lúc 09:55 + verified git-untracked/.gitignore-guarded; archived by Fix Agent 2026-08-24 |
@@ -62,7 +63,12 @@
 
 ## Pending Reports
 
-_Không có. Batch 08-23 đã applied + archived 2026-08-24 09:58 bởi Fix Agent._
+### 🔍 Output Validation — 2026-08-24 (23:06)
+
+- **Report:** `wiki/reviews/2026-08-24_output-report.md`
+- **Summary:** 708 file checked (179 sources + 529 concepts), 4 mới (1 source + 3 concepts — writing-craft cluster: src_the-golden-rule-for-becoming-a-better-writer, flow-state, reading-brain-vs-digital-brain, read-widely-write-well). 3 issues: 0 ERROR, 2 WARNING, 1 INFO. Mốc đáng chú ý: lần đầu toàn bộ 5 biến thể typo Compile Agent = 0 trên cả KB sau khi batch 08-23 applied sáng nay — inventory carry-over đã dứt điểm, dropped-i grep variant 5 cũng 0 matches. File mới sạch hoàn toàn (0 typo, 0 broken link, structure đầy đủ), PASS hết. 2 WARNING là false positive của quick-scan.sh: (a) heuristic "Empty Key ideas" đếm nhầm 9 file dùng numbered list (`1.` thay vì `- `) là rỗng — Python cross-check xác nhận 0 file empty thật; (b) heuristic "1-sentence definitions" báo 527/527 concepts vì sed+grep đếm số DÒNG chứa dấu chấm, không phải số câu.
+- **Actions needed:** (1) Patch quick-scan.sh section 6: đổi `grep -c '^- '` thành `grep -cE '^- |^[0-9]+\. '` để nhận numbered list; (2) patch hoặc bỏ section 3 heuristic "1-sentence definitions" (đã vô dụng từ nhiều run); (3) INFO attribution Maryanne Wolf "Reader, Come Home": optional spot-check với sách gốc, không blocking. Content wiki: KHÔNG cần sửa gì.
+- **Status:** pending
 
 ### ✅ Hygiene Inspection — 2026-08-23 (23:32) — APPLIED
 

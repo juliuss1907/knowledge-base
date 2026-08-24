@@ -170,3 +170,13 @@ Files checked: 891
 - **Carry-over:** "ngưởi" 10 instances/5 file + spacing merge 11 instances/4 file (ngườita, ngườikhác, ngườilãnh đạo...) — backlog nhỏ lại so với trước apply 08-22 (~45/32 file → ~21/9 file)
 - **Coherence WARNING:** agentic-coding.md trộn Fable framework (Thariq) và Ng skills map không tách bạch — Key idea 1 nêu claim product-specific như general claim
 - **INFO:** Musashi attribution không verify online được (Koe crawler-wall), cross-check offline Go Rin No Shō nhất quán
+
+## 2026-08-24 23:06:38 — Output validation
+- **Files checked:** 708 (179 sources + 529 concepts)
+- **New files:** 4 (1 source + 3 concepts) — src_the-golden-rule-for-becoming-a-better-writer + flow-state, reading-brain-vs-digital-brain, read-widely-write-well (writing-craft cluster)
+- **Issues found:** 3 (0 ERROR, 2 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-08-24_output-report.md
+- **Mốc:** lần đầu cả 5 biến thể typo Compile Agent = 0 trên toàn KB (ngưởi / double-i / spacing merge / capital-I / dropped-i grep đều 0) sau khi batch 08-23 applied sáng nay — carry-over inventory dứt điểm
+- **File mới sạch hoàn toàn:** 0 typo mới, wikilinks resolve hết, structure đầy đủ — PASS cả 4
+- **False positive (lần 2 ghi nhận):** quick-scan "Empty Key ideas: 9" = numbered-list files (`1.` thay vì `- `, script chỉ đếm `-`); "1-sentence definitions: 527/527" = sed+grep đếm dòng chứa dấu chấm chứ không đếm câu. Cả 2 là tooling heuristic sai, content thật sự OK. Recommend patch quick-scan.sh sections 3 + 6.
+- **INFO:** attribution Maryanne Wolf "Reader, Come Home" nhất quán nội bộ 3 file, chỉ verify qua blog trung gian — optional spot-check sách gốc

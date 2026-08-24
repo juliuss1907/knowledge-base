@@ -1,5 +1,5 @@
 model:
-  default: Knowledge-base
+  default: openrouter/stealth/ox-alpha
   provider: custom:9router
   base_url: http://localhost:20128/v1
 providers: {}

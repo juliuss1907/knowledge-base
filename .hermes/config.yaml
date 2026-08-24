@@ -1,7 +1,9 @@
 model:
-  default: openrouter/stealth/ox-alpha
-  provider: custom:9router
+  default: Knowledge-base
+  provider: custom
   base_url: http://localhost:20128/v1
+  api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
+  api_mode: chat_completions
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -753,7 +755,7 @@ custom_providers:
   - name: 9router
     base_url: http://localhost:20128/v1
     api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
-    model: oc-zen/ox-alpha-free
+    model: Knowledge-base
     api_mode: chat_completions
 plugins:
   enabled: []

@@ -1,6 +1,6 @@
 # Output Validation — 2026-08-23
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius
 **Issues found:** 4
 **Created:** 2026-08-23 23:05:00
@@ -86,3 +86,5 @@ None new this run. The two carry-over typos (Issues 1–2) are residue of the kn
 | INFO | 2 |
 
 Batch quality cao. 8 file mới sạch: 0 typo mới, full structure, mọi wikilink resolve, số liệu nhất quán với sources. Còn lại chỉ carry-over inventory (9 file cũ) và 1 khuyến nghị trình bày cho agentic-coding.md.
+
+**Applied:** 2026-08-24 09:58 by Fix Agent (Kara) — fixes verified in place (applied inline by Connor 09:48); report archived.

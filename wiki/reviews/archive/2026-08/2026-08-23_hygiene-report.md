@@ -1,6 +1,6 @@
 # Hygiene Inspection — 2026-08-23
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius
 **Issues found:** 1
 **Created:** 2026-08-23 23:32:08
@@ -56,3 +56,5 @@ Recommendation: Root-cause fix BẮT BUỘC — xác định process ghi file
 ---
 
 *Validator: hygiene-inspector v1.20 — read-only. Không file/folder nào bị sửa đổi ngoài wiki/reviews/.*
+
+**Applied:** 2026-08-24 09:58 by Fix Agent (Kara) — fixes verified in place (applied inline by Connor 09:48); report archived.

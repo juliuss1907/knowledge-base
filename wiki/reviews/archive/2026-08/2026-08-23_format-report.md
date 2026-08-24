@@ -1,6 +1,6 @@
 # Format Validation — 2026-08-23
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius
 **Issues found:** 391
 **Created:** 2026-08-23 23:15
@@ -102,3 +102,5 @@ None. 0 ERRORs, no spec conflicts, no systematic violations. Index/tag files cle
 - [x] Markdown: wikilink resolution (raw-subdir + .md-strip), code fence language tags, list markers
 - [x] YAML edge cases handled (datetime.date, unquoted [[wikilinks]])
 - [x] File-count delta reconciled via git log --diff-filter=A/D (not mtime)
+
+**Applied:** 2026-08-24 09:58 by Fix Agent (Kara) — fixes verified in place (applied inline by Connor 09:48); report archived.

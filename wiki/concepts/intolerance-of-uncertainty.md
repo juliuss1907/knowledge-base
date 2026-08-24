@@ -13,7 +13,7 @@ last_updated: 2026-07-30
 
 ## Definition
 
-Intolerance of uncertainty là phản ứng tâm lý khi não bộ không thể tolerate ambiguity hoặc unpredictable situations. Đây là nguyên nhân neurologically khiến chúng ta replay interactions, tìm patterns, và cố gắng "giải thích" hành vi không nhất quán của ngưởi khác — não coi unpredictability như một threat signal cần được resolve.
+Intolerance of uncertainty là phản ứng tâm lý khi não bộ không thể tolerate ambiguity hoặc unpredictable situations. Đây là nguyên nhân neurologically khiến chúng ta replay interactions, tìm patterns, và cố gắng "giải thích" hành vi không nhất quán của người khác — não coi unpredictability như một threat signal cần được resolve.
 
 ## Key ideas
 

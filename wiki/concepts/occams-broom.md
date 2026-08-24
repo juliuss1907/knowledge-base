@@ -20,7 +20,7 @@ Occam's Broom là một heuristic (phương pháp rút gọn tâm lý) được 
 - **Nguồn gốc:** Do Sydney Brenner phát minh, xem như "công cụ chống tư duy" để bù đắp cho Occam's Razor
 - **Xu hướng tự nhiên:** Mọi người thường vô thức lờ đi hoặc bác bỏ thông tin mâu thuẫn với niềm tin hiện có — một dạng xác nhận thiên kiến (confirmation bias)
 - **Khó phát hiện:** Các sự thật bị quét dưới thảm không phải lúc nào cũng rõ ràng — chúng có thể rất tinh vi, đặc biệt khi bạn không phải chuyên gia trong lĩnh vực đó
-- **Ví dụ thực tế:** Trong tranh luận, ngườita thường từ chối thừa nhận các điểm mạnh của đối phương hoặc bằng chứng mâu thuẫn với lập trường của mình
+- **Ví dụ thực tế:** Trong tranh luận, người ta thường từ chối thừa nhận các điểm mạnh của đối phương hoặc bằng chứng mâu thuẫn với lập trường của mình
 - **Thuyết âm mưu 11/9:** Nhiều người bỏ qua giải thích kỹ thuật về tại sao thép không cần chảy để tòa nhà sụp đổ — họ không biết thép mềm đi ở nhiệt độ thấp hơn nhiều so với nhiệt độ nóng chảy
 - **Lời khuyên của Dennett:** Khi đối mặt với lý thuyết đáng ngờ, hãy khiêm tốn nhận ra bạn không phải chuyên gia — có những điều hiển nhiên với chuyên gia mà bạn không thể tưởng tượng được
 - **Chống lại:** Chủ động tìm kiếm bằng chứng mâu thuẫn, lắng nghe ý kiến chuyên gia, duy trì tâm thế "Nếu tôi sai thì sao?"

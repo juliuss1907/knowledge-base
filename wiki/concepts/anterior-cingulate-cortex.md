@@ -19,7 +19,7 @@ Anterior cingulate cortex là brain region monitors for errors và discrepancies
 
 - Part of brain's threat detection system
 - Fires continuously khi có gap giữa what we expect và what we get
-- Role trong social cognition: detecting inconsistencies trong ngưởi khác' behavior
+- Role trong social cognition: detecting inconsistencies trong người khác' behavior
 - Activation linked với anxiety và rumination
 - Explains why inconsistent relationships feel so distressing neurologically
 - Không phải "overthinking" theo nghĩa conscious choice mà là automatic neural response

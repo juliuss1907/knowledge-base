@@ -18,7 +18,7 @@ Agentic Coding là kỹ năng lập trình với AI agent — không chỉ đơn
 
 ## Key ideas
 
-- Bottleneck chính trong agentic coding không phải là model — Fable là model đầu tiên mà chất lượng work bị giới hạn bởi khả năng của người dùng trong việc làm rõ unknowns của chính họ
+- Bottleneck chính trong agentic coding không phải là model — theo Thariq, Fable là model đầu tiên mà chất lượng work bị giới hạn bởi khả năng của người dùng trong việc làm rõ unknowns của chính họ (claim thuộc framework Fable, không phải general claim)
 - Rumsfeld framework áp dụng vào coding: Known Knowns (có trong prompt), Known Unknowns (biết mình chưa rõ gì), Unknown Knowns (điều hiển nhiên không viết ra nhưng sẽ nhận ra khi thấy), Unknown Unknowns (điều chưa từng cân nhắc)
 - Các coder agentic giỏi nhất có rất ít unknowns — họ đồng bộ sâu với cả codebase và model behaviors
 - **Blindspot Pass** là kỹ thuật pre-implementation: yêu cầu Claude tìm unknown unknowns trước khi bắt đầu code

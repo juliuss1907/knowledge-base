@@ -13,7 +13,7 @@ last_updated: 2026-07-30
 
 ## Definition
 
-"Let Them" theory là framework tâm lý đối phó với relationships không lành mạnh: thay vì cố gắng thay đổi, giải thích, hoặc hiểu hành vi không nhất quán của ngưởi khác, hãy chấp nhận họ đúng như họ đang thể hiện và điều chỉnh hành vi của bạn cho phù hợp. Đây là việc chọn finite discomfort của acceptance thay vì indefinite discomfort của chasing.
+"Let Them" theory là framework tâm lý đối phó với relationships không lành mạnh: thay vì cố gắng thay đổi, giải thích, hoặc hiểu hành vi không nhất quán của người khác, hãy chấp nhận họ đúng như họ đang thể hiện và điều chỉnh hành vi của bạn cho phù hợp. Đây là việc chọn finite discomfort của acceptance thay vì indefinite discomfort của chasing.
 
 ## Key ideas
 

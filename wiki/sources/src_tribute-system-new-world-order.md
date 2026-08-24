@@ -31,7 +31,7 @@ Ray Dalio phân tích sự chuyển dịch lớn trong trật tự thế giới 
 - Nhiều nhà lãnh đạo thế giới đang "triều cống" (pay tribute) cho Tập Cận Bình để xây dựng quan hệ tốt
 - Chúng ta đang ở giai đoạn đầu của sự chuyển đổi sang trật tự kiểu "triều cống" ở châu Á và xa hơn
 - Tám yếu tố cần hiểu để dự đoán hành động của Trung Quốc: văn hóa, hệ thống triều cống, nghệ thuật chiến tranh, 100 Năm Nhục nhã, vấn đề Đài Loan, thay đổi sức mạnh quân sự/kinh tế, quan điểm của Tập/Trump, và các xu hướng hiện tại
-- Văn hóa Trung Quốc theo đường lối Khổng Tử: hệ thống phân cấp, gia đình quốc gia, trách nhiệm đôi hướng giữa ngườilãnh đạo và ngườidân
+- Văn hóa Trung Quốc theo đường lối Khổng Tử: hệ thống phân cấp, gia đình quốc gia, trách nhiệm đôi hướng giữa người lãnh đạo và người dân
 - Hệ thống triều cống: Trung Quốc duy trì quan hệ phân cấp với các nước láng giềng trong 2000 năm, các nước đến "triều cống" để được bảo vệ và buôn bán
 - Dự đoán: Trung Quốc sẽ khẳng định chủ quyền với Đài Loan (nơi sản xuất hầu hết chip AI thế giới) mà không cần tấn công quân sự trực tiếp, sử dụng kỹ thuật áp lực và lừa dối từ "Binh pháp Tôn Tử"
 

@@ -21,7 +21,7 @@ author: Hussain Ibarra
 
 ## Summary
 
-Bài viết phân tích tác động của AI đối với thị trường lao động và các kỹ năng có giá trị trong tương lai. Dựa trên dự đoán của Dario Amodei (CEO Anthropic) rằng AI sẽ thay thế 50% việc làm cổ áo trắng trong 2-5 năm tới, tác giả tranh luận rằng các kỹ năng thu nhập cao truyền thống (lập trình, thiết kế, nghiên cứu) sẽ trở nên vô giá trị vì AI có thể thực hiện tốt hơn. Thay vào đó, con ngườicần phát triển các kỹ năng không thể dạy trong trường học: High Agency (năng lực chủ thể cao) — khả năng tự đặt mục tiêu và tìm cách đạt được chúng bất chấp rào cản.
+Bài viết phân tích tác động của AI đối với thị trường lao động và các kỹ năng có giá trị trong tương lai. Dựa trên dự đoán của Dario Amodei (CEO Anthropic) rằng AI sẽ thay thế 50% việc làm cổ áo trắng trong 2-5 năm tới, tác giả tranh luận rằng các kỹ năng thu nhập cao truyền thống (lập trình, thiết kế, nghiên cứu) sẽ trở nên vô giá trị vì AI có thể thực hiện tốt hơn. Thay vào đó, con người cần phát triển các kỹ năng không thể dạy trong trường học: High Agency (năng lực chủ thể cao) — khả năng tự đặt mục tiêu và tìm cách đạt được chúng bất chấp rào cản.
 
 ## Key points
 
@@ -31,15 +31,15 @@ Bài viết phân tích tác động của AI đối với thị trường lao �
 - Vibe Coding — người không biết code tạo sản phẩm bằng tiếng Anh thông thường — đang bùng nổ ($3B hiện tại, dự đoán $30B trong 6 năm)
 - Các công việc đang bị thay thế: CS/call center, nhập liệu, trợ lý pháp lý, phân tích tài chính, chẩn đoán y tế, copywriter
 - Lịch sử lặp lại: Máy in thay thế thầy tu sao chép, máy gặt cơ giới thay thế nông dân, máy móc thay thế công nhân — giờ đến lượt AI thay thế công việc trí óc
-- "Bạn sẽ không mất việc vì AI, bạn sẽ mất việc vì ngườisử dụng AI"
-- Dự đoán: 2 nhóm — Cá nhân chủ quyền tự tạo ra sự giàu có, và ngườiphụ thuộc vào thu nhập cơ bản phổ quát
+- "Bạn sẽ không mất việc vì AI, bạn sẽ mất việc vì người sử dụng AI"
+- Dự đoán: 2 nhóm — Cá nhân chủ quyền tự tạo ra sự giàu có, và người phụ thuộc vào thu nhập cơ bản phổ quát
 - 6 lĩnh vực tạo ra ý nghĩa cuộc sống từ công việc: Bản sắc, Cấu trúc, Kết nối xã hội, Địa vị, Đóng góp, Ý nghĩa
 - 3 yếu tố tạo ý nghĩa trong tương lai AI: Curiosity (tò mò), Struggle (đấu tranh), Contribution (đóng góp)
 - 4 kỹ năng tương lai không thể dạy trong trường: High Agency, Taste (thẩm mỹ), Curation (tuyển chọn), Sales (bán hàng)
 - High Agency: Khả năng tự đặt mục tiêu và tìm cách đạt được bất chấp rào cản — đối lập với tư duy nạn nhân
 - Ví dụ High Agency: Elon Musk với Tesla/SpaceX, UAE biến sa mạc thành điểm đến xa xỉ
 - "High agency person không hỏi 'Có thể không?' mà hỏi 'Làm sao để có thể?'"
-- Dự đoán Sam Altman: Sắp có công ty 1 ngườitrị giá $1 tỷ — leverage từ AI, no-code, và Internet
+- Dự đoán Sam Altman: Sắp có công ty 1 người trị giá $1 tỷ — leverage từ AI, no-code, và Internet
 
 ## Concepts referenced
 

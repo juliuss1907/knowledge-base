@@ -21,7 +21,7 @@ author: Kevin Dickinson
 
 ## Summary
 
-Bài viết giới thiệu ba công cụ tư duy phản biện mà triết gia Daniel Dennett đã phát triển và sử dụng trong suốt sự nghiệp của mình. Dennett, ngưồi qua đờinăm2024, là một kỹ sư về tư duy — ông thích thú trong việc tháo gỡ các ý tưởng để hiểu cách chúng hoạt động. Ba công cụ được đề cập là: Occam's Razor (Dao cạo của Occam) để cắt bỏ giả thuyết không cần thiết, Occam's Broom (Chổi của Occam) để nhận ra khi nào các sự thật quan trọng bị lờ đi, và tầm quan trọng của việc thảo luận với ngườikhác để mài giũa ý tưởng.
+Bài viết giới thiệu ba công cụ tư duy phản biện mà triết gia Daniel Dennett đã phát triển và sử dụng trong suốt sự nghiệp của mình. Dennett, ngưồi qua đờinăm2024, là một kỹ sư về tư duy — ông thích thú trong việc tháo gỡ các ý tưởng để hiểu cách chúng hoạt động. Ba công cụ được đề cập là: Occam's Razor (Dao cạo của Occam) để cắt bỏ giả thuyết không cần thiết, Occam's Broom (Chổi của Occam) để nhận ra khi nào các sự thật quan trọng bị lờ đi, và tầm quan trọng của việc thảo luận với người khác để mài giũa ý tưởng.
 
 ## Key points
 
@@ -29,9 +29,9 @@ Bài viết giới thiệu ba công cụ tư duy phản biện mà triết gia D
 - Critical thinking bắt đầu từ sự hoài nghi tri thức: "Nếu tôi sai thì sao?"
 - **Occam's Razor (Dao cạo của Occam):** Khi có hai giải thích cạnh tranh cho cùng hiện tượng, giải thích đơn giản hơn thường tốt hơn — "Không thêm rác thừa vào lý thuyết"
 - Occam's Razor giúp tránh thuyết âm mưu và thông tin sai lệch bằng cách ưu tiên giải thích cần ít giả định nhất
-- **Occam's Broom (Chổi của Occam):** Xu hướng quét các sự thật không thuận lợi xuống thảm — mọi ngườithường bỏ qua thông tin mâu thuẫn với quan điểm của họ
+- **Occam's Broom (Chổi của Occam):** Xu hướng quét các sự thật không thuận lợi xuống thảm — mọi người thường bỏ qua thông tin mâu thuẫn với quan điểm của họ
 - Khi đối mặt với lý thuyết đáng ngờ, khiêm tốn nhận ra bạn không phải chuyên gia — có những điều hiển nhiên với chuyên gia mà bạn không thể tưởng tượng được
-- **Thảo luận với ngườikhác:** Những ý tưởng tốt nhất thường đến từ việc đặt câu hỏi, làm việc cùng ngườikhác — không phải từ việc ngồi một mình
+- **Thảo luận với người khác:** Những ý tưởng tốt nhất thường đến từ việc đặt câu hỏi, làm việc cùng người khác — không phải từ việc ngồi một mình
 - Phương pháp Socrates đã chứng minh điều này từ hơn 2000 năm trước; khoa học là nỗ lực của cả nhóm
 - Thay vì xem tranh luận là đấu thắng-thua, hãy xem như cơ hội học hỏi cùng nhau — ngay cả khi không đồng ý, bạn vẫn mài giũa ý tưởng của mình qua phản biện
 

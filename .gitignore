@@ -83,3 +83,8 @@ MEMORY.md
 # Root memory leak prevention — agent writes go to .openclaw/memory/
 memory/
 state/
+
+# OpenClaw workspace-state leak guard — writer ghi vào CWD (KB root), state chuẩn ở ~/.openclaw/
+openclaw-workspace-state.json
+openclaw-workspace-state.json.attested
+workspace-attestations/

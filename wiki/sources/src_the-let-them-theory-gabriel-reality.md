@@ -21,7 +21,7 @@ author: Gabriel Reality (Substack)
 
 ## Summary
 
-Bài viết phân tích tâm lý học đằng sau "Let Them" theory — việc chấp nhận ngưỡng cửa khi ngưởi khác không đối xử với bạn như bạn mong muốn. Thay vì cố gắng giải thích, phân tích, hoặc thay đổi họ, hãy để họ là chính họ và điều chỉnh hành vi của bạn phù hợp. Bài viết kết nối với Stoic philosophy (Epictetus) về phân biệt điều trong và ngoài tầm kiểm soát, và giải thích neurologically tại sao chúng ta bị mắc kẹt trong vòng lặp cố gắng hiểu hành vi không nhất quán của ngưởi khác.
+Bài viết phân tích tâm lý học đằng sau "Let Them" theory — việc chấp nhận ngưỡng cửa khi người khác không đối xử với bạn như bạn mong muốn. Thay vì cố gắng giải thích, phân tích, hoặc thay đổi họ, hãy để họ là chính họ và điều chỉnh hành vi của bạn phù hợp. Bài viết kết nối với Stoic philosophy (Epictetus) về phân biệt điều trong và ngoài tầm kiểm soát, và giải thích neurologically tại sao chúng ta bị mắc kẹt trong vòng lặp cố gắng hiểu hành vi không nhất quán của người khác.
 
 ## Key points
 
@@ -30,8 +30,8 @@ Bài viết phân tích tâm lý học đằng sau "Let Them" theory — việc 
 - Chúng ta cố gắng "giải thích" hành vi không nhất quán để restore predictability, nhưng điều này thường là vô ích
 - Sự không nhất quán của ai đó không phải bí ẩn cần giải mà là thông tin về họ và giá trị của bạn trong mắt họ
 - Stoic philosophy: đau khổ đến từ việc đổ năng lượng vào thay đổi điều ngoài tầm kiểm soát
-- "Control trap": tin rằng effort + communication sẽ thay đổi ngưởi đã cho bạn biết qua hành vi họ sẵn sàng đưa ra gì
-- Tình yêu đòi hỏi bạn phải override những gì bạn đang thấy để duy trì phiên bản ngưởi bạn muốn họ là không phải tình yêu — đó là đàm phán với hiện thực
+- "Control trap": tin rằng effort + communication sẽ thay đổi người đã cho bạn biết qua hành vi họ sẵn sàng đưa ra gì
+- Tình yêu đòi hỏi bạn phải override những gì bạn đang thấy để duy trì phiên bản người bạn muốn họ là không phải tình yêu — đó là đàm phán với hiện thực
 - Sự khó chịu khi buông bỏ là hữu hạn (finite), trong khi sự khó chịu của việc chasing là vô hạn (indefinite)
 
 ## Concepts referenced

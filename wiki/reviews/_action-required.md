@@ -4,20 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-23 (hygiene 23:32)
+**Last updated:** 2026-08-24 09:58 (Fix Agent: batch 08-23 applied + archived)
 
 ---
 
 ## Summary
 
 **Pending reports awaiting review:** 0
-**Last batch applied:** 17 reports (08-13 through 08-22) — 08-22 applied inline by Connor 2026-08-23
+**Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| ✅ APPROVED | 08-23 | Format | 391 (0E+391W) | Approved 2026-08-24 — forward-refs only, no action |
-| ✅ APPROVED | 08-23 | Output | 4 (0E+2W+1W+1I) | Approved + applied inline by Connor 2026-08-24 — 21 carry-over typo instances fixed (9 file), agentic-coding claim scoped to Thariq |
-| ✅ APPROVED | 08-23 | Hygiene | 1 (1E) | Approved + applied inline 2026-08-24 — git rm root state json + .gitignore guard; root-cause: openclaw workspace writer ghi theo CWD |
+| ✅ APPLIED | 08-23 | Format | 391 (0E+391W) | Applied 2026-08-24 — forward-refs only, no action needed; archived |
+| ✅ APPLIED | 08-23 | Output | 4 (0E+2W+1W+1I) | Applied inline by Connor 09:48; verified + archived by Fix Agent 2026-08-24 — 21 typo instances (9 file), agentic-coding claim scoped |
+| ✅ APPLIED | 08-23 | Hygiene | 1 (1E) | Root json removed lần 3 lúc 09:55 + verified git-untracked/.gitignore-guarded; archived by Fix Agent 2026-08-24 |
 | ✅ APPLIED | 08-05 | Format | 433 (3E+430W) | Applied 2026-08-06 — fixed career→strategy, added Co-occurring tags |
 | ✅ APPLIED | 08-04 | Format | 433 (3E+430W) | Applied 2026-08-06 — same fixes |
 | ✅ APPLIED | 08-03 | Format | 433 (3E+430W) | Applied 2026-08-06 — same fixes |
@@ -62,30 +62,30 @@
 
 ## Pending Reports
 
-### ✅ Hygiene Inspection — 2026-08-23 (23:32)
+_Không có. Batch 08-23 đã applied + archived 2026-08-24 09:58 bởi Fix Agent._
+
+### ✅ Hygiene Inspection — 2026-08-23 (23:32) — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-23_hygiene-report.md`
 - **Summary:** 55832 paths checked (+23 vs 08-22). 1 issue: 1 ERROR — `openclaw-workspace-state.json` ở KB root, LẦN 2 LIÊN TIẾP. File đã được apply sáng nay (git rm → ~/.openclaw/) nhưng OpenClaw runtime recreate lúc 12:25 và git auto-commit re-track vào repo → deletion đơn thuần vô hiệu (recycle < 12h). Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 2 liên tiếp; WARNING 08-22 (`wiki/drafts/fixagent-regen-tags.py`) đã resolved; không HEARTBEAT leak; không naming violation.
 - **Actions needed:** [SYSTEMATIC VIOLATION] Root-cause bắt buộc: xác định process ghi workspace state vào KB root, redirect output về `.openclaw/` hoặc `~/.openclaw/`, sau đó `git rm openclaw-workspace-state.json` + commit. Nếu chỉ xóa file mà không fix process, sẽ tái diễn lần 3 ở run 08-24.
-- **Status:** approved
+- **Status:** approved → **applied 2026-08-24** — root json removed lại (recycle bởi runtime 09:55, disk-only; git sạch nhờ .gitignore). Writer vẫn active trên OpenClaw 2026.7.1-2; hết hẳn khi update mang SQLite workspace-state refactor. Report: `archive/2026-08/2026-08-23_hygiene-report.md`
 
-### ✅ Format Validation — 2026-08-23 (23:15)
+### ✅ Format Validation — 2026-08-23 (23:15) — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-23_format-report.md`
 - **Summary:** 941 files checked (527 concepts + 178 sources + 34 indexes + 202 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (371 individual + 20 forward-reference groups, 269 unique targets — flat so với 08-22). Clean ERROR streak ngày thứ 7 liên tiếp. KB grew +8 net files qua git reconciliation (+2 concepts, +4 sources, +2 topics, 0 merge/delete); debt −1 WARNING. Top-20 broken-target list identical 08-22 — backlog composition unchanged. No structural violations.
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
-- **Status:** approved
+- **Status:** approved → **applied 2026-08-24** — no action required (forward-refs). Report: `archive/2026-08/2026-08-23_format-report.md`
 
-### ✅ Output Validation — 2026-08-23 (23:05)
+### ✅ Output Validation — 2026-08-23 (23:05) — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-23_output-report.md`
 - **Summary:** 705 file checked, 8 mới (4 sources + 4 concepts). 4 issues: 0 ERROR. 2 WARNING carry-over typo ở 9 file cũ (không phải file mới): "ngưởi" ×10/5 file + "người" spacing merge ×11/4 file (ngườita, ngườikhác, ngườilãnh đạo...). 1 WARNING coherence: agentic-coding.md trộn framework Fable (Thariq) và skills map Andrew Ng không phân tách — Key idea 1 nêu claim product-specific "Fable là model đầu tiên..." như general claim. 1 INFO: attribution Musashi 9 precepts không verify được online (Koe article crawler-wall), cross-check offline với Go Rin No Shō nhất quán. File mới sạch hoàn toàn: 0 typo mới, 23/23 wikilink resolve, structure đầy đủ.
 - **Actions needed:** (1) sed 's/ngưởi/người/g' trên 5 file: src_the-let-them-theory-gabriel-reality, intolerance-of-uncertainty, let-them-theory, control-trap, anterior-cingulate-cortex; (2) sed spacing merge longest-match-first trên 4 file: src_ai-future-skills, src_critical-thinking-dennett, src_tribute-system-new-world-order, occams-broom (ngườita→người ta, ngườikhác→người khác, ngườilãnh đạo→người lãnh đạo, ngườithường→người thường, ngườicần→người cần, ngườiphụ thuộc→người phụ thuộc, ngườitrị→người trị); (3) reword agentic-coding.md Key idea 1 scope claim về Thariq/Fable
-- **Status:** approved
+- **Status:** approved → **applied 2026-08-24** — fixes applied inline bởi Connor 09:48 (typos 9 file, agentic-coding reword); Fix Agent verify 0 residual matches + archive. Musashi INFO: no action. Report: `archive/2026-08/2026-08-23_output-report.md`
 
-## Approved Reports — 08-23 batch (pending queue trống)
-
-### ✅ Format Validation — 2026-08-22 (23:15)
+## Approved Reports — 08-22 batch
 
 - **Report:** `wiki/reviews/2026-08-22_format-report.md`
 - **Summary:** 933 files checked (525 concepts + 174 sources + 34 indexes + 200 topics). 392 issues: 0 ERROR, 392 WARNING — tất cả là broken wikilinks (372 individual + 20 forward-reference groups, 269 unique targets). Clean ERROR streak RESTORED: 73 ERRORs từ 08-21 đã được Fix Agent resolve cùng ngày (regen 24 L3 tag files + tag.md). KB grew +9 net files (+5 sources, +4 topics, +2 concepts, −2 merged); debt giảm nhẹ −1 WARNING vì 2 concepts mới resolve forward-references.

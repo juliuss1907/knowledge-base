@@ -1221,3 +1221,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Source note: wiki/sources/src_the-golden-rule-for-becoming-a-better-writer.md
 - Concepts: [read-widely-write-well (new), reading-brain-vs-digital-brain (new), flow-state (updated)]
 - Tags applied: main=productivity, sub=[psychology], topic=writing-craft
+
+## 2026-08-24 09:58:00 — Applied fixes (batch 08-23)
+- Reports: 2026-08-23 format/hygiene/output — approved by Julius; content fixes applied inline by Connor 09:48
+- Fix Agent verified: typos "ngưởi"/"ngườX" 0 residual matches (9 file), agentic-coding.md scoped to Thariq, root openclaw-workspace-state.json removed lần 3 (09:55) + git-untracked + .gitignore guard confirmed
+- Reports status→applied + archived: wiki/reviews/archive/2026-08/2026-08-23_{format,hygiene,output}-report.md
+- Files modified: _action-required.md (3 reports moved Pending → applied), 3 report files
+- Backups created: 0 (no destructive ops; hygiene file was disk-only untracked)
+- Open: workspace-state.json writer vẫn active trên OpenClaw 2026.7.1-2 — hết hẳn khi update mang SQLite workspace-state refactor (docs/refactor/database-first.md); recurrence giờ chỉ là disk-only, git sạch

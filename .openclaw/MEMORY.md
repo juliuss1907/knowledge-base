@@ -1229,3 +1229,8 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Files modified: _action-required.md (3 reports moved Pending → applied), 3 report files
 - Backups created: 0 (no destructive ops; hygiene file was disk-only untracked)
 - Open: workspace-state.json writer vẫn active trên OpenClaw 2026.7.1-2 — hết hẳn khi update mang SQLite workspace-state refactor (docs/refactor/database-first.md); recurrence giờ chỉ là disk-only, git sạch
+
+## 2026-08-24 16:45:00 — Applied fixes (batch 08-22 residue)
+- Reports: 2026-08-22 format/hygiene/output — fixes applied inline bởi Connor 08-23 nhưng report files chưa archived
+- Fix Agent: status→applied + moved to wiki/reviews/archive/2026-08/; _action-required.md ledger updated
+- Backups: 0 (no file content changes)

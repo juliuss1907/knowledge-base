@@ -1,6 +1,6 @@
 # Format Validation — 2026-08-22
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius
 **Issues found:** 392
 **Created:** 2026-08-22 23:15
@@ -101,3 +101,5 @@ None. No ERRORs, no spec conflicts, no systematic violations. Fix Agent's 08-22 
 - [x] Markdown: wikilink resolution (raw-subdir + .md-strip), code fence language tags, list markers
 - [x] YAML edge cases handled (datetime.date, unquoted [[wikilinks]])
 - [x] Report limit: 20 actionable issues — N/A (0 ERRORs; WARNINGs summarized, not itemized)
+
+**Applied:** 2026-08-24 16:45 by Fix Agent (Kara) — fixes applied inline by Connor 08-23; verified + archived.

@@ -54,9 +54,9 @@
 | ✅ APPLIED | 08-17 | Hygiene | 9 (2E+6W+1I) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-17_hygiene-report.md` |
 | ✅ APPLIED | 08-21 | Format | 466 (73E+393W) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-21_format-report.md` |
 | ✅ APPLIED | 08-21 | Hygiene | 19 (2E+16W+1I) | Applied 2026-08-22 by Fix Agent — `archive/2026-08/2026-08-21_hygiene-report.md` |
-| ✅ APPROVED | 08-22 | Output | 8 (1E+4W+3I) | Approved + applied inline by Connor 2026-08-23 — fixed wrong source link, 3 typos, 27 double-i + 19 capital-I carry-over, dup sub_tag |
-| ✅ APPROVED | 08-22 | Format | 392W | Approved 2026-08-23 — all forward-ref broken wikilinks, no action needed |
-| ✅ APPROVED | 08-22 | Hygiene | 2 (1E+1W) | Approved + applied inline 2026-08-23 — root state json → ~/.openclaw/ (git rm), draft .py → scripts/ |
+| ✅ APPLIED | 08-22 | Output | 8 (1E+4W+3I) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
+| ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
+| ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 
 ---
 
@@ -92,14 +92,14 @@ _Không có. Batch 08-23 đã applied + archived 2026-08-24 09:58 bởi Fix Agen
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
 - **Status:** approved
 
-### ✅ Output Validation — 2026-08-22 (23:00)
+### ✅ Output Validation — 2026-08-22 (23:00) — APPLIED 2026-08-24
 
 - **Report:** `wiki/reviews/2026-08-22_output-report.md`
 - **Summary:** 21 file mới (5 sources + 16 concepts). 8 issues: 1 ERROR — `incentives-mental-model.md` link sai slug `src_the-power-of-incentives-hidden-forces-shape-behavior` (file thật: `src_incentives-hidden-forces.md`, link không bao giờ resolve); 2 WARNING typo trong file mới mà quick-scan miss vì case-sensitive regex — "Ngườii" ×2 (`second-order-thinking.md` lines 30, 44) và "bậce" (`src_the-art-of-strategic-thinking.md` line 24); 2 WARNING systemic carry-over — double-i còn ~26 instances/18 file cũ + capital-I còn ~18 instances/14 file cũ từ batch trước 08-06; 3 INFO (17 forward-reference targets hợp lệ, duplicate sub_tag `[opinion, opinion]` trong compounding-effect.md, source paywalled đã disclose đúng).
 - **Actions needed:** (1) Fix ERROR: sửa 2 link thành `[[src_incentives-hidden-forces]]`; (2) sed "Ngườii"→"Người" và "bậce"→"bậc"; (3) quét sed carry-over double-i + capital-I trên 32 file cũ; (4) dedupe sub_tag compounding-effect.md
 - **Status:** approved
 
-### ✅ Hygiene Inspection — 2026-08-22 (23:31)
+### ✅ Hygiene Inspection — 2026-08-22 (23:31) — APPLIED 2026-08-24
 
 - **Report:** `wiki/reviews/2026-08-22_hygiene-report.md`
 - **Summary:** 55809 paths checked. 2 issues: 1 ERROR + 1 WARNING — cả hai sinh ra trong phiên Fix Agent 08-22. Tin tốt: `memory/` (16 files) và `state/` đã được dọn sạch sau batch apply 14:40 — lần đầu KB root sạch hoàn toàn kể từ streak 08-11→08-13. ERROR mới: `openclaw-workspace-state.json` ở KB root (OpenClaw runtime state, git-tracked lần đầu 14:24 hôm nay). WARNING: script sót lại `wiki/drafts/fixagent-regen-tags.py` (non-markdown trong drafts/, committed 15:19).

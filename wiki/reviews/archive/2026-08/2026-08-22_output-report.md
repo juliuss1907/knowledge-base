@@ -1,6 +1,6 @@
 # Output Validation — 2026-08-22
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius
 **Issues found:** 8 (1 ERROR, 4 WARNING, 3 INFO)
 **Created:** 2026-08-22 23:00:29
@@ -129,3 +129,5 @@
 2. Fix Issue 1, 2 — sed 2 dòng
 3. Fix Issue 4, 5 — quét sed carry-over 18 + 14 file (backlog cũ, gộp 1 lần)
 4. Issue 7 — 1 dòng frontmatter
+
+**Applied:** 2026-08-24 16:45 by Fix Agent (Kara) — fixes applied inline by Connor 08-23; verified + archived.

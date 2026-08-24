@@ -1,6 +1,6 @@
 # Hygiene Inspection — 2026-08-22
 
-**Status:** approved
+**Status:** applied
 **Approved by:** Julius
 **Issues found:** 2
 **Created:** 2026-08-22 23:31:42
@@ -57,3 +57,5 @@ Recommendation: Sửa cấu hình working-dir/output-path của session runtime 
 [STRUCTURE CHANGE]
 Không phát hiện thay đổi whitelist trong lần chạy này. folder-structure.md vẫn v1.2 (2026-05-17); dictionary quét đồng bộ với spec. Chênh lệch so với 08-21 chỉ là orphan churn + tăng trưởng runtime `.hermes/`.
 ```
+
+**Applied:** 2026-08-24 16:45 by Fix Agent (Kara) — fixes applied inline by Connor 08-23; verified + archived.

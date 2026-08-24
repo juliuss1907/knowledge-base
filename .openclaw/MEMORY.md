@@ -1215,3 +1215,9 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 0
 - Errors: 0
 - Invalid tags flagged: 0
+
+## 2026-08-24 09:13:00 — Compiled
+- Raw: raw/articles/2026-08-20_the-golden-rule-for-becoming-a-better-writer.md
+- Source note: wiki/sources/src_the-golden-rule-for-becoming-a-better-writer.md
+- Concepts: [read-widely-write-well (new), reading-brain-vs-digital-brain (new), flow-state (updated)]
+- Tags applied: main=productivity, sub=[psychology], topic=writing-craft

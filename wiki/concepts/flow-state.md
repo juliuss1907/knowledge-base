@@ -6,7 +6,8 @@ sub_tags: [psychology]
 topic: happiness-flow-state
 sources:
   - "[[src_happiness-is-a-skill-hussain-ibarra]]"
-last_updated: 2026-07-17
+  - "[[src_the-golden-rule-for-becoming-a-better-writer]]"
+last_updated: 2026-08-24
 ---
 
 # Flow State
@@ -59,9 +60,11 @@ Trong flow, bạn mất cảm giác về bản thân, danh tính, ego. Không qu
 - [[psychic-entropy]] — đối lập với trật tự tâm trí trong flow
 - [[psychic-energy]] — nguồn năng lượng cần để duy trì flow
 - [[hedonic-adaptation]] — lý do pleasure không tạo flow
+- [[reading-brain-vs-digital-brain]] — điều kiện não đọc (sustained concentration) để đạt flow khi viết
 
 ## Sources
 
 - [[src_happiness-is-a-skill-hussain-ibarra]] — bài viết của Hussain Ibarra dựa trên sách "Flow" của Mihaly Csikszentmihalyi
+- [[src_the-golden-rule-for-becoming-a-better-writer]] — Napper nhắc flow state như trải nghiệm hiếm của creative writing: hours trôi qua khi chìm trong story
 
 ## Notes

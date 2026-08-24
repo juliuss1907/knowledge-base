@@ -5,8 +5,10 @@ url: https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/
 author: T. R. Napper
 date_published: 2026-08-20
 date_ingested: 2026-08-23
-status: unprocessed
+status: processed
 source: nappertime.com
+compiled_at: 2026-08-24
+compiled_to: "[[src_the-golden-rule-for-becoming-a-better-writer]]"
 ---
 
 # The Golden Rule for Becoming a Better Writer

@@ -1,19 +1,19 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-25 01:00 (Asia/Saigon)
+> Last updated: 2026-08-25 04:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-⚠️ **HEARTBEAT_OK với 2 notes** — 4/4 check chạy, không có lỗi hệ thống. Trạng thái giữ nguyên từ heartbeat 00:00.
+⚠️ **HEARTBEAT_OK với 2 notes** — 4/4 check chạy, không có lỗi hệ thống. Trạng thái giữ nguyên từ heartbeat 01:00.
 
 ## Checks Performed
 
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có thư mục `Tasks/`, không có file `#agent/inbox` |
-| Raw backlog | ⚠️ Note | 1 file unprocessed: `raw/posts/2026-08-21_daily-planning-routine-creativity-productivity.md` — ingest 08-24 19:30, <24h. CompileAgent chạy 08:00 |
-| Concept backlinks | ✅ Clean | Sample 2 files: [[discipline-system]] (2 src refs), [[lifestyle-inflation]] (2 src refs) — đều có Sources sections |
+| Raw backlog | ⚠️ Note | 1 file unprocessed: `raw/posts/2026-08-21_daily-planning-routine-creativity-productivity.md` — ingest 08-24 19:30, ~9h tuổi. CompileAgent chạy 08:00 |
+| Concept backlinks | ✅ Clean | Sample 2 files: [[mental-models]] (2 src refs), [[authenticity-creative-expression]] (2 src refs) — đều có `## Sources` |
 | Pending reviews | ⚠️ **3 PENDING** | Batch Hermes 08-24 (23:05–23:35) chưa đổi: Format (391W), Output (2W+1I), Hygiene (1E — root json lần 3) |
 
 ## System State

@@ -1,11 +1,11 @@
 # OpenClaw Heartbeat Log
 
-> Last updated: 2026-08-24 12:00 (Asia/Saigon)
+> Last updated: 2026-08-24 13:00 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
 
-**HEARTBEAT_OK** — 4/4 check sạch. Không thay đổi so với 10:00.
+**HEARTBEAT_OK** — 4/4 check sạch. Không thay đổi so với 12:00.
 
 ## Checks Performed
 
@@ -13,8 +13,8 @@
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
 | Raw backlog | ✅ Clean | 0 files unprocessed (187 files total trong raw/) |
-| Concept backlinks | ✅ Clean | Sample 2 files: [[thought-experiment]] → src_thought-experiment, [[creative-destruction]] → src_mental-models-of-economics — format đúng, link resolve |
-| Pending reviews | ✅ Clean | `_action-required.md`: 0 pending. Reports cuối (08-22 hygiene) đã approved + applied 08-22 14:40 |
+| Concept backlinks | ✅ Clean | Sample 1 file: [[mental-models]] có 2 src_ links — format đúng |
+| Pending reviews | ✅ Clean | `_action-required.md`: 0 pending. Batch 08-23 đã applied + archived 08-24 |
 
 ## System State
 

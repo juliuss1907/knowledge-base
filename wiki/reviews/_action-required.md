@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-24 23:06 (Output Validator: 2026-08-24_output-report.md added, 3 issues)
+**Last updated:** 2026-08-24 23:16 (Format Validator: 2026-08-24_format-report.md added, 391 issues)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-24 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-24_format-report.md](2026-08-24_format-report.md) |
 | ⏳ PENDING | 08-24 | Output | 3 (0E+2W+1I) | Awaiting review — 2 WARNING là false positive quick-scan.sh (tooling, không sửa content); 1 INFO attribution |
 | ✅ APPLIED | 08-23 | Format | 391 (0E+391W) | Applied 2026-08-24 — forward-refs only, no action needed; archived |
 | ✅ APPLIED | 08-23 | Output | 4 (0E+2W+1W+1I) | Applied inline by Connor 09:48; verified + archived by Fix Agent 2026-08-24 — 21 typo instances (9 file), agentic-coding claim scoped |
@@ -63,7 +64,14 @@
 
 ## Pending Reports
 
-### 🔍 Output Validation — 2026-08-24 (23:06)
+### 🔍 Format Validation — 2026-08-24 (23:16)
+
+- **Report:** `wiki/reviews/2026-08-24_format-report.md`
+- **Summary:** 944 files checked (529 concepts + 179 sources + 34 indexes + 202 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (371 individual + 20 forward-reference groups, 269 unique targets). Clean ERROR streak ngày thứ 8 liên tiếp. KB grew +3 files qua git reconciliation (+2 concepts, +1 source — writing-craft cluster; 0 merge/delete); debt exactly flat 391→391. Unique targets flat 269 ngày thứ 3 liên tiếp; Top-20 list identical 08-23 (same slugs, same counts). File mới sạch hoàn toàn — 0 broken wikilink từ writing-craft cluster. No structural violations.
+- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required. Note nhỏ cho Index Agent: 3 file writing-craft mới chưa có topic pages (topics flat 202).
+- **Status:** pending
+
+### ⏳ Output Validation — 2026-08-24 (23:06)
 
 - **Report:** `wiki/reviews/2026-08-24_output-report.md`
 - **Summary:** 708 file checked (179 sources + 529 concepts), 4 mới (1 source + 3 concepts — writing-craft cluster: src_the-golden-rule-for-becoming-a-better-writer, flow-state, reading-brain-vs-digital-brain, read-widely-write-well). 3 issues: 0 ERROR, 2 WARNING, 1 INFO. Mốc đáng chú ý: lần đầu toàn bộ 5 biến thể typo Compile Agent = 0 trên cả KB sau khi batch 08-23 applied sáng nay — inventory carry-over đã dứt điểm, dropped-i grep variant 5 cũng 0 matches. File mới sạch hoàn toàn (0 typo, 0 broken link, structure đầy đủ), PASS hết. 2 WARNING là false positive của quick-scan.sh: (a) heuristic "Empty Key ideas" đếm nhầm 9 file dùng numbered list (`1.` thay vì `- `) là rỗng — Python cross-check xác nhận 0 file empty thật; (b) heuristic "1-sentence definitions" báo 527/527 concepts vì sed+grep đếm số DÒNG chứa dấu chấm, không phải số câu.
@@ -130,4 +138,4 @@
 
 _Archive đầy đủ tại `wiki/reviews/archive/`. Bảng Summary phía trên là bản ghi chính thức của tất cả reports đã apply._
 
-Previous reports (08-05 through 08-22) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.
+Previous reports (08-05 through 08-23) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.

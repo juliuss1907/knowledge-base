@@ -71,6 +71,17 @@ curl -s http://localhost:20128/v1/models | python3 -m json.tool | head -n 40
 - Fix: bump `models.providers.<prov>.models[].contextWindow` to real value (128k–1M) + `reserveTokensFloor` to 50000; verify no `agents.defaults.models` remains; restart gateway
 - **Never** run `openclaw configure` after manual tuning — wizard resets floor to 20000 and drops custom windows
 
+## Workflow 5 — Node Runtime Mismatch (update breaks gateway)
+
+`openclaw update` upgrades the package in the nvm prefix, but the systemd unit's `ExecStart` may still point at the system Node (`/usr/bin/node`) — if that Node is older than the new package's `engines.node` requirement, the gateway crash-loops (5 restarts → systemd gives up silently). Sequence observed 2026-08-22: update to 2026.7.1-2 (requires ≥24.15.0) → `/usr/bin/node` is 24.14.1 → exit status 1 ×5 → gateway dead from 14:05 with no obvious alert.
+
+1. Detect: `systemctl --user status openclaw-gateway` — `failed`, `Start request repeated too quickly`; test `node <dist>/index.js --version` with each Node runtime
+2. Fix: edit `~/.config/systemd/user/openclaw-gateway.service` — change `ExecStart=/usr/bin/node` to the nvm Node that satisfies engines (`/home/julius/.nvm/versions/node/v24.15.0/bin/node`)
+3. `systemctl --user daemon-reload && systemctl --user restart openclaw-gateway`
+4. Verify: `is-active` + port LISTEN (`ss -tlnp | grep 18789`) + HTTP probe `curl -s -m 5 http://127.0.0.1:18789`
+5. Cleanup (Julius runs, needs sudo): `sudo npm rm -g openclaw` (removes root-owned duplicate in `/usr/lib` that causes EACCES on future updates) + `nvm alias default <version>`
+6. Note: updater auto-selects "managed service Node" when runnables differ; after step 2 the service and nvm agree, so updates land cleanly
+
 ## Pitfalls
 
 - `cron runs` JSON shape is `{entries:[], total, hasMore}`, not `{runs:[]}` — parsing `runs` yields 0.
@@ -78,6 +89,8 @@ curl -s http://localhost:20128/v1/models | python3 -m json.tool | head -n 40
 - Gateway `1006` right after restart is normal race — sleep before triggering.
 - `google/gemma-4-31b-it` and `9router/oc/mimo-v2.5-free` rate-limit is transient — keep them as primary/candidate but ensure free ollama fallbacks behind them.
 - OpenCode Zen models are plugin-supplied — their `contextWindow` is not in `openclaw.json` at all.
+- Two openclaw installs can coexist: root-owned `/usr/lib/node_modules/openclaw` (from a past `sudo npm -g`) and the user's nvm copy. Shell PATH may resolve the system one; `openclaw update` then tries to write `/usr/lib` → EACCES. Remove the system copy rather than updating it with sudo.
+- OpenClaw treats any directory containing `AGENTS.md` as a workspace and writes `openclaw-workspace-state.json` into CWD — KB root will keep regenerating this file. Fix at the git layer (`.gitignore`), not by deleting the file; see knowledge-base-validation hygiene table.
 
 ## Verification
 

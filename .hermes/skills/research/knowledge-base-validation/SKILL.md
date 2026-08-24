@@ -92,6 +92,7 @@ Checks: folder structure, no orphan files, no .bak/.tmp files.
 | `memory/` at root | ✅ FLAG (ERROR) | Agent-created out-of-zone — Kara hoặc OpenClaw agent tạo nhầm. Recurring issue. | Move to `.openclaw/memory/`, `rmdir memory/`, add rule to AGENTS.md §4.4 |
 | `state/` at root | ✅ FLAG (ERROR) | Recurring empty directory — previously resolved 2026-06-27, recreated. Unknown root cause. | `rmdir state/`. If it re-appears, trace root cause process. |
 | `random_concepts.txt`, `index_kb.py` | ✅ FLAG (ERROR) | Agent artifacts leaked to root | Move to appropriate dir or delete |
+| `openclaw-workspace-state.json` at root | ✅ FLAG (ERROR) | Recurring (08-22, 08-23). Root cause CONFIRMED 2026-08-24: OpenClaw treats any dir containing `AGENTS.md` as a workspace and its writer (`resolveWorkspaceStatePath()`) always writes state to CWD. Filesystem deletion alone is INEFFECTIVE — recreated <12h and re-tracked by vault backup auto-commit. | One-time: `git rm` + keep canonical copy at `~/.openclaw/workspace-state.json` (legacy path still read) + `.gitignore` entries: `openclaw-workspace-state.json`, `openclaw-workspace-state.json.attested`, `workspace-attestations/`. Once gitignored, disk regeneration is harmless — flag only if the file becomes tracked again. |
 | `search/`, `venv/` | ❌ DO NOT FLAG | Human-owned, intentional | Julius manages these |
 
 **AGENTS.md is the permanent fix layer:** When a root-level hygiene issue recurs (e.g., `memory/` reappears after being moved 3+ times), the root cause is an agent creating files outside its write-zone. The permanent fix is adding a rule to `AGENTS.md` §4.4 (Forbidden actions), not just moving files. Patch pattern: `AGENTS.md` §4.4 + `.openclaw/skills/<agent>/SKILL.md`.
@@ -237,6 +238,8 @@ Fix Agent misses carry-over typo pools; Julius-approved bulk sed is the reliable
 ⚠️ Vault backup auto-commits every ~5 min — a mid-task `git diff` can show empty because your edits already landed in a backup commit. Verify against disk content + `git show`, not just working-tree diff.
 
 ⚠️ Quick-scan typo regexes are case-sensitive and miss capitalized variants (`Ngườii` with capital N reported as "new: 0"). After any quick-scan, run a manual case-insensitive grep for known variants before declaring files clean.
+
+⚠️ Reports undercount — always run a whole-KB residue scan after applying the listed fixes (2026-08-24): the 08-23 output report listed 11 spacing-merge instances in 4 files, but the post-fix scan `grep -rno "ngườ[a-zà-ỹ]" wiki/concepts wiki/sources wiki/tag wiki/topic raw` found 2 more merges (`ngườisử`, `ngườidân`) in already-listed files. Fix those too, then re-scan until zero. The generic scan pattern `ngườ[letter]` also matches legit `người` + vowel-starting next word — inspect context before sed; only merged compounds (no space, non-word `ngườX` forms like `ngườita`) are typos.
 
 ### Individual Issue Exception (Waive, Don't Fix)
 

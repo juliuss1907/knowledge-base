@@ -1234,3 +1234,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Reports: 2026-08-22 format/hygiene/output — fixes applied inline bởi Connor 08-23 nhưng report files chưa archived
 - Fix Agent: status→applied + moved to wiki/reviews/archive/2026-08/; _action-required.md ledger updated
 - Backups: 0 (no file content changes)
+
+## 2026-08-24 19:28:00 — Ingested
+- File: raw/posts/2026-08-21_daily-planning-routine-creativity-productivity.md
+- Source: https://x.com/dickiebush/status/2090819629916831745
+- Type: post (X long-form article)
+- Title: The Daily Planning Routine For Maximum Creativity & Productivity
+- Fetch: fxtwitter API → full article blocks (44.7KB body); index posts.md updated

@@ -20,11 +20,12 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 23 files
-- By status: 23 processed, 0 unprocessed
-- By date: 6 this week, 11 this month
-- Last updated: 2026-08-23
+- Total: 24 files
+- By status: 23 processed, 1 unprocessed
+- By date: 7 this week, 12 this month
+- Last updated: 2026-08-24
 ## Items
+- [[2026-08-21_daily-planning-routine-creativity-productivity]] — The Daily Planning Routine For Maximum Creativity & Productivity by Dickie Bush (@dickiebush) (unprocessed)
 
 - [[2026-08-21_ai-skills-map-building-deploying-ai-apps]] — AI Engineering Skills Map: Building and Deploying AI Applications by Andrew Ng (@AndrewYNg) (unprocessed)
 - [[2026-08-14_ai-engineering-skills-map]] — The AI Engineering Skills Map by Andrew Ng (@AndrewYNg) (unprocessed)

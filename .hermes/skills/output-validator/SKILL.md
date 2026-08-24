@@ -304,6 +304,16 @@ When the same issue type appears >10 times, report it as a single systemic issue
 ### Empty baseline report
 If `wiki/reviews/YYYY-MM-DD_output-report.md` exists but is empty/placeholder, treat it as if no prior report exists. Scan all files rather than relying on file timestamps.
 
+### quick-scan heuristic false positives — verify mechanically before reporting
+Two structural heuristics in `scripts/quick-scan.sh` are known-inaccurate and have produced false positives across multiple runs (06-19 LLM flags, 08-22, 08-24). Before reporting their output as issues, cross-check mechanically:
+
+| Quick-scan flag | Why it's wrong | Mechanical cross-check |
+|---|---|---|
+| "Empty Key ideas: N" | Counts only `- ` bullets; numbered lists (`1.`) and tables read as empty | Count real empties: Key-ideas body minus list markers, flag only if nothing remains |
+| "1-sentence definitions: N" | Counts *lines* containing `.`, not sentences — a 3-sentence definition on one line scores 1 | Read the actual Definition of today's new files; ignore the aggregate number |
+
+**Rule:** never file a WARNING from these two counters without a per-file Python/grep verification; when the counter is wrong, report the discrepancy itself as one tooling issue (with suggested script patch), not N content issues. Full taxonomy + suggested fixes: [references/quick-scan-false-positives.md](references/quick-scan-false-positives.md).
+
 ### _action-required.md patch tool pitfall
 
 The `patch` tool uses fuzzy matching. `_action-required.md` has repeated structural patterns (identical "Actions:" blocks, similar summary formats across date entries) that cause fuzzy matching to find false positives — a search string that appears once in the file may match 2-3 times in the fuzzy index.
@@ -489,6 +499,8 @@ This covers all 42 diacritic+vowel combinations. No need to enumerate specific w
 ### "ngườ/thờ/lờ" dropped-i-after-ờ typo variant (2026-07-21)
 
 A fifth manifestation of the same root cause: Compile Agent drops the trailing 'i' entirely from Vietnamese words that should end in "ời". This is the most destructive variant yet — the resulting tokens ("ngườ", "thờ", "lờ") are valid Vietnamese morphemes with completely different meanings, making them invisible to spell-checkers.
+
+> **Status 2026-08-24:** first fully clean KB — all five variants at 0 instances after Fix Agent applied batch 08-23 (21 typos/9 files + reword). Carry-over inventory eliminated; variant-5 grep returned 0 matches for two consecutive runs. Keep the mandatory grep below until a full week of clean runs, then consider demoting it to weekly.
 
 **First observed:** 2026-07-21 batch — 16 new files (3 sources + 13 concepts), ~35 instances across 13/16 files (81% affected).
 
@@ -900,7 +912,11 @@ check "File ends with SILENT entry" bash -c "tail -1 \"\$1\" | grep -qF 'SILENT'
 check "File ends with SILENT entry" bash -c "grep -F 'YYYY-MM-DD HH:MM:SS' \"\$1\" >/dev/null && tail -5 \"\$1\" | grep -q 'Carry-over'" _ "$M"
 ```
 
-**Reusable template:** `templates/verify-silent-memory.sh` — copy, replace the two timestamps, and run. Covers all 6 silent-run checks above. (Check #6 in the template was patched 2026-08-14 to use the tail-window approach for the same reason.)
+**Reusable templates:** `templates/verify-silent-memory.sh` (silent runs — copy, replace two timestamps, run). **Standard runs:** `templates/verify-output-standard.sh` (env-var driven: TODAY/ISSUES/SEV/ACT_SUM/MEM_HEADING/NEWFILES; covers report fields, action-file entry + table row, MEMORY.md entry, cross-file count consistency; no per-run script authoring, so the regex-escaping pitfall class above cannot recur).
+
+### Pitfall — hand-authoring ad-hoc verify scripts regex-escapes wrong (2026-08-24)
+
+Hand-writing a one-off verify script produced 17/18 checks with 1 FAIL caused by the script itself, not the files: a cross-file grep pattern `'4 mới (1 source + 3 concepts)'` was passed through `grep -q` (regex mode) inside `bash -c`, and the literal `)` had no matching `(` in the pattern — bash -c swallowed the message with exit 1. Manual greps confirmed both files contained the exact substring. Two fixes applied to the script: drop the trailing `)` from the pattern (substring match), and use `grep -q` only on patterns with balanced/safe metacharacters (`grep -F` otherwise). **Lesson:** prefer the reusable env-var template over per-run script authoring; when hand-authoring is unavoidable, run each cross-file pattern standalone first (`grep -q 'pattern' file; echo $?`) before embedding it in `bash -c`.
 
 ### _action-required.md may LACK a `## Pending Reports` section (2026-08-23)
 

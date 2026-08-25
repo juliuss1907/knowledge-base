@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-25 23:15 (Format Validator: report 08-25 added — 0E+391W, exact-zero-flat lần 2 liên tiếp)
+**Last updated:** 2026-08-25 23:36 (Hygiene Inspector: report 08-25 added — 1E; workspace-state orphan lần 4 liên tiếp, đã root-caused)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 08-25 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-25_format-report.md](2026-08-25_format-report.md) |
+| 🔍 PENDING | 08-25 | Hygiene | 1 (1E) | Review [wiki/reviews/2026-08-25_hygiene-report.md](2026-08-25_hygiene-report.md) — root json lần 4, KHÔNG xóa |
 | PENDING | 08-25 | Output | 3 (0E+2W+1I) | Awaiting review — 5 typo carry-over capital-I dạng ASCII-preceded (sed đơn giản); depth-debt baseline chờ Julius quyết định; tooling optional quick-scan |
 | ✅ APPLIED | 08-24 | Format | 391 (0E+391W) | Applied 2026-08-25 — forward-refs only, no action needed; archived `archive/2026-08/` |
 | ✅ APPLIED | 08-24 | Output | 3 (0E+2W+1I) | Tooling patches đã có trong quick-scan.sh (numbered-list + sentence-count); Fix Agent verify 2026-08-25 (S6=8, S3=3 trên file mẫu); INFO attribution không blocking; archived |
@@ -66,6 +67,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-08-25 (23:36)
+
+- **Report:** `wiki/reviews/2026-08-25_hygiene-report.md`
+- **Summary:** 55860 paths checked (+15 so với 08-24). 1 issue: 1 ERROR — `openclaw-workspace-state.json` ở KB root, LẦN 4 LIÊN TIẾP (08-22 → 08-25). Root cause ĐÃ CONFIRM trong vendor source (SKILL.md v1.21 pitfall #9): OpenClaw coi mọi thư mục chứa AGENTS.md là workspace, state path resolve CWD-relative by design (`dist/workspace-DkQ7irPD.js`, package 2026.7.1-2) → writer ghi vào KB root mỗi session bootstrap. Git-level SẠCH: untracked + `.gitignore:88-89` guard hiệu lực; chỉ disk-level orphan persists (69 bytes, mtime 08-24 10:00, không có write mới ngày 08-25). Tin tốt: không HEARTBEAT leak; `memory/` + `state/` vắng mặt chạy sạch thứ 4 liên tiếp; không naming violation; không empty directory.
+- **Actions needed:** KHÔNG xóa file lần 5 — deletion proven futile x3 (recycle < 1h nhanh nhất). KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` theo pitfall #9. Không cần Fix Agent action cho file này. Chỉ còn 2 lựa chọn gốc-rễ: (1) redirect writer output path về `.openclaw/` hoặc `~/.openclaw/`, hoặc (2) chờ OpenClaw update mang SQLite workspace-state refactor.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-25 (23:15)
 

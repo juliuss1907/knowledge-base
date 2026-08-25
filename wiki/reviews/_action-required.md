@@ -10,14 +10,14 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 0
 **Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 08-24 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-24_format-report.md](2026-08-24_format-report.md) |
-| ⏳ PENDING | 08-24 | Output | 3 (0E+2W+1I) | Awaiting review — 2 WARNING là false positive quick-scan.sh (tooling, không sửa content); 1 INFO attribution |
-| 🔍 PENDING | 08-24 | Hygiene | 1 (1E) | Review [wiki/reviews/2026-08-24_hygiene-report.md](2026-08-24_hygiene-report.md) |
+| ✅ APPROVED | 08-24 | Format | 391 (0E+391W) | Approved 2026-08-25 — forward-refs only, debt flat 15 runs |
+| ✅ APPROVED | 08-24 | Output | 3 (0E+2W+1I) | Approved + applied inline by Connor 2026-08-25 — patched quick-scan.sh (Empty Key ideas đếm cả numbered list + table; 1-sentence def đếm câu thật). Typo inventory = 0 toàn KB |
+| ✅ APPROVED | 08-24 | Hygiene | 1 (1E) | Approved — root state json lần 3: gitignore giữ repo sạch, disk-level chờ OpenClaw SQLite refactor (không xóa lần 4) |
 | ✅ APPLIED | 08-23 | Format | 391 (0E+391W) | Applied 2026-08-24 — forward-refs only, no action needed; archived |
 | ✅ APPLIED | 08-23 | Output | 4 (0E+2W+1W+1I) | Applied inline by Connor 09:48; verified + archived by Fix Agent 2026-08-24 — 21 typo instances (9 file), agentic-coding claim scoped |
 | ✅ APPLIED | 08-23 | Hygiene | 1 (1E) | Root json removed lần 3 lúc 09:55 + verified git-untracked/.gitignore-guarded; archived by Fix Agent 2026-08-24 |
@@ -65,26 +65,26 @@
 
 ## Pending Reports
 
-### 🔍 Format Validation — 2026-08-24 (23:16)
+### ✅ Format Validation — 2026-08-24 (23:16)
 
 - **Report:** `wiki/reviews/2026-08-24_format-report.md`
 - **Summary:** 944 files checked (529 concepts + 179 sources + 34 indexes + 202 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (371 individual + 20 forward-reference groups, 269 unique targets). Clean ERROR streak ngày thứ 8 liên tiếp. KB grew +3 files qua git reconciliation (+2 concepts, +1 source — writing-craft cluster; 0 merge/delete); debt exactly flat 391→391. Unique targets flat 269 ngày thứ 3 liên tiếp; Top-20 list identical 08-23 (same slugs, same counts). File mới sạch hoàn toàn — 0 broken wikilink từ writing-craft cluster. No structural violations.
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required. Note nhỏ cho Index Agent: 3 file writing-craft mới chưa có topic pages (topics flat 202).
-- **Status:** pending
+- **Status:** approved
 
-### ⏳ Output Validation — 2026-08-24 (23:06)
+### ✅ Output Validation — 2026-08-24 (23:06)
 
 - **Report:** `wiki/reviews/2026-08-24_output-report.md`
 - **Summary:** 708 file checked (179 sources + 529 concepts), 4 mới (1 source + 3 concepts — writing-craft cluster: src_the-golden-rule-for-becoming-a-better-writer, flow-state, reading-brain-vs-digital-brain, read-widely-write-well). 3 issues: 0 ERROR, 2 WARNING, 1 INFO. Mốc đáng chú ý: lần đầu toàn bộ 5 biến thể typo Compile Agent = 0 trên cả KB sau khi batch 08-23 applied sáng nay — inventory carry-over đã dứt điểm, dropped-i grep variant 5 cũng 0 matches. File mới sạch hoàn toàn (0 typo, 0 broken link, structure đầy đủ), PASS hết. 2 WARNING là false positive của quick-scan.sh: (a) heuristic "Empty Key ideas" đếm nhầm 9 file dùng numbered list (`1.` thay vì `- `) là rỗng — Python cross-check xác nhận 0 file empty thật; (b) heuristic "1-sentence definitions" báo 527/527 concepts vì sed+grep đếm số DÒNG chứa dấu chấm, không phải số câu.
 - **Actions needed:** (1) Patch quick-scan.sh section 6: đổi `grep -c '^- '` thành `grep -cE '^- |^[0-9]+\. '` để nhận numbered list; (2) patch hoặc bỏ section 3 heuristic "1-sentence definitions" (đã vô dụng từ nhiều run); (3) INFO attribution Maryanne Wolf "Reader, Come Home": optional spot-check với sách gốc, không blocking. Content wiki: KHÔNG cần sửa gì.
-- **Status:** pending
+- **Status:** approved
 
-### 🔍 Hygiene Inspection — 2026-08-24 (23:33)
+### ✅ Hygiene Inspection — 2026-08-24 (23:33)
 
 - **Report:** `wiki/reviews/2026-08-24_hygiene-report.md`
 - **Summary:** 55845 paths checked (+13 so với 08-23). 1 issue: 1 ERROR — `openclaw-workspace-state.json` ở KB root, LẦN 3 LIÊN TIẾP (08-22 → 08-24). Apply sáng nay (removal commit `b568979f` 09:52) bị runtime recreate lúc 10:00 cùng ngày → recycle < 1h, nhanh hơn chu kỳ 12h của 08-23. Gitignore guard đang giữ repo sạch (file untracked + ignored), nhưng disk-level orphan tiếp tục tái diễn — writer vẫn active trên OpenClaw 2026.7.1-2. Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 3 liên tiếp (08-22 → 08-24); không HEARTBEAT leak; không naming violation; không empty directory.
 - **Actions needed:** [SYSTEMATIC VIOLATION] Root-cause bắt buộc — chọn 1 trong 2: (1) redirect process ghi workspace state về `.openclaw/` hoặc `~/.openclaw/`, sau đó git rm + commit; hoặc (2) chờ OpenClaw update mang SQLite workspace-state refactor (sẽ hết hẳn). KHÔNG cần xóa lại file lần 4 — deletion đơn thuần đã chứng minh vô hiệu (recycle < 1h).
-- **Status:** pending
+- **Status:** approved
 
 ### ✅ Hygiene Inspection — 2026-08-23 (23:32) — APPLIED
 

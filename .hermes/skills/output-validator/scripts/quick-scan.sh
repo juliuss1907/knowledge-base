@@ -148,7 +148,7 @@ for f in $(file_list "wiki/concepts"); do
     [ "$src_count" -eq 0 ] && EMPTY_SOURCES="$EMPTY_SOURCES $f"
 
     ideas=$(sed -n '/^## Key ideas$/,/^## /p' "$f" 2>/dev/null \
-        | sed '1d;/^## /,$d' | grep -cE '^- |^[0-9]+\.' 2>/dev/null || echo 0)
+        | sed '1d;/^## /,$d' | grep -cE '^- |^[0-9]+\.|^\|' 2>/dev/null || echo 0)
     ideas=$(echo "$ideas" | tr -d '[:space:]'); [ -z "$ideas" ] && ideas=0
     [ "$ideas" -eq 0 ] && EMPTY_KEY_IDEAS="$EMPTY_KEY_IDEAS $f"
 done

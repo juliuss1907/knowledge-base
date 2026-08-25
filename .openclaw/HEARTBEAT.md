@@ -1,4 +1,4 @@
-> Last updated: 2026-08-25 17:00 (Asia/Saigon)
+> Last updated: 2026-08-25 17:30 (Asia/Saigon)
 > Cron ID: 3e70fe54-de76-4781-9342-c1ab2a73ebd4
 
 ## Status
@@ -11,7 +11,7 @@
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir, không file `#agent/inbox` |
 | Raw backlog | ✅ Clean | 0 files unprocessed toàn bộ raw/ |
-| Concept backlinks | ✅ Clean | Sample 2 files: [[memory-extraction-timing]] (2 wikilink [[src_...]]), [[let-them-theory]] (2 wikilink) — hợp lệ |
+| Concept backlinks | ✅ Clean | Sample 2 files: [[memory-extraction-timing]] (2 wikilink), [[authenticity-creative-expression]] (2 wikilink) — hợp lệ |
 | Pending reviews | ✅ Clean | Pending: 0. Batch Hermes 08-24 applied đủ (archived) |
 
 ## System State

@@ -1275,3 +1275,9 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Source: https://a16z.com/this-essay-is-10-ai-generated/ (Alex Danco, a16z, published 2026-08-13)
 - Topic: AI authorship, Barthes/Foucault author-function, Pangram detection
 - Index updated: raw/articles/articles.md
+
+## 2026-08-25 22:00:00 — Ingested
+- File: raw/articles/2026-08-25_habits-of-ai-writing-a16z-crypto.md
+- Source: https://a16zcrypto.substack.com/p/the-habits-of-ai-writing-and-what (Steph Zinn, a16z crypto, published 2026-08-22)
+- Topic: AI writing tells/habits, editorial perspective
+- Index updated: raw/articles/articles.md

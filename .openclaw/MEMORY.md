@@ -1281,3 +1281,8 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Source: https://a16zcrypto.substack.com/p/the-habits-of-ai-writing-and-what (Steph Zinn, a16z crypto, published 2026-08-22)
 - Topic: AI writing tells/habits, editorial perspective
 - Index updated: raw/articles/articles.md
+
+## 2026-08-25 22:05:00 — Ingested
+- File: raw/articles/2026-08-25_5-most-important-skills-2026-stoic-wisdoms.md
+- Source: https://stoicwisdoms.substack.com/p/the-5-most-important-skills-to-learn-2026 (Stoic Wisdoms, published 2026-04-06)
+- Index updated: raw/articles/articles.md

@@ -1263,3 +1263,15 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 0
 - Errors: 0
 - Invalid tags flagged: 0
+
+## 2026-08-25 21:50:00 — Ingested
+- File: raw/articles/2026-08-25_impossible-to-manipulate-dan-koe.md
+- Source: https://thedankoe.com/p/give-me-20-minutes-and-ill-make-you/ (Dan Koe substack, published 2026-08-19)
+- Note: thedankoe.com canonical URL 404 (Cloudflare redirect loop); fetched full body via thedankoe.substack.com mirror, stripped related-posts footer. 21.4k chars body intact.
+- Index updated: raw/articles/articles.md
+
+## 2026-08-25 21:55:00 — Ingested
+- File: raw/articles/2026-08-25_this-essay-is-10-percent-ai-generated.md
+- Source: https://a16z.com/this-essay-is-10-ai-generated/ (Alex Danco, a16z, published 2026-08-13)
+- Topic: AI authorship, Barthes/Foucault author-function, Pangram detection
+- Index updated: raw/articles/articles.md

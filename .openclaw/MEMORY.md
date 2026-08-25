@@ -1247,3 +1247,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Source note: wiki/sources/src_daily-planning-routine-creativity-productivity.md
 - Concepts: [five-types-of-business-work (mới), gtd-four-lists (mới), one-thing-daily-priority (mới), leverage (update +1 src), busywork-vs-deep-work (update +1 src)]
 - Tags applied: main=productivity, sub=[tutorial, psychology, strategy], topic=daily-planning-routine
+
+## 2026-08-25 10:25:00 — Applied fixes (batch 08-24)
+- Reports: 2026-08-24_format / output / hygiene — all approved by Julius, archived to wiki/reviews/archive/2026-08/
+- Format 391W: forward-refs only → no action, archived
+- Output 3 (2W+1I): both tooling patches verified already present in .hermes/skills/output-validator/scripts/quick-scan.sh (S6 grep -cE '^- |^[0-9]+\.|^\|' ; S3 sentence-count via grep -o '[.!?]') — sample checks google-project-oxygen S6=8, flow-state S3=3. Content wiki unchanged. INFO attribution optional.
+- Hygiene 1E: deferred per report escalation — root openclaw-workspace-state.json NOT deleted (4th deletion proven futile), gitignore guard holds, awaiting OpenClaw SQLite workspace-state refactor
+- Files modified: [wiki/reviews/_action-required.md, 3 report files (status+archive move)]
+- Backups created: 0 (no content edits)

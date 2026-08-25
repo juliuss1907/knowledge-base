@@ -90,11 +90,12 @@ for f in $NEW_FILES; do
 done
 
 # ─── 3. 1-sentence definitions (concepts only) ───────────
+# Counts SENTENCES (terminal punctuation .!?), not lines — a multi-sentence
+# paragraph on one line previously counted as 1 (false positive, see 08-24 report).
 ONE_SENT_DEF=""
 for f in $(file_list "wiki/concepts"); do
     sentences=$(sed -n '/^## Definition$/,/^## /p' "$f" 2>/dev/null \
-        | sed '1d;/^## /,$d' | grep -v '^$' | grep -c '\.' 2>/dev/null || echo 0)
-    # Clean: strip trailing newlines from grep -c output in subshell
+        | sed '1d;/^## /,$d' | grep -o '[.!?]' 2>/dev/null | wc -l)
     sentences=$(echo "$sentences" | tr -d '[:space:]')
     [ -z "$sentences" ] && sentences=0
     if [ "$sentences" -eq 1 ]; then
@@ -147,7 +148,7 @@ for f in $(file_list "wiki/concepts"); do
     [ "$src_count" -eq 0 ] && EMPTY_SOURCES="$EMPTY_SOURCES $f"
 
     ideas=$(sed -n '/^## Key ideas$/,/^## /p' "$f" 2>/dev/null \
-        | sed '1d;/^## /,$d' | grep -c '^- ' 2>/dev/null || echo 0)
+        | sed '1d;/^## /,$d' | grep -cE '^- |^[0-9]+\.' 2>/dev/null || echo 0)
     ideas=$(echo "$ideas" | tr -d '[:space:]'); [ -z "$ideas" ] && ideas=0
     [ "$ideas" -eq 0 ] && EMPTY_KEY_IDEAS="$EMPTY_KEY_IDEAS $f"
 done

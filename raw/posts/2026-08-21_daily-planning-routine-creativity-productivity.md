@@ -5,10 +5,12 @@ url: https://x.com/dickiebush/status/2090819629916831745
 author: Dickie Bush (@dickiebush)
 date_published: 2026-08-21
 date_ingested: 2026-08-24
-status: unprocessed
+status: processed
 source: x.com
 format: x-longform-article
 engagement: "244 likes, 27 RT, 484 bookmarks, ~97K views"
+compiled_at: 2026-08-25
+compiled_to: "[[src_daily-planning-routine-creativity-productivity]]"
 ---
 
 # The Daily Planning Routine For Maximum Creativity & Productivity

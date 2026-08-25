@@ -6,7 +6,8 @@ sub_tags: [psychology, opinion]
 topic: pareto-principle-priorities
 sources:
   - "[[src_you-need-a-mindset-shift-on-priorities]]"
-last_updated: 2026-07-04
+  - "[[src_daily-planning-routine-creativity-productivity]]"
+last_updated: 2026-08-25
 ---
 
 # Busywork vs Deep Work
@@ -24,6 +25,7 @@ Busywork (công việc giả năng suất) là những hoạt động tiêu tố
 - **Deep work ngược lại:** Là những việc khó, đòi hỏi tập trung cao, thường khó chịu khi bắt đầu — nhưng chính là 20% input tạo 80% output
 - **Giải pháp:** Làm việc khó trước → việc dễ thành cakewalk; identify high-effort low-yield tasks → cut them out
 - Busywork thường là cơ chế tránh né tâm lý — làm việc dễ để tránh đối mặt với việc khó và rủi ro thất bại
+- **Productive procrastination (Dickie Bush):** "học" trước khi produce chính là busywork trá hình nhất — mở YouTube/course/Twitter tự nhủ đang productive; học chỉ có giá trị khi thay đổi hành vi và phải được "kiếm" sau khi produce xong; build leverage vào việc không cần leverage cũng là một dạng busywork nguy hiểm vì cảm giác rất giống productivity
 
 ## Related concepts
 
@@ -31,10 +33,13 @@ Busywork (công việc giả năng suất) là những hoạt động tiêu tố
 - [[output-vs-outcome]]
 - [[focus]]
 - [[discipline-system]]
+- [[five-types-of-business-work]]
+- [[one-thing-daily-priority]]
 
 ## Sources
 
 - [[src_you-need-a-mindset-shift-on-priorities]]
+- [[src_daily-planning-routine-creativity-productivity]] — Dickie Bush: productive procrastination + learning-as-entertainment
 
 ## Notes
 

@@ -10,7 +10,8 @@ sources:
   - "[[src_the-laws-of-this-world]]"
   - "[[src_long-range-career-advice]]"
   - "[[src_3-ways-to-get-rich]]"
-last_updated: 2026-08-22
+  - "[[src_daily-planning-routine-creativity-productivity]]"
+last_updated: 2026-08-25
 ---
 
 # Leverage
@@ -30,6 +31,7 @@ Leverage (đòn bẩy) là mental model chỉ cách tạo ra kết quả không 
 - **Permissionless:** hire labor cần vốn/quyền, raise capital cần ngân hàng/gia tộc gật đầu — code & media là lever đầu tiên trong lịch sử không xin phép ai: app store hoặc text editor là toàn bộ quy trình; đó là lý do "newly rich" không giống "old rich" — không thông minh hơn, chỉ cầm lever cha mẹ họ không có
 - **Rủi ro thật của code/media là exposure chứ không phải tiền:** Dong Nguyen xóa Flappy Bird ở đỉnh doanh thu vì death threats + media obsession — lever này có thể làm bạn giàu VÀ nổi trong cùng một tuần, ở quy mô tâm lý con người không được thiết kế để hấp thụ; labor giữ bạn ẩn danh với thu nhập bị trần
 - **Self-test:** "nếu ngày mai tôi không xuất hiện, tiền có dừng không?" — nếu có, đang chạy thuần labor lever: ổn làm sàn, tệ làm trần; move không phải quit job mà là dựng small second lever bên cạnh (tiền compound không cần bạn, hoặc một piece of code/content bán không cần giờ công)
+- **Leverage trong business operations (Dickie Bush):** leverage = output/input, xây bằng 3 công cụ (SOP, Automation, Employees/AI agents) nhân 2 hướng — Productivity (cùng input nhiều output hơn) và Efficiency (cùng output ít input hơn); phân biệt với production: production tạo asset sinh doanh thu, leverage tạo asset nhân production; cảnh báo: đừng build leverage cho việc không đáng làm
 
 ## Related concepts
 
@@ -41,6 +43,7 @@ Leverage (đòn bẩy) là mental model chỉ cách tạo ra kết quả không 
 - [[prices-law]]
 - [[talent-stack]]
 - [[career-compounding]]
+- [[five-types-of-business-work]]
 
 ## Sources
 
@@ -49,6 +52,7 @@ Leverage (đòn bẩy) là mental model chỉ cách tạo ra kết quả không 
 - [[src_the-laws-of-this-world]] — Incentivising
 - [[src_long-range-career-advice]] — Slava Akhmechet
 - [[src_3-ways-to-get-rich]] — 0x_Ito: 3 levers của Naval + case Flappy Bird + rủi ro exposure
+- [[src_daily-planning-routine-creativity-productivity]] — Dickie Bush: SOP/Automation/Employees × Productivity/Efficiency
 
 ## Notes
 

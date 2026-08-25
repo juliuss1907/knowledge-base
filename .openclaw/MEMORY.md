@@ -1241,3 +1241,9 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Type: post (X long-form article)
 - Title: The Daily Planning Routine For Maximum Creativity & Productivity
 - Fetch: fxtwitter API → full article blocks (44.7KB body); index posts.md updated
+
+## 2026-08-25 08:25:00 — Compiled
+- Raw: raw/posts/2026-08-21_daily-planning-routine-creativity-productivity.md
+- Source note: wiki/sources/src_daily-planning-routine-creativity-productivity.md
+- Concepts: [five-types-of-business-work (mới), gtd-four-lists (mới), one-thing-daily-priority (mới), leverage (update +1 src), busywork-vs-deep-work (update +1 src)]
+- Tags applied: main=productivity, sub=[tutorial, psychology, strategy], topic=daily-planning-routine

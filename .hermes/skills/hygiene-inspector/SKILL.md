@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.20
-last_updated: 2026-08-16
+version: 1.21
+last_updated: 2026-08-25
 ---
 
 # Hygiene Inspector
@@ -586,6 +586,19 @@ Re-running the scan after writing the report file (or any other new file to the 
 ### 7. Confirm recurring leaks are git-tracked before dismissing as transient
 When a recurring orphan file (e.g. `memory/*-heartbeat-status.md`, `memory/YYYY-MM-DD-*.md`) reappears, **check `git ls-files <path>` (or `git check-ignore <path>`)** before writing "deletion is the fix". If the file is git-tracked, it reaches commits (this KB auto-commits `vault backup` roughly every 10 minutes — see `git log`), so filesystem deletion only removes the working copy; the committed copy survives and reappears on the next checkout/sync. That confirms a *process-owned* leak, not a stray artifact. Proven 2026-08-16: `memory/2026-08-16-heartbeat-status.md` was git-tracked, hence the fix MUST be root-cause (redirect the writing process output path) plus a committable removal (`git rm` + commit), not just `rm -rf memory/`. Report it accordingly in the escalation block.
 
+### 9. openclaw-workspace-state.json at root — ROOT CAUSE KNOWN, do not recommend deletion-only fix (2026-08-25)
+`openclaw-workspace-state.json` at KB root was flagged 3 consecutive runs (08-22 → 08-24). Deletion + `git rm` (08-23) + `.gitignore` guard were all applied; the file still regenerated on disk within **<1h**. Root cause confirmed by reading OpenClaw dist source (`dist/workspace-DkQ7irPD.js`, package 2026.7.1-2):
+
+- `WORKSPACE_STATE_FILENAME = "openclaw-workspace-state.json"`; `resolveWorkspaceStatePath(dir)` = `path.join(dir, WORKSPACE_STATE_FILENAME)` — i.e. **CWD-relative by design**.
+- OpenClaw treats ANY directory containing `AGENTS.md` as a workspace. KB root has `AGENTS.md` → KB root IS an OpenClaw workspace → the writer legitimately writes state there on every session bootstrap.
+- Canonical/legacy location is `.openclaw/workspace-state.json` inside the same dir; a global copy also lives at `~/.openclaw/workspace-state.json`.
+
+**Current accepted mitigation (do NOT re-flag as new):**
+1. Repo hygiene is SOLVED: file untracked via `git rm` + `.gitignore` entries (`openclaw-workspace-state.json`, `openclaw-workspace-state.json.attested`, `workspace-attestations/`). Git-level scans stay clean permanently.
+2. Disk-level recurrence is expected until upstream ships the SQLite workspace-state refactor. Hygiene reports should list it once as a known/documented ERROR (or INFO) referencing this entry — NOT escalate `[SYSTEMATIC VIOLATION]` again, and NOT suggest "delete it" (proven futile 3×).
+
+**Rule:** when a leak's writer is identified in vendor source with CWD-relative output, record that fact here and stop recommending per-file deletions — recommend either the .gitignore-guard pattern or waiting for upstream, and say which.
+
 ### 8. Whitelist dictionaries must stay in sync with folder-structure.md
 The scan script's `RAW_SUBFOLDERS`, `ROOT_FILES`, `ROOT_FOLDERS`, `WIKI_SUBFOLDERS`, and `WIKI_META_FILES` dictionaries duplicate rules from `folder-structure.md`. When `folder-structure.md` is updated (e.g., a new raw subfolder is added), the scan script's corresponding dictionary must be updated to match. **Out-of-sync whitelists silently suppress violations.** Proven 2026-07-30: `tools` was in `RAW_SUBFOLDERS` but not in folder-structure.md v1.2 — the `raw/tools/` folder passed every scan for weeks until the script was aligned with the spec. When folder-structure.md changes, patch BOTH the spec AND the scan script's dictionaries in the same commit.
 
@@ -610,6 +623,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 | Version | Date | Changes |
 |---|---|---|
 | 1.20 | 2026-08-16 | Added pitfall #7 — confirm recurring root orphans are git-tracked (`git ls-files` / `git check-ignore`) before dismissing a leak as a stray file: `memory/2026-08-16-heartbeat-status.md` was git-tracked, so it persisted across the ~10-min `vault backup` commits and file deletion alone could not fix it — requires redirecting the writer output path + a committable removal. Clarified cron ad-hoc verification must run LAST (after ALL writes incl. `common-patterns.md`), else the system flags evidence stale and forces a re-verify (proof 08-16). `memory/`+`state/` both resurfaced 3rd consecutive run; updated `references/common-patterns.md` with 08-16 record and fixed a literal-`\n` formatting bug. |
+| 1.21 | 2026-08-25 | Added pitfall #9 — `openclaw-workspace-state.json` root leak ROOT CAUSE CONFIRMED in vendor source (OpenClaw treats any dir with `AGENTS.md` as workspace; state path is CWD-relative by design). Repo level solved via git rm + .gitignore guard (08-25); disk-level recurrence expected until upstream SQLite refactor. Do NOT re-escalate `[SYSTEMATIC VIOLATION]` or recommend deletion-only fixes for this file — reference pitfall #9 instead. |
 | 1.19 | 2026-08-15 | Added cron verify-script pitfall: `Counter` omits zero-count keys, so comparing severity counts against an expected dict that includes `XXX: 0` spuriously FAILs. Confirmed on live run — `{"ERROR":1,"WARNING":0,"INFO":1}` vs actual `{"ERROR":1,"INFO":1}`. Compare only keys that appear or use `.get(k, 0)`. `state/` orphan resurfaced for 2nd consecutive run; `memory/` absent (single-orphan regression after 08-14 dual). Updated `references/common-patterns.md` with 08-15 recurrence record. |
 | 1.18 | 2026-08-14 | `memory/` and `state/` root orphans RESURFACED after 4 clean runs (08-11→08-13) — broke the 3-consecutive-clean streak. Evidence: `memory/2026-08-14-0153.md` (OpenClaw session log, created 08:54) proves the memory-log writer emits to KB root `memory/` instead of `.openclaw/memory/` → process-level leak, escalated as [SYSTEMATIC VIOLATION]. Added cron pitfall: do NOT `rm` temp scan/verify scripts under cron — `/tmp` is OS-cleared and `rm` stalls on the approval guard. Updated `references/common-patterns.md` with the 08-14 recurrence record. |
 | 1.17 | 2026-08-10 | Added `wiki/HEARTBEAT.md` to `HEARTBEAT_LEAK_PATHS` in scan script — new HEARTBEAT leak variant at wiki/ root level (distinct from `wiki/reviews/HEARTBEAT.md`). Added HEARTBEAT check in `classify_wiki_entry` `len(parts)==2` branch before the generic "File at wiki/ root level" error. Updated `common-patterns.md` and SKILL.md Agent home scanning rule to document the new variant. Flagged 4th consecutive run (08-07 through 08-10). |

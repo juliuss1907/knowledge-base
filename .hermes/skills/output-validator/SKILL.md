@@ -304,15 +304,15 @@ When the same issue type appears >10 times, report it as a single systemic issue
 ### Empty baseline report
 If `wiki/reviews/YYYY-MM-DD_output-report.md` exists but is empty/placeholder, treat it as if no prior report exists. Scan all files rather than relying on file timestamps.
 
-### quick-scan heuristic false positives — verify mechanically before reporting
-Two structural heuristics in `scripts/quick-scan.sh` are known-inaccurate and have produced false positives across multiple runs (06-19 LLM flags, 08-22, 08-24). Before reporting their output as issues, cross-check mechanically:
+### quick-scan heuristic false positives — RESOLVED 2026-08-25 (re-verify after future script edits)
+Two structural heuristics in `scripts/quick-scan.sh` produced false positives across multiple runs (06-19 LLM flags, 08-22, 08-24). **Both counters were patched 2026-08-25** per approved Output report 08-24, ad-hoc verification 7/7 PASS:
 
-| Quick-scan flag | Why it's wrong | Mechanical cross-check |
+| Quick-scan flag | Was wrong because | Fix applied (verified) |
 |---|---|---|
-| "Empty Key ideas: N" | Counts only `- ` bullets; numbered lists (`1.`) and tables read as empty | Count real empties: Key-ideas body minus list markers, flag only if nothing remains |
-| "1-sentence definitions: N" | Counts *lines* containing `.`, not sentences — a 3-sentence definition on one line scores 1 | Read the actual Definition of today's new files; ignore the aggregate number |
+| "Empty Key ideas: N" | Counted only `- ` bullets; numbered lists (`1.`) and markdown tables read as empty | Pattern now `grep -cE '^- \|^[0-9]+\.\|^\|'` — bullets + numbered lists + table rows. Verified: `google-project-oxygen.md` → 8 ideas, `six-stage-research-pipeline.md` → 8 table rows, KB-wide flagged total = 0 |
+| "1-sentence definitions: N" | Counted *lines* containing `.`, not sentences — 527/527 concepts flagged falsely (a 3-sentence definition on one line scored 1) | Now counts terminal punctuation: `sed -n '/^## Definition$/,/^## /p' ... \| grep -o '[.!?]' \| wc -l`. Verified: `flow-state.md` 3-sentence single-line def scores 3; plausible aggregate 111 |
 
-**Rule:** never file a WARNING from these two counters without a per-file Python/grep verification; when the counter is wrong, report the discrepancy itself as one tooling issue (with suggested script patch), not N content issues. Full taxonomy + suggested fixes: [references/quick-scan-false-positives.md](references/quick-scan-false-positives.md).
+**Rule:** the two counters are trustworthy as of 2026-08-25. If either suddenly reports a large number again, suspect script regression OR a new content shape (e.g., `* ` asterisk bullets or indented sub-lists not covered by the pattern) — verify per-file BEFORE filing content WARNINGs. Historical taxonomy of the false-positive era: [references/quick-scan-false-positives.md](references/quick-scan-false-positives.md).
 
 ### _action-required.md patch tool pitfall
 
@@ -495,6 +495,22 @@ This covers all 42 diacritic+vowel combinations. No need to enumerate specific w
 **Escalation threshold (2026-07-18):** When a single batch contains 237+ instances across 14/14 files, this is no longer a "patch each batch" problem — it's a Compile Agent prompt defect. Escalate with `[SYSTEMATIC ISSUE]` tag and recommend prompt review. The validator should check: if capital-I appears in >50% of new files AND >50 total instances, escalate rather than listing individually.
 
 **Symptom to watch for:** Unlike the double-i variant, the capital-I variant passes basic spell-check (the letter 'I' is valid ASCII) but breaks Vietnamese readability because capital letters don't appear mid-word in Vietnamese. The capital 'I' is visually close to lowercase 'i' in monospace/code fonts, making it easy to miss in code review.
+
+### ⚠️ PITFALL — bulk capital-I fix with broad regex destroys acronyms (2026-08-25)
+
+Applying the capital-I fix inline with a generic character class — `re.compile(r"([\wÀ-ỹ])I\b")` — matched EVERY word-final `I`, including the acronym "AI" → "Ai" across 14 files (64 replacements vs ~19 expected). Damage discovered via `grep -c "AI"` returning 0 on ai-alignment.md.
+
+**Recovery procedure (proven):**
+1. Vault backup (Obsidian Git, ~5-min cycle) had ALREADY committed the damaged state — mid-session `git diff` came back EMPTY. Check `git log --oneline -3` first; the pre-damage content was at `HEAD~1`.
+2. Restore per file: `orig = subprocess.run(["git","show",f"HEAD~1:{f}"],...)`, re-apply the NARROW pattern, write back.
+3. Narrow, acronym-safe pattern — Vietnamese diacritic vowels ONLY, no `\w`, no bare ASCII letters:
+```python
+VN_VOWELS="àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵ"
+pat=re.compile(f"([{VN_VOWELS}])I\\b")
+```
+4. Post-fix verification per file (all 3 must hold): `t.count("AI")` equals original count; `len(re.findall(r"\bAi\b", t)) == 0`; `len(pat.findall(t)) == 0`.
+
+**Rule:** the explicit 42-pair sed listed above is equally safe (character-pair level, ASCII impossible to match). The general law: bulk Vietnamese typo seds must NEVER allow an unaccented ASCII letter as the preceding character class.
 
 ### "ngườ/thờ/lờ" dropped-i-after-ờ typo variant (2026-07-21)
 

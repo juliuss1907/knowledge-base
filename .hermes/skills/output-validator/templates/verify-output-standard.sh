@@ -25,6 +25,9 @@ check() { local desc="$1"; shift
   else echo "[FAIL] $desc"; FAIL=$((FAIL+1)); fi; }
 
 # --- Report file ---
+# Escape regex metacharacters in ACT_SUM ('+' etc.) before ERE use (found 2026-08-25:
+# '3 (0E+2W+1I)' as bare ERE treats '+' as quantifier -> table-row check never matches).
+ACT_SUM_RE=$(printf '%s' "$ACT_SUM" | sed 's/[][\.*^$()+?{|}\\]/\\&/g')
 check "report exists non-empty" test -s "$R"
 check "report Status=pending (** both sides)" grep -q 'Status:\*\* pending' "$R"
 check "report Issues found = $ISSUES ($SEV)" grep -q "Issues found:\*\* $ISSUES ($SEV)" "$R"

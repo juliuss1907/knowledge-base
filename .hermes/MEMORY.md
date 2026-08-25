@@ -190,3 +190,12 @@ Files checked: 891
 - **File mới sạch hoàn toàn:** 0 typo mới, wikilinks resolve hết, structure đầy đủ — PASS cả 4
 - **False positive (lần 2 ghi nhận):** quick-scan "Empty Key ideas: 9" = numbered-list files (`1.` thay vì `- `, script chỉ đếm `-`); "1-sentence definitions: 527/527" = sed+grep đếm dòng chứa dấu chấm chứ không đếm câu. Cả 2 là tooling heuristic sai, content thật sự OK. Recommend patch quick-scan.sh sections 3 + 6.
 - **INFO:** attribution Maryanne Wolf "Reader, Come Home" nhất quán nội bộ 3 file, chỉ verify qua blog trung gian — optional spot-check sách gốc
+
+## 2026-08-25 23:01:00 — Output validation
+- **Files checked:** 712 (180 sources + 532 concepts)
+- **New files:** 6 (1 source + 5 concepts) — src_daily-planning-routine-creativity-productivity + busywork-vs-deep-work, five-types-of-business-work, gtd-four-lists, leverage, one-thing-daily-priority (daily-planning cluster)
+- **Issues found:** 3 (0 ERROR, 2 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-08-25_output-report.md
+- **File mới sạch hoàn toàn:** 0 typo, wikilinks resolve hết (kể cả `original:` → raw/posts), PASS cả 4 chiều; variant-5 dropped-i grep = 0 lần thứ 3 liên tiếp
+- **WARNING mới — capital-I sub-pattern nằm ngoài detector:** 5 instances/5 file cũ, ký tự trước I là ASCII thường (`tương laI` ×2 sources, `thực thI` ×2, `khả thI` ×1) — mọi regex hiện có (diacritic-preceded) đều miss. Sed fix đơn giản từng từ, đã ghi trong report.
+- **[SYSTEMIC] Depth-debt baseline:** lần đầu đo chính xác sau patch quick-scan 08-25 — 111 concepts definition ≤1 câu + 84 concepts key ideas <5, 100% legacy (last_updated < 2026-08). Spot-check thủ công xác nhận là dữ liệu thật, hết thời false-positive era. Chờ Julius quyết định: baseline chấp nhận vs backfill từ từ.

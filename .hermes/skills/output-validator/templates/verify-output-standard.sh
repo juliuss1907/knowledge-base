@@ -38,7 +38,7 @@ check "issue headers == $ISSUES" bash -c "test \"\$(grep -c '^## Issue [0-9]' \"
 echo "[INFO] $(grep '\*\*Pending reports awaiting review:\*\*' "$A")"
 check "'Output Validation — $TODAY' heading unique" bash -c "test \"\$(grep -c \"Output Validation — $TODAY\" \"\$1\")\" -eq 1" _ "$A"
 check "new entry Status=pending (-A 10 window)" bash -c "grep -F -A 10 \"Output Validation — $TODAY\" \"\$1\" | grep -q 'Status:\*\* pending'" _ "$A"
-check "summary table row present ($DD)" grep -qE "\| PENDING \| $DD \| Output \| $ACT_SUM" "$A"
+check "summary table row present ($DD)" grep -qE "\| PENDING \| $DD \| Output \| $ACT_SUM_RE" "$A"
 check "no ||| table corruption" bash -c "test \"\$(grep -c '|||' \"\$1\")\" -eq 0" _ "$A"
 check "Pending Reports section unique" bash -c "test \"\$(grep -c '^## Pending Reports' \"\$1\")\" -eq 1" _ "$A"
 

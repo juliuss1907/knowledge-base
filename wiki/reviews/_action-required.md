@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-25 23:01 (Output Validator: report 08-25 added — 0E+2W+1I, batch mới sạch hoàn toàn)
+**Last updated:** 2026-08-25 23:15 (Format Validator: report 08-25 added — 0E+391W, exact-zero-flat lần 2 liên tiếp)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-25 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-25_format-report.md](2026-08-25_format-report.md) |
 | PENDING | 08-25 | Output | 3 (0E+2W+1I) | Awaiting review — 5 typo carry-over capital-I dạng ASCII-preceded (sed đơn giản); depth-debt baseline chờ Julius quyết định; tooling optional quick-scan |
 | ✅ APPLIED | 08-24 | Format | 391 (0E+391W) | Applied 2026-08-25 — forward-refs only, no action needed; archived `archive/2026-08/` |
 | ✅ APPLIED | 08-24 | Output | 3 (0E+2W+1I) | Tooling patches đã có trong quick-scan.sh (numbered-list + sentence-count); Fix Agent verify 2026-08-25 (S6=8, S3=3 trên file mẫu); INFO attribution không blocking; archived |
@@ -66,6 +67,20 @@
 
 ## Pending Reports
 
+### 🔍 Format Validation — 2026-08-25 (23:15)
+
+- **Report:** `wiki/reviews/2026-08-25_format-report.md`
+- **Summary:** 950 files checked (532 concepts + 180 sources + 34 indexes + 204 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (371 individual + 20 forward-reference groups, 269 unique targets). Clean ERROR streak ngày thứ 9 liên tiếp. KB grew +6 files qua git reconciliation (+3 concepts, +1 source, +2 topics — daily-planning cluster Dickie Bush; 0 merge/delete); debt exactly flat 391→391 LẦN THỨ 2 LIÊN TIẾP. Unique targets flat 269 ngày thứ 4 liên tiếp; Top-20 list identical 08-24 (same slugs, same counts). File mới sạch hoàn toàn — 0 broken wikilink từ daily-planning cluster. No structural violations.
+- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-08-25 (23:01)
+
+- **Report:** `wiki/reviews/2026-08-25_output-report.md`
+- **Summary:** 712 file checked (180 sources + 532 concepts), 6 mới (1 source + 5 concepts — daily-planning cluster Dickie Bush). 3 issues: 0 ERROR, 2 WARNING, 1 INFO. File mới sạch hoàn toàn: PASS cả 4 chiều, wikilink resolve hết (kể cả frontmatter `original:` → raw/posts tồn tại), 0 typo. Variant-5 dropped-i grep = 0 lần thứ 3 liên tiếp. WARNING 1: carry-over capital-I dạng MỚI nằm ngoài mọi detector — ký tự trước I là ASCII thường (`tương laI` ×2 sources, `thực thI` ×2 concepts, `khả thI` ×1 concept — 5 instances/5 file cũ). WARNING 2: [SYSTEMIC] baseline depth-debt đầu tiên đo được chính xác sau patch quick-scan — 111 concepts definition ≤1 câu + 84 concepts key ideas <5, 100% legacy (last_updated < 2026-08), không phải regression của batch mới.
+- **Actions needed:** (1) sed fix 5 typo: `s/tương laI/tương lai/g` trên src_the-5-laws-of-people-who-never-chase.md + src_is-there-anything-left-build-crypto-wintermute.md; `s/thực thI/thực thi/g` trên agentic-commerce.md + autonomous-agents.md; `s/khả thI/khả thi/g` trên machine-economy.md; (2) quyết định chiến lược depth-debt với Julius — chấp nhận làm baseline hay backfill 5-10 concepts/lần Fix Agent chạy; (3) tooling optional: thêm detection `[ascii-letter]I` vào quick-scan (cẩn thận acronym AI — xem Production Lessons 2026-08-25)
+- **Status:** pending
+
 ### ✅ Format Validation — 2026-08-24 (23:16) — APPLIED
 
 - **Report:** `archive/2026-08/2026-08-24_format-report.md`
@@ -101,39 +116,11 @@
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
 - **Status:** approved → **applied 2026-08-24** — no action required (forward-refs). Report: `archive/2026-08/2026-08-23_format-report.md`
 
-### ✅ Output Validation — 2026-08-23 (23:05) — APPLIED
-
-- **Report:** `wiki/reviews/2026-08-23_output-report.md`
-- **Summary:** 705 file checked, 8 mới (4 sources + 4 concepts). 4 issues: 0 ERROR. 2 WARNING carry-over typo ở 9 file cũ (không phải file mới): "ngưởi" ×10/5 file + "người" spacing merge ×11/4 file (ngườita, ngườikhác, ngườilãnh đạo...). 1 WARNING coherence: agentic-coding.md trộn framework Fable (Thariq) và skills map Andrew Ng không phân tách — Key idea 1 nêu claim product-specific "Fable là model đầu tiên..." như general claim. 1 INFO: attribution Musashi 9 precepts không verify được online (Koe article crawler-wall), cross-check offline với Go Rin No Shō nhất quán. File mới sạch hoàn toàn: 0 typo mới, 23/23 wikilink resolve, structure đầy đủ.
-- **Actions needed:** (1) sed 's/ngưởi/người/g' trên 5 file: src_the-let-them-theory-gabriel-reality, intolerance-of-uncertainty, let-them-theory, control-trap, anterior-cingulate-cortex; (2) sed spacing merge longest-match-first trên 4 file: src_ai-future-skills, src_critical-thinking-dennett, src_tribute-system-new-world-order, occams-broom (ngườita→người ta, ngườikhác→người khác, ngườilãnh đạo→người lãnh đạo, ngườithường→người thường, ngườicần→người cần, ngườiphụ thuộc→người phụ thuộc, ngườitrị→người trị); (3) reword agentic-coding.md Key idea 1 scope claim về Thariq/Fable
-- **Status:** approved → **applied 2026-08-24** — fixes applied inline bởi Connor 09:48 (typos 9 file, agentic-coding reword); Fix Agent verify 0 residual matches + archive. Musashi INFO: no action. Report: `archive/2026-08/2026-08-23_output-report.md`
-
-### 🔍 Output Validation — 2026-08-25 (23:01)
-
-- **Report:** `wiki/reviews/2026-08-25_output-report.md`
-- **Summary:** 712 file checked (180 sources + 532 concepts), 6 mới (1 source + 5 concepts — daily-planning cluster Dickie Bush). 3 issues: 0 ERROR, 2 WARNING, 1 INFO. File mới sạch hoàn toàn: PASS cả 4 chiều, wikilink resolve hết (kể cả frontmatter `original:` → raw/posts tồn tại), 0 typo. Variant-5 dropped-i grep = 0 lần thứ 3 liên tiếp. WARNING 1: carry-over capital-I dạng MỚI nằm ngoài mọi detector — ký tự trước I là ASCII thường (`tương laI` ×2 sources, `thực thI` ×2 concepts, `khả thI` ×1 concept — 5 instances/5 file cũ). WARNING 2: [SYSTEMIC] baseline depth-debt đầu tiên đo được chính xác sau patch quick-scan — 111 concepts definition ≤1 câu + 84 concepts key ideas <5, 100% legacy (last_updated < 2026-08), không phải regression của batch mới.
-- **Actions needed:** (1) sed fix 5 typo: `s/tương laI/tương lai/g` trên src_the-5-laws-of-people-who-never-chase.md + src_is-there-anything-left-build-crypto-wintermute.md; `s/thực thI/thực thi/g` trên agentic-commerce.md + autonomous-agents.md; `s/khả thI/khả thi/g` trên machine-economy.md; (2) quyết định chiến lược depth-debt với Julius — chấp nhận làm baseline hay backfill 5-10 concepts/lần Fix Agent chạy; (3) tooling optional: thêm detection `[ascii-letter]I` vào quick-scan (cẩn thận acronym AI — xem Production Lessons 2026-08-25)
-- **Status:** pending
-
 ## Approved Reports — 08-22 batch
 
 - **Report:** `wiki/reviews/2026-08-22_format-report.md`
 - **Summary:** 933 files checked (525 concepts + 174 sources + 34 indexes + 200 topics). 392 issues: 0 ERROR, 392 WARNING — tất cả là broken wikilinks (372 individual + 20 forward-reference groups, 269 unique targets). Clean ERROR streak RESTORED: 73 ERRORs từ 08-21 đã được Fix Agent resolve cùng ngày (regen 24 L3 tag files + tag.md). KB grew +9 net files (+5 sources, +4 topics, +2 concepts, −2 merged); debt giảm nhẹ −1 WARNING vì 2 concepts mới resolve forward-references.
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
-- **Status:** approved
-
-### ✅ Output Validation — 2026-08-22 (23:00) — APPLIED 2026-08-24
-
-- **Report:** `wiki/reviews/2026-08-22_output-report.md`
-- **Summary:** 21 file mới (5 sources + 16 concepts). 8 issues: 1 ERROR — `incentives-mental-model.md` link sai slug `src_the-power-of-incentives-hidden-forces-shape-behavior` (file thật: `src_incentives-hidden-forces.md`, link không bao giờ resolve); 2 WARNING typo trong file mới mà quick-scan miss vì case-sensitive regex — "Ngườii" ×2 (`second-order-thinking.md` lines 30, 44) và "bậce" (`src_the-art-of-strategic-thinking.md` line 24); 2 WARNING systemic carry-over — double-i còn ~26 instances/18 file cũ + capital-I còn ~18 instances/14 file cũ từ batch trước 08-06; 3 INFO (17 forward-reference targets hợp lệ, duplicate sub_tag `[opinion, opinion]` trong compounding-effect.md, source paywalled đã disclose đúng).
-- **Actions needed:** (1) Fix ERROR: sửa 2 link thành `[[src_incentives-hidden-forces]]`; (2) sed "Ngườii"→"Người" và "bậce"→"bậc"; (3) quét sed carry-over double-i + capital-I trên 32 file cũ; (4) dedupe sub_tag compounding-effect.md
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-22 (23:31) — APPLIED 2026-08-24
-
-- **Report:** `wiki/reviews/2026-08-22_hygiene-report.md`
-- **Summary:** 55809 paths checked. 2 issues: 1 ERROR + 1 WARNING — cả hai sinh ra trong phiên Fix Agent 08-22. Tin tốt: `memory/` (16 files) và `state/` đã được dọn sạch sau batch apply 14:40 — lần đầu KB root sạch hoàn toàn kể từ streak 08-11→08-13. ERROR mới: `openclaw-workspace-state.json` ở KB root (OpenClaw runtime state, git-tracked lần đầu 14:24 hôm nay). WARNING: script sót lại `wiki/drafts/fixagent-regen-tags.py` (non-markdown trong drafts/, committed 15:19).
-- **Actions needed:** (1) Root-cause: redirect OpenClaw session runtime output path về `.openclaw/`, sau đó `git rm openclaw-workspace-state.json` + commit; (2) move `wiki/drafts/fixagent-regen-tags.py` → `scripts/` hoặc xóa nếu session work đã xong
 - **Status:** approved
 
 ### Batch gần nhất: 14 reports (08-13 → 08-21) — APPLIED 2026-08-22 14:40 by Fix Agent
@@ -154,4 +141,4 @@
 
 _Archive đầy đủ tại `wiki/reviews/archive/`. Bảng Summary phía trên là bản ghi chính thức của tất cả reports đã apply._
 
-Previous reports (08-05 through 08-23) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.
+Previous reports (08-05 through 08-24) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.

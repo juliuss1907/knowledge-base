@@ -1,0 +1,96 @@
+# Format Validation — 2026-08-25
+
+**Status:** pending
+**Issues found:** 391
+**Created:** 2026-08-25 23:15
+**Validator:** format-validator
+**Files checked:** 950 (532 concepts + 180 sources + 34 indexes + 204 topics)
+**ERRORs**: 0
+**WARNINGS**: 391
+**INFOS:** 0
+**Total issues**: 391
+Files checked: 950
+Total issues: 391
+
+Δ from 2026-08-24 (approved): **0 net change** (391→391), **0 ERRORs** (flat at 0 — clean streak holds, ninth consecutive day), **391 WARNINGs (flat)**, **+6 files** (944→950: +3 concepts, +1 source, +2 topics, 0 merges/deletes), **269 unique broken targets (flat, fourth consecutive day)**, **Top-20 list identical to 08-24 with identical counts**. New daily-planning cluster (five-types-of-business-work, gtd-four-lists, one-thing-daily-priority, src_daily-planning-routine-creativity-productivity) contributes zero broken wikilinks — second consecutive day of exact-zero churn. Debt stable ~390 for 16 consecutive runs — KB grows, backlog does not.
+
+---
+
+## Issue Summary
+
+All 391 issues are **WARNING** severity — broken wikilinks (forward-references to uncompiled concepts):
+
+| Category | Count | Description |
+|---|---|---|
+| Individual broken wikilinks | 371 | Links to concepts/sources that don't exist yet |
+| Forward-reference groups | 20 | Files with 4-6 broken links each, summarized as single entries |
+| Unique broken targets | 269 | Distinct concept/source slugs referenced but not compiled |
+
+**No ERRORs, no INFOS.** Frontmatter, sections, naming, markdown syntax all compliant across 950 files.
+
+| Files checked | Concepts | Sources | Indexes | Topics |
+|---|---|---|---|---|
+| 950 | 532 | 180 | 34 | 204 |
+
+---
+
+## Top 20 Broken Targets
+
+These are the most frequently referenced concepts/sources that don't exist yet:
+
+| # | Target | Count |
+|---|---|---|
+| 1 | `[[game-theory]]` | 10 |
+| 2 | `[[confirmation-bias]]` | 8 |
+| 3 | `[[ai-coding-agents]]` | 5 |
+| 4 | `[[career-design]]` | 5 |
+| 5 | `[[decision-making]]` | 5 |
+| 6 | `[[deep-work]]` | 4 |
+| 7 | `[[attention-economy]]` | 3 |
+| 8 | `[[ai-hype-vs-reality]]` | 3 |
+| 9 | `[[economic-inequality]]` | 3 |
+| 10 | `[[critical-thinking]]` | 3 |
+| 11 | `[[naval-ravikant]]` | 3 |
+| 12 | `[[risk-parity]]` | 3 |
+| 13 | `[[second-law-of-thermodynamics]]` | 3 |
+| 14 | `[[homeostasis]]` | 3 |
+| 15 | `[[saying-no]]` | 3 |
+| 16 | `[[cognitive-dissonance]]` | 3 |
+| 17 | `[[power-imbalance]]` | 3 |
+| 18 | `[[stoicism]]` | 3 |
+| 19 | `[[first-order-thinking]]` | 3 |
+| 20 | `[[breaking-point]]` | 2 |
+
+---
+
+## Forward-Reference Groups (20)
+
+Files carrying 4-6 forward-references each (summarized as single WARNING entries):
+
+- wiki/concepts/third-order-thinking.md: 6
+- wiki/concepts/thought-experiment.md: 6
+- wiki/sources/src_11-minutes-hack-github.md: 4
+- wiki/sources/src_ai-future-skills.md: 4
+- wiki/sources/src_code-as-agent-harness-arxiv-2605-18747.md: 6
+- (15 more groups — full list in `/tmp/issues.txt`, parse via `parse_issues.py`)
+
+---
+
+## Escalations
+
+None.
+
+Standing note (one line, not an escalation): fourth consecutive day at 269 unique broken targets — Compile Agent's raw backlog is not shrinking; forward-references resolve only when those concepts get compiled.
+
+---
+
+## Verification
+
+Checklist of steps taken this run:
+
+- [x] validate.py run from KB root (exit 0) — 950 files scanned in one pass
+- [x] parse_issues.py statistics extracted (391W, 0E, 0I, 269 unique targets)
+- [x] Git reconciliation vs 2026-08-24 23:16 baseline: +6 added (3 concepts + 1 source + 2 topics), 0 deleted, 0 merges
+- [x] New-file link check: daily-planning cluster contributes 0 broken wikilinks
+- [x] Top-20 comparison vs archived 08-24 report: identical list, identical counts
+- [x] Previous report Status header checked: 08-24 format report approved → already reconciled in _action-required.md (shows ✅ APPLIED)

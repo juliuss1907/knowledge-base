@@ -1255,3 +1255,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Hygiene 1E: deferred per report escalation — root openclaw-workspace-state.json NOT deleted (4th deletion proven futile), gitignore guard holds, awaiting OpenClaw SQLite workspace-state refactor
 - Files modified: [wiki/reviews/_action-required.md, 3 report files (status+archive move)]
 - Backups created: 0 (no content edits)
+
+## 2026-08-25 21:23:13 +07:00 — Indexed
+- Scanned: 532 concepts + 180 sources = 712 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 204
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0

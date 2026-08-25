@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-08-23
+last_updated: 2026-08-25
 ---
 
 # Tag: #tutorial
 
 Auto-generated index of all content tagged with `#tutorial`.
 
-Last updated: 2026-08-23 21:19:32
+Last updated: 2026-08-25 21:23:13
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-23 21:19:32
 
 ## Stats
 
-- Total files: 85
-- Sources: 33
+- Total files: 86
+- Sources: 34
 - Concepts: 52
-- Last updated: 2026-08-23
+- Last updated: 2026-08-25
 
 ## Files with this tag
 
@@ -77,6 +77,7 @@ Last updated: 2026-08-23 21:19:32
 - [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cach Nhanh Nhat Nop Ho So Bao Hiem That Nghiep (source, main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance)
 - [[src_compound-exercises-pareto-workouts]] — Compound Exercises Pareto Workouts (source, main: #health, sub: [#tutorial], topic: compound-exercises)
 - [[src_critical-thinking-dennett]] — Critical Thinking Dennett (source, main: #productivity, sub: [#psychology, #research, #tutorial], topic: critical-thinking-tools)
+- [[src_daily-planning-routine-creativity-productivity]] — Daily Planning Routine Creativity Productivity (source, main: #productivity, sub: [#tutorial, #psychology, #strategy], topic: daily-planning-routine)
 - [[src_dan-koe-workflow-analysis-markus]] — Dan Koe Workflow Analysis Markus (source, main: #productivity, sub: [#tutorial, #ai, #automation], topic: ai-workflow-methodology)
 - [[src_first-principles-thinking]] — First Principles Thinking (source, main: #productivity, sub: [#psychology, #tutorial], topic: mental-models)
 - [[src_game-theory-will-change-your-life]] — Game Theory Will Change Your Life (source, main: #system, sub: [#psychology, #research, #tutorial], topic: game-theory-strategic-thinking)
@@ -118,8 +119,8 @@ Last updated: 2026-08-23 21:19:32
 ## Co-occurring tags
 
 Tags that frequently appear with `#tutorial`:
-- `#productivity` (39 files)
+- `#productivity` (40 files)
 - `#tools` (25 files)
 - `#ai` (23 files)
 - `#research` (22 files)
-- `#psychology` (20 files)
+- `#psychology` (21 files)

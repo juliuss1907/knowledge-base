@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-08-23
+last_updated: 2026-08-25
 ---
 
 # Tag: #opinion
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-08-23 21:19:32
+Last updated: 2026-08-25 21:23:13
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-23 21:19:32
 
 ## Stats
 
-- Total files: 251
-- Sources: 84
+- Total files: 252
+- Sources: 85
 - Concepts: 167
-- Last updated: 2026-08-23
+- Last updated: 2026-08-25
 
 ## Files with this tag
 
@@ -235,6 +235,7 @@ Last updated: 2026-08-23 21:19:32
 - [[src_the-5-laws-of-people-who-never-chase]] — The 5 Laws Of People Who Never Chase (source, main: #health, sub: [#psychology, #opinion], topic: social-attraction-dynamics)
 - [[src_the-art-of-being-overlooked-stay-silent]] — The Art Of Being Overlooked Stay Silent (source, main: #productivity, sub: [#psychology, #opinion], topic: art-of-being-overlooked)
 - [[src_the-cost-of-discretion]] — The Cost Of Discretion (source, main: #economic, sub: [#opinion, #tutorial], topic: systematic-trading-transition)
+- [[src_the-golden-rule-for-becoming-a-better-writer]] — The Golden Rule For Becoming A Better Writer (source, main: #productivity, sub: [#psychology, #opinion], topic: writing-craft)
 - [[src_the-laws-of-this-world]] — The Laws Of This World (source, main: #productivity, sub: [#psychology, #opinion], topic: laws-of-the-world)
 - [[src_the-let-them-theory-gabriel-reality]] — The Let Them Theory Gabriel Reality (source, main: #health, sub: [#psychology, #opinion], topic: let-them-theory-relationships)
 - [[src_the-new-comms-playbook-show-dont]] — The New Comms Playbook Show Dont (source, main: #crypto, sub: [#opinion, #news], topic: crypto-communications-playbook)
@@ -284,8 +285,8 @@ Last updated: 2026-08-23 21:19:32
 ## Co-occurring tags
 
 Tags that frequently appear with `#opinion`:
-- `#productivity` (114 files)
-- `#psychology` (109 files)
+- `#productivity` (115 files)
+- `#psychology` (110 files)
 - `#research` (61 files)
 - `#ai` (43 files)
 - `#economic` (42 files)

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[mental-models]]"
 topic: mental-models
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: mental-models
 
 Auto-generated index of all content with topic `mental-models`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -47,3 +47,8 @@ Last updated: 2026-08-25 21:23:13
 - [[src_second-order-thinking]] — main: #productivity, sub: [#psychology]
 - [[src_thermodynamics]] — main: #productivity, sub: [#psychology, #research]
 - [[src_thought-experiment]] — main: #productivity, sub: [#psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `mental-models`:
+<!-- none -->

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[decision-making-frameworks]]"
 topic: decision-making-frameworks
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: decision-making-frameworks
 
 Auto-generated index of all content with topic `decision-making-frameworks`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -22,3 +22,12 @@ Last updated: 2026-08-25 21:23:13
 - [[optionality-principle]] — main: #productivity, sub: [#psychology, #strategy]
 - [[small-bets-strategy]] — main: #productivity, sub: [#psychology]
 - [[type-1-vs-type-2-decisions]] — main: #productivity, sub: [#psychology]
+
+## Sources (0)
+
+<!-- none -->
+
+## Related topics
+
+Topics that share concepts/sources with `decision-making-frameworks`:
+<!-- none -->

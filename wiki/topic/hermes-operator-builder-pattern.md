@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[hermes-operator-builder-pattern]]"
 topic: hermes-operator-builder-pattern
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: hermes-operator-builder-pattern
 
 Auto-generated index of all content with topic `hermes-operator-builder-pattern`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -26,3 +26,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — main: #ai, sub: [#tools, #automation, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `hermes-operator-builder-pattern`:
+<!-- none -->

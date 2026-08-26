@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[post-systems-thinking]]"
 topic: post-systems-thinking
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: post-systems-thinking
 
 Auto-generated index of all content with topic `post-systems-thinking`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -27,3 +27,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_what-comes-after-systems-thinking]] — main: #system, sub: [#research, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `post-systems-thinking`:
+<!-- none -->

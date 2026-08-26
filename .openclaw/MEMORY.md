@@ -1318,3 +1318,20 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Concepts:** [author-function, ai-text-watermarking]
 - **Tags applied:** main=#ai, sub=[#research, #opinion], topic=ai-authorship-french-theory
 - **Action:** created 1 concept file (author-function); merged src vào ai-text-watermarking.md (existing, giữ nguyên ## Notes)
+
+## 2026-08-26 21:20:17 +07:00 — Indexed
+- Scanned: 540 concepts + 184 sources = 724 total
+## 2026-08-26 21:24:25 — Indexed (rebuild)
+- Scanned: 540 concepts + 184 sources (724 files)
+- Tags indexed: 24
+- Topics indexed: 208
+- Orphans deleted: 0
+- Frontmatter errors: 0
+- Invalid tags flagged: 0
+- Master tag.md Stats updated (most used: #productivity 313, #psychology 311, #research 266)
+
+## 2026-08-26 21:25:00 +07:00 — Ingested
+- File: raw/articles/2026-08-26_10-questions-for-your-startup-developers.md
+- Source: https://cloud.google.com/blog/topics/developers-practitioners/10-questions-for-your-startup-developers (Google Cloud Developers & Practitioners)
+- Topic: Google Cloud AI startup production — AI Studio vs Gemini Enterprise Agent Platform, IAM/service-account auth, DSQ 429s, consumption modes (Standard/Priority PayGo, Provisioned Throughput), spend caps, Secret Manager, agent security
+- Index updated: raw/articles/articles.md (Total 145, unprocessed 1)

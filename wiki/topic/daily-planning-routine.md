@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[daily-planning-routine]]"
 topic: daily-planning-routine
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: daily-planning-routine
 
 Auto-generated index of all content with topic `daily-planning-routine`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_daily-planning-routine-creativity-productivity]] — main: #productivity, sub: [#tutorial, #psychology, #strategy]
+
+## Related topics
+
+Topics that share concepts/sources with `daily-planning-routine`:
+<!-- none -->

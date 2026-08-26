@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[self-discovery-serendipity]]"
 topic: self-discovery-serendipity
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: self-discovery-serendipity
 
 Auto-generated index of all content with topic `self-discovery-serendipity`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_this-will-help-you-figure-out-what-you-want]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `self-discovery-serendipity`:
+<!-- none -->

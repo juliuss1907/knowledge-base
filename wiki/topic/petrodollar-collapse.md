@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[petrodollar-collapse]]"
 topic: petrodollar-collapse
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: petrodollar-collapse
 
 Auto-generated index of all content with topic `petrodollar-collapse`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -23,3 +23,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_petrodollar-system-analysis]] — main: #economic, sub: [#research, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `petrodollar-collapse`:
+<!-- none -->

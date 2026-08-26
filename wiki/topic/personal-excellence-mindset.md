@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[personal-excellence-mindset]]"
 topic: personal-excellence-mindset
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: personal-excellence-mindset
 
 Auto-generated index of all content with topic `personal-excellence-mindset`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -26,3 +26,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_ill-make-you-believe-you-can-achieve]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `personal-excellence-mindset`:
+<!-- none -->

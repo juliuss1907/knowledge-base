@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[ai-agent-tool-platform]]"
 topic: ai-agent-tool-platform
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: ai-agent-tool-platform
 
 Auto-generated index of all content with topic `ai-agent-tool-platform`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_monid-ai-agent-tool-platform]] — main: #ai, sub: [#tools, #automation]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-agent-tool-platform`:
+<!-- none -->

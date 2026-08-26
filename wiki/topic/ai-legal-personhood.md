@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[ai-legal-personhood]]"
 topic: ai-legal-personhood
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: ai-legal-personhood
 
 Auto-generated index of all content with topic `ai-legal-personhood`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_aaron-wright-ai-agents-legal-body]] — main: #ai, sub: [#law, #tools]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-legal-personhood`:
+<!-- none -->

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[financial-statement-analysis]]"
 topic: financial-statement-analysis
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: financial-statement-analysis
 
 Auto-generated index of all content with topic `financial-statement-analysis`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -26,3 +26,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_how-to-read-cash-flow-statement]] — main: #economic, sub: [#research, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `financial-statement-analysis`:
+<!-- none -->

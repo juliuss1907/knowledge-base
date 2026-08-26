@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[art-of-extroversion]]"
 topic: art-of-extroversion
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: art-of-extroversion
 
 Auto-generated index of all content with topic `art-of-extroversion`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_how-to-talk-to-anyone-at-any-time]] — main: #productivity, sub: [#psychology, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `art-of-extroversion`:
+<!-- none -->

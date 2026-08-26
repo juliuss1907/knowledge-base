@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[future-proof-skills]]"
 topic: future-proof-skills
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: future-proof-skills
 
 Auto-generated index of all content with topic `future-proof-skills`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -23,3 +23,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_youre-trained-for-world-that-no-longer-exists]] — main: #ai, sub: [#opinion, #tutorial, #coding]
+
+## Related topics
+
+Topics that share concepts/sources with `future-proof-skills`:
+<!-- none -->

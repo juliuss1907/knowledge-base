@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[sop-writer]]"
 topic: sop-writer
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: sop-writer
 
 Auto-generated index of all content with topic `sop-writer`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -22,3 +22,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_sop-writer-skill]] — main: #productivity, sub: [#tools, #automation]
+
+## Related topics
+
+Topics that share concepts/sources with `sop-writer`:
+<!-- none -->

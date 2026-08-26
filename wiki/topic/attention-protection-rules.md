@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[attention-protection-rules]]"
 topic: attention-protection-rules
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: attention-protection-rules
 
 Auto-generated index of all content with topic `attention-protection-rules`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -23,3 +23,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `attention-protection-rules`:
+<!-- none -->

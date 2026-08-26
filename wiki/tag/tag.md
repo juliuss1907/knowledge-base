@@ -29,8 +29,8 @@ Master index of all tags used in the Knowledge Base. Tracks statistics, files pe
 - Total tags: 24
 - Main tags: 9
 - Sub tags: 15
-- Most used: #productivity (301), #psychology (299), #research (265)
-- Last updated: 2026-08-23
+- Most used: #productivity (313), #psychology (311), #research (266)
+- Last updated: 2026-08-26
 
 ## Items
 

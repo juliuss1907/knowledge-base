@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[incentives-psychology]]"
 topic: incentives-psychology
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: incentives-psychology
 
 Auto-generated index of all content with topic `incentives-psychology`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -23,3 +23,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_incentives-hidden-forces]] — main: #productivity, sub: [#research, #psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `incentives-psychology`:
+<!-- none -->

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[sleep-hygiene]]"
 topic: sleep-hygiene
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: sleep-hygiene
 
 Auto-generated index of all content with topic `sleep-hygiene`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_japanese-evening-routine-fix-sleep]] — main: #productivity, sub: [#tutorial, #health]
+
+## Related topics
+
+Topics that share concepts/sources with `sleep-hygiene`:
+<!-- none -->

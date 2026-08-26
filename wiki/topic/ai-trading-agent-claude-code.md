@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[ai-trading-agent-claude-code]]"
 topic: ai-trading-agent-claude-code
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: ai-trading-agent-claude-code
 
 Auto-generated index of all content with topic `ai-trading-agent-claude-code`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -27,3 +27,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — main: #tech, sub: [#tutorial, #automation, #tools]
+
+## Related topics
+
+Topics that share concepts/sources with `ai-trading-agent-claude-code`:
+<!-- none -->

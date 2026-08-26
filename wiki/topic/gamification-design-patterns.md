@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[gamification-design-patterns]]"
 topic: gamification-design-patterns
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: gamification-design-patterns
 
 Auto-generated index of all content with topic `gamification-design-patterns`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -25,3 +25,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_gamification-app-truth]] — main: #tech, sub: [#tools, #psychology, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `gamification-design-patterns`:
+<!-- none -->

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
+parent: "[[hermes-xai-grok-integration]]"
 topic: hermes-xai-grok-integration
 auto_generated: true
-last_updated: 2026-08-25
+last_updated: 2026-08-26
 ---
 
 # Topic: hermes-xai-grok-integration
 
 Auto-generated index of all content with topic `hermes-xai-grok-integration`.
 
-Last updated: 2026-08-25 21:23:13
+Last updated: 2026-08-26 21:22:06
 
 ---
 
@@ -26,3 +26,8 @@ Last updated: 2026-08-25 21:23:13
 ## Sources (1)
 
 - [[src_hermes-as-a-real-time-analyst]] — main: #ai, sub: [#tools, #automation, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `hermes-xai-grok-integration`:
+<!-- none -->

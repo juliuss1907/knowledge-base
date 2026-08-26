@@ -5,7 +5,7 @@ url: https://stoicwisdoms.substack.com/p/the-5-most-important-skills-to-learn-20
 author: Stoic Wisdoms
 date_published: 2026-04-06
 date_ingested: 2026-08-25
-status: processed
+status: unprocessed
 source: stoicwisdoms.substack.com
 ---
 

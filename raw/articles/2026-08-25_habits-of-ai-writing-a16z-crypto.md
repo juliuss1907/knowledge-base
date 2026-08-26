@@ -5,7 +5,7 @@ url: https://a16zcrypto.substack.com/p/the-habits-of-ai-writing-and-what
 author: Steph Zinn
 date_published: 2026-08-22
 date_ingested: 2026-08-25
-status: processed
+status: unprocessed
 source: a16zcrypto.substack.com
 ---
 

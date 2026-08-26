@@ -1,3 +1,15 @@
+## 2026-08-26 17:13 — ✅ HEARTBEAT_OK
+
+| Check | Value | Δ | Note |
+|---|---|---|---|
+| **raw/** unprocessed | 0 | = | — |
+| **wiki/concepts/** | 540 | = | — |
+| **wiki/sources/** | 184 | = | — |
+| Pending Hermes reports | 3 PENDING (08-25) | = | Chờ Julius duyệt |
+| Inbox | Clean | = | — |
+
+Không có vấn đề mới.
+
 # HEARTBEAT.md
 
 > Heartbeat check log — Knowledge Base V2

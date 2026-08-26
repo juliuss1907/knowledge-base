@@ -118,12 +118,12 @@
 | **wiki/concepts/** | 532 | = | ✅ |
 | **wiki/sources/** | 180 | = | ✅ |
 | Pending reports | 3 | = | ⚠️ Chờ Julius review |
-| Index last success | 2026-08-23 21:20 | = | ⚠️ Tối nay nếu vẫn vắng sẽ là đêm thứ 3 liên tiếp |
+| Index last success | 2026-08-25 21:23 | ✓ | Đã chạy lại sau 2 đêm vắng |
 
 ## Notes
 
 1. **Compile chạy ngoài cron:** Scheduler vẫn chỉ có heartbeat job, nhưng backlog đã xử lý xong giữa 08:00–08:30. Cần xác nhận Julius có chạy manual hay agent nào khác đã nhặt việc.
-2. **Index cron vẫn vắng:** last success 08-23 21:20. Nếu tối nay không chạy → miss 3 đêm liền.
+2. **Index cron:** RESOLVED — chạy 08-25 21:23.
 3. **[Carry-over] 3 Hermes reports 08-25:** Format 391W (forward-refs, no action), Hygiene 1E (root json lần 4 — KHÔNG xóa), Output 2W+1I (5 typo sed đơn giản + quyết định depth-debt). Chi tiết: `wiki/reviews/_action-required.md`.
 4. **[Known issue] Root json recycle** — chờ SQLite refactor. Git sạch, file đứng yên.
 

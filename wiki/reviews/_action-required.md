@@ -4,19 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-26 23:16 (Format Validator: report 08-26 added — 391 issues, 0E+391W)
+**Last updated:** 2026-08-26 23:30 (Hygiene Validator: report 08-26 added — 2 issues, 2 ERROR)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 5
+**Pending reports awaiting review:** 6
 **Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 08-26 | Output | 2 (0E+1W+1I) | Review [wiki/reviews/2026-08-26_output-report.md](2026-08-26_output-report.md) — forward-refs (deep-work/synthid/llm-output-detection) + empty Notes |
 | 🔍 PENDING | 08-26 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-26_format-report.md](2026-08-26_format-report.md) |
+| 🔍 PENDING | 08-26 | Hygiene | 2 (2E) | Review [wiki/reviews/2026-08-26_hygiene-report.md](2026-08-26_hygiene-report.md) — root json lần 5 + HEARTBEAT leak, KHÔNG xóa |
 | 🔍 PENDING | 08-25 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-25_format-report.md](2026-08-25_format-report.md) |
 | 🔍 PENDING | 08-25 | Hygiene | 1 (1E) | Review [wiki/reviews/2026-08-25_hygiene-report.md](2026-08-25_hygiene-report.md) — root json lần 4, KHÔNG xóa |
 | PENDING | 08-25 | Output | 3 (0E+2W+1I) | Awaiting review — 5 typo carry-over capital-I dạng ASCII-preceded (sed đơn giản); depth-debt baseline chờ Julius quyết định; tooling optional quick-scan |
@@ -69,6 +70,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-08-26 (23:30)
+
+- **Report:** `wiki/reviews/2026-08-26_hygiene-report.md`
+- **Summary:** 55884 paths checked (+24 so với 08-25). 2 issues: 2 ERROR. (1) `openclaw-workspace-state.json` ở KB root, LẦN 5 LIÊN TIẾP (08-22 → 08-26). Root cause ĐÃ CONFIRM trong vendor source (SKILL.md v1.21 pitfall #9): OpenClaw coi mọi thư mục chứa AGENTS.md là workspace, state path resolve CWD-relative by design → writer ghi vào KB root mỗi session bootstrap. Git-level SẠCH: untracked + `.gitignore` guard hiệu lực; chỉ disk-level orphan persists. (2) `wiki/HEARTBEAT.md` tái diễn — HEARTBEAT leak vào wiki/ root sau khi sạch ở 08-25; git-untracked + gitignored (không vào commit). Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 5 liên tiếp; không naming violation; không empty directory.
+- **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 6 — deletion proven futile x3 (recycle < 1h nhanh nhất). KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` theo pitfall #9 — tham chiếu ghi chú root-cause. Hướng: (1) redirect writer output path về `.openclaw/` hoặc `~/.openclaw/`, hoặc (2) chờ OpenClaw update mang SQLite workspace-state refactor. Với `wiki/HEARTBEAT.md`: cần process-level fix (writing process gõ HEARTBEAT.md vào wiki/) trước khi xóa — không phải file deletion đơn thuần.
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-08-25 (23:36)
 

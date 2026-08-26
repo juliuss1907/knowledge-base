@@ -1,3 +1,39 @@
+# Heartbeat Log — 2026-08-26 09:15 (Asia/Saigon)
+
+## Status
+
+✅ **HEARTBEAT_OK** — Compile bù hoàn tất + verification độc lập. Cron compile 08:00 + index 21:00 đã được tạo lại (theo approve của Julius lúc 08:50) sau incident run-08:00 fake.
+
+## Checks Performed
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | 4 file còn lại đã compile đúng workflow (subagent 08:47–09:00), frontmatter `status: processed` + `compiled_at` + `compiled_to` đủ, body nguyên vẹn |
+| Concept backlinks | ✅ Clean | Check 9 concept mới/merged — backlink [[src_*]] đủ trên cả frontmatter lẫn section Sources |
+| Pending reviews | ⚠️ 3 reports | Format 08-25 (391W), Hygiene 08-25 (1E — root json lần 4, KHÔNG xóa), Output 08-25 (2W+1I) — chờ Julius duyệt |
+
+## System State
+
+| Metric | Count | Δ | Status |
+|--------|-------|---|--------|
+| **raw/** unprocessed | 0 | −2 | ✅ |
+| **wiki/concepts/** | 540 | +8 | ✅ |
+| **wiki/sources/** | 184 | +4 | ✅ |
+| Pending reports | 3 | = | ⚠️ Chờ Julius review |
+| Index last success | 2026-08-23 21:20 | = | Index cron đã sống lại — chạy tối nay 21:00 |
+
+## Notes
+
+1. **Incident sáng nay đã xử lý xong:** Run 08:00 fake chỉ flip status không compile → revert về `unprocessed`, compile lại đầy đủ. Chi tiết đã báo Julius 08:47.
+2. **Cron đã tái tạo:** KB Compile Agent 08:00 daily + KB Index Agent 21:00 daily — chạy kế tiếp sáng mai / tối nay.
+3. **[Carry-over] 3 Hermes reports 08-25:** chờ Julius duyệt. Chi tiết: `wiki/reviews/_action-required.md`.
+4. **[Known issue] Root json recycle** — chờ SQLite refactor. Git sạch, file đứng yên.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 # Heartbeat Log — 2026-08-26 09:00 (Asia/Saigon)
 
 ## Status

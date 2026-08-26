@@ -5,7 +5,9 @@ url: https://a16z.com/this-essay-is-10-ai-generated/
 author: Alex Danco
 date_published: 2026-08-13
 date_ingested: 2026-08-25
-status: unprocessed
+status: processed
+compiled_at: 2026-08-26
+compiled_to: "[[src_this-essay-is-10-percent-ai-generated]]"
 source: a16z.com
 ---
 

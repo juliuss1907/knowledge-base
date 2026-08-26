@@ -6,7 +6,8 @@ sub_tags: [research, tools, hack]
 topic: ai-text-watermarking
 sources:
   - "[[src_how-ai-text-watermarking-works]]"
-last_updated: 2026-08-16
+  - "[[src_this-essay-is-10-percent-ai-generated]]"
+last_updated: 2026-08-26
 ---
 
 # AI Text Watermarking
@@ -25,14 +26,19 @@ AI text watermarking là kỹ thuật nhúng một dấu hiệu không nhìn th�
 - Mark sống trong các chuỗi từ nguyên vẹn → editing phá chuỗi là xoá mark. Paraphrase nhẹ chỉ loãng (recover sau ~800 tokens); chỉ rewrite từ nghĩa không chung chuỗi từ mới xoá được.
 - Dấu chứng minh "đã qua xử lý" chứ không phải "do AI viết" — text chỉ được proofread/dịch bởi model cũng nhiễm mark; text ngắn và ít slack (code, trích dẫn) gần như không mang mark.
 - Khác biệt quan trọng với "AI detector" kiểu GPTZero: watermark là phép kiểm tra key-gated có nguyên tắc, không phải phán đoán theo style.
+- Alex Danco (2026): các model company đồng loạt công bố watermarking khi dư luận về AI writing đạt đỉnh — theo historical pattern "peak reaction to the thing is the moment when the thing stops mattering"; arms race giữa detector và avoider có thể đã đóng cửa sổ reliable detection ở frontier models
+- Trong thực tiễn xã hội, watermark/detector (Pangram) được dùng như category authorship để dunk "100% AI generated" — phục vụ author-function chứ không hẳn phán xét chất lượng văn bản (xem [[author-function]])
 
 ## Related concepts
 
 - [[llm-output-detection]]
 - [[synthid]]
+- [[author-function]]
+- [[ai-writing-hallmarks]]
 
 ## Sources
 
 - [[src_how-ai-text-watermarking-works]]
+- [[src_this-essay-is-10-percent-ai-generated]]
 
 ## Notes

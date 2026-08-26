@@ -1302,3 +1302,19 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Concepts:** [ai-writing-hallmarks, paraphrase-test]
 - **Tags applied:** main=#ai, sub=[#opinion], topic=ai-writing-habits
 - **Action:** created 2 concept files
+
+## 2026-08-26 09:00:00 — Compiled
+
+- **Raw:** raw/articles/2026-08-25_impossible-to-manipulate-dan-koe.md
+- **Source note:** wiki/sources/src_impossible-to-manipulate-dan-koe.md
+- **Concepts:** [three-levels-of-thinking, intellectual-obesity, attention-management]
+- **Tags applied:** main=#productivity, sub=[#psychology, #opinion], topic=three-levels-of-thinking
+- **Action:** created 2 concept files (three-levels-of-thinking, intellectual-obesity); merged src vào attention-management.md (đã tạo từ batch này)
+
+## 2026-08-26 09:03:00 — Compiled
+
+- **Raw:** raw/articles/2026-08-25_this-essay-is-10-percent-ai-generated.md
+- **Source note:** wiki/sources/src_this-essay-is-10-percent-ai-generated.md
+- **Concepts:** [author-function, ai-text-watermarking]
+- **Tags applied:** main=#ai, sub=[#research, #opinion], topic=ai-authorship-french-theory
+- **Action:** created 1 concept file (author-function); merged src vào ai-text-watermarking.md (existing, giữ nguyên ## Notes)

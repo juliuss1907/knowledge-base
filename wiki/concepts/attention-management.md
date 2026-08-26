@@ -6,6 +6,7 @@ sub_tags: [psychology]
 topic: essential-skills-2026
 sources:
   - "[[src_5-most-important-skills-2026-stoic-wisdoms]]"
+  - "[[src_impossible-to-manipulate-dan-koe]]"
 last_updated: 2026-08-26
 ---
 
@@ -24,6 +25,7 @@ Attention management là khả năng chủ động chọn điều chiếm giữ 
 - Business model của major platforms là capture attention — teams of engineers + behavioral psychologists làm việc full-time cho việc đó, khai thác novelty/conflict/social comparison vốn có trong tâm lý người
 - AI-generated content sẽ bùng nổ khối lượng nội dung engineered-to-capture: từ hàng nghìn human creators cạnh tranh sang hàng triệu AI systems học real-time điều gì giữ bạn lâu nhất
 - Vấn đề attention không phải về productivity hay tối ưu lịch trình, mà về việc có giữ được loại tư duy cần ngồi với sự khó hiểu, giữ nhiều ý mâu thuẫn cùng lúc, ở lại đủ lâu để thấy cấu trúc bên dưới bề mặt
+- Thuật toán không hiện thứ bạn muốn mà thứ bạn nhiều khả năng react vào — nội dung gây phản ứng tức thì nhốt người dùng ở lower-level thinking; long-form reading là centropic, short-form là entropic (xem [[three-levels-of-thinking]])
 
 ## Related concepts
 
@@ -35,3 +37,4 @@ Attention management là khả năng chủ động chọn điều chiếm giữ 
 ## Sources
 
 - [[src_5-most-important-skills-2026-stoic-wisdoms]]
+- [[src_impossible-to-manipulate-dan-koe]]

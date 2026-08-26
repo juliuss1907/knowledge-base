@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-25 23:36 (Hygiene Inspector: report 08-25 added — 1E; workspace-state orphan lần 4 liên tiếp, đã root-caused)
+**Last updated:** 2026-08-26 23:02 (Output Validator: report 08-26 added — 2 issues, 0E+1W+1I; batch 13 mới sạch, forward-refs only)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-26 | Output | 2 (0E+1W+1I) | Review [wiki/reviews/2026-08-26_output-report.md](2026-08-26_output-report.md) — forward-refs (deep-work/synthid/llm-output-detection) + empty Notes |
 | 🔍 PENDING | 08-25 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-25_format-report.md](2026-08-25_format-report.md) |
 | 🔍 PENDING | 08-25 | Hygiene | 1 (1E) | Review [wiki/reviews/2026-08-25_hygiene-report.md](2026-08-25_hygiene-report.md) — root json lần 4, KHÔNG xóa |
 | PENDING | 08-25 | Output | 3 (0E+2W+1I) | Awaiting review — 5 typo carry-over capital-I dạng ASCII-preceded (sed đơn giản); depth-debt baseline chờ Julius quyết định; tooling optional quick-scan |
@@ -87,6 +88,13 @@
 - **Report:** `wiki/reviews/2026-08-25_output-report.md`
 - **Summary:** 712 file checked (180 sources + 532 concepts), 6 mới (1 source + 5 concepts — daily-planning cluster Dickie Bush). 3 issues: 0 ERROR, 2 WARNING, 1 INFO. File mới sạch hoàn toàn: PASS cả 4 chiều, wikilink resolve hết (kể cả frontmatter `original:` → raw/posts tồn tại), 0 typo. Variant-5 dropped-i grep = 0 lần thứ 3 liên tiếp. WARNING 1: carry-over capital-I dạng MỚI nằm ngoài mọi detector — ký tự trước I là ASCII thường (`tương laI` ×2 sources, `thực thI` ×2 concepts, `khả thI` ×1 concept — 5 instances/5 file cũ). WARNING 2: [SYSTEMIC] baseline depth-debt đầu tiên đo được chính xác sau patch quick-scan — 111 concepts definition ≤1 câu + 84 concepts key ideas <5, 100% legacy (last_updated < 2026-08), không phải regression của batch mới.
 - **Actions needed:** (1) sed fix 5 typo: `s/tương laI/tương lai/g` trên src_the-5-laws-of-people-who-never-chase.md + src_is-there-anything-left-build-crypto-wintermute.md; `s/thực thI/thực thi/g` trên agentic-commerce.md + autonomous-agents.md; `s/khả thI/khả thi/g` trên machine-economy.md; (2) quyết định chiến lược depth-debt với Julius — chấp nhận làm baseline hay backfill 5-10 concepts/lần Fix Agent chạy; (3) tooling optional: thêm detection `[ascii-letter]I` vào quick-scan (cẩn thận acronym AI — xem Production Lessons 2026-08-25)
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-08-26 (23:02)
+
+- **Report:** `wiki/reviews/2026-08-26_output-report.md`
+- **Summary:** 724 file checked (184 sources + 540 concepts), 13 mới (4 sources + 9 concepts — essential-skills + ai-writing + french-theory clusters). 2 issues: 0 ERROR, 1 WARNING, 1 INFO. Batch sạch gần hoàn toàn: 12/13 file PASS cả 4 chiều; lần thứ TƯ liên tiếp dropped-i variant-5 grep = 0; cả 5 biến thể typo Compile Agent đều 0 instances. Hoàn toàn sạch depth-debt (mọi concept mới definition 2-3 câu + 6+ key ideas); 4 frontmatter `original:` → raw/articles/ tồn tại. WARNING 1: 3 forward-reference wikilink tới concept chưa tồn tại — `[[deep-work]]` (đã trong Top-20 broken pool Format 08-25, 4 refs) + `[[synthid]]`/`[[llm-output-detection]]` (đã ghi nhận Output 08-16) — forward-ref hợp lệ, resolve tự nhiên. INFO 1: `## Notes` rỗng ở EOF `ai-text-watermarking.md` (optional section, cosmetic).
+- **Actions needed:** Không Fix Agent action cần thiết. Forward-refs resolve khi Compile Agent xử lý thêm raw; note nhỏ Compile Agent ưu tiên compile `deep-work` (4 refs KB-wide). Optional: Fix Agent xóa header `## Notes` rỗng trong `ai-text-watermarking.md`.
 - **Status:** pending
 
 ### ✅ Format Validation — 2026-08-24 (23:16) — APPLIED

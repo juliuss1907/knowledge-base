@@ -209,3 +209,12 @@ Files checked: 891
 - **File mới sạch hoàn toàn:** 0 typo, wikilinks resolve hết (kể cả `original:` → raw/posts), PASS cả 4 chiều; variant-5 dropped-i grep = 0 lần thứ 3 liên tiếp
 - **WARNING mới — capital-I sub-pattern nằm ngoài detector:** 5 instances/5 file cũ, ký tự trước I là ASCII thường (`tương laI` ×2 sources, `thực thI` ×2, `khả thI` ×1) — mọi regex hiện có (diacritic-preceded) đều miss. Sed fix đơn giản từng từ, đã ghi trong report.
 - **[SYSTEMIC] Depth-debt baseline:** lần đầu đo chính xác sau patch quick-scan 08-25 — 111 concepts definition ≤1 câu + 84 concepts key ideas <5, 100% legacy (last_updated < 2026-08). Spot-check thủ công xác nhận là dữ liệu thật, hết thời false-positive era. Chờ Julius quyết định: baseline chấp nhận vs backfill từ từ.
+
+## 2026-08-26 23:02:00 — Output validation
+- **Files checked:** 724 (184 sources + 540 concepts)
+- **New files:** 13 (4 sources + 9 concepts) — essential-skills (stoic-wisdoms 5 skills), ai-writing (a16z habits), french-theory (Danco 10% AI), three-levels-of-thinking (Dan Koe)
+- **Issues found:** 2 (0 ERROR, 1 WARNING, 1 INFO)
+- **Report:** wiki/reviews/2026-08-26_output-report.md
+- **Batch sạch gần hoàn toàn:** 12/13 file PASS cả 4 chiều; lần thứ TƯ liên tiếp dropped-i variant-5 grep = 0; cả 5 biến thể typo Compile Agent đều 0 instances; 4 frontmatter `original:` → raw/articles/ tồn tại; 0 file dính depth-debt (mọi concept mới definition 2-3 câu + 6+ key ideas)
+- **WARNING 1 — forward-refs:** `[[deep-work]]` (attention-management, đã trong Top-20 broken pool Format 08-25, 4 refs) + `[[synthid]]`/`[[llm-output-detection]]` (ai-text-watermarking, đã ghi nhận Output 08-16) — forward-ref hợp lệ, resolve tự nhiên, không Fix Agent action
+- **INFO 1:** `## Notes` rỗng ở EOF ai-text-watermarking.md (optional section per format-spec §2.3, cosmetic)

@@ -5,7 +5,7 @@ url: https://thedankoe.com/p/give-me-20-minutes-and-ill-make-you/
 author: Dan Koe
 date_published: 2026-08-19
 date_ingested: 2026-08-25
-status: unprocessed
+status: processed
 source: thedankoe.substack.com
 ---
 

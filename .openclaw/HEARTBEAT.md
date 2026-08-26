@@ -1,15 +1,15 @@
-# Heartbeat Log — 2026-08-26 07:30 (Asia/Saigon)
+# Heartbeat Log — 2026-08-26 08:00 (Asia/Saigon)
 
 ## Status
 
-⚠️ **CẢNH BÁO** — Carry-over: compile cron + index cron vẫn vắng (chỉ còn heartbeat job), 4 raw files chờ compile, 3 Hermes reports chờ review.
+⚠️ **CẢNH BÁO** — Cửa sổ compile 08:00 vừa lỡ lần 2 liên tiếp (compile cron vắng). Index cron vắng — miss 2 đêm. 3 Hermes reports chờ review.
 
 ## Checks Performed
 
 | Check | Status | Details |
 |-------|--------|---------|
 | Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
-| Raw backlog | ⚠️ 4 files | `raw/articles/` ingest 21:50–22:07 (08-25) — ~10h tuổi. CompileAgent cron vắng → cửa sổ 08:00 hôm nay sẽ lỡ lần 2 liên tiếp nếu không action |
+| Raw backlog | ⚠️ 4 files | `raw/articles/` ingest tối 25/08 — ~10h tuổi. Cửa sổ compile 08:00 hôm nay đã trôi qua không xử lý — lần 2 liên tiếp |
 | Concept backlinks | ✅ Clean | Sample [[memory-extraction-timing]]: 4 backlink refs hợp lệ |
 | Pending reviews | ⚠️ 3 reports | Format 08-25 (391W), Hygiene 08-25 (1E — root json lần 4, KHÔNG xóa), Output 08-25 (2W+1I, gồm 5 typo sed-fix đơn giản) |
 
@@ -25,8 +25,8 @@
 
 ## Notes
 
-1. **[ALERT — carry-over] Compile cron vắng:** Scheduler re-confirmed 07:30 — chỉ có heartbeat job trong cron list. 4 raw files sẽ trôi qua cửa sổ 08:00 thứ 2 liên tiếp. Julius cần re-tạo cron hoặc bảo "compile all".
-2. **[ALERT — carry-over] Index cron vắng:** Index Agent 21:00 không chạy 2 đêm liền. Cần re-tạo cron.
+1. **[ALERT] Compile cửa sổ lỡ lần 2:** Scheduler re-confirmed 08:00 — chỉ có heartbeat job trong cron list. Julius cần re-tạo cron hoặc bảo "compile all".
+2. **[ALERT] Index cron vắng:** Index Agent 21:00 không chạy 2 đêm liền. Cần re-tạo cron.
 3. **[Carry-over] 3 Hermes reports 08-25:** Format 391W (forward-refs, no action), Hygiene 1E (root json lần 4 — KHÔNG xóa), Output 2W+1I (5 typo sed đơn giản + quyết định depth-debt). Chi tiết: `wiki/reviews/_action-required.md`.
 4. **[Known issue] Root json recycle** — chờ SQLite refactor. Git sạch, file đứng yên.
 

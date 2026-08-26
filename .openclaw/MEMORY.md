@@ -1286,3 +1286,19 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - File: raw/articles/2026-08-25_5-most-important-skills-2026-stoic-wisdoms.md
 - Source: https://stoicwisdoms.substack.com/p/the-5-most-important-skills-to-learn-2026 (Stoic Wisdoms, published 2026-04-06)
 - Index updated: raw/articles/articles.md
+
+## 2026-08-26 08:55:00 — Compiled
+
+- **Raw:** raw/articles/2026-08-25_5-most-important-skills-2026-stoic-wisdoms.md
+- **Source note:** wiki/sources/src_5-most-important-skills-2026-stoic-wisdoms.md
+- **Concepts:** [critical-thinking, attention-management, financial-literacy]
+- **Tags applied:** main=#productivity, sub=[#psychology, #opinion], topic=essential-skills-2026
+- **Action:** created 3 concept files (critical-thinking.md mới dù có src cũ; attention-management + financial-literacy hoàn toàn mới)
+
+## 2026-08-26 08:58:00 — Compiled
+
+- **Raw:** raw/articles/2026-08-25_habits-of-ai-writing-a16z-crypto.md
+- **Source note:** wiki/sources/src_habits-of-ai-writing-a16z-crypto.md
+- **Concepts:** [ai-writing-hallmarks, paraphrase-test]
+- **Tags applied:** main=#ai, sub=[#opinion], topic=ai-writing-habits
+- **Action:** created 2 concept files

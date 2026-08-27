@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[moores-law]]"
+parent: "[[topic]]"
 topic: moores-law
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: moores-law
 
 Auto-generated index of all content with topic `moores-law`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -21,9 +21,8 @@ Last updated: 2026-08-26 21:22:06
 
 ## Sources (0)
 
-<!-- none -->
+- (none)
 
 ## Related topics
 
-Topics that share concepts/sources with `moores-law`:
-<!-- none -->
+- (none)

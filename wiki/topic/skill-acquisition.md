@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[skill-acquisition]]"
+parent: "[[topic]]"
 topic: skill-acquisition
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: skill-acquisition
 
 Auto-generated index of all content with topic `skill-acquisition`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -26,5 +26,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `skill-acquisition`:
-<!-- none -->
+- (none)

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[agent-backtesting]]"
+parent: "[[topic]]"
 topic: agent-backtesting
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: agent-backtesting
 
 Auto-generated index of all content with topic `agent-backtesting`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -27,5 +27,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `agent-backtesting`:
-<!-- none -->
+- (none)

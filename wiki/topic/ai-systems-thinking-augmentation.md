@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[ai-systems-thinking-augmentation]]"
+parent: "[[topic]]"
 topic: ai-systems-thinking-augmentation
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: ai-systems-thinking-augmentation
 
 Auto-generated index of all content with topic `ai-systems-thinking-augmentation`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -27,5 +27,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `ai-systems-thinking-augmentation`:
-<!-- none -->
+- (none)

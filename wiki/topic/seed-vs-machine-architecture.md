@@ -1,23 +1,23 @@
 ---
 type: index
 scope: topic
-parent: "[[seed-vs-machine-architecture]]"
+parent: "[[topic]]"
 topic: seed-vs-machine-architecture
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: seed-vs-machine-architecture
 
 Auto-generated index of all content with topic `seed-vs-machine-architecture`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
 ## Concepts (0)
 
-<!-- none -->
+- (none)
 
 ## Sources (1)
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `seed-vs-machine-architecture`:
-<!-- none -->
+- (none)

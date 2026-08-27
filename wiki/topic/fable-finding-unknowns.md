@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[fable-finding-unknowns]]"
+parent: "[[topic]]"
 topic: fable-finding-unknowns
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: fable-finding-unknowns
 
 Auto-generated index of all content with topic `fable-finding-unknowns`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `fable-finding-unknowns`:
-<!-- none -->
+- (none)

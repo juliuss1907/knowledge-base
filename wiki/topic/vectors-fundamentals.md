@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[vectors-fundamentals]]"
+parent: "[[topic]]"
 topic: vectors-fundamentals
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: vectors-fundamentals
 
 Auto-generated index of all content with topic `vectors-fundamentals`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -28,5 +28,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `vectors-fundamentals`:
-<!-- none -->
+- (none)

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[product-vs-prototype]]"
+parent: "[[topic]]"
 topic: product-vs-prototype
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: product-vs-prototype
 
 Auto-generated index of all content with topic `product-vs-prototype`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `product-vs-prototype`:
-<!-- none -->
+- (none)

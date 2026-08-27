@@ -1,23 +1,23 @@
 ---
 type: index
 scope: topic
-parent: "[[leverage-wealth]]"
+parent: "[[topic]]"
 topic: leverage-wealth
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: leverage-wealth
 
 Auto-generated index of all content with topic `leverage-wealth`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
 ## Concepts (0)
 
-<!-- none -->
+- (none)
 
 ## Sources (1)
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `leverage-wealth`:
-<!-- none -->
+- (none)

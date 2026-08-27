@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[self-discovery-serendipity]]"
+parent: "[[topic]]"
 topic: self-discovery-serendipity
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: self-discovery-serendipity
 
 Auto-generated index of all content with topic `self-discovery-serendipity`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -27,5 +27,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `self-discovery-serendipity`:
-<!-- none -->
+- (none)

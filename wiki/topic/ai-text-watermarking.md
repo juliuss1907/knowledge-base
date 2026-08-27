@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[ai-text-watermarking]]"
+parent: "[[topic]]"
 topic: ai-text-watermarking
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: ai-text-watermarking
 
 Auto-generated index of all content with topic `ai-text-watermarking`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `ai-text-watermarking`:
-<!-- none -->
+- (none)

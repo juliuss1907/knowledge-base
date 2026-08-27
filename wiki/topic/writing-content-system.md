@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[writing-content-system]]"
+parent: "[[topic]]"
 topic: writing-content-system
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: writing-content-system
 
 Auto-generated index of all content with topic `writing-content-system`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -28,5 +28,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `writing-content-system`:
-<!-- none -->
+- (none)

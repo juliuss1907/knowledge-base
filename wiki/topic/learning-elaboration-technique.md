@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[learning-elaboration-technique]]"
+parent: "[[topic]]"
 topic: learning-elaboration-technique
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: learning-elaboration-technique
 
 Auto-generated index of all content with topic `learning-elaboration-technique`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -28,5 +28,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `learning-elaboration-technique`:
-<!-- none -->
+- (none)

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[ai-agent-tool-platform]]"
+parent: "[[topic]]"
 topic: ai-agent-tool-platform
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: ai-agent-tool-platform
 
 Auto-generated index of all content with topic `ai-agent-tool-platform`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -27,5 +27,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `ai-agent-tool-platform`:
-<!-- none -->
+- (none)

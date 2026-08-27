@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[job-evaluation-framework]]"
+parent: "[[topic]]"
 topic: job-evaluation-framework
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: job-evaluation-framework
 
 Auto-generated index of all content with topic `job-evaluation-framework`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `job-evaluation-framework`:
-<!-- none -->
+- (none)

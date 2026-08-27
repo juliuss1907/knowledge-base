@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[hermes-xai-grok-integration]]"
+parent: "[[topic]]"
 topic: hermes-xai-grok-integration
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: hermes-xai-grok-integration
 
 Auto-generated index of all content with topic `hermes-xai-grok-integration`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -29,5 +29,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `hermes-xai-grok-integration`:
-<!-- none -->
+- (none)

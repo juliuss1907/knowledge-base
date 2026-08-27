@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[code-as-agent-harness]]"
+parent: "[[topic]]"
 topic: code-as-agent-harness
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: code-as-agent-harness
 
 Auto-generated index of all content with topic `code-as-agent-harness`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -27,5 +27,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `code-as-agent-harness`:
-<!-- none -->
+- (none)

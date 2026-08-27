@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[systems-thinking-tools]]"
+parent: "[[topic]]"
 topic: systems-thinking-tools
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: systems-thinking-tools
 
 Auto-generated index of all content with topic `systems-thinking-tools`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -29,5 +29,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `systems-thinking-tools`:
-<!-- none -->
+- (none)

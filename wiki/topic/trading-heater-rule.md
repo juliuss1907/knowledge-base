@@ -1,23 +1,23 @@
 ---
 type: index
 scope: topic
-parent: "[[trading-heater-rule]]"
+parent: "[[topic]]"
 topic: trading-heater-rule
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: trading-heater-rule
 
 Auto-generated index of all content with topic `trading-heater-rule`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
 ## Concepts (0)
 
-<!-- none -->
+- (none)
 
 ## Sources (1)
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `trading-heater-rule`:
-<!-- none -->
+- (none)

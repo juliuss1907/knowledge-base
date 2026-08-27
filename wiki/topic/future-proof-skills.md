@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[future-proof-skills]]"
+parent: "[[topic]]"
 topic: future-proof-skills
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: future-proof-skills
 
 Auto-generated index of all content with topic `future-proof-skills`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -26,5 +26,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `future-proof-skills`:
-<!-- none -->
+- (none)

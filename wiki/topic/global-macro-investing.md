@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[global-macro-investing]]"
+parent: "[[topic]]"
 topic: global-macro-investing
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: global-macro-investing
 
 Auto-generated index of all content with topic `global-macro-investing`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `global-macro-investing`:
-<!-- none -->
+- (none)

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[simplicity-psychology]]"
+parent: "[[topic]]"
 topic: simplicity-psychology
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: simplicity-psychology
 
 Auto-generated index of all content with topic `simplicity-psychology`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -29,5 +29,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `simplicity-psychology`:
-<!-- none -->
+- (none)

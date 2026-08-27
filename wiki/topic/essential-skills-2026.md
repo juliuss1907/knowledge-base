@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[essential-skills-2026]]"
+parent: "[[topic]]"
 topic: essential-skills-2026
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: essential-skills-2026
 
 Auto-generated index of all content with topic `essential-skills-2026`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -27,5 +27,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `essential-skills-2026`:
-<!-- none -->
+- (none)

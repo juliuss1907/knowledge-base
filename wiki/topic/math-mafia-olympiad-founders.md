@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[math-mafia-olympiad-founders]]"
+parent: "[[topic]]"
 topic: math-mafia-olympiad-founders
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: math-mafia-olympiad-founders
 
 Auto-generated index of all content with topic `math-mafia-olympiad-founders`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -27,5 +27,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `math-mafia-olympiad-founders`:
-<!-- none -->
+- (none)

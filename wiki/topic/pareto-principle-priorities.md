@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[pareto-principle-priorities]]"
+parent: "[[topic]]"
 topic: pareto-principle-priorities
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: pareto-principle-priorities
 
 Auto-generated index of all content with topic `pareto-principle-priorities`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `pareto-principle-priorities`:
-<!-- none -->
+- (none)

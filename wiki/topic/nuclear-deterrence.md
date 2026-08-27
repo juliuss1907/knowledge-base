@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[nuclear-deterrence]]"
+parent: "[[topic]]"
 topic: nuclear-deterrence
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: nuclear-deterrence
 
 Auto-generated index of all content with topic `nuclear-deterrence`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `nuclear-deterrence`:
-<!-- none -->
+- (none)

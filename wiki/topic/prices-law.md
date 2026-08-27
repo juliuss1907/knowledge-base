@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[prices-law]]"
+parent: "[[topic]]"
 topic: prices-law
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: prices-law
 
 Auto-generated index of all content with topic `prices-law`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -27,5 +27,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `prices-law`:
-<!-- none -->
+- (none)

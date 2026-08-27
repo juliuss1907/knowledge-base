@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[r3-get-in-shape]]"
+parent: "[[topic]]"
 topic: r3-get-in-shape
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: r3-get-in-shape
 
 Auto-generated index of all content with topic `r3-get-in-shape`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -26,5 +26,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `r3-get-in-shape`:
-<!-- none -->
+- (none)

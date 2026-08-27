@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[leverage-mental-model]]"
+parent: "[[topic]]"
 topic: leverage-mental-model
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: leverage-mental-model
 
 Auto-generated index of all content with topic `leverage-mental-model`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -28,5 +28,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `leverage-mental-model`:
-<!-- none -->
+- (none)

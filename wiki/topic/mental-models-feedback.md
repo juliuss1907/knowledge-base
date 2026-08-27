@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[mental-models-feedback]]"
+parent: "[[topic]]"
 topic: mental-models-feedback
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: mental-models-feedback
 
 Auto-generated index of all content with topic `mental-models-feedback`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `mental-models-feedback`:
-<!-- none -->
+- (none)

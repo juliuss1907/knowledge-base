@@ -1354,3 +1354,13 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Archived:** 9 report files → `wiki/reviews/archive/2026-08/`
 - **Files modified:** 3 concepts (key ideas), _action-required.md updated
 - **Counts:** raw 0 unprocessed, concepts 548, sources 185
+
+## 2026-08-27 21:07:00 — Indexed (daily 21:00 cron)
+
+- Scanned: 548 concepts + 185 sources
+- Tags indexed: 24 (9 main-tags + 18 sub-tags in use)
+- Topics indexed: 217
+- Orphans deleted: 0
+- Invalid tags: 0
+- Skipped files: 0
+- 15 files changed since last run (2026-08-26), fell back to full rebuild for consistency

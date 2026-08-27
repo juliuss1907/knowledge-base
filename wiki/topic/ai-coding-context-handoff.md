@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[ai-coding-context-handoff]]"
+parent: "[[topic]]"
 topic: ai-coding-context-handoff
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: ai-coding-context-handoff
 
 Auto-generated index of all content with topic `ai-coding-context-handoff`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -29,5 +29,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `ai-coding-context-handoff`:
-<!-- none -->
+- (none)

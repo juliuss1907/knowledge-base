@@ -5,20 +5,14 @@ scope: tags
 parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
-last_updated: 2026-08-22
+last_updated: 2026-08-27
 ---
 
-# Tag Index
-
-Master index of all tags in the Knowledge Base.
-
-Last updated: 2026-08-22 21:19:34
-
----
+# Tags Index
 
 ## Overview
 
-Master index of all tags used in the Knowledge Base. Tracks statistics, files per tag, and co-occurrence relationships across both main-tags (Pool A) and sub-tags (Pool B).
+Master index of all tags used across the wiki. Each entry links to a tag file (`wiki/tag/<tag>.md`) listing all files with that tag.
 
 ## Parent
 
@@ -28,44 +22,45 @@ Master index of all tags used in the Knowledge Base. Tracks statistics, files pe
 
 - Total tags: 24
 - Main tags: 9
-- Sub tags: 15
+- Sub tags: 18
 - Most used: #productivity (313), #psychology (311), #research (266)
-- Last updated: 2026-08-26
+- Last updated: 2026-08-27
 
 ## Items
 
 ### Main Tags (Pool A)
 
-- [[ai]]
-- [[crypto]]
-- [[economic]]
-- [[health]]
-- [[investment]]
-- [[politic]]
-- [[productivity]]
-- [[system]]
-- [[tech]]
+- [[ai]] — 195 files
+- [[crypto]] — 15 files
+- [[economic]] — 89 files
+- [[health]] — 53 files
+- [[investment]] — 12 files
+- [[politic]] — 21 files
+- [[productivity]] — 313 files
+- [[system]] — 50 files
+- [[tech]] — 36 files
 
 ### Sub Tags (Pool B)
 
-- [[automation]]
-- [[coding]]
-- [[defi]]
-- [[geopolitics]]
-- [[hack]]
-- [[law]]
-- [[layer1]]
-- [[layer2]]
-- [[news]]
-- [[opinion]]
-- [[perpdex]]
-- [[psychology]]
-- [[research]]
-- [[strategy]]
-- [[tools]]
-- [[tutorial]]
-- [[vibecode]]
+- [[ai]] — 195 files
+- [[automation]] — 90 files
+- [[coding]] — 31 files
+- [[defi]] — 7 files
+- [[geopolitics]] — 8 files
+- [[hack]] — 28 files
+- [[health]] — 53 files
+- [[law]] — 5 files
+- [[layer1]] — 4 files
+- [[news]] — 12 files
+- [[opinion]] — 258 files
+- [[psychology]] — 311 files
+- [[research]] — 266 files
+- [[strategy]] — 22 files
+- [[system]] — 50 files
+- [[tools]] — 202 files
+- [[tutorial]] — 88 files
+- [[vibecode]] — 10 files
 
 ## Notes
 
-L2 master — không tự sinh lại nội dung Items; chỉ Index Agent bổ sung tag mới. `build_index.py` phải giữ nguyên file này (không xóa như orphan).
+<!-- Free space for Julius -->

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[trading-state-policy]]"
+parent: "[[topic]]"
 topic: trading-state-policy
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: trading-state-policy
 
 Auto-generated index of all content with topic `trading-state-policy`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -26,5 +26,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `trading-state-policy`:
-<!-- none -->
+- (none)

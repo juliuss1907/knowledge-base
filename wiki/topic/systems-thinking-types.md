@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[systems-thinking-types]]"
+parent: "[[topic]]"
 topic: systems-thinking-types
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: systems-thinking-types
 
 Auto-generated index of all content with topic `systems-thinking-types`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -25,5 +25,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `systems-thinking-types`:
-<!-- none -->
+- (none)

@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[independent-investment-research]]"
+parent: "[[topic]]"
 topic: independent-investment-research
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: independent-investment-research
 
 Auto-generated index of all content with topic `independent-investment-research`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -26,5 +26,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `independent-investment-research`:
-<!-- none -->
+- (none)

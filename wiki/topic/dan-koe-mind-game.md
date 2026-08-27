@@ -1,17 +1,17 @@
 ---
 type: index
 scope: topic
-parent: "[[dan-koe-mind-game]]"
+parent: "[[topic]]"
 topic: dan-koe-mind-game
 auto_generated: true
-last_updated: 2026-08-26
+last_updated: 2026-08-27
 ---
 
 # Topic: dan-koe-mind-game
 
 Auto-generated index of all content with topic `dan-koe-mind-game`.
 
-Last updated: 2026-08-26 21:22:06
+Last updated: 2026-08-27 21:06:35
 
 ---
 
@@ -31,5 +31,4 @@ Last updated: 2026-08-26 21:22:06
 
 ## Related topics
 
-Topics that share concepts/sources with `dan-koe-mind-game`:
-<!-- none -->
+- (none)

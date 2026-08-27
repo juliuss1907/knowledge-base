@@ -1,8 +1,7 @@
 model:
   default: deepseek-v4-flash
-  provider: custom
+  provider: custom:b.ai
   base_url: https://api.b.ai/v1
-  api_key: sk-3zmwicui68owdne6ygx2jk39pjl51jnm
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}

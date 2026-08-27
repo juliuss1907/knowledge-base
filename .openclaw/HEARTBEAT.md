@@ -1,19 +1,19 @@
-## 2026-08-27 22:30 (Asia/Saigon)
+## 2026-08-28 01:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK**
 
 | Check | Status | Details |
 |-------|--------|---------|
-| Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
-| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 |
-| wiki/concepts | 548 | spot-check OK (investment-conviction, iterated-game-theory — frontmatter + source links đầy đủ) |
+| Inbox (`Tasks/`) | ✅ Clean | Không `Tasks/` dir — không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 (192 raw files) |
+| wiki/concepts | 548 | spot-check OK (character-change-signal, abstraction-layer-fallacy — sources đầy đủ) |
 | wiki/sources | 185 | — |
-| Pending reviews | ✅ 0 | Toàn bộ reports đã duyệt + applied (19:30) |
+| Pending reviews | ⚠️ 1 pending | Format 08-27 (forward-refs, action=none — chờ Julius duyệt) |
 
 ## Notes
 
-1. Index 21:06 chạy OK — 25 tags, 217 topics, không lỗi.
-2. [Known issue] `wiki/HEARTBEAT.md` symlink tái diễn lần 2 (08-26/08-27) — chờ process-level fix, git-ignored nên không vào commit. Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
+1. Compile cron kế tiếp: 28/08 08:00; index cron 21:00 hôm nay.
+2. [Known issue] `wiki/HEARTBEAT.md` symlink tái diễn (git-ignored, chờ process-level fix). Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
 
 > Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
 

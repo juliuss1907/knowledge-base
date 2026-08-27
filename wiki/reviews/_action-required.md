@@ -4,17 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-26 23:30 (Hygiene Validator: report 08-26 added — 2 issues, 2 ERROR)
+**Last updated:** 2026-08-27 19:18 (Hygiene Validator: report 08-27 added — 2 issues, 2 ERROR)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 9
 **Last batch applied:** 3 reports (08-23) — 2026-08-24 by Fix Agent (content fixes applied inline by Connor 09:48)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-27 | Output | 2 (0E+1W+1I) | Review [wiki/reviews/2026-08-27_output-report.md](2026-08-27_output-report.md) — 3/8 concept key ideas <5 (batch-vs-live-inference 4, cloud-cost-governance 3, secrets-management 4) + Notes rỗng 8/8 |
+| 🔍 PENDING | 08-27 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-27_format-report.md](2026-08-27_format-report.md) — exact-zero-flat, Top-20 identical |
+| 🔍 PENDING | 08-27 | Hygiene | 2 (2E) | Review [wiki/reviews/2026-08-27_hygiene-report.md](2026-08-27_hygiene-report.md) — root json lần 6 + HEARTBEAT symlink leak, KHÔNG xóa |
 | 🔍 PENDING | 08-26 | Output | 2 (0E+1W+1I) | Review [wiki/reviews/2026-08-26_output-report.md](2026-08-26_output-report.md) — forward-refs (deep-work/synthid/llm-output-detection) + empty Notes |
 | 🔍 PENDING | 08-26 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-26_format-report.md](2026-08-26_format-report.md) |
 | 🔍 PENDING | 08-26 | Hygiene | 2 (2E) | Review [wiki/reviews/2026-08-26_hygiene-report.md](2026-08-26_hygiene-report.md) — root json lần 5 + HEARTBEAT leak, KHÔNG xóa |
@@ -70,6 +73,27 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-08-27 (19:10)
+
+- **Report:** `wiki/reviews/2026-08-27_output-report.md`
+- **Summary:** 733 file checked (185 sources + 548 concepts), 9 mới (1 source + 8 concepts — gcp-ai-startup-governance cluster từ Google Cloud blog). 2 issues: 0 ERROR, 1 WARNING, 1 INFO. Batch sạch hoàn toàn về typo + link: cả 5 biến thể typo Compile Agent = 0 instances, dropped-i variant-5 grep = 0 lần thứ NĂM liên tiếp; 0 forward-refs (10 targets trong Related concepts đều đã tồn tại — kiểm tra trực tiếp); 0 truncated; frontmatter `original:` → raw/articles/ tồn tại. WARNING 1: 3/8 concept mới có Key ideas < 5 — `batch-vs-live-inference` 4, `cloud-cost-governance` 3, `secrets-management` 4 — lần đầu kể từ 08-26 có concept mới nằm trong depth-debt subset (nội dung đủ chất lượng, bullet mẹ chứa sub-list chi tiết, không phải lỗi nghiêm trọng). INFO 1: `## Notes` rỗng ở EOF 8/8 concept mới (optional section, cosmetic — precedent 08-26).
+- **Actions needed:** Không Fix Agent action bắt buộc. Optional: Fix Agent tách sub-bullets thành top-level key ideas cho 3 file trên (đặc biệt `cloud-cost-governance` 3 lớp spend control xứng đáng 3 items riêng); xóa header `## Notes` rỗng ở 8 file. Không blocking.
+- **Status:** pending
+
+### 🔍 Format Validation — 2026-08-27 (19:15)
+
+- **Report:** `wiki/reviews/2026-08-27_format-report.md`
+- **Summary:** 975 files checked (548 concepts + 185 sources + 34 indexes + 208 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (372 individual + 19 forward-reference groups, 268 unique targets). Clean ERROR streak ngày thứ 11 liên tiếp. KB grew +9 files qua git reconciliation (+8 concepts, +1 source — gcp-ai-startup-governance cluster; 0 merge/delete). Debt exactly flat 391→391 — EXACT-ZERO-FLAT: unique targets 268 flat (day 2 sau khi hết plateau 269), Top-20 list identical 08-26 (same slugs, same counts), individual 372 flat, forward groups 19 flat. 9 file mới đóng góp 0 broken wikilink (verify Output validator: mọi target đã tồn tại). No structural violations.
+- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required. Ghi nhận: `[[game-theory]]` (10 refs) + `[[deep-work]]` (5 refs) là 2 target phổ biến nhất chưa compile.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-08-27 (19:18)
+
+- **Report:** `wiki/reviews/2026-08-27_hygiene-report.md`
+- **Summary:** 55902 paths checked (+18 so với 08-26). 2 issues: 2 ERROR. (1) `openclaw-workspace-state.json` ở KB root, LẦN 6 LIÊN TIẾP (08-22 → 08-27). Root cause ĐÃ CONFIRM trong vendor source (SKILL.md v1.21 pitfall #9): OpenClaw coi mọi thư mục chứa AGENTS.md là workspace, state path resolve CWD-relative by design → writer ghi vào KB root mỗi session bootstrap. Git-level SẠCH: untracked + `.gitignore` guard hiệu lực; disk-level orphan persists (69 bytes, mtime 08-24 10:00 — không write mới). (2) `wiki/HEARTBEAT.md` — symlink → `../../.openclaw/HEARTBEAT.md`, tái diễn lần 2 liên tiếp (08-26, 08-27) sau khi sạch 08-25; untracked + gitignored (`.gitignore:78`), không vào commit. Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 6 liên tiếp; không naming violation; không empty directory.
+- **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 7 — deletion proven futile x3 (recycle < 1h nhanh nhất). KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` theo pitfall #9. Với `wiki/HEARTBEAT.md`: cần process-level fix (xác định process tạo symlink HEARTBEAT vào wiki/) trước khi xóa — file deletion là transient nếu writer còn active. Hướng dài hạn: chờ OpenClaw SQLite workspace-state refactor.
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-08-26 (23:30)
 

@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-27 19:30 (Approve all — 9 reports 08-25/08-26/08-27 approved + applied)
+**Last updated:** 2026-08-27 23:15 (Format validation — 2nd run 08-27: +9 topic files, 391W flat)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 9 reports (08-25/08-26/08-27) — 2026-08-27 by Connor (5 capital-I typos + 9 empty Notes removed inline; format/hygiene deferred per escalation)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-27 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-27_format-report.md](2026-08-27_format-report.md) |
 | ✅ APPLIED | 08-27 | Output | 2 (0E+1W+1I) | Applied 2026-08-27 — Notes rỗng 8/8 removed; key ideas <5 FIXED by Fix Agent (cloud-cost-governance 3→6, batch-vs-live-inference 4→7, secrets-management 4→6) |
 | ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-27 — forward-refs only, no action needed |
 | ✅ APPLIED | 08-27 | Hygiene | 2 (2E) | Applied 2026-08-27 — deferred (root json lần 6 + HEARTBEAT): KHÔNG xóa, chờ process-level fix |
@@ -73,6 +74,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-27 (23:15 — 2nd run)
+
+- **Report:** `wiki/reviews/2026-08-27_format-report.md`
+- **Summary:** 984 files checked (548 concepts + 185 sources + 34 indexes + 217 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (372 individual + 19 forward-reference groups, 268 unique targets). Clean ERROR streak giữ vững (ngày thứ 11 liên tiếp). KB grew +9 files so với 19:15 run qua git reconciliation (+9 topics — Index Agent tạo topic pages 21:09 cho gcp-ai-startup-governance cluster; 0 concepts/sources mới, 0 merge/delete). Debt exactly flat 391→391 — EXACT-ZERO-FLAT: unique targets 268 flat (day 3 sau khi hết plateau 269), Top-20 list identical 19:15 run (same slugs, same counts), individual 372 flat, forward groups 19 flat. 9 topic pages mới đóng góp 0 broken wikilink (auto-generated aggregators, không forward-refs). No structural violations.
+- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required. Ghi nhận: `[[game-theory]]` (10 refs) + `[[deep-work]]` (5 refs) là 2 target phổ biến nhất chưa compile.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-08-27 (19:10)
 

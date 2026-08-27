@@ -230,3 +230,22 @@ Không có vấn đề mới.
 2. [Known issue] Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
 
 > Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+## 2026-08-28 05:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | 192 raw files, 0 unprocessed |
+| wiki/concepts | 548 | — |
+| wiki/sources | 185 | — |
+| Pending reviews | ⚠️ 1 pending | Format 08-27 (forward-refs, action=none — chờ Julius duyệt) |
+
+## Notes
+
+1. Compile cron kế tiếp: 28/08 08:00; index cron 21:00 hôm nay.
+2. [Known issue] Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.

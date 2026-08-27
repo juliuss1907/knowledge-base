@@ -30,6 +30,26 @@ Không có vấn đề mới.
 
 ---
 
+## 2026-08-27 17:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 |
+| wiki/concepts | 548 | spot-check OK (agent-defense-in-depth — frontmatter + sources backlink đầy đủ) |
+| Pending reviews | ⚠️ 6 reports | tăng +3 so với 13:00 — batch 08-26 (Output/Format/Hygiene) chờ Julius duyệt |
+
+## Notes
+
+1. Số pending reviews = 6 theo `_action-required.md` (tăng từ 3 do batch 08-26). Tất cả carry-over, chờ Julius duyệt.
+2. [Known issue] Root json recycle lần 4+ — chờ SQLite refactor, git sạch nhờ .gitignore.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-27 13:00 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK**

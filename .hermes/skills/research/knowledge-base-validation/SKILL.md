@@ -226,6 +226,17 @@ Older reports and archived files may still contain literal `pending` in historic
 
 When Julius says "approve all report" / "apply all report", the efficient flow is: approve pending reports (status → `approved` + `**Approved by:** Julius`) **and immediately apply the mechanical fixes inline** — typos, wrong slugs, duplicate sub_tags, root-level hygiene moves. This is sanctioned: root-level hygiene fixes are Connor's zone, and Julius has repeatedly approved direct typo fixes. Wiki content edits beyond mechanical fixes still go to Fix Agent.
 
+**Empty `## Notes` section removal (recurring INFO, 2026-08-26 + 08-27):** Compile Agent appends an empty `## Notes` header (0 lines after it) to concept files. It's OPTIONAL per format-spec §2.3 — cosmetic INFO, non-blocking, but clean it up in the same approval pass. **Verify first** with `tail -4 <file> | cat -A` to see whether there's a trailing blank line after the header, then:
+```bash
+# File ends with "## Notes" + trailing blank line (8/9 cases):
+sed -i '$d' file && sed -i '$d' file     # drop blank line, then drop ## Notes
+# File ends with "## Notes" and NO trailing newline (1/9 cases):
+sed -i '$d' file                          # single $d removes the header
+```
+After removal, `tail -1` should show the last real line of `## Sources`. Never `grep -v '^## Notes$'` or a bare `sed -i '/## Notes/d'` — those strip a populated Notes section if one exists. The `$d`-twice trick is safe because it only touches EOF lines.
+
+**Batch approval bookkeeping (9 reports / 3 dates, 2026-08-27):** when approving many reports at once, after flipping report `**Status:** pending→approved` (via `sed -i '0,/^\*\*Status:\*\* pending/s//**Status:** approved/'`), update `_action-required.md` in this order: (1) `**Pending reports awaiting review:** N` → 0, (2) Summary-table rows `🔍 PENDING` → `✅ APPLIED` for every approved date, (3) each `### 🔍 ...` section heading → `### ✅ ... — APPLIED` plus its `- **Status:**` line → `approved → applied <date> by Connor` with an apply note, (4) `**Last updated:**`. Then run an ad-hoc `hermes-verify-` script asserting: 0 `pending` strings left, pending count = 0, every report file exists with `Status: approved`, and each inline fix landed (typo residue = 0, `## Notes` gone from targets). Vault backup auto-commits ~every 5 min, so `git status` may already be clean by the time you check — verify against disk content + `git show`, not the working-tree diff.
+
 After approving, check whether reports were archived by Fix Agent before patching paths — `wiki/reviews/2026-08-21_*.md` may live in `wiki/reviews/archive/2026-08/` by the time you act. Re-read `_action-required.md` immediately before every write.
 
 ### Bulk Vietnamese typo fixes — regex scope pitfall (2026-08-23)

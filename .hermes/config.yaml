@@ -1,5 +1,5 @@
 model:
-  default: deepseek-v4-flash-vision-exp
+  default: deepseek-v4-flash
   provider: custom
   base_url: https://api.b.ai/v1/
   api_key: sk-22b6c13vn6mylirta8grd2663gig0vks
@@ -760,7 +760,7 @@ custom_providers:
   - name: b.ai
     base_url: https://api.b.ai/v1/
     api_key: sk-22b6c13vn6mylirta8grd2663gig0vks
-    model: deepseek-v4-flash-vision-exp
+    model: deepseek-v4-flash
     api_mode: chat_completions
 plugins:
   enabled: []

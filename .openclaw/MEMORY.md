@@ -1335,3 +1335,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Source: https://cloud.google.com/blog/topics/developers-practitioners/10-questions-for-your-startup-developers (Google Cloud Developers & Practitioners)
 - Topic: Google Cloud AI startup production — AI Studio vs Gemini Enterprise Agent Platform, IAM/service-account auth, DSQ 429s, consumption modes (Standard/Priority PayGo, Provisioned Throughput), spend caps, Secret Manager, agent security
 - Index updated: raw/articles/articles.md (Total 145, unprocessed 1)
+
+## 2026-08-27 08:09:20 +07:00 — Compiled
+- Raw: raw/articles/2026-08-26_10-questions-for-your-startup-developers.md
+- Source note: wiki/sources/src_10-questions-for-your-startup-developers.md
+- Concepts: [gcp-ai-platform-migration, cloud-auth-hierarchy, dynamic-shared-quota, llm-consumption-modes, batch-vs-live-inference, cloud-cost-governance, secrets-management, agent-defense-in-depth]
+- Tags applied: main=#tech, sub=[#tools, #tutorial, #hack], topic=gcp-ai-startup-governance
+- Action: created 1 source note + 8 new concept files (all status: draft)

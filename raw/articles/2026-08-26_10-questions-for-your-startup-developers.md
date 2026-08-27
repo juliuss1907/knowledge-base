@@ -5,7 +5,9 @@ url: https://cloud.google.com/blog/topics/developers-practitioners/10-questions-
 author: Google Cloud (Developers & Practitioners)
 date_published: [unknown]
 date_ingested: 2026-08-26
-status: unprocessed
+status: processed
+compiled_at: 2026-08-27
+compiled_to: "[[src_10-questions-for-your-startup-developers]]"
 source: cloud.google.com
 ---
 

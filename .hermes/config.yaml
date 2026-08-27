@@ -1,9 +1,7 @@
 model:
   default: deepseek-v4-flash
-  provider: custom
-  base_url: https://api.b.ai/v1/
-  api_key: sk-22b6c13vn6mylirta8grd2663gig0vks
-  api_mode: chat_completions
+  provider: custom:b.ai
+  base_url: https://api.b.ai/v1
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}

@@ -30,6 +30,26 @@ Không có vấn đề mới.
 
 ---
 
+## 2026-08-27 13:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | = so với chu kỳ trước |
+| wiki/concepts | 548 | spot-check OK (markus-four-thinking-types — backlinks sources đầy đủ) |
+| Pending reviews | ⚠️ 3 reports | [Carry-over] Format 08-25 + Hygiene 08-25 + Output 08-25 — chờ Julius duyệt |
+
+## Notes
+
+1. Compile 27/08 08:00 đã chạy: sources 184→185, concepts 540→548. 0 raw unprocessed.
+2. [Known issue] Root json recycle lần 4 — chờ SQLite refactor, git sạch nhờ .gitignore.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-26 19:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK**

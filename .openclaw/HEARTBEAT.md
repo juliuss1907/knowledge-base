@@ -190,3 +190,22 @@ Không có vấn đề mới.
 > Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
 
 ---
+
+## 2026-08-28 03:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 (192 raw files) |
+| wiki/concepts | 548 | spot-check OK (game-theory, deep-work — frontmatter + backlinks đầy đủ) |
+| wiki/sources | 185 | — |
+| Pending reviews | ⚠️ 1 pending | Format 08-27 (forward-refs, action=none — chờ Julius duyệt) |
+
+## Notes
+
+1. Compile cron kế tiếp: 28/08 08:00; index cron 21:00 hôm nay.
+2. [Known issue] Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.

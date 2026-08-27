@@ -34,5 +34,3 @@ Hệ thống các lớp kiểm soát chi phí cloud để ngăn không cho hóa 
 
 - [[src_10-questions-for-your-startup-developers]]
 
-## Notes
-

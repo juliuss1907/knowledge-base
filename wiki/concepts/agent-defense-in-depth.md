@@ -34,5 +34,3 @@ Chiến lược bảo vệ nhiều lớp cho AI agent — cho agent có khả n�
 
 - [[src_10-questions-for-your-startup-developers]]
 
-## Notes
-

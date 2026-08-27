@@ -13,7 +13,7 @@ last_updated: 2026-07-17
 
 ## Definition
 
-Agentic commerce (giao thương tác nhân) là hình thức giao dịch và thương mại diễn ra giữa các autonomous agents — các tác nhân AI hoặc robotic có khả năng tự chủ trong việc đàm phán, thanh toán, và thực thI hợp đồng mà không cần sự can thiệp của con người trong vòng lặp.
+Agentic commerce (giao thương tác nhân) là hình thức giao dịch và thương mại diễn ra giữa các autonomous agents — các tác nhân AI hoặc robotic có khả năng tự chủ trong việc đàm phán, thanh toán, và thực thi hợp đồng mà không cần sự can thiệp của con người trong vòng lặp.
 
 ## Key ideas
 

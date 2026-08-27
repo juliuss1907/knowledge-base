@@ -34,5 +34,3 @@ Quy trình lưu trữ, xoay vòng và phát hiện rò rỉ secret (API keys, to
 
 - [[src_10-questions-for-your-startup-developers]]
 
-## Notes
-

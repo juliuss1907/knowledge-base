@@ -35,5 +35,3 @@ Quá trình chuyển ứng dụng AI từ Google AI Studio (Gemini Developer API
 
 - [[src_10-questions-for-your-startup-developers]]
 
-## Notes
-

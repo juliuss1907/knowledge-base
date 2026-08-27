@@ -41,4 +41,3 @@ AI text watermarking là kỹ thuật nhúng một dấu hiệu không nhìn th�
 - [[src_how-ai-text-watermarking-works]]
 - [[src_this-essay-is-10-percent-ai-generated]]
 
-## Notes

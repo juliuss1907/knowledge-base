@@ -25,7 +25,7 @@ Bài viết phân tích cơ chế tâm lý học và thần kinh học đằng s
 
 ## Key points
 
-- **Law 1 — Dopamine fires on prediction:** Dopamine kích hoạt trên khoảng cách giữa hiện tại và tương laI dự đoán, không phải reward thực tế. Availability hoàn toàn → neurological flatline
+- **Law 1 — Dopamine fires on prediction:** Dopamine kích hoạt trên khoảng cách giữa hiện tại và tương lai dự đoán, không phải reward thực tế. Availability hoàn toàn → neurological flatline
 - **Law 2 — Have somewhere real to return to:** Người thu hút có life với actual substance — work, relationships, interests không cần audience
 - **Law 3 — Outcome independence:** Có thể quan tâm kết quả mà không cần nó — dấu hiệu của options, standards, và attention có giá trị
 - **Law 4 — Stop auditioning:** Ngừng "diễn" — people feel the management happening. Consistency produces trust at nervous system level

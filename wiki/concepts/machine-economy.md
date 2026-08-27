@@ -39,7 +39,7 @@ Machine economy (nền kinh tế máy móc) là khái niệm mô tả nền kinh
 
 ### 1. Models Can Act, Not Just Answer
 - Models đủ tốt để hành động tự chủ và đủ rẻ để chạy unattended
-- Chi phí digital work đang sụp đổ, làm các task trước đây không đáng thời gian của con người trở nên khả thI
+- Chi phí digital work đang sụp đổ, làm các task trước đây không đáng thời gian của con người trở nên khả thi
 
 ### 2. Open Standards Maturing
 - Stablecoins là real settlement rails

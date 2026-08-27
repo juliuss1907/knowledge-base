@@ -35,5 +35,3 @@ Dynamic Shared Quota (DSQ) là cơ chế quota của Gemini Agent Platform dùng
 
 - [[src_10-questions-for-your-startup-developers]]
 
-## Notes
-

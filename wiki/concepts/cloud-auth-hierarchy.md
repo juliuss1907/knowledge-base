@@ -34,5 +34,3 @@ Thứ bậc an toàn của các phương thức xác thực trên Google Cloud �
 
 - [[src_10-questions-for-your-startup-developers]]
 
-## Notes
-

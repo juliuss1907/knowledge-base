@@ -36,5 +36,3 @@ Các chế độ thanh toán/consumption khi gọi model trên Gemini Agent Plat
 
 - [[src_10-questions-for-your-startup-developers]]
 
-## Notes
-

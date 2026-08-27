@@ -34,5 +34,3 @@ Phân loại workload AI thành live inference (người dùng phải thấy k�
 
 - [[src_10-questions-for-your-startup-developers]]
 
-## Notes
-

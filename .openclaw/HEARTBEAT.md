@@ -1,3 +1,24 @@
+## 2026-08-27 22:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 |
+| wiki/concepts | 548 | spot-check OK (investment-conviction, iterated-game-theory — frontmatter + source links đầy đủ) |
+| wiki/sources | 185 | — |
+| Pending reviews | ✅ 0 | Toàn bộ reports đã duyệt + applied (19:30) |
+
+## Notes
+
+1. Index 21:06 chạy OK — 25 tags, 217 topics, không lỗi.
+2. [Known issue] `wiki/HEARTBEAT.md` symlink tái diễn lần 2 (08-26/08-27) — chờ process-level fix, git-ignored nên không vào commit. Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-26 20:13 — ✅ HEARTBEAT_OK
 
 | Check | Value | Δ | Note |

@@ -1342,3 +1342,15 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Concepts: [gcp-ai-platform-migration, cloud-auth-hierarchy, dynamic-shared-quota, llm-consumption-modes, batch-vs-live-inference, cloud-cost-governance, secrets-management, agent-defense-in-depth]
 - Tags applied: main=#tech, sub=[#tools, #tutorial, #hack], topic=gcp-ai-startup-governance
 - Action: created 1 source note + 8 new concept files (all status: draft)
+
+## 2026-08-27 19:49:00 +07:00 — Applied fixes (Fix Agent)
+
+- **Reports:** 9 reports 08-25/08-26/08-27 (format ×3, hygiene ×3, output ×3) — approved by Julius, verified + archived
+- **Fixes applied:**
+  - 5 capital-I typos (tương laI→tương lai ×2, thực thI→thực thi ×2, khả thI→khả thi ×1) — fixed inline 19:30 (Connor), verified 0 matches
+  - Empty `## Notes` headers removed: 8 concepts mới (gcp-ai-startup-governance cluster) + ai-text-watermarking — verified
+  - Key ideas <5 FIXED: cloud-cost-governance 3→6 (tách 3 lớp spend control), batch-vs-live-inference 4→7 (tách 3 câu hỏi phân loại), secrets-management 4→6 (tách 2 kỷ luật rotation/detection)
+- **Deferred (per escalation, KHÔNG xóa):** root json (lần 6, gitignore-guarded, chờ SQLite refactor) + wiki/HEARTBEAT.md symlink leak (chờ process-level fix)
+- **Archived:** 9 report files → `wiki/reviews/archive/2026-08/`
+- **Files modified:** 3 concepts (key ideas), _action-required.md updated
+- **Counts:** raw 0 unprocessed, concepts 548, sources 185

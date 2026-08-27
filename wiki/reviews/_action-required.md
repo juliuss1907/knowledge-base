@@ -15,7 +15,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| ✅ APPLIED | 08-27 | Output | 2 (0E+1W+1I) | Applied 2026-08-27 — Notes rỗng 8/8 removed; key ideas <5 optional (deferred depth-debt) |
+| ✅ APPLIED | 08-27 | Output | 2 (0E+1W+1I) | Applied 2026-08-27 — Notes rỗng 8/8 removed; key ideas <5 FIXED by Fix Agent (cloud-cost-governance 3→6, batch-vs-live-inference 4→7, secrets-management 4→6) |
 | ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-27 — forward-refs only, no action needed |
 | ✅ APPLIED | 08-27 | Hygiene | 2 (2E) | Applied 2026-08-27 — deferred (root json lần 6 + HEARTBEAT): KHÔNG xóa, chờ process-level fix |
 | ✅ APPLIED | 08-26 | Output | 2 (0E+1W+1I) | Applied 2026-08-27 — Notes rỗng ai-text-watermarking removed; forward-refs defer |

@@ -17,10 +17,10 @@ Phân loại workload AI thành live inference (người dùng phải thấy k�
 
 ## Key ideas
 
-- **Ba câu hỏi phân loại traffic:**
-  - Người dùng phải thấy kết quả trong một giây? → Live inference
-  - Chờ vài giây + spinner OK? → Live, nhưng ứng viên cho streaming
-  - Chấp nhận "email khi xong"? → Batch prediction
+- **Câu hỏi 1 — Người dùng phải thấy kết quả trong một giây?** → Live inference
+- **Câu hỏi 2 — Chờ vài giây + spinner OK?** → Live, nhưng ứng viên cho streaming
+- **Câu hỏi 3 — Chấp nhận "email khi xong"?** → Batch prediction
+- **Ba câu hỏi phân loại traffic** — dùng để tách workload khỏi interactive path ngay từ khâu thiết kế, trước khi tối ưu throughput
 - **Batch prediction chạy trong queue riêng** — không tiêu thụ interactive DSQ, giá ~50% of on-demand inference
 - **Ứng viên batch điển hình:** nightly document summarization, background classification signup mới, bulk translation, embedding backfills, evaluation runs trên test set
 - **Đòn bẩy ngay lập tức:** đây thường là thay đổi value cao nhất có thể làm trong tuần

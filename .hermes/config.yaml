@@ -1,7 +1,9 @@
 model:
-  default: oc-zen/deepseek-v4-flash
-  provider: custom:9router
-  base_url: http://localhost:20128/v1
+  default: deepseek-v4-flash-vision-exp
+  provider: custom
+  base_url: https://api.b.ai/v1/
+  api_key: sk-22b6c13vn6mylirta8grd2663gig0vks
+  api_mode: chat_completions
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -754,6 +756,11 @@ custom_providers:
     base_url: http://localhost:20128/v1
     api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
     model: Knowledge-base
+    api_mode: chat_completions
+  - name: b.ai
+    base_url: https://api.b.ai/v1/
+    api_key: sk-22b6c13vn6mylirta8grd2663gig0vks
+    model: deepseek-v4-flash-vision-exp
     api_mode: chat_completions
 plugins:
   enabled: []

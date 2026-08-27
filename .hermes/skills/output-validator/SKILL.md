@@ -626,6 +626,30 @@ When the validator runs and finds `wiki/reviews/YYYY-MM-DD_output-report.md` alr
 **Pattern (2026-06-22):** Morning report at 08:20 (24 new files, approved). Evening run at 22:00 found 11 additional files. Produced updated report noting the overlap, highlighting that "ngưởi" typo count dropped from 10→1 (Fix Agent resolved 9 between runs).
 
 **Additional lesson (2026-06-26):** Same-day rerun at 23:01 overwrote `2026-06-26_output-report.md` after the 07:01 report had already been approved. The durable history survived only because `_action-required.md` retained the approved morning summary and the rerun report carried a `Previous approved run context` section. Treat those two summaries as required, not optional.
+
+### Pitfall — `find -newer` inflated by fix-apply edits (2026-08-27)
+
+When using `find -newer` to detect files newer than the archived report, the result can be inflated by **fix-apply edits** (capital-I sed, Notes removal, key-ideas expansion) that touched files from previous batches. `find -newer` uses file modification time (mtime), which gets bumped by ANY write — including Fix Agent/Connor's inline edits — not just new compilations.
+
+**Pattern (2026-08-27):** After the 19:10 report was approved + applied, `find -newer` against the archived report returned 14 files. Only 9 were genuinely new compilations (date_compiled/last_updated = 2026-08-27). The other 6 were fix-apply edits on older files:
+- `agentic-commerce.md`, `autonomous-agents.md`, `machine-economy.md` — last_updated 2026-07-17, touched by capital-I sed fix
+- `src_is-there-anything-left-build-crypto-wintermute.md`, `src_the-5-laws-of-people-who-never-chase.md` — date_compiled 2026-07-17, touched by capital-I sed fix
+- `ai-text-watermarking.md` — last_updated 2026-08-26, touched by Notes removal
+
+**Fix:** After `find -newer` returns a file list, cross-check with frontmatter dates:
+```bash
+# For each file returned by find -newer, confirm it's genuinely new:
+for f in $(find wiki/sources/ wiki/concepts/ -name "*.md" -newer "$ARCHIVED_REPORT" -type f); do
+  case "$f" in
+    wiki/sources/*)   grep -q "date_compiled: $(date +%Y-%m-%d)" "$f" && echo "NEW: $f" ;;
+    wiki/concepts/*)  grep -q "last_updated: $(date +%Y-%m-%d)"   "$f" && echo "NEW: $f" ;;
+  esac
+done
+```
+Files matching the frontmatter date check are genuinely new compilations. Non-matching files are fix-apply edits on existing content — ignore them for the "new files" count. This cross-check is especially important when the approved report was archived (the `find -newer` target may be hours old, letting many fix-apply edits accumulate).
+
+**Symptom:** `find -newer` returns 14 files, quick-scan says "New files today: 9", and the correct count is 9. When the two counts conflict, trust quick-scan's frontmatter-based detection (reads `date_compiled`/`last_updated` directly) over `find -newer`'s mtime-based detection.
+
 ### Cron working directory
 
 When running as a scheduled cron job, the session working directory may be `$HOME` (e.g., `/home/julius`) rather than the knowledge-base directory. The `search_files` and `read_file` tools resolve relative paths from the session cwd, so `wiki/sources/` will fail.

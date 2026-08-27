@@ -60,8 +60,11 @@ fi
 #    Do NOT use `tail -1 | grep -qF 'SILENT'` — appends via patch/write_file leave
 #    a trailing blank line at EOF, so tail -1 returns empty and false-fails.
 #    Assert the last entry is intact by matching its last data line in the tail instead.
+#    NOTE: grep for 'SILENT' (universal marker on the **Result:** line), NOT a
+#    run-specific word like 'Carry-over' — that only matches when the entry happens
+#    to mention carry-over typos (2026-08-21 entry format) and false-fails otherwise.
 THIS_HEADING="$(grep -nF "$TS_HEADING" "$M" | head -1 | cut -d: -f1)"
-if [ -n "$THIS_HEADING" ] && tail -5 "$M" | grep -qF 'Carry-over'; then
+if [ -n "$THIS_HEADING" ] && tail -5 "$M" | grep -qF 'SILENT'; then
   echo "[OK] File ends with SILENT entry (append successful)"
 else
   echo "[FAIL] File tail unexpected; last entry not the terminal block"

@@ -4,18 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-27 23:15 (Format validation — 2nd run 08-27: +9 topic files, 391W flat)
+**Last updated:** 2026-08-28 12:16 (Format validation 08-27 run 2 applied — no action required, forward-refs only)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 0
 **Last batch applied:** 9 reports (08-25/08-26/08-27) — 2026-08-27 by Connor (5 capital-I typos + 9 empty Notes removed inline; format/hygiene deferred per escalation)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 08-27 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-27_format-report.md](2026-08-27_format-report.md) |
+| ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-28 — forward-refs only, no action needed; archived |
 | ✅ APPLIED | 08-27 | Output | 2 (0E+1W+1I) | Applied 2026-08-27 — Notes rỗng 8/8 removed; key ideas <5 FIXED by Fix Agent (cloud-cost-governance 3→6, batch-vs-live-inference 4→7, secrets-management 4→6) |
 | ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-27 — forward-refs only, no action needed |
 | ✅ APPLIED | 08-27 | Hygiene | 2 (2E) | Applied 2026-08-27 — deferred (root json lần 6 + HEARTBEAT): KHÔNG xóa, chờ process-level fix |

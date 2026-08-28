@@ -1364,3 +1364,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Invalid tags: 0
 - Skipped files: 0
 - 15 files changed since last run (2026-08-26), fell back to full rebuild for consistency
+
+## 2026-08-28 12:16 — Applied fixes
+- Report: wiki/reviews/2026-08-27_format-report.md (run 2, 23:15)
+- Issues: 391 (0E + 391W) — forward-refs only, no file edits needed
+- Files modified: 0 (wiki files), _action-required.md updated, report archived
+- Backups created: 0
+- Status: applied → archived to wiki/reviews/archive/2026-08/
+- Pending now: 0

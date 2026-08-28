@@ -1,3 +1,25 @@
+## 2026-08-29 04:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir — không có file `#agent/inbox` |
+| Raw backlog | ⚠️ 2 files | `2026-08-27_we-are-in-the-middle-of-the-digital-renaissance` (ingested 08-27 20:42, đã >24h) + `2026-08-28_how-i-design-with-ai` (ingested 08-28 21:06) — chờ compile 08:00 hôm nay |
+| wiki/concepts | 548 | spot-check OK (100x-token: frontmatter + `[[src_...]]` backlink đầy đủ) |
+| wiki/sources | 185 | — |
+| Pending reviews | 🔍 2 pending | Format 08-28 (0E, forward-refs — no action) + Hygiene 08-28 (2E — known issue deferred) |
+
+## Notes
+
+1. 2 raw files chưa compile — CompileAgent 08:00 hôm nay (08-29) sẽ xử lý. File 08-27 đã quá 24h (backlog trễ hạn nhẹ, sẽ hết sau compile).
+2. Pending reviews 08-28: Format 0 ERROR (forward-refs, no Fix Agent action), Hygiene 2 ERROR — đều là known issue đã escalation nhiều lần (root json lần 7+ + HEARTBEAT symlink lần 3+), theo precedent KHÔNG xóa, chờ process-level fix / SQLite refactor. Không có quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 7+ + `wiki/HEARTBEAT.md` symlink lần 3+ — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-29 01:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK**

@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-28 12:16 (Format validation 08-27 run 2 applied — no action required, forward-refs only)
+**Last updated:** 2026-08-28 23:15 (Format validation 08-28 — pending review)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 9 reports (08-25/08-26/08-27) — 2026-08-27 by Connor (5 capital-I typos + 9 empty Notes removed inline; format/hygiene deferred per escalation)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-28 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-28_format-report.md](2026-08-28_format-report.md) |
 | ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-28 — forward-refs only, no action needed; archived |
 | ✅ APPLIED | 08-27 | Output | 2 (0E+1W+1I) | Applied 2026-08-27 — Notes rỗng 8/8 removed; key ideas <5 FIXED by Fix Agent (cloud-cost-governance 3→6, batch-vs-live-inference 4→7, secrets-management 4→6) |
 | ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-27 — forward-refs only, no action needed |
@@ -75,12 +76,19 @@
 
 ## Pending Reports
 
-### 🔍 Format Validation — 2026-08-27 (23:15 — 2nd run)
+### 🔍 Format Validation — 2026-08-28
+
+- **Report:** `wiki/reviews/2026-08-28_format-report.md`
+- **Summary:** 984 files checked (548 concepts + 185 sources + 34 indexes + 217 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (372 individual + 19 forward-reference groups, 268 unique targets). Clean ERROR streak ngày thứ 12 liên tiếp. KB wiki layer KHÔNG đổi so với 08-27 23:15 qua git reconciliation (0 file mới — Ingest thêm 2 raw articles 20:45/21:10 nhưng chưa compile; Output Validator 23:10 cũng xác nhận 0 source/concept mới). Debt exactly flat 391→391 — EXACT-ZERO-FLAT (variant "no compilation happened"): unique targets 268 flat (day 4 sau khi hết plateau 269), Top-20 list identical 08-27 (same slugs, same counts), individual 372 flat, forward groups 19 flat. 0 file mới → 0 broken wikilink mới. No structural violations.
+- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files (2 raw articles đang chờ compile). No Fix Agent action required. Ghi nhận: `[[game-theory]]` (10 refs) + `[[deep-work]]` (5 refs) là 2 target phổ biến nhất chưa compile.
+- **Status:** pending
+
+### ✅ Format Validation — 2026-08-27 (23:15 — 2nd run) — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-27_format-report.md`
 - **Summary:** 984 files checked (548 concepts + 185 sources + 34 indexes + 217 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (372 individual + 19 forward-reference groups, 268 unique targets). Clean ERROR streak giữ vững (ngày thứ 11 liên tiếp). KB grew +9 files so với 19:15 run qua git reconciliation (+9 topics — Index Agent tạo topic pages 21:09 cho gcp-ai-startup-governance cluster; 0 concepts/sources mới, 0 merge/delete). Debt exactly flat 391→391 — EXACT-ZERO-FLAT: unique targets 268 flat (day 3 sau khi hết plateau 269), Top-20 list identical 19:15 run (same slugs, same counts), individual 372 flat, forward groups 19 flat. 9 topic pages mới đóng góp 0 broken wikilink (auto-generated aggregators, không forward-refs). No structural violations.
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required. Ghi nhận: `[[game-theory]]` (10 refs) + `[[deep-work]]` (5 refs) là 2 target phổ biến nhất chưa compile.
-- **Status:** pending
+- **Status:** approved → **applied 2026-08-28 12:16** — no action required (forward-refs). Report: `wiki/reviews/2026-08-27_format-report.md`
 
 ### 🔍 Output Validation — 2026-08-27 (19:10)
 
@@ -156,7 +164,7 @@
 
 - **Report:** `archive/2026-08/2026-08-24_output-report.md`
 - **Summary:** 708 file checked (179 sources + 529 concepts), 4 mới (1 source + 3 concepts — writing-craft cluster: src_the-golden-rule-for-becoming-a-better-writer, flow-state, reading-brain-vs-digital-brain, read-widely-write-well). 3 issues: 0 ERROR, 2 WARNING, 1 INFO. Mốc đáng chú ý: lần đầu toàn bộ 5 biến thể typo Compile Agent = 0 trên cả KB sau khi batch 08-23 applied sáng nay — inventory carry-over đã dứt điểm, dropped-i grep variant 5 cũng 0 matches. File mới sạch hoàn toàn (0 typo, 0 broken link, structure đầy đủ), PASS hết. 2 WARNING là false positive của quick-scan.sh: (a) heuristic "Empty Key ideas" đếm nhầm 9 file dùng numbered list (`1.` thay vì `- `) là rỗng — Python cross-check xác nhận 0 file empty thật; (b) heuristic "1-sentence definitions" báo 527/527 concepts vì sed+grep đếm số DÒNG chứa dấu chấm, không phải số câu.
-- **Actions needed:** (1) Patch quick-scan.sh section 6: đổi `grep -c '^- '` thành `grep -cE '^- |^[0-9]+\. '` để nhận numbered list; (2) patch hoặc bỏ section 3 heuristic "1-sentence definitions" (đã vô dụng từ nhiều run); (3) INFO attribution Maryanne Wolf "Reader, Come Home": optional spot-check với sách gốc, không blocking. Content wiki: KHÔNG cần sửa gì.
+- **Actions needed:** (1) Patch quick-scan.sh section 6: đổi `grep -c '^- '` thành `grep -cE '^- |^[0-9]+\\. '` để nhận numbered list; (2) patch hoặc bỏ section 3 heuristic "1-sentence definitions" (đã vô dụng từ nhiều run); (3) INFO attribution Maryanne Wolf "Reader, Come Home": optional spot-check với sách gốc, không blocking. Content wiki: KHÔNG cần sửa gì.
 - **Status:** approved → **applied 2026-08-25** — cả 2 patch tooling (section 6 numbered-list + section 3 sentence-count) đã có trong quick-scan.sh trước giờ apply (Connor inline sáng 08-25); Fix Agent verify bằng grep trực tiếp trên sample files (google-project-oxygen S6 = 8, flow-state S3 = 3). Content wiki: 0 sửa. INFO attribution: optional, không blocking. Report: `archive/2026-08/2026-08-24_output-report.md`
 
 ### ✅ Hygiene Inspection — 2026-08-24 (23:33) — APPLIED (deferred action)
@@ -205,4 +213,4 @@
 
 _Archive đầy đủ tại `wiki/reviews/archive/`. Bảng Summary phía trên là bản ghi chính thức của tất cả reports đã apply._
 
-Previous reports (08-05 through 08-24) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.
+Previous reports (08-05 through 08-27) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.

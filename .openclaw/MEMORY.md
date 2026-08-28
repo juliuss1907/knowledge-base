@@ -1379,3 +1379,25 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Author: Dan Koe (thedankoe.com, Substack)
 - Type: article, status: unprocessed
 - Content: full body preserved (7.5k chars) — digital renaissance, purists vs automatons, New Renaissance Man, 3-layer skill stack, AI quick-start guide
+
+## 2026-08-28 21:05 — Ingested
+- raw/articles/2026-08-28_how-i-design-with-ai.md
+- Source: https://ref.tools/blog/how-i-design-with-ai
+- Author: Matt Dailey (ref.tools, Founder & CEO Ref.)
+- Type: article, status: unprocessed (date_published unknown — SPA, no metadata)
+- Content: full body preserved — de-slop product design, 7 principles (consider the whole, remove stuff, iterate in design tool, components, preview deploys, steal stuff, explore taste)
+
+## 2026-08-28 21:04 — Cron job "KB Index Agent" FAILED
+- 3 models all failed: deepseek-v4-flash 429 rate_limit, minimax-m2.5-free model_not_found, nemotron-3-super-free model_not_found
+- Index cron 21:00 hôm nay không chạy được — cần Julius xem lại model config (opencode provider chưa đăng ký đúng)
+
+## 2026-08-28 21:04 — Indexed (incremental, no changes)
+- Incremental rebuild triggered on daily 21:00 cron
+- Last success: 2026-08-27 21:07
+- Files modified since last success: 0
+- Action: skipped rebuild (0 new/changed files, per incremental rule)
+- Tags indexed: 25 (9 main + 16 used sub-tags; index files still valid)
+- Topics indexed: 217 (index files unchanged)
+- Sources scanned: 185, Concepts scanned: 548 (baseline, no changes)
+- Orphans deleted: 0
+- Errors: 0

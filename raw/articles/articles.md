@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 146 files
-- By status: 144 processed, 2 unprocessed
-- By date: 11 this week, 19 this month
+- Total: 147 files
+- By status: 144 processed, 3 unprocessed
+- By date: 12 this week, 20 this month
 - Last updated: 2026-08-28
 ## Items
+- [[2026-08-28_how-i-design-with-ai]] — How I Design with AI by Matt Dailey (unprocessed)
 - [[2026-08-27_we-are-in-the-middle-of-the-digital-renaissance]] — We are in the middle of the digital renaissance, please take advantage of it by Dan Koe (unprocessed)
 - [[2026-08-26_10-questions-for-your-startup-developers]] — 10 questions for your startup developers by Google Cloud (unprocessed)
 - [[2026-08-25_5-most-important-skills-2026-stoic-wisdoms]] — The 5 Most Important Skills to Learn in 2026 by Stoic Wisdoms (processed)

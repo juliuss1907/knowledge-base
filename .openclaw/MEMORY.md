@@ -1372,3 +1372,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Backups created: 0
 - Status: applied → archived to wiki/reviews/archive/2026-08/
 - Pending now: 0
+
+## 2026-08-28 20:41 — Ingested
+- raw/articles/2026-08-27_we-are-in-the-middle-of-the-digital-renaissance.md
+- Source: https://letters.thedankoe.com/p/we-are-in-the-middle-of-the-digital
+- Author: Dan Koe (thedankoe.com, Substack)
+- Type: article, status: unprocessed
+- Content: full body preserved (7.5k chars) — digital renaissance, purists vs automatons, New Renaissance Man, 3-layer skill stack, AI quick-start guide

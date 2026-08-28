@@ -286,6 +286,8 @@ After generating the report, compare today's results against the most recent **A
 - Reconcile step is a no-op: the earlier report's Status header already shows `approved` and is already ✅ APPLIED in _action-required — just add the new pending row, don't re-reconcile.
 - Observed delta shape: +9 files (all auto-generated topic pages Index Agent added for that day's compiled cluster), 391→391 flat, Top-20 identical → exact-zero-flat with KB growth; all new topic aggregator pages contribute 0 broken wikilinks.
 
+**No-growth exact-zero-flat variant (observed 2026-08-28):** the strongest form of flat — ZERO wiki files added, so even the Files-checked count is identical (984→984) alongside total issues (391→391), ERROR/WARNING split, unique targets (268→268), and Top-20. This is the "no compilation happened" reading: Ingest added raw files (2 articles at 20:45/21:10) but Compile Agent hasn't produced wiki files from them, so the validated layer is byte-identical and the backlog neither drains nor accumulates. Confirm before claiming: (1) git reconciliation shows +0 files under wiki/ (only raw/ additions + raw index Items edits), (2) Output Validator ran silent earlier the same evening (0 new source/concept files — its MEMORY.md entry corroborates), (3) files-checked identical to baseline. Report as `0 net change` with the explicit "wiki layer static, raw grows +N uncompiled" framing, and name the variant in the delta line (`variant no-compilation-happened`) so it is not confused with the KB-growth flat variant where new files DID contribute 0 broken links. Standing note stays a non-escalation one-liner; day-count phrasing ('day 4 at 268') increments per run.
+
 Include a delta summary table at the top of the report so Julius can see at a glance whether the KB is getting cleaner or accumulating debt.
 
 **Baseline location:** the previous day's report lives under `wiki/reviews/archive/YYYY-MM/` (Fix Agent archives applied reports), not in `wiki/reviews/` root — `ls wiki/reviews/archive/<YYYY-MM>/<prev-date>_format-report.md` first, don't assume it's still in the reviews folder.
@@ -416,6 +418,10 @@ Source files often mention the raw file again inside `## Metadata` or body conte
 
 
 "Report limit: 20 issues per day" means **focus the written report on the most actionable issues**, not that the validator stops at 20. The report should still show all ERRORs and top WARNINGs. For daily runs, the full issue count goes in `_action-required.md` summary.
+
+### Forward-reference group extraction needs BOTH message variants
+
+When grepping raw validate.py output (pipe-delimited) to build the report's Forward-Reference Groups section, group entries come in two message forms: concept files emit `N broken wikilinks (forward-references to uncompiled concepts)` while source files emit `N broken wikilinks (forward-references)`. A grep for only the source variant (e.g. `forward-references)`) undercounts groups (observed 2026-08-28: 17 found vs 19 actual) and INFLATES the individual-broken count by the missing concept groups (observed 374 vs 372 actual — the 2 concept group files got counted as individual). Use the combined pattern `broken wikilinks \(forward` to catch both, then subtract the concept-group count from the naive individual total, or just trust parse_issues.py's own 372/19 split and grep only to enumerate the group file list for the report body.
 
 ### Topic files NOT index files (dispatch edge case)
 

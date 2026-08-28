@@ -480,3 +480,22 @@ Không có vấn đề mới.
 3. `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn, hygiene 08-27 ghi nhận) — chờ process-level fix, không xóa.
 
 > Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+## 2026-08-28 23:04 (Asia/Saigon)
+
+⚠️ **Raw backlog: 2 files**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ⚠️ 2 files | `raw/articles/2026-08-27_we-are-in-the-middle-of-the-digital-renaissance.md` (quá 24h, ingested 08-27 20:42) + `raw/articles/2026-08-28_how-i-design-with-ai.md` (08-28 21:06) |
+| wiki/concepts | 548 | spot-check OK (we-are-in-middle-digital-renaissance: frontmatter + links) |
+| wiki/sources | 185 | — |
+| Pending reviews | ✅ 0 pending | _action-required.md: 0 reports chờ |
+
+## Notes
+
+1. Raw backlog 2 files — file 08-27 quá 24h, đáng chú ý. CompileAgent chạy 08:00 hôm nay (08-28) đã qua, 2 file này ingested sau giờ compile → chờ compile 08:00 ngày mai (08-29).
+2. [Known issue] Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.

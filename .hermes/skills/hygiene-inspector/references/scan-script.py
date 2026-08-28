@@ -81,11 +81,14 @@ ROOT_ORPHAN_MAP = {
     "MEMORY.md": ".hermes/ or .openclaw/",
     "openclaw-workspace-state.json":
         "OpenClaw runtime state home (.openclaw/ or ~/.openclaw/) — "
-        "3rd consecutive run flagged 08-24; recycle now < 1h (recreated 10:00 same day "
-        "as the 09:52 removal commit b568979f). .gitignore guard (lines 88-89) holds the "
-        "repo clean — only disk-level orphan persists. STOP re-deleting (proven futile "
-        "x3): fix = redirect writer output path OR wait for OpenClaw SQLite workspace-state "
-        "refactor update. See references/common-patterns.md.",
+        "7th consecutive run flagged (08-22 -> 08-28). Root cause CONFIRMED in "
+        "vendor source (SKILL.md v1.21 pitfall #9): OpenClaw treats any dir with "
+        "AGENTS.md as a workspace; state path resolves CWD-relative by design "
+        "(dist/workspace-DkQ7irPD.js). .gitignore guard holds the repo clean "
+        "(untracked + ignored) — only the disk-level orphan persists (69 bytes, "
+        "mtime 08-24 10:00, no fresh write since). STOP re-deleting (proven futile "
+        "x3): fix = redirect writer output path OR wait for OpenClaw SQLite "
+        "workspace-state refactor. See references/common-patterns.md.",
 }
 
 # ── Known recurring root folders (not in whitelist, keep reappearing) ──

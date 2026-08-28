@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.22
-last_updated: 2026-08-25
+version: 1.23
+last_updated: 2026-08-28
 ---
 
 # Hygiene Inspector
@@ -488,6 +488,8 @@ count = int(m.group(1)) if m else None
 
 **⚠️ Pitfall: The colon must be part of the field() pattern, not the caller's label.** The report front-matter is `**Status:** pending` — bold markers wrap BOTH sides of the colon. A `field()` helper whose pattern omits the colon (`re.escape(label) + r"\*{0,2}\s*(.+)"`) fails even with a correctly plain `"**Status"` label: after `re.escape`, `\*\*Status` cannot be followed by optional `*` then whitespace-value because the literal `:` sits between them → helper returns None again. Correct helper shape (proven 2026-08-25): put the colon INSIDE the helper — `pat = re.escape(label) + r":\*{0,2}\s*(.+)"` — and call it as `field(txt, "**Status")`. Corollary: when ad-hoc verify FAILs on extracted fields, grep the RAW artifact for the expected value FIRST to determine whether the report or the script is wrong before editing anything under `wiki/` (4 FAILs on 2026-08-25 were all script-side; the report was byte-correct).
 
+**⚠️ Pitfall: Backtick-wrapped paths in `_action-required.md` prose break exact-string matches.** The action file prose wraps paths in backticks — e.g. `` `memory/` + `state/` vắng mặt chạy sạch thứ 6 liên tiếp `` — so a naive `"memory/ vắng mặt" in action_txt` FAILs: the closing backtick sits between the `/` and the following space. Proven 2026-08-28: 2 spurious FAILs on an otherwise correct run (content byte-correct; `grep` of the raw artifact showed the paths backtick-wrapped). Correct approach: check the bare path and the context word SEPARATELY, scoped to the new run's section (`re.search(r"### 🔍 Hygiene Inspection — YYYY-MM-DD.*?(?=### |\Z)", txt, flags=re.S)`), e.g. `"memory/" in sec and "vắng mặt" in sec`. Corollary of the 08-25 rule: grep the RAW artifact FIRST — when a FAIL is a prose-match issue, the report/action file is almost always right and the verify script's string is wrong.
+
 See `references/scan-script.py` for a known-good scan template and `references/full-tree-scan-notes.md` for pitfalls found in real KB runs.
 
 **⚠️ Pitfall:** The scan script handles Vietnamese diacritics via `\u` Unicode escapes. Do NOT use Python raw strings (`r'...'`) for regex patterns containing `\u` — raw strings treat `\u` literally, causing all naming checks to return false positives (hundreds of spurious WARNINGs). The corrected template in `references/scan-script.py` uses a non-raw `SLUG_CHARS` variable with single `\u` escapes, interpolated into regex patterns that use double-backslash escapes (`\\d`, `\\.`).
@@ -636,6 +638,7 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
+| 1.23 | 2026-08-28 | Added cron verify-script pitfall #11 — backtick-wrapped paths in `_action-required.md` prose (`` `memory/` ``) break exact-string matches: the closing backtick sits between the path and the next word, so `"memory/ vắng mặt" in action_txt` FAILs. Proven on the 08-28 run (2 spurious FAILs, content byte-correct). Check bare path + context word SEPARATELY, scoped to the new section. Corollary: grep the RAW artifact FIRST before touching anything under `wiki/`. Also refreshed `references/scan-script.py` `ROOT_ORPHAN_MAP` text for `openclaw-workspace-state.json` (was "3rd consecutive run 08-24", now 7th through 08-28). |
 | 1.22 | 2026-08-25 | Added pitfall #10 — verify-script `field()` helpers must receive PLAIN labels (`"**Status"`, colon INSIDE the helper pattern: `re.escape(label) + r":\*{0,2}\s*(.+)"`). Pre-escaped labels double-escape (proven 08-24); labels without the embedded colon miss the bold-wrapped value entirely even when correctly escaped (proven 08-25, 4 spurious FAILs on a correct report — raw artifact grep confirmed report was right before editing anything). Also: when asserting historical text in `_action-required.md` stays untouched, scope the assertion to the NEW section and count pre-existing `[SYSTEMATIC VIOLATION]` mentions exactly (2 APPLIED entries + N backticked references in new guidance) instead of asserting zero/absence. |
 | 1.21 | 2026-08-25 | Added pitfall #9 — `openclaw-workspace-state.json` root leak ROOT CAUSE CONFIRMED in vendor source (OpenClaw treats any dir with `AGENTS.md` as workspace; state path is CWD-relative by design). Repo level solved via git rm + .gitignore guard (08-25); disk-level recurrence expected until upstream SQLite refactor. Do NOT re-escalate `[SYSTEMATIC VIOLATION]` or recommend deletion-only fixes for this file — reference pitfall #9 instead. |
 | 1.20 | 2026-08-16 | Added pitfall #7 — confirm recurring root orphans are git-tracked (`git ls-files` / `git check-ignore`) before dismissing a leak as a stray file: `memory/2026-08-16-heartbeat-status.md` was git-tracked, so it persisted across the ~10-min `vault backup` commits and file deletion alone could not fix it — requires redirecting the writer output path + a committable removal. Clarified cron ad-hoc verification must run LAST (after ALL writes incl. `common-patterns.md`), else the system flags evidence stale and forces a re-verify (proof 08-16). `memory/`+`state/` both resurfaced 3rd consecutive run; updated `references/common-patterns.md` with 08-16 record and fixed a literal-`\n` formatting bug. |

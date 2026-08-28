@@ -1,3 +1,24 @@
+## 2026-08-28 17:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir — không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 (192 raw files) |
+| wiki/concepts | 548 | spot-check OK (cybernetics-learning-model: frontmatter + source wikilinks đầy đủ) |
+| wiki/sources | 185 | — |
+| Pending reviews | ✅ 0 pending | _action-required.md: last batch applied 08-28, 0 reports chờ |
+
+## Notes
+
+1. Compile 08:00 + Index 21:00 hôm nay.
+2. [Known issue] Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-28 14:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK**

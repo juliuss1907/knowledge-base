@@ -377,6 +377,12 @@ When multiple Hermes validators (output, format, hygiene) run as sequential cron
 2. Append order is intact (your entry's line number > the previous run's line number).
 3. If both hold, the warning is benign — a sibling validator (format/hygiene) simply appended its own entry around the same time. Your patch landed in its own location and the verify script will confirm.
 
+### MEMORY.md layout is TOP-INSERTION, not bottom-append (2026-08-28)
+
+The skill's earlier guidance assumes MEMORY.md is append-at-bottom ("entry's line number > the previous run's line number", verify check "File ends with SILENT entry" via `tail -1`). **As of 2026-08-28 the file is NEWEST-FIRST**: the 08-27 cluster (Approve-all + format/hygiene/output entries) sits at the TOP (lines 7-67), while the older block (08-22 → 08-26) remains at the bottom in chronological order. A top-insertion silent entry went in above the 08-27 cluster and verified correctly (entry line 7 < previous entry line 14).
+
+**Rule:** before inserting into MEMORY.md, read the first 15 lines to determine the actual layout convention — do not assume append-at-bottom. If recent entries sit at the top, insert the new entry ABOVE the newest existing `## ` heading (patch with unique context = the `> Do not edit manually` header block + the first existing `## ` heading). For verification, assert "entry line < previous entry line" instead of ">", and replace the `tail -1` "ends with SILENT" check with a top-window assertion (e.g. `head -10 "$M" | grep -q 'SILENT'`, or confirm no `## ` heading sits above your entry). The layout may flip again after a Julius/Connor restructure — always re-check before patching.
+
 ### Truncated file detection
 
 When a concept file is incomplete (truncated mid-generation by Compile Agent), two signals:
@@ -516,7 +522,7 @@ pat=re.compile(f"([{VN_VOWELS}])I\\b")
 
 A fifth manifestation of the same root cause: Compile Agent drops the trailing 'i' entirely from Vietnamese words that should end in "ời". This is the most destructive variant yet — the resulting tokens ("ngườ", "thờ", "lờ") are valid Vietnamese morphemes with completely different meanings, making them invisible to spell-checkers.
 
-> **Status 2026-08-24:** first fully clean KB — all five variants at 0 instances after Fix Agent applied batch 08-23 (21 typos/9 files + reword). Carry-over inventory eliminated; variant-5 grep returned 0 matches for two consecutive runs. Keep the mandatory grep below until a full week of clean runs, then consider demoting it to weekly.
+> **Status 2026-08-28:** clean-run streak is now 6 consecutive (08-23 → 08-28; dropped-i variant-5 grep = 0 matches each run, including all 4 sub-patterns — `ngườ`, `thờ`, `thay v`, `chính lờ`/`bằng lờ`). Carry-over inventory eliminated since 08-24. Keep the mandatory grep below until a FULL WEEK of clean runs (through ~08-29/08-30), then consider demoting it to weekly. If a new batch ever reintroduces variant 5, the streak resets.
 
 **First observed:** 2026-07-21 batch — 16 new files (3 sources + 13 concepts), ~35 instances across 13/16 files (81% affected).
 
@@ -881,6 +887,8 @@ grep -q 'Files checked: 534' "$M"
 # CORRECT — use regex .* to span the ** markers:
 grep -q 'Files checked.*534' "$M"
 ```
+
+**Sub-pitfall — the spanning pattern must be `.*`, not `.\*` (2026-08-28):** Dot-star is required; dot + escaped asterisk (`.\*`) matches only ONE of the two asterisks, so `grep -q 'Files checked.\*733'` STILL fails against `Files checked:** 733`. Verified 2026-08-28: the first silent-run verify attempt wrote `Files checked.\*733` and failed 3 checks; switching to plain `.*` (`Files checked.*733`) passed all 9. When in doubt, use `.*` and let grep span any run of characters — never hand-escape a single `*`.
 
 **Sub-pitfall — case sensitivity after `**` bold marker (2026-08-08):** When `**` wraps a label, the first character after `**` is typically capitalized (e.g., `**Carry-over:**`), but grep patterns often use lowercase. Case-sensitive `grep -q` silently fails:
 

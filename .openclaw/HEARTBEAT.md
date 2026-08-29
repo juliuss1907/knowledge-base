@@ -1,3 +1,26 @@
+## 2026-08-30 00:00 (Asia/Saigon)
+
+⚠️ **5 pending reviews — batch 08-29 có action cần Julius duyệt**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 — cả 2 file 08-27/08-28 đã processed (compiled 08-29) |
+| wiki/concepts | 554 | — |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 5 pending | 08-29 Format (0E+415W) + Output (0E+2W+2I) + Hygiene (2E) + 08-28 Format (0E+391W) + Hygiene (2E) |
+
+## Notes
+
+1. **Batch mới 08-29 cần chú ý:** Output report có action Fix Agent cụ thể — thêm `- [[src_how-i-design-with-ai]]` vào `## Sources` body của `product-vs-prototype.md` + `taste-judgment.md` (frontmatter đã đúng), xóa 2 header `## Notes` rỗng. Chờ Julius duyệt trước khi Fix Agent áp dụng.
+2. **Spec conflict mới:** Format report 08-29 ghi nhận 24 tag files có `parent: [[tag]]` unquoted (Index Agent regenerate 21:10) — YAML parse thành nested list, xung đột index-spec vs format-spec §9. Cần Julius quyết định: update index-spec.md hay thêm exception format-spec.
+3. Format 08-29: 415 WARNING toàn forward-refs (0 ERROR), broken-wikilink backlog flat ngày 5. Hygiene 08-29: 2E = root json lần 8 + `wiki/HEARTBEAT.md` symlink lần 4 — known issues, KHÔNG xóa theo escalation, chờ SQLite refactor / process-level fix.
+4. Tin tốt từ Hygiene 08-29: `memory/` + `state/` vắng mặt sạch lần 7 liên tiếp; Output 08-29: typo dropped-i 0 lần thứ 7 liên tiếp (08-23 → 08-29), cân nhắc hạ tần suất check xuống weekly từ 08-30.
+
+---
+
 ## 2026-08-29 22:00 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK** — không đổi so với 20:30

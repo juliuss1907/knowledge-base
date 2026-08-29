@@ -1,3 +1,24 @@
+## 2026-08-30 00:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK** — không đổi so với 00:00
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 |
+| wiki/concepts | 554 | — |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 5 pending | 08-29 Format (0E+415W) + Output (0E+2W+2I) + Hygiene (2E) + 08-28 Format (0E+391W) + Hygiene (2E) — chờ Julius duyệt |
+
+## Notes
+
+1. State đồng nhất với heartbeat 00:00 — không raw mới, không compile/index mới qua đêm. 5 pending reviews giữ nguyên: 08-29 batch (Output có 2 Fix Agent action cụ thể: thêm backlink `[[src_how-i-design-with-ai]]` + xóa 2 `## Notes` rỗng) + spec conflict 24 tag files `parent:` unquoted — tất cả chờ Julius duyệt.
+2. [Known issue] Root json recycle lần 8 + `wiki/HEARTBEAT.md` symlink lần 4 — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+---
+
 ## 2026-08-30 00:00 (Asia/Saigon)
 
 ⚠️ **5 pending reviews — batch 08-29 có action cần Julius duyệt**

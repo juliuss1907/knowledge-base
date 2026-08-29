@@ -1,3 +1,28 @@
+## 2026-08-29 09:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir — không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | CompileAgent 08:00 hôm nay đã xử lý 2 file (digital-renaissance + how-i-design-with-ai) → `status: processed`. Hết backlog trễ hạn. |
+| wiki/concepts | 554 | spot-check OK (digital-renaissance, design-process — frontmatter + `[[src_...]]` backlink đầy đủ) |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 217 | — |
+| Pending reviews | 🔍 2 pending | Format 08-28 (0E, forward-refs — no action) + Hygiene 08-28 (2E — known issue deferred) |
+
+## Notes
+
+1. Compile 08:00 hôm nay đã chạy thành công: xử lý cả 2 raw files backlog. `digital-renaissance` → 4 concepts mới (digital-renaissance, new-renaissance-man, one-human-business, creator-economy); `how-i-design-with-ai` → 2 concepts mới (design-process, prototype-gravity) + 2 cập nhật (taste-judgment, product-vs-prototype). Raw unprocessed về 0.
+2. Pending reviews 08-28: Format 0 ERROR (391 forward-refs, no Fix Agent action), Hygiene 2 ERROR — đều là known issue đã escalation nhiều lần (root json lần 7+ + HEARTBEAT symlink lần 3+), theo precedent KHÔNG xóa, chờ SQLite refactor / process-level fix. Không có quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 7+ + `wiki/HEARTBEAT.md` symlink lần 3+ — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+4. Index cron 21:00 28/08 ghi nhận 1 lần FAIL (model config — deepseek 429, minimax/nemotron model_not_found) nhưng incremental skip đã chạy sau đó, không lỗi. Không cần hành động.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-29 08:00 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK**

@@ -1387,6 +1387,23 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Type: article, status: unprocessed (date_published unknown — SPA, no metadata)
 - Content: full body preserved — de-slop product design, 7 principles (consider the whole, remove stuff, iterate in design tool, components, preview deploys, steal stuff, explore taste)
 
+## 2026-08-29 08:04 — Compiled
+
+### File 1: digital-renaissance (Dan Koe)
+- **Raw:** raw/articles/2026-08-27_we-are-in-the-middle-of-the-digital-renaissance.md
+- **Source note:** wiki/sources/src_we-are-in-the-middle-of-the-digital-renaissance.md
+- **Concepts created:** [digital-renaissance, new-renaissance-man, one-human-business, creator-economy]
+- **Tags applied:** main=#productivity, sub=[#opinion, #psychology, #ai, #tools], topic=digital-renaissance
+- **Action:** created 4 concept files (first sources on these topics)
+
+### File 2: how-i-design-with-ai (Matt Dailey)
+- **Raw:** raw/articles/2026-08-28_how-i-design-with-ai.md
+- **Source note:** wiki/sources/src_how-i-design-with-ai.md
+- **Concepts created:** [design-process, prototype-gravity]
+- **Concepts updated:** [taste-judgment, product-vs-prototype]
+- **Tags applied:** main=#tech, sub=[#tools, #vibecode, #opinion], topic=ai-design-workflow
+- **Action:** created 2 concept files, updated 2 existing concepts
+
 ## 2026-08-28 21:04 — Cron job "KB Index Agent" FAILED
 - 3 models all failed: deepseek-v4-flash 429 rate_limit, minimax-m2.5-free model_not_found, nemotron-3-super-free model_not_found
 - Index cron 21:00 hôm nay không chạy được — cần Julius xem lại model config (opencode provider chưa đăng ký đúng)

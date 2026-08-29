@@ -6,7 +6,8 @@ sub_tags: [psychology, opinion]
 topic: skill-tiers-framework
 sources:
   - "[[src_3-tang-skill-dang-hoc]]"
-last_updated: 2026-07-04
+  - "[[src_how-i-design-with-ai]]"
+last_updated: 2026-08-29
 ---
 
 # Taste Judgment
@@ -23,6 +24,8 @@ Taste/Judgment là khả năng phân biệt tốt-dở trong một domain cụ t
 - Phát triển taste đòi hỏi: (1) tiêu thụ số lượng lớn tác phẩm trong domain, (2) chủ động phân tích tại sao thứ này tốt/thứ kia dở, (3) tự tạo ra sản phẩm và so sánh với chuẩn
 - Trong kỷ nguyên AI, taste càng quan trọng: AI có thể tạo ra output, nhưng chỉ người có taste mới biết output nào đáng giữ và output nào cần sửa
 - Taste là compound skill — càng có nhiều taste trong nhiều domain, khả năng đưa ra judgment đúng càng cao
+- Matt Dailey: taste = reflecting on your own reaction to something; product engineers giỏi identify khi design không work nhưng thiếu solution library (experience) để biết cách fix — cần reps trying things và reflecting
+- Approach "agricultural threshing" (Ref): throw design vào giữa và beat it với sticks cho đến khi cảm thấy ổn — dùng reps và critique để refine taste
 
 ## Related concepts
 

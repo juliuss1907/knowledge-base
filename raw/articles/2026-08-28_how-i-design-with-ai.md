@@ -5,7 +5,9 @@ url: https://ref.tools/blog/how-i-design-with-ai
 author: Matt Dailey
 date_published: [unknown]
 date_ingested: 2026-08-28
-status: unprocessed
+status: processed
+compiled_at: 2026-08-29
+compiled_to: "[[src_how-i-design-with-ai]]"
 source: ref.tools
 ---
 

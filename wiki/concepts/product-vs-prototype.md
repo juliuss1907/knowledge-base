@@ -6,7 +6,10 @@ sub_tags: [opinion, vibecode]
 topic: product-vs-prototype
 sources:
   - "[[src_what-is-a-product]]"
-last_updated: 2026-08-11
+sources:
+  - "[[src_what-is-a-product]]"
+  - "[[src_how-i-design-with-ai]]"
+last_updated: 2026-08-29
 ---
 
 # Product vs Prototype
@@ -23,6 +26,7 @@ Phân biệt giữa prototype (bản demo, bản nháp) và product (sản phẩ
 - Các công ty thất bại không phải vì thiếu trí tuệ hay know-how, mà vì không hiểu rằng sản phẩm cần nhiều hơn các bộ phận cấu thành
 - Demo AI rất dễ tạo, nhưng điều đó không có nghĩa là bạn đã xây dựng được sản phẩm
 - Tiêu chí kiểm tra: nếu không ai dùng, đó là toy — không phải product
+- Prototype gravity cảnh báo: AI build version đầu trong codebase có thể khiến bạn nhầm prototype với sản phẩm hoàn thiện — iterate trong design tool để khám phá option thay vì refine bản đầu
 
 ## Related concepts
 

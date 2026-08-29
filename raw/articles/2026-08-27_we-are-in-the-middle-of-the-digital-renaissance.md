@@ -5,7 +5,9 @@ url: https://letters.thedankoe.com/p/we-are-in-the-middle-of-the-digital
 author: Dan Koe
 date_published: 2026-08-27
 date_ingested: 2026-08-28
-status: unprocessed
+status: processed
+compiled_at: 2026-08-29
+compiled_to: "[[src_we-are-in-the-middle-of-the-digital-renaissance]]"
 source: thedankoe.com
 ---
 

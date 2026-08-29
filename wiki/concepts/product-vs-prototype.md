@@ -6,8 +6,6 @@ sub_tags: [opinion, vibecode]
 topic: product-vs-prototype
 sources:
   - "[[src_what-is-a-product]]"
-sources:
-  - "[[src_what-is-a-product]]"
   - "[[src_how-i-design-with-ai]]"
 last_updated: 2026-08-29
 ---

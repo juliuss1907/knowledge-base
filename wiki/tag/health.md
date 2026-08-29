@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: health
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #health
 
 Auto-generated index of all content tagged with `#health`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-08-27 21:06:35
 - Total files: 53
 - Sources: 12
 - Concepts: 41
-- Last updated: 2026-08-27
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -85,6 +85,7 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
+Tags that frequently appear with `#health`:
 - `#psychology` (43 files)
 - `#opinion` (13 files)
 - `#research` (12 files)

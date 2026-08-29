@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: psychology
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #psychology
 
 Auto-generated index of all content tagged with `#psychology`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-27 21:06:35
 
 ## Stats
 
-- Total files: 311
-- Sources: 86
-- Concepts: 225
-- Last updated: 2026-08-27
+- Total files: 313
+- Sources: 87
+- Concepts: 226
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -165,6 +165,7 @@ Last updated: 2026-08-27 21:06:35
 - [[negotiation]] — negotiation (concept, main: #productivity, sub: [#psychology], topic: leverage-mental-model)
 - [[neuroplasticity]] — neuroplasticity (concept, main: #productivity, sub: [#psychology], topic: neuroplasticity)
 - [[never-enough-culture]] — never-enough-culture (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
+- [[new-renaissance-man]] — new-renaissance-man (concept, main: #productivity, sub: [#opinion, #psychology], topic: digital-renaissance)
 - [[occams-broom]] — occams-broom (concept, main: #productivity, sub: [#psychology, #research], topic: critical-thinking-tools)
 - [[occams-razor]] — occams-razor (concept, main: #productivity, sub: [#psychology, #research], topic: critical-thinking-tools)
 - [[oddball-effect]] — oddball-effect (concept, main: #health, sub: [#psychology, #research], topic: time-perception-childhood)
@@ -311,6 +312,7 @@ Last updated: 2026-08-27 21:06:35
 - [[src_thought-experiment]] — src_thought-experiment (source, main: #productivity, sub: [#psychology], topic: mental-models)
 - [[src_trading-brain-chemistry-ferb]] — src_trading-brain-chemistry-ferb (source, main: #economic, sub: [#opinion, #psychology], topic: trading-psychology)
 - [[src_viktor-frankl-meaning-video]] — src_viktor-frankl-meaning-video (source, main: #productivity, sub: [#opinion, #psychology], topic: meaning-life-purpose)
+- [[src_we-are-in-the-middle-of-the-digital-renaissance]] — src_we-are-in-the-middle-of-the-digital-renaissance (source, main: #productivity, sub: [#opinion, #psychology], topic: digital-renaissance)
 - [[src_why-people-fail-at-learning-languages]] — src_why-people-fail-at-learning-languages (source, main: #productivity, sub: [#psychology, #opinion], topic: language-acquisition-method)
 - [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — src_why-the-math-mafia-is-doing-well-jesse-zhang (source, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
 - [[src_why-time-felt-slower-when-we-were-kids]] — src_why-time-felt-slower-when-we-were-kids (source, main: #health, sub: [#psychology, #research, #tutorial], topic: time-perception-childhood)
@@ -343,8 +345,9 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
-- `#productivity` (222 files)
-- `#opinion` (112 files)
+Tags that frequently appear with `#psychology`:
+- `#productivity` (224 files)
+- `#opinion` (114 files)
 - `#research` (66 files)
 - `#health` (43 files)
 - `#tutorial` (21 files)

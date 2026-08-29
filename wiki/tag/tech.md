@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: tech
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #tech
 
 Auto-generated index of all content tagged with `#tech`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-27 21:06:35
 
 ## Stats
 
-- Total files: 36
-- Sources: 7
-- Concepts: 29
-- Last updated: 2026-08-27
+- Total files: 39
+- Sources: 8
+- Concepts: 31
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -37,6 +37,7 @@ Last updated: 2026-08-27 21:06:35
 - [[cloud-cost-governance]] — cloud-cost-governance (concept, main: #tech, sub: [#tools, #hack, #system], topic: cloud-cost-governance)
 - [[completion-motivation]] — completion-motivation (concept, main: #tech, sub: [#psychology, #tools], topic: gamification-design-patterns)
 - [[consent-phishing]] — consent-phishing (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
+- [[design-process]] — design-process (concept, main: #tech, sub: [#tools, #vibecode], topic: ai-design-workflow)
 - [[domain-takeover-vulnerability]] — domain-takeover-vulnerability (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
 - [[dynamic-shared-quota]] — dynamic-shared-quota (concept, main: #tech, sub: [#tools, #hack], topic: dynamic-shared-quota)
 - [[gamification-design-patterns]] — gamification-design-patterns (concept, main: #tech, sub: [#tools, #psychology, #research], topic: gamification-design-patterns)
@@ -47,6 +48,7 @@ Last updated: 2026-08-27 21:06:35
 - [[math-mafia]] — math-mafia (concept, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
 - [[oauth-security-risks]] — oauth-security-risks (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
 - [[olympiad-to-founder-pipeline]] — olympiad-to-founder-pipeline (concept, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
+- [[prototype-gravity]] — prototype-gravity (concept, main: #tech, sub: [#tools, #vibecode], topic: ai-design-workflow)
 - [[quant-finance-culture]] — quant-finance-culture (concept, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
 - [[secrets-management]] — secrets-management (concept, main: #tech, sub: [#tools, #hack], topic: secrets-management)
 - [[src_10-questions-for-your-startup-developers]] — src_10-questions-for-your-startup-developers (source, main: #tech, sub: [#tools, #tutorial, #hack], topic: gcp-ai-startup-governance)
@@ -55,6 +57,7 @@ Last updated: 2026-08-27 21:06:35
 - [[src_dont-sign-in-with-google]] — src_dont-sign-in-with-google (source, main: #tech, sub: [#hack, #tools, #opinion], topic: sso-security-risks)
 - [[src_gamification-app-truth]] — src_gamification-app-truth (source, main: #tech, sub: [#tools, #psychology, #research], topic: gamification-design-patterns)
 - [[src_google-guide-optimizing-generative-ai-search]] — src_google-guide-optimizing-generative-ai-search (source, main: #tech, sub: [#tools, #tutorial], topic: generative-ai-seo)
+- [[src_how-i-design-with-ai]] — src_how-i-design-with-ai (source, main: #tech, sub: [#tools, #vibecode, #opinion], topic: ai-design-workflow)
 - [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — src_why-the-math-mafia-is-doing-well-jesse-zhang (source, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
 - [[sso-single-point-of-failure]] — sso-single-point-of-failure (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
 - [[streak-psychology]] — streak-psychology (concept, main: #tech, sub: [#psychology], topic: gamification-design-patterns)
@@ -68,8 +71,9 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
-- `#tools` (29 files)
+Tags that frequently appear with `#tech`:
+- `#tools` (32 files)
 - `#hack` (16 files)
 - `#psychology` (9 files)
 - `#tutorial` (6 files)
-- `#automation` (5 files)
+- `#opinion` (6 files)

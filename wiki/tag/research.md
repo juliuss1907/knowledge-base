@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: research
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #research
 
 Auto-generated index of all content tagged with `#research`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-27 21:06:35
 
 ## Stats
 
-- Total files: 266
+- Total files: 264
 - Sources: 61
-- Concepts: 205
-- Last updated: 2026-08-27
+- Concepts: 203
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -206,7 +206,6 @@ Last updated: 2026-08-27 21:06:35
 - [[scalar-multiplication]] — scalar-multiplication (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 - [[second-order-effects]] — second-order-effects (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[self-reinforcing-systems]] — self-reinforcing-systems (concept, main: #economic, sub: [#research, #research], topic: system-dynamics)
-- [[self-reinforcing-systems]] — self-reinforcing-systems (concept, main: #economic, sub: [#research, #research], topic: system-dynamics)
 - [[semantic-memory]] — semantic-memory (concept, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
 - [[setting-mental-model]] — setting-mental-model (concept, main: #productivity, sub: [#research, #psychology], topic: mental-models-art)
 - [[sizing-policy-trading]] — sizing-policy-trading (concept, main: #economic, sub: [#research, #tools], topic: trading-risk-management)
@@ -285,7 +284,6 @@ Last updated: 2026-08-27 21:06:35
 - [[thermodynamics]] — thermodynamics (concept, main: #productivity, sub: [#psychology, #research], topic: mental-models)
 - [[tokenization]] — tokenization (concept, main: #ai, sub: [#research, #tools], topic: tokenization-llm)
 - [[trading-policy-pi]] — trading-policy-pi (concept, main: #economic, sub: [#research, #research], topic: trading-state-policy)
-- [[trading-policy-pi]] — trading-policy-pi (concept, main: #economic, sub: [#research, #research], topic: trading-state-policy)
 - [[uae-saudi-rivalry]] — uae-saudi-rivalry (concept, main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
 - [[ultimatum-game]] — ultimatum-game (concept, main: #system, sub: [#psychology, #research], topic: game-theory-strategic-thinking)
 - [[us-security-umbrella]] — us-security-umbrella (concept, main: #politic, sub: [#research, #opinion], topic: us-saudi-relations)
@@ -298,6 +296,7 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
+Tags that frequently appear with `#research`:
 - `#ai` (89 files)
 - `#productivity` (87 files)
 - `#tools` (69 files)

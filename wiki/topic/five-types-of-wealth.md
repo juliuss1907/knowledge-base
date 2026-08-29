@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: five-types-of-wealth
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Topic: five-types-of-wealth
 
 Auto-generated index of all content with topic `five-types-of-wealth`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -26,4 +26,5 @@ Last updated: 2026-08-27 21:06:35
 
 ## Related topics
 
-- (none)
+Topics that share concepts/sources with `five-types-of-wealth`:
+- None

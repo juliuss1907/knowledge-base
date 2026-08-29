@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: economic
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #economic
 
 Auto-generated index of all content tagged with `#economic`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-08-27 21:06:35
 - Total files: 89
 - Sources: 18
 - Concepts: 71
-- Last updated: 2026-08-27
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -121,8 +121,9 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
-- `#research` (43 files)
+Tags that frequently appear with `#economic`:
 - `#opinion` (42 files)
+- `#research` (41 files)
 - `#tools` (24 files)
 - `#psychology` (20 files)
 - `#tutorial` (16 files)

@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: tutorial
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #tutorial
 
 Auto-generated index of all content tagged with `#tutorial`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-08-27 21:06:35
 - Total files: 88
 - Sources: 35
 - Concepts: 53
-- Last updated: 2026-08-27
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -120,6 +120,7 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
+Tags that frequently appear with `#tutorial`:
 - `#productivity` (40 files)
 - `#tools` (27 files)
 - `#ai` (23 files)

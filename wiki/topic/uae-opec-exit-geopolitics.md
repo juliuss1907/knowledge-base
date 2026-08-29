@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: uae-opec-exit-geopolitics
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Topic: uae-opec-exit-geopolitics
 
 Auto-generated index of all content with topic `uae-opec-exit-geopolitics`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -30,4 +30,5 @@ Last updated: 2026-08-27 21:06:35
 
 ## Related topics
 
-- (none)
+Topics that share concepts/sources with `uae-opec-exit-geopolitics`:
+- None

@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: ai
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #ai
 
 Auto-generated index of all content tagged with `#ai`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-27 21:06:35
 
 ## Stats
 
-- Total files: 195
+- Total files: 196
 - Sources: 47
-- Concepts: 148
-- Last updated: 2026-08-27
+- Concepts: 149
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -93,6 +93,7 @@ Last updated: 2026-08-27 21:06:35
 - [[deepseek-v4-flash-vs-pro]] — deepseek-v4-flash-vs-pro (concept, main: #ai, sub: [#research, #tools], topic: deepseek-v4-architecture)
 - [[default-mode-network]] — default-mode-network (concept, main: #ai, sub: [#research, #health], topic: evolutionary-mismatch-modern-life)
 - [[digital-product-flywheel]] — digital-product-flywheel (concept, main: #economic, sub: [#automation, #ai, #tools], topic: ai-first-business)
+- [[digital-renaissance]] — digital-renaissance (concept, main: #productivity, sub: [#opinion, #ai], topic: digital-renaissance)
 - [[episodic-memory]] — episodic-memory (concept, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
 - [[expert-knowledge-extraction]] — expert-knowledge-extraction (concept, main: #productivity, sub: [#ai, #tutorial, #automation], topic: ai-workflow-methodology)
 - [[external-memory-providers]] — external-memory-providers (concept, main: #ai, sub: [#tools, #research], topic: hermes-top-skills-analysis)
@@ -227,8 +228,9 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
+Tags that frequently appear with `#ai`:
 - `#tools` (120 files)
 - `#research` (89 files)
 - `#automation` (57 files)
-- `#opinion` (47 files)
+- `#opinion` (48 files)
 - `#coding` (29 files)

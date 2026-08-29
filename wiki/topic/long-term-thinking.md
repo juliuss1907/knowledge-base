@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: long-term-thinking
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Topic: long-term-thinking
 
 Auto-generated index of all content with topic `long-term-thinking`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -26,4 +26,5 @@ Last updated: 2026-08-27 21:06:35
 
 ## Related topics
 
-- (none)
+Topics that share concepts/sources with `long-term-thinking`:
+- None

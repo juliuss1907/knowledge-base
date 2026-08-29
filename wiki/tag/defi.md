@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: defi
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #defi
 
 Auto-generated index of all content tagged with `#defi`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-08-27 21:06:35
 - Total files: 7
 - Sources: 1
 - Concepts: 6
-- Last updated: 2026-08-27
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -39,6 +39,7 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
+Tags that frequently appear with `#defi`:
 - `#crypto` (6 files)
 - `#tools` (6 files)
 - `#economic` (1 files)

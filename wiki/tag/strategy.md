@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: strategy
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #strategy
 
 Auto-generated index of all content tagged with `#strategy`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-08-27 21:06:35
 - Total files: 22
 - Sources: 8
 - Concepts: 14
-- Last updated: 2026-08-27
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -54,6 +54,7 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
+Tags that frequently appear with `#strategy`:
 - `#productivity` (22 files)
 - `#psychology` (14 files)
 - `#opinion` (8 files)

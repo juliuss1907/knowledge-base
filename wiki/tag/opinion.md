@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: opinion
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #opinion
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-27 21:06:35
 
 ## Stats
 
-- Total files: 258
-- Sources: 89
-- Concepts: 169
-- Last updated: 2026-08-27
+- Total files: 263
+- Sources: 91
+- Concepts: 172
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -55,7 +55,6 @@ Last updated: 2026-08-27 21:06:35
 - [[busywork-vs-deep-work]] — busywork-vs-deep-work (concept, main: #productivity, sub: [#psychology, #opinion], topic: pareto-principle-priorities)
 - [[career-compounding]] — career-compounding (concept, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
 - [[casino-culture]] — casino-culture (concept, main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth)
-- [[casino-culture]] — casino-culture (concept, main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth)
 - [[category-kings-dynamics]] — category-kings-dynamics (concept, main: #economic, sub: [#opinion, #ai], topic: market-structure)
 - [[challenge-skills-balance]] — challenge-skills-balance (concept, main: #productivity, sub: [#psychology, #opinion], topic: procrastination-neuroscience)
 - [[clear-goals]] — clear-goals (concept, main: #productivity, sub: [#psychology, #opinion], topic: procrastination-neuroscience)
@@ -67,9 +66,11 @@ Last updated: 2026-08-27 21:06:35
 - [[compounding-relationships]] — compounding-relationships (concept, main: #productivity, sub: [#psychology, #opinion], topic: long-term-thinking)
 - [[connecting-the-dots-principle]] — connecting-the-dots-principle (concept, main: #productivity, sub: [#psychology, #opinion], topic: steve-jobs-stanford-connecting-dots)
 - [[creativity-as-skill]] — creativity-as-skill (concept, main: #ai, sub: [#opinion, #psychology], topic: future-proof-skills)
+- [[creator-economy]] — creator-economy (concept, main: #productivity, sub: [#opinion, #tools], topic: digital-renaissance)
 - [[cuoc-dua-khong-di-lui]] — cuoc-dua-khong-di-lui (concept, main: #economic, sub: [#opinion], topic: cuoc-dua-khong-di-lui)
 - [[cynefin-framework]] — cynefin-framework (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[delusional-optimism]] — delusional-optimism (concept, main: #productivity, sub: [#psychology, #opinion], topic: personal-excellence-mindset)
+- [[digital-renaissance]] — digital-renaissance (concept, main: #productivity, sub: [#opinion, #ai], topic: digital-renaissance)
 - [[discipline-as-freedom]] — discipline-as-freedom (concept, main: #productivity, sub: [#opinion, #psychology], topic: discipline-and-spontaneity)
 - [[dollar-as-rent-payment]] — dollar-as-rent-payment (concept, main: #economic, sub: [#research, #opinion], topic: petrodollar-collapse)
 - [[dynamic-edge-trading]] — dynamic-edge-trading (concept, main: #economic, sub: [#research, #opinion], topic: market-dynamics)
@@ -134,9 +135,11 @@ Last updated: 2026-08-27 21:06:35
 - [[negative-compounding]] — negative-compounding (concept, main: #productivity, sub: [#opinion, #research], topic: compounding-growth)
 - [[never-enough-culture]] — never-enough-culture (concept, main: #health, sub: [#psychology, #opinion], topic: never-enough-culture)
 - [[new-leverage-digital-assets]] — new-leverage-digital-assets (concept, main: #economic, sub: [#opinion, #tools], topic: writing-content-system)
+- [[new-renaissance-man]] — new-renaissance-man (concept, main: #productivity, sub: [#opinion, #psychology], topic: digital-renaissance)
 - [[nice-syndrome]] — nice-syndrome (concept, main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology)
 - [[non-commodity-content]] — non-commodity-content (concept, main: #productivity, sub: [#tutorial, #opinion], topic: generative-ai-seo)
 - [[olympiad-to-founder-pipeline]] — olympiad-to-founder-pipeline (concept, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
+- [[one-human-business]] — one-human-business (concept, main: #productivity, sub: [#opinion, #tools], topic: digital-renaissance)
 - [[opec-cartel-structure]] — opec-cartel-structure (concept, main: #economic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
 - [[organizational-incrementalism]] — organizational-incrementalism (concept, main: #productivity, sub: [#opinion, #research], topic: active-thinking-methodology)
 - [[out-of-distribution-experience]] — out-of-distribution-experience (concept, main: #productivity, sub: [#opinion, #psychology, #automation], topic: career-advice-ai-age)
@@ -202,6 +205,7 @@ Last updated: 2026-08-27 21:06:35
 - [[src_happiness-is-a-skill-hussain-ibarra]] — src_happiness-is-a-skill-hussain-ibarra (source, main: #health, sub: [#psychology, #opinion], topic: happiness-flow-state)
 - [[src_hermes-200-30-skills-3-worth-it]] — src_hermes-200-30-skills-3-worth-it (source, main: #ai, sub: [#tools, #automation, #opinion], topic: hermes-top-skills-analysis)
 - [[src_how-ai-productivity-fails]] — src_how-ai-productivity-fails (source, main: #ai, sub: [#tools, #automation, #opinion], topic: ai-productivity)
+- [[src_how-i-design-with-ai]] — src_how-i-design-with-ai (source, main: #tech, sub: [#tools, #vibecode, #opinion], topic: ai-design-workflow)
 - [[src_how-some-people-become-unrecognizable]] — src_how-some-people-become-unrecognizable (source, main: #productivity, sub: [#opinion, #tools], topic: compounding-growth)
 - [[src_how-the-market-warns-you-before-the-crash]] — src_how-the-market-warns-you-before-the-crash (source, main: #economic, sub: [#research, #tools, #opinion], topic: market-structure-analysis)
 - [[src_how-to-live-without-options]] — src_how-to-live-without-options (source, main: #productivity, sub: [#psychology, #opinion, #research], topic: optionality-paradox)
@@ -253,6 +257,7 @@ Last updated: 2026-08-27 21:06:35
 - [[src_tribute-system-new-world-order]] — src_tribute-system-new-world-order (source, main: #politic, sub: [#geopolitics, #opinion], topic: tribute-system-world-order)
 - [[src_uae-opec-exit-end-of-era]] — src_uae-opec-exit-end-of-era (source, main: #economic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
 - [[src_viktor-frankl-meaning-video]] — src_viktor-frankl-meaning-video (source, main: #productivity, sub: [#opinion, #psychology], topic: meaning-life-purpose)
+- [[src_we-are-in-the-middle-of-the-digital-renaissance]] — src_we-are-in-the-middle-of-the-digital-renaissance (source, main: #productivity, sub: [#opinion, #psychology], topic: digital-renaissance)
 - [[src_were-not-supposed-to-live-like-this]] — src_were-not-supposed-to-live-like-this (source, main: #productivity, sub: [#opinion, #research], topic: evolutionary-mismatch-modern-life)
 - [[src_what-comes-after-systems-thinking]] — src_what-comes-after-systems-thinking (source, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[src_what-is-a-product]] — src_what-is-a-product (source, main: #ai, sub: [#opinion, #vibecode], topic: product-vs-prototype)
@@ -290,8 +295,9 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
-- `#productivity` (118 files)
-- `#psychology` (112 files)
+Tags that frequently appear with `#opinion`:
+- `#productivity` (122 files)
+- `#psychology` (114 files)
 - `#research` (62 files)
-- `#ai` (47 files)
+- `#ai` (48 files)
 - `#economic` (42 files)

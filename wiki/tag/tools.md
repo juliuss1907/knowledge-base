@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: "[[tag]]"
+parent: [[tag]]
 tag: tools
 auto_generated: true
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tag: #tools
 
 Auto-generated index of all content tagged with `#tools`.
 
-Last updated: 2026-08-27 21:06:35
+Last updated: 2026-08-29 14:09:30
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-08-27 21:06:35
 
 ## Stats
 
-- Total files: 202
-- Sources: 44
-- Concepts: 158
-- Last updated: 2026-08-27
+- Total files: 207
+- Sources: 45
+- Concepts: 162
+- Last updated: 2026-08-29
 
 ## Files with this tag
 
@@ -80,9 +80,11 @@ Last updated: 2026-08-27 21:06:35
 - [[context-window-management]] — context-window-management (concept, main: #ai, sub: [#tools, #automation], topic: ai-coding-context-handoff)
 - [[conversational-website]] — conversational-website (concept, main: #ai, sub: [#tools, #automation], topic: ai-landing-page-discovery)
 - [[cookie-fun-mcp]] — cookie-fun-mcp (concept, main: #crypto, sub: [#tools, #defi], topic: hermes-xai-grok-integration)
+- [[creator-economy]] — creator-economy (concept, main: #productivity, sub: [#opinion, #tools], topic: digital-renaissance)
 - [[cross-agent-workflow]] — cross-agent-workflow (concept, main: #ai, sub: [#tools, #automation], topic: ai-coding-context-handoff)
 - [[csa-hca-attention]] — csa-hca-attention (concept, main: #ai, sub: [#research, #tools], topic: deepseek-v4-architecture)
 - [[deepseek-v4-flash-vs-pro]] — deepseek-v4-flash-vs-pro (concept, main: #ai, sub: [#research, #tools], topic: deepseek-v4-architecture)
+- [[design-process]] — design-process (concept, main: #tech, sub: [#tools, #vibecode], topic: ai-design-workflow)
 - [[digital-product-flywheel]] — digital-product-flywheel (concept, main: #economic, sub: [#automation, #ai, #tools], topic: ai-first-business)
 - [[domain-takeover-vulnerability]] — domain-takeover-vulnerability (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
 - [[dynamic-shared-quota]] — dynamic-shared-quota (concept, main: #tech, sub: [#tools, #hack], topic: dynamic-shared-quota)
@@ -132,6 +134,7 @@ Last updated: 2026-08-27 21:06:35
 - [[new-leverage-digital-assets]] — new-leverage-digital-assets (concept, main: #economic, sub: [#opinion, #tools], topic: writing-content-system)
 - [[note-taking-systems]] — note-taking-systems (concept, main: #productivity, sub: [#tools], topic: learning-elaboration-technique)
 - [[oauth-security-risks]] — oauth-security-risks (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
+- [[one-human-business]] — one-human-business (concept, main: #productivity, sub: [#opinion, #tools], topic: digital-renaissance)
 - [[orchestrator-worker-validator]] — orchestrator-worker-validator (concept, main: #ai, sub: [#automation, #tools], topic: multi-agent-architecture)
 - [[paper-trading]] — paper-trading (concept, main: #economic, sub: [#tutorial, #tools], topic: ai-trading-agent-claude-code)
 - [[parametric-memory]] — parametric-memory (concept, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
@@ -146,6 +149,7 @@ Last updated: 2026-08-27 21:06:35
 - [[problem-statement-redesign]] — problem-statement-redesign (concept, main: #productivity, sub: [#tools, #research, #tutorial], topic: systems-thinking-tools)
 - [[procedural-memory]] — procedural-memory (concept, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
 - [[prospective-memory]] — prospective-memory (concept, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
+- [[prototype-gravity]] — prototype-gravity (concept, main: #tech, sub: [#tools, #vibecode], topic: ai-design-workflow)
 - [[query-fan-out]] — query-fan-out (concept, main: #ai, sub: [#research, #tools], topic: generative-ai-seo)
 - [[rag-retrieval-augmented-generation]] — rag-retrieval-augmented-generation (concept, main: #ai, sub: [#research, #tools], topic: generative-ai-seo)
 - [[reflect-skill-hindsight]] — reflect-skill-hindsight (concept, main: #ai, sub: [#tools, #automation], topic: hermes-top-skills-analysis)
@@ -188,6 +192,7 @@ Last updated: 2026-08-27 21:06:35
 - [[src_how-ai-productivity-fails]] — src_how-ai-productivity-fails (source, main: #ai, sub: [#tools, #automation, #opinion], topic: ai-productivity)
 - [[src_how-ai-text-watermarking-works]] — src_how-ai-text-watermarking-works (source, main: #ai, sub: [#research, #tools, #hack], topic: ai-text-watermarking)
 - [[src_how-average-people-will-get-rich-with-ai]] — src_how-average-people-will-get-rich-with-ai (source, main: #economic, sub: [#tutorial, #ai, #tools], topic: ai-first-business)
+- [[src_how-i-design-with-ai]] — src_how-i-design-with-ai (source, main: #tech, sub: [#tools, #vibecode, #opinion], topic: ai-design-workflow)
 - [[src_how-some-people-become-unrecognizable]] — src_how-some-people-become-unrecognizable (source, main: #productivity, sub: [#opinion, #tools], topic: compounding-growth)
 - [[src_how-the-market-warns-you-before-the-crash]] — src_how-the-market-warns-you-before-the-crash (source, main: #economic, sub: [#research, #tools, #opinion], topic: market-structure-analysis)
 - [[src_introducing-backsearch-gr-inc]] — src_introducing-backsearch-gr-inc (source, main: #ai, sub: [#tools, #research], topic: agent-backtesting)
@@ -234,8 +239,9 @@ Last updated: 2026-08-27 21:06:35
 
 ## Co-occurring tags
 
+Tags that frequently appear with `#tools`:
 - `#ai` (120 files)
 - `#research` (69 files)
 - `#automation` (59 files)
-- `#tech` (29 files)
-- `#tutorial` (27 files)
+- `#tech` (32 files)
+- `#opinion` (28 files)

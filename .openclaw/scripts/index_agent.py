@@ -155,12 +155,11 @@ def main():
     tags_written = 0
     for tag in sorted(tag_to_files.keys()):
         entries = tag_to_files[tag]
-        # Separate concepts and sources
-        concepts = [e for e in entries if e[2] == "concept"]
-        sources = [e for e in entries if e[2] == "source"]
+        tag_concepts_list = [e for e in entries if e[2] == "concept"]
+        tag_sources_list = [e for e in entries if e[2] == "source"]
         # Sort alphabetically
-        concepts.sort(key=lambda x: x[0])
-        sources.sort(key=lambda x: x[0])
+        tag_concepts_list.sort(key=lambda x: x[0])
+        tag_sources_list.sort(key=lambda x: x[0])
         all_entries = sorted(entries, key=lambda x: x[0])
 
         # Co-occurrence top 5
@@ -191,8 +190,8 @@ Last updated: {NOW}
 ## Stats
 
 - Total files: {len(all_entries)}
-- Sources: {len(sources)}
-- Concepts: {len(concepts)}
+- Sources: {len(tag_sources_list)}
+- Concepts: {len(tag_concepts_list)}
 - Last updated: {TODAY}
 
 ## Files with this tag
@@ -230,10 +229,10 @@ Tags that frequently appear with `#{tag}`:
     topics_written = 0
     for topic in sorted(topic_to_files.keys()):
         entries = topic_to_files[topic]
-        concepts = [e for e in entries if e[2] == "concept"]
-        sources = [e for e in entries if e[2] == "source"]
-        concepts.sort(key=lambda x: x[0])
-        sources.sort(key=lambda x: x[0])
+        topic_concepts = [e for e in entries if e[2] == "concept"]
+        topic_sources = [e for e in entries if e[2] == "source"]
+        topic_concepts.sort(key=lambda x: x[0])
+        topic_sources.sort(key=lambda x: x[0])
 
         # Find topics that share files
         # Count shared files between topics
@@ -266,10 +265,10 @@ Last updated: {NOW}
 
 ---
 
-## Concepts ({len(concepts)})
+## Concepts ({len(topic_concepts)})
 
 """
-        for slug, title, ftype, main, subs in concepts:
+        for slug, title, ftype, main, subs in topic_concepts:
             sub_str = ", ".join(f"#{s}" for s in subs) if subs else ""
             subs_part = f"sub: [{sub_str}]" if sub_str else ""
             parts = [f"main: #{main}"]
@@ -278,10 +277,10 @@ Last updated: {NOW}
             content += f"- [[{slug}]] — {', '.join(parts)}\n"
 
         content += f"""
-## Sources ({len(sources)})
+## Sources ({len(topic_sources)})
 
 """
-        for slug, title, ftype, main, subs in sources:
+        for slug, title, ftype, main, subs in topic_sources:
             sub_str = ", ".join(f"#{s}" for s in subs) if subs else ""
             subs_part = f"sub: [{sub_str}]" if sub_str else ""
             parts = [f"main: #{main}"]

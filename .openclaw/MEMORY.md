@@ -1444,3 +1444,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Errors:** 0
 - **Note:** Indexes already up to date from earlier full run today 14:14. Skipped rebuild.
 
+
+## 2026-08-30 04:00 — Heartbeat OK
+- Raw: 0 unprocessed
+- Concepts 554, sources 187, tag 25, topic 219, drafts 8
+- Pending Hermes: 5 report (08-28 + 08-29) chưa review
+- System OK, không thay đổi
+---

@@ -1,3 +1,27 @@
+## 2026-08-29 20:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK** — không đổi so với 19:30
+
+| Check | Status | Details |
+|-------|--------|--------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 — cả 2 file backlog 08-27/08-28 đã processed |
+| wiki/concepts | 554 | spot-check OK (three-levels-of-thinking, journalism-social-institution, emotional-inheritance: frontmatter + links đầy đủ) |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 217 | — |
+| Pending reviews | 🔍 2 pending | Format 08-28 (0E forward-refs) + Hygiene 08-28 (2E known issue) — không đổi, no action |
+
+## Notes
+
+1. State đồng nhất với heartbeat 19:30 — raw backlog đã sạch (2 file cũ đã processed 08-28). Cả 2 pending reviews là known issue đã escalation nhiều lần, không cần quyết định mới.
+2. [Known issue] Root json recycle lần 7+ + `wiki/HEARTBEAT.md` symlink lần 3+ — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+3. Compile hoạt động: 10 file mới trong wiki/sources + concepts từ sau 08-28 22:00 (xử lý 2 file backlog 08-27/08-28).
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-29 19:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK** — không đổi so với 17:00

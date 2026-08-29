@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-28 23:31 (Hygiene inspection 08-28 — pending review)
+**Last updated:** 2026-08-29 23:00 (Output validation 08-29 — pending review)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 9 reports (08-25/08-26/08-27) — 2026-08-27 by Connor (5 capital-I typos + 9 empty Notes removed inline; format/hygiene deferred per escalation)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-29 | Output | 4 (0E+2W+2I) | Review [wiki/reviews/2026-08-29_output-report.md](2026-08-29_output-report.md) |
 | 🔍 PENDING | 08-28 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-28_format-report.md](2026-08-28_format-report.md) |
 | 🔍 PENDING | 08-28 | Hygiene | 2 (2E) | Review [wiki/reviews/2026-08-28_hygiene-report.md](2026-08-28_hygiene-report.md) |
 | ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-28 — forward-refs only, no action needed; archived |
@@ -76,6 +77,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-08-29 (23:00)
+
+- **Report:** `wiki/reviews/2026-08-29_output-report.md`
+- **Summary:** 741 file checked (187 sources + 554 concepts), 10 mới (2 sources + 8 concepts — 2 clusters: ai-design-workflow từ Matt Dailey "How I Design with AI" + digital-renaissance từ Dan Koe Substack). 4 issues: 0 ERROR, 2 WARNING, 2 INFO. Batch sạch về typo + link: cả 5 biến thể typo Compile Agent = 0 instances, dropped-i variant-5 grep = 0 lần thứ 7 liên tiếp (08-23 → 08-29, đạt ngưỡng 1 tuần → cân nhắc hạ xuống weekly từ 08-30); 0 forward-refs (27 targets trong Related concepts đều đã tồn tại); 0 truncated; frontmatter `original:` → raw/articles/ đều tồn tại; mọi concept mới definition 2-3 câu + 6-8 key ideas (≥5) — batch sạch depth-debt. WARNING 1-2: `product-vs-prototype.md` + `taste-judgment.md` — Sources section trong body thiếu backlink `[[src_how-i-design-with-ai]]` dù frontmatter khai 2 nguồn và Key ideas trích trực tiếp nguồn đó. INFO 3-4: `## Notes` rỗng ở EOF 2/8 concept mới (optional, cosmetic — precedent 08-26/08-27).
+- **Actions needed:** Fix Agent thêm `- [[src_how-i-design-with-ai]]` vào `## Sources` body của 2 file (frontmatter đã đúng); xóa 2 header `## Notes` rỗng. Không blocking, không ERROR.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-28
 

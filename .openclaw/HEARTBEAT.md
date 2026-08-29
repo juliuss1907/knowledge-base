@@ -1,3 +1,27 @@
+## 2026-08-29 12:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir — không có file `#agent/inbox` |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0/194 raw files |
+| wiki/concepts | 554 | spot-check OK (bpe-algorithm, static-website-blind-spot — frontmatter + `[[src_...]]` backlink đầy đủ) |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 217 | — |
+| Pending reviews | 🔍 2 pending | Format 08-28 (0E forward-refs — no action) + Hygiene 08-28 (2E — known issue deferred) |
+
+## Notes
+
+1. Raw backlog sạch. Compile 08:00 hôm nay đã xử lý xong 2 backlog cũ, không có raw mới ingested trong 12h qua.
+2. Pending reviews 08-28 vẫn giữ nguyên: Format 0 ERROR (391 forward-refs, no Fix Agent action), Hygiene 2 ERROR — đều là known issue đã escalation nhiều lần (root json lần 7+ + HEARTBEAT symlink lần 3+), theo precedent KHÔNG xóa, chờ SQLite refactor / process-level fix. Không có quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 7+ + `wiki/HEARTBEAT.md` symlink lần 3+ — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-29 09:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK**

@@ -5,7 +5,7 @@ scope: tags
 parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
-last_updated: 2026-08-27
+last_updated: 2026-08-29
 ---
 
 # Tags Index
@@ -20,29 +20,29 @@ Master index of all tags used across the wiki. Each entry links to a tag file (`
 
 ## Stats
 
-- Total tags: 24
+- Total tags: 25
 - Main tags: 9
 - Sub tags: 18
-- Most used: #productivity (313), #psychology (311), #research (266)
-- Last updated: 2026-08-27
+- Most used: #productivity (318), #psychology (313), #research (264)
+- Last updated: 2026-08-29
 
 ## Items
 
 ### Main Tags (Pool A)
 
-- [[ai]] — 195 files
+- [[ai]] — 196 files
 - [[crypto]] — 15 files
 - [[economic]] — 89 files
 - [[health]] — 53 files
 - [[investment]] — 12 files
 - [[politic]] — 21 files
-- [[productivity]] — 313 files
+- [[productivity]] — 318 files
 - [[system]] — 50 files
-- [[tech]] — 36 files
+- [[tech]] — 39 files
 
 ### Sub Tags (Pool B)
 
-- [[ai]] — 195 files
+- [[ai]] — 196 files
 - [[automation]] — 90 files
 - [[coding]] — 31 files
 - [[defi]] — 7 files
@@ -52,14 +52,14 @@ Master index of all tags used across the wiki. Each entry links to a tag file (`
 - [[law]] — 5 files
 - [[layer1]] — 4 files
 - [[news]] — 12 files
-- [[opinion]] — 258 files
-- [[psychology]] — 311 files
-- [[research]] — 266 files
+- [[opinion]] — 263 files
+- [[psychology]] — 313 files
+- [[research]] — 264 files
 - [[strategy]] — 22 files
 - [[system]] — 50 files
-- [[tools]] — 202 files
+- [[tools]] — 207 files
 - [[tutorial]] — 88 files
-- [[vibecode]] — 10 files
+- [[vibecode]] — 13 files
 
 ## Notes
 

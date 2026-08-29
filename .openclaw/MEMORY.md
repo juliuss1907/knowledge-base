@@ -1408,7 +1408,13 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - 3 models all failed: deepseek-v4-flash 429 rate_limit, minimax-m2.5-free model_not_found, nemotron-3-super-free model_not_found
 - Index cron 21:00 hôm nay không chạy được — cần Julius xem lại model config (opencode provider chưa đăng ký đúng)
 
-## 2026-08-28 21:04 — Indexed (incremental, no changes)
+## 2026-08-29 21:07 — Indexed (Full rebuild)
+- Scanned: 554 concepts + 187 sources
+- Tags indexed: 25 (9 main-tags + 18 sub-tags)
+- Topics indexed: 219
+- Orphans deleted: 0
+- Errors: 0
+- Master tag.md updated with current counts
 - Incremental rebuild triggered on daily 21:00 cron
 - Last success: 2026-08-27 21:07
 - Files modified since last success: 0
@@ -1424,3 +1430,17 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Concepts 554, sources 187, tag 25, topic 217
 - Pending Hermes: 2 report 08-28 chưa review
 - System OK
+
+---
+
+## 2026-08-29 21:19:00 — Indexed (Incremental)
+
+- **Mode:** Incremental (daily cron 21:00)
+- **Scanned:** 0 changed files (no new/modified in wiki/sources/ or wiki/concepts/ since last run 14:14)
+- **Tags indexed:** 0 (skipped — no changes)
+- **Topics indexed:** 0 (skipped — no changes)
+- **Orphans deleted:** 0
+- **Invalid tags found:** 0
+- **Errors:** 0
+- **Note:** Indexes already up to date from earlier full run today 14:14. Skipped rebuild.
+

@@ -81,7 +81,7 @@ ROOT_ORPHAN_MAP = {
     "MEMORY.md": ".hermes/ or .openclaw/",
     "openclaw-workspace-state.json":
         "OpenClaw runtime state home (.openclaw/ or ~/.openclaw/) — "
-        "7th consecutive run flagged (08-22 -> 08-28). Root cause CONFIRMED in "
+        "8th consecutive run flagged (08-22 -> 08-29). Root cause CONFIRMED in "
         "vendor source (SKILL.md v1.21 pitfall #9): OpenClaw treats any dir with "
         "AGENTS.md as a workspace; state path resolves CWD-relative by design "
         "(dist/workspace-DkQ7irPD.js). .gitignore guard holds the repo clean "

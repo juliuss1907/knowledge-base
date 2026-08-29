@@ -1,3 +1,23 @@
+## 2026-08-29 08:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir — không có file `#agent/inbox` |
+| Raw backlog | ⚠️ 2 files | `2026-08-27_we-are-in-the-middle-of-the-digital-renaissance` (ingested 08-27 20:42, >24h) + `2026-08-28_how-i-design-with-ai` (ingested 08-28 21:06) — chờ CompileAgent 08:00 hôm nay (08-29) xử lý |
+| wiki/concepts | 548 | spot-check OK — không có thay đổi mới qua đêm |
+| wiki/sources | 185 | — |
+| Pending reviews | 🔍 2 pending | Format 08-28 (0E, forward-refs — no action) + Hygiene 08-28 (2E — known issue deferred) |
+
+## Notes
+
+1. Vẫn 2 raw files chưa compile (08-27 + 08-28). Đúng giờ CompileAgent 08:00 hôm nay — sẽ xử lý trong lượt chạy này, hết backlog trễ hạn (file 08-27 quá 24h).
+2. Pending reviews 08-28: Format 0 ERROR (forward-refs, no Fix Agent action), Hygiene 2 ERROR — known issue đã escalation (root json lần 7+ + HEARTBEAT symlink lần 3+), KHÔNG xóa, chờ SQLite refactor / process-level fix. Không có quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 7+ + `wiki/HEARTBEAT.md` symlink lần 3+ — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+---
+
 ## 2026-08-29 06:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK**

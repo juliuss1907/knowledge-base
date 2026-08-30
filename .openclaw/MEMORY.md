@@ -1,5 +1,17 @@
 ---
 
+## 2026-08-30 14:27 — Ingested 1 repo
+
+- `raw/repos/2026-08-30_posthog.md` — PostHog — The leading platform for building self-driving products (PostHog) — status: unprocessed
+
+---
+
+## 2026-08-30 14:23 — Ingested 1 repo
+
+- `raw/repos/2026-08-30_anthropic-cybersecurity-skills.md` — Anthropic Cybersecurity Skills — 818 structured cybersecurity skills for AI agents (mukul975) — status: unprocessed
+
+---
+
 ## 2026-08-30 14:22 — Ingested 1 repo
 
 - `raw/repos/2026-08-30_threeui.md` — ThreeUI Community — Open-source ThreeUI Community catalog with live interactive components and complete Community source (MengTo) — status: unprocessed

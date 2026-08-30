@@ -1,3 +1,25 @@
+## 2026-08-30 08:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK** — không đổi so với 07:00
+
+| Check | Status | Details |
+|-------|--------|--------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 0 files | `status: unprocessed` = 0 (2 files backlog trước đã processed + compiled) |
+| wiki/concepts | 554 | — |
+| wiki/sources | 187 | — |
+| Pending reviews | ✅ 0 pending | _action-required.md: 0 reports chờ action mới |
+
+## Notes
+
+1. Compile 08:00 hôm nay đã xử lý 2 files backlog trước đó (digital-renaissance + how-i-design-with-ai) — giờ status: processed, source + concept notes đã tạo.
+2. [Known issue] Root json recycle lần 6+ — chờ SQLite refactor. Không xóa theo escalation.
+3. `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn) — chờ process-level fix, không xóa.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-30 07:00 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK** — không đổi so với 02:30

@@ -1,5 +1,13 @@
 ---
 
+## 2026-08-30 09:05 — Ingested 2 articles
+
+- `raw/articles/2026-08-30_ai-engineering-skills-map-software-engineering-fundamentals.md` — The AI Engineering Skills Map In Detail — Software Engineering Fundamentals (deeplearning.ai)
+- `raw/articles/2026-08-30_ai-engineering-skills-map-building-deploying-ai-applications.md` — The AI Engineering Skills Map In Detail — Building and Deploying AI Applications (deeplearning.ai)
+- Both status: unprocessed
+
+---
+
 ## 2026-08-14 08:40:00 — Compile Agent Daily Run
 
 - **Result:** No unprocessed files found

@@ -23,11 +23,13 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 147 files
-- By status: 144 processed, 3 unprocessed
-- By date: 12 this week, 20 this month
-- Last updated: 2026-08-28
+- Total: 149 files
+- By status: 144 processed, 5 unprocessed
+- By date: 14 this week, 22 this month
+- Last updated: 2026-08-30
 ## Items
+- [[2026-08-30_ai-engineering-skills-map-software-engineering-fundamentals]] — The AI Engineering Skills Map In Detail — Software Engineering Fundamentals (unprocessed)
+- [[2026-08-30_ai-engineering-skills-map-building-deploying-ai-applications]] — The AI Engineering Skills Map In Detail — Building and Deploying AI Applications (unprocessed)
 - [[2026-08-28_how-i-design-with-ai]] — How I Design with AI by Matt Dailey (unprocessed)
 - [[2026-08-27_we-are-in-the-middle-of-the-digital-renaissance]] — We are in the middle of the digital renaissance, please take advantage of it by Dan Koe (unprocessed)
 - [[2026-08-26_10-questions-for-your-startup-developers]] — 10 questions for your startup developers by Google Cloud (unprocessed)

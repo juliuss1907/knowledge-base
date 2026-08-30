@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/home/julius/knowledge-base/.hermes/logs/curator/20260823-060256",
-  "last_run_at": "2026-08-23T06:02:56.042291+00:00",
-  "last_run_duration_seconds": 0.538914,
-  "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
+  "last_report_path": "/home/julius/knowledge-base/.hermes/logs/curator/20260830-070234",
+  "last_run_at": "2026-08-30T07:02:34.816538+00:00",
+  "last_run_duration_seconds": 0.57385,
+  "last_run_summary": "auto: 1 marked stale; llm: skipped (consolidation off)",
   "last_run_summary_shown_at": "2026-06-21T03:20:16.803962+00:00",
   "paused": false,
-  "run_count": 10
+  "run_count": 11
 }

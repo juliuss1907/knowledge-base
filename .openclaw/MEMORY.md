@@ -1,5 +1,11 @@
 ---
 
+## 2026-08-30 14:00 — Ingested 1 repo
+
+- `raw/repos/2026-08-30_impeccable.md` — Impeccable — The design language that makes your AI harness better at design (juliuss1907) — status: unprocessed
+
+---
+
 ## 2026-08-30 13:58 — Ingested 1 repo
 
 - `raw/repos/2026-08-30_archify.md` — Archify — Turn a codebase or system description into a polished, interactive system map (tt-a1i) — status: unprocessed

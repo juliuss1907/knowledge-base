@@ -20,14 +20,15 @@ GitHub repositories and code projects.
 
 ## Stats
 
-- Total: 3 files
-- By status: 2 processed, 1 unprocessed
-- By date: 3 this week, 3 this month
+- Total: 4 files
+- By status: 2 processed, 2 unprocessed
+- By date: 4 this week, 4 this month
 - Last updated: 2026-08-30
 
 ## Items
 
 <!-- Ingest Agent appends here, newest first -->
+- [[2026-08-30_impeccable]] — Impeccable — The design language that makes your AI harness better at design (unprocessed)
 - [[2026-08-30_archify]] — Archify — Turn a codebase or system description into a polished, interactive system map (unprocessed)
 - [[2026-06-27_aiskilloftheweek_personal-mba-generator-skill]] — Personal MBA Generator Claude AI Skill (processed)
 - [[2026-06-27_aiskilloftheweek_sop-writer-skill]] — SOP Writer Claude AI Skill (processed)

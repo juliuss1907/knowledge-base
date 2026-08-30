@@ -1,3 +1,28 @@
+## 2026-08-30 14:00 (Asia/Saigon)
+
+⚠️ **4 raw files mới chưa compile — 2 repos ingest thêm sau 12:00**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ⚠️ 4 files | 2 articles (08-30 09:04, Andrew Ng The Batch) + 2 repos (08-30 13:56-13:58): `archify` + `impeccable` (status: unprocessed, ingest trong ngày — không phải backlog trễ hạn) |
+| wiki/concepts | 554 | — |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 5 pending | 08-29 Format (0E+415W) + Output (0E+2W+2I) + Hygiene (2E) + 08-28 Format (0E+391W) + Hygiene (2E) — chờ Julius duyệt, không đổi |
+
+## Notes
+
+1. **2 repos mới** ingest sau heartbeat 12:00 (13:56-13:58): `archify` (github.com/tt-a1i/archify) + `impeccable` (github.com/juliuss1907/impeccable) — cùng 2 articles 09:04, tổng 4 raw files chưa compile. CompileAgent 08:00 mai (08-31) sẽ xử lý. Không phải backlog trễ hạn (mới nhất ~1h tuổi).
+2. `raw/repos/repos.md` có thay đổi (Stats/Items sections — đúng write zone của Ingest). `impeccable.md` chưa git-tracked.
+3. Pending reviews giữ nguyên 5 (08-28 + 08-29) — known issue đã escalation (root json lần 8+ + HEARTBEAT symlink), không quyết định mới cần Julius.
+4. [Known issue] Root json recycle lần 8+ + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn) — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-30 12:00 (Asia/Saigon)
 
 ⚠️ **2 raw files mới chưa compile — ingest sau 08:00**

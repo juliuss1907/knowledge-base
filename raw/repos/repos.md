@@ -20,14 +20,15 @@ GitHub repositories and code projects.
 
 ## Stats
 
-- Total: 2 files
-- By status: 2 processed, 0 unprocessed
-- By date: 2 this week, 2 this month
-- Last updated: 2026-06-27
+- Total: 3 files
+- By status: 2 processed, 1 unprocessed
+- By date: 3 this week, 3 this month
+- Last updated: 2026-08-30
 
 ## Items
 
 <!-- Ingest Agent appends here, newest first -->
+- [[2026-08-30_archify]] — Archify — Turn a codebase or system description into a polished, interactive system map (unprocessed)
 - [[2026-06-27_aiskilloftheweek_personal-mba-generator-skill]] — Personal MBA Generator Claude AI Skill (processed)
 - [[2026-06-27_aiskilloftheweek_sop-writer-skill]] — SOP Writer Claude AI Skill (processed)
 

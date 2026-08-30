@@ -1,5 +1,11 @@
 ---
 
+## 2026-08-30 13:58 — Ingested 1 repo
+
+- `raw/repos/2026-08-30_archify.md` — Archify — Turn a codebase or system description into a polished, interactive system map (tt-a1i) — status: unprocessed
+
+---
+
 ## 2026-08-30 09:05 — Ingested 2 articles
 
 - `raw/articles/2026-08-30_ai-engineering-skills-map-software-engineering-fundamentals.md` — The AI Engineering Skills Map In Detail — Software Engineering Fundamentals (deeplearning.ai)

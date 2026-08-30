@@ -522,7 +522,7 @@ pat=re.compile(f"([{VN_VOWELS}])I\\b")
 
 A fifth manifestation of the same root cause: Compile Agent drops the trailing 'i' entirely from Vietnamese words that should end in "ời". This is the most destructive variant yet — the resulting tokens ("ngườ", "thờ", "lờ") are valid Vietnamese morphemes with completely different meanings, making them invisible to spell-checkers.
 
-> **Status 2026-08-28:** clean-run streak is now 6 consecutive (08-23 → 08-28; dropped-i variant-5 grep = 0 matches each run, including all 4 sub-patterns — `ngườ`, `thờ`, `thay v`, `chính lờ`/`bằng lờ`). Carry-over inventory eliminated since 08-24. Keep the mandatory grep below until a FULL WEEK of clean runs (through ~08-29/08-30), then consider demoting it to weekly. If a new batch ever reintroduces variant 5, the streak resets.
+> **Status 2026-08-30:** clean-run streak is now 8 consecutive (08-23 → 08-30; dropped-i variant-5 grep = 0 matches each run, including all 4 sub-patterns — `ngườ`, `thờ`, `thay v`, `chính lờ`/`bằng lờ`). Carry-over inventory eliminated since 08-24. **Full-week threshold REACHED 08-30** — the skill's own condition for demoting the mandatory daily grep to weekly is now met. Recommendation logged in MEMORY.md 08-30 entry: demote to weekly from 08-31. Until Julius/Connor confirms the demotion, keep running the grep daily — it is cheap and it is the one that would catch a catastrophic deletion typo. If a new batch ever reintroduces variant 5, the streak resets and the daily requirement stays.
 
 **First observed:** 2026-07-21 batch — 16 new files (3 sources + 13 concepts), ~35 instances across 13/16 files (81% affected).
 
@@ -929,7 +929,7 @@ VERIFY_EOF
 bash /tmp/hermes-verify-memory-YYYYMMDD.sh
 ```
 
-**Silent-run MEMORY.md entry structure (line depth):** The entry spans 5 lines:
+**Silent-run MEMORY.md entry structure (line depth):** The entry spans 5 lines in the minimal form:
 ```
 ## YYYY-MM-DD HH:MM:SS — Output validation         ← line 0 (heading)
 - **Files checked:** ...                              ← line 1
@@ -937,8 +937,9 @@ bash /tmp/hermes-verify-memory-YYYYMMDD.sh
 - **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)   ← line 3
 - **Result:** [SILENT] — nothing new to validate      ← line 4
 ```
+To reach the [SILENT] marker or Issues found line, use `grep -F -A 5` (not `-A 3`).
 
-To reach the `[SILENT]` marker or `Issues found` line, use `grep -F -A 5` (not `-A 3`). The existing `_action-required.md` pitfall about `-A` depth uses 3 lines for that file's different structure — MEMORY.md needs 5.
+**Pitfall — Carry-over line is at depth 6, not 5 (2026-08-30):** Since the 08-21 reference format, silent entries also carry an optional `- **Carry-over:** ...` line as line 5 (total 6 lines below the heading). `grep -A 5` from the heading includes heading + 5 lines, i.e. UP TO the `Result`/`[SILENT]` line — the Carry-over line is the NEXT line and `-A 5` MISSES it. Symptom: verify script reports `[FAIL] Carry-over line present` while manual `grep -F -A 6` confirms the line exists. Fix: any check targeting the Carry-over line must use `-A 6`. The SILENT-marker and Issues-found checks (lines 1-4) still work with `-A 5`. The existing `_action-required.md` pitfall about `-A` depth uses 3 lines for that file's different structure — MEMORY.md needs 5 (or 6 with Carry-over).
 
 **Key checks for silent-run verification:**
 1. Entry exists at correct timestamp (`grep -qF 'YYYY-MM-DD HH:MM:SS' "$M"`)

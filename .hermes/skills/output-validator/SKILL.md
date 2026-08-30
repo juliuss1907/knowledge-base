@@ -961,7 +961,7 @@ check "File ends with SILENT entry" bash -c "tail -1 \"\$1\" | grep -qF 'SILENT'
 check "File ends with SILENT entry" bash -c "grep -F 'YYYY-MM-DD HH:MM:SS' \"\$1\" >/dev/null && tail -5 \"\$1\" | grep -q 'Carry-over'" _ "$M"
 ```
 
-**Reusable templates:** `templates/verify-silent-memory.sh` (silent runs — copy, replace two timestamps, run). **Standard runs:** `templates/verify-output-standard.sh` (env-var driven: TODAY/ISSUES/SEV/ACT_SUM/MEM_HEADING/NEWFILES; covers report fields, action-file entry + table row, MEMORY.md entry, cross-file count consistency; no per-run script authoring, so the regex-escaping pitfall class above cannot recur).
+**Reusable templates:** `templates/verify-silent-memory.sh` (silent runs — copy, replace two timestamps, run; layout-agnostic as of 2026-08-30 — detects top-insertion vs bottom-append, never uses `tail`, handles the Carry-over line depth via a `HAS_CARRYOVER` flag). **Standard runs:** `templates/verify-output-standard.sh` (env-var driven: TODAY/ISSUES/SEV/ACT_SUM/MEM_HEADING/NEWFILES; covers report fields, action-file entry + table row, MEMORY.md entry, cross-file count consistency; no per-run script authoring, so the regex-escaping pitfall class above cannot recur).
 
 ### Pitfall — hand-authoring ad-hoc verify scripts regex-escapes wrong (2026-08-24)
 

@@ -1,3 +1,25 @@
+## 2026-08-31 01:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK — ổn định, không có backlog trễ hạn**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 8 files trong ngày | 2 articles + 6 repos, tất cả ingest 08-30 (hôm qua), không file nào quá 24h. CompileAgent 08:00 hôm nay (08-31) xử lý |
+| wiki/concepts | 554 | — |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 5 pending | 08-28 + 08-29 (Format/Output/Hygiene) — chờ Julius duyệt, không đổi so với 21:00 |
+
+## Notes
+
+1. Raw backlog giữ nguyên 8 files (không tăng thêm sau 21:00). Tất cả ingest 08-30, đúng hạn chờ compile 08:00 hôm nay.
+2. Pending reviews giữ nguyên 5 — xem chi tiết `wiki/reviews/_action-required.md`. Không có quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 8+ + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn) — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+---
+
 ## 2026-08-30 21:00 (Asia/Saigon)
 
 ✅ **Hệ thống ổn định — 8 raw files mới (trong ngày), không backlog trễ hạn**

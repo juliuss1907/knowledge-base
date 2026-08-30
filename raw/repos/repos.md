@@ -20,14 +20,15 @@ GitHub repositories and code projects.
 
 ## Stats
 
-- Total: 7 files
-- By status: 2 processed, 5 unprocessed
-- By date: 7 this week, 7 this month
+- Total: 8 files
+- By status: 2 processed, 6 unprocessed
+- By date: 8 this week, 8 this month
 - Last updated: 2026-08-30
 
 ## Items
 
 <!-- Ingest Agent appends here, newest first -->
+- [[2026-08-30_openviking]] — OpenViking — The Context Database for AI Agents (unprocessed)
 - [[2026-08-30_posthog]] — PostHog — The leading platform for building self-driving products (unprocessed)
 - [[2026-08-30_anthropic-cybersecurity-skills]] — Anthropic Cybersecurity Skills — 818 structured cybersecurity skills for AI agents (unprocessed)
 - [[2026-08-30_threeui]] — ThreeUI Community — Open-source ThreeUI Community catalog with live interactive components and complete Community source (unprocessed)

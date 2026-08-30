@@ -1,5 +1,11 @@
 ---
 
+## 2026-08-30 14:49 — Ingested 1 repo
+
+- `raw/repos/2026-08-30_openviking.md` — OpenViking — The Context Database for AI Agents (volcengine) — status: unprocessed
+
+---
+
 ## 2026-08-30 14:27 — Ingested 1 repo
 
 - `raw/repos/2026-08-30_posthog.md` — PostHog — The leading platform for building self-driving products (PostHog) — status: unprocessed

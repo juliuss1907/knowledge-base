@@ -1,5 +1,23 @@
 ---
 
+## 2026-08-30 22:00 — Heartbeat check
+
+| Check | Status |
+|---|---|
+| raw/ unprocessed | 8 (6 repos + 2 articles) — không đổi |
+| wiki/concepts | 554 |
+| wiki/sources | 187 |
+| wiki/tag | 25 |
+| wiki/topic | 219 |
+| wiki/drafts | 8 |
+| Pending Hermes reports | 5 — chờ Julius review |
+| Inbox | Clean |
+| 2 hygiene cảnh báo cũ (HEARTBEAT symlink + workspace-state) | Lần 16 — chờ process-level fix |
+
+Không có ingest mới. Backlog 8 file chờ CompileAgent 08:00 sáng mai.
+
+---
+
 ## 2026-08-30 14:49 — Ingested 1 repo
 
 - `raw/repos/2026-08-30_openviking.md` — OpenViking — The Context Database for AI Agents (volcengine) — status: unprocessed

@@ -1,5 +1,11 @@
 ---
 
+## 2026-08-30 14:22 — Ingested 1 repo
+
+- `raw/repos/2026-08-30_threeui.md` — ThreeUI Community — Open-source ThreeUI Community catalog with live interactive components and complete Community source (MengTo) — status: unprocessed
+
+---
+
 ## 2026-08-30 14:00 — Ingested 1 repo
 
 - `raw/repos/2026-08-30_impeccable.md` — Impeccable — The design language that makes your AI harness better at design (juliuss1907) — status: unprocessed

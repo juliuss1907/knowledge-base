@@ -1459,3 +1459,9 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Pending Hermes: 5 report (08-28 + 08-29) chưa review
 - System OK, không thay đổi
 ---
+
+## 2026-08-30 13:00 — Heartbeat ⚠️
+- Raw: 2 unprocessed (2 articles 08-30, ingest 09:04 sau run compile 08:00)
+- Concepts 554, sources 187, tag 25, topic 219, drafts 8
+- Pending Hermes: 5 report (08-28 + 08-29) chưa review
+- Concept check OK, system ổn định, không thay đổi so với 12:30

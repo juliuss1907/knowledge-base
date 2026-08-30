@@ -1,3 +1,27 @@
+## 2026-08-30 21:00 (Asia/Saigon)
+
+✅ **Hệ thống ổn định — 8 raw files mới (trong ngày), không backlog trễ hạn**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ⚠️ 8 files trong ngày | 2 articles (09:04) + 6 repos (13:56–14:00+): `archify`, `impeccable`, `openviking`, `posthog`, `threeui`, `anthropic-cybersecurity-skills` — status: unprocessed, ingest hôm nay, không phải backlog trễ hạn. CompileAgent 08:00 mai (08-31) xử lý |
+| wiki/concepts | 554 | spot-check OK (`paradox-of-effort`, `comprehension-debt`: frontmatter + `[[src_]]` backlinks đầy đủ) |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 5 pending | 08-29 Format (0E+415W) + Output (0E+2W+2I) + Hygiene (2E) + 08-28 Format (0E+391W) + Hygiene (2E) — chờ Julius duyệt, không đổi |
+
+## Notes
+
+1. **Raw backlog tăng lên 8 files** so với 4 lúc 14:00 — 4 repos mới ingest thêm sau 14:00: `openviking`, `posthog`, `threeui`, `anthropic-cybersecurity-skills`. Tất cả ingest trong ngày (08-30), không file nào quá 24h. CompileAgent 08:00 mai xử lý.
+2. Pending reviews giữ nguyên 5 (08-28 + 08-29) — known issue đã escalation (root json lần 8+ + HEARTBEAT symlink), không quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 8+ + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn) — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-30 14:00 (Asia/Saigon)
 
 ⚠️ **4 raw files mới chưa compile — 2 repos ingest thêm sau 12:00**

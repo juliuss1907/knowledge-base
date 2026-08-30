@@ -1,3 +1,28 @@
+## 2026-08-31 03:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK — ổn định, không có backlog trễ hạn**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 8 files trong ngày | 2 articles + 6 repos, tất cả ingest 08-30, không file nào quá 24h. CompileAgent 08:00 hôm nay (08-31) xử lý |
+| wiki/concepts | 554 | spot-check: byte-level-bpe (5 links, `[[src_tokens-and-tokenization]]`) + generative-ai-search-optimization (5 links, `[[src_google-guide-optimizing-generative-ai-search]]`) — OK |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 6 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) — chờ Julius duyệt, tăng 1 so với 01:00 |
+
+## Notes
+
+1. Raw backlog giữ nguyên 8 files (2 articles + 6 repos), tất cả ingest 08-30 — đúng hạn chờ compile 08:00 hôm nay. Không file nào trễ 24h.
+2. Pending reviews tăng lên 6 — thêm Format 08-30 (0E+415W, spec-conflict `parent: [[tag]]` chưa quyết). Xem `wiki/reviews/_action-required.md`. Chờ Julius duyệt.
+3. [Known issue] Root json recycle lần 8+ + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn) — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+4. 554 concepts — không tăng so với 01:00, không có compile mới trong khung giờ này.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-31 01:00 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK — ổn định, không có backlog trễ hạn**

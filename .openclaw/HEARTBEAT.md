@@ -1,3 +1,27 @@
+## 2026-08-30 12:00 (Asia/Saigon)
+
+⚠️ **2 raw files mới chưa compile — ingest sau 08:00**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ⚠️ 2 files mới | 2 file ingest 08-30 09:04: `ai-engineering-skills-map-software-engineering-fundamentals` + `ai-engineering-skills-map-building-deploying-ai-applications` (status: unprocessed, ingest sau 08:00 compile — không phải backlog trễ hạn) |
+| wiki/concepts | 554 | spot-check OK (product-vs-prototype: frontmatter + `[[src_]]` backlinks đầy đủ) |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 5 pending | 08-29 Format (0E+415W) + Output (0E+2W+2I) + Hygiene (2E) + 08-28 Format (0E+391W) + Hygiene (2E) — chờ Julius duyệt, không đổi |
+
+## Notes
+
+1. 2 raw files mới (08-30 09:04, cả hai của Andrew Ng / deeplearning.ai The Batch) chưa compile — CompileAgent 08:00 mai (08-31) sẽ xử lý. Không phải backlog trễ hạn (~3h tuổi).
+2. Pending reviews giữ nguyên 5 (08-28 + 08-29) — known issue đã escalation (root json lần 8+ + HEARTBEAT symlink), không quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 8+ + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn) — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-30 08:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK** — không đổi so với 07:00

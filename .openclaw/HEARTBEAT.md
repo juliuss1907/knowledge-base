@@ -1,3 +1,28 @@
+## 2026-08-31 05:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK — ổn định, không đổi so với 04:00**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 8 files trong ngày | 2 articles + 6 repos, tất cả ingest 08-30, không file nào quá 24h. CompileAgent 08:00 hôm nay (08-31) xử lý |
+| wiki/concepts | 554 | spot-check: chauffeur-knowledge (2 links, `[[src_giai-thich-sau-phuong-phap-hoc-charlie-munger]]` + `[[src_learn-anything-like-charlie-munger]]`) + infrastructure-capex-cycle (1 link, `[[src_l1-blockchain-ai-lab-comparison]]`) — OK |
+| wiki/sources | 187 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 6 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) — chờ Julius duyệt, không đổi so với 04:00 |
+
+## Notes
+
+1. State hoàn toàn đồng nhất với 04:00 — raw backlog giữ nguyên 8 files (2 articles + 6 repos, ingest 08-30), không compile/index mới qua đêm. CompileAgent 08:00 hôm nay sẽ xử lý. Không file nào trễ 24h.
+2. Pending reviews giữ nguyên 6 — xem chi tiết `wiki/reviews/_action-required.md`. Không có quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 8+ + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn) — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+4. 554 concepts — không tăng so với 04:00.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-31 04:00 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK — ổn định, không đổi so với 03:30**

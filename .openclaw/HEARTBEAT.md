@@ -1348,3 +1348,25 @@ Không có vấn đề mới.
 4. `raw/websites/2026-07-25_tools.md` là index file (`type: index`), không phải raw content — không cần compile, không tính vào backlog.
 
 > Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+## 2026-08-31 21:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK — hệ thống ổn định, không thay đổi so với 17:00**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 0 files unprocessed | Chỉ còn 6 index files (repos/articles/papers/posts/videos/websites.md) + `raw/websites/2026-07-25_tools.md` (type: index) — không phải raw content, không tính backlog |
+| wiki/concepts | 567 | giữ nguyên so với 17:00 — spot-check OK: increasing-surface-area-luck + latticework-of-mental-models (source links + wikilinks đầy đủ) |
+| wiki/sources | 195 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 6 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) — chờ Julius duyệt (không đổi) |
+
+## Notes
+
+1. Không có compile mới trong khung giờ 17:00–21:30 — counts giữ nguyên (concepts 567, sources 195).
+2. Pending reviews giữ nguyên 6 — không report mới từ Hermes.
+3. [Known issue] Root json `openclaw-workspace-state.json` (69 bytes, mtime 08-24) + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` vẫn tồn tại — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.

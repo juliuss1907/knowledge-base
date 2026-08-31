@@ -13,13 +13,14 @@
 | wiki/sources | 195 | Giữ nguyên |
 | wiki/tag | 25 | Giữ nguyên |
 | wiki/topic | 231 | Tăng từ 219 do Index Agent rebuild full (21:00) — 12 topics mới |
-| Pending reviews | 🔍 8 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) + 08-31 (Format + Output) — chờ Julius duyệt |
+| Pending reviews | 🔍 9 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) + 08-31 (Format/Output/Hygiene) — chờ Julius duyệt |
 
 ## Notes
 
 1. Không có compile mới hôm nay — counts concepts/sources giữ nguyên.
 2. 12 topic files mới được Index Agent tạo lúc 21:00 (ví dụ: `writing-craft`, `vectors-fundamentals`, `vietnam-unemployment-insurance`, etc.).
 3. [Known issue] Root json `openclaw-workspace-state.json` (69 bytes, mtime 08-24) + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` vẫn tồn tại — chờ process-level fix. Không xóa theo escalation.
+4. [Violation] 6 repos files từ batch 08-30 vi phạm naming convention: thiếu owner segment (folder-structure.md §6). Chờ Fix Agent rename.
 
 ---
 
@@ -36,3 +37,4 @@
 | 2026-08-31 10:00 | ✅ OK | |
 | 2026-08-31 07:00 | ✅ OK | |
 | 2026-08-30 23:15 | — | (Format validation run) |
+| 2026-09-01 04:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 9 pending reviews (thêm Hygiene 08-31). 6 repos naming violation phát hiện mới. |

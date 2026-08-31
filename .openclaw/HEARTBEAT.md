@@ -1,3 +1,28 @@
+## 2026-08-31 17:30 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK — ổn định, không đổi so với 15:30**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 0 files unprocessed | Không file mới sau compile 08:00. Không file nào trễ 24h |
+| wiki/concepts | 567 | spot-check: diminishing-returns-mental-model (2 links) + hypergamy (2 links) — OK |
+| wiki/sources | 195 | — |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 6 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) — chờ Julius duyệt, không đổi |
+
+## Notes
+
+1. State hoàn toàn đồng nhất với 15:30 — không raw mới, không compile/index mới trong khung giờ này (0 file modified 2h qua). Raw backlog vẫn 0, không file nào trễ 24h.
+2. Pending reviews giữ nguyên 6 — xem chi tiết `wiki/reviews/_action-required.md`. Không có quyết định mới cần Julius.
+3. [Known issue] Root json recycle lần 8+ + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` (tái diễn) — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+4. File HEARTBEAT.md đang dài (~1200+ lines) — cân nhắc archive các entry cũ theo tháng.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+---
+
 ## 2026-08-31 15:30 (Asia/Saigon)
 
 ✅ **HEARTBEAT_OK — ổn định, không đổi so với 12:00**

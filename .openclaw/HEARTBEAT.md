@@ -1225,3 +1225,26 @@ Không có vấn đề mới.
 4. 554 concepts — không tăng so với 02:00, không có compile mới trong khung giờ này.
 
 > Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.
+
+## 2026-08-31 17:00 (Asia/Saigon)
+
+✅ **HEARTBEAT_OK — compile 08:00 đã chạy, backlog raw = 0**
+
+| Check | Status | Details |
+|-------|--------|---------|
+| Inbox (`Tasks/`) | ✅ Clean | Không có `Tasks/` dir |
+| Raw backlog | ✅ 0 files unprocessed | 8 files ingest 08-30 (2 articles + 6 repos) đã được CompileAgent xử lý 08:19 hôm nay — status: processed |
+| wiki/concepts | 567 | tăng +13 so với 554 (02:30) — spot-check OK: increasing-surface-area-luck (1 source link) + latticework-of-mental-models (1 source link) |
+| wiki/sources | 195 | tăng +8 (187 → 195) — src_openviking, src_posthog, src_threeui, src_archify, src_anthropic-cybersecurity-skills, src_impeccable, src_ai-engineering-skills-map-* |
+| wiki/tag | 25 | — |
+| wiki/topic | 219 | — |
+| Pending reviews | 🔍 6 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) — chờ Julius duyệt (không đổi so với 02:30) |
+
+## Notes
+
+1. CompileAgent chạy 08:00 hôm nay đã xử lý toàn bộ 8 raw files ingest 08-30 — backlog raw = 0, không file nào quá 24h.
+2. Pending reviews giữ nguyên 6 — không report mới từ Hermes hôm nay. Chờ Julius duyệt: spec conflict `parent: [[tag]]` unquoted + forward-refs + root json (không xóa theo escalation).
+3. [Known issue] Root json `openclaw-workspace-state.json` (69 bytes, mtime 08-24) + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` vẫn tồn tại — chờ SQLite refactor / process-level fix. Không xóa theo escalation.
+4. `raw/websites/2026-07-25_tools.md` là index file (`type: index`), không phải raw content — không cần compile, không tính vào backlog.
+
+> Auto-updated by OpenClaw Heartbeat Check (cron:3e70fe54). Every 30 min.

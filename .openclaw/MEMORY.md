@@ -1540,3 +1540,9 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Orphans deleted:** 0
 - **Invalid tags found:** 0
 - **Errors:** 0 files skipped
+
+## 2026-08-31 16:30 — Heartbeat ✅
+- Raw: 0 unprocessed, không ingest mới từ 16:00
+- Concepts 567, sources 195, tag 25, topic 219, drafts 8 — không đổi
+- Pending Hermes: 6 report (08-28 → 08-30) chưa review
+- Concept check OK (oil-spot-strategy, reward-hacking — backlink đủ), system ổn định

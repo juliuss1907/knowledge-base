@@ -13,7 +13,7 @@
 | wiki/sources | 195 | Giữ nguyên |
 | wiki/tag | 25 | Giữ nguyên |
 | wiki/topic | 231 | Tăng từ 219 do Index Agent rebuild full (21:00) — 12 topics mới |
-| Pending reviews | 🔍 6 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) — chờ Julius duyệt |
+| Pending reviews | 🔍 8 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) + 08-31 (Format + Output) — chờ Julius duyệt |
 
 ## Notes
 
@@ -27,6 +27,7 @@
 
 | Time | Status | Notes |
 |------|--------|-------|
+| 2026-08-31 23:32 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 8 pending reviews (thêm Format+Output 08-31). |
 | 2026-08-31 22:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 12 topics mới. 6 pending reviews. |
 | 2026-08-31 21:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 219. 6 pending reviews. |
 | 2026-08-31 17:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 219. 6 pending reviews. |

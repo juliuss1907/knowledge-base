@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-31 23:04 (Output validation 08-31 — pending review)
+**Last updated:** 2026-08-31 23:15 (Format validation 08-31 — pending review)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 7
+**Pending reports awaiting review:** 8
 **Last batch applied:** 9 reports (08-25/08-26/08-27) — 2026-08-27 by Connor (5 capital-I typos + 9 empty Notes removed inline; format/hygiene deferred per escalation)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-31 | Format | 399 (3E+396W) | Review [wiki/reviews/2026-08-31_format-report.md](2026-08-31_format-report.md) |
 | 🔍 PENDING | 08-31 | Output | 6 (0E+3W+3I) | Review [wiki/reviews/2026-08-31_output-report.md](2026-08-31_output-report.md) |
 | 🔍 PENDING | 08-30 | Format | 415 (0E+415W) | Review [wiki/reviews/2026-08-30_format-report.md](2026-08-30_format-report.md) |
 | 🔍 PENDING | 08-29 | Format | 415 (0E+415W) | Review [wiki/reviews/2026-08-29_format-report.md](2026-08-29_format-report.md) |
@@ -81,6 +82,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-08-31
+
+- **Report:** `wiki/reviews/2026-08-31_format-report.md`
+- **Summary:** 1027 files checked (567 concepts + 195 sources + 34 indexes + 231 topics). 399 issues: **3 ERROR, 396 WARNING**. **CLEAN ERROR STREAK BROKEN** — first ERRORs since day-14 clean run (08-30). 3 ERRORs all on newly compiled source files: `src_ai-engineering-skills-map-building-deploying-ai-applications.md` (slug 60 chars > 50), `src_ai-engineering-skills-map-software-engineering-fundamentals.md` (slug 59 chars > 50), `src_impeccable.md` (missing `## Key points`). KB grew +33 files (13 concepts + 8 sources + 12 topics). Unique broken targets 268→270 (+2). **Other warnings RESOLVED**: the 24 unquoted `parent: [[tag]]` WARNINGs are gone (tag files re-quoted) — [SPEC CONFLICT] escalation from 08-28→08-30 closed. Composition: individual broken 372→377 (+5), forward-ref groups 19→19, other warnings 24→0. Top-20: `ai-assisted-development` (3x) entered at #8, `breaking-point` fell off. Total −16 (415→399) driven by the 24-warning fix offset by 5 new individual breaks + 3 ERRORs.
+- **Actions needed:** Fix Agent: rename 2 slugs (`src_ai-engineering-skills-map-*` exceed 50-char limit) + add `## Key points` to `src_impeccable.md` (it has `## Key ideas` — format-spec §3.3 requires `## Key points`, corroborated by Output Validator 08-31 WARNING 3). These 3 are real structural fixes — first actionable ERRORs in 15 days. No action needed for the 396 forward-ref WARNINGs.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-08-31 (23:04)
 

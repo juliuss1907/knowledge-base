@@ -7,7 +7,8 @@ topic: ai-engineering-skills
 sources:
   - "[[src_ai-engineering-skills-map]]"
   - "[[src_ai-skills-map-building-deploying-ai-apps]]"
-last_updated: 2026-08-23
+  - "[[src_ai-engineering-skills-map-software-engineering-fundamentals]]"
+last_updated: 2026-08-31
 ---
 
 # AI Engineering Skills
@@ -33,6 +34,10 @@ AI Engineering Skills là bộ 4 kỹ năng cốt lõi Andrew Ng xác định qu
 - **Agentic spectrum:** fixed workflow (chain LLM calls) ↔ agent harness (LLM tự quyết next step); quyết định tools (MCP/CLI/sandbox), memory architecture, context management session dài, single vs multi-agent; production cần guardrails + adversarial defense (prompt injection, data exfiltration) + governance
 - **Production ops:** observability, drift detection, statistical regression testing calibrate theo risk, tối ưu cost/latency bằng distillation/fine-tuning/workflow simplification
 - **ML foundations vẫn bắt buộc:** supervised + reinforcement learning là nền của LLM; bias/variance, error analysis, data engineering là frameworks điều hướng uncertainty
+- **Software engineering fundamentals (part 3):** 5 mảng — full-stack apps, data management, system architecture, security/reliability, scaling/production; steer coding agent ra tradeoffs đúng bằng hiểu fundamentals, người hiểu sâu cách software hoạt động vượt trội người vibe code không hiểu
+- **Vibe coding thiếu fundamentals = bad tradeoffs:** developer không biết tradeoff nào tồn tại (latency, availability, consistency, reliability, maintainability, simplicity, cost) thì không steer được agent
+- **Data là nền tảng khó thay đổi:** access patterns, data models, storage types, transactions quyết định speed/scalability/availability/reliability/cost; architecture là moving target theo phase project
+- **Shift-left security:** mọi developer giờ một phần là security engineer — dùng AI scan vulnerabilities, dependency, cloud config; syntax memorization lỗi thời nhưng hiểu cách software hoạt động vẫn cốt lõi
 
 ## Related concepts
 

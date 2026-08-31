@@ -5,7 +5,9 @@ url: https://github.com/juliuss1907/impeccable
 author: juliuss1907
 date_published: [unknown]
 date_ingested: 2026-08-30
-status: unprocessed
+status: processed
+compiled_at: 2026-08-31
+compiled_to: "[[src_impeccable]]"
 source: github.com
 language: unknown
 stars: 0

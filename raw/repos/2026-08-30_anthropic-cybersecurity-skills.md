@@ -5,7 +5,9 @@ url: https://github.com/mukul975/Anthropic-Cybersecurity-Skills
 author: mukul975
 date_published: [unknown]
 date_ingested: 2026-08-30
-status: unprocessed
+status: processed
+compiled_at: 2026-08-31
+compiled_to: "[[src_anthropic-cybersecurity-skills]]"
 source: github.com
 language: Python
 stars: 31648

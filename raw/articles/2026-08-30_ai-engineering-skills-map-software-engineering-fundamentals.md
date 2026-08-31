@@ -5,7 +5,9 @@ url: https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map-in-deta
 author: Andrew Ng (The Batch — deeplearning.ai)
 date_published: [unknown]
 date_ingested: 2026-08-30
-status: unprocessed
+status: processed
+compiled_at: 2026-08-31
+compiled_to: "[[src_ai-engineering-skills-map-software-engineering-fundamentals]]"
 source: deeplearning.ai
 ---
 

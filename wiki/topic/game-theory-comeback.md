@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: game-theory-comeback
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Topic: game-theory-comeback
 
 Auto-generated index of all content with topic `game-theory-comeback`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -26,8 +26,3 @@ Last updated: 2026-08-29 14:14:18
 ## Sources (1)
 
 - [[src_how-to-come-back-from-anything-game-theory]] — main: #productivity, sub: [#strategy, #psychology, #research]
-
-## Related topics
-
-Topics that share concepts/sources with `game-theory-comeback`:
-- None

@@ -20,12 +20,11 @@ Master index of all tags used across the wiki. Each entry links to a tag file (`
 
 ## Stats
 
-- Total tags: 25
+- Total tags: 23
 - Main tags: 9
-- Sub tags: 18
-- Most used: #productivity (318), #psychology (313), #research (264)
-- Last updated: 2026-08-29
-
+- Sub tags: 14
+- Most used: #productivity (318), #psychology (313), #research (269)
+- Last updated: 2026-08-31
 ## Items
 
 ### Main Tags (Pool A)

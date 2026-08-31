@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: tribute-system-world-order
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Topic: tribute-system-world-order
 
 Auto-generated index of all content with topic `tribute-system-world-order`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -24,8 +24,3 @@ Last updated: 2026-08-29 14:14:18
 ## Sources (1)
 
 - [[src_tribute-system-new-world-order]] — main: #politic, sub: [#geopolitics, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `tribute-system-world-order`:
-- None

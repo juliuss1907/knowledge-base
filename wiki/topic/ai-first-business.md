@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-first-business
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Topic: ai-first-business
 
 Auto-generated index of all content with topic `ai-first-business`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -24,8 +24,3 @@ Last updated: 2026-08-29 14:14:18
 ## Sources (1)
 
 - [[src_how-average-people-will-get-rich-with-ai]] — main: #economic, sub: [#tutorial, #ai, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `ai-first-business`:
-- None

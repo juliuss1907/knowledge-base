@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: time-perception-childhood
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Topic: time-perception-childhood
 
 Auto-generated index of all content with topic `time-perception-childhood`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -25,8 +25,3 @@ Last updated: 2026-08-29 14:14:18
 ## Sources (1)
 
 - [[src_why-time-felt-slower-when-we-were-kids]] — main: #health, sub: [#psychology, #research, #tutorial]
-
-## Related topics
-
-Topics that share concepts/sources with `time-perception-childhood`:
-- None

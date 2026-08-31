@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: effective-learning-methods
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Topic: effective-learning-methods
 
 Auto-generated index of all content with topic `effective-learning-methods`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -26,8 +26,3 @@ Last updated: 2026-08-29 14:14:18
 ## Sources (1)
 
 - [[src_how-to-remember-everything-you-read-dan-koe]] — main: #productivity, sub: [#tutorial, #psychology]
-
-## Related topics
-
-Topics that share concepts/sources with `effective-learning-methods`:
-- None

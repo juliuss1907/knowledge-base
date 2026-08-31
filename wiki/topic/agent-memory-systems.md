@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: agent-memory-systems
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Topic: agent-memory-systems
 
 Auto-generated index of all content with topic `agent-memory-systems`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -35,8 +35,3 @@ Last updated: 2026-08-29 14:14:18
 
 - [[src_agent-memory-7-types-substack]] — main: #ai, sub: [#tools, #research]
 - [[src_agent-memory-anatomy]] — main: #ai, sub: [#research, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `agent-memory-systems`:
-- None

@@ -1546,3 +1546,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Concepts 567, sources 195, tag 25, topic 219, drafts 8 — không đổi
 - Pending Hermes: 6 report (08-28 → 08-30) chưa review
 - Concept check OK (oil-spot-strategy, reward-hacking — backlink đủ), system ổn định
+
+## 2026-08-31 22:04:04 +07:00 — Indexed
+- Scanned: 567 concepts + 195 sources = 762 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 231
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0

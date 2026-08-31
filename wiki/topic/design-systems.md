@@ -1,0 +1,20 @@
+---
+type: index
+scope: topic
+parent: "[[topic]]"
+topic: design-systems
+auto_generated: true
+last_updated: 2026-08-31
+---
+
+# Topic: design-systems
+
+Auto-generated index of all content with topic `design-systems`.
+
+Last updated: 2026-08-31 22:04:04
+
+---
+
+## Concepts (1)
+
+- [[design-systems]] — main: #tech, sub: [#tools, #coding]

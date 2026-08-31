@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: [[tag]]
+parent: "[[tag]]"
 tag: geopolitics
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Tag: #geopolitics
 
 Auto-generated index of all content tagged with `#geopolitics`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -25,18 +25,18 @@ Last updated: 2026-08-29 14:14:18
 - Total files: 8
 - Sources: 2
 - Concepts: 6
-- Last updated: 2026-08-29
+- Last updated: 2026-08-31
 
 ## Files with this tag
 
-- [[chinese-culture-confucianism]] — chinese-culture-confucianism (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
-- [[enablement-vs-control]] — enablement-vs-control (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
-- [[hundred-years-humiliation]] — hundred-years-humiliation (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
-- [[political-settlement]] — political-settlement (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
-- [[src_tribute-system-new-world-order]] — src_tribute-system-new-world-order (source, main: #politic, sub: [#geopolitics, #opinion], topic: tribute-system-world-order)
-- [[src_why-china-got-rich-and-india-didnt]] — src_why-china-got-rich-and-india-didnt (source, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
-- [[state-capacity-theory]] — state-capacity-theory (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
-- [[tribute-system]] — tribute-system (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
+- [[chinese-culture-confucianism]] — Chinese Culture Confucianism (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
+- [[enablement-vs-control]] — Enablement Vs Control (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
+- [[hundred-years-humiliation]] — Hundred Years Humiliation (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
+- [[political-settlement]] — Political Settlement (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
+- [[src_tribute-system-new-world-order]] — Tribute System New World Order (source, main: #politic, sub: [#geopolitics, #opinion], topic: tribute-system-world-order)
+- [[src_why-china-got-rich-and-india-didnt]] — Why China Got Rich And India Didnt (source, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
+- [[state-capacity-theory]] — State Capacity Theory (concept, main: #economic, sub: [#geopolitics, #opinion], topic: state-capacity-development)
+- [[tribute-system]] — Tribute System (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
 
 ## Co-occurring tags
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: labels-identity-perception
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Topic: labels-identity-perception
 
 Auto-generated index of all content with topic `labels-identity-perception`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -24,8 +24,3 @@ Last updated: 2026-08-29 14:14:18
 ## Sources (1)
 
 - [[src_living-beyond-the-labels]] — main: #productivity, sub: [#psychology, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `labels-identity-perception`:
-- None

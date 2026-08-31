@@ -2,17 +2,17 @@
 type: index
 level: 3
 scope: tag
-parent: [[tag]]
+parent: "[[tag]]"
 tag: strategy
 auto_generated: true
-last_updated: 2026-08-29
+last_updated: 2026-08-31
 ---
 
 # Tag: #strategy
 
 Auto-generated index of all content tagged with `#strategy`.
 
-Last updated: 2026-08-29 14:14:18
+Last updated: 2026-08-31 22:04:04
 
 ---
 
@@ -25,32 +25,32 @@ Last updated: 2026-08-29 14:14:18
 - Total files: 22
 - Sources: 8
 - Concepts: 14
-- Last updated: 2026-08-29
+- Last updated: 2026-08-31
 
 ## Files with this tag
 
-- [[asymmetric-positions]] — asymmetric-positions (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
-- [[career-compounding]] — career-compounding (concept, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
-- [[comeback-strategy]] — comeback-strategy (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
-- [[costly-signal]] — costly-signal (concept, main: #productivity, sub: [#psychology, #strategy, #system], topic: costly-signal)
-- [[five-types-of-business-work]] — five-types-of-business-work (concept, main: #productivity, sub: [#strategy], topic: daily-planning-routine)
-- [[game-selection]] — game-selection (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
-- [[gtd-four-lists]] — gtd-four-lists (concept, main: #productivity, sub: [#strategy, #psychology], topic: daily-planning-routine)
-- [[information-asymmetry]] — information-asymmetry (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
-- [[iterated-game-theory]] — iterated-game-theory (concept, main: #productivity, sub: [#strategy, #psychology, #opinion], topic: game-theory-comeback)
-- [[optionality-principle]] — optionality-principle (concept, main: #productivity, sub: [#psychology, #strategy], topic: decision-making-frameworks)
-- [[src_3-ways-to-get-rich]] — src_3-ways-to-get-rich (source, main: #productivity, sub: [#strategy, #opinion], topic: leverage-wealth)
-- [[src_daily-planning-routine-creativity-productivity]] — src_daily-planning-routine-creativity-productivity (source, main: #productivity, sub: [#tutorial, #psychology, #strategy], topic: daily-planning-routine)
-- [[src_how-to-come-back-from-anything-game-theory]] — src_how-to-come-back-from-anything-game-theory (source, main: #productivity, sub: [#strategy, #psychology, #research], topic: game-theory-comeback)
-- [[src_long-range-career-advice]] — src_long-range-career-advice (source, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
-- [[src_max-results-minimum-effort-game-theory]] — src_max-results-minimum-effort-game-theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
-- [[src_principles-of-better-decisions]] — src_principles-of-better-decisions (source, main: #productivity, sub: [#psychology, #strategy], topic: better-decisions)
-- [[src_strategy-vs-tactics-dan-koe]] — src_strategy-vs-tactics-dan-koe (source, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
-- [[src_the-art-of-strategic-thinking]] — src_the-art-of-strategic-thinking (source, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
-- [[strategic-thinking]] — strategic-thinking (concept, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
-- [[sunk-cost-fallacy]] — sunk-cost-fallacy (concept, main: #productivity, sub: [#psychology, #strategy], topic: game-theory-comeback)
-- [[survival-first]] — survival-first (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
-- [[variance-in-loss]] — variance-in-loss (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
+- [[asymmetric-positions]] — Asymmetric Positions (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
+- [[career-compounding]] — Career Compounding (concept, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
+- [[comeback-strategy]] — Comeback Strategy (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
+- [[costly-signal]] — Costly Signal (concept, main: #productivity, sub: [#psychology, #strategy, #system], topic: costly-signal)
+- [[five-types-of-business-work]] — Five Types Of Business Work (concept, main: #productivity, sub: [#strategy], topic: daily-planning-routine)
+- [[game-selection]] — Game Selection (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
+- [[gtd-four-lists]] — Gtd Four Lists (concept, main: #productivity, sub: [#strategy, #psychology], topic: daily-planning-routine)
+- [[information-asymmetry]] — Information Asymmetry (concept, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
+- [[iterated-game-theory]] — Iterated Game Theory (concept, main: #productivity, sub: [#strategy, #psychology, #opinion], topic: game-theory-comeback)
+- [[optionality-principle]] — Optionality Principle (concept, main: #productivity, sub: [#psychology, #strategy], topic: decision-making-frameworks)
+- [[src_3-ways-to-get-rich]] — 3 Ways To Get Rich (source, main: #productivity, sub: [#strategy, #opinion], topic: leverage-wealth)
+- [[src_daily-planning-routine-creativity-productivity]] — Daily Planning Routine Creativity Productivity (source, main: #productivity, sub: [#tutorial, #psychology, #strategy], topic: daily-planning-routine)
+- [[src_how-to-come-back-from-anything-game-theory]] — How To Come Back From Anything Game Theory (source, main: #productivity, sub: [#strategy, #psychology, #research], topic: game-theory-comeback)
+- [[src_long-range-career-advice]] — Long Range Career Advice (source, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
+- [[src_max-results-minimum-effort-game-theory]] — Max Results Minimum Effort Game Theory (source, main: #productivity, sub: [#strategy, #opinion], topic: game-theory-productivity)
+- [[src_principles-of-better-decisions]] — Principles Of Better Decisions (source, main: #productivity, sub: [#psychology, #strategy], topic: better-decisions)
+- [[src_strategy-vs-tactics-dan-koe]] — Strategy Vs Tactics Dan Koe (source, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
+- [[src_the-art-of-strategic-thinking]] — The Art Of Strategic Thinking (source, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
+- [[strategic-thinking]] — Strategic Thinking (concept, main: #productivity, sub: [#strategy, #psychology], topic: strategic-thinking)
+- [[sunk-cost-fallacy]] — Sunk Cost Fallacy (concept, main: #productivity, sub: [#psychology, #strategy], topic: game-theory-comeback)
+- [[survival-first]] — Survival First (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
+- [[variance-in-loss]] — Variance In Loss (concept, main: #productivity, sub: [#strategy, #psychology], topic: game-theory-comeback)
 
 ## Co-occurring tags
 

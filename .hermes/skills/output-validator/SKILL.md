@@ -301,6 +301,20 @@ When the same issue type appears >10 times, report it as a single systemic issue
 - 2–3 representative file examples as evidence
 - This preserves the 20-issue limit while conveying full scope.
 
+### Multi-source concept compile defects — backlink gap, duplicate insights, section-name drift (2026-08-31)
+
+When a single concept aggregates content from multiple sources (frontmatter `sources:` has N entries), three related Compile Agent defects have now been observed. The recurring one is a **detectable invariant — check it on every multi-source concept:**
+
+**Defect A — Sources body backlink gap (2nd occurrence).** Frontmatter declares N sources but the body `## Sources` section lists fewer. Observed:
+- 08-29: `product-vs-prototype.md`, `taste-judgment.md` — 2 sources in frontmatter, 1 in body
+- 08-31: `ai-engineering-skills.md` — 4 sources in frontmatter, 2 in body (the missing 2 were compiled in the SAME batch)
+
+**Detection (cheap, do it for every new concept with N≥2 sources):** compare the count of `- "[[src_...]]"` entries in frontmatter against the count of `- [[src_...]]` bullets in the body `## Sources` section. Mismatch → WARNING (Completeness). The gap usually involves sources compiled in the same batch as the concept, so cross-check against today's new-file list.
+
+**Defect B — duplicate key idea (1st occurrence).** A concept aggregating 4 sources carried the same insight twice ("vibe coding thiếu fundamentals → bad tradeoffs" at dòng 26 + 39 of `ai-engineering-skills.md`), once per source it came from, with slightly different wording. The compile-agent does not dedup insights that recur across multiple aggregated sources. **Detection:** only visible by reading the full Key ideas list — look for semantic near-duplicates, especially in concepts with 3+ sources. Flag as WARNING (Coherence); fix = keep the more detailed bullet.
+
+**Defect C — source section-name drift (1st occurrence).** `src_impeccable.md` used `## Key ideas` instead of `## Key points` (format-spec §3.3 requires `Key points` for sources). Likely the compile-agent reused the concept template (concepts use `Key ideas`, sources use `Key points`). **Detection gap:** quick-scan's "Empty Key ideas" counter accepts `## Key ideas` as valid, so it does NOT catch this — explicitly verify each new source file uses `## Key points`. Flag as WARNING.
+
 ### Empty baseline report
 If `wiki/reviews/YYYY-MM-DD_output-report.md` exists but is empty/placeholder, treat it as if no prior report exists. Scan all files rather than relying on file timestamps.
 
@@ -523,6 +537,8 @@ pat=re.compile(f"([{VN_VOWELS}])I\\b")
 A fifth manifestation of the same root cause: Compile Agent drops the trailing 'i' entirely from Vietnamese words that should end in "ời". This is the most destructive variant yet — the resulting tokens ("ngườ", "thờ", "lờ") are valid Vietnamese morphemes with completely different meanings, making them invisible to spell-checkers.
 
 > **Status 2026-08-30:** clean-run streak is now 8 consecutive (08-23 → 08-30; dropped-i variant-5 grep = 0 matches each run, including all 4 sub-patterns — `ngườ`, `thờ`, `thay v`, `chính lờ`/`bằng lờ`). Carry-over inventory eliminated since 08-24. **Full-week threshold REACHED 08-30** — the skill's own condition for demoting the mandatory daily grep to weekly is now met. Recommendation logged in MEMORY.md 08-30 entry: demote to weekly from 08-31. Until Julius/Connor confirms the demotion, keep running the grep daily — it is cheap and it is the one that would catch a catastrophic deletion typo. If a new batch ever reintroduces variant 5, the streak resets and the daily requirement stays.
+>
+> **Status 2026-08-31:** streak is now **9 consecutive** (08-23 → 08-31; grep = 0 on the 08-31 run, all 4 sub-patterns). Demotion to weekly recommended a second time in the 08-31 report + MEMORY entry. STILL NOT CONFIRMED by Julius/Connor — keep running the daily grep until explicit confirmation. If a new batch ever reintroduces variant 5, the streak resets and the daily requirement stays.
 
 **First observed:** 2026-07-21 batch — 16 new files (3 sources + 13 concepts), ~35 instances across 13/16 files (81% affected).
 
@@ -967,7 +983,9 @@ check "File ends with SILENT entry" bash -c "grep -F 'YYYY-MM-DD HH:MM:SS' \"\$1
 
 Hand-writing a one-off verify script produced 17/18 checks with 1 FAIL caused by the script itself, not the files: a cross-file grep pattern `'4 mới (1 source + 3 concepts)'` was passed through `grep -q` (regex mode) inside `bash -c`, and the literal `)` had no matching `(` in the pattern — bash -c swallowed the message with exit 1. Manual greps confirmed both files contained the exact substring. Two fixes applied to the script: drop the trailing `)` from the pattern (substring match), and use `grep -q` only on patterns with balanced/safe metacharacters (`grep -F` otherwise). **Lesson:** prefer the reusable env-var template over per-run script authoring; when hand-authoring is unavoidable, run each cross-file pattern standalone first (`grep -q 'pattern' file; echo $?`) before embedding it in `bash -c`.
 
-**Template itself had this bug class (2026-08-25):** `verify-output-standard.sh` used `$ACT_SUM` ('3 (0E+2W+1I)') as bare ERE in the table-row check — `+` parsed as quantifier, check never matched, 1 false FAIL per run. Fixed by pre-escaping to `$ACT_SUM_RE` (`sed 's/[][\.*^$()+?{|}\\]/\\&/g'`). Also confirmed: report field format is `**Issues found:** N (X ERROR, ...)` WITH parens (template + archives agree); summary table rows are single-pipe `| PENDING | MM-DD |` WITHOUT emoji prefix (the 08-24-era `| 🔍 PENDING |` shape seen mid-2024-08 was a variant, not current).
+**Template itself had this bug class (2026-08-25):** `verify-output-standard.sh` used `$ACT_SUM` ('3 (0E+2W+1I)') as bare ERE in the table-row check — `+` parsed as quantifier, check never matched, 1 false FAIL per run. Fixed by pre-escaping to `$ACT_SUM_RE` (`sed 's/[][\.*^$()+?{|}\\]/\\&/g'`). Also confirmed: report field format is `**Issues found:** N (X ERROR, ...)` WITH parens (template + archives agree).
+
+**⚠️ UPDATE 2026-08-31 — summary table rows DO carry the `🔍` emoji prefix in the current format.** The 08-25 note above claimed rows are `| PENDING | MM-DD |` WITHOUT emoji and called `| 🔍 PENDING |` a stale variant — that was WRONG. On 08-31 the actual rows were `| 🔍 PENDING | 08-31 | Output | 6 (0E+3W+3I) |` (emoji present). Symptom that bit a hand-authored ad-hoc script: a `grep -qF '| PENDING | 08-31 | Output |'` check FAILED; fixing it to `'| 🔍 PENDING | 08-31 | Output |'` (emoji included) passed. The template's regex `\| [^|]*PENDING \|` is robust to either shape — hand-authored scripts are not. **Rule:** when checking the summary table row by hand, include the `🔍` (or use `[^|]*PENDING` like the template) — do not assume emoji-free rows.
 
 ### _action-required.md may LACK a `## Pending Reports` section (2026-08-23)
 

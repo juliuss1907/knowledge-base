@@ -5,7 +5,9 @@ url: https://github.com/volcengine/OpenViking
 author: volcengine
 date_published: [unknown]
 date_ingested: 2026-08-30
-status: unprocessed
+status: processed
+compiled_at: 2026-08-31
+compiled_to: "[[src_openviking]]"
 source: github.com
 language: Python
 stars: 34356

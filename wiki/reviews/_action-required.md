@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-30 23:15 (Format validation 08-30 — pending review)
+**Last updated:** 2026-08-31 23:04 (Output validation 08-31 — pending review)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 **Last batch applied:** 9 reports (08-25/08-26/08-27) — 2026-08-27 by Connor (5 capital-I typos + 9 empty Notes removed inline; format/hygiene deferred per escalation)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 08-31 | Output | 6 (0E+3W+3I) | Review [wiki/reviews/2026-08-31_output-report.md](2026-08-31_output-report.md) |
 | 🔍 PENDING | 08-30 | Format | 415 (0E+415W) | Review [wiki/reviews/2026-08-30_format-report.md](2026-08-30_format-report.md) |
 | 🔍 PENDING | 08-29 | Format | 415 (0E+415W) | Review [wiki/reviews/2026-08-29_format-report.md](2026-08-29_format-report.md) |
 | 🔍 PENDING | 08-29 | Output | 4 (0E+2W+2I) | Review [wiki/reviews/2026-08-29_output-report.md](2026-08-29_output-report.md) |
@@ -80,6 +81,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-08-31 (23:04)
+
+- **Report:** `wiki/reviews/2026-08-31_output-report.md`
+- **Summary:** 763 file checked (195 sources + 568 concepts), 22 mới (8 sources + 14 concepts — 3 clusters: ai-engineering-skills từ 2 Andrew Ng The Batch articles, frontend-dev-tools từ Archify/Impeccable/ThreeUI, self-driving-products từ PostHog, ai-security từ Anthropic Cybersecurity Skills, context-database từ OpenViking). 6 issues: 0 ERROR, 3 WARNING, 3 INFO. Batch sạch typo: cả 5 biến thể typo Compile Agent = 0 instances, dropped-i variant-5 grep = 0 lần thứ **9 liên tiếp** (08-23 → 08-31, vượt ngưỡng 1 tuần từ 08-30 → đề xuất hạ xuống weekly); 0 truncated; frontmatter `original:` → raw/ tồn tại 8/8; 0 draft mới; mọi concept mới definition 2-3 câu + 5-16 key ideas. WARNING 1-2: `ai-engineering-skills.md` — Sources body thiếu 2 backlinks (`[[src_ai-engineering-skills-map-software-engineering-fundamentals]]` + `[[src_ai-engineering-skills-map-building-deploying-ai-applications]]`, frontmatter đã khai đủ 4) + key idea "vibe coding thiếu fundamentals" bị trùng lặp 2 lần (dòng 26 + 39). WARNING 3: `src_impeccable.md` dùng `## Key ideas` thay vì `## Key points` (format-spec §3.3). INFO 4-6: 14/14 concept mới có `## Notes` rỗng ở EOF (systemic pattern đã biết); 3 forward-refs unique targets (`architecture-diagram`, `diagram-as-code`, `ai-assisted-development`); 1 space thừa trước colon trong `code-visualization.md` dòng 23.
+- **Actions needed:** Fix Agent thêm 2 source backlinks + dedup 1 key idea trong `ai-engineering-skills.md`; đổi `## Key ideas` → `## Key points` trong `src_impeccable.md`; xóa 14 header `## Notes` rỗng (precedent 08-26/08-27/08-29); fix space trước colon trong `code-visualization.md`. Không ERROR, không blocking.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-30
 

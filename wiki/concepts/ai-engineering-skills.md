@@ -8,6 +8,7 @@ sources:
   - "[[src_ai-engineering-skills-map]]"
   - "[[src_ai-skills-map-building-deploying-ai-apps]]"
   - "[[src_ai-engineering-skills-map-software-engineering-fundamentals]]"
+  - "[[src_ai-engineering-skills-map-building-deploying-ai-applications]]"
 last_updated: 2026-08-31
 ---
 

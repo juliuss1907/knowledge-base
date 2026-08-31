@@ -217,6 +217,7 @@ For complete validation algorithm, format rules, and error handling, see:
 - [validate.py](scripts/validate.py) — reusable validation script (run from KB root)
 - [parse_issues.py](scripts/parse_issues.py) — parses pipe-delimited output: broken target counts, top-N lists, ERROR breakdown
 - [verify_integrity.py](scripts/verify_integrity.py) — cross-file consistency check: report, _action-required.md, MEMORY.md all agree on counts
+- [ad-hoc-verify.py](scripts/ad-hoc-verify.py) — **reusable ad-hoc verification of the three changed files** (replaces the hand-written `/tmp/hermes-verify-format-<DATE>.py`). Derives all expected counts from the report header, uses the single known-good `[^\d]*` regex pattern, checks sibling rows survived the rewrite. Run from KB root after writing all three files: `python3 .hermes/skills/format-validator/scripts/ad-hoc-verify.py [YYYY-MM-DD]`
 - [cron-vs-interactive-delivery.md](references/cron-vs-interactive-delivery.md) — cron auto-delivers final response to home channel; don't `hermes send --to telegram` there (use different target or final response)
 
 ## Post-validation
@@ -287,6 +288,8 @@ After generating the report, compare today's results against the most recent **A
 - Observed delta shape: +9 files (all auto-generated topic pages Index Agent added for that day's compiled cluster), 391→391 flat, Top-20 identical → exact-zero-flat with KB growth; all new topic aggregator pages contribute 0 broken wikilinks.
 
 **No-growth exact-zero-flat variant (observed 2026-08-28):** the strongest form of flat — ZERO wiki files added, so even the Files-checked count is identical (984→984) alongside total issues (391→391), ERROR/WARNING split, unique targets (268→268), and Top-20. This is the "no compilation happened" reading: Ingest added raw files (2 articles at 20:45/21:10) but Compile Agent hasn't produced wiki files from them, so the validated layer is byte-identical and the backlog neither drains nor accumulates. Confirm before claiming: (1) git reconciliation shows +0 files under wiki/ (only raw/ additions + raw index Items edits), (2) Output Validator ran silent earlier the same evening (0 new source/concept files — its MEMORY.md entry corroborates), (3) files-checked identical to baseline. Report as `0 net change` with the explicit "wiki layer static, raw grows +N uncompiled" framing, and name the variant in the delta line (`variant no-compilation-happened`) so it is not confused with the KB-growth flat variant where new files DID contribute 0 broken links. Standing note stays a non-escalation one-liner; day-count phrasing ('day 4 at 268') increments per run.
+
+**Warning-category-resolution + clean-streak break variant (observed 2026-08-31):** total issues can DROP (−16, 415→399) not because the broken-link backlog drained but because a whole WARNING category was resolved (24 unquoted-`parent` WARNINGs → 0, tag files re-quoted), partially offset by new debt from new files (+5 individual broken, 372→377) AND the first ERRORs in 15 days (0→3 — clean streak broken). When the total drops but ERRORs rise, decompose it explicitly: state which warning category disappeared (the entire source of the drop), how much new debt offset it, and whether the ERRORs are on newly compiled files (Compile Agent quality issue — first actionable structural fixes in weeks). Do NOT report the total drop as "backlog draining" — the drain is one resolved category, not the forward-reference backlog (19→19 groups flat, unique targets 268→270 actually ROSE). Unique targets and forward-ref groups are the honest backlog meter; a resolved "other warnings" category is a one-time cleanup, not trend movement. Escalation closure (e.g. the [SPEC CONFLICT] resolution) belongs in the Escalations section as RESOLVED, not re-flagged.
 
 Include a delta summary table at the top of the report so Julius can see at a glance whether the KB is getting cleaner or accumulating debt.
 
@@ -580,6 +583,13 @@ The label itself may also be non-unique (e.g. "Files checked" appears in both bo
 ### Post-turn harness wants a `hermes-verify-` ad-hoc script when files change
 
 The runtime injects a post-turn prompt after a cron agent edits files, requiring a focused temporary verification script under `/tmp` named with a `hermes-verify-` prefix, run against the changed behavior, cleaned up when possible, and reported explicitly as **ad-hoc** (not suite green). This is a recurring environment expectation for every run that writes report/MEMORY/action files.
+
+**FIRST CHOICE — use the reusable script instead of hand-writing one (recommended 2026-08-31):**
+```bash
+cd /home/julius/knowledge-base
+python3 .hermes/skills/format-validator/scripts/ad-hoc-verify.py 2>&1
+```
+This eliminates the recurring ad-hoc regex bug entirely: all expected counts are derived from the report's own header (nothing to hand-type), the single known-good `[^\d]*` pattern is hardcoded (no raw-string escaping traps), and it checks that sibling validator rows survived the `_action-required.md` rewrite. If the harness specifically wants the `/tmp/hermes-verify-` naming, copy the script to `/tmp/hermes-verify-format-<DATE>.py` and run it there — do NOT hand-retype the regexes. Only write a fresh script from scratch when the reusable one genuinely can't cover the check (e.g. verifying a new field the script doesn't parse).
 
 **Pattern that works in cron (write_file → terminal, not heredoc):**
 ```python

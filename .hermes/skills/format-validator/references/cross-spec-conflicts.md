@@ -2,9 +2,12 @@
 
 > Known conflicts between `format-spec.md` and `index-spec.md` that require escalation.
 
-## 1. Unquoted wikilinks in index frontmatter (active)
+## 1. Unquoted wikilinks in index frontmatter (resolved 2026-08-31)
 
 **Discovered:** 2026-06-17
+**Resolved:** 2026-08-31 — All 24 tag files regenerated with quoted `parent: "[[tag]]"` (Index Agent 22:04 run). No longer produces WARNINGs. Escalation closed.
+
+**History:** 08-28 through 08-30 saw 24 unquoted-parent WARNINGs per day after Index Agent regenerated tag files. Between 08-30 23:15 and 08-31 22:04 the tag files were re-quoted to `parent: "[[tag]]"`, matching format-spec.md §9. Resolution: 24 WARNINGs → 0. If Index Agent regenerates unquoted parent again, escalate as a recurrence.
 
 **Spec A (format-spec.md §9):** "Wikilinks in frontmatter fields (original, sources) use quoted format `"...[[...]]..."` for Obsidian compatibility."
 
@@ -55,5 +58,5 @@
 | Date | Conflict | Resolution |
 |---|---|---|
 | 2026-06-18 | Topic file dispatch | Fixed — detect by scope:topic, route to validate_topic |
-| 2026-06-17 | Unquoted wikilinks | Pending Julius review |
+| 2026-06-17 | Unquoted wikilinks | RESOLVED 2026-08-31 — tag files re-quoted to `parent: "[[tag]]"`; escalation closed |
 | 2026-06-17 | tag.md level | Pending Julius review |

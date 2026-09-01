@@ -28,6 +28,7 @@
 
 | Time | Status | Notes |
 |------|--------|-------|
+| 2026-09-01 08:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 0 raw backlog. 9 pending reviews giữ nguyên (chờ Julius). 6 repos naming violation vẫn chờ Fix Agent. CompileAgent sẽ chạy 08:00 — chưa có raw mới chưa xử lý. |
 | 2026-09-01 05:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 9 pending reviews giữ nguyên. Không có compile mới qua đêm. 6 repos naming violation vẫn chờ Fix Agent. |
 | 2026-08-31 23:32 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 8 pending reviews (thêm Format+Output 08-31). |
 | 2026-08-31 22:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 12 topics mới. 6 pending reviews. |

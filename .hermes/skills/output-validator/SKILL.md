@@ -539,6 +539,8 @@ A fifth manifestation of the same root cause: Compile Agent drops the trailing '
 > **Status 2026-08-30:** clean-run streak is now 8 consecutive (08-23 → 08-30; dropped-i variant-5 grep = 0 matches each run, including all 4 sub-patterns — `ngườ`, `thờ`, `thay v`, `chính lờ`/`bằng lờ`). Carry-over inventory eliminated since 08-24. **Full-week threshold REACHED 08-30** — the skill's own condition for demoting the mandatory daily grep to weekly is now met. Recommendation logged in MEMORY.md 08-30 entry: demote to weekly from 08-31. Until Julius/Connor confirms the demotion, keep running the grep daily — it is cheap and it is the one that would catch a catastrophic deletion typo. If a new batch ever reintroduces variant 5, the streak resets and the daily requirement stays.
 >
 > **Status 2026-08-31:** streak is now **9 consecutive** (08-23 → 08-31; grep = 0 on the 08-31 run, all 4 sub-patterns). Demotion to weekly recommended a second time in the 08-31 report + MEMORY entry. STILL NOT CONFIRMED by Julius/Connor — keep running the daily grep until explicit confirmation. If a new batch ever reintroduces variant 5, the streak resets and the daily requirement stays.
+>
+> **Status 2026-09-01:** streak is now **10 consecutive** (08-23 → 09-01; grep = 0 on the 09-01 run, all 4 sub-patterns — run was a SILENT day, 0 new files, so the grep covered the existing KB only). Demotion to weekly recommended a third time (08-30/08-31/09-01 reports + MEMORY entries). STILL NOT CONFIRMED by Julius/Connor — keep running the daily grep until explicit confirmation. If a new batch ever reintroduces variant 5, the streak resets and the daily requirement stays.
 
 **First observed:** 2026-07-21 batch — 16 new files (3 sources + 13 concepts), ~35 instances across 13/16 files (81% affected).
 
@@ -671,6 +673,18 @@ done
 Files matching the frontmatter date check are genuinely new compilations. Non-matching files are fix-apply edits on existing content — ignore them for the "new files" count. This cross-check is especially important when the approved report was archived (the `find -newer` target may be hours old, letting many fix-apply edits accumulate).
 
 **Symptom:** `find -newer` returns 14 files, quick-scan says "New files today: 9", and the correct count is 9. When the two counts conflict, trust quick-scan's frontmatter-based detection (reads `date_compiled`/`last_updated` directly) over `find -newer`'s mtime-based detection.
+
+### Verify file-count discrepancies against git tree + sibling validator logs (2026-09-01)
+
+When a silent-run snapshot shows a file count that disagrees with the last MEMORY.md entry's count, do NOT assume a file was deleted. The discrepancy is often a miscount in the *previous* run's log, not a change in the KB.
+
+**Pattern (2026-09-01):** quick-scan reported 567 concepts (762 total: 195 sources + 567 concepts), but the 08-31 MEMORY entry logged "763 (195 sources + 568 concepts)". Before concluding a deletion, cross-check three independent sources:
+
+1. **git tree at the last backup** — `git ls-tree -r --name-only <backup-commit> -- wiki/concepts/ | grep '\.md$' | wc -l` vs the same at HEAD. If both = 567, no concept was removed; the earlier "568" was the previous run's arithmetic/logging error (it had also been contradicted by the 08-31 format log: "1027 (567 concepts + 195 sources + 34 indexes + 231 topics)").
+2. **Sibling validator logs** — the format validator (same-day 08-31) logged 567 concepts, corroborating that 567 is correct and 568 was the anomaly.
+3. **Frontmatter date grep** — confirm today's genuinely-new set still matches (14 concepts `last_updated: 2026-08-31`, all present).
+
+**Also seen 09-01:** the `git log --diff-filter=DR` output showed the 2 long-slug sources had been renamed (R100) to `wiki/drafts/*-backup-2026-09-01.md` by Fix Agent — a deferred fix from the 08-31 report. Drafts moves do NOT change the active concept/source count (drafts are excluded from validation anyway). When a count discrepancy coincides with recent renames in git log, confirm the rename target is `wiki/drafts/` (benign) rather than a live-content deletion.
 
 ### Cron working directory
 

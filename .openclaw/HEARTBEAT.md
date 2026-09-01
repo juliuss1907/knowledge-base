@@ -8,11 +8,11 @@
 
 | Check | Status | Details |
 |-------|--------|---------|
-| Raw backlog | ✅ 0 files unprocessed | Tất cả raw content files đã processed. `raw/websites/2026-07-25_tools.md` (type: index) không tính backlog. |
-| wiki/concepts | 567 | Giữ nguyên so với 21:30 |
+| Raw backlog | 1 file mới chưa processed | `raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md` (ingested hôm nay, <24h — trong chu kỳ bình thường). CompileAgent xử lý 08:00 mai. |
+| wiki/concepts | 567 | Giữ nguyên |
 | wiki/sources | 195 | Giữ nguyên |
 | wiki/tag | 25 | Giữ nguyên |
-| wiki/topic | 231 | Tăng từ 219 do Index Agent rebuild full (21:00) — 12 topics mới |
+| wiki/topic | 231 | Giữ nguyên |
 | Pending reviews | ✅ 0 pending | Batch 10 reports (08-28→09-01) đã applied sáng nay. Không có report mới chờ review. |
 
 ## Notes
@@ -29,6 +29,7 @@
 
 | Time | Status | Notes |
 |------|--------|-------|
+| 2026-09-01 18:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 1 raw mới: posts/google-cloud-agent-sandbox-runtimes (ingested hôm nay, chờ compile 08:00 mai). 0 pending reviews. Backlink OK (zero-sum-game, philosopher-syndrome). Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). |
 | 2026-09-01 14:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 0 raw backlog. 0 pending reviews (batch 10 applied sáng nay). Concept backlink OK. System ổn định — uptime 77d+. |
 | 2026-09-01 09:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 0 raw backlog. CompileAgent 08:00 xử lý batch raw/repos/08-30 → src_impeccable.md + 16 concepts. 10 pending reviews (thêm Hygiene 09-01). 6 repos naming violation vẫn chờ Fix Agent. |
 | 2026-09-01 08:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 0 raw backlog. 9 pending reviews giữ nguyên (chờ Julius). 6 repos naming violation vẫn chờ Fix Agent. CompileAgent sẽ chạy 08:00 — chưa có raw mới chưa xử lý. |

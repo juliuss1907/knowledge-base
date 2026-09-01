@@ -88,16 +88,12 @@ if f"wiki/reviews/{today}_format-report.md" not in ar:
 # Sibling row can be 🔍 PENDING or ✅ APPLIED (e.g. Hygiene applied earlier the same day,
 # observed 2026-09-01); if neither form exists, only allow it when that sibling produced
 # NO report today (SILENT run, e.g. Output with 0 new files — observed 2026-09-01).
-siblings_ok = True
 for sib in ("Output", "Hygiene"):
     sib_pending = re.search(r"🔍\s*PENDING\s*\|\s*" + today[5:] + r"\s*\|\s*" + sib, ar)
     sib_applied = re.search(r"✅\s*APPLIED\s*\|\s*" + today[5:] + r"\s*\|\s*" + sib, ar)
     sib_report = os.path.join(KB, f"wiki/reviews/{today}_{sib.lower()}-report.md")
     if not sib_pending and not sib_applied and os.path.exists(sib_report):
         errors.append(f"AR missing {sib} {today[5:]} row (report exists but row dropped)")
-        siblings_ok = False
-if siblings_ok and not re.search(r"🔍 PENDING \|\s*" + today[5:] + r"\s*\|\s*(Output|Hygiene)", ar):
-    pass  # tolerated: siblings may be APPLIED or SILENT (no report -> no row expected)
 # pending count — tolerant of ** wrapper and any non-digit gap
 m = re.search(r"awaiting review:[^\d]*(\d+)", ar)
 if not m:

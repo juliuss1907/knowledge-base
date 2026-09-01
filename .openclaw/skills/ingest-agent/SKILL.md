@@ -111,6 +111,11 @@ source: fs.blog
 - Capture README.md content
 - Extract repo description, stars, language
 - Store GitHub/GitLab URL
+- **⚠️ Naming rule (bắt buộc):** repos files PHẢI dùng slug 2 đoạn `YYYY-MM-DD_<owner>_<repo>.md` theo folder-structure.md §6 — không dùng single-slug.
+  - `<owner>` = GitHub/GitLab owner (lấy từ URL `github.com/<owner>/<repo>`), giữ nguyên case của owner.
+  - Ví dụ đúng: `2026-06-27_aiskilloftheweek_personal-mba-generator-skill.md`, `2026-08-30_PostHog_posthog.md`
+  - ❌ Sai (single-slug — đã từng vi phạm batch 08-30): `2026-08-30_posthog.md`
+  - Nếu URL không rõ owner: escalate hỏi Julius, không đoán.
 
 ### Websites
 - Fetch landing page content or tool description

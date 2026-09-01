@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-01 08:52 (Approve all — 10 reports 08-28→09-01 approved)
+**Last updated:** 2026-09-01 23:15 (Format validation)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 10 reports (08-28→09-01) — 2026-09-01 by Connor (approved all; hầu hết fix đã được Fix Agent xử lý trước đó; 2 slug + 6 repos rename deferred — Fix Agent)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-01 | Format | 396 (0E+396W) | Review [wiki/reviews/2026-09-01_format-report.md](2026-09-01_format-report.md) |
 | ✅ APPLIED | 09-01 | Hygiene | 8 (2E+6W) | Applied 2026-09-01 — deferred (root json lần 10 + HEARTBEAT lần 6): KHÔNG xóa, chờ process-level fix; 6 repos naming deferred Fix Agent |
 | ✅ APPLIED | 08-31 | Format | 399 (3E+396W) | Applied 2026-09-01 — ERROR 3 key points fixed (src_impeccable); ERROR 1-2 slug rename deferred (Fix Agent: 2 slug >50 chars); [SPEC CONFLICT] closed (24 tag files re-quoted) |
 | ✅ APPLIED | 08-31 | Output | 6 (0E+3W+3I) | Applied 2026-09-01 — all fix verified: 2 backlinks + dedup + ## Key points + 14 Notes removed + space-colon fixed (by Fix Agent) |
@@ -84,6 +85,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-01
+
+- **Report:** `wiki/reviews/2026-09-01_format-report.md`
+- **Summary:** 1027 files checked (567 concepts + 195 sources + 34 indexes + 231 topics). 396 issues: **0 ERROR, 396 WARNING**. **Clean ERROR streak RESTORED** — the 3 ERRORs from 08-31 were all resolved by Fix Agent (2 slug renames: `src_ai-engineering-skills-map-building-deploying-ai-applications`→`src_ai-eng-skills-map-building-deploying` + `src_ai-engineering-skills-map-software-engineering-fundamentals`→`src_ai-eng-skills-map-se-fundamentals`; `src_impeccable.md` missing `## Key points` added). **0 new wiki files** (git A-count = 0 — no compilation today). 1 new raw file ingested but uncompiled (`raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md`). WARNING backlog exactly flat: 396→396, 377 individual broken, 19 forward-ref groups, 270 unique broken targets (day 2), Top-20 identical to 08-31. No structural violations, no new ERRORs. Total −3 (399→396) entirely from ERROR resolution.
+- **Actions needed:** None — the 396 forward-ref WARNINGs resolve naturally when Compile Agent processes the 1 uncompiled raw file. No Fix Agent action required. No ERRORs to fix.
+- **Status:** ⏳ pending
 
 ### ✅ Hygiene Inspection — 2026-09-01 (08:45) — APPLIED (deferred action)
 

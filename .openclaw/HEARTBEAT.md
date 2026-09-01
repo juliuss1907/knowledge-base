@@ -45,3 +45,4 @@
 | 2026-08-31 07:00 | ✅ OK | |
 | 2026-08-30 23:15 | — | (Format validation run) |
 | 2026-09-01 04:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 9 pending reviews (thêm Hygiene 08-31). 6 repos naming violation phát hiện mới. |
+| 2026-09-01 22:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. Raw backlog: 1 (raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md, ingest hôm nay, chưa tới 24h). Pending review: 0. Concept backlink OK (567/567 có sources). |

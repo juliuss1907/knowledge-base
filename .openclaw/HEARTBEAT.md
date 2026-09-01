@@ -13,12 +13,12 @@
 | wiki/sources | 195 | Giữ nguyên |
 | wiki/tag | 25 | Giữ nguyên |
 | wiki/topic | 231 | Giữ nguyên |
-| Pending reviews | ✅ 0 pending | Batch 10 reports (08-28→09-01) đã applied sáng nay. Không có report mới chờ review. |
+| Pending reviews | ⏳ 1 pending | Format report 09-01 (396W, 0E) — chờ Julius review. Không phải backlog, all forward-refs. |
 
 ## Notes
 
-1. Pending reviews đã clear — batch 10 reports (08-28→09-01) được Julius/Connor approve sáng nay và Fix Agent applied. `_action-required.md` báo 0 pending.
-2. Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16 — không đổi so với 12:00.
+1. Có 1 pending Hermes format report (09-01, 396W/0E) chờ Julius review — không có ERROR mới, all forward-refs sẽ tự resolve khi CompileAgent xử lý thêm raw.
+2. Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16 — không đổi so với 00:00.
 3. [Known issue] Root json `openclaw-workspace-state.json` (69 bytes, mtime 08-24) + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
 4. [Violation] 6 repos files từ batch 08-30 vi phạm naming convention: thiếu owner segment (folder-structure.md §6). Chờ Fix Agent rename.
 5. 2 concepts random-check backlink đủ (systems-thinking-limitations, hindsight-skill) — hệ thống ổn định.
@@ -29,7 +29,7 @@
 
 | Time | Status | Notes |
 |------|--------|-------|
-| 2026-09-01 19:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 1 raw mới: posts/google-cloud-agent-sandbox-runtimes (ingested hôm nay, chờ compile 08:00 mai). 0 pending reviews. Backlink OK (greshams-law, claude-code-routines). Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). memory/+state/ absent. |
+| 2026-09-02 00:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 1 raw mới: posts/google-cloud-agent-sandbox-runtimes (ingested 17:09 hôm qua, chờ compile 08:00). 1 pending review: Format 09-01 (396W/0E) chờ Julius. Backlink OK. Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). memory/+state/ absent. Disk 19%, uptime 11w1d. |
 | 2026-09-01 18:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 1 raw mới: posts/google-cloud-agent-sandbox-runtimes (ingested hôm nay, chờ compile 08:00 mai). 0 pending reviews. Backlink OK (zero-sum-game, philosopher-syndrome). Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). |
 | 2026-09-01 14:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 0 raw backlog. 0 pending reviews (batch 10 applied sáng nay). Concept backlink OK. System ổn định — uptime 77d+. |
 | 2026-09-01 09:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 0 raw backlog. CompileAgent 08:00 xử lý batch raw/repos/08-30 → src_impeccable.md + 16 concepts. 10 pending reviews (thêm Hygiene 09-01). 6 repos naming violation vẫn chờ Fix Agent. |

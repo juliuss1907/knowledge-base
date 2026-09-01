@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-08-30_anthropic-cybersecurity-skills]]"
+original: "[[2026-08-30_mukul975_anthropic-cybersecurity-skills]]"
 main_tag: ai
 sub_tags: [tools, hack, research]
 topic: ai-cybersecurity-skills-library

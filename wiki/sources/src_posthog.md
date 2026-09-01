@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-08-30_posthog]]"
+original: "[[2026-08-30_PostHog_posthog]]"
 main_tag: tech
 sub_tags: [tools, automation]
 topic: self-driving-products

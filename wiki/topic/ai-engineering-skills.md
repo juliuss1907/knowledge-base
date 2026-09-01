@@ -22,6 +22,6 @@ Last updated: 2026-08-31 22:04:04
 ## Sources (4)
 
 - [[src_ai-engineering-skills-map]] — main: #ai, sub: [#coding, #vibecode]
-- [[src_ai-engineering-skills-map-building-deploying-ai-applications]] — main: #ai, sub: [#coding, #research]
-- [[src_ai-engineering-skills-map-software-engineering-fundamentals]] — main: #ai, sub: [#coding, #research]
+- [[src_ai-eng-skills-map-building-deploying]] — main: #ai, sub: [#coding, #research]
+- [[src_ai-eng-skills-map-se-fundamentals]] — main: #ai, sub: [#coding, #research]
 - [[src_ai-skills-map-building-deploying-ai-apps]] — main: #ai, sub: [#coding, #research]

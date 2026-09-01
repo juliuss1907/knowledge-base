@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-08-30_impeccable]]"
+original: "[[2026-08-30_juliuss1907_impeccable]]"
 main_tag: tech
 sub_tags: [tools, coding, vibecode]
 topic: ai-frontend-design-guidance

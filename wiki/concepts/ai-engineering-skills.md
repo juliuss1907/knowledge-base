@@ -7,8 +7,8 @@ topic: ai-engineering-skills
 sources:
   - "[[src_ai-engineering-skills-map]]"
   - "[[src_ai-skills-map-building-deploying-ai-apps]]"
-  - "[[src_ai-engineering-skills-map-software-engineering-fundamentals]]"
-  - "[[src_ai-engineering-skills-map-building-deploying-ai-applications]]"
+  - "[[src_ai-eng-skills-map-se-fundamentals]]"
+  - "[[src_ai-eng-skills-map-building-deploying]]"
 last_updated: 2026-08-31
 ---
 
@@ -50,5 +50,5 @@ AI Engineering Skills là bộ 4 kỹ năng cốt lõi Andrew Ng xác định qu
 
 - [[src_ai-engineering-skills-map]] — Andrew Ng, X 2026-08-14 (part 1: 4 kỹ năng tổng quan)
 - [[src_ai-skills-map-building-deploying-ai-apps]] — Andrew Ng, X 2026-08-21 (part 2: chi tiết 6 mảng của skill #1)
-- [[src_ai-engineering-skills-map-software-engineering-fundamentals]] — Andrew Ng, The Batch 2026-08-30 (part 3: software engineering fundamentals)
-- [[src_ai-engineering-skills-map-building-deploying-ai-applications]] — Andrew Ng, The Batch 2026-08-30 (part 2: building and deploying AI applications)
+- [[src_ai-eng-skills-map-se-fundamentals]] — Andrew Ng, The Batch 2026-08-30 (part 3: software engineering fundamentals)
+- [[src_ai-eng-skills-map-building-deploying]] — Andrew Ng, The Batch 2026-08-30 (part 2: building and deploying AI applications)

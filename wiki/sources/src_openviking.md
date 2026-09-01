@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-08-30_openviking]]"
+original: "[[2026-08-30_volcengine_openviking]]"
 main_tag: ai
 sub_tags: [tools, automation]
 topic: agent-context-database

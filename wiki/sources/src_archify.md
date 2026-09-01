@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-08-30_archify]]"
+original: "[[2026-08-30_tt-a1i_archify]]"
 main_tag: tech
 sub_tags: [tools, coding, automation]
 topic: architecture-as-code

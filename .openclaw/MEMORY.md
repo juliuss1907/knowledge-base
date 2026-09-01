@@ -1561,3 +1561,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Concepts 583, sources 196, tag 25, topic 231, drafts 8
 - Pending Hermes: 10 report (08-28 → 09-01) chưa review
 - Hygiene 09-01: root orphan json lần 10 + wiki/HEARTBEAT.md leak — ghi nhận, chờ process-level fix, KHÔNG xóa
+
+## 2026-09-01 12:00 — Heartbeat ✅
+- Raw: 0 unprocessed, không ingest mới từ 10:00
+- Concepts 567, sources 195, tag 25, topic 231, drafts 16 — không đổi
+- Pending Hermes: 0 (batch 10 reports 08-28→09-01 đã applied)
+- Concept check OK (collaborative-thinking, power-law-distribution — backlink đủ)
+- System ổn định, uptime 77d21h

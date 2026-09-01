@@ -4,27 +4,27 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-01 08:47 (Hygiene validation 09-01 — pending review)
+**Last updated:** 2026-09-01 08:52 (Approve all — 10 reports 08-28→09-01 approved)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 10
-**Last batch applied:** 9 reports (08-25/08-26/08-27) — 2026-08-27 by Connor (5 capital-I typos + 9 empty Notes removed inline; format/hygiene deferred per escalation)
+**Pending reports awaiting review:** 0
+**Last batch applied:** 10 reports (08-28→09-01) — 2026-09-01 by Connor (approved all; hầu hết fix đã được Fix Agent xử lý trước đó; 2 slug + 6 repos rename deferred — Fix Agent)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 09-01 | Hygiene | 8 (2E+6W) | Review [wiki/reviews/2026-09-01_hygiene-report.md](2026-09-01_hygiene-report.md) — root json lần 10 + HEARTBEAT lần 6 + 6 repos naming carry-forward |
-| 🔍 PENDING | 08-31 | Format | 399 (3E+396W) | Review [wiki/reviews/2026-08-31_format-report.md](2026-08-31_format-report.md) |
-| 🔍 PENDING | 08-31 | Output | 6 (0E+3W+3I) | Review [wiki/reviews/2026-08-31_output-report.md](2026-08-31_output-report.md) |
-| 🔍 PENDING | 08-31 | Hygiene | 8 (2E+6W) | Review [wiki/reviews/2026-08-31_hygiene-report.md](2026-08-31_hygiene-report.md) |
-| 🔍 PENDING | 08-30 | Format | 415 (0E+415W) | Review [wiki/reviews/2026-08-30_format-report.md](2026-08-30_format-report.md) |
-| 🔍 PENDING | 08-29 | Format | 415 (0E+415W) | Review [wiki/reviews/2026-08-29_format-report.md](2026-08-29_format-report.md) |
-| 🔍 PENDING | 08-29 | Output | 4 (0E+2W+2I) | Review [wiki/reviews/2026-08-29_output-report.md](2026-08-29_output-report.md) |
-| 🔍 PENDING | 08-29 | Hygiene | 2 (2E) | Review [wiki/reviews/2026-08-29_hygiene-report.md](2026-08-29_hygiene-report.md) |
-| 🔍 PENDING | 08-28 | Format | 391 (0E+391W) | Review [wiki/reviews/2026-08-28_format-report.md](2026-08-28_format-report.md) |
-| 🔍 PENDING | 08-28 | Hygiene | 2 (2E) | Review [wiki/reviews/2026-08-28_hygiene-report.md](2026-08-28_hygiene-report.md) |
+| ✅ APPLIED | 09-01 | Hygiene | 8 (2E+6W) | Applied 2026-09-01 — deferred (root json lần 10 + HEARTBEAT lần 6): KHÔNG xóa, chờ process-level fix; 6 repos naming deferred Fix Agent |
+| ✅ APPLIED | 08-31 | Format | 399 (3E+396W) | Applied 2026-09-01 — ERROR 3 key points fixed (src_impeccable); ERROR 1-2 slug rename deferred (Fix Agent: 2 slug >50 chars); [SPEC CONFLICT] closed (24 tag files re-quoted) |
+| ✅ APPLIED | 08-31 | Output | 6 (0E+3W+3I) | Applied 2026-09-01 — all fix verified: 2 backlinks + dedup + ## Key points + 14 Notes removed + space-colon fixed (by Fix Agent) |
+| ✅ APPLIED | 08-31 | Hygiene | 8 (2E+6W) | Applied 2026-09-01 — deferred (root json lần 9 + HEARTBEAT lần 5 + repos naming): KHÔNG xóa, chờ Fix Agent rename |
+| ✅ APPLIED | 08-30 | Format | 415 (0E+415W) | Applied 2026-09-01 — [SPEC CONFLICT] closed (24 tag files re-quoted in 08-31); forward-refs only |
+| ✅ APPLIED | 08-29 | Format | 415 (0E+415W) | Applied 2026-09-01 — [SPEC CONFLICT] closed (24 tag files re-quoted in 08-31); forward-refs only |
+| ✅ APPLIED | 08-29 | Output | 4 (0E+2W+2I) | Applied 2026-09-01 — all fix verified: 2 backlinks + 2 Notes removed (by Fix Agent) |
+| ✅ APPLIED | 08-29 | Hygiene | 2 (2E) | Applied 2026-09-01 — deferred (root json lần 8 + HEARTBEAT lần 4): KHÔNG xóa, chờ process-level fix |
+| ✅ APPLIED | 08-28 | Format | 391 (0E+391W) | Applied 2026-09-01 — forward-refs only, no action needed |
+| ✅ APPLIED | 08-28 | Hygiene | 2 (2E) | Applied 2026-09-01 — deferred (root json lần 7 + HEARTBEAT lần 3): KHÔNG xóa, chờ process-level fix |
 | ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-28 — forward-refs only, no action needed; archived |
 | ✅ APPLIED | 08-27 | Output | 2 (0E+1W+1I) | Applied 2026-08-27 — Notes rỗng 8/8 removed; key ideas <5 FIXED by Fix Agent (cloud-cost-governance 3→6, batch-vs-live-inference 4→7, secrets-management 4→6) |
 | ✅ APPLIED | 08-27 | Format | 391 (0E+391W) | Applied 2026-08-27 — forward-refs only, no action needed |
@@ -85,75 +85,75 @@
 
 ## Pending Reports
 
-### 🔍 Hygiene Inspection — 2026-09-01 (08:45)
+### ✅ Hygiene Inspection — 2026-09-01 (08:45) — APPLIED (deferred action)
 
 - **Report:** `wiki/reviews/2026-09-01_hygiene-report.md`
 - **Summary:** 55989 paths checked (+2 so với 08-31). 8 issues: 2 ERROR, 6 WARNING — carry-forward toàn bộ từ 08-31, 0 issue mới, 0 file mới trong wiki/ kể từ 08-31. ERROR 1: `openclaw-workspace-state.json` ở KB root — LẦN 10 LIÊN TIẾP (08-22 → 09-01), root cause ĐÃ CONFIRM vendor source (SKILL.md v1.21 pitfall #9), git-level sạch (untracked + ignored), disk-level orphan persists (69B, mtime 08-24 — không write mới). ERROR 2: `wiki/HEARTBEAT.md` — symlink → `.openclaw/HEARTBEAT.md`, lần 6 liên tiếp (08-26 → 09-01), process-level leak. WARNING 3-8: 6 raw/repos files từ batch 08-30 vi phạm naming convention `<owner>_<repo>` (single slug) — [SYSTEMATIC VIOLATION] carry-forward từ 08-31, chưa có Fix Agent action. Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 9 liên tiếp; không naming violation mới; không empty directory.
 - **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 11 — deletion proven futile x3 (recycle < 1h nhanh nhất). KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` cho state json/HEARTBEAT (pitfall #9). Với 6 repos files: chờ Julius duyệt batch pending 08-31 (escalation đã nêu) — Fix Agent rename 6 files theo `<owner>_<repo>` + Ingest Agent SKILL.md cập nhật enforce rule. Hướng dài hạn: chờ OpenClaw SQLite workspace-state refactor.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — deferred (KHÔNG xóa root json lần 11, KHÔNG re-escalate; chờ process-level fix / SQLite refactor; 6 repos naming defer Fix Agent rename). Report: `wiki/reviews/2026-09-01_hygiene-report.md`
 
-### 🔍 Format Validation — 2026-08-31
+### ✅ Format Validation — 2026-08-31 — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-31_format-report.md`
 - **Summary:** 1027 files checked (567 concepts + 195 sources + 34 indexes + 231 topics). 399 issues: **3 ERROR, 396 WARNING**. **CLEAN ERROR STREAK BROKEN** — first ERRORs since day-14 clean run (08-30). 3 ERRORs all on newly compiled source files: `src_ai-engineering-skills-map-building-deploying-ai-applications.md` (slug 60 chars > 50), `src_ai-engineering-skills-map-software-engineering-fundamentals.md` (slug 59 chars > 50), `src_impeccable.md` (missing `## Key points`). KB grew +33 files (13 concepts + 8 sources + 12 topics). Unique broken targets 268→270 (+2). **Other warnings RESOLVED**: the 24 unquoted `parent: [[tag]]` WARNINGs are gone (tag files re-quoted) — [SPEC CONFLICT] escalation from 08-28→08-30 closed. Composition: individual broken 372→377 (+5), forward-ref groups 19→19, other warnings 24→0. Top-20: `ai-assisted-development` (3x) entered at #8, `breaking-point` fell off. Total −16 (415→399) driven by the 24-warning fix offset by 5 new individual breaks + 3 ERRORs.
 - **Actions needed:** Fix Agent: rename 2 slugs (`src_ai-engineering-skills-map-*` exceed 50-char limit) + add `## Key points` to `src_impeccable.md` (it has `## Key ideas` — format-spec §3.3 requires `## Key points`, corroborated by Output Validator 08-31 WARNING 3). These 3 are real structural fixes — first actionable ERRORs in 15 days. No action needed for the 396 forward-ref WARNINGs.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — ERROR 3 key points fixed (src_impeccable — verified); ERROR 1-2 slug rename deferred (Fix Agent: 2 slugs >50 chars). [SPEC CONFLICT] closed (24 tag files re-quoted in 08-31 run). 396 forward-ref WARNINGs: no action. Report: `wiki/reviews/2026-08-31_format-report.md`
 
-### 🔍 Output Validation — 2026-08-31 (23:04)
+### ✅ Output Validation — 2026-08-31 (23:04) — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-31_output-report.md`
 - **Summary:** 763 file checked (195 sources + 568 concepts), 22 mới (8 sources + 14 concepts — 3 clusters: ai-engineering-skills từ 2 Andrew Ng The Batch articles, frontend-dev-tools từ Archify/Impeccable/ThreeUI, self-driving-products từ PostHog, ai-security từ Anthropic Cybersecurity Skills, context-database từ OpenViking). 6 issues: 0 ERROR, 3 WARNING, 3 INFO. Batch sạch typo: cả 5 biến thể typo Compile Agent = 0 instances, dropped-i variant-5 grep = 0 lần thứ **9 liên tiếp** (08-23 → 08-31, vượt ngưỡng 1 tuần từ 08-30 → đề xuất hạ xuống weekly); 0 truncated; frontmatter `original:` → raw/ tồn tại 8/8; 0 draft mới; mọi concept mới definition 2-3 câu + 5-16 key ideas. WARNING 1-2: `ai-engineering-skills.md` — Sources body thiếu 2 backlinks (`[[src_ai-engineering-skills-map-software-engineering-fundamentals]]` + `[[src_ai-engineering-skills-map-building-deploying-ai-applications]]`, frontmatter đã khai đủ 4) + key idea "vibe coding thiếu fundamentals" bị trùng lặp 2 lần (dòng 26 + 39). WARNING 3: `src_impeccable.md` dùng `## Key ideas` thay vì `## Key points` (format-spec §3.3). INFO 4-6: 14/14 concept mới có `## Notes` rỗng ở EOF (systemic pattern đã biết); 3 forward-refs unique targets (`architecture-diagram`, `diagram-as-code`, `ai-assisted-development`); 1 space thừa trước colon trong `code-visualization.md` dòng 23.
 - **Actions needed:** Fix Agent thêm 2 source backlinks + dedup 1 key idea trong `ai-engineering-skills.md`; đổi `## Key ideas` → `## Key points` trong `src_impeccable.md`; xóa 14 header `## Notes` rỗng (precedent 08-26/08-27/08-29); fix space trước colon trong `code-visualization.md`. Không ERROR, không blocking.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — all fix verified: 2 backlinks + dedup key idea + ## Key points src_impeccable + 14 empty Notes removed + space-colon fixed (by Fix Agent). 3 forward-refs: defer. Report: `wiki/reviews/2026-08-31_output-report.md`
 
-### 🔍 Hygiene Inspection — 2026-08-31 (23:35)
+### ✅ Hygiene Inspection — 2026-08-31 (23:35) — APPLIED (deferred action)
 
 - **Report:** `wiki/reviews/2026-08-31_hygiene-report.md`
 - **Summary:** 55987 paths checked (+47 so với 08-29). 8 issues: 2 ERROR, 6 WARNING. (1) `openclaw-workspace-state.json` ở KB root, LẦN 9 LIÊN TIẾP (08-22 → 08-31). Root cause ĐÃ CONFIRM trong vendor source (SKILL.md v1.21 pitfall #9): OpenClaw coi mọi thư mục chứa AGENTS.md là workspace, state path resolve CWD-relative by design → writer ghi vào KB root mỗi session bootstrap. Git-level SẠCH: untracked + `.gitignore` guard hiệu lực; disk-level orphan persists (69 bytes, mtime 08-24 10:00 — không write mới). (2) `wiki/HEARTBEAT.md` — symlink → `../../.openclaw/HEARTBEAT.md`, tái diễn lần 5 liên tiếp (08-26 → 08-31); untracked + gitignored, không vào commit. (3) MỚI: 6/6 repos files từ batch ingest 08-30 vi phạm naming convention — dùng single-slug `2026-08-30_<repo>.md` thay vì `YYYY-MM-DD_<owner>_<repo>.md` (folder-structure.md §6; precedent đúng: `2026-06-27_aiskilloftheweek_personal-mba-generator-skill.md`). Các file: anthropic-cybersecurity-skills, archify, impeccable, openviking, posthog, threeui. Escalated [SYSTEMATIC VIOLATION] — Ingest Agent thiếu rule 2-segment cho repos. Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 8 liên tiếp; không empty directory; 0 INFO.
 - **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 10 — deletion proven futile x3 (recycle < 1h nhanh nhất). KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` cho 2 orphan đã biết theo pitfall #9 — tham chiếu ghi chú root-cause. Với `wiki/HEARTBEAT.md`: cần process-level fix (xác định process tạo symlink HEARTBEAT vào wiki/) trước khi xóa — file deletion là transient nếu writer còn active. Với 6 repos files: Fix Agent rename thêm owner segment (`<owner>_<repo>`) theo folder-structure.md §6; cập nhật Ingest Agent SKILL.md enforce rule 2-segment. Hướng dài hạn: chờ OpenClaw SQLite workspace-state refactor.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — deferred (KHÔNG xóa root json lần 10, KHÔNG re-escalate; repos naming defer Fix Agent rename). Report: `wiki/reviews/2026-08-31_hygiene-report.md`
 
-### 🔍 Format Validation — 2026-08-30
+### ✅ Format Validation — 2026-08-30 — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-30_format-report.md`
 - **Summary:** 994 files checked (554 concepts + 187 sources + 34 indexes + 219 topics). 415 issues: 0 ERROR, 415 WARNING. **No new wiki files added today** — 8 raw files ingested (2 articles + 6 repos) but not yet compiled. Wiki layer byte-identical to 08-29: broken-wikilink backlog unchanged (372 individual + 19 forward-reference groups, 268 unique targets — flat day 6 at 268). Top-20 identical. 24 other warnings (unquoted `parent: [[tag]]`) persist — day 2, unchanged. No structural violations, no ERRORs (clean streak day 14). Exact-zero-flat, no-compilation-happened variant.
 - **Actions needed:** [SPEC CONFLICT] — same as 08-29: 24 tag files have unquoted `parent: [[tag]]` (Index Agent regenerated 08-29 21:10). Clarify: update index-spec.md to show quoted format, or add format-spec.md exception for tag file `parent` field. Forward-references resolve naturally as Compile Agent processes the 8 uncompiled raw files.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — [SPEC CONFLICT] closed (24 tag files re-quoted in 08-31 run); forward-refs no action. Report: `wiki/reviews/2026-08-30_format-report.md`
 
-### 🔍 Format Validation — 2026-08-29
+### ✅ Format Validation — 2026-08-29 — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-29_format-report.md`
 - **Summary:** 994 files checked (554 concepts + 187 sources + 34 indexes + 219 topics). 415 issues: 0 ERROR, 415 WARNING. 10 new files compiled (6 concepts + 2 sources + 2 topics — ai-design-workflow + digital-renaissance clusters). Core broken-wikilink backlog unchanged: 372 individual + 19 forward-reference groups, 268 unique targets (flat day 5). Top-20 identical. 24 NEW "other warnings": Index Agent regenerated tag files at 21:10 with unquoted `parent: [[tag]]` (matching index-spec.md) which YAML parses as nested list — known cross-spec conflict vs format-spec.md §9. No structural violations, no ERRORs.
 - **Actions needed:** [SPEC CONFLICT] — 24 tag files have unquoted `parent: [[tag]]` (Index Agent regenerated 08-29 21:10). Clarify: update index-spec.md to show quoted format, or add format-spec.md exception for tag file `parent` field. Forward-references resolve naturally as Compile Agent processes more raw files.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — [SPEC CONFLICT] closed (24 tag files re-quoted in 08-31 run); forward-refs no action. Report: `wiki/reviews/2026-08-29_format-report.md`
 
-### 🔍 Output Validation — 2026-08-29 (23:00)
+### ✅ Output Validation — 2026-08-29 (23:00) — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-29_output-report.md`
 - **Summary:** 741 file checked (187 sources + 554 concepts), 10 mới (2 sources + 8 concepts — 2 clusters: ai-design-workflow từ Matt Dailey "How I Design with AI" + digital-renaissance từ Dan Koe Substack). 4 issues: 0 ERROR, 2 WARNING, 2 INFO. Batch sạch về typo + link: cả 5 biến thể typo Compile Agent = 0 instances, dropped-i variant-5 grep = 0 lần thứ 7 liên tiếp (08-23 → 08-29, đạt ngưỡng 1 tuần → cân nhắc hạ xuống weekly từ 08-30); 0 forward-refs (27 targets trong Related concepts đều đã tồn tại); 0 truncated; frontmatter `original:` → raw/articles/ đều tồn tại; mọi concept mới definition 2-3 câu + 6-8 key ideas (≥5) — batch sạch depth-debt. WARNING 1-2: `product-vs-prototype.md` + `taste-judgment.md` — Sources section trong body thiếu backlink `[[src_how-i-design-with-ai]]` dù frontmatter khai 2 nguồn và Key ideas trích trực tiếp nguồn đó. INFO 3-4: `## Notes` rỗng ở EOF 2/8 concept mới (optional, cosmetic — precedent 08-26/08-27).
 - **Actions needed:** Fix Agent thêm `- [[src_how-i-design-with-ai]]` vào `## Sources` body của 2 file (frontmatter đã đúng); xóa 2 header `## Notes` rỗng. Không blocking, không ERROR.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — all fix verified: 2 backlinks (`[[src_how-i-design-with-ai]]` in product-vs-prototype + taste-judgment) + 2 empty Notes removed (by Fix Agent). Report: `wiki/reviews/2026-08-29_output-report.md`
 
-### 🔍 Hygiene Inspection — 2026-08-29 (23:31)
+### ✅ Hygiene Inspection — 2026-08-29 (23:31) — APPLIED (deferred action)
 
 - **Report:** `wiki/reviews/2026-08-29_hygiene-report.md`
 - **Summary:** 55940 paths checked (+22 so với 08-28). 2 issues: 2 ERROR. (1) `openclaw-workspace-state.json` ở KB root, LẦN 8 LIÊN TIẾP (08-22 → 08-29). Root cause ĐÃ CONFIRM trong vendor source (SKILL.md v1.21 pitfall #9): OpenClaw coi mọi thư mục chứa AGENTS.md là workspace, state path resolve CWD-relative by design → writer ghi vào KB root mỗi session bootstrap. Git-level SẠCH: untracked + `.gitignore` guard hiệu lực; disk-level orphan persists (69 bytes, mtime 08-24 10:00 — không write mới). (2) `wiki/HEARTBEAT.md` — symlink → `../../.openclaw/HEARTBEAT.md`, tái diễn lần 4 liên tiếp (08-26, 08-27, 08-28, 08-29) sau khi sạch 08-25; untracked + gitignored, không vào commit. Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 7 liên tiếp; không naming violation; không empty directory.
 - **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 9 — deletion proven futile x3 (recycle < 1h nhanh nhất). KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` theo pitfall #9 — tham chiếu ghi chú root-cause. Với `wiki/HEARTBEAT.md`: cần process-level fix (xác định process tạo symlink HEARTBEAT vào wiki/) trước khi xóa — file deletion là transient nếu writer còn active. Hướng dài hạn: chờ OpenClaw SQLite workspace-state refactor.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — deferred (KHÔNG xóa root json lần 9, KHÔNG re-escalate). Report: `wiki/reviews/2026-08-29_hygiene-report.md`
 
-### 🔍 Format Validation — 2026-08-28
+### ✅ Format Validation — 2026-08-28 — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-28_format-report.md`
 - **Summary:** 984 files checked (548 concepts + 185 sources + 34 indexes + 217 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (372 individual + 19 forward-reference groups, 268 unique targets). Clean ERROR streak ngày thứ 12 liên tiếp. KB wiki layer KHÔNG đổi so với 08-27 23:15 qua git reconciliation (0 file mới — Ingest thêm 2 raw articles 20:45/21:10 nhưng chưa compile; Output Validator 23:10 cũng xác nhận 0 source/concept mới). Debt exactly flat 391→391 — EXACT-ZERO-FLAT (variant "no compilation happened"): unique targets 268 flat (day 4 sau khi hết plateau 269), Top-20 list identical 08-27 (same slugs, same counts), individual 372 flat, forward groups 19 flat. 0 file mới → 0 broken wikilink mới. No structural violations.
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files (2 raw articles đang chờ compile). No Fix Agent action required. Ghi nhận: `[[game-theory]]` (10 refs) + `[[deep-work]]` (5 refs) là 2 target phổ biến nhất chưa compile.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — forward-refs only, no action needed. Report: `wiki/reviews/2026-08-28_format-report.md`
 
-### 🔍 Hygiene Inspection — 2026-08-28 (23:31)
+### ✅ Hygiene Inspection — 2026-08-28 (23:31) — APPLIED (deferred action)
 
 - **Report:** `wiki/reviews/2026-08-28_hygiene-report.md`
 - **Summary:** 55918 paths checked (+16 so với 08-27). 2 issues: 2 ERROR. (1) `openclaw-workspace-state.json` ở KB root, LẦN 7 LIÊN TIẾP (08-22 → 08-28). Root cause ĐÃ CONFIRM trong vendor source (SKILL.md v1.21 pitfall #9): OpenClaw coi mọi thư mục chứa AGENTS.md là workspace, state path resolve CWD-relative by design → writer ghi vào KB root mỗi session bootstrap. Git-level SẠCH: untracked + `.gitignore` guard hiệu lực; disk-level orphan persists (69 bytes, mtime 08-24 10:00 — không write mới). (2) `wiki/HEARTBEAT.md` — symlink → `../../.openclaw/HEARTBEAT.md`, tái diễn lần 3 liên tiếp (08-26, 08-27, 08-28) sau khi sạch 08-25; untracked + gitignored, không vào commit. Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 6 liên tiếp; không naming violation; không empty directory.
 - **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 8 — deletion proven futile x3 (recycle < 1h nhanh nhất). KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` theo pitfall #9. Với `wiki/HEARTBEAT.md`: cần process-level fix (xác định process tạo symlink HEARTBEAT vào wiki/) trước khi xóa — file deletion là transient nếu writer còn active. Hướng dài hạn: chờ OpenClaw SQLite workspace-state refactor.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-01** — deferred (KHÔNG xóa root json lần 8, KHÔNG re-escalate). Report: `wiki/reviews/2026-08-28_hygiene-report.md`
 
 ### ✅ Format Validation — 2026-08-27 (23:15 — 2nd run) — APPLIED
 
@@ -162,7 +162,7 @@
 - **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required. Ghi nhận: `[[game-theory]]` (10 refs) + `[[deep-work]]` (5 refs) là 2 target phổ biến nhất chưa compile.
 - **Status:** approved → **applied 2026-08-28 12:16** — no action required (forward-refs). Report: `wiki/reviews/2026-08-27_format-report.md`
 
-### 🔍 Output Validation — 2026-08-27 (19:10)
+### ✅ Output Validation — 2026-08-27 (19:10) — APPLIED
 
 - **Report:** `wiki/reviews/2026-08-27_output-report.md`
 - **Summary:** 733 file checked (185 sources + 548 concepts), 9 mới (1 source + 8 concepts — gcp-ai-startup-governance cluster từ Google Cloud blog). 2 issues: 0 ERROR, 1 WARNING, 1 INFO. Batch sạch hoàn toàn về typo + link: cả 5 biến thể typo Compile Agent = 0 instances, dropped-i variant-5 grep = 0 lần thứ NĂM liên tiếp; 0 forward-refs (10 targets trong Related concepts đều đã tồn tại — kiểm tra trực tiếp); 0 truncated; frontmatter `original:` → raw/articles/ tồn tại. WARNING 1: 3/8 concept mới có Key ideas < 5 — `batch-vs-live-inference` 4, `cloud-cost-governance` 3, `secrets-management` 4 — lần đầu kể từ 08-26 có concept mới nằm trong depth-debt subset (nội dung đủ chất lượng, bullet mẹ chứa sub-list chi tiết, không phải lỗi nghiêm trọng). INFO 1: `## Notes` rỗng ở EOF 8/8 concept mới (optional section, cosmetic — precedent 08-26).

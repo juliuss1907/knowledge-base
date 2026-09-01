@@ -1,6 +1,6 @@
 # Hygiene Inspection — 2026-08-31
 
-**Status:** pending
+**Status:** approved
 **Issues found:** 8
 **Created:** 2026-08-31 23:35:07
 **Validator:** hygiene-inspector

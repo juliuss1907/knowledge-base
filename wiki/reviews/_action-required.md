@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-08-31 23:35 (Hygiene validation 08-31 — pending review)
+**Last updated:** 2026-09-01 08:47 (Hygiene validation 09-01 — pending review)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 9
+**Pending reports awaiting review:** 10
 **Last batch applied:** 9 reports (08-25/08-26/08-27) — 2026-08-27 by Connor (5 capital-I typos + 9 empty Notes removed inline; format/hygiene deferred per escalation)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-01 | Hygiene | 8 (2E+6W) | Review [wiki/reviews/2026-09-01_hygiene-report.md](2026-09-01_hygiene-report.md) — root json lần 10 + HEARTBEAT lần 6 + 6 repos naming carry-forward |
 | 🔍 PENDING | 08-31 | Format | 399 (3E+396W) | Review [wiki/reviews/2026-08-31_format-report.md](2026-08-31_format-report.md) |
 | 🔍 PENDING | 08-31 | Output | 6 (0E+3W+3I) | Review [wiki/reviews/2026-08-31_output-report.md](2026-08-31_output-report.md) |
 | 🔍 PENDING | 08-31 | Hygiene | 8 (2E+6W) | Review [wiki/reviews/2026-08-31_hygiene-report.md](2026-08-31_hygiene-report.md) |
@@ -83,6 +84,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-09-01 (08:45)
+
+- **Report:** `wiki/reviews/2026-09-01_hygiene-report.md`
+- **Summary:** 55989 paths checked (+2 so với 08-31). 8 issues: 2 ERROR, 6 WARNING — carry-forward toàn bộ từ 08-31, 0 issue mới, 0 file mới trong wiki/ kể từ 08-31. ERROR 1: `openclaw-workspace-state.json` ở KB root — LẦN 10 LIÊN TIẾP (08-22 → 09-01), root cause ĐÃ CONFIRM vendor source (SKILL.md v1.21 pitfall #9), git-level sạch (untracked + ignored), disk-level orphan persists (69B, mtime 08-24 — không write mới). ERROR 2: `wiki/HEARTBEAT.md` — symlink → `.openclaw/HEARTBEAT.md`, lần 6 liên tiếp (08-26 → 09-01), process-level leak. WARNING 3-8: 6 raw/repos files từ batch 08-30 vi phạm naming convention `<owner>_<repo>` (single slug) — [SYSTEMATIC VIOLATION] carry-forward từ 08-31, chưa có Fix Agent action. Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 9 liên tiếp; không naming violation mới; không empty directory.
+- **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 11 — deletion proven futile x3 (recycle < 1h nhanh nhất). KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` cho state json/HEARTBEAT (pitfall #9). Với 6 repos files: chờ Julius duyệt batch pending 08-31 (escalation đã nêu) — Fix Agent rename 6 files theo `<owner>_<repo>` + Ingest Agent SKILL.md cập nhật enforce rule. Hướng dài hạn: chờ OpenClaw SQLite workspace-state refactor.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-08-31
 

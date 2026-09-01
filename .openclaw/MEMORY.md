@@ -1554,3 +1554,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 0
 - Errors: 0
 - Invalid tags flagged: 0
+
+## 2026-09-01 09:04 — Heartbeat ✅
+- Raw: 0 unprocessed, không backlog
+- CompileAgent chạy sáng nay: 16 concept + 1 source mới (src_impeccable, batch 08-30) — concepts 567→583, sources 195→196
+- Concepts 583, sources 196, tag 25, topic 231, drafts 8
+- Pending Hermes: 10 report (08-28 → 09-01) chưa review
+- Hygiene 09-01: root orphan json lần 10 + wiki/HEARTBEAT.md leak — ghi nhận, chờ process-level fix, KHÔNG xóa

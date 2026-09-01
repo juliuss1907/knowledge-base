@@ -13,7 +13,7 @@
 | wiki/sources | 195 | Giữ nguyên |
 | wiki/tag | 25 | Giữ nguyên |
 | wiki/topic | 231 | Tăng từ 219 do Index Agent rebuild full (21:00) — 12 topics mới |
-| Pending reviews | 🔍 9 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) + 08-31 (Format/Output/Hygiene) — chờ Julius duyệt |
+| Pending reviews | 🔍 10 pending | 08-28 (Format + Hygiene) + 08-29 (Format/Output/Hygiene) + 08-30 (Format) + 08-31 (Format/Output/Hygiene) + 09-01 (Hygiene) — chờ Julius duyệt |
 
 ## Notes
 
@@ -28,6 +28,7 @@
 
 | Time | Status | Notes |
 |------|--------|-------|
+| 2026-09-01 09:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 0 raw backlog. CompileAgent 08:00 xử lý batch raw/repos/08-30 → src_impeccable.md + 16 concepts. 10 pending reviews (thêm Hygiene 09-01). 6 repos naming violation vẫn chờ Fix Agent. |
 | 2026-09-01 08:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 0 raw backlog. 9 pending reviews giữ nguyên (chờ Julius). 6 repos naming violation vẫn chờ Fix Agent. CompileAgent sẽ chạy 08:00 — chưa có raw mới chưa xử lý. |
 | 2026-09-01 05:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 9 pending reviews giữ nguyên. Không có compile mới qua đêm. 6 repos naming violation vẫn chờ Fix Agent. |
 | 2026-08-31 23:32 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231. 8 pending reviews (thêm Format+Output 08-31). |

@@ -37,5 +37,3 @@ Context database là hệ thống lưu trữ chuyên dụng cho AI agents, quả
 ## Sources
 
 - [[src_openviking]]
-
-## Notes

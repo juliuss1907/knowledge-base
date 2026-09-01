@@ -33,5 +33,3 @@ UI component library là tập hợp các component giao diện dùng lại đư
 ## Sources
 
 - [[src_threeui]]
-
-## Notes

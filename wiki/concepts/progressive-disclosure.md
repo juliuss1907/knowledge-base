@@ -32,5 +32,3 @@ Progressive disclosure là kỹ thuật tổ chức nội dung thành nhiều t�
 ## Sources
 
 - [[src_openviking]]
-
-## Notes

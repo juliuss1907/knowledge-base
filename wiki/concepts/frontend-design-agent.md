@@ -34,5 +34,3 @@ Frontend design agent là pattern dùng AI coding agent làm công cụ thiết 
 ## Sources
 
 - [[src_impeccable]]
-
-## Notes

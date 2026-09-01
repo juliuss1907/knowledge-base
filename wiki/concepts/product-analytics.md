@@ -32,5 +32,3 @@ Product analytics là bộ công cụ và phương pháp đo lường, phân tí
 ## Sources
 
 - [[src_posthog]]
-
-## Notes

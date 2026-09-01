@@ -23,7 +23,7 @@ author: juliuss1907
 
 Impeccable là design guidance dành cho AI coding agents — 1 skill, 23 commands, live browser iteration, và 59 deterministic detector rules để cải thiện thiết kế frontend do AI tạo ra. Khởi đầu từ Anthropic's frontend-design skill, Impeccable giải quyết vấn đề "mọi model trained trên cùng SaaS templates" dẫn đến cùng những dấu hiệu nhận diện (Inter cho mọi thứ, gradient tím-xanh, cards lồng cards, text xám trên nền màu). Nó thêm một setup flow (`/impeccable init` viết PRODUCT.md và DESIGN.md), 23 commands chia sẻ design vocabulary với AI, và 59 deterministic detector rules chạy không cần LLM hay API key. Hỗ trợ nhiều nền tảng: Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, Grok Build.
 
-## Key ideas
+## Key points
 
 - **23 commands:** craft, init, document, extract, shape, critique, audit, polish, bolder, quieter, distill, harden, onboard, animate, colorize, typeset, layout, delight, overdrive, clarify, adapt, optimize, live
 - **59 deterministic detector rules:** CLI + browser extension chạy rules không cần LLM và không cần API key; LLM-only critique checks bổ sung

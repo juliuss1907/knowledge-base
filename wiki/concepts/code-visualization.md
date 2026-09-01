@@ -20,7 +20,7 @@ Code visualization là việc chuyển đổi codebase hoặc mô tả hệ th�
 - **5 loại diagram:** Architecture · Workflow · Sequence · Data Flow · Lifecycle — mỗi loại có prompt guidance riêng
 - **Agent-produced visualization:** Agent phân tích rồi tạo IR, không cần repository (mô tả trực tiếp cũng được)
 - **Truthful interaction:** Search nodes, upstream/downstream reach, route trace, role compare, stories — đều grounded trong authored nodes
-- **Interactive** : Focus với `/`, trace route `R`, radar map `M`, guided story `P`, presentation stage `F`
+- **Interactive**: Focus với `/`, trace route `R`, radar map `M`, guided story `P`, presentation stage `F`
 - **Stable deep links:** `#focus=id`, `#route=src~tgt`, `#lens=kind~kind` restore trạng thái xem
 - **Share cards:** 1200×630 canonical image cho README/release/social
 
@@ -33,5 +33,3 @@ Code visualization là việc chuyển đổi codebase hoặc mô tả hệ th�
 ## Sources
 
 - [[src_archify]]
-
-## Notes

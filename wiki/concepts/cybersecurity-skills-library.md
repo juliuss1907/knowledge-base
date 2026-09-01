@@ -36,5 +36,3 @@ Cybersecurity skills library là tập hợp các skills có cấu trúc, mã h�
 ## Sources
 
 - [[src_anthropic-cybersecurity-skills]]
-
-## Notes

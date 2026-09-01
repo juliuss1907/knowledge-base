@@ -35,5 +35,3 @@ AI frontend design guidance là bộ công cụ và quy tắc giúp AI coding ag
 ## Sources
 
 - [[src_impeccable]]
-
-## Notes

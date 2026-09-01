@@ -35,5 +35,4 @@ Phân biệt giữa prototype (bản demo, bản nháp) và product (sản phẩ
 ## Sources
 
 - [[src_what-is-a-product]]
-
-## Notes
+- [[src_how-i-design-with-ai]]

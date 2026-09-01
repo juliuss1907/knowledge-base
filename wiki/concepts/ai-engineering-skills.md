@@ -23,7 +23,6 @@ AI Engineering Skills là bộ 4 kỹ năng cốt lõi Andrew Ng xác định qu
 - **4 kỹ năng chính:** Building & deploying AI apps (LLM, context engineering, RAG, agentic workflows + evals/error analysis) · Software engineering fundamentals (nhận ra tradeoffs cost/scale/reliability/speed) · Using coding agents (steer, context management, verifiers) · Shaping the build (product sense, quyết định spec)
 - **AI engineering ≠ AI Engineer role:** toàn bộ developer — full-stack, data, DevOps, ML — đều cần, như cloud skills ngày nay
 - **Output bất định là gốc của mọi kỹ năng:** không đoán trước LLM trả gì → build AI là quá trình iterative, kỹ năng quyết định "làm gì tiếp theo" dựa trên intermediate results
-- **Vibe coding thiếu fundamentals = poor tradeoffs:** developer không biết tradeoff nào tồn tại sẽ không biết cung cấp context gì cho coding agent → agent ra quyết định kém; fundamentals cho phép steer agent bằng "precise language of software engineering"
 - **Coding agent skill:** mental model về agent, biết khi nào can thiệp/khi nào buông, quản lý context, cân bằng planning vs execution, cung cấp verifiers/evals để agent tự close loop, orchestrate multi-agent, tránh pitfall (agent hỏng production DB)
 - **Shaping the build:** agent giỏi deliver theo spec → giá trị engineer dịch chuyển sang định hình spec: product sense, business context, customer goals; biết khi nào MVP nhanh khi nào build chậm cho chắc
 - **Ownership & agency:** AI mở cơ hội tự nhận diện problem đáng làm và tự drive project — không chờ được giao design pixel-perfect để implement
@@ -51,5 +50,5 @@ AI Engineering Skills là bộ 4 kỹ năng cốt lõi Andrew Ng xác định qu
 
 - [[src_ai-engineering-skills-map]] — Andrew Ng, X 2026-08-14 (part 1: 4 kỹ năng tổng quan)
 - [[src_ai-skills-map-building-deploying-ai-apps]] — Andrew Ng, X 2026-08-21 (part 2: chi tiết 6 mảng của skill #1)
-
-## Notes
+- [[src_ai-engineering-skills-map-software-engineering-fundamentals]] — Andrew Ng, The Batch 2026-08-30 (part 3: software engineering fundamentals)
+- [[src_ai-engineering-skills-map-building-deploying-ai-applications]] — Andrew Ng, The Batch 2026-08-30 (part 2: building and deploying AI applications)

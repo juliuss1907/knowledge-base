@@ -37,6 +37,4 @@ Taste/Judgment là khả năng phân biệt tốt-dở trong một domain cụ t
 ## Sources
 
 - [[src_3-tang-skill-dang-hoc]]
-
-## Notes
-
+- [[src_how-i-design-with-ai]]

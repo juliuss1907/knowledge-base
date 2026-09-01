@@ -35,5 +35,3 @@ Architecture as code là phương pháp biểu diễn kiến trúc hệ thống 
 ## Sources
 
 - [[src_archify]]
-
-## Notes

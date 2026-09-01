@@ -32,5 +32,3 @@ Self-driving products là mô hình sản phẩm tự chủ động chẩn đoá
 ## Sources
 
 - [[src_posthog]]
-
-## Notes

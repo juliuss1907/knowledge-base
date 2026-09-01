@@ -34,5 +34,3 @@ AI security tools là bộ công cụ và skills giúp AI agents thực hiện c
 ## Sources
 
 - [[src_anthropic-cybersecurity-skills]]
-
-## Notes

@@ -32,5 +32,3 @@ Design system là bộ quy chuẩn thống nhất về components, tokens, patte
 ## Sources
 
 - [[src_threeui]]
-
-## Notes

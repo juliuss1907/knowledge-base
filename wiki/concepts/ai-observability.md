@@ -32,5 +32,3 @@ AI observability là bộ công cụ và phương pháp theo dõi, đo lường 
 ## Sources
 
 - [[src_posthog]]
-
-## Notes

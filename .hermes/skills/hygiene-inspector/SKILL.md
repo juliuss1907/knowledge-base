@@ -1,8 +1,8 @@
 ---
 name: hygiene-inspector
 description: Validates knowledge base folder structure against folder-structure.md whitelist. Read-only validator.
-version: 1.23
-last_updated: 2026-08-28
+version: 1.25
+last_updated: 2026-09-01
 ---
 
 # Hygiene Inspector
@@ -359,6 +359,8 @@ Likely cause: Drafts not being reviewed
 Recommendation: Archive or delete old drafts
 ```
 
+**⚠️ Carry-forward rule — do NOT re-escalate an issue already escalated in a still-pending report (2026-09-01).** When a `[SYSTEMATIC VIOLATION]` was already raised in a prior report that is still `pending` (not yet approved/applied), the next run's report must mark it `CARRIED FORWARD from <date>`, note that no Fix Agent action has happened yet, and reference the original escalation — NOT emit a fresh `[SYSTEMATIC VIOLATION]` block. Proven 2026-09-01: the 6 `raw/repos/` naming violations were escalated 08-31 and correctly carried forward on 09-01 instead of re-escalated. This keeps the escalation log a list of *distinct* process problems, not one entry per run for the same unresolved issue.
+
 ### Folder-structure.md conflict
 ```
 [SPEC CONFLICT]
@@ -461,6 +463,16 @@ After successful validation run:
 
 When invoked as a scheduled cron job, `execute_code` is blocked by `approvals.cron_mode: deny`. **Do not attempt `execute_code`.**
 
+**⚠️ Pitfall: a cron retry may be DAYS later — check `date` and reconcile pending reports before assuming a same-day [SILENT] re-run (2026-09-01).** When a Hygiene cron job fails (e.g. provider rate limit at 23:30) and the user later asks to "run hygiene again", do NOT assume it is the same day. Real time may have advanced multiple days: sibling Output/Format crons and Fix Agent will have run in the interim, producing a backlog of pending reports. Proven 2026-09-01: user asked to re-run the 08-27 job; it was actually 5 days later with 9 pending reports (08-28 → 08-31) and a new systemic `raw/repos/` naming violation already escalated on 08-31. An initial same-day [SILENT] reading was WRONG — the correct action was a fresh report dated today. Before writing any report:
+1. `date` — get the real system date (the conversation/session date may be stale)
+2. `ls -t wiki/reviews/*_hygiene-report.md | head` — find the most recent report
+3. `grep -n 'Pending reports awaiting review' wiki/reviews/_action-required.md` — check the pending backlog
+4. `find wiki/sources wiki/concepts wiki/topic wiki/tag -name '*.md' -newer <last-report>` AND `find raw/ -name '*.md' -newer <last-report>` — see what actually changed (include raw/, see next pitfall)
+
+If the last report is from a prior day and pending entries exist, this is a **FRESH run for today's date** producing a new pending report — not a silent re-run.
+
+**⚠️ Pitfall: new-file detection must include `raw/` — the scanner covers the whole tree (2026-09-01).** `find -newer <last-report> -- wiki/sources wiki/concepts wiki/topic wiki/tag` alone is INSUFFICIENT to decide [SILENT] vs fresh: raw/ can receive new content (e.g. an ingest batch) that the hygiene scanner flags while wiki/ is untouched. Proven 2026-09-01: reported "0 new files" from a wiki/-only `find -newer`, yet the fresh scan surfaced 6 `raw/repos/` naming WARNINGs from an 08-30 ingest batch (files landed in raw/, never touched wiki/). New-file checks for hygiene must include `raw/` (all subtypes) or use git `--diff-filter=A` reconciliation across the whole tree.
+
 **Workaround:**
 1. Write the scan script to a temp file via `write_file` (e.g., `/tmp/hygiene_scan.py`)
 2. Run it via `terminal` with `python3 /tmp/hygiene_scan.py`
@@ -528,6 +540,9 @@ Beyond the standard whitelist, watch for these recurring naming violations in `w
 
 In `wiki/drafts/`:
 - Underscores (`analysis_2026-advice.md`) → hyphens (`analysis-2026-advice.md`)
+
+In `raw/repos/`:
+- Repos use `YYYY-MM-DD_<owner>_<repo>.md` (two slug segments separated by underscore). Single-slug `2026-08-30_<repo>.md` is a naming violation → flagged WARNING by `RE_RAW_REPOS` pattern in scan-script.py. Systemic batch occurrence (6/6 files on 2026-08-30) → escalate `[SYSTEMATIC VIOLATION]` and have Ingest Agent SKILL.md enforce the `<owner>_<repo>` two-segment rule. Precedent: `2026-06-27_aiskilloftheweek_personal-mba-generator-skill.md` — correctly uses 2-segment format.
 
 ---
 
@@ -645,7 +660,8 @@ If systematic violations found, review agent SKILL.md files and update to match 
 
 | Version | Date | Changes |
 |---|---|---|
-| 1.24 | 2026-08-29 | Documented recurrence of the SYSTEMATIC-VIOLATION no-re-escalation check (pitfall from 1.22) on a real cron run: the bare `"[SYSTEMATIC VIOLATION]" not in sec_txt` assertion FAILED even when scoped to the new section, because the section's own Actions-needed line quotes the marker in backticks (`KHÔNG re-escalate \`[SYSTEMATIC VIOLATION]\``). Added the proven known-good snippet to the pitfall body: assert the escalation SHAPE (`"[SYSTEMATIC VIOLATION] Root-cause" not in sec`) plus the backtick-stripped bare-marker check; the corrected rerun passed 23/23. Also refreshed `references/scan-script.py` ROOT_ORPHAN_MAP text (7th → 8th consecutive run for openclaw-workspace-state.json, 08-22 → 08-29) and `references/common-patterns.md` with the 08-29 recurrence record. |
+| 1.25 | 2026-09-01 | Three lessons from the 09-01 run. (1) Added cron-retry pitfall: a "run hygiene again" after a rate-limit cron failure may be DAYS later — check `date`, reconcile pending reports, and produce a FRESH report for today instead of a same-day [SILENT] re-run (initial reading was wrong; 5-day gap, 9 pending reports). (2) New-file detection must include `raw/` — the scanner covers the whole tree; a wiki/-only `find -newer` missed 6 `raw/repos/` naming WARNINGs from an 08-30 ingest batch. (3) Escalation carry-forward rule: an issue already escalated in a still-pending report is marked `CARRIED FORWARD`, never re-escalated fresh. Also documented the `raw/repos/` `YYYY-MM-DD_<owner>_<repo>.md` two-segment naming convention in Common non-compliant patterns. |
+| 1.24 | 2026-08-29 | Documented recurrence of the SYSTEMATIC-VIOLATION no-re-escalation check (pitfall from 1.22) on a real cron run: the bare `"[SYSTEMATIC VIOLATION]" not in sec_txt` assertion FAILED even when scoped to the new section, because the section's own Actions-needed line quotes the marker in backticks (`KHÔNG re-escalate `[SYSTEMATIC VIOLATION]``). Added the proven known-good snippet to the pitfall body: assert the escalation SHAPE (`"[SYSTEMATIC VIOLATION] Root-cause" not in sec`) plus the backtick-stripped bare-marker check; the corrected rerun passed 23/23. Also refreshed `references/scan-script.py` ROOT_ORPHAN_MAP text (7th → 8th consecutive run for openclaw-workspace-state.json, 08-22 → 08-29) and `references/common-patterns.md` with the 08-29 recurrence record. |
 | 1.23 | 2026-08-28 | Added cron verify-script pitfall #11 — backtick-wrapped paths in `_action-required.md` prose (`` `memory/` ``) break exact-string matches: the closing backtick sits between the path and the next word, so `"memory/ vắng mặt" in action_txt` FAILs. Proven on the 08-28 run (2 spurious FAILs, content byte-correct). Check bare path + context word SEPARATELY, scoped to the new section. Corollary: grep the RAW artifact FIRST before touching anything under `wiki/`. Also refreshed `references/scan-script.py` `ROOT_ORPHAN_MAP` text for `openclaw-workspace-state.json` (was "3rd consecutive run 08-24", now 7th through 08-28). |
 | 1.22 | 2026-08-25 | Added pitfall #10 — verify-script `field()` helpers must receive PLAIN labels (`"**Status"`, colon INSIDE the helper pattern: `re.escape(label) + r":\*{0,2}\s*(.+)"`). Pre-escaped labels double-escape (proven 08-24); labels without the embedded colon miss the bold-wrapped value entirely even when correctly escaped (proven 08-25, 4 spurious FAILs on a correct report — raw artifact grep confirmed report was right before editing anything). Also: when asserting historical text in `_action-required.md` stays untouched, scope the assertion to the NEW section and count pre-existing `[SYSTEMATIC VIOLATION]` mentions exactly (2 APPLIED entries + N backticked references in new guidance) instead of asserting zero/absence. |
 | 1.21 | 2026-08-25 | Added pitfall #9 — `openclaw-workspace-state.json` root leak ROOT CAUSE CONFIRMED in vendor source (OpenClaw treats any dir with `AGENTS.md` as workspace; state path is CWD-relative by design). Repo level solved via git rm + .gitignore guard (08-25); disk-level recurrence expected until upstream SQLite refactor. Do NOT re-escalate `[SYSTEMATIC VIOLATION]` or recommend deletion-only fixes for this file — reference pitfall #9 instead. |

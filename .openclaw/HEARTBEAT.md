@@ -8,17 +8,17 @@
 
 | Check | Status | Details |
 |-------|--------|---------|
-| Raw backlog | 0 — compile 08:00 đã xử lý | `raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md` → `src_google-cloud-agent-sandbox-runtimes.md` + 4 concepts mới (agent-sandbox-runtimes, isolation-spectrum, network-egress-default-deny, sandbox-state-forking) |
-| wiki/concepts | 571 (+4) | CompileAgent 08:00: 1 source mới + 4 concepts mới |
-| wiki/sources | 196 (+1) | — |
+| Raw backlog | 0 | Không có raw file nào unprocessed |
+| wiki/concepts | 571 | Giữ nguyên từ 09:00 |
+| wiki/sources | 196 | Giữ nguyên |
 | wiki/tag | 25 | Giữ nguyên |
 | wiki/topic | 231 | Giữ nguyên |
-| Pending reviews | ⏳ 1 pending | Format report 09-01 (396W, 0E) — chờ Julius review. Không phải backlog, all forward-refs. |
+| Pending reviews | ⏳ 1 pending | Format report 09-01 (396W, 0E) — chờ Julius review. All forward-refs, không có ERROR. |
 
 ## Notes
 
-1. CompileAgent 08:00 hôm nay đã xử lý raw backlog cuối cùng → 4 concepts mới (agent-sandbox-runtimes, isolation-spectrum, network-egress-default-deny, sandbox-state-forking) + 1 source mới. 0 raw unprocessed.
-2. Có 1 pending Hermes format report (09-01, 396W/0E) chờ Julius review — không có ERROR mới, all forward-refs sẽ tự resolve khi CompileAgent xử lý thêm raw.
+1. CompileAgent 08:00 hôm nay đã chạy xong — 4 concepts mới (agent-sandbox-runtimes, isolation-spectrum, network-egress-default-deny, sandbox-state-forking) + 1 source mới. 0 raw unprocessed.
+2. 1 pending Hermes format report (09-01, 396W/0E) chờ Julius review — không có ERROR mới.
 3. [Known issue] Root json + wiki/HEARTBEAT.md symlink vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
 4. [Violation] 6 repos files từ batch 08-30 vi phạm naming convention — chờ Fix Agent rename.
 
@@ -51,3 +51,4 @@
 | 2026-09-02 03:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. Raw backlog: 1 (~10h old, <24h — chờ compile 08:00). Pending review: 1 (Format 09-01, 396W/0E). Backlink OK (query-fan-out, bottlenecks-mental-model). Known issues giữ nguyên. Disk 19%, uptime 11w1d. |
 | 2026-09-02 03:31 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. Raw backlog: 1 (raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md, ingest 17:09 hôm qua, ~10h old <24h — chờ compile 08:00). Pending review: 1 (Format 09-01, 396W/0E — chờ Julius, all forward-refs). Backlink OK (content-repurposing-system, evolutionary-mismatch, taste-holders — đủ sources refs). memory/+state/ absent. Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). Disk 19%, uptime 78d. |
 | 2026-09-02 04:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. Raw backlog: 1 (raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md, ~11h old <24h — chờ compile 08:00). Pending review: 1 (Format 09-01, 396W/0E — chờ Julius, all forward-refs). Backlink OK (code-as-substrate→src_code-as-agent-harness, alpaca-api→src_build-ai-trading-agent — đủ sources refs). memory/+state/ absent. Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). Disk 19%, uptime 78d. |
+| 2026-09-02 12:00 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. 1 pending review (Format 09-01, 396W/0E). Backlink OK (571/571 concepts có sources). Memory/+state/ absent. Known issues giữ nguyên (root json + symlink + 6 repos naming). Disk 19%, uptime 78d21h. |

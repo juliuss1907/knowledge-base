@@ -8,20 +8,19 @@
 
 | Check | Status | Details |
 |-------|--------|---------|
-| Raw backlog | 1 file mới chưa processed | `raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md` (ingested hôm nay, <24h — trong chu kỳ bình thường). CompileAgent xử lý 08:00 mai. |
-| wiki/concepts | 567 | Giữ nguyên |
-| wiki/sources | 195 | Giữ nguyên |
+| Raw backlog | 0 — compile 08:00 đã xử lý | `raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md` → `src_google-cloud-agent-sandbox-runtimes.md` + 4 concepts mới (agent-sandbox-runtimes, isolation-spectrum, network-egress-default-deny, sandbox-state-forking) |
+| wiki/concepts | 571 (+4) | CompileAgent 08:00: 1 source mới + 4 concepts mới |
+| wiki/sources | 196 (+1) | — |
 | wiki/tag | 25 | Giữ nguyên |
 | wiki/topic | 231 | Giữ nguyên |
 | Pending reviews | ⏳ 1 pending | Format report 09-01 (396W, 0E) — chờ Julius review. Không phải backlog, all forward-refs. |
 
 ## Notes
 
-1. Có 1 pending Hermes format report (09-01, 396W/0E) chờ Julius review — không có ERROR mới, all forward-refs sẽ tự resolve khi CompileAgent xử lý thêm raw.
-2. Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16 — không đổi so với 00:00.
-3. [Known issue] Root json `openclaw-workspace-state.json` (69 bytes, mtime 08-24) + `wiki/HEARTBEAT.md` symlink → `.openclaw/HEARTBEAT.md` vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
-4. [Violation] 6 repos files từ batch 08-30 vi phạm naming convention: thiếu owner segment (folder-structure.md §6). Chờ Fix Agent rename.
-5. 2 concepts random-check backlink đủ (systems-thinking-limitations, hindsight-skill) — hệ thống ổn định.
+1. CompileAgent 08:00 hôm nay đã xử lý raw backlog cuối cùng → 4 concepts mới (agent-sandbox-runtimes, isolation-spectrum, network-egress-default-deny, sandbox-state-forking) + 1 source mới. 0 raw unprocessed.
+2. Có 1 pending Hermes format report (09-01, 396W/0E) chờ Julius review — không có ERROR mới, all forward-refs sẽ tự resolve khi CompileAgent xử lý thêm raw.
+3. [Known issue] Root json + wiki/HEARTBEAT.md symlink vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
+4. [Violation] 6 repos files từ batch 08-30 vi phạm naming convention — chờ Fix Agent rename.
 
 ---
 

@@ -28,6 +28,7 @@
 
 | Time | Status | Notes |
 |------|--------|-------|
+| 2026-09-02 09:00 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. ⚠️ Phát hiện + đã fix: raw/posts/google-cloud-agent-sandbox-runtimes đã được compile 08:00 (src + 4 concepts tồn tại) nhưng status vẫn `unprocessed` — đã sửa thành `processed` + `processed_date: 2026-09-02` để tránh re-compile 08:00 mai. Backlink OK (4 concepts mới đều link src). 1 pending review: Format 09-01 (396W/0E) chờ Julius. Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). memory/+state/ absent. Disk 19%, uptime 78d18h. |
 | 2026-09-02 00:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 1 raw mới: posts/google-cloud-agent-sandbox-runtimes (ingested 17:09 hôm qua, chờ compile 08:00). 1 pending review: Format 09-01 (396W/0E) chờ Julius. Backlink OK. Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). memory/+state/ absent. Disk 19%, uptime 11w1d. |
 | 2026-09-01 18:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 1 raw mới: posts/google-cloud-agent-sandbox-runtimes (ingested hôm nay, chờ compile 08:00 mai). 0 pending reviews. Backlink OK (zero-sum-game, philosopher-syndrome). Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). |
 | 2026-09-01 14:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 0 raw backlog. 0 pending reviews (batch 10 applied sáng nay). Concept backlink OK. System ổn định — uptime 77d+. |

@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-02 23:09 (Output validation)
+**Last updated:** 2026-09-02 23:16 (Format validation)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 10 reports (08-28→09-01) — 2026-09-01 by Connor (approved all; hầu hết fix đã được Fix Agent xử lý trước đó; 2 slug + 6 repos rename deferred — Fix Agent)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-02 | Format | 398 (0E+398W) | Review [wiki/reviews/2026-09-02_format-report.md](2026-09-02_format-report.md) |
 | 🔍 PENDING | 09-02 | Output | 1 (0E+1W+0I) | Review [wiki/reviews/2026-09-02_output-report.md](2026-09-02_output-report.md) |
 | 🔍 PENDING | 09-01 | Format | 396 (0E+396W) | Review [wiki/reviews/2026-09-01_format-report.md](2026-09-01_format-report.md) |
 | ✅ APPLIED | 09-01 | Hygiene | 8 (2E+6W) | Applied 2026-09-01 — deferred (root json lần 10 + HEARTBEAT lần 6): KHÔNG xóa, chờ process-level fix; 6 repos naming deferred Fix Agent |
@@ -86,6 +87,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-02
+
+- **Report:** `wiki/reviews/2026-09-02_format-report.md`
+- **Summary:** 1032 files checked (571 concepts + 196 sources + 34 indexes + 231 topics). 398 issues: **0 ERROR, 398 WARNING**. **Clean ERROR streak continues (day 2 at 0)** — no structural violations, no naming errors, no YAML issues. **KB grew +5 files** (compiled 08:04 — Google Cloud agent-sandbox cluster: 4 concepts `agent-sandbox-runtimes`, `isolation-spectrum`, `sandbox-state-forking`, `network-egress-default-deny` + 1 source `src_google-cloud-agent-sandbox-runtimes`; this is the raw file flagged uncompiled in 09-01, now compiled). All 5 pass format compliance cleanly. **+2 WARNINGs** — both are `[[prompt-injection]]` forward-references in new concepts (`agent-sandbox-runtimes` + `network-egress-default-deny`); target has no concept/source/raw anywhere in KB = forward-ref with no natural resolution path (exactly Output Validator 09-02 WARNING 1). Unique broken targets 270→271 (+1, `prompt-injection` enters pool at 2 refs), individual broken 377→379 (+2), forward-ref groups 19→19 (flat), Top-20 identical to 09-01. No new escalations.
+- **Actions needed:** None required — the +2 WARNINGs are forward-refs with no source to resolve naturally; per Output Validator recommendation, compile a `prompt-injection` concept when a suitable source arrives, or Fix Agent may drop the 2 links. The 379 existing forward-ref WARNINGs resolve naturally as Compile Agent processes raw files. No structural fixes needed.
+- **Status:** ⏳ pending
 
 ### 🔍 Output Validation — 2026-09-02 (23:09)
 
@@ -301,4 +309,4 @@
 
 _Archive đầy đủ tại `wiki/reviews/archive/`. Bảng Summary phía trên là bản ghi chính thức của tất cả reports đã apply._
 
-Previous reports (08-05 through 08-28) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.
+Previous reports (08-05 through 09-01) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.

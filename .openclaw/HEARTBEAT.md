@@ -20,7 +20,7 @@
 1. CompileAgent 08:00 hôm nay đã chạy xong — 4 concepts mới (agent-sandbox-runtimes, isolation-spectrum, network-egress-default-deny, sandbox-state-forking) + 1 source mới. 0 raw unprocessed.
 2. 1 pending Hermes format report (09-01, 396W/0E) chờ Julius review — không có ERROR mới.
 3. [Known issue] Root json + wiki/HEARTBEAT.md symlink vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
-4. [Violation] 6 repos files từ batch 08-30 vi phạm naming convention — chờ Fix Agent rename.
+4. [RESOLVED] 6 repos files từ batch 08-30 đã được Fix Agent rename đúng `<owner>_<repo>` (commit 09-01) — naming violation đã xử lý xong.
 
 ---
 
@@ -28,7 +28,8 @@
 
 | Time | Status | Notes |
 |------|--------|-------|
-| 2026-09-02 13:30 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. 1 pending review (Format 09-01, 396W/0E — chờ Julius, all forward-refs, không ERROR). 571/571 concepts có sources. memory/+state/ absent. Known issues giữ nguyên (root json lần 11 + symlink + 6 repos naming). Disk 19%, uptime 78d22h. |
+| 2026-09-02 16:30 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. 1 pending review (Format 09-01, 396W/0E — chờ Julius, all forward-refs, không ERROR). 571/571 concepts có sources. memory/+state/ absent. ✅ RESOLVED: 6 repos naming violation đã rename `<owner>_<repo>` (commit 09-01) — hết violation. Known issues còn lại: root json lần 11 + symlink (không xóa, chờ SQLite refactor). Backlink OK (4 concepts sandbox đều link src_google-cloud-agent-sandbox-runtimes). Disk 19%, uptime 11w2d1h. |
+| 2026-09-02 13:30 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. 1 pending review (Format 09-01, 396W/0E — chờ Julius, all forward-refs, không ERROR). 571/571 concepts có sources. memory/+state/ absent. Known issues còn lại: root json lần 11 + symlink (không xóa, chờ SQLite refactor). Disk 19%, uptime 78d22h. |
 | 2026-09-02 09:00 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. ⚠️ Phát hiện + đã fix: raw/posts/google-cloud-agent-sandbox-runtimes đã được compile 08:00 (src + 4 concepts tồn tại) nhưng status vẫn `unprocessed` — đã sửa thành `processed` + `processed_date: 2026-09-02` để tránh re-compile 08:00 mai. Backlink OK (4 concepts mới đều link src). 1 pending review: Format 09-01 (396W/0E) chờ Julius. Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). memory/+state/ absent. Disk 19%, uptime 78d18h. |
 | 2026-09-02 00:30 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 1 raw mới: posts/google-cloud-agent-sandbox-runtimes (ingested 17:09 hôm qua, chờ compile 08:00). 1 pending review: Format 09-01 (396W/0E) chờ Julius. Backlink OK. Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). memory/+state/ absent. Disk 19%, uptime 11w1d. |
 | 2026-09-01 18:00 | ✅ OK | Counts: concepts 567, sources 195, tag 25, topic 231, drafts 16. 1 raw mới: posts/google-cloud-agent-sandbox-runtimes (ingested hôm nay, chờ compile 08:00 mai). 0 pending reviews. Backlink OK (zero-sum-game, philosopher-syndrome). Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink + 6 repos naming). |

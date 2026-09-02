@@ -4,19 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-02 23:16 (Format validation)
+**Last updated:** 2026-09-02 23:36 (Hygiene inspection)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 10 reports (08-28→09-01) — 2026-09-01 by Connor (approved all; hầu hết fix đã được Fix Agent xử lý trước đó; 2 slug + 6 repos rename deferred — Fix Agent)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-02 | Format | 398 (0E+398W) | Review [wiki/reviews/2026-09-02_format-report.md](2026-09-02_format-report.md) |
 | 🔍 PENDING | 09-02 | Output | 1 (0E+1W+0I) | Review [wiki/reviews/2026-09-02_output-report.md](2026-09-02_output-report.md) |
+| 🔍 PENDING | 09-02 | Hygiene | 12 (2E+10W) | Review [wiki/reviews/2026-09-02_hygiene-report.md](2026-09-02_hygiene-report.md) |
 | 🔍 PENDING | 09-01 | Format | 396 (0E+396W) | Review [wiki/reviews/2026-09-01_format-report.md](2026-09-01_format-report.md) |
 | ✅ APPLIED | 09-01 | Hygiene | 8 (2E+6W) | Applied 2026-09-01 — deferred (root json lần 10 + HEARTBEAT lần 6): KHÔNG xóa, chờ process-level fix; 6 repos naming deferred Fix Agent |
 | ✅ APPLIED | 08-31 | Format | 399 (3E+396W) | Applied 2026-09-01 — ERROR 3 key points fixed (src_impeccable); ERROR 1-2 slug rename deferred (Fix Agent: 2 slug >50 chars); [SPEC CONFLICT] closed (24 tag files re-quoted) |
@@ -107,6 +108,13 @@
 - **Report:** `wiki/reviews/2026-09-01_format-report.md`
 - **Summary:** 1027 files checked (567 concepts + 195 sources + 34 indexes + 231 topics). 396 issues: **0 ERROR, 396 WARNING**. **Clean ERROR streak RESTORED** — the 3 ERRORs from 08-31 were all resolved by Fix Agent (2 slug renames: `src_ai-engineering-skills-map-building-deploying-ai-applications`→`src_ai-eng-skills-map-building-deploying` + `src_ai-engineering-skills-map-software-engineering-fundamentals`→`src_ai-eng-skills-map-se-fundamentals`; `src_impeccable.md` missing `## Key points` added). **0 new wiki files** (git A-count = 0 — no compilation today). 1 new raw file ingested but uncompiled (`raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md`). WARNING backlog exactly flat: 396→396, 377 individual broken, 19 forward-ref groups, 270 unique broken targets (day 2), Top-20 identical to 08-31. No structural violations, no new ERRORs. Total −3 (399→396) entirely from ERROR resolution.
 - **Actions needed:** None — the 396 forward-ref WARNINGs resolve naturally when Compile Agent processes the 1 uncompiled raw file. No Fix Agent action required. No ERRORs to fix.
+- **Status:** ⏳ pending
+
+### 🔍 Hygiene Inspection — 2026-09-02 (23:36)
+
+- **Report:** `wiki/reviews/2026-09-02_hygiene-report.md`
+- **Summary:** 56011 paths checked (+22 so với 09-01). 12 issues: 2 ERROR, 10 WARNING. **repos naming [SYSTEMATIC VIOLATION] 08-31 → RESOLVED** — cả 6 raw/repos files đã được Fix Agent rename thêm owner segment 09-01 09:57 (git commit `2ba955d1`): 4/6 compliant hoàn toàn; còn 2 file residual uppercase owner (`MengTo_threeui` + `PostHog_posthog`) — WARNING (lowercase yêu cầu folder-structure §8). ERROR 1-2: carry-forward — `openclaw-workspace-state.json` LẦN 11 LIÊN TIẾP (08-22→09-02, 69B mtime 08-24, git sạch), `wiki/HEARTBEAT.md` LẦN 7 LIÊN TIẾP (08-26→09-02, symlink, process leak). **MỚI [SYSTEMATIC VIOLATION]**: 8 file `*-backup-2026-09-01.md` trong `wiki/drafts/` (Fix Agent tạo 09:57 ngày 09-01 làm backup khi rename) — vi phạm draft naming (date-prefix + underscore + `-backup-` suffix; 2 file dùng `src_` prefix). Tin tốt: `memory/`+`state/` vắng mặt chạy sạch thứ 10 liên tiếp; 0 empty dir; 0 INFO.
+- **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 12 (pitfall #9). KHÔNG re-escalate 2 orphan đã biết. Fix Agent: (1) rename 2 repos file uppercase owner → lowercase; (2) dọn 8 file backup trong `wiki/drafts/` (archive/sau khi xác nhận rename thành công) + cập nhật Fix Agent SKILL.md backup-naming (đặt backup ngoài wiki/drafts/ hoặc dọn sau rename).
 - **Status:** ⏳ pending
 
 ### ✅ Hygiene Inspection — 2026-09-01 (08:45) — APPLIED (deferred action)

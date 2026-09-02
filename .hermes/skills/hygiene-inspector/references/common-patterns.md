@@ -1,7 +1,7 @@
 # Common Non-Compliant Patterns
 
 > Recurring hygiene violations observed in practice.
-> Updated: 2026-08-16
+> Updated: 2026-09-02
 
 ---
 
@@ -54,6 +54,8 @@ Files and folders that frequently appear at root but are not in the whitelist:
 **Update 2026-08-17 — `memory/` AND `state/` both resurfaced (4th consecutive run, 08-14→08-17).** Hygiene 08-17 run (53,578 paths) found `memory/` holding **6 files, all created 08-17**: 3 OpenClaw session logs (`2026-08-17-1325/1327/1329.md`, agent:main:main), `heartbeat-ok.md`, `heartbeat-poll.md`, and `fetch-status.md`. All 6 are **git-tracked** (`git ls-files memory/` confirmed) — they reach commits via the ~10-min auto `vault backup`, so filesystem deletion only removes the working copy and the committed copy resurrects on next checkout/sync. The writer runs multiple times daily. Fix MUST be root-cause (redirect the session/heartbeat/fetch writer output path from `memory/` → `.openclaw/memory/`) plus a committable removal (`git rm -r memory/` + commit). `state/` persists as an empty untracked phantom dir. Escalated as [SYSTEMATIC VIOLATION] in the 08-17 report. 08-11→08-13 clean streak remains broken.
 
 **Update 2026-08-29 — `openclaw-workspace-state.json` 8th consecutive run flagged (08-22 → 08-29).** Hygiene 08-29 run (55,940 paths) — same status as 08-28: disk orphan persists (69 bytes, mtime 08-24 10:00, NO fresh write in 5 days), git-level clean (untracked + `.gitignore` guard via `git check-ignore`). Root cause CONFIRMED (SKILL.md v1.21 pitfall #9: OpenClaw treats any dir with AGENTS.md as workspace; state path CWD-relative by design). Per-pitfall ERROR listing remains correct; do NOT re-escalate [SYSTEMATIC VIOLATION], do NOT recommend deletion-only fixes. `wiki/HEARTBEAT.md` symlink also flagged 4th consecutive run (08-26 → 08-29, created 08-26 17:01); untracked + gitignored, same process-level leak — some sync tool mirrors the root `HEARTBEAT.md → .openclaw/HEARTBEAT.md` symlink into `wiki/`. `memory/` + `state/` clean 7th consecutive run.
+
+**Update 2026-09-02 — `openclaw-workspace-state.json` 11th consecutive run flagged (08-22 → 09-02).** Status unchanged: 69 bytes, mtime 08-24 10:00, no fresh write in 9 days. Git-level clean (untracked + `.gitignore` guard). `wiki/HEARTBEAT.md` 7th consecutive run (08-26 → 09-02). **Major process-level fix:** [SYSTEMATIC VIOLATION] repos naming from 08-31 is now **RESOLVED** — all 6 raw/repos files from the 08-30 ingest batch were renamed with owner segments on 09-01 by Fix Agent (git commit `2ba955d1`, 09:57). 4/6 fully compliant; 2 residual (`MengTo_threeui`, `PostHog_posthog`) have uppercase owner — violates lowercase slug rule (folder-structure.md §8). **NEW pattern:** 8 `*-backup-2026-09-01.md` files in `wiki/drafts/` created by Fix Agent at 09:57 on 09-01 as pre-rename backups — all violate draft naming convention (date-prefix + underscore + `-backup-` suffix; 2 use `src_` prefix). Escalated as [SYSTEMATIC VIOLATION] in 09-02 report. `memory/` + `state/` clean 10th consecutive run.
 
 ---
 

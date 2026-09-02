@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-01 23:15 (Format validation)
+**Last updated:** 2026-09-02 23:09 (Output validation)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 10 reports (08-28→09-01) — 2026-09-01 by Connor (approved all; hầu hết fix đã được Fix Agent xử lý trước đó; 2 slug + 6 repos rename deferred — Fix Agent)
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-02 | Output | 1 (0E+1W+0I) | Review [wiki/reviews/2026-09-02_output-report.md](2026-09-02_output-report.md) |
 | 🔍 PENDING | 09-01 | Format | 396 (0E+396W) | Review [wiki/reviews/2026-09-01_format-report.md](2026-09-01_format-report.md) |
 | ✅ APPLIED | 09-01 | Hygiene | 8 (2E+6W) | Applied 2026-09-01 — deferred (root json lần 10 + HEARTBEAT lần 6): KHÔNG xóa, chờ process-level fix; 6 repos naming deferred Fix Agent |
 | ✅ APPLIED | 08-31 | Format | 399 (3E+396W) | Applied 2026-09-01 — ERROR 3 key points fixed (src_impeccable); ERROR 1-2 slug rename deferred (Fix Agent: 2 slug >50 chars); [SPEC CONFLICT] closed (24 tag files re-quoted) |
@@ -85,6 +86,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-09-02 (23:09)
+
+- **Report:** `wiki/reviews/2026-09-02_output-report.md`
+- **Summary:** 767 files checked (196 sources + 571 concepts). 1 issue: **0 ERROR, 1 WARNING, 0 INFO**. 5 new files (1 source + 4 concepts — cluster Google Cloud agent sandbox runtimes: `src_google-cloud-agent-sandbox-runtimes`, `agent-sandbox-runtimes`, `isolation-spectrum`, `sandbox-state-forking`, `network-egress-default-deny`). Batch sạch typo: cả 5 biến thể typo Compile Agent = 0 instances, dropped-i variant-5 grep = 0 lần thứ **11 liên tiếp** (08-23 → 09-02); 0 truncated; 0 empty sections; mọi concept mới definition 2 câu + 5-6 key ideas; single-source concepts → không dính Defect A/B multi-source; source dùng đúng `## Key points`; `original:` → `raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md` tồn tại (verified). WARNING 1: `[[prompt-injection]]` được reference trong 2 concepts (`agent-sandbox-runtimes` dòng 34 + `network-egress-default-deny` dòng 31) nhưng target không tồn tại (không concept, không source, không raw material) — forward-reference không có nguồn để resolve tự nhiên; đề xuất compile concept khi có source prompt-injection hoặc bỏ link.
+- **Actions needed:** None urgent — 5/5 files đạt PROMOTE (4/4 dimensions). WARNING 1 không blocking: link sẽ tự lành nếu Compile Agent xử lý source prompt-injection sau này, hoặc Fix Agent bỏ 2 link nếu concept không được compile. Không Fix Agent action bắt buộc.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-01
 

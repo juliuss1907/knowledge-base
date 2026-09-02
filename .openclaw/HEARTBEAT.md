@@ -9,24 +9,25 @@
 | Check | Status | Details |
 |-------|--------|---------|
 | Raw backlog | 0 | Không có raw file nào unprocessed |
-| wiki/concepts | 571 | Giữ nguyên từ 09:00 |
+| wiki/concepts | 571 | Giữ nguyên |
 | wiki/sources | 196 | Giữ nguyên |
 | wiki/tag | 25 | Giữ nguyên |
 | wiki/topic | 231 | Giữ nguyên |
-| Pending reviews | ⏳ 1 pending | Format report 09-01 (396W, 0E) — chờ Julius review. All forward-refs, không có ERROR. |
+| Pending reviews | ⏳ 4 pending | Format 09-02 (398W/0E), Output 09-02 (1W/0E), Hygiene 09-02 (2E+10W), Format 09-01 (396W/0E) — chờ Julius review. Tất cả WARNING forward-refs hoặc known issues deferred. |
 
 ## Notes
 
-1. CompileAgent 08:00 hôm nay đã chạy xong — 4 concepts mới (agent-sandbox-runtimes, isolation-spectrum, network-egress-default-deny, sandbox-state-forking) + 1 source mới. 0 raw unprocessed.
-2. 1 pending Hermes format report (09-01, 396W/0E) chờ Julius review — không có ERROR mới.
-3. [Known issue] Root json + wiki/HEARTBEAT.md symlink vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
-4. [RESOLVED] 6 repos files từ batch 08-30 đã được Fix Agent rename đúng `<owner>_<repo>` (commit 09-01) — naming violation đã xử lý xong.
+1. 0 raw backlog — tất cả raw files đã processed.
+2. 4 pending Hermes reviews chờ Julius: Format 09-02 (398W/0E), Output 09-02 (1W/0E), Hygiene 09-02 (2E+10W), Format 09-01 (396W/0E). Tất cả WARNING là forward-refs hoặc known issues deferred — không có ERROR blocking.
+3. [Known issue] Root json lần 11 + wiki/HEARTBEAT.md symlink lần 7 vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
+4. [RESOLVED] 6 repos files từ batch 08-30 đã rename xong (commit 09-01). Hygiene 09-02 còn 2 file residual uppercase owner — chờ Fix Agent nếu Julius approve.
 
 ---
 
 ## Log
 
 | Time | Status | Notes |
+| 2026-09-03 05:30 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231, drafts 16. 0 raw backlog. 4 pending reviews (Format 09-02 398W, Output 09-02 1W, Hygiene 09-02 12:2E+10W, Format 09-01 396W — chờ Julius). Backlink OK (xurl-cli, zero-member-llc, zero-sum-game đủ sources refs). Known issues giữ nguyên (root json lần 11 + wiki/HEARTBEAT.md symlink lần 7 — chờ SQLite refactor). memory/+state/ absent. Disk 19%, uptime 79d14h. |
 |------|--------|-------|
 | 2026-09-02 16:30 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. 1 pending review (Format 09-01, 396W/0E — chờ Julius, all forward-refs, không ERROR). 571/571 concepts có sources. memory/+state/ absent. ✅ RESOLVED: 6 repos naming violation đã rename `<owner>_<repo>` (commit 09-01) — hết violation. Known issues còn lại: root json lần 11 + symlink (không xóa, chờ SQLite refactor). Backlink OK (4 concepts sandbox đều link src_google-cloud-agent-sandbox-runtimes). Disk 19%, uptime 11w2d1h. |
 | 2026-09-02 13:30 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. 1 pending review (Format 09-01, 396W/0E — chờ Julius, all forward-refs, không ERROR). 571/571 concepts có sources. memory/+state/ absent. Known issues còn lại: root json lần 11 + symlink (không xóa, chờ SQLite refactor). Disk 19%, uptime 78d22h. |

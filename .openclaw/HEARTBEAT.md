@@ -4,29 +4,33 @@
 
 ---
 
-✅ **HEARTBEAT_OK — hệ thống ổn định**
+⚠️ **HEARTBEAT_OK nhưng có 1 vấn đề: KB Index Agent fail 6 lần liên tiếp**
 
 | Check | Status | Details |
 |-------|--------|---------|
 | Raw backlog | 0 | Không có raw file nào unprocessed |
-| wiki/concepts | 571 | Giữ nguyên |
+| wiki/concepts | 571 | Giữ nguyên, 571/571 có source refs |
 | wiki/sources | 196 | Giữ nguyên |
-| wiki/tag | 25 | Giữ nguyên |
-| wiki/topic | 231 | Giữ nguyên |
-| Pending reviews | ⏳ 4 pending | Format 09-02 (398W/0E), Output 09-02 (1W/0E), Hygiene 09-02 (2E+10W), Format 09-01 (396W/0E) — chờ Julius review. Tất cả WARNING forward-refs hoặc known issues deferred. |
+| wiki/tag | 25 | ⚠️ STALE — không update từ 09-01 09:58 |
+| wiki/topic | 231 | ⚠️ STALE — không update từ 09-01 09:58 |
+| Pending reviews | 0 | Tất cả 4 report 09-01/09-02 đã APPROVED (02-09) |
+| KB Index Agent cron | ⚠️ ERROR 6x | FailoverError: LLM request timed out (last 09-02 21:00) |
+| KB Compile Agent cron | ✅ OK | Chạy 08:00 hôm nay OK |
 
 ## Notes
 
 1. 0 raw backlog — tất cả raw files đã processed.
-2. 4 pending Hermes reviews chờ Julius: Format 09-02 (398W/0E), Output 09-02 (1W/0E), Hygiene 09-02 (2E+10W), Format 09-01 (396W/0E). Tất cả WARNING là forward-refs hoặc known issues deferred — không có ERROR blocking.
-3. [Known issue] Root json lần 11 + wiki/HEARTBEAT.md symlink lần 7 vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
-4. [RESOLVED] 6 repos files từ batch 08-30 đã rename xong (commit 09-01). Hygiene 09-02 còn 2 file residual uppercase owner — chờ Fix Agent nếu Julius approve.
+2. ⚠️ **KB Index Agent fail 6 lần liên tiếp** — lỗi `FailoverError: LLM request timed out`, last run 09-02 21:00. Hậu quả: wiki/tag/ + wiki/topic/ KHÔNG update từ 09-01 09:58. **Lưu ý:** chạy trực tiếp `.openclaw/run_index.py` thành công (235 topics, 24 tags, 0 error) — logic indexer ổn, vấn đề là agentTurn của cron timeout LLM. Đề xuất: check model của job index agent, hoặc chuyển sang chạy script trực tiếp thay vì agentTurn.
+3. 4 pending Hermes reviews trước đó đã APPROVED hết 2026-09-02 (theo _action-required.md) — 0 report chờ Julius hiện tại.
+4. [Known issue] Root json lần 11 + wiki/HEARTBEAT.md symlink lần 7 vẫn tồn tại — chờ process-level fix (SQLite refactor). Không xóa theo escalation.
+5. 571/571 concepts có source refs — backlink OK (activation-energy 2, sleep-hygiene 2, llm-consumption-modes 2).
 
 ---
 
 ## Log
 
 | Time | Status | Notes |
+| 2026-09-03 11:00 | ⚠️ OK+1 | Counts: concepts 571, sources 196, tag 25, topic 231, drafts 16. 0 raw backlog. ⚠️ KB Index Agent fail 6x (FailoverError: LLM request timed out, last 09-02 21:00) — tag/topic STALE từ 09-01 09:58. run_index.py trực tiếp OK (235 topics/24 tags) → vấn đề là LLM timeout của agentTurn, không phải logic. Compile Agent 08:00 OK. 0 pending reviews (4 reports 09-01/09-02 đã approve 02-09). 571/571 concepts có source. Known issues giữ nguyên (root json + symlink). Disk 19%, uptime 11w2d20h. |
 | 2026-09-03 08:30 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231, drafts 16. 0 raw backlog. 4 pending reviews giữ nguyên (Format 09-02 398W, Output 09-02 1W, Hygiene 09-02 12:2E+10W, Format 09-01 396W — chờ Julius, chủ yếu forward-refs + 2 known ERROR hygiene root json/symlink). Backlink OK. Known issues giữ nguyên (root json lần 11 + wiki/HEARTBEAT.md symlink lần 7 — chờ SQLite refactor, không xóa). memory/+state/ absent. Disk 19%, uptime 11w2d17h. |
 | 2026-09-03 07:00 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231, drafts 16. 0 raw backlog (raw/websites/2026-07-25_tools.md là type:index — không phải source, không qua compile pipeline). 4 pending reviews giữ nguyên (Format 09-02 398W, Output 09-02 1W, Hygiene 09-02 12:2E+10W, Format 09-01 396W — chờ Julius, chủ yếu forward-refs + 2 known ERROR hygiene). Backlink OK (activation-energy, sleep-hygiene, llm-consumption-modes đủ sources refs). Known issues giữ nguyên (root json lần 11 + wiki/HEARTBEAT.md symlink lần 7 — chờ SQLite refactor, không xóa). memory/+state/ absent. Disk 19%, uptime 79d16h. |
 | 2026-09-03 06:02 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231, drafts 16. 0 raw backlog (posts.md index còn liệt kê 4 posts 08-14/08-21/09-01 là unprocessed — false positive, thực tế tất cả status: processed; index stats chưa refresh). 4 pending reviews giữ nguyên (chờ Julius). Backlink OK (activation-energy, sleep-hygiene đủ sources refs). Known issues giữ nguyên (root json lần 11 + wiki/HEARTBEAT.md symlink lần 7 — chờ SQLite refactor). memory/+state/ absent. Disk 19%, uptime 11w2d15h. |

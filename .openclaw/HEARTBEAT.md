@@ -64,3 +64,12 @@
 | 2026-09-02 12:00 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. 1 pending review (Format 09-01, 396W/0E). Backlink OK (571/571 concepts có sources). Memory/+state/ absent. Known issues giữ nguyên (root json + symlink + 6 repos naming). Disk 19%, uptime 78d21h. |
 | 2026-09-02 13:00 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231. 0 raw backlog. 1 pending review (Format 09-01, 396W/0E). 571/571 concepts có sources. 402 drafts. Disk 19%, uptime 78d22h. Known issues giữ nguyên. |
 | 2026-09-03 02:30 | ✅ OK | Counts: concepts 571, sources 196, tag 25, topic 231, drafts 16. 0 raw backlog. 4 pending reviews (Format 09-02 398W, Output 09-02 1W, Hygiene 09-02 12:2E+10W, Format 09-01 396W — chờ Julius, chủ yếu forward-refs + 2 known ERROR hygiene root json/symlink). Backlink OK (llm-consumption-modes, cortisol-management, xurl-cli đủ sources refs). Known issues giữ nguyên (root json + wiki/HEARTBEAT.md symlink — chờ SQLite refactor). Disk 19%, uptime 79d. |
+## 2026-09-03 12:00 — HEARTBEAT_OK
+
+- **Inbox:** không có file #agent/inbox
+- **Raw backlog:** 0 unprocessed (203 raw files; file posts 09-01 đã processed)
+- **Concept backlinks:** 3 file random check — OK (query-fan-out, goal-announcement-trap, occams-razor)
+- **Pending review:** 0 (4 reports 09-01/09-02 đã approved 2026-09-02)
+- **Known issues:** root json + wiki/HEARTBEAT.md symlink — chờ process-level fix (giữ nguyên)
+
+Hệ thống ổn định.

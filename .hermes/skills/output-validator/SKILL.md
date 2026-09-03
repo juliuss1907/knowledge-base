@@ -701,6 +701,25 @@ When running as a scheduled cron job, the session working directory may be `$HOM
 
 **Fix**: Always use absolute paths (`/home/julius/knowledge-base/wiki/sources/`) for `search_files`, `read_file`, and `terminal` calls. For `terminal`, either `cd` first or use the `workdir` parameter. The quick-scan script handles this internally via `KB_DIR` variable.
 
+### System date drift — ALWAYS check `date` before assuming "today" (2026-09-01)
+
+When a session resumes with stale context (compaction, multi-day cron history, user references an old date), the conversation's "today" can differ from the real system clock. Observed 2026-09-01: the agent assumed 08-27 from context and ran a same-day [SILENT] hygiene re-run against an archived report — the real date was 09-01, so the run produced a stale-named report and a wrong `find -newer` baseline.
+
+**Fix**: FIRST command of any interactive validation/approval session:
+```bash
+date '+%Y-%m-%d %H:%M:%S %A'; cd /home/julius/knowledge-base && git log --oneline -1
+```
+Then derive report filenames, `find -newer` baselines, and MEMORY.md timestamps from the REAL date, not conversation context. Also check whether sibling cron runs already produced reports for the real today (`ls wiki/reviews/<real-date>_*.md`) — on 09-01 the pipeline had already run Output/Format that morning; re-running blind created duplicate work.
+
+### Approve-all batch handling (interactive, recurring user command)
+
+Julius's "Approve all"/"Apply all report" = approve every pending report + apply/verify fixes inline. Proven sequence (2026-08-27, 09-01, 09-02):
+1. **Verify-before-reapply**: Fix Agent often already applied the fixes (backlinks, `## Key points`, Notes removal). Grep the actual files FIRST — only apply inline what is genuinely still broken. On 09-01 all 6 output-report fixes were already done by Fix Agent; re-applying would have been redundant/risky.
+2. **Defer renames to Fix Agent**: slug renames (>50 chars), repos `<owner>_<repo>` renames, and casing fixes need `git mv` + cross-file reference updates — Hermes writes `wiki/reviews/` only (AGENTS.md §4.1). Mark them deferred in the action file; never attempt the rename yourself.
+3. **Defer process-level leaks**: `openclaw-workspace-state.json` + `wiki/HEARTBEAT.md` are known recurring orphans with confirmed root causes — do NOT delete (proven futile ×3), do NOT re-escalate.
+4. **Update all report Status headers** pending→approved (`sed -i '0,/^\*\*Status:\*\* pending/s//**Status:** approved/'`), then `_action-required.md`: PENDING rows→✅ APPLIED, `### 🔍`→`### ✅ ... — APPLIED`, status lines→`approved → **applied YYYY-MM-DD by Connor**`, pending count recomputed from actual remaining entries (never hardcoded), `Last batch applied` line updated.
+5. **MEMORY.md** prepend entry with per-report verdicts + deferred list; **ad-hoc verify** script under `/tmp/hermes-verify-*` covering: all reports approved, `_action-required` pending=0/no PENDING rows/no `### 🔍`, MEMORY entry present, deferred items still documented (not mislabeled done).
+
 ### Archived prior report breaks `find -newer` (2026-07-02)
 
 When the previous output report was approved and archived to `wiki/reviews/archive/YYYY-MM/`, a `find -newer` against the expected path (`wiki/reviews/YYYY-MM-DD_output-report.md`) silently returns zero results because the file no longer exists at that location. This causes the validator to miss ALL files compiled since the last run.

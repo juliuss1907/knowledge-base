@@ -1592,3 +1592,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Concept check OK (memory-extraction-timing 2 links, right-problem-framework 4 links — backlink đủ)
 - Known issues giữ nguyên: root json lần 10 + wiki/HEARTBEAT.md symlink — chờ process-level fix, không xóa
 - System ổn định, uptime 78d1h, load 1.0, disk 18%
+
+## 2026-09-03 10:30 — Heartbeat ✅
+- Raw: 0 unprocessed, không ingest mới từ 10:00
+- Pending Hermes: 0 (4 reports 09-01/09-02 đã approved 2026-09-02)
+- Inbox: không có file #agent/inbox
+- Known issues giữ nguyên: root json + wiki/HEARTBEAT.md symlink — chờ process-level fix, không xóa
+- System ổn định, HEARTBEAT_OK

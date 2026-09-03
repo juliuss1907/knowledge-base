@@ -4,21 +4,21 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-02 23:36 (Hygiene inspection)
+**Last updated:** 2026-09-02 23:45 (Approve all — 4 reports 09-01/09-02 approved)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
-**Last batch applied:** 10 reports (08-28→09-01) — 2026-09-01 by Connor (approved all; hầu hết fix đã được Fix Agent xử lý trước đó; 2 slug + 6 repos rename deferred — Fix Agent)
+**Pending reports awaiting review:** 0
+**Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 09-02 | Format | 398 (0E+398W) | Review [wiki/reviews/2026-09-02_format-report.md](2026-09-02_format-report.md) |
-| 🔍 PENDING | 09-02 | Output | 1 (0E+1W+0I) | Review [wiki/reviews/2026-09-02_output-report.md](2026-09-02_output-report.md) |
-| 🔍 PENDING | 09-02 | Hygiene | 12 (2E+10W) | Review [wiki/reviews/2026-09-02_hygiene-report.md](2026-09-02_hygiene-report.md) |
-| 🔍 PENDING | 09-01 | Format | 396 (0E+396W) | Review [wiki/reviews/2026-09-01_format-report.md](2026-09-01_format-report.md) |
+| ✅ APPLIED | 09-02 | Format | 398 (0E+398W) | Applied 2026-09-02 — forward-refs only (prompt-injection 2 refs); no action needed |
+| ✅ APPLIED | 09-02 | Output | 1 (0E+1W+0I) | Applied 2026-09-02 — forward-ref [[prompt-injection]] defer (no raw source); rest clean |
+| ✅ APPLIED | 09-02 | Hygiene | 12 (2E+10W) | Applied 2026-09-02 — deferred: root json lần 11 + HEARTBEAT lần 7 KHÔNG xóa; repos casing MengTo/PostHog + 8 backup files defer Fix Agent |
+| ✅ APPLIED | 09-01 | Format | 396 (0E+396W) | Applied 2026-09-02 — 3 ERRORs 08-31 resolved verified; forward-refs no action |
 | ✅ APPLIED | 09-01 | Hygiene | 8 (2E+6W) | Applied 2026-09-01 — deferred (root json lần 10 + HEARTBEAT lần 6): KHÔNG xóa, chờ process-level fix; 6 repos naming deferred Fix Agent |
 | ✅ APPLIED | 08-31 | Format | 399 (3E+396W) | Applied 2026-09-01 — ERROR 3 key points fixed (src_impeccable); ERROR 1-2 slug rename deferred (Fix Agent: 2 slug >50 chars); [SPEC CONFLICT] closed (24 tag files re-quoted) |
 | ✅ APPLIED | 08-31 | Output | 6 (0E+3W+3I) | Applied 2026-09-01 — all fix verified: 2 backlinks + dedup + ## Key points + 14 Notes removed + space-colon fixed (by Fix Agent) |
@@ -89,33 +89,33 @@
 
 ## Pending Reports
 
-### 🔍 Format Validation — 2026-09-02
+### ✅ Format Validation — 2026-09-02 — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-02_format-report.md`
 - **Summary:** 1032 files checked (571 concepts + 196 sources + 34 indexes + 231 topics). 398 issues: **0 ERROR, 398 WARNING**. **Clean ERROR streak continues (day 2 at 0)** — no structural violations, no naming errors, no YAML issues. **KB grew +5 files** (compiled 08:04 — Google Cloud agent-sandbox cluster: 4 concepts `agent-sandbox-runtimes`, `isolation-spectrum`, `sandbox-state-forking`, `network-egress-default-deny` + 1 source `src_google-cloud-agent-sandbox-runtimes`; this is the raw file flagged uncompiled in 09-01, now compiled). All 5 pass format compliance cleanly. **+2 WARNINGs** — both are `[[prompt-injection]]` forward-references in new concepts (`agent-sandbox-runtimes` + `network-egress-default-deny`); target has no concept/source/raw anywhere in KB = forward-ref with no natural resolution path (exactly Output Validator 09-02 WARNING 1). Unique broken targets 270→271 (+1, `prompt-injection` enters pool at 2 refs), individual broken 377→379 (+2), forward-ref groups 19→19 (flat), Top-20 identical to 09-01. No new escalations.
 - **Actions needed:** None required — the +2 WARNINGs are forward-refs with no source to resolve naturally; per Output Validator recommendation, compile a `prompt-injection` concept when a suitable source arrives, or Fix Agent may drop the 2 links. The 379 existing forward-ref WARNINGs resolve naturally as Compile Agent processes raw files. No structural fixes needed.
-- **Status:** ⏳ pending
+- **Status:** approved → **applied 2026-09-02 by Connor** — forward-refs only (prompt-injection 2 refs, no natural resolution); no Fix Agent action needed. Report: `wiki/reviews/2026-09-02_format-report.md`
 
-### 🔍 Output Validation — 2026-09-02 (23:09)
+### ✅ Output Validation — 2026-09-02 (23:09) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-02_output-report.md`
 - **Summary:** 767 files checked (196 sources + 571 concepts). 1 issue: **0 ERROR, 1 WARNING, 0 INFO**. 5 new files (1 source + 4 concepts — cluster Google Cloud agent sandbox runtimes: `src_google-cloud-agent-sandbox-runtimes`, `agent-sandbox-runtimes`, `isolation-spectrum`, `sandbox-state-forking`, `network-egress-default-deny`). Batch sạch typo: cả 5 biến thể typo Compile Agent = 0 instances, dropped-i variant-5 grep = 0 lần thứ **11 liên tiếp** (08-23 → 09-02); 0 truncated; 0 empty sections; mọi concept mới definition 2 câu + 5-6 key ideas; single-source concepts → không dính Defect A/B multi-source; source dùng đúng `## Key points`; `original:` → `raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md` tồn tại (verified). WARNING 1: `[[prompt-injection]]` được reference trong 2 concepts (`agent-sandbox-runtimes` dòng 34 + `network-egress-default-deny` dòng 31) nhưng target không tồn tại (không concept, không source, không raw material) — forward-reference không có nguồn để resolve tự nhiên; đề xuất compile concept khi có source prompt-injection hoặc bỏ link.
 - **Actions needed:** None urgent — 5/5 files đạt PROMOTE (4/4 dimensions). WARNING 1 không blocking: link sẽ tự lành nếu Compile Agent xử lý source prompt-injection sau này, hoặc Fix Agent bỏ 2 link nếu concept không được compile. Không Fix Agent action bắt buộc.
-- **Status:** pending
+- **Status:** approved → **applied 2026-09-02 by Connor** — 5/5 PROMOTE verified; WARNING [[prompt-injection]] defer (compile khi có source, hoặc Fix Agent bỏ link). Report: `wiki/reviews/2026-09-02_output-report.md`
 
-### 🔍 Format Validation — 2026-09-01
+### ✅ Format Validation — 2026-09-01 — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-01_format-report.md`
 - **Summary:** 1027 files checked (567 concepts + 195 sources + 34 indexes + 231 topics). 396 issues: **0 ERROR, 396 WARNING**. **Clean ERROR streak RESTORED** — the 3 ERRORs from 08-31 were all resolved by Fix Agent (2 slug renames: `src_ai-engineering-skills-map-building-deploying-ai-applications`→`src_ai-eng-skills-map-building-deploying` + `src_ai-engineering-skills-map-software-engineering-fundamentals`→`src_ai-eng-skills-map-se-fundamentals`; `src_impeccable.md` missing `## Key points` added). **0 new wiki files** (git A-count = 0 — no compilation today). 1 new raw file ingested but uncompiled (`raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md`). WARNING backlog exactly flat: 396→396, 377 individual broken, 19 forward-ref groups, 270 unique broken targets (day 2), Top-20 identical to 08-31. No structural violations, no new ERRORs. Total −3 (399→396) entirely from ERROR resolution.
 - **Actions needed:** None — the 396 forward-ref WARNINGs resolve naturally when Compile Agent processes the 1 uncompiled raw file. No Fix Agent action required. No ERRORs to fix.
-- **Status:** ⏳ pending
+- **Status:** approved → **applied 2026-09-02 by Connor** — 3 ERRORs 08-31 resolved verified (2 slug renames + Key points); 396 forward-refs no action. Report: `wiki/reviews/2026-09-01_format-report.md`
 
-### 🔍 Hygiene Inspection — 2026-09-02 (23:36)
+### ✅ Hygiene Inspection — 2026-09-02 (23:36) — APPLIED (deferred action)
 
 - **Report:** `wiki/reviews/2026-09-02_hygiene-report.md`
 - **Summary:** 56011 paths checked (+22 so với 09-01). 12 issues: 2 ERROR, 10 WARNING. **repos naming [SYSTEMATIC VIOLATION] 08-31 → RESOLVED** — cả 6 raw/repos files đã được Fix Agent rename thêm owner segment 09-01 09:57 (git commit `2ba955d1`): 4/6 compliant hoàn toàn; còn 2 file residual uppercase owner (`MengTo_threeui` + `PostHog_posthog`) — WARNING (lowercase yêu cầu folder-structure §8). ERROR 1-2: carry-forward — `openclaw-workspace-state.json` LẦN 11 LIÊN TIẾP (08-22→09-02, 69B mtime 08-24, git sạch), `wiki/HEARTBEAT.md` LẦN 7 LIÊN TIẾP (08-26→09-02, symlink, process leak). **MỚI [SYSTEMATIC VIOLATION]**: 8 file `*-backup-2026-09-01.md` trong `wiki/drafts/` (Fix Agent tạo 09:57 ngày 09-01 làm backup khi rename) — vi phạm draft naming (date-prefix + underscore + `-backup-` suffix; 2 file dùng `src_` prefix). Tin tốt: `memory/`+`state/` vắng mặt chạy sạch thứ 10 liên tiếp; 0 empty dir; 0 INFO.
 - **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 12 (pitfall #9). KHÔNG re-escalate 2 orphan đã biết. Fix Agent: (1) rename 2 repos file uppercase owner → lowercase; (2) dọn 8 file backup trong `wiki/drafts/` (archive/sau khi xác nhận rename thành công) + cập nhật Fix Agent SKILL.md backup-naming (đặt backup ngoài wiki/drafts/ hoặc dọn sau rename).
-- **Status:** ⏳ pending
+- **Status:** approved → **applied 2026-09-02 by Connor** — deferred (KHÔNG xóa root json lần 12, KHÔNG re-escalate; 2 repos casing + 8 backup files defer Fix Agent). Report: `wiki/reviews/2026-09-02_hygiene-report.md`
 
 ### ✅ Hygiene Inspection — 2026-09-01 (08:45) — APPLIED (deferred action)
 

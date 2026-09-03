@@ -295,6 +295,15 @@ When validating `[[...]]` wikilinks:
 - `[[src_slug]]` → `wiki/sources/src_slug.md` only
 - Treat missing targets as ERROR, but aggregate by target concept when reporting to stay within the 20-issue limit.
 
+### Forward-reference WITHOUT a raw source — distinct handling (2026-09-02)
+Most forward-refs resolve naturally when Compile Agent processes the pending raw file. **Check whether the target has ANY raw material** before assuming it will resolve:
+```bash
+find wiki/ -iname '*<target-slug>*'   # concept + source existence
+find raw/ -iname '*<target-slug>*'    # raw material — if 0 hits, NO natural resolution path
+```
+- **Normal forward-ref** (raw source pending): WARNING, no action — resolves when compiled.
+- **No-source forward-ref** (0 concept, 0 source, 0 raw hits — e.g. `[[prompt-injection]]` in 2 Google Cloud agent-sandbox concepts, 09-02): WARNING with explicit "no natural resolution path" note. Two acceptable endings: (a) compile the concept when a suitable source arrives, or (b) Fix Agent drops the link(s). State both in Suggested fix; do NOT auto-drop. Format Validator will track the target in its broken-targets backlog regardless — cross-reference that in the report so the two validators agree on the same target.
+
 ### Systemic issue aggregation
 When the same issue type appears >10 times, report it as a single systemic issue:
 - One entry describing the pattern, count, and top affected targets

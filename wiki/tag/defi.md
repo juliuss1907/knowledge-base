@@ -5,16 +5,10 @@ scope: tag
 parent: "[[tag]]"
 tag: defi
 auto_generated: true
-last_updated: 2026-08-31
+last_updated: 2026-09-03
 ---
 
 # Tag: #defi
-
-Auto-generated index of all content tagged with `#defi`.
-
-Last updated: 2026-08-31 22:04:04
-
----
 
 ## Parent
 
@@ -25,22 +19,21 @@ Last updated: 2026-08-31 22:04:04
 - Total files: 7
 - Sources: 1
 - Concepts: 6
-- Last updated: 2026-08-31
+- Last updated: 2026-09-03
 
 ## Files with this tag
 
-- [[arcade-tokens]] — Arcade Tokens (concept, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
-- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept, main: #crypto, sub: [#tools, #defi], topic: hermes-xai-grok-integration)
-- [[polymarket]] — Polymarket (concept, main: #crypto, sub: [#defi, #tools], topic: hermes-polymarket-trading-agent)
-- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept, main: #crypto, sub: [#tools, #defi], topic: hermes-operator-builder-pattern)
-- [[softbank-carry-trade]] — Softbank Carry Trade (concept, main: #economic, sub: [#news, #defi], topic: ai-funding-dynamics)
-- [[src_the-most-underrated-token-type]] — The Most Underrated Token Type (source, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
-- [[token-economic-mechanics]] — Token Economic Mechanics (concept, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
+- [[arcade-tokens]] — Arcade Tokens (concept)
+- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
+- [[polymarket]] — Polymarket (concept)
+- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
+- [[softbank-carry-trade]] — Softbank Carry Trade (concept)
+- [[src_the-most-underrated-token-type]] — The Most Underrated Token Type (source)
+- [[token-economic-mechanics]] — Token Economic Mechanics (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#defi`:
-- `#crypto` (6 files)
-- `#tools` (6 files)
-- `#economic` (1 files)
-- `#news` (1 files)
+- [[crypto]] — 6 co-occurrences
+- [[tools]] — 6 co-occurrences
+- [[news]] — 1 co-occurrence
+- [[economic]] — 1 co-occurrence

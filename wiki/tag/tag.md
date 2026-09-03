@@ -5,14 +5,20 @@ scope: tags
 parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
-last_updated: 2026-08-29
+last_updated: 2026-09-03
 ---
 
-# Tags Index
+# Tag Index
+
+Master index of all tags in the Knowledge Base.
+
+Last updated: 2026-09-03 11:00:46
+
+---
 
 ## Overview
 
-Master index of all tags used across the wiki. Each entry links to a tag file (`wiki/tag/<tag>.md`) listing all files with that tag.
+Auto-generated master index of all tags used in the Knowledge Base. Tracks statistics, files per tag, and co-occurrence relationships across both main-tags (Pool A) and sub-tags (Pool B).
 
 ## Parent
 
@@ -20,46 +26,47 @@ Master index of all tags used across the wiki. Each entry links to a tag file (`
 
 ## Stats
 
-- Total tags: 23
+- Total tags: 24
 - Main tags: 9
-- Sub tags: 14
+- Sub tags: 18
 - Most used: #productivity (318), #psychology (313), #research (269)
-- Last updated: 2026-08-31
+- Last updated: 2026-09-03
+
 ## Items
 
 ### Main Tags (Pool A)
 
-- [[ai]] — 196 files
-- [[crypto]] — 15 files
-- [[economic]] — 89 files
-- [[health]] — 53 files
-- [[investment]] — 12 files
-- [[politic]] — 21 files
-- [[productivity]] — 318 files
-- [[system]] — 50 files
-- [[tech]] — 39 files
+- [[ai]] — AI / ML / LLM, agents, models, training, inference
+- [[crypto]] — Blockchain, DeFi, tokens, exchanges, on-chain activity
+- [[economic]] — Macroeconomics, finance, markets, trading
+- [[health]] — Physical health, sleep, exercise, nutrition, biohacking
+- [[investment]] — Investment principles, portfolio management, asset allocation, risk management
+- [[politic]] — Policy, regulation, geopolitics
+- [[productivity]] — Workflows, methodologies, knowledge management, personal systems
+- [[system]] — System design, architecture, automation pipelines
+- [[tech]] — Software engineering, infrastructure, web, mobile, dev tooling
 
 ### Sub Tags (Pool B)
 
-- [[ai]] — 196 files
-- [[automation]] — 90 files
-- [[coding]] — 31 files
-- [[defi]] — 7 files
-- [[geopolitics]] — 8 files
-- [[hack]] — 28 files
-- [[health]] — 53 files
-- [[law]] — 5 files
-- [[layer1]] — 4 files
-- [[news]] — 12 files
-- [[opinion]] — 263 files
-- [[psychology]] — 313 files
-- [[research]] — 264 files
-- [[strategy]] — 22 files
-- [[system]] — 50 files
-- [[tools]] — 207 files
-- [[tutorial]] — 88 files
-- [[vibecode]] — 13 files
+- [[ai]] — AI / ML / LLM, agents, models, training, inference (as attribute)
+- [[automation]] — Bots, scripts, scheduled jobs, automated workflows
+- [[coding]] — Programming, software development, code generation, dev practices
+- [[defi]] — Decentralized finance protocols, AMMs, lending, yield
+- [[geopolitics]] — Geopolitical analysis, international relations, empire cycles, tribute systems, great power competition
+- [[hack]] — Exploits, vulnerabilities, attacks, post-mortems
+- [[health]] — Physical health, sleep, exercise, nutrition, biohacking
+- [[law]] — Legal frameworks, contracts, regulations, compliance
+- [[layer1]] — Base-layer blockchains
+- [[news]] — Recent events, announcements, time-sensitive updates
+- [[opinion]] — Personal takes, editorials, commentary
+- [[psychology]] — Cognitive science, behavioral psychology, mental models, biases
+- [[research]] — Academic papers, deep analysis, primary sources
+- [[strategy]] — Strategic thinking, decision frameworks, competitive positioning, game theory
+- [[system]] — System design, architecture, automation pipelines (as attribute)
+- [[tools]] — Concrete software, products, services, libraries
+- [[tutorial]] — How-to guides, walkthroughs, step-by-step instructions
+- [[vibecode]] — Vibe coding, AI-assisted development style
 
 ## Notes
 
-<!-- Free space for Julius -->
+<!-- Auto-managed by index-agent. Manual notes below this line. -->

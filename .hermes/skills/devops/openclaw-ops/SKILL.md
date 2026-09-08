@@ -71,8 +71,8 @@ curl -s http://localhost:20128/v1/models | python3 -m json.tool | head -n 40
 
 - Symptom: `estimatedPromptTokens=14226 promptBudgetBeforeReserve=8000 overflowTokens=6226`
 - Root cause check: `[1m]` in id means 1M upstream but config still `16000` → mismatch
-- Fix: bump `models.providers.<prov>.models[].contextWindow` to real value (128k–1M) + `reserveTokensFloor` to 50000; verify no `agents.defaults.models` remains; restart gateway
-- **Never** run `openclaw configure` after manual tuning — wizard resets floor to 20000 and drops custom windows
+- Fix: bump `models.providers.<prov>.models[].contextWindow` to real value (128k–1M) + set `compaction.reserveTokens: 50000` in each agent's `~/.openclaw/agents/<id>/agent/settings.json` (the old `reserveTokensFloor` key in openclaw.json is retired since 2026.9.3 — see Workflow 2); verify no `agents.defaults.models` remains; restart gateway
+- **Never** run `openclaw configure` after manual tuning — wizard resets floor to 20000 and drops custom windows. `openclaw doctor --fix` is ALSO config-mutating: it strips retired keys (silent, one "Updated config" note + its own `.bak`). Always backup + diff after (see Pitfalls)
 
 ## Workflow 5 — Node Runtime Mismatch (update breaks gateway)
 
@@ -95,6 +95,18 @@ Symptom: `openclaw: command not found` in a fresh terminal, or binary found but 
 4. Fix: `echo <version> > ~/.nvm/alias/default` (agent-doable, no sudo) + remove/comment the `/usr/bin` PATH prepend in `~/.bashrc`
 5. Verify: `bash -ic 'which openclaw && openclaw --version'` — must print the nvm path + expected version (e.g. 2026.7.1-2)
 6. Reminder: after this fix `openclaw configure` becomes runnable — do NOT run it (Workflow 4 warning stands)
+
+## Workflow 7 — Version Upgrade (node + openclaw, no sudo)
+
+Full sequence executed 2026-09-08 (v24.15.0→v24.20.0, openclaw 2026.7.1-2→2026.9.3); precedent data in `references/version-upgrades.md`:
+
+1. Backup triple: `cp ~/.openclaw/openclaw.json{,.bak-$(date +%Y%m%d)}`, same for `~/.config/systemd/user/openclaw-gateway.service` and `~/.openclaw/state/openclaw.sqlite` (~23 MB)
+2. Check the new package's engines floor BEFORE choosing node: `npm view openclaw engines` (2026.9.3 needs `>=24.16.0 <25`) — the floor moves every release; the current nvm version may fall below it, making the openclaw upgrade impossible without a node bump first
+3. `nvm install <ver>` → migrate globals in one shot: `npm i -g --allow-scripts=openclaw,@google/genai,koffi,tree-sitter-bash,protobufjs openclaw@<ver> pm2 clawhub mcporter` — npm ≥11 blocks install-scripts by default; without `--allow-scripts` native deps (koffi, tree-sitter-bash, protobufjs) ship unbuilt and break at runtime (the warn message prints the exact allow-list)
+4. `nvm alias default <ver>` (agent-doable, writes `~/.nvm/alias/default`)
+5. Re-point `ExecStart` (BOTH the node path and the dist path) in the unit → `systemctl --user daemon-reload && systemctl --user restart openclaw-gateway`
+6. If first start exits **status 78** with `OpenClaw state database schema migration required ... gateway.maintenance_required`: the package crossed a schema boundary. Backup sqlite (if not yet) → `openclaw doctor --fix` (required here, DB-backed) → **diff openclaw.json against the pre-upgrade backup** — doctor strips retired keys and you must restore equivalents via the new mechanism (for the compaction floor: per-agent `settings.json`, see Workflow 2)
+7. Verify: `is-active` + HTTP 200 on :18789 + fresh `bash -ic 'openclaw --version'` + `openclaw doctor` (no blockers)
 
 ## Pitfalls
 

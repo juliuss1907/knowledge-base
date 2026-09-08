@@ -57,6 +57,8 @@ Files and folders that frequently appear at root but are not in the whitelist:
 
 **Update 2026-09-02 — `openclaw-workspace-state.json` 11th consecutive run flagged (08-22 → 09-02).** Status unchanged: 69 bytes, mtime 08-24 10:00, no fresh write in 9 days. Git-level clean (untracked + `.gitignore` guard). `wiki/HEARTBEAT.md` 7th consecutive run (08-26 → 09-02). **Major process-level fix:** [SYSTEMATIC VIOLATION] repos naming from 08-31 is now **RESOLVED** — all 6 raw/repos files from the 08-30 ingest batch were renamed with owner segments on 09-01 by Fix Agent (git commit `2ba955d1`, 09:57). 4/6 fully compliant; 2 residual (`MengTo_threeui`, `PostHog_posthog`) have uppercase owner — violates lowercase slug rule (folder-structure.md §8). **NEW pattern:** 8 `*-backup-2026-09-01.md` files in `wiki/drafts/` created by Fix Agent at 09:57 on 09-01 as pre-rename backups — all violate draft naming convention (date-prefix + underscore + `-backup-` suffix; 2 use `src_` prefix). Escalated as [SYSTEMATIC VIOLATION] in 09-02 report. `memory/` + `state/` clean 10th consecutive run.
 
+**Update 2026-09-08 — both 09-02 escalations still outstanding after 6 days (12th run for root json, 8th for HEARTBEAT).** Hygiene 09-08 run (56,020 paths): 2 repos casing files (`MengTo_threeui`, `PostHog_posthog`) và 8 `*-backup-2026-09-01.md` drafts vẫn nguyên — Fix Agent chưa action trên report 09-02 (đã approved/applied với 2 items này DEFERRED). Carried forward per carry-forward rule — không re-escalation. Ghi nhận: hygiene runs bị skip 09-03→09-07 (không report nào), vault auto-commit cũng tạm dừng 09-05→09-07, resumed 09-08. `memory/` + `state/` clean 11th consecutive run.
+
 ---
 
 ## Heartbeat artifacts

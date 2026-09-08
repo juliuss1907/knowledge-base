@@ -140,7 +140,7 @@
 **Path:** wiki/drafts/src_ai-engineering-skills-map-building-deploying-ai-applications-backup-2026-09-01.md
 **Severity:** WARNING
 **Category:** Naming
-**Issue:** Draft filename: date-prefix... — file này dùng `src_` prefix + `-backup-` suffix, vi phạm draft naming trên 2 trục
+**Issue:** Draft filename: `src_` prefix + `-backup-` suffix, vi phạm draft naming trên 2 trục
 **Current:** `src_ai-engineering-skills-map-building-deploying-ai-applications-backup-2026-09-01.md`
 **Expected:** `<lowercase-hyphen-slug>.md`
 **Suggested fix:** 7/8 backup files từ [SYSTEMATIC VIOLATION] 09-02 — xem Issue 5.

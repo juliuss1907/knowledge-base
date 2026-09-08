@@ -20,15 +20,15 @@
       "schedule_display": "0 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 59
+        "completed": 93
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:10:27.286282+07:00",
-      "next_run_at": "2026-08-02T23:00:00+07:00",
-      "last_run_at": "2026-08-01T23:17:04.733733+07:00",
+      "next_run_at": "2026-09-08T23:00:00+07:00",
+      "last_run_at": "2026-09-08T08:19:58.407154+07:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -56,18 +56,18 @@
       "schedule_display": "15 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 57
+        "completed": 91
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:11:13.837401+07:00",
-      "next_run_at": "2026-08-02T23:15:00+07:00",
-      "last_run_at": "2026-08-01T23:19:20.387296+07:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
+      "next_run_at": "2026-09-08T23:15:00+07:00",
+      "last_run_at": "2026-09-08T08:16:17.511968+07:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: HTTP 429: Error code: 429",
+      "last_delivery_error": "delivery error: Telegram send failed: Timed out",
       "deliver": "origin",
       "origin": null,
       "fire_claim": null
@@ -92,15 +92,15 @@
       "schedule_display": "30 23 * * *",
       "repeat": {
         "times": null,
-        "completed": 57
+        "completed": 91
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-14T16:11:23.785428+07:00",
-      "next_run_at": "2026-08-02T23:30:00+07:00",
-      "last_run_at": "2026-08-01T23:33:53.106186+07:00",
+      "next_run_at": "2026-09-08T23:30:00+07:00",
+      "last_run_at": "2026-09-08T08:23:47.868170+07:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -229,5 +229,5 @@
       "profile": null
     }
   ],
-  "updated_at": "2026-08-01T23:33:53.113830+07:00"
+  "updated_at": "2026-09-08T08:23:47.868791+07:00"
 }

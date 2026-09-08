@@ -692,14 +692,14 @@
     "archived_at": null,
     "created_at": "2026-08-21T02:39:14.462189+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-09-08T14:28:44.585613+00:00",
-    "last_used_at": "2026-09-08T14:16:26.678692+00:00",
-    "last_viewed_at": "2026-09-08T14:16:26.665871+00:00",
-    "patch_count": 16,
+    "last_patched_at": "2026-09-08T14:34:51.029121+00:00",
+    "last_used_at": "2026-09-08T14:34:25.868974+00:00",
+    "last_viewed_at": "2026-09-08T14:34:25.855661+00:00",
+    "patch_count": 18,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
+    "use_count": 4,
+    "view_count": 4
   },
   "opencode": {
     "archived_at": null,

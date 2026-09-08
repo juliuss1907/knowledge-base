@@ -31,7 +31,7 @@ Class-level skill for running and debugging OpenClaw (Kara) on this host. Use wh
 1. List: `openclaw cron list` → note `Name`, `Model`, `Status`, `ID`
 2. History: `openclaw cron runs --id <id> > /tmp/runs.json` → `entries[]` (not `runs`), field `error`/`lastError` + `summary`
 3. Classify error (see Reference: `references/model-failures.md`):
-   - `Context overflow: prompt too large` → `contextWindow` too small or `reserveTokensFloor` too low
+   - `Context overflow: prompt too large` → `contextWindow` too small or compaction reserve too low (pre-2026.9.3: `reserveTokensFloor` in openclaw.json; 2026.9.3+: `compaction.reserveTokens` per-agent settings.json)
    - `401 Model not supported` / `410 retired` → model ID removed upstream
    - `403 insufficient quota` / `403 no quyền` → token lacks scope or quota 0
    - `403 requires subscription` → Ollama free vs paid tier

@@ -424,3 +424,9 @@ Files checked: 891
 - **Batch sạch gần hoàn toàn:** 12/13 file PASS cả 4 chiều; lần thứ TƯ liên tiếp dropped-i variant-5 grep = 0; cả 5 biến thể typo Compile Agent đều 0 instances; 4 frontmatter `original:` → raw/articles/ tồn tại; 0 file dính depth-debt (mọi concept mới definition 2-3 câu + 6+ key ideas)
 - **WARNING 1 — forward-refs:** `[[deep-work]]` (attention-management, đã trong Top-20 broken pool Format 08-25, 4 refs) + `[[synthid]]`/`[[llm-output-detection]]` (ai-text-watermarking, đã ghi nhận Output 08-16) — forward-ref hợp lệ, resolve tự nhiên, không Fix Agent action
 - **INFO 1:** `## Notes` rỗng ở EOF ai-text-watermarking.md (optional section per format-spec §2.3, cosmetic)
+
+## 2026-09-02 — Fix: openclaw command not found
+- Root cause 2 lớp: (1) nvm default alias = "24" → v24.19.0 (không có openclaw; binary chỉ ở v24.15.0); (2) ~/.bashrc dòng 131 `export PATH=/usr/bin:$PATH` ép system node v24.14.1 (dưới minimum >=24.15.0) đè lên nvm.
+- Fix: ghi `24.15.0` vào ~/.nvm/alias/default + xóa dòng prepend /usr/bin trong ~/.bashrc (thay bằng comment NOTE).
+- Verified interactive shell: node → v24.15.0, openclaw → 2026.7.1-2 (0790d9f). Gateway service active, HTTP 200 :18789 (không affected — service dùng path tuyệt đối).
+- Constraint giữ nguyên: KHÔNG chạy `openclaw configure` (overwrite reserveTokensFloor→20000, strip contextWindow).

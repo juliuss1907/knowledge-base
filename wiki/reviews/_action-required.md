@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-08 08:16 (Hygiene 09-08 — pending, 12 issues carry-forward)
+**Last updated:** 2026-09-08 23:35 (Format 09-08 — pending, 0 net change vs 09-02; Hygiene 09-08 — pending)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-08 | Format | 398 (0E+398W) | 0 net change vs 09-02 — +4 topic pages (0 broken links); forward-refs only. Review [wiki/reviews/2026-09-08_format-report.md](2026-09-08_format-report.md) |
 | 🔍 PENDING | 09-08 | Hygiene | 12 (2E+10W) | Fresh run sau 6 ngày — 100% carry-forward: root json lần 12 + HEARTBEAT lần 8; 2 repos casing + 8 backup files defer Fix Agent |
 | ✅ APPLIED | 09-02 | Format | 398 (0E+398W) | Applied 2026-09-02 — forward-refs only (prompt-injection 2 refs); no action needed |
 | ✅ APPLIED | 09-02 | Output | 1 (0E+1W+0I) | Applied 2026-09-02 — forward-ref [[prompt-injection]] defer (no raw source); rest clean |
@@ -89,6 +90,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-08 (23:15) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-08_format-report.md`
+- **Summary:** 1036 files checked (571 concepts + 196 sources + 34 indexes + 235 topics). 398 issues: **0 ERROR, 398 WARNING**. Clean ERROR streak day 3 at 0. **0 net change so với 09-02 trên mọi trục** — total 398→398, individual 379 flat, forward-ref groups 19 flat, unique targets 271 flat, Top-20 identical. KB grew +4 files (topic pages Index Agent thêm 09-03 11:01 cho agent-sandbox cluster — tất cả đóng góp 0 broken wikilink). **Pipeline idle 6 ngày**: 0 concepts/sources compiled, 0 raw ingested kể từ 09-02 — backlog phẳng vì không có gì mới để compile. Index Agent regenerate 25 tag files 09-03 — xác nhận 0 unquoted-`parent` regression ([SPEC CONFLICT] fix 08-31 giữ vững).
+- **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất. 2 forward-refs `[[prompt-injection]]` (kể từ 09-02) chờ source hoặc Fix Agent bỏ link.
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-09-08 (08:15) — PENDING
 

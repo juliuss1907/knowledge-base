@@ -6,13 +6,11 @@
 
 ## 2026-09-08 23:36:00 — Format validation
 
-- Files checked: 1036 (571 concepts + 196 sources + 34 indexes + 235 topics)
 - **Files checked:** 1036 (571 concepts + 196 sources + 34 indexes + 235 topics)
+Files checked: 1036
 - Issues found: 398 (0 ERROR, 398 WARNING, 0 INFO)
-- **Files checked:** 1036 (571 concepts + 196 sources + 34 indexes + 235 topics)
 - Report: wiki/reviews/2026-09-08_format-report.md
 - Top violations: broken wikilinks (forward-refs) — 379 individual + 19 groups, 271 unique targets
-- **Files checked:** 1036 (571 concepts + 196 sources + 34 indexes + 235 topics)
 
 ## 2026-09-08 23:04:00 — Output validation
 

@@ -573,8 +573,9 @@ approvals:
   mcp_reload_confirm: true
   destructive_slash_confirm: true
 command_allowlist:
-  - execute_code
+  - shell command via -c/-lc flag
   - script execution via -e/-c flag
+  - execute_code
 quick_commands: {}
 platform_hints: {}
 hooks: {}

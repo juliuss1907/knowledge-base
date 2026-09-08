@@ -1,6 +1,6 @@
 ---
 name: openclaw-ops
-description: Operate OpenClaw gateway, cron jobs, and LLM model routing (Kara agents). Covers config schema, contextWindow tuning, auth/rate-limit debugging, and cron failure recovery.
+description: Operate OpenClaw gateway, cron jobs, and LLM model routing (Kara agents). Covers config schema, contextWindow/compaction tuning (incl. the 2026.9.x per-agent settings.json migration), auth/rate-limit debugging, cron failure recovery, and node/openclaw version upgrades.
 ---
 
 # OpenClaw Ops
@@ -14,12 +14,14 @@ Class-level skill for running and debugging OpenClaw (Kara) on this host. Use wh
 - `openclaw configure` wizard overwrote manual edits
 - `openclaw: command not found` in terminal, or openclaw runs but its version gate rejects the Node it resolved (`current: v24.14.1` style error) — see Workflow 6
 - Gateway shows `invalid config: Unrecognized keys` or `gateway closed (1006)`
+- Upgrading node/openclaw versions (nvm install, global package migration, gateway exits 78 `gateway.maintenance_required`) — see Workflow 7
 - Probing which `ollama`/`9router`/`api-box` models are alive, free, or subscription-gated
 
 ## Architecture (this host)
 
-- Gateway binary: `/home/julius/.nvm/versions/node/v24.15.0/lib/node_modules/openclaw/dist/index.js` (`openclaw-gateway` via `systemctl --user`)
+- Gateway binary: `/home/julius/.nvm/versions/node/v24.20.0/lib/node_modules/openclaw/dist/index.js` (`openclaw-gateway` via `systemctl --user`); package 2026.9.3 on node v24.20.0 since 2026-09-08 — the unit's `ExecStart` pins absolute nvm paths, so re-point both on every node upgrade
 - Config: `~/.openclaw/openclaw.json` — hot-reloaded; invalid keys cause `config reload skipped`
+- Per-agent runtime settings: `~/.openclaw/agents/<id>/agent/settings.json` — since 2026.9.3 this is where `compaction.reserveTokens` lives; `agents.defaults.compaction.reserveTokensFloor` in openclaw.json is RETIRED and gets stripped by config migrations
 - Cron: `~/.openclaw/cron/jobs.json` + `~/.openclaw/cron/runs` (JSONL) — query via `openclaw cron runs --id <id>`
 - Auth: `~/.openclaw/agents/main/agent/auth-profiles.json` (google, ollama, opencode, openai-codex)
 - Model catalogs: `models.providers.<provider>.models[]` (correct place for `contextWindow`); plugin models (e.g. `opencode`) are dynamic and not in `models.providers`
@@ -42,7 +44,7 @@ Class-level skill for running and debugging OpenClaw (Kara) on this host. Use wh
 1. Edit `~/.openclaw/cron/jobs.json`: set `payload.model` (primary) + `payload.fallbacks[]` + `payload.timeoutSeconds: 600`. Keep at least 2 free fallbacks.
 2. If touching `openclaw.json`, edit the **correct schema**:
    - ✅ `models.providers.<provider>.models[].contextWindow` / `maxTokens` — per-provider, per-model
-   - ✅ `agents.defaults.compaction.reserveTokensFloor` — e.g. `50000` for Compile scanning `raw/`
+   - ❌ `agents.defaults.compaction.reserveTokensFloor` — RETIRED in 2026.9.3 (stripped silently by config migrations). Replacement lives OUTSIDE openclaw.json: write `{"compaction":{"reserveTokens":50000}}` into `~/.openclaw/agents/<id>/agent/settings.json` for each agent scanning big contexts (here: `main` + `kara`)
    - ❌ `agents.defaults.models.<model>: {contextWindow}` — **invalid**, gateway rejects with `Unrecognized keys`
 3. Backup first: `cp openclaw.json openclaw.json.bak-$(date +%Y%m%d)`
 4. Restart gateway: `systemctl --user restart openclaw-gateway` → `systemctl --user is-active openclaw-gateway` → wait 6–8s before `openclaw cron run <id>` (avoids `1006 abnormal closure`)

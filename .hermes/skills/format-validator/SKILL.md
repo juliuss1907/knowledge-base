@@ -295,6 +295,8 @@ After generating the report, compare today's results against the most recent **A
 
 **ERROR-resolution-only variant (observed 2026-09-01):** the total can drop (−3, 399→396) ENTIRELY from Fix Agent resolving the prior day's ERRORs (3→0) while the WARNING backlog is byte-identical — 396→396, individual/group split flat, unique targets flat, Top-20 identical, and 0 new wiki files (no compilation). This is the 'yesterday's actionable errors got fixed, nothing else moved' reading. Do NOT report the −3 as backlog draining — the forward-reference backlog didn't move; the drop is the ERROR backlog clearing. Distinct from the 08-31 variant (where the drop was a resolved WARNING category + new debt offset); here it's pure ERROR resolution with zero other churn. Verify: git log --diff-filter=A since prior run = 0 wiki files, prior ERRORs gone (renames/sections via git log -p or live grep), Top-20 identical to prior approved report.
 
+**Long-gap run variant (observed 2026-09-08):** scheduled runs can be skipped for several days (09-03→09-07 skipped; next run 09-08) — the delta baseline is still the most recent prior report regardless of calendar distance; do not manufacture a weekly aggregate. After a gap, explain flatness by checking pipeline ACTIVITY, not just file counts: (1) `git log --diff-filter=A -- wiki/concepts wiki/sources` since the prior run (0 = nothing compiled), (2) same on `raw/` (0 = nothing ingested — Compile Agent had nothing to process, so exact-zero-flat is EXPECTED, not suspicious), (3) `--diff-filter=M` on `wiki/tag/` to detect Index Agent regeneration during the gap — if tag files were regenerated, spot-check for unquoted-`parent` regressions (the [SPEC CONFLICT] can silently relapse; verify via the validator's tag-file check output). KB growth during an idle pipeline is typically Index Agent topic pages for previously compiled clusters — auto-generated aggregators contributing 0 broken wikilinks, consistent with the KB-growth flat variant.
+
 Include a delta summary table at the top of the report so Julius can see at a glance whether the KB is getting cleaner or accumulating debt.
 
 **Baseline location:** the previous day's report lives under `wiki/reviews/archive/YYYY-MM/` (Fix Agent archives applied reports), not in `wiki/reviews/` root — `ls wiki/reviews/archive/<YYYY-MM>/<prev-date>_format-report.md` first, don't assume it's still in the reviews folder.
@@ -560,6 +562,20 @@ Files checked: 815
 
 This mirrors the dual-format pattern already required in the report (bold for display + plain-text for regex extraction).
 
+**Copy the entry template verbatim (observed 2026-09-08):** composing the entry from prose produced a duplicated `**Files checked:**` line (written 4×) that cost 3 patch round-trips to clean on an append-only log. Use this exact shape — exactly ONE bold count line followed by ONE plain-text count line, nothing else:
+
+```markdown
+## YYYY-MM-DD HH:MM:SS — Format validation
+
+- **Files checked:** N (X concepts + Y sources + Z indexes + T topics)
+Files checked: N
+- Issues found: N (A ERROR, B WARNING, C INFO)
+- Report: wiki/reviews/YYYY-MM-DD_format-report.md
+- Top violations: broken wikilinks (forward-refs) — I individual + G groups, U unique targets
+```
+
+Prepend by anchoring the patch on the newest sibling heading (never the file header); read the whole file first (a limit-paginated read triggers the partial-read `_warning` on patch), then grep the first ~20 lines after writing to confirm both your heading and the sibling's heading are intact.
+
 **Observed case (2026-07-21):** verify_integrity.py returned `MEMORY.md: file count mismatch — expected 815` because only `**Files checked:** 815` was present. Adding the plain-text line resolved it.
 
 ### _action-required.md patch tool failures due to non-unique table rows
@@ -567,6 +583,8 @@ This mirrors the dual-format pattern already required in the report (bold for di
 The Summary table in `_action-required.md` has repeated patterns across rows (e.g., `| 🔍 PENDING |` appears in every pending row). When using `patch` to add a new table row, short `old_string` patterns will match multiple rows and fail.
 
 **Workaround:** Use `write_file` to rewrite the entire file when making structural changes. For simple edits (like updating timestamps), `patch` with unique context (e.g., `**Last updated:** OLD_DATE`) is fine. For adding table rows or section entries, prefer `write_file` after reading the full file.
+
+**Refinement (observed 2026-09-08):** targeted `patch` with a UNIQUE anchor is strictly safer than `write_file` for insertions — a unique-anchor patch cannot drop sibling content by construction, while a full rewrite can. All three structural edits of that run (new summary-table row, new Pending Reports section, `Last updated` line) went in as separate targeted patches: the table row anchored on the full existing sibling row text (unique via its Action column), the section on `## Pending Reports` + the sibling heading line. Post-write grep confirmed both pending rows survived. Reserve full rewrite for edits where no unique anchor exists.
 
 ### Level field contradicts filesystem path → wrong spec routing
 

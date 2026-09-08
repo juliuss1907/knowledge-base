@@ -430,3 +430,10 @@ Files checked: 891
 - Fix: ghi `24.15.0` vào ~/.nvm/alias/default + xóa dòng prepend /usr/bin trong ~/.bashrc (thay bằng comment NOTE).
 - Verified interactive shell: node → v24.15.0, openclaw → 2026.7.1-2 (0790d9f). Gateway service active, HTTP 200 :18789 (không affected — service dùng path tuyệt đối).
 - Constraint giữ nguyên: KHÔNG chạy `openclaw configure` (overwrite reserveTokensFloor→20000, strip contextWindow).
+
+## 2026-09-08 — Node + OpenClaw upgrade
+- node nvm v24.15.0 → v24.20.0 (default alias), migrate global packages (openclaw 2026.9.3, pm2 7.0.4, clawhub 0.23.3, mcporter 0.13.10). npm mới chặn install-scripts → cần `npm i -g --allow-scripts=openclaw,@google/genai,koffi,tree-sitter-bash,protobufjs`.
+- Gateway service ExecStart re-point sang v24.20.0. Lần start đầu fail 78: state DB schema migration (audit-events-v2) → backup sqlite → `openclaw doctor --fix` OK.
+- **doctor --fix ĐÃ XÓA `agents.defaults.compaction.reserveTokensFloor`** — key RETIRED trong 2026.9.3 (legacy migration "runtime.tuning-knobs-purge"). Cơ chế mới: `compaction.reserveTokens` trong per-agent `~/.openclaw/agents/<id>/agent/settings.json` (global scope), default floor 20000 (2e4), MAX_COMPACTION_RESERVE_RATIO 0.25.
+- Đã ghi `{"compaction":{"reserveTokens":50000}}` vào settings.json của main + kara. contextWindow các providers giữ nguyên. Backups: openclaw.json.bak-20260902, openclaw.sqlite.bak-20260902, service.bak-20260902.
+- Verified: gateway active, HTTP 200 :18789, doctor complete, openclaw.json valid.

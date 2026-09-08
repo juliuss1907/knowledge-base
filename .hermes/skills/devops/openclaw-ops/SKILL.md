@@ -12,6 +12,7 @@ Class-level skill for running and debugging OpenClaw (Kara) on this host. Use wh
 - `KB Compile Daily` / `KB Index Daily` fail with `Context overflow`, `FallbackSummaryError`, 401/403/410/429
 - Need to change cron primary/fallback models, timeouts, or compaction floor
 - `openclaw configure` wizard overwrote manual edits
+- `openclaw: command not found` in terminal, or openclaw runs but its version gate rejects the Node it resolved (`current: v24.14.1` style error) — see Workflow 6
 - Gateway shows `invalid config: Unrecognized keys` or `gateway closed (1006)`
 - Probing which `ollama`/`9router`/`api-box` models are alive, free, or subscription-gated
 
@@ -79,8 +80,19 @@ curl -s http://localhost:20128/v1/models | python3 -m json.tool | head -n 40
 2. Fix: edit `~/.config/systemd/user/openclaw-gateway.service` — change `ExecStart=/usr/bin/node` to the nvm Node that satisfies engines (`/home/julius/.nvm/versions/node/v24.15.0/bin/node`)
 3. `systemctl --user daemon-reload && systemctl --user restart openclaw-gateway`
 4. Verify: `is-active` + port LISTEN (`ss -tlnp | grep 18789`) + HTTP probe `curl -s -m 5 http://127.0.0.1:18789`
-5. Cleanup (Julius runs, needs sudo): `sudo npm rm -g openclaw` (removes root-owned duplicate in `/usr/lib` that causes EACCES on future updates) + `nvm alias default <version>`
+5. Cleanup: `nvm alias default <version>` is agent-doable (writes `~/.nvm/alias/default`, no sudo) — apply it immediately when the alias is wrong; deferring it as a "user action" left the CLI broken for days (see Workflow 6). Only `sudo npm rm -g openclaw` (removes root-owned duplicate in `/usr/lib` that causes EACCES on future updates) needs Julius.
 6. Note: updater auto-selects "managed service Node" when runnables differ; after step 2 the service and nvm agree, so updates land cleanly
+
+## Workflow 6 — CLI "command not found" / wrong Node in interactive shell
+
+Symptom: `openclaw: command not found` in a fresh terminal, or binary found but the version gate rejects it: `Node.js >=24.15.0 <25 ... required (current: v24.14.1)`. Gateway unaffected (service `ExecStart` uses absolute paths) — this is purely interactive-shell PATH resolution. Observed 2026-09-02 as two stacked causes.
+
+1. Locate binaries: `ls ~/.nvm/versions/node/*/bin/openclaw` — openclaw may exist in only ONE nvm version
+2. Check alias: `cat ~/.nvm/alias/default` — a bare major (`24`) resolves to the newest installed minor, which may lack openclaw
+3. Check shadowing: `bash -ic 'which node; node --version'` and `grep -n "PATH=" ~/.bashrc` — an `export PATH=/usr/bin:$PATH` line puts system node (often below the engines floor) ahead of nvm
+4. Fix: `echo <version> > ~/.nvm/alias/default` (agent-doable, no sudo) + remove/comment the `/usr/bin` PATH prepend in `~/.bashrc`
+5. Verify: `bash -ic 'which openclaw && openclaw --version'` — must print the nvm path + expected version (e.g. 2026.7.1-2)
+6. Reminder: after this fix `openclaw configure` becomes runnable — do NOT run it (Workflow 4 warning stands)
 
 ## Pitfalls
 
@@ -90,6 +102,7 @@ curl -s http://localhost:20128/v1/models | python3 -m json.tool | head -n 40
 - `google/gemma-4-31b-it` and `9router/oc/mimo-v2.5-free` rate-limit is transient — keep them as primary/candidate but ensure free ollama fallbacks behind them.
 - OpenCode Zen models are plugin-supplied — their `contextWindow` is not in `openclaw.json` at all.
 - Two openclaw installs can coexist: root-owned `/usr/lib/node_modules/openclaw` (from a past `sudo npm -g`) and the user's nvm copy. Shell PATH may resolve the system one; `openclaw update` then tries to write `/usr/lib` → EACCES. Remove the system copy rather than updating it with sudo.
+- PATH shadowing vs service health are independent: the systemd gateway runs fine on absolute paths while every interactive shell resolves the wrong Node. Always diagnose the two separately (`systemctl --user is-active` vs `bash -ic 'which node'`).
 - OpenClaw treats any directory containing `AGENTS.md` as a workspace and writes `openclaw-workspace-state.json` into CWD — KB root will keep regenerating this file. Fix at the git layer (`.gitignore`), not by deleting the file; see knowledge-base-validation hygiene table.
 
 ## Verification

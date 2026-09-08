@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-08 23:35 (Format 09-08 — pending, 0 net change vs 09-02; Hygiene 09-08 — pending)
+**Last updated:** 2026-09-08 23:48 (Hygiene 09-08 evening re-scan 23:31 — addendum: root json migrated by runtime 20:42, NEW `.migrated.*` marker committed b5e519fc; Format 09-08 — pending)
 
 ---
 
@@ -16,7 +16,7 @@
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-08 | Format | 398 (0E+398W) | 0 net change vs 09-02 — +4 topic pages (0 broken links); forward-refs only. Review [wiki/reviews/2026-09-08_format-report.md](2026-09-08_format-report.md) |
-| 🔍 PENDING | 09-08 | Hygiene | 12 (2E+10W) | Fresh run sau 6 ngày — 100% carry-forward: root json lần 12 + HEARTBEAT lần 8; 2 repos casing + 8 backup files defer Fix Agent |
+| 🔍 PENDING | 09-08 | Hygiene | 12 (2E+10W) | Addendum 23:31 — root json MIGRATED bởi runtime 20:42 (streak 12 kết thúc); MỚI: `.migrated.*` marker đã commit `b5e519fc` cần gitignore+rm --cached; HEARTBEAT lần 9 (dangling); 2 repos casing + 8 backup files defer Fix Agent |
 | ✅ APPLIED | 09-02 | Format | 398 (0E+398W) | Applied 2026-09-02 — forward-refs only (prompt-injection 2 refs); no action needed |
 | ✅ APPLIED | 09-02 | Output | 1 (0E+1W+0I) | Applied 2026-09-02 — forward-ref [[prompt-injection]] defer (no raw source); rest clean |
 | ✅ APPLIED | 09-02 | Hygiene | 12 (2E+10W) | Applied 2026-09-02 — deferred: root json lần 11 + HEARTBEAT lần 7 KHÔNG xóa; repos casing MengTo/PostHog + 8 backup files defer Fix Agent |
@@ -98,11 +98,12 @@
 - **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất. 2 forward-refs `[[prompt-injection]]` (kể từ 09-02) chờ source hoặc Fix Agent bỏ link.
 - **Status:** pending
 
-### 🔍 Hygiene Inspection — 2026-09-08 (08:15) — PENDING
+### 🔍 Hygiene Inspection — 2026-09-08 (08:15 + addendum 23:31) — PENDING
 
 - **Report:** `wiki/reviews/2026-09-08_hygiene-report.md`
 - **Summary:** 56020 paths checked (+9 so với 09-02). 12 issues: 2 ERROR, 10 WARNING, 0 INFO. Fresh run sau 6 ngày gap (report hygiene trước: 09-02; runs bị skip 09-03→09-07). 0 file raw mới; wiki/ chỉ +9 paths. 100% carry-forward, 0 issue mới: (1) `openclaw-workspace-state.json` lần 12 liên tiếp (08-22→09-08, git sạch nhờ .gitignore — pitfall #9); (2) `wiki/HEARTBEAT.md` lần 8 liên tiếp (08-26→09-08, symlink, process leak). WARNING: 2 repos casing (`MengTo_threeui`, `PostHog_posthog`) + 8 backup files trong `wiki/drafts/` — cả hai nhóm deferred từ run 09-02, Fix Agent chưa action.
-- **Actions needed:** KHÔNG xóa `openclaw-workspace-state.json` lần 13 (pitfall #9). KHÔNG re-escalate 2 orphan đã biết. Fix Agent 2 items outstanding từ 09-02: (1) rename 2 repos files lowercase owner (`mengto_threeui`, `posthog_posthog`); (2) dọn 8 backup files trong `wiki/drafts/` + cập nhật Fix Agent SKILL.md backup policy (đặt backup ngoài `wiki/drafts/` hoặc dọn sau khi rename verified).
+- **Addendum (23:31 re-scan, 56025 paths — vẫn 12 issues nhưng 2 thay đổi trọng yếu):** Lúc 20:42 OpenClaw runtime **tự migrate** root `openclaw-workspace-state.json` → `~/.openclaw/workspace-state.json` — streak 12 run kết thúc mà không cần ai xóa (pitfall #9 dự báo đúng). Hệ quả: (1) **Issue MỚI** — migration marker `openclaw-workspace-state.json.migrated.<hash>.<uuid>` nằm lại root, KHÔNG gitignored và **đã bị commit** (`b5e519fc` 20:45): cần `.gitignore` pattern `openclaw-workspace-state.json.migrated.*` + `git rm --cached`; (2) `wiki/HEARTBEAT.md` giờ **dangling symlink** (target `~/.openclaw/HEARTBEAT.md` biến mất) — lần 9 liên tiếp, xóa giờ an toàn; (3) root `HEARTBEAT.md` symlink cũng biến mất — compliant. 10 WARNING naming carry-forward nguyên trạng.
+- **Actions needed:** (1) Approve fix migration marker: `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` + commit (marker đang pollute repo). (2) `wiki/HEARTBEAT.md` dangling — Fix Agent có thể xóa; root fix vẫn là sync tool. (3) KHÔNG re-escalate orphans đã biết. (4) Fix Agent 2 items outstanding từ 09-02: (a) rename 2 repos files lowercase owner (`mengto_threeui`, `posthog_posthog`); (b) dọn 8 backup files trong `wiki/drafts/` + cập nhật Fix Agent SKILL.md backup policy (đặt backup ngoài `wiki/drafts/` hoặc dọn sau khi rename verified).
 - **Status:** pending
 
 ### ✅ Format Validation — 2026-09-02 — APPLIED

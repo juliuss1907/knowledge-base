@@ -118,10 +118,12 @@ Full sequence executed 2026-09-08 (v24.15.0→v24.20.0, openclaw 2026.7.1-2→20
 - Two openclaw installs can coexist: root-owned `/usr/lib/node_modules/openclaw` (from a past `sudo npm -g`) and the user's nvm copy. Shell PATH may resolve the system one; `openclaw update` then tries to write `/usr/lib` → EACCES. Remove the system copy rather than updating it with sudo.
 - PATH shadowing vs service health are independent: the systemd gateway runs fine on absolute paths while every interactive shell resolves the wrong Node. Always diagnose the two separately (`systemctl --user is-active` vs `bash -ic 'which node'`).
 - OpenClaw treats any directory containing `AGENTS.md` as a workspace and writes `openclaw-workspace-state.json` into CWD — KB root will keep regenerating this file. Fix at the git layer (`.gitignore`), not by deleting the file; see knowledge-base-validation hygiene table.
+- `openclaw doctor --fix` mutates `openclaw.json`. After every doctor run: `diff <(python3 -m json.tool <backup>) <(python3 -m json.tool ~/.openclaw/openclaw.json)`. Retired-key stripping is silent — find a stripped key's replacement by grepping the package dist: retired paths in `RETIRED_TUNING_PATHS`/`RETIRED_AGENT_TUNING_PATHS` in `dist/legacy-*.mjs`; replacement getters in `dist/resource-loader-*.mjs` (e.g. `getCompactionReserveTokens()` → `settings.compaction?.reserveTokens ?? 16384`); new default floor `2e4` (=20000) in `dist/agent-settings-*.mjs` — exactly the value manual tuning must override. Effective reserve = min(max(reserveTokens, floor), 25% of contextWindow).
 
 ## Verification
 
 - After patch: `python3 -c "import json,pathlib; d=json.loads(pathlib.Path('~/.openclaw/openclaw.json').expanduser().read_text()); print(d['agents']['defaults']['compaction']); print([(m['id'],m['contextWindow']) for m in d['models']['providers']['9router']['models']])"`
+- After patch (2026.9.3+): `cat ~/.openclaw/agents/*/agent/settings.json` must show `"reserveTokens": 50000` — the floor no longer lives in openclaw.json at all
 - After restart: `systemctl --user status openclaw-gateway | head` shows no `invalid config` line
 - After run: `openclaw cron runs --id <id>` latest `status: ok` with `model/provider` populated (not `None/None`)
 
@@ -129,3 +131,4 @@ Full sequence executed 2026-09-08 (v24.15.0→v24.20.0, openclaw 2026.7.1-2→20
 
 - `references/model-failures.md` — error transcript catalog + liveness matrix from 2026-08-21 session
 - `references/gateway-schema.md` — valid vs invalid config paths (with rejected-keys example)
+- `references/version-upgrades.md` — upgrade log + retired-key dist-archaeology notes (2026-09-08: v24.20.0 / 2026.9.3)

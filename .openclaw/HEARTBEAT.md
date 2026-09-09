@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-09-09 12:15 — ✅ ỔN ĐỊNH
+
+| Check | Value | Δ | Note |
+|---|---|---|---|
+| **wiki/concepts/** | 571 | = | 571/571 source-links OK ✅ |
+| **wiki/sources/** | 196 | = | — |
+| **wiki/tag/** | 25 | = | 24 tag indexes + tag.md |
+| **wiki/topic/** | 235 | = | — |
+| **wiki/drafts/** | 1 | = | analysis-2026-advice.md (không phải backup) |
+| **wiki/reviews/archive/** | 15 | = | 15 backup files归档 |
+| **Repos uppercase** | 0 | = | MengTo/PostHog renamed lowercase ✅ |
+| Pending Hermes reports | 2 | = | Format 09-08 (398W/0E) + Hygiene 09-08 (2E+10W) — forward-refs + carry-forward |
+| Inbox | Clean | = | — |
+| Infrastructure | OK | = | Uptime 1d4h, disk 21%, load 0.79 |
+
+Không thay đổi so với 11:15. Fix Agent work đã hoàn tất. 2 pending reports từ 09-08 chờ Julius review. 2 known carry-forwards: state json orphan + HEARTBEAT symlink — chờ process-level fix.
+
+HEARTBEAT_OK
+
+---
+
 ## 2026-09-09 11:15 — ✅ ỔN ĐỊNH
 
 | Check | Value | Δ | Note |

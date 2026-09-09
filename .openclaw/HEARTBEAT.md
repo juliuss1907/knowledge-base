@@ -4,10 +4,40 @@
 
 ---
 
+## 2026-09-09 11:15 — ✅ ỔN ĐỊNH
+
+| Check | Value | Δ | Note |
+|---|---|---|---|
+| **wiki/concepts/** | 571 | = | All have source-links ✅ |
+| **wiki/sources/** | 196 | = | — |
+| **wiki/tag/** | 25 | = | 24 tag indexes + tag.md |
+| **wiki/topic/** | 235 | = | — |
+| **wiki/drafts/** | 1 | ▼ -15 | ✅ Fix Agent archived 15 backups → archive |
+| **wiki/reviews/archive/** | 15 | ▲ +15 | 15 backup files归档 |
+| **Repos uppercase** | 0 | ▼ -2 | ✅ MengTo/PostHog renamed lowercase |
+| Pending Hermes reports | 2 | = | Format 09-08 (398W/0E) + Hygiene 09-08 (2E+10W) — forward-refs + carry-forward |
+| Inbox | Clean | = | — |
+| Infrastructure | OK | = | Uptime 1d3h, disk 19%, load ~0.5 |
+
+Fix Agent applied deferred fixes from hygiene 09-01/09-02:
+- ✅ 2 repos files renamed (uppercase owner → lowercase)
+- ✅ Source frontmatter refs updated (src_threeui, src_posthog)
+- ✅ 15 backup files archived from wiki/drafts/ → wiki/reviews/archive/2026-09/
+- ✅ Ingest SKILL.md example updated (PostHog_posthog → lowercase)
+- ✅ Fix Agent SKILL.md backup policy updated (→ archive, not drafts)
+
+2 pending reports from 09-08 still await Julius review (Format + Hygiene). Hygiene 09-08 repos casing + backup file issues now resolved by Fix Agent above.
+
+2 known carry-forwards: state json orphan (migrated) + HEARTBEAT symlink (process leak). Neither needs KB-level fix.
+
+HEARTBEAT_OK
+
+---
+
 ⚠️ **HEARTBEAT_OK nhưng có 1 vấn đề: KB Index Agent fail 6 lần liên tiếp**
 
 | Check | Status | Details |
-|-------|--------|---------|
+|-------|--------|--------|
 | Raw backlog | 0 | Không có raw file nào unprocessed |
 | wiki/concepts | 571 | Giữ nguyên, 571/571 có source refs |
 | wiki/sources | 196 | Giữ nguyên |

@@ -1,8 +1,8 @@
 model:
-  default: glm-5.3-flash
+  default: mimo-v2.5
   provider: custom
-  base_url: https://api.b.ai/v1
-  api_key: sk-3zmwicui68owdne6ygx2jk39pjl51jnm
+  base_url: https://token-plan-sgp.xiaomimimo.com/v1
+  api_key: tp-s3419mqq7tr85hqf22nwnae8l4gzrvvmq4nwn1am31uj4h79
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -762,6 +762,10 @@ custom_providers:
     base_url: https://api.b.ai/v1
     api_key: sk-3zmwicui68owdne6ygx2jk39pjl51jnm
     model: glm-5.3-flash
+  - name: Xiaomi Mimo Subcription
+    base_url: https://token-plan-sgp.xiaomimimo.com/v1
+    api_key: tp-s3419mqq7tr85hqf22nwnae8l4gzrvvmq4nwn1am31uj4h79
+    model: mimo-v2.5
 plugins:
   enabled: []
 known_plugin_toolsets:

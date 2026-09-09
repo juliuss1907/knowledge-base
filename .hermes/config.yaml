@@ -767,7 +767,7 @@ custom_providers:
     api_key: tp-s3419mqq7tr85hqf22nwnae8l4gzrvvmq4nwn1am31uj4h79
     model: mimo-v2.5
 plugins:
-  enabled: []
+  enabled: [rtk-rewrite]
 known_plugin_toolsets:
   cli:
     - spotify

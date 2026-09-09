@@ -53,6 +53,31 @@ Fix Agent applied deferred fixes from hygiene 09-01/09-02:
 
 HEARTBEAT_OK
 
+## 2026-09-09 13:13 — ✅ ỔN ĐỊNH
+
+| Check | Value | Δ | Note |
+|---|---|---|---|
+| **wiki/concepts/** | 571 | = | All source-links OK ✅ |
+| **wiki/sources/** | 196 | = | — |
+| **wiki/tag/** | 25 | = | 24 indexes + tag.md |
+| **wiki/topic/** | 235 | = | — |
+| **wiki/drafts/** | 1 | = | analysis-2026-advice.md |
+| **wiki/reviews/archive/** | 15 | = | — |
+| **Repos uppercase** | 0 | = | Fixed ✅ |
+| Pending Hermes | 2 | = | Format 09-08 + Hygiene 09-08 |
+| Concept no-source | 0 | = | — |
+| Infrastructure | OK | = | Uptime 1d5h, disk 21%, load 0.77 |
+
+Không thay đổi so với 13:13. HEARTBEAT_OK
+
+## 2026-09-09 13:28 — ✅ ỔN ĐỊNH
+
+Không thay đổi so với 13:13. C:571 S:196 T:25 TP:235 D:1 A:15 RU:0 P:2 CL:0. Uptime 1d5h, disk 21%, load 0.58. HEARTBEAT_OK
+
+## 2026-09-09 13:51 — ✅ ỔN ĐỊNH
+
+Không thay đổi so với 13:28. C:571 S:196 T:25 TP:235 D:1 A:15 RU:0 P:2 CL:0. Uptime 1d5h, disk 21%, load 0.38. HEARTBEAT_OK
+
 ---
 
 ⚠️ **HEARTBEAT_OK nhưng có 1 vấn đề: KB Index Agent fail 6 lần liên tiếp**

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: code-visualization
 auto_generated: true
-last_updated: 2026-09-03
+last_updated: 2026-09-09
 ---
 
 # Topic: code-visualization
 
 Auto-generated index of all content with topic `code-visualization`.
 
-Last updated: 2026-09-03 11:00:46
+Last updated: 2026-09-09 21:02:05
 
 ---
 
@@ -20,4 +20,9 @@ Last updated: 2026-09-03 11:00:46
 - [[code-visualization]] — main: #tech, sub: [#tools, #coding]
 
 ## Sources (0)
+
+
+## Related topics
+
+_No related topics._
 

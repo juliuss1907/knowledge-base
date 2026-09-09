@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: decision-making-frameworks
 auto_generated: true
-last_updated: 2026-09-03
+last_updated: 2026-09-09
 ---
 
 # Topic: decision-making-frameworks
 
 Auto-generated index of all content with topic `decision-making-frameworks`.
 
-Last updated: 2026-09-03 11:00:46
+Last updated: 2026-09-09 21:02:05
 
 ---
 
@@ -24,4 +24,9 @@ Last updated: 2026-09-03 11:00:46
 - [[type-1-vs-type-2-decisions]] — main: #productivity, sub: [#psychology]
 
 ## Sources (0)
+
+
+## Related topics
+
+_No related topics._
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-workflow-optimization
 auto_generated: true
-last_updated: 2026-09-03
+last_updated: 2026-09-09
 ---
 
 # Topic: hermes-workflow-optimization
 
 Auto-generated index of all content with topic `hermes-workflow-optimization`.
 
-Last updated: 2026-09-03 11:00:46
+Last updated: 2026-09-09 21:02:05
 
 ---
 
@@ -26,3 +26,8 @@ Last updated: 2026-09-03 11:00:46
 ## Sources (1)
 
 - [[src_hermes-analyst-workflow-essentials]] — main: #ai, sub: [#tools, #automation, #tutorial]
+
+## Related topics
+
+_No related topics._
+

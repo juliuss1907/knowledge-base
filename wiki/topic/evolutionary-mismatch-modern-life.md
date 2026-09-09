@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: evolutionary-mismatch-modern-life
 auto_generated: true
-last_updated: 2026-09-03
+last_updated: 2026-09-09
 ---
 
 # Topic: evolutionary-mismatch-modern-life
 
 Auto-generated index of all content with topic `evolutionary-mismatch-modern-life`.
 
-Last updated: 2026-09-03 11:00:46
+Last updated: 2026-09-09 21:02:05
 
 ---
 
@@ -25,3 +25,8 @@ Last updated: 2026-09-03 11:00:46
 ## Sources (1)
 
 - [[src_were-not-supposed-to-live-like-this]] — main: #productivity, sub: [#opinion, #research]
+
+## Related topics
+
+_No related topics._
+

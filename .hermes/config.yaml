@@ -1,8 +1,9 @@
 model:
-  default: mimo-v2.5
+  default: xiaomi-mimo/mimo-v2.5
   provider: custom
-  base_url: https://token-plan-sgp.xiaomimimo.com/v1
-  api_key: tp-s3419mqq7tr85hqf22nwnae8l4gzrvvmq4nwn1am31uj4h79
+  base_url: http://localhost:20128/v1
+  api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
+  api_mode: chat_completions
 providers: {}
 fallback_providers: []
 credential_pool_strategies: {}
@@ -756,7 +757,7 @@ custom_providers:
   - name: 9router
     base_url: http://localhost:20128/v1
     api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
-    model: Knowledge-base
+    model: xiaomi-mimo/mimo-v2.5
     api_mode: chat_completions
   - name: b.ai
     base_url: https://api.b.ai/v1
@@ -767,7 +768,8 @@ custom_providers:
     api_key: tp-s3419mqq7tr85hqf22nwnae8l4gzrvvmq4nwn1am31uj4h79
     model: mimo-v2.5
 plugins:
-  enabled: [rtk-rewrite]
+  enabled:
+    - rtk-rewrite
 known_plugin_toolsets:
   cli:
     - spotify

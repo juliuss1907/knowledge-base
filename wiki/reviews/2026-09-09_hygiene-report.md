@@ -65,15 +65,49 @@
 
 ---
 
-## Issues 5-7: Backup files in archive/2026-09/ — RESOLVED (moved from drafts/)
+## Issue 5: memory/ sub-path — unclassified path (MỚI)
 
-**Path:** `wiki/reviews/archive/2026-09/*-backup-*.md` (15 files, 12 truncated from report limit)
+**Path:** memory/.dreams/session-corpus/2026-09-08.txt
 **Severity:** WARNING
-**Category:** Naming
-**Issue:** Backup files moved from `wiki/drafts/` to `wiki/reviews/archive/2026-09/` by Fix Agent — draft naming violations RESOLVED, but archive files still flagged by scanner (false positive: scanner applies report naming convention to all archive files)
-**Current:** 15 backup files in archive (6 repos + 2 src_ + 4 older + 1 temp)
-**Expected:** Archive naming YYYY-MM-DD_<type>-report.md only applies to actual reports
-**Suggested fix:** These are backup artifacts, not reports. Archive naming convention false positive. Consider adding backup file exclusion to scan script or moving backups out of `wiki/reviews/archive/`.
+**Category:** Path
+**Issue:** Path not classified by any rule
+**Current:** File trong `memory/.dreams/session-corpus/` — OpenClaw dreaming session corpus
+**Expected:** Agent-owned content应在 `.hermes/` hoặc `.openclaw/`
+**Suggested fix:** Có liên quan Issue 2 — redirect process output path cho toàn bộ `memory/` folder
+
+---
+
+## Issue 6: memory/ sub-path — unclassified path (MỚI)
+
+**Path:** memory/dreaming/deep/2026-09-09.md
+**Severity:** WARNING
+**Category:** Path
+**Issue:** Path not classified by any rule
+**Current:** File trong `memory/dreaming/deep/` — OpenClaw deep sleep dreaming log
+**Expected:** Agent-owned content应在 `.hermes/` hoặc `.openclaw/`
+**Suggested fix:** Có liên quan Issue 2 — redirect process output path
+
+---
+
+## Issue 7: memory/ sub-path — unclassified path (MỚI)
+
+**Path:** memory/dreaming/light/2026-09-09.md
+**Severity:** WARNING
+**Category:** Path
+**Issue:** Path not classified by any rule
+**Current:** File trong `memory/dreaming/light/` — OpenClaw light dreaming log
+**Expected:** Agent-owned content应在 `.hermes/` hoặc `.openclaw/`
+**Suggested fix:** Có liên quan Issue 2 — redirect process output path
+
+---
+
+## Archive naming false positive (không report)
+
+**Path:** `wiki/reviews/archive/2026-09/*-backup-*.md` (15 files)
+**Severity:** INFO
+**Category:** Naming (false positive)
+**Issue:** 15 backup files trong archive flagged "Archived report naming" — scanner áp report naming convention cho tất cả archive files. Đây là backup artifacts, không phải reports.
+**Suggested fix:** Optional: update scan script archive exclusion cho non-report files.
 
 ---
 

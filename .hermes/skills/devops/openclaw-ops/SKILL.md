@@ -109,6 +109,30 @@ Full sequence executed 2026-09-08 (v24.15.0→v24.20.0, openclaw 2026.7.1-2→20
 6. If first start exits **status 78** with `OpenClaw state database schema migration required ... gateway.maintenance_required`: the package crossed a schema boundary. Backup sqlite (if not yet) → `openclaw doctor --fix` (required here, DB-backed) → **diff openclaw.json against the pre-upgrade backup** — doctor strips retired keys and you must restore equivalents via the new mechanism (for the compaction floor: per-agent `settings.json`, see Workflow 2)
 7. Verify: `is-active` + HTTP 200 on :18789 + fresh `bash -ic 'openclaw --version'` + `openclaw doctor` (no blockers)
 
+## Workflow 8 — Cron Token/Usage Accounting (Hermes + OpenClaw)
+
+Two separate stores cover the two cron systems; neither cross-references the other.
+
+**Hermes cron (validators etc.)** — `~/knowledge-base/.hermes/state.db` (SQLite), table `sessions`:
+- Filter `WHERE source='cron'`; job ID is embedded in the session id (`cron_<jobid>_<timestamp>`)
+- Per-session totals live directly on the row: `input_tokens`, `output_tokens`, `cache_read_tokens`, `cache_write_tokens`, `reasoning_tokens`, `model`
+- One aggregate query answers avg + worst per job:
+```sql
+SELECT substr(id,6,16) job, COUNT(*) runs,
+  SUM(input_tokens), SUM(output_tokens), SUM(cache_read_tokens),
+  ROUND(AVG(input_tokens)), MAX(input_tokens), MAX(output_tokens)
+FROM sessions WHERE source='cron' GROUP BY job;
+```
+- Caveat: cache_read dominates (~65% here); report it separately from fresh input, they bill differently. Empty in/out with `message_count=1` = provider failed before any token was spent (e.g. 09-03 = 0 tokens).
+
+**OpenClaw cron (Kara jobs, heartbeat)** — `~/.openclaw/agents/main/agent/openclaw-agent.sqlite`:
+- Totals are NOT pre-aggregated. Usage sits inside per-message events: `transcript_events.event_json` → `json_extract(event_json,'$.message.usage.input' / '.output' / '.cacheRead')` (+ `$.message.model`)
+- Map sessions to jobs via `session_nodes` (`created_via='cron'`, `label` like `Cron: KB Compile Daily` / `Automation: ...`, join on `current_session_id`)
+- Old sessions may predate usage logging (all zeros) — those runs are unmeasurable, don't invent numbers
+- Job definitions (primary model, fallbacks, timeout) live in `~/.openclaw/cron/jobs.json` — or `.migrated` suffix after a package upgrade; check both
+
+**Falling back to usage fields that are all 0** (provider strips usage, or plugin model like `delivery-mirror`) is normal; use what's real, state the gap. See `references/cron-usage-accounting.md` for the 2026-09-09 baseline numbers (avg/day ~3.5M tokens, worst/day ~8.9M incl. cache-read).
+
 ## Pitfalls
 
 - `cron runs` JSON shape is `{entries:[], total, hasMore}`, not `{runs:[]}` — parsing `runs` yields 0.
@@ -133,3 +157,4 @@ Full sequence executed 2026-09-08 (v24.15.0→v24.20.0, openclaw 2026.7.1-2→20
 - `references/model-failures.md` — error transcript catalog + liveness matrix from 2026-08-21 session
 - `references/gateway-schema.md` — valid vs invalid config paths (with rejected-keys example)
 - `references/version-upgrades.md` — upgrade log + retired-key dist-archaeology notes (2026-09-08: v24.20.0 / 2026.9.3)
+- `references/cron-usage-accounting.md` — measured token baselines for the cron pipeline (avg vs worst-case, 2026-09-09)

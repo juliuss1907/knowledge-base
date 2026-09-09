@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-09 23:15 (Format 09-09 — pending)
+**Last updated:** 2026-09-09 23:31 (Hygiene 09-09 — pending)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-09 | Format | 398 (0E+398W) | 0 net change vs 09-08 — +2 tag files regenerated (0 broken links); pipeline idle day 7. Review [wiki/reviews/2026-09-09_format-report.md](2026-09-09_format-report.md) |
+| 🔍 PENDING | 09-09 | Hygiene | 7 (4E+3W) | MỚI: DREAMS.md root (git-tracked), memory/ folder populated (dreaming); RESOLVED: repos casing +8 backup files; CARRY: migration marker + HEARTBEAT broken symlink. Review [wiki/reviews/2026-09-09_hygiene-report.md](2026-09-09_hygiene-report.md) |
 | 🔍 PENDING | 09-09 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 7). 0 issues. Review [wiki/reviews/2026-09-09_output-report.md](2026-09-09_output-report.md) |
 | 🔍 PENDING | 09-08 | Format | 398 (0E+398W) | 0 net change vs 09-02 — +4 topic pages (0 broken links); forward-refs only. Review [wiki/reviews/2026-09-08_format-report.md](2026-09-08_format-report.md) |
 | 🔍 PENDING | 09-08 | Hygiene | 12 (2E+10W) | Addendum 23:31 — root json MIGRATED bởi runtime 20:42 (streak 12 kết thúc); MỚI: `.migrated.*` marker đã commit `b5e519fc` cần gitignore+rm --cached; HEARTBEAT lần 9 (dangling); 2 repos casing + 8 backup files defer Fix Agent |
@@ -92,6 +93,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-09-09 (23:30) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-09_hygiene-report.md`
+- **Summary:** ~56,100 paths checked. 7 issues: 4 ERROR, 3 WARNING. **MỚI (2):** `DREAMS.md` (root file, git-tracked, OpenClaw dreaming artifact committed `261ce5f2`); `memory/` root folder recurring với dreaming content (4 files: `.dreams/session-corpus/`, `dreaming/{deep,light,rem}/`). **CARRY-FORWARD (2):** migration marker `.migrated.*` tại root (từ 09-08 addendum, chưa Fix Agent action); `wiki/HEARTBEAT.md` broken symlink lần 10 (08-26→09-09, untracked+unignored). **RESOLVED:** 2 repos casing files → lowercase rename done (Fix Agent); 8 backup files → moved từ `wiki/drafts/` → `wiki/reviews/archive/2026-09/` (Fix Agent). **False positive:** 15 backup files trong archive flagged "Archived report naming" — scanner áp report naming convention cho tất cả archive files (không phải reports).
+- **Actions needed:** (1) Fix Agent: `git rm DREAMS.md` + commit (hoặc move về `.openclaw/`); `git rm -r memory/` + commit; `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (2) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirror). (3) Optional: update scan script archive exclusion cho backup files.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-09 (23:15) — PENDING
 

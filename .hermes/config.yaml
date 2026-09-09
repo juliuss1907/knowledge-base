@@ -4,12 +4,9 @@ model:
   base_url: http://localhost:20128/v1
   api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
   api_mode: chat_completions
-providers: {}
 fallback_providers: []
-credential_pool_strategies: {}
 toolsets:
   - hermes-cli
-max_concurrent_sessions: null
 max_live_sessions: 16
 agent:
   max_turns: 150
@@ -74,17 +71,17 @@ terminal:
   modal_mode: auto
   cwd: .
   timeout: 180
-  daemon_term_grace_seconds: 2.0
+  daemon_term_grace_seconds: 2
   env_passthrough: []
   home_mode: auto
   shell_init_files: []
   auto_source_bashrc: true
   docker_image: nikolaik/python-nodejs:python3.11-nodejs20
   docker_forward_env: []
-  docker_env: {}
   singularity_image: docker://nikolaik/python-nodejs:python3.11-nodejs20
   modal_image: nikolaik/python-nodejs:python3.11-nodejs20
   daytona_image: nikolaik/python-nodejs:python3.11-nodejs20
+  vercel_runtime: node24
   container_cpu: 1
   container_memory: 5120
   container_disk: 51200
@@ -94,7 +91,6 @@ terminal:
   docker_extra_args: []
   docker_run_as_host_user: false
   persistent_shell: true
-  vercel_runtime: node24
   lifetime_seconds: 300
 web:
   backend: ''
@@ -126,9 +122,8 @@ checkpoints:
   max_file_size_mb: 10
   auto_prune: true
   retention_days: 7
-  delete_orphans: true
   min_interval_hours: 24
-context_file_max_chars: null
+  delete_orphans: true
 file_read_max_chars: 100000
 mcp_discovery_timeout: 1.5
 tool_output:
@@ -156,18 +151,6 @@ compression:
   abort_on_summary_failure: false
   codex_gpt55_autoraise: true
   in_place: true
-kanban:
-  dispatch_in_gateway: true
-  dispatch_interval_seconds: 60
-  failure_limit: 2
-  worker_log_rotate_bytes: 2097152
-  worker_log_backup_count: 1
-  orchestrator_profile: ''
-  default_assignee: ''
-  max_in_progress_per_profile: null
-  auto_decompose: true
-  auto_decompose_per_tick: 3
-  dispatch_stale_timeout_seconds: 14400
 prompt_caching:
   cache_ttl: 5m
 openrouter:
@@ -192,50 +175,37 @@ auxiliary:
     base_url: ''
     api_key: ''
     timeout: 120
-    extra_body: {}
     download_timeout: 30
-  web_extract:
-    provider: auto
-    model: ''
-    base_url: ''
-    api_key: ''
-    timeout: 360
-    extra_body: {}
   compression:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 120
-    extra_body: {}
   skills_hub:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
   approval:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
   mcp:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
   title_generation:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
     language: ''
   tts_audio_tags:
     provider: auto
@@ -243,62 +213,60 @@ auxiliary:
     base_url: ''
     api_key: ''
     timeout: 30
-    extra_body: {}
   triage_specifier:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 120
-    extra_body: {}
   kanban_decomposer:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 180
-    extra_body: {}
   profile_describer:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 60
-    extra_body: {}
   curator:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 600
-    extra_body: {}
   monitor:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 60
-    extra_body: {}
   background_review:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 120
-    extra_body: {}
   moa_reference:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 600
-    extra_body: {}
   moa_aggregator:
     provider: auto
     model: ''
     base_url: ''
     api_key: ''
     timeout: 600
+  web_extract:
+    provider: auto
+    model: ''
+    base_url: ''
+    api_key: ''
+    timeout: 360
     extra_body: {}
   session_search:
     provider: auto
@@ -329,6 +297,7 @@ display:
   show_reasoning: false
   reasoning_full: false
   memory_notifications: 'on'
+  background_process_notifications: all
   streaming: true
   timestamps: false
   final_response_markdown: strip
@@ -343,13 +312,12 @@ display:
   skin: default
   language: en
   tui_status_indicator: kaomoji
-  cli_refresh_interval: 1.0
+  cli_refresh_interval: 1
   user_message_preview:
     first_lines: 2
     last_lines: 2
   interim_assistant_messages: true
   tool_progress_command: false
-  tool_progress_overrides: {}
   tool_preview_length: 0
   tool_progress_grouping: accumulate
   reasoning_style: code
@@ -372,8 +340,8 @@ display:
     render_mode: auto
     scale: 0.33
     unicode_cols: 0
+  tool_progress_overrides: {}
   tool_progress: all
-  background_process_notifications: all
 dashboard:
   theme: default
   show_token_analytics: false
@@ -422,7 +390,6 @@ tts:
   use_gateway: false
 stt:
   enabled: true
-  provider: local
   local:
     model: base
     language: ''
@@ -435,13 +402,14 @@ stt:
     language_code: ''
     tag_audio_events: false
     diarize: false
+  provider: local
 voice:
   record_key: ctrl+b
   max_recording_seconds: 120
   auto_tts: false
   beep_enabled: true
   silence_threshold: 200
-  silence_duration: 3.0
+  silence_duration: 3
 human_delay:
   mode: 'off'
   min_ms: 800
@@ -454,9 +422,11 @@ memory:
   write_approval: false
   memory_char_limit: 2200
   user_char_limit: 1375
-  provider: ''
   nudge_interval: 10
+  provider: openviking
   flush_min_turns: 6
+  openviking:
+    use_ovcli_config: true
 delegation:
   model: ''
   provider: ''
@@ -468,10 +438,10 @@ delegation:
   child_timeout_seconds: 600
   reasoning_effort: ''
   max_concurrent_children: 3
-  max_async_children: 3
   max_spawn_depth: 1
   orchestrator_enabled: true
   subagent_auto_approve: false
+  max_async_children: 3
   default_toolsets:
     - terminal
     - file
@@ -492,10 +462,10 @@ moa:
       aggregator:
         provider: openrouter
         model: anthropic/claude-opus-4.8
+      enabled: true
       reference_temperature: 0.6
       aggregator_temperature: 0.4
       max_tokens: 4096
-      enabled: true
 skills:
   external_dirs: []
   template_vars: true
@@ -515,13 +485,11 @@ curator:
   backup:
     enabled: true
     keep: 5
-honcho: {}
 timezone: ''
 slack:
   require_mention: true
   free_response_channels: ''
   allowed_channels: ''
-  channel_prompts: {}
 discord:
   require_mention: true
   free_response_channels: ''
@@ -531,7 +499,6 @@ discord:
   history_backfill: true
   history_backfill_limit: 50
   reactions: true
-  channel_prompts: {}
   dm_role_auth_guild: ''
   server_actions: ''
   allow_any_attachment: false
@@ -542,7 +509,7 @@ discord:
     ambient_path: ''
     ambient_gain: 0.18
     duck_gain: 0.06
-    speech_gain: 1.0
+    speech_gain: 1
     ack_enabled: true
     ack_phrases:
       - Let me look into that.
@@ -550,10 +517,8 @@ discord:
       - Checking on that now.
       - Give me a sec.
       - On it.
-whatsapp: {}
 telegram:
   reactions: false
-  channel_prompts: {}
   allowed_chats: ''
   extra:
     rich_messages: false
@@ -562,7 +527,6 @@ mattermost:
   require_mention: true
   free_response_channels: ''
   allowed_channels: ''
-  channel_prompts: {}
 matrix:
   require_mention: true
   free_response_rooms: ''
@@ -578,11 +542,10 @@ command_allowlist:
   - stop/restart system service
   - script execution via -e/-c flag
   - execute_code
-quick_commands: {}
-platform_hints: {}
-hooks: {}
+plugins:
+  enabled:
+    - rtk-rewrite
 hooks_auto_accept: false
-personalities: {}
 security:
   allow_private_urls: false
   redact_secrets: true
@@ -605,8 +568,18 @@ cron:
     nas_jwks_url: ''
   wrap_response: true
   mirror_delivery: false
-  max_parallel_jobs: null
   output_retention: 50
+kanban:
+  dispatch_in_gateway: true
+  dispatch_interval_seconds: 60
+  failure_limit: 2
+  worker_log_rotate_bytes: 2097152
+  worker_log_backup_count: 1
+  orchestrator_profile: ''
+  default_assignee: ''
+  auto_decompose: true
+  auto_decompose_per_tick: 3
+  dispatch_stale_timeout_seconds: 14400
 code_execution:
   mode: project
   timeout: 300
@@ -628,7 +601,6 @@ model_catalog:
   enabled: true
   url: https://hermes-agent.nousresearch.com/docs/api/model-catalog.json
   ttl_hours: 1
-  providers: {}
 network:
   force_ipv4: false
 gateway:
@@ -649,7 +621,7 @@ streaming:
   edit_interval: 0.8
   buffer_threshold: 24
   cursor: ' ▉'
-  fresh_final_after_seconds: 60.0
+  fresh_final_after_seconds: 60
 sessions:
   auto_prune: false
   retention_days: 90
@@ -668,9 +640,8 @@ updates:
 lsp:
   enabled: true
   wait_mode: document
-  wait_timeout: 5.0
+  wait_timeout: 5
   install_strategy: auto
-  servers: {}
 x_search:
   model: grok-4.20-reasoning
   timeout_seconds: 180
@@ -759,6 +730,26 @@ custom_providers:
     api_key: sk-0d0fcb9601b66318-bs37qo-29fbaa6a
     model: xiaomi-mimo/mimo-v2.5
     api_mode: chat_completions
+    models:
+      Knowledge-base: {}
+      ollama/gpt-oss:120b: {}
+      ollama/kimi-k2.5: {}
+      ollama/glm-5: {}
+      ollama/minimax-m2.5: {}
+      ollama/glm-4.7-flash: {}
+      ollama/qwen3.5: {}
+      nvidia/minimaxai/minimax-m2.7: {}
+      nvidia/z-ai/glm4.7: {}
+      nvidia/parakeet-ctc-1.1b-asr: {}
+      gemini/gemma-4-31b-it: {}
+      openrouter/stealth/ox-alpha: {}
+      openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: {}
+      openrouter/google/gemma-4-31b-it:free: {}
+      openrouter/z-ai/glm-5.2:free: {}
+      xiaomi-mimo/mimo-v2.5: {}
+      xiaomi-mimo/mimo-v2.5-asr: {}
+      xiaomi-mimo/mimo-v2.5-pro: {}
+    models_discovered: true
   - name: b.ai
     base_url: https://api.b.ai/v1
     api_key: sk-3zmwicui68owdne6ygx2jk39pjl51jnm
@@ -767,9 +758,6 @@ custom_providers:
     base_url: https://token-plan-sgp.xiaomimimo.com/v1
     api_key: tp-s3419mqq7tr85hqf22nwnae8l4gzrvvmq4nwn1am31uj4h79
     model: mimo-v2.5
-plugins:
-  enabled:
-    - rtk-rewrite
 known_plugin_toolsets:
   cli:
     - spotify

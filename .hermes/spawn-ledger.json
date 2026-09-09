@@ -1,15 +1,15 @@
 [
   {
-    "pid": 1171525,
-    "create_time": 1788929292.43,
-    "purpose": "dashboard",
+    "pid": 1178941,
+    "create_time": 1788929574.5,
+    "purpose": "serve",
     "install": "1eaabdaef9ed",
-    "spawner_pid": null,
+    "spawner_pid": 1178670,
     "spawner_create": null,
-    "registered_at": 1788929297.3981154,
-    "argv": "/home/julius/.local/bin/hermes dashboard --no-open --host 127.0.0.1 --port 0",
+    "registered_at": 1788929578.427441,
+    "argv": "/home/julius/knowledge-base/.hermes/hermes-agent/hermes_cli/main.py serve --host 127.0.0.1 --port 0",
     "host": "127.0.0.1",
-    "port": 40047,
+    "port": 45771,
     "profile": ""
   }
 ]

@@ -15,6 +15,7 @@ Class-level skill for running and debugging OpenClaw (Kara) on this host. Use wh
 - `openclaw: command not found` in terminal, or openclaw runs but its version gate rejects the Node it resolved (`current: v24.14.1` style error) — see Workflow 6
 - Gateway shows `invalid config: Unrecognized keys` or `gateway closed (1006)`
 - Upgrading node/openclaw versions (nvm install, global package migration, gateway exits 78 `gateway.maintenance_required`) — see Workflow 7
+- Token/usage accounting for the cron pipeline ("mức tiêu thụ token của các cron job", avg vs worst-case) — see Workflow 8
 - Probing which `ollama`/`9router`/`api-box` models are alive, free, or subscription-gated
 
 ## Architecture (this host)

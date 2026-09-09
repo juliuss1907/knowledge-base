@@ -10,12 +10,13 @@
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-09 | Format | 398 (0E+398W) | 0 net change vs 09-08 — +2 tag files regenerated (0 broken links); pipeline idle day 7. Review [wiki/reviews/2026-09-09_format-report.md](2026-09-09_format-report.md) |
+| 🔍 PENDING | 09-09 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 7). 0 issues. Review [wiki/reviews/2026-09-09_output-report.md](2026-09-09_output-report.md) |
 | 🔍 PENDING | 09-08 | Format | 398 (0E+398W) | 0 net change vs 09-02 — +4 topic pages (0 broken links); forward-refs only. Review [wiki/reviews/2026-09-08_format-report.md](2026-09-08_format-report.md) |
 | 🔍 PENDING | 09-08 | Hygiene | 12 (2E+10W) | Addendum 23:31 — root json MIGRATED bởi runtime 20:42 (streak 12 kết thúc); MỚI: `.migrated.*` marker đã commit `b5e519fc` cần gitignore+rm --cached; HEARTBEAT lần 9 (dangling); 2 repos casing + 8 backup files defer Fix Agent |
 | ✅ APPLIED | 09-02 | Format | 398 (0E+398W) | Applied 2026-09-02 — forward-refs only (prompt-injection 2 refs); no action needed |
@@ -104,6 +105,13 @@
 - **Report:** `wiki/reviews/2026-09-08_format-report.md`
 - **Summary:** 1036 files checked (571 concepts + 196 sources + 34 indexes + 235 topics). 398 issues: **0 ERROR, 398 WARNING**. Clean ERROR streak day 3 at 0. **0 net change so với 09-02 trên mọi trục** — total 398→398, individual 379 flat, forward-ref groups 19 flat, unique targets 271 flat, Top-20 identical. KB grew +4 files (topic pages Index Agent thêm 09-03 11:01 cho agent-sandbox cluster — tất cả đóng góp 0 broken wikilink). **Pipeline idle 6 ngày**: 0 concepts/sources compiled, 0 raw ingested kể từ 09-02 — backlog phẳng vì không có gì mới để compile. Index Agent regenerate 25 tag files 09-03 — xác nhận 0 unquoted-`parent` regression ([SPEC CONFLICT] fix 08-31 giữ vững).
 - **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất. 2 forward-refs `[[prompt-injection]]` (kể từ 09-02) chờ source hoặc Fix Agent bỏ link.
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-09-09 (23:00) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-09_output-report.md`
+- **Summary:** 767 files checked (196 sources + 571 concepts). 0 new files (pipeline idle day 7, nothing compiled since 09-02). 0 issues: **0 ERROR, 0 WARNING, 0 INFO**. [SILENT] — no new files to validate. Dropped-i variant-5 = 0 (11th consecutive clean run 08-23→09-09). Depth-debt baseline unchanged.
+- **Actions needed:** None — 0 issues, 0 new files. Pipeline idle.
 - **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-09-08 (08:15 + addendum 23:31) — PENDING

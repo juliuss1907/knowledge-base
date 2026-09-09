@@ -58,7 +58,7 @@ Fix Agent handles 3 types of Hermes reports:
 ### Preserve user content
 - **Always** preserve `## Notes` sections in concept files (Julius's annotations)
 - **Never** delete content without explicit approval
-- **Backup** before destructive operations (move to `wiki/drafts/`)
+- **Backup** before destructive operations → move to `wiki/reviews/archive/YYYY-MM/` (NOT `wiki/drafts/` — draft naming rules are strict; backup files violate them)
 
 ## Report format
 
@@ -114,7 +114,7 @@ Hermes reports follow this structure:
 **Actions:**
 - Move file to correct folder
 - Rename file to match convention
-- Move orphans to `wiki/drafts/` for review
+- Move orphans to `wiki/drafts/` for review (NOTE: backup files must NOT go to drafts — use `wiki/reviews/archive/YYYY-MM/`)
 - Flag duplicates for Julius to resolve
 
 ### Output fixes
@@ -147,7 +147,7 @@ Hermes reports follow this structure:
 
 ### Backup strategy
 Before destructive operations:
-1. Copy original file to `wiki/drafts/<filename>-backup-YYYY-MM-DD.md`
+1. Copy original file to `wiki/reviews/archive/YYYY-MM/<filename>-backup-YYYY-MM-DD.md`
 2. Apply fix
 3. Verify
 4. If verification fails → restore from backup

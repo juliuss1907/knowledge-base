@@ -48,6 +48,7 @@ Short-form social media posts, threads, and micro-content.
 
 <!-- Ingest Agent appends here, newest first -->
 - [[2026-08-16_schedule-maxxing]] — 'Schedule Maxxing': how to become ridiculously productive by Kimia (@kimiabuilds) (unprocessed)
+- [[2026-09-10_0xhvdes-seven-ways-to-get-ahead]] — 7 Ways to Get Ahead That Most People Ignore by @0xHvdes (unprocessed)
 
 ## Notes
 

@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-10 23:00 (Output 09-10 — SILENT)
+**Last updated:** 2026-09-10 23:15 (Format 09-10)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
@@ -19,6 +19,7 @@
 | 🔍 PENDING | 09-09 | Hygiene | 7 (4E+3W) | MỚI: DREAMS.md root (git-tracked), memory/ folder populated (dreaming); RESOLVED: repos casing +8 backup files; CARRY: migration marker + HEARTBEAT broken symlink. Review [wiki/reviews/2026-09-09_hygiene-report.md](2026-09-09_hygiene-report.md) |
 | 🔍 PENDING | 09-09 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 7). 0 issues. Review [wiki/reviews/2026-09-09_output-report.md](2026-09-09_output-report.md) |
 | 🔍 PENDING | 09-10 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 8). 0 issues. Review [wiki/reviews/2026-09-10_output-report.md](2026-09-10_output-report.md) |
+| 🔍 PENDING | 09-10 | Format | 398 (0E+398W) | 0 net change vs 09-09 — pipeline idle day 8, 0 files added. Review [wiki/reviews/2026-09-10_format-report.md](2026-09-10_format-report.md) |
 | 🔍 PENDING | 09-08 | Format | 398 (0E+398W) | 0 net change vs 09-02 — +4 topic pages (0 broken links); forward-refs only. Review [wiki/reviews/2026-09-08_format-report.md](2026-09-08_format-report.md) |
 | 🔍 PENDING | 09-08 | Hygiene | 12 (2E+10W) | Addendum 23:31 — root json MIGRATED bởi runtime 20:42 (streak 12 kết thúc); MỚI: `.migrated.*` marker đã commit `b5e519fc` cần gitignore+rm --cached; HEARTBEAT lần 9 (dangling); 2 repos casing + 8 backup files defer Fix Agent |
 | ✅ APPLIED | 09-02 | Format | 398 (0E+398W) | Applied 2026-09-02 — forward-refs only (prompt-injection 2 refs); no action needed |
@@ -94,6 +95,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-10 (23:15) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-10_format-report.md`
+- **Summary:** 1038 files checked (571 concepts + 196 sources + 36 indexes + 235 topics). 398 issues: **0 ERROR, 398 WARNING**. Clean ERROR streak day 8 at 0. **0 net change so với 09-09 trên mọi trục** — total 398→398, individual 379 flat, forward-ref groups 19 flat, unique targets 271 flat, Top-20 identical. 0 wiki files added since 09-09 (pipeline idle day 8). Backlog frozen.
+- **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-09-10 (23:00) — PENDING
 

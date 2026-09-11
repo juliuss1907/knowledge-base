@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-11 23:00 (Output 09-11)
+**Last updated:** 2026-09-11 23:15 (Format 09-11)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 9
+**Pending reports awaiting review:** 10
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-11 | Output | 4 (0E+1W+3I) | 8 new files (1 source + 7 concepts). WARNING: 3 forward-refs without raw. Pipeline active after 9-day idle. Review [wiki/reviews/2026-09-11_output-report.md](2026-09-11_output-report.md) |
+| 🔍 PENDING | 09-11 | Format | 399 (0E+399W) | +1 net change vs 09-10 — +4 files (2 concepts + 1 source + 3 topics, pipeline active after 9-day idle). Top-20 shifted: [[network-effects]] in, [[first-order-thinking]] out. Forward-refs only. Review [wiki/reviews/2026-09-11_format-report.md](2026-09-11_format-report.md) |
 | 🔍 PENDING | 09-09 | Format | 398 (0E+398W) | 0 net change vs 09-08 — +2 tag files regenerated (0 broken links); pipeline idle day 7. Review [wiki/reviews/2026-09-09_format-report.md](2026-09-09_format-report.md) |
 | 🔍 PENDING | 09-09 | Hygiene | 7 (4E+3W) | MỚI: DREAMS.md root (git-tracked), memory/ folder populated (dreaming); RESOLVED: repos casing +8 backup files; CARRY: migration marker + HEARTBEAT broken symlink. Review [wiki/reviews/2026-09-09_hygiene-report.md](2026-09-09_hygiene-report.md) |
 | 🔍 PENDING | 09-09 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 7). 0 issues. Review [wiki/reviews/2026-09-09_output-report.md](2026-09-09_output-report.md) |
@@ -97,6 +98,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-11 (23:15) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-11_format-report.md`
+- **Summary:** 1042 files checked (573 concepts + 197 sources + 34 indexes + 238 topics). 399 issues: **0 ERROR, 399 WARNING**. Clean ERROR streak continues. **+1 net change vs 09-10** — total 398→399 (+1 individual broken), groups 19→19 flat, unique targets 271→271 flat. +4 files (2 concepts + 1 source + 3 topic pages, pipeline active after 9-day idle). Top-20 shifted: [[network-effects]] (3) entered, [[first-order-thinking]] (3) dropped outside top 20. New debt from new source (src_0xhvdes-seven-ways-to-get-ahead.md) + concepts (proximity-to-opportunity, reputation-as-signal) — all forward-references only, no structural errors.
+- **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-09-11 (23:00) — PENDING
 

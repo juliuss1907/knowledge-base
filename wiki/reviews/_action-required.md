@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-10 23:31 (Hygiene 09-10)
+**Last updated:** 2026-09-11 23:00 (Output 09-11)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 8
+**Pending reports awaiting review:** 9
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-11 | Output | 4 (0E+1W+3I) | 8 new files (1 source + 7 concepts). WARNING: 3 forward-refs without raw. Pipeline active after 9-day idle. Review [wiki/reviews/2026-09-11_output-report.md](2026-09-11_output-report.md) |
 | 🔍 PENDING | 09-09 | Format | 398 (0E+398W) | 0 net change vs 09-08 — +2 tag files regenerated (0 broken links); pipeline idle day 7. Review [wiki/reviews/2026-09-09_format-report.md](2026-09-09_format-report.md) |
 | 🔍 PENDING | 09-09 | Hygiene | 7 (4E+3W) | MỚI: DREAMS.md root (git-tracked), memory/ folder populated (dreaming); RESOLVED: repos casing +8 backup files; CARRY: migration marker + HEARTBEAT broken symlink. Review [wiki/reviews/2026-09-09_hygiene-report.md](2026-09-09_hygiene-report.md) |
 | 🔍 PENDING | 09-09 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 7). 0 issues. Review [wiki/reviews/2026-09-09_output-report.md](2026-09-09_output-report.md) |
@@ -96,6 +97,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-09-11 (23:00) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-11_output-report.md`
+- **Summary:** 774 files checked (197 sources + 573 concepts). 8 new files compiled 09-11 (1 source + 7 concepts). 4 issues: **0 ERROR, 1 WARNING, 3 INFO**. WARNING: 3 forward-refs without raw source (serendipity-engineering, career-pivots, network-effects). Pipeline active after 9-day idle. Dropped-i streak: 13 consecutive.
+- **Actions needed:** (1) Fix Agent: drop or compile 3 forward-refs. (2) talent-stack personal ref — optional.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-10 (23:15) — PENDING
 

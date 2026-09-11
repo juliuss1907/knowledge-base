@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: identity-transformation
 auto_generated: true
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 ---
 
 # Topic: identity-transformation
 
 Auto-generated index of all content with topic `identity-transformation`.
 
-Last updated: 2026-09-09 21:02:05
+Last updated: 2026-09-11 21:00:00
 
 ---
 
@@ -27,5 +27,5 @@ Last updated: 2026-09-09 21:02:05
 
 ## Related topics
 
-_No related topics._
-
+Topics that share concepts/sources with `identity-transformation`:
+(none)

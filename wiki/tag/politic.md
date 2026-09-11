@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: politic
 auto_generated: true
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 ---
 
 # Tag: #politic
 
 Auto-generated index of all content tagged with `#politic`.
 
-Last updated: 2026-09-09 21:02:05
+Last updated: 2026-09-11 21:00:00
 
 ---
 
@@ -25,37 +25,37 @@ Last updated: 2026-09-09 21:02:05
 - Total files: 21
 - Sources: 4
 - Concepts: 17
-- Last updated: 2026-09-09
+- Last updated: 2026-09-11
 
 ## Files with this tag
 
-- [[american-security-guarantee]] — American Security Guarantee (concepts, main: #politic, sub: [#research, #opinion])
-- [[chinese-culture-confucianism]] — Chinese Culture and Confucian Approach (Văn hóa Trung Quốc và đường lối Khổng Tử) (concepts, main: #politic, sub: [#geopolitics])
-- [[counterinsurgency]] — Counterinsurgency (concepts, main: #politic, sub: [#research, #hack])
-- [[four-layer-framework]] — Four-Layer Framework (concepts, main: #politic, sub: [#research, #opinion])
-- [[hearts-and-minds]] — Hearts and Minds (Giành lòng tin và tâm trí) (concepts, main: #politic, sub: [#research])
-- [[hundred-years-humiliation]] — Hundred Years of Humiliation (100 Năm Nhục nhã) (concepts, main: #politic, sub: [#geopolitics])
-- [[industrial-scale]] — Industrial Scale (concepts, main: #politic, sub: [#research, #opinion])
-- [[institutional-capacity]] — Institutional Capacity (concepts, main: #politic, sub: [#research, #opinion])
-- [[kissinger-deal-1974]] — Kissinger Deal (1974-1975) (concepts, main: #politic, sub: [#research, #opinion])
-- [[mutually-assured-destruction]] — Mutually Assured Destruction (MAD - Hủy diệt lẫn nhau) (concepts, main: #politic, sub: [#research, #hack])
-- [[oil-spot-strategy]] — Oil Spot Strategy (Chiến lược đốm dầu) (concepts, main: #politic, sub: [#research])
-- [[saudi-pakistan-defense-agreement]] — Saudi-Pakistan Defense Agreement (2025) (concepts, main: #politic, sub: [#news, #opinion])
-- [[src_counterinsurgency-fighting-back]] — Counterinsurgency: Fighting Back (sources, main: #politic, sub: [#research, #hack])
-- [[src_mutually-assured-destruction]] — Mutually Assured Destruction: When Not to Play (sources, main: #politic, sub: [#research, #hack])
-- [[src_tribute-system-new-world-order]] — The Tribute System: The New World Order (sources, main: #politic, sub: [#geopolitics, #opinion])
-- [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (sources, main: #politic, sub: [#opinion, #research])
-- [[strait-of-hormuz-geopolitics]] — Strait of Hormuz Geopolitics (concepts, main: #politic, sub: [#research, #opinion])
-- [[structural-competition]] — Structural Competition (concepts, main: #politic, sub: [#research, #opinion])
-- [[tribute-system]] — Tribute System (Hệ thống Triều cống) (concepts, main: #politic, sub: [#geopolitics])
-- [[uae-saudi-rivalry]] — UAE-Saudi Rivalry (concepts, main: #politic, sub: [#research, #opinion])
-- [[us-security-umbrella]] — US Security Umbrella (concepts, main: #politic, sub: [#research, #opinion])
+- [[american-security-guarantee]] — American Security Guarantee (concept, main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
+- [[chinese-culture-confucianism]] — Chinese Culture and Confucian Approach (Văn hóa Trung Quốc và đường lối Khổng Tử) (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
+- [[counterinsurgency]] — Counterinsurgency (concept, main: #politic, sub: [#research, #hack], topic: counterinsurgency-warfare)
+- [[four-layer-framework]] — Four-Layer Framework (concept, main: #politic, sub: [#research, #opinion], topic: structural-competition)
+- [[hearts-and-minds]] — Hearts and Minds (Giành lòng tin và tâm trí) (concept, main: #politic, sub: [#research], topic: counterinsurgency-warfare)
+- [[hundred-years-humiliation]] — Hundred Years of Humiliation (100 Năm Nhục nhã) (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
+- [[industrial-scale]] — Industrial Scale (concept, main: #politic, sub: [#research, #opinion], topic: structural-competition)
+- [[institutional-capacity]] — Institutional Capacity (concept, main: #politic, sub: [#research, #opinion], topic: structural-competition)
+- [[kissinger-deal-1974]] — Kissinger Deal (1974-1975) (concept, main: #politic, sub: [#research, #opinion], topic: us-saudi-relations)
+- [[mutually-assured-destruction]] — Mutually Assured Destruction (MAD - Hủy diệt lẫn nhau) (concept, main: #politic, sub: [#research, #hack], topic: nuclear-deterrence)
+- [[oil-spot-strategy]] — Oil Spot Strategy (Chiến lược đốm dầu) (concept, main: #politic, sub: [#research], topic: counterinsurgency-warfare)
+- [[saudi-pakistan-defense-agreement]] — Saudi-Pakistan Defense Agreement (2025) (concept, main: #politic, sub: [#news, #opinion], topic: saudi-defense-diversification)
+- [[src_counterinsurgency-fighting-back]] — Counterinsurgency: Fighting Back (source, main: #politic, sub: [#research, #hack], topic: counterinsurgency-warfare)
+- [[src_mutually-assured-destruction]] — Mutually Assured Destruction: When Not to Play (source, main: #politic, sub: [#research, #hack], topic: nuclear-deterrence)
+- [[src_tribute-system-new-world-order]] — The Tribute System: The New World Order (source, main: #politic, sub: [#geopolitics, #opinion], topic: tribute-system-world-order)
+- [[src_why-i-write-about-structural-competition]] — Why I Write About Structural Competition (source, main: #politic, sub: [#opinion, #research], topic: structural-competition)
+- [[strait-of-hormuz-geopolitics]] — Strait of Hormuz Geopolitics (concept, main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
+- [[structural-competition]] — Structural Competition (concept, main: #politic, sub: [#research, #opinion], topic: structural-competition)
+- [[tribute-system]] — Tribute System (Hệ thống Triều cống) (concept, main: #politic, sub: [#geopolitics], topic: tribute-system-world-order)
+- [[uae-saudi-rivalry]] — UAE-Saudi Rivalry (concept, main: #politic, sub: [#research, #opinion], topic: uae-opec-exit-geopolitics)
+- [[us-security-umbrella]] — US Security Umbrella (concept, main: #politic, sub: [#research, #opinion], topic: us-saudi-relations)
 
 ## Co-occurring tags
 
+Tags that frequently appear with `#politic`:
 - [[research]] — 16 co-occurrences
 - [[opinion]] — 12 co-occurrences
 - [[hack]] — 4 co-occurrences
 - [[geopolitics]] — 4 co-occurrences
 - [[news]] — 1 co-occurrences
-

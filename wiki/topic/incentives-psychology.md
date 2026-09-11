@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: incentives-psychology
 auto_generated: true
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 ---
 
 # Topic: incentives-psychology
 
 Auto-generated index of all content with topic `incentives-psychology`.
 
-Last updated: 2026-09-09 21:02:05
+Last updated: 2026-09-11 21:00:00
 
 ---
 
@@ -26,5 +26,5 @@ Last updated: 2026-09-09 21:02:05
 
 ## Related topics
 
-_No related topics._
-
+Topics that share concepts/sources with `incentives-psychology`:
+(none)

@@ -4,19 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: personal-finance-saving-rate
 auto_generated: true
-last_updated: 2026-09-09
+last_updated: 2026-09-11
 ---
 
 # Topic: personal-finance-saving-rate
 
 Auto-generated index of all content with topic `personal-finance-saving-rate`.
 
-Last updated: 2026-09-09 21:02:05
+Last updated: 2026-09-11 21:00:00
 
 ---
 
 ## Concepts (0)
 
+(none)
 
 ## Sources (1)
 
@@ -24,5 +25,5 @@ Last updated: 2026-09-09 21:02:05
 
 ## Related topics
 
-_No related topics._
-
+Topics that share concepts/sources with `personal-finance-saving-rate`:
+(none)

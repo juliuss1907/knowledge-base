@@ -7,7 +7,8 @@ topic: talent-stack
 sources:
   - "[[src_cach-thoat-khoi-prices-law]]"
   - "[[src_pivot-vs-persist-framework]]"
-last_updated: 2026-07-01
+  - "[[src_0xhvdes-seven-ways-to-get-ahead]]"
+last_updated: 2026-09-11
 ---
 
 # Talent Stack (Scott Adams)
@@ -24,6 +25,8 @@ Chiến lược kết hợp 2-3 kỹ năng mà bạn đạt top 10% để tạo 
 - Talent stack là differentiator lớn: Julius với combo viết + crypto + AI là ví dụ điển hình
 - Áp dụng trong pivot: giữ 2 trong 3 (skill/audience/format), chỉ đổi 1 — pivot chứ không restart
 - Sau 2 năm, nếu combo skill đưa bạn vào top 10-20% → đúng game, chỉ cần thêm thời gian
+- Skills nhân lên nhau thay vì cộng lại — developer hiểu sales có thể build thứ người ta muốn, founder biết viết có thể attract customers/employees/investors
+- Kết hợp 2-3 skill top 10% tạo ra competition pool ít hơn nhiều so với việc cố gắng thành số 1 trong 1 lĩnh vực
 
 ## Related concepts
 
@@ -35,6 +38,7 @@ Chiến lược kết hợp 2-3 kỹ năng mà bạn đạt top 10% để tạo 
 
 - [[src_cach-thoat-khoi-prices-law]]
 - [[src_pivot-vs-persist-framework]]
+- [[src_0xhvdes-seven-ways-to-get-ahead]]
 
 ## Notes
 

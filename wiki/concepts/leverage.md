@@ -11,7 +11,8 @@ sources:
   - "[[src_long-range-career-advice]]"
   - "[[src_3-ways-to-get-rich]]"
   - "[[src_daily-planning-routine-creativity-productivity]]"
-last_updated: 2026-08-25
+  - "[[src_0xhvdes-seven-ways-to-get-ahead]]"
+last_updated: 2026-09-11
 ---
 
 # Leverage
@@ -53,6 +54,7 @@ Leverage (đòn bẩy) là mental model chỉ cách tạo ra kết quả không 
 - [[src_long-range-career-advice]] — Slava Akhmechet
 - [[src_3-ways-to-get-rich]] — 0x_Ito: 3 levers của Naval + case Flappy Bird + rủi ro exposure
 - [[src_daily-planning-routine-creativity-productivity]] — Dickie Bush: SOP/Automation/Employees × Productivity/Efficiency
+- [[src_0xhvdes-seven-ways-to-get-ahead]] — Hades: code/content/capital/products/systems/teams đều là leverage, 1 giờ có thể tạo 10 giờ giá trị
 
 ## Notes
 

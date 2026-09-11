@@ -5,7 +5,9 @@ url: https://x.com/0xHvdes/status/2098009222302540086
 author: "@0xHvdes (Hades)"
 date_published: 2026-09-10
 date_ingested: 2026-09-10
-status: unprocessed
+status: processed
+compiled_at: 2026-09-11
+compiled_to: "[[src_0xhvdes-seven-ways-to-get-ahead]]"
 source: x.com
 ---
 

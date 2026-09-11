@@ -7,7 +7,8 @@ topic: game-theory-productivity
 sources:
   - "[[src_max-results-minimum-effort-game-theory]]"
   - "[[src_long-range-career-advice]]"
-last_updated: 2026-08-11
+  - "[[src_0xhvdes-seven-ways-to-get-ahead]]"
+last_updated: 2026-09-11
 ---
 
 # Asymmetric Positions
@@ -38,5 +39,6 @@ Vị trí bất đối xứng (asymmetric positions) là những vị trí làm 
 
 - [[src_max-results-minimum-effort-game-theory]]
 - [[src_long-range-career-advice]]
+- [[src_0xhvdes-seven-ways-to-get-ahead]]
 
 ## Notes

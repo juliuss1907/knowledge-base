@@ -1614,3 +1614,9 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Topics indexed: 235 (unchanged)
 - Errors: 0
 - Action: Skipped rebuild, no new content detected
+
+## 2026-09-11 08:00:00 — Compiled
+- Raw: raw/posts/2026-09-10_0xhvdes-seven-ways-to-get-ahead.md
+- Source note: wiki/sources/src_0xhvdes-seven-ways-to-get-ahead.md
+- Concepts: [asymmetric-positions (merged), leverage (merged), talent-stack (merged), increasing-surface-area-luck (merged), compounding-effect (merged), proximity-to-opportunity (new), reputation-as-signal (new)]
+- Tags applied: main=productivity, sub=[strategy, psychology], topic=asymmetric-advantage

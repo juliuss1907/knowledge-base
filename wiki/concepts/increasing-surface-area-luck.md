@@ -6,7 +6,8 @@ sub_tags: [psychology]
 topic: self-discovery-serendipity
 sources:
   - "[[src_this-will-help-you-figure-out-what-you-want]]"
-last_updated: 2026-06-23
+  - "[[src_0xhvdes-seven-ways-to-get-ahead]]"
+last_updated: 2026-09-11
 ---
 
 # Increasing Surface Area for Luck
@@ -32,6 +33,7 @@ Một chiến lược sống chủ động bằng cách tăng "diện tích ti�
 ## Sources
 
 - [[src_this-will-help-you-figure-out-what-you-want]]
+- [[src_0xhvdes-seven-ways-to-get-ahead]]
 
 ## Notes
 

@@ -8,7 +8,8 @@ sources:
   - "[[src_how-some-people-become-unrecognizable]]"
   - "[[src_principles-of-better-decisions]]"
   - "[[src_once-you-understand-neuroplasticity]]"
-last_updated: 2026-08-22
+  - "[[src_0xhvdes-seven-ways-to-get-ahead]]"
+last_updated: 2026-09-11
 ---
 
 # Compounding Effect
@@ -41,5 +42,6 @@ Compounding Effect (hiệu ứng lãi kép) là nguyên tắc theo đó những 
 - [[src_how-some-people-become-unrecognizable]]
 - [[src_principles-of-better-decisions]] — Hades: compounding như principle #4 của better decisions
 - [[src_once-you-understand-neuroplasticity]] — Tim Denning: repetition/frequency là cơ chế thần kinh của compounding
+- [[src_0xhvdes-seven-ways-to-get-ahead]] — Hades: audience/knowledge/relationships/reputation/capital/skills đều compounding, games tốt nhất trở nên dễ thắng hơn khi chơi lâu
 
 ## Notes

@@ -4,19 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-11 23:15 (Format 09-11)
+**Last updated:** 2026-09-11 23:31 (Hygiene 09-11)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 10
+**Pending reports awaiting review:** 11
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-11 | Output | 4 (0E+1W+3I) | 8 new files (1 source + 7 concepts). WARNING: 3 forward-refs without raw. Pipeline active after 9-day idle. Review [wiki/reviews/2026-09-11_output-report.md](2026-09-11_output-report.md) |
 | 🔍 PENDING | 09-11 | Format | 399 (0E+399W) | +1 net change vs 09-10 — +4 files (2 concepts + 1 source + 3 topics, pipeline active after 9-day idle). Top-20 shifted: [[network-effects]] in, [[first-order-thinking]] out. Forward-refs only. Review [wiki/reviews/2026-09-11_format-report.md](2026-09-11_format-report.md) |
+| 🔍 PENDING | 09-11 | Hygiene | 31 (4E+27W) | CARRY 100% từ 09-10 — 0 issue mới resolved. 4 ERROR: DREAMS.md (lần 3), memory/ (lần 3, +3 files 09-11), migration marker (lần 4), HEARTBEAT (lần 12). 27 WARNING: 12 memory/ sub-files + 15 archive backup false positive. Review [wiki/reviews/2026-09-11_hygiene-report.md](2026-09-11_hygiene-report.md) |
 | 🔍 PENDING | 09-09 | Format | 398 (0E+398W) | 0 net change vs 09-08 — +2 tag files regenerated (0 broken links); pipeline idle day 7. Review [wiki/reviews/2026-09-09_format-report.md](2026-09-09_format-report.md) |
 | 🔍 PENDING | 09-09 | Hygiene | 7 (4E+3W) | MỚI: DREAMS.md root (git-tracked), memory/ folder populated (dreaming); RESOLVED: repos casing +8 backup files; CARRY: migration marker + HEARTBEAT broken symlink. Review [wiki/reviews/2026-09-09_hygiene-report.md](2026-09-09_hygiene-report.md) |
 | 🔍 PENDING | 09-09 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 7). 0 issues. Review [wiki/reviews/2026-09-09_output-report.md](2026-09-09_output-report.md) |
@@ -111,6 +112,13 @@
 - **Report:** `wiki/reviews/2026-09-11_output-report.md`
 - **Summary:** 774 files checked (197 sources + 573 concepts). 8 new files compiled 09-11 (1 source + 7 concepts). 4 issues: **0 ERROR, 1 WARNING, 3 INFO**. WARNING: 3 forward-refs without raw source (serendipity-engineering, career-pivots, network-effects). Pipeline active after 9-day idle. Dropped-i streak: 13 consecutive.
 - **Actions needed:** (1) Fix Agent: drop or compile 3 forward-refs. (2) talent-stack personal ref — optional.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-09-11 (23:31) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-11_hygiene-report.md`
+- **Summary:** 233,669 paths checked. 31 issues total (4 ERROR, 27 WARNING; 20 reported, 11 truncated). **100% carry-forward từ 09-10 — 0 issue mới resolved.** (1) `DREAMS.md` root orphan — carry-forward lần 3, git-tracked, chưa action. (2) `memory/` root folder — carry-forward lần 3, **+3 files 09-11** (dreaming deep/light/rem logs), OpenClaw pipeline tiếp tục viết vào root `memory/`. (3) Migration marker `.migrated.*` — carry-forward lần 4 từ 09-08 addendum, chưa gitignore. (4) `wiki/HEARTBEAT.md` — carry-forward lần 12 liên tiếp (08-26→09-11). (5) 12 memory/ sub-files (sub-paths của Issue 2). (6) ~15 backup files trong archive — false positive (non-report artifacts). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt streak 15+; pipeline active — 275 files changed since 09-10; 0 new wiki/raw naming violations; 0 empty dir.
+- **Actions needed:** (1) Fix Agent: `git rm DREAMS.md` + commit; `git rm -r memory/` + commit; `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (2) `wiki/HEARTBEAT.md` — process-level fix. (3) Optional: update scan script archive exclusion cho backup files.
 - **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-10 (23:15) — PENDING

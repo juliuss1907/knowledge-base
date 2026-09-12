@@ -4,27 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: market-cycles
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: market-cycles
 
 Auto-generated index of all content with topic `market-cycles`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (2)
 
-- [[altcoin-frenzy-pattern]] — main: #economic, sub: [#layer1, #opinion]
-- [[infrastructure-capex-cycle]] — main: #economic, sub: [#layer1, #ai]
+- [[altcoin-frenzy-pattern]] — main: #economic, sub: [layer1, opinion]
+- [[infrastructure-capex-cycle]] — main: #economic, sub: [layer1, ai]
 
 ## Sources (0)
 
-(none)
 
 ## Related topics
 
-Topics that share concepts/sources with `market-cycles`:
-(none)
+No related topics.

@@ -4,26 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: pareto-principle
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: pareto-principle
 
 Auto-generated index of all content with topic `pareto-principle`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (1)
 
-- [[pareto-principle]] — main: #productivity, sub: [#psychology, #system]
+- [[pareto-principle]] — main: #productivity, sub: [psychology, system]
 
 ## Sources (0)
 
-(none)
 
 ## Related topics
 
-Topics that share concepts/sources with `pareto-principle`:
-(none)
+No related topics.

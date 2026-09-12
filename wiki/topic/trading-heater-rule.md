@@ -4,26 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: trading-heater-rule
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: trading-heater-rule
 
 Auto-generated index of all content with topic `trading-heater-rule`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (0)
 
-(none)
 
 ## Sources (1)
 
-- [[src_after-the-heater-rule-keeps-you-alive]] — main: #economic, sub: [#opinion, #tutorial]
+- [[src_after-the-heater-rule-keeps-you-alive]] — main: #economic, sub: [opinion, tutorial]
 
 ## Related topics
 
-Topics that share concepts/sources with `trading-heater-rule`:
-(none)
+No related topics.

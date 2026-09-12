@@ -4,29 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: digital-renaissance
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: digital-renaissance
 
 Auto-generated index of all content with topic `digital-renaissance`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (4)
 
-- [[creator-economy]] — main: #productivity, sub: [#opinion, #tools]
-- [[digital-renaissance]] — main: #productivity, sub: [#opinion, #ai]
-- [[new-renaissance-man]] — main: #productivity, sub: [#opinion, #psychology]
-- [[one-human-business]] — main: #productivity, sub: [#opinion, #tools]
+- [[creator-economy]] — main: #productivity, sub: [opinion, tools]
+- [[digital-renaissance]] — main: #productivity, sub: [opinion, ai]
+- [[new-renaissance-man]] — main: #productivity, sub: [opinion, psychology]
+- [[one-human-business]] — main: #productivity, sub: [opinion, tools]
 
 ## Sources (1)
 
-- [[src_we-are-in-the-middle-of-the-digital-renaissance]] — main: #productivity, sub: [#opinion, #psychology]
+- [[src_we-are-in-the-middle-of-the-digital-renaissance]] — main: #productivity, sub: [opinion, psychology]
 
 ## Related topics
 
-Topics that share concepts/sources with `digital-renaissance`:
-(none)
+No related topics.

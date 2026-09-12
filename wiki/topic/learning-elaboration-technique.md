@@ -4,29 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: learning-elaboration-technique
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: learning-elaboration-technique
 
 Auto-generated index of all content with topic `learning-elaboration-technique`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (4)
 
-- [[elaboration-learning-technique]] — main: #productivity, sub: [#tutorial, #psychology]
-- [[learning-through-retrieval]] — main: #productivity, sub: [#psychology, #tutorial]
-- [[note-taking-systems]] — main: #productivity, sub: [#tools]
-- [[protoge-effect]] — main: #productivity, sub: [#psychology, #tutorial]
+- [[elaboration-learning-technique]] — main: #productivity, sub: [tutorial, psychology]
+- [[learning-through-retrieval]] — main: #productivity, sub: [psychology, tutorial]
+- [[note-taking-systems]] — main: #productivity, sub: [tools]
+- [[protoge-effect]] — main: #productivity, sub: [psychology, tutorial]
 
 ## Sources (1)
 
-- [[src_the-art-of-elaboration]] — main: #productivity, sub: [#tutorial, #psychology]
+- [[src_the-art-of-elaboration]] — main: #productivity, sub: [tutorial, psychology]
 
 ## Related topics
 
-Topics that share concepts/sources with `learning-elaboration-technique`:
-(none)
+No related topics.

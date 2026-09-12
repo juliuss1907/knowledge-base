@@ -4,28 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: journalism-ai-era
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: journalism-ai-era
 
 Auto-generated index of all content with topic `journalism-ai-era`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (3)
 
-- [[attention-economy-vs-knowledge-economy]] — main: #ai, sub: [#opinion, #news]
-- [[journalism-social-institution]] — main: #ai, sub: [#opinion]
-- [[knowledge-builder-journalist]] — main: #ai, sub: [#opinion]
+- [[attention-economy-vs-knowledge-economy]] — main: #ai, sub: [opinion, news]
+- [[journalism-social-institution]] — main: #ai, sub: [opinion]
+- [[knowledge-builder-journalist]] — main: #ai, sub: [opinion]
 
 ## Sources (1)
 
-- [[src_nha-bao-lam-gi]] — main: #ai, sub: [#opinion, #news]
+- [[src_nha-bao-lam-gi]] — main: #ai, sub: [opinion, news]
 
 ## Related topics
 
-Topics that share concepts/sources with `journalism-ai-era`:
-(none)
+No related topics.

@@ -4,27 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: writing-craft
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: writing-craft
 
 Auto-generated index of all content with topic `writing-craft`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (2)
 
-- [[read-widely-write-well]] — main: #productivity, sub: [#psychology]
-- [[reading-brain-vs-digital-brain]] — main: #productivity, sub: [#psychology]
+- [[read-widely-write-well]] — main: #productivity, sub: [psychology]
+- [[reading-brain-vs-digital-brain]] — main: #productivity, sub: [psychology]
 
 ## Sources (1)
 
-- [[src_the-golden-rule-for-becoming-a-better-writer]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_the-golden-rule-for-becoming-a-better-writer]] — main: #productivity, sub: [psychology, opinion]
 
 ## Related topics
 
-Topics that share concepts/sources with `writing-craft`:
-(none)
+No related topics.

@@ -4,26 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: loop-native-factory
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: loop-native-factory
 
 Auto-generated index of all content with topic `loop-native-factory`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (0)
 
-(none)
 
 ## Sources (1)
 
-- [[src_loop-native-factory]] — main: #ai, sub: [#tools, #vibecode, #research]
+- [[src_loop-native-factory]] — main: #ai, sub: [tools, vibecode, research]
 
 ## Related topics
 
-Topics that share concepts/sources with `loop-native-factory`:
-(none)
+No related topics.

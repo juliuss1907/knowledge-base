@@ -4,27 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: hypergamy-relationships
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: hypergamy-relationships
 
 Auto-generated index of all content with topic `hypergamy-relationships`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (2)
 
-- [[hypergamy]] — main: #productivity, sub: [#psychology, #opinion]
-- [[relationship-dynamics]] — main: #productivity, sub: [#psychology]
+- [[hypergamy]] — main: #productivity, sub: [psychology, opinion]
+- [[relationship-dynamics]] — main: #productivity, sub: [psychology]
 
 ## Sources (1)
 
-- [[src_hypergamy]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_hypergamy]] — main: #productivity, sub: [psychology, opinion]
 
 ## Related topics
 
-Topics that share concepts/sources with `hypergamy-relationships`:
-(none)
+No related topics.

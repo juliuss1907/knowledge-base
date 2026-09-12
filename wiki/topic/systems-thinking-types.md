@@ -4,26 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: systems-thinking-types
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: systems-thinking-types
 
 Auto-generated index of all content with topic `systems-thinking-types`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (1)
 
-- [[markus-four-thinking-types]] — main: #productivity, sub: [#opinion, #psychology]
+- [[markus-four-thinking-types]] — main: #productivity, sub: [opinion, psychology]
 
 ## Sources (1)
 
-- [[src_markus-four-thinking-types]] — main: #productivity, sub: [#opinion, #psychology]
+- [[src_markus-four-thinking-types]] — main: #productivity, sub: [opinion, psychology]
 
 ## Related topics
 
-Topics that share concepts/sources with `systems-thinking-types`:
-(none)
+No related topics.

@@ -4,26 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: decision-making-under-uncertainty
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: decision-making-under-uncertainty
 
 Auto-generated index of all content with topic `decision-making-under-uncertainty`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (0)
 
-(none)
 
 ## Sources (1)
 
-- [[src_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — main: #productivity, sub: [#psychology, #tutorial]
+- [[src_lam-the-nao-e-ra-quyet-inh-khi-con-thankvn]] — main: #productivity, sub: [psychology, tutorial]
 
 ## Related topics
 
-Topics that share concepts/sources with `decision-making-under-uncertainty`:
-(none)
+No related topics.

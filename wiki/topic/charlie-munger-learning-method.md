@@ -4,27 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: charlie-munger-learning-method
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Topic: charlie-munger-learning-method
 
 Auto-generated index of all content with topic `charlie-munger-learning-method`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
 ## Concepts (0)
 
-(none)
 
 ## Sources (2)
 
-- [[src_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — main: #productivity, sub: [#psychology, #research]
-- [[src_learn-anything-like-charlie-munger]] — main: #productivity, sub: [#psychology, #research]
+- [[src_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — main: #productivity, sub: [psychology, research]
+- [[src_learn-anything-like-charlie-munger]] — main: #productivity, sub: [psychology, research]
 
 ## Related topics
 
-Topics that share concepts/sources with `charlie-munger-learning-method`:
-(none)
+No related topics.

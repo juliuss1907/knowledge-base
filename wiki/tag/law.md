@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: law
 auto_generated: true
-last_updated: 2026-09-11
+last_updated: 2026-09-12
 ---
 
 # Tag: #law
 
 Auto-generated index of all content tagged with `#law`.
 
-Last updated: 2026-09-11 21:00:00
+Last updated: 2026-09-12 21:02:03
 
 ---
 
@@ -25,21 +25,20 @@ Last updated: 2026-09-11 21:00:00
 - Total files: 5
 - Sources: 2
 - Concepts: 3
-- Last updated: 2026-09-11
+- Last updated: 2026-09-12
 
 ## Files with this tag
 
-- [[agency-law]] — Agency Law (concept, main: #ai, sub: [#law, #research], topic: ai-legal-personhood)
-- [[ai-legal-personhood]] — AI Legal Personhood (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
-- [[src_aaron-wright-ai-agents-legal-body]] — The Agent's Legal Body: How AI Agents Get the Right to Contract (source, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
-- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cách nhanh nhất nộp hồ sơ bảo hiểm thất nghiệp (source, main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance)
-- [[zero-member-llc]] — Zero-Member LLC (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[agency-law]] — Agency Law (concept, main: #ai, sub: [law, research], topic: ai-legal-personhood)
+- [[ai-legal-personhood]] — Ai Legal Personhood (concept, main: #ai, sub: [law, tools], topic: ai-legal-personhood)
+- [[src_aaron-wright-ai-agents-legal-body]] — Src Aaron Wright Ai Agents Legal Body (source, main: #ai, sub: [law, tools], topic: ai-legal-personhood)
+- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Src Cach Nhanh Nhat Nop Ho So Bao Hiem That Nghiep (source, main: #economic, sub: [tutorial, law], topic: vietnam-unemployment-insurance)
+- [[zero-member-llc]] — Zero Member Llc (concept, main: #ai, sub: [law, tools], topic: ai-legal-personhood)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#law`:
-- [[ai]] — 4 co-occurrences
-- [[tools]] — 3 co-occurrences
-- [[economic]] — 1 co-occurrences
-- [[tutorial]] — 1 co-occurrences
-- [[research]] — 1 co-occurrences
+- `#ai` (4 files)
+- `#tools` (3 files)
+- `#economic` (1 files)
+- `#tutorial` (1 files)
+- `#research` (1 files)

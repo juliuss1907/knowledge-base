@@ -4,13 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-11 23:31 (Hygiene 09-11)
+**Last updated:** 2026-09-12 23:00 (Output 09-12)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 11
+**Pending reports awaiting review:** 12
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
@@ -99,6 +99,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-09-12 (23:00) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-12_output-report.md`
+- **Summary:** 775 files checked (198 sources + 577 concepts). 5 new files compiled 09-12 (1 source + 4 concepts). 2 issues: **2 ERROR, 0 WARNING, 0 INFO**. ERROR: Chinese characters "既是" injected into Vietnamese text in source + concept (Compile Agent defect). No dropped-i, no broken forward-refs, no truncated files. Dropped-i streak: 14 consecutive.
+- **Actions needed:** Fix Agent: replace "既是" with "vừa là" in `src_harness-engineering-ai-coding.md` (line 24) and `harness-engineering.md` (line 26).
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-11 (23:15) — PENDING
 

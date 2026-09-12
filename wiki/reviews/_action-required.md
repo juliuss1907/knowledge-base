@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-12 23:00 (Output 09-12)
+**Last updated:** 2026-09-12 23:15 (Format 09-12)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 12
+**Pending reports awaiting review:** 13
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-12 | Format | 399 (0E+399W) | +0 net change vs 09-11 — +6 files (4 concepts + 1 source + 1 topic, harness-engineering batch). Top-20 identical. Exact-zero-flat. Forward-refs only. Review [wiki/reviews/2026-09-12_format-report.md](2026-09-12_format-report.md) |
 | 🔍 PENDING | 09-11 | Output | 4 (0E+1W+3I) | 8 new files (1 source + 7 concepts). WARNING: 3 forward-refs without raw. Pipeline active after 9-day idle. Review [wiki/reviews/2026-09-11_output-report.md](2026-09-11_output-report.md) |
 | 🔍 PENDING | 09-11 | Format | 399 (0E+399W) | +1 net change vs 09-10 — +4 files (2 concepts + 1 source + 3 topics, pipeline active after 9-day idle). Top-20 shifted: [[network-effects]] in, [[first-order-thinking]] out. Forward-refs only. Review [wiki/reviews/2026-09-11_format-report.md](2026-09-11_format-report.md) |
 | 🔍 PENDING | 09-11 | Hygiene | 31 (4E+27W) | CARRY 100% từ 09-10 — 0 issue mới resolved. 4 ERROR: DREAMS.md (lần 3), memory/ (lần 3, +3 files 09-11), migration marker (lần 4), HEARTBEAT (lần 12). 27 WARNING: 12 memory/ sub-files + 15 archive backup false positive. Review [wiki/reviews/2026-09-11_hygiene-report.md](2026-09-11_hygiene-report.md) |
@@ -99,6 +100,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-12 (23:15) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-12_format-report.md`
+- **Summary:** 1048 files checked (577 concepts + 198 sources + 34 indexes + 239 topics). 399 issues: **0 ERROR, 399 WARNING**. Clean ERROR streak continues. **+0 net change vs 09-11** — total 399→399, individual broken 380→380, forward-ref groups 19→19, unique targets 271→271. +6 files (4 concepts + 1 source + 1 topic — harness-engineering batch compiled 09-12). Top-20 identical to 09-11. All 6 new files pass format compliance cleanly, 0 broken wikilinks. Exact-zero-flat: KB grows, backlog does not.
+- **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-09-12 (23:00) — PENDING
 

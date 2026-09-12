@@ -181,3 +181,4 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 - [[2026-06-26_give-me-14-minutes-and-ill-destroy-your-procrastination-forever]] — Give Me 14 Minutes And I'll Destroy Your Procrastination Forever (processed)
 
 - [[2026-08-05_why-time-felt-slower-when-we-were-kids]] — why time felt slower when we were kids (and how to get it back) by Contemplation Station (unprocessed)
+- [[2026-09-12_harness-engineering-ai-coding]] — Harness Engineering — AI coding harness (deterministic tooling + agent review + GC) by Birgitta Boeckeler / Habitat-Thinking (unprocessed)

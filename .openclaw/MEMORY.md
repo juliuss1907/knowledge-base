@@ -1629,3 +1629,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Invalid tags: 0
 - Errors: 0
 - Mode: full rebuild (incremental detected 8 changed files but full rebuild for correctness)
+
+## 2026-09-12 08:00 — Compiled
+
+- **Raw:** raw/articles/2026-09-12_harness-engineering-ai-coding.md
+- **Source note:** wiki/sources/src_harness-engineering-ai-coding.md
+- **Concepts:** [harness-engineering, context-engineering, progressive-hardening, three-enforcement-loops]
+- **Tags applied:** main=ai, sub=[coding, tools], topic=harness-engineering-ai-coding
+- **Action:** created 4 concept files

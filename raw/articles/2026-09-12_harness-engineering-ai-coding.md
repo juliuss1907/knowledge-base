@@ -5,7 +5,9 @@ url: https://habitat-thinking.github.io/ai-literacy-superpowers/plugins/ai-liter
 author: Birgitta Boeckeler (original), Habitat-Thinking (plugin adaptation)
 date_published: 2026-09-12
 date_ingested: 2026-09-12
-status: unprocessed
+status: processed
+compiled_at: 2026-09-12
+compiled_to: "[[src_harness-engineering-ai-coding]]"
 source: habitat-thinking.github.io
 ---
 

@@ -1637,3 +1637,14 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Concepts:** [harness-engineering, context-engineering, progressive-hardening, three-enforcement-loops]
 - **Tags applied:** main=ai, sub=[coding, tools], topic=harness-engineering-ai-coding
 - **Action:** created 4 concept files
+
+## 2026-09-12 21:00 — Indexed
+
+- Scanned: 577 concepts + 198 sources
+- Tags indexed: 24 (9 main-tags + 15 sub-tags)
+- Topics indexed: 239
+- Orphans deleted: 0
+- Errors: 0
+- Mode: incremental (5 files since 2026-09-11)
+- New topic: harness-engineering-ai-coding
+- Updated tags: ai (+5→212), coding (+5→47), tools (+5→235)

@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-12 23:32 (Hygiene 09-12)
+**Last updated:** 2026-09-13 23:15 (Format 09-13)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 14
+**Pending reports awaiting review:** 15
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-13 | Format | 399 (0E+399W) | +0 net change vs 09-12 — 0 wiki files added (pipeline idle). Top-20 identical. Exact-zero-flat variant no-compilation-happened. Forward-refs only. Review [wiki/reviews/2026-09-13_format-report.md](2026-09-13_format-report.md) |
 | 🔍 PENDING | 09-12 | Format | 399 (0E+399W) | +0 net change vs 09-11 — +6 files (4 concepts + 1 source + 1 topic, harness-engineering batch). Top-20 identical. Exact-zero-flat. Forward-refs only. Review [wiki/reviews/2026-09-12_format-report.md](2026-09-12_format-report.md) |
 | 🔍 PENDING | 09-12 | Output | 2 (2E+0W+0I) | 5 new files compiled 09-12 (1 source + 4 concepts). 2 ERROR: Chinese characters "既是" injected into Vietnamese text in src_harness-engineering-ai-coding.md + harness-engineering.md. No dropped-i. Dropped-i streak: 14 consecutive. Review [wiki/reviews/2026-09-12_output-report.md](2026-09-12_output-report.md)
 | 🔍 PENDING | 09-12 | Hygiene | 35 (4E+31W) | 233,688 paths. CARRY: DREAMS.md (git-tracked), memory/ (+3 dreaming 09-12, 16 sub-files), migration marker (git-tracked), wiki/HEARTBEAT (broken symlink lần 13). RESOLVED: repos naming violations từ 09-11 — [SYSTEMATIC VIOLATION] 08-31 resolved. +4 WARNING vs 09-11 (+4 dreaming files -6 repos fix). Review [wiki/reviews/2026-09-12_hygiene-report.md](2026-09-12_hygiene-report.md)
@@ -102,6 +103,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-13 (23:15) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-13_format-report.md`
+- **Summary:** 1048 files checked (577 concepts + 198 sources + 34 indexes + 239 topics). 399 issues: **0 ERROR, 399 WARNING**. Clean ERROR streak continues. **+0 net change vs 09-12** — total 399→399, individual broken 380→380, forward-ref groups 19→19, unique targets 271→271. 0 wiki files added since 09-12 23:15 (pipeline idle — no compilation). Top-20 identical to 09-12. Exact-zero-flat variant no-compilation-happened: wiki layer static, raw grows uncompiled.
+- **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-12 (23:15) — PENDING
 

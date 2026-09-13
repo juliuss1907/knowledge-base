@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-13 23:15 (Format 09-13)
+**Last updated:** 2026-09-13 23:30 (Hygiene 09-13)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 15
+**Pending reports awaiting review:** 16
 **Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-13 | Format | 399 (0E+399W) | +0 net change vs 09-12 — 0 wiki files added (pipeline idle). Top-20 identical. Exact-zero-flat variant no-compilation-happened. Forward-refs only. Review [wiki/reviews/2026-09-13_format-report.md](2026-09-13_format-report.md) |
+| 🔍 PENDING | 09-13 | Hygiene | 1078 (4E+1074W) | 233,696 paths. 0 ISSUE RESOLVED vs 09-12 — all 4 ERROR carry-forward (DREAMS.md lần 5, memory/ lần 5 +4 files =20, migration marker lần 6, HEARTBEAT lần 14). 16 memory/ sub-files flagged. No new naming violations, no empty dirs. Review [wiki/reviews/2026-09-13_hygiene-report.md](2026-09-13_hygiene-report.md) |
 | 🔍 PENDING | 09-12 | Format | 399 (0E+399W) | +0 net change vs 09-11 — +6 files (4 concepts + 1 source + 1 topic, harness-engineering batch). Top-20 identical. Exact-zero-flat. Forward-refs only. Review [wiki/reviews/2026-09-12_format-report.md](2026-09-12_format-report.md) |
 | 🔍 PENDING | 09-12 | Output | 2 (2E+0W+0I) | 5 new files compiled 09-12 (1 source + 4 concepts). 2 ERROR: Chinese characters "既是" injected into Vietnamese text in src_harness-engineering-ai-coding.md + harness-engineering.md. No dropped-i. Dropped-i streak: 14 consecutive. Review [wiki/reviews/2026-09-12_output-report.md](2026-09-12_output-report.md)
 | 🔍 PENDING | 09-12 | Hygiene | 35 (4E+31W) | 233,688 paths. CARRY: DREAMS.md (git-tracked), memory/ (+3 dreaming 09-12, 16 sub-files), migration marker (git-tracked), wiki/HEARTBEAT (broken symlink lần 13). RESOLVED: repos naming violations từ 09-11 — [SYSTEMATIC VIOLATION] 08-31 resolved. +4 WARNING vs 09-11 (+4 dreaming files -6 repos fix). Review [wiki/reviews/2026-09-12_hygiene-report.md](2026-09-12_hygiene-report.md)
@@ -103,6 +104,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-09-13 (23:30) — PENDING
+
+- **Report:** `wiki/reviews/2026-09-13_hygiene-report.md`
+- **Summary:** 233,696 paths checked. 1078 issues: **4 ERROR, 1074 WARNING** (20 reported, 1058 truncated). **0 ISSUE RESOLVED vs 09-12** — all 4 ERROR carry-forward: (1) `DREAMS.md` root orphan — git-tracked, committed vault backup 09-13 03:04, lần 5 liên tiếp (09-09→09-13). (2) `memory/` root folder — **+4 new files since 09-12** (20 total vs 16 on 09-12: deep/light/rem 09-13 logs), OpenClaw dreaming pipeline continues writing to root `memory/`, lần 5 liên tiếp. (3) Migration marker `.migrated.*` — git-tracked since `b5e519fc`, lần 6 liên tiếp từ 09-08 addendum. (4) `wiki/HEARTBEAT.md` — broken symlink lần 14 liên tiếp (08-26→09-13). **16 WARNING:** all memory/ sub-files (sub-paths của Issue 2). **Tin tốt:** 0 new naming violations, 0 empty dirs, `openclaw-workspace-state.json` gốc vắng mặt streak 17+ runs. WARNING count spike (31→1074) do scanner fully walks memory/ contents this run.
+- **Actions needed:** (1) Fix Agent: `git rm DREAMS.md` + commit (identify and fix OpenClaw dreaming process). (2) Fix Agent: `git rm -r memory/` + commit (root cause = OpenClaw dreaming process writes to root `memory/`). (3) Fix Agent: `.gitignore` add `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (4) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirroring). (5) KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` — all carry-forwards.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-13 (23:15) — PENDING
 

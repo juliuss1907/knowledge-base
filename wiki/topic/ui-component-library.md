@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: ui-component-library
 auto_generated: true
-last_updated: 2026-09-12
+last_updated: 2026-09-14
 ---
 
 # Topic: ui-component-library
 
 Auto-generated index of all content with topic `ui-component-library`.
 
-Last updated: 2026-09-12 21:02:03
+Last updated: 2026-09-14 21:01:15
 
 ---
 
 ## Concepts (1)
 
-- [[ui-component-library]] — main: #tech, sub: [tools, coding]
+- [[ui-component-library]] — main: #tech, sub: ['tools', 'coding']
 
 ## Sources (1)
 
-- [[src_threeui]] — main: #tech, sub: [tools, coding]
+- [[src_threeui]] — main: #tech, sub: ['tools', 'coding']
 
 ## Related topics
 
-No related topics.
+No related topics found.

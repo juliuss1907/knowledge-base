@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: schedule-maxxing
 auto_generated: true
-last_updated: 2026-09-12
+last_updated: 2026-09-14
 ---
 
 # Topic: schedule-maxxing
 
 Auto-generated index of all content with topic `schedule-maxxing`.
 
-Last updated: 2026-09-12 21:02:03
+Last updated: 2026-09-14 21:01:15
 
 ---
 
 ## Concepts (1)
 
-- [[schedule-maxxing]] — main: #productivity, sub: [psychology, health]
+- [[schedule-maxxing]] — main: #productivity, sub: ['psychology', 'health']
 
 ## Sources (1)
 
-- [[src_schedule-maxxing]] — main: #productivity, sub: [psychology, health]
+- [[src_schedule-maxxing]] — main: #productivity, sub: ['psychology', 'health']
 
 ## Related topics
 
-No related topics.
+No related topics found.

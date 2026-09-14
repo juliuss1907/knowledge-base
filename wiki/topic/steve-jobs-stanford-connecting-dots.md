@@ -4,26 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: steve-jobs-stanford-connecting-dots
 auto_generated: true
-last_updated: 2026-09-12
+last_updated: 2026-09-14
 ---
 
 # Topic: steve-jobs-stanford-connecting-dots
 
 Auto-generated index of all content with topic `steve-jobs-stanford-connecting-dots`.
 
-Last updated: 2026-09-12 21:02:03
+Last updated: 2026-09-14 21:01:15
 
 ---
 
 ## Concepts (2)
 
-- [[connecting-the-dots-principle]] — main: #productivity, sub: [psychology, opinion]
-- [[stay-hungry-stay-foolish]] — main: #productivity, sub: [psychology, opinion]
+- [[connecting-the-dots-principle]] — main: #productivity, sub: ['psychology', 'opinion']
+- [[stay-hungry-stay-foolish]] — main: #productivity, sub: ['psychology', 'opinion']
 
 ## Sources (1)
 
-- [[src_steve-jobs-stanford-2005-commencement]] — main: #productivity, sub: [psychology, opinion]
+- [[src_steve-jobs-stanford-2005-commencement]] — main: #productivity, sub: ['psychology', 'opinion']
 
 ## Related topics
 
-No related topics.
+No related topics found.

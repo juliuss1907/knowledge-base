@@ -1677,3 +1677,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Source notes created: 2
 - Concepts created: 5 (all new)
 - Tag proposals: 0
+
+## 2026-09-14 21:00:00 — Indexed (incremental rebuild)
+- Scanned: 582 concepts + 200 sources (782 total)
+- Tags indexed: 24 (9 main-tags + 15 sub-tags)
+- Topics indexed: 244
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags: 0

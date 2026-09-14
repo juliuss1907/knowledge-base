@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: global-macro-investing
 auto_generated: true
-last_updated: 2026-09-12
+last_updated: 2026-09-14
 ---
 
 # Topic: global-macro-investing
 
 Auto-generated index of all content with topic `global-macro-investing`.
 
-Last updated: 2026-09-12 21:02:03
+Last updated: 2026-09-14 21:01:15
 
 ---
 
 ## Concepts (1)
 
-- [[global-macro-investing]] — main: #investment, sub: [tutorial]
+- [[global-macro-investing]] — main: #investment, sub: ['tutorial']
 
 ## Sources (1)
 
-- [[src_global-macro-investing]] — main: #investment, sub: [opinion, tutorial]
+- [[src_global-macro-investing]] — main: #investment, sub: ['opinion', 'tutorial']
 
 ## Related topics
 
-No related topics.
+No related topics found.

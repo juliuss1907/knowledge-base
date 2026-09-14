@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: product-vs-prototype
 auto_generated: true
-last_updated: 2026-09-12
+last_updated: 2026-09-14
 ---
 
 # Topic: product-vs-prototype
 
 Auto-generated index of all content with topic `product-vs-prototype`.
 
-Last updated: 2026-09-12 21:02:03
+Last updated: 2026-09-14 21:01:15
 
 ---
 
 ## Concepts (1)
 
-- [[product-vs-prototype]] — main: #ai, sub: [opinion, vibecode]
+- [[product-vs-prototype]] — main: #ai, sub: ['opinion', 'vibecode']
 
 ## Sources (1)
 
-- [[src_what-is-a-product]] — main: #ai, sub: [opinion, vibecode]
+- [[src_what-is-a-product]] — main: #ai, sub: ['opinion', 'vibecode']
 
 ## Related topics
 
-No related topics.
+No related topics found.

@@ -4,26 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: independent-investment-research
 auto_generated: true
-last_updated: 2026-09-12
+last_updated: 2026-09-14
 ---
 
 # Topic: independent-investment-research
 
 Auto-generated index of all content with topic `independent-investment-research`.
 
-Last updated: 2026-09-12 21:02:03
+Last updated: 2026-09-14 21:01:15
 
 ---
 
 ## Concepts (2)
 
-- [[investment-conviction]] — main: #investment, sub: [psychology, opinion]
-- [[outsourced-thinking]] — main: #investment, sub: [psychology, opinion]
+- [[investment-conviction]] — main: #investment, sub: ['psychology', 'opinion']
+- [[outsourced-thinking]] — main: #investment, sub: ['psychology', 'opinion']
 
 ## Sources (1)
 
-- [[src_an-all-too-common-investment-story]] — main: #investment, sub: [opinion, psychology]
+- [[src_an-all-too-common-investment-story]] — main: #investment, sub: ['opinion', 'psychology']
 
 ## Related topics
 
-No related topics.
+No related topics found.

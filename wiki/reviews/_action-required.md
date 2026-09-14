@@ -4,19 +4,20 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-14 23:16 (Format validation 09-14)
+**Last updated:** 2026-09-14 23:31 (Hygiene inspection 09-14)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-14 | Format | 402 (0E+402W) | Review [wiki/reviews/2026-09-14_format-report.md](2026-09-14_format-report.md) |
 | 🔍 PENDING | 09-14 | Output | 4 (2E+1W+1I) | Pending — Chinese chars + spacing merge + forward-ref [[goal-setting]] |
+| 🔍 PENDING | 09-14 | Hygiene | 43 (4E+39W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +3 memory/ files; pipeline active 274 files |
 | ✅ APPLIED | 09-13 | Format | 399 (0E+399W) | Applied 2026-09-14 — forward-refs only, 0 net change, no action needed |
 | ✅ APPLIED | 09-13 | Hygiene | 1078 (4E+1074W) | Applied 2026-09-14 — 4 ERROR carry-forward (DREAMS.md lần 5, memory/ lần 5, migration marker lần 6, HEARTBEAT lần 14); deferred, no new fixes |
 | ✅ APPLIED | 09-12 | Format | 399 (0E+399W) | Applied 2026-09-14 — forward-refs only, 0 net change, no action needed |
@@ -119,6 +120,13 @@
 - **Report:** `wiki/reviews/2026-09-14_output-report.md`
 - **Summary:** 9 new files (2 sources + 5 concepts compiled 09-14, +2 from 09-12 carry-over). 4 issues: **2 ERROR, 1 WARNING, 1 INFO**. Chinese characters "注意力" injected into Vietnamese text (4 instances, 3 files) — 2nd occurrence after 09-12 "既是". Spacing merge "tham chiếuvừa" (2 files). Forward-ref [[goal-setting]] without raw (3 files). Dropped-i streak: 15 consecutive.
 - **Actions needed:** Fix Agent: (1) Replace "注意力" → "sự chú ý" in 3 files. (2) Fix spacing "tham chiếuvừa" → "tham chiếu, vừa" in 2 files. (3) Decide [[goal-setting]]: compile or drop links.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-09-14 (23:31)
+
+- **Report:** `wiki/reviews/2026-09-14_hygiene-report.md`
+- **Summary:** 233,735 paths checked. 43 issues: **4 ERROR, 39 WARNING** (20 reported, 23 truncated). **0 ISSUE RESOLVED vs 09-13** — all 4 ERROR carry-forward: (1) `DREAMS.md` root orphan — git-tracked, lần 6 liên tiếp (09-09→09-14). (2) `memory/` root folder — **+3 new dreaming files since 09-13** (deep/light/rem 2026-09-14, total 24 vs 20), OpenClaw dreaming pipeline continues writing daily, lần 6 liên tiếp. (3) Migration marker `.migrated.*` — git-tracked since `b5e519fc`, lần 7 liên tiếp từ 09-08 addendum. (4) `wiki/HEARTBEAT.md` — broken symlink lần 15 liên tiếp (08-26→09-14). **39 WARNING:** 24 memory/ sub-files (sub-paths của Issue 2) + 15 archive backup false positives (unchanged). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt streak 18+ runs. 0 new naming violations, 0 empty dir. Pipeline active: 274 wiki files changed since 09-13 (tag files regenerated).
+- **Actions needed:** (1) KHÔNG xóa `DREAMS.md` — carry-forward. (2) KHÔNG xóa `memory/` — carry-forward. (3) KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` — all carry-forwards. (4) Fix Agent: `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (5) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirroring).
 - **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-09-13 (23:30) — APPLIED

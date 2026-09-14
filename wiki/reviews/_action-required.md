@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-14 (batch 09-08→09-13)
+**Last updated:** 2026-09-14 23:00 (Output validation 09-14)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-14 | Output | 4 (2E+1W+1I) | Pending — Chinese chars + spacing merge + forward-ref [[goal-setting]] |
 | ✅ APPLIED | 09-13 | Format | 399 (0E+399W) | Applied 2026-09-14 — forward-refs only, 0 net change, no action needed |
 | ✅ APPLIED | 09-13 | Hygiene | 1078 (4E+1074W) | Applied 2026-09-14 — 4 ERROR carry-forward (DREAMS.md lần 5, memory/ lần 5, migration marker lần 6, HEARTBEAT lần 14); deferred, no new fixes |
 | ✅ APPLIED | 09-12 | Format | 399 (0E+399W) | Applied 2026-09-14 — forward-refs only, 0 net change, no action needed |
@@ -104,6 +105,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-09-14 (23:00)
+
+- **Report:** `wiki/reviews/2026-09-14_output-report.md`
+- **Summary:** 9 new files (2 sources + 5 concepts compiled 09-14, +2 from 09-12 carry-over). 4 issues: **2 ERROR, 1 WARNING, 1 INFO**. Chinese characters "注意力" injected into Vietnamese text (4 instances, 3 files) — 2nd occurrence after 09-12 "既是". Spacing merge "tham chiếuvừa" (2 files). Forward-ref [[goal-setting]] without raw (3 files). Dropped-i streak: 15 consecutive.
+- **Actions needed:** Fix Agent: (1) Replace "注意力" → "sự chú ý" in 3 files. (2) Fix spacing "tham chiếuvừa" → "tham chiếu, vừa" in 2 files. (3) Decide [[goal-setting]]: compile or drop links.
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-09-13 (23:30) — APPLIED
 

@@ -1659,3 +1659,21 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Topics indexed:** unchanged (219 topic files)
 - **Orphans deleted:** 0
 - **Errors:** 0
+
+## 2026-09-14 08:00 — Compiled batch (2 files)
+
+### File 1: raw/articles/2026-09-13_delusional-goals-drive-success.md
+- **Source note:** wiki/sources/src_delusional-goals-drive-success.md
+- **Concepts:** [delusional-goals, goal-as-filter, reality-distortion-field]
+- **Tags:** main=productivity, sub=[psychology, opinion], topic=delusional-goals-success
+
+### File 2: raw/articles/2026-09-13_thinking-about-thinking-metacognition.md
+- **Source note:** wiki/sources/src_thinking-about-thinking-metacognition.md
+- **Concepts:** [metacognition, cognitive-distortions]
+- **Tags:** main=productivity, sub=[psychology], topic=metacognition
+
+### Summary
+- Files compiled: 2/2
+- Source notes created: 2
+- Concepts created: 5 (all new)
+- Tag proposals: 0

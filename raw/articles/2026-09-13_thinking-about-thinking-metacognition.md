@@ -5,7 +5,9 @@ url: https://celinesnotes.substack.com/p/thinking-about-thinking
 author: Celine
 date_published: 2026-09-13
 date_ingested: 2026-09-13
-status: unprocessed
+status: processed
+compiled_at: 2026-09-14
+compiled_to: "[[src_thinking-about-thinking-metacognition]]"
 source: substack.com
 ---
 

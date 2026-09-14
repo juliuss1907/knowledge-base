@@ -5,7 +5,9 @@ url: https://open.substack.com/pub/thedankoe/p/you-need-to-be-delusional-if-you
 author: Dan Koe
 date_published: 2026-09-13
 date_ingested: 2026-09-13
-status: unprocessed
+status: processed
+compiled_at: 2026-09-14
+compiled_to: "[[src_delusional-goals-drive-success]]"
 source: substack.com
 ---
 

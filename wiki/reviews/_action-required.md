@@ -4,33 +4,33 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-13 23:30 (Hygiene 09-13)
+**Last updated:** 2026-09-14 (batch 09-08→09-13)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 16
-**Last batch applied:** 14 reports (08-28→09-02) — latest: 4 reports 09-01/09-02 approved 2026-09-02 by Connor (3 ERRORs 08-31 resolved by Fix Agent verified; repos casing + 8 backup files deferred — Fix Agent); trước đó 10 reports 08-28→09-01 approved 2026-09-01
+**Pending reports awaiting review:** 0
+**Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 09-13 | Format | 399 (0E+399W) | +0 net change vs 09-12 — 0 wiki files added (pipeline idle). Top-20 identical. Exact-zero-flat variant no-compilation-happened. Forward-refs only. Review [wiki/reviews/2026-09-13_format-report.md](2026-09-13_format-report.md) |
-| 🔍 PENDING | 09-13 | Hygiene | 1078 (4E+1074W) | 233,696 paths. 0 ISSUE RESOLVED vs 09-12 — all 4 ERROR carry-forward (DREAMS.md lần 5, memory/ lần 5 +4 files =20, migration marker lần 6, HEARTBEAT lần 14). 16 memory/ sub-files flagged. No new naming violations, no empty dirs. Review [wiki/reviews/2026-09-13_hygiene-report.md](2026-09-13_hygiene-report.md) |
-| 🔍 PENDING | 09-12 | Format | 399 (0E+399W) | +0 net change vs 09-11 — +6 files (4 concepts + 1 source + 1 topic, harness-engineering batch). Top-20 identical. Exact-zero-flat. Forward-refs only. Review [wiki/reviews/2026-09-12_format-report.md](2026-09-12_format-report.md) |
-| 🔍 PENDING | 09-12 | Output | 2 (2E+0W+0I) | 5 new files compiled 09-12 (1 source + 4 concepts). 2 ERROR: Chinese characters "既是" injected into Vietnamese text in src_harness-engineering-ai-coding.md + harness-engineering.md. No dropped-i. Dropped-i streak: 14 consecutive. Review [wiki/reviews/2026-09-12_output-report.md](2026-09-12_output-report.md)
-| 🔍 PENDING | 09-12 | Hygiene | 35 (4E+31W) | 233,688 paths. CARRY: DREAMS.md (git-tracked), memory/ (+3 dreaming 09-12, 16 sub-files), migration marker (git-tracked), wiki/HEARTBEAT (broken symlink lần 13). RESOLVED: repos naming violations từ 09-11 — [SYSTEMATIC VIOLATION] 08-31 resolved. +4 WARNING vs 09-11 (+4 dreaming files -6 repos fix). Review [wiki/reviews/2026-09-12_hygiene-report.md](2026-09-12_hygiene-report.md)
-| 🔍 PENDING | 09-11 | Output | 4 (0E+1W+3I) | 8 new files (1 source + 7 concepts). WARNING: 3 forward-refs without raw. Pipeline active after 9-day idle. Review [wiki/reviews/2026-09-11_output-report.md](2026-09-11_output-report.md) |
-| 🔍 PENDING | 09-11 | Format | 399 (0E+399W) | +1 net change vs 09-10 — +4 files (2 concepts + 1 source + 3 topics, pipeline active after 9-day idle). Top-20 shifted: [[network-effects]] in, [[first-order-thinking]] out. Forward-refs only. Review [wiki/reviews/2026-09-11_format-report.md](2026-09-11_format-report.md) |
-| 🔍 PENDING | 09-11 | Hygiene | 31 (4E+27W) | CARRY 100% từ 09-10 — 0 issue mới resolved. 4 ERROR: DREAMS.md (lần 3), memory/ (lần 3, +3 files 09-11), migration marker (lần 4), HEARTBEAT (lần 12). 27 WARNING: 12 memory/ sub-files + 15 archive backup false positive. Review [wiki/reviews/2026-09-11_hygiene-report.md](2026-09-11_hygiene-report.md) |
-| 🔍 PENDING | 09-09 | Format | 398 (0E+398W) | 0 net change vs 09-08 — +2 tag files regenerated (0 broken links); pipeline idle day 7. Review [wiki/reviews/2026-09-09_format-report.md](2026-09-09_format-report.md) |
-| 🔍 PENDING | 09-09 | Hygiene | 7 (4E+3W) | MỚI: DREAMS.md root (git-tracked), memory/ folder populated (dreaming); RESOLVED: repos casing +8 backup files; CARRY: migration marker + HEARTBEAT broken symlink. Review [wiki/reviews/2026-09-09_hygiene-report.md](2026-09-09_hygiene-report.md) |
-| 🔍 PENDING | 09-09 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 7). 0 issues. Review [wiki/reviews/2026-09-09_output-report.md](2026-09-09_output-report.md) |
-| 🔍 PENDING | 09-10 | Output | 0 (0E+0W+0I) | [SILENT] — 767 files checked (196 sources + 571 concepts). 0 new files since 09-02 (pipeline idle day 8). 0 issues. Review [wiki/reviews/2026-09-10_output-report.md](2026-09-10_output-report.md) |
-| 🔍 PENDING | 09-10 | Format | 398 (0E+398W) | 0 net change vs 09-09 — pipeline idle day 8, 0 files added. Review [wiki/reviews/2026-09-10_format-report.md](2026-09-10_format-report.md) |
-| 🔍 PENDING | 09-10 | Hygiene | 27 (4E+23W) | CARRY-FORWARD: DREAMS.md root (lần 2), memory/ folder (lần 2, +3 files 09-10), .migrated.* marker (lần 3), wiki/HEARTBEAT.md (lần 11). 0 issue mới resolved. Review [wiki/reviews/2026-09-10_hygiene-report.md](2026-09-10_hygiene-report.md) |
-| 🔍 PENDING | 09-08 | Format | 398 (0E+398W) | 0 net change vs 09-02 — +4 topic pages (0 broken links); forward-refs only. Review [wiki/reviews/2026-09-08_format-report.md](2026-09-08_format-report.md) |
-| 🔍 PENDING | 09-08 | Hygiene | 12 (2E+10W) | Addendum 23:31 — root json MIGRATED bởi runtime 20:42 (streak 12 kết thúc); MỚI: `.migrated.*` marker đã commit `b5e519fc` cần gitignore+rm --cached; HEARTBEAT lần 9 (dangling); 2 repos casing + 8 backup files defer Fix Agent |
+| ✅ APPLIED | 09-13 | Format | 399 (0E+399W) | Applied 2026-09-14 — forward-refs only, 0 net change, no action needed |
+| ✅ APPLIED | 09-13 | Hygiene | 1078 (4E+1074W) | Applied 2026-09-14 — 4 ERROR carry-forward (DREAMS.md lần 5, memory/ lần 5, migration marker lần 6, HEARTBEAT lần 14); deferred, no new fixes |
+| ✅ APPLIED | 09-12 | Format | 399 (0E+399W) | Applied 2026-09-14 — forward-refs only, 0 net change, no action needed |
+| ✅ APPLIED | 09-12 | Output | Applied 2026-09-14 — 2 ERROR Chinese chars '既是' in harness-engineering files → FIX AGENT (inline Vietnamese text cleanup) | 5 new files compiled 09-12 (1 source + 4 concepts). 2 ERROR: Chinese characters "既是" injected into Vietnamese text in src_harness-engineering-ai-coding.md + harness-engineering.md. No dropped-i. Dropped-i streak: 14 consecutive. Review [wiki/reviews/2026-09-12_output-report.md](2026-09-12_output-report.md)
+| ✅ APPLIED | 09-12 | Hygiene | Applied 2026-09-14 — 4 ERROR carry-forward; RESOLVED repos naming violations; deferred | 233,688 paths. CARRY: DREAMS.md (git-tracked), memory/ (+3 dreaming 09-12, 16 sub-files), migration marker (git-tracked), wiki/HEARTBEAT (broken symlink lần 13). RESOLVED: repos naming violations từ 09-11 — [SYSTEMATIC VIOLATION] 08-31 resolved. +4 WARNING vs 09-11 (+4 dreaming files -6 repos fix). Review [wiki/reviews/2026-09-12_hygiene-report.md](2026-09-12_hygiene-report.md)
+| ✅ APPLIED | 09-11 | Output | 4 (0E+1W+3I) | Applied 2026-09-14 — 1W+3I forward-refs without raw, no action needed |
+| ✅ APPLIED | 09-11 | Format | 399 (0E+399W) | Applied 2026-09-14 — forward-refs only, pipeline active, no action needed |
+| ✅ APPLIED | 09-11 | Hygiene | 31 (4E+27W) | Applied 2026-09-14 — 4 ERROR carry-forward, deferred |
+| ✅ APPLIED | 09-09 | Format | 398 (0E+398W) | Applied 2026-09-14 — 0 net change, no action needed |
+| ✅ APPLIED | 09-09 | Hygiene | 7 (4E+3W) | Applied 2026-09-14 — 4 ERROR carry-forward; RESOLVED repos casing+backups; deferred |
+| ✅ APPLIED | 09-09 | Output | 0 (0E+0W+0I) | Applied 2026-09-14 — silent, 0 issues |
+| ✅ APPLIED | 09-10 | Output | 0 (0E+0W+0I) | Applied 2026-09-14 — silent, 0 issues |
+| ✅ APPLIED | 09-10 | Format | 398 (0E+398W) | Applied 2026-09-14 — 0 net change, no action needed |
+| ✅ APPLIED | 09-10 | Hygiene | 27 (4E+23W) | Applied 2026-09-14 — 4 ERROR carry-forward, deferred |
+| ✅ APPLIED | 09-08 | Format | 398 (0E+398W) | Applied 2026-09-14 — forward-refs only, no action needed |
+| ✅ APPLIED | 09-08 | Hygiene | 12 (2E+10W) | Applied 2026-09-14 — root json migrated; .migrated marker deferred; HEARTBEAT lần 9 deferred; repos casing+backups deferred |
 | ✅ APPLIED | 09-02 | Format | 398 (0E+398W) | Applied 2026-09-02 — forward-refs only (prompt-injection 2 refs); no action needed |
 | ✅ APPLIED | 09-02 | Output | 1 (0E+1W+0I) | Applied 2026-09-02 — forward-ref [[prompt-injection]] defer (no raw source); rest clean |
 | ✅ APPLIED | 09-02 | Hygiene | 12 (2E+10W) | Applied 2026-09-02 — deferred: root json lần 11 + HEARTBEAT lần 7 KHÔNG xóa; repos casing MengTo/PostHog + 8 backup files defer Fix Agent |

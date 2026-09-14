@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-14 23:00 (Output validation 09-14)
+**Last updated:** 2026-09-14 23:16 (Format validation 09-14)
 
 ---
 
@@ -15,6 +15,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-14 | Format | 402 (0E+402W) | Review [wiki/reviews/2026-09-14_format-report.md](2026-09-14_format-report.md) |
 | 🔍 PENDING | 09-14 | Output | 4 (2E+1W+1I) | Pending — Chinese chars + spacing merge + forward-ref [[goal-setting]] |
 | ✅ APPLIED | 09-13 | Format | 399 (0E+399W) | Applied 2026-09-14 — forward-refs only, 0 net change, no action needed |
 | ✅ APPLIED | 09-13 | Hygiene | 1078 (4E+1074W) | Applied 2026-09-14 — 4 ERROR carry-forward (DREAMS.md lần 5, memory/ lần 5, migration marker lần 6, HEARTBEAT lần 14); deferred, no new fixes |
@@ -105,6 +106,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-14 (23:15)
+
+- **Report:** `wiki/reviews/2026-09-14_format-report.md`
+- **Summary:** 1060 files checked (582 concepts + 200 sources + 34 indexes + 244 topics). 402 issues: **0 ERROR, 402 WARNING**. Clean ERROR streak continues. **+3 net change vs 09-13** — total 399→402, individual broken 380→383 (+3), forward-ref groups 19→19 (flat), unique targets 271→272 (+1). Pipeline active: +12 wiki files (5 concepts + 2 sources + 5 topics) since 09-13. New files add 3 broken wikilinks to uncompiled targets. Top-20 composition shifted: `[[game-theory]]` 10x, `[[confirmation-bias]]` 8x, `[[deep-work]]`/`[[ai-coding-agents]]`/`[[career-design]]`/`[[decision-making]]` tied 5x. Composition CHURNED (not flat — +1 unique target).
+- **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-09-14 (23:00)
 

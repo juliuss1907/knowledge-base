@@ -1,6 +1,6 @@
 # Hygiene Inspection — 2026-09-12
 
-**Status:** pending
+**Status:** APPLIED — Applied 2026-09-14 by Connor
 **Issues found:** 35 (4 ERROR + 31 WARNING)
 **Created:** 2026-09-12 23:32:13
 **Validator:** hygiene-inspector

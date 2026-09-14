@@ -105,112 +105,112 @@
 
 ## Pending Reports
 
-### 🔍 Hygiene Inspection — 2026-09-13 (23:30) — PENDING
+### 🔍 Hygiene Inspection — 2026-09-13 (23:30) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-13_hygiene-report.md`
 - **Summary:** 233,696 paths checked. 1078 issues: **4 ERROR, 1074 WARNING** (20 reported, 1058 truncated). **0 ISSUE RESOLVED vs 09-12** — all 4 ERROR carry-forward: (1) `DREAMS.md` root orphan — git-tracked, committed vault backup 09-13 03:04, lần 5 liên tiếp (09-09→09-13). (2) `memory/` root folder — **+4 new files since 09-12** (20 total vs 16 on 09-12: deep/light/rem 09-13 logs), OpenClaw dreaming pipeline continues writing to root `memory/`, lần 5 liên tiếp. (3) Migration marker `.migrated.*` — git-tracked since `b5e519fc`, lần 6 liên tiếp từ 09-08 addendum. (4) `wiki/HEARTBEAT.md` — broken symlink lần 14 liên tiếp (08-26→09-13). **16 WARNING:** all memory/ sub-files (sub-paths của Issue 2). **Tin tốt:** 0 new naming violations, 0 empty dirs, `openclaw-workspace-state.json` gốc vắng mặt streak 17+ runs. WARNING count spike (31→1074) do scanner fully walks memory/ contents this run.
 - **Actions needed:** (1) Fix Agent: `git rm DREAMS.md` + commit (identify and fix OpenClaw dreaming process). (2) Fix Agent: `git rm -r memory/` + commit (root cause = OpenClaw dreaming process writes to root `memory/`). (3) Fix Agent: `.gitignore` add `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (4) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirroring). (5) KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` — all carry-forwards.
 - **Status:** pending
 
-### 🔍 Format Validation — 2026-09-13 (23:15) — PENDING
+### 🔍 Format Validation — 2026-09-13 (23:15) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-13_format-report.md`
 - **Summary:** 1048 files checked (577 concepts + 198 sources + 34 indexes + 239 topics). 399 issues: **0 ERROR, 399 WARNING**. Clean ERROR streak continues. **+0 net change vs 09-12** — total 399→399, individual broken 380→380, forward-ref groups 19→19, unique targets 271→271. 0 wiki files added since 09-12 23:15 (pipeline idle — no compilation). Top-20 identical to 09-12. Exact-zero-flat variant no-compilation-happened: wiki layer static, raw grows uncompiled.
 - **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
 - **Status:** pending
 
-### 🔍 Format Validation — 2026-09-12 (23:15) — PENDING
+### 🔍 Format Validation — 2026-09-12 (23:15) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-12_format-report.md`
 - **Summary:** 1048 files checked (577 concepts + 198 sources + 34 indexes + 239 topics). 399 issues: **0 ERROR, 399 WARNING**. Clean ERROR streak continues. **+0 net change vs 09-11** — total 399→399, individual broken 380→380, forward-ref groups 19→19, unique targets 271→271. +6 files (4 concepts + 1 source + 1 topic — harness-engineering batch compiled 09-12). Top-20 identical to 09-11. All 6 new files pass format compliance cleanly, 0 broken wikilinks. Exact-zero-flat: KB grows, backlog does not.
 - **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
 - **Status:** pending
 
-### 🔍 Output Validation — 2026-09-12 (23:00) — PENDING
+### 🔍 Output Validation — 2026-09-12 (23:00) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-12_output-report.md`
 - **Summary:** 775 files checked (198 sources + 577 concepts). 5 new files compiled 09-12 (1 source + 4 concepts). 2 issues: **2 ERROR, 0 WARNING, 0 INFO**. ERROR: Chinese characters "既是" injected into Vietnamese text in source + concept (Compile Agent defect). No dropped-i, no broken forward-refs, no truncated files. Dropped-i streak: 14 consecutive.
 - **Actions needed:** Fix Agent: replace "既是" with "vừa là" in `src_harness-engineering-ai-coding.md` (line 24) and `harness-engineering.md` (line 26).
 - **Status:** pending
 
-### 🔍 Hygiene Inspection — 2026-09-12 (23:32) — PENDING
+### 🔍 Hygiene Inspection — 2026-09-12 (23:32) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-12_hygiene-report.md`
 - **Summary:** 233,688 paths checked. 35 issues: **4 ERROR, 31 WARNING** (20 reported, 15 truncated). **RESOLVED:** repos naming violations từ 09-11 — all 8 repos files now use lowercase `<owner>_<repo>` format. `[SYSTEMATIC VIOLATION]` from 08-31 is **RESOLVED**. **CARRY-FORWARD (4 ERROR):** (1) `DREAMS.md` root orphan — git-tracked, latest write 09-12 03:00. (2) `memory/` root folder — **+3 new dreaming files 09-12** (deep/light/rem), 16 sub-files total (was 12 on 09-11). OpenClaw dreaming pipeline continues writing to root `memory/`. (3) Migration marker `.migrated.*` — git-tracked since `b5e519fc`, 5th consecutive carry from 09-08 addendum. (4) `wiki/HEARTBEAT.md` — broken symlink lần 13 liên tiếp (08-26→09-12). **31 WARNING:** 16 memory/ sub-files + 15 archive backup false positives (unchanged). Net +4 vs 09-11 (31 vs 27): +4 new dreaming files offset by repos fix (-6). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt 14+ streaks; 0 empty dir; 0 new wiki naming violations; pipeline active 272 files changed.
 - **Actions needed:** (1) Fix Agent: `git rm DREAMS.md` + commit. (2) Fix Agent: `git rm -r memory/` + commit; root cause = OpenClaw dreaming process writes to root `memory/`. (3) Fix Agent: `.gitignore` add `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (4) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirroring). (5) Optional: update scan script archive exclusion cho backup files.
 - **Status:** pending
 
-### 🔍 Format Validation — 2026-09-11 (23:15) — PENDING
+### 🔍 Format Validation — 2026-09-11 (23:15) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-11_format-report.md`
 - **Summary:** 1042 files checked (573 concepts + 197 sources + 34 indexes + 238 topics). 399 issues: **0 ERROR, 399 WARNING**. Clean ERROR streak continues. **+1 net change vs 09-10** — total 398→399 (+1 individual broken), groups 19→19 flat, unique targets 271→271 flat. +4 files (2 concepts + 1 source + 3 topic pages, pipeline active after 9-day idle). Top-20 shifted: [[network-effects]] (3) entered, [[first-order-thinking]] (3) dropped outside top 20. New debt from new source (src_0xhvdes-seven-ways-to-get-ahead.md) + concepts (proximity-to-opportunity, reputation-as-signal) — all forward-references only, no structural errors.
 - **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
 - **Status:** pending
 
-### 🔍 Output Validation — 2026-09-11 (23:00) — PENDING
+### 🔍 Output Validation — 2026-09-11 (23:00) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-11_output-report.md`
 - **Summary:** 774 files checked (197 sources + 573 concepts). 8 new files compiled 09-11 (1 source + 7 concepts). 4 issues: **0 ERROR, 1 WARNING, 3 INFO**. WARNING: 3 forward-refs without raw source (serendipity-engineering, career-pivots, network-effects). Pipeline active after 9-day idle. Dropped-i streak: 13 consecutive.
 - **Actions needed:** (1) Fix Agent: drop or compile 3 forward-refs. (2) talent-stack personal ref — optional.
 - **Status:** pending
 
-### 🔍 Hygiene Inspection — 2026-09-11 (23:31) — PENDING
+### 🔍 Hygiene Inspection — 2026-09-11 (23:31) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-11_hygiene-report.md`
 - **Summary:** 233,669 paths checked. 31 issues total (4 ERROR, 27 WARNING; 20 reported, 11 truncated). **100% carry-forward từ 09-10 — 0 issue mới resolved.** (1) `DREAMS.md` root orphan — carry-forward lần 3, git-tracked, chưa action. (2) `memory/` root folder — carry-forward lần 3, **+3 files 09-11** (dreaming deep/light/rem logs), OpenClaw pipeline tiếp tục viết vào root `memory/`. (3) Migration marker `.migrated.*` — carry-forward lần 4 từ 09-08 addendum, chưa gitignore. (4) `wiki/HEARTBEAT.md` — carry-forward lần 12 liên tiếp (08-26→09-11). (5) 12 memory/ sub-files (sub-paths của Issue 2). (6) ~15 backup files trong archive — false positive (non-report artifacts). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt streak 15+; pipeline active — 275 files changed since 09-10; 0 new wiki/raw naming violations; 0 empty dir.
 - **Actions needed:** (1) Fix Agent: `git rm DREAMS.md` + commit; `git rm -r memory/` + commit; `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (2) `wiki/HEARTBEAT.md` — process-level fix. (3) Optional: update scan script archive exclusion cho backup files.
 - **Status:** pending
 
-### 🔍 Format Validation — 2026-09-10 (23:15) — PENDING
+### 🔍 Format Validation — 2026-09-10 (23:15) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-10_format-report.md`
 - **Summary:** 1038 files checked (571 concepts + 196 sources + 36 indexes + 235 topics). 398 issues: **0 ERROR, 398 WARNING**. Clean ERROR streak day 8 at 0. **0 net change so với 09-09 trên mọi trục** — total 398→398, individual 379 flat, forward-ref groups 19 flat, unique targets 271 flat, Top-20 identical. 0 wiki files added since 09-09 (pipeline idle day 8). Backlog frozen.
 - **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
 - **Status:** pending
 
-### 🔍 Output Validation — 2026-09-10 (23:00) — PENDING
+### 🔍 Output Validation — 2026-09-10 (23:00) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-10_output-report.md`
 - **Summary:** 767 files checked (196 sources + 571 concepts). 0 new files (pipeline idle day 8, nothing compiled since 09-02). 0 issues: **0 ERROR, 0 WARNING, 0 INFO**. [SILENT] — no new files to validate. Dropped-i variant-5 = 0 (12th consecutive clean run 08-23→09-10). Depth-debt baseline unchanged.
 - **Actions needed:** None — 0 issues, 0 new files. Pipeline idle.
 - **Status:** pending
 
-### 🔍 Hygiene Inspection — 2026-09-09 (23:30) — PENDING
+### 🔍 Hygiene Inspection — 2026-09-09 (23:30) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-09_hygiene-report.md`
 - **Summary:** ~56,100 paths checked. 7 issues: 4 ERROR, 3 WARNING. **MỚI (2):** `DREAMS.md` (root file, git-tracked, OpenClaw dreaming artifact committed `261ce5f2`); `memory/` root folder recurring với dreaming content (4 files: `.dreams/session-corpus/`, `dreaming/{deep,light,rem}/`). **CARRY-FORWARD (2):** migration marker `.migrated.*` tại root (từ 09-08 addendum, chưa Fix Agent action); `wiki/HEARTBEAT.md` broken symlink lần 10 (08-26→09-09, untracked+unignored). **RESOLVED:** 2 repos casing files → lowercase rename done (Fix Agent); 8 backup files → moved từ `wiki/drafts/` → `wiki/reviews/archive/2026-09/` (Fix Agent). **False positive:** 15 backup files trong archive flagged "Archived report naming" — scanner áp report naming convention cho tất cả archive files (không phải reports).
 - **Actions needed:** (1) Fix Agent: `git rm DREAMS.md` + commit (hoặc move về `.openclaw/`); `git rm -r memory/` + commit; `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (2) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirror). (3) Optional: update scan script archive exclusion cho backup files.
 - **Status:** pending
 
-### 🔍 Hygiene Inspection — 2026-09-10 (23:30) — PENDING
+### 🔍 Hygiene Inspection — 2026-09-10 (23:30) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-10_hygiene-report.md`
 - **Summary:** ~56,200 paths estimated. 27 issues total (4 ERROR, 23 WARNING; 20 reported, 7 truncated). **100% carry-forward từ 09-09 — 0 issue mới resolved.** (1) `DREAMS.md` root orphan — carry-forward lần 2, git-tracked, chưa action. (2) `memory/` root folder — carry-forward lần 2, **+3 files 09-10** (dreaming deep/light/rem logs), OpenClaw pipeline tiếp tục viết vào root `memory/`. (3) Migration marker `.migrated.*` — carry-forward lần 3 từ 09-08 addendum, chưa gitignore. (4) `wiki/HEARTBEAT.md` — broken symlink lần 11 liên tiếp (08-26→09-10). (5) 8 unclassified files trong `memory/` (sub-paths của Issue 2). (6) 8 backup files trong archive — false positive (non-report artifacts, scanner naming convention). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt streak 14+; pipeline idle day 9; 0 empty dir; 0 new wiki naming violations.
 - **Actions needed:** (1) Fix Agent: `git rm DREAMS.md` + commit; `git rm -r memory/` + commit; `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (2) `wiki/HEARTBEAT.md` — process-level fix. (3) Optional: update scan script archive exclusion cho backup files.
 - **Status:** pending
 
-### 🔍 Format Validation — 2026-09-09 (23:15) — PENDING
+### 🔍 Format Validation — 2026-09-09 (23:15) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-09_format-report.md`
 - **Summary:** 1038 files checked (571 concepts + 196 sources + 36 indexes + 235 topics). 398 issues: **0 ERROR, 398 WARNING**. Clean ERROR streak day 8 at 0. **0 net change so với 09-08 trên mọi trục** — total 398→398, individual 379 flat, forward-ref groups 19 flat, unique targets 271 flat, Top-20 identical. KB grew +2 files (tag files `layer2.md` + `perpdex.md` regenerated by Index Agent at 21:05, vault backup `ce0f3214` — all contribute 0 broken wikilinks). **Pipeline idle 7 ngày** (09-03→09-09): 0 concepts/sources compiled, 0 raw ingested. Backlog frozen.
 - **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất. Pipeline idle cần Compile Agent resume để giảm backlog.
 - **Status:** pending
 
-### 🔍 Format Validation — 2026-09-08 (23:15) — PENDING
+### 🔍 Format Validation — 2026-09-08 (23:15) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-08_format-report.md`
 - **Summary:** 1036 files checked (571 concepts + 196 sources + 34 indexes + 235 topics). 398 issues: **0 ERROR, 398 WARNING**. Clean ERROR streak day 3 at 0. **0 net change so với 09-02 trên mọi trục** — total 398→398, individual 379 flat, forward-ref groups 19 flat, unique targets 271 flat, Top-20 identical. KB grew +4 files (topic pages Index Agent thêm 09-03 11:01 cho agent-sandbox cluster — tất cả đóng góp 0 broken wikilink). **Pipeline idle 6 ngày**: 0 concepts/sources compiled, 0 raw ingested kể từ 09-02 — backlog phẳng vì không có gì mới để compile. Index Agent regenerate 25 tag files 09-03 — xác nhận 0 unquoted-`parent` regression ([SPEC CONFLICT] fix 08-31 giữ vững).
 - **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất. 2 forward-refs `[[prompt-injection]]` (kể từ 09-02) chờ source hoặc Fix Agent bỏ link.
 - **Status:** pending
 
-### 🔍 Output Validation — 2026-09-09 (23:00) — PENDING
+### 🔍 Output Validation — 2026-09-09 (23:00) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-09_output-report.md`
 - **Summary:** 767 files checked (196 sources + 571 concepts). 0 new files (pipeline idle day 7, nothing compiled since 09-02). 0 issues: **0 ERROR, 0 WARNING, 0 INFO**. [SILENT] — no new files to validate. Dropped-i variant-5 = 0 (11th consecutive clean run 08-23→09-09). Depth-debt baseline unchanged.
 - **Actions needed:** None — 0 issues, 0 new files. Pipeline idle.
 - **Status:** pending
 
-### 🔍 Hygiene Inspection — 2026-09-08 (08:15 + addendum 23:31) — PENDING
+### 🔍 Hygiene Inspection — 2026-09-08 (08:15 + addendum 23:31) — APPLIED
 
 - **Report:** `wiki/reviews/2026-09-08_hygiene-report.md`
 - **Summary:** 56020 paths checked (+9 so với 09-02). 12 issues: 2 ERROR, 10 WARNING, 0 INFO. Fresh run sau 6 ngày gap (report hygiene trước: 09-02; runs bị skip 09-03→09-07). 0 file raw mới; wiki/ chỉ +9 paths. 100% carry-forward, 0 issue mới: (1) `openclaw-workspace-state.json` lần 12 liên tiếp (08-22→09-08, git sạch nhờ .gitignore — pitfall #9); (2) `wiki/HEARTBEAT.md` lần 8 liên tiếp (08-26→09-08, symlink, process leak). WARNING: 2 repos casing (`MengTo_threeui`, `PostHog_posthog`) + 8 backup files trong `wiki/drafts/` — cả hai nhóm deferred từ run 09-02, Fix Agent chưa action.

@@ -1,6 +1,6 @@
 # Hygiene Inspection — 2026-09-08
 
-**Status:** pending
+**Status:** APPLIED — Applied 2026-09-14 by Connor
 **Issues found:** 12
 **Created:** 2026-09-08 08:15:30
 **Last re-scan:** 2026-09-08 23:31:16 — addendum appended (bottom of file)
@@ -184,7 +184,7 @@ Theo carry-forward rule (SKILL.md, 2026-09-01): KHÔNG issue nào trong 12 issue
 
 # Addendum — Evening re-scan 23:31 (cùng ngày 2026-09-08)
 
-**Status:** pending
+**Status:** APPLIED — Applied 2026-09-14 by Connor
 **Issues found:** 12 (2 ERROR + 10 WARNING)
 **Created:** 2026-09-08 23:31:16
 **Validator:** hygiene-inspector

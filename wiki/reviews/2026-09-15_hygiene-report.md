@@ -5,7 +5,7 @@
 **Created:** 2026-09-15 23:30:31
 **Validator:** hygiene-inspector
 
-**Paths checked:** 233,744
+**Paths checked:** 233744
 
 ---
 

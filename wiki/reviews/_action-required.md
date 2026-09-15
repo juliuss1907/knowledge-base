@@ -4,17 +4,18 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-14 23:31 (Hygiene inspection 09-14)
+**Last updated:** 2026-09-15 23:16 (Format validation 09-15)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-15 | Format | 402 (0E+402W) | 0 net change vs 09-14 — exact-zero-flat, pipeline idle |
 | 🔍 PENDING | 09-14 | Format | 402 (0E+402W) | Review [wiki/reviews/2026-09-14_format-report.md](2026-09-14_format-report.md) |
 | 🔍 PENDING | 09-14 | Output | 4 (2E+1W+1I) | Pending — Chinese chars + spacing merge + forward-ref [[goal-setting]] |
 | 🔍 PENDING | 09-14 | Hygiene | 43 (4E+39W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +3 memory/ files; pipeline active 274 files |
@@ -107,6 +108,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-15 (23:16)
+
+- **Report:** `wiki/reviews/2026-09-15_format-report.md`
+- **Summary:** 1060 files checked (582 concepts + 200 sources + 34 indexes + 244 topics). 402 issues: **0 ERROR, 402 WARNING**. Clean ERROR streak continues. **0 net change vs 09-14** — exact-zero-flat: total 402→402, ERROR 0→0, WARNING 402→402, individual broken 383→383 (flat), forward-ref groups 19→19 (flat), unique targets 272→272 (flat). Top-20 broken targets identical. No wiki files added or removed since 09-14 (git log --diff-filter=A/D returned empty). Pipeline idle — exact-zero-flat with zero wiki layer change. Unique target plateau holds at 272 for 2nd consecutive run.
+- **Actions needed:** None required — forward-ref WARNINGs resolve tự nhiên khi Compile Agent quay lại xử lý raw. `[[game-theory]]` (10 refs) + `[[confirmation-bias]]` (8 refs) vẫn là 2 target chưa compile được tham chiếu nhiều nhất.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-14 (23:15)
 

@@ -4,18 +4,19 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-15 23:16 (Format validation 09-15)
+**Last updated:** 2026-09-15 23:30 (Hygiene inspection 09-15)
 
 ---
 
 ## Summary
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-15 | Format | 402 (0E+402W) | 0 net change vs 09-14 — exact-zero-flat, pipeline idle |
+| 🔍 PENDING | 09-15 | Hygiene | 47 (4E+43W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +4 memory/ files (28 total); pipeline quiet +9 paths |
 | 🔍 PENDING | 09-14 | Format | 402 (0E+402W) | Review [wiki/reviews/2026-09-14_format-report.md](2026-09-14_format-report.md) |
 | 🔍 PENDING | 09-14 | Output | 4 (2E+1W+1I) | Pending — Chinese chars + spacing merge + forward-ref [[goal-setting]] |
 | 🔍 PENDING | 09-14 | Hygiene | 43 (4E+39W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +3 memory/ files; pipeline active 274 files |
@@ -108,6 +109,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-09-15 (23:30)
+
+- **Report:** `wiki/reviews/2026-09-15_hygiene-report.md`
+- **Summary:** 233,744 paths checked. 47 issues: **4 ERROR, 43 WARNING**. **0 ISSUE RESOLVED vs 09-14** — all 4 ERROR carry-forward: (1) `DREAMS.md` root orphan — git-tracked, lần 7 liên tiếp (09-09→09-15). (2) `memory/` root folder — **+4 new dreaming files since 09-14** (deep/light/rem 2026-09-15 + session-corpus 2026-09-14, total 28 vs 24), OpenClaw dreaming pipeline continues writing daily, lần 7 liên tiếp. (3) Migration marker `.migrated.*` — git-tracked since `b5e519fc`, lần 8 liên tiếp từ 09-08 addendum. (4) `wiki/HEARTBEAT.md` — broken symlink lần 16 liên tiếp (08-26→09-15). **43 WARNING:** 28 memory/ sub-files (sub-paths của Issue 2, +4 since 09-14) + 15 archive backup false positives (unchanged). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt streak 19+ runs. 0 new naming violations, 0 empty dir. Pipeline quiet: +9 paths since 09-14.
+- **Actions needed:** (1) KHÔNG xóa `DREAMS.md` — carry-forward. (2) KHÔNG xóa `memory/` — carry-forward. (3) KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` — all carry-forwards. (4) Fix Agent: `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (5) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirroring).
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-15 (23:16)
 

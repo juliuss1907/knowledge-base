@@ -24,7 +24,7 @@ Harness engineering là thực hành bao quanh AI-assisted code generation bằn
 - **Context vs README:** HARNESS.md là knowledge base cho AI, không phải README cho humans — capture stack, architectural decisions, constraints, rationale. README explains what project does; context doc tells AI what it must/must not do and why.
 - **Deterministic vs agent-based verification:** Deterministic tools (linters, scripts, regex) nhanh, rẻ, reliable cho constraints express precisely. Agent-based review (LLM judgment) cần thiết cho semantically complex constraints involving intent và patterns.
 - **Progressive hardening:** Migrate constraints từ unverified → agent → deterministic khi understanding đủ sâu. Direction is always toward deterministic.
-- **Living harness:** Document tự tham chiếuvừa là specification vừa là health record — tracks constraint status và được chính enforcement mechanisms audit. Neglect becomes visible rather than invisible.
+- **Living harness:** Document tự tham chiếu, vừa là specification vừa là health record — tracks constraint status và được chính enforcement mechanisms audit. Neglect becomes visible rather than invisible.
 - **Bounded trust:** No agent có unilateral authority modify production code. Agents review, suggest, report, flag — humans decide.
 
 ## Related concepts

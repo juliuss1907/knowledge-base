@@ -1,1 +1,1 @@
-{"entries": []}
+{"entries": [{"lease_id": "f4605c7eb0954c4eb54e45fd4b5253fc", "metadata": {"chat_id": "1370258715", "live_session_id": "agent:main:telegram:dm:1370258715", "platform": "telegram", "user_id": "1370258715"}, "pid": 1175640, "process_start_time": 1788929444.61, "session_id": "agent:main:telegram:dm:1370258715", "started_at": 1789610955.3072896, "surface": "gateway:telegram", "updated_at": 1789610955.3072896}]}

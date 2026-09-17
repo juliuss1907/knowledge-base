@@ -28,7 +28,7 @@ Dan Koe lập luận rằng mục tiêu "thực tế" dẫn đến sự tầm th
 - Mục tiêu thực tế thất bại vì được chọn dựa trên kỳ vọng của người khác và nỗi sợ bị cười, tạo ra "cái lồng nhận thức"
 - Mục tiêu "điên rồ" (mục tiêu bất khả thi + timeline bất khả thi) buộc não phải chuyển sang trạng thái nhận thức mới, kích thích neuroplasticity và flow state
 - 5 intrinsic drivers tích lũy khi theo đuổi mục tiêu lớn: Curiosity, Passion, Purpose, Autonomy, Mastery
-- Steve Jobs sử dụng Reality Distortion Field để định hướng注意力 của cả nhóm kỹ sư — không phải charisma hay manipulation, mà là tái định hướng mục tiêu chung
+- Steve Jobs sử dụng Reality Distortion Field để định hướng sự chú ý của cả nhóm kỹ sư — không phải charisma hay manipulation, mà là tái định hướng mục tiêu chung
 - Mục tiêu không phải đích đến mà là bộ lọc quyết định não bộ coi điều gì là quan trọng và bỏ qua điều gì
 - 3 bước thực hành: (1) Install the point of view, (2) Set standards for what you don't do, (3) Focus on highest leverage path
 - Có sự khác biệt giữa mục tiêu tuyến tính (linear) và mục tiêu bất khả thi — mục tiêu tuyến tính không đủ mạnh để thay đổi nhận thức

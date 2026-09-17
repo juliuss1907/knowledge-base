@@ -1,31 +1,30 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: ikigai-unbundling
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: ikigai-unbundling
 
 Auto-generated index of all content with topic `ikigai-unbundling`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (4)
 
-- [[ikigai-unbundling]] — main: #productivity, sub: ['opinion', 'psychology']
-- [[intrinsic-motivation]] — main: #productivity, sub: ['psychology']
-- [[passion-economy-trap]] — main: #economic, sub: ['psychology', 'opinion']
-- [[sacred-art]] — main: #productivity, sub: ['psychology']
+- [[ikigai-unbundling]] — main: #productivity, sub: [#opinion, #psychology]
+- [[intrinsic-motivation]] — main: #productivity, sub: [#psychology]
+- [[passion-economy-trap]] — main: #economic, sub: [#psychology, #opinion]
+- [[sacred-art]] — main: #productivity, sub: [#psychology]
 
 ## Sources (1)
 
-- [[src_split-the-ikigai]] — main: #productivity, sub: ['opinion', 'psychology']
+- [[src_split-the-ikigai]] — main: #productivity, sub: [#opinion, #psychology]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `ikigai-unbundling` yet.

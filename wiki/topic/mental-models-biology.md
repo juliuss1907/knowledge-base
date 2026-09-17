@@ -1,32 +1,31 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: mental-models-biology
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: mental-models-biology
 
 Auto-generated index of all content with topic `mental-models-biology`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (5)
 
-- [[alloying-mental-model]] — main: #productivity, sub: ['research']
-- [[catalysts-mental-model]] — main: #productivity, sub: ['research']
-- [[cooperation-mental-model]] — main: #productivity, sub: ['research', 'psychology']
-- [[ecosystems-mental-model]] — main: #productivity, sub: ['research']
-- [[red-queen-effect]] — main: #productivity, sub: ['research', 'psychology']
+- [[alloying-mental-model]] — main: #productivity, sub: [#research]
+- [[catalysts-mental-model]] — main: #productivity, sub: [#research]
+- [[cooperation-mental-model]] — main: #productivity, sub: [#research, #psychology]
+- [[ecosystems-mental-model]] — main: #productivity, sub: [#research]
+- [[red-queen-effect]] — main: #productivity, sub: [#research, #psychology]
 
 ## Sources (1)
 
-- [[src_farnam-street-mental-models-biology-series]] — main: #productivity, sub: ['research', 'psychology']
+- [[src_farnam-street-mental-models-biology-series]] — main: #productivity, sub: [#research, #psychology]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `mental-models-biology` yet.

@@ -1,30 +1,29 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: agent-backtesting
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: agent-backtesting
 
 Auto-generated index of all content with topic `agent-backtesting`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (3)
 
-- [[agent-backtesting]] — main: #ai, sub: ['research', 'tools']
-- [[frozen-corpus-search]] — main: #system, sub: ['tools', 'research']
-- [[point-in-time-data]] — main: #system, sub: ['research', 'tools']
+- [[agent-backtesting]] — main: #ai, sub: [#research, #tools]
+- [[frozen-corpus-search]] — main: #system, sub: [#tools, #research]
+- [[point-in-time-data]] — main: #system, sub: [#research, #tools]
 
 ## Sources (1)
 
-- [[src_introducing-backsearch-gr-inc]] — main: #ai, sub: ['tools', 'research']
+- [[src_introducing-backsearch-gr-inc]] — main: #ai, sub: [#tools, #research]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `agent-backtesting` yet.

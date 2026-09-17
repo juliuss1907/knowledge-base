@@ -1,32 +1,31 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: financial-statement-analysis
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: financial-statement-analysis
 
 Auto-generated index of all content with topic `financial-statement-analysis`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (5)
 
-- [[cash-flow-statement]] — main: #economic, sub: ['research', 'tutorial']
-- [[ebitda-trap]] — main: #economic, sub: ['research', 'tutorial']
-- [[financial-metrics]] — main: #economic, sub: ['research', 'tutorial']
-- [[free-cash-flow]] — main: #economic, sub: ['research', 'tutorial']
-- [[operating-cash-flow]] — main: #economic, sub: ['research', 'tutorial']
+- [[cash-flow-statement]] — main: #economic, sub: [#research, #tutorial]
+- [[ebitda-trap]] — main: #economic, sub: [#research, #tutorial]
+- [[financial-metrics]] — main: #economic, sub: [#research, #tutorial]
+- [[free-cash-flow]] — main: #economic, sub: [#research, #tutorial]
+- [[operating-cash-flow]] — main: #economic, sub: [#research, #tutorial]
 
 ## Sources (1)
 
-- [[src_how-to-read-cash-flow-statement]] — main: #economic, sub: ['research', 'tutorial']
+- [[src_how-to-read-cash-flow-statement]] — main: #economic, sub: [#research, #tutorial]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `financial-statement-analysis` yet.

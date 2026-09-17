@@ -1,27 +1,27 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: vietnam-unemployment-insurance
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: vietnam-unemployment-insurance
 
 Auto-generated index of all content with topic `vietnam-unemployment-insurance`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (0)
 
+No concepts with topic `vietnam-unemployment-insurance` yet.
 
 ## Sources (1)
 
-- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — main: #economic, sub: ['tutorial', 'law']
+- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — main: #economic, sub: [#tutorial, #law]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `vietnam-unemployment-insurance` yet.

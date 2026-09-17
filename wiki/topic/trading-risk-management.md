@@ -1,27 +1,27 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: trading-risk-management
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: trading-risk-management
 
 Auto-generated index of all content with topic `trading-risk-management`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (1)
 
-- [[sizing-policy-trading]] — main: #economic, sub: ['research', 'tools']
+- [[sizing-policy-trading]] — main: #economic, sub: [#research, #tools]
 
 ## Sources (0)
 
+No sources with topic `trading-risk-management` yet.
 
 ## Related topics
 
-No related topics found.
+No topics share files with `trading-risk-management` yet.

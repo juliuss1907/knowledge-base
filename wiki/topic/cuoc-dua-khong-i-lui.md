@@ -1,27 +1,27 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: cuoc-dua-khong-i-lui
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: cuoc-dua-khong-i-lui
 
 Auto-generated index of all content with topic `cuoc-dua-khong-i-lui`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (0)
 
+No concepts with topic `cuoc-dua-khong-i-lui` yet.
 
 ## Sources (1)
 
-- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — main: #economic, sub: ['opinion', 'tools']
+- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — main: #economic, sub: [#opinion, #tools]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `cuoc-dua-khong-i-lui` yet.

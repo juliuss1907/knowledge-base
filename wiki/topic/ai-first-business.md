@@ -1,30 +1,29 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: ai-first-business
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: ai-first-business
 
 Auto-generated index of all content with topic `ai-first-business`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (3)
 
-- [[ai-first-business-model]] — main: #economic, sub: ['ai', 'tools', 'tutorial']
-- [[digital-product-flywheel]] — main: #economic, sub: ['automation', 'ai', 'tools']
-- [[personal-branding-ai]] — main: #economic, sub: ['ai', 'tools', 'psychology']
+- [[ai-first-business-model]] — main: #economic, sub: [#ai, #tools, #tutorial]
+- [[digital-product-flywheel]] — main: #economic, sub: [#automation, #ai, #tools]
+- [[personal-branding-ai]] — main: #economic, sub: [#ai, #tools, #psychology]
 
 ## Sources (1)
 
-- [[src_how-average-people-will-get-rich-with-ai]] — main: #economic, sub: ['tutorial', 'ai', 'tools']
+- [[src_how-average-people-will-get-rich-with-ai]] — main: #economic, sub: [#tutorial, #ai, #tools]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `ai-first-business` yet.

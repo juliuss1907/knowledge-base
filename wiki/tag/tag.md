@@ -23,8 +23,8 @@ Master index of all tags used across the wiki. Each entry links to a tag file (`
 - Total tags: 24
 - Main tags: 9
 - Sub tags: 18
-- Most used: #productivity (328), #psychology (323), #research (269), #opinion (266), #tools (235)
-- Last updated: 2026-09-14
+- Most used: #productivity (328), #psychology (323), #research (267)
+- Last updated: 2026-09-17
 
 ## Items
 

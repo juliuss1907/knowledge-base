@@ -1,32 +1,31 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: career-advice-ai-age
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: career-advice-ai-age
 
 Auto-generated index of all content with topic `career-advice-ai-age`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (4)
 
-- [[human-premium]] — main: #productivity, sub: ['opinion', 'psychology', 'automation']
-- [[last-mile-execution]] — main: #productivity, sub: ['ai', 'opinion']
-- [[out-of-distribution-experience]] — main: #productivity, sub: ['opinion', 'psychology', 'automation']
-- [[problem-selection]] — main: #productivity, sub: ['ai', 'opinion']
+- [[human-premium]] — main: #productivity, sub: [#opinion, #psychology, #automation]
+- [[last-mile-execution]] — main: #productivity, sub: [#ai, #opinion]
+- [[out-of-distribution-experience]] — main: #productivity, sub: [#opinion, #psychology, #automation]
+- [[problem-selection]] — main: #productivity, sub: [#ai, #opinion]
 
 ## Sources (2)
 
-- [[src_2026-advice]] — main: #productivity, sub: ['opinion', 'psychology', 'automation']
-- [[src_career-advice-age-of-ai-phil-chen]] — main: #productivity, sub: ['ai', 'opinion']
+- [[src_2026-advice]] — main: #productivity, sub: [#opinion, #psychology, #automation]
+- [[src_career-advice-age-of-ai-phil-chen]] — main: #productivity, sub: [#ai, #opinion]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `career-advice-ai-age` yet.

@@ -1,32 +1,31 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: simplicity-psychology
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: simplicity-psychology
 
 Auto-generated index of all content with topic `simplicity-psychology`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (5)
 
-- [[glymphatic-system]] — main: #productivity, sub: ['research', 'health']
-- [[hedonic-treadmill]] — main: #productivity, sub: ['research', 'opinion']
-- [[memory-reconstruction]] — main: #productivity, sub: ['research', 'psychology']
-- [[paradox-of-effort]] — main: #productivity, sub: ['tutorial', 'opinion']
-- [[stoic-control-dichotomy]] — main: #productivity, sub: ['tutorial', 'opinion']
+- [[glymphatic-system]] — main: #productivity, sub: [#research, #health]
+- [[hedonic-treadmill]] — main: #productivity, sub: [#research, #opinion]
+- [[memory-reconstruction]] — main: #productivity, sub: [#research, #psychology]
+- [[paradox-of-effort]] — main: #productivity, sub: [#tutorial, #opinion]
+- [[stoic-control-dichotomy]] — main: #productivity, sub: [#tutorial, #opinion]
 
 ## Sources (1)
 
-- [[src_why-we-complicate-life-productive-peter]] — main: #productivity, sub: ['tutorial', 'opinion']
+- [[src_why-we-complicate-life-productive-peter]] — main: #productivity, sub: [#tutorial, #opinion]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `simplicity-psychology` yet.

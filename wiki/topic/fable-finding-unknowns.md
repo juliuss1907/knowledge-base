@@ -1,28 +1,27 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: fable-finding-unknowns
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: fable-finding-unknowns
 
 Auto-generated index of all content with topic `fable-finding-unknowns`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (1)
 
-- [[agentic-coding]] — main: #ai, sub: ['coding', 'tools']
+- [[agentic-coding]] — main: #ai, sub: [#coding, #tools]
 
 ## Sources (1)
 
-- [[src_field-guide-to-fable-finding-unknowns]] — main: #ai, sub: ['coding', 'tools']
+- [[src_field-guide-to-fable-finding-unknowns]] — main: #ai, sub: [#coding, #tools]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `fable-finding-unknowns` yet.

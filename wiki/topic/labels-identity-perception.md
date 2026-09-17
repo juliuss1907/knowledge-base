@@ -1,30 +1,29 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: labels-identity-perception
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: labels-identity-perception
 
 Auto-generated index of all content with topic `labels-identity-perception`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (3)
 
-- [[identity-threat-neuroscience]] — main: #productivity, sub: ['psychology', 'opinion']
-- [[internal-foundation-identity]] — main: #productivity, sub: ['psychology', 'opinion']
-- [[label-cognitive-shortcut]] — main: #productivity, sub: ['psychology', 'opinion']
+- [[identity-threat-neuroscience]] — main: #productivity, sub: [#psychology, #opinion]
+- [[internal-foundation-identity]] — main: #productivity, sub: [#psychology, #opinion]
+- [[label-cognitive-shortcut]] — main: #productivity, sub: [#psychology, #opinion]
 
 ## Sources (1)
 
-- [[src_living-beyond-the-labels]] — main: #productivity, sub: ['psychology', 'opinion']
+- [[src_living-beyond-the-labels]] — main: #productivity, sub: [#psychology, #opinion]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `labels-identity-perception` yet.

@@ -1,29 +1,28 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: mental-models-art
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: mental-models-art
 
 Auto-generated index of all content with topic `mental-models-art`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (2)
 
-- [[framing-mental-model]] — main: #productivity, sub: ['research', 'psychology']
-- [[setting-mental-model]] — main: #productivity, sub: ['research', 'psychology']
+- [[framing-mental-model]] — main: #productivity, sub: [#research, #psychology]
+- [[setting-mental-model]] — main: #productivity, sub: [#research, #psychology]
 
 ## Sources (1)
 
-- [[src_mental-models-of-art]] — main: #productivity, sub: ['research', 'psychology']
+- [[src_mental-models-of-art]] — main: #productivity, sub: [#research, #psychology]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `mental-models-art` yet.

@@ -1,30 +1,29 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: identity-transformation
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: identity-transformation
 
 Auto-generated index of all content with topic `identity-transformation`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (3)
 
-- [[identity-transformation]] — main: #health, sub: ['psychology', 'opinion']
-- [[letting-go]] — main: #health, sub: ['psychology', 'opinion']
-- [[role-playing-self]] — main: #productivity, sub: ['psychology', 'opinion']
+- [[identity-transformation]] — main: #health, sub: [#psychology, #opinion]
+- [[letting-go]] — main: #health, sub: [#psychology, #opinion]
+- [[role-playing-self]] — main: #productivity, sub: [#psychology, #opinion]
 
 ## Sources (1)
 
-- [[src_just-let-go-cipheron]] — main: #health, sub: ['psychology', 'opinion']
+- [[src_just-let-go-cipheron]] — main: #health, sub: [#psychology, #opinion]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `identity-transformation` yet.

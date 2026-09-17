@@ -1,28 +1,27 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: career-strategy
 auto_generated: true
-last_updated: 2026-09-14
+last_updated: 2026-09-17
 ---
 
 # Topic: career-strategy
 
 Auto-generated index of all content with topic `career-strategy`.
 
-Last updated: 2026-09-14 21:01:15
+Last updated: 2026-09-17 21:12:07
 
 ---
 
 ## Concepts (1)
 
-- [[career-compounding]] — main: #productivity, sub: ['strategy', 'opinion']
+- [[career-compounding]] — main: #productivity, sub: [#strategy, #opinion]
 
 ## Sources (1)
 
-- [[src_long-range-career-advice]] — main: #productivity, sub: ['strategy', 'opinion']
+- [[src_long-range-career-advice]] — main: #productivity, sub: [#strategy, #opinion]
 
 ## Related topics
 
-No related topics found.
+No topics share files with `career-strategy` yet.

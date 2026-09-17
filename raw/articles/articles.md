@@ -23,11 +23,13 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 149 files
-- By status: 144 processed, 5 unprocessed
-- By date: 14 this week, 22 this month
-- Last updated: 2026-08-30
+- Total: 154 files
+- By status: 152 processed, 2 unprocessed
+- By date: 2 this week, 5 this month
+- Last updated: 2026-09-17
 ## Items
+- [[2026-09-17_how-ai-labs-eventually-make-money]] — How will AI labs eventually make money by michaellwy (unprocessed)
+- [[2026-09-17_im-begging-you-to-manage-your-goals-like-this]] — I'm begging you to manage your goals like this by Craig (unprocessed)
 - [[2026-08-30_ai-engineering-skills-map-software-engineering-fundamentals]] — The AI Engineering Skills Map In Detail — Software Engineering Fundamentals (unprocessed)
 - [[2026-08-30_ai-engineering-skills-map-building-deploying-ai-applications]] — The AI Engineering Skills Map In Detail — Building and Deploying AI Applications (unprocessed)
 - [[2026-08-28_how-i-design-with-ai]] — How I Design with AI by Matt Dailey (unprocessed)

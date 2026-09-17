@@ -1697,3 +1697,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Scanned: 0 new/changed files since 2026-09-14
 - Last successful run: 2026-09-14T21:01:22+07:00
 - Action: Skipped — no files modified after last index run
+
+## 2026-09-17 08:00 — Compiled
+- Raw: raw/posts/2026-09-16_googletech-behavioral-evals-harness-engineering.md
+- Source note: wiki/sources/src_googletech-behavioral-evals-harness-engineering.md
+- Concepts: [behavioral-evals (new), harness-engineering (merged)]
+- Tags applied: main=ai, sub=[coding, tools], topic=behavioral-evals-harness-engineering
+- Notes: behavioral-evals created as new concept; harness-engineering updated with new source

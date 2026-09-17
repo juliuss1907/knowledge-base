@@ -5,7 +5,9 @@ url: https://x.com/GoogleCloudTech/status/2099946653134229721
 author: "@GoogleCloudTech (N Taylor Mullen & C G Underman)"
 date_published: 2026-09-16
 date_ingested: 2026-09-16
-status: unprocessed
+status: processed
+compiled_at: 2026-09-17
+compiled_to: "[[src_googletech-behavioral-evals-harness-engineering]]"
 source: x.com
 ---
 

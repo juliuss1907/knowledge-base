@@ -6,7 +6,8 @@ sub_tags: [coding, tools]
 topic: harness-engineering-ai-coding
 sources:
   - "[[src_harness-engineering-ai-coding]]"
-last_updated: 2026-09-12
+  - "[[src_googletech-behavioral-evals-harness-engineering]]"
+last_updated: 2026-09-17
 ---
 
 # Harness Engineering
@@ -38,5 +39,6 @@ Harness engineering là thực hành bao quanh AI-assisted code generation bằn
 ## Sources
 
 - "[[src_harness-engineering-ai-coding]]"
+- "[[src_googletech-behavioral-evals-harness-engineering]]"
 
 ## Notes

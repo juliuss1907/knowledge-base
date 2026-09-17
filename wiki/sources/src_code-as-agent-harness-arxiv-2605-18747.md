@@ -22,7 +22,7 @@ author: "Xuying Ning, Katherine Tieu, Dongqi Fu, Tianxin Wei, Zihao Li, Yuanchen
 
 ## Summary
 
-Paper này tái định nghĩa vai trò của code trong các hệ thống agent dựa trên LLM — từ một sản phẩm đầu ra thuần túy thành nền tảng vận hành (operational substrate) cho trí tuệ agent. Code không chỉ là kết quả của khả năng coding của LLM, mà trở thành phương tiện kết nối reasoning, action, environment modeling và execution-based verification trong vòng lặp tác vụ dài hạn.
+Paper này tái định nghĩa vai trò của code trong các hệ thống agent dựa trên LLM — từ một sản phẩm đầu ra thuần túy thành nền tảng vận hành (operational substrate) cho trí tuệ agent. Code không chỉ là kết quả của khả năng coding của LLM, mà trở thành phương tiện kết nối reasoning, action, environment modeling và execution-based verification trong vòng lặp tác vụ dài hạn. Paper tổng hợp các nghiên cứu rời rạc thành taxonomy ba tầng: Harness Interface (code kết nối agent với reasoning, action, environment modeling), Harness Mechanisms (planning, memory, tool use, Plan-Execute-Verify loop để duy trì độ tin cậy), và Scaling the Harness (multi-agent coordination trên shared code-centric substrate). Nhờ các thuộc tính executable, inspectable, stateful và verifiable, code cho phép chuyển từ text reasoning thiếu ổn định sang hành vi closed-loop đáng tin cậy qua sandboxed execution và deterministic verification. Cuối cùng, paper xác định các thách thức "harness engineering" còn mở: evaluation, semantic verification, self-evolving harnesses, transactional state, human oversight và multimodal integration.
 
 ## Key points
 

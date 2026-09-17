@@ -13,7 +13,7 @@ last_updated: 2026-09-14
 
 ## Definition
 
-Delusional goals là những mục tiêu được đặt ở mức "bất khả thi" kết hợp với timeline ngắn bất khả thi, buộc não bộ phải rời khỏi vùngcomfort zone và tái cấu trúc nhận thức để theo đuổi. Đây là cơ chế tâm lý mà những người thành công phi thường sử dụng để tạo ra đòn bẩy nhận thức mà mục tiêu thực tế không thể tạo ra.
+Delusional goals là những mục tiêu được đặt ở mức "bất khả thi" kết hợp với timeline ngắn bất khả thi, buộc não bộ phải rời khỏi vùng comfort zone và tái cấu trúc nhận thức để theo đuổi. Đây là cơ chế tâm lý mà những người thành công phi thường sử dụng để tạo ra đòn bẩy nhận thức mà mục tiêu thực tế không thể tạo ra.
 
 ## Key ideas
 

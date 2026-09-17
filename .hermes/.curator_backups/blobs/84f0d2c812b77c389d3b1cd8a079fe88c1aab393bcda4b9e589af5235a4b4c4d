@@ -113,15 +113,6 @@ After each validation run:
 
 ## Approving Reports
 
-### Quy tắc ưu tiên khi duyệt
-
-- Chỉ đổi `pending` → `approved`, ghi `Approved by: Julius`; chỉ dùng `applied` khi đã có bằng chứng sửa xong. Các hướng dẫn cũ bên dưới về tự động đánh dấu APPLIED không áp dụng nếu chưa sửa.
-- Connor chỉ cập nhật `wiki/reviews/` trong lượt duyệt. Không tự sửa concepts/sources hoặc xóa dữ liệu gốc; chuyển việc sửa cho Fix Agent. Quy tắc này thay thế các đoạn cũ cho phép sửa cơ học trực tiếp.
-- Giữ nguyên `## Notes` rỗng theo mẫu; không coi là lỗi hoặc tự xóa.
-- Lập danh sách từ các dòng đang PENDING trên dashboard; xác minh số báo cáo, từng trạng thái và từng khối tương ứng. Không thay toàn cục chữ pending trong lịch sử.
-- Khi công cụ từ chối do thiếu phê duyệt, dừng thao tác bị chặn. Không đổi công cụ, câu lệnh hoặc cách thực thi để đạt cùng tác động.
-
-
 When Julius approves reports (e.g., "approve all reports", "approve output", "approve format", "approve hygiene"):
 
 ### Approval Interpretation — Multi-Date

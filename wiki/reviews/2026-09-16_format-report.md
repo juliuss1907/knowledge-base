@@ -1,6 +1,9 @@
 # Format Validation — 2026-09-16
 
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius
+**Approved at:** 2026-09-17 08:57 +0700
+**Ghi chú duyệt:** Đã duyệt; chưa xác minh áp dụng sửa lỗi. Connor chỉ cập nhật báo cáo. Liên kết tới nội dung chưa biên soạn tiếp tục được theo dõi; không xóa hàng loạt.
 **Issues found:** 402
 **Created:** 2026-09-16 23:16:30
 **Validator:** format-validator

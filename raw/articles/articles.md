@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 154 files
-- By status: 152 processed, 2 unprocessed
-- By date: 2 this week, 5 this month
+- Total: 155 files
+- By status: 152 processed, 3 unprocessed
+- By date: 3 this week, 6 this month
 - Last updated: 2026-09-17
 ## Items
+- [[2026-09-17_50-system-design-concepts-explained-simply]] — 50 System Design Concepts Explained Simply [2026 Edition] by Design Gurus (unprocessed)
 - [[2026-09-17_how-ai-labs-eventually-make-money]] — How will AI labs eventually make money by michaellwy (unprocessed)
 - [[2026-09-17_im-begging-you-to-manage-your-goals-like-this]] — I'm begging you to manage your goals like this by Craig (unprocessed)
 - [[2026-08-30_ai-engineering-skills-map-software-engineering-fundamentals]] — The AI Engineering Skills Map In Detail — Software Engineering Fundamentals (unprocessed)

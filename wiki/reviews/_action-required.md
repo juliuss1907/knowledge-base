@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-17 23:05 +0700 — Output validation thêm 1 báo cáo (2 issues, 0 ERROR)
+**Last updated:** 2026-09-17 23:15 +0700 — Format validation: 1063 files, 402 issues (0 ERROR), 3 file mới, số cảnh báo không đổi
 
 ---
 
@@ -12,11 +12,12 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 1
+**Pending reports awaiting review:** 2
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-17 | Format | 402 (0E+402W) | Xem [wiki/reviews/2026-09-17_format-report.md](2026-09-17_format-report.md); +3 tệp, số cảnh báo không đổi |
 | ✅ APPROVED | 09-16 | Format | 402 (0E+402W) | 0 net change vs 09-15 — exact-zero-flat, pipeline idle, day 3 at 272 unique targets |
 | 🔍 PENDING | 09-17 | Output | 2 (0E+2W+0I) | 3 file mới (1 source + 2 concepts); 1 WARNING aggregation gap ở harness-engineering |
 | ✅ APPROVED | 09-16 | Hygiene | 51 (4E+47W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +4 memory/ files (32 total); pipeline quiet +7 paths |
@@ -114,6 +115,14 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-17
+
+- **Báo cáo:** `wiki/reviews/2026-09-17_format-report.md`
+- **Tóm tắt:** 1063 tệp (583 khái niệm + 201 nguồn + 34 chỉ mục + 245 chủ đề). 402 cảnh báo, 0 lỗi nghiêm trọng: 383 mục liên kết riêng lẻ + 19 nhóm. 272 đích được nêu tên trong các mục riêng lẻ; chưa bao gồm đích không được liệt kê trong nhóm.
+- **Thay đổi:** so với 09-16 23:16:30, đã được Julius duyệt: +3 tệp, số cảnh báo không đổi; 20 đích đứng đầu giữ nguyên. Git xác nhận +1 khái niệm, +1 nguồn, +1 chủ đề; không xóa tệp. Các tệp mới không có cảnh báo.
+- **Cần làm:** tiếp tục theo dõi liên kết chưa có đích. Kiểm tra tên nguồn/bản gốc trước khi sửa; chỉ biên soạn khi có nguồn phù hợp. Không xóa hàng loạt liên kết. Không sửa nội dung trong lần kiểm tra này.
+- **Trạng thái:** chờ duyệt.
 
 ### 🔍 Output Validation — 2026-09-17 (23:05)
 

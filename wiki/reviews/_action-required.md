@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-17 23:15 +0700 — Format validation: 1063 files, 402 issues (0 ERROR), 3 file mới, số cảnh báo không đổi
+**Last updated:** 2026-09-17 23:33 +0700 — Hygiene: 1753 đường dẫn thuộc phạm vi; 8 nhóm (4 lỗi, 3 cảnh báo, 1 thông tin); memory/ tăng 32→37 tệp.
 
 ---
 
@@ -12,11 +12,14 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 2
+**Pending reports awaiting review:** 3
+
+<!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-17 | Hygiene | 8 nhóm (4E+3W+1I) | [Báo cáo](2026-09-17_hygiene-report.md): 1753 đường dẫn; memory/ 32→37; 4 lỗi cũ chưa sửa; cần thống nhất quy chuẩn |
 | 🔍 PENDING | 09-17 | Format | 402 (0E+402W) | Xem [wiki/reviews/2026-09-17_format-report.md](2026-09-17_format-report.md); +3 tệp, số cảnh báo không đổi |
 | ✅ APPROVED | 09-16 | Format | 402 (0E+402W) | 0 net change vs 09-15 — exact-zero-flat, pipeline idle, day 3 at 272 unique targets |
 | 🔍 PENDING | 09-17 | Output | 2 (0E+2W+0I) | 3 file mới (1 source + 2 concepts); 1 WARNING aggregation gap ở harness-engineering |
@@ -115,6 +118,14 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-09-17
+
+- **Báo cáo:** `wiki/reviews/2026-09-17_hygiene-report.md`
+- **Tóm tắt:** 1753 đường dẫn thực sự thuộc phạm vi (1681 tệp, 72 thư mục); 8 nhóm: 4 lỗi, 3 cảnh báo, 1 thông tin. Máy phát hiện 57 mục; gom 37 tệp memory theo nguyên nhân thư mục và 15 bản sao lưu thành một nhóm. Không so trực tiếp số đường dẫn với số đếm nội bộ tác nhân của báo cáo cũ.
+- **Thay đổi:** `memory/` tăng 32→37 tệp; thêm `memory/2026-09-17.md` ngoài các đường dẫn dreaming. Bốn lỗi chính vẫn tồn tại. `DREAMS.md` và dấu `.migrated.*` được Git theo dõi; `memory/` và `wiki/HEARTBEAT.md` không được theo dõi, đã có quy tắc bỏ qua. Liên kết HEARTBEAT thực sự hỏng.
+- **Cần làm:** giữ DREAMS.md và memory/ theo ghi chú duyệt; xử lý nguồn tạo trước. Fix Agent xử lý dấu di chuyển trong Git và liên kết sai vùng. Julius thống nhất quy chuẩn cho 15 bản sao lưu, loại báo cáo kiểm tra mẫu và các điều khoản mâu thuẫn. Xem xét 38 báo cáo quá 30 ngày sau khi kiểm tra trạng thái. Không xóa tự động; không phát lại cảnh báo hệ thống cũ.
+- **Trạng thái:** chờ duyệt. Báo cáo 09-16 đã duyệt, chưa xác minh sửa xong.
 
 ### 🔍 Format Validation — 2026-09-17
 

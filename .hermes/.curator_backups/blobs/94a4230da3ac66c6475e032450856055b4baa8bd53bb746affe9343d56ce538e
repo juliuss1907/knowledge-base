@@ -611,17 +611,6 @@ Typical validation times (daily runs):
 
 ---
 
-## Đối chiếu quy chuẩn trước khi chốt số liệu
-
-- Phân biệt số đường dẫn đã đi qua với số thực sự kiểm tra. Cắt `.git/`, `.obsidian/`, `node_modules/` và nội bộ nhà tác nhân khỏi phạm vi theo quy tắc miễn kiểm tra; công bố phạm vi khi số đếm khác báo cáo cũ. Không suy ra kho tăng/giảm từ hai cách đếm khác nhau.
-- Không mặc định `*-backup-*.md` trong vùng reviews là báo nhầm. Đối chiếu §7; nếu quy trình lưu bản sao chưa được cho phép rõ, báo xung đột quy chuẩn, không âm thầm loại hoặc đổi tên bản sao thành báo cáo.
-- Đối chiếu loại `spot-check` mà bộ quét tham chiếu cho qua với danh sách loại báo cáo trong quy chuẩn. Ghi xung đột khi chưa có ngoại lệ; không coi phát hiện tồn đọng là tệp mới.
-- Không dùng biểu thức phủ định như `[^A-Z_ .~]+` để xác nhận slug: nó vẫn nhận ký tự đặc biệt và chữ hoa tiếng Việt. Kiểm tra tập ký tự cho phép, chữ thường, đuôi `.md` và giới hạn 80 ký tự riêng.
-- Gom cảnh báo tệp con cùng nguyên nhân khi báo cáo, nhưng công bố cả số phát hiện máy và số nhóm. Không trình bày hai số như cùng một đơn vị.
-- Kiểm tra liên kết bằng `is_symlink`, `readlink` và sự tồn tại của đích; không chép kết luận lịch sử mâu thuẫn như “liên kết hỏng, đích tồn tại”. Đừng khẳng định tác nhân tạo liên kết khi chưa có bằng chứng.
-- Giữ trạng thái đã duyệt tách biệt trạng thái đã sửa. Với `DREAMS.md` và `memory/`, giữ dữ liệu theo ghi chú duyệt; xử lý tiến trình tạo trước. Chỉ quét đường dẫn và metadata, không đọc nội dung bộ nhớ hay nhật ký OpenClaw.
-- Bỏ qua bước ghi MEMORY.md, dọn lịch sử và gửi Telegram riêng trong `workflow.md` cũ: trái phạm vi chỉ ghi báo cáo và cơ chế giao kết quả cron. SKILL.md hiện hành có ưu tiên.
-
 ## Full-tree scan pitfalls
 
 When building a production scan script from the template in `references/scan-script.py`, four false-positive sources must be handled:

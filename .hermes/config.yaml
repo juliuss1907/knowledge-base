@@ -742,32 +742,51 @@ custom_providers:
       nvidia/z-ai/glm4.7: {}
       nvidia/parakeet-ctc-1.1b-asr: {}
       gemini/gemma-4-31b-it: {}
-      openrouter/stealth/ox-alpha: {}
+      oc-zen/minimax-m3: {}
+      oc-zen/minimax-m2.7: {}
+      oc-zen/minimax-m2.5: {}
+      oc-zen/kimi-k3: {}
+      oc-zen/kimi-k2.7-code: {}
+      oc-zen/kimi-k2.6: {}
+      oc-zen/kimi-k2.5: {}
+      oc-zen/glm-5.2: {}
+      oc-zen/glm-5.3: {}
+      oc-zen/glm-5.1: {}
+      oc-zen/glm-5: {}
+      oc-zen/deepseek-v4-pro: {}
+      oc-zen/deepseek-v4-flash: {}
+      oc-zen/deepseek-v4-flash-vision-exp: {}
+      oc-zen/qwen3.7-max: {}
+      oc-zen/qwen3.8-max: {}
+      oc-zen/qwen3.7-plus: {}
+      oc-zen/qwen3.6-plus: {}
+      oc-zen/qwen3.5-plus: {}
+      oc-zen/mimo-v2-pro: {}
+      oc-zen/mimo-v2-omni: {}
+      oc-zen/mimo-v2.5-pro: {}
+      oc-zen/mimo-v2.5: {}
+      oc-zen/hy3: {}
+      oc-zen/hy3-preview: {}
+      oc-zen/gpt-5.6-luna: {}
+      oc-zen/grok-4.5: {}
+      oc-zen/muse-spark-1.2-contributor: {}
+      oc-zen/longcat-2.0: {}
+      oc-zen/glm-5.3-flash: {}
+      oc-zen/deepseek-flash: {}
+      oc-zen/deepseek-v4.1-flash: {}
+      oc-zen/qwen3.8-flash: {}
+      oc-zen/hy4-preview: {}
+      oc-zen/grok-4.6: {}
+      oc-zen/muse-spark-1.3-contributor: {}
+      oc-zen/omen-alpha: {}
+      oc-zen/union-alpha: {}
       openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: {}
       openrouter/google/gemma-4-31b-it:free: {}
       openrouter/z-ai/glm-5.2:free: {}
+      openrouter/stealth/union-alpha: {}
       xiaomi-mimo/mimo-v2.5: {}
       xiaomi-mimo/mimo-v2.5-asr: {}
       xiaomi-mimo/mimo-v2.5-pro: {}
-      apinex/claude-opus-5: {}
-      apinex/claude-sonnet-5: {}
-      apinex/deepseek-v4-flash: {}
-      apinex/deepseek-v4-pro: {}
-      apinex/free/deepseek-v4-flash-0731: {}
-      apinex/free/deepseek-v4-pro-0813: {}
-      apinex/free/deepseek-v4.1-flash: {}
-      apinex/glm-5.3-flash: {}
-      apinex/gemini-3.1-pro: {}
-      apinex/gemini-3.8-flash: {}
-      apinex/gpt-5.6-luna: {}
-      apinex/free/muse-spark-1.3: {}
-      apinex/free/qwen-3.8-max: {}
-      apinex/kimi-k3: {}
-      apinex/gpt-5.6-sol: {}
-      apinex/gpt-5.6-terra: {}
-      apinex/gpt-6-astra: {}
-      apinex/glm-5.3: {}
-      apinex/grok-4.6: {}
     models_discovered: true
   - name: b.ai
     base_url: https://api.b.ai/v1

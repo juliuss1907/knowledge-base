@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-17 08:57 +0700 — Julius duyệt 7 báo cáo (09-14→09-16)
+**Last updated:** 2026-09-17 23:05 +0700 — Output validation thêm 1 báo cáo (2 issues, 0 ERROR)
 
 ---
 
@@ -12,12 +12,13 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 0
+**Pending reports awaiting review:** 1
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | ✅ APPROVED | 09-16 | Format | 402 (0E+402W) | 0 net change vs 09-15 — exact-zero-flat, pipeline idle, day 3 at 272 unique targets |
+| 🔍 PENDING | 09-17 | Output | 2 (0E+2W+0I) | 3 file mới (1 source + 2 concepts); 1 WARNING aggregation gap ở harness-engineering |
 | ✅ APPROVED | 09-16 | Hygiene | 51 (4E+47W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +4 memory/ files (32 total); pipeline quiet +7 paths |
 | ✅ APPROVED | 09-15 | Format | 402 (0E+402W) | 0 net change vs 09-14 — exact-zero-flat, pipeline idle |
 | ✅ APPROVED | 09-15 | Hygiene | 47 (4E+43W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +4 memory/ files (28 total); pipeline quiet +9 paths |
@@ -109,6 +110,17 @@
 | ✅ APPLIED | 08-22 | Output | 8 (1E+4W+3I) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
+
+---
+
+## Pending Reports
+
+### 🔍 Output Validation — 2026-09-17 (23:05)
+
+- **Report:** `wiki/reviews/2026-09-17_output-report.md`
+- **Summary:** 3 file mới (1 source + 2 concepts) chủ đề behavioral evals / harness engineering. 0 ERROR, 2 WARNING: (1) `harness-engineering.md` thêm source thứ 2 vào frontmatter nhưng 0/8 key ideas phản ánh source đó — aggregation gap; (2) forward-ref `[[agent-harness]]` đã resolve — ghi nhận, không action. Typo variants 1-5 = 0, Defect A/B/C pass, 8/8 backlinks resolve, count integrity 583 concepts ✓.
+- **Actions needed:** Issue 1 → Compile Agent bổ sung key ideas từ source GoogleCloudTech vào harness-engineering.md (hoặc Fix Agent gỡ source 2 nếu ý định chỉ là liên kết chéo). Issue 2 → không action.
+- **Status:** pending
 
 ---
 

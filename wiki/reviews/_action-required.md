@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-17 23:33 +0700 — Hygiene: 1753 đường dẫn thuộc phạm vi; 8 nhóm (4 lỗi, 3 cảnh báo, 1 thông tin); memory/ tăng 32→37 tệp.
+**Last updated:** 2026-09-18 23:02 +0700 — Output: 8 file mới (3s+5c); 3 ERROR Chinese chars, 1 WARNING self-ref; dropped-i streak 16.
 
 ---
 
@@ -12,7 +12,7 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
@@ -23,6 +23,7 @@
 | 🔍 PENDING | 09-17 | Format | 402 (0E+402W) | Xem [wiki/reviews/2026-09-17_format-report.md](2026-09-17_format-report.md); +3 tệp, số cảnh báo không đổi |
 | ✅ APPROVED | 09-16 | Format | 402 (0E+402W) | 0 net change vs 09-15 — exact-zero-flat, pipeline idle, day 3 at 272 unique targets |
 | 🔍 PENDING | 09-17 | Output | 2 (0E+2W+0I) | 3 file mới (1 source + 2 concepts); 1 WARNING aggregation gap ở harness-engineering |
+| 🔍 PENDING | 09-18 | Output | 4 (3E+1W+0I) | 8 file mới (3s+5c); 3 ERROR Chinese chars; 1 WARNING self-ref rag-retrieval-augmented-generation |
 | ✅ APPROVED | 09-16 | Hygiene | 51 (4E+47W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +4 memory/ files (32 total); pipeline quiet +7 paths |
 | ✅ APPROVED | 09-15 | Format | 402 (0E+402W) | 0 net change vs 09-14 — exact-zero-flat, pipeline idle |
 | ✅ APPROVED | 09-15 | Hygiene | 47 (4E+43W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +4 memory/ files (28 total); pipeline quiet +9 paths |
@@ -134,6 +135,13 @@
 - **Thay đổi:** so với 09-16 23:16:30, đã được Julius duyệt: +3 tệp, số cảnh báo không đổi; 20 đích đứng đầu giữ nguyên. Git xác nhận +1 khái niệm, +1 nguồn, +1 chủ đề; không xóa tệp. Các tệp mới không có cảnh báo.
 - **Cần làm:** tiếp tục theo dõi liên kết chưa có đích. Kiểm tra tên nguồn/bản gốc trước khi sửa; chỉ biên soạn khi có nguồn phù hợp. Không xóa hàng loạt liên kết. Không sửa nội dung trong lần kiểm tra này.
 - **Trạng thái:** chờ duyệt.
+
+### 🔍 Output Validation — 2026-09-18 (23:02)
+
+- **Report:** `wiki/reviews/2026-09-18_output-report.md`
+- **Summary:** 8 file mới (3 sources + 5 concepts). 3 ERROR: Chinese character contamination (`在哪里` in src_50-system-design-concepts-explained-simply.md, `几乎` in src_how-ai-labs-eventually-make-money.md, `面临` in ai-lab-business-model.md) — 3rd batch recurrence of Compile Agent defect. 1 WARNING: self-referencing `[[rag-retrieval-augmented-generation]]` in rag-retrieval-augmented-generation.md Related concepts. Dropped-i streak 16 consecutive. Typo variants 1-4 = 0.
+- **Actions needed:** Fix Agent: (1) Replace Chinese chars `在哪里`→`ở đâu`, `几乎`→`gần như`, `面临`→`có` in 3 files. (2) Remove self-reference `[[rag-retrieval-augmented-generation]]` from rag-retrieval-augmented-generation.md.
+- **Status:** pending
 
 ### 🔍 Output Validation — 2026-09-17 (23:05)
 

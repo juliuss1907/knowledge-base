@@ -4,7 +4,9 @@ title: I'm begging you to manage your goals like this
 url: https://ideas.profoundideas.com/p/im-begging-you-to-manage-your-goals
 author: Craig
 date_ingested: 2026-09-17
-status: unprocessed
+status: processed
+compiled_at: 2026-09-18
+compiled_to: "[[src_im-begging-you-to-manage-your-goals-like-this]]"
 source: ideas.profoundideas.com
 ---
 

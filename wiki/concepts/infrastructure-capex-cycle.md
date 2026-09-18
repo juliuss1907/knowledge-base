@@ -6,7 +6,8 @@ sub_tags: [layer1, ai]
 topic: market-cycles
 sources:
   - "[[src_l1-blockchain-ai-lab-comparison]]"
-last_updated: 2026-06-18
+  - "[[src_how-ai-labs-eventually-make-money]]"
+last_updated: 2026-09-18
 ---
 
 # Infrastructure Capex Cycle
@@ -24,15 +25,19 @@ Giai đoạn trong chu kỳ công nghệ mới khi có sự đầu tư mạnh v�
 - **Scale-up speed**: Infrastructure cần scale nhanh để meet demand của new paradigm
 - **Strategic relationships**: Special relationships với chip manufacturers và energy providers là competitive advantage
 - **Commoditization risk**: Infrastructure có thể bị commoditize nếu không có differentiation
+- **MTR analogy**: Mass transit infra (rail) cũng không cover capex through fares — need "property above station" (deployment rights, RL data, forward-deployed integration)
+- **General purpose technology pattern**: Steam engine, electricity, TCP/IP, AI — builders capture nearly zero direct revenue; value flows to downstream users
 
 ## Related concepts
 
 - [[ai-lab-crypto-analogy]]
 - [[altcoin-frenzy-pattern]]
 - [[category-kings-dynamics]]
+- [[ai-lab-business-model]]
 
 ## Sources
 
 - [[src_l1-blockchain-ai-lab-comparison]]
+- [[src_how-ai-labs-eventually-make-money]]
 
 ## Notes

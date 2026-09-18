@@ -4,7 +4,9 @@ title: "50 System Design Concepts Explained Simply [2026 Edition]"
 url: https://designgurus.substack.com/p/50-system-design-concepts-explained
 author: Design Gurus
 date_ingested: 2026-09-17
-status: unprocessed
+status: processed
+compiled_at: 2026-09-18
+compiled_to: "[[src_50-system-design-concepts-explained-simply]]"
 source: designgurus.substack.com
 ---
 

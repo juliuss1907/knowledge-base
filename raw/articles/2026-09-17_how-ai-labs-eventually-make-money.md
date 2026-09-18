@@ -4,7 +4,9 @@ title: How will AI labs eventually make money
 url: https://michaellwy.substack.com/p/a-subway-company-solved-ais-business
 author: michaellwy
 date_ingested: 2026-09-17
-status: unprocessed
+status: processed
+compiled_at: 2026-09-18
+compiled_to: "[[src_how-ai-labs-eventually-make-money]]"
 source: michaellwy.substack.com
 ---
 

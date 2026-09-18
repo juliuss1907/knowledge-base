@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-18 23:02 +0700 — Output: 8 file mới (3s+5c); 3 ERROR Chinese chars, 1 WARNING self-ref; dropped-i streak 16.
+**Last updated:** 2026-09-18 23:16 +0700 — Format: 1072 tệp, 403 issues (1E+402W); ERROR tag.md thiếu section; 9 file mới.
 
 ---
 
@@ -12,7 +12,7 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 4
+**Pending reports awaiting review:** 5
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
@@ -24,6 +24,7 @@
 | ✅ APPROVED | 09-16 | Format | 402 (0E+402W) | 0 net change vs 09-15 — exact-zero-flat, pipeline idle, day 3 at 272 unique targets |
 | 🔍 PENDING | 09-17 | Output | 2 (0E+2W+0I) | 3 file mới (1 source + 2 concepts); 1 WARNING aggregation gap ở harness-engineering |
 | 🔍 PENDING | 09-18 | Output | 4 (3E+1W+0I) | 8 file mới (3s+5c); 3 ERROR Chinese chars; 1 WARNING self-ref rag-retrieval-augmented-generation |
+| 🔍 PENDING | 09-18 | Format | 403 (1E+402W) | Xem [wiki/reviews/2026-09-18_format-report.md](2026-09-18_format-report.md); +9 tệp, 1 ERROR tag.md thiếu ## Overview |
 | ✅ APPROVED | 09-16 | Hygiene | 51 (4E+47W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +4 memory/ files (32 total); pipeline quiet +7 paths |
 | ✅ APPROVED | 09-15 | Format | 402 (0E+402W) | 0 net change vs 09-14 — exact-zero-flat, pipeline idle |
 | ✅ APPROVED | 09-15 | Hygiene | 47 (4E+43W) | 0 ISSUE RESOLVED — all 4 ERROR carry-forward; +4 memory/ files (28 total); pipeline quiet +9 paths |
@@ -134,6 +135,14 @@
 - **Tóm tắt:** 1063 tệp (583 khái niệm + 201 nguồn + 34 chỉ mục + 245 chủ đề). 402 cảnh báo, 0 lỗi nghiêm trọng: 383 mục liên kết riêng lẻ + 19 nhóm. 272 đích được nêu tên trong các mục riêng lẻ; chưa bao gồm đích không được liệt kê trong nhóm.
 - **Thay đổi:** so với 09-16 23:16:30, đã được Julius duyệt: +3 tệp, số cảnh báo không đổi; 20 đích đứng đầu giữ nguyên. Git xác nhận +1 khái niệm, +1 nguồn, +1 chủ đề; không xóa tệp. Các tệp mới không có cảnh báo.
 - **Cần làm:** tiếp tục theo dõi liên kết chưa có đích. Kiểm tra tên nguồn/bản gốc trước khi sửa; chỉ biên soạn khi có nguồn phù hợp. Không xóa hàng loạt liên kết. Không sửa nội dung trong lần kiểm tra này.
+- **Trạng thái:** chờ duyệt.
+
+### 🔍 Format Validation — 2026-09-18 (23:16)
+
+- **Báo cáo:** `wiki/reviews/2026-09-18_format-report.md`
+- **Tóm tắt:** 1072 tệp (586 khái niệm + 204 nguồn + 34 chỉ mục + 248 chủ đề). 403 vấn đề: **1 lỗi nghiêm trọng, 402 cảnh báo**. Lỗi duy nhất: `wiki/tag/tag.md` thiếu `## Overview` (section bắt buộc L2 theo index-spec §4.2) — sụt giảm từ Index Agent cập nhật file 09-18. Streak sạch 16 ngày bị phá. 383 cảnh báo liên kết riêng lẻ + 19 nhóm = 402; 272 đích riêng biệt giữ nguyên.
+- **Thay đổi:** so với 09-17 (đang chờ duyệt): +9 tệp (3 khái niệm + 3 nguồn + 3 chủ đề — batch 09-18), không tệp xóa. Số cảnh báo không đổi (402→402); liên kết riêng lẻ 383→383; nhóm 19→19; đích riêng biệt 272→272. Top-20 đích ưu tiên giữ nguyên cả tên và số đếm. 9 file mới không có cảnh báo. +1 ERROR mới (tag.md thiếu section).
+- **Cần làm:** Fix Agent thêm `## Overview` và `## Notes` vào `wiki/tag/tag.md`. Tiếp tục theo dõi liên kết chưa có đích. Kiểm tra tên nguồn/bản gốc trước khi sửa; chỉ biên soạn khi có nguồn phù hợp.
 - **Trạng thái:** chờ duyệt.
 
 ### 🔍 Output Validation — 2026-09-18 (23:02)

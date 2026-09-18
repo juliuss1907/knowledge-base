@@ -1,5 +1,25 @@
 ---
 
+## 2026-09-18 08:00:00 — Compiled (batch 3 files)
+
+- **Raw:** raw/articles/2026-09-17_im-begging-you-to-manage-your-goals-like-this.md
+  - **Source note:** wiki/sources/src_im-begging-you-to-manage-your-goals-like-this.md
+  - **Concepts:** [oaat-model] (created)
+  - **Tags applied:** main=productivity, sub=[psychology, strategy], topic=oaat-goal-model
+  - **Action:** created 1 concept file
+- **Raw:** raw/articles/2026-09-17_how-ai-labs-eventually-make-money.md
+  - **Source note:** wiki/sources/src_how-ai-labs-eventually-make-money.md
+  - **Concepts:** [ai-lab-business-model] (created), [infrastructure-capex-cycle] (updated)
+  - **Tags applied:** main=ai, sub=[research, strategy], topic=ai-lab-business-model
+  - **Action:** created 1 concept, updated 1 concept
+- **Raw:** raw/articles/2026-09-17_50-system-design-concepts-explained-simply.md
+  - **Source note:** wiki/sources/src_50-system-design-concepts-explained-simply.md
+  - **Concepts:** [system-design-concepts-2026] (created), [rag-retrieval-augmented-generation] (updated)
+  - **Tags applied:** main=tech, sub=[tutorial, research], topic=system-design-concepts-2026
+  - **Action:** created 1 concept, updated 1 concept
+
+---
+
 ## 2026-09-01 17:08 — Ingested: Google Cloud Tech X thread on agent sandbox runtimes
 
 - **File:** `raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md`

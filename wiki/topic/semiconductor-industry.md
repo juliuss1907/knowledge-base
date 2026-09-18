@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: semiconductor-industry
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: semiconductor-industry
 
 Auto-generated index of all content with topic `semiconductor-industry`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -20,8 +21,11 @@ Last updated: 2026-09-17 21:12:07
 
 ## Sources (0)
 
-No sources with topic `semiconductor-industry` yet.
+(none)
 
 ## Related topics
 
-No topics share files with `semiconductor-industry` yet.
+Topics that share concepts/sources with `semiconductor-industry`:
+(none)
+
+(Top 5 by overlap)

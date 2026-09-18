@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: github-supply-chain-attack-vs-code
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: github-supply-chain-attack-vs-code
 
 Auto-generated index of all content with topic `github-supply-chain-attack-vs-code`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -26,4 +27,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `github-supply-chain-attack-vs-code` yet.
+Topics that share concepts/sources with `github-supply-chain-attack-vs-code`:
+(none)
+
+(Top 5 by overlap)

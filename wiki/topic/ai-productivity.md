@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: ai-productivity
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: ai-productivity
 
 Auto-generated index of all content with topic `ai-productivity`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -29,4 +30,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `ai-productivity` yet.
+Topics that share concepts/sources with `ai-productivity`:
+(none)
+
+(Top 5 by overlap)

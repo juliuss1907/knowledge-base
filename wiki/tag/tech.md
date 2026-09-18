@@ -5,10 +5,16 @@ scope: tag
 parent: "[[tag]]"
 tag: tech
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Tag: #tech
+
+Auto-generated index of all content tagged with `#tech`.
+
+Last updated: 2026-09-18 21:02:23
+
+---
 
 ## Parent
 
@@ -16,69 +22,76 @@ last_updated: 2026-09-17
 
 ## Stats
 
-- Total files: 51
-- Sources: 12
-- Concepts: 39
-- Last updated: 2026-09-17
+- Total files: 53
+- Sources: 13
+- Concepts: 40
+- Last updated: 2026-09-18
 
 ## Files with this tag
 
-- [[agent-defense-in-depth]] — Agent Defense In Depth (concept)
-- [[ai-frontend-design-guidance]] — Ai Frontend Design Guidance (concept)
-- [[architecture-as-code]] — Architecture As Code (concept)
-- [[atomic-mac-agent]] — Atomic Mac Agent (concept)
-- [[batch-vs-live-inference]] — Batch Vs Live Inference (concept)
-- [[claude-code-routines]] — Claude Code Routines (concept)
-- [[cloud-auth-hierarchy]] — Cloud Auth Hierarchy (concept)
-- [[cloud-cost-governance]] — Cloud Cost Governance (concept)
-- [[code-visualization]] — Code Visualization (concept)
-- [[completion-motivation]] — Completion Motivation (concept)
-- [[consent-phishing]] — Consent Phishing (concept)
-- [[design-process]] — Design Process (concept)
-- [[design-systems]] — Design Systems (concept)
-- [[domain-takeover-vulnerability]] — Domain Takeover Vulnerability (concept)
-- [[dynamic-shared-quota]] — Dynamic Shared Quota (concept)
-- [[frontend-design-agent]] — Frontend Design Agent (concept)
-- [[gamification-design-patterns]] — Gamification Design Patterns (concept)
-- [[gcp-ai-platform-migration]] — Gcp Ai Platform Migration (concept)
-- [[generative-ai-search-optimization]] — Generative Ai Search Optimization (concept)
-- [[google-ai-overviews]] — Google Ai Overviews (concept)
-- [[llm-consumption-modes]] — Llm Consumption Modes (concept)
-- [[math-mafia]] — Math Mafia (concept)
-- [[oauth-security-risks]] — Oauth Security Risks (concept)
-- [[olympiad-to-founder-pipeline]] — Olympiad To Founder Pipeline (concept)
-- [[product-analytics]] — Product Analytics (concept)
-- [[prototype-gravity]] — Prototype Gravity (concept)
-- [[quant-finance-culture]] — Quant Finance Culture (concept)
-- [[secrets-management]] — Secrets Management (concept)
-- [[self-driving-products]] — Self Driving Products (concept)
-- [[src_10-questions-for-your-startup-developers]] — 10 Questions For Your Startup Developers (source)
-- [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source)
-- [[src_archify]] — Archify (source)
-- [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
-- [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
-- [[src_gamification-app-truth]] — Gamification App Truth (source)
-- [[src_google-guide-optimizing-generative-ai-search]] — Google Guide Optimizing Generative Ai Search (source)
-- [[src_how-i-design-with-ai]] — How I Design With Ai (source)
-- [[src_impeccable]] — Impeccable (source)
-- [[src_posthog]] — Posthog (source)
-- [[src_threeui]] — Threeui (source)
-- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — Why The Math Mafia Is Doing Well Jesse Zhang (source)
-- [[sso-single-point-of-failure]] — Sso Single Point Of Failure (concept)
-- [[streak-psychology]] — Streak Psychology (concept)
-- [[supply-chain-attack]] — Supply Chain Attack (concept)
-- [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept)
-- [[token-theft-attack]] — Token Theft Attack (concept)
-- [[ui-component-library]] — Ui Component Library (concept)
-- [[variable-reward-systems]] — Variable Reward Systems (concept)
-- [[vs-code-marketplace-security]] — Vs Code Marketplace Security (concept)
-- [[x-api-oauth2]] — X Api Oauth2 (concept)
-- [[xurl-cli]] — Xurl Cli (concept)
+(All concepts + sources carrying this tag as main OR sub, merged alphabetically)
+
+- [[agent-defense-in-depth]] — agent-defense-in-depth (concept, main: #tech, sub: [#tools, #hack, #system], topic: agent-defense-in-depth)
+- [[ai-frontend-design-guidance]] — ai-frontend-design-guidance (concept, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[architecture-as-code]] — architecture-as-code (concept, main: #tech, sub: [#tools, #coding, #automation], topic: architecture-as-code)
+- [[atomic-mac-agent]] — atomic-mac-agent (concept, main: #tech, sub: [#tools, #automation], topic: hermes-polymarket-trading-agent)
+- [[batch-vs-live-inference]] — batch-vs-live-inference (concept, main: #tech, sub: [#tools, #automation], topic: batch-vs-live-inference)
+- [[claude-code-routines]] — claude-code-routines (concept, main: #tech, sub: [#automation, #tools], topic: ai-trading-agent-claude-code)
+- [[cloud-auth-hierarchy]] — cloud-auth-hierarchy (concept, main: #tech, sub: [#tools, #hack], topic: cloud-auth-hierarchy)
+- [[cloud-cost-governance]] — cloud-cost-governance (concept, main: #tech, sub: [#tools, #hack, #system], topic: cloud-cost-governance)
+- [[code-visualization]] — code-visualization (concept, main: #tech, sub: [#tools, #coding], topic: code-visualization)
+- [[completion-motivation]] — completion-motivation (concept, main: #tech, sub: [#psychology, #tools], topic: gamification-design-patterns)
+- [[consent-phishing]] — consent-phishing (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
+- [[design-process]] — design-process (concept, main: #tech, sub: [#tools, #vibecode], topic: ai-design-workflow)
+- [[design-systems]] — design-systems (concept, main: #tech, sub: [#tools, #coding], topic: design-systems)
+- [[domain-takeover-vulnerability]] — domain-takeover-vulnerability (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
+- [[dynamic-shared-quota]] — dynamic-shared-quota (concept, main: #tech, sub: [#tools, #hack], topic: dynamic-shared-quota)
+- [[frontend-design-agent]] — frontend-design-agent (concept, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[gamification-design-patterns]] — gamification-design-patterns (concept, main: #tech, sub: [#tools, #psychology, #research], topic: gamification-design-patterns)
+- [[gcp-ai-platform-migration]] — gcp-ai-platform-migration (concept, main: #tech, sub: [#tools, #tutorial], topic: gcp-ai-platform-migration)
+- [[generative-ai-search-optimization]] — generative-ai-search-optimization (concept, main: #tech, sub: [#tools, #tutorial], topic: generative-ai-seo)
+- [[google-ai-overviews]] — google-ai-overviews (concept, main: #tech, sub: [#tools, #news], topic: generative-ai-seo)
+- [[llm-consumption-modes]] — llm-consumption-modes (concept, main: #tech, sub: [#tools], topic: llm-consumption-modes)
+- [[math-mafia]] — math-mafia (concept, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
+- [[oauth-security-risks]] — oauth-security-risks (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
+- [[olympiad-to-founder-pipeline]] — olympiad-to-founder-pipeline (concept, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
+- [[product-analytics]] — product-analytics (concept, main: #tech, sub: [#tools, #automation], topic: product-analytics-tools)
+- [[prototype-gravity]] — prototype-gravity (concept, main: #tech, sub: [#tools, #vibecode], topic: ai-design-workflow)
+- [[quant-finance-culture]] — quant-finance-culture (concept, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
+- [[secrets-management]] — secrets-management (concept, main: #tech, sub: [#tools, #hack], topic: secrets-management)
+- [[self-driving-products]] — self-driving-products (concept, main: #tech, sub: [#tools, #automation], topic: self-driving-products)
+- [[src_10-questions-for-your-startup-developers]] — src_10-questions-for-your-startup-developers (source, main: #tech, sub: [#tools, #tutorial, #hack], topic: gcp-ai-startup-governance)
+- [[src_11-minutes-hack-github]] — src_11-minutes-hack-github (source, main: #tech, sub: [#hack, #tools, #news], topic: github-supply-chain-attack-vs-code)
+- [[src_50-system-design-concepts-explained-simply]] — src_50-system-design-concepts-explained-simply (source, main: #tech, sub: [#tutorial, #research], topic: system-design-concepts-2026)
+- [[src_archify]] — src_archify (source, main: #tech, sub: [#tools, #coding, #automation], topic: architecture-as-code)
+- [[src_build-ai-trading-agent-claude-code-alpaca]] — src_build-ai-trading-agent-claude-code-alpaca (source, main: #tech, sub: [#tutorial, #automation, #tools], topic: ai-trading-agent-claude-code)
+- [[src_dont-sign-in-with-google]] — src_dont-sign-in-with-google (source, main: #tech, sub: [#hack, #tools, #opinion], topic: sso-security-risks)
+- [[src_gamification-app-truth]] — src_gamification-app-truth (source, main: #tech, sub: [#tools, #psychology, #research], topic: gamification-design-patterns)
+- [[src_google-guide-optimizing-generative-ai-search]] — src_google-guide-optimizing-generative-ai-search (source, main: #tech, sub: [#tools, #tutorial], topic: generative-ai-seo)
+- [[src_how-i-design-with-ai]] — src_how-i-design-with-ai (source, main: #tech, sub: [#tools, #vibecode, #opinion], topic: ai-design-workflow)
+- [[src_impeccable]] — src_impeccable (source, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[src_posthog]] — src_posthog (source, main: #tech, sub: [#tools, #automation], topic: self-driving-products)
+- [[src_threeui]] — src_threeui (source, main: #tech, sub: [#tools, #coding], topic: ui-component-library)
+- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — src_why-the-math-mafia-is-doing-well-jesse-zhang (source, main: #tech, sub: [#opinion, #psychology], topic: math-mafia-olympiad-founders)
+- [[sso-single-point-of-failure]] — sso-single-point-of-failure (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
+- [[streak-psychology]] — streak-psychology (concept, main: #tech, sub: [#psychology], topic: gamification-design-patterns)
+- [[supply-chain-attack]] — supply-chain-attack (concept, main: #tech, sub: [#hack, #tools], topic: github-supply-chain-attack-vs-code)
+- [[system-design-concepts-2026]] — system-design-concepts-2026 (concept, main: #tech, sub: [#tutorial, #research], topic: system-design-concepts-2026)
+- [[team-pcp-hacker-group]] — team-pcp-hacker-group (concept, main: #tech, sub: [#hack, #news], topic: github-supply-chain-attack-vs-code)
+- [[token-theft-attack]] — token-theft-attack (concept, main: #tech, sub: [#hack, #tools], topic: sso-security-risks)
+- [[ui-component-library]] — ui-component-library (concept, main: #tech, sub: [#tools, #coding], topic: ui-component-library)
+- [[variable-reward-systems]] — variable-reward-systems (concept, main: #tech, sub: [#psychology, #research], topic: gamification-design-patterns)
+- [[vs-code-marketplace-security]] — vs-code-marketplace-security (concept, main: #tech, sub: [#hack, #tools], topic: github-supply-chain-attack-vs-code)
+- [[x-api-oauth2]] — x-api-oauth2 (concept, main: #tech, sub: [#tools, #tutorial], topic: hermes-xurl-x-api-integration)
+- [[xurl-cli]] — xurl-cli (concept, main: #tech, sub: [#tools, #automation], topic: hermes-xurl-x-api-integration)
 
 ## Co-occurring tags
 
-- [[tools]] — 44 co-occurrences
-- [[hack]] — 16 co-occurrences
-- [[automation]] — 10 co-occurrences
-- [[coding]] — 9 co-occurrences
-- [[psychology]] — 9 co-occurrences
+Tags that frequently appear with `#tech`:
+- `#tools` (44 files)
+- `#hack` (16 files)
+- `#automation` (10 files)
+- `#coding` (9 files)
+- `#psychology` (9 files)
+
+(Top 5 by frequency)

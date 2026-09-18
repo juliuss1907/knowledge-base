@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: steve-jobs-stanford-connecting-dots
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: steve-jobs-stanford-connecting-dots
 
 Auto-generated index of all content with topic `steve-jobs-stanford-connecting-dots`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -25,4 +26,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `steve-jobs-stanford-connecting-dots` yet.
+Topics that share concepts/sources with `steve-jobs-stanford-connecting-dots`:
+(none)
+
+(Top 5 by overlap)

@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: gcp-ai-startup-governance
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: gcp-ai-startup-governance
 
 Auto-generated index of all content with topic `gcp-ai-startup-governance`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
 ## Concepts (0)
 
-No concepts with topic `gcp-ai-startup-governance` yet.
+(none)
 
 ## Sources (1)
 
@@ -24,4 +25,7 @@ No concepts with topic `gcp-ai-startup-governance` yet.
 
 ## Related topics
 
-No topics share files with `gcp-ai-startup-governance` yet.
+Topics that share concepts/sources with `gcp-ai-startup-governance`:
+(none)
+
+(Top 5 by overlap)

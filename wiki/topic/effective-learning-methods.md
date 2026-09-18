@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: effective-learning-methods
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: effective-learning-methods
 
 Auto-generated index of all content with topic `effective-learning-methods`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -28,4 +29,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `effective-learning-methods` yet.
+Topics that share concepts/sources with `effective-learning-methods`:
+(none)
+
+(Top 5 by overlap)

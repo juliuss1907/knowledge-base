@@ -5,10 +5,16 @@ scope: tag
 parent: "[[tag]]"
 tag: crypto
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Tag: #crypto
+
+Auto-generated index of all content tagged with `#crypto`.
+
+Last updated: 2026-09-18 21:02:23
+
+---
 
 ## Parent
 
@@ -19,30 +25,35 @@ last_updated: 2026-09-17
 - Total files: 15
 - Sources: 4
 - Concepts: 11
-- Last updated: 2026-09-17
+- Last updated: 2026-09-18
 
 ## Files with this tag
 
-- [[agentic-commerce]] — Agentic Commerce (concept)
-- [[arcade-tokens]] — Arcade Tokens (concept)
-- [[autonomous-agents]] — Autonomous Agents (concept)
-- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
-- [[machine-economy]] — Machine Economy (concept)
-- [[polymarket]] — Polymarket (concept)
-- [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
-- [[proof-stack]] — Proof Stack (concept)
-- [[show-me-era]] — Show Me Era (concept)
-- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
-- [[src_is-there-anything-left-build-crypto-wintermute]] — Is There Anything Left Build Crypto Wintermute (source)
-- [[src_the-most-underrated-token-type]] — The Most Underrated Token Type (source)
-- [[src_the-new-comms-playbook-show-dont]] — The New Comms Playbook Show Dont (source)
-- [[token-economic-mechanics]] — Token Economic Mechanics (concept)
-- [[two-track-communications]] — Two Track Communications (concept)
+(All concepts + sources carrying this tag as main OR sub, merged alphabetically)
+
+- [[agentic-commerce]] — agentic-commerce (concept, main: #crypto, sub: [#ai, #tools], topic: machine-economy-crypto)
+- [[arcade-tokens]] — arcade-tokens (concept, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
+- [[autonomous-agents]] — autonomous-agents (concept, main: #crypto, sub: [#ai, #tools], topic: machine-economy-crypto)
+- [[cookie-fun-mcp]] — cookie-fun-mcp (concept, main: #crypto, sub: [#tools, #defi], topic: hermes-xai-grok-integration)
+- [[machine-economy]] — machine-economy (concept, main: #crypto, sub: [#ai, #tools], topic: machine-economy-crypto)
+- [[polymarket]] — polymarket (concept, main: #crypto, sub: [#defi, #tools], topic: hermes-polymarket-trading-agent)
+- [[prediction-market-dashboard]] — prediction-market-dashboard (concept, main: #crypto, sub: [#tools, #defi], topic: hermes-operator-builder-pattern)
+- [[proof-stack]] — proof-stack (concept, main: #crypto, sub: [#opinion], topic: crypto-communications)
+- [[show-me-era]] — show-me-era (concept, main: #crypto, sub: [#opinion], topic: crypto-communications)
+- [[src_hermes-polymarket-btc-trading-agent]] — src_hermes-polymarket-btc-trading-agent (source, main: #crypto, sub: [#automation, #tools, #tutorial], topic: hermes-polymarket-trading-agent)
+- [[src_is-there-anything-left-build-crypto-wintermute]] — src_is-there-anything-left-build-crypto-wintermute (source, main: #crypto, sub: [#ai, #opinion, #tools], topic: machine-economy-crypto)
+- [[src_the-most-underrated-token-type]] — src_the-most-underrated-token-type (source, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
+- [[src_the-new-comms-playbook-show-dont]] — src_the-new-comms-playbook-show-dont (source, main: #crypto, sub: [#opinion, #news], topic: crypto-communications-playbook)
+- [[token-economic-mechanics]] — token-economic-mechanics (concept, main: #crypto, sub: [#defi, #tools], topic: arcade-tokens)
+- [[two-track-communications]] — two-track-communications (concept, main: #crypto, sub: [#opinion], topic: crypto-communications)
 
 ## Co-occurring tags
 
-- [[tools]] — 11 co-occurrences
-- [[defi]] — 6 co-occurrences
-- [[opinion]] — 5 co-occurrences
-- [[ai]] — 4 co-occurrences
-- [[automation]] — 1 co-occurrences
+Tags that frequently appear with `#crypto`:
+- `#tools` (11 files)
+- `#defi` (6 files)
+- `#opinion` (5 files)
+- `#ai` (4 files)
+- `#automation` (1 files)
+
+(Top 5 by frequency)

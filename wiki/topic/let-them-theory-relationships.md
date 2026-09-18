@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: let-them-theory-relationships
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: let-them-theory-relationships
 
 Auto-generated index of all content with topic `let-them-theory-relationships`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -28,4 +29,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `let-them-theory-relationships` yet.
+Topics that share concepts/sources with `let-them-theory-relationships`:
+(none)
+
+(Top 5 by overlap)

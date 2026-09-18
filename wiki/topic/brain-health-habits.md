@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: brain-health-habits
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: brain-health-habits
 
 Auto-generated index of all content with topic `brain-health-habits`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
 ## Concepts (0)
 
-No concepts with topic `brain-health-habits` yet.
+(none)
 
 ## Sources (1)
 
@@ -24,4 +25,7 @@ No concepts with topic `brain-health-habits` yet.
 
 ## Related topics
 
-No topics share files with `brain-health-habits` yet.
+Topics that share concepts/sources with `brain-health-habits`:
+(none)
+
+(Top 5 by overlap)

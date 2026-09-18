@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: hermes-xurl-x-api-integration
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: hermes-xurl-x-api-integration
 
 Auto-generated index of all content with topic `hermes-xurl-x-api-integration`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -25,4 +26,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `hermes-xurl-x-api-integration` yet.
+Topics that share concepts/sources with `hermes-xurl-x-api-integration`:
+(none)
+
+(Top 5 by overlap)

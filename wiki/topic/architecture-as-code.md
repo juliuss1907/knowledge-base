@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: architecture-as-code
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: architecture-as-code
 
 Auto-generated index of all content with topic `architecture-as-code`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -24,4 +25,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `architecture-as-code` yet.
+Topics that share concepts/sources with `architecture-as-code`:
+(none)
+
+(Top 5 by overlap)

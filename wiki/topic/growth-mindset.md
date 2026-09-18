@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: growth-mindset
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: growth-mindset
 
 Auto-generated index of all content with topic `growth-mindset`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -22,8 +23,11 @@ Last updated: 2026-09-17 21:12:07
 
 ## Sources (0)
 
-No sources with topic `growth-mindset` yet.
+(none)
 
 ## Related topics
 
-No topics share files with `growth-mindset` yet.
+Topics that share concepts/sources with `growth-mindset`:
+(none)
+
+(Top 5 by overlap)

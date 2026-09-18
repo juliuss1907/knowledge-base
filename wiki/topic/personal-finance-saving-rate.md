@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: personal-finance-saving-rate
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: personal-finance-saving-rate
 
 Auto-generated index of all content with topic `personal-finance-saving-rate`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
 ## Concepts (0)
 
-No concepts with topic `personal-finance-saving-rate` yet.
+(none)
 
 ## Sources (1)
 
@@ -24,4 +25,7 @@ No concepts with topic `personal-finance-saving-rate` yet.
 
 ## Related topics
 
-No topics share files with `personal-finance-saving-rate` yet.
+Topics that share concepts/sources with `personal-finance-saving-rate`:
+(none)
+
+(Top 5 by overlap)

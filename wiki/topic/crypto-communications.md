@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: crypto-communications
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: crypto-communications
 
 Auto-generated index of all content with topic `crypto-communications`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -22,8 +23,11 @@ Last updated: 2026-09-17 21:12:07
 
 ## Sources (0)
 
-No sources with topic `crypto-communications` yet.
+(none)
 
 ## Related topics
 
-No topics share files with `crypto-communications` yet.
+Topics that share concepts/sources with `crypto-communications`:
+(none)
+
+(Top 5 by overlap)

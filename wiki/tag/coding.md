@@ -5,10 +5,16 @@ scope: tag
 parent: "[[tag]]"
 tag: coding
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Tag: #coding
+
+Auto-generated index of all content tagged with `#coding`.
+
+Last updated: 2026-09-18 21:02:23
+
+---
 
 ## Parent
 
@@ -19,64 +25,69 @@ last_updated: 2026-09-17
 - Total files: 49
 - Sources: 17
 - Concepts: 32
-- Last updated: 2026-09-17
+- Last updated: 2026-09-18
 
 ## Files with this tag
 
-- [[agent-harness]] — Agent Harness (concept)
-- [[agentic-coding]] — Agentic Coding (concept)
-- [[agentic-retrieval]] — Agentic Retrieval (concept)
-- [[ai-engineering-skills]] — Ai Engineering Skills (concept)
-- [[ai-frontend-design-guidance]] — Ai Frontend Design Guidance (concept)
-- [[architecture-as-code]] — Architecture As Code (concept)
-- [[behavioral-evals]] — Behavioral Evals (concept)
-- [[bpe-algorithm]] — Bpe Algorithm (concept)
-- [[byte-level-bpe]] — Byte Level Bpe (concept)
-- [[cached-compute-retrieval]] — Cached Compute Retrieval (concept)
-- [[code-as-substrate]] — Code As Substrate (concept)
-- [[code-visualization]] — Code Visualization (concept)
-- [[cognitive-surrender]] — Cognitive Surrender (concept)
-- [[comprehension-debt]] — Comprehension Debt (concept)
-- [[context-engineering]] — Context Engineering (concept)
-- [[coordinate-systems]] — Coordinate Systems (concept)
-- [[design-systems]] — Design Systems (concept)
-- [[frontend-design-agent]] — Frontend Design Agent (concept)
-- [[handoff-skill]] — Handoff Skill (concept)
-- [[harness-engineering]] — Harness Engineering (concept)
-- [[hybrid-retrieval]] — Hybrid Retrieval (concept)
-- [[long-context-models]] — Long Context Models (concept)
-- [[loop-engineering]] — Loop Engineering (concept)
-- [[measurable-outcomes]] — Measurable Outcomes (concept)
-- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept)
-- [[progressive-hardening]] — Progressive Hardening (concept)
-- [[ralph-wiggum-loop]] — Ralph Wiggum Loop (concept)
-- [[scalar-multiplication]] — Scalar Multiplication (concept)
-- [[src_ai-eng-skills-map-building-deploying]] — Ai Eng Skills Map Building Deploying (source)
-- [[src_ai-eng-skills-map-se-fundamentals]] — Ai Eng Skills Map Se Fundamentals (source)
-- [[src_ai-engineering-skills-map]] — Ai Engineering Skills Map (source)
-- [[src_ai-skills-map-building-deploying-ai-apps]] — Ai Skills Map Building Deploying Ai Apps (source)
-- [[src_archify]] — Archify (source)
-- [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
-- [[src_field-guide-to-fable-finding-unknowns]] — Field Guide To Fable Finding Unknowns (source)
-- [[src_googletech-behavioral-evals-harness-engineering]] — Googletech Behavioral Evals Harness Engineering (source)
-- [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source)
-- [[src_harness-engineering-ai-coding]] — Harness Engineering Ai Coding (source)
-- [[src_impeccable]] — Impeccable (source)
-- [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source)
-- [[src_rag-is-dead-kuba-turbopuffer]] — Rag Is Dead Kuba Turbopuffer (source)
-- [[src_tao-ket-qua-dinh-luong-duoc]] — Tao Ket Qua Dinh Luong Duoc (source)
-- [[src_threeui]] — Threeui (source)
-- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3B1B (source)
-- [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source)
-- [[three-enforcement-loops]] — Three Enforcement Loops (concept)
-- [[ui-component-library]] — Ui Component Library (concept)
-- [[vector-addition]] — Vector Addition (concept)
-- [[vectors]] — Vectors (concept)
+(All concepts + sources carrying this tag as main OR sub, merged alphabetically)
+
+- [[agent-harness]] — agent-harness (concept, main: #ai, sub: [#automation, #tools, #coding], topic: code-as-agent-harness)
+- [[agentic-coding]] — agentic-coding (concept, main: #ai, sub: [#coding, #tools], topic: fable-finding-unknowns)
+- [[agentic-retrieval]] — agentic-retrieval (concept, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
+- [[ai-engineering-skills]] — ai-engineering-skills (concept, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
+- [[ai-frontend-design-guidance]] — ai-frontend-design-guidance (concept, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[architecture-as-code]] — architecture-as-code (concept, main: #tech, sub: [#tools, #coding, #automation], topic: architecture-as-code)
+- [[behavioral-evals]] — behavioral-evals (concept, main: #ai, sub: [#coding, #tools], topic: behavioral-evals-harness-engineering)
+- [[bpe-algorithm]] — bpe-algorithm (concept, main: #ai, sub: [#research, #coding], topic: tokenization-llm)
+- [[byte-level-bpe]] — byte-level-bpe (concept, main: #ai, sub: [#research, #coding], topic: tokenization-llm)
+- [[cached-compute-retrieval]] — cached-compute-retrieval (concept, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
+- [[code-as-substrate]] — code-as-substrate (concept, main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness)
+- [[code-visualization]] — code-visualization (concept, main: #tech, sub: [#tools, #coding], topic: code-visualization)
+- [[cognitive-surrender]] — cognitive-surrender (concept, main: #ai, sub: [#automation, #coding, #psychology], topic: loop-engineering)
+- [[comprehension-debt]] — comprehension-debt (concept, main: #ai, sub: [#automation, #coding], topic: loop-engineering)
+- [[context-engineering]] — context-engineering (concept, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
+- [[coordinate-systems]] — coordinate-systems (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
+- [[design-systems]] — design-systems (concept, main: #tech, sub: [#tools, #coding], topic: design-systems)
+- [[frontend-design-agent]] — frontend-design-agent (concept, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[handoff-skill]] — handoff-skill (concept, main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff)
+- [[harness-engineering]] — harness-engineering (concept, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
+- [[hybrid-retrieval]] — hybrid-retrieval (concept, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
+- [[long-context-models]] — long-context-models (concept, main: #ai, sub: [#research, #coding], topic: llm-capabilities)
+- [[loop-engineering]] — loop-engineering (concept, main: #ai, sub: [#automation, #coding], topic: loop-engineering)
+- [[measurable-outcomes]] — measurable-outcomes (concept, main: #productivity, sub: [#system, #coding], topic: measurable-outcomes)
+- [[plan-execute-verify-loop]] — plan-execute-verify-loop (concept, main: #ai, sub: [#automation, #research, #coding], topic: code-as-agent-harness)
+- [[progressive-hardening]] — progressive-hardening (concept, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
+- [[ralph-wiggum-loop]] — ralph-wiggum-loop (concept, main: #ai, sub: [#automation, #coding], topic: loop-engineering)
+- [[scalar-multiplication]] — scalar-multiplication (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
+- [[src_ai-eng-skills-map-building-deploying]] — src_ai-eng-skills-map-building-deploying (source, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
+- [[src_ai-eng-skills-map-se-fundamentals]] — src_ai-eng-skills-map-se-fundamentals (source, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
+- [[src_ai-engineering-skills-map]] — src_ai-engineering-skills-map (source, main: #ai, sub: [#coding, #vibecode], topic: ai-engineering-skills)
+- [[src_ai-skills-map-building-deploying-ai-apps]] — src_ai-skills-map-building-deploying-ai-apps (source, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
+- [[src_archify]] — src_archify (source, main: #tech, sub: [#tools, #coding, #automation], topic: architecture-as-code)
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — src_code-as-agent-harness-arxiv-2605-18747 (source, main: #ai, sub: [#research, #coding], topic: code-as-agent-harness)
+- [[src_field-guide-to-fable-finding-unknowns]] — src_field-guide-to-fable-finding-unknowns (source, main: #ai, sub: [#coding, #tools], topic: fable-finding-unknowns)
+- [[src_googletech-behavioral-evals-harness-engineering]] — src_googletech-behavioral-evals-harness-engineering (source, main: #ai, sub: [#coding, #tools], topic: behavioral-evals-harness-engineering)
+- [[src_handoff-skill-context-window-management]] — src_handoff-skill-context-window-management (source, main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff)
+- [[src_harness-engineering-ai-coding]] — src_harness-engineering-ai-coding (source, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
+- [[src_impeccable]] — src_impeccable (source, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[src_loop-engineering-14-step-roadmap]] — src_loop-engineering-14-step-roadmap (source, main: #ai, sub: [#automation, #coding, #tutorial], topic: loop-engineering)
+- [[src_rag-is-dead-kuba-turbopuffer]] — src_rag-is-dead-kuba-turbopuffer (source, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
+- [[src_tao-ket-qua-dinh-luong-duoc]] — src_tao-ket-qua-dinh-luong-duoc (source, main: #productivity, sub: [#system, #coding], topic: measurable-outcomes)
+- [[src_threeui]] — src_threeui (source, main: #tech, sub: [#tools, #coding], topic: ui-component-library)
+- [[src_vectors-what-even-are-they-3b1b]] — src_vectors-what-even-are-they-3b1b (source, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
+- [[src_youre-trained-for-world-that-no-longer-exists]] — src_youre-trained-for-world-that-no-longer-exists (source, main: #ai, sub: [#opinion, #tutorial, #coding], topic: future-proof-skills)
+- [[three-enforcement-loops]] — three-enforcement-loops (concept, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
+- [[ui-component-library]] — ui-component-library (concept, main: #tech, sub: [#tools, #coding], topic: ui-component-library)
+- [[vector-addition]] — vector-addition (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
+- [[vectors]] — vectors (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
 
 ## Co-occurring tags
 
-- [[ai]] — 38 co-occurrences
-- [[tools]] — 26 co-occurrences
-- [[research]] — 18 co-occurrences
-- [[automation]] — 11 co-occurrences
-- [[tech]] — 9 co-occurrences
+Tags that frequently appear with `#coding`:
+- `#ai` (38 files)
+- `#tools` (26 files)
+- `#research` (18 files)
+- `#automation` (11 files)
+- `#tech` (9 files)
+
+(Top 5 by frequency)

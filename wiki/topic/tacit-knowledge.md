@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: tacit-knowledge
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: tacit-knowledge
 
 Auto-generated index of all content with topic `tacit-knowledge`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -20,8 +21,11 @@ Last updated: 2026-09-17 21:12:07
 
 ## Sources (0)
 
-No sources with topic `tacit-knowledge` yet.
+(none)
 
 ## Related topics
 
-No topics share files with `tacit-knowledge` yet.
+Topics that share concepts/sources with `tacit-knowledge`:
+(none)
+
+(Top 5 by overlap)

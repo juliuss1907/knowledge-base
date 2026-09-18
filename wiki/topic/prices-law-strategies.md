@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: prices-law-strategies
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: prices-law-strategies
 
 Auto-generated index of all content with topic `prices-law-strategies`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
 ## Concepts (0)
 
-No concepts with topic `prices-law-strategies` yet.
+(none)
 
 ## Sources (1)
 
@@ -24,4 +25,7 @@ No concepts with topic `prices-law-strategies` yet.
 
 ## Related topics
 
-No topics share files with `prices-law-strategies` yet.
+Topics that share concepts/sources with `prices-law-strategies`:
+(none)
+
+(Top 5 by overlap)

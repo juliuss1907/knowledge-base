@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: deliberate-practice
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: deliberate-practice
 
 Auto-generated index of all content with topic `deliberate-practice`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -20,8 +21,11 @@ Last updated: 2026-09-17 21:12:07
 
 ## Sources (0)
 
-No sources with topic `deliberate-practice` yet.
+(none)
 
 ## Related topics
 
-No topics share files with `deliberate-practice` yet.
+Topics that share concepts/sources with `deliberate-practice`:
+(none)
+
+(Top 5 by overlap)

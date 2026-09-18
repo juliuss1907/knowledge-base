@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: iatrogenics-naive-interventionism
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: iatrogenics-naive-interventionism
 
 Auto-generated index of all content with topic `iatrogenics-naive-interventionism`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -27,4 +28,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `iatrogenics-naive-interventionism` yet.
+Topics that share concepts/sources with `iatrogenics-naive-interventionism`:
+(none)
+
+(Top 5 by overlap)

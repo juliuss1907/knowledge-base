@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: google-ai-search-optimization
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: google-ai-search-optimization
 
 Auto-generated index of all content with topic `google-ai-search-optimization`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
 ## Concepts (0)
 
-No concepts with topic `google-ai-search-optimization` yet.
+(none)
 
 ## Sources (1)
 
@@ -24,4 +25,7 @@ No concepts with topic `google-ai-search-optimization` yet.
 
 ## Related topics
 
-No topics share files with `google-ai-search-optimization` yet.
+Topics that share concepts/sources with `google-ai-search-optimization`:
+(none)
+
+(Top 5 by overlap)

@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: systems-thinking-cognitive-development
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: systems-thinking-cognitive-development
 
 Auto-generated index of all content with topic `systems-thinking-cognitive-development`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -28,4 +29,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `systems-thinking-cognitive-development` yet.
+Topics that share concepts/sources with `systems-thinking-cognitive-development`:
+(none)
+
+(Top 5 by overlap)

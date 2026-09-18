@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: market-dynamics
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: market-dynamics
 
 Auto-generated index of all content with topic `market-dynamics`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -21,8 +22,11 @@ Last updated: 2026-09-17 21:12:07
 
 ## Sources (0)
 
-No sources with topic `market-dynamics` yet.
+(none)
 
 ## Related topics
 
-No topics share files with `market-dynamics` yet.
+Topics that share concepts/sources with `market-dynamics`:
+(none)
+
+(Top 5 by overlap)

@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: ai-token-workforce
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: ai-token-workforce
 
 Auto-generated index of all content with topic `ai-token-workforce`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -28,4 +29,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `ai-token-workforce` yet.
+Topics that share concepts/sources with `ai-token-workforce`:
+(none)
+
+(Top 5 by overlap)

@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: happiness-flow-state
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: happiness-flow-state
 
 Auto-generated index of all content with topic `happiness-flow-state`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -27,4 +28,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `happiness-flow-state` yet.
+Topics that share concepts/sources with `happiness-flow-state`:
+(none)
+
+(Top 5 by overlap)

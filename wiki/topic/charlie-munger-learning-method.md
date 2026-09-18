@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: charlie-munger-learning-method
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: charlie-munger-learning-method
 
 Auto-generated index of all content with topic `charlie-munger-learning-method`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
 ## Concepts (0)
 
-No concepts with topic `charlie-munger-learning-method` yet.
+(none)
 
 ## Sources (2)
 
@@ -25,4 +26,7 @@ No concepts with topic `charlie-munger-learning-method` yet.
 
 ## Related topics
 
-No topics share files with `charlie-munger-learning-method` yet.
+Topics that share concepts/sources with `charlie-munger-learning-method`:
+(none)
+
+(Top 5 by overlap)

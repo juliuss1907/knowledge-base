@@ -5,10 +5,16 @@ scope: tag
 parent: "[[tag]]"
 tag: vibecode
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Tag: #vibecode
+
+Auto-generated index of all content tagged with `#vibecode`.
+
+Last updated: 2026-09-18 21:02:23
+
+---
 
 ## Parent
 
@@ -19,31 +25,36 @@ last_updated: 2026-09-17
 - Total files: 16
 - Sources: 6
 - Concepts: 10
-- Last updated: 2026-09-17
+- Last updated: 2026-09-18
 
 ## Files with this tag
 
-- [[ai-frontend-design-guidance]] — Ai Frontend Design Guidance (concept)
-- [[code-as-substrate]] — Code As Substrate (concept)
-- [[design-process]] — Design Process (concept)
-- [[frontend-design-agent]] — Frontend Design Agent (concept)
-- [[hermes-agent]] — Hermes Agent (concept)
-- [[loop-native-factory]] — Loop Native Factory (concept)
-- [[product-vs-prototype]] — Product Vs Prototype (concept)
-- [[prototype-gravity]] — Prototype Gravity (concept)
-- [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept)
-- [[src_ai-engineering-skills-map]] — Ai Engineering Skills Map (source)
-- [[src_how-i-design-with-ai]] — How I Design With Ai (source)
-- [[src_impeccable]] — Impeccable (source)
-- [[src_loop-native-factory]] — Loop Native Factory (source)
-- [[src_the-seed-and-the-machine]] — The Seed And The Machine (source)
-- [[src_what-is-a-product]] — What Is A Product (source)
-- [[vibe-coding]] — Vibe Coding (concept)
+(All concepts + sources carrying this tag as main OR sub, merged alphabetically)
+
+- [[ai-frontend-design-guidance]] — ai-frontend-design-guidance (concept, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[code-as-substrate]] — code-as-substrate (concept, main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness)
+- [[design-process]] — design-process (concept, main: #tech, sub: [#tools, #vibecode], topic: ai-design-workflow)
+- [[frontend-design-agent]] — frontend-design-agent (concept, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[hermes-agent]] — hermes-agent (concept, main: #ai, sub: [#tools, #automation, #vibecode], topic: hermes-polymarket-trading-agent)
+- [[loop-native-factory]] — loop-native-factory (concept, main: #ai, sub: [#vibecode, #system], topic: ai-engineering)
+- [[product-vs-prototype]] — product-vs-prototype (concept, main: #ai, sub: [#opinion, #vibecode], topic: product-vs-prototype)
+- [[prototype-gravity]] — prototype-gravity (concept, main: #tech, sub: [#tools, #vibecode], topic: ai-design-workflow)
+- [[seed-vs-machine-architecture]] — seed-vs-machine-architecture (concept, main: #ai, sub: [#system, #vibecode], topic: ai-architecture)
+- [[src_ai-engineering-skills-map]] — src_ai-engineering-skills-map (source, main: #ai, sub: [#coding, #vibecode], topic: ai-engineering-skills)
+- [[src_how-i-design-with-ai]] — src_how-i-design-with-ai (source, main: #tech, sub: [#tools, #vibecode, #opinion], topic: ai-design-workflow)
+- [[src_impeccable]] — src_impeccable (source, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
+- [[src_loop-native-factory]] — src_loop-native-factory (source, main: #ai, sub: [#tools, #vibecode, #research], topic: loop-native-factory)
+- [[src_the-seed-and-the-machine]] — src_the-seed-and-the-machine (source, main: #ai, sub: [#vibecode, #system, #research], topic: seed-vs-machine-architecture)
+- [[src_what-is-a-product]] — src_what-is-a-product (source, main: #ai, sub: [#opinion, #vibecode], topic: product-vs-prototype)
+- [[vibe-coding]] — vibe-coding (concept, main: #ai, sub: [#tools, #vibecode], topic: ai-future-skills)
 
 ## Co-occurring tags
 
-- [[ai]] — 10 co-occurrences
-- [[tools]] — 10 co-occurrences
-- [[tech]] — 6 co-occurrences
-- [[coding]] — 5 co-occurrences
-- [[opinion]] — 3 co-occurrences
+Tags that frequently appear with `#vibecode`:
+- `#ai` (10 files)
+- `#tools` (10 files)
+- `#tech` (6 files)
+- `#coding` (5 files)
+- `#opinion` (3 files)
+
+(Top 5 by frequency)

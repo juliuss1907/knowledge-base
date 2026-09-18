@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: pivot-vs-persist
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: pivot-vs-persist
 
 Auto-generated index of all content with topic `pivot-vs-persist`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -24,4 +25,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `pivot-vs-persist` yet.
+Topics that share concepts/sources with `pivot-vs-persist`:
+(none)
+
+(Top 5 by overlap)

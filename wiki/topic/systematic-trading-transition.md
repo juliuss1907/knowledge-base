@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: systematic-trading-transition
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: systematic-trading-transition
 
 Auto-generated index of all content with topic `systematic-trading-transition`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
 ## Concepts (0)
 
-No concepts with topic `systematic-trading-transition` yet.
+(none)
 
 ## Sources (1)
 
@@ -24,4 +25,7 @@ No concepts with topic `systematic-trading-transition` yet.
 
 ## Related topics
 
-No topics share files with `systematic-trading-transition` yet.
+Topics that share concepts/sources with `systematic-trading-transition`:
+(none)
+
+(Top 5 by overlap)

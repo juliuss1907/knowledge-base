@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: hybrid-retrieval-agentic-search
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: hybrid-retrieval-agentic-search
 
 Auto-generated index of all content with topic `hybrid-retrieval-agentic-search`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -26,4 +27,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `hybrid-retrieval-agentic-search` yet.
+Topics that share concepts/sources with `hybrid-retrieval-agentic-search`:
+(none)
+
+(Top 5 by overlap)

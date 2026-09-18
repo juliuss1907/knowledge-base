@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: loop-native-factory
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: loop-native-factory
 
 Auto-generated index of all content with topic `loop-native-factory`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
 ## Concepts (0)
 
-No concepts with topic `loop-native-factory` yet.
+(none)
 
 ## Sources (1)
 
@@ -24,4 +25,7 @@ No concepts with topic `loop-native-factory` yet.
 
 ## Related topics
 
-No topics share files with `loop-native-factory` yet.
+Topics that share concepts/sources with `loop-native-factory`:
+(none)
+
+(Top 5 by overlap)

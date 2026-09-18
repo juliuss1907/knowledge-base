@@ -1741,3 +1741,13 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - [WARNING] wiki/concepts/casino-culture.md: repeated sub_tags; deduplicated for index membership and display only; content unchanged. <!-- project: github.com/juliuss1907/knowledge-base -->
 - [WARNING] wiki/concepts/self-reinforcing-systems.md: repeated sub_tags; deduplicated for index membership and display only; content unchanged. <!-- project: github.com/juliuss1907/knowledge-base -->
 - [WARNING] wiki/concepts/trading-policy-pi.md: repeated sub_tags; deduplicated for index membership and display only; content unchanged. <!-- project: github.com/juliuss1907/knowledge-base -->
+
+## 2026-09-18 21:00 — Indexed
+- Scanned: 586 concepts + 204 sources (790 total files)
+- Tags indexed: 27 (9 main-tags + 18 sub-tags)
+- Topics indexed: 248
+- Invalid tags: 0
+- Frontmatter errors: 0
+- Orphans deleted: 0
+- Tag files written: 24, Topic files written: 248
+- Mode: full rebuild (last run 2026-09-14)

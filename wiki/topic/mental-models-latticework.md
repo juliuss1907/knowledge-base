@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: mental-models-latticework
 auto_generated: true
-last_updated: 2026-09-17
+last_updated: 2026-09-18
 ---
 
 # Topic: mental-models-latticework
 
 Auto-generated index of all content with topic `mental-models-latticework`.
 
-Last updated: 2026-09-17 21:12:07
+Last updated: 2026-09-18 21:02:23
 
 ---
 
@@ -27,4 +28,7 @@ Last updated: 2026-09-17 21:12:07
 
 ## Related topics
 
-No topics share files with `mental-models-latticework` yet.
+Topics that share concepts/sources with `mental-models-latticework`:
+(none)
+
+(Top 5 by overlap)

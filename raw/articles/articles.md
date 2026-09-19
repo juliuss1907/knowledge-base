@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 155 files
-- By status: 152 processed, 3 unprocessed
-- By date: 3 this week, 6 this month
-- Last updated: 2026-09-17
+- Total: 156 files
+- By status: 155 processed, 1 unprocessed
+- By date: 4 this week, 7 this month
+- Last updated: 2026-09-19
 ## Items
+- [[2026-09-19_jalapeno-llms-for-chip-design]] — Jalapeño Shows Power of LLMs for Chip Design by IEEE Spectrum (unprocessed)
 - [[2026-09-17_50-system-design-concepts-explained-simply]] — 50 System Design Concepts Explained Simply [2026 Edition] by Design Gurus (unprocessed)
 - [[2026-09-17_how-ai-labs-eventually-make-money]] — How will AI labs eventually make money by michaellwy (unprocessed)
 - [[2026-09-17_im-begging-you-to-manage-your-goals-like-this]] — I'm begging you to manage your goals like this by Craig (unprocessed)

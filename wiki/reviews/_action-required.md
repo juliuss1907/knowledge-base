@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-19 23:15 +0700 — Format: 1072 files, 403 issues (1E+402W); exact-zero-flat vs 09-18.
+**Last updated:** 2026-09-19 23:30 +0700 — Hygiene: 233822 paths, 64 issues (4E+60W); 0 resolved vs 09-18, all carry-forward.
 
 ---
 
@@ -12,7 +12,7 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 7
+**Pending reports awaiting review:** 8
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
@@ -20,6 +20,7 @@
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-19 | Format | 403 (1E+402W) | Xem [wiki/reviews/2026-09-19_format-report.md](2026-09-19_format-report.md); exact-zero-flat vs 09-18, 0 tệp mới |
+| 🔍 PENDING | 09-19 | Hygiene | 64 (4E+60W) | [Báo cáo](2026-09-19_hygiene-report.md): 233822 paths; memory/ 41→45 (+4); 0 issue resolved, all carry-forward |
 | 🔍 PENDING | 09-17 | Hygiene | 8 nhóm (4E+3W+1I) | [Báo cáo](2026-09-17_hygiene-report.md): 1753 đường dẫn; memory/ 32→37; 4 lỗi cũ chưa sửa; cần thống nhất quy chuẩn |
 | 🔍 PENDING | 09-17 | Format | 402 (0E+402W) | Xem [wiki/reviews/2026-09-17_format-report.md](2026-09-17_format-report.md); +3 tệp, số cảnh báo không đổi |
 | ✅ APPROVED | 09-16 | Format | 402 (0E+402W) | 0 net change vs 09-15 — exact-zero-flat, pipeline idle, day 3 at 272 unique targets |
@@ -122,6 +123,14 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-09-19 (23:30)
+
+- **Báo cáo:** `wiki/reviews/2026-09-19_hygiene-report.md`
+- **Tóm tắt:** 233,822 paths checked. 64 issues: **4 ERROR, 60 WARNING, 0 INFO**. **0 ISSUE RESOLVED vs 09-18** — all 4 ERROR carry-forward: (1) `DREAMS.md` root orphan — git-tracked, lần 21 liên tiếp (09-09→09-19). (2) `memory/` root folder — **+4 new files since 09-18** (3 dreaming 09-19 deep/light/rem + 1 session-corpus 09-18, total 45 vs 41), OpenClaw dreaming pipeline continues writing daily, lần 23+ liên tiếp từ 07-03. (3) Migration marker `.migrated.*` — git-tracked since `b5e519fc`, lần 12 từ 09-08 addendum. (4) `wiki/HEARTBEAT.md` — broken symlink lần 24+ liên tiếp (08-26→09-19). **60 WARNING:** 45 memory/ sub-files (sub-paths của Issue 2, +4 since 09-18) + ~15 archive backup false positives (unchanged). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt streak 23+ runs. 0 new naming violations, 0 empty dir. Pipeline active: 4 raw files ingested 09-19 (2 articles + 2 videos, properly named).
+- **Thay đổi:** memory/ tăng 41→45 (+4 files); machine detection 60→64 (+4 net). 4 ERROR unchanged, 0 issue resolved.
+- **Cần làm:** (1) KHÔNG xóa `DREAMS.md` — carry-forward. (2) KHÔNG xóa `memory/` — carry-forward. (3) KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` — all carry-forwards. (4) Fix Agent: `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (5) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirroring).
+- **Trạng thái:** chờ duyệt.
 
 ### 🔍 Hygiene Inspection — 2026-09-18 (23:33)
 

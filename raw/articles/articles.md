@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 156 files
-- By status: 155 processed, 1 unprocessed
-- By date: 4 this week, 7 this month
+- Total: 157 files
+- By status: 155 processed, 2 unprocessed
+- By date: 5 this week, 8 this month
 - Last updated: 2026-09-19
 ## Items
+- [[2026-09-19_ai-ui-design-8-ways-vibe-coded-apps]] — AI UI design: 8 ways to make vibe-coded apps look better by Geneviève Huskens (unprocessed)
 - [[2026-09-19_jalapeno-llms-for-chip-design]] — Jalapeño Shows Power of LLMs for Chip Design by IEEE Spectrum (unprocessed)
 - [[2026-09-17_50-system-design-concepts-explained-simply]] — 50 System Design Concepts Explained Simply [2026 Edition] by Design Gurus (unprocessed)
 - [[2026-09-17_how-ai-labs-eventually-make-money]] — How will AI labs eventually make money by michaellwy (unprocessed)

@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-18 23:33 +0700 — Hygiene: 233812 paths, 60 issues (4E+56W); 4 ERROR carry-forward; memory/ 37→41.
+**Last updated:** 2026-09-19 23:15 +0700 — Format: 1072 files, 403 issues (1E+402W); exact-zero-flat vs 09-18.
 
 ---
 
@@ -12,13 +12,14 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 6
+**Pending reports awaiting review:** 7
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-19 | Format | 403 (1E+402W) | Xem [wiki/reviews/2026-09-19_format-report.md](2026-09-19_format-report.md); exact-zero-flat vs 09-18, 0 tệp mới |
 | 🔍 PENDING | 09-17 | Hygiene | 8 nhóm (4E+3W+1I) | [Báo cáo](2026-09-17_hygiene-report.md): 1753 đường dẫn; memory/ 32→37; 4 lỗi cũ chưa sửa; cần thống nhất quy chuẩn |
 | 🔍 PENDING | 09-17 | Format | 402 (0E+402W) | Xem [wiki/reviews/2026-09-17_format-report.md](2026-09-17_format-report.md); +3 tệp, số cảnh báo không đổi |
 | ✅ APPROVED | 09-16 | Format | 402 (0E+402W) | 0 net change vs 09-15 — exact-zero-flat, pipeline idle, day 3 at 272 unique targets |
@@ -144,6 +145,14 @@
 - **Tóm tắt:** 1063 tệp (583 khái niệm + 201 nguồn + 34 chỉ mục + 245 chủ đề). 402 cảnh báo, 0 lỗi nghiêm trọng: 383 mục liên kết riêng lẻ + 19 nhóm. 272 đích được nêu tên trong các mục riêng lẻ; chưa bao gồm đích không được liệt kê trong nhóm.
 - **Thay đổi:** so với 09-16 23:16:30, đã được Julius duyệt: +3 tệp, số cảnh báo không đổi; 20 đích đứng đầu giữ nguyên. Git xác nhận +1 khái niệm, +1 nguồn, +1 chủ đề; không xóa tệp. Các tệp mới không có cảnh báo.
 - **Cần làm:** tiếp tục theo dõi liên kết chưa có đích. Kiểm tra tên nguồn/bản gốc trước khi sửa; chỉ biên soạn khi có nguồn phù hợp. Không xóa hàng loạt liên kết. Không sửa nội dung trong lần kiểm tra này.
+- **Trạng thái:** chờ duyệt.
+
+### 🔍 Format Validation — 2026-09-19 (23:15)
+
+- **Báo cáo:** `wiki/reviews/2026-09-19_format-report.md`
+- **Tóm tắt:** 1072 tệp (586 khái niệm + 204 nguồn + 34 chỉ mục + 248 chủ đề). 403 vấn đề: **1 lỗi nghiêm trọng, 402 cảnh báo**. Lỗi duy nhất: `wiki/tag/tag.md` thiếu `## Overview` — carry-forward từ 09-18. Streak ERROR sạch vẫn bị phá (ngày thứ 2 liên tiếp). 383 cảnh báo liên kết riêng lẻ + 19 nhóm = 402; 272 đích riêng biệt giữ nguyên.
+- **Thay đổi:** so với 09-18 (đang chờ duyệt): **exact-zero-flat** — 0 tệp thêm, 0 tệp xóa. Tổng issues không đổi 403→403; ERROR 1→1; WARNING 402→402; cá nhân 383→383; nhóm 19→19; đích riêng biệt 272→272. Top-20 giữ nguyên cả tên lẫn số đếm. Pipeline biên soạn hoàn toàn tĩnh — không có tệp mới nào được thêm vào.
+- **Cần làm:** Fix Agent thêm `## Overview` và `## Notes` vào `wiki/tag/tag.md`. Tiếp tục theo dõi liên kết chưa có đích.
 - **Trạng thái:** chờ duyệt.
 
 ### 🔍 Format Validation — 2026-09-18 (23:16)

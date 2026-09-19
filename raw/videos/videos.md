@@ -30,6 +30,7 @@ Video content from YouTube and other platforms.
 - [[2026-05-29_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine That Fixes Your Sleep by Matt D'Avella (processed)
 - [[2026-05-26_why-we-complicate-life-productive-peter]] — Why we complicate life (processed)
 - [[2026-05-22_luke-alvoeiro-multi-agent-architecture-factory]] — Building a Multi-Agent Architecture System with a Factory Pattern (processed)
+- [[2026-09-19_im-57-if-youre-in-your-20s-please-watch-this]] — I'm 57. If you're in your 20's please watch this. (unprocessed)
 
 ## Notes
 

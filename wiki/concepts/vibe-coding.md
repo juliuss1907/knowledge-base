@@ -6,7 +6,8 @@ sub_tags: [tools, vibecode]
 topic: ai-future-skills
 sources:
   - "[[src_ai-future-skills]]"
-last_updated: 2026-06-22
+  - "[[src_ai-ui-design-8-ways-vibe-coded-apps]]"
+last_updated: 2026-09-20
 ---
 
 # Vibe Coding
@@ -27,6 +28,8 @@ Vibe Coding là phong cách phát triển phần mềm mới nổi trong đó ng
 - **Cơ hội:** Thời đại vàng cho người có ý tưởng nhưng không có kỹ năng kỹ thuật — họ có thể tạo sản phẩm và công ty công nghệ
 - **Dự đoán Sam Altman:** Sắp có công ty 1 người trị giá $1 tỷ — leverage từ AI, no-code tools, và Internet
 - **Không chỉ coding:** Áp dụng cho thiết kế, nghiên cứu, viết lách, và nhiều lĩnh vực khác
+- **Google AI Studio workflow:** 8 cách cụ thể để nâng giao diện vibe-coded apps — dùng reference screenshots, generate images với Nano Banana, Edit tool cho pixel-perfect, Design Variations cho restyle toàn bộ, Annotate mode để dọn clutter
+- **Visual-first approach:** Thay vì prompt text dài để mô tả UI changes, dùng visual interactions (draw, click, inspect) để tương tác trực tiếp với elements
 
 ## Related concepts
 
@@ -39,5 +42,6 @@ Vibe Coding là phong cách phát triển phần mềm mới nổi trong đó ng
 ## Sources
 
 - [[src_ai-future-skills]]
+- [[src_ai-ui-design-8-ways-vibe-coded-apps]]
 
 ## Notes

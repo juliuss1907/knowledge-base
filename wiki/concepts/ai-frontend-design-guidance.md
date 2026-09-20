@@ -6,7 +6,8 @@ sub_tags: [tools, coding, vibecode]
 topic: ai-frontend-design-guidance
 sources:
   - "[[src_impeccable]]"
-last_updated: 2026-08-31
+  - "[[src_ai-ui-design-8-ways-vibe-coded-apps]]"
+last_updated: 2026-09-20
 ---
 
 # AI Frontend Design Guidance
@@ -24,6 +25,8 @@ AI frontend design guidance là bộ công cụ và quy tắc giúp AI coding ag
 - **Live iteration:** `/impeccable live` visual variant mode iterate trong browser
 - **Command composition:** craft = full shape-then-build flow; kết hợp audit/polish/critique cho từng giai đoạn
 - **Shortcut pinning:** `/impeccable pin audit` tạo `/audit` standalone
+- **Google AI Studio approach:** Dùng reference screenshots để Gemini extract design language, Edit tool cho pixel-perfect adjustments, Design Variations để restyle toàn bộ, Annotate mode để dọn clutter — alternative workflow từ prompt-based sang visual-based
+- **Visual annotation workflow:** Draw circles quanh elements cần xóa/sửa → Gemini đọc markup + code → strip clutter mà không phá layout — efficient hơn text prompts cho UI cleanup
 
 ## Related concepts
 
@@ -35,3 +38,4 @@ AI frontend design guidance là bộ công cụ và quy tắc giúp AI coding ag
 ## Sources
 
 - [[src_impeccable]]
+- [[src_ai-ui-design-8-ways-vibe-coded-apps]]

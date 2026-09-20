@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-19 23:30 +0700 — Hygiene: 233822 paths, 64 issues (4E+60W); 0 resolved vs 09-18, all carry-forward.
+**Last updated:** 2026-09-20 23:02 +0700 — Output: 12 new files (4s+8c), 4 issues (2E+2W); Chinese chars SYSTEMIC + spacing merge.
 
 ---
 
@@ -12,13 +12,14 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 8
+**Pending reports awaiting review:** 9
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-20 | Output | 4 (2E+2W+0I) | [Báo cáo](2026-09-20_output-report.md): 12 file mới (4s+8c); 2E Chinese chars SYSTEMIC + spacing merge; 2W forward-refs + missing paren |
 | 🔍 PENDING | 09-19 | Format | 403 (1E+402W) | Xem [wiki/reviews/2026-09-19_format-report.md](2026-09-19_format-report.md); exact-zero-flat vs 09-18, 0 tệp mới |
 | 🔍 PENDING | 09-19 | Hygiene | 64 (4E+60W) | [Báo cáo](2026-09-19_hygiene-report.md): 233822 paths; memory/ 41→45 (+4); 0 issue resolved, all carry-forward |
 | 🔍 PENDING | 09-17 | Hygiene | 8 nhóm (4E+3W+1I) | [Báo cáo](2026-09-17_hygiene-report.md): 1753 đường dẫn; memory/ 32→37; 4 lỗi cũ chưa sửa; cần thống nhất quy chuẩn |
@@ -123,6 +124,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-09-20 (23:02)
+
+- **Report:** `wiki/reviews/2026-09-20_output-report.md`
+- **Summary:** 12 file mới (4 sources + 8 concepts). 4 issues: **2 ERROR, 2 WARNING, 0 INFO**. ERROR 1: Chinese characters SYSTEMIC — 5 instances across 3 concept files (`颠覆`, `密度`, `浪费`, `看起来`, `巨大`); 4th recurrence in 9 days. ERROR 2: "người" spacing merge `Ngườikhông` in vibe-coding.md. WARNING 1: Missing closing parenthesis in vibe-coding.md. WARNING 2: 5 forward-refs without raw material (`ai-assisted-development`, `distraction-management`, `natural-language-programming`, `no-code-movement`, `one-person-business`). Dropped-i streak: 11 consecutive (08-23→09-20). All multi-source concepts pass Defect A/B/C.
+- **Actions needed:** Fix Agent: (1) Replace 5 Chinese chars in 3 files. (2) Fix spacing `Ngườikhông`→`Người không`. (3) Add closing `)` in vibe-coding.md line 27. (4) Decide 5 forward-refs: compile or drop links. Compile Agent prompt review recommended (CJK injection systemic).
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-09-19 (23:30)
 

@@ -141,6 +141,14 @@
 - **Actions needed:** Fix Agent: (1) Replace 5 Chinese chars in 3 files. (2) Fix spacing `Ngườikhông`→`Người không`. (3) Add closing `)` in vibe-coding.md line 27. (4) Decide 5 forward-refs: compile or drop links. Compile Agent prompt review recommended (CJK injection systemic).
 - **Status:** pending
 
+### 🔍 Hygiene Inspection — 2026-09-20 (23:30)
+
+- **Báo cáo:** `wiki/reviews/2026-09-20_hygiene-report.md`
+- **Tóm tắt:** 233,845 paths checked. 68 issues: **4 ERROR, 64 WARNING, 0 INFO**. **0 ISSUE RESOLVED vs 09-19** — all 4 ERROR carry-forward: (1) `DREAMS.md` root orphan — git-tracked, lần 22 liên tiếp (09-09→09-20). (2) `memory/` root folder — **+4 new files since 09-19** (3 dreaming 09-20 deep/light/rem + 1 session-corpus 09-19, total 49 vs 45), OpenClaw dreaming pipeline continues writing daily, lần 24+ liên tiếp từ 07-03. (3) Migration marker `.migrated.*` — git-tracked since `b5e519fc`, lần 13 từ 09-08 addendum. (4) `wiki/HEARTBEAT.md` — broken symlink lần 25+ liên tiếp (08-26→09-20). **64 WARNING:** 49 memory/ sub-files (sub-paths của Issue 2, +4 since 09-19) + 15 archive backup false positives (unchanged). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt streak 24+ runs. 0 new naming violations, 0 empty dir. Pipeline active: 2 articles + 4 videos ingested raw/ 09-19→09-20 (properly named).
+- **Thay đổi:** memory/ tăng 45→49 (+4 files); machine detection 64→68 (+4 net). 4 ERROR unchanged, 0 issue resolved.
+- **Cần làm:** (1) KHÔNG xóa `DREAMS.md` — carry-forward. (2) KHÔNG xóa `memory/` — carry-forward. (3) KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` — all carry-forwards. (4) Fix Agent: `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (5) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirroring).
+- **Trạng thái:** chờ duyệt.
+
 ### 🔍 Hygiene Inspection — 2026-09-19 (23:30)
 
 - **Báo cáo:** `wiki/reviews/2026-09-19_hygiene-report.md`

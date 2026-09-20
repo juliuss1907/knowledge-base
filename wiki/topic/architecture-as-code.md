@@ -4,28 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: architecture-as-code
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: architecture-as-code
 
 Auto-generated index of all content with topic `architecture-as-code`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (1)
 
-- [[architecture-as-code]] — main: #tech, sub: [#tools, #coding, #automation]
+- [[architecture-as-code]] — main: #tech|sub: [#tools #coding #automation]
 
 ## Sources (1)
 
-- [[src_archify]] — main: #tech, sub: [#tools, #coding, #automation]
+- [[src_archify]] — main: #tech|sub: [#tools #coding #automation]
 
 ## Related topics
 
-Topics that share concepts/sources with `architecture-as-code`:
 (none)
-
-(Top 5 by overlap)

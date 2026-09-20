@@ -4,20 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: google-ai-mode
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: google-ai-mode
 
 Auto-generated index of all content with topic `google-ai-mode`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (1)
 
-- [[google-ai-mode]] — main: #ai, sub: [#tools, #research]
+- [[google-ai-mode]] — main: #ai|sub: [#tools #research]
 
 ## Sources (0)
 
@@ -25,7 +25,4 @@ Last updated: 2026-09-18 21:02:23
 
 ## Related topics
 
-Topics that share concepts/sources with `google-ai-mode`:
 (none)
-
-(Top 5 by overlap)

@@ -4,28 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: laws-of-the-world
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: laws-of-the-world
 
 Auto-generated index of all content with topic `laws-of-the-world`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (1)
 
-- [[laws-of-the-world]] — main: #productivity, sub: [#psychology, #opinion]
+- [[laws-of-the-world]] — main: #productivity|sub: [#psychology #opinion]
 
 ## Sources (1)
 
-- [[src_the-laws-of-this-world]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_the-laws-of-this-world]] — main: #productivity|sub: [#psychology #opinion]
 
 ## Related topics
 
-Topics that share concepts/sources with `laws-of-the-world`:
 (none)
-
-(Top 5 by overlap)

@@ -4,28 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: oaat-goal-model
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: oaat-goal-model
 
 Auto-generated index of all content with topic `oaat-goal-model`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (1)
 
-- [[oaat-model]] — main: #productivity, sub: [#psychology, #strategy]
+- [[oaat-model]] — main: #productivity|sub: [#psychology #strategy]
 
 ## Sources (1)
 
-- [[src_im-begging-you-to-manage-your-goals-like-this]] — main: #productivity, sub: [#psychology, #strategy]
+- [[src_im-begging-you-to-manage-your-goals-like-this]] — main: #productivity|sub: [#psychology #strategy]
 
 ## Related topics
 
-Topics that share concepts/sources with `oaat-goal-model`:
 (none)
-
-(Top 5 by overlap)

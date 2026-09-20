@@ -4,29 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: three-levels-of-thinking
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: three-levels-of-thinking
 
 Auto-generated index of all content with topic `three-levels-of-thinking`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (2)
 
-- [[intellectual-obesity]] — main: #productivity, sub: [#psychology]
-- [[three-levels-of-thinking]] — main: #productivity, sub: [#psychology]
+- [[intellectual-obesity]] — main: #productivity|sub: [#psychology]
+- [[three-levels-of-thinking]] — main: #productivity|sub: [#psychology]
 
 ## Sources (1)
 
-- [[src_impossible-to-manipulate-dan-koe]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_impossible-to-manipulate-dan-koe]] — main: #productivity|sub: [#psychology #opinion]
 
 ## Related topics
 
-Topics that share concepts/sources with `three-levels-of-thinking`:
 (none)
-
-(Top 5 by overlap)

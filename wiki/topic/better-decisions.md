@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: better-decisions
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: better-decisions
 
 Auto-generated index of all content with topic `better-decisions`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
@@ -21,11 +21,8 @@ Last updated: 2026-09-18 21:02:23
 
 ## Sources (1)
 
-- [[src_principles-of-better-decisions]] — main: #productivity, sub: [#psychology, #strategy]
+- [[src_principles-of-better-decisions]] — main: #productivity|sub: [#psychology #strategy]
 
 ## Related topics
 
-Topics that share concepts/sources with `better-decisions`:
 (none)
-
-(Top 5 by overlap)

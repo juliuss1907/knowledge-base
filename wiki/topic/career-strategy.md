@@ -4,28 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: career-strategy
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: career-strategy
 
 Auto-generated index of all content with topic `career-strategy`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (1)
 
-- [[career-compounding]] — main: #productivity, sub: [#strategy, #opinion]
+- [[career-compounding]] — main: #productivity|sub: [#strategy #opinion]
 
 ## Sources (1)
 
-- [[src_long-range-career-advice]] — main: #productivity, sub: [#strategy, #opinion]
+- [[src_long-range-career-advice]] — main: #productivity|sub: [#strategy #opinion]
 
 ## Related topics
 
-Topics that share concepts/sources with `career-strategy`:
 (none)
-
-(Top 5 by overlap)

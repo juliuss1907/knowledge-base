@@ -1780,3 +1780,12 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Source note:** wiki/sources/src_im-57-if-youre-in-your-20s-please-watch-this.md
 - **Concepts:** [life-planning-20s (new, shared with above), financial-discipline (new), reputation-management (new)]
 - **Tags applied:** main=productivity, sub=[psychology, opinion], topic=life-advice-20s
+
+## 2026-09-20 21:00:00 — Indexed
+- Scanned: 592 concepts + 208 sources (800 total)
+- Tags indexed: 24 (8 main-tags + 16 sub-tags)
+- Topics indexed: 251
+- Orphans deleted: 0 (tag: 0, topic: 0)
+- Errors: 0
+- Invalid tags: 0
+- tag.md updated, tag.md orphans cleaned

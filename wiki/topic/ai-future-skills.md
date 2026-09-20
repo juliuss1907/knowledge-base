@@ -4,30 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-future-skills
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: ai-future-skills
 
 Auto-generated index of all content with topic `ai-future-skills`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (3)
 
-- [[high-agency]] — main: #productivity, sub: [#psychology]
-- [[meaning-through-work]] — main: #productivity, sub: [#health, #psychology]
-- [[vibe-coding]] — main: #ai, sub: [#tools, #vibecode]
+- [[high-agency]] — main: #productivity|sub: [#psychology]
+- [[meaning-through-work]] — main: #productivity|sub: [#health #psychology]
+- [[vibe-coding]] — main: #ai|sub: [#tools #vibecode]
 
 ## Sources (1)
 
-- [[src_ai-future-skills]] — main: #ai, sub: [#opinion, #tools]
+- [[src_ai-future-skills]] — main: #ai|sub: [#opinion #tools]
 
 ## Related topics
 
-Topics that share concepts/sources with `ai-future-skills`:
 (none)
-
-(Top 5 by overlap)

@@ -4,31 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: leverage-mental-model
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: leverage-mental-model
 
 Auto-generated index of all content with topic `leverage-mental-model`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (4)
 
-- [[critical-mass]] — main: #system, sub: [#psychology]
-- [[leverage]] — main: #productivity, sub: [#psychology, #tools]
-- [[negotiation]] — main: #productivity, sub: [#psychology]
-- [[power-law]] — main: #economic, sub: [#psychology]
+- [[critical-mass]] — main: #system|sub: [#psychology]
+- [[leverage]] — main: #productivity|sub: [#psychology #tools]
+- [[negotiation]] — main: #productivity|sub: [#psychology]
+- [[power-law]] — main: #economic|sub: [#psychology]
 
 ## Sources (1)
 
-- [[src_leverage]] — main: #productivity, sub: [#psychology, #tools]
+- [[src_leverage]] — main: #productivity|sub: [#psychology #tools]
 
 ## Related topics
 
-Topics that share concepts/sources with `leverage-mental-model`:
 (none)
-
-(Top 5 by overlap)

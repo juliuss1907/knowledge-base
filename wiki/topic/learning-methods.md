@@ -4,21 +4,21 @@ scope: topic
 parent: "[[topic]]"
 topic: learning-methods
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: learning-methods
 
 Auto-generated index of all content with topic `learning-methods`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (2)
 
-- [[retrieval-practice]] — main: #productivity, sub: [#psychology, #research]
-- [[spacing-effect]] — main: #productivity, sub: [#psychology, #research]
+- [[retrieval-practice]] — main: #productivity|sub: [#psychology #research]
+- [[spacing-effect]] — main: #productivity|sub: [#psychology #research]
 
 ## Sources (0)
 
@@ -26,7 +26,4 @@ Last updated: 2026-09-18 21:02:23
 
 ## Related topics
 
-Topics that share concepts/sources with `learning-methods`:
 (none)
-
-(Top 5 by overlap)

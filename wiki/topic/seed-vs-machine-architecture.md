@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: seed-vs-machine-architecture
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: seed-vs-machine-architecture
 
 Auto-generated index of all content with topic `seed-vs-machine-architecture`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
@@ -21,11 +21,8 @@ Last updated: 2026-09-18 21:02:23
 
 ## Sources (1)
 
-- [[src_the-seed-and-the-machine]] — main: #ai, sub: [#vibecode, #system, #research]
+- [[src_the-seed-and-the-machine]] — main: #ai|sub: [#vibecode #system #research]
 
 ## Related topics
 
-Topics that share concepts/sources with `seed-vs-machine-architecture`:
 (none)
-
-(Top 5 by overlap)

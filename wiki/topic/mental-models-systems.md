@@ -4,31 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-systems
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: mental-models-systems
 
 Auto-generated index of all content with topic `mental-models-systems`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (4)
 
-- [[bottlenecks-mental-model]] — main: #productivity, sub: [#research]
-- [[diminishing-returns-mental-model]] — main: #productivity, sub: [#research]
-- [[equilibrium-mental-model]] — main: #productivity, sub: [#research]
-- [[margin-of-safety-mental-model]] — main: #productivity, sub: [#research]
+- [[bottlenecks-mental-model]] — main: #productivity|sub: [#research]
+- [[diminishing-returns-mental-model]] — main: #productivity|sub: [#research]
+- [[equilibrium-mental-model]] — main: #productivity|sub: [#research]
+- [[margin-of-safety-mental-model]] — main: #productivity|sub: [#research]
 
 ## Sources (1)
 
-- [[src_farnam-street-mental-models-systems-thinking]] — main: #productivity, sub: [#research]
+- [[src_farnam-street-mental-models-systems-thinking]] — main: #productivity|sub: [#research]
 
 ## Related topics
 
-Topics that share concepts/sources with `mental-models-systems`:
 (none)
-
-(Top 5 by overlap)

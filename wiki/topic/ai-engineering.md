@@ -4,21 +4,21 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-engineering
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: ai-engineering
 
 Auto-generated index of all content with topic `ai-engineering`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (2)
 
-- [[alignment-engineering]] — main: #ai, sub: [#system, #research]
-- [[loop-native-factory]] — main: #ai, sub: [#vibecode, #system]
+- [[alignment-engineering]] — main: #ai|sub: [#system #research]
+- [[loop-native-factory]] — main: #ai|sub: [#vibecode #system]
 
 ## Sources (0)
 
@@ -26,7 +26,4 @@ Last updated: 2026-09-18 21:02:23
 
 ## Related topics
 
-Topics that share concepts/sources with `ai-engineering`:
 (none)
-
-(Top 5 by overlap)

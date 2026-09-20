@@ -4,29 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: r3-get-in-shape
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: r3-get-in-shape
 
 Auto-generated index of all content with topic `r3-get-in-shape`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (2)
 
-- [[mind-body-connection]] — main: #health, sub: [#psychology, #system]
-- [[r3-framework]] — main: #health, sub: [#psychology, #system]
+- [[mind-body-connection]] — main: #health|sub: [#psychology #system]
+- [[r3-framework]] — main: #health|sub: [#psychology #system]
 
 ## Sources (1)
 
-- [[src_get-in-shape-r3-notes]] — main: #health, sub: [#psychology, #system]
+- [[src_get-in-shape-r3-notes]] — main: #health|sub: [#psychology #system]
 
 ## Related topics
 
-Topics that share concepts/sources with `r3-get-in-shape`:
 (none)
-
-(Top 5 by overlap)

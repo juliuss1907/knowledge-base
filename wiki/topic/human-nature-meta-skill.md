@@ -4,29 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: human-nature-meta-skill
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: human-nature-meta-skill
 
 Auto-generated index of all content with topic `human-nature-meta-skill`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (2)
 
-- [[levels-of-awareness]] — main: #productivity, sub: [#psychology, #opinion]
-- [[persuasion-psychology]] — main: #productivity, sub: [#psychology, #opinion]
+- [[levels-of-awareness]] — main: #productivity|sub: [#psychology #opinion]
+- [[persuasion-psychology]] — main: #productivity|sub: [#psychology #opinion]
 
 ## Sources (1)
 
-- [[src_most-profitable-skill-human-nature-dan-koe]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_most-profitable-skill-human-nature-dan-koe]] — main: #productivity|sub: [#psychology #opinion]
 
 ## Related topics
 
-Topics that share concepts/sources with `human-nature-meta-skill`:
 (none)
-
-(Top 5 by overlap)

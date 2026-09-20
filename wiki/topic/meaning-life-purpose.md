@@ -4,31 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: meaning-life-purpose
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: meaning-life-purpose
 
 Auto-generated index of all content with topic `meaning-life-purpose`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (4)
 
-- [[existential-vacuum]] — main: #productivity, sub: [#opinion, #psychology]
-- [[logotherapy-frankl]] — main: #productivity, sub: [#research, #psychology]
-- [[meaning-through-suffering]] — main: #productivity, sub: [#opinion, #psychology]
-- [[tragic-optimism]] — main: #productivity, sub: [#opinion, #psychology]
+- [[existential-vacuum]] — main: #productivity|sub: [#opinion #psychology]
+- [[logotherapy-frankl]] — main: #productivity|sub: [#research #psychology]
+- [[meaning-through-suffering]] — main: #productivity|sub: [#opinion #psychology]
+- [[tragic-optimism]] — main: #productivity|sub: [#opinion #psychology]
 
 ## Sources (1)
 
-- [[src_viktor-frankl-meaning-video]] — main: #productivity, sub: [#opinion, #psychology]
+- [[src_viktor-frankl-meaning-video]] — main: #productivity|sub: [#opinion #psychology]
 
 ## Related topics
 
-Topics that share concepts/sources with `meaning-life-purpose`:
 (none)
-
-(Top 5 by overlap)

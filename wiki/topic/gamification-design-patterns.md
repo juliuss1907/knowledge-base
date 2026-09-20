@@ -4,31 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: gamification-design-patterns
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: gamification-design-patterns
 
 Auto-generated index of all content with topic `gamification-design-patterns`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (4)
 
-- [[completion-motivation]] — main: #tech, sub: [#psychology, #tools]
-- [[gamification-design-patterns]] — main: #tech, sub: [#tools, #psychology, #research]
-- [[streak-psychology]] — main: #tech, sub: [#psychology]
-- [[variable-reward-systems]] — main: #tech, sub: [#psychology, #research]
+- [[completion-motivation]] — main: #tech|sub: [#psychology #tools]
+- [[gamification-design-patterns]] — main: #tech|sub: [#tools #psychology #research]
+- [[streak-psychology]] — main: #tech|sub: [#psychology]
+- [[variable-reward-systems]] — main: #tech|sub: [#psychology #research]
 
 ## Sources (1)
 
-- [[src_gamification-app-truth]] — main: #tech, sub: [#tools, #psychology, #research]
+- [[src_gamification-app-truth]] — main: #tech|sub: [#tools #psychology #research]
 
 ## Related topics
 
-Topics that share concepts/sources with `gamification-design-patterns`:
 (none)
-
-(Top 5 by overlap)

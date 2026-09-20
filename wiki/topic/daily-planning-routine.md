@@ -4,30 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: daily-planning-routine
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: daily-planning-routine
 
 Auto-generated index of all content with topic `daily-planning-routine`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (3)
 
-- [[five-types-of-business-work]] — main: #productivity, sub: [#strategy]
-- [[gtd-four-lists]] — main: #productivity, sub: [#strategy, #psychology]
-- [[one-thing-daily-priority]] — main: #productivity, sub: [#psychology]
+- [[five-types-of-business-work]] — main: #productivity|sub: [#strategy]
+- [[gtd-four-lists]] — main: #productivity|sub: [#strategy #psychology]
+- [[one-thing-daily-priority]] — main: #productivity|sub: [#psychology]
 
 ## Sources (1)
 
-- [[src_daily-planning-routine-creativity-productivity]] — main: #productivity, sub: [#tutorial, #psychology, #strategy]
+- [[src_daily-planning-routine-creativity-productivity]] — main: #productivity|sub: [#tutorial #psychology #strategy]
 
 ## Related topics
 
-Topics that share concepts/sources with `daily-planning-routine`:
 (none)
-
-(Top 5 by overlap)

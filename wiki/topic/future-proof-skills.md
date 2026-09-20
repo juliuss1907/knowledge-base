@@ -4,29 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: future-proof-skills
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: future-proof-skills
 
 Auto-generated index of all content with topic `future-proof-skills`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (2)
 
-- [[creativity-as-skill]] — main: #ai, sub: [#opinion, #psychology]
-- [[idea-economy]] — main: #ai, sub: [#opinion]
+- [[creativity-as-skill]] — main: #ai|sub: [#opinion #psychology]
+- [[idea-economy]] — main: #ai|sub: [#opinion]
 
 ## Sources (1)
 
-- [[src_youre-trained-for-world-that-no-longer-exists]] — main: #ai, sub: [#opinion, #tutorial, #coding]
+- [[src_youre-trained-for-world-that-no-longer-exists]] — main: #ai|sub: [#opinion #tutorial #coding]
 
 ## Related topics
 
-Topics that share concepts/sources with `future-proof-skills`:
 (none)
-
-(Top 5 by overlap)

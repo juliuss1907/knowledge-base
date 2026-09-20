@@ -4,30 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: prices-law
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: prices-law
 
 Auto-generated index of all content with topic `prices-law`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (3)
 
-- [[explore-exploit-tradeoff]] — main: #productivity, sub: [#psychology, #opinion]
-- [[power-law-distribution]] — main: #productivity, sub: [#psychology, #opinion]
-- [[prices-law]] — main: #productivity, sub: [#psychology, #opinion]
+- [[explore-exploit-tradeoff]] — main: #productivity|sub: [#psychology #opinion]
+- [[power-law-distribution]] — main: #productivity|sub: [#psychology #opinion]
+- [[prices-law]] — main: #productivity|sub: [#psychology #opinion]
 
 ## Sources (1)
 
-- [[src_mathematical-reason-most-people-never-make-it]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_mathematical-reason-most-people-never-make-it]] — main: #productivity|sub: [#psychology #opinion]
 
 ## Related topics
 
-Topics that share concepts/sources with `prices-law`:
 (none)
-
-(Top 5 by overlap)

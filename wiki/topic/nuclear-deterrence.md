@@ -4,28 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: nuclear-deterrence
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: nuclear-deterrence
 
 Auto-generated index of all content with topic `nuclear-deterrence`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (1)
 
-- [[mutually-assured-destruction]] — main: #politic, sub: [#research, #hack]
+- [[mutually-assured-destruction]] — main: #politic|sub: [#research #hack]
 
 ## Sources (1)
 
-- [[src_mutually-assured-destruction]] — main: #politic, sub: [#research, #hack]
+- [[src_mutually-assured-destruction]] — main: #politic|sub: [#research #hack]
 
 ## Related topics
 
-Topics that share concepts/sources with `nuclear-deterrence`:
 (none)
-
-(Top 5 by overlap)

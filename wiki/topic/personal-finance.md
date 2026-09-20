@@ -4,20 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: personal-finance
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: personal-finance
 
 Auto-generated index of all content with topic `personal-finance`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (1)
 
-- [[lifestyle-inflation]] — main: #economic, sub: [#psychology, #tutorial]
+- [[lifestyle-inflation]] — main: #economic|sub: [#psychology #tutorial]
 
 ## Sources (0)
 
@@ -25,7 +25,4 @@ Last updated: 2026-09-18 21:02:23
 
 ## Related topics
 
-Topics that share concepts/sources with `personal-finance`:
 (none)
-
-(Top 5 by overlap)

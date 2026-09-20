@@ -4,29 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-xurl-x-api-integration
 auto_generated: true
-last_updated: 2026-09-18
+last_updated: 2026-09-20
 ---
 
 # Topic: hermes-xurl-x-api-integration
 
 Auto-generated index of all content with topic `hermes-xurl-x-api-integration`.
 
-Last updated: 2026-09-18 21:02:23
+Last updated: 2026-09-20 21:04:41
 
 ---
 
 ## Concepts (2)
 
-- [[x-api-oauth2]] — main: #tech, sub: [#tools, #tutorial]
-- [[xurl-cli]] — main: #tech, sub: [#tools, #automation]
+- [[x-api-oauth2]] — main: #tech|sub: [#tools #tutorial]
+- [[xurl-cli]] — main: #tech|sub: [#tools #automation]
 
 ## Sources (1)
 
-- [[src_hermes-xurl-skill-guide]] — main: #ai, sub: [#tools, #tutorial, #automation]
+- [[src_hermes-xurl-skill-guide]] — main: #ai|sub: [#tools #tutorial #automation]
 
 ## Related topics
 
-Topics that share concepts/sources with `hermes-xurl-x-api-integration`:
 (none)
-
-(Top 5 by overlap)

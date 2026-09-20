@@ -21,7 +21,7 @@ author: Unknown
 
 ## Summary
 
-Video từ người 57 tuổi — doanh nhân tự lập, đã xây dựng đế chế từ việc bắt đầu từ scratch — chia sẻ 50 lời khuyên cho người ở tuổi 20. Tác giả nhấn mạnh rằng success đến từ failures nhiều hơn achievements, và reputation là thứ duy nhất còn lại sau khi bạn mất. Phần lớn lời khuyên tập trung vào financial discipline, personal branding, và cách navigate relationships.
+Video từ người 57 tuổi — doanh nhân tự lập, đã xây dựng đế chế từ việc bắt đầu từscratch — chia sẻ 50 lời khuyên cho người ở tuổi 20. Tác giả nhấn mạnh rằng success đến từ failures nhiều hơn achievements, và reputation là thứ duy nhất còn lại sau khi bạn mất. Phần lớn lời khuyên tập trung vào financial discipline, personal branding, và cách navigate relationships.
 
 Điểm nổi bật: work on willpower (focus là superpower trong thời đại distractions), be producer không chỉ consumer, stand up to bullies, skip flashy cars (build wealth thay vì status), pay credit card mỗi tháng, invest retirement ngay từ đầu, và choose partner wisely. Nhiều tips cụ thể như 50-20-30-25-5 budget rule, tackle tough tasks in morning, và look after your back health.
 

@@ -4,7 +4,9 @@ title: "If I Had To Start Over At 20, Here's What I'd Do"
 url: https://www.youtube.com/watch?v=HvQr_--gz7A
 author: Unknown
 date_ingested: 2026-09-19
-status: unprocessed
+status: processed
+compiled_at: 2026-09-20
+compiled_to: "[[src_if-i-had-to-start-over-at-20-heres-what-id-do]]"
 source: youtube.com
 ---
 

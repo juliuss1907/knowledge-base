@@ -1758,3 +1758,25 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Topics indexed: 248
 - Changes since last run: 0
 - Action: Skipped (no new/modified files)
+
+## 2026-09-20 08:00:00 — Compiled (batch 4 files)
+
+- **Raw:** raw/articles/2026-09-19_ai-ui-design-8-ways-vibe-coded-apps.md
+- **Source note:** wiki/sources/src_ai-ui-design-8-ways-vibe-coded-apps.md
+- **Concepts:** [ai-frontend-design-guidance (merged), vibe-coding (merged), google-ai-studio (new)]
+- **Tags applied:** main=tech, sub=[vibecode, tutorial], topic=ai-ui-design
+
+- **Raw:** raw/articles/2026-09-19_jalapeno-llms-for-chip-design.md
+- **Source note:** wiki/sources/src_jalapeno-llms-for-chip-design.md
+- **Concepts:** [ai-chip-design (new), openai-jalapeno (new)]
+- **Tags applied:** main=ai, sub=[research, tools], topic=llm-chip-design
+
+- **Raw:** raw/videos/2026-09-19_if-i-had-to-start-over-at-20-heres-what-id-do.md
+- **Source note:** wiki/sources/src_if-i-had-to-start-over-at-20-heres-what-id-do.md
+- **Concepts:** [life-planning-20s (new), financial-literacy (existing, no merge needed), distraction-management (referenced)]
+- **Tags applied:** main=productivity, sub=[psychology, opinion], topic=life-advice-20s
+
+- **Raw:** raw/videos/2026-09-19_im-57-if-youre-in-your-20s-please-watch-this.md
+- **Source note:** wiki/sources/src_im-57-if-youre-in-your-20s-please-watch-this.md
+- **Concepts:** [life-planning-20s (new, shared with above), financial-discipline (new), reputation-management (new)]
+- **Tags applied:** main=productivity, sub=[psychology, opinion], topic=life-advice-20s

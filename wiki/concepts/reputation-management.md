@@ -13,7 +13,7 @@ last_updated: 2026-09-20
 
 ## Definition
 
-Reputation management là việc deliberately build và maintain character của mình qua thời gian — vì reputation là một trong few things còn lại sau khi bạn mất. People remembered cho who they were (character), không phải what they accomplished. Reputation đến từ consistency trong behavior, không phải achievements.
+Reputation management là việc deliberately build và maintain character của mình qua thời gian — vì reputation là một trong few things còn lại sau khi bạn mất. People remembered cho who they were (character), không phải what they accomplishments. Reputation đến từ consistency trong behavior, không phải achievements.
 
 ## Key ideas
 

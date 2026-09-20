@@ -27,16 +27,16 @@ Video từ một người 29 tuổi chia sẻ 10 bước cụ thể sẽ làm n�
 
 ## Key points
 
-- Accept chaos: life không smooth linear path; stop fighting reality, start moving — mindset này sẽ tiết kiệm nhiều thời gian và energy
-- Educate on money sớm: bắt đầu investing từ sớm tạo巨大 compound advantage; $100/tháng từ tuổi 20 khác biệt lớn so với $1000/tháng từ tuổi 30
-- Limit distractions: phones, politics, doom scrolling, bad friends là "destroyers of dreams" — your time and energy là finite resources
-- Do things in person: post-COVID social skills deteriorating; real connections determine happiness level — studies confirm this
-- Embrace technology: những người học AI sẽ "crushing" những người postpone — tech creates new opportunities
-- Pick 1-2 paths: don't keep every option open forever; pick a skill, do the calculation, dive in — switching is fine but doing nothing is the killer
-- Dating: focus on self first (career, network, finances); chasing relationship quá sớm leads to unhappiness — "you'll find them when you aren't looking"
-- Move fast fix later: bias towards action; if wrong job → switch, wrong city → move, wrong path → pivot — don't waste years being patient in wrong direction
-- Small wins: $100,000 savings starts with $1,000; momentum > perfect master plan — life comes from small compounding decisions
-- Know what game you're playing: map out the perfect life you want, reverse engineer it — without priorities/direction, burnout is inevitable
+- Accept chaos: life không smooth linear path; fighting reality là nguyên nhân chính lãng phí thời gian ở tuổi 20 — cả hai nguồn đều agree rằng accepting uncertainty enables faster progress
+- Educate on money sớm: bắt đầu investing từ sớm tạo compound advantage mà không gì thay thế được; 50-20-30 budget rule (50% needs, 20% savings, 30% debt) framework cụ thể từ nguồn 57 tuổi
+- Limit distractions: phones, doom scrolling, politics, bad friends là "destroyers of dreams" — time và energy là finite resources cần protect
+- Embrace technology: Những người học AI sẽ "crushing" những người postpone — both sources agree tech literacy là non-negotiable
+- Move fast fix later: Bias towards action > overthinking; wrong job → switch, wrong city → move — "you can waste years being patient in wrong direction"
+- Small wins momentum: $100,000 starts with $1,000; don't need perfect master plan — life comes from small compounding decisions
+- Know what game you're playing: Define your own success metrics, reverse engineer from ideal life — without priorities, burnout inevitable
+- Producer > consumer: Put more into world than take — otherwise robbed of time and attention
+- Reputation lives on: Character > achievements; people remembered for who they were, not what they accomplished
+- Choose partner wisely: Deep connection > dating around; "I wouldn't be a millionaire without my supportive wife"
 
 ## Concepts referenced
 

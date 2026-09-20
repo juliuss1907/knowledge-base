@@ -4,7 +4,9 @@ title: "Jalapeño Shows Power of LLMs for Chip Design"
 url: https://spectrum.ieee.org/llms-for-chip-design
 author: IEEE Spectrum
 date_ingested: 2026-09-19
-status: unprocessed
+status: processed
+compiled_at: 2026-09-20
+compiled_to: "[[src_jalapeno-llms-for-chip-design]]"
 source: spectrum.ieee.org
 ---
 

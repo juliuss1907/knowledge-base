@@ -5,7 +5,9 @@ url: https://aistudio.google.com/learn/ai-ui-design-google-ai-studio
 author: Geneviève Huskens
 date_published: 2026-09-16
 date_ingested: 2026-09-19
-status: unprocessed
+status: processed
+compiled_at: 2026-09-20
+compiled_to: "[[src_ai-ui-design-8-ways-vibe-coded-apps]]"
 source: aistudio.google.com
 ---
 

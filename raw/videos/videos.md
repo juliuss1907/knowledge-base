@@ -26,6 +26,7 @@ Video content from YouTube and other platforms.
 - Last updated: 2026-06-01
 
 ## Items
+- [[2026-09-20_why-youve-lost-your-curiosity-and-how-to-get-it-back]] — Why You've Lost Your Curiosity (And How to Get It Back) by Olga (unprocessed)
 
 - [[2026-05-29_japanese-evening-routine-fix-sleep]] — Japanese Evening Routine That Fixes Your Sleep by Matt D'Avella (processed)
 - [[2026-05-26_why-we-complicate-life-productive-peter]] — Why we complicate life (processed)

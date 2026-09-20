@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-20 23:16 +0700 — Format: 1085 files (404 issues, 0E+404W); ERROR cleared (tag.md restored), +13 files, 273 unique targets.
+**Last updated:** 2026-09-20 23:30 +0700 — Hygiene: 233845 paths (68 issues, 4E+64W); 0 resolved, all carry-forward; memory/ +4 (49 files).
 
 ---
 
@@ -12,7 +12,7 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 10
+**Pending reports awaiting review:** 11
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
@@ -21,6 +21,7 @@
 |---|---|---|---|---|
 | 🔍 PENDING | 09-20 | Output | 4 (2E+2W+0I) | [Báo cáo](2026-09-20_output-report.md): 12 file mới (4s+8c); 2E Chinese chars SYSTEMIC + spacing merge; 2W forward-refs + missing paren |
 | 🔍 PENDING | 09-20 | Format | 404 (0E+404W) | Xem [wiki/reviews/2026-09-20_format-report.md](2026-09-20_format-report.md); +13 files, ERROR cleared (tag.md ## Overview restored), 273 unique targets |
+| 🔍 PENDING | 09-20 | Hygiene | 68 (4E+64W) | [Báo cáo](2026-09-20_hygiene-report.md): 233845 paths; memory/ 45→49 (+4); 0 issue resolved, all carry-forward |
 | 🔍 PENDING | 09-19 | Format | 403 (1E+402W) | Xem [wiki/reviews/2026-09-19_format-report.md](2026-09-19_format-report.md); exact-zero-flat vs 09-18, 0 tệp mới |
 | 🔍 PENDING | 09-19 | Hygiene | 64 (4E+60W) | [Báo cáo](2026-09-19_hygiene-report.md): 233822 paths; memory/ 41→45 (+4); 0 issue resolved, all carry-forward |
 | 🔍 PENDING | 09-17 | Hygiene | 8 nhóm (4E+3W+1I) | [Báo cáo](2026-09-17_hygiene-report.md): 1753 đường dẫn; memory/ 32→37; 4 lỗi cũ chưa sửa; cần thống nhất quy chuẩn |

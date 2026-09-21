@@ -1789,3 +1789,31 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Errors: 0
 - Invalid tags: 0
 - tag.md updated, tag.md orphans cleaned
+
+## 2026-09-21 08:00:00 — Compiled (batch 2 files)
+
+- **Raw:** raw/videos/2026-09-20_why-you-never-start-its-not-about-motivation.md
+- **Source note:** wiki/sources/src_why-you-never-start-its-not-about-motivation.md
+- **Concepts:** [procrastination-as-misregulation, window-of-tolerance, cognitive-change, amygdala-vs-prefrontal-cortex, consumption-vs-action, low-entry-principle]
+- **Tags applied:** main=health, sub=[psychology, research], topic=procrastination-nervous-system
+- **Action:** created 6 concept files
+
+- **Raw:** raw/videos/2026-09-20_why-youve-lost-your-curiosity-and-how-to-get-it-back.md
+- **Source note:** wiki/sources/src_why-youve-lost-your-curiosity-and-how-to-get-it-back.md
+- **Concepts:** [dopamine-baseline-reset, curiosity-hijacking]
+- **Tags applied:** main=health, sub=[psychology, research], topic=dopamine-curiosity-reset
+- **Action:** created 2 concept files
+
+## 2026-09-21 08:00:00 — Compiled (batch 2 files)
+
+- **Raw:** raw/videos/2026-09-20_why-you-never-start-its-not-about-motivation.md
+- **Source note:** wiki/sources/src_why-you-never-start-its-not-about-motivation.md
+- **Concepts:** [procrastination-as-misregulation, window-of-tolerance, cognitive-change, amygdala-vs-prefrontal-cortex, consumption-vs-action, low-entry-principle]
+- **Tags applied:** main=health, sub=[psychology, research], topic=procrastination-nervous-system
+- **Action:** created 6 concept files
+
+- **Raw:** raw/videos/2026-09-20_why-youve-lost-your-curiosity-and-how-to-get-it-back.md
+- **Source note:** wiki/sources/src_why-youve-lost-your-curiosity-and-how-to-get-it-back.md
+- **Concepts:** [dopamine-baseline-reset, curiosity-hijacking]
+- **Tags applied:** main=health, sub=[psychology, research], topic=dopamine-curiosity-reset
+- **Action:** created 2 concept files

@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-20 23:30 +0700 — Hygiene: 233845 paths (68 issues, 4E+64W); 0 resolved, all carry-forward; memory/ +4 (49 files).
+**Last updated:** 2026-09-21 23:01 +0700 — Output: 10 files (2s+8c); 5 issues (3E+2W+0I); CJK injection SYSTEMIC + tokenization merge.
 
 ---
 
@@ -12,13 +12,14 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 11
+**Pending reports awaiting review:** 12
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 09-21 | Output | 5 (3E+2W+0I) | [Báo cáo](2026-09-21_output-report.md): 10 file mới (2s+8c); 3E Chinese chars SYSTEMIC (4th+ recurrence); 1W tokenization merge; 1W missing paren |
 | 🔍 PENDING | 09-20 | Output | 4 (2E+2W+0I) | [Báo cáo](2026-09-20_output-report.md): 12 file mới (4s+8c); 2E Chinese chars SYSTEMIC + spacing merge; 2W forward-refs + missing paren |
 | 🔍 PENDING | 09-20 | Format | 404 (0E+404W) | Xem [wiki/reviews/2026-09-20_format-report.md](2026-09-20_format-report.md); +13 files, ERROR cleared (tag.md ## Overview restored), 273 unique targets |
 | 🔍 PENDING | 09-20 | Hygiene | 68 (4E+64W) | [Báo cáo](2026-09-20_hygiene-report.md): 233845 paths; memory/ 45→49 (+4); 0 issue resolved, all carry-forward |
@@ -126,6 +127,13 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-09-21 (23:01)
+
+- **Report:** `wiki/reviews/2026-09-21_output-report.md`
+- **Summary:** 10 file mới (2 sources + 8 concepts). 5 issues: **3 ERROR, 2 WARNING, 0 INFO**. ERROR 1-3: Chinese characters SYSTEMIC — `让它阻止` (low-entry-principle), `沙发` (amygdala-vs-prefrontal-cortex), `一年` (consumption-vs-action); 4th+ recurrence since 09-12, Compile Agent CJK injection defect persists. WARNING 1: Tokenization merge `thông tininterest` in curiosity-hijacking.md. WARNING 2: Missing closing parenthesis in curiosity-hijacking.md. Dropped-i streak: 12 consecutive (08-23→09-21). All backlinks valid, no truncated files, all concept definitions ≥2 sentences, all key ideas ≥5.
+- **Actions needed:** Fix Agent: (1) Replace 3 Chinese chars in 3 files. (2) Fix tokenization merge `thông tininterest` → rewrite. (3) Add missing punctuation in curiosity-hijacking.md. Compile Agent prompt review recommended — CJK injection systemic across 5+ runs.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-20 (23:16)
 

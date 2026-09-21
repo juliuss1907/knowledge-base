@@ -4,7 +4,9 @@ title: "Why You Never Start (It's Not About Motivation)"
 url: https://youtu.be/xLR-Ugbv2sY
 author: Veronica
 date_ingested: 2026-09-20
-status: unprocessed
+status: processed
+compiled_at: 2026-09-21
+compiled_to: "[[src_why-you-never-start-its-not-about-motivation]]"
 source: youtube.com
 ---
 

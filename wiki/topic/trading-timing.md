@@ -4,27 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: trading-timing
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: trading-timing
 
 Auto-generated index of all content with topic `trading-timing`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (3)
 
-- [[institutional-trading-cycle]] — main: #economic|sub: [#opinion]
-- [[positioning-before-price]] — main: #economic|sub: [#opinion]
-- [[timing-over-stock-picking]] — main: #economic|sub: [#opinion]
+- [[institutional-trading-cycle]] — main: #economic, sub: ['#opinion']
+- [[positioning-before-price]] — main: #economic, sub: ['#opinion']
+- [[timing-over-stock-picking]] — main: #economic, sub: ['#opinion']
 
 ## Sources (1)
 
-- [[src_the-next-generation-of-trading-wont]] — main: #economic|sub: [#opinion]
+- [[src_the-next-generation-of-trading-wont]] — main: #economic, sub: ['#opinion']
 
 ## Related topics
 
-(none)
+No related topics found.

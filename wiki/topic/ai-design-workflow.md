@@ -4,26 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-design-workflow
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: ai-design-workflow
 
 Auto-generated index of all content with topic `ai-design-workflow`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (2)
 
-- [[design-process]] — main: #tech|sub: [#tools #vibecode]
-- [[prototype-gravity]] — main: #tech|sub: [#tools #vibecode]
+- [[design-process]] — main: #tech, sub: ['#tools', '#vibecode']
+- [[prototype-gravity]] — main: #tech, sub: ['#tools', '#vibecode']
 
 ## Sources (1)
 
-- [[src_how-i-design-with-ai]] — main: #tech|sub: [#tools #vibecode #opinion]
+- [[src_how-i-design-with-ai]] — main: #tech, sub: ['#tools', '#vibecode', '#opinion']
 
 ## Related topics
 
-(none)
+No related topics found.

@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-reflexivity-2026
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: ai-reflexivity-2026
 
 Auto-generated index of all content with topic `ai-reflexivity-2026`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[ai-infrastructure-bubble]] — main: #economic|sub: [#tools #opinion]
+- [[ai-infrastructure-bubble]] — main: #economic, sub: ['#tools', '#opinion']
 
 ## Sources (1)
 
-- [[src_ai-reflexivity-loop-is-same]] — main: #economic|sub: [#opinion #tools]
+- [[src_ai-reflexivity-loop-is-same]] — main: #economic, sub: ['#opinion', '#tools']
 
 ## Related topics
 
-(none)
+No related topics found.

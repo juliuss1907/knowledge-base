@@ -4,27 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-economics
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: mental-models-economics
 
 Auto-generated index of all content with topic `mental-models-economics`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (3)
 
-- [[creative-destruction]] — main: #economic|sub: [#research]
-- [[greshams-law]] — main: #economic|sub: [#research]
-- [[opportunity-cost]] — main: #economic|sub: [#research]
+- [[creative-destruction]] — main: #economic, sub: ['#research']
+- [[greshams-law]] — main: #economic, sub: ['#research']
+- [[opportunity-cost]] — main: #economic, sub: ['#research']
 
 ## Sources (1)
 
-- [[src_mental-models-of-economics]] — main: #economic|sub: [#research]
+- [[src_mental-models-of-economics]] — main: #economic, sub: ['#research']
 
 ## Related topics
 
-(none)
+No related topics found.

@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: neuroplasticity
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: neuroplasticity
 
 Auto-generated index of all content with topic `neuroplasticity`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[neuroplasticity]] — main: #productivity|sub: [#psychology]
+- [[neuroplasticity]] — main: #productivity, sub: ['#psychology']
 
 ## Sources (1)
 
-- [[src_once-you-understand-neuroplasticity]] — main: #productivity|sub: [#psychology]
+- [[src_once-you-understand-neuroplasticity]] — main: #productivity, sub: ['#psychology']
 
 ## Related topics
 
-(none)
+No related topics found.

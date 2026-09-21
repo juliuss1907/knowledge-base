@@ -4,26 +4,26 @@ scope: topic
 parent: "[[topic]]"
 topic: arcade-tokens
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: arcade-tokens
 
 Auto-generated index of all content with topic `arcade-tokens`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (2)
 
-- [[arcade-tokens]] — main: #crypto|sub: [#defi #tools]
-- [[token-economic-mechanics]] — main: #crypto|sub: [#defi #tools]
+- [[arcade-tokens]] — main: #crypto, sub: ['#defi', '#tools']
+- [[token-economic-mechanics]] — main: #crypto, sub: ['#defi', '#tools']
 
 ## Sources (1)
 
-- [[src_the-most-underrated-token-type]] — main: #crypto|sub: [#defi #tools]
+- [[src_the-most-underrated-token-type]] — main: #crypto, sub: ['#defi', '#tools']
 
 ## Related topics
 
-(none)
+No related topics found.

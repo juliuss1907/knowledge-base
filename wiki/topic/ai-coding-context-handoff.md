@@ -4,29 +4,29 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-coding-context-handoff
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: ai-coding-context-handoff
 
 Auto-generated index of all content with topic `ai-coding-context-handoff`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (5)
 
-- [[compact-vs-handoff]] — main: #ai|sub: [#tools #automation]
-- [[context-window-management]] — main: #ai|sub: [#tools #automation]
-- [[cross-agent-workflow]] — main: #ai|sub: [#tools #automation]
-- [[handoff-skill]] — main: #ai|sub: [#tools #automation #coding]
-- [[session-separation]] — main: #ai|sub: [#tools #automation]
+- [[compact-vs-handoff]] — main: #ai, sub: ['#tools', '#automation']
+- [[context-window-management]] — main: #ai, sub: ['#tools', '#automation']
+- [[cross-agent-workflow]] — main: #ai, sub: ['#tools', '#automation']
+- [[handoff-skill]] — main: #ai, sub: ['#tools', '#automation', '#coding']
+- [[session-separation]] — main: #ai, sub: ['#tools', '#automation']
 
 ## Sources (1)
 
-- [[src_handoff-skill-context-window-management]] — main: #ai|sub: [#tools #automation #coding]
+- [[src_handoff-skill-context-window-management]] — main: #ai, sub: ['#tools', '#automation', '#coding']
 
 ## Related topics
 
-(none)
+No related topics found.

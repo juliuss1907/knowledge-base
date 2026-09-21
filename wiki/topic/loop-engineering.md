@@ -4,28 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: loop-engineering
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: loop-engineering
 
 Auto-generated index of all content with topic `loop-engineering`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (4)
 
-- [[cognitive-surrender]] — main: #ai|sub: [#automation #coding #psychology]
-- [[comprehension-debt]] — main: #ai|sub: [#automation #coding]
-- [[loop-engineering]] — main: #ai|sub: [#automation #coding]
-- [[ralph-wiggum-loop]] — main: #ai|sub: [#automation #coding]
+- [[cognitive-surrender]] — main: #ai, sub: ['#automation', '#coding', '#psychology']
+- [[comprehension-debt]] — main: #ai, sub: ['#automation', '#coding']
+- [[loop-engineering]] — main: #ai, sub: ['#automation', '#coding']
+- [[ralph-wiggum-loop]] — main: #ai, sub: ['#automation', '#coding']
 
 ## Sources (1)
 
-- [[src_loop-engineering-14-step-roadmap]] — main: #ai|sub: [#automation #coding #tutorial]
+- [[src_loop-engineering-14-step-roadmap]] — main: #ai, sub: ['#automation', '#coding', '#tutorial']
 
 ## Related topics
 
-(none)
+No related topics found.

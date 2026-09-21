@@ -4,25 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: retrieval-augmented-generation
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: retrieval-augmented-generation
 
 Auto-generated index of all content with topic `retrieval-augmented-generation`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[retrieval-augmented-generation]] — main: #ai|sub: [#research #tools]
+- [[retrieval-augmented-generation]] — main: #ai, sub: ['#research', '#tools']
 
 ## Sources (0)
 
-(none)
 
 ## Related topics
 
-(none)
+No related topics found.

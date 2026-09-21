@@ -4,25 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: right-path-indicators
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: right-path-indicators
 
 Auto-generated index of all content with topic `right-path-indicators`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (0)
 
-(none)
 
 ## Sources (1)
 
-- [[src_3-indicators-your-building-the-right-future]] — main: #productivity|sub: [#psychology #opinion]
+- [[src_3-indicators-your-building-the-right-future]] — main: #productivity, sub: ['#psychology', '#opinion']
 
 ## Related topics
 
-(none)
+No related topics found.

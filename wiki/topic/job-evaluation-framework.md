@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: job-evaluation-framework
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: job-evaluation-framework
 
 Auto-generated index of all content with topic `job-evaluation-framework`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[job-scoring-framework]] — main: #productivity|sub: [#opinion]
+- [[job-scoring-framework]] — main: #productivity, sub: ['#opinion']
 
 ## Sources (1)
 
-- [[src_markus-job-scoring-framework]] — main: #productivity|sub: [#opinion]
+- [[src_markus-job-scoring-framework]] — main: #productivity, sub: ['#opinion']
 
 ## Related topics
 
-(none)
+No related topics found.

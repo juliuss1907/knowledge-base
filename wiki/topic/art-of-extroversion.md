@@ -4,27 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: art-of-extroversion
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: art-of-extroversion
 
 Auto-generated index of all content with topic `art-of-extroversion`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (3)
 
-- [[brain-coupling]] — main: #productivity|sub: [#psychology #research]
-- [[dopamine-reward-network]] — main: #productivity|sub: [#psychology #research]
-- [[extroversion-as-skill]] — main: #productivity|sub: [#psychology #tutorial]
+- [[brain-coupling]] — main: #productivity, sub: ['#psychology', '#research']
+- [[dopamine-reward-network]] — main: #productivity, sub: ['#psychology', '#research']
+- [[extroversion-as-skill]] — main: #productivity, sub: ['#psychology', '#tutorial']
 
 ## Sources (1)
 
-- [[src_how-to-talk-to-anyone-at-any-time]] — main: #productivity|sub: [#psychology #tutorial]
+- [[src_how-to-talk-to-anyone-at-any-time]] — main: #productivity, sub: ['#psychology', '#tutorial']
 
 ## Related topics
 
-(none)
+No related topics found.

@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: metacognition
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: metacognition
 
 Auto-generated index of all content with topic `metacognition`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[metacognition]] — main: #productivity|sub: [#psychology]
+- [[metacognition]] — main: #productivity, sub: ['#psychology']
 
 ## Sources (1)
 
-- [[src_thinking-about-thinking-metacognition]] — main: #productivity|sub: [#psychology]
+- [[src_thinking-about-thinking-metacognition]] — main: #productivity, sub: ['#psychology']
 
 ## Related topics
 
-(none)
+No related topics found.

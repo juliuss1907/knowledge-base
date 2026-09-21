@@ -4,25 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: cloud-cost-governance
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: cloud-cost-governance
 
 Auto-generated index of all content with topic `cloud-cost-governance`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[cloud-cost-governance]] — main: #tech|sub: [#tools #hack #system]
+- [[cloud-cost-governance]] — main: #tech, sub: ['#tools', '#hack', '#system']
 
 ## Sources (0)
 
-(none)
 
 ## Related topics
 
-(none)
+No related topics found.

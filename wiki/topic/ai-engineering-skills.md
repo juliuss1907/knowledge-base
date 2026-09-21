@@ -4,28 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-engineering-skills
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: ai-engineering-skills
 
 Auto-generated index of all content with topic `ai-engineering-skills`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[ai-engineering-skills]] — main: #ai|sub: [#coding #research]
+- [[ai-engineering-skills]] — main: #ai, sub: ['#coding', '#research']
 
 ## Sources (4)
 
-- [[src_ai-eng-skills-map-building-deploying]] — main: #ai|sub: [#coding #research]
-- [[src_ai-eng-skills-map-se-fundamentals]] — main: #ai|sub: [#coding #research]
-- [[src_ai-engineering-skills-map]] — main: #ai|sub: [#coding #vibecode]
-- [[src_ai-skills-map-building-deploying-ai-apps]] — main: #ai|sub: [#coding #research]
+- [[src_ai-eng-skills-map-building-deploying]] — main: #ai, sub: ['#coding', '#research']
+- [[src_ai-eng-skills-map-se-fundamentals]] — main: #ai, sub: ['#coding', '#research']
+- [[src_ai-engineering-skills-map]] — main: #ai, sub: ['#coding', '#vibecode']
+- [[src_ai-skills-map-building-deploying-ai-apps]] — main: #ai, sub: ['#coding', '#research']
 
 ## Related topics
 
-(none)
+No related topics found.

@@ -4,25 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: brain-health-habits
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: brain-health-habits
 
 Auto-generated index of all content with topic `brain-health-habits`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (0)
 
-(none)
 
 ## Sources (1)
 
-- [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — main: #health|sub: [#psychology #research]
+- [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — main: #health, sub: ['#psychology', '#research']
 
 ## Related topics
 
-(none)
+No related topics found.

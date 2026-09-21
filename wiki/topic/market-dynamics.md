@@ -4,26 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: market-dynamics
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: market-dynamics
 
 Auto-generated index of all content with topic `market-dynamics`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (2)
 
-- [[dynamic-edge-trading]] — main: #economic|sub: [#research #opinion]
-- [[reflexivity-soros]] — main: #economic|sub: [#research #opinion]
+- [[dynamic-edge-trading]] — main: #economic, sub: ['#research', '#opinion']
+- [[reflexivity-soros]] — main: #economic, sub: ['#research', '#opinion']
 
 ## Sources (0)
 
-(none)
 
 ## Related topics
 
-(none)
+No related topics found.

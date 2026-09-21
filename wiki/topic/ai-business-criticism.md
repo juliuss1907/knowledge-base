@@ -4,27 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-business-criticism
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: ai-business-criticism
 
 Auto-generated index of all content with topic `ai-business-criticism`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (3)
 
-- [[ai-impression-of-work]] — main: #ai|sub: [#opinion #tools]
-- [[business-idiot-archetype]] — main: #economic|sub: [#opinion #tools]
-- [[rot-economy]] — main: #economic|sub: [#opinion #news]
+- [[ai-impression-of-work]] — main: #ai, sub: ['#opinion', '#tools']
+- [[business-idiot-archetype]] — main: #economic, sub: ['#opinion', '#tools']
+- [[rot-economy]] — main: #economic, sub: ['#opinion', '#news']
 
 ## Sources (1)
 
-- [[src_the-revenge-of-the-business-idiot]] — main: #ai|sub: [#opinion #research]
+- [[src_the-revenge-of-the-business-idiot]] — main: #ai, sub: ['#opinion', '#research']
 
 ## Related topics
 
-(none)
+No related topics found.

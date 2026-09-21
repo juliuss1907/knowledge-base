@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: delusional-goals-success
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: delusional-goals-success
 
 Auto-generated index of all content with topic `delusional-goals-success`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (1)
 
-- [[delusional-goals]] — main: #productivity|sub: [#psychology #opinion]
+- [[delusional-goals]] — main: #productivity, sub: ['#psychology', '#opinion']
 
 ## Sources (1)
 
-- [[src_delusional-goals-drive-success]] — main: #productivity|sub: [#psychology #opinion]
+- [[src_delusional-goals-drive-success]] — main: #productivity, sub: ['#psychology', '#opinion']
 
 ## Related topics
 
-(none)
+No related topics found.

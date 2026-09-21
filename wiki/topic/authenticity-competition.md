@@ -4,27 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: authenticity-competition
 auto_generated: true
-last_updated: 2026-09-20
+last_updated: 2026-09-21
 ---
 
 # Topic: authenticity-competition
 
 Auto-generated index of all content with topic `authenticity-competition`.
 
-Last updated: 2026-09-20 21:04:41
+Last updated: 2026-09-21 21:03:51
 
 ---
 
 ## Concepts (3)
 
-- [[authenticity-creative-expression]] — main: #productivity|sub: [#psychology #opinion]
-- [[self-knowledge-practice]] — main: #productivity|sub: [#psychology #opinion]
-- [[social-media-comparison-trap]] — main: #productivity|sub: [#psychology #opinion]
+- [[authenticity-creative-expression]] — main: #productivity, sub: ['#psychology', '#opinion']
+- [[self-knowledge-practice]] — main: #productivity, sub: ['#psychology', '#opinion']
+- [[social-media-comparison-trap]] — main: #productivity, sub: ['#psychology', '#opinion']
 
 ## Sources (1)
 
-- [[src_you-escape-competition-by-figuring-out-who-you-are]] — main: #productivity|sub: [#psychology #opinion]
+- [[src_you-escape-competition-by-figuring-out-who-you-are]] — main: #productivity, sub: ['#psychology', '#opinion']
 
 ## Related topics
 
-(none)
+No related topics found.

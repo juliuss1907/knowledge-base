@@ -1817,3 +1817,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Concepts:** [dopamine-baseline-reset, curiosity-hijacking]
 - **Tags applied:** main=health, sub=[psychology, research], topic=dopamine-curiosity-reset
 - **Action:** created 2 concept files
+
+## 2026-09-21 21:00 — Indexed
+- Scanned: 600 concepts + 210 sources (810 total)
+- Tags indexed: 24 (9 main-tags + 15 sub-tags)
+- Topics indexed: 259
+- Orphans deleted: 0
+- Issues: 0
+- Mode: incremental (10 changed files since 2026-09-20)

@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-22 23:15:12 +0700 — Format: 1103 files; 405 issues (1E+404W); exact-zero-flat vs 09-21, pipeline idle.
+**Last updated:** 2026-09-22 23:31:00 +0700 — Hygiene: 234083 paths; 76 issues (4E+72W); memory/ 53→57 (+4), all 4 ERROR carry-forward.
 
 ---
 
@@ -12,7 +12,7 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 15
+**Pending reports awaiting review:** 16
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
@@ -20,6 +20,7 @@
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
 | 🔍 PENDING | 09-22 | Format | 405 (1E+404W) | Xem [wiki/reviews/2026-09-22_format-report.md](2026-09-22_format-report.md); exact-zero-flat vs 09-21, 0 file mới, ERROR carry-forward |
+| 🔍 PENDING | 09-22 | Hygiene | 76 (4E+72W) | [Báo cáo](2026-09-22_hygiene-report.md): 234083 paths; memory/ 53→57 (+4); 0 issue resolved, all carry-forward |
 | 🔍 PENDING | 09-21 | Output | 5 (3E+2W+0I) | [Báo cáo](2026-09-21_output-report.md): 10 file mới (2s+8c); 3E Chinese chars SYSTEMIC (4th+ recurrence); 1W tokenization merge; 1W missing paren |
 | 🔍 PENDING | 09-21 | Format | 405 (1E+404W) | Xem [wiki/reviews/2026-09-21_format-report.md](2026-09-21_format-report.md); +18 files, +1 ERROR (slug >50 chars), 273 unique targets flat |
 | 🔍 PENDING | 09-21 | Hygiene | 72 (4E+68W) | [Báo cáo](2026-09-21_hygiene-report.md): 233868 paths; memory/ 49→53 (+4); 0 issue resolved, all carry-forward |
@@ -137,6 +138,14 @@
 - **Summary:** 1103 files checked (600 concepts + 210 sources + 34 indexes + 259 topics). 405 issues: **1 ERROR, 404 WARNING, 0 INFO**. Exact-zero-flat vs 09-21 on all axes: total 405→405, ERROR 1→1 (same slug carry-forward), WARNING 404→404, unique targets 273→273. Zero wiki files added/removed (git log empty). Pipeline idle — no compilation today. ERROR carry-forward: `src_why-youve-lost-your-curiosity-and-how-to-get-it-back.md` slug >50 chars (52 chars, Fix Agent pending). Top-20 identical to 09-21.
 - **Actions needed:** Fix Agent: rename slug `why-youve-lost-your-curiosity-and-how-to-get-back` to ≤50 chars + update internal wikilinks (carry-forward from 09-21). No other action required — forward-refs resolve naturally.
 - **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-09-22 (23:31)
+
+- **Báo cáo:** `wiki/reviews/2026-09-22_hygiene-report.md`
+- **Tóm tắt:** 234,083 paths checked. 76 issues: **4 ERROR, 72 WARNING, 0 INFO**. **0 ISSUE RESOLVED vs 09-21** — all 4 ERROR carry-forward: (1) `DREAMS.md` root orphan — git-tracked, lần 24 liên tiếp (09-09→09-22). (2) `memory/` root folder — **+4 new files since 09-21** (dreaming deep/light/rem 09-22 + session-corpus 09-21, total 57 vs 53), OpenClaw dreaming pipeline continues writing daily, lần 28+ liên tiếp từ 07-03. (3) Migration marker `.migrated.*` — git-tracked since `b5e519fc`, lần 15 từ 09-08 addendum. (4) `wiki/HEARTBEAT.md` — dangling symlink lần 27+ liên tiếp (08-26→09-22). **72 WARNING:** 57 memory/ sub-files (sub-paths của Issue 2, +4 since 09-21) + 15 archive backup false positives (unchanged). **Tin tốt:** `openclaw-workspace-state.json` gốc vắng mặt streak 27+ runs. 0 new naming violations, 0 empty dir. Pipeline idle — 0 wiki files changed since 09-21.
+- **Thay đổi:** memory/ tăng 53→57 (+4 files); paths_checked 233868→234083 (+215). 4 ERROR unchanged, 0 issue resolved.
+- **Cần làm:** (1) KHÔNG xóa `DREAMS.md` — carry-forward. (2) KHÔNG xóa `memory/` — carry-forward. (3) KHÔNG re-escalate `[SYSTEMATIC VIOLATION]` — all carry-forwards. (4) Fix Agent: `.gitignore` thêm `openclaw-workspace-state.json.migrated.*` + `git rm --cached` marker + commit. (5) `wiki/HEARTBEAT.md` — process-level fix (sync tool mirroring).
+- **Trạng thái:** chờ duyệt.
 
 ### 🔍 Format Validation — 2026-09-21 (23:16)
 

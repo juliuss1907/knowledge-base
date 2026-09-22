@@ -12,6 +12,15 @@
 - **Dropped-i streak:** 13 consecutive (08-23→09-22), all sub-patterns = 0
 - **Carry-over:** None
 
+## 2026-09-22 23:15:12 — Format validation
+
+- **Files checked:** 1103 (600 concepts + 210 sources + 34 indexes + 259 topics)
+Files checked: 1103
+- Issues found: 405 (1 ERROR, 404 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-09-22_format-report.md
+- Top violations: broken wikilinks (forward-refs) — 385 individual + 19 groups, 273 unique targets
+- ERROR: slug >50 chars carry-forward (src_why-youve-lost-your-curiosity-and-how-to-get-it-back.md, 52 chars)
+
 ## 2026-09-21 23:16:23 — Format validation
 
 - **Files checked:** 1103 (600 concepts + 210 sources + 34 indexes + 259 topics)

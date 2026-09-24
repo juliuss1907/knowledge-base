@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-24 08:56:38 +0700 — Format: 1107 files/405 issues; Output: 6 touched/2 issues; Hygiene: 234133 paths/83 issues.
+**Last updated:** 2026-09-24 09:00:00 +0700 — Manual full validation complete: 3 pending reports; 19 total pending after backlog reconciliation.
 
 ---
 
@@ -16,9 +16,10 @@
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
+**Hygiene Inspector:** 09-24 pending; kiểm tra 234,133 paths, 83 issues (4 ERROR + 79 WARNING).
 
-|| Status | Date | Type | Issues | Action |
-||---|---|---|---|---|
+| Status | Date | Type | Issues | Action |
+|---|---|---|---|---|
 | 🔍 PENDING | 09-24 | Format | 405 (1E+404W) | Xem [wiki/reviews/2026-09-24_format-report.md](2026-09-24_format-report.md); 1107 files; 1E slug >50; 404W broken links; 0 net change vs 09-22 |
 | 🔍 PENDING | 09-24 | Output | 2 (1E+1W+0I) | [Báo cáo](2026-09-24_output-report.md): 6 files; 1 definition 1 câu; 1 lặp từ; 3 CJK + token merge carry-forward |
 | 🔍 PENDING | 09-24 | Hygiene | 83 (4E+79W) | [Báo cáo](2026-09-24_hygiene-report.md): 234133 paths; memory/ 57→64; 0 resolved; 4 ERROR carry-forward |

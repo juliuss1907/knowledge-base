@@ -1825,3 +1825,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 0
 - Issues: 0
 - Mode: incremental (10 changed files since 2026-09-20)
+
+## 2026-09-24 08:31:00 — Compiled <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Raw:** raw/posts/2026-09-23_alex-saint-ai-trading-bot-jev-solana.md
+- **Source note:** wiki/sources/src_alex-saint-ai-trading-bot-jev-solana.md
+- **Concepts:** [two-speed-agent-loop, calibrated-decision-models, wallet-isolation-for-ai-agents, ai-trading-agent, multi-agent-risk-review]
+- **Tags applied:** main=ai, sub=[automation, tools, hack], topic=ai-trading-agent-safety
+- **Action:** created 3 concept files; merged source into 2 existing concept files; updated posts index stats

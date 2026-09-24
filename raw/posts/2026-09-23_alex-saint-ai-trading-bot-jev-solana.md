@@ -4,7 +4,9 @@ title: "save it > run it tonight"
 url: https://x.com/alexsssaint/status/2102420062023946602
 author: alex saint (@alexsssaint)
 date_ingested: 2026-09-23
-status: unprocessed
+status: processed
+compiled_at: 2026-09-24
+compiled_to: "[[src_alex-saint-ai-trading-bot-jev-solana]]"
 source: x.com
 ---
 

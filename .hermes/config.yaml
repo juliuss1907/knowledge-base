@@ -538,10 +538,11 @@ approvals:
   mcp_reload_confirm: true
   destructive_slash_confirm: true
 command_allowlist:
+  - script execution via -e/-c flag
   - shell command via -c/-lc flag
   - stop/restart system service
-  - script execution via -e/-c flag
   - execute_code
+  - command parser limit or malformed executable payload
 plugins:
   enabled:
     - rtk-rewrite

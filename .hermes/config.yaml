@@ -634,6 +634,7 @@ onboarding:
   seen:
     profile_build_offered: true
     busy_input_prompt: true
+    openclaw_residue_cleanup: true
   profile_build: ask
 updates:
   pre_update_backup: false
@@ -782,10 +783,64 @@ custom_providers:
       oc-zen/muse-spark-1.3-contributor: {}
       oc-zen/omen-alpha: {}
       oc-zen/union-alpha: {}
+      oc-zen/grok-4.7: {}
+      oc-zen/mimo-v2.6-flash: {}
+      oc-zen/mimo-v2.6-pro: {}
       openrouter/nvidia/nemotron-3-ultra-550b-a55b:free: {}
       openrouter/google/gemma-4-31b-it:free: {}
       openrouter/z-ai/glm-5.2:free: {}
       openrouter/stealth/union-alpha: {}
+      openrouter/stealth/space-bunny-alpha: {}
+      b.ai/deepseek-v4-flash-vision-exp: {}
+      b.ai/minimax-m3: {}
+      b.ai/minimax-m2.7: {}
+      b.ai/glm-5.1: {}
+      b.ai/glm-5.2: {}
+      b.ai/gpt-5.6-sol: {}
+      b.ai/gpt-5.6-terra: {}
+      b.ai/gpt-5.6-luna: {}
+      b.ai/gpt-5.5: {}
+      b.ai/gpt-5.5-instant: {}
+      b.ai/gpt-5.4: {}
+      b.ai/gpt-5.2: {}
+      b.ai/gpt-5.4-pro: {}
+      b.ai/gpt-5.4-mini: {}
+      b.ai/gpt-5-mini: {}
+      b.ai/gpt-5.4-nano: {}
+      b.ai/gpt-5-nano: {}
+      b.ai/claude-fable-5.1: {}
+      b.ai/claude-fable-5: {}
+      b.ai/claude-opus-5: {}
+      b.ai/claude-opus-4.8: {}
+      b.ai/claude-opus-4.7: {}
+      b.ai/claude-opus-4.6: {}
+      b.ai/claude-opus-4.5: {}
+      b.ai/claude-sonnet-5: {}
+      b.ai/claude-sonnet-4.6: {}
+      b.ai/claude-sonnet-4.5: {}
+      b.ai/claude-haiku-4.5: {}
+      b.ai/gemini-3.1-pro: {}
+      b.ai/gemini-3-flash: {}
+      b.ai/gemini-3.5-flash-lite: {}
+      b.ai/gemini-3.6-flash: {}
+      b.ai/hy3: {}
+      b.ai/mimo-v2.5: {}
+      b.ai/glm-5.3-flash: {}
+      b.ai/kimi-k2.6: {}
+      b.ai/glm-5.3: {}
+      b.ai/mimo-v2.5-pro: {}
+      b.ai/hy4-preview: {}
+      b.ai/kimi-k3: {}
+      b.ai/qwen3.8-flash: {}
+      b.ai/qwen3.8-max: {}
+      b.ai/qwen3.8-27b: {}
+      b.ai/deepseek-v4.1-flash: {}
+      b.ai/gpt-6-astra: {}
+      b.ai/gemini-3.8-flash: {}
+      b.ai/deepseek-v4-pro: {}
+      b.ai/gemini-3.5-flash: {}
+      b.ai/glm-5.3-flashx: {}
+      b.ai/kimi-k2.8-preview: {}
       xiaomi-mimo/mimo-v2.5: {}
       xiaomi-mimo/mimo-v2.5-asr: {}
       xiaomi-mimo/mimo-v2.5-pro: {}
@@ -794,10 +849,79 @@ custom_providers:
     base_url: https://api.b.ai/v1
     api_key: sk-3zmwicui68owdne6ygx2jk39pjl51jnm
     model: glm-5.3-flash
+    models:
+      minimax-m3: {}
+      minimax-m2.7: {}
+      glm-5.1: {}
+      glm-5.2: {}
+      gpt-6-astra: {}
+      gpt-6-sol: {}
+      gpt-6-luna: {}
+      gpt-5.6-sol: {}
+      gpt-5.6-terra: {}
+      gpt-5.6-luna: {}
+      gpt-5.5: {}
+      gpt-5.5-instant: {}
+      gpt-5.4: {}
+      gpt-5.2: {}
+      gpt-5.4-pro: {}
+      gpt-5.4-mini: {}
+      gpt-5-mini: {}
+      gpt-5.4-nano: {}
+      gpt-5-nano: {}
+      gpt-image-2: {}
+      claude-opus-5.5: {}
+      claude-fable-5.1: {}
+      claude-fable-5: {}
+      claude-opus-5: {}
+      claude-opus-4.8: {}
+      claude-opus-4.7: {}
+      claude-opus-4.6: {}
+      claude-opus-4.5: {}
+      claude-sonnet-5: {}
+      claude-sonnet-4.6: {}
+      claude-sonnet-4.5: {}
+      claude-haiku-4.5: {}
+      gemini-3.8-flash: {}
+      gemini-3.6-flash: {}
+      gemini-3.5-flash-lite: {}
+      gemini-3.5-flash: {}
+      gemini-3.1-pro: {}
+      gemini-3-flash: {}
+      hy3: {}
+      mimo-v2.6-pro: {}
+      glm-5.3-flash: {}
+      glm-5.3-flashx: {}
+      kimi-k3: {}
+      glm-5.3: {}
+      mimo-v2.6-flash: {}
+      mimo-v2.5-pro: {}
+      mimo-v2.5: {}
+      kimi-k2.8-preview: {}
+      kimi-k2.6: {}
+      hy4-preview: {}
+      qwen3.8-flash: {}
+      qwen3.8-max: {}
+      qwen3.8-27b: {}
+      jev-1.13.0: {}
+      deepseek-v4.1-flash: {}
+      deepseek-v4-pro: {}
+      jev-latest: {}
+    models_discovered: true
   - name: Xiaomi Mimo Subcription
     base_url: https://token-plan-sgp.xiaomimimo.com/v1
     api_key: tp-s3419mqq7tr85hqf22nwnae8l4gzrvvmq4nwn1am31uj4h79
     model: mimo-v2.5
+    models:
+      mimo-v2.5: {}
+      mimo-v2.5-asr: {}
+      mimo-v2.5-pro: {}
+      mimo-v2.5-tts: {}
+      mimo-v2.5-tts-voiceclone: {}
+      mimo-v2.5-tts-voicedesign: {}
+      mimo-v2.6-flash: {}
+      mimo-v2.6-pro: {}
+    models_discovered: true
 known_plugin_toolsets:
   cli:
     - spotify

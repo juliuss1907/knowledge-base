@@ -21,17 +21,17 @@ Short-form social media posts, threads, and micro-content.
 ## Stats
 
 - Total: 28 files
-- By status: 27 processed, 1 unprocessed
+- By status: 28 processed, 0 unprocessed
 - By date: 1 this week, 4 this month
 - Last updated: 2026-09-24
 ## Items
 - [[2026-09-23_alex-saint-ai-trading-bot-jev-solana]] — AI Trading Bot Build: Jev + Solana (Two Models, Twelve Words) by alex saint (processed)
-- [[2026-08-21_daily-planning-routine-creativity-productivity]] — The Daily Planning Routine For Maximum Creativity & Productivity by Dickie Bush (@dickiebush) (unprocessed)
+- [[2026-08-21_daily-planning-routine-creativity-productivity]] — The Daily Planning Routine For Maximum Creativity & Productivity by Dickie Bush (@dickiebush) (processed)
 
-- [[2026-08-21_ai-skills-map-building-deploying-ai-apps]] — AI Engineering Skills Map: Building and Deploying AI Applications by Andrew Ng (@AndrewYNg) (unprocessed)
+- [[2026-08-21_ai-skills-map-building-deploying-ai-apps]] — AI Engineering Skills Map: Building and Deploying AI Applications by Andrew Ng (@AndrewYNg) (processed)
 
-- [[2026-09-01_google-cloud-agent-sandbox-runtimes]] — Agent sandbox runtimes: isolation, cold-start, network egress, state forking by Google Cloud Tech (@GoogleCloudTech) (unprocessed)
-- [[2026-08-14_ai-engineering-skills-map]] — The AI Engineering Skills Map by Andrew Ng (@AndrewYNg) (unprocessed)
+- [[2026-09-01_google-cloud-agent-sandbox-runtimes]] — Agent sandbox runtimes: isolation, cold-start, network egress, state forking by Google Cloud Tech (@GoogleCloudTech) (processed)
+- [[2026-08-14_ai-engineering-skills-map]] — The AI Engineering Skills Map by Andrew Ng (@AndrewYNg) (processed)
 - [[2026-08-08_the-art-of-strategic-thinking]] — The Art Of Strategic Thinking (How To Become Wildly Successful) by DAN KOE (@thedankoe) (processed)
 - [[2026-08-09_how-to-get-maximum-results-with-minimum-effort-game-theory]] — How to Get Maximum Results with Minimum Effort (Game Theory) by @incentivising (processed)
 - [[2026-08-09_just-let-go-cipheron]] — Just Let Go by Cipheron (@cipheron) (processed)
@@ -48,9 +48,9 @@ Short-form social media posts, threads, and micro-content.
 - [[2026-05-19_dont-sign-in-with-google]] — Don't Sign In With Google (processed)
 
 <!-- Ingest Agent appends here, newest first -->
-- [[2026-08-16_schedule-maxxing]] — 'Schedule Maxxing': how to become ridiculously productive by Kimia (@kimiabuilds) (unprocessed)
-- [[2026-09-10_0xhvdes-seven-ways-to-get-ahead]] — 7 Ways to Get Ahead That Most People Ignore by @0xHvdes (unprocessed)
-- [[2026-09-16_googletech-behavioral-evals-harness-engineering]] — Behavioral Evaluations for Harness Engineering in Agentic Coding by @GoogleCloudTech (unprocessed)
+- [[2026-08-16_schedule-maxxing]] — 'Schedule Maxxing': how to become ridiculously productive by Kimia (@kimiabuilds) (processed)
+- [[2026-09-10_0xhvdes-seven-ways-to-get-ahead]] — 7 Ways to Get Ahead That Most People Ignore by @0xHvdes (processed)
+- [[2026-09-16_googletech-behavioral-evals-harness-engineering]] — Behavioral Evaluations for Harness Engineering in Agentic Coding by @GoogleCloudTech (processed)
 
 ## Notes
 

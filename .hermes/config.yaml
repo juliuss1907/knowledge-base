@@ -540,6 +540,7 @@ approvals:
 command_allowlist:
   - script execution via -e/-c flag
   - shell command via -c/-lc flag
+  - script execution via heredoc
   - stop/restart system service
   - execute_code
   - command parser limit or malformed executable payload

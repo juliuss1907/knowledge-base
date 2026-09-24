@@ -4,7 +4,7 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-09-22 23:31:00 +0700 — Hygiene: 234083 paths; 76 issues (4E+72W); memory/ 53→57 (+4), all 4 ERROR carry-forward.
+**Last updated:** 2026-09-24 08:56:38 +0700 — Format: 1107 files/405 issues; Output: 6 touched/2 issues; Hygiene: 234133 paths/83 issues.
 
 ---
 
@@ -12,13 +12,16 @@
 
 **Lần duyệt gần nhất:** Julius duyệt 7 báo cáo (09-14→09-16), 2026-09-17 08:57 +0700. Chấp thuận xử lý, không xác nhận đã sửa. Nhãn lịch sử của các đợt trước được giữ nguyên, chưa tái xác minh.
 
-**Pending reports awaiting review:** 16
+**Pending reports awaiting review:** 19
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch applied:** 16 reports (09-08→09-13) — latest: batch approved 2026-09-14 by Connor; trước đó 14 reports 08-28→09-02
 
-| Status | Date | Type | Issues | Action |
-|---|---|---|---|---|
+|| Status | Date | Type | Issues | Action |
+||---|---|---|---|---|
+| 🔍 PENDING | 09-24 | Format | 405 (1E+404W) | Xem [wiki/reviews/2026-09-24_format-report.md](2026-09-24_format-report.md); 1107 files; 1E slug >50; 404W broken links; 0 net change vs 09-22 |
+| 🔍 PENDING | 09-24 | Output | 2 (1E+1W+0I) | [Báo cáo](2026-09-24_output-report.md): 6 files; 1 definition 1 câu; 1 lặp từ; 3 CJK + token merge carry-forward |
+| 🔍 PENDING | 09-24 | Hygiene | 83 (4E+79W) | [Báo cáo](2026-09-24_hygiene-report.md): 234133 paths; memory/ 57→64; 0 resolved; 4 ERROR carry-forward |
 | 🔍 PENDING | 09-22 | Format | 405 (1E+404W) | Xem [wiki/reviews/2026-09-22_format-report.md](2026-09-22_format-report.md); exact-zero-flat vs 09-21, 0 file mới, ERROR carry-forward |
 | 🔍 PENDING | 09-22 | Hygiene | 76 (4E+72W) | [Báo cáo](2026-09-22_hygiene-report.md): 234083 paths; memory/ 53→57 (+4); 0 issue resolved, all carry-forward |
 | 🔍 PENDING | 09-21 | Output | 5 (3E+2W+0I) | [Báo cáo](2026-09-21_output-report.md): 10 file mới (2s+8c); 3E Chinese chars SYSTEMIC (4th+ recurrence); 1W tokenization merge; 1W missing paren |
@@ -131,6 +134,27 @@
 ---
 
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-09-24 (08:50)
+
+- **Report:** `wiki/reviews/2026-09-24_format-report.md`
+- **Summary:** 1,107 files checked (603 concepts + 211 sources + 34 indexes + 259 topics). 405 issues: **1 ERROR, 404 WARNING, 0 INFO**. Delta vs 09-22: 0 net change; +4 files, ERROR 1→1, WARNING 404→404, 273 unique targets, Top-20 giữ nguyên. 385 broken-link cá nhân + 19 forward-reference groups.
+- **Actions needed:** Fix Agent đổi slug `why-youve-lost-your-curiosity-and-how-to-get-it-back` (52 ký tự) xuống ≤50 và cập nhật mọi internal wikilink. Forward refs để pipeline tự resolve; không sửa từng file thủ công.
+- **Status:** pending
+
+### 🔍 Output Validation — 2026-09-24 (08:50)
+
+- **Report:** `wiki/reviews/2026-09-24_output-report.md`
+- **Summary:** 6 file touched (4 mới + 2 cập nhật). 2 issue mới: **1 ERROR, 1 WARNING, 0 INFO**. ERROR: `multi-agent-risk-review.md:17` Definition chỉ 1 câu. WARNING: `ai-trading-agent.md:17` lặp `mua/bán/bán`. 4 file mới còn lại PASS; 0 CJK/typo/truncation trong batch. Nhóm fix 09-14 vẫn verified 5/5.
+- **Actions needed:** Fix Agent mở rộng Definition 2–3 câu; sửa `mua/bán/bán` thành `mua/bán`. Carry-forward từ 09-21: 3 CJK + `thông tininterest`; finding thiếu ngoặc bị loại vì không có bằng chứng.
+- **Status:** pending
+
+### 🔍 Hygiene Inspection — 2026-09-24 (08:50)
+
+- **Report:** `wiki/reviews/2026-09-24_hygiene-report.md`
+- **Summary:** 234,133 paths checked. 83 issues: **4 ERROR, 79 WARNING, 0 INFO**. Delta vs 09-22: 0 resolved; WARNING 72→79 do `memory/` 57→64 file (+7). 4 ERROR carry-forward: `DREAMS.md`, `memory/`, migration marker, `wiki/HEARTBEAT.md`.
+- **Actions needed:** Không xóa dữ liệu memory. Sửa writer/mirror trước. Sau approval, xử lý migration marker bằng wildcard `.gitignore` + `git rm --cached`; chốt chính sách 15 archive backup. 4 file wiki mới không tạo lỗi hygiene.
+- **Status:** pending
 
 ### 🔍 Format Validation — 2026-09-22 (23:15)
 
@@ -597,54 +621,3 @@
 ### ✅ Output Validation — 2026-08-24 (23:06) — APPLIED
 
 - **Report:** `archive/2026-08/2026-08-24_output-report.md`
-- **Summary:** 708 file checked (179 sources + 529 concepts), 4 mới (1 source + 3 concepts — writing-craft cluster: src_the-golden-rule-for-becoming-a-better-writer, flow-state, reading-brain-vs-digital-brain, read-widely-write-well). 3 issues: 0 ERROR, 2 WARNING, 1 INFO. Mốc đáng chú ý: lần đầu toàn bộ 5 biến thể typo Compile Agent = 0 trên cả KB sau khi batch 08-23 applied sáng nay — inventory carry-over đã dứt điểm, dropped-i grep variant 5 cũng 0 matches. File mới sạch hoàn toàn (0 typo, 0 broken link, structure đầy đủ), PASS hết. 2 WARNING là false positive của quick-scan.sh: (a) heuristic "Empty Key ideas" đếm nhầm 9 file dùng numbered list (`1.` thay vì `- `) là rỗng — Python cross-check xác nhận 0 file empty thật; (b) heuristic "1-sentence definitions" báo 527/527 concepts vì sed+grep đếm số DÒNG chứa dấu chấm, không phải số câu.
-- **Actions needed:** (1) Patch quick-scan.sh section 6: đổi `grep -c '^- '` thành `grep -cE '^- |^[0-9]+\\\\\\\\. '` để nhận numbered list; (2) patch hoặc bỏ section 3 heuristic "1-sentence definitions" (đã vô dụng từ nhiều run); (3) INFO attribution Maryanne Wolf "Reader, Come Home": optional spot-check với sách gốc, không blocking. Content wiki: KHÔNG cần sửa gì.
-- **Status:** approved → **applied 2026-08-25** — cả 2 patch tooling (section 6 numbered-list + section 3 sentence-count) đã có trong quick-scan.sh trước giờ apply (Connor inline sáng 08-25); Fix Agent verify bằng grep trực tiếp trên sample files (google-project-oxygen S6 = 8, flow-state S3 = 3). Content wiki: 0 sửa. INFO attribution: optional, không blocking. Report: `archive/2026-08/2026-08-24_output-report.md`
-
-### ✅ Hygiene Inspection — 2026-08-24 (23:33) — APPLIED (deferred action)
-
-- **Report:** `archive/2026-08/2026-08-24_hygiene-report.md`
-- **Summary:** 55845 paths checked (+13 so với 08-23). 1 issue: 1 ERROR — `openclaw-workspace-state.json` ở KB root, LẦN 3 LIÊN TIẾP (08-22 → 08-24). Apply sáng nay (removal commit `b568979f` 09:52) bị runtime recreate lúc 10:00 cùng ngày → recycle < 1h, nhanh hơn chu kỳ 12h của 08-23. Gitignore guard đang giữ repo sạch (file untracked + ignored), nhưng disk-level orphan tiếp tục tái diễn — writer vẫn active trên OpenClaw 2026.7.1-2. Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 3 liên tiếp (08-22 → 08-24); không HEARTBEAT leak; không naming violation; không empty directory.
-- **Actions needed:** [SYSTEMATIC VIOLATION] Root-cause bắt buộc — chọn 1 trong 2: (1) redirect process ghi workspace state về `.openclaw/` hoặc `~/.openclaw/`, sau đó git rm + commit; hoặc (2) chờ OpenClaw update mang SQLite workspace-state refactor (sẽ hết hẳn). KHÔNG cần xóa lại file lần 4 — deletion đơn thuần đã chứng minh vô hiệu (recycle < 1h).
-- **Status:** approved
-
-### ✅ Hygiene Inspection — 2026-08-23 (23:32) — APPLIED
-
-- **Report:** `wiki/reviews/2026-08-23_hygiene-report.md`
-- **Summary:** 55832 paths checked (+23 vs 08-22). 1 issue: 1 ERROR — `openclaw-workspace-state.json` ở KB root, LẦN 2 LIÊN TIẾP. File đã được apply sáng nay (git rm → ~/.openclaw/) nhưng OpenClaw runtime recreate lúc 12:25 và git auto-commit re-track vào repo → deletion đơn thuần vô hiệu (recycle < 12h). Tin tốt: `memory/` + `state/` vắng mặt chạy sạch thứ 2 liên tiếp; WARNING 08-22 (`wiki/drafts/fixagent-regen-tags.py`) đã resolved; không HEARTBEAT leak; không naming violation.
-- **Actions needed:** [SYSTEMATIC VIOLATION] Root-cause bắt buộc: xác định process ghi workspace state vào KB root, redirect output về `.openclaw/` hoặc `~/.openclaw/`, sau đó `git rm openclaw-workspace-state.json` + commit. Nếu chỉ xóa file mà không fix process, sẽ tái diễn lần 3 ở run 08-24.
-- **Status:** approved → **applied 2026-08-24** — root json removed lại (recycle bởi runtime 09:55, disk-only; git sạch nhờ .gitignore). Writer vẫn active trên OpenClaw 2026.7.1-2; hết hẳn khi update mang SQLite workspace-state refactor. Report: `archive/2026-08/2026-08-23_hygiene-report.md`
-
-### ✅ Format Validation — 2026-08-23 (23:15) — APPLIED
-
-- **Report:** `wiki/reviews/2026-08-23_format-report.md`
-- **Summary:** 941 files checked (527 concepts + 178 sources + 34 indexes + 202 topics). 391 issues: 0 ERROR, 391 WARNING — tất cả broken wikilinks (371 individual + 20 forward-reference groups, 269 unique targets — flat so với 08-22). Clean ERROR streak ngày thứ 7 liên tiếp. KB grew +8 net files qua git reconciliation (+2 concepts, +4 sources, +2 topics, 0 merge/delete); debt −1 WARNING. Top-20 broken-target list identical 08-22 — backlog composition unchanged. No structural violations.
-- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
-- **Status:** approved → **applied 2026-08-24** — no action required (forward-refs). Report: `archive/2026-08/2026-08-23_format-report.md`
-
-## Approved Reports — 08-22 batch
-
-- **Report:** `wiki/reviews/2026-08-22_format-report.md`
-- **Summary:** 933 files checked (525 concepts + 174 sources + 34 indexes + 200 topics). 392 issues: 0 ERROR, 392 WARNING — tất cả là broken wikilinks (372 individual + 20 forward-reference groups, 269 unique targets). Clean ERROR streak RESTORED: 73 ERRORs từ 08-21 đã được Fix Agent resolve cùng ngày (regen 24 L3 tag files + tag.md). KB grew +9 net files (+5 sources, +4 topics, +2 concepts, −2 merged); debt giảm nhẹ −1 WARNING vì 2 concepts mới resolve forward-references.
-- **Actions needed:** None — forward-references resolve tự nhiên khi Compile Agent xử lý thêm raw files. No Fix Agent action required.
-- **Status:** approved
-
-### Batch gần nhất: 14 reports (08-13 → 08-21) — APPLIED 2026-08-22 14:40 by Fix Agent
-
-- Format 08-21: regen 24 L3 tag files theo index-spec §5.3 + viết lại `wiki/tag/tag.md` (L2 frontmatter đầy đủ) — 73 ERROR resolved
-- Hygiene 08-21: `memory/` dọn sạch + redirect root cause + `.gitignore` guard; `state/` removed — 19 issues resolved
-- Output 08-16: typo "lực chọn" → "lựa chọn" trong `ai-text-watermarking.md`
-- Index Agent template đã vá (SKILL.md + build_index.py) — 21:00 sẽ không re-break
-
-### Open decisions — RESOLVED 2026-08-22 15:35 (Julius approved merge)
-
-- ✅ Merged `costly-signaling` → `costly-signal` (giữ tên 12 backlinks)
-- ✅ Merged `identity-detachment` → `identity-transformation` (giữ tên 9 backlinks)
-
----
-
-## Applied Reports
-
-_Archive đầy đủ tại `wiki/reviews/archive/`. Bảng Summary phía trên là bản ghi chính thức của tất cả reports đã apply._
-
-Previous reports (08-05 through 09-01) ✅ APPROVED by Julius / Connor and ✅ APPLIED by Fix Agent.

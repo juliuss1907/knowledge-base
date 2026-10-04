@@ -5,7 +5,7 @@ main_tag: economic
 sub_tags: [opinion]
 topic: cuoc-dua-khong-di-lui
 sources:
-  - "[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]"
+  - "[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]]"
 last_updated: 2026-08-01
 ---
 
@@ -32,6 +32,6 @@ Một khái niệm mô tả sự chuyển dịch trong bản chất cạnh tranh
 
 ## Sources
 
-- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]
+- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]]
 
 ## Notes

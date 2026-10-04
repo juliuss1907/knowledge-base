@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, system]
 topic: ai-token-workforce
 sources:
-  - "[[src_you-just-hired-a-million-bad-employees-a16z.md]]"
+  - "[[src_you-just-hired-a-million-bad-employees-a16z]]"
 last_updated: 2026-07-16
 ---
 
@@ -32,7 +32,6 @@ last_updated: 2026-07-16
 
 ## Sources
 
-- [[src_you-just-hired-a-million-bad-employees-a16z.md]]
+- [[src_you-just-hired-a-million-bad-employees-a16z]]
 
 ## Notes
-

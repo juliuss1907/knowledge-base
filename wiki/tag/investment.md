@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: investment
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #investment
 
 Auto-generated index of all content tagged with `#investment`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-09-21 21:03:51
 - Total files: 12
 - Sources: 4
 - Concepts: 8
-- Last updated: 2026-09-21
+- Last updated: 2026-10-03
 
 ## Files with this tag
 

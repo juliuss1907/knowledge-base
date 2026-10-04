@@ -1,6 +1,5 @@
 # Hygiene Inspection — 2026-09-20
-
-**Status:** pending
+- **Status:** approved — Julius duyệt hàng loạt 2026-10-02; Connor verify mẫu 6 report (earliest+latest mỗi validator) khớp validator sống; chi tiết xem `wiki/reviews/_action-required.md`
 **Issues found:** 68 (4 ERROR + 64 WARNING + 0 INFO)
 **Created:** 2026-09-20 23:30:50
 **Validator:** hygiene-inspector

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: optionality-paradox
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: optionality-paradox
 
 Auto-generated index of all content with topic `optionality-paradox`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -24,7 +24,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_how-to-live-without-options]] — main: #productivity, sub: ['#psychology', '#opinion', '#research']
-
-## Related topics
-
-No related topics found.

@@ -6,7 +6,8 @@ sub_tags: [psychology]
 topic: attention-protection-rules
 sources:
   - "[[src_thiet-ke-quy-tac-bao-ve-su-chu-y]]"
-last_updated: 2026-07-09
+  - "[[src_do-less]]"
+last_updated: 2026-09-26
 ---
 
 # Boredom as Dopamine Reset
@@ -23,6 +24,9 @@ Sự buồn chán có chủ đích (deliberate boredom) — dành ít nhất 30 
 - Hoạt động trong boredom time phải là hoạt động không tạo dopamine spike: không productive, không entertaining, không stimulating
 - Sau deliberate boredom, các hoạt động bình thường (đọc sách, làm việc) trở nên rewarding hơn vì baseline đã được reset
 - Boredom là antidote cho dopamine hijacking của các app social media — trong khi app đẩy dopamine liên tục, boredom kéo nó về baseline
+- **Khoảng trống tự động bị lấp:** Finlay rút điện thoại trong cả 30 giây rảnh — mỗi khoảng lặng đều tự động đầy lại. Giải pháp thực tế: bỏ Instagram, chặn app bằng Opal/SociaLite, mức cực đại là thử flip phone một tuần
+- **Con người né khoảng trống có chủ đích:** thí nghiệm cho thấy người ta không thích ngồi yên 6–15 phút chỉ để nghĩ, thích chọn hoạt động tầm thường — boredom phải được *bảo vệ bằng rào cản vật lý*, không chỉ bằng ý chí
+- **Để trống lịch là biến thể lịch của deliberate boredom:** đừng lấp ngay giờ trống bằng admin hoặc lời mời cà phê — giữ khoảng trống để làm *không có gì* với cuộc đời mình
 
 ## Related concepts
 
@@ -30,9 +34,11 @@ Sự buồn chán có chủ đích (deliberate boredom) — dành ít nhất 30 
 - [[dopamine-reward-loop]]
 - [[environment-design-for-habits]]
 - [[focus]]
+- [[creative-incubation]]
 
 ## Sources
 
 - [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]]
+- [[src_do-less]] — Finlay: rút điện thoại trong 30 giây, Opal/SociaLite, flip phone, để trống calendar block
 
 ## Notes

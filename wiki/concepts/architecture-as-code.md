@@ -30,7 +30,6 @@ Architecture as code là phương pháp biểu diễn kiến trúc hệ thống 
 - [[code-visualization]]
 - [[system-map]]
 - [[architecture-diagram]]
-- [[diagram-as-code]]
 
 ## Sources
 

@@ -30,6 +30,7 @@ Bài viết so sánh chu kỳ AI hiện tại với bong bóng nhà đất 2008 
 - **Năm điểm đứt gãy:** Demand disappointment, monetization lag, compute scaling breakdown, geopolitical fracture, Japan/SoftBank carry trade unwind
 - **Điểm khác biệt với 2008:** AI bubble nếu vỡ sẽ giống Dot-com hơn — đau cho investors, không phải systemic threat cho toàn bộ hệ thống tài chính
 - **Narrative certainty:** "Nhu cầu AI inference sẽ tăng đủ nhanh để hấp thụ mọi infrastructure" — giả định tương tự "giá nhà không thể giảm" năm 2008
+- **Số liệu Q4 FY26 trong bài:** NVIDIA $68.1B doanh thu Q4 (tăng 73%), cả năm $215.9B · data center revenue $62.3B/quý (tăng 75% YoY) · OpenAI $2B/tháng doanh thu, vẫn lỗ ở quy mô lớn · OpenAI gọi vốn $122B trước khi đóng Q4 FY26 · SoftBank neo các mega-round gần nhất
 
 ## Concepts referenced
 

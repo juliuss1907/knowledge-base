@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: ai
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #ai
 
 Auto-generated index of all content tagged with `#ai`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 219
-- Sources: 56
-- Concepts: 163
-- Last updated: 2026-09-21
+- Total files: 237
+- Sources: 61
+- Concepts: 176
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -75,11 +75,14 @@ Last updated: 2026-09-21 21:03:51
 - [[author-function]] — author-function (concept, main: #ai, sub: ['#research'], topic: ai-authorship-french-theory)
 - [[autobiographical-memory-systems]] — autobiographical-memory-systems (concept, main: #ai, sub: ['#research', '#opinion'], topic: agent-memory-systems)
 - [[autonomous-agents]] — autonomous-agents (concept, main: #crypto, sub: ['#ai', '#tools'], topic: machine-economy-crypto)
+- [[autoregressive-error-compounding]] — autoregressive-error-compounding (concept, main: #ai, sub: ['#research', '#system'], topic: autoregressive-error-compounding)
 - [[behavioral-evals]] — behavioral-evals (concept, main: #ai, sub: ['#coding', '#tools'], topic: behavioral-evals-harness-engineering)
+- [[benchmark-contamination]] — benchmark-contamination (concept, main: #ai, sub: ['#research', '#opinion'], topic: benchmark-contamination)
 - [[bpe-algorithm]] — bpe-algorithm (concept, main: #ai, sub: ['#research', '#coding'], topic: tokenization-llm)
 - [[browser-harness-tool]] — browser-harness-tool (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-workflow-optimization)
 - [[byte-level-bpe]] — byte-level-bpe (concept, main: #ai, sub: ['#research', '#coding'], topic: tokenization-llm)
 - [[cached-compute-retrieval]] — cached-compute-retrieval (concept, main: #ai, sub: ['#tools', '#research', '#coding'], topic: hybrid-retrieval-agentic-search)
+- [[calibrated-decision-models]] — calibrated-decision-models (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[category-kings-dynamics]] — category-kings-dynamics (concept, main: #economic, sub: ['#opinion', '#ai'], topic: market-structure)
 - [[claude-builder-role]] — claude-builder-role (concept, main: #ai, sub: ['#tools', '#tutorial'], topic: hermes-operator-builder-pattern)
 - [[coal-framework]] — coal-framework (concept, main: #ai, sub: ['#research'], topic: agent-memory-systems)
@@ -87,6 +90,7 @@ Last updated: 2026-09-21 21:03:51
 - [[cognitive-surrender]] — cognitive-surrender (concept, main: #ai, sub: ['#automation', '#coding', '#psychology'], topic: loop-engineering)
 - [[compact-vs-handoff]] — compact-vs-handoff (concept, main: #ai, sub: ['#tools', '#automation'], topic: ai-coding-context-handoff)
 - [[comprehension-debt]] — comprehension-debt (concept, main: #ai, sub: ['#automation', '#coding'], topic: loop-engineering)
+- [[compute-concentration-frontier]] — compute-concentration-frontier (concept, main: #ai, sub: ['#strategy', '#research'], topic: open-models-us-china)
 - [[consolidation-offline-processing]] — consolidation-offline-processing (concept, main: #ai, sub: ['#research', '#automation'], topic: agent-memory-systems)
 - [[content-generation-workflow]] — content-generation-workflow (concept, main: #productivity, sub: ['#ai', '#automation', '#tutorial'], topic: ai-workflow-methodology)
 - [[context-database]] — context-database (concept, main: #ai, sub: ['#tools', '#automation'], topic: agent-context-database)
@@ -111,6 +115,7 @@ Last updated: 2026-09-21 21:03:51
 - [[fast-weights]] — fast-weights (concept, main: #ai, sub: ['#research', '#tools'], topic: llm-memory-consolidation)
 - [[fp4-lightning-indexer]] — fp4-lightning-indexer (concept, main: #ai, sub: ['#research', '#tools'], topic: deepseek-v4-architecture)
 - [[gated-delta-networks]] — gated-delta-networks (concept, main: #ai, sub: ['#research', '#tools'], topic: llm-memory-consolidation)
+- [[gemini-4-argon]] — gemini-4-argon (concept, main: #ai, sub: ['#news', '#research', '#strategy'], topic: gemini-4-argon)
 - [[generative-ai-seo]] — generative-ai-seo (concept, main: #ai, sub: ['#tools', '#research'], topic: generative-ai-seo)
 - [[generative-search-results]] — generative-search-results (concept, main: #ai, sub: ['#research', '#tools'], topic: generative-search-results)
 - [[geo-strategy]] — geo-strategy (concept, main: #ai, sub: ['#research', '#tools'], topic: geo-strategy)
@@ -125,6 +130,7 @@ Last updated: 2026-09-21 21:03:51
 - [[hermes-token-management]] — hermes-token-management (concept, main: #ai, sub: ['#tools', '#opinion'], topic: hermes-top-skills-analysis)
 - [[hindsight-skill]] — hindsight-skill (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-personal-analyst-setup)
 - [[hippocampal-replay]] — hippocampal-replay (concept, main: #ai, sub: ['#research', '#health'], topic: llm-memory-consolidation)
+- [[html-as-agent-output-format]] — html-as-agent-output-format (concept, main: #ai, sub: ['#tools', '#opinion', '#coding'], topic: html-as-agent-output)
 - [[human-judgment-ai]] — human-judgment-ai (concept, main: #ai, sub: ['#opinion', '#research'], topic: ai-systems-thinking-augmentation)
 - [[hybrid-retrieval]] — hybrid-retrieval (concept, main: #ai, sub: ['#tools', '#research', '#coding'], topic: hybrid-retrieval-agentic-search)
 - [[idea-economy]] — idea-economy (concept, main: #ai, sub: ['#opinion'], topic: future-proof-skills)
@@ -144,8 +150,12 @@ Last updated: 2026-09-21 21:03:51
 - [[memory-consolidation-offline]] — memory-consolidation-offline (concept, main: #ai, sub: ['#research', '#tools'], topic: llm-memory-consolidation)
 - [[memory-extraction-timing]] — memory-extraction-timing (concept, main: #ai, sub: ['#research', '#tools'], topic: agent-memory-systems)
 - [[mixture-of-experts-moe]] — mixture-of-experts-moe (concept, main: #ai, sub: ['#research', '#tools'], topic: deepseek-v4-architecture)
+- [[model-vs-harness-adoption]] — model-vs-harness-adoption (concept, main: #ai, sub: ['#strategy', '#tools'], topic: model-vs-harness-adoption)
 - [[multi-agent-risk-review]] — multi-agent-risk-review (concept, main: #ai, sub: ['#automation', '#tools'], topic: ai-trading-agent-claude-code)
 - [[multi-agent-taxonomy]] — multi-agent-taxonomy (concept, main: #ai, sub: ['#research', '#automation'], topic: factory-missions-architecture)
+- [[multi-file-artifact-workflow]] — multi-file-artifact-workflow (concept, main: #ai, sub: ['#coding', '#tools'], topic: html-as-agent-output)
+- [[open-model-ecosystem-race]] — open-model-ecosystem-race (concept, main: #ai, sub: ['#geopolitics', '#research', '#opinion'], topic: open-models-us-china)
+- [[open-weight-vs-open-source]] — open-weight-vs-open-source (concept, main: #ai, sub: ['#research', '#opinion'], topic: open-models-us-china)
 - [[openai-jalapeno]] — openai-jalapeno (concept, main: #ai, sub: ['#tools', '#research'], topic: llm-chip-design)
 - [[orchestrator-worker-validator]] — orchestrator-worker-validator (concept, main: #ai, sub: ['#automation', '#tools'], topic: multi-agent-architecture)
 - [[parametric-memory]] — parametric-memory (concept, main: #ai, sub: ['#tools', '#research'], topic: agent-memory-systems)
@@ -188,12 +198,15 @@ Last updated: 2026-09-21 21:03:51
 - [[src_ai-skills-map-building-deploying-ai-apps]] — src_ai-skills-map-building-deploying-ai-apps (source, main: #ai, sub: ['#coding', '#research'], topic: ai-engineering-skills)
 - [[src_ai-trillion-dollar-blind-spot]] — src_ai-trillion-dollar-blind-spot (source, main: #ai, sub: ['#research', '#opinion'], topic: ai-landing-page-discovery)
 - [[src_ai-will-destroy-world-economy]] — src_ai-will-destroy-world-economy (source, main: #ai, sub: ['#news', '#opinion'], topic: ai-economic-disruption-white-collar)
+- [[src_alex-saint-ai-trading-bot-jev-solana]] — src_alex-saint-ai-trading-bot-jev-solana (source, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[src_anthropic-cybersecurity-skills]] — src_anthropic-cybersecurity-skills (source, main: #ai, sub: ['#tools', '#hack', '#research'], topic: ai-cybersecurity-skills-library)
+- [[src_atom-project-american-truly-open-models]] — src_atom-project-american-truly-open-models (source, main: #ai, sub: ['#geopolitics', '#research', '#opinion'], topic: open-models-us-china)
 - [[src_career-advice-age-of-ai-phil-chen]] — src_career-advice-age-of-ai-phil-chen (source, main: #productivity, sub: ['#ai', '#opinion'], topic: career-advice-ai-age)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — src_code-as-agent-harness-arxiv-2605-18747 (source, main: #ai, sub: ['#research', '#coding'], topic: code-as-agent-harness)
 - [[src_dan-koe-workflow-analysis-markus]] — src_dan-koe-workflow-analysis-markus (source, main: #productivity, sub: ['#tutorial', '#ai', '#automation'], topic: ai-workflow-methodology)
 - [[src_deepseek-v4-architecture]] — src_deepseek-v4-architecture (source, main: #ai, sub: ['#research', '#tools'], topic: deepseek-v4-architecture)
 - [[src_field-guide-to-fable-finding-unknowns]] — src_field-guide-to-fable-finding-unknowns (source, main: #ai, sub: ['#coding', '#tools'], topic: fable-finding-unknowns)
+- [[src_gemini-4-argon-explained-in-5min]] — src_gemini-4-argon-explained-in-5min (source, main: #ai, sub: ['#news', '#research', '#strategy'], topic: gemini-4-argon)
 - [[src_generative-ai-search-optimization]] — src_generative-ai-search-optimization (source, main: #ai, sub: ['#research', '#tools'], topic: generative-ai-search-optimization)
 - [[src_google-cloud-agent-sandbox-runtimes]] — src_google-cloud-agent-sandbox-runtimes (source, main: #ai, sub: ['#tools', '#hack', '#system'], topic: agent-sandbox-runtimes)
 - [[src_google-generative-ai-search-guide]] — src_google-generative-ai-search-guide (source, main: #ai, sub: ['#tools', '#research'], topic: google-ai-search-optimization)
@@ -209,6 +222,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_how-ai-productivity-fails]] — src_how-ai-productivity-fails (source, main: #ai, sub: ['#tools', '#automation', '#opinion'], topic: ai-productivity)
 - [[src_how-ai-text-watermarking-works]] — src_how-ai-text-watermarking-works (source, main: #ai, sub: ['#research', '#tools', '#hack'], topic: ai-text-watermarking)
 - [[src_how-average-people-will-get-rich-with-ai]] — src_how-average-people-will-get-rich-with-ai (source, main: #economic, sub: ['#tutorial', '#ai', '#tools'], topic: ai-first-business)
+- [[src_interconnects-ai]] — src_interconnects-ai (source, main: #ai, sub: ['#opinion', '#research'], topic: open-models-us-china)
 - [[src_introducing-backsearch-gr-inc]] — src_introducing-backsearch-gr-inc (source, main: #ai, sub: ['#tools', '#research'], topic: agent-backtesting)
 - [[src_is-there-anything-left-build-crypto-wintermute]] — src_is-there-anything-left-build-crypto-wintermute (source, main: #crypto, sub: ['#ai', '#opinion', '#tools'], topic: machine-economy-crypto)
 - [[src_jalapeno-llms-for-chip-design]] — src_jalapeno-llms-for-chip-design (source, main: #ai, sub: ['#research', '#tools'], topic: llm-chip-design)
@@ -227,6 +241,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_the-seed-and-the-machine]] — src_the-seed-and-the-machine (source, main: #ai, sub: ['#vibecode', '#system', '#research'], topic: seed-vs-machine-architecture)
 - [[src_this-essay-is-10-percent-ai-generated]] — src_this-essay-is-10-percent-ai-generated (source, main: #ai, sub: ['#research', '#opinion'], topic: ai-authorship-french-theory)
 - [[src_tokens-and-tokenization]] — src_tokens-and-tokenization (source, main: #ai, sub: ['#research', '#tools'], topic: tokenization-llm)
+- [[src_unreasonable-effectiveness-of-html]] — src_unreasonable-effectiveness-of-html (source, main: #ai, sub: ['#tools', '#opinion', '#coding'], topic: html-as-agent-output)
 - [[src_vectors-what-even-are-they-3b1b]] — src_vectors-what-even-are-they-3b1b (source, main: #ai, sub: ['#tutorial', '#research', '#coding'], topic: vectors-fundamentals)
 - [[src_what-is-a-product]] — src_what-is-a-product (source, main: #ai, sub: ['#opinion', '#vibecode'], topic: product-vs-prototype)
 - [[src_will-ai-replace-systems-thinking]] — src_will-ai-replace-systems-thinking (source, main: #ai, sub: ['#opinion', '#research'], topic: ai-systems-thinking-augmentation)
@@ -235,15 +250,18 @@ Last updated: 2026-09-21 21:03:51
 - [[state-space-models-ssm]] — state-space-models-ssm (concept, main: #ai, sub: ['#research', '#tools'], topic: llm-memory-consolidation)
 - [[static-website-blind-spot]] — static-website-blind-spot (concept, main: #ai, sub: ['#tools', '#opinion'], topic: ai-landing-page-discovery)
 - [[three-enforcement-loops]] — three-enforcement-loops (concept, main: #ai, sub: ['#coding', '#tools'], topic: harness-engineering-ai-coding)
+- [[throwaway-editing-interface]] — throwaway-editing-interface (concept, main: #ai, sub: ['#tools', '#coding'], topic: html-as-agent-output)
 - [[token-looping]] — token-looping (concept, main: #ai, sub: ['#system', '#opinion'], topic: ai-token-workforce)
 - [[tokenization]] — tokenization (concept, main: #ai, sub: ['#research', '#tools'], topic: tokenization-llm)
 - [[tokenmaxxing]] — tokenmaxxing (concept, main: #ai, sub: ['#opinion', '#news'], topic: ai-token-workforce)
+- [[two-speed-agent-loop]] — two-speed-agent-loop (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[user-md-configuration]] — user-md-configuration (concept, main: #ai, sub: ['#tools', '#tutorial'], topic: hermes-workflow-optimization)
 - [[validation-contract]] — validation-contract (concept, main: #ai, sub: ['#automation', '#tools'], topic: factory-missions-architecture)
 - [[vector-addition]] — vector-addition (concept, main: #ai, sub: ['#tutorial', '#research', '#coding'], topic: vectors-fundamentals)
 - [[vectors]] — vectors (concept, main: #ai, sub: ['#tutorial', '#research', '#coding'], topic: vectors-fundamentals)
 - [[vibe-coding]] — vibe-coding (concept, main: #ai, sub: ['#tools', '#vibecode'], topic: ai-future-skills)
 - [[vocabulary-size-tradeoff]] — vocabulary-size-tradeoff (concept, main: #ai, sub: ['#research', '#tools'], topic: tokenization-llm)
+- [[wallet-isolation-for-ai-agents]] — wallet-isolation-for-ai-agents (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[x-account-tracking-skill]] — x-account-tracking-skill (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-top-skills-analysis)
 - [[x-bookmark-prioritization]] — x-bookmark-prioritization (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-top-skills-analysis)
 - [[x-search-tool]] — x-search-tool (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-xai-grok-integration)
@@ -252,8 +270,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#ai`:
-- [[tools]] — 139 co-occurrences
-- [[research]] — 97 co-occurrences
-- [[automation]] — 61 co-occurrences
-- [[opinion]] — 48 co-occurrences
-- [[coding]] — 38 co-occurrences
+- [[tools]] — 148 co-occurrences
+- [[research]] — 106 co-occurrences
+- [[automation]] — 65 co-occurrences
+- [[opinion]] — 55 co-occurrences
+- [[coding]] — 42 co-occurrences

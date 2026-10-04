@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [psychology]
 topic: effective-learning-methods
 sources:
-  - "[[src_how-to-remember-everything-you-read-dan-koe.md]]"
+  - "[[src_how-to-remember-everything-you-read-dan-koe]]"
 last_updated: 2026-07-30
 ---
 
@@ -34,6 +34,6 @@ Trong cybernetics learning model, error signal là gap giữa target state (goal
 
 ## Sources
 
-- [[src_how-to-remember-everything-you-read-dan-koe.md]]
+- [[src_how-to-remember-everything-you-read-dan-koe]]
 
 ## Notes

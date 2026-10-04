@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #tools
 
 Auto-generated index of all content tagged with `#tools`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 241
-- Sources: 55
-- Concepts: 186
-- Last updated: 2026-09-21
+- Total files: 250
+- Sources: 57
+- Concepts: 193
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -71,6 +71,7 @@ Last updated: 2026-09-21 21:03:51
 - [[browser-harness-tool]] — browser-harness-tool (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-workflow-optimization)
 - [[business-idiot-archetype]] — business-idiot-archetype (concept, main: #economic, sub: ['#opinion', '#tools'], topic: ai-business-criticism)
 - [[cached-compute-retrieval]] — cached-compute-retrieval (concept, main: #ai, sub: ['#tools', '#research', '#coding'], topic: hybrid-retrieval-agentic-search)
+- [[calibrated-decision-models]] — calibrated-decision-models (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[causal-loop-diagram]] — causal-loop-diagram (concept, main: #productivity, sub: ['#tools', '#research', '#tutorial'], topic: systems-thinking-tools)
 - [[character-change-signal]] — character-change-signal (concept, main: #economic, sub: ['#research', '#tools'], topic: market-structure-analysis)
 - [[claude-builder-role]] — claude-builder-role (concept, main: #ai, sub: ['#tools', '#tutorial'], topic: hermes-operator-builder-pattern)
@@ -129,6 +130,7 @@ Last updated: 2026-09-21 21:03:51
 - [[hermes-three-layers]] — hermes-three-layers (concept, main: #ai, sub: ['#tools', '#automation', '#tutorial'], topic: hermes-workflow-optimization)
 - [[hermes-token-management]] — hermes-token-management (concept, main: #ai, sub: ['#tools', '#opinion'], topic: hermes-top-skills-analysis)
 - [[hindsight-skill]] — hindsight-skill (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-personal-analyst-setup)
+- [[html-as-agent-output-format]] — html-as-agent-output-format (concept, main: #ai, sub: ['#tools', '#opinion', '#coding'], topic: html-as-agent-output)
 - [[hybrid-retrieval]] — hybrid-retrieval (concept, main: #ai, sub: ['#tools', '#research', '#coding'], topic: hybrid-retrieval-agentic-search)
 - [[iceberg-model]] — iceberg-model (concept, main: #productivity, sub: ['#tools', '#research', '#tutorial'], topic: systems-thinking-tools)
 - [[in-context-memory]] — in-context-memory (concept, main: #ai, sub: ['#tools', '#research'], topic: agent-memory-systems)
@@ -145,8 +147,10 @@ Last updated: 2026-09-21 21:03:51
 - [[memory-consolidation-offline]] — memory-consolidation-offline (concept, main: #ai, sub: ['#research', '#tools'], topic: llm-memory-consolidation)
 - [[memory-extraction-timing]] — memory-extraction-timing (concept, main: #ai, sub: ['#research', '#tools'], topic: agent-memory-systems)
 - [[mixture-of-experts-moe]] — mixture-of-experts-moe (concept, main: #ai, sub: ['#research', '#tools'], topic: deepseek-v4-architecture)
+- [[model-vs-harness-adoption]] — model-vs-harness-adoption (concept, main: #ai, sub: ['#strategy', '#tools'], topic: model-vs-harness-adoption)
 - [[moores-law-economics]] — moores-law-economics (concept, main: #economic, sub: ['#tools', '#research'], topic: moores-law)
 - [[multi-agent-risk-review]] — multi-agent-risk-review (concept, main: #ai, sub: ['#automation', '#tools'], topic: ai-trading-agent-claude-code)
+- [[multi-file-artifact-workflow]] — multi-file-artifact-workflow (concept, main: #ai, sub: ['#coding', '#tools'], topic: html-as-agent-output)
 - [[new-leverage-digital-assets]] — new-leverage-digital-assets (concept, main: #economic, sub: ['#opinion', '#tools'], topic: writing-content-system)
 - [[note-taking-systems]] — note-taking-systems (concept, main: #productivity, sub: ['#tools'], topic: learning-elaboration-technique)
 - [[oauth-security-risks]] — oauth-security-risks (concept, main: #tech, sub: ['#hack', '#tools'], topic: sso-security-risks)
@@ -196,6 +200,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_agent-memory-anatomy]] — src_agent-memory-anatomy (source, main: #ai, sub: ['#research', '#tools'], topic: agent-memory-systems)
 - [[src_ai-future-skills]] — src_ai-future-skills (source, main: #ai, sub: ['#opinion', '#tools'], topic: ai-future-skills)
 - [[src_ai-reflexivity-loop-is-same]] — src_ai-reflexivity-loop-is-same (source, main: #economic, sub: ['#opinion', '#tools'], topic: ai-reflexivity-2026)
+- [[src_alex-saint-ai-trading-bot-jev-solana]] — src_alex-saint-ai-trading-bot-jev-solana (source, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[src_anthropic-cybersecurity-skills]] — src_anthropic-cybersecurity-skills (source, main: #ai, sub: ['#tools', '#hack', '#research'], topic: ai-cybersecurity-skills-library)
 - [[src_archify]] — src_archify (source, main: #tech, sub: ['#tools', '#coding', '#automation'], topic: architecture-as-code)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — src_build-ai-trading-agent-claude-code-alpaca (source, main: #tech, sub: ['#tutorial', '#automation', '#tools'], topic: ai-trading-agent-claude-code)
@@ -241,6 +246,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_the-writing-habit-that-saved-my-brain]] — src_the-writing-habit-that-saved-my-brain (source, main: #productivity, sub: ['#tutorial', '#tools'], topic: writing-content-system)
 - [[src_threeui]] — src_threeui (source, main: #tech, sub: ['#tools', '#coding'], topic: ui-component-library)
 - [[src_tokens-and-tokenization]] — src_tokens-and-tokenization (source, main: #ai, sub: ['#research', '#tools'], topic: tokenization-llm)
+- [[src_unreasonable-effectiveness-of-html]] — src_unreasonable-effectiveness-of-html (source, main: #ai, sub: ['#tools', '#opinion', '#coding'], topic: html-as-agent-output)
 - [[src_you-just-hired-a-million-bad-employees-a16z]] — src_you-just-hired-a-million-bad-employees-a16z (source, main: #ai, sub: ['#opinion', '#tools', '#system'], topic: ai-token-workforce)
 - [[sso-single-point-of-failure]] — sso-single-point-of-failure (concept, main: #tech, sub: ['#hack', '#tools'], topic: sso-security-risks)
 - [[stakeholder-mapping]] — stakeholder-mapping (concept, main: #productivity, sub: ['#tools', '#research', '#tutorial'], topic: systems-thinking-tools)
@@ -253,9 +259,11 @@ Last updated: 2026-09-21 21:03:51
 - [[systems-thinking]] — systems-thinking (concept, main: #productivity, sub: ['#tools', '#research', '#tutorial'], topic: systems-thinking-tools)
 - [[technology-driven-dependence]] — technology-driven-dependence (concept, main: #economic, sub: ['#opinion', '#tools'], topic: technology-society)
 - [[three-enforcement-loops]] — three-enforcement-loops (concept, main: #ai, sub: ['#coding', '#tools'], topic: harness-engineering-ai-coding)
+- [[throwaway-editing-interface]] — throwaway-editing-interface (concept, main: #ai, sub: ['#tools', '#coding'], topic: html-as-agent-output)
 - [[token-economic-mechanics]] — token-economic-mechanics (concept, main: #crypto, sub: ['#defi', '#tools'], topic: arcade-tokens)
 - [[token-theft-attack]] — token-theft-attack (concept, main: #tech, sub: ['#hack', '#tools'], topic: sso-security-risks)
 - [[tokenization]] — tokenization (concept, main: #ai, sub: ['#research', '#tools'], topic: tokenization-llm)
+- [[two-speed-agent-loop]] — two-speed-agent-loop (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[ui-component-library]] — ui-component-library (concept, main: #tech, sub: ['#tools', '#coding'], topic: ui-component-library)
 - [[unified-api-gateway]] — unified-api-gateway (concept, main: #system, sub: ['#tools', '#automation'], topic: ai-agent-tool-platform)
 - [[user-md-configuration]] — user-md-configuration (concept, main: #ai, sub: ['#tools', '#tutorial'], topic: hermes-workflow-optimization)
@@ -264,6 +272,7 @@ Last updated: 2026-09-21 21:03:51
 - [[vocabulary-size-tradeoff]] — vocabulary-size-tradeoff (concept, main: #ai, sub: ['#research', '#tools'], topic: tokenization-llm)
 - [[volume-confirmation]] — volume-confirmation (concept, main: #economic, sub: ['#tools', '#research'], topic: market-structure-analysis)
 - [[vs-code-marketplace-security]] — vs-code-marketplace-security (concept, main: #tech, sub: ['#hack', '#tools'], topic: github-supply-chain-attack-vs-code)
+- [[wallet-isolation-for-ai-agents]] — wallet-isolation-for-ai-agents (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[x-account-tracking-skill]] — x-account-tracking-skill (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-top-skills-analysis)
 - [[x-api-oauth2]] — x-api-oauth2 (concept, main: #tech, sub: ['#tools', '#tutorial'], topic: hermes-xurl-x-api-integration)
 - [[x-bookmark-prioritization]] — x-bookmark-prioritization (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-top-skills-analysis)
@@ -274,8 +283,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#tools`:
-- [[ai]] — 139 co-occurrences
+- [[ai]] — 148 co-occurrences
+- [[automation]] — 73 co-occurrences
 - [[research]] — 73 co-occurrences
-- [[automation]] — 69 co-occurrences
 - [[tech]] — 45 co-occurrences
-- [[opinion]] — 28 co-occurrences
+- [[coding]] — 30 co-occurrences

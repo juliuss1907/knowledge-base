@@ -31,6 +31,6 @@ Cognitive surrender (đầu hàng nhận thức) là xu hướng ngừng hình t
 
 ## Sources
 
-- "[[src_loop-engineering-14-step-roadmap]]"
+- [[src_loop-engineering-14-step-roadmap]]
 
 ## Notes

@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #automation
 
 Auto-generated index of all content tagged with `#automation`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 101
-- Sources: 22
-- Concepts: 79
-- Last updated: 2026-09-21
+- Total files: 105
+- Sources: 23
+- Concepts: 82
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -45,6 +45,7 @@ Last updated: 2026-09-21 21:03:51
 - [[atomic-mac-agent]] — atomic-mac-agent (concept, main: #tech, sub: ['#tools', '#automation'], topic: hermes-polymarket-trading-agent)
 - [[batch-vs-live-inference]] — batch-vs-live-inference (concept, main: #tech, sub: ['#tools', '#automation'], topic: batch-vs-live-inference)
 - [[browser-harness-tool]] — browser-harness-tool (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-workflow-optimization)
+- [[calibrated-decision-models]] — calibrated-decision-models (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[catalysts]] — catalysts (concept, main: #system, sub: ['#psychology', '#automation'], topic: activation-energy-mental-model)
 - [[claude-code-routines]] — claude-code-routines (concept, main: #tech, sub: ['#automation', '#tools'], topic: ai-trading-agent-claude-code)
 - [[closed-loop-system]] — closed-loop-system (concept, main: #system, sub: ['#automation', '#tools'], topic: ai-productivity)
@@ -102,6 +103,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_2026-advice]] — src_2026-advice (source, main: #productivity, sub: ['#opinion', '#psychology', '#automation'], topic: career-advice-ai-age)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — src_3-things-learnt-3-weeks-hermes-analyst (source, main: #ai, sub: ['#tools', '#automation', '#opinion'], topic: hermes-personal-analyst-setup)
 - [[src_activation-energy]] — src_activation-energy (source, main: #productivity, sub: ['#psychology', '#automation'], topic: activation-energy-mental-model)
+- [[src_alex-saint-ai-trading-bot-jev-solana]] — src_alex-saint-ai-trading-bot-jev-solana (source, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[src_archify]] — src_archify (source, main: #tech, sub: ['#tools', '#coding', '#automation'], topic: architecture-as-code)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — src_build-ai-trading-agent-claude-code-alpaca (source, main: #tech, sub: ['#tutorial', '#automation', '#tools'], topic: ai-trading-agent-claude-code)
 - [[src_dan-koe-mind-game-practical-application]] — src_dan-koe-mind-game-practical-application (source, main: #productivity, sub: ['#psychology', '#automation'], topic: dan-koe-mind-game)
@@ -124,8 +126,10 @@ Last updated: 2026-09-21 21:03:51
 - [[success-trap]] — success-trap (concept, main: #productivity, sub: ['#psychology', '#automation'], topic: dan-koe-mind-game)
 - [[systematic-trading]] — systematic-trading (concept, main: #economic, sub: ['#tutorial', '#automation'], topic: trading-methodology)
 - [[taste-holders]] — taste-holders (concept, main: #system, sub: ['#automation', '#opinion'], topic: ai-productivity)
+- [[two-speed-agent-loop]] — two-speed-agent-loop (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[unified-api-gateway]] — unified-api-gateway (concept, main: #system, sub: ['#tools', '#automation'], topic: ai-agent-tool-platform)
 - [[validation-contract]] — validation-contract (concept, main: #ai, sub: ['#automation', '#tools'], topic: factory-missions-architecture)
+- [[wallet-isolation-for-ai-agents]] — wallet-isolation-for-ai-agents (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[x-account-tracking-skill]] — x-account-tracking-skill (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-top-skills-analysis)
 - [[x-bookmark-prioritization]] — x-bookmark-prioritization (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-top-skills-analysis)
 - [[x-search-tool]] — x-search-tool (concept, main: #ai, sub: ['#tools', '#automation'], topic: hermes-xai-grok-integration)
@@ -134,8 +138,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#automation`:
-- [[tools]] — 69 co-occurrences
-- [[ai]] — 61 co-occurrences
+- [[tools]] — 73 co-occurrences
+- [[ai]] — 65 co-occurrences
 - [[productivity]] — 21 co-occurrences
 - [[tutorial]] — 16 co-occurrences
 - [[psychology]] — 13 co-occurrences

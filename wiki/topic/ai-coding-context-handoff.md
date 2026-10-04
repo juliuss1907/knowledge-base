@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-coding-context-handoff
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: ai-coding-context-handoff
 
 Auto-generated index of all content with topic `ai-coding-context-handoff`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -26,7 +26,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_handoff-skill-context-window-management]] — main: #ai, sub: ['#tools', '#automation', '#coding']
-
-## Related topics
-
-No related topics found.

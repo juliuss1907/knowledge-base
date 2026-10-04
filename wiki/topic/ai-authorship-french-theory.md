@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-authorship-french-theory
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: ai-authorship-french-theory
 
 Auto-generated index of all content with topic `ai-authorship-french-theory`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,7 +22,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_this-essay-is-10-percent-ai-generated]] — main: #ai, sub: ['#research', '#opinion']
-
-## Related topics
-
-No related topics found.

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: skill-acquisition
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: skill-acquisition
 
 Auto-generated index of all content with topic `skill-acquisition`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -23,7 +23,3 @@ Last updated: 2026-09-21 21:03:51
 
 - [[src_neuroscience-of-perfect-skill-acquisition]] — main: #productivity, sub: ['#psychology', '#research']
 - [[src_personal-mba-generator-skill]] — main: #productivity, sub: ['#tools', '#psychology']
-
-## Related topics
-
-No related topics found.

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: measurable-outcomes
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: measurable-outcomes
 
 Auto-generated index of all content with topic `measurable-outcomes`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,7 +22,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_tao-ket-qua-dinh-luong-duoc]] — main: #productivity, sub: ['#system', '#coding']
-
-## Related topics
-
-No related topics found.

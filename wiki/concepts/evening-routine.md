@@ -6,7 +6,8 @@ sub_tags: [tutorial, health]
 topic: sleep-hygiene
 sources:
   - "[[src_japanese-evening-routine-fix-sleep]]"
-last_updated: 2026-05-30
+  - "[[src_why-you-waste-your-evenings-neuroscience]]"
+last_updated: 2026-09-30
 ---
 
 # Evening Routine
@@ -21,16 +22,23 @@ Chuỗi thói quen buổi tối được thiết kế để chuẩn bị cơ th�
 - Mỗi thói quen hỗ trợ cái tiếp theo theo nguyên lý Kaizen
 - Không cần làm tất cả — chọn 1 bắt đầu tối nay
 - Đọc sách giấy 6 phút giảm stress 68%
+- **Hai lý do khác nhau cho cùng một routine:** góc Nhật Bản là chuẩn bị cơ thể cho giấc ngủ (hạ nhiệt, cortisol, circadian); góc thần kinh là **phục hồi PFC** sau ngày quyết định liên tục
+- **Mẫu chung của các hoạt động phục hồi:** cơ thể có thể hoạt động, bộ não ra quyết định phải rảnh — đi bộ không podcast, nghe nhạc quen, nấu món đã nấu, ngồi ngoài trời làm không
+- Chỉ 20–30 phút như vậy trước khi bắt đầu buổi tối là đủ để glutamate được thanh tẩy — sau đó sách, phòng gym và bữa ăn thực sự trở nên khả thi trở lại
+- Xem [[decision-fatigue-glutamate]]
 
 ## Related concepts
 
 - [[cortisol-management]]
 - [[sleep-hygiene]]
 - [[circadian-rhythm]]
+- [[decision-fatigue-glutamate]]
+- [[boredom-as-dopamine-reset]]
 
 ## Sources
 
 - [[src_japanese-evening-routine-fix-sleep]]
+- [[src_why-you-waste-your-evenings-neuroscience]]
 
 ## Notes
 

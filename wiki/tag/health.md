@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: health
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #health
 
 Auto-generated index of all content tagged with `#health`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,15 +22,15 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 63
-- Sources: 14
-- Concepts: 49
-- Last updated: 2026-09-21
+- Total files: 67
+- Sources: 16
+- Concepts: 51
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
 - [[ai-dependency]] — ai-dependency (concept, main: #health, sub: ['#psychology', '#ai'], topic: never-enough-culture)
-- [[amygdala-vs-prefrontal-cortex]] — amygdala-vs-prefrontal-cortex (concept, main: #health, sub: ['#psychology', '#research'], topic: brain-threat-detection)
+- [[amygdala-vs-prefrontal-cortex]] — amygdala-vs-prefrontal-cortex (concept, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
 - [[anterior-cingulate-cortex]] — anterior-cingulate-cortex (concept, main: #health, sub: ['#psychology'], topic: let-them-theory-relationships)
 - [[brain-rot]] — brain-rot (concept, main: #health, sub: ['#psychology', '#research'], topic: brain-health)
 - [[childhood-abandonment-patterns]] — childhood-abandonment-patterns (concept, main: #health, sub: ['#psychology'], topic: childhood-emotional-wounds)
@@ -42,6 +42,7 @@ Last updated: 2026-09-21 21:03:51
 - [[consumption-vs-action]] — consumption-vs-action (concept, main: #health, sub: ['#psychology'], topic: action-vs-consumption)
 - [[control-trap]] — control-trap (concept, main: #health, sub: ['#psychology'], topic: let-them-theory-relationships)
 - [[curiosity-hijacking]] — curiosity-hijacking (concept, main: #health, sub: ['#psychology'], topic: attention-hijacking)
+- [[decision-fatigue-glutamate]] — decision-fatigue-glutamate (concept, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
 - [[default-mode-network]] — default-mode-network (concept, main: #ai, sub: ['#research', '#health'], topic: evolutionary-mismatch-modern-life)
 - [[destination-vs-vehicle]] — destination-vs-vehicle (concept, main: #health, sub: ['#psychology'], topic: social-attraction-dynamics)
 - [[dopamine-baseline-reset]] — dopamine-baseline-reset (concept, main: #health, sub: ['#psychology', '#research'], topic: dopamine-curiosity-reset)
@@ -77,6 +78,7 @@ Last updated: 2026-09-21 21:03:51
 - [[social-attraction]] — social-attraction (concept, main: #health, sub: ['#psychology'], topic: social-attraction-dynamics)
 - [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo (source, main: #health, sub: ['#psychology', '#research'], topic: brain-health-habits)
 - [[src_compound-exercises-pareto-workouts]] — src_compound-exercises-pareto-workouts (source, main: #health, sub: ['#tutorial'], topic: compound-exercises)
+- [[src_do-less]] — src_do-less (source, main: #productivity, sub: ['#psychology', '#health', '#opinion'], topic: doing-less-mind-space)
 - [[src_get-in-shape-r3-notes]] — src_get-in-shape-r3-notes (source, main: #health, sub: ['#psychology', '#system'], topic: r3-get-in-shape)
 - [[src_happiness-is-a-skill-hussain-ibarra]] — src_happiness-is-a-skill-hussain-ibarra (source, main: #health, sub: ['#psychology', '#opinion'], topic: happiness-flow-state)
 - [[src_japanese-evening-routine-fix-sleep]] — src_japanese-evening-routine-fix-sleep (source, main: #productivity, sub: ['#tutorial', '#health'], topic: sleep-hygiene)
@@ -88,16 +90,18 @@ Last updated: 2026-09-21 21:03:51
 - [[src_the-let-them-theory-gabriel-reality]] — src_the-let-them-theory-gabriel-reality (source, main: #health, sub: ['#psychology', '#opinion'], topic: let-them-theory-relationships)
 - [[src_why-time-felt-slower-when-we-were-kids]] — src_why-time-felt-slower-when-we-were-kids (source, main: #health, sub: ['#psychology', '#research', '#tutorial'], topic: time-perception-childhood)
 - [[src_why-you-never-start-its-not-about-motivation]] — src_why-you-never-start-its-not-about-motivation (source, main: #health, sub: ['#psychology', '#research'], topic: procrastination-nervous-system)
-- [[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]] — src_why-youve-lost-your-curiosity-and-how-to-get-it-back (source, main: #health, sub: ['#psychology', '#research'], topic: dopamine-curiosity-reset)
+- [[src_why-you-waste-your-evenings-neuroscience]] — src_why-you-waste-your-evenings-neuroscience (source, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
+- [[src_why-youve-lost-your-curiosity-how-to-get-it-back]] — src_why-youve-lost-your-curiosity-how-to-get-it-back (source, main: #health, sub: ['#psychology', '#research'], topic: dopamine-curiosity-reset)
 - [[stoic-dichotomy-of-control]] — stoic-dichotomy-of-control (concept, main: #health, sub: ['#psychology'], topic: let-them-theory-relationships)
+- [[stress-habituation]] — stress-habituation (concept, main: #health, sub: ['#psychology', '#research'], topic: doing-less-mind-space)
 - [[window-of-tolerance]] — window-of-tolerance (concept, main: #health, sub: ['#psychology'], topic: nervous-system-regulation)
 - [[work-life-balance]] — work-life-balance (concept, main: #health, sub: ['#psychology', '#opinion'], topic: never-enough-culture)
 
 ## Co-occurring tags
 
 Tags that frequently appear with `#health`:
-- [[psychology]] — 53 co-occurrences
-- [[research]] — 17 co-occurrences
-- [[opinion]] — 13 co-occurrences
-- [[productivity]] — 9 co-occurrences
+- [[psychology]] — 57 co-occurrences
+- [[research]] — 20 co-occurrences
+- [[opinion]] — 14 co-occurrences
+- [[productivity]] — 10 co-occurrences
 - [[tutorial]] — 9 co-occurrences

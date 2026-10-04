@@ -5,7 +5,7 @@ main_tag: economic
 sub_tags: [opinion, tools]
 topic: technology-society
 sources:
-  - "[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]"
+  - "[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]]"
 last_updated: 2026-08-01
 ---
 
@@ -33,6 +33,6 @@ Hiện tượng con người trở nên phụ thuộc vào công nghệ khi các
 
 ## Sources
 
-- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]
+- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]]
 
 ## Notes

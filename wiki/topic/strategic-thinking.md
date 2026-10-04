@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: strategic-thinking
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: strategic-thinking
 
 Auto-generated index of all content with topic `strategic-thinking`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -23,7 +23,3 @@ Last updated: 2026-09-21 21:03:51
 
 - [[src_strategy-vs-tactics-dan-koe]] — main: #productivity, sub: ['#strategy', '#psychology']
 - [[src_the-art-of-strategic-thinking]] — main: #productivity, sub: ['#strategy', '#psychology']
-
-## Related topics
-
-No related topics found.

@@ -32,6 +32,6 @@ Context engineering là discipline đảm bảo AI coding assistant biết đủ
 
 ## Sources
 
-- "[[src_harness-engineering-ai-coding]]"
+- [[src_harness-engineering-ai-coding]]
 
 ## Notes

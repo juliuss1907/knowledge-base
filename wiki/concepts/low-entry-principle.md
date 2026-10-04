@@ -18,7 +18,7 @@ Hạ thấp kỳ vọng ban đầu để giảm friction khi bắt đầu — th
 ## Key ideas
 
 - Nếu tạo expectations quá cao và muốn mọi thứ perfect immediately → impossible to start
-- "Bad hair day" không phải lý do bỏ cuộc — bạn không mention thì không ai biết, vậy tại sao让它阻止 bạn?
+- "Bad hair day" không phải lý do bỏ cuộc — bạn không mention thì không ai biết, vậy tại sao để nó ngăn bạn?
 - Mỗi lần tránh task → dump responsibility lên future self → có thể mai hoặc mốt vẫn phải làm → tại sao không hôm nay?
 - learn to regulate cảm xúc trong situations không hoàn hảo thay vì chạy trốn → vẫn tiến closer đến goal
 - Tương tự gym: forced approach = inconsistent; find a door already slightly open = consistent

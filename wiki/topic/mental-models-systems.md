@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-systems
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: mental-models-systems
 
 Auto-generated index of all content with topic `mental-models-systems`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -25,7 +25,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_farnam-street-mental-models-systems-thinking]] — main: #productivity, sub: ['#research']
-
-## Related topics
-
-No related topics found.

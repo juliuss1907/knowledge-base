@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: llm-chip-design
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: llm-chip-design
 
 Auto-generated index of all content with topic `llm-chip-design`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -23,7 +23,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_jalapeno-llms-for-chip-design]] — main: #ai, sub: ['#research', '#tools']
-
-## Related topics
-
-No related topics found.

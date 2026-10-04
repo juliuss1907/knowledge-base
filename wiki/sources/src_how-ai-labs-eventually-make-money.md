@@ -21,7 +21,7 @@ author: michaellwy
 
 ## Summary
 
-Bài viết phân tích mô hình kinh doanh của các AI labs, so sánh với ngành đường sắt — cả hai đều có cấu trúc kinh tế tương tự: vốn upfront khổng lồ, dịch vụ core priced near marginal cost, giá trị tạo ra cho users nhưng builder几乎 không capture được. Tác giả dùng mô hình MTR Hong Kong (hệ thống metro duy nhất trên thế giới tự duy trì tài chính mà không cần subsidy) để gợi ý giải pháp: AI labs nên tìm "property above the station" — tài sản appreciates nhờ infrastructure thay vì cố gắng makes money trực tiếp từ API. Bốn cơ chế được đề xuất: deployment rights, accumulated RL reward data, forward-deployed integration, và data trusteeship.
+Bài viết phân tích mô hình kinh doanh của các AI labs, so sánh với ngành đường sắt — cả hai đều có cấu trúc kinh tế tương tự: vốn upfront khổng lồ, dịch vụ core priced near marginal cost, giá trị tạo ra cho users nhưng builder gần như không capture được. Tác giả dùng mô hình MTR Hong Kong (hệ thống metro duy nhất trên thế giới tự duy trì tài chính mà không cần subsidy) để gợi ý giải pháp: AI labs nên tìm "property above the station" — tài sản appreciates nhờ infrastructure thay vì cố gắng makes money trực tiếp từ API. Bốn cơ chế được đề xuất: deployment rights, accumulated RL reward data, forward-deployed integration, và data trusteeship.
 
 ## Key points
 

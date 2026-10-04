@@ -32,6 +32,6 @@ Behavioral evals là các phép đánh giá AI agent ở cấp độ nhỏ, đo 
 
 ## Sources
 
-- "[[src_googletech-behavioral-evals-harness-engineering]]"
+- [[src_googletech-behavioral-evals-harness-engineering]]
 
 ## Notes

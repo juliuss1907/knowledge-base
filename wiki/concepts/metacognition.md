@@ -32,4 +32,4 @@ Metacognition là khả năng "suy nghĩ về suy nghĩ" — quan sát và kiể
 
 ## Sources
 
-- "[[src_thinking-about-thinking-metacognition]]"
+- [[src_thinking-about-thinking-metacognition]]

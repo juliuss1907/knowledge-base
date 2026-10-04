@@ -7,7 +7,8 @@ topic: ai-workflow-methodology
 sources:
   - "[[src_how-average-people-will-get-rich-with-ai]]"
   - "[[src_dan-koe-workflow-analysis-markus]]"
-last_updated: 2026-06-17
+  - "[[src_how-to-create-ai-animation-ads-with-gemini]]"
+last_updated: 2026-10-04
 ---
 
 # Content Generation Workflow
@@ -24,6 +25,9 @@ Hệ thống tạo content sử dụng AI với quy trình 4 bước: generate i
 4. **Sản xuất hàng loạt:** Feed từng idea vào prompt để tạo outline → script → chỉnh sửa
 5. **Platform-specific:** Workflow thay đổi tùy theo YouTube, Twitter, LinkedIn, Newsletter
 6. **Copy what works, with your strategy:** Không copy nội dung mà copy cấu trúc, áp dụng với góc nhìn riêng
+7. **Mở rộng sang video animation:** cùng logic pipeline chạy cho quảng cáo animation — LLM viết prompt từng scene theo SOP, model video render scene, tool khác lo voiceover/nhạc/phụ đề
+8. **Prompt phải đúng đích đầu cuối:** prompt sinh ra từ LLM phải feed thẳng được vào model video; thêm bước dịch thủ công giữa các tool là phần chi phí lớn nhất bị bỏ phí
+9. **Định khung bằng chi phí, không bằng chất lượng:** quy trình được bán bằng luận điểm "12 cent mỗi video, thay freelancer" chứ không phải bằng claim chất lượng — cùng logic với `copy what works`, giá trị nằm ở lợi nhuận biên
 
 ## Workflow 4 bước
 
@@ -37,10 +41,13 @@ Generate 30 ideas → Break down viral content → Tạo generation prompt → P
 - [[expert-knowledge-extraction]]
 - [[personal-branding-ai]]
 - [[ai-first-business-model]]
+- [[ai-animation-ad-pipeline]]
+- [[frame-chaining-continuity]]
 
 ## Sources
 
 - [[src_how-average-people-will-get-rich-with-ai]]
 - [[src_dan-koe-workflow-analysis-markus]]
+- [[src_how-to-create-ai-animation-ads-with-gemini]]
 
 ## Notes

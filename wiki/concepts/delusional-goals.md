@@ -33,4 +33,4 @@ Delusional goals là những mục tiêu được đặt ở mức "bất khả 
 
 ## Sources
 
-- "[[src_delusional-goals-drive-success]]"
+- [[src_delusional-goals-drive-success]]

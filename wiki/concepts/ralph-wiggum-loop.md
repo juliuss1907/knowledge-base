@@ -31,6 +31,6 @@ Ralph Wiggum loop là một failure mode trong loop engineering, được đặt
 
 ## Sources
 
-- "[[src_loop-engineering-14-step-roadmap]]"
+- [[src_loop-engineering-14-step-roadmap]]
 
 ## Notes

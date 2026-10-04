@@ -26,7 +26,6 @@ Phân loại 5 mô hình giao tiếp cơ bản giữa các agent trong hệ th�
 ## Related concepts
 
 - [[factory-missions]]
-- [[multi-agent-systems]]
 - [[orchestrator-worker-validator]]
 
 ## Sources

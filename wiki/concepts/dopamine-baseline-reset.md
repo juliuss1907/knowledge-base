@@ -5,7 +5,7 @@ main_tag: health
 sub_tags: [psychology, research]
 topic: dopamine-curiosity-reset
 sources:
-  - "[[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]]"
+  - "[[src_why-youve-lost-your-curiosity-how-to-get-it-back]]"
 last_updated: 2026-09-21
 ---
 
@@ -33,6 +33,6 @@ Dopamine baseline reset là quá trình phục hồi hệ dopamine sau khi bị 
 
 ## Sources
 
-- [[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]]
+- [[src_why-youve-lost-your-curiosity-how-to-get-it-back]]
 
 ## Notes

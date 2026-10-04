@@ -14,7 +14,7 @@ last_updated: 2026-09-20
 
 ## Definition
 
-Life planning ở tuổi 20 là quá trình deliberately thiết lập nền tảng cho thập kỷ tiếp theo — bao gồm financial literacy, career direction, social skills, và personal development. Cả hai nguồn (người 29 tuổi và người 57 tuổi) đều nhấn mạnh rằng 20s là thời điểm quan trọng nhất: small decisions ở tuổi 20 compound thành巨大 differences ở tuổi 30, và sự khác biệt giữa người "thắng" và "thua" thường rõ ràng khi approaching 30.
+Life planning ở tuổi 20 là quá trình deliberately thiết lập nền tảng cho thập kỷ tiếp theo — bao gồm financial literacy, career direction, social skills, và personal development. Cả hai nguồn (người 29 tuổi và người 57 tuổi) đều nhấn mạnh rằng 20s là thời điểm quan trọng nhất: small decisions ở tuổi 20 compound thành khác biệt lớn ở tuổi 30, và sự khác biệt giữa người "thắng" và "thua" thường rõ ràng khi approaching 30.
 
 ## Key ideas
 

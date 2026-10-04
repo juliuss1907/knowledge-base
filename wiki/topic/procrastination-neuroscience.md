@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: procrastination-neuroscience
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: procrastination-neuroscience
 
 Auto-generated index of all content with topic `procrastination-neuroscience`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -25,7 +25,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_give-me-14-minutes-destroy-procrastination]] — main: #productivity, sub: ['#psychology', '#opinion']
-
-## Related topics
-
-No related topics found.

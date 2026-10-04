@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: r3-get-in-shape
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: r3-get-in-shape
 
 Auto-generated index of all content with topic `r3-get-in-shape`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -23,7 +23,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_get-in-shape-r3-notes]] — main: #health, sub: ['#psychology', '#system']
-
-## Related topics
-
-No related topics found.

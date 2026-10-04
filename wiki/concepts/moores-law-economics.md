@@ -5,7 +5,7 @@ main_tag: economic
 sub_tags: [tools, research]
 topic: moores-law
 sources:
-  - "[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]"
+  - "[[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]]"
 last_updated: 2026-08-01
 ---
 
@@ -33,6 +33,6 @@ Phân tích kinh tế về định luật Moore - không chỉ là quy luật k�
 
 ## Sources
 
-- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]
+- [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]]
 
 ## Notes

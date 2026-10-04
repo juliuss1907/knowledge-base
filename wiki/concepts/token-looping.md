@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [system, opinion]
 topic: ai-token-workforce
 sources:
-  - "[[src_you-just-hired-a-million-bad-employees-a16z.md]]"
+  - "[[src_you-just-hired-a-million-bad-employees-a16z]]"
 last_updated: 2026-07-16
 ---
 
@@ -33,7 +33,6 @@ Token looping là hiện tượng AI systems tạo ra thêm tokens không cần 
 
 ## Sources
 
-- [[src_you-just-hired-a-million-bad-employees-a16z.md]]
+- [[src_you-just-hired-a-million-bad-employees-a16z]]
 
 ## Notes
-

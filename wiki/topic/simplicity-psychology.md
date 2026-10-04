@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: simplicity-psychology
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: simplicity-psychology
 
 Auto-generated index of all content with topic `simplicity-psychology`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -26,7 +26,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_why-we-complicate-life-productive-peter]] — main: #productivity, sub: ['#tutorial', '#opinion']
-
-## Related topics
-
-No related topics found.

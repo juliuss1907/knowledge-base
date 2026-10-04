@@ -31,6 +31,6 @@ Ba enforcement loops là khung phân loại các cơ chế kiểm soát trong ha
 
 ## Sources
 
-- "[[src_harness-engineering-ai-coding]]"
+- [[src_harness-engineering-ai-coding]]
 
 ## Notes

@@ -33,6 +33,6 @@ Loop engineering là phương pháp thiết kế hệ thống tự động (loop
 
 ## Sources
 
-- "[[src_loop-engineering-14-step-roadmap]]"
+- [[src_loop-engineering-14-step-roadmap]]
 
 ## Notes

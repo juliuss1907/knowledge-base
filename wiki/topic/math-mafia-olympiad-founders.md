@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: math-mafia-olympiad-founders
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: math-mafia-olympiad-founders
 
 Auto-generated index of all content with topic `math-mafia-olympiad-founders`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -24,7 +24,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — main: #tech, sub: ['#opinion', '#psychology']
-
-## Related topics
-
-No related topics found.

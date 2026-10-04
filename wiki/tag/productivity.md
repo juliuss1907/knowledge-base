@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #productivity
 
 Auto-generated index of all content tagged with `#productivity`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 334
-- Sources: 99
-- Concepts: 235
-- Last updated: 2026-09-21
+- Total files: 336
+- Sources: 100
+- Concepts: 236
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -66,6 +66,7 @@ Last updated: 2026-09-21 21:03:51
 - [[content-repurposing-system]] — content-repurposing-system (concept, main: #productivity, sub: ['#automation', '#tools'], topic: writing-content-system)
 - [[cooperation-mental-model]] — cooperation-mental-model (concept, main: #productivity, sub: ['#research', '#psychology'], topic: mental-models-biology)
 - [[costly-signal]] — costly-signal (concept, main: #productivity, sub: ['#psychology', '#strategy', '#system'], topic: costly-signal)
+- [[creative-incubation]] — creative-incubation (concept, main: #productivity, sub: ['#psychology', '#research'], topic: doing-less-mind-space)
 - [[creator-economy]] — creator-economy (concept, main: #productivity, sub: ['#opinion', '#tools'], topic: digital-renaissance)
 - [[critical-thinking]] — critical-thinking (concept, main: #productivity, sub: ['#psychology'], topic: essential-skills-2026)
 - [[cultural-memetics]] — cultural-memetics (concept, main: #productivity, sub: ['#psychology', '#research'], topic: dan-koe-mind-game)
@@ -257,6 +258,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_dan-koe-mind-game-practical-application]] — src_dan-koe-mind-game-practical-application (source, main: #productivity, sub: ['#psychology', '#automation'], topic: dan-koe-mind-game)
 - [[src_dan-koe-workflow-analysis-markus]] — src_dan-koe-workflow-analysis-markus (source, main: #productivity, sub: ['#tutorial', '#ai', '#automation'], topic: ai-workflow-methodology)
 - [[src_delusional-goals-drive-success]] — src_delusional-goals-drive-success (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: delusional-goals-success)
+- [[src_do-less]] — src_do-less (source, main: #productivity, sub: ['#psychology', '#health', '#opinion'], topic: doing-less-mind-space)
 - [[src_everything-is-a-win-when-the-goal]] — src_everything-is-a-win-when-the-goal (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: experience-over-achievement)
 - [[src_faith-and-fear-are-the-exact-same-thing]] — src_faith-and-fear-are-the-exact-same-thing (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: fear-alchemy)
 - [[src_farnam-street-mental-models-biology-series]] — src_farnam-street-mental-models-biology-series (source, main: #productivity, sub: ['#research', '#psychology'], topic: mental-models-biology)
@@ -367,8 +369,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#productivity`:
-- [[psychology]] — 240 co-occurrences
-- [[opinion]] — 129 co-occurrences
-- [[research]] — 87 co-occurrences
+- [[psychology]] — 242 co-occurrences
+- [[opinion]] — 130 co-occurrences
+- [[research]] — 88 co-occurrences
 - [[tutorial]] — 40 co-occurrences
 - [[strategy]] — 27 co-occurrences

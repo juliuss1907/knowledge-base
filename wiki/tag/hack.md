@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: hack
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #hack
 
 Auto-generated index of all content tagged with `#hack`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 35
-- Sources: 10
-- Concepts: 25
-- Last updated: 2026-09-21
+- Total files: 39
+- Sources: 11
+- Concepts: 28
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -34,6 +34,7 @@ Last updated: 2026-09-21 21:03:51
 - [[ai-security-tools]] — ai-security-tools (concept, main: #ai, sub: ['#tools', '#hack'], topic: ai-security-tools)
 - [[ai-text-watermarking]] — ai-text-watermarking (concept, main: #ai, sub: ['#research', '#tools', '#hack'], topic: ai-text-watermarking)
 - [[ai-vulnerability-discovery]] — ai-vulnerability-discovery (concept, main: #ai, sub: ['#hack', '#research'], topic: ai-vulnerability-discovery)
+- [[calibrated-decision-models]] — calibrated-decision-models (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[cloud-auth-hierarchy]] — cloud-auth-hierarchy (concept, main: #tech, sub: ['#tools', '#hack'], topic: cloud-auth-hierarchy)
 - [[cloud-cost-governance]] — cloud-cost-governance (concept, main: #tech, sub: ['#tools', '#hack', '#system'], topic: cloud-cost-governance)
 - [[consent-phishing]] — consent-phishing (concept, main: #tech, sub: ['#hack', '#tools'], topic: sso-security-risks)
@@ -51,6 +52,7 @@ Last updated: 2026-09-21 21:03:51
 - [[secrets-management]] — secrets-management (concept, main: #tech, sub: ['#tools', '#hack'], topic: secrets-management)
 - [[src_10-questions-for-your-startup-developers]] — src_10-questions-for-your-startup-developers (source, main: #tech, sub: ['#tools', '#tutorial', '#hack'], topic: gcp-ai-startup-governance)
 - [[src_11-minutes-hack-github]] — src_11-minutes-hack-github (source, main: #tech, sub: ['#hack', '#tools', '#news'], topic: github-supply-chain-attack-vs-code)
+- [[src_alex-saint-ai-trading-bot-jev-solana]] — src_alex-saint-ai-trading-bot-jev-solana (source, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[src_anthropic-cybersecurity-skills]] — src_anthropic-cybersecurity-skills (source, main: #ai, sub: ['#tools', '#hack', '#research'], topic: ai-cybersecurity-skills-library)
 - [[src_counterinsurgency-fighting-back]] — src_counterinsurgency-fighting-back (source, main: #politic, sub: ['#research', '#hack'], topic: counterinsurgency-warfare)
 - [[src_dont-sign-in-with-google]] — src_dont-sign-in-with-google (source, main: #tech, sub: ['#hack', '#tools', '#opinion'], topic: sso-security-risks)
@@ -63,13 +65,15 @@ Last updated: 2026-09-21 21:03:51
 - [[supply-chain-attack]] — supply-chain-attack (concept, main: #tech, sub: ['#hack', '#tools'], topic: github-supply-chain-attack-vs-code)
 - [[team-pcp-hacker-group]] — team-pcp-hacker-group (concept, main: #tech, sub: ['#hack', '#news'], topic: github-supply-chain-attack-vs-code)
 - [[token-theft-attack]] — token-theft-attack (concept, main: #tech, sub: ['#hack', '#tools'], topic: sso-security-risks)
+- [[two-speed-agent-loop]] — two-speed-agent-loop (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 - [[vs-code-marketplace-security]] — vs-code-marketplace-security (concept, main: #tech, sub: ['#hack', '#tools'], topic: github-supply-chain-attack-vs-code)
+- [[wallet-isolation-for-ai-agents]] — wallet-isolation-for-ai-agents (concept, main: #ai, sub: ['#automation', '#tools', '#hack'], topic: ai-trading-agent-safety)
 
 ## Co-occurring tags
 
 Tags that frequently appear with `#hack`:
-- [[tools]] — 23 co-occurrences
+- [[tools]] — 27 co-occurrences
+- [[ai]] — 17 co-occurrences
 - [[tech]] — 16 co-occurrences
-- [[ai]] — 13 co-occurrences
 - [[research]] — 13 co-occurrences
 - [[system]] — 6 co-occurrences

@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: economic
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #economic
 
 Auto-generated index of all content tagged with `#economic`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,14 +22,15 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 90
-- Sources: 18
-- Concepts: 72
-- Last updated: 2026-09-21
+- Total files: 94
+- Sources: 19
+- Concepts: 75
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
 - [[200-day-sma-risk-line]] — 200-day-sma-risk-line (concept, main: #economic, sub: ['#tools', '#research'], topic: market-structure-analysis)
+- [[ai-capex-as-credit-cycle]] — ai-capex-as-credit-cycle (concept, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[ai-first-business-model]] — ai-first-business-model (concept, main: #economic, sub: ['#ai', '#tools', '#tutorial'], topic: ai-first-business)
 - [[ai-infrastructure-bubble]] — ai-infrastructure-bubble (concept, main: #economic, sub: ['#tools', '#opinion'], topic: ai-reflexivity-2026)
 - [[alpaca-api]] — alpaca-api (concept, main: #economic, sub: ['#tools', '#automation'], topic: ai-trading-agent-claude-code)
@@ -83,10 +84,12 @@ Last updated: 2026-09-21 21:03:51
 - [[positioning-before-price]] — positioning-before-price (concept, main: #economic, sub: ['#opinion'], topic: trading-timing)
 - [[power-law]] — power-law (concept, main: #economic, sub: ['#psychology'], topic: leverage-mental-model)
 - [[productivity-wage-gap]] — productivity-wage-gap (concept, main: #economic, sub: ['#research', '#opinion'], topic: ai-economic-disruption-white-collar)
+- [[reflexive-capex-arms-race]] — reflexive-capex-arms-race (concept, main: #economic, sub: ['#opinion', '#strategy'], topic: ai-credit-cycle)
 - [[reflexivity-soros]] — reflexivity-soros (concept, main: #economic, sub: ['#research', '#opinion'], topic: market-dynamics)
 - [[relative-strength-leadership]] — relative-strength-leadership (concept, main: #economic, sub: ['#research', '#tools'], topic: market-structure-analysis)
 - [[retail-trading-fantasy]] — retail-trading-fantasy (concept, main: #economic, sub: ['#opinion', '#psychology'], topic: trading-education)
 - [[rot-economy]] — rot-economy (concept, main: #economic, sub: ['#opinion', '#news'], topic: ai-business-criticism)
+- [[second-derivative-thinking]] — second-derivative-thinking (concept, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[self-reinforcing-systems]] — self-reinforcing-systems (concept, main: #economic, sub: ['#research', '#research'], topic: system-dynamics)
 - [[semiconductor-industry-consolidation]] — semiconductor-industry-consolidation (concept, main: #economic, sub: ['#tools'], topic: semiconductor-industry)
 - [[sizing-policy-trading]] — sizing-policy-trading (concept, main: #economic, sub: ['#research', '#tools'], topic: trading-risk-management)
@@ -107,6 +110,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — src_tai-chinh-ca-nhan-9-ban-co-ang-thuc (source, main: #economic, sub: ['#tutorial', '#psychology'], topic: personal-finance-saving-rate)
 - [[src_the-cost-of-discretion]] — src_the-cost-of-discretion (source, main: #economic, sub: ['#opinion', '#tutorial'], topic: systematic-trading-transition)
 - [[src_the-next-generation-of-trading-wont]] — src_the-next-generation-of-trading-wont (source, main: #economic, sub: ['#opinion'], topic: trading-timing)
+- [[src_the-second-derivative-why-no-one]] — src_the-second-derivative-why-no-one (source, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[src_trading-brain-chemistry-ferb]] — src_trading-brain-chemistry-ferb (source, main: #economic, sub: ['#opinion', '#psychology'], topic: trading-psychology)
 - [[src_uae-opec-exit-end-of-era]] — src_uae-opec-exit-end-of-era (source, main: #economic, sub: ['#research', '#opinion'], topic: uae-opec-exit-geopolitics)
 - [[src_why-china-got-rich-and-india-didnt]] — src_why-china-got-rich-and-india-didnt (source, main: #economic, sub: ['#geopolitics', '#opinion'], topic: state-capacity-development)
@@ -123,8 +127,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#economic`:
-- [[research]] — 43 co-occurrences
-- [[opinion]] — 43 co-occurrences
+- [[opinion]] — 47 co-occurrences
+- [[research]] — 46 co-occurrences
 - [[tools]] — 24 co-occurrences
 - [[psychology]] — 21 co-occurrences
 - [[tutorial]] — 16 co-occurrences

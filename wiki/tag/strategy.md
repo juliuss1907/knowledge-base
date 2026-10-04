@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: strategy
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #strategy
 
 Auto-generated index of all content tagged with `#strategy`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 31
-- Sources: 11
-- Concepts: 20
-- Last updated: 2026-09-21
+- Total files: 36
+- Sources: 12
+- Concepts: 24
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -34,20 +34,25 @@ Last updated: 2026-09-21 21:03:51
 - [[career-compounding]] — career-compounding (concept, main: #productivity, sub: ['#strategy', '#opinion'], topic: career-strategy)
 - [[cognitive-change]] — cognitive-change (concept, main: #health, sub: ['#psychology', '#strategy'], topic: task-reframing)
 - [[comeback-strategy]] — comeback-strategy (concept, main: #productivity, sub: ['#strategy', '#psychology'], topic: game-theory-comeback)
+- [[compute-concentration-frontier]] — compute-concentration-frontier (concept, main: #ai, sub: ['#strategy', '#research'], topic: open-models-us-china)
 - [[costly-signal]] — costly-signal (concept, main: #productivity, sub: ['#psychology', '#strategy', '#system'], topic: costly-signal)
 - [[five-types-of-business-work]] — five-types-of-business-work (concept, main: #productivity, sub: ['#strategy'], topic: daily-planning-routine)
 - [[game-selection]] — game-selection (concept, main: #productivity, sub: ['#strategy', '#opinion'], topic: game-theory-productivity)
+- [[gemini-4-argon]] — gemini-4-argon (concept, main: #ai, sub: ['#news', '#research', '#strategy'], topic: gemini-4-argon)
 - [[gtd-four-lists]] — gtd-four-lists (concept, main: #productivity, sub: ['#strategy', '#psychology'], topic: daily-planning-routine)
 - [[information-asymmetry]] — information-asymmetry (concept, main: #productivity, sub: ['#strategy', '#opinion'], topic: game-theory-productivity)
 - [[iterated-game-theory]] — iterated-game-theory (concept, main: #productivity, sub: ['#strategy', '#psychology', '#opinion'], topic: game-theory-comeback)
 - [[low-entry-principle]] — low-entry-principle (concept, main: #health, sub: ['#psychology', '#strategy'], topic: overcoming-starting-friction)
+- [[model-vs-harness-adoption]] — model-vs-harness-adoption (concept, main: #ai, sub: ['#strategy', '#tools'], topic: model-vs-harness-adoption)
 - [[oaat-model]] — oaat-model (concept, main: #productivity, sub: ['#psychology', '#strategy'], topic: oaat-goal-model)
 - [[optionality-principle]] — optionality-principle (concept, main: #productivity, sub: ['#psychology', '#strategy'], topic: decision-making-frameworks)
 - [[proximity-to-opportunity]] — proximity-to-opportunity (concept, main: #productivity, sub: ['#strategy', '#psychology'], topic: proximity-to-opportunity)
+- [[reflexive-capex-arms-race]] — reflexive-capex-arms-race (concept, main: #economic, sub: ['#opinion', '#strategy'], topic: ai-credit-cycle)
 - [[reputation-as-signal]] — reputation-as-signal (concept, main: #productivity, sub: ['#strategy', '#psychology'], topic: reputation-as-signal)
 - [[src_0xhvdes-seven-ways-to-get-ahead]] — src_0xhvdes-seven-ways-to-get-ahead (source, main: #productivity, sub: ['#strategy', '#psychology'], topic: asymmetric-advantage)
 - [[src_3-ways-to-get-rich]] — src_3-ways-to-get-rich (source, main: #productivity, sub: ['#strategy', '#opinion'], topic: leverage-wealth)
 - [[src_daily-planning-routine-creativity-productivity]] — src_daily-planning-routine-creativity-productivity (source, main: #productivity, sub: ['#tutorial', '#psychology', '#strategy'], topic: daily-planning-routine)
+- [[src_gemini-4-argon-explained-in-5min]] — src_gemini-4-argon-explained-in-5min (source, main: #ai, sub: ['#news', '#research', '#strategy'], topic: gemini-4-argon)
 - [[src_how-ai-labs-eventually-make-money]] — src_how-ai-labs-eventually-make-money (source, main: #ai, sub: ['#research', '#strategy'], topic: ai-lab-business-model)
 - [[src_how-to-come-back-from-anything-game-theory]] — src_how-to-come-back-from-anything-game-theory (source, main: #productivity, sub: ['#strategy', '#psychology', '#research'], topic: game-theory-comeback)
 - [[src_im-begging-you-to-manage-your-goals-like-this]] — src_im-begging-you-to-manage-your-goals-like-this (source, main: #productivity, sub: ['#psychology', '#strategy'], topic: oaat-goal-model)
@@ -66,6 +71,6 @@ Last updated: 2026-09-21 21:03:51
 Tags that frequently appear with `#strategy`:
 - [[productivity]] — 27 co-occurrences
 - [[psychology]] — 21 co-occurrences
-- [[opinion]] — 8 co-occurrences
-- [[research]] — 3 co-occurrences
-- [[ai]] — 2 co-occurrences
+- [[opinion]] — 9 co-occurrences
+- [[ai]] — 6 co-occurrences
+- [[research]] — 6 co-occurrences

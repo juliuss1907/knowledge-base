@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: architecture-as-code
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: architecture-as-code
 
 Auto-generated index of all content with topic `architecture-as-code`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,7 +22,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_archify]] — main: #tech, sub: ['#tools', '#coding', '#automation']
-
-## Related topics
-
-No related topics found.

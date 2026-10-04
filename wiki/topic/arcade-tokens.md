@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: arcade-tokens
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: arcade-tokens
 
 Auto-generated index of all content with topic `arcade-tokens`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -23,7 +23,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_the-most-underrated-token-type]] — main: #crypto, sub: ['#defi', '#tools']
-
-## Related topics
-
-No related topics found.

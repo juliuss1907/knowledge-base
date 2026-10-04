@@ -8,7 +8,7 @@ date_published: 2025-05-24
 date_ingested: 2026-05-25
 status: processed
 processed_date: 2026-05-26
-processed_to: wiki/sources/src_ai-trillion-dollar-blind-spot.md
+compiled_to: "[[src_ai-trillion-dollar-blind-spot]]"
 ---
 
 # AI's Trillion-Dollar Blind Spot: The Static Website

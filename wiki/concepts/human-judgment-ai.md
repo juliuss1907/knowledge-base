@@ -6,7 +6,8 @@ sub_tags: [opinion, research]
 topic: ai-systems-thinking-augmentation
 sources:
   - "[[src_will-ai-replace-systems-thinking]]"
-last_updated: 2026-05-27
+  - "[[src_unreasonable-effectiveness-of-html]]"
+last_updated: 2026-10-03
 ---
 
 # Human Judgment AI
@@ -22,15 +23,20 @@ Human Judgment AI là khả năng con người duy trì vai trò quyết định
 - **Responsibility:** AI không thể chịu trách nhiệm — accountability thuộc về con người
 - **Power dynamics:** AI không nhận thức được quyền lực và niềm tin trong hệ thống
 - **Second-order thinking:** Đánh giá hệ quả gián tiếp đòi hỏi sự phản biện của con người
+- **Bàn giao rồi bỏ qua là dạng mất quyền quyết định âm thầm:** Thariq Shihipar (Anthropic) nhận ra khi Claude gánh nhiều việc hơn, ông đọc plan kỹ hơn trước — nên chuyển sang HTML artifact để giữ mình gắn với lựa chọn của Claude thay vì chỉ bàn giao
+- **Tương tác hai chiều giữ lại quyền quyết định:** slider, knob, editor throwaway cho phép điều chỉnh và xem hậu quả ngay, với nút export đưa thay đổi ngược lại thành prompt — xem [[throwaway-editing-interface]]
 
 ## Related concepts
 
 - [[ai-augmented-systems-thinking]]
 - [[second-order-effects]]
+- [[html-as-agent-output-format]]
+- [[throwaway-editing-interface]]
 
 ## Sources
 
 - [[src_will-ai-replace-systems-thinking]]
+- [[src_unreasonable-effectiveness-of-html]] — Thariq Shihipar, Anthropic (2026-05-20)
 
 ## Backlinks
 

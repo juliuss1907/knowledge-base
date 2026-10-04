@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: github-supply-chain-attack-vs-code
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: github-supply-chain-attack-vs-code
 
 Auto-generated index of all content with topic `github-supply-chain-attack-vs-code`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -24,7 +24,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_11-minutes-hack-github]] — main: #tech, sub: ['#hack', '#tools', '#news']
-
-## Related topics
-
-No related topics found.

@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [research, tools]
 topic: agent-backtesting
 sources:
-  - "[[src_introducing-backsearch-gr-inc.md]]"
+  - "[[src_introducing-backsearch-gr-inc]]"
 last_updated: 2026-07-26
 ---
 
@@ -40,7 +40,6 @@ Agent Backtesting là phương pháp đánh giá performance của AI agents b�
 
 ## Sources
 
-- [[src_introducing-backsearch-gr-inc.md]] — BackSearch cung cấp frozen web corpus cho agent backtesting
+- [[src_introducing-backsearch-gr-inc]] — BackSearch cung cấp frozen web corpus cho agent backtesting
 
 ## Notes
-

@@ -6,7 +6,7 @@ author: Olga
 date_ingested: 2026-09-20
 status: processed
 compiled_at: 2026-09-21
-compiled_to: "[[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]]"
+compiled_to: "[[src_why-youve-lost-your-curiosity-how-to-get-it-back]]"
 source: youtube.com
 ---
 

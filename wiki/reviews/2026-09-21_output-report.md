@@ -1,6 +1,5 @@
 # Output Validation — 2026-09-21
-
-**Status:** pending
+- **Status:** approved — Julius duyệt hàng loạt 2026-10-02; Connor verify mẫu 6 report (earliest+latest mỗi validator) khớp validator sống; chi tiết xem `wiki/reviews/_action-required.md`
 **Issues found:** 5 (3 ERROR, 2 WARNING, 0 INFO)
 **Created:** 2026-09-21 23:01:11 +0700
 **Validator:** output-validator

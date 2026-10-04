@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: let-them-theory-relationships
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: let-them-theory-relationships
 
 Auto-generated index of all content with topic `let-them-theory-relationships`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -26,7 +26,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_the-let-them-theory-gabriel-reality]] — main: #health, sub: ['#psychology', '#opinion']
-
-## Related topics
-
-No related topics found.

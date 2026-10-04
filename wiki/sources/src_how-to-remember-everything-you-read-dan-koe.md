@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-07-29_how-to-remember-everything-you-read-dan-koe.md]]"
+original: "[[2026-07-29_how-to-remember-everything-you-read-dan-koe]]"
 main_tag: productivity
 sub_tags: [tutorial, psychology]
 topic: effective-learning-methods

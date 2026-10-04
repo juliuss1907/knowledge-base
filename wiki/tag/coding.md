@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: coding
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #coding
 
 Auto-generated index of all content tagged with `#coding`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 49
-- Sources: 17
-- Concepts: 32
-- Last updated: 2026-09-21
+- Total files: 53
+- Sources: 18
+- Concepts: 35
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -49,10 +49,12 @@ Last updated: 2026-09-21 21:03:51
 - [[frontend-design-agent]] — frontend-design-agent (concept, main: #tech, sub: ['#tools', '#coding', '#vibecode'], topic: ai-frontend-design-guidance)
 - [[handoff-skill]] — handoff-skill (concept, main: #ai, sub: ['#tools', '#automation', '#coding'], topic: ai-coding-context-handoff)
 - [[harness-engineering]] — harness-engineering (concept, main: #ai, sub: ['#coding', '#tools'], topic: harness-engineering-ai-coding)
+- [[html-as-agent-output-format]] — html-as-agent-output-format (concept, main: #ai, sub: ['#tools', '#opinion', '#coding'], topic: html-as-agent-output)
 - [[hybrid-retrieval]] — hybrid-retrieval (concept, main: #ai, sub: ['#tools', '#research', '#coding'], topic: hybrid-retrieval-agentic-search)
 - [[long-context-models]] — long-context-models (concept, main: #ai, sub: ['#research', '#coding'], topic: llm-capabilities)
 - [[loop-engineering]] — loop-engineering (concept, main: #ai, sub: ['#automation', '#coding'], topic: loop-engineering)
 - [[measurable-outcomes]] — measurable-outcomes (concept, main: #productivity, sub: ['#system', '#coding'], topic: measurable-outcomes)
+- [[multi-file-artifact-workflow]] — multi-file-artifact-workflow (concept, main: #ai, sub: ['#coding', '#tools'], topic: html-as-agent-output)
 - [[plan-execute-verify-loop]] — plan-execute-verify-loop (concept, main: #ai, sub: ['#automation', '#research', '#coding'], topic: code-as-agent-harness)
 - [[progressive-hardening]] — progressive-hardening (concept, main: #ai, sub: ['#coding', '#tools'], topic: harness-engineering-ai-coding)
 - [[ralph-wiggum-loop]] — ralph-wiggum-loop (concept, main: #ai, sub: ['#automation', '#coding'], topic: loop-engineering)
@@ -72,9 +74,11 @@ Last updated: 2026-09-21 21:03:51
 - [[src_rag-is-dead-kuba-turbopuffer]] — src_rag-is-dead-kuba-turbopuffer (source, main: #ai, sub: ['#tools', '#research', '#coding'], topic: hybrid-retrieval-agentic-search)
 - [[src_tao-ket-qua-dinh-luong-duoc]] — src_tao-ket-qua-dinh-luong-duoc (source, main: #productivity, sub: ['#system', '#coding'], topic: measurable-outcomes)
 - [[src_threeui]] — src_threeui (source, main: #tech, sub: ['#tools', '#coding'], topic: ui-component-library)
+- [[src_unreasonable-effectiveness-of-html]] — src_unreasonable-effectiveness-of-html (source, main: #ai, sub: ['#tools', '#opinion', '#coding'], topic: html-as-agent-output)
 - [[src_vectors-what-even-are-they-3b1b]] — src_vectors-what-even-are-they-3b1b (source, main: #ai, sub: ['#tutorial', '#research', '#coding'], topic: vectors-fundamentals)
 - [[src_youre-trained-for-world-that-no-longer-exists]] — src_youre-trained-for-world-that-no-longer-exists (source, main: #ai, sub: ['#opinion', '#tutorial', '#coding'], topic: future-proof-skills)
 - [[three-enforcement-loops]] — three-enforcement-loops (concept, main: #ai, sub: ['#coding', '#tools'], topic: harness-engineering-ai-coding)
+- [[throwaway-editing-interface]] — throwaway-editing-interface (concept, main: #ai, sub: ['#tools', '#coding'], topic: html-as-agent-output)
 - [[ui-component-library]] — ui-component-library (concept, main: #tech, sub: ['#tools', '#coding'], topic: ui-component-library)
 - [[vector-addition]] — vector-addition (concept, main: #ai, sub: ['#tutorial', '#research', '#coding'], topic: vectors-fundamentals)
 - [[vectors]] — vectors (concept, main: #ai, sub: ['#tutorial', '#research', '#coding'], topic: vectors-fundamentals)
@@ -82,8 +86,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#coding`:
-- [[ai]] — 38 co-occurrences
-- [[tools]] — 26 co-occurrences
+- [[ai]] — 42 co-occurrences
+- [[tools]] — 30 co-occurrences
 - [[research]] — 18 co-occurrences
 - [[automation]] — 11 co-occurrences
 - [[tech]] — 9 co-occurrences

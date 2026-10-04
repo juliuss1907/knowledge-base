@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: game-theory-productivity
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: game-theory-productivity
 
 Auto-generated index of all content with topic `game-theory-productivity`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -24,7 +24,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_max-results-minimum-effort-game-theory]] — main: #productivity, sub: ['#strategy', '#opinion']
-
-## Related topics
-
-No related topics found.

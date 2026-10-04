@@ -5,7 +5,7 @@ main_tag: health
 sub_tags: [psychology]
 topic: let-them-theory-relationships
 sources:
-  - "[[src_the-let-them-theory-gabriel-reality.md]]"
+  - "[[src_the-let-them-theory-gabriel-reality]]"
 last_updated: 2026-07-30
 ---
 
@@ -33,6 +33,6 @@ Intolerance of uncertainty là phản ứng tâm lý khi não bộ không thể 
 
 ## Sources
 
-- [[src_the-let-them-theory-gabriel-reality.md]]
+- [[src_the-let-them-theory-gabriel-reality]]
 
 ## Notes

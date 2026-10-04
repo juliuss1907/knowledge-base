@@ -6,7 +6,8 @@ sub_tags: [research, opinion]
 topic: structural-competition
 sources:
   - "[[src_why-i-write-about-structural-competition]]"
-last_updated: 2026-06-02
+  - "[[src_atom-project-american-truly-open-models]]"
+last_updated: 2026-09-30
 ---
 
 # Structural Competition
@@ -22,15 +23,20 @@ Cạnh tranh giữa các hệ thống (US, China, EU...) dựa trên khả năng
 - **Assessment framework:** 4-Layer Framework (Technology → Institutions → Industrial scale → Capital markets)
 - **Non-ideological:** Không phải political hay moral analysis — về system capacity thuần túy
 - **China as reference:** Dùng Trung Quốc làm coordinate system để đo lường các hệ thống khác
+- **Open AI models là trận đánh đầu tiên áp dụng khung này:** lợi thế Mỹ đến từ hệ sinh thái hợp tác tech company ↔ university; lợi thế Trung Quốc đến từ **cược tập trung** — ít nhất 5 lab liên tục phát hành model mở ngang hoặc vượt best open model Mỹ. Xem [[open-model-ecosystem-race]] và [[compute-concentration-frontier]]
+- **Cơ chế tích luỹ:** lợi ích của việc chia sẻ công nghệ rơi về người xây, thể hiện qua mindshare và các dynamic soft power lặp lại xuyên lịch sử open source software
 
 ## Related concepts
 
 - [[four-layer-framework]]
 - [[institutional-capacity]]
 - [[industrial-scale]]
+- [[open-model-ecosystem-race]]
+- [[compute-concentration-frontier]]
 
 ## Sources
 
 - [[src_why-i-write-about-structural-competition]]
+- [[src_atom-project-american-truly-open-models]]
 
 ## Notes

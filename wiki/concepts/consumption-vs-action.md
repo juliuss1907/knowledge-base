@@ -22,7 +22,7 @@ Tiêu thụ nội dung về mục tiêu (xem video self-improvement, đọc sác
 - Veronica: muốn start YouTube channel từ thiếu niên, năm 2019 record video đầu tiên nhưng never publish — lý do không phải hết đam mê mà là nhận ra mức effort cần thiết cho mỗi video
 - So sánh video đầu tiên của mình với video thứ 500 của creator có kinh nghiệm → pressure khổng lồ → amygdala từ chối
 - Comparison kills dreams before they begin — "starting line should be someone else's finishing line"
--一年 2019-2020: tiêu thụ content YouTube thay vì tạo content — cảm giác gần goal hơn nhưng thực tế đang comfortable hơn với việc không làm
+- **Một năm 2019-2020:** tiêu thụ content YouTube thay vì tạo content — cảm giác gần goal hơn nhưng thực tế đang comfortable hơn với việc không làm
 
 ## Related concepts
 

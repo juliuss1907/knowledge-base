@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [system, tools]
 topic: ai-token-workforce
 sources:
-  - "[[src_you-just-hired-a-million-bad-employees-a16z.md]]"
+  - "[[src_you-just-hired-a-million-bad-employees-a16z]]"
 last_updated: 2026-07-16
 ---
 
@@ -33,7 +33,6 @@ AI transformation là mô hình kinh doanh trong đó companies không bán soft
 
 ## Sources
 
-- [[src_you-just-hired-a-million-bad-employees-a16z.md]]
+- [[src_you-just-hired-a-million-bad-employees-a16z]]
 
 ## Notes
-

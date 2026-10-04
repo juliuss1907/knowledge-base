@@ -6,7 +6,8 @@ sub_tags: [psychology]
 topic: daily-planning-routine
 sources:
   - "[[src_daily-planning-routine-creativity-productivity]]"
-last_updated: 2026-08-25
+  - "[[src_do-less]]"
+last_updated: 2026-09-26
 ---
 
 # One Thing Daily Priority
@@ -25,15 +26,20 @@ Nguyên tắc lập kế hoạch ngày: mỗi ngày chỉ có ĐÚNG MỘT việ
 - **Liên hệ GTD lists:** ONE THING được rút từ Next Actions List sau khi weekly planning đã cập nhật Project/Later Lists — daily planning rẻ chỉ khi danh sách tươi
 - **Momentum compounding:** thắng 1 ngày nuôi thắng ngày kế tiếp ("momentum of one day feeds the next")
 
+- **Ba thay vì một:** Finlay chọn **3 việc/ngày** từ sổ tuần (không phải 1 việc duy nhất như Dickie Bush, không phải danh sách dài) — buổi sáng chỉ chép 3 việc sang sổ thứ hai và cam kết bỏ phần còn lại. Biến ưu tiên từ "danh sách mong manh" thành cam kết đóng
+- **Timebox thay vì "làm xong":** bỏ hết yếu tố gây nhiễu, đặt timer 30 phút, làm việc đứng đầu danh sách — chấp nhận giới hạn thời gian để bắt đầu được thay vì chờ trạng thái lý tưởng
+
 ## Related concepts
 
 - [[gtd-four-lists]]
 - [[five-types-of-business-work]]
 - [[flow-state]]
 - [[busywork-vs-deep-work]]
+- [[creative-incubation]]
 
 ## Sources
 
 - [[src_daily-planning-routine-creativity-productivity]] — Dickie Bush: mistake #5 + quy trình 10 phút + cơ chế subconscious overnight
+- [[src_do-less]] — Finlay: sổ vàng tuần → 3 việc/ngày, timebox 30 phút
 
 ## Notes

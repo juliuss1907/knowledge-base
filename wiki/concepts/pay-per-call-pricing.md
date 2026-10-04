@@ -5,7 +5,7 @@ main_tag: economic
 sub_tags: [tools, automation]
 topic: ai-agent-tool-platform
 sources:
-  - "[[src_monid-ai-agent-tool-platform.md]]"
+  - "[[src_monid-ai-agent-tool-platform]]"
 last_updated: 2026-07-26
 ---
 
@@ -40,7 +40,6 @@ Pay-per-call Pricing là mô hình định giá dịch vụ theo đó người d
 
 ## Sources
 
-- [[src_monid-ai-agent-tool-platform.md]] — Monid sử dụng mô hình $0.0013 per call, balance-based billing
+- [[src_monid-ai-agent-tool-platform]] — Monid sử dụng mô hình $0.0013 per call, balance-based billing
 
 ## Notes
-

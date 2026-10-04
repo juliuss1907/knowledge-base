@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: neuroplasticity
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: neuroplasticity
 
 Auto-generated index of all content with topic `neuroplasticity`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,7 +22,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_once-you-understand-neuroplasticity]] — main: #productivity, sub: ['#psychology']
-
-## Related topics
-
-No related topics found.

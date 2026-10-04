@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-07-15_you-just-hired-a-million-bad-employees-a16z.md]]"
+original: "[[2026-07-15_you-just-hired-a-million-bad-employees-a16z]]"
 main_tag: ai
 sub_tags: [opinion, tools, system]
 topic: ai-token-workforce

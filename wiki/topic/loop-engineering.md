@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: loop-engineering
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: loop-engineering
 
 Auto-generated index of all content with topic `loop-engineering`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -25,7 +25,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_loop-engineering-14-step-roadmap]] — main: #ai, sub: ['#automation', '#coding', '#tutorial']
-
-## Related topics
-
-No related topics found.

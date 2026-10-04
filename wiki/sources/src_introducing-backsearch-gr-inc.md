@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-07-25_introducing-backsearch-gr-inc.md]]"
+original: "[[2026-07-25_introducing-backsearch-gr-inc]]"
 main_tag: ai
 sub_tags: [tools, research]
 topic: agent-backtesting

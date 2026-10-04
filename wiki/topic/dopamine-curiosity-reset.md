@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: dopamine-curiosity-reset
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: dopamine-curiosity-reset
 
 Auto-generated index of all content with topic `dopamine-curiosity-reset`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -21,8 +21,4 @@ Last updated: 2026-09-21 21:03:51
 
 ## Sources (1)
 
-- [[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]] — main: #health, sub: ['#psychology', '#research']
-
-## Related topics
-
-No related topics found.
+- [[src_why-youve-lost-your-curiosity-how-to-get-it-back]] — main: #health, sub: ['#psychology', '#research']

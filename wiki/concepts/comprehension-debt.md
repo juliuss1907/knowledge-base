@@ -31,6 +31,6 @@ Comprehension debt (nợ hiểu biết) là khoảng cách ngày càng lớn gi�
 
 ## Sources
 
-- "[[src_loop-engineering-14-step-roadmap]]"
+- [[src_loop-engineering-14-step-roadmap]]
 
 ## Notes

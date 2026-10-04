@@ -33,7 +33,6 @@ AI frontend design guidance là bộ công cụ và quy tắc giúp AI coding ag
 - [[frontend-design-agent]]
 - [[design-systems]]
 - [[vibe-coding]]
-- [[ai-assisted-development]]
 
 ## Sources
 

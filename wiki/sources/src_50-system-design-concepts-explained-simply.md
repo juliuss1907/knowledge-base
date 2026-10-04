@@ -21,7 +21,7 @@ author: Design Gurus
 
 ## Summary
 
-Bài viết hướng dẫn 50 khái niệm system design, mỗi khái niệm được giải thích từ first principles — tại sao nó tồn tại, giải quyết vấn đề gì, và trade-off在哪里. 2026 edition bổ sung các khái niệm AI infrastructure (embeddings, RAG) vào vocabulary chuẩn của system design, phản ánh thực tế rằng các concept này đã trở nên phổ biến trong interviews và design reviews. Bài viết chia thành 5 nhóm: infrastructure, data/storage, distributed systems, messaging, và reliability/modern — mỗi nhóm đều giải thích từ base concepts đến advanced patterns.
+Bài viết hướng dẫn 50 khái niệm system design, mỗi khái niệm được giải thích từ first principles — tại sao nó tồn tại, giải quyết vấn đề gì, và trade-off ở đâu. 2026 edition bổ sung các khái niệm AI infrastructure (embeddings, RAG) vào vocabulary chuẩn của system design, phản ánh thực tế rằng các concept này đã trở nên phổ biến trong interviews và design reviews. Bài viết chia thành 5 nhóm: infrastructure, data/storage, distributed systems, messaging, và reliability/modern — mỗi nhóm đều giải thích từ base concepts đến advanced patterns.
 
 ## Key points
 

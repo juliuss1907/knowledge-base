@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-07-14_why-the-math-mafia-is-doing-well-jesse-zhang.md]]"
+original: "[[2026-07-14_why-the-math-mafia-is-doing-well-jesse-zhang]]"
 main_tag: tech
 sub_tags: [opinion, psychology]
 topic: math-mafia-olympiad-founders

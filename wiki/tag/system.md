@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: system
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #system
 
 Auto-generated index of all content tagged with `#system`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 55
+- Total files: 56
 - Sources: 10
-- Concepts: 45
-- Last updated: 2026-09-21
+- Concepts: 46
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -36,6 +36,7 @@ Last updated: 2026-09-21 21:03:51
 - [[ai-transformation]] — ai-transformation (concept, main: #ai, sub: ['#system', '#tools'], topic: ai-token-workforce)
 - [[alignment-engineering]] — alignment-engineering (concept, main: #ai, sub: ['#system', '#research'], topic: ai-engineering)
 - [[ashbys-law]] — ashbys-law (concept, main: #system, sub: ['#research', '#opinion'], topic: post-systems-thinking)
+- [[autoregressive-error-compounding]] — autoregressive-error-compounding (concept, main: #ai, sub: ['#research', '#system'], topic: autoregressive-error-compounding)
 - [[catalysts]] — catalysts (concept, main: #system, sub: ['#psychology', '#automation'], topic: activation-energy-mental-model)
 - [[closed-loop-system]] — closed-loop-system (concept, main: #system, sub: ['#automation', '#tools'], topic: ai-productivity)
 - [[cloud-cost-governance]] — cloud-cost-governance (concept, main: #tech, sub: ['#tools', '#hack', '#system'], topic: cloud-cost-governance)
@@ -89,7 +90,7 @@ Last updated: 2026-09-21 21:03:51
 
 Tags that frequently appear with `#system`:
 - [[psychology]] — 20 co-occurrences
-- [[research]] — 18 co-occurrences
+- [[research]] — 19 co-occurrences
 - [[tools]] — 16 co-occurrences
 - [[opinion]] — 15 co-occurrences
-- [[ai]] — 11 co-occurrences
+- [[ai]] — 12 co-occurrences

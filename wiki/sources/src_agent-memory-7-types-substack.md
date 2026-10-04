@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-07-27_agent-memory-7-types-substack.md]]"
+original: "[[2026-07-27_agent-memory-7-types-substack]]"
 main_tag: ai
 sub_tags: [tools, research]
 topic: agent-memory-systems

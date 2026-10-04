@@ -5,7 +5,7 @@ main_tag: system
 sub_tags: [tools, research]
 topic: agent-backtesting
 sources:
-  - "[[src_introducing-backsearch-gr-inc.md]]"
+  - "[[src_introducing-backsearch-gr-inc]]"
 last_updated: 2026-07-26
 ---
 
@@ -46,7 +46,6 @@ Frozen Corpus Search là kiến trúc search system nơi underlying document col
 
 ## Sources
 
-- [[src_introducing-backsearch-gr-inc.md]] — BackSearch implements frozen corpus cho news domains December 2025 - July 2026
+- [[src_introducing-backsearch-gr-inc]] — BackSearch implements frozen corpus cho news domains December 2025 - July 2026
 
 ## Notes
-

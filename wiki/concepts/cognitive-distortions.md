@@ -32,4 +32,4 @@ Cognitive distortions là những pattern tư duy tự động mà bộ não s�
 
 ## Sources
 
-- "[[src_thinking-about-thinking-metacognition]]"
+- [[src_thinking-about-thinking-metacognition]]

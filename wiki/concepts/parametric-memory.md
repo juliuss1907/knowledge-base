@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, research]
 topic: agent-memory-systems
 sources:
-  - "[[src_agent-memory-7-types-substack.md]]"
+  - "[[src_agent-memory-7-types-substack]]"
 last_updated: 2026-07-30
 ---
 
@@ -33,6 +33,6 @@ Parametric memory là kiến thức đã được encoded trực tiếp vào mod
 
 ## Sources
 
-- [[src_agent-memory-7-types-substack.md]]
+- [[src_agent-memory-7-types-substack]]
 
 ## Notes

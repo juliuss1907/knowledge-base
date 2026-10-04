@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, automation]
 topic: ai-agent-tool-platform
 sources:
-  - "[[src_monid-ai-agent-tool-platform.md]]"
+  - "[[src_monid-ai-agent-tool-platform]]"
 last_updated: 2026-07-26
 ---
 
@@ -31,7 +31,6 @@ AI Agent Tool Orchestration là phương pháp cho phép AI agents tự động 
 
 ## Sources
 
-- [[src_monid-ai-agent-tool-platform.md]] — Monid platform cho phép agents discover và sử dụng 1,300+ tools
+- [[src_monid-ai-agent-tool-platform]] — Monid platform cho phép agents discover và sử dụng 1,300+ tools
 
 ## Notes
-

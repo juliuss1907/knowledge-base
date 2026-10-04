@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #psychology
 
 Auto-generated index of all content tagged with `#psychology`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,16 +22,16 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 340
-- Sources: 95
-- Concepts: 245
-- Last updated: 2026-09-21
+- Total files: 345
+- Sources: 97
+- Concepts: 248
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
 - [[activation-energy]] — activation-energy (concept, main: #productivity, sub: ['#psychology', '#automation'], topic: activation-energy-mental-model)
 - [[ai-dependency]] — ai-dependency (concept, main: #health, sub: ['#psychology', '#ai'], topic: never-enough-culture)
-- [[amygdala-vs-prefrontal-cortex]] — amygdala-vs-prefrontal-cortex (concept, main: #health, sub: ['#psychology', '#research'], topic: brain-threat-detection)
+- [[amygdala-vs-prefrontal-cortex]] — amygdala-vs-prefrontal-cortex (concept, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
 - [[anterior-cingulate-cortex]] — anterior-cingulate-cortex (concept, main: #health, sub: ['#psychology'], topic: let-them-theory-relationships)
 - [[approach-avoidance-conflict]] — approach-avoidance-conflict (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: procrastination-neuroscience)
 - [[attention-management]] — attention-management (concept, main: #productivity, sub: ['#psychology'], topic: essential-skills-2026)
@@ -65,6 +65,7 @@ Last updated: 2026-09-21 21:03:51
 - [[cooperation-mental-model]] — cooperation-mental-model (concept, main: #productivity, sub: ['#research', '#psychology'], topic: mental-models-biology)
 - [[cortisol-management]] — cortisol-management (concept, main: #economic, sub: ['#psychology'], topic: trading-psychology)
 - [[costly-signal]] — costly-signal (concept, main: #productivity, sub: ['#psychology', '#strategy', '#system'], topic: costly-signal)
+- [[creative-incubation]] — creative-incubation (concept, main: #productivity, sub: ['#psychology', '#research'], topic: doing-less-mind-space)
 - [[creativity-as-skill]] — creativity-as-skill (concept, main: #ai, sub: ['#opinion', '#psychology'], topic: future-proof-skills)
 - [[critical-mass]] — critical-mass (concept, main: #system, sub: ['#psychology'], topic: leverage-mental-model)
 - [[critical-thinking]] — critical-thinking (concept, main: #productivity, sub: ['#psychology'], topic: essential-skills-2026)
@@ -72,6 +73,7 @@ Last updated: 2026-09-21 21:03:51
 - [[curiosity-hijacking]] — curiosity-hijacking (concept, main: #health, sub: ['#psychology'], topic: attention-hijacking)
 - [[cybernetics-learning-model]] — cybernetics-learning-model (concept, main: #productivity, sub: ['#tutorial', '#psychology'], topic: effective-learning-methods)
 - [[decision-cost-analysis]] — decision-cost-analysis (concept, main: #productivity, sub: ['#psychology', '#tutorial'], topic: decision-making-frameworks)
+- [[decision-fatigue-glutamate]] — decision-fatigue-glutamate (concept, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
 - [[decoding-messages-language]] — decoding-messages-language (concept, main: #productivity, sub: ['#psychology'], topic: language-acquisition-method)
 - [[deliberate-practice]] — deliberate-practice (concept, main: #productivity, sub: ['#psychology', '#research'], topic: deliberate-practice)
 - [[delusional-goals]] — delusional-goals (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: delusional-goals-success)
@@ -265,6 +267,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_daily-planning-routine-creativity-productivity]] — src_daily-planning-routine-creativity-productivity (source, main: #productivity, sub: ['#tutorial', '#psychology', '#strategy'], topic: daily-planning-routine)
 - [[src_dan-koe-mind-game-practical-application]] — src_dan-koe-mind-game-practical-application (source, main: #productivity, sub: ['#psychology', '#automation'], topic: dan-koe-mind-game)
 - [[src_delusional-goals-drive-success]] — src_delusional-goals-drive-success (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: delusional-goals-success)
+- [[src_do-less]] — src_do-less (source, main: #productivity, sub: ['#psychology', '#health', '#opinion'], topic: doing-less-mind-space)
 - [[src_everything-is-a-win-when-the-goal]] — src_everything-is-a-win-when-the-goal (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: experience-over-achievement)
 - [[src_faith-and-fear-are-the-exact-same-thing]] — src_faith-and-fear-are-the-exact-same-thing (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: fear-alchemy)
 - [[src_farnam-street-mental-models-biology-series]] — src_farnam-street-mental-models-biology-series (source, main: #productivity, sub: ['#research', '#psychology'], topic: mental-models-biology)
@@ -341,13 +344,15 @@ Last updated: 2026-09-21 21:03:51
 - [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — src_why-the-math-mafia-is-doing-well-jesse-zhang (source, main: #tech, sub: ['#opinion', '#psychology'], topic: math-mafia-olympiad-founders)
 - [[src_why-time-felt-slower-when-we-were-kids]] — src_why-time-felt-slower-when-we-were-kids (source, main: #health, sub: ['#psychology', '#research', '#tutorial'], topic: time-perception-childhood)
 - [[src_why-you-never-start-its-not-about-motivation]] — src_why-you-never-start-its-not-about-motivation (source, main: #health, sub: ['#psychology', '#research'], topic: procrastination-nervous-system)
-- [[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]] — src_why-youve-lost-your-curiosity-and-how-to-get-it-back (source, main: #health, sub: ['#psychology', '#research'], topic: dopamine-curiosity-reset)
+- [[src_why-you-waste-your-evenings-neuroscience]] — src_why-you-waste-your-evenings-neuroscience (source, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
+- [[src_why-youve-lost-your-curiosity-how-to-get-it-back]] — src_why-youve-lost-your-curiosity-how-to-get-it-back (source, main: #health, sub: ['#psychology', '#research'], topic: dopamine-curiosity-reset)
 - [[src_you-escape-competition-by-figuring-out-who-you-are]] — src_you-escape-competition-by-figuring-out-who-you-are (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: authenticity-competition)
 - [[src_you-need-a-mindset-shift-on-priorities]] — src_you-need-a-mindset-shift-on-priorities (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: pareto-principle-priorities)
 - [[stay-hungry-stay-foolish]] — stay-hungry-stay-foolish (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: steve-jobs-stanford-connecting-dots)
 - [[stoic-dichotomy-of-control]] — stoic-dichotomy-of-control (concept, main: #health, sub: ['#psychology'], topic: let-them-theory-relationships)
 - [[strategic-thinking]] — strategic-thinking (concept, main: #productivity, sub: ['#strategy', '#psychology'], topic: strategic-thinking)
 - [[streak-psychology]] — streak-psychology (concept, main: #tech, sub: ['#psychology'], topic: gamification-design-patterns)
+- [[stress-habituation]] — stress-habituation (concept, main: #health, sub: ['#psychology', '#research'], topic: doing-less-mind-space)
 - [[success-trap]] — success-trap (concept, main: #productivity, sub: ['#psychology', '#automation'], topic: dan-koe-mind-game)
 - [[sunk-cost-fallacy]] — sunk-cost-fallacy (concept, main: #productivity, sub: ['#psychology', '#strategy'], topic: game-theory-comeback)
 - [[survival-first]] — survival-first (concept, main: #productivity, sub: ['#strategy', '#psychology'], topic: game-theory-comeback)
@@ -373,8 +378,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#psychology`:
-- [[productivity]] — 240 co-occurrences
-- [[opinion]] — 121 co-occurrences
-- [[research]] — 71 co-occurrences
-- [[health]] — 53 co-occurrences
-- [[strategy]] — 21 co-occurrences
+- [[productivity]] — 242 co-occurrences
+- [[opinion]] — 122 co-occurrences
+- [[research]] — 75 co-occurrences
+- [[health]] — 57 co-occurrences
+- [[economic]] — 21 co-occurrences

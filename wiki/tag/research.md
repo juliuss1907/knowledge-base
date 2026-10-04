@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: research
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #research
 
 Auto-generated index of all content tagged with `#research`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 281
-- Sources: 69
-- Concepts: 212
-- Last updated: 2026-09-21
+- Total files: 297
+- Sources: 74
+- Concepts: 223
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -38,6 +38,7 @@ Last updated: 2026-09-21 21:03:51
 - [[agentic-retrieval]] — agentic-retrieval (concept, main: #ai, sub: ['#tools', '#research', '#coding'], topic: hybrid-retrieval-agentic-search)
 - [[ai-alignment]] — ai-alignment (concept, main: #ai, sub: ['#research'], topic: ai-reward-hacking-alignment)
 - [[ai-augmented-systems-thinking]] — ai-augmented-systems-thinking (concept, main: #ai, sub: ['#opinion', '#research'], topic: ai-systems-thinking-augmentation)
+- [[ai-capex-as-credit-cycle]] — ai-capex-as-credit-cycle (concept, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[ai-chip-design]] — ai-chip-design (concept, main: #ai, sub: ['#research', '#tools'], topic: llm-chip-design)
 - [[ai-engineering-skills]] — ai-engineering-skills (concept, main: #ai, sub: ['#coding', '#research'], topic: ai-engineering-skills)
 - [[ai-lab-business-model]] — ai-lab-business-model (concept, main: #ai, sub: ['#research', '#strategy'], topic: ai-lab-business-model)
@@ -50,11 +51,13 @@ Last updated: 2026-09-21 21:03:51
 - [[alignment-engineering]] — alignment-engineering (concept, main: #ai, sub: ['#system', '#research'], topic: ai-engineering)
 - [[alloying-mental-model]] — alloying-mental-model (concept, main: #productivity, sub: ['#research'], topic: mental-models-biology)
 - [[american-security-guarantee]] — american-security-guarantee (concept, main: #politic, sub: ['#research', '#opinion'], topic: uae-opec-exit-geopolitics)
-- [[amygdala-vs-prefrontal-cortex]] — amygdala-vs-prefrontal-cortex (concept, main: #health, sub: ['#psychology', '#research'], topic: brain-threat-detection)
+- [[amygdala-vs-prefrontal-cortex]] — amygdala-vs-prefrontal-cortex (concept, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
 - [[apparent-success-seeking]] — apparent-success-seeking (concept, main: #ai, sub: ['#research'], topic: ai-reward-hacking-alignment)
 - [[ashbys-law]] — ashbys-law (concept, main: #system, sub: ['#research', '#opinion'], topic: post-systems-thinking)
 - [[author-function]] — author-function (concept, main: #ai, sub: ['#research'], topic: ai-authorship-french-theory)
 - [[autobiographical-memory-systems]] — autobiographical-memory-systems (concept, main: #ai, sub: ['#research', '#opinion'], topic: agent-memory-systems)
+- [[autoregressive-error-compounding]] — autoregressive-error-compounding (concept, main: #ai, sub: ['#research', '#system'], topic: autoregressive-error-compounding)
+- [[benchmark-contamination]] — benchmark-contamination (concept, main: #ai, sub: ['#research', '#opinion'], topic: benchmark-contamination)
 - [[blameless-postmortems]] — blameless-postmortems (concept, main: #productivity, sub: ['#research'], topic: leader-leader-leadership)
 - [[bottlenecks-mental-model]] — bottlenecks-mental-model (concept, main: #productivity, sub: ['#research'], topic: mental-models-systems)
 - [[bpe-algorithm]] — bpe-algorithm (concept, main: #ai, sub: ['#research', '#coding'], topic: tokenization-llm)
@@ -72,15 +75,18 @@ Last updated: 2026-09-21 21:03:51
 - [[collaborative-thinking]] — collaborative-thinking (concept, main: #productivity, sub: ['#psychology', '#research'], topic: critical-thinking-tools)
 - [[complex-adaptive-systems]] — complex-adaptive-systems (concept, main: #system, sub: ['#research', '#opinion'], topic: post-systems-thinking)
 - [[complicated-vs-complex]] — complicated-vs-complex (concept, main: #system, sub: ['#research', '#opinion'], topic: post-systems-thinking)
+- [[compute-concentration-frontier]] — compute-concentration-frontier (concept, main: #ai, sub: ['#strategy', '#research'], topic: open-models-us-china)
 - [[consolidation-offline-processing]] — consolidation-offline-processing (concept, main: #ai, sub: ['#research', '#automation'], topic: agent-memory-systems)
 - [[cooperation-mental-model]] — cooperation-mental-model (concept, main: #productivity, sub: ['#research', '#psychology'], topic: mental-models-biology)
 - [[coordinate-systems]] — coordinate-systems (concept, main: #ai, sub: ['#tutorial', '#research', '#coding'], topic: vectors-fundamentals)
 - [[coordinated-vulnerability-disclosure]] — coordinated-vulnerability-disclosure (concept, main: #ai, sub: ['#hack', '#research'], topic: coordinated-vulnerability-disclosure)
 - [[counterinsurgency]] — counterinsurgency (concept, main: #politic, sub: ['#research', '#hack'], topic: counterinsurgency-warfare)
 - [[creative-destruction]] — creative-destruction (concept, main: #economic, sub: ['#research'], topic: mental-models-economics)
+- [[creative-incubation]] — creative-incubation (concept, main: #productivity, sub: ['#psychology', '#research'], topic: doing-less-mind-space)
 - [[csa-hca-attention]] — csa-hca-attention (concept, main: #ai, sub: ['#research', '#tools'], topic: deepseek-v4-architecture)
 - [[cultural-memetics]] — cultural-memetics (concept, main: #productivity, sub: ['#psychology', '#research'], topic: dan-koe-mind-game)
 - [[cynefin-framework]] — cynefin-framework (concept, main: #system, sub: ['#research', '#opinion'], topic: post-systems-thinking)
+- [[decision-fatigue-glutamate]] — decision-fatigue-glutamate (concept, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
 - [[deepseek-v4-flash-vs-pro]] — deepseek-v4-flash-vs-pro (concept, main: #ai, sub: ['#research', '#tools'], topic: deepseek-v4-architecture)
 - [[default-mode-network]] — default-mode-network (concept, main: #ai, sub: ['#research', '#health'], topic: evolutionary-mismatch-modern-life)
 - [[deliberate-practice]] — deliberate-practice (concept, main: #productivity, sub: ['#psychology', '#research'], topic: deliberate-practice)
@@ -116,6 +122,7 @@ Last updated: 2026-09-21 21:03:51
 - [[galilean-relativity]] — galilean-relativity (concept, main: #productivity, sub: ['#psychology', '#research'], topic: mental-models)
 - [[gamification-design-patterns]] — gamification-design-patterns (concept, main: #tech, sub: ['#tools', '#psychology', '#research'], topic: gamification-design-patterns)
 - [[gated-delta-networks]] — gated-delta-networks (concept, main: #ai, sub: ['#research', '#tools'], topic: llm-memory-consolidation)
+- [[gemini-4-argon]] — gemini-4-argon (concept, main: #ai, sub: ['#news', '#research', '#strategy'], topic: gemini-4-argon)
 - [[generative-ai-seo]] — generative-ai-seo (concept, main: #ai, sub: ['#tools', '#research'], topic: generative-ai-seo)
 - [[generative-search-results]] — generative-search-results (concept, main: #ai, sub: ['#research', '#tools'], topic: generative-search-results)
 - [[geo-strategy]] — geo-strategy (concept, main: #ai, sub: ['#research', '#tools'], topic: geo-strategy)
@@ -171,6 +178,8 @@ Last updated: 2026-09-21 21:03:51
 - [[oddball-effect]] — oddball-effect (concept, main: #health, sub: ['#psychology', '#research'], topic: time-perception-childhood)
 - [[oil-spot-strategy]] — oil-spot-strategy (concept, main: #politic, sub: ['#research'], topic: counterinsurgency-warfare)
 - [[opec-cartel-structure]] — opec-cartel-structure (concept, main: #economic, sub: ['#research', '#opinion'], topic: uae-opec-exit-geopolitics)
+- [[open-model-ecosystem-race]] — open-model-ecosystem-race (concept, main: #ai, sub: ['#geopolitics', '#research', '#opinion'], topic: open-models-us-china)
+- [[open-weight-vs-open-source]] — open-weight-vs-open-source (concept, main: #ai, sub: ['#research', '#opinion'], topic: open-models-us-china)
 - [[openai-jalapeno]] — openai-jalapeno (concept, main: #ai, sub: ['#tools', '#research'], topic: llm-chip-design)
 - [[operant-conditioning]] — operant-conditioning (concept, main: #productivity, sub: ['#research', '#psychology'], topic: incentives-psychology)
 - [[operating-cash-flow]] — operating-cash-flow (concept, main: #economic, sub: ['#research', '#tutorial'], topic: financial-statement-analysis)
@@ -210,6 +219,7 @@ Last updated: 2026-09-21 21:03:51
 - [[reward-hacking]] — reward-hacking (concept, main: #ai, sub: ['#research', '#hack'], topic: ai-reward-hacking-alignment)
 - [[reward-seeking]] — reward-seeking (concept, main: #ai, sub: ['#research'], topic: ai-reward-hacking-alignment)
 - [[scalar-multiplication]] — scalar-multiplication (concept, main: #ai, sub: ['#tutorial', '#research', '#coding'], topic: vectors-fundamentals)
+- [[second-derivative-thinking]] — second-derivative-thinking (concept, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[second-order-effects]] — second-order-effects (concept, main: #system, sub: ['#research', '#opinion'], topic: post-systems-thinking)
 - [[self-reinforcing-systems]] — self-reinforcing-systems (concept, main: #economic, sub: ['#research', '#research'], topic: system-dynamics)
 - [[self-reinforcing-systems]] — self-reinforcing-systems (concept, main: #economic, sub: ['#research', '#research'], topic: system-dynamics)
@@ -228,6 +238,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_ai-skills-map-building-deploying-ai-apps]] — src_ai-skills-map-building-deploying-ai-apps (source, main: #ai, sub: ['#coding', '#research'], topic: ai-engineering-skills)
 - [[src_ai-trillion-dollar-blind-spot]] — src_ai-trillion-dollar-blind-spot (source, main: #ai, sub: ['#research', '#opinion'], topic: ai-landing-page-discovery)
 - [[src_anthropic-cybersecurity-skills]] — src_anthropic-cybersecurity-skills (source, main: #ai, sub: ['#tools', '#hack', '#research'], topic: ai-cybersecurity-skills-library)
+- [[src_atom-project-american-truly-open-models]] — src_atom-project-american-truly-open-models (source, main: #ai, sub: ['#geopolitics', '#research', '#opinion'], topic: open-models-us-china)
 - [[src_building-latticework-mental-models]] — src_building-latticework-mental-models (source, main: #economic, sub: ['#research', '#psychology'], topic: mental-models-latticework)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — src_code-as-agent-harness-arxiv-2605-18747 (source, main: #ai, sub: ['#research', '#coding'], topic: code-as-agent-harness)
 - [[src_counterinsurgency-fighting-back]] — src_counterinsurgency-fighting-back (source, main: #politic, sub: ['#research', '#hack'], topic: counterinsurgency-warfare)
@@ -239,6 +250,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_galilean-relativity]] — src_galilean-relativity (source, main: #productivity, sub: ['#psychology', '#research'], topic: mental-models)
 - [[src_game-theory-will-change-your-life]] — src_game-theory-will-change-your-life (source, main: #system, sub: ['#psychology', '#research', '#tutorial'], topic: game-theory-strategic-thinking)
 - [[src_gamification-app-truth]] — src_gamification-app-truth (source, main: #tech, sub: ['#tools', '#psychology', '#research'], topic: gamification-design-patterns)
+- [[src_gemini-4-argon-explained-in-5min]] — src_gemini-4-argon-explained-in-5min (source, main: #ai, sub: ['#news', '#research', '#strategy'], topic: gemini-4-argon)
 - [[src_generative-ai-search-optimization]] — src_generative-ai-search-optimization (source, main: #ai, sub: ['#research', '#tools'], topic: generative-ai-search-optimization)
 - [[src_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — src_giai-thich-sau-phuong-phap-hoc-charlie-munger (source, main: #productivity, sub: ['#psychology', '#research'], topic: charlie-munger-learning-method)
 - [[src_google-generative-ai-search-guide]] — src_google-generative-ai-search-guide (source, main: #ai, sub: ['#tools', '#research'], topic: google-ai-search-optimization)
@@ -250,6 +262,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_how-to-live-without-options]] — src_how-to-live-without-options (source, main: #productivity, sub: ['#psychology', '#opinion', '#research'], topic: optionality-paradox)
 - [[src_how-to-read-cash-flow-statement]] — src_how-to-read-cash-flow-statement (source, main: #economic, sub: ['#research', '#tutorial'], topic: financial-statement-analysis)
 - [[src_incentives-hidden-forces]] — src_incentives-hidden-forces (source, main: #productivity, sub: ['#research', '#psychology'], topic: incentives-psychology)
+- [[src_interconnects-ai]] — src_interconnects-ai (source, main: #ai, sub: ['#opinion', '#research'], topic: open-models-us-china)
 - [[src_introducing-backsearch-gr-inc]] — src_introducing-backsearch-gr-inc (source, main: #ai, sub: ['#tools', '#research'], topic: agent-backtesting)
 - [[src_investment-principles-dalio]] — src_investment-principles-dalio (source, main: #investment, sub: ['#opinion', '#research'], topic: investment-principles)
 - [[src_jalapeno-llms-for-chip-design]] — src_jalapeno-llms-for-chip-design (source, main: #ai, sub: ['#research', '#tools'], topic: llm-chip-design)
@@ -274,6 +287,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_systems-thinking-rabbit-hole]] — src_systems-thinking-rabbit-hole (source, main: #productivity, sub: ['#research', '#opinion'], topic: systems-thinking-cognitive-development)
 - [[src_systems-thinking-tools-deepdive]] — src_systems-thinking-tools-deepdive (source, main: #productivity, sub: ['#tools', '#research', '#tutorial'], topic: systems-thinking-tools)
 - [[src_the-revenge-of-the-business-idiot]] — src_the-revenge-of-the-business-idiot (source, main: #ai, sub: ['#opinion', '#research'], topic: ai-business-criticism)
+- [[src_the-second-derivative-why-no-one]] — src_the-second-derivative-why-no-one (source, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[src_the-seed-and-the-machine]] — src_the-seed-and-the-machine (source, main: #ai, sub: ['#vibecode', '#system', '#research'], topic: seed-vs-machine-architecture)
 - [[src_thermodynamics]] — src_thermodynamics (source, main: #productivity, sub: ['#psychology', '#research'], topic: mental-models)
 - [[src_this-essay-is-10-percent-ai-generated]] — src_this-essay-is-10-percent-ai-generated (source, main: #ai, sub: ['#research', '#opinion'], topic: ai-authorship-french-theory)
@@ -285,12 +299,14 @@ Last updated: 2026-09-21 21:03:51
 - [[src_why-i-write-about-structural-competition]] — src_why-i-write-about-structural-competition (source, main: #politic, sub: ['#opinion', '#research'], topic: structural-competition)
 - [[src_why-time-felt-slower-when-we-were-kids]] — src_why-time-felt-slower-when-we-were-kids (source, main: #health, sub: ['#psychology', '#research', '#tutorial'], topic: time-perception-childhood)
 - [[src_why-you-never-start-its-not-about-motivation]] — src_why-you-never-start-its-not-about-motivation (source, main: #health, sub: ['#psychology', '#research'], topic: procrastination-nervous-system)
-- [[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]] — src_why-youve-lost-your-curiosity-and-how-to-get-it-back (source, main: #health, sub: ['#psychology', '#research'], topic: dopamine-curiosity-reset)
+- [[src_why-you-waste-your-evenings-neuroscience]] — src_why-you-waste-your-evenings-neuroscience (source, main: #health, sub: ['#psychology', '#research'], topic: post-work-fatigue)
+- [[src_why-youve-lost-your-curiosity-how-to-get-it-back]] — src_why-youve-lost-your-curiosity-how-to-get-it-back (source, main: #health, sub: ['#psychology', '#research'], topic: dopamine-curiosity-reset)
 - [[src_will-ai-replace-systems-thinking]] — src_will-ai-replace-systems-thinking (source, main: #ai, sub: ['#opinion', '#research'], topic: ai-systems-thinking-augmentation)
 - [[stakeholder-mapping]] — stakeholder-mapping (concept, main: #productivity, sub: ['#tools', '#research', '#tutorial'], topic: systems-thinking-tools)
 - [[state-conditioned-decisions]] — state-conditioned-decisions (concept, main: #economic, sub: ['#research', '#opinion'], topic: trading-state-policy)
 - [[state-space-models-ssm]] — state-space-models-ssm (concept, main: #ai, sub: ['#research', '#tools'], topic: llm-memory-consolidation)
 - [[strait-of-hormuz-geopolitics]] — strait-of-hormuz-geopolitics (concept, main: #politic, sub: ['#research', '#opinion'], topic: uae-opec-exit-geopolitics)
+- [[stress-habituation]] — stress-habituation (concept, main: #health, sub: ['#psychology', '#research'], topic: doing-less-mind-space)
 - [[structural-competition]] — structural-competition (concept, main: #politic, sub: ['#research', '#opinion'], topic: structural-competition)
 - [[synthetic-happiness]] — synthetic-happiness (concept, main: #productivity, sub: ['#psychology', '#research'], topic: optionality-paradox)
 - [[system-design-concepts-2026]] — system-design-concepts-2026 (concept, main: #tech, sub: ['#tutorial', '#research'], topic: system-design-concepts-2026)
@@ -314,8 +330,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#research`:
-- [[ai]] — 97 co-occurrences
-- [[productivity]] — 87 co-occurrences
+- [[ai]] — 106 co-occurrences
+- [[productivity]] — 88 co-occurrences
+- [[psychology]] — 75 co-occurrences
 - [[tools]] — 73 co-occurrences
-- [[psychology]] — 71 co-occurrences
-- [[opinion]] — 62 co-occurrences
+- [[opinion]] — 70 co-occurrences

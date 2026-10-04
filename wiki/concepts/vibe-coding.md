@@ -33,7 +33,6 @@ Vibe Coding là phong cách phát triển phần mềm mới nổi trong đó ng
 
 ## Related concepts
 
-- [[ai-assisted-development]]
 - [[no-code-movement]]
 - [[high-agency]]
 - [[one-person-business]]

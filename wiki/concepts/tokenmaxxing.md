@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [opinion, news]
 topic: ai-token-workforce
 sources:
-  - "[[src_you-just-hired-a-million-bad-employees-a16z.md]]"
+  - "[[src_you-just-hired-a-million-bad-employees-a16z]]"
 last_updated: 2026-07-16
 ---
 
@@ -31,7 +31,6 @@ Tokenmaxxing là hype cycle ngắn ngủi (kết thúc trong dưới 1 tháng) x
 
 ## Sources
 
-- [[src_you-just-hired-a-million-bad-employees-a16z.md]]
+- [[src_you-just-hired-a-million-bad-employees-a16z]]
 
 ## Notes
-

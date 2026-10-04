@@ -6,7 +6,8 @@ sub_tags: [psychology, research]
 topic: game-theory-strategic-thinking
 sources:
   - "[[src_game-theory-will-change-your-life]]"
-last_updated: 2026-06-22
+  - "[[src_the-second-derivative-why-no-one]]"
+last_updated: 2026-09-30
 ---
 
 # Nash Equilibrium
@@ -23,15 +24,17 @@ Nash Equilibrium là một khái niệm trong lý thuyết trò chơi mô tả t
 - **Trong kinh doanh:** Các công ty trong cuộc chiến giá cả — cả hai đều muốn tăng giá nhưng không ai muốn là người đầu tiên
 - **Trong chính trị:** Đảng phái bị kẹt trong sự đối cực — cả hai đều hưởng lợi từ hợp tác nhưng không ai muốn là người đầu tiên nhượng bộ
 - **Thoát khỏi:** Cần giao tiếp và cam kết để phối hợp thay đổi chiến lược đồng thời
+- **Equilibrium có điều kiện:** Trong cuộc đua capex AI, "ai cũng chi" chỉ là equilibrium khi thị trường còn thưởng cho chi tiêu. Khi payoff đảo, equilibrium lật sang "ai cũng cắt" — và vì là coordination equilibrium nên sự lật **không diễn ra dần dần**: người đầu tiên được thưởng khi cắt tạo cả cover lẫn động lực để các bên còn lại đi theo. Xem [[reflexive-capex-arms-race]]
+- **Đấu giá như framing:** Giá trong cuộc đấu giá do bidder lạc quan nhất ấn định, và hành động bid tự nó là tín hiệu chứng minh sự nghiêm túc — mô tả chính xác vì sao mọi CFO đều chi
 
 ## Related concepts
 
 - [[prisoners-dilemma]]
 - [[game-theory]]
-- [[coordination-games]]
 
 ## Sources
 
 - [[src_game-theory-will-change-your-life]]
+- [[src_the-second-derivative-why-no-one]]
 
 ## Notes

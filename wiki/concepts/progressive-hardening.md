@@ -31,6 +31,6 @@ Progressive hardening là promotion ladder mô tả cách architectural constrai
 
 ## Sources
 
-- "[[src_harness-engineering-ai-coding]]"
+- [[src_harness-engineering-ai-coding]]
 
 ## Notes

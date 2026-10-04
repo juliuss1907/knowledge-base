@@ -1,6 +1,5 @@
 # Format Validation — 2026-09-20
-
-**Status:** pending
+- **Status:** approved — Julius duyệt hàng loạt 2026-10-02; Connor verify mẫu 6 report (earliest+latest mỗi validator) khớp validator sống; chi tiết xem `wiki/reviews/_action-required.md`
 **Issues found:** 404
 **Created:** 2026-09-20 23:16:08
 **Validator:** format-validator

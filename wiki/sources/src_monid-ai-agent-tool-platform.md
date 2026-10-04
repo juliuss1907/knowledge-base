@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-07-25_monid-ai-agent-tool-platform.md]]"
+original: "[[2026-07-25_monid-ai-agent-tool-platform]]"
 main_tag: ai
 sub_tags: [tools, automation]
 topic: ai-agent-tool-platform

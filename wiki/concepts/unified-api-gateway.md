@@ -5,7 +5,7 @@ main_tag: system
 sub_tags: [tools, automation]
 topic: ai-agent-tool-platform
 sources:
-  - "[[src_monid-ai-agent-tool-platform.md]]"
+  - "[[src_monid-ai-agent-tool-platform]]"
 last_updated: 2026-07-26
 ---
 
@@ -32,7 +32,6 @@ Unified API Gateway là kiến trúc tập trung nhiều dịch vụ và APIs kh
 
 ## Sources
 
-- [[src_monid-ai-agent-tool-platform.md]] — Monid cung cấp unified gateway cho 1,300+ tools từ 13+ providers
+- [[src_monid-ai-agent-tool-platform]] — Monid cung cấp unified gateway cho 1,300+ tools từ 13+ providers
 
 ## Notes
-

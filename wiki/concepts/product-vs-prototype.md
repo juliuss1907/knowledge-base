@@ -7,7 +7,8 @@ topic: product-vs-prototype
 sources:
   - "[[src_what-is-a-product]]"
   - "[[src_how-i-design-with-ai]]"
-last_updated: 2026-08-29
+  - "[[src_unreasonable-effectiveness-of-html]]"
+last_updated: 2026-10-03
 ---
 
 # Product vs Prototype
@@ -25,14 +26,21 @@ Phân biệt giữa prototype (bản demo, bản nháp) và product (sản phẩ
 - Demo AI rất dễ tạo, nhưng điều đó không có nghĩa là bạn đã xây dựng được sản phẩm
 - Tiêu chí kiểm tra: nếu không ai dùng, đó là toy — không phải product
 - Prototype gravity cảnh báo: AI build version đầu trong codebase có thể khiến bạn nhầm prototype với sản phẩm hoàn thiện — iterate trong design tool để khám phá option thay vì refine bản đầu
+- **Throwaway editor là prototype có chủ đích:** HTML editor dùng một lần cho đúng một mảng data, không phải sản phẩm, chỉ để khám phá option nhanh — ranh giới với product nằm ở chỗ nó không cần ai khác dùng, xem [[throwaway-editing-interface]]
+- **Nhiều hướng cạnh nhau hơn một hướng đẹp:** dàn nhiều phương án khác biệt rõ trong một trang, gắn trade-off của từng phương án, rồi mới chọn — giảm rủi ro xây bản đầu rồi tối ưu nhầm hướng
 
 ## Related concepts
 
 - [[ai-first-business-model]]
 - [[digital-product-flywheel]]
 - [[vibe-coding]]
+- [[multi-file-artifact-workflow]]
+- [[throwaway-editing-interface]]
 
 ## Sources
 
 - [[src_what-is-a-product]]
 - [[src_how-i-design-with-ai]]
+- [[src_unreasonable-effectiveness-of-html]] — Thariq Shihipar, Anthropic (2026-05-20)
+
+## Notes

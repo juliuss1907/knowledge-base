@@ -5,7 +5,7 @@ main_tag: system
 sub_tags: [research, tools]
 topic: agent-backtesting
 sources:
-  - "[[src_introducing-backsearch-gr-inc.md]]"
+  - "[[src_introducing-backsearch-gr-inc]]"
 last_updated: 2026-07-26
 ---
 
@@ -48,7 +48,6 @@ Point-in-Time Data là data representation cho thấy state của information t�
 
 ## Sources
 
-- [[src_introducing-backsearch-gr-inc.md]] — BackSearch cung cấp point-in-time web access cho agent evaluation
+- [[src_introducing-backsearch-gr-inc]] — BackSearch cung cấp point-in-time web access cho agent evaluation
 
 ## Notes
-

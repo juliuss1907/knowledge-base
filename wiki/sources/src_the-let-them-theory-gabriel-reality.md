@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-07-27_the-let-them-theory-gabriel-reality.md]]"
+original: "[[2026-07-27_the-let-them-theory-gabriel-reality]]"
 main_tag: health
 sub_tags: [psychology, opinion]
 topic: let-them-theory-relationships

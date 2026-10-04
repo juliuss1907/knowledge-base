@@ -5,7 +5,7 @@ main_tag: ai
 sub_tags: [tools, research]
 topic: agent-memory-systems
 sources:
-  - "[[src_agent-memory-7-types-substack.md]]"
+  - "[[src_agent-memory-7-types-substack]]"
 last_updated: 2026-07-30
 ---
 
@@ -33,6 +33,6 @@ Semantic memory lưu trữ facts, concepts, và general knowledge — kiểu th�
 
 ## Sources
 
-- [[src_agent-memory-7-types-substack.md]]
+- [[src_agent-memory-7-types-substack]]
 
 ## Notes

@@ -1,6 +1,6 @@
 ---
 type: source
-original: "[[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket.md]]"
+original: "[[2026-07-31_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]]"
 main_tag: economic
 sub_tags: [opinion, tools]
 topic: cuoc-dua-khong-i-lui

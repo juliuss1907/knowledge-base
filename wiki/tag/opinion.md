@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Tag: #opinion
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-09-21 21:03:51
 
 ## Stats
 
-- Total files: 271
-- Sources: 94
-- Concepts: 177
-- Last updated: 2026-09-21
+- Total files: 283
+- Sources: 99
+- Concepts: 184
+- Last updated: 2026-10-03
 
 ## Files with this tag
 
@@ -33,6 +33,7 @@ Last updated: 2026-09-21 21:03:51
 - [[active-thinking]] — active-thinking (concept, main: #productivity, sub: ['#opinion', '#research'], topic: active-thinking)
 - [[ai-agent-setup-mistakes]] — ai-agent-setup-mistakes (concept, main: #ai, sub: ['#tools', '#tutorial', '#opinion'], topic: hermes-personal-analyst-setup)
 - [[ai-augmented-systems-thinking]] — ai-augmented-systems-thinking (concept, main: #ai, sub: ['#opinion', '#research'], topic: ai-systems-thinking-augmentation)
+- [[ai-capex-as-credit-cycle]] — ai-capex-as-credit-cycle (concept, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[ai-impression-of-work]] — ai-impression-of-work (concept, main: #ai, sub: ['#opinion', '#tools'], topic: ai-business-criticism)
 - [[ai-infrastructure-bubble]] — ai-infrastructure-bubble (concept, main: #economic, sub: ['#tools', '#opinion'], topic: ai-reflexivity-2026)
 - [[ai-lab-crypto-analogy]] — ai-lab-crypto-analogy (concept, main: #ai, sub: ['#opinion', '#layer1'], topic: ai-lab-valuation-dynamics)
@@ -51,6 +52,7 @@ Last updated: 2026-09-21 21:03:51
 - [[attention-economy-vs-knowledge-economy]] — attention-economy-vs-knowledge-economy (concept, main: #ai, sub: ['#opinion', '#news'], topic: journalism-ai-era)
 - [[authenticity-creative-expression]] — authenticity-creative-expression (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: authenticity-competition)
 - [[autobiographical-memory-systems]] — autobiographical-memory-systems (concept, main: #ai, sub: ['#research', '#opinion'], topic: agent-memory-systems)
+- [[benchmark-contamination]] — benchmark-contamination (concept, main: #ai, sub: ['#research', '#opinion'], topic: benchmark-contamination)
 - [[business-idiot-archetype]] — business-idiot-archetype (concept, main: #economic, sub: ['#opinion', '#tools'], topic: ai-business-criticism)
 - [[busywork-vs-deep-work]] — busywork-vs-deep-work (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: pareto-principle-priorities)
 - [[career-compounding]] — career-compounding (concept, main: #productivity, sub: ['#strategy', '#opinion'], topic: career-strategy)
@@ -96,6 +98,7 @@ Last updated: 2026-09-21 21:03:51
 - [[growth-and-relationships]] — growth-and-relationships (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: growth-mindset)
 - [[hedonic-treadmill]] — hedonic-treadmill (concept, main: #productivity, sub: ['#research', '#opinion'], topic: simplicity-psychology)
 - [[hermes-token-management]] — hermes-token-management (concept, main: #ai, sub: ['#tools', '#opinion'], topic: hermes-top-skills-analysis)
+- [[html-as-agent-output-format]] — html-as-agent-output-format (concept, main: #ai, sub: ['#tools', '#opinion', '#coding'], topic: html-as-agent-output)
 - [[human-judgment-ai]] — human-judgment-ai (concept, main: #ai, sub: ['#opinion', '#research'], topic: ai-systems-thinking-augmentation)
 - [[human-premium]] — human-premium (concept, main: #productivity, sub: ['#opinion', '#psychology', '#automation'], topic: career-advice-ai-age)
 - [[hypergamy]] — hypergamy (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: hypergamy-relationships)
@@ -145,6 +148,8 @@ Last updated: 2026-09-21 21:03:51
 - [[olympiad-to-founder-pipeline]] — olympiad-to-founder-pipeline (concept, main: #tech, sub: ['#opinion', '#psychology'], topic: math-mafia-olympiad-founders)
 - [[one-human-business]] — one-human-business (concept, main: #productivity, sub: ['#opinion', '#tools'], topic: digital-renaissance)
 - [[opec-cartel-structure]] — opec-cartel-structure (concept, main: #economic, sub: ['#research', '#opinion'], topic: uae-opec-exit-geopolitics)
+- [[open-model-ecosystem-race]] — open-model-ecosystem-race (concept, main: #ai, sub: ['#geopolitics', '#research', '#opinion'], topic: open-models-us-china)
+- [[open-weight-vs-open-source]] — open-weight-vs-open-source (concept, main: #ai, sub: ['#research', '#opinion'], topic: open-models-us-china)
 - [[organizational-incrementalism]] — organizational-incrementalism (concept, main: #productivity, sub: ['#opinion', '#research'], topic: active-thinking-methodology)
 - [[out-of-distribution-experience]] — out-of-distribution-experience (concept, main: #productivity, sub: ['#opinion', '#psychology', '#automation'], topic: career-advice-ai-age)
 - [[outcome-worship-trap]] — outcome-worship-trap (concept, main: #economic, sub: ['#opinion', '#psychology'], topic: trading-psychology)
@@ -171,12 +176,14 @@ Last updated: 2026-09-21 21:03:51
 - [[proof-stack]] — proof-stack (concept, main: #crypto, sub: ['#opinion'], topic: crypto-communications)
 - [[quant-finance-culture]] — quant-finance-culture (concept, main: #tech, sub: ['#opinion', '#psychology'], topic: math-mafia-olympiad-founders)
 - [[recognizing-life-signals]] — recognizing-life-signals (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: self-discovery-serendipity)
+- [[reflexive-capex-arms-race]] — reflexive-capex-arms-race (concept, main: #economic, sub: ['#opinion', '#strategy'], topic: ai-credit-cycle)
 - [[reflexivity-soros]] — reflexivity-soros (concept, main: #economic, sub: ['#research', '#opinion'], topic: market-dynamics)
 - [[reputation-management]] — reputation-management (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: life-advice-20s)
 - [[retail-trading-fantasy]] — retail-trading-fantasy (concept, main: #economic, sub: ['#opinion', '#psychology'], topic: trading-education)
 - [[role-playing-self]] — role-playing-self (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: identity-transformation)
 - [[rot-economy]] — rot-economy (concept, main: #economic, sub: ['#opinion', '#news'], topic: ai-business-criticism)
 - [[saudi-pakistan-defense-agreement]] — saudi-pakistan-defense-agreement (concept, main: #politic, sub: ['#news', '#opinion'], topic: saudi-defense-diversification)
+- [[second-derivative-thinking]] — second-derivative-thinking (concept, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[second-order-effects]] — second-order-effects (concept, main: #system, sub: ['#research', '#opinion'], topic: post-systems-thinking)
 - [[self-knowledge-practice]] — self-knowledge-practice (concept, main: #productivity, sub: ['#psychology', '#opinion'], topic: authenticity-competition)
 - [[show-me-era]] — show-me-era (concept, main: #crypto, sub: ['#opinion'], topic: crypto-communications)
@@ -199,9 +206,11 @@ Last updated: 2026-09-21 21:03:51
 - [[src_ai-trillion-dollar-blind-spot]] — src_ai-trillion-dollar-blind-spot (source, main: #ai, sub: ['#research', '#opinion'], topic: ai-landing-page-discovery)
 - [[src_ai-will-destroy-world-economy]] — src_ai-will-destroy-world-economy (source, main: #ai, sub: ['#news', '#opinion'], topic: ai-economic-disruption-white-collar)
 - [[src_an-all-too-common-investment-story]] — src_an-all-too-common-investment-story (source, main: #investment, sub: ['#opinion', '#psychology'], topic: independent-investment-research)
+- [[src_atom-project-american-truly-open-models]] — src_atom-project-american-truly-open-models (source, main: #ai, sub: ['#geopolitics', '#research', '#opinion'], topic: open-models-us-china)
 - [[src_career-advice-age-of-ai-phil-chen]] — src_career-advice-age-of-ai-phil-chen (source, main: #productivity, sub: ['#ai', '#opinion'], topic: career-advice-ai-age)
 - [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket (source, main: #economic, sub: ['#opinion', '#tools'], topic: cuoc-dua-khong-i-lui)
 - [[src_delusional-goals-drive-success]] — src_delusional-goals-drive-success (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: delusional-goals-success)
+- [[src_do-less]] — src_do-less (source, main: #productivity, sub: ['#psychology', '#health', '#opinion'], topic: doing-less-mind-space)
 - [[src_dont-sign-in-with-google]] — src_dont-sign-in-with-google (source, main: #tech, sub: ['#hack', '#tools', '#opinion'], topic: sso-security-risks)
 - [[src_everything-is-a-win-when-the-goal]] — src_everything-is-a-win-when-the-goal (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: experience-over-achievement)
 - [[src_faith-and-fear-are-the-exact-same-thing]] — src_faith-and-fear-are-the-exact-same-thing (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: fear-alchemy)
@@ -221,6 +230,7 @@ Last updated: 2026-09-21 21:03:51
 - [[src_ill-make-you-believe-you-can-achieve]] — src_ill-make-you-believe-you-can-achieve (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: personal-excellence-mindset)
 - [[src_im-57-if-youre-in-your-20s-please-watch-this]] — src_im-57-if-youre-in-your-20s-please-watch-this (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: life-advice-20s)
 - [[src_impossible-to-manipulate-dan-koe]] — src_impossible-to-manipulate-dan-koe (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: three-levels-of-thinking)
+- [[src_interconnects-ai]] — src_interconnects-ai (source, main: #ai, sub: ['#opinion', '#research'], topic: open-models-us-china)
 - [[src_investment-principles-dalio]] — src_investment-principles-dalio (source, main: #investment, sub: ['#opinion', '#research'], topic: investment-principles)
 - [[src_is-there-anything-left-build-crypto-wintermute]] — src_is-there-anything-left-build-crypto-wintermute (source, main: #crypto, sub: ['#ai', '#opinion', '#tools'], topic: machine-economy-crypto)
 - [[src_just-let-go-cipheron]] — src_just-let-go-cipheron (source, main: #health, sub: ['#psychology', '#opinion'], topic: identity-transformation)
@@ -258,12 +268,14 @@ Last updated: 2026-09-21 21:03:51
 - [[src_the-new-comms-playbook-show-dont]] — src_the-new-comms-playbook-show-dont (source, main: #crypto, sub: ['#opinion', '#news'], topic: crypto-communications-playbook)
 - [[src_the-next-generation-of-trading-wont]] — src_the-next-generation-of-trading-wont (source, main: #economic, sub: ['#opinion'], topic: trading-timing)
 - [[src_the-revenge-of-the-business-idiot]] — src_the-revenge-of-the-business-idiot (source, main: #ai, sub: ['#opinion', '#research'], topic: ai-business-criticism)
+- [[src_the-second-derivative-why-no-one]] — src_the-second-derivative-why-no-one (source, main: #economic, sub: ['#opinion', '#research'], topic: ai-credit-cycle)
 - [[src_thiet-ke-quy-tac-bao-ve-su-chu-y]] — src_thiet-ke-quy-tac-bao-ve-su-chu-y (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: attention-protection-rules)
 - [[src_this-essay-is-10-percent-ai-generated]] — src_this-essay-is-10-percent-ai-generated (source, main: #ai, sub: ['#research', '#opinion'], topic: ai-authorship-french-theory)
 - [[src_this-will-help-you-figure-out-what-you-want]] — src_this-will-help-you-figure-out-what-you-want (source, main: #productivity, sub: ['#psychology', '#opinion'], topic: self-discovery-serendipity)
 - [[src_trading-brain-chemistry-ferb]] — src_trading-brain-chemistry-ferb (source, main: #economic, sub: ['#opinion', '#psychology'], topic: trading-psychology)
 - [[src_tribute-system-new-world-order]] — src_tribute-system-new-world-order (source, main: #politic, sub: ['#geopolitics', '#opinion'], topic: tribute-system-world-order)
 - [[src_uae-opec-exit-end-of-era]] — src_uae-opec-exit-end-of-era (source, main: #economic, sub: ['#research', '#opinion'], topic: uae-opec-exit-geopolitics)
+- [[src_unreasonable-effectiveness-of-html]] — src_unreasonable-effectiveness-of-html (source, main: #ai, sub: ['#tools', '#opinion', '#coding'], topic: html-as-agent-output)
 - [[src_viktor-frankl-meaning-video]] — src_viktor-frankl-meaning-video (source, main: #productivity, sub: ['#opinion', '#psychology'], topic: meaning-life-purpose)
 - [[src_we-are-in-the-middle-of-the-digital-renaissance]] — src_we-are-in-the-middle-of-the-digital-renaissance (source, main: #productivity, sub: ['#opinion', '#psychology'], topic: digital-renaissance)
 - [[src_were-not-supposed-to-live-like-this]] — src_were-not-supposed-to-live-like-this (source, main: #productivity, sub: ['#opinion', '#research'], topic: evolutionary-mismatch-modern-life)
@@ -304,8 +316,8 @@ Last updated: 2026-09-21 21:03:51
 ## Co-occurring tags
 
 Tags that frequently appear with `#opinion`:
-- [[productivity]] — 129 co-occurrences
-- [[psychology]] — 121 co-occurrences
-- [[research]] — 62 co-occurrences
-- [[ai]] — 48 co-occurrences
-- [[economic]] — 43 co-occurrences
+- [[productivity]] — 130 co-occurrences
+- [[psychology]] — 122 co-occurrences
+- [[research]] — 70 co-occurrences
+- [[ai]] — 55 co-occurrences
+- [[economic]] — 47 co-occurrences

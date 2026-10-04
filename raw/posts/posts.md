@@ -20,11 +20,13 @@ Short-form social media posts, threads, and micro-content.
 
 ## Stats
 
-- Total: 28 files
-- By status: 28 processed, 0 unprocessed
-- By date: 1 this week, 4 this month
-- Last updated: 2026-09-24
+- Total: 33 files
+- By status: 33 processed, 0 unprocessed
+- By date: 6 this week, 10 this month
+- Last updated: 2026-10-04
 ## Items
+- [[2026-02-03_why-you-waste-your-evenings-neuroscience]] — Why You Waste Your Evenings (The Neuroscience of Post-Work Fatigue) by Dr. Dominic Ng (@DrDominicNg) (processed)
+- [[2026-09-24_do-less]] — Do Less by Finlay (@finlayekins) (processed)
 - [[2026-09-23_alex-saint-ai-trading-bot-jev-solana]] — AI Trading Bot Build: Jev + Solana (Two Models, Twelve Words) by alex saint (processed)
 - [[2026-08-21_daily-planning-routine-creativity-productivity]] — The Daily Planning Routine For Maximum Creativity & Productivity by Dickie Bush (@dickiebush) (processed)
 
@@ -51,6 +53,9 @@ Short-form social media posts, threads, and micro-content.
 - [[2026-08-16_schedule-maxxing]] — 'Schedule Maxxing': how to become ridiculously productive by Kimia (@kimiabuilds) (processed)
 - [[2026-09-10_0xhvdes-seven-ways-to-get-ahead]] — 7 Ways to Get Ahead That Most People Ignore by @0xHvdes (processed)
 - [[2026-09-16_googletech-behavioral-evals-harness-engineering]] — Behavioral Evaluations for Harness Engineering in Agentic Coding by @GoogleCloudTech (processed)
+- [[2026-07-02_how-to-create-ai-animation-ads-with-gemini]] — How To Create AI Animation Ads With Gemini Omni + Fable 5 (Full Guide) by Miko (@Mho_23) (processed)
+- [[2026-09-25_how-to-make-infinite-ads-with-claude-code]] — How to make infinite ads with Claude Code (Full Guide) by Shiv (@shivsakhuja) (processed)
+- [[2026-09-27_motion-design-studio-with-opus-5-5]] — How to build motion design studio with Opus 5.5 (Full-course) by Movez (@0xMovez) (processed)
 
 ## Notes
 

@@ -36,4 +36,4 @@ OAATI là khung năm bước (Outcome → Activities → Actions → Time → It
 
 ## Sources
 
-- "[[src_im-begging-you-to-manage-your-goals-like-this]]"
+- [[src_im-begging-you-to-manage-your-goals-like-this]]

@@ -31,4 +31,4 @@ Goal as filter là quan niệm rằng mục tiêu không phải là đích đế
 
 ## Sources
 
-- "[[src_delusional-goals-drive-success]]"
+- [[src_delusional-goals-drive-success]]

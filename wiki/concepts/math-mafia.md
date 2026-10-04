@@ -5,7 +5,7 @@ main_tag: tech
 sub_tags: [opinion, psychology]
 topic: math-mafia-olympiad-founders
 sources:
-  - "[[src_why-the-math-mafia-is-doing-well-jesse-zhang.md]]"
+  - "[[src_why-the-math-mafia-is-doing-well-jesse-zhang]]"
 last_updated: 2026-07-15
 ---
 
@@ -30,6 +30,6 @@ last_updated: 2026-07-15
 
 ## Sources
 
-- [[src_why-the-math-mafia-is-doing-well-jesse-zhang.md]]
+- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]]
 
 ## Notes

@@ -5,7 +5,7 @@ main_tag: health
 sub_tags: [psychology]
 topic: attention-hijacking
 sources:
-  - "[[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]]"
+  - "[[src_why-youve-lost-your-curiosity-how-to-get-it-back]]"
 last_updated: 2026-09-21
 ---
 
@@ -32,6 +32,6 @@ Curiosity hijacking là hiện tượng hệ dopamine tò mò bị các algorith
 
 ## Sources
 
-- [[src_why-youve-lost-your-curiosity-and-how-to-get-it-back]]
+- [[src_why-youve-lost-your-curiosity-how-to-get-it-back]]
 
 ## Notes

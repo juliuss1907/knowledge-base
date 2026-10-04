@@ -32,4 +32,4 @@ Isolation spectrum là khung phân loại các tầng cô lập phần mềm (so
 
 ## Sources
 
-- "[[src_google-cloud-agent-sandbox-runtimes]]"
+- [[src_google-cloud-agent-sandbox-runtimes]]

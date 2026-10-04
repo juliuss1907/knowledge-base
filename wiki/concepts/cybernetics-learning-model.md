@@ -5,7 +5,7 @@ main_tag: productivity
 sub_tags: [tutorial, psychology]
 topic: effective-learning-methods
 sources:
-  - "[[src_how-to-remember-everything-you-read-dan-koe.md]]"
+  - "[[src_how-to-remember-everything-you-read-dan-koe]]"
 last_updated: 2026-07-30
 ---
 
@@ -33,6 +33,6 @@ Cybernetics learning model áp dụng principles của cybernetics (Greek: kyber
 
 ## Sources
 
-- [[src_how-to-remember-everything-you-read-dan-koe.md]]
+- [[src_how-to-remember-everything-you-read-dan-koe]]
 
 ## Notes

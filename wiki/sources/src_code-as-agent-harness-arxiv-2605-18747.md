@@ -41,9 +41,7 @@ Paper này tái định nghĩa vai trò của code trong các hệ thống agent
 
 - [[agent-harness]]
 - [[code-as-substrate]]
-- [[agent-initiated-code-artifacts]]
 - [[program-of-thoughts]]
-- [[multi-agent-systems]]
 - [[plan-execute-verify-loop]]
 - [[code-for-reasoning]]
 - [[code-for-action]]

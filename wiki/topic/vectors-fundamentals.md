@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: vectors-fundamentals
 auto_generated: true
-last_updated: 2026-09-21
+last_updated: 2026-10-03
 ---
 
 # Topic: vectors-fundamentals
 
 Auto-generated index of all content with topic `vectors-fundamentals`.
 
-Last updated: 2026-09-21 21:03:51
+Last updated: 2026-10-03 21:07:14
 
 ---
 
@@ -25,7 +25,3 @@ Last updated: 2026-09-21 21:03:51
 ## Sources (1)
 
 - [[src_vectors-what-even-are-they-3b1b]] — main: #ai, sub: ['#tutorial', '#research', '#coding']
-
-## Related topics
-
-No related topics found.

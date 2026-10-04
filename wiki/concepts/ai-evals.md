@@ -5,8 +5,9 @@ main_tag: ai
 sub_tags: [tools, system]
 topic: ai-token-workforce
 sources:
-  - "[[src_you-just-hired-a-million-bad-employees-a16z.md]]"
-last_updated: 2026-07-16
+  - "[[src_you-just-hired-a-million-bad-employees-a16z]]"
+  - "[[src_gemini-4-argon-explained-in-5min]]"
+last_updated: 2026-10-02
 ---
 
 # AI Evals
@@ -25,15 +26,22 @@ AI evals (evaluations) là hệ thống đo lường objective để xác địn
 - Real work của management là express qualitative processes dưới dạng quantitative
 - Specific evals quan trọng hơn teaching employees prompting
 - Evals là path để chạy 100X tokens hiệu quả
+- **Public benchmark mất dần giá trị phân biệt:** toàn bộ 113 task và lời giải của Deep SWE được công khai từ tháng 5, nên lab có thể học chúng trong post-training và nhắm điểm số — benchmark công khai bị nhiễm rất nhanh
+- **Chất lượng eval cũng suy giảm:** Epoch phát hiện 23 task lỗi trong bộ benchmark đó; số liệu do lab tự báo cáo cần "healthy skepticism"
+- **Benchmark saturate nhanh hơn trước**, buộc refresh thường xuyên hơn → gánh nặng đánh giá tiến bộ thật chuyển sang người dùng
+- **Hệ quả chiến lược:** khoảng cách giữa model đang đua benchmark và model thực sự được dùng phải đo bằng adoption (harness + model adoption), xem [[model-vs-harness-adoption]]
 
 ## Related concepts
 
 - [[100x-token]]
 - [[ai-transformation]]
+- [[benchmark-contamination]]
+- [[model-vs-harness-adoption]]
 
 ## Sources
 
-- [[src_you-just-hired-a-million-bad-employees-a16z.md]]
+- [[src_you-just-hired-a-million-bad-employees-a16z]]
+- [[src_gemini-4-argon-explained-in-5min]]
 
 ## Notes
 

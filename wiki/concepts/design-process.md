@@ -6,7 +6,8 @@ sub_tags: [tools, vibecode]
 topic: ai-design-workflow
 sources:
   - "[[src_how-i-design-with-ai]]"
-last_updated: 2026-08-29
+  - "[[src_unreasonable-effectiveness-of-html]]"
+last_updated: 2026-10-03
 ---
 
 # Design Process
@@ -23,6 +24,8 @@ Design process là phương pháp có cấu trúc để thiết kế sản phẩ
 - **AI làm trầm trọng wackamole:** prompting "Make X more prominent" hoặc "Add an affordance" tạo ra design ngẫu nhiên ưu tiên một số interactions, làm user càng confused
 - **Feedback nên thay đổi constraints, không chỉ solutions:** khi feedback đến, đánh giá xem nó có thay đổi design constraints không trước khi nhảy vào giải pháp
 - **Xử lý papercuts:** giữ document tracking minor annoyances, move fast trên obvious fixes nhưng gom minor ones để xử lý cohesively khi redesign
+- **Bước "xem xét một loạt solutions" chạy song song thay vì tuần tự:** dàn nhiều hướng khác biệt rõ (layout, tone, density) cạnh nhau trong một trang, mỗi hướng gắn nhãn trade-off, để so sánh trực tiếp thay vì đánh giá tuần tự từng phương án
+- **Trình duyệt là công cụ chẩn đoán cho constraint chưa rõ:** bản HTML cho phép thấy ngay hậu quả của một thay đổi trước khi chốt — phản hồi trả về dạng constraint, đúng với vòng lặp bước 3
 
 ## Related concepts
 
@@ -30,7 +33,12 @@ Design process là phương pháp có cấu trúc để thiết kế sản phẩ
 - [[codified-taste]]
 - [[problem-statement-redesign]]
 - [[taste-judgment]]
+- [[multi-file-artifact-workflow]]
+- [[html-as-agent-output-format]]
 
 ## Sources
 
 - [[src_how-i-design-with-ai]]
+- [[src_unreasonable-effectiveness-of-html]] — Thariq Shihipar, Anthropic (2026-05-20)
+
+## Notes

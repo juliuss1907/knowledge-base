@@ -31,4 +31,4 @@ Reality Distortion Field (RDF) là kỹ thuật tâm lý mà Steve Jobs sử d�
 
 ## Sources
 
-- "[[src_delusional-goals-drive-success]]"
+- [[src_delusional-goals-drive-success]]

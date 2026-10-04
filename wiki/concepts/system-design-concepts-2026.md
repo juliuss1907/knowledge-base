@@ -41,4 +41,4 @@ Bộ 50 khái niệm system design từ first principles, bao gồm cả traditi
 
 ## Sources
 
-- "[[src_50-system-design-concepts-explained-simply]]"
+- [[src_50-system-design-concepts-explained-simply]]

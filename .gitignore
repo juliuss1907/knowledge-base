@@ -52,6 +52,35 @@ node_modules/
 .hermes/ollama_cloud_models_cache.json
 .hermes/bin/
 
+# Hermes agent home — 6,3 GB runtime, KHÔNG đồng bộ (thêm 2026-10-04)
+# Backup cron chết 09-25 18:11 sau reboot. Nếu bật lại với `git add -A`
+# mà không có block này, commit kế tiếp nuốt 6,3 GB vào lịch sử repo.
+# Skills + memories + SOUL vẫn được track (xem allowlist cuối file).
+.hermes/hermes-agent/
+.hermes/checkpoints/
+.hermes/.curator_backups/
+.hermes/state-snapshots/
+.hermes/lsp/
+.hermes/runtime/
+.hermes/terminal-sessions/
+.hermes/state/
+.hermes/config.yaml
+.hermes/spawn-ledger.json
+.hermes/verification_evidence.db
+.hermes/.env
+__pycache__/
+*.pyc
+.hermes/skills/.curator_backups/
+.hermes/skills/.curator_ledger.jsonl
+.hermes/skills/.curator_state
+.hermes/skills/.curator_suppressed
+.hermes/skills/.usage.json
+.hermes/gateway.lock
+.hermes/gateway-starts.log
+
+# DREAMS.md — writer nightly, không thuộc KB (thêm 2026-10-04)
+/DREAMS.md
+
 # OpenClaw runtime state (máy-specific — không sync)
 .openclaw/main.sqlite
 .openclaw/device-auth.json

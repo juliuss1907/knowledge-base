@@ -22,4 +22,4 @@ Stack: node nvm v24.20.0 (default alias) + openclaw 2026.9.3. KHÔNG prepend /us
 §
 format-validator đo slug source trên thân slug (strip `src_`). Đếm theo filename sinh ERROR giả ở biên 50.
 §
-Curator KHÔNG patch được 4 skill user-owned: format-validator, knowledge-base-validation, git-secret-cleanup, obsidian-git-no-conflict. Muốn sửa: `hermes curator adopt <name>`.
+Curator KHÔNG patch được 5 skill user-owned: format-validator, hygiene-inspector, knowledge-base-validation, git-secret-cleanup, obsidian-git-no-conflict. Muốn sửa: `hermes curator adopt <name>`.

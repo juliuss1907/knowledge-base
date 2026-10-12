@@ -117,3 +117,8 @@ state/
 openclaw-workspace-state.json
 openclaw-workspace-state.json.attested
 workspace-attestations/
+
+# OpenClaw auth credentials
+.openclaw/*auth*.json
+.openclaw/identity/*auth*.json
+.openclaw/agents/*/agent/auth-*.json

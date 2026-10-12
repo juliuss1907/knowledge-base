@@ -4,21 +4,18 @@ scope: topic
 parent: "[[topic]]"
 topic: brain-health
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: brain-health
 
 Auto-generated index of all content with topic `brain-health`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (2)
 
-- [[brain-rot]] — main: #health, sub: ['#psychology', '#research']
-- [[cognitive-load-theory]] — main: #health, sub: ['#psychology', '#research']
-
-## Sources (0)
-
+- [[brain-rot]] — main: #health, sub: [#psychology, #research]
+- [[cognitive-load-theory]] — main: #health, sub: [#psychology, #research]

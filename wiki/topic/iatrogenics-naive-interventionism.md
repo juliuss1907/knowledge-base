@@ -4,24 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: iatrogenics-naive-interventionism
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: iatrogenics-naive-interventionism
 
 Auto-generated index of all content with topic `iatrogenics-naive-interventionism`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (4)
 
-- [[iatrogenics]] — main: #system, sub: ['#psychology', '#opinion']
-- [[naive-interventionism]] — main: #system, sub: ['#psychology', '#opinion']
-- [[primum-non-nocere]] — main: #system, sub: ['#psychology', '#opinion']
-- [[skin-in-the-game]] — main: #system, sub: ['#psychology', '#opinion']
+- [[iatrogenics]] — main: #system, sub: [#psychology, #opinion]
+- [[naive-interventionism]] — main: #system, sub: [#psychology, #opinion]
+- [[primum-non-nocere]] — main: #system, sub: [#psychology, #opinion]
+- [[skin-in-the-game]] — main: #system, sub: [#psychology, #opinion]
 
 ## Sources (1)
 
-- [[src_iatrogenics-farnam-street]] — main: #system, sub: ['#psychology', '#opinion']
+- [[src_iatrogenics-farnam-street]] — main: #system, sub: [#psychology, #opinion]

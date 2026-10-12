@@ -4,24 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: procrastination-neuroscience
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: procrastination-neuroscience
 
 Auto-generated index of all content with topic `procrastination-neuroscience`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (4)
 
-- [[approach-avoidance-conflict]] — main: #productivity, sub: ['#psychology', '#opinion']
-- [[challenge-skills-balance]] — main: #productivity, sub: ['#psychology', '#opinion']
-- [[clear-goals]] — main: #productivity, sub: ['#psychology', '#opinion']
-- [[flow-cycle]] — main: #productivity, sub: ['#psychology', '#opinion']
+- [[approach-avoidance-conflict]] — main: #productivity, sub: [#psychology, #opinion]
+- [[challenge-skills-balance]] — main: #productivity, sub: [#psychology, #opinion]
+- [[clear-goals]] — main: #productivity, sub: [#psychology, #opinion]
+- [[flow-cycle]] — main: #productivity, sub: [#psychology, #opinion]
 
 ## Sources (1)
 
-- [[src_give-me-14-minutes-destroy-procrastination]] — main: #productivity, sub: ['#psychology', '#opinion']
+- [[src_give-me-14-minutes-destroy-procrastination]] — main: #productivity, sub: [#psychology, #opinion]

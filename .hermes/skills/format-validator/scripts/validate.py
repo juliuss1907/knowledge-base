@@ -72,23 +72,75 @@ def validate_date(val):
         return bool(re.match(r'^\d{4}-\d{2}-\d{2}$', val))
     return False
 
-def codeblock_issues(body, rel):
-    issues = []
-    in_fence = False
-    for line in body.splitlines():
+def fence_markers(body):
+    """Yield (index, language_tag, is_open) for every ``` line in body.
+
+    A fence toggles open/closed in document order. The language tag belongs to the
+    opening marker only — a closing ``` carries none. An unclosed fence simply
+    never toggles back, matching how a Markdown reader treats it.
+    """
+    open_fence = False
+    for i, line in enumerate(body.splitlines()):
         stripped = line.strip()
         if not stripped.startswith('```'):
             continue
-        suffix = stripped[3:].strip()
-        if not in_fence:
-            if suffix == '':
-                issues.append(('ERROR', 'Markdown', rel, 'Code block missing language tag'))
-            elif suffix != suffix.lower():
-                issues.append(('WARNING', 'Markdown', rel, f'Code block language tag uppercase: "{suffix}"'))
-            in_fence = True
+        yield i, stripped[3:].strip(), not open_fence
+        open_fence = not open_fence
+
+
+def unfenced(body):
+    """Body text with fenced code blocks blanked out.
+
+    Fenced content is documentation — a wikilink or slug shown inside a fence is
+    an example, not a real reference, so checks must never see it. An unclosed
+    fence runs to EOF, same as any Markdown reader; only the opening line counts
+    as the fence marker itself.
+    """
+    out = []
+    open_fence = False
+    for i, line in enumerate(body.splitlines()):
+        if line.strip().startswith('```'):
+            open_fence = not open_fence
+            out.append('')
         else:
-            in_fence = False
+            out.append('' if open_fence else line)
+    return '\n'.join(out)
+
+
+def codeblock_issues(body, rel):
+    issues = []
+    for _, suffix, is_open in fence_markers(body):
+        if not is_open:
+            continue
+        if suffix == '':
+            issues.append(('ERROR', 'Markdown', rel, 'Code block missing language tag'))
+        elif suffix != suffix.lower():
+            issues.append(('WARNING', 'Markdown', rel, f'Code block language tag uppercase: "{suffix}"'))
     return issues
+
+def wikilink_style_issues(body, rel):
+    """Wikilink style checks on BODY content only.
+
+    Frontmatter wikilinks are exempt — the house style REQUIRES quoted format
+    `"[[...]]"` there (format-spec.md §Note: "Wikilinks in frontmatter fields
+    (`original`, `sources`) use quoted format ... body content use bare format").
+    Code fences are exempt — a quoted link inside a fence is an example, not a link.
+
+    Two defects this catches:
+      - quoted wikilink in body  -> Obsidian renders the quotes as literal text
+      - wikilink carrying .md    -> resolves as 'slug.md.md' in some resolvers
+    """
+    text = unfenced(body)
+    issues = []
+    for m in re.findall(r'"(\[\[[^\]\n]+\]\])"', text):
+        issues.append(('WARNING', 'Markdown', rel,
+                       f'Quoted wikilink in body: {m} — body uses bare format [[...]] (quotes are frontmatter-only)'))
+
+    for m in re.findall(r'\[\[([^\]\n|]+\.md)(?:\|[^\]\n]*)?\]\]', text):
+        issues.append(('WARNING', 'Markdown', rel,
+                       f'Wikilink carries .md extension: [[{m}]] — use [[{m[:-3]}]]'))
+    return issues
+
 
 def validate_concept(filepath, fm, raw_fm, content):
     issues = []
@@ -196,6 +248,7 @@ def validate_concept(filepath, fm, raw_fm, content):
     body = content[body_start+4:] if body_start != -1 else content
     
     issues.extend(codeblock_issues(body, rel))
+    issues.extend(wikilink_style_issues(body, rel))
     
     if re.search(r'\[\[\s+[^\]]+\]\]|\[\[[^\]]+\s+\]\]', body):
         issues.append(('ERROR', 'Markdown', rel, 'Wikilink has spaces around brackets'))
@@ -343,6 +396,7 @@ def validate_source(filepath, fm, raw_fm, content):
     body = content[body_start+4:] if body_start != -1 else content
     
     issues.extend(codeblock_issues(body, rel))
+    issues.extend(wikilink_style_issues(body, rel))
     
     # Broken wikilinks
     all_wikilinks = re.findall(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', body)

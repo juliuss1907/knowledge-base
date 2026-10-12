@@ -1,6 +1,6 @@
-KB gitignore: .hermes/{auth*,channel_directory.json,state.db*,logs,sessions,cron}, .obsidian/{graph.json,workspace.json}.
+Vault backup cron ở máy chính, KHÔNG phải VPS; không tự phục hồi sau reboot → HEAD vs origin/master là cách duy nhất check. Agent-home block đã vào .gitignore.
 §
-Scan raw/ compiled_to: grep -rn 'compiled_to.*\[\[\[' raw/. Patterns cần chú ý: quoted wikilinks, wrong path, .md extension. Dùng cat -A/xxd khi terminal nhìn sạch mà file sai.
+Scan raw/ compiled_to: grep -rn 'compiled_to.*\[\[\[' raw/. Chú ý quoted wikilink, wrong path, .md. Dùng cat -A/xxd khi terminal nhìn sạch mà file sai.
 §
 KB máy chính: /home/julius/julius-workspace/knowledge-base; VPS: /home/julius/knowledge-base. Tắt Obsidian trước merge/push.
 §
@@ -10,12 +10,16 @@ Connor (Hermes) QUY TẮC CỨNG: KHÔNG tự sửa file trong wiki/concepts/. C
 §
 Empty `## Notes` intentional (Compile Agent template) — không flag.
 §
-Obsidian display quirk: frontmatter fields (original, sources, compiled_to) cần format `"[[wikilink]]"` (quotes) để Obsidian hiển thị đúng. Wikilinks trong body content dùng bare format `[[wikilink]]`. Đây là lý do format-spec và compile-agent cần quoted format.
+Obsidian house style: frontmatter (original, sources, compiled_to) cần `"[[wikilink]]"` có quotes; body content dùng bare `[[wikilink]]`; wikilink KHÔNG kèm `.md` (→ slug.md.md). validate.py kiểm bằng wikilink_style_issues() — body-only, frontmatter exempt.
 §
 _approval-log.md đã bị xóa intentional (commit 9948ccc). Cross-machine approval contract không cần nữa. KHÔNG tạo lại hay flag missing.
 §
 Raw sub-index convention: raw/<category>/<category>.md với frontmatter type:index level:2 scope:<category> parent:"[[raw]]". Phải update raw/raw.md (sub-indexes) + hygiene scan-script (RAW_SUBFOLDERS) + validator scope lists. Không tạo thư mục riêng ở root.
 §
-OpenClaw config: ~/.openclaw/openclaw.json. `openclaw configure`/`doctor --fix` overwrites manual edits. Compile Daily: 9router/oc/mimo-v2.5-free, fallback gpt-5.4/kimi.
+OpenClaw config: ~/.openclaw/openclaw.json. `configure`/`doctor --fix` overwrite manual edits. Compile Daily: 9router/oc/mimo-v2.5-free, fallback gpt-5.4/kimi.
 §
-Stack 09-08: node nvm v24.20.0 (default alias) + openclaw 2026.9.3. KHÔNG prepend /usr/bin vào PATH ~/.bashrc. reserveTokensFloor RETIRED → `compaction.reserveTokens` trong per-agent ~/.openclaw/agents/<id>/agent/settings.json (main + kara = 50000; default 20000). npm i -g cần --allow-scripts. Backups: openclaw.json.bak-20260902, openclaw.sqlite.bak-20260902.
+Stack: node nvm v24.20.0 (default alias) + openclaw 2026.9.3. KHÔNG prepend /usr/bin vào PATH. npm i -g cần --allow-scripts. Chi tiết: skill openclaw-ops.
+§
+format-validator đo slug source trên thân slug (strip `src_`). Đếm theo filename sinh ERROR giả ở biên 50.
+§
+Curator KHÔNG patch được 4 skill user-owned: format-validator, knowledge-base-validation, git-secret-cleanup, obsidian-git-no-conflict. Muốn sửa: `hermes curator adopt <name>`.

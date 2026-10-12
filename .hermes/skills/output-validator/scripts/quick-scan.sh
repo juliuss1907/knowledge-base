@@ -105,10 +105,17 @@ done
 ONE_SENT_COUNT=$(echo "$ONE_SENT_DEF" | wc -w)
 
 # ─── 4. Too few key points (<5, concepts) ────────────────
+# PATCHED 2026-10-01: pattern aligned with section 6. Previously this counter
+# used `grep -c '^- '` only, so concepts whose Key ideas are a NUMBERED list
+# (1. 2. 3.) or a markdown table scored 0 bullets, failed the `-gt 0` gate,
+# and were never flagged at all. Same bug class as the section-3 fix of
+# 2026-08-25. Measured impact at patch time: 78 (unpatched) -> 77 (corrected,
+# 1 file rescued: five-big-forces.md). KB-wide "<5 key points" baseline is 77
+# in the 1-4 range, plus 9 zero-bullet concepts = 86 total under-5 concepts.
 FEW_POINTS=""
 for f in $(file_list "wiki/concepts"); do
     points=$(sed -n '/^## Key ideas$/,/^## /p' "$f" 2>/dev/null \
-        | sed '1d;/^## /,$d' | grep -c '^- ' 2>/dev/null || echo 0)
+        | sed '1d;/^## /,$d' | grep -cE '^- |^[0-9]+\.|^\|' 2>/dev/null || echo 0)
     points=$(echo "$points" | tr -d '[:space:]')
     [ -z "$points" ] && points=0
     if [ "$points" -gt 0 ] && [ "$points" -lt 5 ]; then

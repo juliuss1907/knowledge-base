@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 159 files
-- By status: 159 processed, 0 unprocessed
+- Total: 160 files
+- By status: 159 processed, 1 unprocessed
 - By date: 3 this week, 11 this month
-- Last updated: 2026-10-03
+- Last updated: 2026-10-12
 ## Items
+- [[2026-07-29_how-i-stopped-feeling-overwhelmed]] — how i stopped feeling overwhelmed by everything and started creating by ayushi thakkar (unprocessed)
 - [[2026-05-20_unreasonable-effectiveness-of-html]] — Using Claude Code: The unreasonable effectiveness of HTML by Thariq Shihipar (unprocessed)
 - [[2026-07-02_the-second-derivative-why-no-one]] — The Second Derivative: Why No One Understands the AI Boom by Groundbreaker (unprocessed)
 - [[2026-09-19_ai-ui-design-8-ways-vibe-coded-apps]] — AI UI design: 8 ways to make vibe-coded apps look better by Geneviève Huskens (processed)

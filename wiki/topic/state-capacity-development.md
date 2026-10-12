@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: state-capacity-development
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: state-capacity-development
 
 Auto-generated index of all content with topic `state-capacity-development`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[enablement-vs-control]] — main: #economic, sub: ['#geopolitics', '#opinion']
-- [[political-settlement]] — main: #economic, sub: ['#geopolitics', '#opinion']
-- [[state-capacity-theory]] — main: #economic, sub: ['#geopolitics', '#opinion']
+- [[enablement-vs-control]] — main: #economic, sub: [#geopolitics, #opinion]
+- [[political-settlement]] — main: #economic, sub: [#geopolitics, #opinion]
+- [[state-capacity-theory]] — main: #economic, sub: [#geopolitics, #opinion]
 
 ## Sources (1)
 
-- [[src_why-china-got-rich-and-india-didnt]] — main: #economic, sub: ['#geopolitics', '#opinion']
+- [[src_why-china-got-rich-and-india-didnt]] — main: #economic, sub: [#geopolitics, #opinion]

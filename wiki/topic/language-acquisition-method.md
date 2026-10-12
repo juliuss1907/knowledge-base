@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: language-acquisition-method
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: language-acquisition-method
 
 Auto-generated index of all content with topic `language-acquisition-method`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[comprehensible-input]] — main: #productivity, sub: ['#psychology']
-- [[decoding-messages-language]] — main: #productivity, sub: ['#psychology']
-- [[mental-representation-language]] — main: #productivity, sub: ['#psychology']
+- [[comprehensible-input]] — main: #productivity, sub: [#psychology]
+- [[decoding-messages-language]] — main: #productivity, sub: [#psychology]
+- [[mental-representation-language]] — main: #productivity, sub: [#psychology]
 
 ## Sources (1)
 
-- [[src_why-people-fail-at-learning-languages]] — main: #productivity, sub: ['#psychology', '#opinion']
+- [[src_why-people-fail-at-learning-languages]] — main: #productivity, sub: [#psychology, #opinion]

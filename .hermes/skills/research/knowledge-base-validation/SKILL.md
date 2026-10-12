@@ -300,6 +300,29 @@ Fix Agent giờ chạy cùng máy, đọc trực tiếp `_action-required.md` v�
 
 ## _action-required.md Update Pattern
 
+### ⚠️ PITFALL — `git checkout` on `_action-required.md` is a WHOLE-FILE operation
+
+`_action-required.md` is usually **uncommitted** (vault backup can lag days), so there is no git copy to recover from. Never use `git checkout --` / `git restore` on it as a line-level undo.
+
+**Before any git command that touches `wiki/reviews/`:**
+1. `cp` the file to `/tmp/`, and snapshot the `## Pending Reports` section separately.
+2. Edit in a temp file, verify invariants, then write to the real path.
+
+**Failure (2026-10-02):** `git checkout -- wiki/reviews/_action-required.md`, intended to undo one wrong line, overwrote the whole file back to HEAD (09-24) and lost all 09-25→10-01 uncommitted changes. The Pending section was recoverable from a `/tmp` sed snapshot; the Summary table and header were not and had to be rebuilt from the surviving `### ` entries.
+
+### ⚠️ PITFALL — verify block boundaries numerically before any block delete
+
+A `sed`/slice range intended to cover one entry swallowed 341 lines including older entries, because the "next entry" boundary was computed from an index that had already shifted. Always print the candidate block's first line, last line, and `### ` count, and assert no nested `### ` before deleting.
+
+### Rebuilding the Summary table from `### ` entries
+
+When the table is lost but the Pending section survives:
+- **Issues** — read each entry's `- **Report:**` target, then parse `**Issues found:**` (or `**ERRORs**`/`**WARNINGS**`/`**INFOS**`) from the report file. Never infer from entry prose.
+- **Entry→report path** — 11 older entries have no `- **Report:**` field; fall back to `wiki/reviews/<YYYY-MM-DD>_<hygiene|format|output>-report.md` and verify existence.
+- **Action text** — entry `- **Summary:**`; Hygiene entries use `- **Phạm vi:**`; older Format entries need the `Δ from …` delta line.
+- Preserve old `✅ APPROVED` / `✅ APPLIED` rows from a backup copy — a fresh 39-row build drops them.
+- Mark rebuilt content as reconstructed (derived, not original).
+
 ### When marking pending (after validation):
 ```
 **Pending reports:** N

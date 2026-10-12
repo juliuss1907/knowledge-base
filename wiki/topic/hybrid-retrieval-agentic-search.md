@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: hybrid-retrieval-agentic-search
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: hybrid-retrieval-agentic-search
 
 Auto-generated index of all content with topic `hybrid-retrieval-agentic-search`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[agentic-retrieval]] — main: #ai, sub: ['#tools', '#research', '#coding']
-- [[cached-compute-retrieval]] — main: #ai, sub: ['#tools', '#research', '#coding']
-- [[hybrid-retrieval]] — main: #ai, sub: ['#tools', '#research', '#coding']
+- [[agentic-retrieval]] — main: #ai, sub: [#tools, #research, #coding]
+- [[cached-compute-retrieval]] — main: #ai, sub: [#tools, #research, #coding]
+- [[hybrid-retrieval]] — main: #ai, sub: [#tools, #research, #coding]
 
 ## Sources (1)
 
-- [[src_rag-is-dead-kuba-turbopuffer]] — main: #ai, sub: ['#tools', '#research', '#coding']
+- [[src_rag-is-dead-kuba-turbopuffer]] — main: #ai, sub: [#tools, #research, #coding]

@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: critical-thinking-tools
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: critical-thinking-tools
 
 Auto-generated index of all content with topic `critical-thinking-tools`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[collaborative-thinking]] — main: #productivity, sub: ['#psychology', '#research']
-- [[occams-broom]] — main: #productivity, sub: ['#psychology', '#research']
-- [[occams-razor]] — main: #productivity, sub: ['#psychology', '#research']
+- [[collaborative-thinking]] — main: #productivity, sub: [#psychology, #research]
+- [[occams-broom]] — main: #productivity, sub: [#psychology, #research]
+- [[occams-razor]] — main: #productivity, sub: [#psychology, #research]
 
 ## Sources (1)
 
-- [[src_critical-thinking-dennett]] — main: #productivity, sub: ['#psychology', '#research', '#tutorial']
+- [[src_critical-thinking-dennett]] — main: #productivity, sub: [#psychology, #research, #tutorial]

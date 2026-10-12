@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: math-mafia-olympiad-founders
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: math-mafia-olympiad-founders
 
 Auto-generated index of all content with topic `math-mafia-olympiad-founders`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[math-mafia]] — main: #tech, sub: ['#opinion', '#psychology']
-- [[olympiad-to-founder-pipeline]] — main: #tech, sub: ['#opinion', '#psychology']
-- [[quant-finance-culture]] — main: #tech, sub: ['#opinion', '#psychology']
+- [[math-mafia]] — main: #tech, sub: [#opinion, #psychology]
+- [[olympiad-to-founder-pipeline]] — main: #tech, sub: [#opinion, #psychology]
+- [[quant-finance-culture]] — main: #tech, sub: [#opinion, #psychology]
 
 ## Sources (1)
 
-- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — main: #tech, sub: ['#opinion', '#psychology']
+- [[src_why-the-math-mafia-is-doing-well-jesse-zhang]] — main: #tech, sub: [#opinion, #psychology]

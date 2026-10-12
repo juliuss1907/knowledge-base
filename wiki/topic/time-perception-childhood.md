@@ -4,24 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: time-perception-childhood
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: time-perception-childhood
 
 Auto-generated index of all content with topic `time-perception-childhood`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (4)
 
-- [[mindfulness-presence]] — main: #health, sub: ['#psychology', '#research', '#tutorial']
-- [[oddball-effect]] — main: #health, sub: ['#psychology', '#research']
-- [[predictability-trap]] — main: #health, sub: ['#psychology', '#research']
-- [[proportional-theory-time-perception]] — main: #health, sub: ['#psychology', '#research']
+- [[mindfulness-presence]] — main: #health, sub: [#psychology, #research, #tutorial]
+- [[oddball-effect]] — main: #health, sub: [#psychology, #research]
+- [[predictability-trap]] — main: #health, sub: [#psychology, #research]
+- [[proportional-theory-time-perception]] — main: #health, sub: [#psychology, #research]
 
 ## Sources (1)
 
-- [[src_why-time-felt-slower-when-we-were-kids]] — main: #health, sub: ['#psychology', '#research', '#tutorial']
+- [[src_why-time-felt-slower-when-we-were-kids]] — main: #health, sub: [#psychology, #research, #tutorial]

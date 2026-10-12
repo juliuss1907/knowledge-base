@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: optionality-paradox
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: optionality-paradox
 
 Auto-generated index of all content with topic `optionality-paradox`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[real-options-theory]] — main: #productivity, sub: ['#psychology', '#research']
-- [[reversibility-paradox]] — main: #productivity, sub: ['#psychology', '#research']
-- [[synthetic-happiness]] — main: #productivity, sub: ['#psychology', '#research']
+- [[real-options-theory]] — main: #productivity, sub: [#psychology, #research]
+- [[reversibility-paradox]] — main: #productivity, sub: [#psychology, #research]
+- [[synthetic-happiness]] — main: #productivity, sub: [#psychology, #research]
 
 ## Sources (1)
 
-- [[src_how-to-live-without-options]] — main: #productivity, sub: ['#psychology', '#opinion', '#research']
+- [[src_how-to-live-without-options]] — main: #productivity, sub: [#psychology, #opinion, #research]

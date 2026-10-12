@@ -51,6 +51,24 @@ Class-level skill for running and debugging OpenClaw (Kara) on this host. Use wh
 4. Restart gateway: `systemctl --user restart openclaw-gateway` → `systemctl --user is-active openclaw-gateway` → wait 6–8s before `openclaw cron run <id>` (avoids `1006 abnormal closure`)
 5. Trigger: `openclaw cron run <id>` → wait for Telegram delivery or re-query `cron runs`
 
+### ⚠️ `cron run <id>` reuses the job's STORED payload — it does not take a prompt
+
+`openclaw cron run <id>` fires the job with the `payload.message` already saved in the job definition. Any message you pass is ignored or rejected. This matters when you want a **targeted, one-off task** (e.g. "compile exactly this one concept"):
+
+- Firing a scheduled batch job to do bespoke work runs the **entire batch** — an unrelated compile/index pass writes across the whole KB.
+- Inspect what you are about to fire: `openclaw cron get <id>` → read `payload.message`, `schedule`, `delivery`.
+- For bespoke work, create a **separate one-shot job** (`openclaw cron add --at <when> ... --delete-after-run`) carrying the custom prompt, instead of hijacking the recurring one.
+- Two agents of the same kind writing `wiki/` concurrently is a lost-update race — serialize them or the second one's Index/Format pass will see half-written files.
+- Pre-resolve every wikilink target in the one-shot prompt. A compile agent asked to write a concept from N existing sources will invent plausible neighbour names (`specific-knowledge`, `judgment`) and emit broken forward-refs — the exact debt the job was meant to clear. Enumerate the concept slugs that exist on disk and mark them as the only legal link targets, then state that any other name is forbidden.
+- Include a verify step in the prompt itself (run the validator, report the real counts). An agent that self-reports "clean" without running anything is indistinguishable from one that fixed nothing; the check belongs in the prompt, not in your follow-up.
+
+### Dispatch tool limits and how to still watch the run
+
+- `--wait` blocks; if the calling tool's timeout is shorter than the run, the run continues on the gateway — it is NOT cancelled. Watch it read-only instead of re-issuing the command.
+- A blocked/killed wait command means "no consent to this exact invocation", not "stop polling". Do not retry it or rephrase it to the same effect; fall back to read-only inspection.
+- Read live state from SQLite, which needs no CLI round-trip: `~/.openclaw/state/openclaw.sqlite` → table `cron_jobs`, column **`job_id`** (not `id`), column `state_json`. A populated `runningAtMs` with an unchanged `lastRunAtMs` = in flight right now. `~/.openclaw/cron/runs/*.jsonl.migrated` is the legacy store and no longer reflects current runs.
+- Confirm the effect on disk afterwards (file exists, content correct) — `lastRunStatus: ok` alone proves nothing about what the agent wrote.
+
 ## Workflow 3 — Probe Model Liveness (don't guess)
 
 ```bash
@@ -131,12 +149,26 @@ FROM sessions WHERE source='cron' GROUP BY job;
 - Old sessions may predate usage logging (all zeros) — those runs are unmeasurable, don't invent numbers
 - Job definitions (primary model, fallbacks, timeout) live in `~/.openclaw/cron/jobs.json` — or `.migrated` suffix after a package upgrade; check both
 
-**Falling back to usage fields that are all 0** (provider strips usage, or plugin model like `delivery-mirror`) is normal; use what's real, state the gap. See `references/cron-usage-accounting.md` for the 2026-09-09 baseline numbers (avg/day ~3.5M tokens, worst/day ~8.9M incl. cache-read).
+**Falling back to usage fields that are all 0** (provider strips usage, or plugin model like `delivery-mirror`) is normal; use what's real, state the gap. See `references/cron-usage-accounting.md` for measured cron baselines.
+
+## Workflow 9 — Diagnose Empty / Non-Deliverable Responses
+
+1. Identify exact session and run from `openclaw sessions --json`; do not infer agent identity from persona name.
+2. Read `model.completed` and `trace.artifacts` from `trajectory_runtime_events`. Capture stop reason, output usage, compaction count, timeout flags, and terminal error.
+3. Verify gateway, authenticated provider probe, and served model independently.
+4. Correlate provider request database by timestamp/model. Read `max_tokens` only when full payload exists; truncated preview is not wire evidence.
+5. Compare session `contextTokens` with live `infer model inspect`; stale session metadata can disagree with hot-reloaded config.
+6. If output is tiny with `stopReason=length`, inspect OpenClaw managed-completions clamp. Use `OPENCLAW_DEBUG_MODEL_TRANSPORT=1` for one bounded run when exact clamp parameters are still needed.
+7. Reset oversized session for immediate recovery. Repair conservative combo/model metadata only after verifying every backend limit; do not raise context to match stale session state.
+8. Verify with a fresh representative turn that produces more than one output token and has deliverable content.
+
+Detailed evidence rules, SQL fields, clamp mechanism, and payload-truncation limits: `references/empty-response-diagnostics.md`.
 
 ## Pitfalls
 
 - `cron runs` JSON shape is `{entries:[], total, hasMore}`, not `{runs:[]}` — parsing `runs` yields 0.
-- `openclaw cron run --id` is wrong; correct is `openclaw cron run <id>` (positional).
+- `openclaw cron run --id` is wrong; correct is `openclaw cron run <id>` (positional), and it carries no prompt override — see Workflow 2.
+- `~/.openclaw/cron/runs/*.jsonl.migrated` is a legacy store left over from an upgrade; current run state lives in `state/openclaw.sqlite` table `cron_jobs` (keyed by `job_id`). Reading the JSONL shows the last pre-migration run and can make a live job look idle.
 - Gateway `1006` right after restart is normal race — sleep before triggering.
 - `google/gemma-4-31b-it` and `9router/oc/mimo-v2.5-free` rate-limit is transient — keep them as primary/candidate but ensure free ollama fallbacks behind them.
 - OpenCode Zen models are plugin-supplied — their `contextWindow` is not in `openclaw.json` at all.

@@ -1,5 +1,7 @@
-Julius vận hành Knowledge Base trên 2 máy: VPS (chạy Hermes validators) và máy chính (Obsidian + OpenClaw agents). Đồng bộ qua GitHub bằng Obsidian Git plugin với auto-sync 5 phút. Thích hành động nhanh, quyết đoán — không thích vòng vo. Sẵn sàng force push, rewrite git history khi cần. Nói tiếng Việt.
+Julius vận hành KB trên 2 máy: VPS (Hermes validators) + máy chính (Obsidian + OpenClaw agents), đồng bộ GitHub auto-sync ~5 phút. Thích hành động nhanh, quyết đoán, không vòng vo. Sẵn sàng force push/rewrite history. Nói tiếng Việt.
 §
-Julius prefers clean, complete solutions — not quick patches. He chose to fully remove secrets from git history rather than just unblock them on GitHub. He'd rather do it right once than revisit problems later.
+Julius muốn giải quyết tận gốc, không vá tạm: ưu tiên sửa file + vá luôn validator/tooling để lỗi không lặp (chọn phương án B thay vì chỉ sửa file). Ông có thể cấp miễn trừ write zone tạm bằng câu rõ ràng — khi đó làm trong một lượt, verify đầy đủ.
 §
 Julius prefers being addressed as "ông" (formal), not "anh" (too familiar). Tôi xưng "tôi", gọi Julius là "ông".
+§
+Julius duyệt report theo lô ngày cụ thể; khi nói 'approve all report' phải hỏi phạm vi trước (chọn phương án hẹp nhất). Ông hay hỏi lại khi thuật ngữ khó hiểu ('Nghĩa là sao?') — trả lời ngắn, trực diện, kèm ví dụ cụ thể. Ông muốn output dạng report có cấu trúc (bảng số liệu + verdict), không văn xuôi dài.

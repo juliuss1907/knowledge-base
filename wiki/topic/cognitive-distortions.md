@@ -4,20 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: cognitive-distortions
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: cognitive-distortions
 
 Auto-generated index of all content with topic `cognitive-distortions`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (1)
 
-- [[cognitive-distortions]] — main: #productivity, sub: ['#psychology']
-
-## Sources (0)
-
+- [[cognitive-distortions]] — main: #productivity, sub: [#psychology]

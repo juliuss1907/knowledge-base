@@ -4,20 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: saudi-defense-diversification
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: saudi-defense-diversification
 
 Auto-generated index of all content with topic `saudi-defense-diversification`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (1)
 
-- [[saudi-pakistan-defense-agreement]] — main: #politic, sub: ['#news', '#opinion']
-
-## Sources (0)
-
+- [[saudi-pakistan-defense-agreement]] — main: #politic, sub: [#news, #opinion]

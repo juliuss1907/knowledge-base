@@ -5,14 +5,20 @@ scope: tags
 parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
-last_updated: 2026-10-03
+last_updated: 2026-10-10
 ---
 
-# Tags Index
+# Tag Index
+
+Master index of all tags in the Knowledge Base.
+
+Last updated: 2026-10-10 21:04:19
+
+---
 
 ## Overview
 
-Master index of all tags used across the wiki. Each entry links to a tag file (`wiki/tag/<tag>.md`) listing all files with that tag.
+Auto-generated master index of all tags used in the Knowledge Base. Tracks statistics, files per tag, and co-occurrence relationships across both main-tags (Pool A) and sub-tags (Pool B).
 
 ## Parent
 
@@ -20,12 +26,11 @@ Master index of all tags used across the wiki. Each entry links to a tag file (`
 
 ## Stats
 
-- Total tags: 27
+- Total tags: 24
 - Main tags: 9
-- Sub tags: 18
+- Sub tags: 20
 - Most used: #psychology (345), #productivity (336), #research (297)
-- Last updated: 2026-10-03
-
+- Last updated: 2026-10-10
 
 ## Items
 
@@ -64,4 +69,4 @@ Master index of all tags used across the wiki. Each entry links to a tag file (`
 
 ## Notes
 
-<!-- Free space for Julius -->
+<!-- Auto-managed by index-agent. Manual notes below this line. -->

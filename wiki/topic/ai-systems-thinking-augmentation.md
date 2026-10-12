@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-systems-thinking-augmentation
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: ai-systems-thinking-augmentation
 
 Auto-generated index of all content with topic `ai-systems-thinking-augmentation`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[ai-augmented-systems-thinking]] — main: #ai, sub: ['#opinion', '#research']
-- [[ai-productivity]] — main: #ai, sub: ['#tools', '#opinion']
-- [[human-judgment-ai]] — main: #ai, sub: ['#opinion', '#research']
+- [[ai-augmented-systems-thinking]] — main: #ai, sub: [#opinion, #research]
+- [[ai-productivity]] — main: #ai, sub: [#tools, #opinion]
+- [[human-judgment-ai]] — main: #ai, sub: [#opinion, #research]
 
 ## Sources (1)
 
-- [[src_will-ai-replace-systems-thinking]] — main: #ai, sub: ['#opinion', '#research']
+- [[src_will-ai-replace-systems-thinking]] — main: #ai, sub: [#opinion, #research]

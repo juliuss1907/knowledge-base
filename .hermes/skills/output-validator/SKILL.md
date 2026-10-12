@@ -188,6 +188,7 @@ For complete validation algorithm, scoring rubrics, and error handling, see:
 - [workflow.md](workflow.md) — step-by-step validation process
 - [validation-criteria.md](validation-criteria.md) — detailed quality rubrics
 - [examples.md](examples.md) — sample reports and issues
+- [references/defect-d-intra-file-claim-conflict.md](references/defect-d-intra-file-claim-conflict.md) — Defect D: a concept asserting two contradictory figures for the same entity because a new source was pasted without reconciling against existing text (2026-10-03); plus same-batch `## Notes` template inconsistency
 - [references/silent-run-2026-08-21.md](references/silent-run-2026-08-21.md) — silent-run case (0 new files, carry-over typo inventory, mandatory dropped-i grep, SILENT verification)
 
 ## Post-validation
@@ -320,6 +321,21 @@ When a single concept aggregates content from multiple sources (frontmatter `sou
 
 **Detection (cheap, do it for every new concept with N≥2 sources):** compare the count of `- "[[src_...]]"` entries in frontmatter against the count of `- [[src_...]]` bullets in the body `## Sources` section. Mismatch → WARNING (Completeness). The gap usually involves sources compiled in the same batch as the concept, so cross-check against today's new-file list.
 
+### ⚠️ Resolve wikilink targets with EXACT filenames, never `find -iname` globs (2026-10-01)
+
+`find wiki/ -iname '*<slug>*'` **produces false positives that make a broken link look resolved.** The 09-30 report cited 7 hits for `[[game-theory]]` as supporting evidence; on 10-01 exact-filename testing showed 0 concept files and 0 source files. The 7 hits were 1 partial-slug concept (`iterated-game-theory`), 3 differently-scoped sources (`src_max-results-minimum-effort-game-theory`, `src_how-to-come-back-from-anything-game-theory`, `src_game-theory-will-change-your-life`), and 3 `wiki/topic/` indexes. The link was genuinely broken in both runs — only the evidence line was wrong.
+
+**Always resolve a `[[slug]]` target this way:**
+```bash
+for t in <slug>; do
+  c=""; [ -f "wiki/concepts/$t.md" ] && c="concept"
+  s=""; [ -f "wiki/sources/src_$t.md" ] && s="source"
+  r=$(find raw/ -name "*$t*" | wc -l)
+  echo "$t: ${c:-NOCONCEPT} ${s:-NOSOURCE} raw=$r"
+done
+```
+`find -iname` is acceptable **only** for the raw-material existence check, where partial matches are informative rather than dispositive. The same trap applies to any slug that is a suffix of another slug — check the file exists, don't count the hits.
+
 **Defect B — duplicate key idea (1st occurrence).** A concept aggregating 4 sources carried the same insight twice ("vibe coding thiếu fundamentals → bad tradeoffs" at dòng 26 + 39 of `ai-engineering-skills.md`), once per source it came from, with slightly different wording. The compile-agent does not dedup insights that recur across multiple aggregated sources. **Detection:** only visible by reading the full Key ideas list — look for semantic near-duplicates, especially in concepts with 3+ sources. Flag as WARNING (Coherence); fix = keep the more detailed bullet.
 
 **Defect C — source section-name drift (1st occurrence).** `src_impeccable.md` used `## Key ideas` instead of `## Key points` (format-spec §3.3 requires `Key points` for sources). Likely the compile-agent reused the concept template (concepts use `Key ideas`, sources use `Key points`). **Detection gap:** quick-scan's "Empty Key ideas" counter accepts `## Key ideas` as valid, so it does NOT catch this — explicitly verify each new source file uses `## Key points`. Flag as WARNING.
@@ -335,7 +351,16 @@ Two structural heuristics in `scripts/quick-scan.sh` produced false positives ac
 | "Empty Key ideas: N" | Counted only `- ` bullets; numbered lists (`1.`) and markdown tables read as empty | Pattern now `grep -cE '^- \|^[0-9]+\.\|^\|'` — bullets + numbered lists + table rows. Verified: `google-project-oxygen.md` → 8 ideas, `six-stage-research-pipeline.md` → 8 table rows, KB-wide flagged total = 0 |
 | "1-sentence definitions: N" | Counted *lines* containing `.`, not sentences — 527/527 concepts flagged falsely (a 3-sentence definition on one line scored 1) | Now counts terminal punctuation: `sed -n '/^## Definition$/,/^## /p' ... \| grep -o '[.!?]' \| wc -l`. Verified: `flow-state.md` 3-sentence single-line def scores 3; plausible aggregate 111 |
 
-**Rule:** the two counters are trustworthy as of 2026-08-25. If either suddenly reports a large number again, suspect script regression OR a new content shape (e.g., `* ` asterisk bullets or indented sub-lists not covered by the pattern) — verify per-file BEFORE filing content WARNINGs. Historical taxonomy of the false-positive era: [references/quick-scan-false-positives.md](references/quick-scan-false-positives.md).
+**Rule:** the two counters are trustworthy as of 2026-08-25 **for the "Empty Key ideas" counter only**. On 2026-09-29 it was found that **section 4 ("Too few key points") was never patched** — it still uses `grep -c '^- '` while section 3 uses the corrected `grep -cE '^- |^[0-9]+\.|^\|'`. Effect: concepts with a numbered-list Key ideas score 0 bullets, fail the `[ "$points" -gt 0 ]` gate, and are never flagged at all. Measured impact KB-wide: 83 → 82 flagged (e.g. `five-big-forces.md` has 7 real points, scored 2). **Fix section 4 to the same pattern — APPLIED 2026-10-01.** The patch was applied this run and verified: quick-scan now reports **77** under-5 concepts, matching an independent re-implementation of the corrected pattern exactly. The only file whose classification changed is `five-big-forces.md` (numbered list of 7 key ideas, previously scored 2 and flagged; now correctly scored 5 and not flagged).
+
+**The "82" baseline this note previously prescribed was wrong** — it was never measured against this KB. Correct figures, measured 2026-10-01 (612 concepts):
+- **77** concepts in the 1–4 key-ideas range (what quick-scan flags)
+- **9** concepts with a *zero*-bullet Key ideas section (excluded from the flag output by the `[ "$points" -gt 0 ]` gate — the gate is working as designed)
+- **86** concepts total under 5 key points
+
+All 9 zero-bullet files (`ai-coach-prompting`, `ai-first-business-model`, `content-generation-workflow`, `digital-product-flywheel`, `expert-knowledge-extraction`, `google-project-oxygen`, `multi-agent-taxonomy`, `personal-branding-ai`, `six-stage-research-pipeline`) are numbered lists or markdown tables, i.e. **false positives of the 08-25 class, not content defects**. Do not report them as "too few key points."
+
+Historical taxonomy of the false-positive era: [references/quick-scan-false-positives.md](references/quick-scan-false-positives.md).
 
 ### _action-required.md patch tool pitfall
 
@@ -406,6 +431,123 @@ The skill's earlier guidance assumes MEMORY.md is append-at-bottom ("entry's lin
 
 **Rule:** before inserting into MEMORY.md, read the first 15 lines to determine the actual layout convention — do not assume append-at-bottom. If recent entries sit at the top, insert the new entry ABOVE the newest existing `## ` heading (patch with unique context = the `> Do not edit manually` header block + the first existing `## ` heading). For verification, assert "entry line < previous entry line" instead of ">", and replace the `tail -1` "ends with SILENT" check with a top-window assertion (e.g. `head -10 "$M" | grep -q 'SILENT'`, or confirm no `## ` heading sits above your entry). The layout may flip again after a Julius/Connor restructure — always re-check before patching.
 
+### Raw-layer `compiled_to` check — "no compiled_to" does NOT mean "uncompiled" (2026-09-28)
+
+The backlog scan has a blind spot. Every run so far equated a missing `compiled_to` key with "raw file not yet compiled" — which silently misclassifies a **misspelled key** as pending backlog.
+
+Found 2026-09-28: three raw files carry `status: processed` and have a compiled `src_*.md` whose `original:` points back at them correctly, but no usable forward backlink:
+- `raw/posts/2026-09-01_google-cloud-agent-sandbox-runtimes.md` — no key at all
+- `raw/posts/2026-05-25_suyash-karn-ai-trillion-dollar-blind-spot-static-website.md` — no key at all
+- `raw/articles/2026-05-25_will-ai-replace-systems-thinking.md` — key spelled **`compile_to:`** (missing `d`), so every `grep compiled_to` misses it
+
+Add this to the scan (cheap, runs even on 0-new-file days):
+```bash
+# Raws claiming processed but missing a usable compiled_to backlink
+for f in $(grep -rl '^status: processed' raw/ --include='*.md' \
+           | grep -vE '/(posts|articles|websites|videos|raw|repos|papers)\.md$'); do
+  grep -q '^compiled_to:' "$f" || echo "MISSING: $f"
+done
+# Also catch the misspelling explicitly — it is invisible to the grep above
+grep -rn '^compile_to:' raw/ --include='*.md'
+```
+
+**Rule:** before calling any raw file "uncompiled backlog", check its `status:` field. `status: processed` + missing `compiled_to` = a backlink defect to report; `status: unprocessed` = genuine backlog. Report the two populations separately — conflating them hides a real defect behind a queue.
+
+### Verify-script pitfalls — leading-dash patterns and `+` as regex quantifier (2026-09-28)
+
+Two script-only bugs cost four false FAILs in one run. Both are the already-documented classes (hand-authored verify scripts, `$ACT_SUM_RE` escaping) recurring in new clothing.
+
+1. **A pattern starting with `-` needs `-e`, not `--`, inside a helper.** `grep -qF -- '- **New files:** …'` works standalone, but when the `--` is passed *through* a shell function it lands in `$2` and shifts the remaining args — the helper then greps the literal string `--` and reports `[FAIL] (pattern: --)`. Fix the helper once, not each call site:
+   ```bash
+   checkf() { local desc="$1" pat="$2" f="$3"; if grep -qF -e "$pat" "$f" 2>/dev/null; then ...; fi; }
+   ```
+   Then call `checkf "desc" '- **New files:** …' "$M"` with no `--` at the call site.
+2. **`+` is an ERE quantifier.** `'817 files (212 sources + 605 concepts)'` in `grep -q` means "one-or-more spaces", not a literal `+`, so it never matches. Any cross-file check containing `+`, `(`, or `)` needs `grep -qF`. This is the same defect as the 2026-08-24 `ACT_SUM_RE` fix — prefer the reusable templates, or pre-escape with `sed 's/[][\.*^$()+?{|}\\]/\\&/g'`.
+3. **Match each file in its own idiom.** The report says `**Files checked:** 817 (212 sources + 605 concepts)`, the action file says `817 files (212s + 605c)`, MEMORY says `- **Files checked:** 817 (…)`. A cross-file check that asserts one file's phrasing against another file fails even when every number agrees. Verify the literal substring exists in each target **before** embedding it — `grep -qF '<pat>' <file>; echo $?` standalone first.
+
+**Diagnosis rule:** when a verify script FAILs a check, run each component standalone against its file before touching the file. All four failures in the 09-28 run were script bugs; the files were correct throughout.
+
+**The reverse case — the script caught a REAL file error (2026-10-02).** The default assumption is "FAIL = script bug." Not always. Counting severities with `grep -c '^\*\*Severity:\*\* WARNING' "$R"` against a hand-written header surfaced `5` where the header said `4`, and `1` INFO where the header said `2`. The report body was correct (Issues 2–6 are WARNING, Issue 7 is INFO); the **header, the summary table row, the action-file entry, and the MEMORY.md line all carried the wrong breakdown** — a single miscount propagated to four files.
+
+**Rule:** `grep -c '^## Issue [0-9]'` matching the `**Issues found:** N` count is NOT sufficient — the total can be right while the severity split is wrong. Always assert the split too:
+```bash
+E=$(grep -c '^\*\*Severity:\*\* ERROR' "$R")
+W=$(grep -c '^\*\*Severity:\*\* WARNING' "$R")
+I=$(grep -c '^\*\*Severity:\*\* INFO' "$R")
+```
+Then `E+W+I` must equal `N`. Derive each severity count from the per-issue `**Severity:**` lines (`awk '/^## Issue/{h=$0} /^\*\*Severity:/{print h" -> "$0}'`) rather than counting from a mental tally of what you planned to write. **When a FAIL is found, assume it may be a real file error until the standalone diagnostic proves otherwise — and when it is real, grep every file that repeats the figure.** The four files carrying the wrong string here were found by one `grep -rn '1 ERROR, 4 WARNING, 2 INFO'` across report + action file + MEMORY.
+
+### Verify-script FAILs are script bugs until proven otherwise — prove it in ONE command (2026-09-30, consolidated 2026-10-01)
+
+13 checks FAILed across the 09-30 (9/50) and 10-01 (4/44) runs. **All 13 were ad-hoc-script defects; all output files were correct throughout.** Five classes: (1) literal the file phrases differently — `'78 (unpatched) -> 77'` against prose reading "reported **78** … returns **77**"; (2) a guessed threshold where the truth is a specific count — `-gt 100` against 85 applied rows; (3) whole-file grep for a single-entry assertion — `! grep 'SILENT' "$M"` caught 19 markers from *older* entries; (4) double-backslash in an ERE literal — `"grep -cE '^- |^[0-9]+\\.\\.|^\\|'"` cannot match a file holding single `\.`; (5) **a sibling validator changed the number under you** — Format Validator at 23:15 moved pending 37→38 mid-verification, failing three hardcoded counts.
+
+**Rules that generalise:**
+- Run every component standalone against its file before touching any file (`grep -qF '<pat>' <file>; echo $?`). Copy phrases **from** the file; never invent a substring.
+- Replace thresholds with measured equality plus a corroborating total.
+- Scope single-entry assertions to the entry's block via `sed -n '/<HEAD>/,/<NEXT>/p' > /tmp/block.txt`.
+- Extract regexes from the target rather than hand-typing them.
+- **Never hardcode the pending count.** Assert the invariants: `P == header` and `EN+VI == P`, plus a `>= my_write` floor — and positively check the sibling's entry is present.
+
+**Corollary (10-01):** sibling writes shift MEMORY.md *line numbers* too. Top-insertion ordering held, but this run's heading moved line 7 → line 15 when a sibling entry landed above it. Assert relative ordering only; never hardcode a line number or a fixed `head -N` window.
+
+Full diagnostics, per-FAIL evidence, and a pre-ship checklist: [references/verify-script-false-fails.md](references/verify-script-false-fails.md). A second 10-01 pass added two more classes: **(6) a check pattern that also matches the comment documenting the fix** — asserting "the old pattern is gone" must exclude `#` lines, or it fails the moment someone writes down what they replaced; **(7) an `A || B` fallback with neither branch matching** — a smell that hides Class 1, since both branches were guessed rather than copied.
+
+**Additional classes from the 09-30 run (still valid, full evidence in the reference file):**
+
+1. **Multi-value variable passed to `sed` range.** `D=$(awk '/^### .*09-30/{f=1;n=0;next} f&&n<40{…}' "$A")` — with no `exit` at the next `### ` heading the awk kept scanning and printed **three depths**. `sed -n "/…/,+${D}p"` then built a nonsense range. **Fix:** always `exit` at the next sibling heading; prefer extracting the block with `sed -n '/^### X/,/^### Y/p'` into a variable, then grep *that*.
+2. **Idiom mismatch across files.** The check looked for `7 (2E, 4W, 1I)`; the file legitimately carries **`7 (2E+4W+1I)`** in the table row and **`7 issues (2E, 4W, 1I)`** in prose. Two valid idioms, one check, guaranteed miss.
+3. **History-row pattern invented with a heading prefix.** Checked `## 09-28 | Hygiene`; real rows are `| 🔍 PENDING | 09-28 | Hygiene |`. Never assume a table row starts with `##`.
+4. **Here-string into a `check()` helper = orphaned content.** `checkr "…" 'pat' <<< "$BLK"` passes the string as a *filename*, so the helper grepped a non-existent path. This is the 2026-07-13 pipe pitfall in new clothing. **Fix:** write the block to a real temp file and pass the path.
+
+**The read-only check needs mtime, not `git status`.** `git status --porcelain wiki/sources/ wiki/concepts/ | wc -l` returned **29** — every one written by Compile Agent at 08:15, hours before the 23:00 run, and uncommitted only because the vault-backup cron has been down since 09-24. A count of modified files says nothing about who touched them. **Correct assertion:**
+```bash
+LATE=$(for f in $(git status --porcelain wiki/sources/ wiki/concepts/ | awk '{print $2}'); do
+         find "$f" -newermt "$(date +%Y-%m-%d\ %H:%M) -5 minutes" 2>/dev/null; done | wc -l)
+test "$LATE" -eq 0
+```
+Pair it with a second, independent check: `find /home/julius/knowledge-base -newermt '<run start>' -type f | grep -cE 'wiki/(sources|concepts|drafts)/'` must also be 0. When the backup cron is down, *every* run will see a large modified-file count — do not let that produce a false "you modified content" FAIL.
+
+**Procedure (unchanged, load-bearing):** when the verify script FAILs, run every component standalone against its file before touching any file. All four classes above were found in a single diagnostic pass that printed, per FAIL, the real depth, the real idiom, and the mtime of each "modified" file.
+
+### Summary-table rows use a SINGLE pipe, not `||` (2026-09-29)
+
+The skill's own pitfall list above instructs writing table rows with a `||` double-pipe prefix. **That instruction is wrong for the current `_action-required.md` format.** The real rows read `| 🔍 PENDING | 09-28 | Output | ...` — single leading pipe, like ordinary markdown. Writing `||` does not "match the file"; it introduces a *second* leading pipe into an otherwise correct row, and the table renders broken.
+
+Observed 2026-09-29: patching the 09-28 Hygiene row with a `||` old_string turned a valid single-pipe row into `|| 🔍 PENDING | ...`, which the ad-hoc verify script caught (`lines starting with '||' = 1`, expected 0). Fixed in the same run.
+
+**Rule:** before choosing a row prefix, read the *adjacent* row and copy its exact leading characters. Verify with `grep -n '^||' "$A"` → must be 0. Do not trust the `||` guidance in the 2026-08-13 pitfall entry — it was written for a file layout that no longer exists, the same class of staleness as the archived-report and section-name pitfalls.
+
+### Verify-script grep depth must be measured, not guessed (2026-09-29)
+
+Two of four FAILs in the 09-29 ad-hoc script were `grep -A N` depth errors: the `_action-required.md` entry's `Status:` line sits at depth **12** (the entry grew to a Report/Summary/8× Issue/Actions-needed/Status shape) and MEMORY.md's report reference at depth **15** (`-A 14` missed it). The documented `-A 6` and `-A 5` defaults no longer hold for either file.
+
+**Rule:** never carry a `-A N` value forward by habit. Measure it once per run:
+```bash
+awk '/^### .*Output Validation.*<TODAY>/{f=1;n=0;next} f&&n<40{if(/^- \*\*Status/) print "depth "n; n++}' "$A"
+grep -n '<REPORT_FILENAME>' "$M" | head -2      # report ref line number
+grep -n '^## <TODAY>' "$M" | head -1           # entry heading line number
+```
+Then set `N = report_line - heading_line + 1`. Also keep the corroborating whole-file check (`grep -qF '<pattern>' "$M"`) so a depth bug FAILs loudly instead of silently.
+
+### `_action-required.md` pending count — use `###` entry count, not the `Status:` grep (2026-09-28)
+
+Two independent defects make the documented `grep -c '\*\*Status:\*\* pending'` unreliable in BOTH directions. Check them before recomputing the count:
+
+1. **16 history-section entries** say `— APPLIED` in the heading but still carry `- **Status:** pending` (flagged 09-27). A whole-file grep overcounts by 16.
+2. **9 entries in Pending Reports use the Vietnamese key** `- **Trạng thái:** chờ duyệt.` instead of `- **Status:** pending` — Hygiene 09-17→09-22 (6) and Format 09-17/09-18/09-19 (3). Scoping the `Status:` grep to the section UNDERcounts by 9: it returns 18 when the true count is 27.
+
+Both error directions observed: naive whole-file = 34, scoped `Status:` = 18, truth = 27.
+
+**Rule:** the `### ` entry count within the section is the only reliable unit.
+```bash
+sed -n '/^## Pending Reports/,/^## Báo cáo đã duyệt/p' "$A" | grep -c '^### '
+```
+Treat the header `**Pending reports awaiting review:** N` as the authoritative number only after confirming entry count == stated count. If they disagree, the stated count is right (entries were added without the header bump) and the `Status:` grep is simply unreliable — do not "fix" the header down to match a broken grep.
+
+### `meaning-through-work.md` blank-line splits are a different shape (2026-09-28)
+
+Carry-over note: `meaning-through-work.md` (last_updated 2026-06-22) has 6 blank-line splits, but that is **every one of its 7 Key-ideas bullets separated** — a deliberate paragraph-style list, not the same defect as the single mid-list splits reported in the 09-26 batch (`busywork-vs-deep-work.md:30`, `one-thing-daily-priority.md:28`, one each). Same KB-wide file count (3), same total split count (8) — but do not present them as one uniform fix. Fix Agent may reasonably leave `meaning-through-work.md` alone.
+
 ### Truncated file detection
 
 When a concept file is incomplete (truncated mid-generation by Compile Agent), two signals:
@@ -464,66 +606,11 @@ Note: the sed must be ordered longest-match-first to avoid partial replacements.
 
 **Regex overlap with double-i check (2026-07-15):** The spacing-merge regex `người[a-zàá...]` also matches `ngườii` (double-i typo), because `người` is a substring of `ngườii` and the trailing `i` matches `[a-z]`. When both double-i typos and spacing merges exist in the same batch, the spacing-merge "new" count will be inflated by double-i instances. Cross-check: if all spacing-merge hits are in files that also have double-i typos, the "spacing merge" flags are likely false positives from the regex overlap.
 
-### "ngườI" capital-I typo → GENERAL capital-I-after-Vietnamese-vowel (2026-07-16, updated 2026-07-18)
+### Typo variant 4 — capital-I after Vietnamese diacritic (2026-07-16, expanded 07-18)
 
-A fourth manifestation of the same root cause: Compile Agent uses capital I (U+0049) instead of lowercase i (U+0069) after Vietnamese characters. Initially documented as only "ngườI" → "người" (5 instances, 07-16), but the 07-17 batch revealed the error is **much broader**: it affects ALL Vietnamese words where lowercase-i follows a vowel with any diacritic.
+Compile Agent writes capital I (U+0049) instead of lowercase i after Vietnamese vowels with diacritics — `ngườI` → `người` was the original 5-instance sighting; the 07-17 batch revealed **all 42 diacritic+vowel combinations** are affected (237+ instances / 14 files). Quick-scan section 2d detects `ngườI`; full sweep regex, the character-level 42-pair sed, per-category counts, escalation threshold, and the shared-root-cause table across all five variants: **[references/typo-variant-4-capital-i.md](references/typo-variant-4-capital-i.md)**.
 
-**Original scope (07-16, 5 instances):**
-- `ngườI` → `người` (x5)
-
-**Expanded scope (07-18, 237+ instances across 14 files):**
-The pattern affects ANY Vietnamese vowel+diacritic followed by capital I:
-
-| Category | Examples | Count (07-18) |
-|---|---|---|
-| à + I → ài | BàI → Bài, tàI → tài | ~20 |
-| ạ + I → ại | lạI → lại, ngoạI → ngoại | ~15 |
-| ớ + I → ới | mớI → mới, giớI → giới, VớI → Với | ~30 |
-| ả + I → ải | phảI → phải, GiảI → Giải | ~25 |
-| ổ + I → ổi | đổI → đổi | ~15 |
-| ờ + I → ời | thờI → thời, lờI → lời, ngườI → người | ~50 |
-| ơ + I → ơi | nơI → nơi | ~15 |
-| ộ + I → ội | hộI → hội | ~10 |
-| ố + I → ối | MốI → Mối, cuốI → cuối | ~15 |
-| ọ + I → ọ/i | mọI → mọi | ~10 |
-| ổ + I → ổi | đuổI → đuổi | ~10 |
-| đ + I → đi | đI → đi | ~5 |
-
-**Detection (expanded):** quick-scan.sh now detects `ngườI` specifically. For a full sweep across all affected patterns:
-```bash
-grep -rPn '[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]I\b' wiki/sources/ wiki/concepts/
-```
-This regex matches any Vietnamese diacritic character followed by capital I at word boundary.
-
-**Fix command (comprehensive sed, 2026-07-18):**
-```bash
-# Fix ALL capital-I-after-Vietnamese-vowel patterns in affected files.
-# Matches: [Vietnamese diacritic char] + I → same char + i
-for f in <file-list>; do
-  sed -i 's/àI/ài/g; s/áI/ái/g; s/ảI/ải/g; s/ãI/ãi/g; s/ạI/ại/g
-          s/èI/èi/g; s/éI/éi/g; s/ẻI/ẻi/g; s/ẽI/ẽi/g; s/ẹI/ẹi/g
-          s/ềI/ềi/g; s/ếI/ếi/g; s/ểI/ểi/g; s/ễI/ễi/g; s/ệI/ệi/g
-          s/ìI/ìi/g; s/íI/íi/g; s/ỉI/ỉi/g; s/ĩI/ĩi/g; s/ịI/ịi/g
-          s/òI/òi/g; s/óI/ói/g; s/ỏI/ỏi/g; s/õI/õi/g; s/ọI/ọi/g
-          s/ồI/ồi/g; s/ốI/ối/g; s/ổI/ổi/g; s/ỗI/ỗi/g; s/ộI/ội/g
-          s/ờI/ời/g; s/ớI/ới/g; s/ởI/ởi/g; s/ỡI/ỡi/g; s/ợI/ợi/g
-          s/ùI/ùi/g; s/úI/úi/g; s/ủI/ủi/g; s/ũI/ũi/g; s/ụI/ụi/g
-          s/ừI/ừi/g; s/ứI/ứi/g; s/ửI/ửi/g; s/ữI/ữi/g; s/ựI/ựi/g
-          s/ỳI/ỳi/g; s/ýI/ýi/g; s/ỷI/ỷi/g; s/ỹI/ỹi/g
-          s/đI/đi/g' "$f"
-done
-```
-This covers all 42 diacritic+vowel combinations. No need to enumerate specific words — the sed is character-level.
-
-**Root cause (shared across all five variants):** Compile Agent's LLM prompt or tokenization mishandles the character following Vietnamese characters with diacritics. Five variants observed so far:
-1. "ngưởi" (hook-above 'ỉ' instead of grave 'ời') — original variant
-2. "ngườii" (doubled lowercase 'i') — second variant (2026-06-23)
-3. "ngườitrong" etc. (spacing merge, space dropped) — third variant (2026-07-02)
-4. "ngườI" and ALL [vowel+diacritic]I patterns (capital 'I' instead of lowercase 'i') — fourth variant (2026-07-16, scope expanded 2026-07-18)
-
-**Escalation threshold (2026-07-18):** When a single batch contains 237+ instances across 14/14 files, this is no longer a "patch each batch" problem — it's a Compile Agent prompt defect. Escalate with `[SYSTEMATIC ISSUE]` tag and recommend prompt review. The validator should check: if capital-I appears in >50% of new files AND >50 total instances, escalate rather than listing individually.
-
-**Symptom to watch for:** Unlike the double-i variant, the capital-I variant passes basic spell-check (the letter 'I' is valid ASCII) but breaks Vietnamese readability because capital letters don't appear mid-word in Vietnamese. The capital 'I' is visually close to lowercase 'i' in monospace/code fonts, making it easy to miss in code review.
+Passes spell-check (ASCII 'I') and is easy to miss in monospace review — capital letters don't occur mid-word in Vietnamese.
 
 ### ⚠️ PITFALL — bulk capital-I fix with broad regex destroys acronyms (2026-08-25)
 
@@ -719,6 +806,28 @@ Julius's "Approve all"/"Apply all report" = approve every pending report + apply
 3. **Defer process-level leaks**: `openclaw-workspace-state.json` + `wiki/HEARTBEAT.md` are known recurring orphans with confirmed root causes — do NOT delete (proven futile ×3), do NOT re-escalate.
 4. **Update all report Status headers** pending→approved (`sed -i '0,/^\*\*Status:\*\* pending/s//**Status:** approved/'`), then `_action-required.md`: PENDING rows→✅ APPLIED, `### 🔍`→`### ✅ ... — APPLIED`, status lines→`approved → **applied YYYY-MM-DD by Connor**`, pending count recomputed from actual remaining entries (never hardcoded), `Last batch applied` line updated.
 5. **MEMORY.md** prepend entry with per-report verdicts + deferred list; **ad-hoc verify** script under `/tmp/hermes-verify-*` covering: all reports approved, `_action-required` pending=0/no PENDING rows/no `### 🔍`, MEMORY entry present, deferred items still documented (not mislabeled done).
+
+### Self-audit of the previous report's carry-over claims (2026-09-27)
+
+On a 0-new-file day, the highest-value work is auditing the PREVIOUS report's carry-over numbers against the filesystem. Carry-over figures decay silently: a count quoted once gets copied forward every run until it drifts far from reality. Verified 2026-09-27: the 09-26 report claimed *"73 CJK-bearing lines across 12 content files (8c+2s) + 9 report files"* and dated the streak from 09-12. Wrong on three counts:
+
+1. **Scope conflation.** `grep -rP '[\x{4e00}-\x{9fff}]' wiki/` (74 lines) folds `wiki/reviews/` into a number labelled "content". Reports legitimately quote the Chinese strings they flag (60 lines / 10 files). True content scope = `wiki/sources/ wiki/concepts/` = **14 lines / 33 chars in 12 files**. Always scope the grep to the content dirs and report content and report-file counts as separate numbers.
+2. **Stale start date.** The 09-12 CJK finding (`既是` in `src_harness-engineering-ai-coding.md` + `harness-engineering.md`) had been FIXED — both files now return 0 matches. The real unremediated streak was 09-18→09-21 (9 files / 11 lines). Before inheriting a streak start date, re-verify the original finding is still present on disk.
+3. **Legit-vs-injection misclassification.** `hundred-years-humiliation.md` (百年国耻) is a concept *about* the Chinese term — legitimate content, not a Compile Agent injection. Re-check the "legitimate, do not fix" list before counting the backlog; it was 3 files, not 2.
+
+**Procedure:** for each numeric claim in the previous report's carry-over sections, re-run the underlying grep with an explicitly scoped path and compare. Correct in place (the report is still `pending` and lives in `wiki/reviews/`, your write zone), add a `## Corrections` section with a claimed-vs-verified table, mirror a one-line Addendum on the report's entry in `_action-required.md`, and log the lesson in MEMORY.md. A correction is reportable content — the run is NOT `[SILENT]` even with 0 new files.
+
+**Pitfall — a correction makes whole-file greps lie (2026-09-27):** quoting the wrong figure verbatim in the `## Corrections` audit trail means `grep -c '73 CJK' <report>` still returns 2. A verify check written as "the wrong figure is gone" then FAILs even though the live section is correct. Scope the check to the live section (e.g. `sed -n '/CJK contamination: 0 in today/,/Structural integrity/p'`) or assert the audit trail explicitly labels the figure as wrong. Same trap for `[SILENT]`: a MEMORY entry reading "so this run is NOT `[SILENT]`" matches a naive `grep -q '\[SILENT\]'` — check for the negation, or for absence of a positive `Result: [SILENT]` marker.
+
+### Stale `Status: pending` in history entries corrupts pending-count recomputation (2026-09-27)
+
+`_action-required.md` has two sections: `## Pending Reports` (the live queue) and `## Báo cáo đã duyệt và lịch sử` (approved/history). As of 09-27, **16 entries in the history section carry `— APPLIED` in the heading but still say `- **Status:** pending`**. So a whole-file `grep -c '**Status:** pending'` returns **32** while the header correctly says `**Pending reports awaiting review:** 25`.
+
+**Rule:** compute the pending count ONLY from the Pending Reports section range, never a whole-file grep:
+```bash
+PENDING=$(sed -n '/^## Pending Reports/,/^## Báo cáo đã duyệt/p' "$A" | grep -c '^### ')
+```
+When the section boundaries differ (older files used `## ✅ Approved` / `## Applied Reports`), the `### ` entry count is still the reliable unit — the stale status lines live in the history section, which is excluded by the range. Flag the stale lines to Julius; do not rewrite 16 history entries yourself.
 
 ### Archived prior report breaks `find -newer` (2026-07-02)
 

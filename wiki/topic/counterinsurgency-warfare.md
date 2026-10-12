@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: counterinsurgency-warfare
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: counterinsurgency-warfare
 
 Auto-generated index of all content with topic `counterinsurgency-warfare`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[counterinsurgency]] — main: #politic, sub: ['#research', '#hack']
-- [[hearts-and-minds]] — main: #politic, sub: ['#research']
-- [[oil-spot-strategy]] — main: #politic, sub: ['#research']
+- [[counterinsurgency]] — main: #politic, sub: [#research, #hack]
+- [[hearts-and-minds]] — main: #politic, sub: [#research]
+- [[oil-spot-strategy]] — main: #politic, sub: [#research]
 
 ## Sources (1)
 
-- [[src_counterinsurgency-fighting-back]] — main: #politic, sub: ['#research', '#hack']
+- [[src_counterinsurgency-fighting-back]] — main: #politic, sub: [#research, #hack]

@@ -1836,3 +1836,334 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 
 ## 2026-09-24 09:13:00 +07:00 — Fix Agent result <!-- project: github.com/juliuss1907/knowledge-base -->
 - Applied 2026-09-14 output scope: 5 authorized wiki files already contained all 6 approved replacements, so 0 content edits were needed. Old strings absent; `[[goal-setting]]` preserved. Format backlog, hygiene, and Git changes deferred.
+
+## 2026-09-26 08:00:00 +07:00 — Compiled <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Raw:** raw/posts/2026-09-24_do-less.md
+- **Source note:** wiki/sources/src_do-less.md
+- **Concepts:** [stress-habituation, creative-incubation, busywork-vs-deep-work, one-thing-daily-priority, boredom-as-dopamine-reset]
+- **Tags applied:** main=productivity, sub=[psychology, health, opinion], topic=doing-less-mind-space
+- **Action:** created 2 concept files (stress-habituation, creative-incubation); merged source into 3 existing concepts (busywork-vs-deep-work, one-thing-daily-priority, boredom-as-dopamine-reset); raw frontmatter updated
+- **Note:** raw/posts/posts.md stats NOT updated — Index/Ingest agent owns that section per AGENTS.md 4.1 and this run's write scope
+
+## 2026-09-26 21:00:00 +07:00 — Indexed <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Scanned:** 605 concepts + 212 sources (817 total)
+- **Tags indexed:** 24 (9 main-tags + 18 sub-tags used; TAGS.md v1.4 = 9 Pool A + 20 Pool B)
+- **Topics indexed:** 261 (wiki/topic/*.md)
+- **Orphans deleted:** 0
+- **Errors:** 0 (no malformed frontmatter, no invalid tags)
+- **Mode:** full rebuild (22 files changed since 2026-09-21, ≥20 threshold)
+- **Writes:** wiki/tag/*.md (24 L3 atom indexes + tag.md Stats/Items), wiki/topic/*.md (261)
+- **Read-only respected:** no changes to wiki/sources/, wiki/concepts/, wiki/drafts/, wiki/reviews/, wiki/meta/
+- **Most used tags:** #psychology (343), #productivity (336), #research (281)
+- **Note:** 2 Pool B tags unused in current corpus — #layer2, #perpdex — no index file generated (correct per spec)
+
+## 2026-09-27 21:00:00 +07:00 — Indexed (no changes) <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Mode:** incremental → skip (0 files in wiki/sources/ + wiki/concepts/ modified after 2026-09-26 21:03:15)
+- **Scanned:** 605 concepts + 212 sources = 817 total files (integrity check only; no index rewrite)
+- **Tags indexed:** 24 (9 main-tags + 18 sub-tags used; TAGS.md v1.4 = 9 Pool A + 20 Pool B)
+- **Topics indexed:** 261
+- **Orphans deleted:** 0 (0 missing, 0 orphaned across wiki/tag/*.md and wiki/topic/*.md)
+- **Invalid tags found:** 0 (all main_tags ∈ Pool A, all sub_tags ∈ Pool B)
+- **Frontmatter errors:** 0 files skipped
+- **Writes:** .openclaw/MEMORY.md only — no index file needed rewriting
+- **Read-only respected:** no changes to wiki/sources/, wiki/concepts/, wiki/drafts/, wiki/reviews/, wiki/meta/
+- **Note:** 2 Pool B tags still unused in corpus — #layer2, #perpdex (no index file, correct per spec)
+
+## 2026-09-28 20:37 +07:00 — Ingest x3 <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Ingested:** `raw/articles/2026-07-02_the-second-derivative-why-no-one.md` (type: article, Groundbreaker, groundbrkr.com)
+  - Substack body converted; 12 sections, 4 figure captions; removed CDN images, share CTA, popular-posts block, disclaimer footer
+  - Source: https://www.groundbrkr.com/p/the-second-derivative-why-no-one
+- **Ingested:** `raw/websites/2025-08-04_atom-project-american-truly-open-models.md` (type: website, Nathan Lambert, atomproject.ai)
+  - 27,955 body chars; 7 H2 / 19 H3 / 32 H4; removed "Sign Your Support", signatories, "Sign on to support" CTA, empty FAQ accordion shell
+  - Source: https://atomproject.ai/
+- **Ingested:** `raw/websites/2026-09-28_interconnects-ai.md` (type: website, Nathan Lambert, interconnects.ai)
+  - Homepage had only 204 chars of body (subscribe landing) → below 500-char floor, so captured publication About + 20 most recent RSS items with dates/descriptions/links
+  - Source: https://www.interconnects.ai/
+- **Index updates:** `raw/articles/articles.md` (158 files; 157 processed / 1 unprocessed), `raw/websites/websites.md` (7 files; 5 processed / 2 unprocessed)
+- **Pre-existing drift (not touched):** `raw/articles/articles.md` had 15 items whose status label disagreed with frontmatter, plus 1 wikilink `2026-06-26_next-gen-trading-about-timing-not-picking` with no file
+- **Note:** `raw/websites/2026-07-25_tools.md` has no `status:` field (it is a tools index, not an article raw)
+
+## 2026-09-28 21:00:00 +07:00 — Indexed (full rebuild, content drift) <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Mode:** full rebuild — last run (2026-09-27) reported "no changes", but a verification scan found real content drift, so the incremental skip path was bypassed and every index file was regenerated
+- **Scanned:** 605 concepts + 212 sources = 817 total files
+- **Tags indexed:** 24 (9 Pool A main-tags + 18 Pool B sub-tags in use; TAGS.md v1.4 defines 9 + 20 = 26, #layer2 and #perpdex unused → no index file, correct per spec)
+- **Topics indexed:** 261
+- **Orphans deleted:** 0 (0 missing, 0 orphaned across wiki/tag/*.md and wiki/topic/*.md)
+- **Invalid tags found:** 0 (every main_tag ∈ Pool A, every sub_tag ∈ Pool B)
+- **Frontmatter errors:** 0 files skipped (no missing frontmatter, no YAML parse failure, every file has main_tag + sub_tags + topic)
+- **Writes:** 286 files = 24 × `wiki/tag/<tag>.md` + 261 × `wiki/topic/<topic>.md` + `wiki/tag/tag.md`; backups of both folders in `/tmp/backup-tag-*` and `/tmp/backup-topic-*`
+- **Verification:** re-scan after write shows zero remaining drift; all 24 L3 tag files carry the required `## Parent` → `## Stats` → `## Files with this tag` → `## Co-occurring tags` order; all 261 topic files carry `## Concepts (N)` / `## Sources (N)` / `## Related topics`; Stats counts reconcile against the rendered file lists in every tag and topic file; no malformed wikilinks
+- **Read-only respected:** no changes to wiki/sources/, wiki/concepts/, wiki/drafts/, wiki/reviews/, wiki/meta/
+- **Generator bugs found and fixed during this run** (script was reproducing the previous run's output, not the on-disk truth):
+  1. Sub-tag lists were joined with `", "` instead of `"', '"`, producing `sub: ['#tools, #system']` instead of `sub: ['#tools', '#system']` in all 285 L3 files
+  2. TAGS.md descriptions were collected into a single flat map, so dual-pool tags #ai/#system/#health picked up the Pool B "(as attribute)" wording in the Pool A list of `tag.md`; now keyed per pool
+  3. Co-occurrence ranking had no tie-break, so equal-frequency tags could reorder run to run; now sorted by frequency desc then alphabetically
+  4. The `Tags that frequently appear with #<tag>:` intro line was missing from the Co-occurring tags section
+- **Content defect flagged (NOT auto-fixed — Index Agent is read-only for wiki content):** 3 concept files carry a repeated `sub_tags` entry, which rendered as a duplicate inside the index line: `wiki/concepts/self-reinforcing-systems.md` and `wiki/concepts/trading-policy-pi.md` (`['research','research']`), `wiki/concepts/casino-culture.md` (`['opinion','opinion']`). Index now dedupes for display; the underlying frontmatter still violates the TAGS.md §1 "1–3 sub-tags" rule and needs a Compile/Fix pass.
+
+## 2026-09-29 21:00:00 +07:00 — Indexed (no changes, verified skip) <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Mode:** incremental path per SKILL.md Step 0.2 — 0 files in `wiki/sources/` + `wiki/concepts/` modified after `.openclaw/last-index-success.txt` (2026-09-28 21:07) → no index regeneration performed
+- **Verification scan before skipping** (not a blind skip): re-parsed all 817 files, rebuilt tag/topic groupings in memory, and diffed against on-disk indexes
+- **Scanned:** 605 concepts + 212 sources = 817 total files (read-only, no frontmatter errors)
+- **Tags indexed:** 24 (unchanged — 9 Pool A + 18 Pool B in use; #layer2 and #perpdex unused per TAGS.md v1.4)
+- **Topics indexed:** 261 (unchanged)
+- **Drift detected:** 0 — 0 mismatched tag files, 0 mismatched topic files, 0 orphan index files, 0 missing index files; every tag Stats block reconciles with its rendered `## Files with this tag` list
+- **Invalid tags found:** 0
+- **Writes:** none to `wiki/tag/` or `wiki/topic/` (correct for a no-change run); only `.openclaw/MEMORY.md` appended
+- **Read-only respected:** no changes to wiki/sources/, wiki/concepts/, wiki/drafts/, wiki/reviews/, wiki/meta/
+- **Carried-over content defect (unchanged since 2026-09-28, NOT auto-fixed — Index Agent is read-only for wiki content):** 3 concept files still carry a repeated `sub_tags` entry, violating TAGS.md §1 "1–3 sub-tags": `wiki/concepts/casino-culture.md` (`['opinion','opinion']`), `wiki/concepts/self-reinforcing-systems.md` (`['research','research']`), `wiki/concepts/trading-policy-pi.md` (`['research','research']`). Needs a Compile/Fix pass with Julius approval.
+
+## 2026-09-30 08:00:00 +07:00 — Compiled (batch 4 files) <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Raw:** raw/articles/2026-07-02_the-second-derivative-why-no-one.md
+  - **Source note:** wiki/sources/src_the-second-derivative-why-no-one.md
+  - **Concepts:** [second-derivative-thinking] (created), [ai-capex-as-credit-cycle] (created), [reflexive-capex-arms-race] (created), [ai-infrastructure-bubble] (updated), [nash-equilibrium] (updated), [operating-cash-flow] (updated), [ai-lab-crypto-analogy] (updated), [infrastructure-capex-cycle] (updated), [reflexivity-soros] (updated), [ai-lab-business-model] (updated)
+  - **Tags applied:** main=economic, sub=[opinion, research], topic=ai-credit-cycle
+  - **Action:** created 3 concept files, updated 7 concept files
+- **Raw:** raw/posts/2026-02-03_why-you-waste-your-evenings-neuroscience.md
+  - **Source note:** wiki/sources/src_why-you-waste-your-evenings-neuroscience.md
+  - **Concepts:** [decision-fatigue-glutamate] (created), [amygdala-vs-prefrontal-cortex] (updated), [evening-routine] (updated), [discipline-as-freedom] (updated)
+  - **Tags applied:** main=health, sub=[psychology, research], topic=post-work-fatigue
+  - **Action:** created 1 concept file, updated 3 concept files
+- **Raw:** raw/websites/2025-08-04_atom-project-american-truly-open-models.md
+  - **Source note:** wiki/sources/src_atom-project-american-truly-open-models.md
+  - **Concepts:** [open-weight-vs-open-source] (created), [open-model-ecosystem-race] (created), [compute-concentration-frontier] (created), [structural-competition] (updated), [category-kings-dynamics] (updated)
+  - **Tags applied:** main=ai, sub=[geopolitics, research, opinion], topic=open-models-us-china
+  - **Action:** created 3 concept files, updated 2 concept files
+- **Raw:** raw/websites/2026-09-28_interconnects-ai.md
+  - **Source note:** wiki/sources/src_interconnects-ai.md
+  - **Concepts:** [open-model-ecosystem-race] (updated)
+  - **Tags applied:** main=ai, sub=[opinion, research], topic=open-models-us-china
+  - **Action:** updated 1 concept file
+- **Tag proposals:** 0 — no tag outside TAGS.md v1.4 was needed. `#geopolitics` and `#strategy` (both Pool B, approved 2026-06-19 / 2026-08-06) covered the content that would otherwise have required a new tag.
+- **Verification:** 4/4 raw frontmatter updated to `status: processed` + `compiled_at` + `compiled_to`; 0 `status: unprocessed` remain in raw/. All 7 new files + 12 merged files parsed as valid YAML with required fields, field order, and valid Pool A/B tags; every concept's frontmatter `sources:` list reconciles with its `## Sources` body section; all internal wikilinks resolve to existing files (2 broken links found and fixed during the check: `credit-convexity`, `coordination-games`); 0 duplicate sub_tags introduced.
+- **Write zones respected:** only `wiki/sources/` (4 new), `wiki/concepts/` (7 new + 12 merged), raw frontmatter (4 status lines), and this MEMORY.md entry.
+- **Not touched (out of Compile Agent whitelist):** `raw/articles/articles.md`, `raw/posts/posts.md`, `raw/websites/websites.md` Stats sections still show the pre-compile counts (articles 157/1, websites 5/2). workflow.md Step 7.2 asks Compile to update them, but this run's instructions restrict writes to `wiki/sources/`, `wiki/concepts/`, raw frontmatter and MEMORY.md, and AGENTS.md §4.1 assigns those Stats/Items sections to Ingest Agent. Flagged for Julius — Index Agent (21:00) or Ingest can reconcile.
+- **Carried-over content defect (unchanged since 2026-09-28, still needs a Fix pass):** `wiki/concepts/casino-culture.md` (`sub_tags: [opinion, opinion]`), `wiki/concepts/self-reinforcing-systems.md` and `wiki/concepts/trading-policy-pi.md` (`sub_tags: [research, research]`) still violate TAGS.md §1 "1–3 sub-tags".
+
+## 2026-09-30 21:03:45 — Indexed
+- Scanned: 612 concepts + 216 sources
+- Tags indexed: 24 (main-tags present: 9, sub-tags present: 18)
+- Topics indexed: 263
+- Orphans deleted: 1
+- Frontmatter errors: 0
+- Invalid tags: 0
+
+## 2026-10-01 21:08 — Indexed (incremental — no changes, skipped rebuild)
+- Change detection vs `.openclaw/last-index-success.txt` (2026-09-30T21:03:45+07:00): **0 files** in `wiki/sources/` or `wiki/concepts/` modified since that timestamp → SKILL.md "Batch behavior" rule 3 (0 new/changed files → skip, log "no changes") applied. No index content needed regenerating.
+- State verified rather than assumed: existing `wiki/tag/*.md` (25 files, incl. `tag.md`) + `wiki/topic/*.md` (263 files) are internally consistent with the 2026-09-30 run (frontmatter, `## Parent` → `## Stats` → `## Files with this tag` → `## Co-occurring tags` order per index-spec.md §5.3; no `## Concepts`/`## Sources` headings in L3 tag files; Stats counts 612 concepts + 216 sources, 24 tags, 263 topics).
+- **Full rebuild attempted then reverted — not a content change.** To satisfy the cron's "rebuild" instruction I reverse-engineered the exact on-disk format into a throwaway script (`/tmp/kb_index_rebuild.py`, outside the KB write zones) and ran it. It reproduced counts exactly (612 concepts + 216 sources, 24 tags = 9 main + 18 sub, 263 topics, 0 orphans, 0 frontmatter errors, 0 invalid tags) but **differed cosmetically** from the format currently on disk in two ways: (a) emitted `sub: ['opinion']` instead of `sub: ['#opinion']`; (b) omitted the `## Related topics` section on single-file topics (existing files emit it based on tag co-occurrence, not shared-file logic). Reverted `wiki/tag/` + `wiki/topic/` byte-for-byte from a `/tmp/kb_backup/` snapshot taken immediately before the write and verified with `diff -rq` → ALL IDENTICAL. `.openclaw/last-index-success.txt` deliberately left at the 2026-09-30 value (KB content unchanged; no successful regeneration occurred).
+- **No KB file was left modified by this run.** `wiki/sources/`, `wiki/concepts/`, `raw/`, `wiki/meta/` untouched.
+- **Open issue flagged for Julius (Index Agent tooling, not content):** there is no single canonical indexer in the repo. Four overlapping scripts exist and none reproduces the committed on-disk format — `.openclaw/run_index.py` (no `#` prefixes on sub-tags, sparse `- [[slug]] — Title (type)` lines, writes `# Tag Index` heading into `tag.md`), `.openclaw/scripts/index_incremental.py` (writes ``- `#other-tag` (N files)`` co-occurrence lines, no wikilinks), `.openclaw/scripts/index_agent.py`, and `.openclaw/skills/index-agent/build-index.py`. The 2026-09-30 output matches none of them, so it was most likely produced ad hoc. Recommend collapsing to one canonical script before the next forced rebuild, otherwise the next run that does regenerate will silently rewrite all 288 index files into a different format. Needs a Fix pass on `.openclaw/` — outside this agent's write zones (`wiki/tag/`, `wiki/topic/` only).
+- Carry-over from 2026-09-30 Compile run, still unfixed: `wiki/concepts/casino-culture.md` (`sub_tags: [opinion, opinion]`), `wiki/concepts/self-reinforcing-systems.md`, `wiki/concepts/trading-policy-pi.md` (`sub_tags: [research, research]`) violate TAGS.md §1 "1–3 sub-tags". Indexer counts them as-is; not corrected here because sources/concepts are read-only to this agent.
+
+## 2026-10-02 09:50 +07:00 — Ingest video <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Ingested:** `raw/videos/2026-10-01_gemini-4-argon-explained-in-5min.md` (type: video, Caleb Writes Code, youtube.com)
+  - "Gemini 4 Argon explained in 5min.." · published 2026-10-01 · duration 4:56 · video_id 1ZbNgx6Gscw
+  - Full English transcript stored, 142 caption segments grouped into 9 timestamped paragraphs (5,364 chars of speech); coverage verified 0.0s → 297.4s vs video length 296s, so transcript is complete
+  - Source: https://youtu.be/1ZbNgx6Gscw
+- **Index update:** `raw/videos/videos.md` — Total 3 → 10, status 3 processed → 9 processed / 1 unprocessed, dates 3/wk → 1 this week / 5 this month
+- **Index repair:** 5 stale "(unprocessed)" labels in `raw/videos/videos.md` corrected to match frontmatter; 3 previously unlisted video raws added to Items (2026-05-28 viktor-frankl, 2026-06-02 handoff-skill, 2026-05-22 luke-alvoeiro)
+- **Tooling note:** `yt-dlp` 2024.04.09 on this host is broken — errors `no such option: --js-runtimes` on every invocation (stale wrapper vs newer lib), and `-J` fails with `Requested format is not available`. Metadata obtained instead via YouTube oEmbed + watch-page `uploadDate`/`lengthSeconds`; transcript via `youtube-transcript-api` (installed, working). `yt-dlp` needs upgrade before relying on it again.
+
+## 2026-10-02 10:52 +07:00 — Fix Agent: 3 report Hermes 10-01 <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Applied:** `wiki/reviews/2026-10-01_{format,output,hygiene}-report.md` → status `APPLIED`
+- **Backup trước khi sửa:** 22 file + `_action-required.md` → `/tmp/kb-fix-backup-20261002/`; 21/22 file git-tracked (rollback qua `git restore`); `src_interconnects-ai.md` untracked nhưng có trong backup
+- **Đã sửa (16 file):**
+  - CJK cleanup 9 file / 11 dòng / 26 ký tự — `src_50-system-design` `在哪里`→`ở đâu`; `src_how-ai-labs` `几乎`→`gần như`; `ai-lab-business-model` `面临`→`đối diện với` (source trước, concept sau); `amygdala` `沙发`→`ghế sofa`; `low-entry-principle` `让它阻止`→`để nó ngăn`; `ai-chip-design` `颠覆`→`đảo ngược` + `密度`→`mật độ`; `consumption-vs-action` `一年`→`Một năm`; `life-planning-20s` `巨大 differences`→`khác biệt lớn`; `financial-discipline` `浪费`→`lãng phí` + `看起来`→`trông`. Giữ nguyên 3 file hợp lệ: `byte-level-bpe` 中, `hundred-years-humiliation` 百年国耻, `chinese-culture-confucianism` 国家
+  - Rename slug 52→48 ký tự: `src_why-youve-lost-your-curiosity-and-how-to-get-it-back` → `src_why-youve-lost-your-curiosity-how-to-get-it-back` (ERROR duy nhất của Format report). Cập nhật 7 file: 2 concept (frontmatter + Related), 3 tag, 1 topic, 1 raw `compiled_to`
+  - Vá mắt xích metrics: thêm số liệu Q4 FY26 vào `## Key points` của `src_ai-reflexivity-loop-is-same` (compile từ đúng raw `2026-05-28_ai-is-not-2008-loop-is-same.md:73-75`). `## Key metrics` trong `ai-infrastructure-bubble.md` giữ nguyên
+  - `compiled_to` 3 raw: thêm key cho `2026-09-01_google-cloud-agent-sandbox-runtimes`; đổi `processed_to` → `compiled_to` + chuẩn hoá value sang wikilink ở `2026-05-25_suyash-karn-...` (house convention: 213 file dùng `compiled_to`); sửa typo `compile_to:` → `compiled_to:` ở `2026-05-25_will-ai-replace-systems-thinking`
+  - Bỏ 2 broken wikilink không có material: `[[coordination-games]]` (nash-equilibrium), `[[market-inefficiency]]` (reflexivity-soros)
+  - Chuẩn hoá 9 khoá `- **Trạng thái:** chờ duyệt.` → `- **Status:** pending` trong `_action-required.md`
+- **4 claim trong report sai — đã đo lại, không làm theo report:**
+  1. `naval-ravikant`: report nói "không có raw nào ⇒ bỏ link" — **sai**. Có 2 source `src_live-disciplined-life-spontaneously` + `src_play-long-term-games-with-long-term-people` (navalsarchive). Giữ link như forward-ref thật
+  2. gym claim "misstates the source": raw **có đúng** `lying on the couch` + `then 20 minutes into the workout, you're like, I think I'm actually loving it` (`raw/videos/2026-09-20_why-you-never-start...md`). `rock climbing/ballet/yoga/Pilates` là đoạn personal example thứ 2, không mâu thuẫn — report gộp 2 đoạn
+  3. "6 bullet dịch cụt chưa Việt": code-switching là **chuẩn nhà, 595/612 concept**. Không phải defect → không viết lại
+  4. suyash-karn "thiếu key": có key nhưng tên lệch (`processed_to`). Chuẩn nhà là `compiled_to` (213 file), nên đổi tên chứ không chỉ thêm key
+- **Julius đính chính 2 claim của Fix Agent trước đó:** slug phải đo slug thân bỏ `src_` (`validate.py:333` `slug_body = slug[4:]`) — em đo kèm prefix nên báo 4 vi phạm thay vì 1; metrics có nguồn thật ở `raw/` — em grep `wiki/` bỏ mất `raw/` nên báo "không nguồn"
+- **Verify vòng nghiệm thu — `validate.py`: 1125 files, ERRORS_READING=0, ERROR 1→0, WARNING 404→402** (giảm 2 = 2 wikilink đã bỏ)
+- **Không đụng:** hygiene E1–E13 (`.hermes/hermes-agent/` 5.5 GB, `vault backup` dừng 7 ngày, 7 tệp auth + `config.yaml` đã lên GitHub) — Julius đã xử ở máy chính
+- **Còn treo (chưa đụng, cần anh chốt):** forward-ref backlog 272 đích / 19 nhóm; `[[game-theory]]` + `[[naval-ravikant]]` có raw nhưng chưa compile; report 09-08→09-13 (16 file) đã APPLIED nhưng chưa archive — house convention hiện tại là đổi status, không archive
+
+## 2026-10-02 11:20:00 +07:00 — Compiled (batch 1 file) <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Raw:** raw/videos/2026-10-01_gemini-4-argon-explained-in-5min.md
+  - **Source note:** wiki/sources/src_gemini-4-argon-explained-in-5min.md
+  - **Concepts:** [gemini-4-argon] (created), [benchmark-contamination] (created), [autoregressive-error-compounding] (created), [model-vs-harness-adoption] (created), [ai-evals] (updated), [agent-harness] (updated), [long-context-models] (updated), [ai-lab-business-model] (updated), [harness-engineering] (updated), [compute-concentration-frontier] (updated)
+  - **Tags applied:** main=ai, sub=[news, research, strategy], topic=gemini-4-argon
+  - **Action:** created 4 concept files, updated 6 concept files
+- **Ghi chú merge:** 6 concept cập nhật theo merge logic chuẩn — thêm source vào `sources:`, append key ideas mới (không trùng), append link liên quan, bổ sung link `[[model-vs-harness-adoption]]`/`[[benchmark-contamination]]`/`[[autoregressive-error-compounding]]` vào các concept liên quan; giữ nguyên `main_tag`/`sub_tags`/`topic` cũ và mọi section `## Notes`. `## Definition` cũ không bị viết lại.
+- **Chuẩn hoá link:** link `src_` mới thêm đã theo convention của từng file (bỏ `.md` ở 5 file, giữ `.md` ở `ai-evals`) — nhà dùng cả hai, thiếu `.md` là 204 vs có 12.
+- **Raw:** chỉ sửa frontmatter (`status`/`compiled_at`/`compiled_to`), body không đổi — md5 body trước/sau đều `3f1f0c8291101cafe155b2b3fd8a7e4a`.
+- **Không sửa `raw/videos/videos.md`:** file có `items_managed_by: ingest-agent`, nằm ngoài write zone của Compile Agent (AGENTS.md §4.1). Stats đang stale: Total 10, By status 9 processed / 1 unprocessed, item của Argon còn ghi "(unprocessed)" — số thực sau compile là 10 processed / 0 unprocessed. Index Agent chạy 21:00 sẽ lo; nếu không thì cần chạy Ingest/Index Agent sửa.
+- **Validate:** script tự viết check frontmatter/schema/section-order/slug/CJK/wikilink cho 11 file — sạch. Ba cờ báo đều là false positive của chính script: (1) `#system` trong `sub_tags` của `autoregressive-error-compounding` — TAGS.md dòng 72-73 liệt kê `#ai`/`#system` là Pool B hợp lệ "(as attribute)"; (2) `sub_tags` của `ai-evals` có `system` là pre-existing, không nằm trong diff của em; (3) yêu cầu timestamp trong source note là em tự nghĩ ra, format-spec.md không đòi.
+- **2 broken wikilink pre-existing** (không phải do em): `[[agent-initiated-code-artifacts]]` và `[[multi-agent-systems]]` trong `agent-harness.md` — không có file tương ứng.
+- **Tag proposal:** không có. Dùng `news` (ra mắt model), `research` (đánh giá benchmark/định lượng), `strategy` (cạnh tranh, rollout, monetization) — cả 3 có sẵn trong TAGS.md Pool B.
+- **Trạng thái batch:** 1/1 file unprocessed đã xử lý. `grep -rl "status: unprocessed" raw/` giờ trả về 0 kết quả.
+
+## 2026-10-02 19:20 +07:00 — Ingest article HTML <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Ingested:** `raw/articles/2026-05-20_unreasonable-effectiveness-of-html.md` (type: article, claude.dev)
+  - "Using Claude Code: The unreasonable effectiveness of HTML" · Thariq Shihipar (Anthropic) · published 2026-05-20
+  - 13.332 bytes, 5 H2 / 14 H3, full body — không summary. 0 wikilink, 0 CJK (đúng spec raw)
+  - Metadata lấy từ page JSON-LD `datePublished` + `article:published_time`, không đoán từ tên file
+- **Index `raw/articles/articles.md`:** Total 158→159, 158 processed / 1 unprocessed, 3 tuần / 11 tháng; thêm item mới đầu Items. Stats cũ đã stale từ 09-28 (ghi 157 processed trong khi đĩa có 158)
+- **Vá `raw/videos/videos.md` stale** (Compile Agent báo 11:35, báo đúng): Total giữ 10 nhưng status 9/1 → 10/0, tuần 1→2, item Argon "(unprocessed)"→"(processed)". File có `items_managed_by: ingest-agent` ⇒ Ingest Agent sửa được, không phải Index Agent
+- **Chưa xử 2 broken wikilink** `[[agent-initiated-code-artifacts]]` + `[[multi-agent-systems]]` trong `wiki/concepts/agent-harness.md`: `raw=0` cho cả hai (đo bằng `grep -rl`), không có material để compile. Cần Julius chốt bỏ link hay giữ làm forward-ref
+
+## 2026-10-02 21:04:00 — Indexed
+- **Scanned:** 616 concepts + 217 sources = 833 total files
+- **Tags indexed:** 24 (9 main-tags + 18 sub-tags)
+- **Topics indexed:** 267
+- **Orphans deleted:** 0
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped
+- **Mode:** full rebuild (2026-10-02 21:04 cron)
+<!-- project: github.com/juliuss1907/knowledge-base -->
+
+## 2026-10-03 08:00:00 +07:00 — Compiled (batch 1 file) <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Raw:** raw/articles/2026-05-20_unreasonable-effectiveness-of-html.md
+  - **Source note:** wiki/sources/src_unreasonable-effectiveness-of-html.md
+  - **Concepts:** [html-as-agent-output-format] (created), [throwaway-editing-interface] (created), [multi-file-artifact-workflow] (created), [code-visualization] (updated), [long-context-models] (updated), [human-judgment-ai] (updated), [agentic-coding] (updated), [frontend-design-agent] (updated), [product-vs-prototype] (updated), [design-process] (updated)
+  - **Tags applied:** main=ai, sub=[tools, opinion, coding], topic=html-as-agent-output
+  - **Action:** created 3 concept files, updated 7 concept files
+- **Nội dung:** Thariq Shihipar (Anthropic) chuyển từ Markdown sang HTML làm output format mặc định cho Claude Code. Ba lý do: information density (table/CSS/SVG/canvas/JS), dễ đọc (giới hạn thực tế ~100 dòng Markdown), dễ chia sẻ (gửi link thay vì đính kèm). Thêm tương tác hai chiều (slider, knob, editor throwaway, nút export). Token tăng không đáng kể với context 1MM của Opus 4.7. Động cơ sâu nhất là giữ bản thân trong loop thay vì bàn giao plan rồi bỏ qua.
+- **Merge logic:** 7 concept cập nhật theo merge chuẩn — thêm `src_` vào `sources:`, append key ideas mới (không trùng), append link liên quan vào 3 concept mới, giữ nguyên `main_tag`/`sub_tags`/`topic` cũ, không viết lại `## Definition`, giữ nguyên mọi `## Notes`.
+- **Raw:** chỉ sửa frontmatter (`status`/`compiled_at`/`compiled_to`), body không đổi — md5 body trước/sau đều `46af91b9cf5ff5c549d6f329c0f70a38`.
+- **Không sửa `raw/articles/articles.md`:** file có `items_managed_by: ingest-agent`, nằm ngoài write zone của Compile Agent (AGENTS.md §4.1 — Stats/Items thuộc Ingest Agent). Stats đang stale: ghi Total 159 / 158 processed / 1 unprocessed, thực tế sau compile là **159 processed / 0 unprocessed**. Index Agent chạy 21:00 không sửa file này (nó lo `wiki/tag/` + `wiki/topic/`) — cần Ingest Agent.
+- **Validate:** script tự viết check frontmatter/schema/field-order/section-order/slug/tag-pool/wikilink/source-resolve/CJK cho 11 file — 0 ERROR, 0 WARNING. Script dùng để kiểm, không commit vào KB.
+- **Một lần vấp:** edit đầu tiên vào `product-vs-prototype.md` trượt vì khối `## Related concepts` khác với giả định của tôi — đã đọc lại file rồi sửa đúng, không có ghi đè mất nội dung nào.
+- **Tag proposal:** không có. Dùng `tools` (artifact cụ thể), `opinion` (bài là quan điểm cá nhân, tác giả tự nhận "expresses his personal opinions"), `coding` (workflow Claude Code) — cả 3 có sẵn trong TAGS.md Pool B.
+- **Trạng thái batch:** 1/1 file unprocessed đã xử lý. `grep -rl "status: unprocessed" raw/` giờ trả về 0 kết quả.
+
+## 2026-10-03 09:27 +07:00 — Fix Agent (Kara AX400): 3 report Hermes 10-02 <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Applied:** `wiki/reviews/2026-10-02_{format,output,hygiene}-report.md` → status `APPLIED`
+- **Backup:** `/tmp/kb-fix-backup-20261003/` (4 file, tất cả git-tracked ⇒ rollback bằng `git restore`)
+- **Đã sửa (4 file):**
+  - `ai-lab-business-model.md` — (1) stub bullet `- Xem [[ai-capex-as-credit-cycle]]` → viết thành bullet có nội dung; (2) bỏ quotes 3 wikilink trong body `## Sources`; (3) merge 3 bullet Google trùng ý → 2 (`:43`+`:44` gộp, giữ `:45` số liệu API); (4) dịch 4 cụm English lẫn, gồm lỗi ngữ pháp `trying to makes money` → `cố thu tiền trực tiếp`
+  - `harness-engineering.md` — bỏ quotes 3 wikilink trong body `## Sources`
+  - `ai-evals.md` — bỏ `.md` khỏi 4 wikilink (2 frontmatter + 2 body). KB-wide còn **78/82** instance ⇒ phần còn lại thuộc Format Validator sweep, không patch file Output Validator không compile
+  - `raw/articles/articles.md` — stale do Compile Agent 08:08 chạy sau Index 21:04: 158/1 → **159 processed / 0 unprocessed**, Last updated 10-03
+- **1 claim report sai — Issue 1 nói target `ai-capex-as-credit-cycle` không tồn tại:** file **có thật** (`wiki/concepts/ai-capex-as-credit-cycle.md`, compile 09-30, untracked, cùng batch `the-second-derivative`). Đo bằng `[ -f ]` + `git ls-files`, không tin dòng "no concept, no source, no raw" trong report. Stub bullet vẫn là defect thật (content-free) — sửa vì lý do đúng, không phải vì link chết
+- **Verify vòng nghiệm thu — `validate.py`: 1138 files, ERRORS_READING=0, ERROR 0, WARNING 402 (không đổi)**
+- **Chưa xử, cần Julius chốt (report tự nêu là judgment call):**
+  - **Issue 5 Defect B** — 5 concept lặp gần nguyên văn 5 fact. Đo lại hôm nay: `22 tỷ token/phút` 3 file · `113 ` 3 file · `anti-gravity` 4 file. Cần anh chốt **mức chịu trùng lặp** trước khi sweep
+  - **Issue 4** — `[[agent-initiated-code-artifacts]]` + `[[multi-agent-systems]]` trong `agent-harness.md`, `raw=0`, không có material compile được (Format report cũng nói rõ: forward-ref vô đường giải quyết ⇒ bỏ link, không phải lỗi spec)
+  - **Issue 3 tồn dư** — 19 file KB-wide còn quoted wikilink trong body; report bảo Format Validator sở hữu
+- **Không đụng:** hygiene E1–E13 (`vault backup` dừng 8,11 ngày, 7 tệp auth + `config.yaml` đã lên GitHub, `.hermes/hermes-agent/` 5,5 GB lồng trong KB, cặp topic trùng nghĩa tái tạo lần 3) — việc máy chính của Julius
+
+## 2026-10-03 21:07 +07:00 — Index Agent (full rebuild) <!-- project: github.com/juliuss1907/knowledge-base -->
+- **Mode:** full rebuild (không incremental) — 79 file wiki/sources + wiki/concepts đổi sau run 10-02 21:06:43, vượt ngưỡng 20 theo SKILL.md § Batch behavior
+- **Scanned:** 619 concepts + 218 sources = 837 file
+- **Tags indexed:** 27 (9 main-tags + 18 sub-tags) — `wiki/tag/` 25 file (24 tag + `tag.md`)
+- **Topics indexed:** 268 — `wiki/topic/`
+- **Errors:** 0 · **Warnings:** 0 · **Invalid tags:** 0 · **Orphans deleted:** 0 (cả tag lẫn topic)
+- **Đã sửa 1 defect có sẵn từ run trước:** `wiki/tag/ai.md` § Co-occurring tags bị generator hỏng — 5 dòng rác `[[144]] — t/s/o/l co-occurrences` + "... (1 duplicate lines)". Đây là bug parse của lần chạy 10-02, không phải dữ liệu.nay đã ra đúng: `[[tools]] 148`, `[[research]] 106`, `[[automation]] 65`, `[[opinion]] 55`, `[[coding]] 42`
+- **Tự phát hiện + sửa 1 regression của chính lần chạy này:** vòng đầu mình ghi `tag.md` thiếu 3 tag có trong cả 2 pool (`#ai`, `#system`, `#health` — TAGS.md liệt kê chúng ở Pool A *và* Pool B với hậu tố "(as attribute)"), và dùng nhầm mô tả của Pool B cho các dòng Pool A. Sửa bằng cách tách `DESC_A`/`DESC_B` + khai báo tag theo pool thay vì theo file. Vì index-spec §4.5 quy định Items là **append-only** nên tag dùng ở cả 2 pool vẫn phải nằm ở cả 2 mục — số tag hiển thị (27) ≠ số file `wiki/tag/` (24)
+- **Validate:** 3430 wikilink trong toàn bộ index → 0 dead (2450 trong § Files with this tag, ~745 trong Concepts/Sources của topic file, 143 trỏ sang tag file — đều resolve). Field order L3 (`type|level|scope|parent|tag|auto_generated|last_updated`) và topic (`type|scope|parent|topic|auto_generated|last_updated`) 0 sai. Section order 0 sai (không có `## Concepts`/`## Sources` trong file L3 — đúng cảnh báo regression 08-11/08-19). Mọi file mang `last_updated: 2026-10-03`
+- **Backup trước khi ghi:** `/tmp/kb-index-backup-20261003/` (292 file) — rollback bằng `cp -r` ngược từ thư mục này
+- **Script:** `/tmp/kb-index-rebuild.py` (viết ra /tmp, không commit vào KB — write zone chỉ `wiki/tag/` + `wiki/topic/`)
+- **Không đụng:** `wiki/sources/`, `wiki/concepts/`, `wiki/meta/`, `wiki/drafts/`, `wiki/reviews/`. Không đề xuất tag mới. Không trigger Hermes (validation chạy riêng 18:00 thứ 6)
+
+## 2026-10-03 21:50 — Ingest X article (Miko / AI animation ads)
+- **File:** `raw/posts/2026-07-02_how-to-create-ai-animation-ads-with-gemini.md` (12.4 KB, full article body)
+- **Source:** https://x.com/Mho_23/status/2072764968399667330 → X Article `https://x.com/i/article/2072755339905110016`
+- **Note:** `x.com/i/article/...` trả 404 qua browser và bị chặn anonymous ở r.jina.ai; full body lấy được từ `api.fxtwitter.com/status/<id>` (field `tweet.article.content.blocks`, 68 blocks).
+- **Index:** `raw/posts/posts.md` — Total 30→31, unprocessed 1→2, last_updated 2026-10-03.
+
+## 2026-10-03 22:10 — Ingest 2 X articles (shivsakhuja + 0xMovez)
+- **File:** `raw/posts/2026-09-25_how-to-make-infinite-ads-with-claude-code.md` (9.5 KB) — How to make infinite ads with Claude Code (Full Guide), @shivsakhuja, 2026-09-25. 91 blocks: 26 unordered-list, 10 header-two, 5 ordered-list, 5 atomic (1 code block = SKILL.md cho static Meta ads, 4 figure). 4/4 media URL verify 200.
+- **File:** `raw/posts/2026-09-27_motion-design-studio-with-opus-5-5.md` (63 KB, 1212 dòng) — How to build motion design studio with Opus 5.5 (Full-course), @0xMovez, 2026-09-27. 230 blocks: 17 code block, 14 figure, 21 embedded tweet, 14 DIVIDER.
+- **Fetch path (reusable):** `curl -s https://api.fxtwitter.com/status/<id>` → JSON có `tweet.article.content.blocks` + `entityMap`. Render cần map `str(entityMap[i].key)` (key là STRING, không phải int — bug dễ gặp). Entity types: MEDIA / LINK / DIVIDER / markdown (code block) / tweetId (embedded tweet → fetch `api.fxtwitter.com/status/<tweetId>`).
+- **Bug đã fix:** phải apply entity LINK replace trên `block.text` gốc TRƯỚC khi prepend prefix (`## `, `- `, `> `), nếu không offset lệch → markdown hỏng kiểu `[movez.substack.c](...)om`.
+- **Index:** `raw/posts/posts.md` — Total 31→33, unprocessed 2→4, last_updated 2026-10-03.
+
+## 2026-10-04 08:10 +07:00 — Compile Agent (batch, 3 unprocessed files)
+- **Batch:** 3/3 file raw có `status: unprocessed` (toàn bộ trong `raw/posts/`). Xong hết, **0 unprocessed còn lại trong toàn bộ raw/**.
+- **Tuần tự, không lỗi, không tag proposal.** Tất cả tag dùng đều có sẵn trong TAGS.md v1.4 (kiểm bằng script so Pool A/Pool B) → **không có [TAG PROPOSAL] nào cần anh chốt**.
+
+### 1. `raw/posts/2026-07-02_how-to-create-ai-animation-ads-with-gemini.md` (Miko / Gemini Omni + Fable 5)
+- **Source:** `wiki/sources/src_how-to-create-ai-animation-ads-with-gemini.md`
+- **Concepts:** tạo mới `ai-animation-ad-pipeline`, `frame-chaining-continuity` · **merge** `content-generation-workflow`
+- **Tags:** main=#ai, sub=[#tools, #tutorial, #automation], topic=ai-animation-ads-workflow
+
+### 2. `raw/posts/2026-09-25_how-to-make-infinite-ads-with-claude-code.md` (Shiv / Claude Code ad system)
+- **Source:** `wiki/sources/src_how-to-make-infinite-ads-with-claude-code.md`
+- **Concepts:** tạo mới `brand-brain`, `llm-judge-loop` · **merge** `harness-engineering`
+- **Tags:** main=#ai, sub=[#tools, #automation, #tutorial], topic=ai-ad-creative-system
+
+### 3. `raw/posts/2026-09-27_motion-design-studio-with-opus-5-5.md` (Movez / 12-part course, 63 KB)
+- **Source:** `wiki/sources/src_motion-design-studio-with-opus-5-5.md`
+- **Concepts:** tạo mới `code2video-render-loop`, `closed-form-springs`, `critique-loop-self-scoring`, `directors-brief` · **merge** `harness-engineering`, `html-as-agent-output-format`
+- **Tags:** main=#ai, sub=[#coding, #tools, #tutorial], topic=ai-motion-design-pipeline · concept `closed-form-springs` main=#tech (thuần kỹ thuật chuyển động, không phải AI workflow)
+
+- **Concept tạo mới: 8 · merge: 3 file (`content-generation-workflow`, `harness-engineering` ×2, `html-as-agent-output-format`)**. Tổng sources 218→221, concepts 619→627.
+- **Raw frontmatter:** cả 3 file đổi `status: processed` + `compiled_at: 2026-10-04` + `compiled_to`. **Body không đụng** — chỉ 3 dòng frontmatter/file.
+- **Index `raw/posts/posts.md`:** Total 33 · **29→33 processed, 4→0 unprocessed** · By date 3→6 tuần này, 9→10 tháng này · Last updated 10-03→10-04. Đổi luôn 3 dòng Items trùng batch này + **1 dòng stale đã sửa**: `2026-02-03_why-you-waste-your-evenings-neuroscience` ghi `(unprocessed)` nhưng file đã compiled 09-30 (đã đọc frontmatter xác nhận `status: processed` + `compiled_to` có sẵn) → stale marker của run trước, sửa thành `(processed)`.
+- **Lỗi tự bắt trong lúc làm:** 1 lần `edit` gõ nhầm `src_hhow-to-make-...` → tool **rollback atomic, 0 edit nào lọt**, làm lại đúng 1 lần. Đã verify lại bằng `grep` sau khi sửa.
+- **Ghi chú nhận diện pattern (cả 3 bài độc lập, cùng 1 kết luận):** "model đủ thông minh, cái thiếu là hệ thống" — bài 1 phân rã vai trò từng tool, bài 2 tách knowledge/skill/tools/loop, bài 3 nói thẳng "prompt là 10%, 90% là harness". Đã ghi thành key idea chung trong `harness-engineering` (cả 3 source) — đây là atom liên kết 3 source, đáng để anh review.
+- **Write zones:** chỉ `wiki/sources/` (3 file mới), `wiki/concepts/` (8 mới + 3 merge), `raw/` frontmatter + `raw/posts/posts.md` Stats/Items, `.openclaw/MEMORY.md`. Không đụng `wiki/tag/`, `wiki/topic/`, `wiki/meta/`, `wiki/reviews/`, TAGS.md.
+- **Không trigger Index Agent** (chạy riêng 21:00). 11 file wiki đổi ⇒ run tối Index Agent sẽ vượt ngưỡng 20 và **full rebuild** như các lần trước.
+
+## 2026-10-04 11:50 — Fix Agent applied 3 report 2026-10-03
+- **Nền:** Compile batch 08:10 hôm nay đã drain hết raw (0 unprocessed), tạo 8 concept mới + merge 3. Fix chạy SAU compile, verify trên state hiện tại.
+- **Backup:** `/tmp/fix-2026-10-04/` (9 file, trước khi sửa).
+- **Issue 1 (ERROR) — FIXED.** `long-context-models.md` còn 2 claim trái ngược về Opus context window. Verify ngoài KB: Anthropic docs (`platform.claude.com/docs/en/models/overview`) xác nhận context window **1M được đưa vào từ Opus 4.7** (kèm tokenizer mới). ⇒ claim `:30` đúng, `:18`/`:49` là mốc cũ. Sửa: `:18` viết lại (Opus 4.7+ ngang bậc V4 1M), `:49` thêm "(tại thời điểm benchmark)", thêm đoạn **Lưu ý về mốc thời gian** giải thích bảng là snapshot 2026-05-28.
+- **Issue 2 (WARNING) — FIXED.** 5 ref tới `ai-assisted-development` (3 file) + `diagram-as-code` (2 file). Verify cả 2 target: **0 concept / 0 source / 0 raw** ⇒ vô đường giải quyết. Gỡ cả 5, theo precedent 10-02→10-03. `## Related concepts` các file còn lại vẫn nội (3–5 item), không rỗng.
+- **Issue 3 (WARNING) — FIXED.** Thêm `## Notes` (rỗng) vào 4 file: `frontend-design-agent`, `code-visualization`, `design-process`, `product-vs-prototype`. 4/4 giờ đủ 5 section + newline cuối file.
+- **Issue 4 — KHÔNG hành động.** Redundancy 3 file là chủ ý, chờ Julius chốt ngưỡng (treo từ 10-02).
+- **Issue 5 (INFO) — FIXED.** `design vocabulary`→`từ vựng thiết kế`, `layout judgment`→`phán đoán bố cục`, `output dày thông tin`→`output giàu thông tin`; 3 file. Bonus dọn câu tiếng Anh dài (`deterministic detector rules`, `live browser iteration`, `description`, `auto-layout`, `nodes`) trong cùng câu.
+- **Regression trailing-newline của batch 10:11 — ĐÃ TỰ PHỤC HỒI, không cần fix.** Đo lại: LOST=0, GAINED=4. 49 file còn thiếu newline đều là **baseline pre-existing** (đối chiếu `git show HEAD` ⇒ regression=0), không phải do batch này. 9 file đã sửa đều giữ newline.
+- **8 concept mới 08:10: 0 broken wikilink** (3 source note `src_*` resolve đúng).
+- **Chưa archive report** — `wiki/reviews/` nằm ngoài write zone của Fix Agent (SKILL.md constraints). Chờ Julius chỉ định.
+- **Chưa đụng:** Hygiene E1–E13 (7 tệp auth đã lên GitHub, backup cron dừng ~9.5 ngày, 225K tệp hermes-agent lồng) — ngoài write zone, cần quyết định của Julius.
+
+## 2026-10-04 21:03:00 — Indexed (full rebuild)
+- **Mode:** full rebuild — 74 file wiki thay đổi sau run 10-03 21:08 (≥ ngưỡng 20 theo SKILL.md). Không dùng incremental.
+- **Scanned:** 627 concepts + 221 sources = 848 file. Tất cả parse frontmatter sạch, 0 file skip, 0 lỗi YAML.
+- **Tags indexed:** 24 file tag index trong `wiki/tag/` (9 main-tag Pool A + 20 sub-tag Pool B trong TAGS.md, trùng lặp `ai`/`health`/`system` nằm cả 2 pool). 27 tag hợp lệ theo TAGS.md → 24 có index vì 2 tag **chưa dùng**: `#layer2`, `#perpdex` (0 file mang tag ⇒ không tạo index; không delete gì vì file cũ cũng không có).
+- **Topics indexed:** 271 file trong `wiki/topic/`.
+- **Most used:** #psychology (345), #productivity (336), #research (297).
+- **Orphans deleted:** 0 — không có file tag/topic nào mất tag hết.
+- **Ghi lại số liệu tag.md:** Total tags 27→24, Sub tags 18→**20** (số 18 là stale, TAGS.md v1.4 đã thêm `geopolitics` + `strategy` từ 08-06 mà tag.md chưa cập nhật). Notes section giữ nguyên.
+- **Verify sau ghi:** section order tag file đúng §5.3 (`Parent`→`Stats`→`Files with this tag`→`Co-occurring tags`), không phát sinh `## Concepts`/`## Sources` trong L3. Stats khớp số entry thực tế ở 4 tag mẫu (psychology 345/345, ai 247/247, research 299/299, tools 259/259). 296/296 file có newline cuối. `git status wiki/sources wiki/concepts` = 0 dòng ⇒ không đụng content.
+- **Write zones:** chỉ `wiki/tag/` (25 file, gồm tag.md) + `wiki/topic/` (271 file) + `.openclaw/MEMORY.md` + `.openclaw/last-index-success.txt`. Backup trước run: `/tmp/index-backup-2026-10-04/` (296 file).
+- **Chưa trigger Hermes** — validation chạy riêng 18:00 thứ Sáu.
+
+## 2026-10-05 21:05:52 — Indexed (full rebuild)
+- **Mode:** incremental script nhưng **0 file thay đổi** sau run 10-04 21:03 ⇒ script vẫn viết lại toàn bộ index (write-all mỗi run). Kết quả giống hệt 10-04.
+- **Scanned:** 627 concepts + 221 sources = **848 file**. 0 file skip, 0 lỗi YAML, 0 warning, 0 error.
+- **Tags indexed:** 24 file trong `wiki/tag/` (+ `tag.md` = 25). 27 tag hợp lệ theo TAGS.md v1.4 → 24 có index vì **2 tag chưa dùng**: `#layer2`, `#perpdex` (0 file mang ⇒ không tạo index).
+- **Topics indexed:** 271 file trong `wiki/topic/`.
+- **Most used:** #psychology (345), #productivity (336), #research (299).
+- **Orphans deleted:** 0.
+- **Verify sau ghi:** Stats khớp 100% với section `## Files with this tag` ở 5 tag mẫu (psychology 345, productivity 336, research 299, tools 259, ai 247). Section order L3 đúng §5.3 — 0 file có `## Concepts`/`## Sources`. 296/296 file có newline cuối. `git status --porcelain wiki/sources wiki/concepts` = 0 dòng ⇒ không đụng content.
+- **Write zones:** chỉ `wiki/tag/` + `wiki/topic/` + `.openclaw/MEMORY.md` + `.openclaw/last-index-success.txt`.
+- **Chưa trigger Hermes** — validation chạy riêng 18:00 thứ Sáu.
+
+## 2026-10-10 21:04:19 +07:00 — Indexed
+- **Mode:** full rebuild
+- **Scanned:** 627 concepts + 221 sources = 848 total files
+- **Tags indexed:** 24 (9 main-tags + 20 sub-tags in taxonomy, 24 active)
+- **Topics indexed:** 271
+- **Most used:** #psychology (345), #productivity (336), #research (297)
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Errors:** 0
+- **Invalid tags flagged:** 0
+
+## 2026-10-11 21:01:19 +07:00 — Indexed
+- Scanned: 627 concepts + 221 sources = 848 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 271
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0
+
+## 2026-10-12 18:57 — Ingested article
+- Type: article
+- File: raw/articles/2026-07-29_how-i-stopped-feeling-overwhelmed.md
+- URL: https://ayushithakkar.substack.com/p/how-i-stopped-feeling-overwhelmed-928
+- Author: ayushi thakkar
+- Title: how i stopped feeling overwhelmed by everything and started creating
+- Status: unprocessed

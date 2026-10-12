@@ -1,55 +1,49 @@
-# Model Failures — 2026-08-21 Session Transcript
+# Model Routing Failures
 
-Source: live `KB Compile Daily` (b91792a8) + `openclaw cron runs` + direct probe of `https://ollama.com/v1/chat/completions` and `http://localhost:20128/v1/models`.
+Use when OpenClaw cannot call a model or falls back across providers. Diagnose evidence before changing routing or limits.
 
-## Failure modes seen (exact strings)
+## Classify before probing
 
-```
-Context overflow: prompt too large for the model. Try /reset (or /new) to start a fresh session, or use a larger-context model.
-Context overflow: estimated context size exceeds safe threshold during tool loop.
-FallbackSummaryError: All models failed (3): api-ai-box-vn/deepseek-v4-flash-0731: 403 insufficient user quota, remaining: đ0.000000 (request id: 202608180313251203089498268d9d6yfJKd54Y) (auth)
-FallbackSummaryError: All models failed (3): custom-api-ai-box-vn-2/deepseek-v4-pro[1m]: HTTP 403 new_api_error: Token này không có quyền truy cập model deepseek-v4-pro[1m] (request id: 20260816011333918019278268d9d66J8YB70l) (auth)
-FallbackSummaryError: All models failed (3): custom-api-ai-box-vn-4/deepseek-v4-flash[1m]: 403 Token này không có quyền truy cập model deepseek-v4-flash[1m] (request id: 202608150118461487350118268d9d61XPdfHx4) (auth)
-FallbackSummaryError: All models failed (2): opencode/minimax-m2.5-free: HTTP 401 ModelError: Model minimax-m2.5-free is not supported (auth)
-FallbackSummaryError: All models failed (3): openai-codex/gpt-5.4: OAuth token refresh failed for openai-codex: Failed to refresh OpenAI Codex token. Please try again or re-authenticate.
-ollama/kimi-k2.5:cloud: 410 {"error":"kimi-k2.5 was retired at 2026-07-31 00:00:00 -0700 PDT (ref: 96024fa1-a526-412c-a1e5-dcef4eed90a7)"} (timeout)
-ollama/minimax-m2.7:cloud: 403 {"error":"this model requires a subscription, upgrade for access: https://ollama.com/upgrade (ref: a3e403d6-b3bb-4233-ba4c-e9fdafd7c5d6)"} (auth)
-google/gemma-4-31b-it: ⚠️ API rate limit reached. Please try again later. (rate_limit)
-9router/oc/mimo-v2.5-free: ⚠️ API rate limit reached. Please try again later. (rate_limit)
-openclaw-gateway: [context-overflow-precheck] estimatedPromptTokens=14226 promptBudgetBeforeReserve=8000 overflowTokens=6226 reserveTokens=16384 effectiveReserveTokens=8000 sessionFile=.../7e5e3825-...jsonl
-openclaw-gateway: config reload skipped (invalid config): agents.defaults.models.google/gemma-4-31b-it: Unrecognized keys: "contextWindow", "maxTokens" (x5)
-```
+| Evidence | Class | First action |
+|---|---|---|
+| HTTP 401 / model not supported | auth or model ID | Verify provider credential and exact model ID. |
+| HTTP 403 quota exhausted | quota | Check account quota; do not treat as context failure. |
+| HTTP 403 subscription required | entitlement | Choose a model covered by current subscription. |
+| HTTP 410 retired | dead model | Remove from primary and fallback chains. |
+| HTTP 429 / rate limit | transient | Respect retry timing; keep healthy fallbacks. |
+| OAuth refresh failed | credential lifecycle | Re-authenticate OAuth profile. |
+| `Context overflow: prompt too large` | context budget | Inspect prompt estimate, context metadata, and compaction. |
+| `non_deliverable_terminal_turn` with `stopReason=length` and tiny output | output-budget clamp | Follow `empty-response-diagnostics.md`; do not first blame auth. |
+| `FallbackSummaryError: All models failed` | aggregate failure | Expand nested error per model, then classify each separately. |
 
-## Liveness matrix (probed 2026-08-21 09:14–09:22 +07)
+A successful gateway health check does not prove model health. A successful small model probe does not prove a large conversation can generate output.
 
-| Model ID | Provider path | Result | Note |
-|---|---|---|---|
-| `ollama/nemotron-3-nano:30b` | `ollama` | ✅ free | keep as fallback |
-| `ollama/nemotron-3-super` | `ollama` | ✅ free | keep as fallback |
-| `ollama/gpt-oss:120b` | `ollama` | ✅ free | alt fallback |
-| `ollama/gpt-oss:20b` | `ollama` | (not probed, likely free) |  |
-| `ollama/minimax-m2.7:cloud` | `ollama` | ❌ 403 subscription | `Upgrade for access` |
-| `ollama/kimi-k2.6:cloud` | `ollama` | ❌ 403 subscription / cooldown |  |
-| `ollama/kimi-k3:cloud` | `ollama` | ❌ Pro+extra usage |  |
-| `ollama/kimi-k2.5:cloud` | `ollama` | ❌ 410 retired 2026-07-31 |  |
-| `ollama/qwen3.5:397b` | `ollama` | ❌ 403 subscription |  |
-| `ollama/glm-5.2:cloud` | `ollama` | ❌ 403 subscription |  |
-| `ollama/deepseek-v4-flash:0731` | `ollama` | ❌ 403 subscription |  |
-| `opencode/minimax-m2.5-free` | `opencode` plugin | ❌ 401 not supported | removed upstream |
-| `api-box/deepseek-v4-flash[1m]` | `api-box` | ❌ 403 no quyền | current ai-box token lacks [1m] |
-| `api-box/deepseek-v4-flash` | `api-box` | ❌ context 16k overflow |  |
-| `ai-box-vn/deepseek-v4-pro` | `ai-box-vn` | ❌ 403 quota 0.000000 |  |
-| `9router/oc/mimo-v2.5-free` | `9router` | ⚠️ 429 rate limit (transient) | requested primary — keep |
-| `google/gemma-4-31b-it` | `google` | ⚠️ 429 rate limit (transient) | keep as last fallback |
-| `openai-codex/gpt-5.4` | `openai-codex` | ❌ OAuth refresh failed | token expired, needs re-auth |
+## Safe liveness probe
 
-## Final working routing (applied)
+1. Load secret from configured profile or provider entry without printing it.
+2. Probe exact provider/model pair with a tiny prompt and explicit output limit.
+3. Record HTTP status, model actually served, finish reason, content, and usage.
+4. Repeat with a realistic output limit if first response is empty.
+5. Stop after evidence separates transport, auth, quota, model availability, and context budget.
 
-```json
-// KB Compile Daily b91792a8
-{ "model": "9router/oc/mimo-v2.5-free", "fallbacks": ["ollama/nemotron-3-nano:30b", "ollama/nemotron-3-super", "google/gemma-4-31b-it"], "timeoutSeconds": 600 }
-// KB Index Daily 5de7b598
-{ "model": "ollama/nemotron-3-nano:30b", "fallbacks": ["ollama/nemotron-3-super", "google/gemma-4-31b-it"], "timeoutSeconds": 600 }
-```
+For a local OpenAI-compatible gateway, include its configured API key. An unauthenticated direct probe can return 401 before reaching the selected model and proves nothing about model health.
 
-`compaction.reserveTokensFloor`: 20000 → 50000; `9router/oc/mimo-v2.5-free` contextWindow: 16000 → 128000 via `models.providers.9router.models[]`.
+## Routing metadata rules
+
+- Put real `contextWindow` and `maxTokens` in `models.providers.<provider>.models[]`.
+- A combo/router alias is not one backend model. Resolve its route list and use conservative limits shared by every possible backend.
+- `maxTokens` is requested output capacity, not additional context. It does not bypass remaining-context clamps.
+- On current OpenClaw, read compaction reserve from `~/.openclaw/agents/<id>/agent/settings.json`; do not restore retired `reserveTokensFloor` in `openclaw.json`.
+- Effective compaction reserve can be capped relative to context budget. Verify the effective runtime value before blaming reserve size.
+
+## Configuration gate
+
+1. Back up `openclaw.json` and per-agent settings.
+2. Verify each route independently; record status and reason.
+3. Choose limits from verified backend capabilities, never model names or optimistic suffixes.
+4. Patch only supported schema.
+5. Restart gateway and verify health.
+6. Run one fresh representative turn, not only a small liveness probe.
+7. Inspect trajectory usage and final status.
+
+Never run `openclaw configure` after manual tuning. It rewrites routing and limit fields. Treat `openclaw doctor --fix` as mutating: back up first and diff config afterward.

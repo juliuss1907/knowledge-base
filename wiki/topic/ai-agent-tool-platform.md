@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-agent-tool-platform
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: ai-agent-tool-platform
 
 Auto-generated index of all content with topic `ai-agent-tool-platform`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[ai-agent-tool-orchestration]] — main: #ai, sub: ['#tools', '#automation']
-- [[pay-per-call-pricing]] — main: #economic, sub: ['#tools', '#automation']
-- [[unified-api-gateway]] — main: #system, sub: ['#tools', '#automation']
+- [[ai-agent-tool-orchestration]] — main: #ai, sub: [#tools, #automation]
+- [[pay-per-call-pricing]] — main: #economic, sub: [#tools, #automation]
+- [[unified-api-gateway]] — main: #system, sub: [#tools, #automation]
 
 ## Sources (1)
 
-- [[src_monid-ai-agent-tool-platform]] — main: #ai, sub: ['#tools', '#automation']
+- [[src_monid-ai-agent-tool-platform]] — main: #ai, sub: [#tools, #automation]

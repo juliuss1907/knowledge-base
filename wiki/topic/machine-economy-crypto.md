@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: machine-economy-crypto
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: machine-economy-crypto
 
 Auto-generated index of all content with topic `machine-economy-crypto`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[agentic-commerce]] — main: #crypto, sub: ['#ai', '#tools']
-- [[autonomous-agents]] — main: #crypto, sub: ['#ai', '#tools']
-- [[machine-economy]] — main: #crypto, sub: ['#ai', '#tools']
+- [[agentic-commerce]] — main: #crypto, sub: [#ai, #tools]
+- [[autonomous-agents]] — main: #crypto, sub: [#ai, #tools]
+- [[machine-economy]] — main: #crypto, sub: [#ai, #tools]
 
 ## Sources (1)
 
-- [[src_is-there-anything-left-build-crypto-wintermute]] — main: #crypto, sub: ['#ai', '#opinion', '#tools']
+- [[src_is-there-anything-left-build-crypto-wintermute]] — main: #crypto, sub: [#ai, #opinion, #tools]

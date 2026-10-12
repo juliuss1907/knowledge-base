@@ -4,25 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-token-workforce
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: ai-token-workforce
 
 Auto-generated index of all content with topic `ai-token-workforce`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (5)
 
-- [[100x-token]] — main: #ai, sub: ['#tools', '#system']
-- [[ai-evals]] — main: #ai, sub: ['#tools', '#system']
-- [[ai-transformation]] — main: #ai, sub: ['#system', '#tools']
-- [[token-looping]] — main: #ai, sub: ['#system', '#opinion']
-- [[tokenmaxxing]] — main: #ai, sub: ['#opinion', '#news']
+- [[100x-token]] — main: #ai, sub: [#tools, #system]
+- [[ai-evals]] — main: #ai, sub: [#tools, #system]
+- [[ai-transformation]] — main: #ai, sub: [#system, #tools]
+- [[token-looping]] — main: #ai, sub: [#system, #opinion]
+- [[tokenmaxxing]] — main: #ai, sub: [#opinion, #news]
 
 ## Sources (1)
 
-- [[src_you-just-hired-a-million-bad-employees-a16z]] — main: #ai, sub: ['#opinion', '#tools', '#system']
+- [[src_you-just-hired-a-million-bad-employees-a16z]] — main: #ai, sub: [#opinion, #tools, #system]

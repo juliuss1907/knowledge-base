@@ -4,23 +4,23 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-polymarket-trading-agent
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: hermes-polymarket-trading-agent
 
 Auto-generated index of all content with topic `hermes-polymarket-trading-agent`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (3)
 
-- [[atomic-mac-agent]] — main: #tech, sub: ['#tools', '#automation']
-- [[hermes-agent]] — main: #ai, sub: ['#tools', '#automation', '#vibecode']
-- [[polymarket]] — main: #crypto, sub: ['#defi', '#tools']
+- [[atomic-mac-agent]] — main: #tech, sub: [#tools, #automation]
+- [[hermes-agent]] — main: #ai, sub: [#tools, #automation, #vibecode]
+- [[polymarket]] — main: #crypto, sub: [#defi, #tools]
 
 ## Sources (1)
 
-- [[src_hermes-polymarket-btc-trading-agent]] — main: #crypto, sub: ['#automation', '#tools', '#tutorial']
+- [[src_hermes-polymarket-btc-trading-agent]] — main: #crypto, sub: [#automation, #tools, #tutorial]

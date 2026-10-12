@@ -4,21 +4,21 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-lab-valuation-dynamics
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: ai-lab-valuation-dynamics
 
 Auto-generated index of all content with topic `ai-lab-valuation-dynamics`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (1)
 
-- [[ai-lab-crypto-analogy]] — main: #ai, sub: ['#opinion', '#layer1']
+- [[ai-lab-crypto-analogy]] — main: #ai, sub: [#opinion, #layer1]
 
 ## Sources (1)
 
-- [[src_l1-blockchain-ai-lab-comparison]] — main: #ai, sub: ['#opinion', '#layer1']
+- [[src_l1-blockchain-ai-lab-comparison]] — main: #ai, sub: [#opinion, #layer1]

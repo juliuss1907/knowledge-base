@@ -1,7 +1,7 @@
 # Common Non-Compliant Patterns
 
 > Recurring hygiene violations observed in practice.
-> Updated: 2026-09-02
+> Updated: 2026-10-02
 
 ---
 
@@ -117,3 +117,82 @@ Three patterns that caused false positives in the 2026-06-27 run:
 - `.hermes/skills/creative/touchdesigner-mcp/references/particles.md` — skill reference
 
 **Rule:** Skip `.hermes/` and `.openclaw/` at depth > 1 for orphan checks.
+
+---
+
+## 2026-09-30 — `git check-ignore` SKIPS tracked files (false evidence for many runs)
+
+**The trap.** `git check-ignore` (plain form) **does not report tracked files**. Git docs: tracked files are not shown. So for a file that is already committed, plain `check-ignore` returns **exit 1 with no output** — indistinguishable from "no rule exists".
+
+Every run up to and including 2026-09-29 used the plain form. That produced two different wrong claims:
+
+- "`.gitignore:37` CÓ rule" — inferred from a plain-`check-ignore` rc that actually proved nothing.
+- "`check-ignore` exit 1 ⇒ NOT ignored" — used on the two `.migrated.*` markers (2026-09-29 E9) to call them untracked-and-not-ignored.
+
+**The rule.** For every hit, run **both**:
+
+```bash
+git ls-files -s -- <path>              # empty  => untracked (definitive)
+git check-ignore --no-index -v -- <path>   # rule in isolation, ignores index state
+git check-ignore -v -- <path>           # only meaningful for UNTRACKED files
+```
+
+Then classify: tracked + rule exists = **RULE-EXISTS-BUT-INEFFECTIVE**; tracked + no rule = **TRACKED-NO-RULE**; untracked + rule = correctly ignored; untracked + no rule = real leak.
+
+Proven 2026-09-30 on `.hermes/auth.json`: plain → `rc=1` no output; `--no-index` → `.gitignore:37:.hermes/auth.json` `rc=0`. Re-probed 21 files.
+
+**Corollary:** the same "plain exit code on a tracked file" error applies to `git ls-files` (see pitfall #7) — never infer state from an exit code alone; assert on **output emptiness**.
+
+## 2026-09-30 — Grep filenames, not key names, to inventory secret exposure
+
+2026-09-29 found `.hermes/auth.json` by grepping key names (`access_token`/`api_key`) inside that one file, and reported "at least 4 ERRORs". Grepping **filenames** in HEAD across both agent homes found **7 auth-named tracked files** — 4 of them in `.openclaw/` and 1 in `.hermes/state-snapshots/` were missed entirely. Two of those had *no* key names at all, so a key-name grep can never reach them.
+
+**Rule:** inventory exposure by `git ls-tree -r HEAD --name-only | grep -Ei '(auth|token|secret|credential|apikey|\.env)'` **excluding `skills/`** (skill docs legitimately mention auth). Then per-file `ls-files` + `check-ignore --no-index` + commit count. Only then report. Never read values.
+
+**Also probe by EXTENSION, not by name.** A name-grep misses runtime DBs that carry the same blast radius: `.hermes/kanban.db`, `-shm`, `-wal` (141 commits each), `projects.db`, `verification_evidence.db` (345 commits), `.hermes/state-snapshots/` (7 files), `config.yaml.bak.*` (18/18). 9 of 9 runtime patterns had **no `.gitignore` rule**, while `.openclaw/*.bak` and `.hermes/state.db*` did — the `.hermes/` zone is unprotected.
+
+## 2026-09-30 — Publish dir counts with an explicit, reproducible shape
+
+The 2026-09-29 headline "1,735 files + 70 dirs" was not reproducible for the dir half: today 9 root + 23 content-zone (recursive) + 42 agent-home L1 = **74**, and no subset yields 70. Never carry a dir total forward without stating its composition inline, or the next run reads the delta as structural growth.
+
+Counting shape used from 2026-09-30 on (all with `find -type f -o -type l` / `find -type d`, sockets excluded):
+
+- **files** = content zones (recursive) + root regular files/symlinks + agent-home level-1 files
+- **dirs** = root dirs + content-zone dirs (recursive) + agent-home level-1 dirs
+
+Corroborate any file delta with `git status --porcelain -uall` split `??` vs `M` (pitfall #13) — a `find -newer` delta is not evidence on its own.
+
+## 2026-09-30 — agent-home level-1 count is VOLATILE, not just socket-prone
+
+Removing sockets (pitfall 09-29) is **not sufficient** for a reproducible scope total. The agent homes' first level churn on their own: on 2026-09-30 the count went **99 at 23:30 → 98 at 23:55** within one run. `.hermes/.skills_prompt_snapshot.json` (per-session artifact, mtime 23:15) was deleted by the runtime, while three `state.db.malformed-backup-20260617_082024{,-shm,-wal}` files appeared. Of the 98, **46 look volatile** (`.db*`, `-shm`, `-wal`, `.lock`, `.pid`, `.sock`, `*cache*`, `.etag`, `.log`, `spawn-ledger`, `gateway_state`, `channel_directory`, `processes.json`).
+
+**Rule:** a published scope total containing agent-home L1 is **not reproducible** even with the correct socket filter. Either exclude agent-home L1 from the published total, or publish it separately and label it volatile. When both a pre-write and post-write figure are needed, state which component is stable:
+
+> "1.751 files total — **only 1.653 stable** (1.641 content zones + 11 root); 98 agent-home L1 files are **volatile** (99 at scan → 98 at verify)."
+
+Also: a **transient per-session file must never be counted as KB growth**, and its disappearance must not be reported as a resolved issue. Verify volatility empirically before blaming the counting method — sample the same count 5× over ~30s; if it is stable *now*, the change came from a runtime event during the run, which is itself the finding.
+
+## 2026-10-02 — `find -o` precedence silently narrows the scope test
+
+`find .hermes/checkpoints -type f -o -type l | wc -l` looked correct but reported **6.814** where the grouped form
+`find .hermes/checkpoints \( -type f -o -type l \) | wc -l` also gives 6.814 — *identical here*, which is exactly why the trap survives: the un-grouped form works only when the `-print` binds to the whole expression, and `find` implies `-print` on the **last** branch only. In practice a command like
+
+```bash
+find . -path ./.git -prune -o -newerct <ref> -print
+```
+
+returned **0** for the whole tree because `-print` bound to the `-newerct` branch alone and every non-matching path was pruned away silently. The `-newerct` form also fails outright when given a **file** reference: `find <file> -newerct <file>` errors with *"Không thể tìm biết cách giải thích … dạng ngày hay giờ"*.
+
+**Rule:** group the type test explicitly — `\( -type f -o -type l \) -print` — and prefer a Python `stat.S_ISREG/S_ISLNK` filter when you need the same definition in two places (scan + verify). A one-liner that returns `0` for a tree you just measured non-zero is a scoping bug, not an empty tree.
+
+## 2026-10-02 — The dir-count shape differs between `os.walk` and `find -type d`
+
+Reporting 74 dirs while the verify recomputed 70 was **not** KB drift: `os.walk("raw")` yields `("raw", [subdirs], [files])` for the zone itself, so `len(dn)` counts only *children*. Summing `len(dn)` across four zones gives **19** (23 minus the 4 zone roots). `find raw wiki context scripts -type d` gives **23**, because each zone root is a directory too.
+
+**Rule:** the content-zone dir term must include the zone root (`if dp == zone: n += 1`), and the published label must say so — "23 vùng nội dung (**bao gồm thư mục gốc vùng**)". Same trap for the root-files term: `cnt(".")` walks the **entire tree** (243K files here), while the intended root term is only top-level entries — use a listdir-based count and assert it (11) or the verify fails for a reason that has nothing to do with the KB.
+
+## 2026-10-02 — `wiki/wiki.md` is whitelisted; a "file at wiki/ root" check must not flag it
+
+§7's tree lists `wiki.md ✓ required (level 1 index)` on the same lines that also say *"No files at `wiki/` root level"*. A scanner that treats every top-level file in `wiki/` as an orphan therefore emits a **false ERROR on a file the spec requires**. Proven: the 10-02 run reported `ERROR Path wiki/wiki.md` and a phantom 6th ERROR group.
+
+**Rule:** in the `wiki/` root check, `continue` on the whitelisted index names before falling through to the generic orphan error. Same applies to `raw/raw.md` in `raw/`. When a scanner ERROR survives to the report, **grep the spec for the exact name first** — the spec tree and the spec Rules section can disagree (see W3), and the tree's explicit `✓ required` line wins for a file's existence. Record the correction as a *script* defect in the report, not as a KB finding.

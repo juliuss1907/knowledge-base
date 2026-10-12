@@ -4,24 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: evolutionary-mismatch-modern-life
 auto_generated: true
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 ---
 
 # Topic: evolutionary-mismatch-modern-life
 
 Auto-generated index of all content with topic `evolutionary-mismatch-modern-life`.
 
-Last updated: 2026-10-03 21:07:14
+Last updated: 2026-10-11 21:01:19
 
 ---
 
 ## Concepts (4)
 
-- [[default-mode-network]] — main: #ai, sub: ['#research', '#health']
-- [[dunbar-number]] — main: #productivity, sub: ['#research', '#psychology']
-- [[evolutionary-mismatch]] — main: #productivity, sub: ['#research', '#opinion']
-- [[hunter-gatherer-lifestyle]] — main: #productivity, sub: ['#research', '#health', '#psychology']
+- [[default-mode-network]] — main: #ai, sub: [#research, #health]
+- [[dunbar-number]] — main: #productivity, sub: [#research, #psychology]
+- [[evolutionary-mismatch]] — main: #productivity, sub: [#research, #opinion]
+- [[hunter-gatherer-lifestyle]] — main: #productivity, sub: [#research, #health, #psychology]
 
 ## Sources (1)
 
-- [[src_were-not-supposed-to-live-like-this]] — main: #productivity, sub: ['#opinion', '#research']
+- [[src_were-not-supposed-to-live-like-this]] — main: #productivity, sub: [#opinion, #research]

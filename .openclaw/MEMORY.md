@@ -2174,3 +2174,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Issue 1 (Defect B):** Gỡ số liệu chép đè ("5 triệu weekly active users so với 2,4 triệu...") trong `wiki/concepts/harness-engineering.md:36`, giữ liên kết sang `[[model-vs-harness-adoption]]`.
 - **Issue 7 (Language polish):** Thuần hóa thuật ngữ pha trộn trong câu tiếng Việt tại `wiki/concepts/content-generation-workflow.md` (Definition + 4 ý chính) và `wiki/sources/src_how-to-create-ai-animation-ads-with-gemini.md:29` ("phí dựng và thời gian chờ quay vòng").
 - **Issue 4 (Raw Index backlog):** Cập nhật `raw/websites/websites.md` — đánh dấu 2 tệp `interconnects-ai` và `atom-project...` thành `(processed)`, stats: `7 processed, 0 unprocessed`.
+
+## 2026-10-12 21:00:55 +07:00 — Indexed
+- Scanned: 627 concepts + 221 sources = 848 total
+- Tags indexed: 24 (9 main-tags + 18 active sub-tags)
+- Topics indexed: 271
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0

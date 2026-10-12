@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: daily-planning-routine
 auto_generated: true
-last_updated: 2026-10-11
+last_updated: 2026-10-12
 ---
 
 # Topic: daily-planning-routine
 
 Auto-generated index of all content with topic `daily-planning-routine`.
 
-Last updated: 2026-10-11 21:01:19
+Last updated: 2026-10-12 21:00:55
 
 ---
 

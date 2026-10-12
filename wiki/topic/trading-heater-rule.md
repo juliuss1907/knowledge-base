@@ -4,16 +4,19 @@ scope: topic
 parent: "[[topic]]"
 topic: trading-heater-rule
 auto_generated: true
-last_updated: 2026-10-11
+last_updated: 2026-10-12
 ---
 
 # Topic: trading-heater-rule
 
 Auto-generated index of all content with topic `trading-heater-rule`.
 
-Last updated: 2026-10-11 21:01:19
+Last updated: 2026-10-12 21:00:55
 
 ---
+
+## Concepts (0)
+
 
 ## Sources (1)
 

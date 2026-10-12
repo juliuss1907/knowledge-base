@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: multi-agent-architecture
 auto_generated: true
-last_updated: 2026-10-11
+last_updated: 2026-10-12
 ---
 
 # Topic: multi-agent-architecture
 
 Auto-generated index of all content with topic `multi-agent-architecture`.
 
-Last updated: 2026-10-11 21:01:19
+Last updated: 2026-10-12 21:00:55
 
 ---
 
@@ -19,3 +19,6 @@ Last updated: 2026-10-11 21:01:19
 
 - [[agent-handoff]] — main: #ai, sub: [#automation, #tools]
 - [[orchestrator-worker-validator]] — main: #ai, sub: [#automation, #tools]
+
+## Sources (0)
+

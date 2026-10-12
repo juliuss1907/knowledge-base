@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: moores-law
 auto_generated: true
-last_updated: 2026-10-11
+last_updated: 2026-10-12
 ---
 
 # Topic: moores-law
 
 Auto-generated index of all content with topic `moores-law`.
 
-Last updated: 2026-10-11 21:01:19
+Last updated: 2026-10-12 21:00:55
 
 ---
 
 ## Concepts (1)
 
 - [[moores-law-economics]] — main: #economic, sub: [#tools, #research]
+
+## Sources (0)
+

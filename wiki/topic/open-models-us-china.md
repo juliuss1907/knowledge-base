@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: open-models-us-china
 auto_generated: true
-last_updated: 2026-10-11
+last_updated: 2026-10-12
 ---
 
 # Topic: open-models-us-china
 
 Auto-generated index of all content with topic `open-models-us-china`.
 
-Last updated: 2026-10-11 21:01:19
+Last updated: 2026-10-12 21:00:55
 
 ---
 

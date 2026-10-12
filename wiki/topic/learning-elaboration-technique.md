@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: learning-elaboration-technique
 auto_generated: true
-last_updated: 2026-10-11
+last_updated: 2026-10-12
 ---
 
 # Topic: learning-elaboration-technique
 
 Auto-generated index of all content with topic `learning-elaboration-technique`.
 
-Last updated: 2026-10-11 21:01:19
+Last updated: 2026-10-12 21:00:55
 
 ---
 

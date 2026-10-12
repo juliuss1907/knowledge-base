@@ -33,7 +33,7 @@ Harness engineering là thực hành bao quanh AI-assisted code generation bằn
 - **Harness quyết định cả output creative lẫn output video:** cùng một công thức "không có model nào đủ, cái thiếu là hệ thống" lặp lại ở quảng cáo tĩnh (brand brain + judge, [[brand-brain]] + [[llm-judge-loop]]) và ở video (render engine + critique loop, [[code2video-render-loop]] + [[critique-loop-self-scoring]])
 - **"Prompt là 10% — 90% còn lại là harness":** một prompt một dòng tạo ra clip trông giống mọi clip khác; khác biệt thật nằm ở render engine, thư viện chuyển động, beat grid, và vòng tự soi frame — cùng một model, khác context đầu vào
 - **Loop đóng bằng rule, không đóng bằng cảm xúc:** mỗi lỗi người dùng chỉ ra phải được ghi thành rule trong file cấu hình mà harness đọc mỗi run; sửa cùng một lỗi ở hai batch liên tiếp là dấu hiệu harness chưa đóng vòng lặp, xem [[llm-judge-loop]]
-- **Adoption là phép đo cuối cùng:** harness không tự chứng minh giá trị — Codex đạt 5 triệu weekly active users so với 2,4 triệu của anti-gravity, dù model phía sau có thể mạnh và rẻ hơn. Chất lượng harness chuyển thành weekly active users, xem [[model-vs-harness-adoption]]
+- **Adoption là phép đo cuối cùng:** harness không tự chứng minh giá trị, chất lượng harness chuyển hóa thành người dùng hoạt động hàng tuần (WAU), xem [[model-vs-harness-adoption]]
 
 ## Related concepts
 

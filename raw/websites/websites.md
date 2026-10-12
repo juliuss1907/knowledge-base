@@ -21,14 +21,14 @@ Website content and documentation pages.
 ## Stats
 
 - Total: 7 files
-- By status: 5 processed, 2 unprocessed
+- By status: 7 processed, 0 unprocessed
 - By date: 2 this week, 2 this month
-- Last updated: 2026-09-28
+- Last updated: 2026-10-12
 
 ## Items
 
-- [[2026-09-28_interconnects-ai]] — Interconnects AI by Nathan Lambert (unprocessed)
-- [[2025-08-04_atom-project-american-truly-open-models]] — The ATOM Project — American Truly Open Models by Nathan Lambert (unprocessed)
+- [[2026-09-28_interconnects-ai]] — Interconnects AI by Nathan Lambert (processed)
+- [[2025-08-04_atom-project-american-truly-open-models]] — The ATOM Project — American Truly Open Models by Nathan Lambert (processed)
 - [[2026-05-23_optimize-content-generative-ai-search-sagepath]] — How to Optimize Content for Generative AI Search (processed)
 - [[2026-05-23_project-glasswing-anthropic-initial-update]] — Project Glasswing — Anthropic Initial Update (processed)
 - [[2026-05-23_google-publishes-generative-ai-search-guide-semrush]] — Google Publishes Generative AI Search Guide (processed)

@@ -2167,3 +2167,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Author: ayushi thakkar
 - Title: how i stopped feeling overwhelmed by everything and started creating
 - Status: unprocessed
+
+## 2026-10-12 19:28 — Fix Agent applied Output Validation 2026-10-04 fixes
+- **Backup:** `/tmp/fix-2026-10-12/` (5 files).
+- **Issue 3 (Typo):** Sửa "19.000 ký t" → "19.000 ký tự" trong `wiki/concepts/directors-brief.md:20`.
+- **Issue 1 (Defect B):** Gỡ số liệu chép đè ("5 triệu weekly active users so với 2,4 triệu...") trong `wiki/concepts/harness-engineering.md:36`, giữ liên kết sang `[[model-vs-harness-adoption]]`.
+- **Issue 7 (Language polish):** Thuần hóa thuật ngữ pha trộn trong câu tiếng Việt tại `wiki/concepts/content-generation-workflow.md` (Definition + 4 ý chính) và `wiki/sources/src_how-to-create-ai-animation-ads-with-gemini.md:29` ("phí dựng và thời gian chờ quay vòng").
+- **Issue 4 (Raw Index backlog):** Cập nhật `raw/websites/websites.md` — đánh dấu 2 tệp `interconnects-ai` và `atom-project...` thành `(processed)`, stats: `7 processed, 0 unprocessed`.

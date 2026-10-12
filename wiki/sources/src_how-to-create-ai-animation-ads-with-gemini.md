@@ -26,7 +26,7 @@ Miko (@Mho_23) trình bày pipeline sản xuất quảng cáo animation bằng A
 
 ## Key points
 
-- **Bài toán kinh tế:** Google AI Ultra 200 USD/tháng = 25.000 credit, mỗi video ~15 credit → ~1.666 video/tháng → khoảng **12 cent/video**, thay thế hoàn toàn phí editor và thời gian chờ turnaround nhiều ngày
+- **Bài toán kinh tế:** Google AI Ultra 200 USD/tháng = 25.000 credit, mỗi video ~15 credit → ~1.666 video/tháng → khoảng **12 cent/video**, thay thế hoàn toàn phí dựng và thời gian chờ quay vòng nhiều ngày
 - **Nỗi đau được nêu đích danh:** làm thủ công mất trên 1 giờ mỗi video khi cần test nhiều concept → cộng dồn giết chết biên lợi nhuận; đường thuê editor thì gửi brief, chờ 3 ngày, nhận lại sản phẩm lệch yêu cầu, round revision thêm 2 ngày nữa
 - **Vai trò mỗi tool trong stack:** Claude Fable 5 = phân tích SOP + sinh prompt từng scene (chiến lược sáng tạo); Gemini Omni = render scene thành clip; Nano Banana Pro = tạo frame đầu phong cách; ElevenLabs = voiceover; TikTok hoặc Suno = nhạc nền; CapCut = ghép + phụ đề + export
 - **Phương pháp 1 (nhanh):** dán nguyên SOP vào Claude, yêu cầu Claude phân tích và hiểu cấu trúc trước, sau đó nhập brand details (sản phẩm, tệp khách hàng mục tiêu, style, selling points) → Claude đề xuất concept và trả về prompt theo từng scene, viết sao cho feed thẳng vào Gemini Omni, không phải dịch qua công cụ trung gian

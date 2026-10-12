@@ -17,7 +17,7 @@ Director's brief là dạng đặc tả cấp cao dành cho tác phẩm dài, tr
 
 ## Key ideas
 
-- **Bằng chứng về quy mô:** các brief được chia sẻ công khai dài 9.500 ký tự (một nhân vật nói với máy 5 phút, agent chạy 12 giờ, ra video 142 giây) và 19.000 ký t cho một tác phẩm khác — thang này hoàn toàn khác một prompt một dòng
+- **Bằng chứng về quy mô:** các brief được chia sẻ công khai dài 9.500 ký tự (một nhân vật nói với máy 5 phút, agent chạy 12 giờ, ra video 142 giây) và 19.000 ký tự cho một tác phẩm khác — thang này hoàn toàn khác một prompt một dòng
 - **Tám thành phần của một brief hoàn chỉnh:** logline một dòng (để mọi quyết định sau đều kiểm được với nó), references và inputs, tools & keys kèm ngân sách, character bible (tỉ lệ, palette, biểu cảm, identity lock sống sót qua mọi đổi style), beat sheet (mốc thời gian, visual payoff mỗi 3–5 giây, hook trong 2 giây đầu), text on screen, workflow có gate, critique loop, deliverables
 - **Identity lock quan trọng với character:** một mô tả nhận diện phải sống sót qua mọi lần đổi phong cách, nếu không nhân vật sẽ đổi mặt giữa các cảnh
 - **Generate-then-trace là kỹ thuật then chốt:** video model (Seedance 2.5) render base shot có nhân vật và vật lý, rồi agent vẽ lại toàn bộ video bằng JavaScript đè lên để người xem chỉ thấy lớp code — video model giải quyết chuyển động khó viết tay, lớp JS mang lại look nhất quán và sở hữu được

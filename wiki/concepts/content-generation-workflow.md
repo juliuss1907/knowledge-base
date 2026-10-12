@@ -15,14 +15,14 @@ last_updated: 2026-10-04
 
 ## Definition
 
-Hệ thống tạo content sử dụng AI với quy trình 4 bước: generate ideas từ strategy, phân tích content thành công, tạo content-generation prompt, rồi sản xuất content hàng loạt từ list ý tưởng.
+Hệ thống tạo nội dung sử dụng AI theo quy trình 4 bước: tạo ý tưởng từ chiến lược, phân tích nội dung thành công, dựng prompt tạo nội dung, rồi sản xuất nội dung hàng loạt từ danh sách ý tưởng.
 
 ## Key ideas
 
-1. **Generate ideas từ strategy:** Dùng personal brand strategy để tạo 30+ content ideas cân bằng giữa high-performing và authoritative
-2. **Break down high-performing content:** Phân tích cấu trúc, psychological patterns, framework từ content thành công trong niche
-3. **Tạo content-generation prompt:** Dùng meta-prompt để biến breakdown thành prompt 2-phase (outline → script)
-4. **Sản xuất hàng loạt:** Feed từng idea vào prompt để tạo outline → script → chỉnh sửa
+1. **Tạo ý tưởng từ chiến lược:** Dùng chiến lược thương hiệu cá nhân để sinh 30+ ý tưởng nội dung cân bằng giữa hiệu suất cao và thẩm quyền
+2. **Phân tích cấu trúc nội dung hiệu suất cao:** Bóc tách khung mẫu, mô thức tâm lý từ nội dung thành công trong ngách
+3. **Dựng prompt tạo nội dung:** Dùng prompt mẫu cấp cao để biến phân tích thành quy trình 2 giai đoạn (dàn ý → kịch bản)
+4. **Sản xuất hàng loạt:** Đưa từng ý tưởng vào prompt để tạo dàn ý → kịch bản → biên tập hoàn thiện
 5. **Platform-specific:** Workflow thay đổi tùy theo YouTube, Twitter, LinkedIn, Newsletter
 6. **Copy what works, with your strategy:** Không copy nội dung mà copy cấu trúc, áp dụng với góc nhìn riêng
 7. **Mở rộng sang video animation:** cùng logic pipeline chạy cho quảng cáo animation — LLM viết prompt từng scene theo SOP, model video render scene, tool khác lo voiceover/nhạc/phụ đề

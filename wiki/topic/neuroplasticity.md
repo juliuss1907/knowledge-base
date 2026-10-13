@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: neuroplasticity
 auto_generated: true
-last_updated: 2026-10-12
+last_updated: 2026-10-13
 ---
 
 # Topic: neuroplasticity
 
 Auto-generated index of all content with topic `neuroplasticity`.
 
-Last updated: 2026-10-12 21:00:55
+Last updated: 2026-10-13 21:02:54
 
 ---
 

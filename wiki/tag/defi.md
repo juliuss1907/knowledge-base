@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: defi
 auto_generated: true
-last_updated: 2026-10-12
+last_updated: 2026-10-13
 ---
 
 # Tag: #defi
@@ -19,16 +19,16 @@ last_updated: 2026-10-12
 - Total files: 7
 - Sources: 1
 - Concepts: 6
-- Last updated: 2026-10-12
+- Last updated: 2026-10-13
 
 ## Files with this tag
 
 - [[arcade-tokens]] — Arcade Tokens (concept)
-- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
+- [[cookie-fun-mcp]] — Cookie.fun MCP (concept)
 - [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
-- [[softbank-carry-trade]] — Softbank Carry Trade (concept)
-- [[src_the-most-underrated-token-type]] — The Most Underrated Token Type (source)
+- [[softbank-carry-trade]] — SoftBank Carry Trade (concept)
+- [[src_the-most-underrated-token-type]] — The most underrated token type (source)
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept)
 
 ## Co-occurring tags

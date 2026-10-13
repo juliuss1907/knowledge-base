@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: geopolitics
 auto_generated: true
-last_updated: 2026-10-12
+last_updated: 2026-10-13
 ---
 
 # Tag: #geopolitics
@@ -19,25 +19,25 @@ last_updated: 2026-10-12
 - Total files: 10
 - Sources: 3
 - Concepts: 7
-- Last updated: 2026-10-12
+- Last updated: 2026-10-13
 
 ## Files with this tag
 
-- [[chinese-culture-confucianism]] — Chinese Culture Confucianism (concept)
-- [[enablement-vs-control]] — Enablement Vs Control (concept)
-- [[hundred-years-humiliation]] — Hundred Years Humiliation (concept)
+- [[chinese-culture-confucianism]] — Chinese Culture and Confucian Approach (Văn hóa Trung Quốc và đường lối Khổng Tử) (concept)
+- [[enablement-vs-control]] — enablement-vs-control (concept)
+- [[hundred-years-humiliation]] — Hundred Years of Humiliation (100 Năm Nhục nhã) (concept)
 - [[open-model-ecosystem-race]] — Open Model Ecosystem Race (concept)
-- [[political-settlement]] — Political Settlement (concept)
-- [[src_atom-project-american-truly-open-models]] — Atom Project American Truly Open Models (source)
-- [[src_tribute-system-new-world-order]] — Tribute System New World Order (source)
-- [[src_why-china-got-rich-and-india-didnt]] — Why China Got Rich And India Didnt (source)
-- [[state-capacity-theory]] — State Capacity Theory (concept)
-- [[tribute-system]] — Tribute System (concept)
+- [[political-settlement]] — political-settlement (concept)
+- [[src_atom-project-american-truly-open-models]] — The ATOM Project — American Truly Open Models (source)
+- [[src_tribute-system-new-world-order]] — The Tribute System: The New World Order (source)
+- [[src_why-china-got-rich-and-india-didnt]] — Why China Got Rich and India Didn't (source)
+- [[state-capacity-theory]] — state-capacity-theory (concept)
+- [[tribute-system]] — Tribute System (Hệ thống Triều cống) (concept)
 
 ## Co-occurring tags
 
 - [[opinion]] — 7 co-occurrences
-- [[politic]] — 4 co-occurrences
 - [[economic]] — 4 co-occurrences
-- [[research]] — 2 co-occurrences
+- [[politic]] — 4 co-occurrences
 - [[ai]] — 2 co-occurrences
+- [[research]] — 2 co-occurrences

@@ -4,20 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: batch-vs-live-inference
 auto_generated: true
-last_updated: 2026-10-12
+last_updated: 2026-10-13
 ---
 
 # Topic: batch-vs-live-inference
 
 Auto-generated index of all content with topic `batch-vs-live-inference`.
 
-Last updated: 2026-10-12 21:00:55
+Last updated: 2026-10-13 21:02:54
 
 ---
 
 ## Concepts (1)
 
 - [[batch-vs-live-inference]] — main: #tech, sub: [#tools, #automation]
-
-## Sources (0)
-

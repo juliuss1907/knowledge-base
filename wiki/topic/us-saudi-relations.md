@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: us-saudi-relations
 auto_generated: true
-last_updated: 2026-10-12
+last_updated: 2026-10-13
 ---
 
 # Topic: us-saudi-relations
 
 Auto-generated index of all content with topic `us-saudi-relations`.
 
-Last updated: 2026-10-12 21:00:55
+Last updated: 2026-10-13 21:02:54
 
 ---
 
@@ -19,6 +19,3 @@ Last updated: 2026-10-12 21:00:55
 
 - [[kissinger-deal-1974]] — main: #politic, sub: [#research, #opinion]
 - [[us-security-umbrella]] — main: #politic, sub: [#research, #opinion]
-
-## Sources (0)
-

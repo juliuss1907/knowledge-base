@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: investment
 auto_generated: true
-last_updated: 2026-10-12
+last_updated: 2026-10-13
 ---
 
 # Tag: #investment
@@ -19,22 +19,22 @@ last_updated: 2026-10-12
 - Total files: 12
 - Sources: 4
 - Concepts: 8
-- Last updated: 2026-10-12
+- Last updated: 2026-10-13
 
 ## Files with this tag
 
-- [[diversification-strategy]] — Diversification Strategy (concept)
-- [[erg-theory]] — Erg Theory (concept)
-- [[five-big-forces]] — Five Big Forces (concept)
-- [[five-types-of-wealth]] — Five Types Of Wealth (concept)
-- [[global-macro-investing]] — Global Macro Investing (concept)
-- [[holy-grail-investing]] — Holy Grail Investing (concept)
+- [[diversification-strategy]] — Diversification Strategy (Chiến lược Đa dạng hóa) (concept)
+- [[erg-theory]] — ERG Theory (concept)
+- [[five-big-forces]] — Five Big Forces (Năm Lực Lượng Lớn) (concept)
+- [[five-types-of-wealth]] — Five Types of Wealth (concept)
+- [[global-macro-investing]] — Global Macro Long-Short Investing (Đầu tư Vĩ mô Toàn cầu Long-Short) (concept)
+- [[holy-grail-investing]] — Holy Grail of Investing (Chén Thánh Đầu Tư) (concept)
 - [[investment-conviction]] — Investment Conviction (concept)
 - [[outsourced-thinking]] — Outsourced Thinking (concept)
-- [[src_an-all-too-common-investment-story]] — An All Too Common Investment Story (source)
-- [[src_global-macro-investing]] — Global Macro Investing (source)
-- [[src_investment-principles-dalio]] — Investment Principles Dalio (source)
-- [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
+- [[src_an-all-too-common-investment-story]] — An all too common investment story (source)
+- [[src_global-macro-investing]] — Why I Recommend Being a Global Macro Long-Short Investor (source)
+- [[src_investment-principles-dalio]] — Investment Principles: What Should You Do Under Existing Conditions? (source)
+- [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is the Easiest Way To Measure Your Life. But It Is Not the Best (source)
 
 ## Co-occurring tags
 

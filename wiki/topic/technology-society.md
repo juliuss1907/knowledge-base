@@ -4,20 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: technology-society
 auto_generated: true
-last_updated: 2026-10-12
+last_updated: 2026-10-13
 ---
 
 # Topic: technology-society
 
 Auto-generated index of all content with topic `technology-society`.
 
-Last updated: 2026-10-12 21:00:55
+Last updated: 2026-10-13 21:02:54
 
 ---
 
 ## Concepts (1)
 
 - [[technology-driven-dependence]] — main: #economic, sub: [#opinion, #tools]
-
-## Sources (0)
-

@@ -1,5 +1,19 @@
 # Hermes — Memory Log
 
+## 2026-10-13 23:19:15 — Format validation
+
+- **Files checked:** 1158 (629 concepts + 222 sources + 34 indexes + 273 topics)
+Files checked: 1158
+- Issues found: 394 (0 ERROR, 394 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-10-13_format-report.md
+- Top violations: broken wikilinks (forward-refs) — 375 individual + 19 groups, 267 unique targets
+
+**0 net change vs 10-12 (394→394), variant exact-zero-flat KB-growth (chu kỳ 24h, 10-12 → 10-13).** 1153→1158 files (+5: +2 concepts, +1 source, +2 topics). Unique targets 267 flat (ngày thứ 5 tại 267).
+**Tầng wiki hoạt động trở lại:** Compile Agent biên soạn thành công 1 bài viết từ raw (`how-i-stopped-feeling-overwhelmed`), tạo 3 content file mới + 2 topic mới. 0 format error, 0 broken wikilink.
+**Tầng raw:** Raw backlog = 0 (1 bài unprocessed ngày 10-12 đã compile).
+**Tầng index hoạt động:** Index rebuild 21:00 hôm nay (298 file: 25 tag + 273 topic).
+**Git & backup:** 🟢 Vault backup cron chạy bình thường liên tục trong ngày.
+
 ## 2026-10-13 23:05:00 — Output validation
 
 - **Files checked:** 851 (222 sources + 629 concepts)

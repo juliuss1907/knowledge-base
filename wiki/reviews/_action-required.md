@@ -4,7 +4,9 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-10-13 23:05 — Output Validation 10-13 thêm vào pending (**1 issue: 0 ERROR, 1 WARNING, 0 INFO**). 851 files (222 sources + 629 concepts), 5 file mới/cập nhật. 1 WARNING: `separation-of-creation-and-judgment.md` có 4/5 key ideas. 100% số liệu khớp raw, 0 dropped-i (chuỗi 18 lượt), 0 CJK, không Defect A/B/C. 3 pending.
+**Last updated:** 2026-10-13 23:20 — Format Validation 10-13 thêm vào pending (**394 issues: 0 ERROR, 394 WARNING, 0 INFO**). 1158 files (629 concepts + 222 sources + 34 indexes + 273 topics). Δ vs 10-12 23:16 run: **0 net change, biến thể exact-zero-flat KB-growth (chu kỳ 24h, 10-12 → 10-13)**. 1153→1158 files (+5: +2 concepts, +1 source, +2 topics), 394→394 issues (0E+394W). 375 cá nhân + 19 forward-reference groups = 394; unique targets 267 flat (ngày thứ 5 tại 267). 5 file mới đóng góp 0 format error và 0 broken wikilink. 🟢 Vault backup cron chạy bình thường. 4 pending.
+
+**Last updated (Output 10-13 23:05):** Output Validation 10-13 thêm vào pending (**1 issue: 0 ERROR, 1 WARNING, 0 INFO**). 851 files (222 sources + 629 concepts), 5 file mới/cập nhật. 1 WARNING: `separation-of-creation-and-judgment.md` có 4/5 key ideas. 100% số liệu khớp raw, 0 dropped-i (chuỗi 18 lượt), 0 CJK, không Defect A/B/C. 3 pending.
 
 **Last updated (Hygiene 10-12 23:35):** Hygiene Inspection 10-12 thêm vào pending (**21 nhóm: 14 ERROR + 5 WARNING + 2 INFO** — tổng trong ngoặc khớp 21 mục thân). **0 ERROR mới, 5 nhóm RESOLVED/SẠCH (E2, E4, E8, E9, E10), 2 nhóm giảm (E3/E14: 40→34 tệp, E6: 15→9 tệp tracked)**. 1.704 tệp ổn định → 1.705 post-write + 74 thư mục. **🟢 `vault backup` cron phục hồi hoàn toàn** (7+ commit hôm nay, HEAD == origin/master). **🟢 E4 credential .openclaw/ đã RESOLVED** (commit `380d3f74`). 4 mẫu runtime agent home còn tracked (34 tệp). 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi. W4 topic trùng lần 7. 2 pending.
 
@@ -32,7 +34,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 3
+**Pending reports awaiting review:** 4
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch approved:** 7 reports (10-04, 10-10, 10-11) — approved 2026-10-12 by Julius
@@ -41,6 +43,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 10-13 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-10-13_format-report.md](2026-10-13_format-report.md); Δ from 2026-10-12 23:16:13 run (pending — prior run): **0 net change, biến thể exact-zero-flat KB-growth (chu kỳ 24h, 10-12 → 10-13)**. 1153→1158 files (+5), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 5 tại 267). 5 file mới đóng góp 0 lỗi format và 0 broken wikilink. 🟢 Vault backup cron hoạt động bình thường. |
 | 🔍 PENDING | 10-13 | Output | 1 (0E+1W+0I) | [Báo cáo](2026-10-13_output-report.md): 851 files (222 sources + 629 concepts), 5 file mới/cập nhật (1 source + 4 concepts). 1 issue: 0 ERROR, 1 WARNING, 0 INFO. WARNING: `separation-of-creation-and-judgment.md` chỉ có 4/5 key ideas (dưới ngưỡng tối thiểu 5). 100% khớp raw, 0 dropped-i (chuỗi 18 lượt), 0 CJK, không lỗi Defect A/B/C. |
 | 🔍 PENDING | 10-12 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-10-12_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.693 tệp tuân thủ 100%). **🟢 `vault backup` cron phục hồi hoàn toàn** (HEAD `e0ff6341` == `master`). **🟢 E4 credential .openclaw/ đã RESOLVED** (commit `380d3f74`). 4 mẫu runtime agent home còn tracked (34 tệp, giảm 6) chưa `git rm --cached`. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (134 tệp/640 KB), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 cặp topic trùng `cuoc-dua-khong-{di,i}-lui` tái tạo lần 7 do Index rebuild 21:00. 1.704 tệp ổn định → 1.705 post-write + 74 thư mục. |
 | 🔍 PENDING | 10-12 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-10-12_format-report.md](2026-10-12_format-report.md); Δ from 2026-10-11 23:15:29 run (approved — prior run): **0 net change, biến thể raw-resumed / wiki-flat (chu kỳ 24h, 10-11 → 10-12)**. 1153→1153 files (**+0**), 394 issues giữ nguyên (**0E+394W+0I**). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 4 tại 267). 0 wiki content file mới trong 24h. Tầng raw có 1 bài viết mới: `raw/articles/2026-07-29_how-i-stopped-feeling-overwhelmed.md` (`status: unprocessed`). 🟢 Vault backup cron đã phục hồi, 3 topic untracked đã commit. |
@@ -189,6 +192,16 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-10-13
+
+- **Report:** [wiki/reviews/2026-10-13_format-report.md](2026-10-13_format-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 394 (0 ERROR, 394 WARNING, 0 INFO)
+- **Files checked:** 1158 (629 concepts + 222 sources + 34 indexes + 273 topics)
+- **Delta:** Δ from 2026-10-12 23:16 run: **0 net change** (biến thể exact-zero-flat KB-growth sau 24h). 1153→1158 files (+5: +2 concepts, +1 source, +2 topics), 394→394 issues (0E+394W). 375 cá nhân + 19 nhóm. Unique targets 267 flat (ngày thứ 5 tại 267).
+- **Summary:** Tầng wiki hoạt động trở lại: 1 bài viết raw (`2026-07-29_how-i-stopped-feeling-overwhelmed`) được biên soạn thành 3 content file mới + 2 topic mới. Toàn bộ 5 file mới đóng góp 0 format error và 0 broken wikilink. Toàn bộ 394 warning là forward-references kế thừa. Tầng raw sạch backlog (0 unprocessed). Tầng index full rebuild 21:00 (298 file). 🟢 Vault backup cron chạy bình thường liên tục trong ngày.
+- **Actions:** Không có vi phạm format cần sửa ngay. Tiếp tục theo dõi backlog forward-ref.
 
 ### 🔍 Output Validation — 2026-10-13 (23:05)
 

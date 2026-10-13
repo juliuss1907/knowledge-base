@@ -1,5 +1,15 @@
 ---
 
+## 2026-10-13 08:00:00 — Compiled <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Raw:** raw/articles/2026-07-29_how-i-stopped-feeling-overwhelmed.md
+  - **Source note:** wiki/sources/src_how-i-stopped-feeling-overwhelmed.md
+  - **Concepts:** [creative-overwhelm] (created), [separation-of-creation-and-judgment] (created), [consumption-vs-action] (updated), [attention-management] (updated)
+  - **Tags applied:** main=productivity, sub=[psychology, opinion], topic=creative-overwhelm-habits
+  - **Action:** created 2 concepts, merged 2 concepts
+
+---
+
 ## 2026-09-18 08:00:00 — Compiled (batch 3 files)
 
 - **Raw:** raw/articles/2026-09-17_im-begging-you-to-manage-your-goals-like-this.md

@@ -6,7 +6,8 @@ sub_tags: [psychology]
 topic: action-vs-consumption
 sources:
   - "[[src_why-you-never-start-its-not-about-motivation]]"
-last_updated: 2026-09-21
+  - "[[src_how-i-stopped-feeling-overwhelmed]]"
+last_updated: 2026-10-13
 ---
 
 # Consumption vs Action
@@ -23,15 +24,20 @@ Tiêu thụ nội dung về mục tiêu (xem video self-improvement, đọc sác
 - So sánh video đầu tiên của mình với video thứ 500 của creator có kinh nghiệm → pressure khổng lồ → amygdala từ chối
 - Comparison kills dreams before they begin — "starting line should be someone else's finishing line"
 - **Một năm 2019-2020:** tiêu thụ content YouTube thay vì tạo content — cảm giác gần goal hơn nhưng thực tế đang comfortable hơn với việc không làm
+- **Create before consuming:** tiêu thụ quá nhiều suy nghĩ hoàn chỉnh của người khác trước khi sáng tác làm lu mờ tiếng nói tự nhiên của bản thân và khiến các ý tưởng thô sơ cảm thấy không thỏa đáng; nghiên cứu lan man không biên giới thực chất là sự thiếu quyết đoán có lịch sử trình duyệt ấn tượng.
+- Đo lường bằng đầu ra thực tế tồn tại vào cuối ngày thay vì số giờ bận rộn hay mức độ mệt mỏi do tiếp nhận thông tin thụ động.
 
 ## Related concepts
 
 - [[procrastination-as-misregulation]]
 - [[low-entry-principle]]
 - [[cheap-dopamine]]
+- [[creative-overwhelm]]
+- [[separation-of-creation-and-judgment]]
 
 ## Sources
 
 - [[src_why-you-never-start-its-not-about-motivation]]
+- [[src_how-i-stopped-feeling-overwhelmed]]
 
 ## Notes

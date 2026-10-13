@@ -5,7 +5,9 @@ url: https://ayushithakkar.substack.com/p/how-i-stopped-feeling-overwhelmed-928
 author: ayushi thakkar
 date_published: 2026-07-29
 date_ingested: 2026-10-12
-status: unprocessed
+status: processed
+compiled_at: 2026-10-13
+compiled_to: "[[src_how-i-stopped-feeling-overwhelmed]]"
 source: substack.com
 ---
 

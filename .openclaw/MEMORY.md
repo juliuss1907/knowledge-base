@@ -2200,3 +2200,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 0
 - Errors: 0
 - Invalid tags flagged: 0
+
+## 2026-10-14 21:02:50 +07:00 — Indexed
+- Scanned: 629 concepts + 222 sources = 851 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 273
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0

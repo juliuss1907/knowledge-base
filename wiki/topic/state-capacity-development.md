@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: state-capacity-development
 auto_generated: true
-last_updated: 2026-10-13
+last_updated: 2026-10-14
 ---
 
 # Topic: state-capacity-development
 
 Auto-generated index of all content with topic `state-capacity-development`.
 
-Last updated: 2026-10-13 21:02:54
+Last updated: 2026-10-14 21:02:50
 
 ---
 

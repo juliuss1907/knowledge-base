@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: math-mafia-olympiad-founders
 auto_generated: true
-last_updated: 2026-10-13
+last_updated: 2026-10-14
 ---
 
 # Topic: math-mafia-olympiad-founders
 
 Auto-generated index of all content with topic `math-mafia-olympiad-founders`.
 
-Last updated: 2026-10-13 21:02:54
+Last updated: 2026-10-14 21:02:50
 
 ---
 

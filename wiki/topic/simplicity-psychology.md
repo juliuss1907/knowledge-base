@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: simplicity-psychology
 auto_generated: true
-last_updated: 2026-10-13
+last_updated: 2026-10-14
 ---
 
 # Topic: simplicity-psychology
 
 Auto-generated index of all content with topic `simplicity-psychology`.
 
-Last updated: 2026-10-13 21:02:54
+Last updated: 2026-10-14 21:02:50
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: delusional-goals-success
 auto_generated: true
-last_updated: 2026-10-13
+last_updated: 2026-10-14
 ---
 
 # Topic: delusional-goals-success
 
 Auto-generated index of all content with topic `delusional-goals-success`.
 
-Last updated: 2026-10-13 21:02:54
+Last updated: 2026-10-14 21:02:50
 
 ---
 

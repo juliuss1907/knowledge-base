@@ -1,5 +1,13 @@
 # Hermes — Memory Log
 
+## 2026-10-14 23:03:00 — Output validation
+
+- **Files checked:** 851 (222 sources + 629 concepts)
+- **New files:** 0 — nothing compiled today
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Result:** [SILENT] — no new files to validate
+- **Carry-over:** ngưởi 0, double-i 0, spacing 0, capital-I 0, dropped-i 0 (streak 19) — all clean
+
 ## 2026-10-13 23:19:15 — Format validation
 
 - **Files checked:** 1158 (629 concepts + 222 sources + 34 indexes + 273 topics)

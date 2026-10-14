@@ -1,5 +1,19 @@
 # Hermes — Memory Log
 
+## 2026-10-14 23:16:00 — Format validation
+
+- **Files checked:** 1158 (629 concepts + 222 sources + 34 indexes + 273 topics)
+Files checked: 1158
+- Issues found: 394 (0 ERROR, 394 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-10-14_format-report.md
+- Top violations: broken wikilinks (forward-refs) — 375 individual + 19 groups, 267 unique targets
+
+**0 net change vs 10-13 (394→394), variant exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-13 → 10-14).** 1158→1158 files (+0). Unique targets 267 flat (ngày thứ 6 tại 267).
+**Tầng wiki tĩnh:** 0 file wiki mới trong 24h (Output Validator chạy `[SILENT]` lúc 23:03).
+**Tầng raw tĩnh:** 0 raw mới ingested, backlog raw = 0 (`status: unprocessed` = 0).
+**Tầng index hoạt động:** Index rebuild 21:00 hôm nay (298 file: 25 tag + 273 topic).
+**Git & backup:** 🟢 Vault backup cron hoạt động trơn tru (nhiều commit tự động trong ngày), HEAD cục bộ khớp master.
+
 ## 2026-10-14 23:03:00 — Output validation
 
 - **Files checked:** 851 (222 sources + 629 concepts)

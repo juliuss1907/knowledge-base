@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: product-vs-prototype
 auto_generated: true
-last_updated: 2026-10-14
+last_updated: 2026-10-15
 ---
 
 # Topic: product-vs-prototype
 
 Auto-generated index of all content with topic `product-vs-prototype`.
 
-Last updated: 2026-10-14 21:02:50
+Last updated: 2026-10-15 21:00:18
 
 ---
 

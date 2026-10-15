@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: proximity-to-opportunity
 auto_generated: true
-last_updated: 2026-10-14
+last_updated: 2026-10-15
 ---
 
 # Topic: proximity-to-opportunity
 
 Auto-generated index of all content with topic `proximity-to-opportunity`.
 
-Last updated: 2026-10-14 21:02:50
+Last updated: 2026-10-15 21:00:18
 
 ---
 
 ## Concepts (1)
 
 - [[proximity-to-opportunity]] — main: #productivity, sub: [#strategy, #psychology]
+
+## Sources (0)
+

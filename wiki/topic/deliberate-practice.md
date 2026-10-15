@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: deliberate-practice
 auto_generated: true
-last_updated: 2026-10-14
+last_updated: 2026-10-15
 ---
 
 # Topic: deliberate-practice
 
 Auto-generated index of all content with topic `deliberate-practice`.
 
-Last updated: 2026-10-14 21:02:50
+Last updated: 2026-10-15 21:00:18
 
 ---
 
 ## Concepts (1)
 
 - [[deliberate-practice]] — main: #productivity, sub: [#psychology, #research]
+
+## Sources (0)
+

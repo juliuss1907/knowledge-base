@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: life-advice-20s
 auto_generated: true
-last_updated: 2026-10-14
+last_updated: 2026-10-15
 ---
 
 # Topic: life-advice-20s
 
 Auto-generated index of all content with topic `life-advice-20s`.
 
-Last updated: 2026-10-14 21:02:50
+Last updated: 2026-10-15 21:00:18
 
 ---
 

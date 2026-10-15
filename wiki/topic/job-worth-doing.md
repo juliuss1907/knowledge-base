@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: job-worth-doing
 auto_generated: true
-last_updated: 2026-10-14
+last_updated: 2026-10-15
 ---
 
 # Topic: job-worth-doing
 
 Auto-generated index of all content with topic `job-worth-doing`.
 
-Last updated: 2026-10-14 21:02:50
+Last updated: 2026-10-15 21:00:18
 
 ---
 

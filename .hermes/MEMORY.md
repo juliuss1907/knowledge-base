@@ -1,5 +1,19 @@
 # Hermes — Memory Log
 
+## 2026-10-15 23:16:00 — Format validation
+
+- **Files checked:** 1163 (632 concepts + 223 sources + 34 indexes + 274 topics)
+Files checked: 1163
+- Issues found: 394 (0 ERROR, 394 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-10-15_format-report.md
+- Top violations: broken wikilinks (forward-refs) — 375 individual + 19 groups, 267 unique targets
+
+**0 net change vs 10-14 (394→394), variant exact-zero-flat KB-growth (chu kỳ 24h, 10-14 → 10-15).** 1158→1163 files (+5: +3 concepts, +1 source, +1 topic). Unique targets 267 flat (ngày thứ 7 tại 267).
+**Tầng wiki hoạt động:** Compile Agent biên soạn thành công 4 file mới (1 source + 3 concepts) từ Quanta Magazine (`is-attention-the-essence-of-intelligence`). 0 format error, 0 broken wikilink.
+**Tầng raw:** Raw backlog = 0 (1 bài unprocessed đã compile).
+**Tầng index hoạt động:** Index rebuild 21:00–21:05 hôm nay (300 file: 25 tag + 274 topic + 1 topic mới `attention-mechanism-foundation.md`).
+**Git & backup:** 🟢 Vault backup cron chạy bình thường liên tục trong ngày, HEAD cục bộ khớp master.
+
 ## 2026-10-15 23:05:00 — Output validation
 
 - **Files checked:** 855 (223 sources + 632 concepts)

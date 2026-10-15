@@ -4,7 +4,9 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-10-15 23:05 — Output Validation 10-15 thêm vào pending (**0 issue: 0 ERROR, 0 WARNING, 0 INFO**). 855 files (223 sources + 632 concepts), 4 file mới (1 source + 3 concepts). 100% khớp raw Quanta Magazine, 0 dropped-i (chuỗi 20 lượt), 0 CJK, Defect A/B/C = 0, wikilinks 100% resolve. Đề xuất PROMOTE 4/4 file. 8 pending.
+**Last updated:** 2026-10-15 23:16 — Format Validation 10-15 thêm vào pending (**394 issues: 0 ERROR, 394 WARNING, 0 INFO**). 1163 files (632 concepts + 223 sources + 34 indexes + 274 topics). Δ vs 10-14 23:16 run: **0 net change, biến thể exact-zero-flat KB-growth (chu kỳ 24h, 10-14 → 10-15)**. 1158→1163 files (+5: +3 concepts, +1 source, +1 topic), 394→394 issues (0E+394W). 375 cá nhân + 19 forward-reference groups = 394; unique targets 267 flat (ngày thứ 7 tại 267). 5 file mới đóng góp 0 lỗi format và 0 broken wikilink. 🟢 Vault backup cron chạy bình thường. 9 pending.
+
+**Last updated (Output 10-15 23:05):** Output Validation 10-15 thêm vào pending (**0 issue: 0 ERROR, 0 WARNING, 0 INFO**). 855 files (223 sources + 632 concepts), 4 file mới (1 source + 3 concepts). 100% khớp raw Quanta Magazine, 0 dropped-i (chuỗi 20 lượt), 0 CJK, Defect A/B/C = 0, wikilinks 100% resolve. Đề xuất PROMOTE 4/4 file. 8 pending.
 
 **Last updated (Hygiene 10-14 23:35):** Hygiene Inspection 10-14 thêm vào pending (**21 nhóm: 14 ERROR + 5 WARNING + 2 INFO** — tổng trong ngoặc khớp 21 mục thân). **0 ERROR mới, 5 nhóm RESOLVED/SẠCH (E2, E4, E8, E9, E10)**. 1.714 tệp ổn định → 1.715 post-write + 74 thư mục. **🟢 `vault backup` cron hoạt động trơn tru** (9 commit hôm nay, HEAD == origin/master). Backlog runtime agent home giữ nguyên 31 tệp tracked. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (142 tệp/672 KB), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 9. 7 pending.
 
@@ -42,7 +44,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 8
+**Pending reports awaiting review:** 9
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch approved:** 7 reports (10-04, 10-10, 10-11) — approved 2026-10-12 by Julius
@@ -51,6 +53,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 10-15 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-10-15_format-report.md](2026-10-15_format-report.md); Δ from 2026-10-14 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat KB-growth (chu kỳ 24h, 10-14 → 10-15)**. 1158→1163 files (+5), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 7 tại 267). 5 file mới đóng góp 0 lỗi format và 0 broken wikilink. 🟢 Vault backup cron hoạt động bình thường. |
 | 🔍 PENDING | 10-15 | Output | 0 (0E+0W+0I) | [Báo cáo](2026-10-15_output-report.md): 855 files (223 sources + 632 concepts), 4 file mới (1 source + 3 concepts). 0 issue (0 ERROR, 0 WARNING, 0 INFO). 100% khớp raw Quanta Magazine, 0 dropped-i (chuỗi 20 lượt), 0 CJK, không lỗi Defect A/B/C. Đề xuất PROMOTE 4/4 file. |
 | 🔍 PENDING | 10-14 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-10-14_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.703 tệp tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (HEAD `7e3015bc` == `master`, 9 commit hôm nay). 4 mẫu runtime agent home còn tracked (31 tệp) chưa `git rm --cached`. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (142 tệp/672 KB), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 cặp topic trùng `cuoc-dua-khong-{di,i}-lui` tái tạo lần 9 do Index rebuild 21:02. 1.714 tệp ổn định → 1.715 post-write + 74 thư mục. |
 | 🔍 PENDING | 10-14 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-10-14_format-report.md](2026-10-14_format-report.md); Δ from 2026-10-13 23:19:15 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-13 → 10-14)**. 1158→1158 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 6 tại 267). 0 wiki file mới trong 24h. 🟢 Vault backup cron hoạt động bình thường. |
@@ -204,6 +207,16 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-10-15
+
+- **Report:** [wiki/reviews/2026-10-15_format-report.md](2026-10-15_format-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 394 (0 ERROR, 394 WARNING, 0 INFO)
+- **Files checked:** 1163 (632 concepts + 223 sources + 34 indexes + 274 topics)
+- **Delta:** Δ from 2026-10-14 23:16 run: **0 net change** (biến thể exact-zero-flat KB-growth sau 24h). 1158→1163 files (+5: +3 concepts, +1 source, +1 topic), 394→394 issues (0E+394W). 375 cá nhân + 19 nhóm. Unique targets 267 flat (ngày thứ 7 tại 267).
+- **Summary:** Tầng wiki hoạt động: Compile Agent biên soạn thành công 4 file mới (1 source + 3 concepts) từ Quanta Magazine (`is-attention-the-essence-of-intelligence`). Toàn bộ 4 file đạt chuẩn PROMOTE 10/10, 0 format error, 0 broken wikilink. Tầng raw: backlog = 0 (`status: unprocessed` = 0). Tầng index: 1 topic mới (`attention-mechanism-foundation.md`) + full rebuild lúc 21:00–21:05. Toàn bộ 394 warning là forward-references kế thừa. 🟢 Vault backup cron chạy bình thường liên tục trong ngày.
+- **Actions:** Không có vi phạm format cần sửa ngay. Tiếp tục theo dõi backlog forward-ref.
 
 ### 🔍 Output Validation — 2026-10-15 (23:05)
 

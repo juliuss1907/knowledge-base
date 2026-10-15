@@ -2208,3 +2208,13 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 0
 - Errors: 0
 - Invalid tags flagged: 0
+
+## 2026-10-15 09:22 — Ingest & Compile test
+- **Raw:** `raw/articles/2026-10-12_is-attention-the-essence-of-intelligence.md`
+- **Source note:** `wiki/sources/src_is-attention-the-essence-of-intelligence.md`
+- **Concepts created:**
+  - `wiki/concepts/attention-mechanism.md`
+  - `wiki/concepts/transformer-architecture.md`
+  - `wiki/concepts/language-modeling-ai-complete.md`
+- **Tags applied:** main=`ai`, sub=[`research`, `psychology`], topic=`attention-mechanism-foundation`
+- **Model used:** `9router/ag/gemini-3.8-flash`

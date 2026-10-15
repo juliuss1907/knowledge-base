@@ -11,13 +11,10 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `deliberate-practice`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
 ## Concepts (1)
 
 - [[deliberate-practice]] — main: #productivity, sub: [#psychology, #research]
-
-## Sources (0)
-

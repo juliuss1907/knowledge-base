@@ -11,13 +11,10 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `cognitive-biases-learning`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
 ## Concepts (1)
 
 - [[fluency-illusion]] — main: #productivity, sub: [#psychology]
-
-## Sources (0)
-

@@ -11,7 +11,7 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `multi-agent-architecture`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
@@ -19,6 +19,3 @@ Last updated: 2026-10-15 21:00:18
 
 - [[agent-handoff]] — main: #ai, sub: [#automation, #tools]
 - [[orchestrator-worker-validator]] — main: #ai, sub: [#automation, #tools]
-
-## Sources (0)
-

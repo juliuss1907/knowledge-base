@@ -11,7 +11,7 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `ai-engineering`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
@@ -19,6 +19,3 @@ Last updated: 2026-10-15 21:00:18
 
 - [[alignment-engineering]] — main: #ai, sub: [#system, #research]
 - [[loop-native-factory]] — main: #ai, sub: [#vibecode, #system]
-
-## Sources (0)
-

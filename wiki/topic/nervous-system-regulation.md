@@ -11,13 +11,10 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `nervous-system-regulation`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
 ## Concepts (1)
 
 - [[window-of-tolerance]] — main: #health, sub: [#psychology]
-
-## Sources (0)
-

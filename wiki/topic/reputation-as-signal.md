@@ -11,13 +11,10 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `reputation-as-signal`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
 ## Concepts (1)
 
 - [[reputation-as-signal]] — main: #productivity, sub: [#strategy, #psychology]
-
-## Sources (0)
-

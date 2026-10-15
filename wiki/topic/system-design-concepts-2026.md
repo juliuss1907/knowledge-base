@@ -11,14 +11,14 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `system-design-concepts-2026`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
-## Concepts (2)
+## Concepts (1)
 
-- [[src_50-system-design-concepts-explained-simply]] — main: #tech, sub: [#tutorial, #research]
 - [[system-design-concepts-2026]] — main: #tech, sub: [#tutorial, #research]
 
-## Sources (0)
+## Sources (1)
 
+- [[src_50-system-design-concepts-explained-simply]] — main: #tech, sub: [#tutorial, #research]

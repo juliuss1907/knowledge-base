@@ -11,7 +11,7 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `market-dynamics`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
@@ -19,6 +19,3 @@ Last updated: 2026-10-15 21:00:18
 
 - [[dynamic-edge-trading]] — main: #economic, sub: [#research, #opinion]
 - [[reflexivity-soros]] — main: #economic, sub: [#research, #opinion]
-
-## Sources (0)
-

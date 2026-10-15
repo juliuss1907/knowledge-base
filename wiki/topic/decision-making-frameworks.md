@@ -11,7 +11,7 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `decision-making-frameworks`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
@@ -22,6 +22,3 @@ Last updated: 2026-10-15 21:00:18
 - [[optionality-principle]] — main: #productivity, sub: [#psychology, #strategy]
 - [[small-bets-strategy]] — main: #productivity, sub: [#psychology]
 - [[type-1-vs-type-2-decisions]] — main: #productivity, sub: [#psychology]
-
-## Sources (0)
-

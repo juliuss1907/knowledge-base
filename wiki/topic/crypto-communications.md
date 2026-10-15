@@ -11,7 +11,7 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `crypto-communications`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
@@ -20,6 +20,3 @@ Last updated: 2026-10-15 21:00:18
 - [[proof-stack]] — main: #crypto, sub: [#opinion]
 - [[show-me-era]] — main: #crypto, sub: [#opinion]
 - [[two-track-communications]] — main: #crypto, sub: [#opinion]
-
-## Sources (0)
-

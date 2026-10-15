@@ -11,7 +11,7 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `market-cycles`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
@@ -19,6 +19,3 @@ Last updated: 2026-10-15 21:00:18
 
 - [[altcoin-frenzy-pattern]] — main: #economic, sub: [#layer1, #opinion]
 - [[infrastructure-capex-cycle]] — main: #economic, sub: [#layer1, #ai]
-
-## Sources (0)
-

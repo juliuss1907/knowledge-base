@@ -11,7 +11,7 @@ last_updated: 2026-10-15
 
 Auto-generated index of all content with topic `creative-process`.
 
-Last updated: 2026-10-15 21:00:18
+Last updated: 2026-10-15 21:02:02
 
 ---
 
@@ -19,6 +19,3 @@ Last updated: 2026-10-15 21:00:18
 
 - [[creative-overwhelm]] — main: #productivity, sub: [#psychology]
 - [[separation-of-creation-and-judgment]] — main: #productivity, sub: [#psychology]
-
-## Sources (0)
-

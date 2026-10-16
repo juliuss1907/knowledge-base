@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: meaning-life-purpose
 auto_generated: true
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Topic: meaning-life-purpose
 
 Auto-generated index of all content with topic `meaning-life-purpose`.
 
-Last updated: 2026-10-15 21:02:02
+Last updated: 2026-10-16 21:01:38
 
 ---
 

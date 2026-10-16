@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: oaat-goal-model
 auto_generated: true
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Topic: oaat-goal-model
 
 Auto-generated index of all content with topic `oaat-goal-model`.
 
-Last updated: 2026-10-15 21:02:02
+Last updated: 2026-10-16 21:01:38
 
 ---
 

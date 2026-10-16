@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: google-ai-mode
 auto_generated: true
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Topic: google-ai-mode
 
 Auto-generated index of all content with topic `google-ai-mode`.
 
-Last updated: 2026-10-15 21:02:02
+Last updated: 2026-10-16 21:01:38
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: architecture-as-code
 auto_generated: true
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Topic: architecture-as-code
 
 Auto-generated index of all content with topic `architecture-as-code`.
 
-Last updated: 2026-10-15 21:02:02
+Last updated: 2026-10-16 21:01:38
 
 ---
 

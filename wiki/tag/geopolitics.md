@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: geopolitics
 auto_generated: true
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Tag: #geopolitics
 
 Auto-generated index of all content tagged with `#geopolitics`.
 
-Last updated: 2026-10-15 21:02:02
+Last updated: 2026-10-16 21:01:38
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-15 21:02:02
 - Total files: 10
 - Sources: 3
 - Concepts: 7
-- Last updated: 2026-10-15
+- Last updated: 2026-10-16
 
 ## Files with this tag
 

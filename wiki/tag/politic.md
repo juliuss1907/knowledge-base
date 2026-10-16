@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: politic
 auto_generated: true
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Tag: #politic
 
 Auto-generated index of all content tagged with `#politic`.
 
-Last updated: 2026-10-15 21:02:02
+Last updated: 2026-10-16 21:01:38
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-15 21:02:02
 - Total files: 21
 - Sources: 4
 - Concepts: 17
-- Last updated: 2026-10-15
+- Last updated: 2026-10-16
 
 ## Files with this tag
 

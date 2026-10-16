@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-economic-disruption-white-collar
 auto_generated: true
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Topic: ai-economic-disruption-white-collar
 
 Auto-generated index of all content with topic `ai-economic-disruption-white-collar`.
 
-Last updated: 2026-10-15 21:02:02
+Last updated: 2026-10-16 21:01:38
 
 ---
 

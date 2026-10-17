@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: writing-craft
 auto_generated: true
-last_updated: 2026-10-16
+last_updated: 2026-10-17
 ---
 
 # Topic: writing-craft
 
 Auto-generated index of all content with topic `writing-craft`.
 
-Last updated: 2026-10-16 21:01:38
+Last updated: 2026-10-17 21:00:41
 
 ---
 

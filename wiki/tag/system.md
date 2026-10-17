@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: system
 auto_generated: true
-last_updated: 2026-10-16
+last_updated: 2026-10-17
 ---
 
 # Tag: #system
 
 Auto-generated index of all content tagged with `#system`.
 
-Last updated: 2026-10-16 21:01:38
+Last updated: 2026-10-17 21:00:41
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-16 21:01:38
 - Total files: 57
 - Sources: 10
 - Concepts: 47
-- Last updated: 2026-10-16
+- Last updated: 2026-10-17
 
 ## Files with this tag
 

@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: law
 auto_generated: true
-last_updated: 2026-10-16
+last_updated: 2026-10-17
 ---
 
 # Tag: #law
 
 Auto-generated index of all content tagged with `#law`.
 
-Last updated: 2026-10-16 21:01:38
+Last updated: 2026-10-17 21:00:41
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-16 21:01:38
 - Total files: 5
 - Sources: 2
 - Concepts: 3
-- Last updated: 2026-10-16
+- Last updated: 2026-10-17
 
 ## Files with this tag
 

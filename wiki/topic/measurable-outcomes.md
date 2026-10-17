@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: measurable-outcomes
 auto_generated: true
-last_updated: 2026-10-16
+last_updated: 2026-10-17
 ---
 
 # Topic: measurable-outcomes
 
 Auto-generated index of all content with topic `measurable-outcomes`.
 
-Last updated: 2026-10-16 21:01:38
+Last updated: 2026-10-17 21:00:41
 
 ---
 

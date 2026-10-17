@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: code-as-agent-harness
 auto_generated: true
-last_updated: 2026-10-16
+last_updated: 2026-10-17
 ---
 
 # Topic: code-as-agent-harness
 
 Auto-generated index of all content with topic `code-as-agent-harness`.
 
-Last updated: 2026-10-16 21:01:38
+Last updated: 2026-10-17 21:00:41
 
 ---
 

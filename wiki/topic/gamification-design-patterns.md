@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: gamification-design-patterns
 auto_generated: true
-last_updated: 2026-10-17
+last_updated: 2026-10-18
 ---
 
 # Topic: gamification-design-patterns
 
 Auto-generated index of all content with topic `gamification-design-patterns`.
 
-Last updated: 2026-10-17 21:00:41
+Last updated: 2026-10-18 21:03:11
 
 ---
 

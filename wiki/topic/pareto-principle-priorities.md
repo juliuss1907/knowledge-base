@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: pareto-principle-priorities
 auto_generated: true
-last_updated: 2026-10-17
+last_updated: 2026-10-18
 ---
 
 # Topic: pareto-principle-priorities
 
 Auto-generated index of all content with topic `pareto-principle-priorities`.
 
-Last updated: 2026-10-17 21:00:41
+Last updated: 2026-10-18 21:03:11
 
 ---
 

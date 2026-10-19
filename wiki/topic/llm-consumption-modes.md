@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: llm-consumption-modes
 auto_generated: true
-last_updated: 2026-10-18
+last_updated: 2026-10-19
 ---
 
 # Topic: llm-consumption-modes
 
 Auto-generated index of all content with topic `llm-consumption-modes`.
 
-Last updated: 2026-10-18 21:03:11
+Last updated: 2026-10-19 21:03:22
 
 ---
 

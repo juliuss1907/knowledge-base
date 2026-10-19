@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hypergamy-relationships
 auto_generated: true
-last_updated: 2026-10-18
+last_updated: 2026-10-19
 ---
 
 # Topic: hypergamy-relationships
 
 Auto-generated index of all content with topic `hypergamy-relationships`.
 
-Last updated: 2026-10-18 21:03:11
+Last updated: 2026-10-19 21:03:22
 
 ---
 

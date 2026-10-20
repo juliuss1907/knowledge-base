@@ -2263,3 +2263,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Backup:** `/tmp/fix-2026-10-20/separation-of-creation-and-judgment.md`.
 - **Target:** `wiki/concepts/separation-of-creation-and-judgment.md`.
 - **Issue 1 (WARNING - Completeness):** Bổ sung ý thứ 5 vào `## Key ideas`: "Hoãn yêu cầu chứng minh giá trị: không đòi hỏi câu chữ hay ý tưởng ban đầu phải chứng minh ngay nó sẽ trở thành tác phẩm hoàn chỉnh...". Đạt chuẩn ≥5 ý chính theo format-spec.
+
+## 2026-10-20 21:02:38 +07:00 — Indexed
+- Scanned: 632 concepts + 223 sources = 855 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 274
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0

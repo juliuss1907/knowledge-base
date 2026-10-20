@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-10-19
+last_updated: 2026-10-20
 ---
 
 # Tag: #tools
 
 Auto-generated index of all content tagged with `#tools`.
 
-Last updated: 2026-10-19 21:03:22
+Last updated: 2026-10-20 21:02:38
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-19 21:03:22
 - Total files: 259
 - Sources: 60
 - Concepts: 199
-- Last updated: 2026-10-19
+- Last updated: 2026-10-20
 
 ## Files with this tag
 

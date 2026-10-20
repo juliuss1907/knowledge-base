@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: growth-mindset
 auto_generated: true
-last_updated: 2026-10-19
+last_updated: 2026-10-20
 ---
 
 # Topic: growth-mindset
 
 Auto-generated index of all content with topic `growth-mindset`.
 
-Last updated: 2026-10-19 21:03:22
+Last updated: 2026-10-20 21:02:38
 
 ---
 

@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: strategy
 auto_generated: true
-last_updated: 2026-10-19
+last_updated: 2026-10-20
 ---
 
 # Tag: #strategy
 
 Auto-generated index of all content tagged with `#strategy`.
 
-Last updated: 2026-10-19 21:03:22
+Last updated: 2026-10-20 21:02:38
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-19 21:03:22
 - Total files: 39
 - Sources: 12
 - Concepts: 27
-- Last updated: 2026-10-19
+- Last updated: 2026-10-20
 
 ## Files with this tag
 

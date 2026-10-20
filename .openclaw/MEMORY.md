@@ -2258,3 +2258,8 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 0
 - Errors: 0
 - Invalid tags flagged: 0
+
+## 2026-10-20 08:14 — Fix Agent applied Output Validation 2026-10-13 fix
+- **Backup:** `/tmp/fix-2026-10-20/separation-of-creation-and-judgment.md`.
+- **Target:** `wiki/concepts/separation-of-creation-and-judgment.md`.
+- **Issue 1 (WARNING - Completeness):** Bổ sung ý thứ 5 vào `## Key ideas`: "Hoãn yêu cầu chứng minh giá trị: không đòi hỏi câu chữ hay ý tưởng ban đầu phải chứng minh ngay nó sẽ trở thành tác phẩm hoàn chỉnh...". Đạt chuẩn ≥5 ý chính theo format-spec.

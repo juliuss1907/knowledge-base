@@ -1,5 +1,14 @@
 # Hermes — Memory Log
 
+## 2026-10-20 23:05:00 — Output validation
+
+- **Files checked:** 855 (223 sources + 632 concepts)
+- **New files:** 1 (0 sources + 1 concept)
+- **Issues found:** 0 (0 ERROR, 0 WARNING, 0 INFO)
+- **Report:** wiki/reviews/2026-10-20_output-report.md
+- **Carry-over:** ngưởi 0, double-i 0, spacing 0, capital-I 0, dropped-i 0 (streak 25) — all clean
+- **Summary:** Concept `separation-of-creation-and-judgment.md` bổ sung ý thứ 5 đóng WARNING 10-13, 100% khớp raw, 0 dropped-i, 0 CJK, Defect A/B/C = 0. Đề xuất PROMOTE.
+
 ## 2026-10-19 23:16:00 — Format validation
 
 - **Files checked:** 1163 (632 concepts + 223 sources + 34 indexes + 274 topics)

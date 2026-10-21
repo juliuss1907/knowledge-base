@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: model-vs-harness-adoption
 auto_generated: true
-last_updated: 2026-10-20
+last_updated: 2026-10-21
 ---
 
 # Topic: model-vs-harness-adoption
 
 Auto-generated index of all content with topic `model-vs-harness-adoption`.
 
-Last updated: 2026-10-20 21:02:38
+Last updated: 2026-10-21 21:02:54
 
 ---
 

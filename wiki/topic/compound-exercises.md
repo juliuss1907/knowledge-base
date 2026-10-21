@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: compound-exercises
 auto_generated: true
-last_updated: 2026-10-20
+last_updated: 2026-10-21
 ---
 
 # Topic: compound-exercises
 
 Auto-generated index of all content with topic `compound-exercises`.
 
-Last updated: 2026-10-20 21:02:38
+Last updated: 2026-10-21 21:02:54
 
 ---
 

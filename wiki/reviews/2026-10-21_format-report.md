@@ -12,7 +12,7 @@
 Files checked: 1163
 Total issues: 394
 
-Δ from 2026-10-20 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-20 → 10-21).** 1163→1163 files (**+0**), 394 issues giữ nguyên (**0E+394W+0I**). **375 cá nhân + 19 forward-reference groups = 394**; unique targets **267 flat** (ngày thứ 13 tại 267: 10-04, 10-10, 10-11, 10-12, 10-13, 10-14, 10-15, 10-16, 10-17, 10-18, 10-19, 10-20, 10-21). Top-20 targets giữ nguyên toàn bộ slug và count (hạng 19-20 đồng hạng 3 ref). **Tầng wiki:** 0 file wiki mới, 0 file cập nhật trong 24h (Output Validator 23:05 chạy [SILENT]). **Tầng raw tĩnh:** 0 raw mới ingested, backlog raw = 0 (`status: unprocessed` = 0). **Tầng index hoạt động:** Index rebuild lúc 21:03 hôm nay (commit `f5bea7da`, 299 file: 25 tag + 274 topic). **Git & backup:** 🟢 `vault backup` cron hoạt động trơn tru (nhiều commit tự động trong ngày), HEAD cục bộ khớp master (`fc223dba`).
+Δ from 2026-10-20 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-20 → 10-21).** 1163→1163 files (**+0**), 394 issues giữ nguyên (**0E+394W+0I**). **375 cá nhân + 19 forward-reference groups = 394**; unique targets **267 flat** (ngày thứ 13 tại 267: 10-04, 10-10, 10-11, 10-12, 10-13, 10-14, 10-15, 10-16, 10-17, 10-18, 10-19, 10-20, 10-21). Top-20 targets giữ nguyên toàn bộ slug và count (hạng 19-20 đồng hạng 3 ref). **Tầng wiki:** 0 file wiki mới, 0 file cập nhật trong 24h (Output Validator 23:05 chạy [SILENT]). **Tầng raw tĩnh:** 0 raw mới ingested, backlog raw = 0 (`status: unprocessed` = 0). **Tầng index hoạt động:** Index rebuild lúc 21:03 hôm nay (commit `f5bea7da`, 299 file: 25 tag + 274 topic). **Git & backup:** 🟢 `vault backup` cron hoạt động trơn tru (nhiều commit tự động trong ngày), commit `987a6d3f` (23:19:25) đã tự động commit report lên git.
 
 ---
 
@@ -51,7 +51,7 @@ Total issues: 394
 | Compile activity | `find wiki/concepts wiki/sources -newermt "2026-10-20 23:16"` | 0 file mới; 0 file cập nhật; Output Validator 23:05 chạy [SILENT] |
 | Index rebuild | `find wiki/topic wiki/tag -newermt "2026-10-21 00:00"` | **299** (274 topic + 25 tag) — mtime đồng loạt **21:03** hôm nay (commit `f5bea7da`) |
 | Raw layer | `grep -l 'status: unprocessed' raw/*/*.md` | **0** file — backlog raw = 0 |
-| Backup state | `git log -1 --oneline` | `fc223dba` (23:04:20) — backup cron chạy đều đặn liên tục, HEAD khớp remote master |
+| Backup state | `git log -1 --oneline` | `987a6d3f` (23:19:25) — backup cron chạy đều đặn liên tục, tự động commit format report |
 
 ---
 

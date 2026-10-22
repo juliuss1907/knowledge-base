@@ -11,7 +11,7 @@ last_updated: 2026-10-22
 
 Auto-generated index of all content with topic `uae-opec-exit-geopolitics`.
 
-Last updated: 2026-10-22 14:02:43
+Last updated: 2026-10-22 21:03:05
 
 ---
 

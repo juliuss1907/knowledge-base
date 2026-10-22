@@ -2,7 +2,7 @@
 type: index
 level: 3
 scope: tag
-parent: [[tag]]
+parent: "[[tag]]"
 tag: layer1
 auto_generated: true
 last_updated: 2026-10-22
@@ -12,7 +12,7 @@ last_updated: 2026-10-22
 
 Auto-generated index of all content tagged with `#layer1`.
 
-Last updated: 2026-10-22 14:02:43
+Last updated: 2026-10-22 21:03:05
 
 ---
 
@@ -29,10 +29,10 @@ Last updated: 2026-10-22 14:02:43
 
 ## Files with this tag
 
-- [[ai-lab-crypto-analogy]] — ai-lab-crypto-analogy (concept, main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics)
-- [[altcoin-frenzy-pattern]] — altcoin-frenzy-pattern (concept, main: #economic, sub: [#layer1, #opinion], topic: market-cycles)
-- [[infrastructure-capex-cycle]] — infrastructure-capex-cycle (concept, main: #economic, sub: [#layer1, #ai], topic: market-cycles)
-- [[src_l1-blockchain-ai-lab-comparison]] — src_l1-blockchain-ai-lab-comparison (source, main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics)
+- [[ai-lab-crypto-analogy]] — AI Lab Crypto Analogy (concept, main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics)
+- [[altcoin-frenzy-pattern]] — Altcoin Frenzy Pattern (concept, main: #economic, sub: [#layer1, #opinion], topic: market-cycles)
+- [[infrastructure-capex-cycle]] — Infrastructure Capex Cycle (concept, main: #economic, sub: [#layer1, #ai], topic: market-cycles)
+- [[src_l1-blockchain-ai-lab-comparison]] — The L1 Blockchain <> AI Lab Comparison (source, main: #ai, sub: [#opinion, #layer1], topic: ai-lab-valuation-dynamics)
 
 ## Co-occurring tags
 

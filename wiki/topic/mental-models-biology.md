@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-biology
 auto_generated: true
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 # Topic: mental-models-biology
 
 Auto-generated index of all content with topic `mental-models-biology`.
 
-Last updated: 2026-10-21 21:02:54
+Last updated: 2026-10-22 14:02:43
 
 ---
 
@@ -26,3 +26,8 @@ Last updated: 2026-10-21 21:02:54
 ## Sources (1)
 
 - [[src_farnam-street-mental-models-biology-series]] — main: #productivity, sub: [#research, #psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `mental-models-biology`:
+- None

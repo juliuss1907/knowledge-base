@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: identity-transformation
 auto_generated: true
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 # Topic: identity-transformation
 
 Auto-generated index of all content with topic `identity-transformation`.
 
-Last updated: 2026-10-21 21:02:54
+Last updated: 2026-10-22 14:02:43
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-10-21 21:02:54
 ## Sources (1)
 
 - [[src_just-let-go-cipheron]] — main: #health, sub: [#psychology, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `identity-transformation`:
+- None

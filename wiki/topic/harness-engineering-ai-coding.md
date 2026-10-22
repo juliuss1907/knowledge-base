@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: harness-engineering-ai-coding
 auto_generated: true
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 # Topic: harness-engineering-ai-coding
 
 Auto-generated index of all content with topic `harness-engineering-ai-coding`.
 
-Last updated: 2026-10-21 21:02:54
+Last updated: 2026-10-22 14:02:43
 
 ---
 
@@ -25,3 +25,8 @@ Last updated: 2026-10-21 21:02:54
 ## Sources (1)
 
 - [[src_harness-engineering-ai-coding]] — main: #ai, sub: [#coding, #tools]
+
+## Related topics
+
+Topics that share concepts/sources with `harness-engineering-ai-coding`:
+- None

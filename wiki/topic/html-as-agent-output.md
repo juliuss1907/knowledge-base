@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: html-as-agent-output
 auto_generated: true
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 # Topic: html-as-agent-output
 
 Auto-generated index of all content with topic `html-as-agent-output`.
 
-Last updated: 2026-10-21 21:02:54
+Last updated: 2026-10-22 14:02:43
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-10-21 21:02:54
 ## Sources (1)
 
 - [[src_unreasonable-effectiveness-of-html]] — main: #ai, sub: [#tools, #opinion, #coding]
+
+## Related topics
+
+Topics that share concepts/sources with `html-as-agent-output`:
+- None

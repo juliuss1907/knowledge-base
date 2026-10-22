@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: life-advice-20s
 auto_generated: true
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 # Topic: life-advice-20s
 
 Auto-generated index of all content with topic `life-advice-20s`.
 
-Last updated: 2026-10-21 21:02:54
+Last updated: 2026-10-22 14:02:43
 
 ---
 
@@ -25,3 +25,8 @@ Last updated: 2026-10-21 21:02:54
 
 - [[src_if-i-had-to-start-over-at-20-heres-what-id-do]] — main: #productivity, sub: [#psychology, #opinion]
 - [[src_im-57-if-youre-in-your-20s-please-watch-this]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `life-advice-20s`:
+- None

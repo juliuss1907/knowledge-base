@@ -4,17 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: agent-context-optimization
 auto_generated: true
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 # Topic: agent-context-optimization
 
 Auto-generated index of all content with topic `agent-context-optimization`.
 
-Last updated: 2026-10-21 21:02:54
+Last updated: 2026-10-22 14:02:43
 
 ---
 
 ## Concepts (1)
 
 - [[progressive-disclosure]] — main: #ai, sub: [#tools, #automation]
+
+## Sources (0)
+
+
+## Related topics
+
+Topics that share concepts/sources with `agent-context-optimization`:
+- None

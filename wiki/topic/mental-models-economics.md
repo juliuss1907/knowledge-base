@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-economics
 auto_generated: true
-last_updated: 2026-10-21
+last_updated: 2026-10-22
 ---
 
 # Topic: mental-models-economics
 
 Auto-generated index of all content with topic `mental-models-economics`.
 
-Last updated: 2026-10-21 21:02:54
+Last updated: 2026-10-22 14:02:43
 
 ---
 
@@ -24,3 +24,8 @@ Last updated: 2026-10-21 21:02:54
 ## Sources (1)
 
 - [[src_mental-models-of-economics]] — main: #economic, sub: [#research]
+
+## Related topics
+
+Topics that share concepts/sources with `mental-models-economics`:
+- None

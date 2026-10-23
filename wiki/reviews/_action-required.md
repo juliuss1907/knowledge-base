@@ -262,6 +262,25 @@
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
 
+### 🔍 Hygiene Inspection — 2026-10-23
+
+- **Report:** [wiki/reviews/2026-10-23_hygiene-report.md](2026-10-23_hygiene-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 21 nhóm (14 ERROR, 5 WARNING, 2 INFO) — trong đó 5 đã RESOLVED / SẠCH (E2, E4, E8, E9, E10) ⇒ 9 ERROR còn hiệu diện; 0 ERROR mới. Tồn đọng 28 tệp tracked trong agent home giữ nguyên. 4 ERROR máy + 5 nhóm ERROR agent home bị quy tắc miễn trừ che.
+- **Paths checked:** 1.740 tệp ổn định trong phạm vi KB (1.729 vùng nội dung + 11 tệp/symlink root) → 1.741 post-write + 74 thư mục + 99 tệp L1 agent home BIẾN ĐỘNG (77 `.hermes` + 22 `.openclaw`). Quét máy = 234.612 (prune mọi `.git`).
+- **🟢 New-debt trong vùng nội dung KB = 0:** 1.729 tệp nội dung (1.491 wiki + 231 raw + 2 context + 5 scripts) tuân thủ 100% naming và path whitelist.
+- **🟢 `vault backup` cron hoạt động liên tục:** 26 commit trong 24h (HEAD `8b816aaf` ahead 0/behind 0 vs GitHub `origin/master`). Backlog vùng nội dung = 0.
+- **🟢 E4 credential .openclaw/ duy trì sạch:** Toàn bộ credential đã untrack và bảo vệ bởi `.gitignore:122`.
+- **🟢 E9 tồn đọng nội dung = 0:** Toàn bộ file nội dung đã được commit.
+- **🟢 Tồn đọng runtime agent home:** Giữ nguyên 28 tệp tracked cần `git rm -r --cached`.
+- **🔴 2 marker `.migrated.*` còn tracked:** root marker + `.openclaw/` marker (cùng blob `a0105ac6...`, 69 B) — cần `git rm --cached` và thêm rule `*.migrated.*` vào `.gitignore`.
+- **🔴 3 writer ngoại vi tiếp tục ghi:** `DREAMS.md` tại root, `memory/` tại root (178 tệp/816 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`).
+- **⚠️ Cặp topic trùng nghĩa `cuoc-dua-khong-{di,i}-lui` tái tạo lần 18** do Index Agent rebuild lúc 21:01 (commit `9277943e`). Tiếp tục carry-forward, KHÔNG re-escalate `[SYSTEMATIC VIOLATION]`.
+- **Actions needed:**
+  1. Phê duyệt báo cáo vệ sinh 2026-10-23: `approve hygiene` hoặc `approve all report`.
+  2. Chuyển Fix Agent gỡ 28 tệp runtime agent home tracked + 2 marker `.migrated.*` (`git rm --cached`).
+  3. Sửa symlink `wiki/HEARTBEAT.md` trỏ về `../.openclaw/HEARTBEAT.md` và tái lập symlink root `HEARTBEAT.md`.
+
 ### 🔍 Format Validation — 2026-10-23
 
 - **Report:** [wiki/reviews/2026-10-23_format-report.md](2026-10-23_format-report.md)

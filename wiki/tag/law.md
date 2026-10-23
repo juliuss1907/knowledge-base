@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: law
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Tag: #law
 
 Auto-generated index of all content tagged with `#law`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -25,15 +25,15 @@ Last updated: 2026-10-22 21:03:05
 - Total files: 5
 - Sources: 2
 - Concepts: 3
-- Last updated: 2026-10-22
+- Last updated: 2026-10-23
 
 ## Files with this tag
 
 - [[agency-law]] — Agency Law (concept, main: #ai, sub: [#law, #research], topic: ai-legal-personhood)
-- [[ai-legal-personhood]] — AI Legal Personhood (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
-- [[src_aaron-wright-ai-agents-legal-body]] — The Agent's Legal Body: How AI Agents Get the Right to Contract (source, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
-- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cách nhanh nhất nộp hồ sơ bảo hiểm thất nghiệp (source, main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance)
-- [[zero-member-llc]] — Zero-Member LLC (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[ai-legal-personhood]] — Ai Legal Personhood (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cach Nhanh Nhat Nop Ho So Bao Hiem That Nghiep (source, main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance)
+- [[zero-member-llc]] — Zero Member Llc (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 
 ## Co-occurring tags
 

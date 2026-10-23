@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: news
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Tag: #news
 
 Auto-generated index of all content tagged with `#news`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -25,23 +25,23 @@ Last updated: 2026-10-22 21:03:05
 - Total files: 14
 - Sources: 5
 - Concepts: 9
-- Last updated: 2026-10-22
+- Last updated: 2026-10-23
 
 ## Files with this tag
 
-- [[attention-economy-vs-knowledge-economy]] — Attention Economy vs Knowledge Economy (concept, main: #ai, sub: [#opinion, #news], topic: journalism-ai-era)
+- [[attention-economy-vs-knowledge-economy]] — Attention Economy Vs Knowledge Economy (concept, main: #ai, sub: [#opinion, #news], topic: journalism-ai-era)
 - [[gemini-4-argon]] — Gemini 4 Argon (concept, main: #ai, sub: [#news, #research, #strategy], topic: gemini-4-argon)
-- [[google-ai-overviews]] — Google AI Overviews (concept, main: #tech, sub: [#tools, #news], topic: generative-ai-seo)
-- [[grok-hermes-integration]] — Grok-Hermes Integration (concept, main: #ai, sub: [#tools, #automation, #news], topic: hermes-xai-grok-integration)
+- [[google-ai-overviews]] — Google Ai Overviews (concept, main: #tech, sub: [#tools, #news], topic: generative-ai-seo)
+- [[grok-hermes-integration]] — Grok Hermes Integration (concept, main: #ai, sub: [#tools, #automation, #news], topic: hermes-xai-grok-integration)
 - [[rot-economy]] — Rot Economy (concept, main: #economic, sub: [#opinion, #news], topic: ai-business-criticism)
-- [[saudi-pakistan-defense-agreement]] — Saudi-Pakistan Defense Agreement (2025) (concept, main: #politic, sub: [#news, #opinion], topic: saudi-defense-diversification)
-- [[softbank-carry-trade]] — SoftBank Carry Trade (concept, main: #economic, sub: [#news, #defi], topic: ai-funding-dynamics)
-- [[src_11-minutes-hack-github]] — 11 minutes was all it took to hack github (source, main: #tech, sub: [#hack, #tools, #news], topic: github-supply-chain-attack-vs-code)
-- [[src_ai-will-destroy-world-economy]] — ai will destroy the world economy (source, main: #ai, sub: [#news, #opinion], topic: ai-economic-disruption-white-collar)
-- [[src_gemini-4-argon-explained-in-5min]] — Gemini 4 Argon explained in 5min (source, main: #ai, sub: [#news, #research, #strategy], topic: gemini-4-argon)
-- [[src_nha-bao-lam-gi]] — Nhà báo làm gì? (source, main: #ai, sub: [#opinion, #news], topic: journalism-ai-era)
-- [[src_the-new-comms-playbook-show-dont]] — The new comms playbook: show, don't promise (source, main: #crypto, sub: [#opinion, #news], topic: crypto-communications-playbook)
-- [[team-pcp-hacker-group]] — TeamPCP (Hacker Group) (concept, main: #tech, sub: [#hack, #news], topic: github-supply-chain-attack-vs-code)
+- [[saudi-pakistan-defense-agreement]] — Saudi Pakistan Defense Agreement (concept, main: #politic, sub: [#news, #opinion], topic: saudi-defense-diversification)
+- [[softbank-carry-trade]] — Softbank Carry Trade (concept, main: #economic, sub: [#news, #defi], topic: ai-funding-dynamics)
+- [[src_11-minutes-hack-github]] — 11 Minutes Hack Github (source, main: #tech, sub: [#hack, #tools, #news], topic: github-supply-chain-attack-vs-code)
+- [[src_ai-will-destroy-world-economy]] — Ai Will Destroy World Economy (source, main: #ai, sub: [#news, #opinion], topic: ai-economic-disruption-white-collar)
+- [[src_gemini-4-argon-explained-in-5min]] — Gemini 4 Argon Explained In 5Min (source, main: #ai, sub: [#news, #research, #strategy], topic: gemini-4-argon)
+- [[src_nha-bao-lam-gi]] — Nha Bao Lam Gi (source, main: #ai, sub: [#opinion, #news], topic: journalism-ai-era)
+- [[src_the-new-comms-playbook-show-dont]] — The New Comms Playbook Show Dont (source, main: #crypto, sub: [#opinion, #news], topic: crypto-communications-playbook)
+- [[team-pcp-hacker-group]] — Team Pcp Hacker Group (concept, main: #tech, sub: [#hack, #news], topic: github-supply-chain-attack-vs-code)
 - [[tokenmaxxing]] — Tokenmaxxing (concept, main: #ai, sub: [#opinion, #news], topic: ai-token-workforce)
 
 ## Co-occurring tags

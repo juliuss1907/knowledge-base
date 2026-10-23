@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: long-term-thinking
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: long-term-thinking
 
 Auto-generated index of all content with topic `long-term-thinking`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -23,8 +23,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_play-long-term-games-with-long-term-people]] — main: #productivity, sub: [#psychology, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `long-term-thinking`:
-- None

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: procrastination-nervous-system
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: procrastination-nervous-system
 
 Auto-generated index of all content with topic `procrastination-nervous-system`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -22,8 +22,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_why-you-never-start-its-not-about-motivation]] — main: #health, sub: [#psychology, #research]
-
-## Related topics
-
-Topics that share concepts/sources with `procrastination-nervous-system`:
-- None

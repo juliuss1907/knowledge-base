@@ -4,25 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: leverage-wealth
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: leverage-wealth
 
 Auto-generated index of all content with topic `leverage-wealth`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
-
-## Concepts (0)
-
 
 ## Sources (1)
 
 - [[src_3-ways-to-get-rich]] — main: #productivity, sub: [#strategy, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `leverage-wealth`:
-- None

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: gemini-4-argon
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: gemini-4-argon
 
 Auto-generated index of all content with topic `gemini-4-argon`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -22,8 +22,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_gemini-4-argon-explained-in-5min]] — main: #ai, sub: [#news, #research, #strategy]
-
-## Related topics
-
-Topics that share concepts/sources with `gemini-4-argon`:
-- None

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-art
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: mental-models-art
 
 Auto-generated index of all content with topic `mental-models-art`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -23,8 +23,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_mental-models-of-art]] — main: #productivity, sub: [#research, #psychology]
-
-## Related topics
-
-Topics that share concepts/sources with `mental-models-art`:
-- None

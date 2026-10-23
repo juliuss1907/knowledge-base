@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-personal-analyst-setup
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: hermes-personal-analyst-setup
 
 Auto-generated index of all content with topic `hermes-personal-analyst-setup`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -26,8 +26,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — main: #ai, sub: [#tools, #automation, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `hermes-personal-analyst-setup`:
-- None

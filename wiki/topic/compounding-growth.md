@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: compounding-growth
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: compounding-growth
 
 Auto-generated index of all content with topic `compounding-growth`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -28,8 +28,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_how-some-people-become-unrecognizable]] — main: #productivity, sub: [#opinion, #tools]
-
-## Related topics
-
-Topics that share concepts/sources with `compounding-growth`:
-- None

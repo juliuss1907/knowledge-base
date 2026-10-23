@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: system-design-concepts-2026
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: system-design-concepts-2026
 
 Auto-generated index of all content with topic `system-design-concepts-2026`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -22,8 +22,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_50-system-design-concepts-explained-simply]] — main: #tech, sub: [#tutorial, #research]
-
-## Related topics
-
-Topics that share concepts/sources with `system-design-concepts-2026`:
-- None

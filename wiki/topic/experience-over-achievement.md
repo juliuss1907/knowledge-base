@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: experience-over-achievement
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: experience-over-achievement
 
 Auto-generated index of all content with topic `experience-over-achievement`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -24,8 +24,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_everything-is-a-win-when-the-goal]] — main: #productivity, sub: [#psychology, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `experience-over-achievement`:
-- None

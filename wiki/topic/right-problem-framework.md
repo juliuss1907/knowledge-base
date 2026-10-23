@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: right-problem-framework
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: right-problem-framework
 
 Auto-generated index of all content with topic `right-problem-framework`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -22,8 +22,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_bai-toan-dung-la-gi-va-cach-giai]] — main: #productivity, sub: [#psychology, #system]
-
-## Related topics
-
-Topics that share concepts/sources with `right-problem-framework`:
-- None

@@ -4,25 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-architecture
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: ai-architecture
 
 Auto-generated index of all content with topic `ai-architecture`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
 ## Concepts (1)
 
 - [[seed-vs-machine-architecture]] — main: #ai, sub: [#system, #vibecode]
-
-## Sources (0)
-
-
-## Related topics
-
-Topics that share concepts/sources with `ai-architecture`:
-- None

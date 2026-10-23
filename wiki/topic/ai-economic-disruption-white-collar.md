@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-economic-disruption-white-collar
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: ai-economic-disruption-white-collar
 
 Auto-generated index of all content with topic `ai-economic-disruption-white-collar`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -23,8 +23,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_ai-will-destroy-world-economy]] — main: #ai, sub: [#news, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `ai-economic-disruption-white-collar`:
-- None

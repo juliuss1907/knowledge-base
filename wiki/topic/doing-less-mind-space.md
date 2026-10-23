@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: doing-less-mind-space
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: doing-less-mind-space
 
 Auto-generated index of all content with topic `doing-less-mind-space`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -23,8 +23,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_do-less]] — main: #productivity, sub: [#psychology, #health, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `doing-less-mind-space`:
-- None

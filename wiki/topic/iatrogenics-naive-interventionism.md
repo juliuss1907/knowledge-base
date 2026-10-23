@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: iatrogenics-naive-interventionism
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: iatrogenics-naive-interventionism
 
 Auto-generated index of all content with topic `iatrogenics-naive-interventionism`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -25,8 +25,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_iatrogenics-farnam-street]] — main: #system, sub: [#psychology, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `iatrogenics-naive-interventionism`:
-- None

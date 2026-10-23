@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: three-levels-of-thinking
 auto_generated: true
-last_updated: 2026-10-22
+last_updated: 2026-10-23
 ---
 
 # Topic: three-levels-of-thinking
 
 Auto-generated index of all content with topic `three-levels-of-thinking`.
 
-Last updated: 2026-10-22 21:03:05
+Last updated: 2026-10-23 21:01:23
 
 ---
 
@@ -23,8 +23,3 @@ Last updated: 2026-10-22 21:03:05
 ## Sources (1)
 
 - [[src_impossible-to-manipulate-dan-koe]] — main: #productivity, sub: [#psychology, #opinion]
-
-## Related topics
-
-Topics that share concepts/sources with `three-levels-of-thinking`:
-- None

@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: health
 auto_generated: true
-last_updated: 2026-10-23
+last_updated: 2026-10-24
 ---
 
 # Tag: #health
 
 Auto-generated index of all content tagged with `#health`.
 
-Last updated: 2026-10-23 21:01:23
+Last updated: 2026-10-24 21:02:11
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-23 21:01:23
 - Total files: 67
 - Sources: 16
 - Concepts: 51
-- Last updated: 2026-10-23
+- Last updated: 2026-10-24
 
 ## Files with this tag
 

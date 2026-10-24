@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-10-23
+last_updated: 2026-10-24
 ---
 
 # Tag: #psychology
 
 Auto-generated index of all content tagged with `#psychology`.
 
-Last updated: 2026-10-23 21:01:23
+Last updated: 2026-10-24 21:02:11
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-23 21:01:23
 - Total files: 350
 - Sources: 99
 - Concepts: 251
-- Last updated: 2026-10-23
+- Last updated: 2026-10-24
 
 ## Files with this tag
 

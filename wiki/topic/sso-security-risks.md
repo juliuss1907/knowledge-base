@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: sso-security-risks
 auto_generated: true
-last_updated: 2026-10-23
+last_updated: 2026-10-24
 ---
 
 # Topic: sso-security-risks
 
 Auto-generated index of all content with topic `sso-security-risks`.
 
-Last updated: 2026-10-23 21:01:23
+Last updated: 2026-10-24 21:02:11
 
 ---
 

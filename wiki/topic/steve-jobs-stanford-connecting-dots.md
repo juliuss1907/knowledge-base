@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: steve-jobs-stanford-connecting-dots
 auto_generated: true
-last_updated: 2026-10-23
+last_updated: 2026-10-24
 ---
 
 # Topic: steve-jobs-stanford-connecting-dots
 
 Auto-generated index of all content with topic `steve-jobs-stanford-connecting-dots`.
 
-Last updated: 2026-10-23 21:01:23
+Last updated: 2026-10-24 21:02:11
 
 ---
 

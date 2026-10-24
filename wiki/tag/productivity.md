@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-10-23
+last_updated: 2026-10-24
 ---
 
 # Tag: #productivity
 
 Auto-generated index of all content tagged with `#productivity`.
 
-Last updated: 2026-10-23 21:01:23
+Last updated: 2026-10-24 21:02:11
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-23 21:01:23
 - Total files: 339
 - Sources: 101
 - Concepts: 238
-- Last updated: 2026-10-23
+- Last updated: 2026-10-24
 
 ## Files with this tag
 

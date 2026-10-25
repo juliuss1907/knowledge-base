@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: market-psychology
 auto_generated: true
-last_updated: 2026-10-24
+last_updated: 2026-10-25
 ---
 
 # Topic: market-psychology
 
 Auto-generated index of all content with topic `market-psychology`.
 
-Last updated: 2026-10-24 21:02:11
+Last updated: 2026-10-25 21:02:29
 
 ---
 
 ## Concepts (1)
 
 - [[narrative-certainty-trap]] — main: #economic, sub: [#opinion, #psychology]
+
+## Sources (0)
+

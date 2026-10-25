@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: llm-consumption-modes
 auto_generated: true
-last_updated: 2026-10-24
+last_updated: 2026-10-25
 ---
 
 # Topic: llm-consumption-modes
 
 Auto-generated index of all content with topic `llm-consumption-modes`.
 
-Last updated: 2026-10-24 21:02:11
+Last updated: 2026-10-25 21:02:29
 
 ---
 
 ## Concepts (1)
 
 - [[llm-consumption-modes]] — main: #tech, sub: [#tools]
+
+## Sources (0)
+

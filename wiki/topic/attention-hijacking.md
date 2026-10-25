@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: attention-hijacking
 auto_generated: true
-last_updated: 2026-10-24
+last_updated: 2026-10-25
 ---
 
 # Topic: attention-hijacking
 
 Auto-generated index of all content with topic `attention-hijacking`.
 
-Last updated: 2026-10-24 21:02:11
+Last updated: 2026-10-25 21:02:29
 
 ---
 
 ## Concepts (1)
 
 - [[curiosity-hijacking]] — main: #health, sub: [#psychology]
+
+## Sources (0)
+

@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: goal-as-filter
 auto_generated: true
-last_updated: 2026-10-24
+last_updated: 2026-10-25
 ---
 
 # Topic: goal-as-filter
 
 Auto-generated index of all content with topic `goal-as-filter`.
 
-Last updated: 2026-10-24 21:02:11
+Last updated: 2026-10-25 21:02:29
 
 ---
 
 ## Concepts (1)
 
 - [[goal-as-filter]] — main: #productivity, sub: [#psychology]
+
+## Sources (0)
+

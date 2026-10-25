@@ -5,16 +5,10 @@ scope: tag
 parent: "[[tag]]"
 tag: coding
 auto_generated: true
-last_updated: 2026-10-24
+last_updated: 2026-10-25
 ---
 
 # Tag: #coding
-
-Auto-generated index of all content tagged with `#coding`.
-
-Last updated: 2026-10-24 21:02:11
-
----
 
 ## Parent
 
@@ -25,75 +19,74 @@ Last updated: 2026-10-24 21:02:11
 - Total files: 59
 - Sources: 19
 - Concepts: 40
-- Last updated: 2026-10-24
+- Last updated: 2026-10-25
 
 ## Files with this tag
 
-- [[agent-harness]] — Agent Harness (concept, main: #ai, sub: [#automation, #tools, #coding], topic: code-as-agent-harness)
-- [[agentic-coding]] — Agentic Coding (concept, main: #ai, sub: [#coding, #tools], topic: fable-finding-unknowns)
-- [[agentic-retrieval]] — Agentic Retrieval (concept, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
-- [[ai-engineering-skills]] — Ai Engineering Skills (concept, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
-- [[ai-frontend-design-guidance]] — Ai Frontend Design Guidance (concept, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
-- [[architecture-as-code]] — Architecture As Code (concept, main: #tech, sub: [#tools, #coding, #automation], topic: architecture-as-code)
-- [[behavioral-evals]] — Behavioral Evals (concept, main: #ai, sub: [#coding, #tools], topic: behavioral-evals-harness-engineering)
-- [[bpe-algorithm]] — Bpe Algorithm (concept, main: #ai, sub: [#research, #coding], topic: tokenization-llm)
-- [[byte-level-bpe]] — Byte Level Bpe (concept, main: #ai, sub: [#research, #coding], topic: tokenization-llm)
-- [[cached-compute-retrieval]] — Cached Compute Retrieval (concept, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
-- [[closed-form-springs]] — Closed Form Springs (concept, main: #tech, sub: [#coding, #research], topic: ai-motion-design-pipeline)
-- [[code-as-substrate]] — Code As Substrate (concept, main: #ai, sub: [#vibecode, #tools, #coding], topic: code-as-agent-harness)
-- [[code-visualization]] — Code Visualization (concept, main: #tech, sub: [#tools, #coding], topic: code-visualization)
-- [[code2video-render-loop]] — Code2Video Render Loop (concept, main: #ai, sub: [#coding, #tools, #system], topic: ai-motion-design-pipeline)
-- [[cognitive-surrender]] — Cognitive Surrender (concept, main: #ai, sub: [#automation, #coding, #psychology], topic: loop-engineering)
-- [[comprehension-debt]] — Comprehension Debt (concept, main: #ai, sub: [#automation, #coding], topic: loop-engineering)
-- [[context-engineering]] — Context Engineering (concept, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
-- [[coordinate-systems]] — Coordinate Systems (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
-- [[design-systems]] — Design Systems (concept, main: #tech, sub: [#tools, #coding], topic: design-systems)
-- [[frame-chaining-continuity]] — Frame Chaining Continuity (concept, main: #ai, sub: [#tools, #tutorial, #coding], topic: ai-animation-ads-workflow)
-- [[frontend-design-agent]] — Frontend Design Agent (concept, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
-- [[handoff-skill]] — Handoff Skill (concept, main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff)
-- [[harness-engineering]] — Harness Engineering (concept, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
-- [[html-as-agent-output-format]] — Html As Agent Output Format (concept, main: #ai, sub: [#tools, #opinion, #coding], topic: html-as-agent-output)
-- [[hybrid-retrieval]] — Hybrid Retrieval (concept, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
-- [[llm-judge-loop]] — Llm Judge Loop (concept, main: #ai, sub: [#automation, #coding, #strategy], topic: ai-ad-creative-system)
-- [[long-context-models]] — Long Context Models (concept, main: #ai, sub: [#research, #coding], topic: llm-capabilities)
-- [[loop-engineering]] — Loop Engineering (concept, main: #ai, sub: [#automation, #coding], topic: loop-engineering)
-- [[measurable-outcomes]] — Measurable Outcomes (concept, main: #productivity, sub: [#system, #coding], topic: measurable-outcomes)
-- [[multi-file-artifact-workflow]] — Multi File Artifact Workflow (concept, main: #ai, sub: [#coding, #tools], topic: html-as-agent-output)
-- [[plan-execute-verify-loop]] — Plan Execute Verify Loop (concept, main: #ai, sub: [#automation, #research, #coding], topic: code-as-agent-harness)
-- [[progressive-hardening]] — Progressive Hardening (concept, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
-- [[ralph-wiggum-loop]] — Ralph Wiggum Loop (concept, main: #ai, sub: [#automation, #coding], topic: loop-engineering)
-- [[scalar-multiplication]] — Scalar Multiplication (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
-- [[src_ai-eng-skills-map-building-deploying]] — Ai Eng Skills Map Building Deploying (source, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
-- [[src_ai-eng-skills-map-se-fundamentals]] — Ai Eng Skills Map Se Fundamentals (source, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
-- [[src_ai-engineering-skills-map]] — Ai Engineering Skills Map (source, main: #ai, sub: [#coding, #vibecode], topic: ai-engineering-skills)
-- [[src_ai-skills-map-building-deploying-ai-apps]] — Ai Skills Map Building Deploying Ai Apps (source, main: #ai, sub: [#coding, #research], topic: ai-engineering-skills)
-- [[src_archify]] — Archify (source, main: #tech, sub: [#tools, #coding, #automation], topic: architecture-as-code)
-- [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source, main: #ai, sub: [#research, #coding], topic: code-as-agent-harness)
-- [[src_field-guide-to-fable-finding-unknowns]] — Field Guide To Fable Finding Unknowns (source, main: #ai, sub: [#coding, #tools], topic: fable-finding-unknowns)
-- [[src_googletech-behavioral-evals-harness-engineering]] — Googletech Behavioral Evals Harness Engineering (source, main: #ai, sub: [#coding, #tools], topic: behavioral-evals-harness-engineering)
-- [[src_handoff-skill-context-window-management]] — Handoff Skill Context Window Management (source, main: #ai, sub: [#tools, #automation, #coding], topic: ai-coding-context-handoff)
-- [[src_harness-engineering-ai-coding]] — Harness Engineering Ai Coding (source, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
-- [[src_impeccable]] — Impeccable (source, main: #tech, sub: [#tools, #coding, #vibecode], topic: ai-frontend-design-guidance)
-- [[src_loop-engineering-14-step-roadmap]] — Loop Engineering 14 Step Roadmap (source, main: #ai, sub: [#automation, #coding, #tutorial], topic: loop-engineering)
-- [[src_motion-design-studio-with-opus-5-5]] — Motion Design Studio With Opus 5 5 (source, main: #ai, sub: [#coding, #tools, #tutorial], topic: ai-motion-design-pipeline)
-- [[src_rag-is-dead-kuba-turbopuffer]] — Rag Is Dead Kuba Turbopuffer (source, main: #ai, sub: [#tools, #research, #coding], topic: hybrid-retrieval-agentic-search)
-- [[src_tao-ket-qua-dinh-luong-duoc]] — Tao Ket Qua Dinh Luong Duoc (source, main: #productivity, sub: [#system, #coding], topic: measurable-outcomes)
-- [[src_threeui]] — Threeui (source, main: #tech, sub: [#tools, #coding], topic: ui-component-library)
-- [[src_unreasonable-effectiveness-of-html]] — Unreasonable Effectiveness Of Html (source, main: #ai, sub: [#tools, #opinion, #coding], topic: html-as-agent-output)
-- [[src_vectors-what-even-are-they-3b1b]] — Vectors What Even Are They 3B1B (source, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
-- [[src_youre-trained-for-world-that-no-longer-exists]] — Youre Trained For World That No Longer Exists (source, main: #ai, sub: [#opinion, #tutorial, #coding], topic: future-proof-skills)
-- [[three-enforcement-loops]] — Three Enforcement Loops (concept, main: #ai, sub: [#coding, #tools], topic: harness-engineering-ai-coding)
-- [[throwaway-editing-interface]] — Throwaway Editing Interface (concept, main: #ai, sub: [#tools, #coding], topic: html-as-agent-output)
-- [[transformer-architecture]] — Transformer Architecture (concept, main: #ai, sub: [#research, #coding], topic: attention-mechanism-foundation)
-- [[ui-component-library]] — Ui Component Library (concept, main: #tech, sub: [#tools, #coding], topic: ui-component-library)
-- [[vector-addition]] — Vector Addition (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
-- [[vectors]] — Vectors (concept, main: #ai, sub: [#tutorial, #research, #coding], topic: vectors-fundamentals)
+- [[agent-harness]] — Agent Harness (concept)
+- [[agentic-coding]] — Agentic Coding (concept)
+- [[agentic-retrieval]] — Agentic Retrieval (concept)
+- [[ai-engineering-skills]] — AI Engineering Skills (concept)
+- [[ai-frontend-design-guidance]] — AI Frontend Design Guidance (concept)
+- [[architecture-as-code]] — Architecture as Code (concept)
+- [[behavioral-evals]] — Behavioral Evals (concept)
+- [[bpe-algorithm]] — BPE Algorithm (concept)
+- [[byte-level-bpe]] — Byte-Level BPE (concept)
+- [[cached-compute-retrieval]] — Cached Compute (Retrieval) (concept)
+- [[closed-form-springs]] — Closed-Form Springs (concept)
+- [[code-as-substrate]] — Code as Substrate (concept)
+- [[code-visualization]] — Code Visualization (concept)
+- [[code2video-render-loop]] — Code2Video Render Loop (concept)
+- [[cognitive-surrender]] — Cognitive Surrender (concept)
+- [[comprehension-debt]] — Comprehension Debt (concept)
+- [[context-engineering]] — Context Engineering (concept)
+- [[coordinate-systems]] — Coordinate Systems (concept)
+- [[design-systems]] — Design Systems (concept)
+- [[frame-chaining-continuity]] — Frame Chaining for Scene Continuity (concept)
+- [[frontend-design-agent]] — Frontend Design Agent (concept)
+- [[handoff-skill]] — Handoff Skill (concept)
+- [[harness-engineering]] — Harness Engineering (concept)
+- [[html-as-agent-output-format]] — HTML as Agent Output Format (concept)
+- [[hybrid-retrieval]] — Hybrid Retrieval (concept)
+- [[llm-judge-loop]] — LLM Judge Loop (concept)
+- [[long-context-models]] — Long Context Models (concept)
+- [[loop-engineering]] — Loop Engineering (concept)
+- [[measurable-outcomes]] — Measurable Outcomes (Kết Quả Định Lượng Được) (concept)
+- [[multi-file-artifact-workflow]] — Multi-File Artifact Workflow (concept)
+- [[plan-execute-verify-loop]] — Plan-Execute-Verify Loop (concept)
+- [[progressive-hardening]] — Progressive Hardening (concept)
+- [[ralph-wiggum-loop]] — Ralph Wiggum Loop (concept)
+- [[scalar-multiplication]] — Scalar Multiplication (concept)
+- [[src_ai-eng-skills-map-building-deploying]] — The AI Engineering Skills Map In Detail — Building and Deploying AI Applications (source)
+- [[src_ai-eng-skills-map-se-fundamentals]] — The AI Engineering Skills Map In Detail — Software Engineering Fundamentals (source)
+- [[src_ai-engineering-skills-map]] — The AI Engineering Skills Map (source)
+- [[src_ai-skills-map-building-deploying-ai-apps]] — AI Engineering Skills Map: Building and Deploying AI Applications (source)
+- [[src_archify]] — Archify (source)
+- [[src_code-as-agent-harness-arxiv-2605-18747]] — Code as Agent Harness (source)
+- [[src_field-guide-to-fable-finding-unknowns]] — A Field Guide to Fable: Finding Your Unknowns (source)
+- [[src_googletech-behavioral-evals-harness-engineering]] — Behavioral Evaluations for Harness Engineering in Agentic Coding (source)
+- [[src_handoff-skill-context-window-management]] — Handoff Skill — Context Window Management for AI Coding Agents (source)
+- [[src_harness-engineering-ai-coding]] — Harness Engineering (source)
+- [[src_impeccable]] — Impeccable (source)
+- [[src_loop-engineering-14-step-roadmap]] — Loop Engineering: The 14-Step Roadmap from Prompter to Loop Designer (source)
+- [[src_motion-design-studio-with-opus-5-5]] — How to build motion design studio with Opus 5.5 (Full-course) (source)
+- [[src_rag-is-dead-kuba-turbopuffer]] — RAG is Dead — Kuba @ Turbopuffer (source)
+- [[src_tao-ket-qua-dinh-luong-duoc]] — Tạo "Kết Quả Định Lượng Được" — Cách Thực Hiện Cụ Thể (source)
+- [[src_threeui]] — ThreeUI Community (source)
+- [[src_unreasonable-effectiveness-of-html]] — Using Claude Code: The unreasonable effectiveness of HTML (source)
+- [[src_vectors-what-even-are-they-3b1b]] — Vectors, what even are they? — Linear Algebra Chapter 1 (source)
+- [[src_youre-trained-for-world-that-no-longer-exists]] — You're Being Trained for a World That No Longer Exists (Learn These 5 Skills) (source)
+- [[three-enforcement-loops]] — Three Enforcement Loops (concept)
+- [[throwaway-editing-interface]] — Throwaway Editing Interface (concept)
+- [[transformer-architecture]] — Transformer Architecture (concept)
+- [[ui-component-library]] — UI Component Library (concept)
+- [[vector-addition]] — Vector Addition (concept)
+- [[vectors]] — Vectors (concept)
 
 ## Co-occurring tags
 
-Tags that frequently appear with `#coding`:
-- `#ai` (47 files)
-- `#tools` (33 files)
-- `#research` (20 files)
-- `#automation` (12 files)
-- `#tech` (10 files)
+- [[ai]] — 47 co-occurrences
+- [[tools]] — 33 co-occurrences
+- [[research]] — 20 co-occurrences
+- [[automation]] — 12 co-occurrences
+- [[tech]] — 10 co-occurrences

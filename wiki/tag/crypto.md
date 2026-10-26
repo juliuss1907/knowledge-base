@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: crypto
 auto_generated: true
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 ---
 
 # Tag: #crypto
@@ -19,25 +19,25 @@ last_updated: 2026-10-25
 - Total files: 15
 - Sources: 4
 - Concepts: 11
-- Last updated: 2026-10-25
+- Last updated: 2026-10-26
 
 ## Files with this tag
 
 - [[agentic-commerce]] — Agentic Commerce (concept)
 - [[arcade-tokens]] — Arcade Tokens (concept)
 - [[autonomous-agents]] — Autonomous Agents (concept)
-- [[cookie-fun-mcp]] — Cookie.fun MCP (concept)
+- [[cookie-fun-mcp]] — Cookie Fun Mcp (concept)
 - [[machine-economy]] — Machine Economy (concept)
 - [[polymarket]] — Polymarket (concept)
 - [[prediction-market-dashboard]] — Prediction Market Dashboard (concept)
 - [[proof-stack]] — Proof Stack (concept)
 - [[show-me-era]] — Show Me Era (concept)
-- [[src_hermes-polymarket-btc-trading-agent]] — Hermes + Polymarket - how i built a self-learning BTC up/down trading agent 100$ → 5000$ ( guide ) (source)
-- [[src_is-there-anything-left-build-crypto-wintermute]] — Is there anything left to build in crypto? (source)
-- [[src_the-most-underrated-token-type]] — The most underrated token type (source)
-- [[src_the-new-comms-playbook-show-dont]] — The new comms playbook: show, don't promise (source)
+- [[src_hermes-polymarket-btc-trading-agent]] — Hermes Polymarket Btc Trading Agent (source)
+- [[src_is-there-anything-left-build-crypto-wintermute]] — Is There Anything Left Build Crypto Wintermute (source)
+- [[src_the-most-underrated-token-type]] — The Most Underrated Token Type (source)
+- [[src_the-new-comms-playbook-show-dont]] — The New Comms Playbook Show Dont (source)
 - [[token-economic-mechanics]] — Token Economic Mechanics (concept)
-- [[two-track-communications]] — Two-Track Communications (concept)
+- [[two-track-communications]] — Two Track Communications (concept)
 
 ## Co-occurring tags
 
@@ -45,4 +45,4 @@ last_updated: 2026-10-25
 - [[defi]] — 6 co-occurrences
 - [[opinion]] — 5 co-occurrences
 - [[ai]] — 4 co-occurrences
-- [[automation]] — 1 co-occurrence
+- [[tutorial]] — 1 co-occurrence

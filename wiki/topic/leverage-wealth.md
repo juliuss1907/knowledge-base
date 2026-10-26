@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: leverage-wealth
 auto_generated: true
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 ---
 
 # Topic: leverage-wealth
 
 Auto-generated index of all content with topic `leverage-wealth`.
 
-Last updated: 2026-10-25 21:02:29
+Last updated: 2026-10-26 21:01:03
 
 ---
 

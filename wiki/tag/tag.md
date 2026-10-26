@@ -5,14 +5,14 @@ scope: tags
 parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 ---
 
 # Tag Index
 
 Master index of all tags in the Knowledge Base.
 
-Last updated: 2026-10-25 21:02:29
+Last updated: 2026-10-26 21:01:03
 
 ---
 
@@ -28,22 +28,22 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 
 - Total tags: 24
 - Main tags: 9
-- Sub tags: 17
-- Most used: #psychology (350), #productivity (339), #research (301)
-- Last updated: 2026-10-25
+- Sub tags: 18
+- Most used: #psychology (350), #productivity (339), #research (303)
+- Last updated: 2026-10-26
 
 ## Items
 
 ### Main Tags (Pool A)
 
-- [[ai]] — AI / ML / LLM, agents, models, training, inference (as attribute)
+- [[ai]] — AI / ML / LLM, agents, models, training, inference
 - [[crypto]] — Blockchain, DeFi, tokens, exchanges, on-chain activity
 - [[economic]] — Macroeconomics, finance, markets, trading
 - [[health]] — Physical health, sleep, exercise, nutrition, biohacking
 - [[investment]] — Investment principles, portfolio management, asset allocation, risk management
 - [[politic]] — Policy, regulation, geopolitics
 - [[productivity]] — Workflows, methodologies, knowledge management, personal systems
-- [[system]] — System design, architecture, automation pipelines (as attribute)
+- [[system]] — System design, architecture, automation pipelines
 - [[tech]] — Software engineering, infrastructure, web, mobile, dev tooling
 
 ### Sub Tags (Pool B)
@@ -57,10 +57,8 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - [[health]] — Physical health, sleep, exercise, nutrition, biohacking
 - [[law]] — Legal frameworks, contracts, regulations, compliance
 - [[layer1]] — Base-layer blockchains
-- [[layer2]] — Scaling solutions, rollups, sidechains
 - [[news]] — Recent events, announcements, time-sensitive updates
 - [[opinion]] — Personal takes, editorials, commentary
-- [[perpdex]] — Perpetual exchanges, derivatives DEXs
 - [[psychology]] — Cognitive science, behavioral psychology, mental models, biases
 - [[research]] — Academic papers, deep analysis, primary sources
 - [[strategy]] — Strategic thinking, decision frameworks, competitive positioning, game theory

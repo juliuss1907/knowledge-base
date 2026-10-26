@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: seed-vs-machine-architecture
 auto_generated: true
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 ---
 
 # Topic: seed-vs-machine-architecture
 
 Auto-generated index of all content with topic `seed-vs-machine-architecture`.
 
-Last updated: 2026-10-25 21:02:29
+Last updated: 2026-10-26 21:01:03
 
 ---
 

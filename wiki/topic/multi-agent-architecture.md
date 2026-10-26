@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: multi-agent-architecture
 auto_generated: true
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 ---
 
 # Topic: multi-agent-architecture
 
 Auto-generated index of all content with topic `multi-agent-architecture`.
 
-Last updated: 2026-10-25 21:02:29
+Last updated: 2026-10-26 21:01:03
 
 ---
 

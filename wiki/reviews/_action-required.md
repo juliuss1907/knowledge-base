@@ -90,7 +90,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 31
+**Pending reports awaiting review:** 32
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch approved:** 7 reports (10-04, 10-10, 10-11) — approved 2026-10-12 by Julius
@@ -99,6 +99,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 10-26 | Format | 394W | Xem [wiki/reviews/2026-10-26_format-report.md](2026-10-26_format-report.md); Δ from 2026-10-25 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-25 → 10-26)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 18 tại 267). 0 wiki file mới trong 24h. 🟢 Vault backup cron hoạt động bình thường. |
 | 🔍 PENDING | 10-25 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-10-25_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.733 tệp tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (40 commit trong 24h, HEAD `99ed2ee0` ahead 1 vs remote `master`). Tồn đọng agent home: 28 tệp tracked (phục hồi +2 tệp do `kanban.db-shm/wal` được backup tự động). 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (186 tệp/180.4 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 cặp topic trùng `cuoc-dua-khong-{di,i}-lui` tái tạo lần 20 do Index rebuild 21:05. 1.744 tệp ổn định → 1.745 post-write + 74 thư mục. |
 | 🔍 PENDING | 10-25 | Format | 394W | Xem [wiki/reviews/2026-10-25_format-report.md](2026-10-25_format-report.md); Δ from 2026-10-24 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-24 → 10-25)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 17 tại 267). 0 wiki file mới trong 24h. 🟢 Vault backup cron hoạt động bình thường. |
 | 🔍 PENDING | 10-24 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-10-24_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.731 tệp tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (30 commit trong 24h, HEAD `0d0335b0` ahead 1 vs remote `master`). Tồn đọng agent home: 26 tệp tracked (giảm 2 tệp tạm thời do `kanban.db-shm/wal` bị xóa ở HEAD, chờ backup chu kỳ kế). 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (182 tệp/175.5 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 cặp topic trùng `cuoc-dua-khong-{di,i}-lui` tái tạo lần 19 do Index rebuild 21:02. 1.742 tệp ổn định → 1.743 post-write + 74 thư mục. |
@@ -275,6 +276,16 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-10-26
+
+- **Report:** [wiki/reviews/2026-10-26_format-report.md](2026-10-26_format-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 394 (0 ERROR, 394 WARNING, 0 INFO)
+- **Files checked:** 1163 (632 concepts + 223 sources + 34 indexes + 274 topics)
+- **Delta:** Δ from 2026-10-25 23:16:00 run (pending — prior run): **0 net change** (biến thể exact-zero-flat no-compilation-happened sau 24h). 1163→1163 files (+0), 394→394 issues (0E+394W). 375 cá nhân + 19 nhóm. Unique targets 267 flat (ngày thứ 18 tại 267).
+- **Summary:** Tầng wiki: 0 file wiki mới trong 24h (Output Validator 23:05 chạy [SILENT]). Tầng raw: backlog = 0 (`status: unprocessed` = 0). Tầng index: Index Agent rebuild lúc 21:02 hôm nay (commit `18fe850b`, 299 file: 25 tag + 274 topic). Toàn bộ 394 warning là forward-references kế thừa. 🟢 Vault backup cron chạy bình thường liên tục trong ngày (28 commit trong 24h).
+- **Actions:** Không có vi phạm format cần sửa ngay. Tiếp tục theo dõi backlog forward-ref.
 
 ### 🔍 Hygiene Inspection — 2026-10-25
 

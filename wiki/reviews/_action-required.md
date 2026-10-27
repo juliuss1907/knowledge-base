@@ -280,6 +280,16 @@
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
 
+### 🔍 Format Validation — 2026-10-27
+
+- **Report:** [wiki/reviews/2026-10-27_format-report.md](2026-10-27_format-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 394 (0 ERROR, 394 WARNING, 0 INFO)
+- **Files checked:** 1163 (632 concepts + 223 sources + 34 indexes + 274 topics)
+- **Delta:** Δ from 2026-10-26 23:16:00 run (pending — prior run): **0 net change** (biến thể exact-zero-flat no-compilation-happened sau 24h). 1163→1163 files (+0), 394→394 issues (0E+394W). 375 cá nhân + 19 nhóm. Unique targets 267 flat (ngày thứ 19 tại 267).
+- **Summary:** Tầng wiki: 0 file wiki mới trong 24h (Output Validator 23:05 chạy [SILENT]). Tầng raw: backlog = 0 (`status: unprocessed` = 0). Tầng index: Index Agent rebuild lúc 21:03 hôm nay (commit `0eac7633`, 299 file: 25 tag + 274 topic). Toàn bộ 394 warning là forward-references kế thừa. 🟢 Vault backup cron chạy bình thường liên tục trong ngày (32 commit trong 24h).
+- **Actions:** Không có vi phạm format cần sửa ngay. Tiếp tục theo dõi backlog forward-ref.
+
 ### 🔍 Format Validation — 2026-10-26
 
 - **Report:** [wiki/reviews/2026-10-26_format-report.md](2026-10-26_format-report.md)

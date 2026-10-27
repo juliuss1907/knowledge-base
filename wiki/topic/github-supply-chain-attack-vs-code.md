@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: github-supply-chain-attack-vs-code
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: github-supply-chain-attack-vs-code
 
 Auto-generated index of all content with topic `github-supply-chain-attack-vs-code`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
 

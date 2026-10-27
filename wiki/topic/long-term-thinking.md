@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: long-term-thinking
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: long-term-thinking
 
 Auto-generated index of all content with topic `long-term-thinking`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: game-theory-comeback
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: game-theory-comeback
 
 Auto-generated index of all content with topic `game-theory-comeback`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: prices-law
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: prices-law
 
 Auto-generated index of all content with topic `prices-law`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
 

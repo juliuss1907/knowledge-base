@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: let-them-theory-relationships
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: let-them-theory-relationships
 
 Auto-generated index of all content with topic `let-them-theory-relationships`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: loop-engineering
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: loop-engineering
 
 Auto-generated index of all content with topic `loop-engineering`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
 

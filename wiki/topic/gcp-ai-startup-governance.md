@@ -4,19 +4,16 @@ scope: topic
 parent: "[[topic]]"
 topic: gcp-ai-startup-governance
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: gcp-ai-startup-governance
 
 Auto-generated index of all content with topic `gcp-ai-startup-governance`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
-
-## Concepts (0)
-
 
 ## Sources (1)
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: doing-less-mind-space
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: doing-less-mind-space
 
 Auto-generated index of all content with topic `doing-less-mind-space`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
 

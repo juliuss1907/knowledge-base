@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: system-design-concepts-2026
 auto_generated: true
-last_updated: 2026-10-26
+last_updated: 2026-10-27
 ---
 
 # Topic: system-design-concepts-2026
 
 Auto-generated index of all content with topic `system-design-concepts-2026`.
 
-Last updated: 2026-10-26 21:01:03
+Last updated: 2026-10-27 21:01:33
 
 ---
 

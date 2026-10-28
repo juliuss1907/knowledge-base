@@ -4,7 +4,9 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
-**Last updated:** 2026-10-27 23:35 — Hygiene Inspection 10-27 thêm vào pending (**21 nhóm: 14 ERROR + 5 WARNING + 2 INFO** — tổng trong ngoặc khớp 21 mục thân). 1.747 tệp ổn định → 1.748 post-write + 74 thư mục. **🟢 `vault backup` cron hoạt động trơn tru** (32 commit trong 24h, HEAD `d0bee033` ahead 1 vs remote `master`). Tồn đọng agent home giảm từ 28 xuống 25 tệp tracked (commit `5c428364` đã dọn 3 tệp curator backups). 34 pending.
+**Last updated:** 2026-10-28 23:16 — Format Validation 10-28 thêm vào pending (**394 issues: 0 ERROR, 394 WARNING, 0 INFO**). 1163 files (632 concepts + 223 sources + 34 indexes + 274 topics). Δ vs 10-27 23:16 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-27 → 10-28)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 forward-reference groups = 394; unique targets 267 flat (ngày thứ 20 tại 267). 0 wiki file mới trong 24h. 🟢 Vault backup cron hoạt động bình thường (29 commit trong 24h). 35 pending.
+
+**Last updated (Hygiene 10-27 23:35):** Hygiene Inspection 10-27 thêm vào pending (**21 nhóm: 14 ERROR + 5 WARNING + 2 INFO** — tổng trong ngoặc khớp 21 mục thân). 1.747 tệp ổn định → 1.748 post-write + 74 thư mục. **🟢 `vault backup` cron hoạt động trơn tru** (32 commit trong 24h, HEAD `d0bee033` ahead 1 vs remote `master`). Tồn đọng agent home giảm từ 28 xuống 25 tệp tracked (commit `5c428364` đã dọn 3 tệp curator backups). 34 pending.
 
 **Last updated (Format 10-27 23:16):** Format Validation 10-27 thêm vào pending (**394 issues: 0 ERROR, 394 WARNING, 0 INFO**). 1163 files (632 concepts + 223 sources + 34 indexes + 274 topics). Δ vs 10-26 23:16 run: **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-26 → 10-27)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 forward-reference groups = 394; unique targets 267 flat (ngày thứ 19 tại 267). 0 wiki file mới trong 24h. 🟢 Vault backup cron hoạt động bình thường. 33 pending.
 
@@ -94,7 +96,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 34
+**Pending reports awaiting review:** 35
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch approved:** 7 reports (10-04, 10-10, 10-11) — approved 2026-10-12 by Julius
@@ -103,6 +105,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 10-28 | Format | 394W | Xem [wiki/reviews/2026-10-28_format-report.md](2026-10-28_format-report.md); Δ from 2026-10-27 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-27 → 10-28)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 20 tại 267). 0 wiki file mới trong 24h. 🟢 Vault backup cron hoạt động bình thường. |
 | 🔍 PENDING | 10-27 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-10-27_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.736 tệp tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (32 commit trong 24h, HEAD `d0bee033` ahead 1 vs remote `master`). Tồn đọng agent home giảm xuống 25 tệp tracked (commit `5c428364` dọn 3 tệp curator backups). 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (194 tệp/181.7 KB, +8 tệp 48h qua), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 22. 1.747 tệp ổn định → 1.748 post-write + 74 thư mục. |
 | 🔍 PENDING | 10-27 | Format | 394W | Xem [wiki/reviews/2026-10-27_format-report.md](2026-10-27_format-report.md); Δ from 2026-10-26 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-26 → 10-27)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 19 tại 267). 0 wiki file mới trong 24h. 🟢 Vault backup cron hoạt động bình thường. |
 | 🔍 PENDING | 10-26 | Format | 394W | Xem [wiki/reviews/2026-10-26_format-report.md](2026-10-26_format-report.md); Δ from 2026-10-25 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 10-25 → 10-26)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 18 tại 267). 0 wiki file mới trong 24h. 🟢 Vault backup cron hoạt động bình thường. |
@@ -282,6 +285,16 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-10-28
+
+- **Report:** [wiki/reviews/2026-10-28_format-report.md](2026-10-28_format-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 394 (0 ERROR, 394 WARNING, 0 INFO)
+- **Files checked:** 1163 (632 concepts + 223 sources + 34 indexes + 274 topics)
+- **Delta:** Δ from 2026-10-27 23:16:00 run (pending — prior run): **0 net change** (biến thể exact-zero-flat no-compilation-happened sau 24h). 1163→1163 files (+0), 394→394 issues (0E+394W). 375 cá nhân + 19 nhóm. Unique targets 267 flat (ngày thứ 20 tại 267).
+- **Summary:** Tầng wiki: 0 file wiki mới trong 24h (Output Validator 23:05 chạy [SILENT]). Tầng raw: backlog = 0 (`status: unprocessed` = 0). Tầng index: Index Agent rebuild lúc 21:04 hôm nay (commit `e0a9201d`, 299 file: 25 tag + 274 topic). Toàn bộ 394 warning là forward-references kế thừa. 🟢 Vault backup cron chạy bình thường liên tục trong ngày (29 commit trong 24h).
+- **Actions:** Không có vi phạm format cần sửa ngay. Tiếp tục theo dõi backlog forward-ref.
 
 ### 🔍 Hygiene Inspection — 2026-10-27
 

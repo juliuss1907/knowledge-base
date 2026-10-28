@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: three-levels-of-thinking
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Topic: three-levels-of-thinking
 
 Auto-generated index of all content with topic `three-levels-of-thinking`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 

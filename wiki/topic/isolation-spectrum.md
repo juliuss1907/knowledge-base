@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: isolation-spectrum
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Topic: isolation-spectrum
 
 Auto-generated index of all content with topic `isolation-spectrum`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: journalism-ai-era
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Topic: journalism-ai-era
 
 Auto-generated index of all content with topic `journalism-ai-era`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 

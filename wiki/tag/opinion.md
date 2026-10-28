@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Tag: #opinion
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-27 21:01:33
 - Total files: 284
 - Sources: 100
 - Concepts: 184
-- Last updated: 2026-10-27
+- Last updated: 2026-10-28
 
 ## Files with this tag
 

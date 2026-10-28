@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: crypto
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Tag: #crypto
 
 Auto-generated index of all content tagged with `#crypto`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-27 21:01:33
 - Total files: 15
 - Sources: 4
 - Concepts: 11
-- Last updated: 2026-10-27
+- Last updated: 2026-10-28
 
 ## Files with this tag
 

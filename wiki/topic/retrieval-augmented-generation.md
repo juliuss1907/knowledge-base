@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: retrieval-augmented-generation
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Topic: retrieval-augmented-generation
 
 Auto-generated index of all content with topic `retrieval-augmented-generation`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: independent-investment-research
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Topic: independent-investment-research
 
 Auto-generated index of all content with topic `independent-investment-research`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-reflexivity-2026
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Topic: ai-reflexivity-2026
 
 Auto-generated index of all content with topic `ai-reflexivity-2026`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 

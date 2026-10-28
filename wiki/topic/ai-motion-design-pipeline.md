@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-motion-design-pipeline
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Topic: ai-motion-design-pipeline
 
 Auto-generated index of all content with topic `ai-motion-design-pipeline`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 

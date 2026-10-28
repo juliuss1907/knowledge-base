@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-xai-grok-integration
 auto_generated: true
-last_updated: 2026-10-27
+last_updated: 2026-10-28
 ---
 
 # Topic: hermes-xai-grok-integration
 
 Auto-generated index of all content with topic `hermes-xai-grok-integration`.
 
-Last updated: 2026-10-27 21:01:33
+Last updated: 2026-10-28 21:04:17
 
 ---
 

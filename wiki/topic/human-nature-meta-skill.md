@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: human-nature-meta-skill
 auto_generated: true
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 ---
 
 # Topic: human-nature-meta-skill
 
 Auto-generated index of all content with topic `human-nature-meta-skill`.
 
-Last updated: 2026-10-28 21:04:17
+Last updated: 2026-10-29 21:05:33
 
 ---
 

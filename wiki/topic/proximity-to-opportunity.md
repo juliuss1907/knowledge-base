@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: proximity-to-opportunity
 auto_generated: true
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 ---
 
 # Topic: proximity-to-opportunity
 
 Auto-generated index of all content with topic `proximity-to-opportunity`.
 
-Last updated: 2026-10-28 21:04:17
+Last updated: 2026-10-29 21:05:33
 
 ---
 

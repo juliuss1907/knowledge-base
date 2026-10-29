@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: tech
 auto_generated: true
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 ---
 
 # Tag: #tech
 
 Auto-generated index of all content tagged with `#tech`.
 
-Last updated: 2026-10-28 21:04:17
+Last updated: 2026-10-29 21:05:33
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-28 21:04:17
 - Total files: 56
 - Sources: 14
 - Concepts: 42
-- Last updated: 2026-10-28
+- Last updated: 2026-10-29
 
 ## Files with this tag
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: cloud-cost-governance
 auto_generated: true
-last_updated: 2026-10-28
+last_updated: 2026-10-29
 ---
 
 # Topic: cloud-cost-governance
 
 Auto-generated index of all content with topic `cloud-cost-governance`.
 
-Last updated: 2026-10-28 21:04:17
+Last updated: 2026-10-29 21:05:33
 
 ---
 

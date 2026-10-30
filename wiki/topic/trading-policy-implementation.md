@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: trading-policy-implementation
 auto_generated: true
-last_updated: 2026-10-29
+last_updated: 2026-10-30
 ---
 
 # Topic: trading-policy-implementation
 
 Auto-generated index of all content with topic `trading-policy-implementation`.
 
-Last updated: 2026-10-29 21:05:33
+Last updated: 2026-10-30 21:01:34
 
 ---
 

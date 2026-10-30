@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: post-work-fatigue
 auto_generated: true
-last_updated: 2026-10-29
+last_updated: 2026-10-30
 ---
 
 # Topic: post-work-fatigue
 
 Auto-generated index of all content with topic `post-work-fatigue`.
 
-Last updated: 2026-10-29 21:05:33
+Last updated: 2026-10-30 21:01:34
 
 ---
 

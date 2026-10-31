@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: compounding-growth
 auto_generated: true
-last_updated: 2026-10-30
+last_updated: 2026-10-31
 ---
 
 # Topic: compounding-growth
 
 Auto-generated index of all content with topic `compounding-growth`.
 
-Last updated: 2026-10-30 21:01:34
+Last updated: 2026-10-31 21:02:00
 
 ---
 

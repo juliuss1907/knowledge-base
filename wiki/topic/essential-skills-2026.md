@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: essential-skills-2026
 auto_generated: true
-last_updated: 2026-10-30
+last_updated: 2026-10-31
 ---
 
 # Topic: essential-skills-2026
 
 Auto-generated index of all content with topic `essential-skills-2026`.
 
-Last updated: 2026-10-30 21:01:34
+Last updated: 2026-10-31 21:02:00
 
 ---
 

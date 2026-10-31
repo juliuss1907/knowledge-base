@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: news
 auto_generated: true
-last_updated: 2026-10-30
+last_updated: 2026-10-31
 ---
 
 # Tag: #news
 
 Auto-generated index of all content tagged with `#news`.
 
-Last updated: 2026-10-30 21:01:34
+Last updated: 2026-10-31 21:02:00
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-30 21:01:34
 - Total files: 14
 - Sources: 5
 - Concepts: 9
-- Last updated: 2026-10-30
+- Last updated: 2026-10-31
 
 ## Files with this tag
 

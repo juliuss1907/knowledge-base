@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: research
 auto_generated: true
-last_updated: 2026-10-30
+last_updated: 2026-10-31
 ---
 
 # Tag: #research
 
 Auto-generated index of all content tagged with `#research`.
 
-Last updated: 2026-10-30 21:01:34
+Last updated: 2026-10-31 21:02:00
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-10-30 21:01:34
 - Total files: 303
 - Sources: 75
 - Concepts: 228
-- Last updated: 2026-10-30
+- Last updated: 2026-10-31
 
 ## Files with this tag
 

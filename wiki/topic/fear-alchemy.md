@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: fear-alchemy
 auto_generated: true
-last_updated: 2026-10-30
+last_updated: 2026-10-31
 ---
 
 # Topic: fear-alchemy
 
 Auto-generated index of all content with topic `fear-alchemy`.
 
-Last updated: 2026-10-30 21:01:34
+Last updated: 2026-10-31 21:02:00
 
 ---
 

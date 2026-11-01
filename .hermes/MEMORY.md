@@ -1,5 +1,19 @@
 # Hermes — Memory Log
 
+## 2026-11-01 23:16:00 — Format validation
+
+- **Files checked:** 1163 (632 concepts + 223 sources + 34 indexes + 274 topics)
+Files checked: 1163
+- Issues found: 394 (0 ERROR, 394 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-11-01_format-report.md
+- Top violations: broken wikilinks (forward-refs) — 375 individual + 19 groups, 267 unique targets
+
+**0 net change vs 10-31 (394→394), variant raw-resumed / wiki-flat (chu kỳ 24h, 10-31 → 11-01).** 1163→1163 files (+0). Unique targets 267 flat (ngày thứ 24 tại 267).
+**Tầng wiki:** 0 file wiki mới, 0 file cập nhật trong 24h (Output Validator 23:05 chạy [SILENT]).
+**Tầng raw hoạt động trở lại:** 1 raw mới ingested lúc 21:08 (`raw/articles/2026-04-11_claude-best-practices-power-user-guide.md`, `status: unprocessed`). Compile Agent chưa chạy compile bài này.
+**Tầng index hoạt động:** Index rebuild 21:03 hôm nay (commit `43c9fc11`, 299 file: 25 tag + 274 topic).
+**Git & backup:** 🟢 Vault backup cron hoạt động trơn tru (12 commit trong 24h), HEAD `548932dd`.
+
 ## 2026-11-01 23:05:00 — Output validation
 
 - **Files checked:** 855 (223 sources + 632 concepts)

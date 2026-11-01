@@ -2370,3 +2370,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Orphans deleted: 0
 - Errors: 0
 - Invalid tags flagged: 0
+
+## 2026-11-01 21:07 — Ingested article <!-- project: github.com/juliuss1907/knowledge-base -->
+- Type: article
+- File: raw/articles/2026-04-11_claude-best-practices-power-user-guide.md
+- URL: https://www.the-ai-corner.com/p/claude-best-practices-power-user-guide-2026
+- Author: Ruben Dominguez
+- Title: How to use Claude like the top 1% of users
+- Status: unprocessed

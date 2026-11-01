@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: language-acquisition-method
 auto_generated: true
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 ---
 
 # Topic: language-acquisition-method
 
 Auto-generated index of all content with topic `language-acquisition-method`.
 
-Last updated: 2026-10-31 21:02:00
+Last updated: 2026-11-01 21:02:11
 
 ---
 

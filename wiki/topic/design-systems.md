@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: design-systems
 auto_generated: true
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 ---
 
 # Topic: design-systems
 
 Auto-generated index of all content with topic `design-systems`.
 
-Last updated: 2026-10-31 21:02:00
+Last updated: 2026-11-01 21:02:11
 
 ---
 
 ## Concepts (1)
 
 - [[design-systems]] — main: #tech, sub: [#tools, #coding]
+
+## Sources (0)
+

@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: geo-strategy
 auto_generated: true
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 ---
 
 # Topic: geo-strategy
 
 Auto-generated index of all content with topic `geo-strategy`.
 
-Last updated: 2026-10-31 21:02:00
+Last updated: 2026-11-01 21:02:11
 
 ---
 
 ## Concepts (1)
 
 - [[geo-strategy]] — main: #ai, sub: [#research, #tools]
+
+## Sources (0)
+

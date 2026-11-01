@@ -4,17 +4,20 @@ scope: topic
 parent: "[[topic]]"
 topic: task-reframing
 auto_generated: true
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 ---
 
 # Topic: task-reframing
 
 Auto-generated index of all content with topic `task-reframing`.
 
-Last updated: 2026-10-31 21:02:00
+Last updated: 2026-11-01 21:02:11
 
 ---
 
 ## Concepts (1)
 
 - [[cognitive-change]] — main: #health, sub: [#psychology, #strategy]
+
+## Sources (0)
+

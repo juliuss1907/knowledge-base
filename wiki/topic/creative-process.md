@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: creative-process
 auto_generated: true
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 ---
 
 # Topic: creative-process
 
 Auto-generated index of all content with topic `creative-process`.
 
-Last updated: 2026-10-31 21:02:00
+Last updated: 2026-11-01 21:02:11
 
 ---
 
@@ -19,3 +19,6 @@ Last updated: 2026-10-31 21:02:00
 
 - [[creative-overwhelm]] — main: #productivity, sub: [#psychology]
 - [[separation-of-creation-and-judgment]] — main: #productivity, sub: [#psychology]
+
+## Sources (0)
+

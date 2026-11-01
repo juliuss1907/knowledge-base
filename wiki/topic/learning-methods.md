@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: learning-methods
 auto_generated: true
-last_updated: 2026-10-31
+last_updated: 2026-11-01
 ---
 
 # Topic: learning-methods
 
 Auto-generated index of all content with topic `learning-methods`.
 
-Last updated: 2026-10-31 21:02:00
+Last updated: 2026-11-01 21:02:11
 
 ---
 
@@ -19,3 +19,6 @@ Last updated: 2026-10-31 21:02:00
 
 - [[retrieval-practice]] — main: #productivity, sub: [#psychology, #research]
 - [[spacing-effect]] — main: #productivity, sub: [#psychology, #research]
+
+## Sources (0)
+

@@ -1,5 +1,15 @@
 ---
 
+## 2026-11-02 08:00:00 — Compiled <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Raw:** raw/articles/2026-04-11_claude-best-practices-power-user-guide.md
+- **Source note:** wiki/sources/src_claude-best-practices-power-user-guide.md
+- **Concepts:** [socratic-prompting] (created), [claude-cowork] (created), [context-engineering] (merged), [context-window-management] (merged)
+- **Tags applied:** main=ai, sub=[productivity, tools, tutorial], topic=claude-power-user-system
+- **Action:** created 2 concepts, merged 2 concepts
+
+---
+
 ## 2026-10-13 08:00:00 — Compiled <!-- project: github.com/juliuss1907/knowledge-base -->
 
 - **Raw:** raw/articles/2026-07-29_how-i-stopped-feeling-overwhelmed.md

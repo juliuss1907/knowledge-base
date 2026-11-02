@@ -6,7 +6,8 @@ sub_tags: [coding, tools]
 topic: harness-engineering-ai-coding
 sources:
   - "[[src_harness-engineering-ai-coding]]"
-last_updated: 2026-09-12
+  - "[[src_claude-best-practices-power-user-guide]]"
+last_updated: 2026-11-02
 ---
 
 # Context Engineering
@@ -22,6 +23,8 @@ Context engineering là discipline đảm bảo AI coding assistant biết đủ
 - **Consequence of missing context:** Nếu AI không biết project dùng logging library nào, nó sẽ tự invent approach riêng. Nếu không biết team never use mutable global state, nó sẽ dùng khi convenient. Nếu không biết DB writes phải qua abstraction layer, nó sẽ bypass.
 - **Giảm vi phạm nhưng không eliminate:** Context engineering giảm architectural constraint violations vì AI có thêm thông tin. Tuy nhiên, AI là probabilistic system optimising cho plausibility, không phải rule-following machine — vi phạm vẫn xảy ra và cần enforcement mechanisms bổ sung.
 - **Accuracy và currency requirements:** Document cần accurate, specific, và được keep current. Nếu outdated thì worse than nothing — AI sẽ follow stale rules.
+- **Context là đòn bẩy lớn hơn prompt:** Năm 2026, đòn bẩy quan trọng chuyển từ tinh chỉnh câu từ đơn lẻ sang kiến trúc ngữ cảnh bao quanh tác vụ (hệ thống file danh tính, giọng văn, quy chuẩn cấm kỵ, ví dụ mẫu và bộ nhớ).
+- **Hệ thống tệp bối cảnh bền vững:** Sử dụng bộ file cốt lõi (about-me.md, voice-profile.md, anti-ai-writing-style.md) nạp tự động vào phiên làm việc giúp loại bỏ chi phí giải thích lại và tránh AI bắt đầu từ con số không.
 
 ## Related concepts
 
@@ -29,9 +32,13 @@ Context engineering là discipline đảm bảo AI coding assistant biết đủ
 - [[progressive-hardening]]
 - [[agentic-coding]]
 - [[agent-skill-management]]
+- [[socratic-prompting]]
+- [[claude-cowork]]
+- [[context-window-management]]
 
 ## Sources
 
 - [[src_harness-engineering-ai-coding]]
+- [[src_claude-best-practices-power-user-guide]]
 
 ## Notes

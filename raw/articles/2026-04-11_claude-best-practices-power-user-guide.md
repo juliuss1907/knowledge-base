@@ -5,7 +5,9 @@ url: https://www.the-ai-corner.com/p/claude-best-practices-power-user-guide-2026
 author: Ruben Dominguez
 date_published: 2026-04-11
 date_ingested: 2026-11-01
-status: unprocessed
+status: processed
+compiled_at: 2026-11-02
+compiled_to: "[[src_claude-best-practices-power-user-guide]]"
 source: the-ai-corner.com
 ---
 

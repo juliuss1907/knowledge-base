@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-11-01
+last_updated: 2026-11-02
 ---
 
 # Tag: #tutorial
@@ -16,10 +16,10 @@ last_updated: 2026-11-01
 
 ## Stats
 
-- Total files: 96
-- Sources: 40
-- Concepts: 56
-- Last updated: 2026-11-01
+- Total files: 98
+- Sources: 41
+- Concepts: 57
+- Last updated: 2026-11-02
 
 ## Files with this tag
 
@@ -67,6 +67,7 @@ last_updated: 2026-11-01
 - [[scalar-multiplication]] — Scalar Multiplication (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
+- [[socratic-prompting]] — Socratic Prompting (concept)
 - [[soul-md-configuration]] — Soul Md Configuration (concept)
 - [[speed-vs-velocity]] — Speed Vs Velocity (concept)
 - [[src_10-questions-for-your-startup-developers]] — 10 Questions For Your Startup Developers (source)
@@ -75,6 +76,7 @@ last_updated: 2026-11-01
 - [[src_ai-ui-design-8-ways-vibe-coded-apps]] — Ai Ui Design 8 Ways Vibe Coded Apps (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
 - [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cach Nhanh Nhat Nop Ho So Bao Hiem That Nghiep (source)
+- [[src_claude-best-practices-power-user-guide]] — Claude Best Practices Power User Guide (source)
 - [[src_compound-exercises-pareto-workouts]] — Compound Exercises Pareto Workouts (source)
 - [[src_critical-thinking-dennett]] — Critical Thinking Dennett (source)
 - [[src_daily-planning-routine-creativity-productivity]] — Daily Planning Routine Creativity Productivity (source)
@@ -122,8 +124,8 @@ last_updated: 2026-11-01
 
 ## Co-occurring tags
 
-- [[productivity]] — 40 co-occurrences
-- [[tools]] — 32 co-occurrences
-- [[ai]] — 28 co-occurrences
+- [[productivity]] — 42 co-occurrences
+- [[tools]] — 33 co-occurrences
+- [[ai]] — 30 co-occurrences
 - [[research]] — 24 co-occurrences
 - [[psychology]] — 21 co-occurrences

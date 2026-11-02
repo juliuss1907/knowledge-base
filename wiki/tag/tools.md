@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-11-01
+last_updated: 2026-11-02
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-11-01
 
 ## Stats
 
-- Total files: 259
-- Sources: 60
-- Concepts: 199
-- Last updated: 2026-11-01
+- Total files: 261
+- Sources: 61
+- Concepts: 200
+- Last updated: 2026-11-02
 
 ## Files with this tag
 
@@ -72,6 +72,7 @@ last_updated: 2026-11-01
 - [[character-change-signal]] — Character Change Signal (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
 - [[claude-code-routines]] — Claude Code Routines (concept)
+- [[claude-cowork]] — Claude Cowork (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
 - [[cloud-auth-hierarchy]] — Cloud Auth Hierarchy (concept)
 - [[cloud-cost-governance]] — Cloud Cost Governance (concept)
@@ -204,6 +205,7 @@ last_updated: 2026-11-01
 - [[src_anthropic-cybersecurity-skills]] — Anthropic Cybersecurity Skills (source)
 - [[src_archify]] — Archify (source)
 - [[src_build-ai-trading-agent-claude-code-alpaca]] — Build Ai Trading Agent Claude Code Alpaca (source)
+- [[src_claude-best-practices-power-user-guide]] — Claude Best Practices Power User Guide (source)
 - [[src_cuoc-ua-xem-ai-khong-i-lui-curiositypocket]] — Cuoc Ua Xem Ai Khong I Lui Curiositypocket (source)
 - [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
 - [[src_dont-sign-in-with-google]] — Dont Sign In With Google (source)
@@ -285,8 +287,8 @@ last_updated: 2026-11-01
 
 ## Co-occurring tags
 
-- [[ai]] — 157 co-occurrences
-- [[automation]] — 79 co-occurrences
+- [[ai]] — 159 co-occurrences
+- [[automation]] — 80 co-occurrences
 - [[research]] — 74 co-occurrences
 - [[tech]] — 45 co-occurrences
-- [[coding]] — 33 co-occurrences
+- [[tutorial]] — 33 co-occurrences

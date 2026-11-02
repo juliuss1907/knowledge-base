@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: systems-thinking-types
 auto_generated: true
-last_updated: 2026-11-01
+last_updated: 2026-11-02
 ---
 
 # Topic: systems-thinking-types
 
 Auto-generated index of all content with topic `systems-thinking-types`.
 
-Last updated: 2026-11-01 21:02:11
+Last updated: 2026-11-02 21:02:25
 
 ---
 

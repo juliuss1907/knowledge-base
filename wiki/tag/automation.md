@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-11-01
+last_updated: 2026-11-02
 ---
 
 # Tag: #automation
@@ -16,10 +16,10 @@ last_updated: 2026-11-01
 
 ## Stats
 
-- Total files: 112
+- Total files: 113
 - Sources: 25
-- Concepts: 87
-- Last updated: 2026-11-01
+- Concepts: 88
+- Last updated: 2026-11-02
 
 ## Files with this tag
 
@@ -44,6 +44,7 @@ last_updated: 2026-11-01
 - [[calibrated-decision-models]] — Calibrated Decision Models (concept)
 - [[catalysts]] — Catalysts (concept)
 - [[claude-code-routines]] — Claude Code Routines (concept)
+- [[claude-cowork]] — Claude Cowork (concept)
 - [[closed-loop-system]] — Closed Loop System (concept)
 - [[codified-taste]] — Codified Taste (concept)
 - [[cognitive-surrender]] — Cognitive Surrender (concept)
@@ -138,8 +139,8 @@ last_updated: 2026-11-01
 
 ## Co-occurring tags
 
-- [[tools]] — 79 co-occurrences
-- [[ai]] — 72 co-occurrences
+- [[tools]] — 80 co-occurrences
+- [[ai]] — 73 co-occurrences
 - [[productivity]] — 21 co-occurrences
 - [[tutorial]] — 19 co-occurrences
 - [[psychology]] — 13 co-occurrences

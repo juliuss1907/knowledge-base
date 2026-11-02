@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: dopamine-curiosity-reset
 auto_generated: true
-last_updated: 2026-11-01
+last_updated: 2026-11-02
 ---
 
 # Topic: dopamine-curiosity-reset
 
 Auto-generated index of all content with topic `dopamine-curiosity-reset`.
 
-Last updated: 2026-11-01 21:02:11
+Last updated: 2026-11-02 21:02:25
 
 ---
 

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: ai
 auto_generated: true
-last_updated: 2026-11-01
+last_updated: 2026-11-02
 ---
 
 # Tag: #ai
@@ -16,10 +16,10 @@ last_updated: 2026-11-01
 
 ## Stats
 
-- Total files: 251
-- Sources: 65
-- Concepts: 186
-- Last updated: 2026-11-01
+- Total files: 254
+- Sources: 66
+- Concepts: 188
+- Last updated: 2026-11-02
 
 ## Files with this tag
 
@@ -82,6 +82,7 @@ last_updated: 2026-11-01
 - [[calibrated-decision-models]] — Calibrated Decision Models (concept)
 - [[category-kings-dynamics]] — Category Kings Dynamics (concept)
 - [[claude-builder-role]] — Claude Builder Role (concept)
+- [[claude-cowork]] — Claude Cowork (concept)
 - [[coal-framework]] — Coal Framework (concept)
 - [[code-as-substrate]] — Code As Substrate (concept)
 - [[code2video-render-loop]] — Code2video Render Loop (concept)
@@ -188,6 +189,7 @@ last_updated: 2026-11-01
 - [[session-separation]] — Session Separation (concept)
 - [[six-stage-research-pipeline]] — Six Stage Research Pipeline (concept)
 - [[skill-atrophy]] — Skill Atrophy (concept)
+- [[socratic-prompting]] — Socratic Prompting (concept)
 - [[soul-md-configuration]] — Soul Md Configuration (concept)
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — 1 Month With Hermes Ive Been Using Wrong (source)
 - [[src_3-things-learnt-3-weeks-hermes-analyst]] — 3 Things Learnt 3 Weeks Hermes Analyst (source)
@@ -205,6 +207,7 @@ last_updated: 2026-11-01
 - [[src_anthropic-cybersecurity-skills]] — Anthropic Cybersecurity Skills (source)
 - [[src_atom-project-american-truly-open-models]] — Atom Project American Truly Open Models (source)
 - [[src_career-advice-age-of-ai-phil-chen]] — Career Advice Age Of Ai Phil Chen (source)
+- [[src_claude-best-practices-power-user-guide]] — Claude Best Practices Power User Guide (source)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
 - [[src_dan-koe-workflow-analysis-markus]] — Dan Koe Workflow Analysis Markus (source)
 - [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
@@ -277,8 +280,8 @@ last_updated: 2026-11-01
 
 ## Co-occurring tags
 
-- [[tools]] — 157 co-occurrences
+- [[tools]] — 159 co-occurrences
 - [[research]] — 111 co-occurrences
-- [[automation]] — 72 co-occurrences
+- [[automation]] — 73 co-occurrences
 - [[opinion]] — 55 co-occurrences
 - [[coding]] — 47 co-occurrences

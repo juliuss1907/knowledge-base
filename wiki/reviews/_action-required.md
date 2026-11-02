@@ -316,6 +316,18 @@
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
 
+### 🔍 Output Validation — 2026-11-02 (23:05)
+
+- **Report:** [wiki/reviews/2026-11-02_output-report.md](2026-11-02_output-report.md)
+- **Status:** pending
+- **Issues found:** **1 issue** — **0 ERROR + 1 WARNING + 0 INFO**.
+- **Files checked:** **858 files** (224 sources + 634 concepts). 5 files mới/cập nhật (1 source + 4 concepts).
+- **Summary:**
+  - **4/5 files đạt PROMOTE:** `src_claude-best-practices-power-user-guide.md` (10/10), `context-engineering.md` (10/10), `claude-cowork.md` (10/10), `context-window-management.md` (9/10).
+  - **1 file REVISE:** `socratic-prompting.md` (7/10) — WARNING (Completeness): `## Key ideas` có 4 mục (ngưỡng tối thiểu là 5).
+  - **Chất lượng:** 100% khớp raw source, 0 dropped-i (chuỗi 38 lượt liên tiếp sạch), 0 CJK ngoại lai, 100% wikilink mới giải quyết đúng, không phát sinh Defect A/B/C/D.
+- **Actions needed:** Kara bổ sung 1 ý cốt lõi từ nguồn `src_claude-best-practices-power-user-guide` vào `wiki/concepts/socratic-prompting.md` để nâng số key ideas từ 4 lên ≥5.
+
 ### 🔍 Hygiene Inspection — 2026-11-01
 
 - **Report:** [wiki/reviews/2026-11-01_hygiene-report.md](2026-11-01_hygiene-report.md)

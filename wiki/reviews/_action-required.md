@@ -4,11 +4,13 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
+**Last updated:** 2026-11-02 23:16:00 (Format 11-02 23:16): Format Validation 11-02 thêm vào pending (**396 issues: 2 ERROR, 394 WARNING, 0 INFO**). 1167 files (634 concepts + 224 sources + 34 indexes + 275 topics). Δ vs 11-01 23:16 run: **+2 net change, clean streak 0-ERROR kết thúc ở 18 ngày** (+4 files: 1163→1167). 2 ERROR (`sub_tags` chứa Pool A `productivity`), 394 WARNING (375 cá nhân + 19 nhóm). Unique targets **267 flat** (ngày thứ 25 tại 267). Kara compile 5 files (Output: 4 PROMOTE, 1 REVISE), Index rebuild 300 files. 🟢 Vault backup cron hoạt động tốt (15 commit trong 24h). 46 pending.
+
 **Last updated (Output 11-02 23:05):** Output Validation 11-02 thêm vào pending (**1 issue: 0 ERROR, 1 WARNING, 0 INFO**). 858 files (224 sources + 634 concepts). 5 files mới/cập nhật (1 source + 4 concepts). 1 WARNING: `socratic-prompting.md` có 4/5 key ideas. 4 files đạt PROMOTE. 0 dropped-i (chuỗi 38 lượt), 0 CJK ngoại lai. 45 pending.
 
 **Last updated (Hygiene 11-01 23:35):** Hygiene Inspection 11-01 thêm vào pending (**21 nhóm: 14 ERROR + 5 WARNING + 2 INFO** — tổng trong ngoặc khớp 21 mục thân). 1.758 tệp ổn định → 1.759 post-write + 74 thư mục. **🟢 `vault backup` cron hoạt động trơn tru** (13 commit trong 24h, HEAD `1565329f` ahead 1 vs remote `master`). Tồn đọng agent home giữ nguyên 25 tệp tracked. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (214 tệp/185.8 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 27. 44 pending.
 
-**Last updated:** 2026-11-01 23:16:00 (Format 11-01 23:16): Format Validation 11-01 thêm vào pending (**394 issues: 0 ERROR, 394 WARNING, 0 INFO**). 1163 files (632 concepts + 223 sources + 34 indexes + 274 topics). Δ vs 10-31 23:16 run (pending — prior run): **0 net change, biến thể raw-resumed / wiki-flat (chu kỳ 24h, 10-31 → 11-01)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 forward-reference groups = 394; unique targets 267 flat (ngày thứ 24 tại 267). 0 wiki file mới trong 24h. 1 raw mới (`raw/articles/2026-04-11_claude-best-practices-power-user-guide.md`, unprocessed). 🟢 Vault backup cron hoạt động bình thường (12 commit trong 24h). 43 pending.
+**Last updated (Format 11-01 23:16):** Format Validation 11-01 thêm vào pending (**394 issues: 0 ERROR, 394 WARNING, 0 INFO**). 1163 files (632 concepts + 223 sources + 34 indexes + 274 topics). Δ vs 10-31 23:16 run (pending — prior run): **0 net change, biến thể raw-resumed / wiki-flat (chu kỳ 24h, 10-31 → 11-01)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 forward-reference groups = 394; unique targets 267 flat (ngày thứ 24 tại 267). 0 wiki file mới trong 24h. 1 raw mới (`raw/articles/2026-04-11_claude-best-practices-power-user-guide.md`, unprocessed). 🟢 Vault backup cron hoạt động bình thường (12 commit trong 24h). 43 pending.
 
 **Last updated (Hygiene 10-31 23:35):** Hygiene Inspection 10-31 thêm vào pending (**21 nhóm: 14 ERROR + 5 WARNING + 2 INFO** — tổng trong ngoặc khớp 21 mục thân). 1.755 tệp ổn định → 1.756 post-write + 74 thư mục. **🟢 `vault backup` cron hoạt động trơn tru** (10 commit trong 24h, HEAD `4a6cbe81` in sync 100% vs remote `master`). Tồn đọng agent home giữ nguyên 25 tệp tracked. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (210 tệp/185.1 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 26. 42 pending.
 
@@ -116,7 +118,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 45
+**Pending reports awaiting review:** 46
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch approved:** 7 reports (10-04, 10-10, 10-11) — approved 2026-10-12 by Julius
@@ -125,6 +127,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-02 | Format | 396 (2E+394W) | Xem [wiki/reviews/2026-11-02_format-report.md](2026-11-02_format-report.md); Δ from 2026-11-01 23:16:00 run (pending — prior run): **+2 net change, clean streak 0-ERROR kết thúc** (+4 files: 1163→1167). 2 ERROR (`sub_tags` chứa Pool A `productivity`), 394 WARNING (375 cá nhân + 19 nhóm). Unique targets **267 flat** (ngày thứ 25 tại 267). Kara compile 5 files, Index rebuild 300 files. 🟢 Vault backup cron hoạt động tốt (15 commit). |
 | 🔍 PENDING | 11-02 | Output | 1 (0E+1W+0I) | [Báo cáo](2026-11-02_output-report.md): 858 files (224 sources + 634 concepts), 5 files mới/cập nhật (1 source + 4 concepts). 1 issue (0 ERROR, 1 WARNING, 0 INFO): `socratic-prompting.md` thiếu key ideas (4/5). 100% khớp raw, 0 dropped-i (chuỗi 38 lượt), 0 CJK ngoại lai, không Defect A/B/C/D. Đề xuất: 4 PROMOTE, 1 REVISE. |
 | 🔍 PENDING | 11-01 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-11-01_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.747 tệp tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (13 commit trong 24h, HEAD `1565329f` ahead 1 vs remote `master`). Tồn đọng agent home: 25 tệp tracked. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (214 tệp/185.8 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 27. 1.758 tệp ổn định → 1.759 post-write + 74 thư mục. |
 | 🔍 PENDING | 11-01 | Format | 394W | Xem [wiki/reviews/2026-11-01_format-report.md](2026-11-01_format-report.md); Δ from 2026-10-31 23:16:00 run (pending — prior run): **0 net change, biến thể raw-resumed / wiki-flat (chu kỳ 24h, 10-31 → 11-01)**. 1163→1163 files (+0), 394 issues giữ nguyên (0E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 24 tại 267). 0 wiki file mới trong 24h, 1 raw mới (`raw/articles/2026-04-11_claude-best-practices-power-user-guide.md`, unprocessed). 🟢 Vault backup cron hoạt động bình thường (12 commit trong 24h). |
@@ -315,6 +318,16 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-11-02
+
+- **Report:** [wiki/reviews/2026-11-02_format-report.md](2026-11-02_format-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 396 (2 ERROR, 394 WARNING, 0 INFO)
+- **Files checked:** 1167 (634 concepts + 224 sources + 34 indexes + 275 topics)
+- **Delta:** Δ from 2026-11-01 23:16:00 run (pending — prior run): **+2 net change** (+4 files: 1163→1167, 394→396 issues). Clean streak 0-ERROR kết thúc ở 18 ngày liên tiếp (10-15 → 11-01). 2 ERROR mới do vi phạm phân loại tag Pool A trong `sub_tags`. 394 WARNING (375 cá nhân + 19 nhóm). Unique targets **267 flat** (ngày thứ 25 tại 267).
+- **Summary:** Kara compile 5 files lúc 08:05 (1 source mới, 2 concept mới, 2 concept cập nhật; Output: 4 PROMOTE, 1 REVISE). Cả 4 file mới giải quyết 100% wikilink hợp lệ, 0 forward-ref mới. Tuy nhiên 2 file vi phạm format tag (`socratic-prompting.md` và `src_claude-best-practices-power-user-guide.md` đặt `productivity` vào `sub_tags`). Tầng raw: 0 unprocessed backlog. Tầng index: Index Agent rebuild 300 file (25 tag + 275 topic). 🟢 Vault backup cron hoạt động tốt (15 commit trong 24h).
+- **Actions:** Phê duyệt hoặc chuyển Fix Agent sửa frontmatter 2 file: loại bỏ `productivity` khỏi `sub_tags` hoặc thay thế bằng Pool B tag hợp lệ.
 
 ### 🔍 Output Validation — 2026-11-02 (23:05)
 

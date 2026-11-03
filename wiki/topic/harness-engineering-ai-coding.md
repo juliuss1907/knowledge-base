@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: harness-engineering-ai-coding
 auto_generated: true
-last_updated: 2026-11-02
+last_updated: 2026-11-03
 ---
 
 # Topic: harness-engineering-ai-coding
 
 Auto-generated index of all content with topic `harness-engineering-ai-coding`.
 
-Last updated: 2026-11-02 21:02:25
+Last updated: 2026-11-03 21:04:25
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-authorship-french-theory
 auto_generated: true
-last_updated: 2026-11-02
+last_updated: 2026-11-03
 ---
 
 # Topic: ai-authorship-french-theory
 
 Auto-generated index of all content with topic `ai-authorship-french-theory`.
 
-Last updated: 2026-11-02 21:02:25
+Last updated: 2026-11-03 21:04:25
 
 ---
 

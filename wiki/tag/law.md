@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: law
 auto_generated: true
-last_updated: 2026-11-02
+last_updated: 2026-11-03
 ---
 
 # Tag: #law
@@ -19,7 +19,7 @@ last_updated: 2026-11-02
 - Total files: 5
 - Sources: 2
 - Concepts: 3
-- Last updated: 2026-11-02
+- Last updated: 2026-11-03
 
 ## Files with this tag
 

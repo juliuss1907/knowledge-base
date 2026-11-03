@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: activation-energy-mental-model
 auto_generated: true
-last_updated: 2026-11-02
+last_updated: 2026-11-03
 ---
 
 # Topic: activation-energy-mental-model
 
 Auto-generated index of all content with topic `activation-energy-mental-model`.
 
-Last updated: 2026-11-02 21:02:25
+Last updated: 2026-11-03 21:04:24
 
 ---
 

@@ -83,7 +83,7 @@ fi
 #    entries). This replaces the old `tail -5 | grep SILENT` check, which
 #    (a) false-fails on the trailing blank line at EOF and
 #    (b) is wrong under top-insertion where the new entry is at the TOP.
-FIRST_HEADING=$(grep -n '^## ' "$M" | head -1 | cut -d: -f1)
+FIRST_HEADING=$(grep -m 1 -n '^## ' "$M" | cut -d: -f1)
 if [ -n "$THIS_LINE" ] && [ "$THIS_LINE" -le "$FIRST_HEADING" ] 2>/dev/null; then
   echo "[OK] New entry is the newest block (top-insertion intact)"
 else

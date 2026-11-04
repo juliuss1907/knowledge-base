@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: counterinsurgency-warfare
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Topic: counterinsurgency-warfare
 
 Auto-generated index of all content with topic `counterinsurgency-warfare`.
 
-Last updated: 2026-11-03 21:04:25
+Last updated: 2026-11-04 21:03:06
 
 ---
 

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Tag: #productivity
@@ -19,7 +19,7 @@ last_updated: 2026-11-03
 - Total files: 341
 - Sources: 102
 - Concepts: 239
-- Last updated: 2026-11-03
+- Last updated: 2026-11-04
 
 ## Files with this tag
 

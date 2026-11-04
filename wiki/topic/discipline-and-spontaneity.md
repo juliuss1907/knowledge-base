@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: discipline-and-spontaneity
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Topic: discipline-and-spontaneity
 
 Auto-generated index of all content with topic `discipline-and-spontaneity`.
 
-Last updated: 2026-11-03 21:04:25
+Last updated: 2026-11-04 21:03:06
 
 ---
 

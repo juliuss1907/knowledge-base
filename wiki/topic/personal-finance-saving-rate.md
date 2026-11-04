@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: personal-finance-saving-rate
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Topic: personal-finance-saving-rate
 
 Auto-generated index of all content with topic `personal-finance-saving-rate`.
 
-Last updated: 2026-11-03 21:04:25
+Last updated: 2026-11-04 21:03:06
 
 ---
 

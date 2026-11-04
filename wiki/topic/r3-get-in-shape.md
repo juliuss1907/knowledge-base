@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: r3-get-in-shape
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Topic: r3-get-in-shape
 
 Auto-generated index of all content with topic `r3-get-in-shape`.
 
-Last updated: 2026-11-03 21:04:25
+Last updated: 2026-11-04 21:03:06
 
 ---
 

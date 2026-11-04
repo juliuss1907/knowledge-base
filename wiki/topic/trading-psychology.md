@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: trading-psychology
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Topic: trading-psychology
 
 Auto-generated index of all content with topic `trading-psychology`.
 
-Last updated: 2026-11-03 21:04:25
+Last updated: 2026-11-04 21:03:06
 
 ---
 

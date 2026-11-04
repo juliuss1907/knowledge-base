@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: gemini-4-argon
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Topic: gemini-4-argon
 
 Auto-generated index of all content with topic `gemini-4-argon`.
 
-Last updated: 2026-11-03 21:04:25
+Last updated: 2026-11-04 21:03:06
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: overcoming-starting-friction
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Topic: overcoming-starting-friction
 
 Auto-generated index of all content with topic `overcoming-starting-friction`.
 
-Last updated: 2026-11-03 21:04:25
+Last updated: 2026-11-04 21:03:06
 
 ---
 

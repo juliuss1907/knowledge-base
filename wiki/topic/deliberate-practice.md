@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: deliberate-practice
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Topic: deliberate-practice
 
 Auto-generated index of all content with topic `deliberate-practice`.
 
-Last updated: 2026-11-03 21:04:25
+Last updated: 2026-11-04 21:03:06
 
 ---
 

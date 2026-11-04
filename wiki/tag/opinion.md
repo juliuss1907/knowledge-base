@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-11-03
+last_updated: 2026-11-04
 ---
 
 # Tag: #opinion
@@ -19,7 +19,7 @@ last_updated: 2026-11-03
 - Total files: 284
 - Sources: 100
 - Concepts: 184
-- Last updated: 2026-11-03
+- Last updated: 2026-11-04
 
 ## Files with this tag
 

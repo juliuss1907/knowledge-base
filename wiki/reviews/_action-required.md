@@ -137,6 +137,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-04 | Format | 396 (2E+394W) | Xem [wiki/reviews/2026-11-04_format-report.md](2026-11-04_format-report.md); Δ from 2026-11-03 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 11-03 → 11-04)**. 1167→1167 files (+0), 396 issues giữ nguyên (2E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 27 tại 267). 0 wiki file mới trong 24h, 0 raw mới. 🟢 Vault backup cron hoạt động tốt (13 commit trong 24h, HEAD `bc706a45`). |
 | 🔍 PENDING | 11-03 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-11-03_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.756 tệp tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (23 commit trong 24h, HEAD `450488c3` match 100% vs remote `master`). Tồn đọng agent home: 25 tệp tracked. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (222 tệp/188.1 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 29. 1.767 tệp ổn định → 1.768 post-write + 74 thư mục. |
 | 🔍 PENDING | 11-03 | Format | 396 (2E+394W) | Xem [wiki/reviews/2026-11-03_format-report.md](2026-11-03_format-report.md); Δ from 2026-11-02 23:16:00 run (approved — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 11-02 → 11-03)**. 1167→1167 files (+0), 396 issues giữ nguyên (2E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 26 tại 267). 0 wiki file mới trong 24h, 0 raw mới. 🟢 Vault backup cron hoạt động tốt (24 commit trong 24h). |
 | ✅ APPROVED | 11-02 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-11-02_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.754 tệp tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (15 commit trong 24h, HEAD `98837819` ahead 1 vs remote `master`). Tồn đọng agent home: 25 tệp tracked. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (218 tệp/187.1 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 28. 1.765 tệp ổn định → 1.766 post-write + 74 thư mục. |
@@ -331,6 +332,16 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-11-04
+
+- **Report:** [wiki/reviews/2026-11-04_format-report.md](2026-11-04_format-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 396 (2 ERROR, 394 WARNING, 0 INFO)
+- **Files checked:** 1167 (634 concepts + 224 sources + 34 indexes + 275 topics)
+- **Delta:** Δ from 2026-11-03 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 11-03 → 11-04)**. 1167→1167 files (+0), 396 issues giữ nguyên (2E+394W). 2 ERROR carry-over (`sub_tags` chứa Pool A `productivity`), 394 WARNING (375 cá nhân + 19 nhóm). Unique targets **267 flat** (ngày thứ 27 tại 267).
+- **Summary:** 0 wiki file mới biên soạn trong 24h qua (Kara nghỉ, Output Validator 23:05 chạy silent). 2 ERROR từ ngày 11-02 vẫn tồn tại (Julius đã duyệt batch 11-02 ngày 11-03, chờ Fix Agent cập nhật frontmatter). Tầng raw: 0 unprocessed backlog. Tầng index: Index Agent rebuild 300 file lúc 21:04 (25 tag + 275 topic). 🟢 Vault backup cron hoạt động tốt (13 commit trong 24h, HEAD `bc706a45`).
+- **Actions:** Chờ Fix Agent xử lý 2 ERROR frontmatter tag theo phê duyệt của Julius ngày 11-02.
 
 ### 🔍 Hygiene Inspection — 2026-11-03
 

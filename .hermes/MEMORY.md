@@ -1,5 +1,21 @@
 # Hermes — Memory Log
 
+## 2026-11-04 23:16:00 — Format validation
+
+- **Files checked:** 1167 (634 concepts + 224 sources + 34 indexes + 275 topics)
+Files checked: 1167
+- Issues found: 396 (2 ERROR, 394 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-11-04_format-report.md
+- Top violations: broken wikilinks (forward-refs) — 375 individual + 19 groups, 267 unique targets
+
+**0 net change vs 11-03 (396→396), variant exact-zero-flat no-compilation-happened (chu kỳ 24h, 11-03 → 11-04).** 1167→1167 files (+0).
+**ERROR:** 2 giữ nguyên (carry-over: `sub_tags` chứa Pool A `productivity` tại `socratic-prompting.md` và `src_claude-best-practices-power-user-guide.md`; chờ Fix Agent xử lý theo duyệt 11-02).
+**WARNING:** 394 giữ nguyên (375 cá nhân + 19 groups). Unique targets 267 flat (ngày thứ 27 tại 267).
+**Tầng wiki:** 0 file mới được biên soạn trong 24h qua (Output Validator 23:05 chạy silent).
+**Tầng raw:** 0 unprocessed backlog.
+**Tầng index:** Index rebuild 21:04 hôm nay (commit `c09fe0cf`, 300 file: 25 tag + 275 topic).
+**Git & backup:** 🟢 Vault backup cron hoạt động trơn tru (13 commit trong 24h), HEAD `bc706a45`.
+
 ## 2026-11-04 23:05:00 — Output validation
 
 - **Files checked:** 858 (224 sources + 634 concepts)

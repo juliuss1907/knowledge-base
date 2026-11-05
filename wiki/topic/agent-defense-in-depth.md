@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: agent-defense-in-depth
 auto_generated: true
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 ---
 
 # Topic: agent-defense-in-depth
 
 Auto-generated index of all content with topic `agent-defense-in-depth`.
 
-Last updated: 2026-11-04 21:03:06
+Last updated: 2026-11-05 21:00:47
 
 ---
 

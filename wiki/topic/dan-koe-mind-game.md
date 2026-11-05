@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: dan-koe-mind-game
 auto_generated: true
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 ---
 
 # Topic: dan-koe-mind-game
 
 Auto-generated index of all content with topic `dan-koe-mind-game`.
 
-Last updated: 2026-11-04 21:03:06
+Last updated: 2026-11-05 21:00:47
 
 ---
 

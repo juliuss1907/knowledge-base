@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: nervous-system-regulation
 auto_generated: true
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 ---
 
 # Topic: nervous-system-regulation
 
 Auto-generated index of all content with topic `nervous-system-regulation`.
 
-Last updated: 2026-11-04 21:03:06
+Last updated: 2026-11-05 21:00:47
 
 ---
 

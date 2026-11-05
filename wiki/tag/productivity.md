@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 ---
 
 # Tag: #productivity
@@ -16,10 +16,10 @@ last_updated: 2026-11-04
 
 ## Stats
 
-- Total files: 341
-- Sources: 102
-- Concepts: 239
-- Last updated: 2026-11-04
+- Total files: 339
+- Sources: 101
+- Concepts: 238
+- Last updated: 2026-11-05
 
 ## Files with this tag
 
@@ -234,7 +234,6 @@ last_updated: 2026-11-04
 - [[sleep-hygiene]] — Sleep Hygiene (concept)
 - [[small-bets-strategy]] — Small Bets Strategy (concept)
 - [[social-media-comparison-trap]] — Social Media Comparison Trap (concept)
-- [[socratic-prompting]] — Socratic Prompting (concept)
 - [[spacing-effect]] — Spacing Effect (concept)
 - [[speed-vs-velocity]] — Speed Vs Velocity (concept)
 - [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
@@ -250,7 +249,6 @@ last_updated: 2026-11-04
 - [[src_cach-thoat-khoi-prices-law]] — Cach Thoat Khoi Prices Law (source)
 - [[src_career-advice-age-of-ai-phil-chen]] — Career Advice Age Of Ai Phil Chen (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
-- [[src_claude-best-practices-power-user-guide]] — Claude Best Practices Power User Guide (source)
 - [[src_critical-thinking-dennett]] — Critical Thinking Dennett (source)
 - [[src_daily-planning-routine-creativity-productivity]] — Daily Planning Routine Creativity Productivity (source)
 - [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
@@ -368,7 +366,7 @@ last_updated: 2026-11-04
 ## Co-occurring tags
 
 - [[psychology]] — 245 co-occurrences
-- [[opinion]] — 131 co-occurrences
+- [[opinion]] — 130 co-occurrences
 - [[research]] — 88 co-occurrences
-- [[tutorial]] — 42 co-occurrences
+- [[tutorial]] — 40 co-occurrences
 - [[strategy]] — 27 co-occurrences

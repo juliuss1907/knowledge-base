@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: skill-tiers-framework
 auto_generated: true
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 ---
 
 # Topic: skill-tiers-framework
 
 Auto-generated index of all content with topic `skill-tiers-framework`.
 
-Last updated: 2026-11-04 21:03:06
+Last updated: 2026-11-05 21:00:47
 
 ---
 

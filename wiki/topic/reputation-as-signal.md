@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: reputation-as-signal
 auto_generated: true
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 ---
 
 # Topic: reputation-as-signal
 
 Auto-generated index of all content with topic `reputation-as-signal`.
 
-Last updated: 2026-11-04 21:03:06
+Last updated: 2026-11-05 21:00:47
 
 ---
 

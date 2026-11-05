@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: strategy
 auto_generated: true
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 ---
 
 # Tag: #strategy
@@ -19,7 +19,7 @@ last_updated: 2026-11-04
 - Total files: 39
 - Sources: 12
 - Concepts: 27
-- Last updated: 2026-11-04
+- Last updated: 2026-11-05
 
 ## Files with this tag
 
@@ -67,6 +67,6 @@ last_updated: 2026-11-04
 
 - [[productivity]] — 27 co-occurrences
 - [[psychology]] — 21 co-occurrences
-- [[opinion]] — 9 co-occurrences
 - [[ai]] — 9 co-occurrences
+- [[opinion]] — 9 co-occurrences
 - [[research]] — 6 co-occurrences

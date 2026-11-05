@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: crypto
 auto_generated: true
-last_updated: 2026-11-04
+last_updated: 2026-11-05
 ---
 
 # Tag: #crypto
@@ -19,7 +19,7 @@ last_updated: 2026-11-04
 - Total files: 15
 - Sources: 4
 - Concepts: 11
-- Last updated: 2026-11-04
+- Last updated: 2026-11-05
 
 ## Files with this tag
 

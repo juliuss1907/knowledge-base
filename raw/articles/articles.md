@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-08-25
+last_updated: 2026-11-06
 ---
 
 # Articles Index
@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 162 files
-- By status: 161 processed, 1 unprocessed
-- By date: 3 this week, 11 this month
-- Last updated: 2026-11-02
+- Total: 163 files
+- By status: 162 processed, 1 unprocessed
+- By date: 1 this week, 1 this month
+- Last updated: 2026-11-06
 ## Items
+- [[2026-11-04_cognitive-offloading-learning-ai]] — What happens to learning when AI does the thinking for us? by Alonso Daboub (unprocessed)
 - [[2026-04-11_claude-best-practices-power-user-guide]] — How to use Claude like the top 1% of users by Ruben Dominguez (processed)
 - [[2026-10-12_is-attention-the-essence-of-intelligence]] — Is 'Attention' the Essence of Intelligence? by Natalie Wolchover (processed)
 - [[2026-07-29_how-i-stopped-feeling-overwhelmed]] — how i stopped feeling overwhelmed by everything and started creating by ayushi thakkar (unprocessed)

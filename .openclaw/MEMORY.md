@@ -2424,3 +2424,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Orphans deleted:** 0 tag indexes + 0 topic indexes
 - **Invalid tags found:** 2 (sub_tag=productivity in socratic-prompting.md, src_claude-best-practices-power-user-guide.md)
 - **Errors:** 0 files skipped
+
+## 2026-11-06 16:12:00 — Ingested <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **File:** raw/articles/2026-11-04_cognitive-offloading-learning-ai.md
+- **Title:** What happens to learning when AI does the thinking for us?
+- **Source:** https://news.stanford.edu/stories/2026/11/cognitive-offloading-thinking-ai
+- **Note:** Cloudflare blocked curl/browser (Turnstile); full text fetched via r.jina.ai reader.

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: steve-jobs-stanford-connecting-dots
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: steve-jobs-stanford-connecting-dots
 
 Auto-generated index of all content with topic `steve-jobs-stanford-connecting-dots`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -23,3 +23,9 @@ Last updated: 2026-11-05 21:00:47
 ## Sources (1)
 
 - [[src_steve-jobs-stanford-2005-commencement]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `steve-jobs-stanford-connecting-dots`:
+
+_No overlapping topics._

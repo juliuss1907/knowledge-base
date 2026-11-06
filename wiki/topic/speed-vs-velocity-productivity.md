@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: speed-vs-velocity-productivity
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: speed-vs-velocity-productivity
 
 Auto-generated index of all content with topic `speed-vs-velocity-productivity`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -23,3 +23,9 @@ Last updated: 2026-11-05 21:00:47
 ## Sources (1)
 
 - [[src_speed-velocity]] — main: #productivity, sub: [#automation, #tutorial]
+
+## Related topics
+
+Topics that share concepts/sources with `speed-vs-velocity-productivity`:
+
+_No overlapping topics._

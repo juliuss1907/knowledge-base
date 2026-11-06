@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: research
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Tag: #research
@@ -16,10 +16,10 @@ last_updated: 2026-11-05
 
 ## Stats
 
-- Total files: 303
+- Total files: 301
 - Sources: 75
-- Concepts: 228
-- Last updated: 2026-11-05
+- Concepts: 226
+- Last updated: 2026-11-06
 
 ## Files with this tag
 
@@ -220,7 +220,6 @@ last_updated: 2026-11-05
 - [[second-derivative-thinking]] — Second Derivative Thinking (concept)
 - [[second-order-effects]] — Second Order Effects (concept)
 - [[self-reinforcing-systems]] — Self Reinforcing Systems (concept)
-- [[self-reinforcing-systems]] — Self Reinforcing Systems (concept)
 - [[semantic-memory]] — Semantic Memory (concept)
 - [[setting-mental-model]] — Setting Mental Model (concept)
 - [[sizing-policy-trading]] — Sizing Policy Trading (concept)
@@ -314,7 +313,6 @@ last_updated: 2026-11-05
 - [[technical-competence-paradox]] — Technical Competence Paradox (concept)
 - [[thermodynamics]] — Thermodynamics (concept)
 - [[tokenization]] — Tokenization (concept)
-- [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
 - [[transformer-architecture]] — Transformer Architecture (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)

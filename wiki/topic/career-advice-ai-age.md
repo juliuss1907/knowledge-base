@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: career-advice-ai-age
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: career-advice-ai-age
 
 Auto-generated index of all content with topic `career-advice-ai-age`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -26,3 +26,9 @@ Last updated: 2026-11-05 21:00:47
 
 - [[src_2026-advice]] — main: #productivity, sub: [#opinion, #psychology, #automation]
 - [[src_career-advice-age-of-ai-phil-chen]] — main: #productivity, sub: [#ai, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `career-advice-ai-age`:
+
+_No overlapping topics._

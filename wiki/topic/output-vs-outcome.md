@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: output-vs-outcome
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: output-vs-outcome
 
 Auto-generated index of all content with topic `output-vs-outcome`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -22,3 +22,9 @@ Last updated: 2026-11-05 21:00:47
 ## Sources (1)
 
 - [[src_output-vs-outcome-formula]] — main: #productivity, sub: [#system]
+
+## Related topics
+
+Topics that share concepts/sources with `output-vs-outcome`:
+
+_No overlapping topics._

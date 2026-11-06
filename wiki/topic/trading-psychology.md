@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: trading-psychology
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: trading-psychology
 
 Auto-generated index of all content with topic `trading-psychology`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -29,3 +29,9 @@ Last updated: 2026-11-05 21:00:47
 ## Sources (1)
 
 - [[src_trading-brain-chemistry-ferb]] — main: #economic, sub: [#opinion, #psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `trading-psychology`:
+
+_No overlapping topics._

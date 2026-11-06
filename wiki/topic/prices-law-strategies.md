@@ -4,20 +4,27 @@ scope: topic
 parent: "[[topic]]"
 topic: prices-law-strategies
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: prices-law-strategies
 
 Auto-generated index of all content with topic `prices-law-strategies`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
 ## Concepts (0)
 
+_No concepts._
 
 ## Sources (1)
 
 - [[src_cach-thoat-khoi-prices-law]] — main: #productivity, sub: [#psychology]
+
+## Related topics
+
+Topics that share concepts/sources with `prices-law-strategies`:
+
+_No overlapping topics._

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: open-models-us-china
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: open-models-us-china
 
 Auto-generated index of all content with topic `open-models-us-china`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -25,3 +25,9 @@ Last updated: 2026-11-05 21:00:47
 
 - [[src_atom-project-american-truly-open-models]] — main: #ai, sub: [#geopolitics, #research, #opinion]
 - [[src_interconnects-ai]] — main: #ai, sub: [#opinion, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `open-models-us-china`:
+
+_No overlapping topics._

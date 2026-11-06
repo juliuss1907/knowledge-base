@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Tag: #opinion
@@ -16,10 +16,10 @@ last_updated: 2026-11-05
 
 ## Stats
 
-- Total files: 284
+- Total files: 283
 - Sources: 100
-- Concepts: 184
-- Last updated: 2026-11-05
+- Concepts: 183
+- Last updated: 2026-11-06
 
 ## Files with this tag
 
@@ -50,7 +50,6 @@ last_updated: 2026-11-05
 - [[business-idiot-archetype]] — Business Idiot Archetype (concept)
 - [[busywork-vs-deep-work]] — Busywork Vs Deep Work (concept)
 - [[career-compounding]] — Career Compounding (concept)
-- [[casino-culture]] — Casino Culture (concept)
 - [[casino-culture]] — Casino Culture (concept)
 - [[category-kings-dynamics]] — Category Kings Dynamics (concept)
 - [[challenge-skills-balance]] — Challenge Skills Balance (concept)

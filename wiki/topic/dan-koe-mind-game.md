@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: dan-koe-mind-game
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: dan-koe-mind-game
 
 Auto-generated index of all content with topic `dan-koe-mind-game`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -28,3 +28,9 @@ Last updated: 2026-11-05 21:00:47
 
 - [[src_dan-koe-mind-game-practical-application]] — main: #productivity, sub: [#psychology, #automation]
 - [[src_life-is-a-mind-game-heres-how-you]] — main: #productivity, sub: [#psychology, #research]
+
+## Related topics
+
+Topics that share concepts/sources with `dan-koe-mind-game`:
+
+_No overlapping topics._

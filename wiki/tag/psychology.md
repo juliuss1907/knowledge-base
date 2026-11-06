@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Tag: #psychology
@@ -19,7 +19,7 @@ last_updated: 2026-11-05
 - Total files: 350
 - Sources: 99
 - Concepts: 251
-- Last updated: 2026-11-05
+- Last updated: 2026-11-06
 
 ## Files with this tag
 
@@ -380,4 +380,4 @@ last_updated: 2026-11-05
 - [[opinion]] — 123 co-occurrences
 - [[research]] — 77 co-occurrences
 - [[health]] — 57 co-occurrences
-- [[strategy]] — 21 co-occurrences
+- [[economic]] — 21 co-occurrences

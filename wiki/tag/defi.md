@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: defi
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Tag: #defi
@@ -19,7 +19,7 @@ last_updated: 2026-11-05
 - Total files: 7
 - Sources: 1
 - Concepts: 6
-- Last updated: 2026-11-05
+- Last updated: 2026-11-06
 
 ## Files with this tag
 
@@ -35,5 +35,5 @@ last_updated: 2026-11-05
 
 - [[crypto]] — 6 co-occurrences
 - [[tools]] — 6 co-occurrences
-- [[news]] — 1 co-occurrence
 - [[economic]] — 1 co-occurrence
+- [[news]] — 1 co-occurrence

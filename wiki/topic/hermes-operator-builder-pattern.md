@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-operator-builder-pattern
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: hermes-operator-builder-pattern
 
 Auto-generated index of all content with topic `hermes-operator-builder-pattern`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -26,3 +26,9 @@ Last updated: 2026-11-05 21:00:47
 ## Sources (1)
 
 - [[src_1-month-with-hermes-ive-been-using-wrong]] — main: #ai, sub: [#tools, #automation, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `hermes-operator-builder-pattern`:
+
+_No overlapping topics._

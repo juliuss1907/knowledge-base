@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: sso-security-risks
 auto_generated: true
-last_updated: 2026-11-05
+last_updated: 2026-11-06
 ---
 
 # Topic: sso-security-risks
 
 Auto-generated index of all content with topic `sso-security-risks`.
 
-Last updated: 2026-11-05 21:00:47
+Last updated: 2026-11-06 21:01:48
 
 ---
 
@@ -26,3 +26,9 @@ Last updated: 2026-11-05 21:00:47
 ## Sources (1)
 
 - [[src_dont-sign-in-with-google]] — main: #tech, sub: [#hack, #tools, #opinion]
+
+## Related topics
+
+Topics that share concepts/sources with `sso-security-risks`:
+
+_No overlapping topics._

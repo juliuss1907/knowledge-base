@@ -2431,3 +2431,14 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Title:** What happens to learning when AI does the thinking for us?
 - **Source:** https://news.stanford.edu/stories/2026/11/cognitive-offloading-thinking-ai
 - **Note:** Cloudflare blocked curl/browser (Turnstile); full text fetched via r.jina.ai reader.
+
+## 2026-11-06 21:01:48 — Indexed <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Mode:** Full rebuild (cron-requested)
+- **Scanned:** 634 concepts + 224 sources = 858 total files
+- **Tags indexed:** 24 (9 main-tags + 18 sub-tags in active use)
+- **Topics indexed:** 275
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 2 (sub_tag=productivity not in Pool B — wiki/concepts/socratic-prompting.md, wiki/sources/src_claude-best-practices-power-user-guide.md; both files still indexed under valid tags)
+- **Errors:** 0 files skipped
+- **tag.md:** Stats regenerated, Items list unchanged (all 24 tags already present)

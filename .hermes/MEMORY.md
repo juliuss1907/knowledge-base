@@ -1,5 +1,21 @@
 # Hermes — Memory Log
 
+## 2026-11-06 23:16:00 — Format validation
+
+- **Files checked:** 1167 (634 concepts + 224 sources + 34 indexes + 275 topics)
+Files checked: 1167
+- Issues found: 396 (2 ERROR, 394 WARNING, 0 INFO)
+- Report: wiki/reviews/2026-11-06_format-report.md
+- Top violations: broken wikilinks (forward-refs) — 375 individual + 19 groups, 267 unique targets
+
+**0 net change vs 11-05 (396→396), variant exact-zero-flat no-compilation-happened (chu kỳ 24h, 11-05 → 11-06).** 1167→1167 files (+0).
+**ERROR:** 2 giữ nguyên (carry-over: `sub_tags` chứa Pool A `productivity` tại `socratic-prompting.md` và `src_claude-best-practices-power-user-guide.md`; chờ Fix Agent xử lý theo duyệt 11-02).
+**WARNING:** 394 giữ nguyên (375 cá nhân + 19 groups). Unique targets 267 flat (ngày thứ 29 tại 267).
+**Tầng wiki:** 0 file mới được biên soạn trong 24h qua (Output Validator 23:00 chạy silent).
+**Tầng raw:** 1 unprocessed backlog mới (`raw/articles/2026-11-04_cognitive-offloading-learning-ai.md`, ingest 11-06 16:10).
+**Tầng index:** Index Agent rebuild lúc 21:01 (commit `847d9b2e`, tag + topic regenerate).
+**Git & backup:** 🟢 Vault backup cron hoạt động trơn tru (13 commit trong 24h), HEAD `bef7d22a`.
+
 ## 2026-11-05 23:16:00 — Format validation
 
 - **Files checked:** 1167 (634 concepts + 224 sources + 34 indexes + 275 topics)

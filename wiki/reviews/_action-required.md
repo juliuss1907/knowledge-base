@@ -4,6 +4,8 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
+**Last updated:** 2026-11-06
+
 **Last updated (Format 11-06 23:16):** 2026-11-06 23:16:00 (Format 11-06 23:16): Format Validation 11-06 thêm vào pending (**396 issues: 2 ERROR, 394 WARNING, 0 INFO**). 1167 files (634 concepts + 224 sources + 34 indexes + 275 topics). Δ vs 11-05 23:16 run: **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 11-05 → 11-06)**. 2 ERROR (chờ Fix Agent sửa theo phê duyệt 11-02), 394 WARNING (375 cá nhân + 19 nhóm). Unique targets **267 flat** (ngày thứ 29 tại 267). 0 wiki file mới trong 24h, Output chạy silent, Index rebuild 21:01. 🟢 Vault backup cron hoạt động tốt (13 commit trong 24h, HEAD `bef7d22a`). 51 pending.
 
 **Last updated:** 2026-11-05 23:35:00 (Hygiene 11-05 23:35): Hygiene Inspection 11-05 thêm vào pending (**21 nhóm: 14 ERROR + 5 WARNING + 2 INFO** — tổng trong ngoặc khớp 21 mục thân). 1.771 tệp ổn định → 1.772 post-write + 74 thư mục. **🟢 `vault backup` cron hoạt động trơn tru** (13 commit trong 24h, HEAD `c9e415dc` in sync 100% vs remote `master`). Tồn đọng agent home giữ nguyên 25 tệp tracked. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (230 tệp/190.4 KB, +4 tệp hôm nay do OpenClaw dreaming 11-05), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 31. 50 pending.
@@ -136,7 +138,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 50
+**Pending reports awaiting review:** 51
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch approved:** 3 reports (2026-11-02: Output, Format, Hygiene) — approved 2026-11-03 by Julius
@@ -344,6 +346,16 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-11-06
+
+- **Report:** [wiki/reviews/2026-11-06_format-report.md](2026-11-06_format-report.md)
+- **Status:** 🔍 PENDING approval
+- **Issues found:** 396 (2 ERROR, 394 WARNING, 0 INFO)
+- **Files checked:** 1167 (634 concepts + 224 sources + 34 indexes + 275 topics)
+- **Delta:** Δ from 2026-11-05 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 11-05 → 11-06)**. 1167→1167 files (+0), 396 issues giữ nguyên (2E+394W). 2 ERROR carry-over (`sub_tags` chứa Pool A `productivity`), 394 WARNING (375 cá nhân + 19 nhóm). Unique targets **267 flat** (ngày thứ 29 tại 267).
+- **Summary:** 0 wiki file mới biên soạn trong 24h qua (Kara nghỉ, Output Validator 23:00 chạy silent). 2 ERROR từ ngày 11-02 vẫn tồn tại (Julius đã duyệt batch 11-02 ngày 11-03, chờ Fix Agent cập nhật frontmatter). Tầng raw: 1 unprocessed backlog mới (`raw/articles/2026-11-04_cognitive-offloading-learning-ai.md`, ingest 11-06 16:10). Tầng index: Index Agent rebuild lúc 21:01 (commit `847d9b2e`). 🟢 Vault backup cron hoạt động tốt (13 commit trong 24h, HEAD `bef7d22a`).
+- **Actions:** Chờ Fix Agent xử lý 2 ERROR frontmatter tag theo phê duyệt của Julius ngày 11-02.
 
 ### 🔍 Hygiene Inspection — 2026-11-05
 

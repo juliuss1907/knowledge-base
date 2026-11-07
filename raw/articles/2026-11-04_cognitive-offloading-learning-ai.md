@@ -5,7 +5,9 @@ url: https://news.stanford.edu/stories/2026/11/cognitive-offloading-thinking-ai
 author: Alonso Daboub
 date_published: 2026-11-04
 date_ingested: 2026-11-06
-status: unprocessed
+status: processed
+compiled_at: 2026-11-07
+compiled_to: "[[src_cognitive-offloading-learning-ai]]"
 source: news.stanford.edu
 ---
 

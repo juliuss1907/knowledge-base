@@ -2442,3 +2442,12 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Invalid tags found:** 2 (sub_tag=productivity not in Pool B — wiki/concepts/socratic-prompting.md, wiki/sources/src_claude-best-practices-power-user-guide.md; both files still indexed under valid tags)
 - **Errors:** 0 files skipped
 - **tag.md:** Stats regenerated, Items list unchanged (all 24 tags already present)
+
+## 2026-11-07 08:05:00 — Compiled <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Raw:** raw/articles/2026-11-04_cognitive-offloading-learning-ai.md
+- **Source note:** wiki/sources/src_cognitive-offloading-learning-ai.md
+- **Concepts:** [cognitive-offloading, productive-struggle, transfer-of-learning, scaffolded-learning-tools]
+- **Tags applied:** main=#ai, sub=[#psychology, #research], topic=ai-cognitive-offloading-education
+- **Action:** created 4 concept files, 0 updated
+- **Note:** raw/articles/articles.md Stats/Items không cập nhật — ngoài write zone của cron compile (chờ Index Agent 21:00)

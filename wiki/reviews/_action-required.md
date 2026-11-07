@@ -4,6 +4,8 @@
 > Updated automatically after each validation run
 > Julius reviews this file to approve/reject fixes
 
+**Last updated:** 2026-11-07 — Connor manual re-run. 3 reports (Format, Output, Hygiene) added to pending. 53 pending.
+
 **Last updated:** 2026-11-06
 
 **Last updated (Hygiene 11-06 23:35):** 2026-11-06 23:35:00 (Hygiene 11-06 23:35): Hygiene Inspection 11-06 thêm vào pending (**21 nhóm: 14 ERROR + 5 WARNING + 2 INFO** — tổng trong ngoặc khớp 21 mục thân). 1.774 tệp ổn định → 1.775 post-write + 74 thư mục. **🟢 `vault backup` cron hoạt động trơn tru** (14 commit trong 24h, HEAD `d14453c4` in sync 100% vs remote `master`). **⚠️ Tồn đọng agent home TĂNG +1: 26 tệp tracked** (19 `config.yaml.bak.*` — tệp mới `config.yaml.bak.20261106_160532` được commit 16:06 bởi `vault backup` vì chưa có rule `.gitignore`; lần tăng đầu tiên sau 11 báo cáo ổn định ở 25). 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (234 tệp/191.1 KB, +4 tệp hôm nay do OpenClaw dreaming 11-06), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`); symlink root `HEARTBEAT.md` hiện vắng mặt. W4 topic trùng lần 32. 52 pending.
@@ -142,7 +144,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 50
+**Pending reports awaiting review:** 53
 
 <!-- hygiene-2026-09-17: 8 nhóm; máy 57 phát hiện; 1753 đường dẫn trong phạm vi -->
 **Last batch approved:** 2 reports (2026-11-05: Format, Hygiene) — approved 2026-11-07 by Julius
@@ -151,6 +153,9 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-07 | Format | 396 (2E 394W) | 2 ERROR: sub_tags Pool A. 394 WARNING: broken wikilinks. |
+| 🔍 PENDING | 11-07 | Output | 194 | 0 typo. 117 1-sentence def. 77 <5 key ideas. 5 new files. |
+| 🔍 PENDING | 11-07 | Hygiene | 4E 16W | 4 ERROR carry-forward (DREAMS.md, memory/, .migrated.*, HEARTBEAT). |
 | 🔍 PENDING | 11-06 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-11-06_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung Hygiene (1.763 tệp vùng nội dung tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (14 commit trong 24h, HEAD `d14453c4` in sync 100% vs remote `master`). **⚠️ Tồn đọng agent home TĂNG +1: 26 tệp tracked** (19 `config.yaml.bak.*` — tệp `.bak` mới được `vault backup` commit 16:06 hôm nay vì chưa có rule `.gitignore`; lần tăng đầu tiên sau 11 báo cáo ổn định ở 25 tệp). 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (234 tệp/191.1 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`); symlink root `HEARTBEAT.md` hiện vắng mặt. W4 topic trùng lần 32. 1.774 tệp ổn định → 1.775 post-write + 74 thư mục. |
 | 🔍 PENDING | 11-06 | Format | 396 (2E+394W) | Xem [wiki/reviews/2026-11-06_format-report.md](2026-11-06_format-report.md); Δ from 2026-11-05 23:16:00 run (pending — prior run): **0 net change, biến thể exact-zero-flat no-compilation-happened (chu kỳ 24h, 11-05 → 11-06)**. 1167→1167 files (+0), 396 issues giữ nguyên (2E+394W). 375 cá nhân + 19 nhóm = 394; unique targets **267 flat** (ngày thứ 29 tại 267). 0 wiki file mới trong 24h. 1 raw mới (`raw/articles/2026-11-04_cognitive-offloading-learning-ai.md`, unprocessed). 🟢 Vault backup cron hoạt động tốt (13 commit trong 24h, HEAD `bef7d22a`). |
 | ✅ APPROVED | 11-05 | Hygiene | 21 (14E+5W+2I) | [Báo cáo](2026-11-05_hygiene-report.md): 21 nhóm (14 ERROR + 5 WARNING + 2 INFO) — 0 new debt nội dung (1.760 tệp tuân thủ 100%). **🟢 `vault backup` cron hoạt động trơn tru** (13 commit trong 24h, HEAD `c9e415dc` in sync 100% vs remote `master`). Tồn đọng agent home: 25 tệp tracked. 2 marker `.migrated.*` còn tracked. 3 writer ngoại vi tiếp tục ghi: `DREAMS.md`, `memory/` (230 tệp/190.4 KB, +4 tệp hôm nay), `wiki/HEARTBEAT.md` dangling (`../../.openclaw/`). W4 topic trùng lần 31. 1.771 tệp ổn định → 1.772 post-write + 74 thư mục. |
@@ -351,6 +356,28 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-11-07
+
+- **Report:** 
+- **Status:** 🔍 PENDING approval
+- **Issues:** 396 (2 ERROR, 394 WARNING)
+- **Summary:** 2 ERROR:  +  có sub_tags chứa Pool A tag . 394 WARNING: broken wikilinks (forward-references, systemic). Δ vs 11-06: +5 files (1167→1172), issues 396 giữ nguyên.
+
+### 🔍 Output Validation — 2026-11-07
+
+- **Report:** 
+- **Status:** 🔍 PENDING approval
+- **Issues:** 194 (0 ERROR, 194 WARNING-level)
+- **Summary:** 0 typo (tất cả 4 loại). 5 file mới hôm nay. 117 1-sentence definitions, 77 concepts có <5 key ideas (carry-forward). 469 draft concepts.
+
+### 🔍 Hygiene Inspection — 2026-11-07
+
+- **Report:** 
+- **Status:** 🔍 PENDING approval
+- **Phạm vi:** 234,720 paths checked
+- **Issues:** 4 ERROR + 16 WARNING (20 nhóm)
+- **Summary:** 4 ERROR carry-forward: DREAMS.md root, memory/ root (recurring), .migrated.* marker, wiki/HEARTBEAT.md leak. 16 WARNING: memory/.dreams/session-corpus/ unclassified files.
 
 ### 🔍 Hygiene Inspection — 2026-11-06
 

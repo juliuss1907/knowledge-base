@@ -2,7 +2,7 @@
 type: source
 original: "[[2026-04-11_claude-best-practices-power-user-guide]]"
 main_tag: ai
-sub_tags: [productivity, tools, tutorial]
+sub_tags: [tools, tutorial]
 topic: claude-power-user-system
 date_compiled: 2026-11-02
 url: https://www.the-ai-corner.com/p/claude-best-practices-power-user-guide-2026

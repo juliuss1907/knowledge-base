@@ -2451,3 +2451,19 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Tags applied:** main=#ai, sub=[#psychology, #research], topic=ai-cognitive-offloading-education
 - **Action:** created 4 concept files, 0 updated
 - **Note:** raw/articles/articles.md Stats/Items không cập nhật — ngoài write zone của cron compile (chờ Index Agent 21:00)
+
+## 2026-11-08 08:37:00 — Applied fixes <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Report:** wiki/reviews/2026-11-07_format-report.md
+- **Issues fixed:** 2 (sub_tags contains Pool A tag `productivity`)
+- **Files modified:**
+  - `wiki/concepts/socratic-prompting.md` (sub_tags: [tutorial, psychology])
+  - `wiki/sources/src_claude-best-practices-power-user-guide.md` (sub_tags: [tools, tutorial])
+- **Backups created:** 2 in `/tmp/kb-backup-2026-11-08/`
+
+## 2026-11-08 08:39:00 — Ingested <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **File:** raw/websites/2026-11-08_eyesrhythm.md
+- **Title:** EyesRhythm — Blink rate detector for Mac and Windows
+- **Source:** https://eyesrhythm.com/
+- **Type:** website

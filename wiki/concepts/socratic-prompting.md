@@ -2,7 +2,7 @@
 type: concept
 status: draft
 main_tag: ai
-sub_tags: [productivity, tutorial]
+sub_tags: [tutorial, psychology]
 topic: claude-power-user-system
 sources:
   - "[[src_claude-best-practices-power-user-guide]]"

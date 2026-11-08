@@ -2474,3 +2474,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Title:** Let's Encrypt AI — A position paper on private AI
 - **Source:** https://letsencrypt.ai/
 - **Type:** website
+
+## 2026-11-08 09:22:00 — Ingested <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **File:** raw/articles/2026-11-07_what-happens-all-lights-go-out-black-sky.md
+- **Title:** What happens if all the lights go out? This is the plan for a 'Black Sky' event
+- **Source:** https://www.bbc.com/news/articles/ck5ynnj05z8no
+- **Type:** article

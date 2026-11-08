@@ -20,13 +20,14 @@ Website content and documentation pages.
 
 ## Stats
 
-- Total: 8 files
-- By status: 7 processed, 1 unprocessed
-- By date: 1 this week, 1 this month
+- Total: 9 files
+- By status: 7 processed, 2 unprocessed
+- By date: 2 this week, 2 this month
 - Last updated: 2026-11-08
 
 ## Items
 
+- [[2026-11-08_letsencrypt-ai]] — Let's Encrypt AI — A position paper on private AI (unprocessed)
 - [[2026-11-08_eyesrhythm]] — EyesRhythm — Blink rate detector for Mac and Windows (unprocessed)
 - [[2026-09-28_interconnects-ai]] — Interconnects AI by Nathan Lambert (processed)
 - [[2025-08-04_atom-project-american-truly-open-models]] — The ATOM Project — American Truly Open Models by Nathan Lambert (processed)

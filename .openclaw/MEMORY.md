@@ -2467,3 +2467,10 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Title:** EyesRhythm — Blink rate detector for Mac and Windows
 - **Source:** https://eyesrhythm.com/
 - **Type:** website
+
+## 2026-11-08 08:45:00 — Ingested <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **File:** raw/websites/2026-11-08_letsencrypt-ai.md
+- **Title:** Let's Encrypt AI — A position paper on private AI
+- **Source:** https://letsencrypt.ai/
+- **Type:** website

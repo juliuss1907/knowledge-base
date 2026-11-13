@@ -1,17 +1,16 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: machine-economy-crypto
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Topic: machine-economy-crypto
 
 Auto-generated index of all content with topic `machine-economy-crypto`.
 
-Last updated: 2026-11-06 21:01:48
+Last updated: 2026-11-13 21:08:20
 
 ---
 

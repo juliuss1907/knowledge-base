@@ -1,17 +1,16 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: charlie-munger-learning-method
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Topic: charlie-munger-learning-method
 
 Auto-generated index of all content with topic `charlie-munger-learning-method`.
 
-Last updated: 2026-11-06 21:01:48
+Last updated: 2026-11-13 21:08:20
 
 ---
 

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: ai
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Tag: #ai
@@ -16,10 +16,10 @@ last_updated: 2026-11-06
 
 ## Stats
 
-- Total files: 254
-- Sources: 66
-- Concepts: 188
-- Last updated: 2026-11-06
+- Total files: 259
+- Sources: 67
+- Concepts: 192
+- Last updated: 2026-11-13
 
 ## Files with this tag
 
@@ -86,6 +86,7 @@ last_updated: 2026-11-06
 - [[coal-framework]] — Coal Framework (concept)
 - [[code-as-substrate]] — Code As Substrate (concept)
 - [[code2video-render-loop]] — Code2video Render Loop (concept)
+- [[cognitive-offloading]] — Cognitive Offloading (concept)
 - [[cognitive-surrender]] — Cognitive Surrender (concept)
 - [[compact-vs-handoff]] — Compact Vs Handoff (concept)
 - [[comprehension-debt]] — Comprehension Debt (concept)
@@ -171,6 +172,7 @@ last_updated: 2026-11-06
 - [[problem-selection]] — Problem Selection (concept)
 - [[procedural-memory]] — Procedural Memory (concept)
 - [[product-vs-prototype]] — Product Vs Prototype (concept)
+- [[productive-struggle]] — Productive Struggle (concept)
 - [[progressive-disclosure]] — Progressive Disclosure (concept)
 - [[progressive-hardening]] — Progressive Hardening (concept)
 - [[prospective-memory]] — Prospective Memory (concept)
@@ -183,6 +185,7 @@ last_updated: 2026-11-06
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
 - [[reward-hacking]] — Reward Hacking (concept)
 - [[reward-seeking]] — Reward Seeking (concept)
+- [[scaffolded-learning-tools]] — Scaffolded Learning Tools (concept)
 - [[scalar-multiplication]] — Scalar Multiplication (concept)
 - [[seed-vs-machine-architecture]] — Seed Vs Machine Architecture (concept)
 - [[semantic-memory]] — Semantic Memory (concept)
@@ -209,6 +212,7 @@ last_updated: 2026-11-06
 - [[src_career-advice-age-of-ai-phil-chen]] — Career Advice Age Of Ai Phil Chen (source)
 - [[src_claude-best-practices-power-user-guide]] — Claude Best Practices Power User Guide (source)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
+- [[src_cognitive-offloading-learning-ai]] — Cognitive Offloading Learning Ai (source)
 - [[src_dan-koe-workflow-analysis-markus]] — Dan Koe Workflow Analysis Markus (source)
 - [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
 - [[src_field-guide-to-fable-finding-unknowns]] — Field Guide To Fable Finding Unknowns (source)
@@ -264,6 +268,7 @@ last_updated: 2026-11-06
 - [[token-looping]] — Token Looping (concept)
 - [[tokenization]] — Tokenization (concept)
 - [[tokenmaxxing]] — Tokenmaxxing (concept)
+- [[transfer-of-learning]] — Transfer Of Learning (concept)
 - [[transformer-architecture]] — Transformer Architecture (concept)
 - [[two-speed-agent-loop]] — Two Speed Agent Loop (concept)
 - [[user-md-configuration]] — User Md Configuration (concept)
@@ -280,8 +285,8 @@ last_updated: 2026-11-06
 
 ## Co-occurring tags
 
-- [[tools]] — 159 co-occurrences
-- [[research]] — 111 co-occurrences
+- [[tools]] — 160 co-occurrences
+- [[research]] — 115 co-occurrences
 - [[automation]] — 73 co-occurrences
 - [[opinion]] — 55 co-occurrences
 - [[coding]] — 47 co-occurrences

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: geopolitics
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Tag: #geopolitics
@@ -19,7 +19,7 @@ last_updated: 2026-11-06
 - Total files: 10
 - Sources: 3
 - Concepts: 7
-- Last updated: 2026-11-06
+- Last updated: 2026-11-13
 
 ## Files with this tag
 

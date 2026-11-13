@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: system
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Tag: #system
@@ -19,7 +19,7 @@ last_updated: 2026-11-06
 - Total files: 57
 - Sources: 10
 - Concepts: 47
-- Last updated: 2026-11-06
+- Last updated: 2026-11-13
 
 ## Files with this tag
 

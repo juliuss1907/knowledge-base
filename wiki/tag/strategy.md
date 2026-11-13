@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: strategy
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Tag: #strategy
@@ -19,7 +19,7 @@ last_updated: 2026-11-06
 - Total files: 39
 - Sources: 12
 - Concepts: 27
-- Last updated: 2026-11-06
+- Last updated: 2026-11-13
 
 ## Files with this tag
 

@@ -1,17 +1,16 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: gamification-design-patterns
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Topic: gamification-design-patterns
 
 Auto-generated index of all content with topic `gamification-design-patterns`.
 
-Last updated: 2026-11-06 21:01:48
+Last updated: 2026-11-13 21:08:20
 
 ---
 

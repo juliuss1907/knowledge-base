@@ -1,24 +1,23 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: trading-state-policy
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Topic: trading-state-policy
 
 Auto-generated index of all content with topic `trading-state-policy`.
 
-Last updated: 2026-11-06 21:01:48
+Last updated: 2026-11-13 21:08:20
 
 ---
 
 ## Concepts (2)
 
 - [[state-conditioned-decisions]] — main: #economic, sub: [#research, #opinion]
-- [[trading-policy-pi]] — main: #economic, sub: [#research, #research]
+- [[trading-policy-pi]] — main: #economic, sub: [#research]
 
 ## Sources (1)
 

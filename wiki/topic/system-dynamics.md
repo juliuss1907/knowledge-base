@@ -1,23 +1,22 @@
 ---
 type: index
 scope: topic
-parent: "[[topic]]"
 topic: system-dynamics
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Topic: system-dynamics
 
 Auto-generated index of all content with topic `system-dynamics`.
 
-Last updated: 2026-11-06 21:01:48
+Last updated: 2026-11-13 21:08:20
 
 ---
 
 ## Concepts (1)
 
-- [[self-reinforcing-systems]] — main: #economic, sub: [#research, #research]
+- [[self-reinforcing-systems]] — main: #economic, sub: [#research]
 
 ## Sources (0)
 

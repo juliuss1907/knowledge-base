@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tutorial
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Tag: #tutorial
@@ -19,7 +19,7 @@ last_updated: 2026-11-06
 - Total files: 98
 - Sources: 41
 - Concepts: 57
-- Last updated: 2026-11-06
+- Last updated: 2026-11-13
 
 ## Files with this tag
 
@@ -128,4 +128,4 @@ last_updated: 2026-11-06
 - [[tools]] — 33 co-occurrences
 - [[ai]] — 30 co-occurrences
 - [[research]] — 24 co-occurrences
-- [[psychology]] — 21 co-occurrences
+- [[psychology]] — 22 co-occurrences

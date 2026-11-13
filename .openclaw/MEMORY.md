@@ -2481,3 +2481,16 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Title:** What happens if all the lights go out? This is the plan for a 'Black Sky' event
 - **Source:** https://www.bbc.com/news/articles/ck5ynnj05z8no
 - **Type:** article
+
+## 2026-11-13 21:08:20 — Indexed <!-- project: github.com/juliuss1907/knowledge-base -->
+
+- **Mode:** Full rebuild (cron-requested; 7 files changed since 2026-11-06)
+- **Scanned:** 638 concepts + 225 sources = 863 total files
+- **Tags indexed:** 24 (9 main-tags + 18 sub-tags in active use; unique 24)
+- **Topics indexed:** 276
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped
+- **Warnings:** 3 duplicate sub_tags deduped in memory only (sources not edited): wiki/concepts/casino-culture.md (opinion), wiki/concepts/self-reinforcing-systems.md (research), wiki/concepts/trading-policy-pi.md (research)
+- **tag.md:** Stats regenerated, Items unchanged (no new tags)
+- **Checks:** sources/concepts hashes unchanged; L3 headings Parent/Stats/Files/Co-occurring; topic files have no parent field

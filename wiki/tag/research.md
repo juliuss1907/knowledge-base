@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: research
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Tag: #research
@@ -16,10 +16,10 @@ last_updated: 2026-11-06
 
 ## Stats
 
-- Total files: 301
-- Sources: 75
-- Concepts: 226
-- Last updated: 2026-11-06
+- Total files: 305
+- Sources: 76
+- Concepts: 229
+- Last updated: 2026-11-13
 
 ## Files with this tag
 
@@ -68,6 +68,7 @@ last_updated: 2026-11-06
 - [[closed-form-springs]] — Closed Form Springs (concept)
 - [[coal-framework]] — Coal Framework (concept)
 - [[cognitive-load-theory]] — Cognitive Load Theory (concept)
+- [[cognitive-offloading]] — Cognitive Offloading (concept)
 - [[collaborative-thinking]] — Collaborative Thinking (concept)
 - [[complex-adaptive-systems]] — Complex Adaptive Systems (concept)
 - [[complicated-vs-complex]] — Complicated Vs Complex (concept)
@@ -197,6 +198,7 @@ last_updated: 2026-11-06
 - [[problem-statement-redesign]] — Problem Statement Redesign (concept)
 - [[procedural-memory]] — Procedural Memory (concept)
 - [[procrastination-as-misregulation]] — Procrastination As Misregulation (concept)
+- [[productive-struggle]] — Productive Struggle (concept)
 - [[productivity-wage-gap]] — Productivity Wage Gap (concept)
 - [[proportional-theory-time-perception]] — Proportional Theory Time Perception (concept)
 - [[prospective-memory]] — Prospective Memory (concept)
@@ -238,6 +240,7 @@ last_updated: 2026-11-06
 - [[src_atom-project-american-truly-open-models]] — Atom Project American Truly Open Models (source)
 - [[src_building-latticework-mental-models]] — Building Latticework Mental Models (source)
 - [[src_code-as-agent-harness-arxiv-2605-18747]] — Code As Agent Harness Arxiv 2605 18747 (source)
+- [[src_cognitive-offloading-learning-ai]] — Cognitive Offloading Learning Ai (source)
 - [[src_counterinsurgency-fighting-back]] — Counterinsurgency Fighting Back (source)
 - [[src_critical-thinking-dennett]] — Critical Thinking Dennett (source)
 - [[src_deepseek-v4-architecture]] — Deepseek V4 Architecture (source)
@@ -314,6 +317,7 @@ last_updated: 2026-11-06
 - [[thermodynamics]] — Thermodynamics (concept)
 - [[tokenization]] — Tokenization (concept)
 - [[trading-policy-pi]] — Trading Policy Pi (concept)
+- [[transfer-of-learning]] — Transfer Of Learning (concept)
 - [[transformer-architecture]] — Transformer Architecture (concept)
 - [[uae-saudi-rivalry]] — Uae Saudi Rivalry (concept)
 - [[ultimatum-game]] — Ultimatum Game (concept)
@@ -327,8 +331,8 @@ last_updated: 2026-11-06
 
 ## Co-occurring tags
 
-- [[ai]] — 111 co-occurrences
+- [[ai]] — 115 co-occurrences
 - [[productivity]] — 88 co-occurrences
-- [[psychology]] — 77 co-occurrences
+- [[psychology]] — 81 co-occurrences
 - [[tools]] — 74 co-occurrences
 - [[opinion]] — 70 co-occurrences

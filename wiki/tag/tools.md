@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Tag: #tools
@@ -16,10 +16,10 @@ last_updated: 2026-11-06
 
 ## Stats
 
-- Total files: 261
+- Total files: 262
 - Sources: 61
-- Concepts: 200
-- Last updated: 2026-11-06
+- Concepts: 201
+- Last updated: 2026-11-13
 
 ## Files with this tag
 
@@ -181,6 +181,7 @@ last_updated: 2026-11-06
 - [[relative-strength-leadership]] — Relative Strength Leadership (concept)
 - [[retrieval-augmented-generation]] — Retrieval Augmented Generation (concept)
 - [[sandbox-state-forking]] — Sandbox State Forking (concept)
+- [[scaffolded-learning-tools]] — Scaffolded Learning Tools (concept)
 - [[secrets-management]] — Secrets Management (concept)
 - [[self-driving-products]] — Self Driving Products (concept)
 - [[semantic-memory]] — Semantic Memory (concept)
@@ -287,7 +288,7 @@ last_updated: 2026-11-06
 
 ## Co-occurring tags
 
-- [[ai]] — 159 co-occurrences
+- [[ai]] — 160 co-occurrences
 - [[automation]] — 80 co-occurrences
 - [[research]] — 74 co-occurrences
 - [[tech]] — 45 co-occurrences

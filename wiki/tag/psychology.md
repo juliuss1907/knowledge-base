@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-11-06
+last_updated: 2026-11-13
 ---
 
 # Tag: #psychology
@@ -16,10 +16,10 @@ last_updated: 2026-11-06
 
 ## Stats
 
-- Total files: 350
-- Sources: 99
-- Concepts: 251
-- Last updated: 2026-11-06
+- Total files: 356
+- Sources: 100
+- Concepts: 256
+- Last updated: 2026-11-13
 
 ## Files with this tag
 
@@ -45,6 +45,7 @@ last_updated: 2026-11-06
 - [[cognitive-change]] — Cognitive Change (concept)
 - [[cognitive-distortions]] — Cognitive Distortions (concept)
 - [[cognitive-load-theory]] — Cognitive Load Theory (concept)
+- [[cognitive-offloading]] — Cognitive Offloading (concept)
 - [[cognitive-surrender]] — Cognitive Surrender (concept)
 - [[colin-powell-40-70-rule]] — Colin Powell 40 70 Rule (concept)
 - [[collaborative-thinking]] — Collaborative Thinking (concept)
@@ -208,6 +209,7 @@ last_updated: 2026-11-06
 - [[probabilistic-thinking]] — Probabilistic Thinking (concept)
 - [[procrastination-as-misregulation]] — Procrastination As Misregulation (concept)
 - [[productive-discomfort]] — Productive Discomfort (concept)
+- [[productive-struggle]] — Productive Struggle (concept)
 - [[proportional-theory-time-perception]] — Proportional Theory Time Perception (concept)
 - [[protoge-effect]] — Protoge Effect (concept)
 - [[proximity-to-opportunity]] — Proximity To Opportunity (concept)
@@ -235,6 +237,7 @@ last_updated: 2026-11-06
 - [[right-problem-framework]] — Right Problem Framework (concept)
 - [[role-playing-self]] — Role Playing Self (concept)
 - [[sacred-art]] — Sacred Art (concept)
+- [[scaffolded-learning-tools]] — Scaffolded Learning Tools (concept)
 - [[schedule-maxxing]] — Schedule Maxxing (concept)
 - [[second-order-thinking]] — Second Order Thinking (concept)
 - [[self-discovery-through-conversations]] — Self Discovery Through Conversations (concept)
@@ -246,6 +249,7 @@ last_updated: 2026-11-06
 - [[small-bets-strategy]] — Small Bets Strategy (concept)
 - [[social-attraction]] — Social Attraction (concept)
 - [[social-media-comparison-trap]] — Social Media Comparison Trap (concept)
+- [[socratic-prompting]] — Socratic Prompting (concept)
 - [[spacing-effect]] — Spacing Effect (concept)
 - [[spontaneity-within-structure]] — Spontaneity Within Structure (concept)
 - [[src_0xhvdes-seven-ways-to-get-ahead]] — 0xhvdes Seven Ways To Get Ahead (source)
@@ -260,6 +264,7 @@ last_updated: 2026-11-06
 - [[src_building-latticework-mental-models]] — Building Latticework Mental Models (source)
 - [[src_cach-thoat-khoi-prices-law]] — Cach Thoat Khoi Prices Law (source)
 - [[src_circle-of-competence]] — Circle Of Competence (source)
+- [[src_cognitive-offloading-learning-ai]] — Cognitive Offloading Learning Ai (source)
 - [[src_critical-thinking-dennett]] — Critical Thinking Dennett (source)
 - [[src_daily-planning-routine-creativity-productivity]] — Daily Planning Routine Creativity Productivity (source)
 - [[src_dan-koe-mind-game-practical-application]] — Dan Koe Mind Game Practical Application (source)
@@ -366,6 +371,7 @@ last_updated: 2026-11-06
 - [[trading-addiction-cycle]] — Trading Addiction Cycle (concept)
 - [[trading-psychology]] — Trading Psychology (concept)
 - [[tragic-optimism]] — Tragic Optimism (concept)
+- [[transfer-of-learning]] — Transfer Of Learning (concept)
 - [[type-1-vs-type-2-decisions]] — Type 1 Vs Type 2 Decisions (concept)
 - [[ultimatum-game]] — Ultimatum Game (concept)
 - [[variable-reward-systems]] — Variable Reward Systems (concept)
@@ -378,6 +384,6 @@ last_updated: 2026-11-06
 
 - [[productivity]] — 245 co-occurrences
 - [[opinion]] — 123 co-occurrences
-- [[research]] — 77 co-occurrences
+- [[research]] — 81 co-occurrences
 - [[health]] — 57 co-occurrences
-- [[economic]] — 21 co-occurrences
+- [[tutorial]] — 22 co-occurrences

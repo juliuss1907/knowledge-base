@@ -3,3 +3,4 @@ context_lengths:
   Knowledge-base@http://localhost:20128/v1: 200000
   ag/claude-sonnet-5-5@http://localhost:20128/v1: 1000000
   ag/claude-opus-4-6-thinking@http://localhost:20128/v1: 200000
+  oc-zen/grok-4.7@http://localhost:20128/v1: 500000

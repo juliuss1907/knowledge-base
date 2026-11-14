@@ -2494,3 +2494,5 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Warnings:** 3 duplicate sub_tags deduped in memory only (sources not edited): wiki/concepts/casino-culture.md (opinion), wiki/concepts/self-reinforcing-systems.md (research), wiki/concepts/trading-policy-pi.md (research)
 - **tag.md:** Stats regenerated, Items unchanged (no new tags)
 - **Checks:** sources/concepts hashes unchanged; L3 headings Parent/Stats/Files/Co-occurring; topic files have no parent field
+
+- [2026-11-14 09:10] Ingested: raw/videos/2026-11-14_ultimate-guide-rule-files-ai-coding.md | source: https://youtu.be/4m8AgfeK6kU | title: The Ultimate Guide to Rule Files for AI-Assisted Coding by Alex (Grit AI Studio)

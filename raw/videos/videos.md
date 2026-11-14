@@ -20,12 +20,13 @@ Video content from YouTube and other platforms.
 
 ## Stats
 
-- Total: 10 files
-- By status: 10 processed, 0 unprocessed
-- By date: 2 this week, 5 this month
-- Last updated: 2026-10-02
+- Total: 11 files
+- By status: 10 processed, 1 unprocessed
+- By date: 1 this week, 1 this month
+- Last updated: 2026-11-14
 
 ## Items
+- [[2026-11-14_ultimate-guide-rule-files-ai-coding]] — The Ultimate Guide to Rule Files for AI-Assisted Coding by Alex (Grit AI Studio) (unprocessed)
 - [[2026-10-01_gemini-4-argon-explained-in-5min]] — Gemini 4 Argon explained in 5min.. by Caleb Writes Code (processed)
 - [[2026-05-22_luke-alvoeiro-multi-agent-architecture-factory]] — The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory (processed)
 - [[2026-05-26_why-we-complicate-life-productive-peter]] — Tại sao cuộc sống rất đơn giản nhưng chúng ta lại cố tình làm nó phức tạp? (processed)

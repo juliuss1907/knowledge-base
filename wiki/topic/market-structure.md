@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: market-structure
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: market-structure
 
 Auto-generated index of all content with topic `market-structure`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

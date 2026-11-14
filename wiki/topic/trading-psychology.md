@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: trading-psychology
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: trading-psychology
 
 Auto-generated index of all content with topic `trading-psychology`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

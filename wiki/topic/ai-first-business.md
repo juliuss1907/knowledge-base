@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: ai-first-business
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: ai-first-business
 
 Auto-generated index of all content with topic `ai-first-business`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

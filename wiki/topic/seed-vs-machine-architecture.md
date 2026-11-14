@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: seed-vs-machine-architecture
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: seed-vs-machine-architecture
 
 Auto-generated index of all content with topic `seed-vs-machine-architecture`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

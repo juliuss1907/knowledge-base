@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: fear-alchemy
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: fear-alchemy
 
 Auto-generated index of all content with topic `fear-alchemy`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: geopolitics
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Tag: #geopolitics
@@ -19,7 +19,7 @@ last_updated: 2026-11-13
 - Total files: 10
 - Sources: 3
 - Concepts: 7
-- Last updated: 2026-11-13
+- Last updated: 2026-11-14
 
 ## Files with this tag
 
@@ -37,7 +37,7 @@ last_updated: 2026-11-13
 ## Co-occurring tags
 
 - [[opinion]] — 7 co-occurrences
-- [[economic]] — 4 co-occurrences
 - [[politic]] — 4 co-occurrences
+- [[economic]] — 4 co-occurrences
 - [[ai]] — 2 co-occurrences
 - [[research]] — 2 co-occurrences

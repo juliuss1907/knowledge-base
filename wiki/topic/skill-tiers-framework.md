@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: skill-tiers-framework
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: skill-tiers-framework
 
 Auto-generated index of all content with topic `skill-tiers-framework`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

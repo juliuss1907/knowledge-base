@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: cognitive-biases-learning
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: cognitive-biases-learning
 
 Auto-generated index of all content with topic `cognitive-biases-learning`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

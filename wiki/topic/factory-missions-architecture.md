@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: factory-missions-architecture
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: factory-missions-architecture
 
 Auto-generated index of all content with topic `factory-missions-architecture`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

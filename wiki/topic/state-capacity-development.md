@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: state-capacity-development
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: state-capacity-development
 
 Auto-generated index of all content with topic `state-capacity-development`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

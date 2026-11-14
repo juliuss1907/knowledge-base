@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: authenticity-competition
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: authenticity-competition
 
 Auto-generated index of all content with topic `authenticity-competition`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

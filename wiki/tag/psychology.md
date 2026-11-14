@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: psychology
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Tag: #psychology
@@ -19,7 +19,7 @@ last_updated: 2026-11-13
 - Total files: 356
 - Sources: 100
 - Concepts: 256
-- Last updated: 2026-11-13
+- Last updated: 2026-11-14
 
 ## Files with this tag
 

@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: isolation-spectrum
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: isolation-spectrum
 
 Auto-generated index of all content with topic `isolation-spectrum`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: claude-power-user-system
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: claude-power-user-system
 
 Auto-generated index of all content with topic `claude-power-user-system`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

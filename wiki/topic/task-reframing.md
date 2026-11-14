@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: task-reframing
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: task-reframing
 
 Auto-generated index of all content with topic `task-reframing`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: compound-exercises
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: compound-exercises
 
 Auto-generated index of all content with topic `compound-exercises`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

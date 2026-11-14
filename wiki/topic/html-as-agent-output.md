@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: html-as-agent-output
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: html-as-agent-output
 
 Auto-generated index of all content with topic `html-as-agent-output`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

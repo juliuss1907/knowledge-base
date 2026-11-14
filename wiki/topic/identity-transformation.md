@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: identity-transformation
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: identity-transformation
 
 Auto-generated index of all content with topic `identity-transformation`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

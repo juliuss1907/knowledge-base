@@ -3,14 +3,14 @@ type: index
 scope: topic
 topic: pareto-principle
 auto_generated: true
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Topic: pareto-principle
 
 Auto-generated index of all content with topic `pareto-principle`.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 

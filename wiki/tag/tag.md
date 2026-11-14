@@ -5,14 +5,14 @@ scope: tags
 parent: "[[wiki]]"
 auto_generated: false
 items_managed_by: index-agent
-last_updated: 2026-11-13
+last_updated: 2026-11-14
 ---
 
 # Tag Index
 
 Master index of all tags in the Knowledge Base.
 
-Last updated: 2026-11-13 21:08:20
+Last updated: 2026-11-14 21:00:00
 
 ---
 
@@ -30,20 +30,20 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - Main tags: 9
 - Sub tags: 18
 - Most used: #psychology (356), #productivity (339), #research (305)
-- Last updated: 2026-11-13
+- Last updated: 2026-11-14
 
 ## Items
 
 ### Main Tags (Pool A)
 
-- [[ai]] — AI / ML / LLM, agents, models, training, inference
+- [[ai]] — AI / ML / LLM, agents, models, training, inference (as attribute)
 - [[crypto]] — Blockchain, DeFi, tokens, exchanges, on-chain activity
 - [[economic]] — Macroeconomics, finance, markets, trading
 - [[health]] — Physical health, sleep, exercise, nutrition, biohacking
 - [[investment]] — Investment principles, portfolio management, asset allocation, risk management
 - [[politic]] — Policy, regulation, geopolitics
 - [[productivity]] — Workflows, methodologies, knowledge management, personal systems
-- [[system]] — System design, architecture, automation pipelines
+- [[system]] — System design, architecture, automation pipelines (as attribute)
 - [[tech]] — Software engineering, infrastructure, web, mobile, dev tooling
 
 ### Sub Tags (Pool B)

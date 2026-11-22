@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: hermes-polymarket-trading-agent
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: hermes-polymarket-trading-agent
 
 Auto-generated index of all content with topic `hermes-polymarket-trading-agent`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
@@ -27,4 +27,4 @@ Last updated: 2026-11-21 21:01:58
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `hermes-polymarket-trading-agent` yet.

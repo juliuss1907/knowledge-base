@@ -4,20 +4,19 @@ scope: topic
 parent: "[[topic]]"
 topic: prices-law-strategies
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: prices-law-strategies
 
 Auto-generated index of all content with topic `prices-law-strategies`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
 ## Concepts (0)
 
-No concepts for this topic yet.
 
 ## Sources (1)
 
@@ -25,4 +24,4 @@ No concepts for this topic yet.
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `prices-law-strategies` yet.

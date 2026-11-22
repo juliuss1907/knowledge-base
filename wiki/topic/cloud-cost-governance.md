@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: cloud-cost-governance
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: cloud-cost-governance
 
 Auto-generated index of all content with topic `cloud-cost-governance`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
@@ -21,8 +21,7 @@ Last updated: 2026-11-21 21:01:58
 
 ## Sources (0)
 
-No sources for this topic yet.
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `cloud-cost-governance` yet.

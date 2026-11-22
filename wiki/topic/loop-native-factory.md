@@ -4,20 +4,19 @@ scope: topic
 parent: "[[topic]]"
 topic: loop-native-factory
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: loop-native-factory
 
 Auto-generated index of all content with topic `loop-native-factory`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
 ## Concepts (0)
 
-No concepts for this topic yet.
 
 ## Sources (1)
 
@@ -25,4 +24,4 @@ No concepts for this topic yet.
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `loop-native-factory` yet.

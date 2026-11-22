@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: rule-files-ai-coding
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: rule-files-ai-coding
 
 Auto-generated index of all content with topic `rule-files-ai-coding`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
@@ -25,4 +25,4 @@ Last updated: 2026-11-21 21:01:58
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `rule-files-ai-coding` yet.

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: mental-models-biology
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: mental-models-biology
 
 Auto-generated index of all content with topic `mental-models-biology`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
@@ -29,4 +29,4 @@ Last updated: 2026-11-21 21:01:58
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `mental-models-biology` yet.

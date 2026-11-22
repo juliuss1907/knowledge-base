@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ui-component-library
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: ui-component-library
 
 Auto-generated index of all content with topic `ui-component-library`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
@@ -25,4 +25,4 @@ Last updated: 2026-11-21 21:01:58
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `ui-component-library` yet.

@@ -4,20 +4,19 @@ scope: topic
 parent: "[[topic]]"
 topic: systematic-trading-transition
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: systematic-trading-transition
 
 Auto-generated index of all content with topic `systematic-trading-transition`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
 ## Concepts (0)
 
-No concepts for this topic yet.
 
 ## Sources (1)
 
@@ -25,4 +24,4 @@ No concepts for this topic yet.
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `systematic-trading-transition` yet.

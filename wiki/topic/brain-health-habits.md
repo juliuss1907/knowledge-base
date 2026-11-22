@@ -4,20 +4,19 @@ scope: topic
 parent: "[[topic]]"
 topic: brain-health-habits
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: brain-health-habits
 
 Auto-generated index of all content with topic `brain-health-habits`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
 ## Concepts (0)
 
-No concepts for this topic yet.
 
 ## Sources (1)
 
@@ -25,4 +24,4 @@ No concepts for this topic yet.
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `brain-health-habits` yet.

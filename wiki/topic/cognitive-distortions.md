@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: cognitive-distortions
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: cognitive-distortions
 
 Auto-generated index of all content with topic `cognitive-distortions`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
@@ -21,8 +21,7 @@ Last updated: 2026-11-21 21:01:58
 
 ## Sources (0)
 
-No sources for this topic yet.
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `cognitive-distortions` yet.

@@ -1,5 +1,14 @@
 ---
 
+## 2026-11-22 21:04:41 — Indexed
+
+- **Scanned:** 648 concepts + 232 sources = 880 total files
+- **Tags indexed:** 24 (9 main-tags + 15 sub-tags)
+- **Topics indexed:** 283
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped due to invalid frontmatter
+
 ## 2026-11-02 08:00:00 — Compiled <!-- project: github.com/juliuss1907/knowledge-base -->
 
 - **Raw:** raw/articles/2026-04-11_claude-best-practices-power-user-guide.md

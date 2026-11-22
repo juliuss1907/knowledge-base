@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: post-work-fatigue
 auto_generated: true
-last_updated: 2026-11-21
+last_updated: 2026-11-22
 ---
 
 # Topic: post-work-fatigue
 
 Auto-generated index of all content with topic `post-work-fatigue`.
 
-Last updated: 2026-11-21 21:01:58
+Last updated: 2026-11-22 21:03:20
 
 ---
 
@@ -26,4 +26,4 @@ Last updated: 2026-11-21 21:01:58
 
 ## Related topics
 
-No related topics by shared files.
+No topics share files with `post-work-fatigue` yet.

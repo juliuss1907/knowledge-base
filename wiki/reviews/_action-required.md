@@ -169,6 +169,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-22 | Output | 2 (0E+2W+0I) | [Báo cáo](2026-11-22_output-report.md): giới hạn khái quát về offloading và định nghĩa transfer. |
 | ✅ APPROVED | 11-21 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-21_hygiene-report.md): 308 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
 | ✅ APPROVED | 11-21 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-21_format-report.md](2026-11-21_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | ✅ APPROVED | 11-21 | Output | 3 (0E+3W+0I) | [Báo cáo](2026-11-21_output-report.md): xem 3 vấn đề trước khi sửa. |
@@ -380,6 +381,13 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-11-22 (23:00)
+
+- **Report:** [wiki/reviews/2026-11-22_output-report.md](2026-11-22_output-report.md)
+- **Summary:** 2 WARNING, 0 ERROR, 0 INFO; quét cơ học 880 tệp, đọc chi tiết 11 tệp cập nhật hôm nay.
+- **Actions needed:** Giới hạn khái quát về tác động offloading; phân biệt năng lực có hỗ trợ với năng lực độc lập trong định nghĩa transfer.
+- **Status:** pending
 
 ### ✅ Hygiene Inspection — 2026-11-21
 

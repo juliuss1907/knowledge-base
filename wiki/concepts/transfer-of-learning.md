@@ -6,7 +6,7 @@ sub_tags: [psychology, research]
 topic: ai-cognitive-offloading-education
 sources:
   - "[[src_cognitive-offloading-learning-ai]]"
-last_updated: 2026-11-07
+last_updated: 2026-11-22
 ---
 
 # Transfer of Learning
@@ -22,7 +22,7 @@ Transfer of learning là khả năng áp dụng kiến thức, kỹ năng và ch
 - Thí nghiệm Brazil: học sinh dùng AI ở task đầu mất đi lợi thế của công cụ khi công cụ bị thu hồi — tức AI cản trở quá trình transfer.
 - Nghiêm trọng hơn: sau khi mất công cụ, khả năng giải task sáng tạo của nhóm từng dùng AI giảm xuống dưới mức của nhóm chưa từng dùng, cho thấy transfer bị thay bằng phụ thuộc công cụ.
 - Mức độ tổn hại tỉ lệ với mức độ offload: học sinh dùng AI nhiều nhất ở task đầu chịu tác động tiêu cực lớn nhất về sau.
-- Transfer không đo được bằng điểm số tức thời — một công cụ có thể nâng kết quả trong lúc dùng và làm giảm kết quả ngay khi mất, đó là dấu hiệu của transfer giả.
+- Điểm số ở tác vụ ban đầu, nhất là khi người học vẫn dùng công cụ, không đủ để xác lập transfer. Cần đánh giá riêng ở tác vụ hoặc ngữ cảnh mới và nêu rõ điều kiện sử dụng công cụ; điểm số trong bài kiểm tra đó vẫn có thể là một chỉ báo về transfer.
 - Resilience cảm xúc là điều kiện của transfer: người học cần khả năng tiếp tục cố gắng khi bị kẹt để chuyển hóa kỹ năng sang tình huống mới.
 
 ## Related concepts

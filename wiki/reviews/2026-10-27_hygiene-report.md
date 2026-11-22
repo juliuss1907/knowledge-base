@@ -1,6 +1,7 @@
 # Hygiene Inspection — 2026-10-27
 
-**Status:** pending
+**Status:** approved
+**Approved by:** Julius
 **Issues found:** **21 nhóm** — **14 ERROR + 5 WARNING + 2 INFO** (tổng trong ngoặc = 21 ✅ khớp đúng 21 mục thân báo cáo: E1–E14, W1–W5, I1–I2). Trong 14 mục ERROR: **5 đã RESOLVED / SẠCH** (E2, E4, E8, E9, E10) + **0 mới** ⇒ **9 ERROR còn hiệu diện**; **0 ERROR mới**. Tồn đọng trong agent home giảm từ 28 xuống **25 tệp tracked** ở HEAD (18 `config.yaml.bak.*`, 5 `kanban.db*`, 1 `projects.db`, 1 `MEMORY.md`; 3 tệp `skills/.curator_backups/` đã được xoá sạch khỏi Git ở commit `5c428364`). Trong đó **4 ERROR máy** (path thật ở tầng quét) + **5 nhóm ERROR agent home bị quy tắc miễn trừ che** (xem W5).
 **Created:** 2026-10-27 23:35:00
 **Validator:** hygiene-inspector

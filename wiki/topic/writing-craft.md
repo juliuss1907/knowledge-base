@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: writing-craft
 auto_generated: true
-last_updated: 2026-11-14
+last_updated: 2026-11-21
 ---
 
 # Topic: writing-craft
 
 Auto-generated index of all content with topic `writing-craft`.
 
-Last updated: 2026-11-14 21:00:00
+Last updated: 2026-11-21 21:01:58
 
 ---
 
@@ -25,6 +26,4 @@ Last updated: 2026-11-14 21:00:00
 
 ## Related topics
 
-Topics that share concepts/sources with `writing-craft`:
-
-_No overlapping topics._
+No related topics by shared files.

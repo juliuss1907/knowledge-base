@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 164 files
-- By status: 162 processed, 2 unprocessed
-- By date: 2 this week, 2 this month
-- Last updated: 2026-11-08
+- Total: 165 files
+- By status: 162 processed, 3 unprocessed
+- By date: 3 this week, 3 this month
+- Last updated: 2026-11-21
 ## Items
+- [[2026-11-19_what-comes-after-agi]] — What comes after AGI? by DeepMind Institute (unprocessed)
 - [[2026-11-07_what-happens-all-lights-go-out-black-sky]] — What happens if all the lights go out? This is the plan for a 'Black Sky' event by David Sillito (unprocessed)
 - [[2026-11-04_cognitive-offloading-learning-ai]] — What happens to learning when AI does the thinking for us? by Alonso Daboub (unprocessed)
 - [[2026-04-11_claude-best-practices-power-user-guide]] — How to use Claude like the top 1% of users by Ruben Dominguez (processed)

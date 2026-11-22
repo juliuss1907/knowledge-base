@@ -4,10 +4,7 @@ status: draft
 main_tag: ai
 sub_tags: [coding, tools]
 topic: fable-finding-unknowns
-sources:
-  - "[[src_field-guide-to-fable-finding-unknowns]]"
-  - "[[src_ai-engineering-skills-map]]"
-  - "[[src_unreasonable-effectiveness-of-html]]"
+sources: ["[[src_field-guide-to-fable-finding-unknowns]]", "[[src_ai-engineering-skills-map]]", "[[src_unreasonable-effectiveness-of-html]]", "[[src_pstack-cursor-engineer-ships-code-with-ai]]", "[[src_all-code-is-slop-except-mine]]"]
 last_updated: 2026-10-03
 ---
 
@@ -31,6 +28,8 @@ Agentic Coding là kỹ năng lập trình với AI agent — không chỉ đơn
 - **Spec-first shift:** khi agent giỏi deliver theo spec, giá trị engineer dịch chuyển sang shaping the build — quyết định cái gì nằm trong spec bằng product sense và business context
 - **Spec chuyển từ bản edit tay sang reference file:** khi người dùng ngày càng ít tự sửa spec mà nhờ agent sửa, spec hạn chế ở vai trò reference — bù lại, spec phải dễ đọc và dễ chia sẻ hơn, dẫn tới dùng HTML artifact thay Markdown, xem [[html-as-agent-output-format]]
 - **Exploration thay cho jumping to plan:** nhiều hướng khác nhau được sinh ra và so sánh cạnh nhau trước khi chốt hướng, thay vì plan một phương án ngay — xem [[multi-file-artifact-workflow]]
+- Workflow chuyên biệt như Pstack kết hợp tìm hiểu codebase, thiết kế đa model, TDD, verification và giao PR để giảm việc agent phải tự suy đoán quy trình.
+- Khi tăng tự động hóa, chất lượng phụ thuộc vào guardrails có thể thực thi và verification artifacts hơn là chỉ tăng số lượng agent hoặc PR.
 
 ## Related concepts
 
@@ -40,11 +39,15 @@ Agentic Coding là kỹ năng lập trình với AI agent — không chỉ đơn
 - [[ai-engineering-skills]]
 - [[html-as-agent-output-format]]
 - [[multi-file-artifact-workflow]]
+- [[pstack-agent-workflow]]
+- [[deterministic-agent-guardrails]]
 
 ## Sources
 
 - [[src_field-guide-to-fable-finding-unknowns]]
 - [[src_ai-engineering-skills-map]] — Andrew Ng 2026-08-14: using coding agents là 1/4 kỹ năng AI engineering cốt lõi
 - [[src_unreasonable-effectiveness-of-html]] — Thariq Shihipar, Anthropic (2026-05-20)
+- [[src_pstack-cursor-engineer-ships-code-with-ai]]
+- [[src_all-code-is-slop-except-mine]]
 
 ## Notes

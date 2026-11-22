@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: compounding-growth
 auto_generated: true
-last_updated: 2026-11-14
+last_updated: 2026-11-21
 ---
 
 # Topic: compounding-growth
 
 Auto-generated index of all content with topic `compounding-growth`.
 
-Last updated: 2026-11-14 21:00:00
+Last updated: 2026-11-21 21:01:58
 
 ---
 
 ## Concepts (7)
 
-- [[casino-culture]] — main: #productivity, sub: [#opinion]
+- [[casino-culture]] — main: #productivity, sub: [#opinion, #opinion]
 - [[compounding-effect]] — main: #productivity, sub: [#opinion]
 - [[discipline-system]] — main: #productivity, sub: [#research, #psychology]
 - [[environment-baseline]] — main: #productivity, sub: [#opinion, #research]
@@ -30,6 +31,4 @@ Last updated: 2026-11-14 21:00:00
 
 ## Related topics
 
-Topics that share concepts/sources with `compounding-growth`:
-
-_No overlapping topics._
+No related topics by shared files.

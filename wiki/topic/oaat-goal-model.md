@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: oaat-goal-model
 auto_generated: true
-last_updated: 2026-11-14
+last_updated: 2026-11-21
 ---
 
 # Topic: oaat-goal-model
 
 Auto-generated index of all content with topic `oaat-goal-model`.
 
-Last updated: 2026-11-14 21:00:00
+Last updated: 2026-11-21 21:01:58
 
 ---
 
@@ -24,6 +25,4 @@ Last updated: 2026-11-14 21:00:00
 
 ## Related topics
 
-Topics that share concepts/sources with `oaat-goal-model`:
-
-_No overlapping topics._
+No related topics by shared files.

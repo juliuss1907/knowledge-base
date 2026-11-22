@@ -4,7 +4,9 @@ title: "EyesRhythm — Blink rate detector for Mac and Windows"
 url: https://eyesrhythm.com/
 author: EyesRhythm
 date_ingested: 2026-11-08
-status: unprocessed
+status: processed
+compiled_at: 2026-11-21
+compiled_to: "[[src_eyesrhythm]]"
 source: eyesrhythm.com
 ---
 

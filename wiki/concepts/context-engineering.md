@@ -4,9 +4,7 @@ status: draft
 main_tag: ai
 sub_tags: [coding, tools]
 topic: harness-engineering-ai-coding
-sources:
-  - "[[src_harness-engineering-ai-coding]]"
-  - "[[src_claude-best-practices-power-user-guide]]"
+sources: ["[[src_harness-engineering-ai-coding]]", "[[src_claude-best-practices-power-user-guide]]", "[[src_ultimate-guide-rule-files-ai-coding]]"]
 last_updated: 2026-11-02
 ---
 
@@ -25,6 +23,7 @@ Context engineering là discipline đảm bảo AI coding assistant biết đủ
 - **Accuracy và currency requirements:** Document cần accurate, specific, và được keep current. Nếu outdated thì worse than nothing — AI sẽ follow stale rules.
 - **Context là đòn bẩy lớn hơn prompt:** Năm 2026, đòn bẩy quan trọng chuyển từ tinh chỉnh câu từ đơn lẻ sang kiến trúc ngữ cảnh bao quanh tác vụ (hệ thống file danh tính, giọng văn, quy chuẩn cấm kỵ, ví dụ mẫu và bộ nhớ).
 - **Hệ thống tệp bối cảnh bền vững:** Sử dụng bộ file cốt lõi (about-me.md, voice-profile.md, anti-ai-writing-style.md) nạp tự động vào phiên làm việc giúp loại bỏ chi phí giải thích lại và tránh AI bắt đầu từ con số không.
+- Rule files hiệu quả ghi commands, stack có phiên bản, cấu trúc, ví dụ code, workflow và boundaries; chúng được bổ sung từ friction thực tế thay vì viết đầy đủ ngay từ đầu.
 
 ## Related concepts
 
@@ -35,10 +34,12 @@ Context engineering là discipline đảm bảo AI coding assistant biết đủ
 - [[socratic-prompting]]
 - [[claude-cowork]]
 - [[context-window-management]]
+- [[rule-files-ai-coding]]
 
 ## Sources
 
 - [[src_harness-engineering-ai-coding]]
 - [[src_claude-best-practices-power-user-guide]]
+- [[src_ultimate-guide-rule-files-ai-coding]]
 
 ## Notes

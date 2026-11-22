@@ -5,7 +5,9 @@ url: https://www.bbc.com/news/articles/ck5ynnj05z8no
 author: David Sillito
 date_published: 2026-11-07
 date_ingested: 2026-11-08
-status: unprocessed
+status: processed
+compiled_at: 2026-11-21
+compiled_to: "[[src_what-happens-all-lights-go-out-black-sky]]"
 source: bbc.com
 ---
 

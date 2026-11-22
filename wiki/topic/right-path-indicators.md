@@ -1,22 +1,23 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: right-path-indicators
 auto_generated: true
-last_updated: 2026-11-14
+last_updated: 2026-11-21
 ---
 
 # Topic: right-path-indicators
 
 Auto-generated index of all content with topic `right-path-indicators`.
 
-Last updated: 2026-11-14 21:00:00
+Last updated: 2026-11-21 21:01:58
 
 ---
 
 ## Concepts (0)
 
-_No concepts._
+No concepts for this topic yet.
 
 ## Sources (1)
 
@@ -24,6 +25,4 @@ _No concepts._
 
 ## Related topics
 
-Topics that share concepts/sources with `right-path-indicators`:
-
-_No overlapping topics._
+No related topics by shared files.

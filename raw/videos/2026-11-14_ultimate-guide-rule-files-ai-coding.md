@@ -5,7 +5,9 @@ url: https://youtu.be/4m8AgfeK6kU
 author: Alex (Grit AI Studio)
 date_published: 2026-11-14
 date_ingested: 2026-11-14
-status: unprocessed
+status: processed
+compiled_at: 2026-11-21
+compiled_to: "[[src_ultimate-guide-rule-files-ai-coding]]"
 source: youtube.com
 ---
 

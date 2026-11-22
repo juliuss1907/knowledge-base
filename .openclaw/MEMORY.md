@@ -2495,6 +2495,8 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **tag.md:** Stats regenerated, Items unchanged (no new tags)
 - **Checks:** sources/concepts hashes unchanged; L3 headings Parent/Stats/Files/Co-occurring; topic files have no parent field
 
+- [2026-11-19 19:01] Ingested: raw/videos/2026-11-14_all-code-is-slop-except-mine.md | source: https://youtu.be/O_zcc6Xl12g | title: All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI
+
 - [2026-11-14 09:10] Ingested: raw/videos/2026-11-14_ultimate-guide-rule-files-ai-coding.md | source: https://youtu.be/4m8AgfeK6kU | title: The Ultimate Guide to Rule Files for AI-Assisted Coding by Alex (Grit AI Studio)
 
 ## 2026-11-14 21:00:00 — Indexed <!-- project: github.com/juliuss1907/knowledge-base -->
@@ -2509,3 +2511,88 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Warnings:** 3 duplicate sub_tags deduped in memory only (sources not edited): wiki/concepts/casino-culture.md (opinion), wiki/concepts/self-reinforcing-systems.md (research), wiki/concepts/trading-policy-pi.md (research)
 - **tag.md:** Stats regenerated, Items unchanged (no new tags)
 - **Checks:** sources/concepts hashes unchanged; L3 headings Parent/Stats/Files/Co-occurring; topic files have no parent field
+
+## 2026-11-19 21:01:09 +07:00 — Indexed
+- Scanned: 638 concepts + 225 sources = 863 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 276
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0
+
+## 2026-11-20 21:00:33 — Indexed
+
+- **Scanned:** 638 concepts + 225 sources = 863 total files
+- **Tags indexed:** 24 (7 main-tags + 17 sub-tags)
+- **Topics indexed:** 276
+- **Orphans deleted:** 0 tag indexes + 0 topic indexes
+- **Invalid tags found:** 0
+- **Errors:** 0 files skipped
+
+### Correction — 2026-11-20 21:00:33
+
+- **Tags indexed:** 24 unique tags: 9 active main-tags and 18 active sub-tags (3 names overlap between pools: `ai`, `system`, `health`).
+# 2026-11-21 08:37:00 — Compiled
+
+- **Raw:** [[raw/articles/2026-11-07_what-happens-all-lights-go-out-black-sky.md]]
+- **Source note:** [[wiki/sources/src_what-happens-all-lights-go-out-black-sky.md]]
+- **Concepts:** [black-sky-resilience]
+- **Tags applied:** main=#system, sub=[#news, #geopolitics], topic=black-sky-resilience
+- **Action:** created 1 concept file
+
+- [2026-11-21 09:04] Ingested: raw/articles/2026-11-19_what-comes-after-agi.md | source: https://institute.deepmind.com/essays/what-comes-after-agi/ | title: What comes after AGI?
+
+# 2026-11-21 08:37:00 — Compiled
+
+- **Raw:** [[raw/videos/2026-10-15_pstack-cursor-engineer-ships-code-with-ai.md]]
+- **Source note:** [[wiki/sources/src_pstack-cursor-engineer-ships-code-with-ai.md]]
+- **Concepts:** [pstack-agent-workflow, agentic-coding]
+- **Tags applied:** main=#ai, sub=[#coding, #tools, #automation], topic=pstack-agent-workflow
+- **Action:** created 1 and updated 1 concept file
+
+# 2026-11-21 08:37:00 — Compiled
+
+- **Raw:** [[raw/videos/2026-11-14_all-code-is-slop-except-mine.md]]
+- **Source note:** [[wiki/sources/src_all-code-is-slop-except-mine.md]]
+- **Concepts:** [deterministic-agent-guardrails, agentic-coding]
+- **Tags applied:** main=#ai, sub=[#coding, #automation, #research], topic=deterministic-agent-guardrails
+- **Action:** created 1 and updated 1 concept file
+
+# 2026-11-21 08:37:00 — Compiled
+
+- **Raw:** [[raw/videos/2026-11-14_ultimate-guide-rule-files-ai-coding.md]]
+- **Source note:** [[wiki/sources/src_ultimate-guide-rule-files-ai-coding.md]]
+- **Concepts:** [rule-files-ai-coding, context-engineering]
+- **Tags applied:** main=#ai, sub=[#coding, #tutorial, #tools], topic=rule-files-ai-coding
+- **Action:** created 1 and updated 1 concept file
+
+# 2026-11-21 08:37:00 — Compiled
+
+- **Raw:** [[raw/websites/2026-11-08_eyesrhythm.md]]
+- **Source note:** [[wiki/sources/src_eyesrhythm.md]]
+- **Concepts:** [digital-eye-strain]
+- **Tags applied:** main=#health, sub=[#tools, #health], topic=digital-eye-strain
+- **Action:** created 1 concept file
+
+# 2026-11-21 08:37:00 — Compiled
+
+- **Raw:** [[raw/websites/2026-11-08_letsencrypt-ai.md]]
+- **Source note:** [[wiki/sources/src_letsencrypt-ai.md]]
+- **Concepts:** [confidential-computing-ai]
+- **Tags applied:** main=#ai, sub=[#research, #system, #law], topic=confidential-computing-ai
+- **Action:** created 1 concept file
+
+## 2026-11-21 21:01:58 — Indexed
+- Scanned: 644 concepts + 231 sources
+- Tags indexed: 24 (9 main-tags + 15 sub-tags)
+- Topics indexed: 282
+- Orphans deleted: 0
+## 2026-11-22 08:00:00 — Compiled
+
+- **Raw:** raw/articles/2026-11-19_what-comes-after-agi.md
+- **Source note:** wiki/sources/src_what-comes-after-agi.md
+- **Concepts:** [artificial-superintelligence, cognitive-industrialization, multi-agent-scaling-laws, recursive-self-improvement]
+- **Tags applied:** main=ai, sub=[research, strategy], topic=agi-to-asi
+- **Action:** created 4 concept files
+
+---

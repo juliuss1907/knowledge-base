@@ -5,10 +5,16 @@ scope: tag
 parent: "[[tag]]"
 tag: investment
 auto_generated: true
-last_updated: 2026-11-14
+last_updated: 2026-11-21
 ---
 
 # Tag: #investment
+
+Auto-generated index of all content tagged with `#investment`.
+
+Last updated: 2026-11-21 21:01:58
+
+---
 
 ## Parent
 
@@ -19,22 +25,22 @@ last_updated: 2026-11-14
 - Total files: 12
 - Sources: 4
 - Concepts: 8
-- Last updated: 2026-11-14
+- Last updated: 2026-11-21
 
 ## Files with this tag
 
-- [[diversification-strategy]] — Diversification Strategy (concept)
-- [[erg-theory]] — Erg Theory (concept)
-- [[five-big-forces]] — Five Big Forces (concept)
-- [[five-types-of-wealth]] — Five Types Of Wealth (concept)
-- [[global-macro-investing]] — Global Macro Investing (concept)
-- [[holy-grail-investing]] — Holy Grail Investing (concept)
-- [[investment-conviction]] — Investment Conviction (concept)
-- [[outsourced-thinking]] — Outsourced Thinking (concept)
-- [[src_an-all-too-common-investment-story]] — An All Too Common Investment Story (source)
-- [[src_global-macro-investing]] — Global Macro Investing (source)
-- [[src_investment-principles-dalio]] — Investment Principles Dalio (source)
-- [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is The Easiest Way To Measure Your Life (source)
+- [[diversification-strategy]] — Diversification Strategy (Chiến lược Đa dạng hóa) (concept, main: #investment, sub: [#research], topic: investment-principles)
+- [[erg-theory]] — ERG Theory (concept, main: #investment, sub: [#psychology, #opinion], topic: five-types-of-wealth)
+- [[five-big-forces]] — Five Big Forces (Năm Lực Lượng Lớn) (concept, main: #investment, sub: [#research], topic: investment-principles)
+- [[five-types-of-wealth]] — Five Types of Wealth (concept, main: #investment, sub: [#psychology, #opinion], topic: five-types-of-wealth)
+- [[global-macro-investing]] — Global Macro Long-Short Investing (Đầu tư Vĩ mô Toàn cầu Long-Short) (concept, main: #investment, sub: [#tutorial], topic: global-macro-investing)
+- [[holy-grail-investing]] — Holy Grail of Investing (Chén Thánh Đầu Tư) (concept, main: #investment, sub: [#research], topic: investment-principles)
+- [[investment-conviction]] — Investment Conviction (concept, main: #investment, sub: [#psychology, #opinion], topic: independent-investment-research)
+- [[outsourced-thinking]] — Outsourced Thinking (concept, main: #investment, sub: [#psychology, #opinion], topic: independent-investment-research)
+- [[src_an-all-too-common-investment-story]] — An all too common investment story (source, main: #investment, sub: [#opinion, #psychology], topic: independent-investment-research)
+- [[src_global-macro-investing]] — Why I Recommend Being a Global Macro Long-Short Investor (source, main: #investment, sub: [#opinion, #tutorial], topic: global-macro-investing)
+- [[src_investment-principles-dalio]] — Investment Principles: What Should You Do Under Existing Conditions? (source, main: #investment, sub: [#opinion, #research], topic: investment-principles)
+- [[src_money-is-the-easiest-way-to-measure-your-life]] — Money Is the Easiest Way To Measure Your Life. But It Is Not the Best (source, main: #investment, sub: [#psychology, #opinion], topic: five-types-of-wealth)
 
 ## Co-occurring tags
 

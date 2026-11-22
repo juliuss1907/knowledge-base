@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: network-egress-default-deny
 auto_generated: true
-last_updated: 2026-11-14
+last_updated: 2026-11-21
 ---
 
 # Topic: network-egress-default-deny
 
 Auto-generated index of all content with topic `network-egress-default-deny`.
 
-Last updated: 2026-11-14 21:00:00
+Last updated: 2026-11-21 21:01:58
 
 ---
 
@@ -20,10 +21,8 @@ Last updated: 2026-11-14 21:00:00
 
 ## Sources (0)
 
-_No sources._
+No sources for this topic yet.
 
 ## Related topics
 
-Topics that share concepts/sources with `network-egress-default-deny`:
-
-_No overlapping topics._
+No related topics by shared files.

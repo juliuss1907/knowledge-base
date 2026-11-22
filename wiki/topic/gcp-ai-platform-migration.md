@@ -1,16 +1,17 @@
 ---
 type: index
 scope: topic
+parent: "[[topic]]"
 topic: gcp-ai-platform-migration
 auto_generated: true
-last_updated: 2026-11-14
+last_updated: 2026-11-21
 ---
 
 # Topic: gcp-ai-platform-migration
 
 Auto-generated index of all content with topic `gcp-ai-platform-migration`.
 
-Last updated: 2026-11-14 21:00:00
+Last updated: 2026-11-21 21:01:58
 
 ---
 
@@ -20,10 +21,8 @@ Last updated: 2026-11-14 21:00:00
 
 ## Sources (0)
 
-_No sources._
+No sources for this topic yet.
 
 ## Related topics
 
-Topics that share concepts/sources with `gcp-ai-platform-migration`:
-
-_No overlapping topics._
+No related topics by shared files.

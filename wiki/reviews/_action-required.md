@@ -152,7 +152,9 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 0 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 1 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+
+**Last updated (Output 2026-11-22 23:00 +0700):** Thêm báo cáo Output: 2 WARNING; quét 880 tệp, đọc chi tiết 11 tệp cập nhật hôm nay.
 
 **Duyệt 2026-11-22:** Julius duyệt 3 báo cáo Output, Format và Hygiene ngày 2026-11-21 để xử lý; chưa xác nhận đã sửa.
 

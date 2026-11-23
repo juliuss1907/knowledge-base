@@ -152,7 +152,9 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 3 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 4 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+
+**Last updated (Output 2026-11-23 23:01 +0700):** Thêm báo cáo Output: 1 WARNING tồn đọng về lỗi `Ngườ`; không có tệp mới hoặc cập nhật sau báo cáo trước.
 
 **Last updated (Output 2026-11-22 23:00 +0700):** Thêm báo cáo Output: 2 WARNING; quét 880 tệp, đọc chi tiết 11 tệp cập nhật hôm nay.
 
@@ -169,6 +171,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-23 | Output | 1 (0E+1W+0I) | [Báo cáo](2026-11-23_output-report.md): lỗi mất chữ i tồn đọng, quét bổ sung không phân biệt hoa thường. |
 | 🔍 PENDING | 11-22 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-22_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-22 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-22_format-report.md](2026-11-22_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-22 | Output | 2 (0E+2W+0I) | [Báo cáo](2026-11-22_output-report.md): giới hạn khái quát về offloading và định nghĩa transfer. |
@@ -383,6 +386,13 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-11-23 (23:01)
+
+- **Report:** [wiki/reviews/2026-11-23_output-report.md](2026-11-23_output-report.md)
+- **Summary:** 1 WARNING tồn đọng; quét cơ học 880 tệp, không có tệp mới hoặc sửa sau báo cáo trước.
+- **Actions needed:** Sau khi duyệt, sửa `Ngườ` ở `wiki/concepts/internal-locus-of-control.md:16`; quét cả chữ hoa và chữ thường.
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-11-22
 

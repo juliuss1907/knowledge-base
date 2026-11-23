@@ -6,7 +6,7 @@
 
 **Last updated (Output 2026-11-19 23:00):** Thêm báo cáo Output: 4 WARNING; 5 tệp ngày 11-07 được kiểm tra chi tiết. Số chờ bên dưới cần đối soát: trước lượt này ghi 53 nhưng mục Pending Reports có 60 tiêu đề, một mục thiếu trạng thái.
 
-**Last updated:** 2026-11-23 23:16 +0700 — Thêm báo cáo Format: 394 WARNING, 0 ERROR; số mục không đổi so với 2026-11-22.
+**Last updated:** 2026-11-23 23:31 +0700 — Thêm báo cáo Hygiene: 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp.
 
 **Last updated:** 2026-11-06
 
@@ -152,7 +152,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 5 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 6 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
 
 **Last updated (Output 2026-11-23 23:01 +0700):** Thêm báo cáo Output: 1 WARNING tồn đọng về lỗi `Ngườ`; không có tệp mới hoặc cập nhật sau báo cáo trước.
 
@@ -171,6 +171,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-23 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-23_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-23 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-23_format-report.md](2026-11-23_format-report.md); kiểm tra liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-23 | Output | 1 (0E+1W+0I) | [Báo cáo](2026-11-23_output-report.md): lỗi mất chữ i tồn đọng, quét bổ sung không phân biệt hoa thường. |
 | 🔍 PENDING | 11-22 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-22_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
@@ -387,6 +388,12 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-11-23
+
+**Status:** pending  
+**Report:** [2026-11-23_hygiene-report.md](2026-11-23_hygiene-report.md)  
+**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Số máy không đổi so với 11-22; chưa chứng minh từng đường dẫn không đổi. Giữ dữ liệu; xử lý tiến trình tạo trước. Chờ duyệt.
 
 ### 🔍 Format Validation — 2026-11-23
 

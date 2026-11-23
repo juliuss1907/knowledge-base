@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: creative-process
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Topic: creative-process
 
 Auto-generated index of all content with topic `creative-process`.
 
-Last updated: 2026-11-22 21:03:20
+Last updated: 2026-11-23 21:02:15
 
 ---
 

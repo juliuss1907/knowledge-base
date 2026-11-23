@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: post-systems-thinking
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Topic: post-systems-thinking
 
 Auto-generated index of all content with topic `post-systems-thinking`.
 
-Last updated: 2026-11-22 21:03:20
+Last updated: 2026-11-23 21:02:15
 
 ---
 

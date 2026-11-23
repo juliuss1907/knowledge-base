@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: effective-learning-methods
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Topic: effective-learning-methods
 
 Auto-generated index of all content with topic `effective-learning-methods`.
 
-Last updated: 2026-11-22 21:03:20
+Last updated: 2026-11-23 21:02:15
 
 ---
 

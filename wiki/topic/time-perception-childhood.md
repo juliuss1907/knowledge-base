@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: time-perception-childhood
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Topic: time-perception-childhood
 
 Auto-generated index of all content with topic `time-perception-childhood`.
 
-Last updated: 2026-11-22 21:03:20
+Last updated: 2026-11-23 21:02:15
 
 ---
 

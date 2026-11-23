@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: market-dynamics
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Topic: market-dynamics
 
 Auto-generated index of all content with topic `market-dynamics`.
 
-Last updated: 2026-11-22 21:03:20
+Last updated: 2026-11-23 21:02:15
 
 ---
 

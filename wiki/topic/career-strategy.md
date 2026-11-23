@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: career-strategy
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Topic: career-strategy
 
 Auto-generated index of all content with topic `career-strategy`.
 
-Last updated: 2026-11-22 21:03:20
+Last updated: 2026-11-23 21:02:15
 
 ---
 

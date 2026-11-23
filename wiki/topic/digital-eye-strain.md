@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: digital-eye-strain
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Topic: digital-eye-strain
 
 Auto-generated index of all content with topic `digital-eye-strain`.
 
-Last updated: 2026-11-22 21:03:20
+Last updated: 2026-11-23 21:02:15
 
 ---
 

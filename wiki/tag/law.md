@@ -5,10 +5,16 @@ scope: tag
 parent: "[[tag]]"
 tag: law
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Tag: #law
+
+Auto-generated index of all content tagged with `#law`.
+
+Last updated: 2026-11-23 21:02:15
+
+---
 
 ## Parent
 
@@ -19,17 +25,17 @@ last_updated: 2026-11-22
 - Total files: 7
 - Sources: 3
 - Concepts: 4
-- Last updated: 2026-11-22
+- Last updated: 2026-11-23
 
 ## Files with this tag
 
-- [[agency-law]] — Agency Law (concept)
-- [[ai-legal-personhood]] — AI Legal Personhood (concept)
-- [[confidential-computing-ai]] — Confidential Computing for AI (concept)
-- [[src_aaron-wright-ai-agents-legal-body]] — The Agent's Legal Body: How AI Agents Get the Right to Contract (source)
-- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cách nhanh nhất nộp hồ sơ bảo hiểm thất nghiệp (source)
-- [[src_letsencrypt-ai]] — Let's Encrypt AI — A position paper on private AI (source)
-- [[zero-member-llc]] — Zero-Member LLC (concept)
+- [[agency-law]] — Agency Law (concept, main: #ai, sub: [#law, #research], topic: ai-legal-personhood)
+- [[ai-legal-personhood]] — AI Legal Personhood (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[confidential-computing-ai]] — Confidential Computing for AI (concept, main: #ai, sub: [#research, #system, #law], topic: confidential-computing-ai)
+- [[src_aaron-wright-ai-agents-legal-body]] — The Agent's Legal Body: How AI Agents Get the Right to Contract (source, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cách nhanh nhất nộp hồ sơ bảo hiểm thất nghiệp (source, main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance)
+- [[src_letsencrypt-ai]] — Let's Encrypt AI — A position paper on private AI (source, main: #ai, sub: [#research, #system, #law], topic: confidential-computing-ai)
+- [[zero-member-llc]] — Zero-Member LLC (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 
 ## Co-occurring tags
 

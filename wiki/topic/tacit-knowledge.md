@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: tacit-knowledge
 auto_generated: true
-last_updated: 2026-11-22
+last_updated: 2026-11-23
 ---
 
 # Topic: tacit-knowledge
 
 Auto-generated index of all content with topic `tacit-knowledge`.
 
-Last updated: 2026-11-22 21:03:20
+Last updated: 2026-11-23 21:02:15
 
 ---
 

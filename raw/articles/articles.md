@@ -5,7 +5,7 @@ scope: articles
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-11-08
+last_updated: 2026-11-24
 ---
 
 # Articles Index
@@ -23,11 +23,12 @@ Long-form articles ingested from external sources (blogs, news sites, technical 
 
 ## Stats
 
-- Total: 165 files
-- By status: 162 processed, 3 unprocessed
-- By date: 3 this week, 3 this month
-- Last updated: 2026-11-21
+- Total: 166 files
+- By status: 162 processed, 4 unprocessed
+- By date: 4 this week, 4 this month
+- Last updated: 2026-11-24
 ## Items
+- [[2026-04-09_what-becomes-valuable-when-intelligence-is-cheap]] — What Becomes Valuable When Intelligence Is Cheap? by Houda Nait El Barj (unprocessed)
 - [[2026-11-19_what-comes-after-agi]] — What comes after AGI? by DeepMind Institute (unprocessed)
 - [[2026-11-07_what-happens-all-lights-go-out-black-sky]] — What happens if all the lights go out? This is the plan for a 'Black Sky' event by David Sillito (unprocessed)
 - [[2026-11-04_cognitive-offloading-learning-ai]] — What happens to learning when AI does the thinking for us? by Alonso Daboub (unprocessed)

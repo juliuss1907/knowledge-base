@@ -154,7 +154,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 7 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 8 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
 
 **Last updated (Output 2026-11-23 23:01 +0700):** Thêm báo cáo Output: 1 WARNING tồn đọng về lỗi `Ngườ`; không có tệp mới hoặc cập nhật sau báo cáo trước.
 
@@ -173,6 +173,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-24 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-24_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-24 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-24_format-report.md](2026-11-24_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-23 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-23_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-23 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-23_format-report.md](2026-11-23_format-report.md); kiểm tra liên kết và giới hạn bộ kiểm tra. |
@@ -391,6 +392,12 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+ 
+### 🔍 Hygiene Inspection — 2026-11-24
+
+**Status:** pending  
+**Report:** [2026-11-24_hygiene-report.md](2026-11-24_hygiene-report.md)  
+**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Các vấn đề tồn đọng được chuyển tiếp từ báo cáo 11-23; giữ dữ liệu và xử lý tiến trình tạo trước.
 
 ### 🔍 Format Validation — 2026-11-24
 

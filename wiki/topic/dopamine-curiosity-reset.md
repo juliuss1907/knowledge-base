@@ -4,24 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: dopamine-curiosity-reset
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Topic: dopamine-curiosity-reset
 
 Auto-generated index of all content with topic `dopamine-curiosity-reset`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
 ## Concepts (1)
 
-- [[dopamine-baseline-reset]] — main: #health, sub: [#psychology, #research]
+- [[dopamine-baseline-reset]] — Dopamine Baseline Reset (concept, main: #health, sub: [#psychology, #research])
 
 ## Sources (1)
 
-- [[src_why-youve-lost-your-curiosity-how-to-get-it-back]] — main: #health, sub: [#psychology, #research]
+- [[src_why-youve-lost-your-curiosity-how-to-get-it-back]] — Why You've Lost Your Curiosity (And How to Get It Back) (source, main: #health, sub: [#psychology, #research])
 
 ## Related topics
 

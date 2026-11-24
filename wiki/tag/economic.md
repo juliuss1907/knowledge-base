@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: economic
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Tag: #economic
 
 Auto-generated index of all content tagged with `#economic`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-11-23 21:02:15
 - Total files: 94
 - Sources: 19
 - Concepts: 75
-- Last updated: 2026-11-23
+- Last updated: 2026-11-24
 
 ## Files with this tag
 

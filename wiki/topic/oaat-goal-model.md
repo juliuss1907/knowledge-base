@@ -4,24 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: oaat-goal-model
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Topic: oaat-goal-model
 
 Auto-generated index of all content with topic `oaat-goal-model`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
 ## Concepts (1)
 
-- [[oaat-model]] — main: #productivity, sub: [#psychology, #strategy]
+- [[oaat-model]] — OAAT Model (Outcome → Activities → Actions → Time → Iterate) (concept, main: #productivity, sub: [#psychology, #strategy])
 
 ## Sources (1)
 
-- [[src_im-begging-you-to-manage-your-goals-like-this]] — main: #productivity, sub: [#psychology, #strategy]
+- [[src_im-begging-you-to-manage-your-goals-like-this]] — I'm Begging You to Manage Your Goals Like This (source, main: #productivity, sub: [#psychology, #strategy])
 
 ## Related topics
 

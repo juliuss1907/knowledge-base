@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: health
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Tag: #health
 
 Auto-generated index of all content tagged with `#health`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-11-23 21:02:15
 
 ## Stats
 
-- Total files: 71
-- Sources: 18
-- Concepts: 53
-- Last updated: 2026-11-23
+- Total files: 69
+- Sources: 17
+- Concepts: 52
+- Last updated: 2026-11-24
 
 ## Files with this tag
 
@@ -45,7 +45,6 @@ Last updated: 2026-11-23 21:02:15
 - [[decision-fatigue-glutamate]] — Decision Fatigue (Glutamate Depletion) (concept, main: #health, sub: [#psychology, #research], topic: post-work-fatigue)
 - [[default-mode-network]] — Default Mode Network (DMN) (concept, main: #ai, sub: [#research, #health], topic: evolutionary-mismatch-modern-life)
 - [[destination-vs-vehicle]] — Destination vs Vehicle (concept, main: #health, sub: [#psychology], topic: social-attraction-dynamics)
-- [[digital-eye-strain]] — Digital Eye Strain (concept, main: #health, sub: [#tools, #health], topic: digital-eye-strain)
 - [[digital-eye-strain]] — Digital Eye Strain (concept, main: #health, sub: [#tools, #health], topic: digital-eye-strain)
 - [[dopamine-baseline-reset]] — Dopamine Baseline Reset (concept, main: #health, sub: [#psychology, #research], topic: dopamine-curiosity-reset)
 - [[dopamine-prediction-gap]] — Dopamine Prediction Gap (concept, main: #health, sub: [#psychology], topic: social-attraction-dynamics)
@@ -81,7 +80,6 @@ Last updated: 2026-11-23 21:02:15
 - [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 thói quen "bình thường" đang hủy hoại não bộ của bạn (source, main: #health, sub: [#psychology, #research], topic: brain-health-habits)
 - [[src_compound-exercises-pareto-workouts]] — Compound Exercises — The Pareto Principle of Workouts (source, main: #health, sub: [#tutorial], topic: compound-exercises)
 - [[src_do-less]] — Do Less (source, main: #productivity, sub: [#psychology, #health, #opinion], topic: doing-less-mind-space)
-- [[src_eyesrhythm]] — EyesRhythm — Blink rate detector for Mac and Windows (source, main: #health, sub: [#tools, #health], topic: digital-eye-strain)
 - [[src_eyesrhythm]] — EyesRhythm — Blink rate detector for Mac and Windows (source, main: #health, sub: [#tools, #health], topic: digital-eye-strain)
 - [[src_get-in-shape-r3-notes]] — Get in Shape — Notes on R3's Framework (source, main: #health, sub: [#psychology, #system], topic: r3-get-in-shape)
 - [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness is a skill (here's how you can master it) (source, main: #health, sub: [#psychology, #opinion], topic: happiness-flow-state)

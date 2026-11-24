@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Tag: #automation
 
 Auto-generated index of all content tagged with `#automation`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
@@ -25,7 +25,7 @@ Last updated: 2026-11-23 21:02:15
 - Total files: 117
 - Sources: 27
 - Concepts: 90
-- Last updated: 2026-11-23
+- Last updated: 2026-11-24
 
 ## Files with this tag
 

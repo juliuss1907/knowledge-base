@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Tag: #opinion
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
@@ -22,10 +22,10 @@ Last updated: 2026-11-23 21:02:15
 
 ## Stats
 
-- Total files: 284
+- Total files: 283
 - Sources: 100
-- Concepts: 184
-- Last updated: 2026-11-23
+- Concepts: 183
+- Last updated: 2026-11-24
 
 ## Files with this tag
 
@@ -56,7 +56,6 @@ Last updated: 2026-11-23 21:02:15
 - [[business-idiot-archetype]] — Business Idiot Archetype (concept, main: #economic, sub: [#opinion, #tools], topic: ai-business-criticism)
 - [[busywork-vs-deep-work]] — Busywork vs Deep Work (concept, main: #productivity, sub: [#psychology, #opinion], topic: pareto-principle-priorities)
 - [[career-compounding]] — Career Compounding (concept, main: #productivity, sub: [#strategy, #opinion], topic: career-strategy)
-- [[casino-culture]] — Casino Culture (concept, main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth)
 - [[casino-culture]] — Casino Culture (concept, main: #productivity, sub: [#opinion, #opinion], topic: compounding-growth)
 - [[category-kings-dynamics]] — Category Kings Dynamics (concept, main: #economic, sub: [#opinion, #ai], topic: market-structure)
 - [[challenge-skills-balance]] — challenge-skills-balance (concept, main: #productivity, sub: [#psychology, #opinion], topic: procrastination-neuroscience)

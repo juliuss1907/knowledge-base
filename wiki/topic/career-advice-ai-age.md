@@ -4,28 +4,28 @@ scope: topic
 parent: "[[topic]]"
 topic: career-advice-ai-age
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Topic: career-advice-ai-age
 
 Auto-generated index of all content with topic `career-advice-ai-age`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
 ## Concepts (4)
 
-- [[human-premium]] — main: #productivity, sub: [#opinion, #psychology, #automation]
-- [[last-mile-execution]] — main: #productivity, sub: [#ai, #opinion]
-- [[out-of-distribution-experience]] — main: #productivity, sub: [#opinion, #psychology, #automation]
-- [[problem-selection]] — main: #productivity, sub: [#ai, #opinion]
+- [[human-premium]] — Human Premium (concept, main: #productivity, sub: [#opinion, #psychology, #automation])
+- [[last-mile-execution]] — Last Mile Execution (concept, main: #productivity, sub: [#ai, #opinion])
+- [[out-of-distribution-experience]] — Out-of-distribution Experience (concept, main: #productivity, sub: [#opinion, #psychology, #automation])
+- [[problem-selection]] — Problem Selection (concept, main: #productivity, sub: [#ai, #opinion])
 
 ## Sources (2)
 
-- [[src_2026-advice]] — main: #productivity, sub: [#opinion, #psychology, #automation]
-- [[src_career-advice-age-of-ai-phil-chen]] — main: #productivity, sub: [#ai, #opinion]
+- [[src_2026-advice]] — The Old World Is Dying (source, main: #productivity, sub: [#opinion, #psychology, #automation])
+- [[src_career-advice-age-of-ai-phil-chen]] — Career advice in the age of AI (source, main: #productivity, sub: [#ai, #opinion])
 
 ## Related topics
 

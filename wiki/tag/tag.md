@@ -29,21 +29,21 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - Total tags: 24
 - Main tags: 9
 - Sub tags: 15
-- Most used: #psychology (356), #productivity (339), #research (316)
-- Last updated: 2026-11-23
+- Most used: #psychology (356), #productivity (339), #research (314)
+- Last updated: 2026-11-24
 
 ## Items
 
 ### Main Tags (Pool A)
 
-- [[ai]] — AI / ML / LLM, agents, models, training, inference
+- [[ai]] — AI / ML / LLM, agents, models, training, inference (as attribute)
 - [[crypto]] — Blockchain, DeFi, tokens, exchanges, on-chain activity
 - [[economic]] — Macroeconomics, finance, markets, trading
 - [[health]] — Physical health, sleep, exercise, nutrition, biohacking
 - [[investment]] — Investment principles, portfolio management, asset allocation, risk management
 - [[politic]] — Policy, regulation, geopolitics
 - [[productivity]] — Workflows, methodologies, knowledge management, personal systems
-- [[system]] — System design, architecture, automation pipelines
+- [[system]] — System design, architecture, automation pipelines (as attribute)
 - [[tech]] — Software engineering, infrastructure, web, mobile, dev tooling
 
 ### Sub Tags (Pool B)
@@ -63,6 +63,7 @@ Auto-generated master index of all tags used in the Knowledge Base. Tracks stati
 - [[tools]] — Concrete software, products, services, libraries
 - [[tutorial]] — How-to guides, walkthroughs, step-by-step instructions
 - [[vibecode]] — Vibe coding, AI-assisted development style
+
 ## Notes
 
 <!-- Auto-managed by index-agent. Manual notes below this line. -->

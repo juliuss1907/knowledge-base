@@ -4,24 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: agent-context-database
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Topic: agent-context-database
 
 Auto-generated index of all content with topic `agent-context-database`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
 ## Concepts (1)
 
-- [[context-database]] — main: #ai, sub: [#tools, #automation]
+- [[context-database]] — Context Database (concept, main: #ai, sub: [#tools, #automation])
 
 ## Sources (1)
 
-- [[src_openviking]] — main: #ai, sub: [#tools, #automation]
+- [[src_openviking]] — OpenViking: The Context Database for AI Agents (source, main: #ai, sub: [#tools, #automation])
 
 ## Related topics
 

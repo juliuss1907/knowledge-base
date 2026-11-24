@@ -4,23 +4,24 @@ scope: topic
 parent: "[[topic]]"
 topic: creative-overwhelm-habits
 auto_generated: true
-last_updated: 2026-11-23
+last_updated: 2026-11-24
 ---
 
 # Topic: creative-overwhelm-habits
 
 Auto-generated index of all content with topic `creative-overwhelm-habits`.
 
-Last updated: 2026-11-23 21:02:15
+Last updated: 2026-11-24 21:02:40
 
 ---
 
 ## Concepts (0)
 
+No concepts with this topic yet.
 
 ## Sources (1)
 
-- [[src_how-i-stopped-feeling-overwhelmed]] — main: #productivity, sub: [#psychology, #opinion]
+- [[src_how-i-stopped-feeling-overwhelmed]] — how i stopped feeling overwhelmed by everything and started creating (source, main: #productivity, sub: [#psychology, #opinion])
 
 ## Related topics
 

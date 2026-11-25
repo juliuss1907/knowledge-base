@@ -3267,3 +3267,11 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - **Source note:** wiki/sources/src_what-becomes-valuable-when-intelligence-is-cheap.md
 - **Concepts:** [human-premium, taste-judgment, human-judgment-ai]
 - **Tags applied:** main=#ai, sub=[#opinion, #research], topic=human-value-ai-abundance
+
+## 2026-11-25 21:01:35 +07:00 — Indexed
+- Scanned: 648 concepts + 233 sources = 881 total
+- Tags indexed: 24 (9 main-tags + 20 sub-tags in taxonomy)
+- Topics indexed: 284
+- Orphans deleted: 0
+- Errors: 0
+- Invalid tags flagged: 0

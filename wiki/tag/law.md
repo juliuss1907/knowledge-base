@@ -5,14 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: law
 auto_generated: true
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 # Tag: #law
 
 Auto-generated index of all content tagged with `#law`.
 
-Last updated: 2026-11-24 21:02:40
+Last updated: 2026-11-25 21:01:35
 
 ---
 
@@ -25,22 +25,23 @@ Last updated: 2026-11-24 21:02:40
 - Total files: 7
 - Sources: 3
 - Concepts: 4
-- Last updated: 2026-11-24
+- Last updated: 2026-11-25
 
 ## Files with this tag
 
 - [[agency-law]] — Agency Law (concept, main: #ai, sub: [#law, #research], topic: ai-legal-personhood)
-- [[ai-legal-personhood]] — AI Legal Personhood (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
-- [[confidential-computing-ai]] — Confidential Computing for AI (concept, main: #ai, sub: [#research, #system, #law], topic: confidential-computing-ai)
-- [[src_aaron-wright-ai-agents-legal-body]] — The Agent's Legal Body: How AI Agents Get the Right to Contract (source, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
-- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cách nhanh nhất nộp hồ sơ bảo hiểm thất nghiệp (source, main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance)
-- [[src_letsencrypt-ai]] — Let's Encrypt AI — A position paper on private AI (source, main: #ai, sub: [#research, #system, #law], topic: confidential-computing-ai)
-- [[zero-member-llc]] — Zero-Member LLC (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[ai-legal-personhood]] — Ai Legal Personhood (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[confidential-computing-ai]] — Confidential Computing Ai (concept, main: #ai, sub: [#research, #system, #law], topic: confidential-computing-ai)
+- [[src_aaron-wright-ai-agents-legal-body]] — Aaron Wright Ai Agents Legal Body (source, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
+- [[src_cach-nhanh-nhat-nop-ho-so-bao-hiem-that-nghiep]] — Cach Nhanh Nhat Nop Ho So Bao Hiem That Nghiep (source, main: #economic, sub: [#tutorial, #law], topic: vietnam-unemployment-insurance)
+- [[src_letsencrypt-ai]] — Letsencrypt Ai (source, main: #ai, sub: [#research, #system, #law], topic: confidential-computing-ai)
+- [[zero-member-llc]] — Zero Member Llc (concept, main: #ai, sub: [#law, #tools], topic: ai-legal-personhood)
 
 ## Co-occurring tags
 
-- [[ai]] — 6 co-occurrences
-- [[research]] — 3 co-occurrences
-- [[tools]] — 3 co-occurrences
-- [[system]] — 2 co-occurrences
-- [[economic]] — 1 co-occurrence
+Tags that frequently appear with `#law`:
+- `#ai` (6 files)
+- `#tools` (3 files)
+- `#research` (3 files)
+- `#system` (2 files)
+- `#economic` (1 files)

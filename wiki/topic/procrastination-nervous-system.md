@@ -4,25 +4,21 @@ scope: topic
 parent: "[[topic]]"
 topic: procrastination-nervous-system
 auto_generated: true
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 # Topic: procrastination-nervous-system
 
 Auto-generated index of all content with topic `procrastination-nervous-system`.
 
-Last updated: 2026-11-24 21:02:40
+Last updated: 2026-11-25 21:01:35
 
 ---
 
 ## Concepts (1)
 
-- [[procrastination-as-misregulation]] — Procrastination as Misregulation (concept, main: #health, sub: [#psychology, #research])
+- [[procrastination-as-misregulation]] — main: #health, sub: [#psychology, #research]
 
 ## Sources (1)
 
-- [[src_why-you-never-start-its-not-about-motivation]] — Why You Never Start (It's Not About Motivation) (source, main: #health, sub: [#psychology, #research])
-
-## Related topics
-
-No topics share files with `procrastination-nervous-system` yet.
+- [[src_why-you-never-start-its-not-about-motivation]] — main: #health, sub: [#psychology, #research]

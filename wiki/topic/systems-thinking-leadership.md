@@ -4,25 +4,19 @@ scope: topic
 parent: "[[topic]]"
 topic: systems-thinking-leadership
 auto_generated: true
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 # Topic: systems-thinking-leadership
 
 Auto-generated index of all content with topic `systems-thinking-leadership`.
 
-Last updated: 2026-11-24 21:02:40
+Last updated: 2026-11-25 21:01:35
 
 ---
 
 ## Concepts (0)
 
-No concepts with this topic yet.
-
 ## Sources (1)
 
-- [[src_systems-thinking-leadership]] — Today’s Most Crucial Leadership Skill Is Systems Thinking (source, main: #productivity, sub: [#research, #opinion, #tutorial])
-
-## Related topics
-
-No topics share files with `systems-thinking-leadership` yet.
+- [[src_systems-thinking-leadership]] — main: #productivity, sub: [#research, #opinion, #tutorial]

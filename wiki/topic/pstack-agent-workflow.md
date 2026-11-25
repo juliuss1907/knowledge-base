@@ -4,25 +4,21 @@ scope: topic
 parent: "[[topic]]"
 topic: pstack-agent-workflow
 auto_generated: true
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 # Topic: pstack-agent-workflow
 
 Auto-generated index of all content with topic `pstack-agent-workflow`.
 
-Last updated: 2026-11-24 21:02:40
+Last updated: 2026-11-25 21:01:35
 
 ---
 
 ## Concepts (1)
 
-- [[pstack-agent-workflow]] — Pstack Agent Workflow (concept, main: #ai, sub: [#coding, #tools, #automation])
+- [[pstack-agent-workflow]] — main: #ai, sub: [#coding, #tools, #automation]
 
 ## Sources (1)
 
-- [[src_pstack-cursor-engineer-ships-code-with-ai]] — Pstack: How a Cursor Engineer Ships Code With AI (source, main: #ai, sub: [#coding, #tools, #automation])
-
-## Related topics
-
-No topics share files with `pstack-agent-workflow` yet.
+- [[src_pstack-cursor-engineer-ships-code-with-ai]] — main: #ai, sub: [#coding, #tools, #automation]

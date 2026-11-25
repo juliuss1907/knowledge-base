@@ -4,25 +4,21 @@ scope: topic
 parent: "[[topic]]"
 topic: sop-writer
 auto_generated: true
-last_updated: 2026-11-24
+last_updated: 2026-11-25
 ---
 
 # Topic: sop-writer
 
 Auto-generated index of all content with topic `sop-writer`.
 
-Last updated: 2026-11-24 21:02:40
+Last updated: 2026-11-25 21:01:35
 
 ---
 
 ## Concepts (1)
 
-- [[standard-operating-procedure]] — standard-operating-procedure (concept, main: #productivity, sub: [#tools, #automation])
+- [[standard-operating-procedure]] — main: #productivity, sub: [#tools, #automation]
 
 ## Sources (1)
 
-- [[src_sop-writer-skill]] — SOP Writer — Claude AI Skill (source, main: #productivity, sub: [#tools, #automation])
-
-## Related topics
-
-No topics share files with `sop-writer` yet.
+- [[src_sop-writer-skill]] — main: #productivity, sub: [#tools, #automation]

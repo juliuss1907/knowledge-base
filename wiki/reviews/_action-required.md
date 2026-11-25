@@ -6,7 +6,7 @@
 
 **Last updated (Output 2026-11-19 23:00):** Thêm báo cáo Output: 4 WARNING; 5 tệp ngày 11-07 được kiểm tra chi tiết. Số chờ bên dưới cần đối soát: trước lượt này ghi 53 nhưng mục Pending Reports có 60 tiêu đề, một mục thiếu trạng thái.
 
-**Last updated:** 2026-11-24 23:30 +0700 — Thêm báo cáo Hygiene: 7 nhóm (4 ERROR, 3 WARNING), 312 phát hiện máy; các mục chờ cũ có trạng thái không nhất quán cần đối soát riêng.
+**Last updated:** 2026-11-25 23:15 +0700 — Thêm báo cáo Format: 394 WARNING; các mục chờ cũ có trạng thái không nhất quán cần đối soát riêng.
 
 **Last updated:** 2026-11-06
 
@@ -154,7 +154,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 9 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 10 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
 
 **Last updated (Output 2026-11-25 23:00 +0700):** Thêm báo cáo Output: 3 WARNING về khẳng định thiếu điều kiện trong 3 concept; 4 tệp mới hoặc cập nhật được kiểm tra chi tiết.
 
@@ -175,6 +175,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-25 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-25_format-report.md](2026-11-25_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-25 | Output | 3 (0E+3W+0I) | [Báo cáo](2026-11-25_output-report.md): xem lại các khẳng định tuyệt đối và dự báo chưa gắn nguồn. |
 | 🔍 PENDING | 11-24 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-24_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-24 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-24_format-report.md](2026-11-24_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
@@ -395,6 +396,14 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-11-25
+
+- **Báo cáo:** [wiki/reviews/2026-11-25_format-report.md](2026-11-25_format-report.md)
+- **Tóm tắt:** 1.199 tệp; 394 WARNING, 0 ERROR, 0 INFO. Gồm 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
+- **So với 2026-11-24:** thêm 2 tệp, tổng cảnh báo và số đích riêng không đổi; không có đủ dữ liệu để khẳng định toàn bộ thành phần không đổi.
+- **Hành động:** Duyệt 20 mục ưu tiên; xác minh ngữ cảnh trước khi sửa liên kết. Xem các giới hạn của bộ kiểm tra trong báo cáo.
+- **Trạng thái:** PENDING.
 
 ### 🔍 Output Validation — 2026-11-25 (23:00)
 

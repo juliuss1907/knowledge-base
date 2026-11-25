@@ -4,10 +4,8 @@ status: reviewed
 main_tag: ai
 sub_tags: [opinion, research]
 topic: ai-systems-thinking-augmentation
-sources:
-  - "[[src_will-ai-replace-systems-thinking]]"
-  - "[[src_unreasonable-effectiveness-of-html]]"
-last_updated: 2026-10-03
+sources: ["[[src_will-ai-replace-systems-thinking]]", "[[src_unreasonable-effectiveness-of-html]]", "[[src_what-becomes-valuable-when-intelligence-is-cheap]]"]
+last_updated: 2026-11-25
 ---
 
 # Human Judgment AI
@@ -25,6 +23,8 @@ Human Judgment AI là khả năng con người duy trì vai trò quyết định
 - **Second-order thinking:** Đánh giá hệ quả gián tiếp đòi hỏi sự phản biện của con người
 - **Bàn giao rồi bỏ qua là dạng mất quyền quyết định âm thầm:** Thariq Shihipar (Anthropic) nhận ra khi Claude gánh nhiều việc hơn, ông đọc plan kỹ hơn trước — nên chuyển sang HTML artifact để giữ mình gắn với lựa chọn của Claude thay vì chỉ bàn giao
 - **Tương tác hai chiều giữ lại quyền quyết định:** slider, knob, editor throwaway cho phép điều chỉnh và xem hậu quả ngay, với nút export đưa thay đổi ngược lại thành prompt — xem [[throwaway-editing-interface]]
+- Khi AI đảm nhận toàn bộ chu trình tạo dịch vụ, human judgment chuyển sang đặt hướng, review, audit và chịu accountability cho reliability, security và alignment của output.
+- Agency không nhất thiết giảm khi ủy quyền cho AI; nó phụ thuộc vào việc con người chủ động xác định những quyết định nào vẫn thuộc về mình.
 
 ## Related concepts
 
@@ -32,11 +32,14 @@ Human Judgment AI là khả năng con người duy trì vai trò quyết định
 - [[second-order-effects]]
 - [[html-as-agent-output-format]]
 - [[throwaway-editing-interface]]
+- [[human-premium]]
+- [[taste-judgment]]
 
 ## Sources
 
 - [[src_will-ai-replace-systems-thinking]]
 - [[src_unreasonable-effectiveness-of-html]] — Thariq Shihipar, Anthropic (2026-05-20)
+- [[src_what-becomes-valuable-when-intelligence-is-cheap]]
 
 ## Backlinks
 

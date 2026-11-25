@@ -4,10 +4,8 @@ status: draft
 main_tag: productivity
 sub_tags: [opinion, psychology, automation]
 topic: career-advice-ai-age
-sources:
-  - "[[src_2026-advice]]"
-  - "[[src_career-advice-age-of-ai-phil-chen]]"
-last_updated: 2026-07-07
+sources: ["[[src_2026-advice]]", "[[src_career-advice-age-of-ai-phil-chen]]", "[[src_what-becomes-valuable-when-intelligence-is-cheap]]"]
+last_updated: 2026-11-25
 ---
 
 # Human Premium
@@ -23,17 +21,21 @@ Giá trị gia tăng của con người trong các dịch vụ hoặc tương t�
 - Kỹ năng xã hội không phải là bẩm sinh mà có thể rèn luyện được bằng cách quan sát và học hỏi những đặc điểm khiến người khác tỏa sáng.
 - Trong kỷ nguyên AI, unique perspective và attention to detail ở "last mile" là những yếu tố tạo ra sự khác biệt của con người so với kết quả median do AI tạo ra — đây chính là human premium trong thực hành.
 - Real, durable value chỉ đến từ việc tập trung vào những vấn đề thực sự ambitious — AI làm cho median outcome dễ đạt được hơn, nhưng premium nằm ở việc push beyond median.
+- Khi intelligence và execution trở nên dồi dào, human premium còn nằm ở trust, presence, craftsmanship và tính chính danh mà người khác có thể nhận ra và cùng xác nhận.
+- Các dịch vụ giàu physicality, care hoặc shared experience có comparative advantage của con người vì giá trị của chúng không chỉ là output mà còn là cảm giác được kết nối.
 
 ## Related concepts
 
 - [[out-of-distribution-experience]]
 - [[last-mile-execution]]
 - [[problem-selection]]
+- [[taste-judgment]]
+- [[human-judgment-ai]]
 
 ## Sources
 
 - [[src_2026-advice]]
 - [[src_career-advice-age-of-ai-phil-chen]]
+- [[src_what-becomes-valuable-when-intelligence-is-cheap]]
 
 ## Notes
-

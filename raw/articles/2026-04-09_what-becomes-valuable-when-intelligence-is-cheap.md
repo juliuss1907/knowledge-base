@@ -5,7 +5,9 @@ url: https://houdanait.substack.com/p/what-becomes-valuable-when-intelligence
 author: Houda Nait El Barj
 date_published: 2026-04-09
 date_ingested: 2026-11-24
-status: unprocessed
+status: processed
+compiled_at: 2026-11-25
+compiled_to: "[[src_what-becomes-valuable-when-intelligence-is-cheap]]"
 source: houdanait.substack.com
 ---
 

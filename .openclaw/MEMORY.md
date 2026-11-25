@@ -3261,3 +3261,9 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Tags indexed: 24 (9 main-tags + 15 sub-tags)
 - Topics indexed: 283
 - Orphans deleted: 0
+
+## 2026-11-25 08:00:00 — Compiled
+- **Raw:** raw/articles/2026-04-09_what-becomes-valuable-when-intelligence-is-cheap.md
+- **Source note:** wiki/sources/src_what-becomes-valuable-when-intelligence-is-cheap.md
+- **Concepts:** [human-premium, taste-judgment, human-judgment-ai]
+- **Tags applied:** main=#ai, sub=[#opinion, #research], topic=human-value-ai-abundance

@@ -4,10 +4,8 @@ status: draft
 main_tag: productivity
 sub_tags: [psychology, opinion]
 topic: skill-tiers-framework
-sources:
-  - "[[src_3-tang-skill-dang-hoc]]"
-  - "[[src_how-i-design-with-ai]]"
-last_updated: 2026-08-29
+sources: ["[[src_3-tang-skill-dang-hoc]]", "[[src_how-i-design-with-ai]]", "[[src_what-becomes-valuable-when-intelligence-is-cheap]]"]
+last_updated: 2026-11-25
 ---
 
 # Taste Judgment
@@ -26,6 +24,7 @@ Taste/Judgment là khả năng phân biệt tốt-dở trong một domain cụ t
 - Taste là compound skill — càng có nhiều taste trong nhiều domain, khả năng đưa ra judgment đúng càng cao
 - Matt Dailey: taste = reflecting on your own reaction to something; product engineers giỏi identify khi design không work nhưng thiếu solution library (experience) để biết cách fix — cần reps trying things và reflecting
 - Approach "agricultural threshing" (Ref): throw design vào giữa và beat it với sticks cho đến khi cảm thấy ổn — dùng reps và critique để refine taste
+- Khi AI khiến production gần như miễn phí, taste, judgment và curation trở thành lớp khan hiếm: giá trị nằm ở việc quyết định output nào xứng đáng được chú ý, không chỉ ở việc tạo thêm output.
 
 ## Related concepts
 
@@ -33,8 +32,11 @@ Taste/Judgment là khả năng phân biệt tốt-dở trong một domain cụ t
 - [[codified-taste]]
 - [[systems-thinking]]
 - [[deliberate-practice]]
+- [[human-premium]]
+- [[human-judgment-ai]]
 
 ## Sources
 
 - [[src_3-tang-skill-dang-hoc]]
 - [[src_how-i-design-with-ai]]
+- [[src_what-becomes-valuable-when-intelligence-is-cheap]]

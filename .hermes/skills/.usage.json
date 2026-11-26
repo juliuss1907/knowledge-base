@@ -178,14 +178,14 @@
     "created_by": "agent",
     "last_patched_at": "2026-10-04T12:33:17.491463+00:00",
     "last_reused_patch_generation": 1,
-    "last_used_at": "2026-11-26T01:47:21.429456+00:00",
-    "last_viewed_at": "2026-11-26T01:47:21.421617+00:00",
+    "last_used_at": "2026-11-26T02:09:17.271375+00:00",
+    "last_viewed_at": "2026-11-26T02:09:17.254275+00:00",
     "patch_count": 1,
     "patch_generation": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
+    "use_count": 4,
+    "view_count": 4
   },
   "claude-code": {
     "archived_at": "2026-09-22T03:36:28.179864+00:00",
@@ -752,14 +752,14 @@
     "created_by": null,
     "last_patched_at": "2026-10-02T03:07:52.505569+00:00",
     "last_reused_patch_generation": 2,
-    "last_used_at": "2026-11-26T01:47:21.481129+00:00",
-    "last_viewed_at": "2026-11-26T01:47:21.475221+00:00",
+    "last_used_at": "2026-11-26T02:09:17.321492+00:00",
+    "last_viewed_at": "2026-11-26T02:09:17.316670+00:00",
     "patch_count": 66,
     "patch_generation": 2,
     "pinned": false,
     "state": "active",
-    "use_count": 139,
-    "view_count": 139
+    "use_count": 140,
+    "view_count": 140
   },
   "llama-cpp": {
     "archived_at": null,
@@ -914,14 +914,14 @@
     "created_by": null,
     "last_patched_at": null,
     "last_reused_patch_generation": 0,
-    "last_used_at": "2026-11-26T01:47:21.425227+00:00",
-    "last_viewed_at": "2026-11-26T01:47:21.417978+00:00",
+    "last_used_at": "2026-11-26T02:09:17.310333+00:00",
+    "last_viewed_at": "2026-11-26T02:09:17.300167+00:00",
     "patch_count": 0,
     "patch_generation": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 5,
-    "view_count": 5
+    "use_count": 6,
+    "view_count": 6
   },
   "ocr-and-documents": {
     "archived_at": null,

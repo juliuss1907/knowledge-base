@@ -5,7 +5,7 @@ scope: videos
 parent: "[[raw]]"
 auto_generated: false
 items_managed_by: ingest-agent
-last_updated: 2026-05-28
+last_updated: 2026-11-26
 ---
 
 # Posts Index
@@ -20,12 +20,13 @@ Video content from YouTube and other platforms.
 
 ## Stats
 
-- Total: 13 files
-- By status: 10 processed, 3 unprocessed
-- By date: 1 this week, 2 this month
-- Last updated: 2026-11-19
+- Total: 14 files
+- By status: 10 processed, 4 unprocessed
+- By date: 2 this week, 3 this month
+- Last updated: 2026-11-26
 
 ## Items
+- [[2026-11-25_how-21-people-built-100m-agent-company]] — How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp (unprocessed)
 - [[2026-11-14_all-code-is-slop-except-mine]] — All Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI by AI Engineer (unprocessed)
 - [[2026-11-14_ultimate-guide-rule-files-ai-coding]] — The Ultimate Guide to Rule Files for AI-Assisted Coding by Alex (Grit AI Studio) (unprocessed)
 - [[2026-10-15_pstack-cursor-engineer-ships-code-with-ai]] — Pstack: How a Cursor Engineer Ships Code With AI by Eric Tech (unprocessed)

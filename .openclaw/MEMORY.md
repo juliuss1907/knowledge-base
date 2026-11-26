@@ -1296,6 +1296,12 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Errors: 0
 - Invalid tags flagged: 0
 
+## 2026-11-26 — Ingested
+- **Raw:** raw/videos/2026-11-25_how-21-people-built-100m-agent-company.md
+- **URL:** https://youtu.be/Xyb1Bn_L2U4
+- **Source:** YouTube / AI Engineer
+- **Status:** unprocessed
+
 ## 2026-08-23 08:15:00 +07:00 — Compiled (batch 4 files, catch-up cho cron 08:00 miss)
 
 - **Raw:** raw/articles/2026-08-08_strategy-vs-tactics-dan-koe.md

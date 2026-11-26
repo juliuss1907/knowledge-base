@@ -4,19 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: talent-stack
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: talent-stack
 
 Auto-generated index of all content with topic `talent-stack`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
 
 ## Concepts (1)
 
 - [[talent-stack]] — main: #productivity, sub: [#psychology]
-
-## Sources (0)

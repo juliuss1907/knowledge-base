@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: vectors-fundamentals
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: vectors-fundamentals
 
 Auto-generated index of all content with topic `vectors-fundamentals`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: rule-files-ai-coding
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: rule-files-ai-coding
 
 Auto-generated index of all content with topic `rule-files-ai-coding`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
 

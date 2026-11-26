@@ -4,19 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: cognitive-biases-learning
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: cognitive-biases-learning
 
 Auto-generated index of all content with topic `cognitive-biases-learning`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
 
 ## Concepts (1)
 
 - [[fluency-illusion]] — main: #productivity, sub: [#psychology]
-
-## Sources (0)

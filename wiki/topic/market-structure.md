@@ -4,19 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: market-structure
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: market-structure
 
 Auto-generated index of all content with topic `market-structure`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
 
 ## Concepts (1)
 
 - [[category-kings-dynamics]] — main: #economic, sub: [#opinion, #ai]
-
-## Sources (0)

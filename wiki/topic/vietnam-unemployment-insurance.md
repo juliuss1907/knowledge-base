@@ -4,18 +4,16 @@ scope: topic
 parent: "[[topic]]"
 topic: vietnam-unemployment-insurance
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: vietnam-unemployment-insurance
 
 Auto-generated index of all content with topic `vietnam-unemployment-insurance`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
-
-## Concepts (0)
 
 ## Sources (1)
 

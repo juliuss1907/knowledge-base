@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: claude-power-user-system
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: claude-power-user-system
 
 Auto-generated index of all content with topic `claude-power-user-system`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
 

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: growth-mindset
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: growth-mindset
 
 Auto-generated index of all content with topic `growth-mindset`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
 
@@ -20,5 +20,3 @@ Last updated: 2026-11-25 21:01:35
 - [[growth-and-relationships]] — main: #productivity, sub: [#psychology, #opinion]
 - [[internal-alignment]] — main: #productivity, sub: [#psychology, #opinion]
 - [[productive-discomfort]] — main: #productivity, sub: [#psychology, #opinion]
-
-## Sources (0)

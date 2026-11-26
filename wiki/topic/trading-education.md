@@ -4,19 +4,17 @@ scope: topic
 parent: "[[topic]]"
 topic: trading-education
 auto_generated: true
-last_updated: 2026-11-25
+last_updated: 2026-11-26
 ---
 
 # Topic: trading-education
 
 Auto-generated index of all content with topic `trading-education`.
 
-Last updated: 2026-11-25 21:01:35
+Last updated: 2026-11-26 21:00:35
 
 ---
 
 ## Concepts (1)
 
 - [[retail-trading-fantasy]] — main: #economic, sub: [#opinion, #psychology]
-
-## Sources (0)

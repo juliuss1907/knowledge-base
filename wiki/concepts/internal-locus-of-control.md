@@ -6,14 +6,14 @@ sub_tags: [psychology]
 topic: personal-excellence-mindset
 sources:
   - "[[src_ill-make-you-believe-you-can-achieve]]"
-last_updated: 2026-07-21
+last_updated: 2026-11-26
 ---
 
 # Internal Locus of Control
 
 ## Definition
 
-Internal locus of control (điểm kiểm soát nội tại) là niềm tin tâm lý rằng bản thân là tác giả của vận mệnh mình. Ngườ có internal locus of control tin rằng họ tạo ra kết quả, đưa ra quyết định thay đổi cuộc sống, và hoàn toàn chịu trách nhiệm về hành động của mình.
+Internal locus of control (điểm kiểm soát nội tại) là niềm tin tâm lý rằng bản thân là tác giả của vận mệnh mình. Người có internal locus of control tin rằng họ tạo ra kết quả, đưa ra quyết định thay đổi cuộc sống, và hoàn toàn chịu trách nhiệm về hành động của mình.
 
 ## Key ideas
 
@@ -33,4 +33,3 @@ Internal locus of control (điểm kiểm soát nội tại) là niềm tin tâm
 - [[src_ill-make-you-believe-you-can-achieve]]
 
 ## Notes
-

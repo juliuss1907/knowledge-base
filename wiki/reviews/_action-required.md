@@ -146,6 +146,8 @@
 
 ## Summary
 
+**Duyệt 2026-11-26 08:38 +0700:** Julius duyệt 11 báo cáo đang chờ ngày 2026-11-22 đến 2026-11-25 để xử lý; chưa xác nhận đã sửa.
+
 **Output 2026-11-24:** Quét cơ học 880 tệp; không có tệp mới hoặc sửa sau báo cáo trước, không có vấn đề mới cần duyệt. Lỗi `Ngườ` đã báo ngày 11-23 vẫn tồn đọng. Xem [báo cáo](2026-11-24_output-report.md). Không thay đổi hàng đợi.
 
 **Output 2026-11-20:** Không có tệp mới hoặc thay đổi kể từ báo cáo trước; không có vấn đề mới cần duyệt. Xem [báo cáo](2026-11-20_output-report.md). Không thay đổi hàng đợi.
@@ -154,7 +156,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 11 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 0 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
 
 **Last updated (Output 2026-11-25 23:00 +0700):** Thêm báo cáo Output: 3 WARNING về khẳng định thiếu điều kiện trong 3 concept; 4 tệp mới hoặc cập nhật được kiểm tra chi tiết.
 
@@ -175,17 +177,17 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
-| 🔍 PENDING | 11-25 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-25_hygiene-report.md): 312 phát hiện máy chưa gộp; giữ dữ liệu, xử lý tiến trình tạo trước. |
-| 🔍 PENDING | 11-25 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-25_format-report.md](2026-11-25_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
-| 🔍 PENDING | 11-25 | Output | 3 (0E+3W+0I) | [Báo cáo](2026-11-25_output-report.md): xem lại các khẳng định tuyệt đối và dự báo chưa gắn nguồn. |
-| 🔍 PENDING | 11-24 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-24_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
-| 🔍 PENDING | 11-24 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-24_format-report.md](2026-11-24_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
-| 🔍 PENDING | 11-23 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-23_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
-| 🔍 PENDING | 11-23 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-23_format-report.md](2026-11-23_format-report.md); kiểm tra liên kết và giới hạn bộ kiểm tra. |
-| 🔍 PENDING | 11-23 | Output | 1 (0E+1W+0I) | [Báo cáo](2026-11-23_output-report.md): lỗi mất chữ i tồn đọng, quét bổ sung không phân biệt hoa thường. |
-| 🔍 PENDING | 11-22 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-22_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
-| 🔍 PENDING | 11-22 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-22_format-report.md](2026-11-22_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
-| 🔍 PENDING | 11-22 | Output | 2 (0E+2W+0I) | [Báo cáo](2026-11-22_output-report.md): giới hạn khái quát về offloading và định nghĩa transfer. |
+| ✅ APPROVED | 11-25 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-25_hygiene-report.md): 312 phát hiện máy chưa gộp; giữ dữ liệu, xử lý tiến trình tạo trước. |
+| ✅ APPROVED | 11-25 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-25_format-report.md](2026-11-25_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
+| ✅ APPROVED | 11-25 | Output | 3 (0E+3W+0I) | [Báo cáo](2026-11-25_output-report.md): xem lại các khẳng định tuyệt đối và dự báo chưa gắn nguồn. |
+| ✅ APPROVED | 11-24 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-24_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
+| ✅ APPROVED | 11-24 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-24_format-report.md](2026-11-24_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
+| ✅ APPROVED | 11-23 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-23_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
+| ✅ APPROVED | 11-23 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-23_format-report.md](2026-11-23_format-report.md); kiểm tra liên kết và giới hạn bộ kiểm tra. |
+| ✅ APPROVED | 11-23 | Output | 1 (0E+1W+0I) | [Báo cáo](2026-11-23_output-report.md): lỗi mất chữ i tồn đọng, quét bổ sung không phân biệt hoa thường. |
+| ✅ APPROVED | 11-22 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-22_hygiene-report.md): 312 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
+| ✅ APPROVED | 11-22 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-22_format-report.md](2026-11-22_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
+| ✅ APPROVED | 11-22 | Output | 2 (0E+2W+0I) | [Báo cáo](2026-11-22_output-report.md): giới hạn khái quát về offloading và định nghĩa transfer. |
 | ✅ APPROVED | 11-21 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-21_hygiene-report.md): 308 phát hiện máy; giữ dữ liệu và xử lý tiến trình tạo trước. |
 | ✅ APPROVED | 11-21 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-21_format-report.md](2026-11-21_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | ✅ APPROVED | 11-21 | Output | 3 (0E+3W+0I) | [Báo cáo](2026-11-21_output-report.md): xem 3 vấn đề trước khi sửa. |
@@ -398,80 +400,6 @@
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
 
-### 🔍 Hygiene Inspection — 2026-11-25
-
-**Status:** pending  
-**Report:** [2026-11-25_hygiene-report.md](2026-11-25_hygiene-report.md)  
-**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Chuyển tiếp báo cáo 11-24 còn chờ; giữ dữ liệu và xử lý tiến trình tạo trước. Bộ quét không cắt `node_modules/` và `.obsidian/` khỏi quá trình duyệt như mô tả trước đây.
-
-### 🔍 Format Validation — 2026-11-25
-
-- **Báo cáo:** [wiki/reviews/2026-11-25_format-report.md](2026-11-25_format-report.md)
-- **Tóm tắt:** 1.199 tệp; 394 WARNING, 0 ERROR, 0 INFO. Gồm 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
-- **So với 2026-11-24:** thêm 2 tệp, tổng cảnh báo và số đích riêng không đổi; không có đủ dữ liệu để khẳng định toàn bộ thành phần không đổi.
-- **Hành động:** Duyệt 20 mục ưu tiên; xác minh ngữ cảnh trước khi sửa liên kết. Xem các giới hạn của bộ kiểm tra trong báo cáo.
-- **Trạng thái:** PENDING.
-
-### 🔍 Output Validation — 2026-11-25 (23:00)
-
-- **Report:** `wiki/reviews/2026-11-25_output-report.md`
-- **Summary:** 3 WARNING, 0 ERROR, 0 INFO; kiểm tra chi tiết 4 tệp mới hoặc cập nhật.
-- **Actions needed:** Đối chiếu nguồn, giới hạn các khẳng định tuyệt đối và gắn các dự báo với tác giả.
-- **Status:** pending
-
-### 🔍 Hygiene Inspection — 2026-11-24
-
-**Status:** pending  
-**Report:** [2026-11-24_hygiene-report.md](2026-11-24_hygiene-report.md)  
-**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Các vấn đề tồn đọng được chuyển tiếp từ báo cáo 11-23; giữ dữ liệu và xử lý tiến trình tạo trước.
-
-### 🔍 Format Validation — 2026-11-24
-
-- Báo cáo: [wiki/reviews/2026-11-24_format-report.md](2026-11-24_format-report.md). Trạng thái: PENDING.
-- Kiểm tra 1197 tệp; 394 mục: 0 ERROR, 394 WARNING, 0 INFO. 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
-- So với lượt 2026-11-23 đang chờ: tổng số và phân bố không đổi; chưa đủ dữ liệu để khẳng định toàn bộ thành phần không đổi.
-- Kiểm tra ngữ cảnh từng liên kết trước khi sửa; lưu ý giới hạn của bộ kiểm tra trong báo cáo.
-
-### 🔍 Hygiene Inspection — 2026-11-23
-
-**Status:** pending  
-**Report:** [2026-11-23_hygiene-report.md](2026-11-23_hygiene-report.md)  
-**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Số máy không đổi so với 11-22; chưa chứng minh từng đường dẫn không đổi. Giữ dữ liệu; xử lý tiến trình tạo trước. Chờ duyệt.
-
-### 🔍 Format Validation — 2026-11-23
-
-- **Báo cáo:** [wiki/reviews/2026-11-23_format-report.md](2026-11-23_format-report.md)
-- **Tóm tắt:** 1.197 tệp; 394 vấn đề do bộ kiểm tra báo, gồm 0 ERROR, 394 WARNING, 0 INFO. Có 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
-- **Thay đổi:** Các số tổng không đổi so với lượt 2026-11-22 đang chờ duyệt; chưa có đủ dữ liệu để kết luận toàn bộ thành phần không đổi.
-- **Hành động:** Kiểm tra ngữ cảnh trước khi sửa liên kết; xem các giới hạn của bộ kiểm tra trong báo cáo. Chờ Julius duyệt.
-
-### 🔍 Output Validation — 2026-11-23 (23:01)
-
-- **Report:** [wiki/reviews/2026-11-23_output-report.md](2026-11-23_output-report.md)
-- **Summary:** 1 WARNING tồn đọng; quét cơ học 880 tệp, không có tệp mới hoặc sửa sau báo cáo trước.
-- **Actions needed:** Sau khi duyệt, sửa `Ngườ` ở `wiki/concepts/internal-locus-of-control.md:16`; quét cả chữ hoa và chữ thường.
-- **Status:** pending
-
-### 🔍 Hygiene Inspection — 2026-11-22
-
-**Status:** pending  
-**Report:** [2026-11-22_hygiene-report.md](2026-11-22_hygiene-report.md)  
-**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. So với 11-21, cảnh báo tệp con `memory/` tăng 289 → 293. Các vấn đề đã duyệt trước đó chưa được xác nhận đã sửa. Giữ dữ liệu; xử lý tiến trình tạo trước.
-
-### 🔍 Format Validation — 2026-11-22
-
-- **Report:** [wiki/reviews/2026-11-22_format-report.md](2026-11-22_format-report.md)
-- **Summary:** 1.197 tệp; 394 WARNING, không có ERROR hoặc INFO theo bộ kiểm tra. Gồm 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
-- **Delta:** So với báo cáo 2026-11-21 đã duyệt: thêm ròng 6 tệp; các số tổng không đổi. Chưa xác nhận thành phần cảnh báo hoàn toàn không đổi.
-- **Actions:** Kiểm tra ngữ cảnh và đích liên kết trước khi sửa; lưu ý các giới hạn của bộ kiểm tra trong báo cáo. Chờ Julius duyệt.
-
-### 🔍 Output Validation — 2026-11-22 (23:00)
-
-- **Report:** [wiki/reviews/2026-11-22_output-report.md](2026-11-22_output-report.md)
-- **Summary:** 2 WARNING, 0 ERROR, 0 INFO; quét cơ học 880 tệp, đọc chi tiết 11 tệp cập nhật hôm nay.
-- **Actions needed:** Giới hạn khái quát về tác động offloading; phân biệt năng lực có hỗ trợ với năng lực độc lập trong định nghĩa transfer.
-- **Status:** pending
-
 ### ✅ Hygiene Inspection — 2026-11-21
 
 **Status:** approved — Approved by: Julius  
@@ -602,6 +530,92 @@
 - **Actions needed:** (a) Fix Agent sửa 3 issue dòng đơn trong `wiki/concepts/` — `directors-brief.md:20`, `harness-engineering.md:36`, 2 ý trùng; (b) `raw/` issues (4, 5) ngoài write zone của Output Validator — chuyển Hygiene/Ingest; (c) **Julius chốt ngưỡng trùng lặp** — câu hỏi đang treo từ 10-02, giờ là lần thứ 3 có evidence mới; (d) thêm regex biến thể 6 (`ký t[^ự]`) vào `quick-scan.sh` với whitelist `ký tên`.
 - **Carry-over từ 10-03:** 🟢 3/7 đã đóng (ERROR 200K-vs-1M; 4 concept thiếu `## Notes`). 4 còn treo. **🟢 Backup cron đã phục hồi** — HEAD `68f644e7` khớp `refs/heads/master`; chuỗi "dừng 9,11 ngày" kết thúc. Remote default branch vẫn là `main` (`ead50c82`) — cần xác nhận máy chính push đúng nhánh.
 - **Status:** pending
+
+
+
+## Báo cáo vừa duyệt — 2026-11-26
+
+### ✅ Hygiene Inspection — 2026-11-25
+
+**Status:** approved — Approved by: Julius
+**Report:** [2026-11-25_hygiene-report.md](2026-11-25_hygiene-report.md)  
+**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Chuyển tiếp báo cáo 11-24 còn chờ; giữ dữ liệu và xử lý tiến trình tạo trước. Bộ quét không cắt `node_modules/` và `.obsidian/` khỏi quá trình duyệt như mô tả trước đây.
+
+### ✅ Format Validation — 2026-11-25
+
+- **Status:** approved — Approved by: Julius
+
+- **Báo cáo:** [wiki/reviews/2026-11-25_format-report.md](2026-11-25_format-report.md)
+- **Tóm tắt:** 1.199 tệp; 394 WARNING, 0 ERROR, 0 INFO. Gồm 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
+- **So với 2026-11-24:** thêm 2 tệp, tổng cảnh báo và số đích riêng không đổi; không có đủ dữ liệu để khẳng định toàn bộ thành phần không đổi.
+- **Hành động:** Duyệt 20 mục ưu tiên; xác minh ngữ cảnh trước khi sửa liên kết. Xem các giới hạn của bộ kiểm tra trong báo cáo.
+- **Trạng thái:** PENDING.
+
+### ✅ Output Validation — 2026-11-25 (23:00)
+
+- **Report:** `wiki/reviews/2026-11-25_output-report.md`
+- **Summary:** 3 WARNING, 0 ERROR, 0 INFO; kiểm tra chi tiết 4 tệp mới hoặc cập nhật.
+- **Actions needed:** Đối chiếu nguồn, giới hạn các khẳng định tuyệt đối và gắn các dự báo với tác giả.
+- **Status:** approved — Approved by: Julius
+
+### ✅ Hygiene Inspection — 2026-11-24
+
+**Status:** approved — Approved by: Julius
+**Report:** [2026-11-24_hygiene-report.md](2026-11-24_hygiene-report.md)  
+**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Các vấn đề tồn đọng được chuyển tiếp từ báo cáo 11-23; giữ dữ liệu và xử lý tiến trình tạo trước.
+
+### ✅ Format Validation — 2026-11-24
+
+- **Status:** approved — Approved by: Julius
+
+- Báo cáo: [wiki/reviews/2026-11-24_format-report.md](2026-11-24_format-report.md). Trạng thái: PENDING.
+- Kiểm tra 1197 tệp; 394 mục: 0 ERROR, 394 WARNING, 0 INFO. 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
+- So với lượt 2026-11-23 đang chờ: tổng số và phân bố không đổi; chưa đủ dữ liệu để khẳng định toàn bộ thành phần không đổi.
+- Kiểm tra ngữ cảnh từng liên kết trước khi sửa; lưu ý giới hạn của bộ kiểm tra trong báo cáo.
+
+### ✅ Hygiene Inspection — 2026-11-23
+
+**Status:** approved — Approved by: Julius
+**Report:** [2026-11-23_hygiene-report.md](2026-11-23_hygiene-report.md)  
+**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Số máy không đổi so với 11-22; chưa chứng minh từng đường dẫn không đổi. Giữ dữ liệu; xử lý tiến trình tạo trước. Chờ duyệt.
+
+### ✅ Format Validation — 2026-11-23
+
+- **Status:** approved — Approved by: Julius
+
+- **Báo cáo:** [wiki/reviews/2026-11-23_format-report.md](2026-11-23_format-report.md)
+- **Tóm tắt:** 1.197 tệp; 394 vấn đề do bộ kiểm tra báo, gồm 0 ERROR, 394 WARNING, 0 INFO. Có 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
+- **Thay đổi:** Các số tổng không đổi so với lượt 2026-11-22 đang chờ duyệt; chưa có đủ dữ liệu để kết luận toàn bộ thành phần không đổi.
+- **Hành động:** Kiểm tra ngữ cảnh trước khi sửa liên kết; xem các giới hạn của bộ kiểm tra trong báo cáo. Chờ Julius duyệt.
+
+### ✅ Output Validation — 2026-11-23 (23:01)
+
+- **Report:** [wiki/reviews/2026-11-23_output-report.md](2026-11-23_output-report.md)
+- **Summary:** 1 WARNING tồn đọng; quét cơ học 880 tệp, không có tệp mới hoặc sửa sau báo cáo trước.
+- **Actions needed:** Sau khi duyệt, sửa `Ngườ` ở `wiki/concepts/internal-locus-of-control.md:16`; quét cả chữ hoa và chữ thường.
+- **Status:** approved — Approved by: Julius
+
+### ✅ Hygiene Inspection — 2026-11-22
+
+**Status:** approved — Approved by: Julius
+**Report:** [2026-11-22_hygiene-report.md](2026-11-22_hygiene-report.md)  
+**Issues:** 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. So với 11-21, cảnh báo tệp con `memory/` tăng 289 → 293. Các vấn đề đã duyệt trước đó chưa được xác nhận đã sửa. Giữ dữ liệu; xử lý tiến trình tạo trước.
+
+### ✅ Format Validation — 2026-11-22
+
+- **Status:** approved — Approved by: Julius
+
+- **Report:** [wiki/reviews/2026-11-22_format-report.md](2026-11-22_format-report.md)
+- **Summary:** 1.197 tệp; 394 WARNING, không có ERROR hoặc INFO theo bộ kiểm tra. Gồm 375 mục liên kết đơn và 19 nhóm; 267 đích riêng trong các mục đơn.
+- **Delta:** So với báo cáo 2026-11-21 đã duyệt: thêm ròng 6 tệp; các số tổng không đổi. Chưa xác nhận thành phần cảnh báo hoàn toàn không đổi.
+- **Actions:** Kiểm tra ngữ cảnh và đích liên kết trước khi sửa; lưu ý các giới hạn của bộ kiểm tra trong báo cáo. Chờ Julius duyệt.
+
+### ✅ Output Validation — 2026-11-22 (23:00)
+
+- **Report:** [wiki/reviews/2026-11-22_output-report.md](2026-11-22_output-report.md)
+- **Summary:** 2 WARNING, 0 ERROR, 0 INFO; quét cơ học 880 tệp, đọc chi tiết 11 tệp cập nhật hôm nay.
+- **Actions needed:** Giới hạn khái quát về tác động offloading; phân biệt năng lực có hỗ trợ với năng lực độc lập trong định nghĩa transfer.
+- **Status:** approved — Approved by: Julius
 
 
 ## Báo cáo vừa duyệt — Julius

@@ -5,7 +5,7 @@ scope: tag
 parent: "[[tag]]"
 tag: coding
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-27
 ---
 
 # Tag: #coding

@@ -5,7 +5,9 @@ url: https://youtu.be/Xyb1Bn_L2U4
 author: Quinn Slack
 date_published: 2026-11-25
 date_ingested: 2026-11-26
-status: unprocessed
+status: processed
+compiled_at: 2026-11-27
+compiled_to: "[[src_how-21-people-built-100m-agent-company]]"
 source: YouTube / AI Engineer
 ---
 

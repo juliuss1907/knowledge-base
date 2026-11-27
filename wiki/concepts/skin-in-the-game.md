@@ -6,7 +6,8 @@ sub_tags: [psychology, opinion]
 topic: iatrogenics-naive-interventionism
 sources:
   - "[[src_iatrogenics-farnam-street]]"
-last_updated: 2026-07-23
+  - "[[src_how-21-people-built-100m-agent-company]]"
+last_updated: 2026-11-27
 ---
 
 # Skin in the Game
@@ -24,6 +25,7 @@ Skin in the Game (Da thịt trong trò chơi) là khái niệm chỉ việc ch�
 - Distance from consequences (khoảng cách với hậu quả) liên quan chặt chẽ — khi không chịu hậu quả trực tiếp, dễ tự lừa dối và xác nhận niềm tin sai lầm
 - Nguyên tắc này áp dụng rộng rãi: từ tài chính (cổ đông có tiền trong công ty), chính trị (chính khách chịu hậu quả chính sách), đến y học (bác sĩ dùng chính phương pháp họ khuyên)
 - Không có skin in the game cho phép self-delusion — ta có xu hướng tìm kiếm bằng chứng xác nhận niềm tin (confirmation bias) khi không bị kiểm chứng bởi hậu quả thực tế
+- Trong đội nhỏ dùng agent, quyền sở hữu tài chính đáng kể và tiếp xúc trực tiếp với khách hàng có thể khuyến khích mỗi thành viên ra quyết định theo lợi ích toàn công ty thay vì tối ưu một chức năng riêng lẻ.
 
 ## Related concepts
 
@@ -32,9 +34,11 @@ Skin in the Game (Da thịt trong trò chơi) là khái niệm chỉ việc ch�
 - [[incentive-alignment]]
 - [[principal-agent-problem]]
 - [[feedback-loops]]
+- [[agent-native-operations]]
 
 ## Sources
 
 - [[src_iatrogenics-farnam-street]]
+- [[src_how-21-people-built-100m-agent-company]]
 
 ## Notes

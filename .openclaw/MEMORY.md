@@ -1296,6 +1296,14 @@ Julius gửi link `https://x.com/AndrewYNg/status/2090840747738374568` (agent-re
 - Errors: 0
 - Invalid tags flagged: 0
 
+## 2026-11-27 08:00:00 +07:00 — Compiled
+
+- **Raw:** raw/videos/2026-11-25_how-21-people-built-100m-agent-company.md
+- **Source note:** wiki/sources/src_how-21-people-built-100m-agent-company.md
+- **Concepts:** [agent-native-operations, feedback-loop, skin-in-the-game]
+- **Tags applied:** main=#ai, sub=[#automation, #tools, #opinion], topic=agent-native-operations
+- **Action:** created 1 concept file, updated 2 concept files
+
 ## 2026-11-26 — Ingested
 - **Raw:** raw/videos/2026-11-25_how-21-people-built-100m-agent-company.md
 - **URL:** https://youtu.be/Xyb1Bn_L2U4

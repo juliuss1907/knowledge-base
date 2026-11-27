@@ -156,7 +156,9 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 3 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 4 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+
+**Last updated (Output 2026-11-27 23:00 +0700):** Thêm báo cáo Output: 3 WARNING; quét cơ học 883 tệp, kiểm tra chi tiết 4 tệp có ngày biên soạn hoặc cập nhật hôm nay.
 
 **Last updated (Hygiene 2026-11-26 23:30 +0700):** Thêm báo cáo Hygiene: 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Các vấn đề trước đã được duyệt để xử lý, chưa xác nhận đã sửa.
 
@@ -184,6 +186,7 @@
 | 🔍 PENDING | 11-26 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-26_hygiene-report.md): giữ dữ liệu, xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-26 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-26_format-report.md](2026-11-26_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-26 | Output | 2 (0E+2W+0I) | [Báo cáo](2026-11-26_output-report.md): xem lại định nghĩa locus of control và mức khái quát về offloading. |
+| 🔍 PENDING | 11-27 | Output | 3 (0E+3W+0I) | [Báo cáo](2026-11-27_output-report.md): làm rõ vòng phản hồi, giới hạn khái quát và mức tự động hóa. |
 | ✅ APPROVED | 11-25 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-25_hygiene-report.md): 312 phát hiện máy chưa gộp; giữ dữ liệu, xử lý tiến trình tạo trước. |
 | ✅ APPROVED | 11-25 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-25_format-report.md](2026-11-25_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | ✅ APPROVED | 11-25 | Output | 3 (0E+3W+0I) | [Báo cáo](2026-11-25_output-report.md): xem lại các khẳng định tuyệt đối và dự báo chưa gắn nguồn. |
@@ -406,6 +409,13 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Output Validation — 2026-11-27 (23:00)
+
+- **Report:** [wiki/reviews/2026-11-27_output-report.md](2026-11-27_output-report.md)
+- **Summary:** 3 WARNING; quét cơ học 883 tệp, kiểm tra chi tiết 4 tệp mới hoặc cập nhật theo ngày frontmatter.
+- **Actions needed:** Làm rõ định nghĩa vòng phản hồi; quy thuộc ngưỡng một tuần; điều chỉnh mức tự động hóa theo nguồn.
+- **Status:** pending
 
 ### 🔍 Hygiene Inspection — 2026-11-26
 

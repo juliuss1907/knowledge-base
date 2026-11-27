@@ -19,3 +19,5 @@ Last updated: 2026-11-26 21:00:35
 
 - [[kissinger-deal-1974]] — main: #politic, sub: [#research, #opinion]
 - [[us-security-umbrella]] — main: #politic, sub: [#research, #opinion]
+
+## Sources (0)

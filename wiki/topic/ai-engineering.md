@@ -19,3 +19,5 @@ Last updated: 2026-11-26 21:00:35
 
 - [[alignment-engineering]] — main: #ai, sub: [#system, #research]
 - [[loop-native-factory]] — main: #ai, sub: [#vibecode, #system]
+
+## Sources (0)

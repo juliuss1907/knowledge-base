@@ -20,3 +20,5 @@ Last updated: 2026-11-26 21:00:35
 - [[growth-and-relationships]] — main: #productivity, sub: [#psychology, #opinion]
 - [[internal-alignment]] — main: #productivity, sub: [#psychology, #opinion]
 - [[productive-discomfort]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Sources (0)

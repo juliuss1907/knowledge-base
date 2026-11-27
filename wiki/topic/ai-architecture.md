@@ -18,3 +18,5 @@ Last updated: 2026-11-26 21:00:35
 ## Concepts (1)
 
 - [[seed-vs-machine-architecture]] — main: #ai, sub: [#system, #vibecode]
+
+## Sources (0)

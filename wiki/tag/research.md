@@ -22,9 +22,9 @@ Last updated: 2026-11-26 21:00:35
 
 ## Stats
 
-- Total files: 317
+- Total files: 315
 - Sources: 80
-- Concepts: 237
+- Concepts: 235
 - Last updated: 2026-11-26
 
 ## Files with this tag
@@ -234,7 +234,6 @@ Last updated: 2026-11-26 21:00:35
 - [[second-derivative-thinking]] — Second Derivative Thinking (concept, main: #economic, sub: [#opinion, #research], topic: ai-credit-cycle)
 - [[second-order-effects]] — Second Order Effects (concept, main: #system, sub: [#research, #opinion], topic: post-systems-thinking)
 - [[self-reinforcing-systems]] — Self Reinforcing Systems (concept, main: #economic, sub: [#research, #research], topic: system-dynamics)
-- [[self-reinforcing-systems]] — Self Reinforcing Systems (concept, main: #economic, sub: [#research, #research], topic: system-dynamics)
 - [[semantic-memory]] — Semantic Memory (concept, main: #ai, sub: [#tools, #research], topic: agent-memory-systems)
 - [[setting-mental-model]] — Setting Mental Model (concept, main: #productivity, sub: [#research, #psychology], topic: mental-models-art)
 - [[sizing-policy-trading]] — Sizing Policy Trading (concept, main: #economic, sub: [#research, #tools], topic: trading-risk-management)
@@ -333,7 +332,6 @@ Last updated: 2026-11-26 21:00:35
 - [[technical-competence-paradox]] — Technical Competence Paradox (concept, main: #productivity, sub: [#research], topic: leader-leader-leadership)
 - [[thermodynamics]] — Thermodynamics (concept, main: #productivity, sub: [#psychology, #research], topic: mental-models)
 - [[tokenization]] — Tokenization (concept, main: #ai, sub: [#research, #tools], topic: tokenization-llm)
-- [[trading-policy-pi]] — Trading Policy Pi (concept, main: #economic, sub: [#research, #research], topic: trading-state-policy)
 - [[trading-policy-pi]] — Trading Policy Pi (concept, main: #economic, sub: [#research, #research], topic: trading-state-policy)
 - [[transfer-of-learning]] — Transfer Of Learning (concept, main: #ai, sub: [#psychology, #research], topic: ai-cognitive-offloading-education)
 - [[transformer-architecture]] — Transformer Architecture (concept, main: #ai, sub: [#research, #coding], topic: attention-mechanism-foundation)

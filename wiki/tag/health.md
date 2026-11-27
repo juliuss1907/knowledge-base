@@ -22,9 +22,9 @@ Last updated: 2026-11-26 21:00:35
 
 ## Stats
 
-- Total files: 71
-- Sources: 18
-- Concepts: 53
+- Total files: 69
+- Sources: 17
+- Concepts: 52
 - Last updated: 2026-11-26
 
 ## Files with this tag
@@ -45,7 +45,6 @@ Last updated: 2026-11-26 21:00:35
 - [[decision-fatigue-glutamate]] — Decision Fatigue Glutamate (concept, main: #health, sub: [#psychology, #research], topic: post-work-fatigue)
 - [[default-mode-network]] — Default Mode Network (concept, main: #ai, sub: [#research, #health], topic: evolutionary-mismatch-modern-life)
 - [[destination-vs-vehicle]] — Destination Vs Vehicle (concept, main: #health, sub: [#psychology], topic: social-attraction-dynamics)
-- [[digital-eye-strain]] — Digital Eye Strain (concept, main: #health, sub: [#tools, #health], topic: digital-eye-strain)
 - [[digital-eye-strain]] — Digital Eye Strain (concept, main: #health, sub: [#tools, #health], topic: digital-eye-strain)
 - [[dopamine-baseline-reset]] — Dopamine Baseline Reset (concept, main: #health, sub: [#psychology, #research], topic: dopamine-curiosity-reset)
 - [[dopamine-prediction-gap]] — Dopamine Prediction Gap (concept, main: #health, sub: [#psychology], topic: social-attraction-dynamics)
@@ -81,7 +80,6 @@ Last updated: 2026-11-26 21:00:35
 - [[src_6-thoi-quen-binh-thuong-dang-huy-hoai-nao-bo]] — 6 Thoi Quen Binh Thuong Dang Huy Hoai Nao Bo (source, main: #health, sub: [#psychology, #research], topic: brain-health-habits)
 - [[src_compound-exercises-pareto-workouts]] — Compound Exercises Pareto Workouts (source, main: #health, sub: [#tutorial], topic: compound-exercises)
 - [[src_do-less]] — Do Less (source, main: #productivity, sub: [#psychology, #health, #opinion], topic: doing-less-mind-space)
-- [[src_eyesrhythm]] — Eyesrhythm (source, main: #health, sub: [#tools, #health], topic: digital-eye-strain)
 - [[src_eyesrhythm]] — Eyesrhythm (source, main: #health, sub: [#tools, #health], topic: digital-eye-strain)
 - [[src_get-in-shape-r3-notes]] — Get In Shape R3 Notes (source, main: #health, sub: [#psychology, #system], topic: r3-get-in-shape)
 - [[src_happiness-is-a-skill-hussain-ibarra]] — Happiness Is A Skill Hussain Ibarra (source, main: #health, sub: [#psychology, #opinion], topic: happiness-flow-state)

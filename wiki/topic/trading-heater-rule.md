@@ -15,6 +15,8 @@ Last updated: 2026-11-26 21:00:35
 
 ---
 
+## Concepts (0)
+
 ## Sources (1)
 
 - [[src_after-the-heater-rule-keeps-you-alive]] — main: #economic, sub: [#opinion, #tutorial]

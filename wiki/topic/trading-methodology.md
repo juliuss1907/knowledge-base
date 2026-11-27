@@ -18,3 +18,5 @@ Last updated: 2026-11-26 21:00:35
 ## Concepts (1)
 
 - [[systematic-trading]] — main: #economic, sub: [#tutorial, #automation]
+
+## Sources (0)

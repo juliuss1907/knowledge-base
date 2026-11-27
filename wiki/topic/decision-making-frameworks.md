@@ -22,3 +22,5 @@ Last updated: 2026-11-26 21:00:35
 - [[optionality-principle]] — main: #productivity, sub: [#psychology, #strategy]
 - [[small-bets-strategy]] — main: #productivity, sub: [#psychology]
 - [[type-1-vs-type-2-decisions]] — main: #productivity, sub: [#psychology]
+
+## Sources (0)

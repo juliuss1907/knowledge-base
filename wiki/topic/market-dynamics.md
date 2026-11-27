@@ -19,3 +19,5 @@ Last updated: 2026-11-26 21:00:35
 
 - [[dynamic-edge-trading]] — main: #economic, sub: [#research, #opinion]
 - [[reflexivity-soros]] — main: #economic, sub: [#research, #opinion]
+
+## Sources (0)

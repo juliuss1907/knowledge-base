@@ -15,6 +15,8 @@ Last updated: 2026-11-26 21:00:35
 
 ---
 
+## Concepts (0)
+
 ## Sources (2)
 
 - [[src_giai-thich-sau-phuong-phap-hoc-charlie-munger]] — main: #productivity, sub: [#psychology, #research]

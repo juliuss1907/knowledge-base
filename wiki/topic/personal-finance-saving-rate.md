@@ -15,6 +15,8 @@ Last updated: 2026-11-26 21:00:35
 
 ---
 
+## Concepts (0)
+
 ## Sources (1)
 
 - [[src_tai-chinh-ca-nhan-9-ban-co-ang-thuc]] — main: #economic, sub: [#tutorial, #psychology]

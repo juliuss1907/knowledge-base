@@ -19,3 +19,5 @@ Last updated: 2026-11-26 21:00:35
 
 - [[altcoin-frenzy-pattern]] — main: #economic, sub: [#layer1, #opinion]
 - [[infrastructure-capex-cycle]] — main: #economic, sub: [#layer1, #ai]
+
+## Sources (0)

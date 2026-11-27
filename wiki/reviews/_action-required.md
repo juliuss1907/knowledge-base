@@ -156,7 +156,9 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 5 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 6 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+
+**Last updated (Hygiene 2026-11-27 23:30 +0700):** Thêm báo cáo Hygiene: 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Các vấn đề cũ vẫn tồn tại; phê duyệt không đồng nghĩa đã sửa.
 
 **Last updated (Output 2026-11-27 23:00 +0700):** Thêm báo cáo Output: 3 WARNING; quét cơ học 883 tệp, kiểm tra chi tiết 4 tệp có ngày biên soạn hoặc cập nhật hôm nay.
 
@@ -183,6 +185,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-27 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-27_hygiene-report.md): giữ dữ liệu, xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-27 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-27_format-report.md](2026-11-27_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-26 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-26_hygiene-report.md): giữ dữ liệu, xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-26 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-26_format-report.md](2026-11-26_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
@@ -410,6 +413,14 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-11-27
+
+- **Status:** pending
+- **Báo cáo:** [2026-11-27_hygiene-report.md](2026-11-27_hygiene-report.md)
+- **Kết quả:** 7 nhóm: 4 ERROR, 3 WARNING; bộ quét ghi 312 phát hiện chưa gộp và chỉ xuất 20 chi tiết.
+- **Xử lý:** Giữ dữ liệu, xác định tiến trình tạo trước; xem các xung đột quy chuẩn trong báo cáo. Các vấn đề tiếp tục từ báo cáo 11-26 đang chờ duyệt; không coi phê duyệt trước là đã sửa.
+
 
 ### 🔍 Format Validation — 2026-11-27
 

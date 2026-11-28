@@ -6,7 +6,7 @@
 
 **Last updated (Output 2026-11-19 23:00):** Thêm báo cáo Output: 4 WARNING; 5 tệp ngày 11-07 được kiểm tra chi tiết. Số chờ bên dưới cần đối soát: trước lượt này ghi 53 nhưng mục Pending Reports có 60 tiêu đề, một mục thiếu trạng thái.
 
-**Last updated:** 2026-11-27 23:15 +0700 — Thêm báo cáo Format: 394 WARNING; các mục chờ cũ có trạng thái không nhất quán cần đối soát riêng.
+**Last updated:** 2026-11-28 23:15 +0700 — Thêm báo cáo Format: 394 WARNING; các mục chờ cũ có trạng thái không nhất quán cần đối soát riêng.
 
 **Last updated:** 2026-11-06
 
@@ -158,7 +158,7 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 6 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 7 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
 
 **Last updated (Hygiene 2026-11-27 23:30 +0700):** Thêm báo cáo Hygiene: 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Các vấn đề cũ vẫn tồn tại; phê duyệt không đồng nghĩa đã sửa.
 
@@ -187,6 +187,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-28 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-28_format-report.md](2026-11-28_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-27 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-27_hygiene-report.md): giữ dữ liệu, xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-27 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-27_format-report.md](2026-11-27_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-26 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-26_hygiene-report.md): giữ dữ liệu, xử lý tiến trình tạo trước. |
@@ -415,6 +416,13 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Format Validation — 2026-11-28
+
+- **Tóm tắt:** 1.202 tệp; 0 ERROR, 394 WARNING, 0 INFO. Có 375 mục liên kết đơn và 19 nhóm.
+- **Thay đổi:** Tổng số và các chỉ số tổng hợp không đổi so với báo cáo 2026-11-27 đang chờ; chưa đủ dữ liệu khẳng định từng cảnh báo không đổi.
+- **Hành động:** Xem [wiki/reviews/2026-11-28_format-report.md](2026-11-28_format-report.md); xác minh từng đích trước khi sửa hoặc biên soạn. Bộ kiểm tra chưa bao phủ toàn bộ đặc tả.
+- **Trạng thái:** PENDING; chưa duyệt, chưa sửa.
 
 ### 🔍 Hygiene Inspection — 2026-11-27
 

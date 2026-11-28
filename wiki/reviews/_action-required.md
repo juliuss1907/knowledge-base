@@ -158,7 +158,9 @@
 
 **Lần duyệt gần nhất:** 2 đợt — (1) 2026-09-17 08:57: 7 báo cáo (09-14→09-16). (2) 2026-10-02: 3 báo cáo 10-01 (Output/Format/Hygiene). Cả hai đều là **duyệt để xử lý**, không phải xác nhận đã sửa. Lưu ý: 3 báo cáo 10-01 đã được Fix Agent **áp dụng** 10-02 10:52 — xem cột Action.
 
-**Pending reports awaiting review:** 7 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+**Pending reports awaiting review:** 8 theo bảng trạng thái; các mục cũ trong phần chờ có trạng thái không nhất quán và cần đối soát riêng.
+
+**Last updated (Hygiene 2026-11-28 23:30 +0700):** Thêm báo cáo Hygiene: 8 nhóm (4 ERROR, 4 WARNING); 313 phát hiện máy chưa gộp. Phát hiện mới: `.format-validation-current.txt` trong reviews được Git theo dõi nhưng không được whitelist.
 
 **Last updated (Hygiene 2026-11-27 23:30 +0700):** Thêm báo cáo Hygiene: 7 nhóm (4 ERROR, 3 WARNING); 312 phát hiện máy chưa gộp. Các vấn đề cũ vẫn tồn tại; phê duyệt không đồng nghĩa đã sửa.
 
@@ -187,6 +189,7 @@
 
 | Status | Date | Type | Issues | Action |
 |---|---|---|---|---|
+| 🔍 PENDING | 11-28 | Hygiene | 8 nhóm (4 ERROR + 4 WARNING) | [Báo cáo](2026-11-28_hygiene-report.md): xem artifact Format ngoài whitelist; giữ dữ liệu và xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-28 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-28_format-report.md](2026-11-28_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
 | 🔍 PENDING | 11-27 | Hygiene | 7 nhóm (4 ERROR + 3 WARNING) | [Báo cáo](2026-11-27_hygiene-report.md): giữ dữ liệu, xử lý tiến trình tạo trước. |
 | 🔍 PENDING | 11-27 | Format | 394 (0E+394W+0I) | Xem [wiki/reviews/2026-11-27_format-report.md](2026-11-27_format-report.md); xác minh liên kết và giới hạn bộ kiểm tra. |
@@ -416,6 +419,14 @@
 | ✅ APPLIED | 08-22 | Format | 392W | Applied 2026-08-24 — forward-ref only, archived; `archive/2026-08/` |
 | ✅ APPLIED | 08-22 | Hygiene | 2 (1E+1W) | Applied inline by Connor 08-23; report archived by Fix Agent 2026-08-24 — `archive/2026-08/` |
 ## Pending Reports
+
+### 🔍 Hygiene Inspection — 2026-11-28
+
+- **Status:** pending
+- **Báo cáo:** [2026-11-28_hygiene-report.md](2026-11-28_hygiene-report.md)
+- **Kết quả:** 8 nhóm: 4 ERROR, 4 WARNING; 313 phát hiện máy chưa gộp.
+- **Mới:** `wiki/reviews/.format-validation-current.txt` không thuộc whitelist, đang được Git theo dõi; xác minh thành phần sử dụng và quy tắc lưu trước khi xử lý.
+- **Xử lý:** Giữ dữ liệu; các vấn đề cũ tiếp tục từ báo cáo 11-27 đang chờ duyệt. Duyệt không đồng nghĩa đã sửa.
 
 ### 🔍 Format Validation — 2026-11-28
 

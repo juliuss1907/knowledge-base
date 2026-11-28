@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: creative-process
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: creative-process
 
 Auto-generated index of all content with topic `creative-process`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -21,3 +21,9 @@ Last updated: 2026-11-26 21:00:35
 - [[separation-of-creation-and-judgment]] — main: #productivity, sub: [#psychology]
 
 ## Sources (0)
+
+No sources with this topic yet.
+
+## Related topics
+
+No related topics by shared files.

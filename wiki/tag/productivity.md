@@ -5,15 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: productivity
 auto_generated: true
-last_updated: 2026-11-27
-
+last_updated: 2026-11-28
 ---
 
 # Tag: #productivity
 
 Auto-generated index of all content tagged with `#productivity`.
 
-Last updated: 2026-11-27 21:05:22
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -26,7 +25,7 @@ Last updated: 2026-11-27 21:05:22
 - Total files: 339
 - Sources: 101
 - Concepts: 238
-- Last updated: 2026-11-27
+- Last updated: 2026-11-28
 
 ## Files with this tag
 
@@ -372,8 +371,9 @@ Last updated: 2026-11-27 21:05:22
 
 ## Co-occurring tags
 
-- [[psychology]] — 245 co-occurrences
-- [[opinion]] — 130 co-occurrences
-- [[research]] — 88 co-occurrences
-- [[tutorial]] — 40 co-occurrences
-- [[strategy]] — 27 co-occurrences
+Tags that frequently appear with `#productivity`:
+- `#psychology` (245 files)
+- `#opinion` (130 files)
+- `#research` (88 files)
+- `#tutorial` (40 files)
+- `#strategy` (27 files)

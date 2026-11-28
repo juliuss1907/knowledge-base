@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: leverage-mental-model
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: leverage-mental-model
 
 Auto-generated index of all content with topic `leverage-mental-model`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -25,3 +25,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_leverage]] — main: #productivity, sub: [#psychology, #tools]
+
+## Related topics
+
+No related topics by shared files.

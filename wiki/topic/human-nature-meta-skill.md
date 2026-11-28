@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: human-nature-meta-skill
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: human-nature-meta-skill
 
 Auto-generated index of all content with topic `human-nature-meta-skill`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -23,3 +23,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_most-profitable-skill-human-nature-dan-koe]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+No related topics by shared files.

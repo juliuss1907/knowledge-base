@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: essential-skills-2026
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: essential-skills-2026
 
 Auto-generated index of all content with topic `essential-skills-2026`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -24,3 +24,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_5-most-important-skills-2026-stoic-wisdoms]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+No related topics by shared files.

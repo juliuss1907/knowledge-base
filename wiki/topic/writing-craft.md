@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: writing-craft
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: writing-craft
 
 Auto-generated index of all content with topic `writing-craft`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -23,3 +23,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_the-golden-rule-for-becoming-a-better-writer]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+No related topics by shared files.

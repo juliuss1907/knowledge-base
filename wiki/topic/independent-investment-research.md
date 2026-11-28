@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: independent-investment-research
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: independent-investment-research
 
 Auto-generated index of all content with topic `independent-investment-research`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -23,3 +23,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_an-all-too-common-investment-story]] — main: #investment, sub: [#opinion, #psychology]
+
+## Related topics
+
+No related topics by shared files.

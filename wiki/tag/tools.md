@@ -5,15 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: tools
 auto_generated: true
-last_updated: 2026-11-27
-
+last_updated: 2026-11-28
 ---
 
 # Tag: #tools
 
 Auto-generated index of all content tagged with `#tools`.
 
-Last updated: 2026-11-27 21:05:21
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -26,7 +25,7 @@ Last updated: 2026-11-27 21:05:21
 - Total files: 270
 - Sources: 65
 - Concepts: 205
-- Last updated: 2026-11-27
+- Last updated: 2026-11-28
 
 ## Files with this tag
 
@@ -303,8 +302,9 @@ Last updated: 2026-11-27 21:05:21
 
 ## Co-occurring tags
 
-- [[ai]] — 166 co-occurrences
-- [[automation]] — 84 co-occurrences
-- [[research]] — 74 co-occurrences
-- [[tech]] — 45 co-occurrences
-- [[coding]] — 37 co-occurrences
+Tags that frequently appear with `#tools`:
+- `#ai` (166 files)
+- `#automation` (84 files)
+- `#research` (74 files)
+- `#tech` (45 files)
+- `#coding` (37 files)

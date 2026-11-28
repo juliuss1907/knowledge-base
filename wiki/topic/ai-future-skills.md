@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-future-skills
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: ai-future-skills
 
 Auto-generated index of all content with topic `ai-future-skills`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -24,3 +24,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_ai-future-skills]] — main: #ai, sub: [#opinion, #tools]
+
+## Related topics
+
+No related topics by shared files.

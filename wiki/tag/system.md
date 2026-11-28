@@ -5,15 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: system
 auto_generated: true
-last_updated: 2026-11-27
-
+last_updated: 2026-11-28
 ---
 
 # Tag: #system
 
 Auto-generated index of all content tagged with `#system`.
 
-Last updated: 2026-11-27 21:05:22
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -26,7 +25,7 @@ Last updated: 2026-11-27 21:05:22
 - Total files: 61
 - Sources: 12
 - Concepts: 49
-- Last updated: 2026-11-27
+- Last updated: 2026-11-28
 
 ## Files with this tag
 
@@ -94,8 +93,9 @@ Last updated: 2026-11-27 21:05:22
 
 ## Co-occurring tags
 
-- [[research]] — 21 co-occurrences
-- [[psychology]] — 20 co-occurrences
-- [[tools]] — 17 co-occurrences
-- [[ai]] — 15 co-occurrences
-- [[opinion]] — 15 co-occurrences
+Tags that frequently appear with `#system`:
+- `#research` (21 files)
+- `#psychology` (20 files)
+- `#tools` (17 files)
+- `#ai` (15 files)
+- `#opinion` (15 files)

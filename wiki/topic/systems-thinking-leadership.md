@@ -4,19 +4,25 @@ scope: topic
 parent: "[[topic]]"
 topic: systems-thinking-leadership
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: systems-thinking-leadership
 
 Auto-generated index of all content with topic `systems-thinking-leadership`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
 ## Concepts (0)
 
+No concepts with this topic yet.
+
 ## Sources (1)
 
 - [[src_systems-thinking-leadership]] — main: #productivity, sub: [#research, #opinion, #tutorial]
+
+## Related topics
+
+No related topics by shared files.

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: trading-state-policy
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: trading-state-policy
 
 Auto-generated index of all content with topic `trading-state-policy`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -23,3 +23,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_setup-is-not-an-edge]] — main: #economic, sub: [#opinion, #research]
+
+## Related topics
+
+No related topics by shared files.

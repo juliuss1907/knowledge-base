@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: childhood-emotional-wounds
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: childhood-emotional-wounds
 
 Auto-generated index of all content with topic `childhood-emotional-wounds`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -23,3 +23,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_our-first-heartbreaks-were-our-parents]] — main: #health, sub: [#psychology, #opinion]
+
+## Related topics
+
+No related topics by shared files.

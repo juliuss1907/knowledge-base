@@ -5,15 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: opinion
 auto_generated: true
-last_updated: 2026-11-27
-
+last_updated: 2026-11-28
 ---
 
 # Tag: #opinion
 
 Auto-generated index of all content tagged with `#opinion`.
 
-Last updated: 2026-11-27 21:05:21
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -26,7 +25,7 @@ Last updated: 2026-11-27 21:05:21
 - Total files: 286
 - Sources: 102
 - Concepts: 184
-- Last updated: 2026-11-27
+- Last updated: 2026-11-28
 
 ## Files with this tag
 
@@ -319,8 +318,9 @@ Last updated: 2026-11-27 21:05:21
 
 ## Co-occurring tags
 
-- [[productivity]] — 130 co-occurrences
-- [[psychology]] — 123 co-occurrences
-- [[research]] — 71 co-occurrences
-- [[ai]] — 58 co-occurrences
-- [[economic]] — 47 co-occurrences
+Tags that frequently appear with `#opinion`:
+- `#productivity` (130 files)
+- `#psychology` (123 files)
+- `#research` (71 files)
+- `#ai` (58 files)
+- `#economic` (47 files)

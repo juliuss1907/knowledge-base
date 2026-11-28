@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: prices-law
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: prices-law
 
 Auto-generated index of all content with topic `prices-law`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -24,3 +24,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_mathematical-reason-most-people-never-make-it]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+No related topics by shared files.

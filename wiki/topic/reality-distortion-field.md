@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: reality-distortion-field
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: reality-distortion-field
 
 Auto-generated index of all content with topic `reality-distortion-field`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -20,3 +20,9 @@ Last updated: 2026-11-26 21:00:35
 - [[reality-distortion-field]] — main: #productivity, sub: [#psychology]
 
 ## Sources (0)
+
+No sources with this topic yet.
+
+## Related topics
+
+No related topics by shared files.

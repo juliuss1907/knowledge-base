@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: compound-exercises
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: compound-exercises
 
 Auto-generated index of all content with topic `compound-exercises`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -23,3 +23,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_compound-exercises-pareto-workouts]] — main: #health, sub: [#tutorial]
+
+## Related topics
+
+No related topics by shared files.

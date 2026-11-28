@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-ui-design
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: ai-ui-design
 
 Auto-generated index of all content with topic `ai-ui-design`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -22,3 +22,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_ai-ui-design-8-ways-vibe-coded-apps]] — main: #tech, sub: [#vibecode, #tutorial]
+
+## Related topics
+
+No related topics by shared files.

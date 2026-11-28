@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: authenticity-competition
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: authenticity-competition
 
 Auto-generated index of all content with topic `authenticity-competition`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -24,3 +24,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_you-escape-competition-by-figuring-out-who-you-are]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+No related topics by shared files.

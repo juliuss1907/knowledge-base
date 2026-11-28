@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: ai-token-workforce
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: ai-token-workforce
 
 Auto-generated index of all content with topic `ai-token-workforce`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -26,3 +26,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_you-just-hired-a-million-bad-employees-a16z]] — main: #ai, sub: [#opinion, #tools, #system]
+
+## Related topics
+
+No related topics by shared files.

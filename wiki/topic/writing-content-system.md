@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: writing-content-system
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: writing-content-system
 
 Auto-generated index of all content with topic `writing-content-system`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -25,3 +25,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_the-writing-habit-that-saved-my-brain]] — main: #productivity, sub: [#tutorial, #tools]
+
+## Related topics
+
+No related topics by shared files.

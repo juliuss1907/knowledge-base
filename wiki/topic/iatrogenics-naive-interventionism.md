@@ -4,15 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: iatrogenics-naive-interventionism
 auto_generated: true
-last_updated: 2026-11-27
-
+last_updated: 2026-11-28
 ---
 
 # Topic: iatrogenics-naive-interventionism
 
 Auto-generated index of all content with topic `iatrogenics-naive-interventionism`.
 
-Last updated: 2026-11-27 21:05:48
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -29,4 +28,4 @@ Last updated: 2026-11-27 21:05:48
 
 ## Related topics
 
-No topics share files with `iatrogenics-naive-interventionism` yet.
+No related topics by shared files.

@@ -5,15 +5,14 @@ scope: tag
 parent: "[[tag]]"
 tag: automation
 auto_generated: true
-last_updated: 2026-11-27
-
+last_updated: 2026-11-28
 ---
 
 # Tag: #automation
 
 Auto-generated index of all content tagged with `#automation`.
 
-Last updated: 2026-11-27 21:05:21
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -26,7 +25,7 @@ Last updated: 2026-11-27 21:05:21
 - Total files: 119
 - Sources: 28
 - Concepts: 91
-- Last updated: 2026-11-27
+- Last updated: 2026-11-28
 
 ## Files with this tag
 
@@ -152,8 +151,9 @@ Last updated: 2026-11-27 21:05:21
 
 ## Co-occurring tags
 
-- [[tools]] — 84 co-occurrences
-- [[ai]] — 79 co-occurrences
-- [[productivity]] — 21 co-occurrences
-- [[tutorial]] — 19 co-occurrences
-- [[coding]] — 16 co-occurrences
+Tags that frequently appear with `#automation`:
+- `#tools` (84 files)
+- `#ai` (79 files)
+- `#productivity` (21 files)
+- `#tutorial` (19 files)
+- `#coding` (16 files)

@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: discipline-and-spontaneity
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: discipline-and-spontaneity
 
 Auto-generated index of all content with topic `discipline-and-spontaneity`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -24,3 +24,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_live-disciplined-life-spontaneously]] — main: #productivity, sub: [#opinion, #psychology]
+
+## Related topics
+
+No related topics by shared files.

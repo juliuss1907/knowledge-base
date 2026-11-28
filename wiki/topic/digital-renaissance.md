@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: digital-renaissance
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: digital-renaissance
 
 Auto-generated index of all content with topic `digital-renaissance`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -25,3 +25,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_we-are-in-the-middle-of-the-digital-renaissance]] — main: #productivity, sub: [#opinion, #psychology]
+
+## Related topics
+
+No related topics by shared files.

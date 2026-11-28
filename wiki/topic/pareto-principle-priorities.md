@@ -4,14 +4,14 @@ scope: topic
 parent: "[[topic]]"
 topic: pareto-principle-priorities
 auto_generated: true
-last_updated: 2026-11-26
+last_updated: 2026-11-28
 ---
 
 # Topic: pareto-principle-priorities
 
 Auto-generated index of all content with topic `pareto-principle-priorities`.
 
-Last updated: 2026-11-26 21:00:35
+Last updated: 2026-11-28 21:02:15
 
 ---
 
@@ -22,3 +22,7 @@ Last updated: 2026-11-26 21:00:35
 ## Sources (1)
 
 - [[src_you-need-a-mindset-shift-on-priorities]] — main: #productivity, sub: [#psychology, #opinion]
+
+## Related topics
+
+No related topics by shared files.
